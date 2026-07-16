@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AudioType (*)(::StringW)>(&::GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3266a50;
+  constexpr static std::size_t addrs = 0x331fd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -3,14 +3,13 @@
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProviderInstaller_def.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProvider_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProviderInstaller._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProviderInstaller::*)(::BeatSaber::GraphQL::GraphQLClientProvider_Settings*)>(
     &::BeatSaber::GraphQL::GraphQLClientProviderInstaller::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3200eb4;
+  constexpr static std::size_t addrs = 0x3295d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstaller*>(),
@@ -22,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQ
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProviderInstaller::*)()>(&::BeatSaber::GraphQL::GraphQLClientProviderInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3200f04;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3295da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstaller*>(),
@@ -42,18 +41,6 @@ constexpr ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* const& BeatSaber
 constexpr void BeatSaber::GraphQL::GraphQLClientProviderInstaller::__cordl_internal_set__graphQlClientProviderSettings(::BeatSaber::GraphQL::GraphQLClientProvider_Settings* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____graphQlClientProviderSettings = value;
-}
-constexpr ::GlobalNamespace::AppInitSetupData*& BeatSaber::GraphQL::GraphQLClientProviderInstaller::__cordl_internal_get__setupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____setupData;
-}
-constexpr ::GlobalNamespace::AppInitSetupData* const& BeatSaber::GraphQL::GraphQLClientProviderInstaller::__cordl_internal_get__setupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____setupData;
-}
-constexpr void BeatSaber::GraphQL::GraphQLClientProviderInstaller::__cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____setupData = value;
 }
 inline void BeatSaber::GraphQL::GraphQLClientProviderInstaller::_ctor(::BeatSaber::GraphQL::GraphQLClientProvider_Settings* graphQlClientProviderSettings) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstaller*>(),

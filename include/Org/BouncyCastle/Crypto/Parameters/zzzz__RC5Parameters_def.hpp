@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_rounds(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3356c68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413120, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key, int32_t rounds);
 
-  /// @brief Method get_Rounds, addr 0x3356cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rounds, addr 0x34131a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Rounds();
 
 protected:

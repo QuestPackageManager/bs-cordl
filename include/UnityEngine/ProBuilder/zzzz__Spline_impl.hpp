@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*,
                                                                                                                float_t, int32_t, int32_t, bool, bool)>(&::UnityEngine::ProBuilder::Spline::Extrude)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65b27fc;
+  constexpr static std::size_t addrs = 0x66eff08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, float_t, int32_t, int32_t, bool, bool,
                                                                 ::by_ref<::UnityEngine::ProBuilder::ProBuilderMesh*>)>(&::UnityEngine::ProBuilder::Spline::Extrude)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x65b2814;
+  constexpr static std::size_t addrs = 0x66eff20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, int32_t, bool,
                                                                         ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*)>(&::UnityEngine::ProBuilder::Spline::GetControlPoints)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x65b28e8;
+  constexpr static std::size_t addrs = 0x66efff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collec
                                                                 ::by_ref<::UnityEngine::ProBuilder::ProBuilderMesh*>, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>*)>(
     &::UnityEngine::ProBuilder::Spline::Extrude)> {
   constexpr static std::size_t size = 0x994;
-  constexpr static std::size_t addrs = 0x65b2e28;
+  constexpr static std::size_t addrs = 0x66f0534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, int32_t, bool, ::by_ref<float_t>)>(
     &::UnityEngine::ProBuilder::Spline::GetRingRotation)> {
   constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x65b37bc;
+  constexpr static std::size_t addrs = 0x66f0ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, float_t, int32_t)>(
     &::UnityEngine::ProBuilder::Spline::VertexRing)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x65b40ac;
+  constexpr static std::size_t addrs = 0x66f17b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

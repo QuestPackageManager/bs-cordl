@@ -87,21 +87,21 @@ public:
   /// @brief Field vertices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_vertices, put = setStaticF_vertices)) ::ArrayW<::UnityEngine::Vector3> vertices;
 
-  /// @brief Method Awake, addr 0x583b084, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58dd7d0, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateBox, addr 0x583b0f8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CreateBox, addr 0x58dd844, size 0x148, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> CreateBox();
 
   static inline ::GlobalNamespace::StretchableCube* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x583b240, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58dd98c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RecalculateUVs, addr 0x583b24c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVs, addr 0x58dd998, size 0x1f4, virtual false, abstract: false, final false
   inline void RecalculateUVs(::ArrayW<::UnityEngine::Vector2> uvs);
 
-  /// @brief Method RefreshUVs, addr 0x583b440, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RefreshUVs, addr 0x58ddb8c, size 0x98, virtual false, abstract: false, final false
   inline void RefreshUVs();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__uvs(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method .ctor, addr 0x583b4d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ddc24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector3 getStaticF_back();
@@ -202,7 +202,7 @@ public:
   StretchableCube(StretchableCube const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5709 };
 
   /// @brief Field kHeight offset 0xffffffff size 0x4
   static constexpr float_t kHeight{ static_cast<float_t>(1.0f) };

@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_sendEventOptions(::UnityEngine::Analytics::SendEventOptions value);
 
-  /// @brief Method .ctor, addr 0x69b0c3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b045fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventName, int32_t eventVersion, ::UnityEngine::Analytics::SendEventOptions sendEventOptions, ::StringW eventPrefix);
 
 protected:
@@ -81,7 +81,7 @@ public:
   AnalyticsEventBase(AnalyticsEventBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10667 };
 
   /// @brief Field eventName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___eventName;

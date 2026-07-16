@@ -59,10 +59,10 @@ public:
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType> static inline void PushGlobal(::by_ref<CBType> data, int32_t shaderId);
 
-  /// @brief Method Register, addr 0x6613380, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6750a8c, size 0xd4, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::Rendering::ConstantBufferBase* cb);
 
-  /// @brief Method ReleaseAll, addr 0x66131e4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAll, addr 0x67508f0, size 0x19c, virtual false, abstract: false, final false
   static inline void ReleaseAll();
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -86,7 +86,7 @@ public:
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType> static inline void UpdateData(::by_ref<CBType> data);
 
-  /// @brief Method .ctor, addr 0x6613454, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6750b60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ConstantBufferBase*>* getStaticF_m_RegisteredConstantBuffers();
@@ -108,7 +108,7 @@ public:
   ConstantBuffer(ConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

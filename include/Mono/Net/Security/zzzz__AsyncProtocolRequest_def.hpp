@@ -83,10 +83,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e96530, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5fd162c, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5e96928, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5fd1a24, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -105,7 +105,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10983 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -153,10 +153,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e969a8, size 0x5b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5fd1aa4, size 0x5b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5e971d0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5fd22cc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -179,7 +179,7 @@ public:
                                                          ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -241,10 +241,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e9723c, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5fd2338, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5e97714, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5fd2810, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -265,7 +265,7 @@ public:
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10985 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -354,27 +354,27 @@ public:
   /// @brief Field locker, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker)) ::System::Object* locker;
 
-  /// @brief Method InnerRead, addr 0x5e963b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InnerRead, addr 0x5fd14b4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* InnerRead(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Mono::Net::Security::AsyncProtocolRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method ProcessOperation, addr 0x5e962f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ProcessOperation, addr 0x5fd13ec, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessOperation(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RequestRead, addr 0x5e96138, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RequestRead, addr 0x5fd1234, size 0xc0, virtual false, abstract: false, final false
   inline void RequestRead(int32_t size);
 
-  /// @brief Method RequestWrite, addr 0x5e961f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RequestWrite, addr 0x5fd12f4, size 0xc, virtual false, abstract: false, final false
   inline void RequestWrite();
 
   /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method StartOperation, addr 0x5e96204, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x5fd1300, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Mono::Net::Security::AsyncProtocolResult*>* StartOperation(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ToString, addr 0x5e964a8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fd15a4, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_RequestedSize() const;
@@ -419,22 +419,22 @@ public:
 
   constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5e960cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd11c8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method get_Name, addr 0x5e96094, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5fd1190, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Parent, addr 0x5e96084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x5fd1180, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
-  /// @brief Method get_RunSynchronously, addr 0x5e9608c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RunSynchronously, addr 0x5fd1188, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunSynchronously();
 
-  /// @brief Method get_UserResult, addr 0x5e960bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x5fd11b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
-  /// @brief Method set_UserResult, addr 0x5e960c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserResult, addr 0x5fd11c0, size 0x8, virtual false, abstract: false, final false
   inline void set_UserResult(int32_t value);
 
 protected:
@@ -452,7 +452,7 @@ public:
   AsyncProtocolRequest(AsyncProtocolRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
 
   /// @brief Field <Parent>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Mono::Net::Security::MobileAuthenticatedStream* ____Parent_k__BackingField;

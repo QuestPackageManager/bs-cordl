@@ -1,83 +1,101 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapEditorSceneSetupData.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
+#include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorSceneSetupData_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::BeatmapEditorSceneSetupData.get_levelDirPath
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapEditorSceneSetupData::*)()>(&::GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57ed390;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(), { "get_levelDirPath", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapEditorSceneSetupData.get_levelAssetPath
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapEditorSceneSetupData::*)()>(&::GlobalNamespace::BeatmapEditorSceneSetupData::get_levelAssetPath)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57ed398;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(), { "get_levelAssetPath", {}, {} })));
-    return ___internal_method;
-  }
-};
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEditorSceneSetupData._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorSceneSetupData::*)(::StringW, ::StringW)>(&::GlobalNamespace::BeatmapEditorSceneSetupData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57ed3a0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorSceneSetupData::*)(
+    bool, ::StringW, bool, ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>)>(
+    &::GlobalNamespace::BeatmapEditorSceneSetupData::_ctor)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x590b2dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(),
+                                         { ".ctor",
+                                           {},
+                                           { ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(),
+                                             ::i2c::type_of<::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get__levelDirPath() {
+constexpr bool& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_goStraightToEditor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelDirPath;
+  return this->___goStraightToEditor;
 }
-constexpr ::StringW const& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get__levelDirPath() const {
+constexpr bool const& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_goStraightToEditor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelDirPath;
+  return this->___goStraightToEditor;
 }
-constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_set__levelDirPath(::StringW value) {
+constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_set_goStraightToEditor(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____levelDirPath = value;
+  this->___goStraightToEditor = value;
 }
-constexpr ::StringW& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get__levelAssetPath() {
+constexpr ::StringW& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_projectPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelAssetPath;
+  return this->___projectPath;
 }
-constexpr ::StringW const& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get__levelAssetPath() const {
+constexpr ::StringW const& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_projectPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelAssetPath;
+  return this->___projectPath;
 }
-constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_set__levelAssetPath(::StringW value) {
+constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_set_projectPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____levelAssetPath = value;
+  this->___projectPath = value;
 }
-inline ::StringW GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(), { "get_levelDirPath", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+constexpr bool& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_ignoreTempFolder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ignoreTempFolder;
 }
-inline ::StringW GlobalNamespace::BeatmapEditorSceneSetupData::get_levelAssetPath() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(), { "get_levelAssetPath", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+constexpr bool const& GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_ignoreTempFolder() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ignoreTempFolder;
 }
-inline void GlobalNamespace::BeatmapEditorSceneSetupData::_ctor(::StringW levelDirPath, ::StringW levelAssetPath) {
+constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_set_ignoreTempFolder(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___ignoreTempFolder = value;
+}
+constexpr ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>&
+GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_startLevel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startLevel;
+}
+constexpr ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> const&
+GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_get_startLevel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startLevel;
+}
+constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_set_startLevel(
+    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___startLevel = value;
+}
+inline void
+GlobalNamespace::BeatmapEditorSceneSetupData::_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+                                                    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levelDirPath, levelAssetPath);
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(),
+                                                  ::i2c::type_of<::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, goStraightToEditor, projectPath, ignoreTempFolder, startLevel);
 }
-inline ::GlobalNamespace::BeatmapEditorSceneSetupData* GlobalNamespace::BeatmapEditorSceneSetupData::New_ctor(::StringW levelDirPath, ::StringW levelAssetPath) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapEditorSceneSetupData*>(levelDirPath, levelAssetPath));
+inline ::GlobalNamespace::BeatmapEditorSceneSetupData*
+GlobalNamespace::BeatmapEditorSceneSetupData::New_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+                                                       ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapEditorSceneSetupData*>(goStraightToEditor, projectPath, ignoreTempFolder, startLevel));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEditorSceneSetupData::BeatmapEditorSceneSetupData() {}

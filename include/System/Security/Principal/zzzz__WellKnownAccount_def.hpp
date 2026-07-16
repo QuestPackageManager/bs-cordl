@@ -59,13 +59,13 @@ public:
   /// @brief Field accounts, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_accounts, put = setStaticF_accounts)) ::ArrayW<::System::Security::Principal::WellKnownAccount*> accounts;
 
-  /// @brief Method LookupByName, addr 0x59d7c7c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LookupByName, addr 0x5b1194c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupByName(::StringW s);
 
-  /// @brief Method LookupBySddlForm, addr 0x59d8dc8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LookupBySddlForm, addr 0x5b12a98, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupBySddlForm(::StringW s);
 
-  /// @brief Method LookupBySid, addr 0x59d8d14, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LookupBySid, addr 0x5b129e4, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupBySid(::StringW s);
 
   static inline ::System::Security::Principal::WellKnownAccount* New_ctor();
@@ -106,41 +106,41 @@ public:
 
   constexpr void __cordl_internal_set__WellKnownValue_k__BackingField(::System::Security::Principal::WellKnownSidType value);
 
-  /// @brief Method .ctor, addr 0x59d9110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b12de0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Principal::WellKnownAccount*> getStaticF_accounts();
 
-  /// @brief Method get_IsAbsolute, addr 0x59d90c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAbsolute, addr 0x5b12d98, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAbsolute();
 
-  /// @brief Method get_Name, addr 0x59d90f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5b12dc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SddlForm, addr 0x59d9100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SddlForm, addr 0x5b12dd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SddlForm();
 
-  /// @brief Method get_Sid, addr 0x59d90d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sid, addr 0x5b12da8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sid();
 
   static inline void setStaticF_accounts(::ArrayW<::System::Security::Principal::WellKnownAccount*> value);
 
-  /// @brief Method set_IsAbsolute, addr 0x59d90d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsAbsolute, addr 0x5b12da0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsAbsolute(bool value);
 
-  /// @brief Method set_Name, addr 0x59d90f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5b12dc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Rid, addr 0x59d90e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Rid, addr 0x5b12db8, size 0x8, virtual false, abstract: false, final false
   inline void set_Rid(::StringW value);
 
-  /// @brief Method set_SddlForm, addr 0x59d9108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SddlForm, addr 0x5b12dd8, size 0x8, virtual false, abstract: false, final false
   inline void set_SddlForm(::StringW value);
 
-  /// @brief Method set_Sid, addr 0x59d90e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Sid, addr 0x5b12db0, size 0x8, virtual false, abstract: false, final false
   inline void set_Sid(::StringW value);
 
-  /// @brief Method set_WellKnownValue, addr 0x59d90c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WellKnownValue, addr 0x5b12d90, size 0x8, virtual false, abstract: false, final false
   inline void set_WellKnownValue(::System::Security::Principal::WellKnownSidType value);
 
 protected:

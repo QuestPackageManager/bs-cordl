@@ -136,32 +136,32 @@ namespace GlobalNamespace {
 class CORDL_TYPE LeaderboardScoreUploader_ScoreData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <badCutsCount>k__BackingField, offset 0x50, size 0x4
+  /// @brief Field <badCutsCount>k__BackingField, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__badCutsCount_k__BackingField, put = __cordl_internal_set__badCutsCount_k__BackingField)) int32_t _badCutsCount_k__BackingField;
 
-  /// @brief Field <beatmapKey>k__BackingField, offset 0x18, size 0x20
+  /// @brief Field <beatmapKey>k__BackingField, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get__beatmapKey_k__BackingField, put = __cordl_internal_set__beatmapKey_k__BackingField)) ::GlobalNamespace::BeatmapKey _beatmapKey_k__BackingField;
 
-  /// @brief Field <fullCombo>k__BackingField, offset 0x48, size 0x1
+  /// @brief Field <fullCombo>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__fullCombo_k__BackingField, put = __cordl_internal_set__fullCombo_k__BackingField)) bool _fullCombo_k__BackingField;
 
-  /// @brief Field <gameplayModifiers>k__BackingField, offset 0x38, size 0x8
+  /// @brief Field <gameplayModifiers>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiers_k__BackingField,
                       put = __cordl_internal_set__gameplayModifiers_k__BackingField)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
 
-  /// @brief Field <goodCutsCount>k__BackingField, offset 0x4c, size 0x4
+  /// @brief Field <goodCutsCount>k__BackingField, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__goodCutsCount_k__BackingField, put = __cordl_internal_set__goodCutsCount_k__BackingField)) int32_t _goodCutsCount_k__BackingField;
 
-  /// @brief Field <maxCombo>k__BackingField, offset 0x58, size 0x4
+  /// @brief Field <maxCombo>k__BackingField, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__maxCombo_k__BackingField, put = __cordl_internal_set__maxCombo_k__BackingField)) int32_t _maxCombo_k__BackingField;
 
-  /// @brief Field <missedCount>k__BackingField, offset 0x54, size 0x4
+  /// @brief Field <missedCount>k__BackingField, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__missedCount_k__BackingField, put = __cordl_internal_set__missedCount_k__BackingField)) int32_t _missedCount_k__BackingField;
 
-  /// @brief Field <modifiedScore>k__BackingField, offset 0x44, size 0x4
+  /// @brief Field <modifiedScore>k__BackingField, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__modifiedScore_k__BackingField, put = __cordl_internal_set__modifiedScore_k__BackingField)) int32_t _modifiedScore_k__BackingField;
 
-  /// @brief Field <multipliedScore>k__BackingField, offset 0x40, size 0x4
+  /// @brief Field <multipliedScore>k__BackingField, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__multipliedScore_k__BackingField, put = __cordl_internal_set__multipliedScore_k__BackingField)) int32_t _multipliedScore_k__BackingField;
 
   /// @brief Field <playerId>k__BackingField, offset 0x10, size 0x8
@@ -171,7 +171,7 @@ public:
 
   __declspec(property(get = get_beatmapKey, put = set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field currentUploadAttemptCount, offset 0x60, size 0x4
+  /// @brief Field currentUploadAttemptCount, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_currentUploadAttemptCount, put = __cordl_internal_set_currentUploadAttemptCount)) int32_t currentUploadAttemptCount;
 
   __declspec(property(get = get_fullCombo, put = set_fullCombo)) bool fullCombo;
@@ -190,7 +190,7 @@ public:
 
   __declspec(property(get = get_playerId, put = set_playerId)) uint64_t playerId;
 
-  /// @brief Field uploadAttemptCount, offset 0x5c, size 0x4
+  /// @brief Field uploadAttemptCount, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_uploadAttemptCount, put = __cordl_internal_set_uploadAttemptCount)) int32_t uploadAttemptCount;
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* New_ctor(uint64_t playerId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore,
@@ -269,68 +269,68 @@ public:
 
   constexpr void __cordl_internal_set_uploadAttemptCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3696f74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3753004, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(uint64_t playerId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount,
                     int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method get_badCutsCount, addr 0x3696f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badCutsCount, addr 0x3752fd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_badCutsCount();
 
-  /// @brief Method get_beatmapKey, addr 0x3696ed4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x3752f70, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_fullCombo, addr 0x3696f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x3752fb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_gameplayModifiers, addr 0x3696ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3752f84, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_goodCutsCount, addr 0x3696f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_goodCutsCount, addr 0x3752fc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
 
-  /// @brief Method get_maxCombo, addr 0x3696f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x3752ff4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method get_missedCount, addr 0x3696f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missedCount, addr 0x3752fe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missedCount();
 
-  /// @brief Method get_modifiedScore, addr 0x3696f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifiedScore, addr 0x3752fa4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_modifiedScore();
 
-  /// @brief Method get_multipliedScore, addr 0x3696f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multipliedScore, addr 0x3752f94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multipliedScore();
 
-  /// @brief Method get_playerId, addr 0x3696ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x3752f60, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_playerId();
 
-  /// @brief Method set_badCutsCount, addr 0x3696f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_badCutsCount, addr 0x3752fdc, size 0x8, virtual false, abstract: false, final false
   inline void set_badCutsCount(int32_t value);
 
-  /// @brief Method set_beatmapKey, addr 0x3696ee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x3752f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_fullCombo, addr 0x3696f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullCombo, addr 0x3752fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x3696efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x3752f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method set_goodCutsCount, addr 0x3696f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_goodCutsCount, addr 0x3752fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_goodCutsCount(int32_t value);
 
-  /// @brief Method set_maxCombo, addr 0x3696f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxCombo, addr 0x3752ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_maxCombo(int32_t value);
 
-  /// @brief Method set_missedCount, addr 0x3696f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missedCount, addr 0x3752fec, size 0x8, virtual false, abstract: false, final false
   inline void set_missedCount(int32_t value);
 
-  /// @brief Method set_modifiedScore, addr 0x3696f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_modifiedScore, addr 0x3752fac, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiedScore(int32_t value);
 
-  /// @brief Method set_multipliedScore, addr 0x3696f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multipliedScore, addr 0x3752f9c, size 0x8, virtual false, abstract: false, final false
   inline void set_multipliedScore(int32_t value);
 
-  /// @brief Method set_playerId, addr 0x3696ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x3752f68, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint64_t value);
 
 protected:
@@ -348,42 +348,42 @@ public:
   LeaderboardScoreUploader_ScoreData(LeaderboardScoreUploader_ScoreData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15247 };
 
   /// @brief Field <playerId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   uint64_t ____playerId_k__BackingField;
 
-  /// @brief Field <beatmapKey>k__BackingField, offset: 0x18, size: 0x20, def value: None
+  /// @brief Field <beatmapKey>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey_k__BackingField;
 
-  /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers_k__BackingField;
 
-  /// @brief Field <multipliedScore>k__BackingField, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field <multipliedScore>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____multipliedScore_k__BackingField;
 
-  /// @brief Field <modifiedScore>k__BackingField, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field <modifiedScore>k__BackingField, offset: 0x34, size: 0x4, def value: None
   int32_t ____modifiedScore_k__BackingField;
 
-  /// @brief Field <fullCombo>k__BackingField, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field <fullCombo>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____fullCombo_k__BackingField;
 
-  /// @brief Field <goodCutsCount>k__BackingField, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field <goodCutsCount>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   int32_t ____goodCutsCount_k__BackingField;
 
-  /// @brief Field <badCutsCount>k__BackingField, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field <badCutsCount>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____badCutsCount_k__BackingField;
 
-  /// @brief Field <missedCount>k__BackingField, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field <missedCount>k__BackingField, offset: 0x44, size: 0x4, def value: None
   int32_t ____missedCount_k__BackingField;
 
-  /// @brief Field <maxCombo>k__BackingField, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field <maxCombo>k__BackingField, offset: 0x48, size: 0x4, def value: None
   int32_t ____maxCombo_k__BackingField;
 
-  /// @brief Field uploadAttemptCount, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field uploadAttemptCount, offset: 0x4c, size: 0x4, def value: None
   int32_t ___uploadAttemptCount;
 
-  /// @brief Field currentUploadAttemptCount, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field currentUploadAttemptCount, offset: 0x50, size: 0x4, def value: None
   int32_t ___currentUploadAttemptCount;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -393,27 +393,27 @@ static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, __
 
 static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____beatmapKey_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____gameplayModifiers_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____gameplayModifiers_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____multipliedScore_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____multipliedScore_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____modifiedScore_k__BackingField) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____modifiedScore_k__BackingField) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____fullCombo_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____fullCombo_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____goodCutsCount_k__BackingField) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____goodCutsCount_k__BackingField) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____badCutsCount_k__BackingField) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____badCutsCount_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____missedCount_k__BackingField) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____missedCount_k__BackingField) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____maxCombo_k__BackingField) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ____maxCombo_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ___uploadAttemptCount) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ___uploadAttemptCount) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ___currentUploadAttemptCount) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData, ___currentUploadAttemptCount) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData) == 0x68, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader_ScoreData) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -434,7 +434,7 @@ public:
 
   constexpr void __cordl_internal_set_scores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>* value);
 
-  /// @brief Method .ctor, addr 0x3696fb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375303c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -452,7 +452,7 @@ public:
   LeaderboardScoreUploader_ScoresToUploadData(LeaderboardScoreUploader_ScoresToUploadData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15248 };
 
   /// @brief Field scores, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>* ___scores;
@@ -472,20 +472,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE LeaderboardScoreUploader_UploadScoreCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3697110, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x375319c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* scoreData,
                                              ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3697138, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x37531c4, size 0xc, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x36970fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3753188, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* Invoke(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* scoreData,
                                                    ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader_UploadScoreCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3696fb4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3753040, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -503,7 +503,7 @@ public:
   LeaderboardScoreUploader_UploadScoreCallback(LeaderboardScoreUploader_UploadScoreCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -526,7 +526,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <UploadScoresCoroutine>b__0, addr 0x3697148, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method <UploadScoresCoroutine>b__0, addr 0x37531d4, size 0x24c, virtual false, abstract: false, final false
   inline void _UploadScoresCoroutine_b__0(::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult result);
 
   constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> const& __cordl_internal_get___4__this() const;
@@ -541,7 +541,7 @@ public:
 
   constexpr void __cordl_internal_set_scoreData(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* value);
 
-  /// @brief Method .ctor, addr 0x3697144, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37531d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -559,7 +559,7 @@ public:
   LeaderboardScoreUploader___c__DisplayClass16_0(LeaderboardScoreUploader___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15250 };
 
   /// @brief Field scoreData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* ___scoreData;
@@ -587,10 +587,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3697394, size 0x5d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3753420, size 0x5d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x369796c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x37539f8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -608,7 +608,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -649,10 +649,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36979d8, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3753a64, size 0x478, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3697e50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3753edc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -669,7 +669,7 @@ public:
                                                                      ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15252 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -729,21 +729,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3697e5c, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3753ee8, size 0x260, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader__UploadScoresCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3698128, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3754148, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3698130, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3754150, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3698168, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3754188, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3697e58, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3753ee4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -764,7 +764,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value);
 
-  /// @brief Method .ctor, addr 0x3696bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3752c74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -791,7 +791,7 @@ public:
   LeaderboardScoreUploader__UploadScoresCoroutine_d__16(LeaderboardScoreUploader__UploadScoresCoroutine_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15253 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -860,30 +860,30 @@ public:
   /// @brief Field allScoresDidUploadEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_allScoresDidUploadEvent, put = __cordl_internal_set_allScoresDidUploadEvent)) ::System::Action* allScoresDidUploadEvent;
 
-  /// @brief Method AddScore, addr 0x3696d34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddScore, addr 0x3752dd0, size 0xe8, virtual false, abstract: false, final false
   inline void AddScore(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* scoreData);
 
-  /// @brief Method Init, addr 0x3696aa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3752b40, size 0x30, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::LeaderboardScoreUploader_UploadScoreCallback* uploadScoreCallback, uint64_t playerId);
 
-  /// @brief Method LoadScoresToUploadFromFile, addr 0x3696be0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LoadScoresToUploadFromFile, addr 0x3752c7c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadScoresToUploadFromFile();
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x3696bd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x3752c70, size 0x4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method SaveScoresToUploadToFile, addr 0x3696c90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SaveScoresToUploadToFile, addr 0x3752d2c, size 0xa4, virtual false, abstract: false, final false
   inline void SaveScoresToUploadToFile();
 
-  /// @brief Method Uninitialize, addr 0x3696b28, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Uninitialize, addr 0x3752bc4, size 0xac, virtual false, abstract: false, final false
   inline void Uninitialize();
 
-  /// @brief Method UploadScoresCoroutine, addr 0x3696ad4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UploadScoresCoroutine, addr 0x3752b70, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UploadScoresCoroutine();
 
-  /// @brief Method <UploadScoresCoroutine>b__16_1, addr 0x3696eb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <UploadScoresCoroutine>b__16_1, addr 0x3752f50, size 0x10, virtual false, abstract: false, final false
   inline bool _UploadScoresCoroutine_b__16_1();
 
   constexpr ::GlobalNamespace::IFileStorage* const& __cordl_internal_get__fileStorage() const;
@@ -928,13 +928,13 @@ public:
 
   constexpr void __cordl_internal_set_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3696e1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3752eb8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_allScoresDidUploadEvent, addr 0x369694c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_allScoresDidUploadEvent, addr 0x37529e8, size 0xac, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method remove_allScoresDidUploadEvent, addr 0x36969f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_allScoresDidUploadEvent, addr 0x3752a94, size 0xac, virtual false, abstract: false, final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
 protected:
@@ -952,7 +952,7 @@ public:
   LeaderboardScoreUploader(LeaderboardScoreUploader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
 
   /// @brief Field kScoresToUploadFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kScoresToUploadFileName{ u"ScoresToUpload.dat" };

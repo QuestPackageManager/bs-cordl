@@ -26,27 +26,27 @@ public:
 
   __declspec(property(get = get_NonceSize)) int32_t NonceSize;
 
-  /// @brief Method AdvanceCounter, addr 0x32eb33c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AdvanceCounter, addr 0x33a77f4, size 0x80, virtual true, abstract: false, final false
   inline void AdvanceCounter();
 
-  /// @brief Method GenerateKeyStream, addr 0x32eb4c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyStream, addr 0x33a7980, size 0x3c, virtual true, abstract: false, final false
   inline void GenerateKeyStream(::ArrayW<uint8_t> output);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* New_ctor();
 
-  /// @brief Method ResetCounter, addr 0x32eb3bc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResetCounter, addr 0x33a7874, size 0x2c, virtual true, abstract: false, final false
   inline void ResetCounter();
 
-  /// @brief Method SetKey, addr 0x32eb3e8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x33a78a0, size 0xe0, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
 
-  /// @brief Method .ctor, addr 0x32eb298, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a7750, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x32eb2f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33a77a8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_NonceSize, addr 0x32eb334, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceSize, addr 0x33a77ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NonceSize();
 
 protected:

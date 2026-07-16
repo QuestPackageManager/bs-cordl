@@ -51,10 +51,10 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c* New_ctor();
 
-  /// @brief Method <Run>b__2_0, addr 0x5b8aae8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <Run>b__2_0, addr 0x5cc4c38, size 0xf8, virtual false, abstract: false, final false
   inline void _Run_b__2_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x5b8aae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc4c34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c* getStaticF___9();
@@ -102,7 +102,7 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation* New_ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method Run, addr 0x5b8a648, size 0x26c, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x5cc4798, size 0x26c, virtual true, abstract: false, final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_m_scheduler() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_m_scheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  /// @brief Method .ctor, addr 0x5b8533c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbf48c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
 protected:

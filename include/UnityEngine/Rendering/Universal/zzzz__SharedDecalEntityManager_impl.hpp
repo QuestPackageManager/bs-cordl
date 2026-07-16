@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalEntityManager* (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::Get)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x6769984;
+  constexpr static std::size_t addrs = 0x68a8300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*>(), { "Get", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(::UnityEngine::Rendering::Universal::DecalEntityManager*)>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::Release)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6769c44;
+  constexpr static std::size_t addrs = 0x68a85c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::Dispose)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6769c60;
+  constexpr static std::size_t addrs = 0x68a85dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*>(), { "Dispose", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(::UnityEngine::Rendering::Universal::DecalProjector*)>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalAdd)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6769e44;
+  constexpr static std::size_t addrs = 0x68a87c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(::UnityEngine::Rendering::Universal::DecalProjector*)>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalRemove)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6769e9c;
+  constexpr static std::size_t addrs = 0x68a8818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(::UnityEngine::Rendering::Universal::DecalProjector*)>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalPropertyChange)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6769ec0;
+  constexpr static std::size_t addrs = 0x68a883c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnAllDecalPropertyChange)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6769f20;
+  constexpr static std::size_t addrs = 0x68a889c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(::UnityEngine::Rendering::Universal::DecalProjector*)>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalMaterialChange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6769f38;
+  constexpr static std::size_t addrs = 0x68a88b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6769f60;
+  constexpr static std::size_t addrs = 0x68a88dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*>(), { ".ctor", {}, {} })));

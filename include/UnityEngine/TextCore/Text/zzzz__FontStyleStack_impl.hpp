@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::FontStyleStack::*)()>(&::UnityEngine::TextCore::Text::FontStyleStack::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6abb92c;
+  constexpr static std::size_t addrs = 0x6c0f7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontStyleStack>(), { "Clear", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::TextCore::Text::FontStyleStack::*)(::UnityEngine::TextCore::Text::FontStyles)>(
     &::UnityEngine::TextCore::Text::FontStyleStack::Add)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6abb938;
+  constexpr static std::size_t addrs = 0x6c0f7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::TextCore::Text::FontStyleStack::*)(::UnityEngine::TextCore::Text::FontStyles)>(
     &::UnityEngine::TextCore::Text::FontStyleStack::Remove)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6abba3c;
+  constexpr static std::size_t addrs = 0x6c0f8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

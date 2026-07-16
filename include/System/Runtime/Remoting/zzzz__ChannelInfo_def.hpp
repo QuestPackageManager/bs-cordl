@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_channelData(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x59e4cd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1e9a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x59e4d34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1ea04, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method get_ChannelData, addr 0x59e4dd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ChannelData, addr 0x5b1eaa4, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*> get_ChannelData();
 
   /// @brief Convert to "::System::Runtime::Remoting::IChannelInfo"

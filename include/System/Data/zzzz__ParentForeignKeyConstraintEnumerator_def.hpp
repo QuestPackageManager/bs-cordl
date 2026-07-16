@@ -31,7 +31,7 @@ public:
   /// @brief Field _table, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-  /// @brief Method IsValidCandidate, addr 0x5edfc4c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x601ad48, size 0xa4, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ParentForeignKeyConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x5edfc28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x601ad24, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ParentForeignKeyConstraintEnumerator(ParentForeignKeyConstraintEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13737 };
 
   /// @brief Field _table, offset: 0x28, size: 0x8, def value: None
   ::System::Data::DataTable* ____table;

@@ -23,7 +23,7 @@ public:
   /// @brief Field vr_aspect_ratio, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_vr_aspect_ratio, put = __cordl_internal_set_vr_aspect_ratio)) float_t vr_aspect_ratio;
 
-  /// @brief Method CreateVRDeviceAnalyticAspect, addr 0x6ccd6ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateVRDeviceAnalyticAspect, addr 0x6e21564, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::VRDeviceAnalyticAspect* CreateVRDeviceAnalyticAspect();
 
   static inline ::UnityEngine::Analytics::VRDeviceAnalyticAspect* New_ctor();
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_vr_aspect_ratio(float_t value);
 
-  /// @brief Method .ctor, addr 0x6ccd700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e215b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   VRDeviceAnalyticAspect(VRDeviceAnalyticAspect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22946 };
 
   /// @brief Field vr_aspect_ratio, offset: 0x2c, size: 0x4, def value: None
   float_t ___vr_aspect_ratio;

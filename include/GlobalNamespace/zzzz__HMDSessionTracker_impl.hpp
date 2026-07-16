@@ -6,7 +6,8 @@
 #include "GlobalNamespace/zzzz__HMDSessionTracker_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__IGameplayEventsDispatcher_def.hpp"
 #include "GlobalNamespace/zzzz__HMDSessionTracker_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
+#include "GlobalNamespace/zzzz__XRSystemEventType_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -15,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4::*)()>(&::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4::MoveNext)> {
-  constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x57763b4;
+  constexpr static std::size_t size = 0x66c;
+  constexpr static std::size_t addrs = 0x58b371c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4>(), { "MoveNext", {}, {} })));
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5776a88;
+  constexpr static std::size_t addrs = 0x58b3d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4>(),
@@ -72,15 +73,15 @@ constexpr ::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4::HMDSession
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker::*)(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*,
-                                                                                                      ::GlobalNamespace::IVRPlatformHelper*)>(&::GlobalNamespace::HMDSessionTracker::_ctor)> {
+                                                                                                      ::GlobalNamespace::IXRSystemState*)>(&::GlobalNamespace::HMDSessionTracker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5775cb8;
+  constexpr static std::size_t addrs = 0x58b30fc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(),
-                            { ".ctor", {}, { ::i2c::type_of<::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*>(), ::i2c::type_of<::GlobalNamespace::IVRPlatformHelper*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(),
+                                         { ".ctor", {}, { ::i2c::type_of<::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*>(), ::i2c::type_of<::GlobalNamespace::IXRSystemState*>() } })));
     return ___internal_method;
   }
 };
@@ -89,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker::*)()>(&::GlobalNamespace::HMDSessionTracker::Initialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5775cc0;
+  constexpr static std::size_t addrs = 0x58b3104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "Initialize", {}, {} })));
@@ -101,10 +102,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HMDSessionTracker::*)()>(&::GlobalNamespace::HMDSessionTracker::InitializeAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5775d40;
+  constexpr static std::size_t addrs = 0x58b3184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "InitializeAsync", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HMDSessionTracker.HandleHmdStateChanged
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker::*)(::GlobalNamespace::XRSystemEventType)>(
+    &::GlobalNamespace::HMDSessionTracker::HandleHmdStateChanged)> {
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x58b3234;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleHmdStateChanged", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
     return ___internal_method;
   }
 };
@@ -112,35 +128,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker::*)()>(&::GlobalNamespace::HMDSessionTracker::Dispose)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5775df0;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x58b3440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "Dispose", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HMDSessionTracker.HandleHMDMounted
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker::*)()>(&::GlobalNamespace::HMDSessionTracker::HandleHMDMounted)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5776044;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleHMDMounted", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HMDSessionTracker.HandleHMDUnmounted
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMDSessionTracker::*)()>(&::GlobalNamespace::HMDSessionTracker::HandleHMDUnmounted)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5776164;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleHMDUnmounted", {}, {} })));
     return ___internal_method;
   }
 };
@@ -149,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HMDSessionTracker::*)()>(&::GlobalNamespace::HMDSessionTracker::HandleApplicationQuitting)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5776288;
+  constexpr static std::size_t addrs = 0x58b35f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleApplicationQuitting", {}, {} })));
@@ -168,24 +160,24 @@ constexpr void GlobalNamespace::HMDSessionTracker::__cordl_internal_set__gamepla
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayEventsDispatcher = value;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::HMDSessionTracker::__cordl_internal_get__vrPlatformHelper() {
+constexpr ::GlobalNamespace::IXRSystemState*& GlobalNamespace::HMDSessionTracker::__cordl_internal_get__xrSystemState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+  return this->____xrSystemState;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::HMDSessionTracker::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IXRSystemState* const& GlobalNamespace::HMDSessionTracker::__cordl_internal_get__xrSystemState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+  return this->____xrSystemState;
 }
-constexpr void GlobalNamespace::HMDSessionTracker::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
+constexpr void GlobalNamespace::HMDSessionTracker::__cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____vrPlatformHelper = value;
+  this->____xrSystemState = value;
 }
-inline void GlobalNamespace::HMDSessionTracker::_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper) {
+inline void GlobalNamespace::HMDSessionTracker::_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(),
-                                       { ".ctor", {}, { ::i2c::type_of<::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*>(), ::i2c::type_of<::GlobalNamespace::IVRPlatformHelper*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameplayEventsDispatcher, vrPlatformHelper);
+                                       { ".ctor", {}, { ::i2c::type_of<::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*>(), ::i2c::type_of<::GlobalNamespace::IXRSystemState*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameplayEventsDispatcher, xrSystemState);
 }
 inline void GlobalNamespace::HMDSessionTracker::Initialize() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "Initialize", {}, {} })));
@@ -195,16 +187,13 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::HMDSessionTracker::Ini
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "InitializeAsync", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method);
 }
+inline void GlobalNamespace::HMDSessionTracker::HandleHmdStateChanged(::GlobalNamespace::XRSystemEventType xrSystemEventType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleHmdStateChanged", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xrSystemEventType);
+}
 inline void GlobalNamespace::HMDSessionTracker::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "Dispose", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::HMDSessionTracker::HandleHMDMounted() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleHMDMounted", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::HMDSessionTracker::HandleHMDUnmounted() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMDSessionTracker*>(), { "HandleHMDUnmounted", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool GlobalNamespace::HMDSessionTracker::HandleApplicationQuitting() {
@@ -212,8 +201,8 @@ inline bool GlobalNamespace::HMDSessionTracker::HandleApplicationQuitting() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::GlobalNamespace::HMDSessionTracker* GlobalNamespace::HMDSessionTracker::New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher,
-                                                                                          ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::HMDSessionTracker*>(gameplayEventsDispatcher, vrPlatformHelper));
+                                                                                          ::GlobalNamespace::IXRSystemState* xrSystemState) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::HMDSessionTracker*>(gameplayEventsDispatcher, xrSystemState));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"
 constexpr GlobalNamespace::HMDSessionTracker::operator ::Zenject::IInitializable*() noexcept {

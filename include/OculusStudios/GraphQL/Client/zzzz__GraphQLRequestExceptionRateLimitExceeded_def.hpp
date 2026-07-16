@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::OculusStudios::GraphQL::Client::GraphQLRequestExceptionRateLimitExceeded* New_ctor(int32_t errorCode, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x5de4708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1c930, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode, ::StringW message);
 
 protected:
@@ -41,7 +41,7 @@ public:
   GraphQLRequestExceptionRateLimitExceeded(GraphQLRequestExceptionRateLimitExceeded const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

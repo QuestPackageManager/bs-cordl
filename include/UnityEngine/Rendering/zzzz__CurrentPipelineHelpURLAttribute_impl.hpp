@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)()>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::get_pageName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6644cc4;
+  constexpr static std::size_t addrs = 0x67823d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*>(), { "get_pageName", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)()>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::get_pageHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6644ccc;
+  constexpr static std::size_t addrs = 0x67823d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*>(), { "get_pageHash", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)(::StringW, ::StringW)>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6644cd4;
+  constexpr static std::size_t addrs = 0x67823e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)()>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::get_URL)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6644d3c;
+  constexpr static std::size_t addrs = 0x6782448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*>(),

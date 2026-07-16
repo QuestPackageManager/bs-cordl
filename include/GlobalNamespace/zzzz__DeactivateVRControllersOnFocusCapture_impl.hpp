@@ -6,13 +6,15 @@
 #include "GlobalNamespace/zzzz__DeactivateVRControllersOnFocusCapture_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
+#include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
+#include "GlobalNamespace/zzzz__XRSystemEventType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DeactivateVRControllersOnFocusCapture.get_loggerPrefix
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x570d0b8;
+  constexpr static std::size_t addrs = 0x5856e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,11 +26,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::Start)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x570d0fc;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x5856ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "Start", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::DeactivateVRControllersOnFocusCapture.HandleSystemStateChange
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)(::GlobalNamespace::XRSystemEventType)>(
+    &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::HandleSystemStateChange)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x58573d8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(),
+                                                                                           { "HandleSystemStateChange", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
     return ___internal_method;
   }
 };
@@ -36,8 +52,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::OnDestroy)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x570d5f8;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x58573e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "OnDestroy", {}, {} })));
@@ -49,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x570d7d0;
+  constexpr static std::size_t addrs = 0x5857524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "LateUpdate", {}, {} })));
@@ -61,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::UpdateVRControllerActiveState)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x570d364;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x585712c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x570d7d4;
+  constexpr static std::size_t addrs = 0x5857528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { ".ctor", {}, {} })));
@@ -118,6 +134,18 @@ constexpr void GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vrPlatformHelper = value;
 }
+constexpr ::GlobalNamespace::IXRSystemState*& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__xrSystemState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____xrSystemState;
+}
+constexpr ::GlobalNamespace::IXRSystemState* const& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__xrSystemState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____xrSystemState;
+}
+constexpr void GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____xrSystemState = value;
+}
 inline ::StringW GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_loggerPrefix() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "get_loggerPrefix", {}, {} })));
@@ -126,6 +154,11 @@ inline ::StringW GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_log
 inline void GlobalNamespace::DeactivateVRControllersOnFocusCapture::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "Start", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::DeactivateVRControllersOnFocusCapture::HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(),
+                                                                                         { "HandleSystemStateChange", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventType);
 }
 inline void GlobalNamespace::DeactivateVRControllersOnFocusCapture::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "OnDestroy", {}, {} })));

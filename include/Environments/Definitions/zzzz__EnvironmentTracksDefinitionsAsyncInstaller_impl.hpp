@@ -2,7 +2,7 @@
 // IWYU pragma private; include "Environments/Definitions/EnvironmentTracksDefinitionsAsyncInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_impl.hpp"
 #include "Environments/Definitions/zzzz__EnvironmentTracksDefinitionsAsyncInstaller_def.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
+#include "BGLib/AppFlow/Initialization/zzzz__IInstallerRegistry_def.hpp"
 #include "BeatSaber/TrackDefinitions/zzzz__EnvironmentTracksDefinitionSO_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3232e4c;
+  constexpr static std::size_t addrs = 0x32ea854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(),
@@ -24,10 +24,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Environments
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3232e90;
+  constexpr static std::size_t addrs = 0x32ea898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(),
@@ -41,11 +41,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3232f04;
+  constexpr static std::size_t addrs = 0x32ea90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(),
-                                                                                          { ::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(), 8 }));
+                                                                                          { ::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3233178;
+  constexpr static std::size_t addrs = 0x32eab80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,14 +85,14 @@ inline ::StringW Environments::Definitions::EnvironmentTracksDefinitionsAsyncIns
 }
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall(
     ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
-    ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
+    ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tracksDefinitions, registry);
 }
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(), 8 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor() {

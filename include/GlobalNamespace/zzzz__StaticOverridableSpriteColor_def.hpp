@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::StaticOverridableSpriteColor* New_ctor();
 
-  /// @brief Method SetColor, addr 0x57e4814, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5904e04, size 0x38, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x57e47e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5904dd8, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x57e484c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5904e3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   StaticOverridableSpriteColor(StaticOverridableSpriteColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6654 };
 
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;

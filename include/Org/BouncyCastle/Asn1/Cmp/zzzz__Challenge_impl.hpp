@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x328a584;
+  constexpr static std::size_t addrs = 0x3346a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::Challenge* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::Challenge::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x328a630;
+  constexpr static std::size_t addrs = 0x3346ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::get_Owf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328a7b4;
+  constexpr static std::size_t addrs = 0x3346c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::ToAsn1Object)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x328a7bc;
+  constexpr static std::size_t addrs = 0x3346c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

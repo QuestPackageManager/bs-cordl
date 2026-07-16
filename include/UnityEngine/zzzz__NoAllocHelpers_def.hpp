@@ -82,7 +82,7 @@ public:
   NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10327 };
 
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ____items;
@@ -118,7 +118,7 @@ public:
   /// @brief Method ResetListSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
 
-  /// @brief Method SafeLength, addr 0x698f8d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SafeLength, addr 0x6ae2980, size 0x10, virtual false, abstract: false, final false
   static inline int32_t SafeLength(::System::Array* values);
 
   /// @brief Method SafeLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -139,7 +139,7 @@ public:
   NoAllocHelpers(NoAllocHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

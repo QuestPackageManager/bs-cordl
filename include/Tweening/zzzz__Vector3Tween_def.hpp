@@ -14,6 +14,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace Zenject {
@@ -37,18 +40,25 @@ public:
   __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_1<::UnityEngine::Vector3>*, float_t,
                                                                                                    ::GlobalNamespace::EaseType, float_t, ::Tweening::Vector3Tween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x63066c0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6443130, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 GetValue(float_t t);
 
   static inline ::Tweening::Vector3Tween* New_ctor();
 
   static inline ::Tweening::Vector3Tween* New_ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float_t duration,
+                                                   ::UnityEngine::AnimationCurve* animationCurve, float_t delay);
+
+  static inline ::Tweening::Vector3Tween* New_ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float_t duration,
                                                    ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x63065b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6442f64, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6306610, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6443078, size 0xb8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float_t duration,
+                    ::UnityEngine::AnimationCurve* animationCurve, float_t delay);
+
+  /// @brief Method .ctor, addr 0x6442fc4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
@@ -74,11 +84,11 @@ public:
   Vector3Tween(Vector3Tween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22930 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::Tweening::Vector3Tween) == 0x68, "Size mismatch!");
+static_assert(sizeof(::Tweening::Vector3Tween) == 0x70, "Size mismatch!");
 
 } // namespace Tweening

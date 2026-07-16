@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_bytes(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x32c9e70, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3386328, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(int64_t outputSizeBits);
 
-  /// @brief Method get_Bytes, addr 0x32ca444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bytes, addr 0x33868fc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Bytes();
 
 protected:
@@ -144,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set_value(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x32c9e14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33862cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::ArrayW<uint8_t> value);
 
-  /// @brief Method get_Type, addr 0x32ca44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3386904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value, addr 0x32ca454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x338690c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Value();
 
 protected:
@@ -205,21 +205,21 @@ public:
   /// @brief Field tweak, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tweak, put = __cordl_internal_set_tweak)) ::ArrayW<uint64_t> tweak;
 
-  /// @brief Method AdvancePosition, addr 0x32ca6f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AdvancePosition, addr 0x3386bac, size 0x174, virtual false, abstract: false, final false
   inline void AdvancePosition(int32_t advance);
 
-  /// @brief Method GetWords, addr 0x32ca868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetWords, addr 0x3386d20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint64_t> GetWords();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UbiTweak* New_ctor();
 
-  /// @brief Method Reset, addr 0x32ca4b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3386970, size 0x3c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x32ca4f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x33869ac, size 0x8c, virtual false, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UbiTweak* tweak);
 
-  /// @brief Method ToString, addr 0x32ca870, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3386d28, size 0x1ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_extendedPosition() const;
@@ -234,25 +234,25 @@ public:
 
   constexpr void __cordl_internal_set_tweak(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x32ca45c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3386914, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Final, addr 0x32ca670, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Final, addr 0x3386b28, size 0x30, virtual false, abstract: false, final false
   inline bool get_Final();
 
-  /// @brief Method get_First, addr 0x32ca640, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_First, addr 0x3386af8, size 0x30, virtual false, abstract: false, final false
   inline bool get_First();
 
-  /// @brief Method get_Type, addr 0x32ca5d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3386a8c, size 0x30, virtual false, abstract: false, final false
   inline uint32_t get_Type();
 
-  /// @brief Method set_Final, addr 0x32ca6a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_Final, addr 0x3386b58, size 0x54, virtual false, abstract: false, final false
   inline void set_Final(bool value);
 
-  /// @brief Method set_First, addr 0x32ca580, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_First, addr 0x3386a38, size 0x54, virtual false, abstract: false, final false
   inline void set_First(bool value);
 
-  /// @brief Method set_Type, addr 0x32ca604, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x3386abc, size 0x3c, virtual false, abstract: false, final false
   inline void set_Type(uint32_t value);
 
 protected:
@@ -319,21 +319,21 @@ public:
   /// @brief Field tweak, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tweak, put = __cordl_internal_set_tweak)) ::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UbiTweak* tweak;
 
-  /// @brief Method DoFinal, addr 0x32ca13c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33865f4, size 0x70, virtual false, abstract: false, final false
   inline void DoFinal(::ArrayW<uint64_t> output);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UBI* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine, int32_t blockSize);
 
-  /// @brief Method ProcessBlock, addr 0x32caa5c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x3386f14, size 0x16c, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint64_t> output);
 
-  /// @brief Method Reset, addr 0x32ca0fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x33865b4, size 0x40, virtual false, abstract: false, final false
   inline void Reset(int32_t type);
 
-  /// @brief Method Reset, addr 0x32c9320, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x33857d8, size 0xb0, virtual false, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UBI* ubi);
 
-  /// @brief Method Update, addr 0x32c9fb0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3386468, size 0x130, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t> value, int32_t offset, int32_t len, ::ArrayW<uint64_t> output);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_currentBlock() const;
@@ -366,7 +366,7 @@ public:
 
   constexpr void __cordl_internal_set_tweak(::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UbiTweak* value);
 
-  /// @brief Method .ctor, addr 0x32c9134, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33855ec, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine, int32_t blockSize);
 
 protected:
@@ -471,63 +471,63 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method CheckInitialised, addr 0x32ca1ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckInitialised, addr 0x3386664, size 0x58, virtual false, abstract: false, final false
   inline void CheckInitialised();
 
-  /// @brief Method Clone, addr 0x32c93d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x3385888, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Crypto::Digests::SkeinEngine_Parameter*> Clone(::ArrayW<::Org::BouncyCastle::Crypto::Digests::SkeinEngine_Parameter*> data,
                                                                                              ::ArrayW<::Org::BouncyCastle::Crypto::Digests::SkeinEngine_Parameter*> existing);
 
-  /// @brief Method Copy, addr 0x32c9480, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x3385938, size 0x5c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method CopyIn, addr 0x32c9204, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CopyIn, addr 0x33856bc, size 0x11c, virtual false, abstract: false, final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine);
 
-  /// @brief Method CreateInitialState, addr 0x32c9b5c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method CreateInitialState, addr 0x3386014, size 0x2a4, virtual false, abstract: false, final false
   inline void CreateInitialState();
 
-  /// @brief Method DoFinal, addr 0x32c8b5c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x3385014, size 0x1a8, virtual false, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> outBytes, int32_t outOff);
 
-  /// @brief Method Init, addr 0x32c8998, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3384e50, size 0xb4, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
-  /// @brief Method InitParams, addr 0x32c94e4, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method InitParams, addr 0x338599c, size 0x678, virtual false, abstract: false, final false
   inline void InitParams(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method InitialState, addr 0x32c8ff8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method InitialState, addr 0x33854b0, size 0x134, virtual false, abstract: false, final false
   static inline void InitialState(int32_t blockSize, int32_t outputSize, ::ArrayW<uint64_t> state);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinEngine* New_ctor(int32_t blockSizeBits, int32_t outputSizeBits);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinEngine* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine);
 
-  /// @brief Method Output, addr 0x32ca204, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Output, addr 0x33866bc, size 0x240, virtual false, abstract: false, final false
   inline void Output(uint64_t outputSequence, ::ArrayW<uint8_t> outBytes, int32_t outOff, int32_t outputBytes);
 
-  /// @brief Method Reset, addr 0x32c8a60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3384f18, size 0x40, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x32c85fc, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3384ab4, size 0x12c, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method UbiComplete, addr 0x32c9e20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UbiComplete, addr 0x33862d8, size 0x50, virtual false, abstract: false, final false
   inline void UbiComplete(int32_t type, ::ArrayW<uint8_t> value);
 
-  /// @brief Method UbiFinal, addr 0x32ca0e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UbiFinal, addr 0x3386598, size 0x1c, virtual false, abstract: false, final false
   inline void UbiFinal();
 
-  /// @brief Method UbiInit, addr 0x32c9e00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UbiInit, addr 0x33862b8, size 0x14, virtual false, abstract: false, final false
   inline void UbiInit(int32_t type);
 
-  /// @brief Method Update, addr 0x32c8ab4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3384f6c, size 0x34, virtual false, abstract: false, final false
   inline void Update(uint8_t inByte);
 
-  /// @brief Method Update, addr 0x32c8afc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3384fb4, size 0x4c, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method VariantIdentifier, addr 0x32c912c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method VariantIdentifier, addr 0x33855e4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t VariantIdentifier(int32_t blockSizeBytes, int32_t outputSizeBytes);
 
   constexpr ::ArrayW<uint64_t> const& __cordl_internal_get_chain() const;
@@ -584,18 +584,18 @@ public:
 
   constexpr void __cordl_internal_set_ubi(::Org::BouncyCastle::Crypto::Digests::SkeinEngine_UBI* value);
 
-  /// @brief Method .ctor, addr 0x32c8310, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33847c8, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits, int32_t outputSizeBits);
 
-  /// @brief Method .ctor, addr 0x32c850c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33849c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine);
 
   static inline ::System::Collections::IDictionary* getStaticF_INITIAL_STATES();
 
-  /// @brief Method get_BlockSize, addr 0x32c8934, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x3384dec, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
-  /// @brief Method get_OutputSize, addr 0x32c94dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OutputSize, addr 0x3385994, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OutputSize();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"

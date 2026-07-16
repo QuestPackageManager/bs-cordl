@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x5c9ed48, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd6f70, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -45,7 +45,7 @@ public:
   AchievementDefinitionList(AchievementDefinitionList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17979 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

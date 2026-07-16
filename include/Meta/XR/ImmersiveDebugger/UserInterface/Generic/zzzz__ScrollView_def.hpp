@@ -55,13 +55,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView* New_ctor();
 
-  /// @brief Method RefreshLayoutPostChildren, addr 0x5921dc8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPostChildren, addr 0x5a5b4cc, size 0x3c, virtual true, abstract: false, final false
   inline void RefreshLayoutPostChildren();
 
-  /// @brief Method RefreshLayoutPreChildren, addr 0x5921d98, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPreChildren, addr 0x5a5b49c, size 0x30, virtual true, abstract: false, final false
   inline void RefreshLayoutPreChildren();
 
-  /// @brief Method Setup, addr 0x5921c58, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5b35c, size 0x140, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::UnityEngine::UI::Mask> const& __cordl_internal_get__mask() const;
@@ -88,19 +88,19 @@ public:
 
   constexpr void __cordl_internal_set__viewport(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> value);
 
-  /// @brief Method .ctor, addr 0x5921e04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5b508, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Flex, addr 0x5921c40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Flex, addr 0x5a5b344, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> get_Flex();
 
-  /// @brief Method get_Progress, addr 0x591fcd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x5a593d8, size 0x18, virtual false, abstract: false, final false
   inline float_t get_Progress();
 
-  /// @brief Method get_ScrollRect, addr 0x5921c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScrollRect, addr 0x5a5b33c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::ScrollRect> get_ScrollRect();
 
-  /// @brief Method set_Progress, addr 0x591fcb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_Progress, addr 0x5a593b4, size 0x24, virtual false, abstract: false, final false
   inline void set_Progress(float_t value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   ScrollView(ScrollView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18373 };
 
   /// @brief Field _scrollRect, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::ScrollRect> ____scrollRect;

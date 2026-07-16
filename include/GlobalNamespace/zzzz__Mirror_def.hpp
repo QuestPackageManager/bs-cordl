@@ -12,6 +12,9 @@ class MirrorRendererSO;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
+}
 namespace UnityEngine {
 class Camera;
 }
@@ -71,18 +74,24 @@ public:
 
   __declspec(property(get = get_reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform> reflectionPlaneTransform;
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x5e0a778, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangeMirrorEnabledState, addr 0x5f441d8, size 0x3c, virtual false, abstract: false, final false
   inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
   static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x5e0a4a8, size 0x1c, virtual false, abstract: false, final false
-  inline void OnWillRenderObject();
+  /// @brief Method OnBeginCameraRendering, addr 0x5f43e70, size 0xb4, virtual false, abstract: false, final false
+  inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* currentCamera);
 
-  /// @brief Method RenderMirror, addr 0x5e0a4c4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f43c68, size 0xa8, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x5f43bc0, size 0xa8, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method RenderMirror, addr 0x5f43f24, size 0x2b4, virtual false, abstract: false, final false
   inline void RenderMirror(::UnityEngine::Camera* currentCamera);
 
-  /// @brief Method Update, addr 0x5e0a348, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5f43d10, size 0x14, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
@@ -127,32 +136,32 @@ public:
 
   constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5e0b044, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f448d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5e0a1c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5f43a40, size 0xc0, virtual false, abstract: false, final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline int32_t getStaticF__texturePropertyID();
 
-  /// @brief Method get_isEnabled, addr 0x5e0a1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x5f43a30, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_mirrorMaterial, addr 0x5e0a1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorMaterial, addr 0x5f43a18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
-  /// @brief Method get_noMirrorMaterial, addr 0x5e0a1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noMirrorMaterial, addr 0x5f43a20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
-  /// @brief Method get_reflectionPlaneTransform, addr 0x5e0a1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionPlaneTransform, addr 0x5f43a28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_reflectionPlaneTransform();
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5e0a288, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5f43b00, size 0xc0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline void setStaticF__texturePropertyID(int32_t value);
 
-  /// @brief Method set_isEnabled, addr 0x5e0a1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x5f43a38, size 0x8, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:
@@ -170,7 +179,7 @@ public:
   Mirror(Mirror const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20896 };
 
   /// @brief Field _mirrorRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;

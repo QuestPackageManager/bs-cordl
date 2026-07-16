@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t)>(&::UnityEngine::Rendering::Universal::InclusiveRange::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x677d634;
+  constexpr static std::size_t addrs = 0x68bbfb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t, int16_t)>(&::UnityEngine::Rendering::Universal::InclusiveRange::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x677d640;
+  constexpr static std::size_t addrs = 0x68bbfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t)>(&::UnityEngine::Rendering::Universal::InclusiveRange::Expand)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x677d64c;
+  constexpr static std::size_t addrs = 0x68bbfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t, int16_t)>(&::UnityEngine::Rendering::Universal::InclusiveRange::Clamp)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x677d6d4;
+  constexpr static std::size_t addrs = 0x68bc050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::InclusiveRange::*)()>(&::UnityEngine::Rendering::Universal::InclusiveRange::get_isEmpty)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x677d764;
+  constexpr static std::size_t addrs = 0x68bc0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InclusiveRange>(), { "get_isEmpty", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t)>(&::UnityEngine::Rendering::Universal::InclusiveRange::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x677d778;
+  constexpr static std::size_t addrs = 0x68bc0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::InclusiveRange (*)(
     ::UnityEngine::Rendering::Universal::InclusiveRange, ::UnityEngine::Rendering::Universal::InclusiveRange)>(&::UnityEngine::Rendering::Universal::InclusiveRange::Merge)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x677d79c;
+  constexpr static std::size_t addrs = 0x68bc118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::InclusiveRange (*)()>(&::UnityEngine::Rendering::Universal::InclusiveRange::get_empty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x677d820;
+  constexpr static std::size_t addrs = 0x68bc19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InclusiveRange>(), { "get_empty", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::Universal::InclusiveRange::*)()>(&::UnityEngine::Rendering::Universal::InclusiveRange::ToString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x677d828;
+  constexpr static std::size_t addrs = 0x68bc1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

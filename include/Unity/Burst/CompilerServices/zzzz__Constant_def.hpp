@@ -22,7 +22,7 @@ public:
   /// @brief Method IsConstantExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsConstantExpression(T t);
 
-  /// @brief Method IsConstantExpression, addr 0x63651d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsConstantExpression, addr 0x64a1df0, size 0x8, virtual false, abstract: false, final false
   static inline bool IsConstantExpression(void* t);
 
 protected:
@@ -40,7 +40,7 @@ public:
   Constant(Constant const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17339 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

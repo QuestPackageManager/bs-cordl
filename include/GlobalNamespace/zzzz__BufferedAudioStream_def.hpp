@@ -40,15 +40,15 @@ public:
   /// @brief Field writePos, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
-  /// @brief Method AddData, addr 0x5c79370, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x5db1598, size 0x114, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t> samples);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Stop, addr 0x5c79108, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5db1330, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x5c7914c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5db1374, size 0x224, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_writePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5c79048, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db1270, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
 protected:
@@ -102,7 +102,7 @@ public:
   static constexpr bool VerboseLogging{ false };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
 
   /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
   static constexpr float_t bufferLengthSeconds{ static_cast<float_t>(0.25f) };

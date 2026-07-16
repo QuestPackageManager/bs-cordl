@@ -67,21 +67,21 @@ public:
   /// @brief Field _kernel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__kernel, put = __cordl_internal_set__kernel)) ::UnityW<::Zenject::MonoKernel> _kernel;
 
-  /// @brief Method Construct, addr 0x6d170f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x6e6be60, size 0x48, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* parentContainer);
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x6d17828, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x6e6c598, size 0x248, virtual true, abstract: false, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetRootGameObjects, addr 0x6d17070, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x6e6bde0, size 0x80, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method InstallBindings, addr 0x6d17594, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e6c304, size 0x220, virtual false, abstract: false, final false
   inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   static inline ::Zenject::GameObjectContext* New_ctor();
 
-  /// @brief Method RunInternal, addr 0x6d171e0, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x6e6bf50, size 0x39c, virtual true, abstract: false, final false
   inline void RunInternal();
 
   constexpr ::System::Action* const& __cordl_internal_get_PostInstall() const;
@@ -120,40 +120,40 @@ public:
 
   constexpr void __cordl_internal_set__kernel(::UnityW<::Zenject::MonoKernel> value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d17be4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6c954, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x6d17aec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6e6c85c, size 0xf8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x6d17a80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6c7f0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PostInstall, addr 0x6d16c60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PostInstall, addr 0x6e6b9d0, size 0xac, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
-  /// @brief Method add_PostResolve, addr 0x6d16f10, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PostResolve, addr 0x6e6bc80, size 0xac, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
-  /// @brief Method add_PreInstall, addr 0x6d16b08, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PreInstall, addr 0x6e6b878, size 0xac, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
-  /// @brief Method add_PreResolve, addr 0x6d16db8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PreResolve, addr 0x6e6bb28, size 0xac, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
-  /// @brief Method get_Container, addr 0x6d17068, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x6e6bdd8, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method remove_PostInstall, addr 0x6d16d0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PostInstall, addr 0x6e6ba7c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
-  /// @brief Method remove_PostResolve, addr 0x6d16fbc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PostResolve, addr 0x6e6bd2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
-  /// @brief Method remove_PreInstall, addr 0x6d16bb4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PreInstall, addr 0x6e6b924, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
-  /// @brief Method remove_PreResolve, addr 0x6d16e64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PreResolve, addr 0x6e6bbd4, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
 protected:
@@ -171,7 +171,7 @@ public:
   GameObjectContext(GameObjectContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14447 };
 
   /// @brief Field PreInstall, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PreInstall;

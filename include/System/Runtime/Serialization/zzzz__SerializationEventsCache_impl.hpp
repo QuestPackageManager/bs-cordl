@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::SerializationEventsCache___c::*)()>(
     &::System::Runtime::Serialization::SerializationEventsCache___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a10f64;
+  constexpr static std::size_t addrs = 0x5b4ac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SerializationEventsCache___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::SerializationEvents* (::System::Runtime::Serialization::SerializationEventsCache___c::*)(::System::Type*)>(
     &::System::Runtime::Serialization::SerializationEventsCache___c::_GetSerializationEventsForType_b__1_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a10f68;
+  constexpr static std::size_t addrs = 0x5b4ac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SerializationEventsCache___c*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::SerializationEvents* (*)(::System::Type*)>(
     &::System::Runtime::Serialization::SerializationEventsCache::GetSerializationEventsForType)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5a10d3c;
+  constexpr static std::size_t addrs = 0x5b4aa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SerializationEventsCache*>(),

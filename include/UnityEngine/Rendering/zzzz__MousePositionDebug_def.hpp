@@ -26,29 +26,29 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Rendering::MousePositionDebug* s_Instance;
 
-  /// @brief Method Build, addr 0x662a994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x67680a0, size 0x4, virtual false, abstract: false, final false
   inline void Build();
 
-  /// @brief Method Cleanup, addr 0x662a998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x67680a4, size 0x4, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetInputMousePosition, addr 0x662a9a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetInputMousePosition, addr 0x67680ac, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetInputMousePosition();
 
-  /// @brief Method GetMouseClickPosition, addr 0x662aa4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetMouseClickPosition, addr 0x6768158, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetMouseClickPosition(float_t ScreenHeight);
 
-  /// @brief Method GetMousePosition, addr 0x662a99c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetMousePosition, addr 0x67680a8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetMousePosition(float_t ScreenHeight, bool sceneView);
 
   static inline ::UnityEngine::Rendering::MousePositionDebug* New_ctor();
 
-  /// @brief Method .ctor, addr 0x662a990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x676809c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::MousePositionDebug* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x662a920, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x676802c, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MousePositionDebug* get_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Rendering::MousePositionDebug* value);
@@ -68,7 +68,7 @@ public:
   MousePositionDebug(MousePositionDebug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

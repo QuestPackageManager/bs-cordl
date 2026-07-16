@@ -61,18 +61,18 @@ public:
   /// @brief Field _wasLocalPlayerLeader, offset 0x4c, size 0x2
   __declspec(property(get = __cordl_internal_get__wasLocalPlayerLeader, put = __cordl_internal_set__wasLocalPlayerLeader)) ::System::Nullable_1<bool> _wasLocalPlayerLeader;
 
-  /// @brief Method HandleStateChanged, addr 0x58a8064, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59d8e00, size 0x4c, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58a7bfc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59d88e8, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58a7b08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59d87f4, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58a7d0c, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59d89f8, size 0x350, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& __cordl_internal_get__hudInitData() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__wasLocalPlayerLeader(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x58a80b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d8e4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   MultiplayerLocalPlayerScoreDiffTextManager(MultiplayerLocalPlayerScoreDiffTextManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };
 
   /// @brief Field kUpdateInterval offset 0xffffffff size 0x4
   static constexpr float_t kUpdateInterval{ static_cast<float_t>(0.5f) };

@@ -465,7 +465,7 @@ public:
   static ::GlobalNamespace::OVRAnchor_SaveResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -548,7 +548,7 @@ public:
   static ::GlobalNamespace::OVRAnchor_EraseResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7039 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -639,7 +639,7 @@ public:
   static ::GlobalNamespace::OVRAnchor_FetchResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7040 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -742,7 +742,7 @@ public:
   static ::GlobalNamespace::OVRAnchor_ShareResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7041 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -775,7 +775,7 @@ public:
                                     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* IncrementalResultsCallback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7042 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -813,7 +813,7 @@ public:
   constexpr OVRAnchor_DeferredValue(::GlobalNamespace::OVRTask_1<bool> Task, bool EnabledDesired, uint64_t RequestId, double_t Timeout, float_t StartTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7043 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -859,16 +859,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor_DeferredKey>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRAnchor_DeferredKey>*();
 
-  /// @brief Method Equals, addr 0x5cceeac, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e070d4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ccee88, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e070b0, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRAnchor_DeferredKey other);
 
-  /// @brief Method FromEvent, addr 0x5ccd58c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromEvent, addr 0x5e057b4, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRAnchor_DeferredKey FromEvent(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData eventData);
 
-  /// @brief Method GetHashCode, addr 0x5ccef38, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e07160, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor_DeferredKey>"
@@ -883,7 +883,7 @@ public:
   constexpr OVRAnchor_DeferredKey(uint64_t Space, ::GlobalNamespace::OVRPlugin_SpaceComponentType ComponentType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7044 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -911,10 +911,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRAnchor_FetchOptions {
 public:
   // Declarations
-  /// @brief Method DiscoverSpaces, addr 0x5cc8f00, size 0x964, virtual false, abstract: false, final false
+  /// @brief Method DiscoverSpaces, addr 0x5e01128, size 0x964, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Result DiscoverSpaces(::by_ref<uint64_t> requestId);
 
-  /// @brief Method GetSpaceComponentType, addr 0x5ccef54, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceComponentType, addr 0x5e0717c, size 0x190, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceComponentType GetSpaceComponentType(::System::Type* type);
 
   // Ctor Parameters []
@@ -928,7 +928,7 @@ public:
                                    ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ComponentTypes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7045 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -1052,7 +1052,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7046 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1102,7 +1102,7 @@ public:
   static ::GlobalNamespace::OVRAnchor_TrackableType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7047 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1128,19 +1128,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Telemetry_OVRAnchor_Key>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::Telemetry_OVRAnchor_Key>*();
 
-  /// @brief Method Equals, addr 0x5ccf584, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e077ac, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ccf560, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e07788, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::Telemetry_OVRAnchor_Key other);
 
-  /// @brief Method GetHashCode, addr 0x5ccf610, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e07838, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x5ccf1ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e073d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRTelemetryMarker marker, uint64_t requestId);
 
-  /// @brief Method .ctor, addr 0x5ccf29c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e074c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId);
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Telemetry_OVRAnchor_Key>"
@@ -1154,7 +1154,7 @@ public:
   constexpr Telemetry_OVRAnchor_Key(int32_t _markerId, uint64_t _requestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1234,7 +1234,7 @@ public:
   static ::GlobalNamespace::Telemetry_OVRAnchor_MarkerId const SaveSpaces;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1308,7 +1308,7 @@ public:
   static constexpr ::ConstString UuidCount{ u"uuid_count" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1333,34 +1333,34 @@ public:
   __declspec(property(get = getStaticF_s_markers,
                       put = setStaticF_s_markers)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::Telemetry_OVRAnchor_Key, ::GlobalNamespace::OVRTelemetryMarker>* s_markers;
 
-  /// @brief Method AddMarker, addr 0x5ccf0e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x5e0730c, size 0xc8, virtual false, abstract: false, final false
   static inline void AddMarker(uint64_t requestId, ::GlobalNamespace::OVRTelemetryMarker marker);
 
-  /// @brief Method GetMarker, addr 0x5cc8818, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetMarker, addr 0x5e00a40, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::GlobalNamespace::OVRTelemetryMarker> GetMarker(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId);
 
-  /// @brief Method GetRemove, addr 0x5ccf3e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetRemove, addr 0x5e07610, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::GlobalNamespace::OVRTelemetryMarker> GetRemove(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId);
 
-  /// @brief Method OnInit, addr 0x5ccc91c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnInit, addr 0x5e04b44, size 0x80, virtual false, abstract: false, final false
   static inline void OnInit();
 
-  /// @brief Method Remove, addr 0x5ccf348, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x5e07570, size 0xa0, virtual false, abstract: false, final false
   static inline bool Remove(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId, ::by_ref<::GlobalNamespace::OVRTelemetryMarker> marker);
 
-  /// @brief Method SetAsyncResult, addr 0x5ccdc1c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetAsyncResult, addr 0x5e05e44, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::GlobalNamespace::OVRTelemetryMarker> SetAsyncResult(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId, int64_t result);
 
-  /// @brief Method SetAsyncResultAndSend, addr 0x5cc88dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetAsyncResultAndSend, addr 0x5e00b04, size 0x108, virtual false, abstract: false, final false
   static inline void SetAsyncResultAndSend(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId, int64_t result);
 
-  /// @brief Method SetSyncResult, addr 0x5cca384, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetSyncResult, addr 0x5e025ac, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetSyncResult(::GlobalNamespace::OVRTelemetryMarker marker, uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method Start, addr 0x5ccf1bc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e073e4, size 0xe0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker Start(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method TryGetMarker, addr 0x5ccf2a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetMarker, addr 0x5e074d0, size 0xa0, virtual false, abstract: false, final false
   static inline bool TryGetMarker(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId markerId, uint64_t requestId, ::by_ref<::GlobalNamespace::OVRTelemetryMarker> marker);
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::Telemetry_OVRAnchor_Key, ::GlobalNamespace::OVRTelemetryMarker>* getStaticF_s_markers();
@@ -1382,7 +1382,7 @@ public:
   OVRAnchor_Telemetry(OVRAnchor_Telemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1404,49 +1404,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor_TrackerConfiguration>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRAnchor_TrackerConfiguration>*();
 
-  /// @brief Method Equals, addr 0x5ccfb48, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e07d70, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ccfb2c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e07d54, size 0x1c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRAnchor_TrackerConfiguration other);
 
-  /// @brief Method GetHashCode, addr 0x5ccfbd0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e07df8, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTrackableTypes, addr 0x5ccf7b4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetTrackableTypes, addr 0x5e079dc, size 0x114, virtual false, abstract: false, final false
   inline void GetTrackableTypes(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes);
 
-  /// @brief Method ResetDynamicObjects, addr 0x5ccf7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetDynamicObjects, addr 0x5e079c8, size 0x8, virtual false, abstract: false, final false
   inline void ResetDynamicObjects();
 
-  /// @brief Method SetDynamicObjectState, addr 0x5ccf7a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDynamicObjectState, addr 0x5e079d0, size 0xc, virtual false, abstract: false, final false
   inline void SetDynamicObjectState(::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration> other);
 
-  /// @brief Method ToDynamicObjectClasses, addr 0x5ccf6e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToDynamicObjectClasses, addr 0x5e07908, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRNativeList_1<::GlobalNamespace::OVRPlugin_DynamicObjectClass> ToDynamicObjectClasses(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method ToString, addr 0x5ccf8c8, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e07af0, size 0x264, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_KeyboardTrackingEnabled, addr 0x5ccf62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyboardTrackingEnabled, addr 0x5e07854, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeyboardTrackingEnabled();
 
-  /// @brief Method get_KeyboardTrackingSupported, addr 0x5ccf63c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyboardTrackingSupported, addr 0x5e07864, size 0x9c, virtual false, abstract: false, final false
   static inline bool get_KeyboardTrackingSupported();
 
-  /// @brief Method get_RequiresDynamicObjectTracker, addr 0x5ccf6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresDynamicObjectTracker, addr 0x5e07900, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresDynamicObjectTracker();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor_TrackerConfiguration>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRAnchor_TrackerConfiguration>* i___System__IEquatable_1___GlobalNamespace__OVRAnchor_TrackerConfiguration_();
 
-  /// @brief Method op_Equality, addr 0x5ccfc50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5e07e78, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRAnchor_TrackerConfiguration lhs, ::GlobalNamespace::OVRAnchor_TrackerConfiguration rhs);
 
-  /// @brief Method op_Inequality, addr 0x5ccfc68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5e07e90, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRAnchor_TrackerConfiguration lhs, ::GlobalNamespace::OVRAnchor_TrackerConfiguration rhs);
 
-  /// @brief Method set_KeyboardTrackingEnabled, addr 0x5ccf634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyboardTrackingEnabled, addr 0x5e0785c, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyboardTrackingEnabled(bool value);
 
   // Ctor Parameters []
@@ -1457,7 +1457,7 @@ public:
   constexpr OVRAnchor_TrackerConfiguration(bool _KeyboardTrackingEnabled_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1520,7 +1520,7 @@ public:
   static ::GlobalNamespace::OVRAnchor_ConfigureTrackerResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1548,13 +1548,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AcquireAsync, addr 0x5cd03a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AcquireAsync, addr 0x5e085cc, size 0xb8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock> AcquireAsync(::GlobalNamespace::OVRAnchor_Tracker* tracker);
 
-  /// @brief Method Dispose, addr 0x5cd0384, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5e085ac, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x5cd0364, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0858c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor_Tracker* tracker);
 
   /// @brief Convert to "::System::IDisposable"
@@ -1568,7 +1568,7 @@ public:
   constexpr Tracker_OVRAnchor_AsyncLock(::GlobalNamespace::OVRAnchor_Tracker* _tracker) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1594,10 +1594,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd045c, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e08684, size 0x1f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd0650, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e08878, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1614,7 +1614,7 @@ public:
                                                            ::GlobalNamespace::OVRAnchor_Tracker* tracker, ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7054 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1655,10 +1655,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd068c, size 0x6b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e088b4, size 0x6b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd0d3c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e08f64, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1680,7 +1680,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7056 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -1737,10 +1737,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd0d78, size 0x920, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e08fa0, size 0x920, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd1698, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e098c0, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1768,7 +1768,7 @@ public:
                                                    ::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -1834,10 +1834,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd16d4, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e098fc, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd19f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e09c18, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1854,7 +1854,7 @@ public:
                                              ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1895,10 +1895,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd19f8, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e09c20, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd1d84, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e09fac, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1917,7 +1917,7 @@ public:
                                                               ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1984,31 +1984,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ConfigureAsync, addr 0x5ccfd54, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureAsync, addr 0x5e07f7c, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ConfigureTrackerResult>>
   ConfigureAsync(::GlobalNamespace::OVRAnchor_TrackerConfiguration configuration);
 
-  /// @brief Method Dispose, addr 0x5cd008c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5e082b4, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FetchTrackablesAsync, addr 0x5ccfe28, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FetchTrackablesAsync, addr 0x5e08050, size 0x1b0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchTrackablesAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
                        ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback);
 
-  /// @brief Method Finalize, addr 0x5ccffd8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5e08200, size 0xb4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::GlobalNamespace::OVRAnchor_Tracker* New_ctor();
 
-  /// @brief Method SetupDynamicObjectTracker, addr 0x5ccfc88, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetupDynamicObjectTracker, addr 0x5e07eb0, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> SetupDynamicObjectTracker(::GlobalNamespace::OVRAnchor_TrackerConfiguration config);
 
-  /// @brief Method <SetupDynamicObjectTracker>g__CreateAndConfigureTrackerAsync|5_1, addr 0x5cd0298, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <SetupDynamicObjectTracker>g__CreateAndConfigureTrackerAsync|5_1, addr 0x5e084c0, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>>
   _SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1(uint64_t tracker, ::GlobalNamespace::OVRAnchor_TrackerConfiguration config);
 
-  /// @brief Method <SetupDynamicObjectTracker>g__SetClassesAsync|5_0, addr 0x5cd0130, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method <SetupDynamicObjectTracker>g__SetClassesAsync|5_0, addr 0x5e08358, size 0x168, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRPlugin_Result>>
   _SetupDynamicObjectTracker_g__SetClassesAsync_5_0(uint64_t tracker, ::GlobalNamespace::OVRAnchor_TrackerConfiguration config);
 
@@ -2030,10 +2030,10 @@ public:
 
   constexpr void __cordl_internal_set__dynamicObjectTracker(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5cd012c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e08354, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Configuration, addr 0x5ccfc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Configuration, addr 0x5e07ea8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor_TrackerConfiguration get_Configuration();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2054,7 +2054,7 @@ public:
   OVRAnchor_Tracker(OVRAnchor_Tracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
 
   /// @brief Field _configuration, offset: 0x10, size: 0x1, def value: None
   ::GlobalNamespace::OVRAnchor_TrackerConfiguration ____configuration;
@@ -2144,44 +2144,44 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRAnchor>*();
 
-  /// @brief Method CreateDeferredSpaceComponentStatusTask, addr 0x5ccce58, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CreateDeferredSpaceComponentStatusTask, addr 0x5e05080, size 0x254, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> CreateDeferredSpaceComponentStatusTask(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType, bool enabledDesired,
                                                                                           double_t timeout);
 
-  /// @brief Method CreateSpatialAnchorAsync, addr 0x5cc9a14, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorAsync, addr 0x5e01c3c, size 0x1a4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> CreateSpatialAnchorAsync(::UnityEngine::Pose trackingSpacePose);
 
-  /// @brief Method CreateSpatialAnchorAsync, addr 0x5cc9bb8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorAsync, addr 0x5e01de0, size 0x174, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> CreateSpatialAnchorAsync(::UnityEngine::Transform* transform, ::UnityEngine::Camera* centerEyeCamera);
 
-  /// @brief Method Dispose, addr 0x5ccc7e8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5e04a10, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals, addr 0x5ccc548, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e04770, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ccc48c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e046b4, size 0xbc, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRAnchor other);
 
-  /// @brief Method EraseAsync, addr 0x5cca5bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EraseAsync, addr 0x5e027e4, size 0x8c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> EraseAsync();
 
-  /// @brief Method EraseAsync, addr 0x5cca8dc, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method EraseAsync, addr 0x5e02b04, size 0x57c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>>
   EraseAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids);
 
-  /// @brief Method EraseSpace, addr 0x5cce08c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method EraseSpace, addr 0x5e062b4, size 0x158, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result EraseSpace(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId);
 
-  /// @brief Method EraseSpacesAsync, addr 0x5cca648, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method EraseSpacesAsync, addr 0x5e02870, size 0x294, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> EraseSpacesAsync(::System::ReadOnlySpan_1<uint64_t> spaces,
                                                                                                                                         ::System::ReadOnlySpan_1<::System::Guid> uuids);
 
-  /// @brief Method FetchAnchors, addr 0x5ccc99c, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchors, addr 0x5e04bc4, size 0x4bc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> FetchAnchors(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                                                ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 queryInfo);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x5cc8d50, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x5e00f78, size 0x1b0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::GlobalNamespace::OVRAnchor_FetchOptions options,
                     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback);
@@ -2191,26 +2191,26 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x5ccdd7c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x5e05fa4, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::GlobalNamespace::OVRPlugin_SpaceComponentType type,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x5ccd59c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x5e057c4, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, double_t timeout);
 
-  /// @brief Method FetchSharedAnchorsAsync, addr 0x5cc9938, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FetchSharedAnchorsAsync, addr 0x5e01b60, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchSharedAnchorsAsync(::System::Guid groupUuid, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* allowedAnchorUuids,
                           ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method FetchSharedAnchorsAsync, addr 0x5cc9864, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method FetchSharedAnchorsAsync, addr 0x5e01a8c, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchSharedAnchorsAsync(::System::Guid groupUuid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method FetchTrackablesAsync, addr 0x5cce744, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method FetchTrackablesAsync, addr 0x5e0696c, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchTrackablesAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
                        ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
@@ -2219,105 +2219,105 @@ public:
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponent();
 
-  /// @brief Method GetHashCode, addr 0x5ccc6fc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e04924, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetRequiredComponents, addr 0x5cce524, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredComponents, addr 0x5e0674c, size 0x220, virtual false, abstract: false, final false
   static inline void GetRequiredComponents(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
                                            ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypesOut,
                                            ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>* requiredComponentsOut);
 
-  /// @brief Method GetSupportedComponents, addr 0x5ccc244, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedComponents, addr 0x5e0446c, size 0x248, virtual false, abstract: false, final false
   inline bool GetSupportedComponents(::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>* components);
 
-  /// @brief Method GetTrackableType, addr 0x5cce250, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GetTrackableType, addr 0x5e06478, size 0x2d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor_TrackableType GetTrackableType();
 
-  /// @brief Method Init, addr 0x5ccc870, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e04a98, size 0xac, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method OnEraseSpacesResult, addr 0x5ccae58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnEraseSpacesResult, addr 0x5e03080, size 0x70, virtual false, abstract: false, final false
   static inline void OnEraseSpacesResult(::GlobalNamespace::OVRDeserialize_SpacesEraseResultData eventData);
 
-  /// @brief Method OnSaveSpacesResult, addr 0x5cca54c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnSaveSpacesResult, addr 0x5e02774, size 0x70, virtual false, abstract: false, final false
   static inline void OnSaveSpacesResult(::GlobalNamespace::OVRDeserialize_SpacesSaveResultData eventData);
 
-  /// @brief Method OnShareAnchorsToGroupsComplete, addr 0x5ccc1a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnShareAnchorsToGroupsComplete, addr 0x5e043d0, size 0x88, virtual false, abstract: false, final false
   static inline void OnShareAnchorsToGroupsComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method OnSpaceDiscoveryComplete, addr 0x5cc84a4, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceDiscoveryComplete, addr 0x5e006cc, size 0x374, virtual false, abstract: false, final false
   static inline void OnSpaceDiscoveryComplete(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryCompleteData data);
 
-  /// @brief Method OnSpaceDiscoveryResultsAvailable, addr 0x5cc89e4, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceDiscoveryResultsAvailable, addr 0x5e00c0c, size 0x360, virtual false, abstract: false, final false
   static inline void OnSpaceDiscoveryResultsAvailable(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryResultsData data);
 
-  /// @brief Method OnSpaceEraseComplete, addr 0x5cce1e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceEraseComplete, addr 0x5e0640c, size 0x6c, virtual false, abstract: false, final false
   static inline void OnSpaceEraseComplete(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData eventData);
 
-  /// @brief Method OnSpaceListSaveResult, addr 0x5cce01c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceListSaveResult, addr 0x5e06244, size 0x70, virtual false, abstract: false, final false
   static inline void OnSpaceListSaveResult(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData eventData);
 
-  /// @brief Method OnSpaceQueryComplete, addr 0x5ccd690, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceQueryComplete, addr 0x5e058b8, size 0x58c, virtual false, abstract: false, final false
   static inline void OnSpaceQueryComplete(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData data);
 
-  /// @brief Method OnSpaceSetComponentStatusComplete, addr 0x5ccd0ac, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceSetComponentStatusComplete, addr 0x5e052d4, size 0x4e0, virtual false, abstract: false, final false
   static inline void OnSpaceSetComponentStatusComplete(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData eventData);
 
-  /// @brief Method SaveAsync, addr 0x5cc9d2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x5e01f54, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> SaveAsync();
 
-  /// @brief Method SaveAsync, addr 0x5cc9fb8, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x5e021e0, size 0x3cc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>>
   SaveAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method SaveSpaceList, addr 0x5ccde70, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SaveSpaceList, addr 0x5e06098, size 0x1ac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result SaveSpaceList(uint64_t* spaces, uint32_t numSpaces, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId);
 
-  /// @brief Method SaveSpacesAsync, addr 0x5cc9db0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SaveSpacesAsync, addr 0x5e01fd8, size 0x208, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> SaveSpacesAsync(::System::ReadOnlySpan_1<uint64_t> spaces);
 
-  /// @brief Method ShareAsync, addr 0x5ccbdd8, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x5e04000, size 0x3d0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>>
   ShareAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Guid groupUuid);
 
-  /// @brief Method ShareAsync, addr 0x5ccb464, size 0x748, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x5e0368c, size 0x748, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>>
   ShareAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users);
 
-  /// @brief Method ShareAsync, addr 0x5ccbbac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x5e03dd4, size 0xa4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> ShareAsync(::System::Guid groupUuid);
 
-  /// @brief Method ShareAsync, addr 0x5ccaec8, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x5e030f0, size 0x458, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>>
   ShareAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users);
 
-  /// @brief Method ShareAsyncInternal, addr 0x5ccbc50, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ShareAsyncInternal, addr 0x5e03e78, size 0x188, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> ShareAsyncInternal(::System::ReadOnlySpan_1<uint64_t> anchors,
                                                                                                                                           ::System::ReadOnlySpan_1<::System::Guid> groupUuids);
 
-  /// @brief Method ShareSpacesAsync, addr 0x5ccb320, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ShareSpacesAsync, addr 0x5e03548, size 0x144, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> ShareSpacesAsync(::System::ReadOnlySpan_1<uint64_t> spaces,
                                                                                                                                         ::System::ReadOnlySpan_1<uint64_t> users);
 
   /// @brief Method SupportsComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool SupportsComponent();
 
-  /// @brief Method ToString, addr 0x5ccc778, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e049a0, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method TryGetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetComponent(::by_ref<T> component);
 
-  /// @brief Method <FetchTrackablesAsync>g__DoesComponentMatchTrackableType|66_1, addr 0x5cced68, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <FetchTrackablesAsync>g__DoesComponentMatchTrackableType|66_1, addr 0x5e06f90, size 0x120, virtual false, abstract: false, final false
   static inline bool _FetchTrackablesAsync_g__DoesComponentMatchTrackableType_66_1(::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
                                                                                    ::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType);
 
-  /// @brief Method <FetchTrackablesAsync>g__QuerySingleComponentAsync|66_0, addr 0x5ccec84, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <FetchTrackablesAsync>g__QuerySingleComponentAsync|66_0, addr 0x5e06eac, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> _FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0(
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
       ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType, ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback);
 
-  /// @brief Method .ctor, addr 0x5cc8d44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e00f6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle, ::System::Guid uuid);
 
   static inline ::GlobalNamespace::OVRAnchor getStaticF_Null();
@@ -2327,10 +2327,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>* getStaticF__typeMap();
 
-  /// @brief Method get_Handle, addr 0x5ccc230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5e04458, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_Uuid, addr 0x5ccc238, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Uuid, addr 0x5e04460, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2339,10 +2339,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRAnchor>* i___System__IEquatable_1___GlobalNamespace__OVRAnchor_();
 
-  /// @brief Method op_Equality, addr 0x5ccc5e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5e04810, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRAnchor lhs, ::GlobalNamespace::OVRAnchor rhs);
 
-  /// @brief Method op_Inequality, addr 0x5ccc670, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5e04898, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRAnchor lhs, ::GlobalNamespace::OVRAnchor rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRAnchor value);
@@ -2361,7 +2361,7 @@ public:
   constexpr OVRAnchor(uint64_t _Handle_k__BackingField, ::System::Guid _Uuid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -2392,10 +2392,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd1dc0, size 0x778, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e09fe8, size 0x778, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd2538, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e0a760, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2421,7 +2421,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -2487,10 +2487,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd2630, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0a858, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd2ad0, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e0acf8, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2508,7 +2508,7 @@ public:
                                                                                ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -2562,7 +2562,7 @@ public:
 
   static inline ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0* New_ctor();
 
-  /// @brief Method <FetchAnchorsAsync>g__execute|0, addr 0x5cd2578, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <FetchAnchorsAsync>g__execute|0, addr 0x5e0a7a0, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> _FetchAnchorsAsync_g__execute_0();
 
   constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* const& __cordl_internal_get_anchors() const;
@@ -2589,7 +2589,7 @@ public:
 
   constexpr void __cordl_internal_set_uuids(::System::Collections::Generic::IEnumerable_1<::System::Guid>* value);
 
-  /// @brief Method .ctor, addr 0x5cd2574, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0a79c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2607,7 +2607,7 @@ public:
   OVRAnchor___c__DisplayClass54_0(OVRAnchor___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
 
   /// @brief Field uuids, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::System::Guid>* ___uuids;
@@ -2645,10 +2645,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd2b0c, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0ad34, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd2eb8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e0b0e0, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2669,7 +2669,7 @@ public:
                                                ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -2730,10 +2730,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd2ef4, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0b11c, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd330c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e0b534, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2756,7 +2756,7 @@ public:
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* __7__wrap1, ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -2812,10 +2812,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd3348, size 0x3b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0b570, size 0x3b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd3700, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e0b928, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2837,7 +2837,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7066 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -2889,10 +2889,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd373c, size 0x9b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0b964, size 0x9b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cd40f4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e0c31c, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2922,7 +2922,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7067 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

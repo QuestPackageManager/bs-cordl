@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo::*)()>(
     &::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58274a0;
+  constexpr static std::size_t addrs = 0x5955aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController___c::*)()>(&::GlobalNamespace::SelectLevelCategoryViewController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58274f8;
+  constexpr static std::size_t addrs = 0x5955b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectLevelCategoryViewController___c*>(), { ".ctor", {}, {} })));
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::HMUI::IconSegmentedControl_DataItem* (::GlobalNamespace::SelectLevelCategoryViewController___c::*)(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo*)>(
         &::GlobalNamespace::SelectLevelCategoryViewController___c::_Setup_b__12_1)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58274fc;
+  constexpr static std::size_t addrs = 0x5955b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory (::GlobalNamespace::SelectLevelCategoryViewController___c::*)(
     ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo*)>(&::GlobalNamespace::SelectLevelCategoryViewController___c::_Setup_b__12_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5827570;
+  constexpr static std::size_t addrs = 0x5955b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController___c__DisplayClass12_0::*)()>(
     &::GlobalNamespace::SelectLevelCategoryViewController___c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58270cc;
+  constexpr static std::size_t addrs = 0x59556d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SelectLevelCategoryViewController___c__DisplayClass12_0::*)(
     ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo*)>(&::GlobalNamespace::SelectLevelCategoryViewController___c__DisplayClass12_0::_Setup_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5827584;
+  constexpr static std::size_t addrs = 0x5955b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5826bac;
+  constexpr static std::size_t addrs = 0x594fd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::remove_didSelectLevelCategoryEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5826c6c;
+  constexpr static std::size_t addrs = 0x59505a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory (::GlobalNamespace::SelectLevelCategoryViewController::*)()>(
     &::GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5826d2c;
+  constexpr static std::size_t addrs = 0x594f0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                       ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::Setup)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x5826d78;
+  constexpr static std::size_t addrs = 0x594f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectLevelCategoryViewController*>(),
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::DidActivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58270d0;
+  constexpr static std::size_t addrs = 0x59556d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectLevelCategoryViewController*>(),
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(bool, bool)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5827180;
+  constexpr static std::size_t addrs = 0x5955788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectLevelCategoryViewController*>(),
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::LevelFilterCategoryIconSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5827230;
+  constexpr static std::size_t addrs = 0x5955838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)()>(&::GlobalNamespace::SelectLevelCategoryViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x582749c;
+  constexpr static std::size_t addrs = 0x5955aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectLevelCategoryViewController*>(), { ".ctor", {}, {} })));

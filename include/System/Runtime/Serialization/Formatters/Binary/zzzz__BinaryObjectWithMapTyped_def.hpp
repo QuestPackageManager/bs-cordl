@@ -72,14 +72,14 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Read, addr 0x5a1d0b8, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b56d88, size 0x2f8, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5a1ceb4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b56b84, size 0x2c, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, ::StringW name, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA,
                   ::ArrayW<::System::Object*> typeInformationA, ::ArrayW<int32_t> memberAssemIds, int32_t assemId);
 
-  /// @brief Method Write, addr 0x5a1cee0, size 0x1d8, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b56bb0, size 0x1d8, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -136,10 +136,10 @@ public:
 
   constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x5a1cea8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b56b78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a1ceac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b56b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
 protected:

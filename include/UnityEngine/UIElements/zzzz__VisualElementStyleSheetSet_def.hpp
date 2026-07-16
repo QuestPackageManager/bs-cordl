@@ -35,22 +35,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*();
 
-  /// @brief Method Add, addr 0x6b756ac, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cc9564, size 0x1ec, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Equals, addr 0x6b75a18, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cc98d0, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b759e8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6cc98a0, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other);
 
-  /// @brief Method GetHashCode, addr 0x6b75ac0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6cc9978, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Remove, addr 0x6b75898, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6cc9750, size 0x150, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method .ctor, addr 0x6b756a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc955c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"

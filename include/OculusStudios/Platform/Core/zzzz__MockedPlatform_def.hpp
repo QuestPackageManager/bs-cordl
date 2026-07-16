@@ -63,13 +63,13 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE MockedPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _entitlements, offset 0x20, size 0x8
+  /// @brief Field _entitlements, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__entitlements, put = __cordl_internal_set__entitlements)) ::OculusStudios::Platform::Core::MockedEntitlements* _entitlements;
 
   /// @brief Field _user, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__user, put = __cordl_internal_set__user)) ::OculusStudios::Platform::Core::MockedPlatformUser* _user;
 
-  /// @brief Field destinationRequestedEvent, offset 0x10, size 0x8
+  /// @brief Field destinationRequestedEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_destinationRequestedEvent,
                       put = __cordl_internal_set_destinationRequestedEvent)) ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* destinationRequestedEvent;
 
@@ -92,27 +92,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ClearRichPresenceStatus, addr 0x5df60a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ClearRichPresenceStatus, addr 0x5f2e198, size 0x4, virtual true, abstract: false, final true
   inline void ClearRichPresenceStatus();
 
-  /// @brief Method Dispose, addr 0x5df6080, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f2e178, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAppVersion, addr 0x5df6088, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetAppVersion, addr 0x5f2e180, size 0x14, virtual true, abstract: false, final true
   inline ::StringW GetAppVersion();
 
-  /// @brief Method GetDestination, addr 0x5df60a4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method GetDestination, addr 0x5f2e19c, size 0x44, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW> GetDestination();
 
   static inline ::OculusStudios::Platform::Core::MockedPlatform* New_ctor();
 
-  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5df5ec4, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f2e1e0, size 0x104, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method SetRichPresenceStatus, addr 0x5df609c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetRichPresenceStatus, addr 0x5f2e194, size 0x4, virtual true, abstract: false, final true
   inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::RichPresenceRuntimeInstance status);
 
-  /// @brief Method Tick, addr 0x5df6084, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x5f2e17c, size 0x4, virtual true, abstract: false, final true
   inline void Tick(float_t deltaTime);
 
   constexpr ::OculusStudios::Platform::Core::MockedEntitlements* const& __cordl_internal_get__entitlements() const;
@@ -133,25 +133,25 @@ public:
 
   constexpr void __cordl_internal_set_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5df60e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_destinationRequestedEvent, addr 0x5df5d44, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_destinationRequestedEvent, addr 0x5f2dff8, size 0xc0, virtual true, abstract: false, final true
   inline void add_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
-  /// @brief Method get_displayName, addr 0x5df5ca4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x5f2df58, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_entitlements, addr 0x5df5d3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_entitlements, addr 0x5f2dff0, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IPlatformEntitlements* get_entitlements();
 
-  /// @brief Method get_key, addr 0x5df5ce8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_key, addr 0x5f2df9c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_key();
 
-  /// @brief Method get_user, addr 0x5df5d34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_user, addr 0x5f2dfe8, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IPlatformUser* get_user();
 
-  /// @brief Method get_vendor, addr 0x5df5d2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_vendor, addr 0x5f2dfe0, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::Vendor get_vendor();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatform"
@@ -163,7 +163,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_destinationRequestedEvent, addr 0x5df5e04, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_destinationRequestedEvent, addr 0x5f2e0b8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
 protected:
@@ -181,25 +181,25 @@ public:
   MockedPlatform(MockedPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22421 };
 
-  /// @brief Field destinationRequestedEvent, offset: 0x10, size: 0x8, def value: None
-  ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* ___destinationRequestedEvent;
+  /// @brief Field _entitlements, offset: 0x10, size: 0x8, def value: None
+  ::OculusStudios::Platform::Core::MockedEntitlements* ____entitlements;
 
   /// @brief Field _user, offset: 0x18, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::MockedPlatformUser* ____user;
 
-  /// @brief Field _entitlements, offset: 0x20, size: 0x8, def value: None
-  ::OculusStudios::Platform::Core::MockedEntitlements* ____entitlements;
+  /// @brief Field destinationRequestedEvent, offset: 0x20, size: 0x8, def value: None
+  ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* ___destinationRequestedEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatform, ___destinationRequestedEvent) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatform, ____entitlements) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatform, ____user) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatform, ____entitlements) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatform, ___destinationRequestedEvent) == 0x20, "Offset mismatch!");
 
 static_assert(sizeof(::OculusStudios::Platform::Core::MockedPlatform) == 0x28, "Size mismatch!");
 

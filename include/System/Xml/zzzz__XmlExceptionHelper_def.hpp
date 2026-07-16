@@ -31,121 +31,121 @@ namespace System::Xml {
 class CORDL_TYPE XmlExceptionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateConversionException, addr 0x5ff0210, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CreateConversionException, addr 0x612b30c, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlException* CreateConversionException(::StringW value, ::StringW type, ::System::Exception* exception);
 
-  /// @brief Method CreateEncodingException, addr 0x5ff0348, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateEncodingException, addr 0x612b444, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlException* CreateEncodingException(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Exception* exception);
 
-  /// @brief Method CreateEncodingException, addr 0x5ff03f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateEncodingException, addr 0x612b4f4, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlException* CreateEncodingException(::StringW value, ::System::Exception* exception);
 
-  /// @brief Method GetName, addr 0x5fef428, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x612a524, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetName(::StringW prefix, ::StringW localName);
 
-  /// @brief Method GetWhatWasFound, addr 0x5fef4ac, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method GetWhatWasFound, addr 0x612a5a8, size 0x480, virtual false, abstract: false, final false
   static inline ::StringW GetWhatWasFound(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowBase64DataExpected, addr 0x5fefc18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowBase64DataExpected, addr 0x612ad14, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowBase64DataExpected(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowConversionOverflow, addr 0x5fefff0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowConversionOverflow, addr 0x612b0ec, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowConversionOverflow(::System::Xml::XmlDictionaryReader* reader, ::StringW value, ::StringW type);
 
-  /// @brief Method ThrowDeclarationNotFirst, addr 0x5fe9d50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowDeclarationNotFirst, addr 0x6124e4c, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowDeclarationNotFirst(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowDuplicateAttribute, addr 0x5fefecc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ThrowDuplicateAttribute, addr 0x612afc8, size 0x84, virtual false, abstract: false, final false
   static inline void ThrowDuplicateAttribute(::System::Xml::XmlDictionaryReader* reader, ::StringW prefix1, ::StringW prefix2, ::StringW localName, ::StringW ns);
 
-  /// @brief Method ThrowDuplicateXmlnsAttribute, addr 0x5fefe18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ThrowDuplicateXmlnsAttribute, addr 0x612af14, size 0xb4, virtual false, abstract: false, final false
   static inline void ThrowDuplicateXmlnsAttribute(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW ns);
 
-  /// @brief Method ThrowEmptyNamespace, addr 0x5ff01c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowEmptyNamespace, addr 0x612b2bc, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowEmptyNamespace(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowEndElementExpected, addr 0x5fef984, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ThrowEndElementExpected, addr 0x612aa80, size 0x64, virtual false, abstract: false, final false
   static inline void ThrowEndElementExpected(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW ns);
 
-  /// @brief Method ThrowInvalidBinaryFormat, addr 0x5feff50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidBinaryFormat, addr 0x612b04c, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowInvalidBinaryFormat(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowInvalidCharRef, addr 0x5fefdc8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidCharRef, addr 0x612aec4, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowInvalidCharRef(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowInvalidRootData, addr 0x5fec54c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidRootData, addr 0x6127648, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowInvalidRootData(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowInvalidXml, addr 0x5feb610, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidXml, addr 0x612670c, size 0xb4, virtual false, abstract: false, final false
   static inline void ThrowInvalidXml(::System::Xml::XmlDictionaryReader* reader, uint8_t b);
 
-  /// @brief Method ThrowMaxArrayLengthExceeded, addr 0x5fefa58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowMaxArrayLengthExceeded, addr 0x612ab54, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowMaxArrayLengthExceeded(::System::Xml::XmlDictionaryReader* reader, int32_t maxArrayLength);
 
-  /// @brief Method ThrowMaxArrayLengthOrMaxItemsQuotaExceeded, addr 0x5fefac8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowMaxArrayLengthOrMaxItemsQuotaExceeded, addr 0x612abc4, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowMaxArrayLengthOrMaxItemsQuotaExceeded(::System::Xml::XmlDictionaryReader* reader, int32_t maxQuota);
 
-  /// @brief Method ThrowMaxBytesPerReadExceeded, addr 0x5feae24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowMaxBytesPerReadExceeded, addr 0x6125f20, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowMaxBytesPerReadExceeded(::System::Xml::XmlDictionaryReader* reader, int32_t maxBytesPerRead);
 
-  /// @brief Method ThrowMaxDepthExceeded, addr 0x5fefb38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowMaxDepthExceeded, addr 0x612ac34, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowMaxDepthExceeded(::System::Xml::XmlDictionaryReader* reader, int32_t maxDepth);
 
-  /// @brief Method ThrowMaxNameTableCharCountExceeded, addr 0x5fefba8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowMaxNameTableCharCountExceeded, addr 0x612aca4, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowMaxNameTableCharCountExceeded(::System::Xml::XmlDictionaryReader* reader, int32_t maxNameTableCharCount);
 
-  /// @brief Method ThrowMaxStringContentLengthExceeded, addr 0x5fef9e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowMaxStringContentLengthExceeded, addr 0x612aae4, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowMaxStringContentLengthExceeded(::System::Xml::XmlDictionaryReader* reader, int32_t maxStringContentLength);
 
-  /// @brief Method ThrowMultipleRootElements, addr 0x5feffa0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowMultipleRootElements, addr 0x612b09c, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowMultipleRootElements(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowProcessingInstructionNotSupported, addr 0x5fe9d00, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowProcessingInstructionNotSupported, addr 0x6124dfc, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowProcessingInstructionNotSupported(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowStartElementExpected, addr 0x5fef92c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowStartElementExpected, addr 0x612aa28, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowStartElementExpected(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowTagMismatch, addr 0x5feb308, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ThrowTagMismatch, addr 0x6126404, size 0x84, virtual false, abstract: false, final false
   static inline void ThrowTagMismatch(::System::Xml::XmlDictionaryReader* reader, ::StringW expectedPrefix, ::StringW expectedLocalName, ::StringW foundPrefix, ::StringW foundLocalName);
 
-  /// @brief Method ThrowTokenExpected, addr 0x5fea388, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowTokenExpected, addr 0x6125484, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowTokenExpected(::System::Xml::XmlDictionaryReader* reader, ::StringW expected, ::StringW found);
 
-  /// @brief Method ThrowTokenExpected, addr 0x5feabfc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowTokenExpected, addr 0x6125cf8, size 0x7c, virtual false, abstract: false, final false
   static inline void ThrowTokenExpected(::System::Xml::XmlDictionaryReader* reader, ::StringW expected, char16_t found);
 
-  /// @brief Method ThrowUndefinedPrefix, addr 0x5fefc70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowUndefinedPrefix, addr 0x612ad6c, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowUndefinedPrefix(::System::Xml::XmlDictionaryReader* reader, ::StringW prefix);
 
-  /// @brief Method ThrowUnexpectedEndElement, addr 0x5fefd78, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowUnexpectedEndElement, addr 0x612ae74, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowUnexpectedEndElement(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowUnexpectedEndOfFile, addr 0x5fefcc8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ThrowUnexpectedEndOfFile, addr 0x612adc4, size 0xb0, virtual false, abstract: false, final false
   static inline void ThrowUnexpectedEndOfFile(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowXmlDictionaryStringIDOutOfRange, addr 0x5ff004c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlDictionaryStringIDOutOfRange, addr 0x612b148, size 0x94, virtual false, abstract: false, final false
   static inline void ThrowXmlDictionaryStringIDOutOfRange(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ThrowXmlDictionaryStringIDUndefinedSession, addr 0x5ff0150, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlDictionaryStringIDUndefinedSession, addr 0x612b24c, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowXmlDictionaryStringIDUndefinedSession(::System::Xml::XmlDictionaryReader* reader, int32_t key);
 
-  /// @brief Method ThrowXmlDictionaryStringIDUndefinedStatic, addr 0x5ff00e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlDictionaryStringIDUndefinedStatic, addr 0x612b1dc, size 0x70, virtual false, abstract: false, final false
   static inline void ThrowXmlDictionaryStringIDUndefinedStatic(::System::Xml::XmlDictionaryReader* reader, int32_t key);
 
-  /// @brief Method ThrowXmlException, addr 0x5fea4d4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlException, addr 0x61255d0, size 0x2cc, virtual false, abstract: false, final false
   static inline void ThrowXmlException(::System::Xml::XmlDictionaryReader* reader, ::System::Xml::XmlException* exception);
 
-  /// @brief Method ThrowXmlException, addr 0x5fef040, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlException, addr 0x612a13c, size 0x14, virtual false, abstract: false, final false
   static inline void ThrowXmlException(::System::Xml::XmlDictionaryReader* reader, ::StringW res);
 
-  /// @brief Method ThrowXmlException, addr 0x5fef054, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlException, addr 0x612a150, size 0x10, virtual false, abstract: false, final false
   static inline void ThrowXmlException(::System::Xml::XmlDictionaryReader* reader, ::StringW res, ::StringW arg1);
 
-  /// @brief Method ThrowXmlException, addr 0x5fef064, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlException, addr 0x612a160, size 0xc, virtual false, abstract: false, final false
   static inline void ThrowXmlException(::System::Xml::XmlDictionaryReader* reader, ::StringW res, ::StringW arg1, ::StringW arg2);
 
-  /// @brief Method ThrowXmlException, addr 0x5fef070, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method ThrowXmlException, addr 0x612a16c, size 0x3b8, virtual false, abstract: false, final false
   static inline void ThrowXmlException(::System::Xml::XmlDictionaryReader* reader, ::StringW res, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
 protected:
@@ -163,7 +163,7 @@ public:
   XmlExceptionHelper(XmlExceptionHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

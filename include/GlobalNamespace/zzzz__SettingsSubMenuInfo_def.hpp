@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x57a09c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a144f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedMenuName, addr 0x57a09b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localizedMenuName, addr 0x5a144e8, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
 
-  /// @brief Method get_viewController, addr 0x57a09b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x5a144e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_viewController();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SettingsSubMenuInfo(SettingsSubMenuInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6420 };
 
   /// @brief Field _viewController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;

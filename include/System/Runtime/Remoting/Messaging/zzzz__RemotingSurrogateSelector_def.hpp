@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
 
-  /// @brief Method GetSurrogate, addr 0x5a0e3b8, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x5b48088, size 0x1a8, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ::by_ref<::System::Runtime::Serialization::ISurrogateSelector*> ssout);
 
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method .ctor, addr 0x5a0e3b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b48084, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* getStaticF__objRefSurrogate();

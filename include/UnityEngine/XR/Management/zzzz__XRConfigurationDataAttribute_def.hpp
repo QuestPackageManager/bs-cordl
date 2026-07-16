@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x688d21c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e4134, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x688d220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e4138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method get_buildSettingsKey, addr 0x688d20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x69e4124, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method get_displayName, addr 0x688d1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x69e4114, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_buildSettingsKey, addr 0x688d214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x69e412c, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
-  /// @brief Method set_displayName, addr 0x688d204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x69e411c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   XRConfigurationDataAttribute(XRConfigurationDataAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22990 };
 
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;

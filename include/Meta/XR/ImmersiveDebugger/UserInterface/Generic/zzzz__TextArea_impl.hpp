@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Text> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::get_Text)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59229b8;
+  constexpr static std::size_t addrs = 0x5a5c0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::Setup)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x59229d0;
+  constexpr static std::size_t addrs = 0x5a5c0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::get_Content)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5922a8c;
+  constexpr static std::size_t addrs = 0x5a5c190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)(::StringW)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::set_Content)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5922ab8;
+  constexpr static std::size_t addrs = 0x5a5c1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::OnTransparencyChanged)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5922bc4;
+  constexpr static std::size_t addrs = 0x5a5c2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::UpdateLayoutSize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5922b54;
+  constexpr static std::size_t addrs = 0x5a5c258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::get_TextAreaHeight)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5922c28;
+  constexpr static std::size_t addrs = 0x5a5c32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::CalculateHeight)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5922c40;
+  constexpr static std::size_t addrs = 0x5a5c344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5922e44;
+  constexpr static std::size_t addrs = 0x5a5c548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea*>(), { ".ctor", {}, {} })));

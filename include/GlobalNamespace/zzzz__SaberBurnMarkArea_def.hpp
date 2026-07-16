@@ -65,6 +65,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE SaberBurnMarkArea : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _aspect, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__aspect, put = __cordl_internal_set__aspect)) float_t _aspect;
+
   /// @brief Field _blackMarkLineRandomOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__blackMarkLineRandomOffset, put = __cordl_internal_set__blackMarkLineRandomOffset)) float_t _blackMarkLineRandomOffset;
 
@@ -74,16 +77,16 @@ public:
   /// @brief Field _burnMarksFadeOutStrength, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__burnMarksFadeOutStrength, put = __cordl_internal_set__burnMarksFadeOutStrength)) float_t _burnMarksFadeOutStrength;
 
-  /// @brief Field _commandBuffers, offset 0xa8, size 0x8
+  /// @brief Field _commandBuffers, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__commandBuffers, put = __cordl_internal_set__commandBuffers)) ::ArrayW<::UnityEngine::Rendering::CommandBuffer*> _commandBuffers;
 
-  /// @brief Field _currentCommandBuffer, offset 0xb0, size 0x8
+  /// @brief Field _currentCommandBuffer, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__currentCommandBuffer, put = __cordl_internal_set__currentCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _currentCommandBuffer;
 
-  /// @brief Field _disableBlitTimer, offset 0xb8, size 0x4
+  /// @brief Field _disableBlitTimer, offset 0xc0, size 0x4
   __declspec(property(get = __cordl_internal_get__disableBlitTimer, put = __cordl_internal_set__disableBlitTimer)) float_t _disableBlitTimer;
 
-  /// @brief Field _fadeOutMaterial, offset 0x70, size 0x8
+  /// @brief Field _fadeOutMaterial, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeOutMaterial, put = __cordl_internal_set__fadeOutMaterial)) ::UnityW<::UnityEngine::Material> _fadeOutMaterial;
 
   /// @brief Field _fadeOutShader, offset 0x38, size 0x8
@@ -92,31 +95,31 @@ public:
   /// @brief Field _fadeOutStrengthShaderPropertyID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__fadeOutStrengthShaderPropertyID, put = setStaticF__fadeOutStrengthShaderPropertyID)) int32_t _fadeOutStrengthShaderPropertyID;
 
-  /// @brief Field _linePoints, offset 0x78, size 0x8
+  /// @brief Field _linePoints, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__linePoints, put = __cordl_internal_set__linePoints)) ::ArrayW<::UnityEngine::Vector3> _linePoints;
 
-  /// @brief Field _lineRenderers, offset 0x88, size 0x8
+  /// @brief Field _lineRenderers, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__lineRenderers, put = __cordl_internal_set__lineRenderers)) ::ArrayW<::UnityW<::UnityEngine::LineRenderer>> _lineRenderers;
 
-  /// @brief Field _prevBurnMarkPos, offset 0x90, size 0x8
+  /// @brief Field _prevBurnMarkPos, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__prevBurnMarkPos, put = __cordl_internal_set__prevBurnMarkPos)) ::ArrayW<::UnityEngine::Vector3> _prevBurnMarkPos;
 
-  /// @brief Field _prevBurnMarkPosValid, offset 0x98, size 0x8
+  /// @brief Field _prevBurnMarkPosValid, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__prevBurnMarkPosValid, put = __cordl_internal_set__prevBurnMarkPosValid)) ::ArrayW<bool> _prevBurnMarkPosValid;
 
   /// @brief Field _random, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
 
-  /// @brief Field _renderMaterial, offset 0x68, size 0x8
+  /// @brief Field _renderMaterial, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__renderMaterial, put = __cordl_internal_set__renderMaterial)) ::UnityW<::UnityEngine::Material> _renderMaterial;
 
-  /// @brief Field _renderTextures, offset 0xa0, size 0x8
+  /// @brief Field _renderTextures, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__renderTextures, put = __cordl_internal_set__renderTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>> _renderTextures;
 
   /// @brief Field _saberBurnMarkLinePrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__saberBurnMarkLinePrefab, put = __cordl_internal_set__saberBurnMarkLinePrefab)) ::UnityW<::UnityEngine::LineRenderer> _saberBurnMarkLinePrefab;
 
-  /// @brief Field _sabers, offset 0x80, size 0x8
+  /// @brief Field _sabers, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__sabers, put = __cordl_internal_set__sabers)) ::ArrayW<::UnityW<::GlobalNamespace::Saber>> _sabers;
 
   /// @brief Field _textureHeight, offset 0x30, size 0x4
@@ -128,26 +131,30 @@ public:
   /// @brief Field kBufferNames, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW> kBufferNames;
 
-  /// @brief Method GetBurnMarkPos, addr 0x584cf4c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x59851a0, size 0x32c, virtual false, abstract: false, final false
   static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<::UnityEngine::Plane> plane, ::UnityEngine::Vector3 bladeBottomPos,
                                     ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method Initialize, addr 0x584bb20, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5983d2c, size 0x7d0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
 
-  /// @brief Method LateUpdate, addr 0x584c684, size 0x8c8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59848d4, size 0x8cc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x584c2ac, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59844fc, size 0x220, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x584c5a8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59847f8, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x584c4cc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x598471c, size 0xdc, virtual false, abstract: false, final false
   inline void OnEnable();
+
+  constexpr float_t const& __cordl_internal_get__aspect() const;
+
+  constexpr float_t& __cordl_internal_get__aspect();
 
   constexpr float_t const& __cordl_internal_get__blackMarkLineRandomOffset() const;
 
@@ -229,6 +236,8 @@ public:
 
   constexpr ::ArrayW<::StringW>& __cordl_internal_get_kBufferNames();
 
+  constexpr void __cordl_internal_set__aspect(float_t value);
+
   constexpr void __cordl_internal_set__blackMarkLineRandomOffset(float_t value);
 
   constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
@@ -269,7 +278,7 @@ public:
 
   constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x584d278, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59854cc, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fadeOutStrengthShaderPropertyID();
@@ -291,7 +300,7 @@ public:
   SaberBurnMarkArea(SaberBurnMarkArea const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
 
   /// @brief Field kBufferCount offset 0xffffffff size 0x4
   static constexpr int32_t kBufferCount{ static_cast<int32_t>(0x2) };
@@ -329,37 +338,40 @@ public:
   /// @brief Field _bounds, offset: 0x50, size: 0x18, def value: None
   ::UnityEngine::Bounds ____bounds;
 
-  /// @brief Field _renderMaterial, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _aspect, offset: 0x68, size: 0x4, def value: None
+  float_t ____aspect;
+
+  /// @brief Field _renderMaterial, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____renderMaterial;
 
-  /// @brief Field _fadeOutMaterial, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _fadeOutMaterial, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fadeOutMaterial;
 
-  /// @brief Field _linePoints, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _linePoints, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ____linePoints;
 
-  /// @brief Field _sabers, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _sabers, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::Saber>> ____sabers;
 
-  /// @brief Field _lineRenderers, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _lineRenderers, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::LineRenderer>> ____lineRenderers;
 
-  /// @brief Field _prevBurnMarkPos, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _prevBurnMarkPos, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ____prevBurnMarkPos;
 
-  /// @brief Field _prevBurnMarkPosValid, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _prevBurnMarkPosValid, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<bool> ____prevBurnMarkPosValid;
 
-  /// @brief Field _renderTextures, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _renderTextures, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>> ____renderTextures;
 
-  /// @brief Field _commandBuffers, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _commandBuffers, offset: 0xb0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::CommandBuffer*> ____commandBuffers;
 
-  /// @brief Field _currentCommandBuffer, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _currentCommandBuffer, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ____currentCommandBuffer;
 
-  /// @brief Field _disableBlitTimer, offset: 0xb8, size: 0x4, def value: None
+  /// @brief Field _disableBlitTimer, offset: 0xc0, size: 0x4, def value: None
   float_t ____disableBlitTimer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -383,28 +395,30 @@ static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____random) == 0x48
 
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____bounds) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderMaterial) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____aspect) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutMaterial) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderMaterial) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____linePoints) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutMaterial) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____sabers) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____linePoints) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____lineRenderers) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____sabers) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPos) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____lineRenderers) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPosValid) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPos) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderTextures) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPosValid) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____commandBuffers) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderTextures) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____currentCommandBuffer) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____commandBuffers) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____disableBlitTimer) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____currentCommandBuffer) == 0xb8, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SaberBurnMarkArea) == 0xc0, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____disableBlitTimer) == 0xc0, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::SaberBurnMarkArea) == 0xc8, "Size mismatch!");
 
 } // namespace GlobalNamespace

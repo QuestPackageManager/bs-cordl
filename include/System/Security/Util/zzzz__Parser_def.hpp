@@ -39,20 +39,20 @@ public:
   /// @brief Field _t, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Security::Util::Tokenizer* _t;
 
-  /// @brief Method DetermineFormat, addr 0x59b69a0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method DetermineFormat, addr 0x5af0670, size 0x188, virtual false, abstract: false, final false
   inline int32_t DetermineFormat(::System::Security::Util::TokenizerStream* stream);
 
-  /// @brief Method GetRequiredSizes, addr 0x59b6478, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredSizes, addr 0x5af0148, size 0x424, virtual false, abstract: false, final false
   inline void GetRequiredSizes(::System::Security::Util::TokenizerStream* stream, ::by_ref<int32_t> index);
 
-  /// @brief Method GetTopElement, addr 0x59b6450, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTopElement, addr 0x5af0120, size 0x28, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetTopElement();
 
   static inline ::System::Security::Util::Parser* New_ctor(::StringW input);
 
   static inline ::System::Security::Util::Parser* New_ctor(::System::Security::Util::Tokenizer* t);
 
-  /// @brief Method ParseContents, addr 0x59b7570, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ParseContents, addr 0x5af1240, size 0x300, virtual false, abstract: false, final false
   inline void ParseContents();
 
   constexpr ::System::Security::SecurityDocument* const& __cordl_internal_get__doc() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Security::Util::Tokenizer* value);
 
-  /// @brief Method .ctor, addr 0x59b7a2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af16fc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
-  /// @brief Method .ctor, addr 0x59b799c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af166c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Util::Tokenizer* t);
 
 protected:

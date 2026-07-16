@@ -29,10 +29,10 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE LeaderboardHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertCharacteristic, addr 0x320d280, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method ConvertCharacteristic, addr 0x32a41f8, size 0x308, virtual false, abstract: false, final false
   static inline ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic ConvertCharacteristic(::StringW characteristicName);
 
-  /// @brief Method ConvertDifficulty, addr 0x320d5c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertDifficulty, addr 0x32a4540, size 0xc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty ConvertDifficulty(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -50,7 +50,7 @@ public:
   LeaderboardHelpers(LeaderboardHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

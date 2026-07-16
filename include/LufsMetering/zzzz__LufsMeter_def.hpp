@@ -48,10 +48,10 @@ public:
 
   static inline ::LufsMetering::LufsMeter___c* New_ctor();
 
-  /// @brief Method <IntegratedLoudness>b__5_0, addr 0x5839590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IntegratedLoudness>b__5_0, addr 0x3268be8, size 0x8, virtual false, abstract: false, final false
   inline float_t _IntegratedLoudness_b__5_0(float_t g, float_t z);
 
-  /// @brief Method .ctor, addr 0x583958c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3268be4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LufsMetering::LufsMeter___c* getStaticF___9();
@@ -77,7 +77,7 @@ public:
   LufsMeter___c(LufsMeter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,18 +103,18 @@ public:
   /// @brief Field _outputDataNative, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__outputDataNative, put = __cordl_internal_set__outputDataNative)) ::ArrayW<::Unity::Collections::NativeArray_1<float_t>> _outputDataNative;
 
-  /// @brief Method AnalyzeClipLoudness, addr 0x5837db8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeClipLoudness, addr 0x3267c14, size 0xc4, virtual false, abstract: false, final false
   inline ::LufsMetering::LoudnessData AnalyzeClipLoudness(::UnityEngine::AudioClip* clip);
 
-  /// @brief Method IntegratedLoudness, addr 0x5837e7c, size 0xe10, virtual false, abstract: false, final false
+  /// @brief Method IntegratedLoudness, addr 0x3267cd8, size 0xe10, virtual false, abstract: false, final false
   inline ::LufsMetering::LoudnessData IntegratedLoudness(::ArrayW<float_t> interleavedData, int32_t numChannels, int32_t rate);
 
-  /// @brief Method MomentaryLoudness, addr 0x5838c9c, size 0x800, virtual false, abstract: false, final false
+  /// @brief Method MomentaryLoudness, addr 0x32658f8, size 0x780, virtual false, abstract: false, final false
   inline float_t MomentaryLoudness(::ArrayW<float_t> interleavedData, int32_t numChannels, int32_t rate);
 
   static inline ::LufsMetering::LufsMeter* New_ctor();
 
-  /// @brief Method SwapData, addr 0x5838c8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SwapData, addr 0x3268ae8, size 0x10, virtual false, abstract: false, final false
   inline void SwapData();
 
   constexpr ::ArrayW<::Unity::Collections::NativeArray_1<float_t>> const& __cordl_internal_get__inputDataNative() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__outputDataNative(::ArrayW<::Unity::Collections::NativeArray_1<float_t>> value);
 
-  /// @brief Method .ctor, addr 0x583949c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3266238, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t> getStaticF__channelGains();
@@ -151,7 +151,7 @@ public:
   LufsMeter(LufsMeter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22596 };
 
   /// @brief Field kBlockSize offset 0xffffffff size 0x4
   static constexpr float_t kBlockSize{ static_cast<float_t>(0.4f) };

@@ -68,7 +68,7 @@ public:
   CollectionExtensions___c__DisplayClass3_0_1(CollectionExtensions___c__DisplayClass3_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9953 };
 
   /// @brief Field serializeElement, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<T, ::StringW>* ___serializeElement;
@@ -104,7 +104,7 @@ public:
   CollectionExtensions(CollectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

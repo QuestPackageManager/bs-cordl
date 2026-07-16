@@ -30,7 +30,7 @@ public:
 
   static inline ::HMUI::Touchable* New_ctor();
 
-  /// @brief Method OnPopulateMesh, addr 0x573c05c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x5883278, size 0x18, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   constexpr float_t const& __cordl_internal_get__skew() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__skew(float_t value);
 
-  /// @brief Method .ctor, addr 0x573bbc4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5882de0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_skew, addr 0x573c054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skew, addr 0x5883270, size 0x8, virtual false, abstract: false, final false
   inline float_t get_skew();
 
 protected:
@@ -60,7 +60,7 @@ public:
   Touchable(Touchable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19165 };
 
   /// @brief Field _skew, offset: 0xa4, size: 0x4, def value: None
   float_t ____skew;

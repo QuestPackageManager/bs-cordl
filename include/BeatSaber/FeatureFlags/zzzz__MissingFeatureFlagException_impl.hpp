@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::MissingFeatureFlagException::*)(::StringW)>(&::BeatSaber::FeatureFlags::MissingFeatureFlagException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x31f5b80;
+  constexpr static std::size_t addrs = 0x328a684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

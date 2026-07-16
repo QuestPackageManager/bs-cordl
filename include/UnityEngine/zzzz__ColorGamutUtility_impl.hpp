@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorPrimaries (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetColorPrimaries)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6933690;
+  constexpr static std::size_t addrs = 0x6a86918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WhitePoint (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetWhitePoint)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69336cc;
+  constexpr static std::size_t addrs = 0x6a86954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TransferFunction (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetTransferFunction)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6933708;
+  constexpr static std::size_t addrs = 0x6a86990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::StaticTree::*)(::ArrayW<int16_t>, ::ArrayW<int32_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x357a144;
+  constexpr static std::size_t addrs = 0x36365fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

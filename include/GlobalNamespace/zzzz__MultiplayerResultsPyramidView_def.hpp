@@ -88,10 +88,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidView* New_ctor();
 
-  /// @brief Method PrespawnAvatars, addr 0x58aac84, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method PrespawnAvatars, addr 0x59dbbac, size 0x3f4, virtual false, abstract: false, final false
   inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* activePlayers);
 
-  /// @brief Method SetupResults, addr 0x58aa668, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method SetupResults, addr 0x59db598, size 0x5f4, virtual false, abstract: false, final false
   inline void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform,
                            ::UnityEngine::Transform* badgeMidTransform);
 
@@ -149,13 +149,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnPointsParent(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x58ac810, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59de284, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeTimelines, addr 0x58ac808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeTimelines, addr 0x59dd848, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> get_badgeTimelines();
 
-  /// @brief Method get_resultAvatarDirectors, addr 0x58ac800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resultAvatarDirectors, addr 0x59dd840, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> get_resultAvatarDirectors();
 
 protected:
@@ -173,7 +173,7 @@ public:
   MultiplayerResultsPyramidView(MultiplayerResultsPyramidView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
 
   /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> ____multiplayerOffsetByLocalPlayerPosition;

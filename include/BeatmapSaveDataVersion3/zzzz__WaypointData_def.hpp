@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x369ef0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375af64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
 
-  /// @brief Method get_layer, addr 0x369eefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x375af54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x369eef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x375af4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
-  /// @brief Method get_offsetDirection, addr 0x369ef04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetDirection, addr 0x375af5c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::OffsetDirection get_offsetDirection();
 
 protected:
@@ -87,7 +87,7 @@ public:
   WaypointData(WaypointData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15343 };
 
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;

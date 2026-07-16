@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithSystemVoipState::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithSystemVoipState::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c9dc30;
+  constexpr static std::size_t addrs = 0x5dd5e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SystemVoipState* (::Oculus::Platform::MessageWithSystemVoipState::*)()>(
     &::Oculus::Platform::MessageWithSystemVoipState::GetSystemVoipState)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ca2c38;
+  constexpr static std::size_t addrs = 0x5ddae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SystemVoipState* (::Oculus::Platform::MessageWithSystemVoipState::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithSystemVoipState::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ca2c7c;
+  constexpr static std::size_t addrs = 0x5ddaea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

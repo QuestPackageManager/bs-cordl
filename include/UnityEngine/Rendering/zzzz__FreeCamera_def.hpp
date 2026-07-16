@@ -79,16 +79,16 @@ public:
 
   static inline ::UnityEngine::Rendering::FreeCamera* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x660a7c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6747ecc, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterInputs, addr 0x660a7c4, size 0x7f8, virtual false, abstract: false, final false
+  /// @brief Method RegisterInputs, addr 0x6747ed0, size 0x7f8, virtual false, abstract: false, final false
   inline void RegisterInputs();
 
-  /// @brief Method Update, addr 0x660b1d0, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x67488dc, size 0x3b8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateInputs, addr 0x660afbc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputs, addr 0x67486c8, size 0x214, virtual false, abstract: false, final false
   inline void UpdateInputs();
 
   constexpr bool const& __cordl_internal_get_fire1() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set_yMoveAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method .ctor, addr 0x660b588, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748c94, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,7 +217,7 @@ public:
   FreeCamera(FreeCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11842 };
 
   /// @brief Field k_MouseSensitivityMultiplier offset 0xffffffff size 0x4
   static constexpr float_t k_MouseSensitivityMultiplier{ static_cast<float_t>(0.01f) };

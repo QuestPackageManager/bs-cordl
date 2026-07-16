@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsDelta::*)(int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t,
                                                                                                            int64_t, int64_t, int64_t)>(&::GlobalNamespace::NetworkStatisticsDelta::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x327cd64;
+  constexpr static std::size_t addrs = 0x333921c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

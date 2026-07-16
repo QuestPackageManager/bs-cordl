@@ -35,36 +35,36 @@ public:
 
   __declspec(property(get = get_top)) float_t top;
 
-  /// @brief Method Equals, addr 0x6ab065c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c04514, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6ab05f8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c044b0, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6ab05b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c04468, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t left, float_t right, float_t top, float_t bottom);
 
   static inline ::UnityEngine::TextCore::Text::Offset getStaticF_k_ZeroOffset();
 
-  /// @brief Method get_bottom, addr 0x6ab0548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottom, addr 0x6c04400, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bottom();
 
-  /// @brief Method get_left, addr 0x6ab0530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6c043e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_left();
 
-  /// @brief Method get_right, addr 0x6ab0538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6c043f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_right();
 
-  /// @brief Method get_top, addr 0x6ab0540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x6c043f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_top();
 
-  /// @brief Method get_zero, addr 0x6ab0550, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x6c04408, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Offset get_zero();
 
-  /// @brief Method op_Equality, addr 0x6ab05bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c04474, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TextCore::Text::Offset lhs, ::UnityEngine::TextCore::Text::Offset rhs);
 
-  /// @brief Method op_Multiply, addr 0x6ab05e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6c0449c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Offset op_Multiply(::UnityEngine::TextCore::Text::Offset a, float_t b);
 
   static inline void setStaticF_k_ZeroOffset(::UnityEngine::TextCore::Text::Offset value);
@@ -78,7 +78,7 @@ public:
   constexpr Offset(float_t m_Left, float_t m_Right, float_t m_Top, float_t m_Bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

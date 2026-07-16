@@ -153,21 +153,21 @@ public:
   /// @brief Field rfc7919_ffdhe8192_p, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rfc7919_ffdhe8192_p, put = setStaticF_rfc7919_ffdhe8192_p)) ::StringW rfc7919_ffdhe8192_p;
 
-  /// @brief Method FromHex, addr 0x362501c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x36e14d4, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromPG, addr 0x36250bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromPG, addr 0x36e1574, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromPG(::StringW hexP, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups* New_ctor();
 
-  /// @brief Method SafePrimeGen2, addr 0x3625170, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x36e1628, size 0x5c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
 
-  /// @brief Method SafePrimeGen2, addr 0x36251cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x36e1684, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int32_t l);
 
-  /// @brief Method .ctor, addr 0x3625678, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e1b30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();

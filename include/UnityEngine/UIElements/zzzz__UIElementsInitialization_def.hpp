@@ -19,10 +19,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIElementsInitialization : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitializeUIElementsManaged, addr 0x6b5c0d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeUIElementsManaged, addr 0x6caff8c, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeUIElementsManaged();
 
-  /// @brief Method RegisterBuiltInPropertyBags, addr 0x6b5c0d8, size 0x15f8, virtual false, abstract: false, final false
+  /// @brief Method RegisterBuiltInPropertyBags, addr 0x6caff90, size 0x15f8, virtual false, abstract: false, final false
   static inline void RegisterBuiltInPropertyBags();
 
 protected:

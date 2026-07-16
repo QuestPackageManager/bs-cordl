@@ -38,7 +38,7 @@ public:
   /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject)) ::System::Object* s_InternalSyncObject;
 
-  /// @brief Method CalculateUtcOffset, addr 0x5b23ee4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method CalculateUtcOffset, addr 0x5c5dbbc, size 0x25c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
 
   /// @brief Method GetDaylightChanges, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -49,20 +49,20 @@ public:
 
   static inline ::System::TimeZone* New_ctor();
 
-  /// @brief Method ToLocalTime, addr 0x5b23dc0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToLocalTime, addr 0x5c5da98, size 0x124, virtual true, abstract: false, final false
   inline ::System::DateTime ToLocalTime(::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x5b23c5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5d934, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeZone* getStaticF_currentTimeZone();
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_CurrentTimeZone, addr 0x5b23c60, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeZone, addr 0x5c5d938, size 0x160, virtual false, abstract: false, final false
   static inline ::System::TimeZone* get_CurrentTimeZone();
 
-  /// @brief Method get_InternalSyncObject, addr 0x5b23bc4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x5c5d89c, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
   static inline void setStaticF_currentTimeZone(::System::TimeZone* value);

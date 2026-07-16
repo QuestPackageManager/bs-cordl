@@ -30,7 +30,7 @@ public:
   constexpr ActivePlayable(::UnityEngine::PlayableSettings _settings_k__BackingField, ::UnityEngine::Playables::PlayableHandle _clipPlayableHandle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

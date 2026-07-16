@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MaterialReference::*)(int32_t, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_SpriteAsset*, ::UnityEngine::Material*, float_t)>(
     &::TMPro::MaterialReference::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67f42b0;
+  constexpr static std::size_t addrs = 0x6932d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::TMPro::MaterialReference>, ::TMPro::TMP_FontAsset*)>(&::TMPro::MaterialReference::Contains)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x67f432c;
+  constexpr static std::size_t addrs = 0x6932e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Material*, ::TMPro::TMP_FontAsset*, ::by_ref<::ArrayW<::TMPro::MaterialReference>>,
                                                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::TMPro::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x67f442c;
+  constexpr static std::size_t addrs = 0x6932f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Material*, ::TMPro::TMP_SpriteAsset*, ::by_ref<::ArrayW<::TMPro::MaterialReference>>,
                                                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::TMPro::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x67f4644;
+  constexpr static std::size_t addrs = 0x6933128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

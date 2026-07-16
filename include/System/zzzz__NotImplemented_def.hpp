@@ -23,7 +23,7 @@ namespace System {
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ByDesignWithMessage, addr 0x6232cc4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ByDesignWithMessage, addr 0x636ddc0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* ByDesignWithMessage(::StringW message);
 
 protected:
@@ -41,7 +41,7 @@ public:
   NotImplemented(NotImplemented const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11027 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

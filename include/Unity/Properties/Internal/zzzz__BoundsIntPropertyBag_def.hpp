@@ -49,21 +49,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6a5d4b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6bb0f8c, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3Int GetValue(::by_ref<::UnityEngine::BoundsInt> container);
 
   static inline ::Unity::Properties::Internal::BoundsIntPropertyBag_PositionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6a5d4bc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6bb0f98, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::BoundsInt> container, ::UnityEngine::Vector3Int value);
 
-  /// @brief Method .ctor, addr 0x6a5d3ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb0ec8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6a5d4a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6bb0f84, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6a5d464, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6bb0f40, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -81,7 +81,7 @@ public:
   BoundsIntPropertyBag_PositionProperty(BoundsIntPropertyBag_PositionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,21 +100,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6a5d514, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6bb0ff0, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3Int GetValue(::by_ref<::UnityEngine::BoundsInt> container);
 
   static inline ::Unity::Properties::Internal::BoundsIntPropertyBag_SizeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6a5d520, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6bb0ffc, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::BoundsInt> container, ::UnityEngine::Vector3Int value);
 
-  /// @brief Method .ctor, addr 0x6a5d428, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb0f04, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6a5d50c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6bb0fe8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6a5d4c8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6bb0fa4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -132,7 +132,7 @@ public:
   BoundsIntPropertyBag_SizeProperty(BoundsIntPropertyBag_SizeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,7 +153,7 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsIntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5c084, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bafb60, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   BoundsIntPropertyBag(BoundsIntPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

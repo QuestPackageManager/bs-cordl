@@ -57,16 +57,16 @@ public:
 
   static inline ::HMUI::ButtonSpriteSwapCapsLockState* New_ctor();
 
-  /// @brief Method OnCapsLockStateChanged, addr 0x573ccb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnCapsLockStateChanged, addr 0x5883ed0, size 0x4, virtual false, abstract: false, final false
   inline void OnCapsLockStateChanged(::HMUI::CapsLockState capsLockState);
 
-  /// @brief Method OnDisable, addr 0x573cc28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5883e44, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x573c9f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5883c14, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateSprites, addr 0x573cad0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateSprites, addr 0x5883cec, size 0x158, virtual false, abstract: false, final false
   inline void UpdateSprites(::HMUI::CapsLockState capsLockState);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>> const& __cordl_internal_get__images() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__uppercaseSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x573ccb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5883ed4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ButtonSpriteSwapCapsLockState(ButtonSpriteSwapCapsLockState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19172 };
 
   /// @brief Field _lowercaseSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____lowercaseSprite;

@@ -52,13 +52,13 @@ public:
   /// @brief Field otherRevVals, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRevVals, put = __cordl_internal_set_otherRevVals)) ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals;
 
-  /// @brief Method GetCrlVals, addr 0x32b95b4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetCrlVals, addr 0x3375a6c, size 0x128, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*> GetCrlVals();
 
-  /// @brief Method GetInstance, addr 0x32b885c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3374d14, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOcspVals, addr 0x32b96dc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetOcspVals, addr 0x3375b94, size 0x128, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*> GetOcspVals();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*> crlVals,
@@ -70,7 +70,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x32b980c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3375cc4, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_crlVals() const;
@@ -91,17 +91,17 @@ public:
 
   constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Esf::OtherRevVals* value);
 
-  /// @brief Method .ctor, addr 0x32b92ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33757a4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*> crlVals, ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*> ocspVals,
                     ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
 
-  /// @brief Method .ctor, addr 0x32b9388, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3375840, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* crlVals, ::System::Collections::IEnumerable* ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
 
-  /// @brief Method .ctor, addr 0x32b88fc, size 0x9f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3374db4, size 0x9f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OtherRevVals, addr 0x32b9804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevVals, addr 0x3375cbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* get_OtherRevVals();
 
 protected:

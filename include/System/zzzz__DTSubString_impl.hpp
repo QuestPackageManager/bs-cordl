@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::DTSubString::*)(int32_t)>(&::System::DTSubString::get_Item)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b047d4;
+  constexpr static std::size_t addrs = 0x5c3e4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DTSubString>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));

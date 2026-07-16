@@ -50,21 +50,21 @@ public:
   /// @brief Field _startColor, offset 0x40, size 0x10
   __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor)) ::UnityEngine::Color _startColor;
 
-  /// @brief Method EndEffect, addr 0x5842530, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x597a1a8, size 0xa8, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor();
 
-  /// @brief Method SetPSStartColor, addr 0x5842350, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetPSStartColor, addr 0x5979fc8, size 0xa8, virtual false, abstract: false, final false
   inline void SetPSStartColor(::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x58422b4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5979f2c, size 0x9c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x5842460, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x597a0d8, size 0xd0, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method Update, addr 0x58423f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x597a070, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x58425d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597a250, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   SliderParticleInteractionEffect(SliderParticleInteractionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5737 };
 
   /// @brief Field _particleSystems, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> ____particleSystems;

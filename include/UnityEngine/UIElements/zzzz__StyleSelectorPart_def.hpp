@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_value)) ::StringW value;
 
-  /// @brief Method CreateClass, addr 0x6b448e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateClass, addr 0x6c98798, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateClass(::StringW className);
 
-  /// @brief Method CreateId, addr 0x6b448f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateId, addr 0x6c987b0, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateId(::StringW Id);
 
-  /// @brief Method CreatePredicate, addr 0x6b44910, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreatePredicate, addr 0x6c987c8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreatePredicate(::System::Object* predicate);
 
-  /// @brief Method ToString, addr 0x6b447c0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c98678, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_type, addr 0x6b43d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6c97c20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorType get_type();
 
-  /// @brief Method get_value, addr 0x6b43d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c97c28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
-  /// @brief Method set_type, addr 0x6b448d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x6c98790, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
 
   // Ctor Parameters []

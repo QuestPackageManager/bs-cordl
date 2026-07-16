@@ -72,10 +72,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x59360dc, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a6f7e0, size 0x32c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x59366cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a6fdd0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -96,7 +96,7 @@ public:
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20710 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -147,10 +147,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x59366d4, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a6fdd8, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5936b80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a70284, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -170,7 +170,7 @@ public:
       ::System::Guid groupUuid, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -235,21 +235,21 @@ public:
   __declspec(property(get = __cordl_internal_get__sharedAnchorManager,
                       put = __cordl_internal_set__sharedAnchorManager)) ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* _sharedAnchorManager;
 
-  /// @brief Method Awake, addr 0x5935a0c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a6f110, size 0xa0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5935f9c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a6f6a0, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnSessionCreated, addr 0x5935e2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnSessionCreated, addr 0x5a6f530, size 0xb8, virtual false, abstract: false, final false
   inline void OnSessionCreated(::System::Guid groupUuid);
 
-  /// @brief Method OnSessionDiscovered, addr 0x5935ee4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnSessionDiscovered, addr 0x5a6f5e8, size 0xb8, virtual false, abstract: false, final false
   inline void OnSessionDiscovered(::System::Guid groupUuid);
 
-  /// @brief Method Start, addr 0x5935aac, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a6f1b0, size 0x29c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_AnchorPrefab() const;
@@ -282,7 +282,7 @@ public:
 
   constexpr void __cordl_internal_set__sharedAnchorManager(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* value);
 
-  /// @brief Method .ctor, addr 0x59360d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6f7dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -300,7 +300,7 @@ public:
   ColocationSessionEventHandler(ColocationSessionEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20712 };
 
   /// @brief Field AnchorPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___AnchorPrefab;

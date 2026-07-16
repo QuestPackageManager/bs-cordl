@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStreamDisposeJob::*)()>(&::Unity::Collections::NativeStreamDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x638185c;
+  constexpr static std::size_t addrs = 0x64be47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStreamDisposeJob>(), { "Execute", {}, {} })));

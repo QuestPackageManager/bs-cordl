@@ -70,7 +70,7 @@ public:
                                                                         ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
                                                                         ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft);
 
-  /// @brief Method OpcodeBacktracks, addr 0x6248534, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OpcodeBacktracks, addr 0x63845d0, size 0x18, virtual false, abstract: false, final false
   static inline bool OpcodeBacktracks(int32_t Op);
 
   constexpr int32_t const& __cordl_internal_get_Anchors() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_TrackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6248464, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6384500, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount, ::System::Collections::Hashtable* caps, int32_t capsize,
                     ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft);
 
@@ -290,7 +290,7 @@ public:
   static constexpr int32_t Testref{ static_cast<int32_t>(0x25) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11086 };
 
   /// @brief Field Codes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___Codes;

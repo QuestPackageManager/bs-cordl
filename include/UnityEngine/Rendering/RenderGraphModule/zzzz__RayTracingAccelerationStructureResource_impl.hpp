@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::GetName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a1424;
+  constexpr static std::size_t addrs = 0x67deb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x66a142c;
+  constexpr static std::size_t addrs = 0x67deb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)(::Org::BouncyCastle::Asn1::DerIA5String*)>(
     &::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3399224;
+  constexpr static std::size_t addrs = 0x34556dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)()>(&::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::ToString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x339925c;
+  constexpr static std::size_t addrs = 0x3455714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*>(),

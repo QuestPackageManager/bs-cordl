@@ -53,37 +53,37 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 class CORDL_TYPE LightmapperUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyColorTemperature, addr 0x69d8664, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyColorTemperature, addr 0x6b2c140, size 0x54, virtual false, abstract: false, final false
   static inline void ApplyColorTemperature(::UnityEngine::Color cct, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::LinearColor> lightColor);
 
-  /// @brief Method Extract, addr 0x69d84a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2bf84, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LightMode Extract(::UnityEngine::LightmapBakeType baketype);
 
-  /// @brief Method Extract, addr 0x69d8f4c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2ca28, size 0x148, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Extract, addr 0x69d86b8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2c194, size 0x19c, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> dir);
 
-  /// @brief Method Extract, addr 0x69d8d98, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2c874, size 0x1b4, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::DiscLight> disc);
 
-  /// @brief Method Extract, addr 0x69d8854, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2c330, size 0x1b4, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight> point);
 
-  /// @brief Method Extract, addr 0x69d8be4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2c6c0, size 0x1b4, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> rect);
 
-  /// @brief Method Extract, addr 0x69d8a08, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2c4e4, size 0x1dc, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight> spot);
 
-  /// @brief Method ExtractColorTemperature, addr 0x69d8590, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ExtractColorTemperature, addr 0x6b2c06c, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ExtractColorTemperature(::UnityEngine::Light* l);
 
-  /// @brief Method ExtractIndirect, addr 0x69d84c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ExtractIndirect, addr 0x6b2bf9c, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor ExtractIndirect(::UnityEngine::Light* l);
 
-  /// @brief Method ExtractInnerCone, addr 0x69d853c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractInnerCone, addr 0x6b2c018, size 0x54, virtual false, abstract: false, final false
   static inline float_t ExtractInnerCone(::UnityEngine::Light* l);
 
 protected:
@@ -101,7 +101,7 @@ public:
   LightmapperUtils(LightmapperUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

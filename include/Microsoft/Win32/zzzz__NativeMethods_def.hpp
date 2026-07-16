@@ -29,30 +29,30 @@ namespace Microsoft::Win32 {
 class CORDL_TYPE NativeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseProcess, addr 0x5ea3ca4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CloseProcess, addr 0x5fdeda0, size 0x60, virtual false, abstract: false, final false
   static inline bool CloseProcess(::System::IntPtr handle);
 
-  /// @brief Method DuplicateHandle, addr 0x5ea394c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x5fdea48, size 0x168, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ::by_ref<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method GetCurrentProcess, addr 0x5ea3ae0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcess, addr 0x5fdebdc, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCurrentProcess();
 
-  /// @brief Method GetCurrentProcessId, addr 0x5ea3ca0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcessId, addr 0x5fded9c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetCurrentProcessId();
 
-  /// @brief Method GetExitCodeProcess, addr 0x5ea3af4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x5fdebf0, size 0xac, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, ::by_ref<int32_t> exitCode);
 
-  /// @brief Method GetExitCodeProcess, addr 0x5ea3af4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x5fdebf0, size 0xac, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(::System::IntPtr processHandle, ::by_ref<int32_t> exitCode);
 
-  /// @brief Method GetProcessTimes, addr 0x5ea3ba8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x5fdeca4, size 0xf8, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, ::by_ref<int64_t> creation, ::by_ref<int64_t> exit, ::by_ref<int64_t> kernel, ::by_ref<int64_t> user);
 
-  /// @brief Method GetProcessTimes, addr 0x5ea3ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x5fdec9c, size 0x8, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(::System::IntPtr handle, ::by_ref<int64_t> creation, ::by_ref<int64_t> exit, ::by_ref<int64_t> kernel, ::by_ref<int64_t> user);
 
 protected:
@@ -70,7 +70,7 @@ public:
   NativeMethods(NativeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

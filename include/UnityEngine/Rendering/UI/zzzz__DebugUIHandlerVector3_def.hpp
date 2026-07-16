@@ -64,58 +64,58 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVector3* New_ctor();
 
-  /// @brief Method Next, addr 0x66c5dbc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x68034c8, size 0xcc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnAction, addr 0x66c5d98, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x68034a4, size 0x24, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDecrement, addr 0x66c5d7c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6803488, size 0x1c, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x66c5d34, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6803440, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnIncrement, addr 0x66c5d60, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x680346c, size 0x1c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x66c5c48, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6803354, size 0xec, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetValue, addr 0x66c5b90, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x680329c, size 0xb8, virtual false, abstract: false, final false
   inline void SetValue(float_t v, bool x, bool y, bool z);
 
-  /// @brief Method SetWidget, addr 0x66c56a4, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6802db0, size 0x3e4, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method SetupSettings, addr 0x66c5a88, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetupSettings, addr 0x6803194, size 0x108, virtual false, abstract: false, final false
   inline void SetupSettings(::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField* field);
 
-  /// @brief Method <SetWidget>b__7_0, addr 0x66c5ea0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <SetWidget>b__7_0, addr 0x68035ac, size 0x60, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__7_0();
 
-  /// @brief Method <SetWidget>b__7_1, addr 0x66c5f00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetWidget>b__7_1, addr 0x680360c, size 0x10, virtual false, abstract: false, final false
   inline void _SetWidget_b__7_1(float_t v);
 
-  /// @brief Method <SetWidget>b__7_2, addr 0x66c5f10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <SetWidget>b__7_2, addr 0x680361c, size 0x68, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__7_2();
 
-  /// @brief Method <SetWidget>b__7_3, addr 0x66c5f78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetWidget>b__7_3, addr 0x6803684, size 0x10, virtual false, abstract: false, final false
   inline void _SetWidget_b__7_3(float_t v);
 
-  /// @brief Method <SetWidget>b__7_4, addr 0x66c5f88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <SetWidget>b__7_4, addr 0x6803694, size 0x68, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__7_4();
 
-  /// @brief Method <SetWidget>b__7_5, addr 0x66c5ff0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetWidget>b__7_5, addr 0x68036fc, size 0x10, virtual false, abstract: false, final false
   inline void _SetWidget_b__7_5(float_t v);
 
-  /// @brief Method <SetupSettings>b__9_0, addr 0x66c6000, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SetupSettings>b__9_0, addr 0x680370c, size 0x18, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__9_0();
 
-  /// @brief Method <SetupSettings>b__9_1, addr 0x66c6018, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SetupSettings>b__9_1, addr 0x6803724, size 0x18, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__9_1();
 
-  /// @brief Method <SetupSettings>b__9_2, addr 0x66c6030, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <SetupSettings>b__9_2, addr 0x680373c, size 0x1c, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__9_2();
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> const& __cordl_internal_get_fieldX() const;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::Rendering::UI::UIFoldout> value);
 
-  /// @brief Method .ctor, addr 0x66c5e88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6803594, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -178,7 +178,7 @@ public:
   DebugUIHandlerVector3(DebugUIHandlerVector3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12518 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

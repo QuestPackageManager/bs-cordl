@@ -9,7 +9,7 @@ namespace GlobalNamespace {
 class IReturnToMenuController;
 }
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class TutorialScenesTransitionSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,24 +26,24 @@ class CORDL_TYPE TutorialReturnToMenuController : public ::UnityEngine::MonoBeha
 public:
   // Declarations
   /// @brief Field _tutorialSceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__tutorialSceneSetupData, put = __cordl_internal_set__tutorialSceneSetupData)) ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>
-      _tutorialSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__tutorialSceneSetupData,
+                      put = __cordl_internal_set__tutorialSceneSetupData)) ::GlobalNamespace::TutorialScenesTransitionSetupData* _tutorialSceneSetupData;
 
   /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
   constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
 
   static inline ::GlobalNamespace::TutorialReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x587d5e4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x59b0aac, size 0x30, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
-  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
+  constexpr ::GlobalNamespace::TutorialScenesTransitionSetupData* const& __cordl_internal_get__tutorialSceneSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialSceneSetupData();
+  constexpr ::GlobalNamespace::TutorialScenesTransitionSetupData*& __cordl_internal_get__tutorialSceneSetupData();
 
-  constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
+  constexpr void __cordl_internal_set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x587d614, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b0adc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -64,10 +64,10 @@ public:
   TutorialReturnToMenuController(TutorialReturnToMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6019 };
 
   /// @brief Field _tutorialSceneSetupData, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____tutorialSceneSetupData;
+  ::GlobalNamespace::TutorialScenesTransitionSetupData* ____tutorialSceneSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

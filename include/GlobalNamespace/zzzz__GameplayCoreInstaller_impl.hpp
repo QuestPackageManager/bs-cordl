@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameplayCoreInstaller.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
-#include "GlobalNamespace/zzzz__PerformanceToolLauncher_impl.hpp"
+#include "BeatSaber/Automation/zzzz__PerformanceToolLauncherOverrideConfig_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
@@ -24,8 +24,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x1db4;
-  constexpr static std::size_t addrs = 0x58c4594;
+  constexpr static std::size_t size = 0x1e10;
+  constexpr static std::size_t addrs = 0x59f5280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58c6348;
+  constexpr static std::size_t addrs = 0x59f7090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreInstaller*>(), { ".ctor", {}, {} })));
@@ -225,15 +225,15 @@ constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__gam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayAdditionalInformationSetupData = value;
 }
-constexpr ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__performanceToolConfig() {
+constexpr ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__performanceToolConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____performanceToolConfig;
 }
-constexpr ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__performanceToolConfig() const {
+constexpr ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__performanceToolConfig() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____performanceToolConfig;
 }
-constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__performanceToolConfig(::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> value) {
+constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__performanceToolConfig(::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____performanceToolConfig = value;
 }

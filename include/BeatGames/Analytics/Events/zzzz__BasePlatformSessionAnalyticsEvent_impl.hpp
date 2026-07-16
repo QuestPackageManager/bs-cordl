@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31c4750;
+  constexpr static std::size_t addrs = 0x3257788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31c4758;
+  constexpr static std::size_t addrs = 0x3257790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x31c4760;
+  constexpr static std::size_t addrs = 0x3257798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*, int32_t)>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x31c477c;
+  constexpr static std::size_t addrs = 0x32577b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31c47bc;
+  constexpr static std::size_t addrs = 0x32577f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31c4ca4;
+  constexpr static std::size_t addrs = 0x3257cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

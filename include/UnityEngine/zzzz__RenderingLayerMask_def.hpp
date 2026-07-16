@@ -29,24 +29,24 @@ public:
   __declspec(property(get = getStaticF__defaultRenderingLayerMask_k__BackingField,
                       put = setStaticF__defaultRenderingLayerMask_k__BackingField)) ::UnityEngine::RenderingLayerMask _defaultRenderingLayerMask_k__BackingField;
 
-  /// @brief Method GetDefinedRenderingLayerNames, addr 0x6982398, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefinedRenderingLayerNames, addr 0x6ad5738, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetDefinedRenderingLayerNames();
 
-  /// @brief Method GetDefinedRenderingLayersCombinedMaskValue, addr 0x6982370, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefinedRenderingLayersCombinedMaskValue, addr 0x6ad5710, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetDefinedRenderingLayersCombinedMaskValue();
 
-  /// @brief Method GetRenderingLayerCount, addr 0x69823c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetRenderingLayerCount, addr 0x6ad5760, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetRenderingLayerCount();
 
-  /// @brief Method NameToRenderingLayer, addr 0x69821dc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method NameToRenderingLayer, addr 0x6ad557c, size 0x158, virtual false, abstract: false, final false
   static inline int32_t NameToRenderingLayer(::StringW layerName);
 
-  /// @brief Method NameToRenderingLayer_Injected, addr 0x6982334, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToRenderingLayer_Injected, addr 0x6ad56d4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToRenderingLayer_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> layerName);
 
   static inline ::UnityEngine::RenderingLayerMask getStaticF__defaultRenderingLayerMask_k__BackingField();
 
-  /// @brief Method op_Implicit, addr 0x69821d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ad5578, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t op_Implicit_uint32_t(::UnityEngine::RenderingLayerMask mask);
 
   static inline void setStaticF__defaultRenderingLayerMask_k__BackingField(::UnityEngine::RenderingLayerMask value);
@@ -59,7 +59,7 @@ public:
   constexpr RenderingLayerMask(uint32_t m_Bits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10264 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

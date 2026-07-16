@@ -2,20 +2,20 @@
 // IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationLog.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationLog_def.hpp"
+#include "BeatSaber/Automation/zzzz__RecPlayBehaviourState_def.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationStats_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__RecPlayBehaviour_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PerformanceConfigurationLog.Create
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask,
-                                                                     ::GlobalNamespace::RecPlayBehaviour_State*, ::GlobalNamespace::PerformanceConfigurationStats*, ::StringW)>(
+                                                                     ::BeatSaber::Automation::RecPlayBehaviourState*, ::GlobalNamespace::PerformanceConfigurationStats*, ::StringW)>(
     &::GlobalNamespace::PerformanceConfigurationLog::Create)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x57d1d74;
+  constexpr static std::size_t addrs = 0x58f15f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::
                                                              { "Create",
                                                                {},
                                                                { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::GlobalNamespace::RecPlayBehaviour_State*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::PerformanceConfigurationStats*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogSystemInfo)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x57d1fd4;
+  constexpr static std::size_t addrs = 0x58f1850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogApplicationInfo)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x57d2584;
+  constexpr static std::size_t addrs = 0x58f1e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogApplicationState)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x57d2b0c;
+  constexpr static std::size_t addrs = 0x58f2388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogGraphicsInfo)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x57d2dbc;
+  constexpr static std::size_t addrs = 0x58f2638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogXrInfo)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x57d2efc;
+  constexpr static std::size_t addrs = 0x58f2778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOvrInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57d3320;
+  constexpr static std::size_t addrs = 0x58f2b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOculusXrInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57d3324;
+  constexpr static std::size_t addrs = 0x58f2ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOpenXrInfo)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x57d3328;
+  constexpr static std::size_t addrs = 0x58f2ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,10 +137,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::
 //  Writing Method size for method: ::GlobalNamespace::PerformanceConfigurationLog.LogSettings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::RecPlayBehaviour_State*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::by_ref<::BeatSaber::Settings::Settings>, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogSettings)> {
   constexpr static std::size_t size = 0xa2c;
-  constexpr static std::size_t addrs = 0x57d3460;
+  constexpr static std::size_t addrs = 0x58f2cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::
                                                              { "LogSettings",
                                                                {},
                                                                { ::i2c::type_of<::System::Text::StringBuilder*>(), ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::RecPlayBehaviour_State*>() } })));
+                                                                 ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
     return ___internal_method;
   }
 };
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogPlayerSettings)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x57d3e8c;
+  constexpr static std::size_t addrs = 0x58f3708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogLevelSettings)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x57d4318;
+  constexpr static std::size_t addrs = 0x58f3b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::PerformanceConfigurationStats*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogDynamicStates)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x57d43ac;
+  constexpr static std::size_t addrs = 0x58f3c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,14 +199,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::
   }
 };
 inline ::StringW GlobalNamespace::PerformanceConfigurationLog::Create(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
-                                                                      ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::RecPlayBehaviour_State* recPlayState,
+                                                                      ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState,
                                                                       ::GlobalNamespace::PerformanceConfigurationStats* stats, ::StringW warning) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationLog*>(),
                                                            { "Create",
                                                              {},
                                                              { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::GlobalNamespace::RecPlayBehaviour_State*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>(),
                                                                ::i2c::type_of<::GlobalNamespace::PerformanceConfigurationStats*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, settings, playerSettings, modifiers, recPlayState, stats, warning);
 }
@@ -252,13 +252,13 @@ inline void GlobalNamespace::PerformanceConfigurationLog::LogOpenXrInfo(::System
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sb);
 }
 inline void GlobalNamespace::PerformanceConfigurationLog::LogSettings(::System::Text::StringBuilder* sb, ::by_ref<::BeatSaber::Settings::Settings> settings,
-                                                                      ::GlobalNamespace::RecPlayBehaviour_State* recPlayState) {
+                                                                      ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationLog*>(),
                                                            { "LogSettings",
                                                              {},
                                                              { ::i2c::type_of<::System::Text::StringBuilder*>(), ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(),
-                                                               ::i2c::type_of<::GlobalNamespace::RecPlayBehaviour_State*>() } })));
+                                                               ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sb, settings, recPlayState);
 }
 inline void GlobalNamespace::PerformanceConfigurationLog::LogPlayerSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::PlayerSpecificSettings* playerSettings) {

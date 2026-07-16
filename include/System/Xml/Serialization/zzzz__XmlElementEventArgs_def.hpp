@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_qnames(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61aad70, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e5e6c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* elem, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
 
 protected:
@@ -92,7 +92,7 @@ public:
   XmlElementEventArgs(XmlElementEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9451 };
 
   /// @brief Field o, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___o;

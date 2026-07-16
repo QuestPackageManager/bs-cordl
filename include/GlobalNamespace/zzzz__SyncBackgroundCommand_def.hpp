@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
   constexpr operator ::GlobalNamespace::IBackgroundCommand*() noexcept;
 
-  /// @brief Method Execute, addr 0x3267320, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x33205d8, size 0x180, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Execute();
 
   /// @brief Method ExecuteInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x32674a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3320758, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_resultTask, addr 0x32672d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_resultTask, addr 0x3320588, size 0x50, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_resultTask();
 
   /// @brief Convert to "::GlobalNamespace::IBackgroundCommand"
@@ -76,7 +76,7 @@ public:
   SyncBackgroundCommand(SyncBackgroundCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20512 };
 
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* ____taskCompletionSource;

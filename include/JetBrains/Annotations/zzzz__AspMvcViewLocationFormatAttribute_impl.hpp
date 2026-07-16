@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce6854;
+  constexpr static std::size_t addrs = 0x6e3ab58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce685c;
+  constexpr static std::size_t addrs = 0x6e3ab60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcViewLocationFormatAttribute*>(), { "get_Format", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::set_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce6864;
+  constexpr static std::size_t addrs = 0x6e3ab68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

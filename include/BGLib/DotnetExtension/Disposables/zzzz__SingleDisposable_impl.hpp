@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IDisposable* (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)()>(
     &::BGLib::DotnetExtension::Disposables::SingleDisposable::get_disposable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3256784;
+  constexpr static std::size_t addrs = 0x330f048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::SingleDisposable*>(), { "get_disposable", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)(::System::IDisposable*)>(
     &::BGLib::DotnetExtension::Disposables::SingleDisposable::set_disposable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x325678c;
+  constexpr static std::size_t addrs = 0x330f050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)()>(&::BGLib::DotnetExtension::Disposables::SingleDisposable::Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3256840;
+  constexpr static std::size_t addrs = 0x330f104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::SingleDisposable*>(), { "Dispose", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)()>(&::BGLib::DotnetExtension::Disposables::SingleDisposable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32568ec;
+  constexpr static std::size_t addrs = 0x330f1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::SingleDisposable*>(), { ".ctor", {}, {} })));

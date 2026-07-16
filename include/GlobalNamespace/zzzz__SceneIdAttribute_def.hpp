@@ -44,22 +44,22 @@ public:
 
   constexpr void __cordl_internal_set__filter(::GlobalNamespace::BeatmapSceneIdFilter value);
 
-  /// @brief Method .ctor, addr 0x32477bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ff2b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapSceneIdFilter filter);
 
-  /// @brief Method get_allowAllScenes, addr 0x3247794, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_allowAllScenes, addr 0x32ff28c, size 0x14, virtual false, abstract: false, final false
   inline bool get_allowAllScenes();
 
-  /// @brief Method get_allowEmpty, addr 0x3247788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmpty, addr 0x32ff280, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEmpty();
 
-  /// @brief Method get_allowEnvironmentScenes, addr 0x324777c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEnvironmentScenes, addr 0x32ff274, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEnvironmentScenes();
 
-  /// @brief Method get_allowGameScenes, addr 0x3247770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowGameScenes, addr 0x32ff268, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowGameScenes();
 
-  /// @brief Method get_onlyAllowEnvironmentScenes, addr 0x32477a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_onlyAllowEnvironmentScenes, addr 0x32ff2a0, size 0x14, virtual false, abstract: false, final false
   inline bool get_onlyAllowEnvironmentScenes();
 
 protected:
@@ -77,7 +77,7 @@ public:
   SceneIdAttribute(SceneIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21469 };
 
   /// @brief Field _filter, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapSceneIdFilter ____filter;

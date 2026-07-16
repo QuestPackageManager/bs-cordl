@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set_filter(::GlobalNamespace::BeatmapLevelOrPackIdFilter value);
 
-  /// @brief Method .ctor, addr 0x368ea0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3749ebc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
-  /// @brief Method get_allowEmpty, addr 0x368e9f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmpty, addr 0x3749ea8, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEmpty();
 
-  /// @brief Method get_allowLevels, addr 0x368e9e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowLevels, addr 0x3749e94, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowLevels();
 
-  /// @brief Method get_allowPacks, addr 0x368e9d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowPacks, addr 0x3749e80, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowPacks();
 
 protected:
@@ -67,7 +67,7 @@ public:
   BeatmapLevelOrPackIdAttribute(BeatmapLevelOrPackIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15144 };
 
   /// @brief Field filter, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapLevelOrPackIdFilter ___filter;

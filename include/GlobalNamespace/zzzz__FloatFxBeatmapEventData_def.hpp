@@ -37,41 +37,41 @@ public:
   /// @brief Field _defaults, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__defaults, put = setStaticF__defaults)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* _defaults;
 
-  /// @brief Field <easeType>k__BackingField, offset 0x40, size 0x4
+  /// @brief Field <easeType>k__BackingField, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__easeType_k__BackingField, put = __cordl_internal_set__easeType_k__BackingField)) ::GlobalNamespace::EaseType _easeType_k__BackingField;
 
-  /// @brief Field <value>k__BackingField, offset 0x3c, size 0x4
+  /// @brief Field <value>k__BackingField, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__value_k__BackingField, put = __cordl_internal_set__value_k__BackingField)) float_t _value_k__BackingField;
 
   __declspec(property(get = get_easeType, put = set_easeType)) ::GlobalNamespace::EaseType easeType;
 
-  /// @brief Field elementId, offset 0x34, size 0x4
+  /// @brief Field elementId, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
 
-  /// @brief Field groupId, offset 0x30, size 0x4
+  /// @brief Field groupId, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   __declspec(property(get = get_nextSameTypeEventData)) ::GlobalNamespace::FloatFxBeatmapEventData* nextSameTypeEventData;
 
   __declspec(property(get = get_previousSameTypeEventData)) ::GlobalNamespace::FloatFxBeatmapEventData* previousSameTypeEventData;
 
-  /// @brief Field usePreviousEventValue, offset 0x38, size 0x1
+  /// @brief Field usePreviousEventValue, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
-  /// @brief Method GetCopy, addr 0x31c6714, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x3259cb0, size 0x94, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x31c67a8, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x3259d44, size 0x13c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method SubtypeIdentifier, addr 0x31c66e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x3259c84, size 0xc, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId);
 
-  /// @brief Method UpdateBy, addr 0x31c66f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateBy, addr 0x3259c90, size 0x20, virtual false, abstract: false, final false
   inline void UpdateBy(::GlobalNamespace::FloatFxBeatmapEventData* other);
 
   constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType_k__BackingField() const;
@@ -104,29 +104,29 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  /// @brief Method .ctor, addr 0x31c6634, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3259bd4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_easeType, addr 0x31c6624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x3259bc4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x31c6598, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x3259b38, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::FloatFxBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x31c651c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x3259abc, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::FloatFxBeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_value, addr 0x31c6614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3259bb4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* value);
 
-  /// @brief Method set_easeType, addr 0x31c662c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x3259bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_value, addr 0x31c661c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x3259bbc, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -144,36 +144,36 @@ public:
   FloatFxBeatmapEventData(FloatFxBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21195 };
 
-  /// @brief Field groupId, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field groupId, offset: 0x38, size: 0x4, def value: None
   int32_t ___groupId;
 
-  /// @brief Field elementId, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field elementId, offset: 0x3c, size: 0x4, def value: None
   int32_t ___elementId;
 
-  /// @brief Field usePreviousEventValue, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field usePreviousEventValue, offset: 0x40, size: 0x1, def value: None
   bool ___usePreviousEventValue;
 
-  /// @brief Field <value>k__BackingField, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field <value>k__BackingField, offset: 0x44, size: 0x4, def value: None
   float_t ____value_k__BackingField;
 
-  /// @brief Field <easeType>k__BackingField, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field <easeType>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ___groupId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ___groupId) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ___elementId) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ___elementId) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ___usePreviousEventValue) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ___usePreviousEventValue) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ____value_k__BackingField) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ____value_k__BackingField) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ____easeType_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxBeatmapEventData, ____easeType_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::FloatFxBeatmapEventData) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::FloatFxBeatmapEventData) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace

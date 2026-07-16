@@ -33,15 +33,15 @@ public:
   /// @brief Field _hapticsClip, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__hapticsClip, put = setStaticF__hapticsClip)) ::GlobalNamespace::OVRHapticsClip* _hapticsClip;
 
-  /// @brief Method Init, addr 0x591dbd8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a572dc, size 0x4c, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button* New_ctor();
 
-  /// @brief Method OnHoverChanged, addr 0x591de00, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnHoverChanged, addr 0x5a57504, size 0x20, virtual true, abstract: false, final false
   inline void OnHoverChanged();
 
-  /// @brief Method OnPointerClick, addr 0x591dd8c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x5a57490, size 0x74, virtual true, abstract: false, final false
   inline void OnPointerClick();
 
   constexpr ::System::Action* const& __cordl_internal_get__Callback_k__BackingField() const;
@@ -50,20 +50,20 @@ public:
 
   constexpr void __cordl_internal_set__Callback_k__BackingField(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x591df58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5765c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHapticsClip* getStaticF__hapticsClip();
 
-  /// @brief Method get_Callback, addr 0x591dd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x5a57480, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_Callback();
 
-  /// @brief Method get_HapticsClip, addr 0x591dc24, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_HapticsClip, addr 0x5a57328, size 0x158, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHapticsClip* get_HapticsClip();
 
   static inline void setStaticF__hapticsClip(::GlobalNamespace::OVRHapticsClip* value);
 
-  /// @brief Method set_Callback, addr 0x591dd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Callback, addr 0x5a57488, size 0x8, virtual false, abstract: false, final false
   inline void set_Callback(::System::Action* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   Button(Button const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18361 };
 
   /// @brief Field <Callback>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ____Callback_k__BackingField;

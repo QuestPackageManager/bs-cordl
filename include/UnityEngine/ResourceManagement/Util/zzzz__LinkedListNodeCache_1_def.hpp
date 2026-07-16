@@ -103,7 +103,7 @@ public:
   LinkedListNodeCache_1(LinkedListNodeCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18723 };
 
   /// @brief Field m_maxNodesAllowed, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_maxNodesAllowed;

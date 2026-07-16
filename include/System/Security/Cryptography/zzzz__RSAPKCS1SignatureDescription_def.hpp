@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__hashAlgorithm(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59cad30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b04a00, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 
 protected:

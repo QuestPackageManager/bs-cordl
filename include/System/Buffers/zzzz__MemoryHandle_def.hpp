@@ -34,13 +34,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5ab7f30, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5bf1c08, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x5ab7f1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf1bf4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
-  /// @brief Method get_Pointer, addr 0x5ab7f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pointer, addr 0x5bf1c00, size 0x8, virtual false, abstract: false, final false
   inline void* get_Pointer();
 
   /// @brief Convert to "::System::IDisposable"

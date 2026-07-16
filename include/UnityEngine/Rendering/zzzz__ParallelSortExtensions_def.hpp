@@ -66,7 +66,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x66f6380, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6833a8c, size 0x68, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -83,7 +83,7 @@ public:
                                                            ::Unity::Collections::NativeArray_1<int32_t> buckets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17769 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -129,13 +129,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method AtomicIncrement, addr 0x66f63e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AtomicIncrement, addr 0x6833af4, size 0x68, virtual false, abstract: false, final false
   static inline int32_t AtomicIncrement(::Unity::Collections::NativeArray_1<int32_t> counter);
 
-  /// @brief Method Execute, addr 0x66f6498, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6833ba4, size 0xec, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
-  /// @brief Method JobIndexPrefixSum, addr 0x66f6450, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method JobIndexPrefixSum, addr 0x6833b5c, size 0x48, virtual false, abstract: false, final false
   inline int32_t JobIndexPrefixSum(int32_t sum, int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -154,7 +154,7 @@ public:
                                                               ::Unity::Collections::NativeArray_1<int32_t> buckets, ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17770 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -210,7 +210,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x66f6584, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6833c90, size 0x78, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -225,7 +225,7 @@ public:
   constexpr ParallelSortExtensions_RadixSortPrefixSumJob(int32_t jobsCount, ::Unity::Collections::NativeArray_1<int32_t> indicesSum, ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -261,7 +261,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x66f65fc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6833d08, size 0x70, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -278,7 +278,7 @@ public:
                                                           ::Unity::Collections::NativeArray_1<int32_t> arraySorted) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17772 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -329,10 +329,10 @@ public:
 
   using RadixSortPrefixSumJob = ::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob;
 
-  /// @brief Method ParallelSort, addr 0x66f5e84, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method ParallelSort, addr 0x6833590, size 0x4e0, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ParallelSort(::Unity::Collections::NativeArray_1<int32_t> array);
 
-  /// @brief Method <ParallelSort>g__Swap|2_0, addr 0x66f6364, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ParallelSort>g__Swap|2_0, addr 0x6833a70, size 0x1c, virtual false, abstract: false, final false
   static inline void _ParallelSort_g__Swap_2_0(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> a, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> b);
 
 protected:
@@ -350,7 +350,7 @@ public:
   ParallelSortExtensions(ParallelSortExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17773 };
 
   /// @brief Field kMinRadixSortArraySize offset 0xffffffff size 0x4
   static constexpr int32_t kMinRadixSortArraySize{ static_cast<int32_t>(0x800) };

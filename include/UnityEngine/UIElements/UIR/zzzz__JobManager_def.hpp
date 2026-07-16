@@ -60,28 +60,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6b84560, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cd8418, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::ConvertMeshJobData> job);
 
-  /// @brief Method Add, addr 0x6b84640, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cd84f8, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::CopyMeshJobData> job);
 
-  /// @brief Method Add, addr 0x6b865c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cda47c, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::NudgeJobData> job);
 
-  /// @brief Method CompleteConvertMeshJobs, addr 0x6b86808, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteConvertMeshJobs, addr 0x6cda6c0, size 0x1e0, virtual false, abstract: false, final false
   inline void CompleteConvertMeshJobs();
 
-  /// @brief Method CompleteCopyMeshJobs, addr 0x6b869e8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteCopyMeshJobs, addr 0x6cda8a0, size 0x1e0, virtual false, abstract: false, final false
   inline void CompleteCopyMeshJobs();
 
-  /// @brief Method CompleteNudgeJobs, addr 0x6b86628, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteNudgeJobs, addr 0x6cda4e0, size 0x1e0, virtual false, abstract: false, final false
   inline void CompleteNudgeJobs();
 
-  /// @brief Method Dispose, addr 0x6b86bd8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cdaa90, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6b86c40, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cdaaf8, size 0xd8, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::JobManager* New_ctor();
@@ -116,16 +116,16 @@ public:
 
   constexpr void __cordl_internal_set_m_NudgeJobs(::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::NudgeJobData>* value);
 
-  /// @brief Method .ctor, addr 0x6b86d18, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdabd0, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6b86bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6cdaa80, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6b86bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6cdaa88, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

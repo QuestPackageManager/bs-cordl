@@ -53,128 +53,128 @@ public:
   /// @brief Field SQLTicksPerSecond, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_SQLTicksPerSecond, put = setStaticF_SQLTicksPerSecond)) int32_t SQLTicksPerSecond;
 
-  /// @brief Method BreakDownXsdDate, addr 0x6054498, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BreakDownXsdDate, addr 0x618f594, size 0x15c, virtual false, abstract: false, final false
   static inline void BreakDownXsdDate(int64_t val, ::by_ref<int32_t> yr, ::by_ref<int32_t> mnth, ::by_ref<int32_t> day, ::by_ref<bool> negTimeZone, ::by_ref<int32_t> hr, ::by_ref<int32_t> min);
 
-  /// @brief Method BreakDownXsdDateTime, addr 0x60542d0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method BreakDownXsdDateTime, addr 0x618f3cc, size 0x1c8, virtual false, abstract: false, final false
   static inline void BreakDownXsdDateTime(int64_t val, ::by_ref<int32_t> yr, ::by_ref<int32_t> mnth, ::by_ref<int32_t> day, ::by_ref<int32_t> hr, ::by_ref<int32_t> min, ::by_ref<int32_t> sec,
                                           ::by_ref<int32_t> ms);
 
-  /// @brief Method BreakDownXsdTime, addr 0x60545f4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BreakDownXsdTime, addr 0x618f6f0, size 0x100, virtual false, abstract: false, final false
   static inline void BreakDownXsdTime(int64_t val, ::by_ref<int32_t> hr, ::by_ref<int32_t> min, ::by_ref<int32_t> sec, ::by_ref<int32_t> ms);
 
-  /// @brief Method GetFractions, addr 0x6055ad8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetFractions, addr 0x6190bd4, size 0x114, virtual false, abstract: false, final false
   static inline int32_t GetFractions(::System::DateTime dt);
 
-  /// @brief Method GetFractions, addr 0x6056038, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetFractions, addr 0x6191134, size 0x140, virtual false, abstract: false, final false
   static inline int32_t GetFractions(::System::DateTimeOffset dt);
 
-  /// @brief Method GetKatmaiDateTicks, addr 0x60550b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetKatmaiDateTicks, addr 0x61901ac, size 0x74, virtual false, abstract: false, final false
   static inline int64_t GetKatmaiDateTicks(::ArrayW<uint8_t> data, ::by_ref<int32_t> pos);
 
-  /// @brief Method GetKatmaiTimeTicks, addr 0x60551bc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetKatmaiTimeTicks, addr 0x61902b8, size 0x22c, virtual false, abstract: false, final false
   static inline int64_t GetKatmaiTimeTicks(::ArrayW<uint8_t> data, ::by_ref<int32_t> pos);
 
-  /// @brief Method GetKatmaiTimeZoneTicks, addr 0x60557dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetKatmaiTimeZoneTicks, addr 0x61908d8, size 0x54, virtual false, abstract: false, final false
   static inline int64_t GetKatmaiTimeZoneTicks(::ArrayW<uint8_t> data, int32_t pos);
 
-  /// @brief Method SqlDateTimeToDateTime, addr 0x6054db8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SqlDateTimeToDateTime, addr 0x618feb4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::DateTime SqlDateTimeToDateTime(int32_t dateticks, uint32_t timeticks);
 
-  /// @brief Method SqlDateTimeToString, addr 0x6054c70, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SqlDateTimeToString, addr 0x618fd6c, size 0x148, virtual false, abstract: false, final false
   static inline ::StringW SqlDateTimeToString(int32_t dateticks, uint32_t timeticks);
 
-  /// @brief Method SqlSmallDateTimeToDateTime, addr 0x6054fb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SqlSmallDateTimeToDateTime, addr 0x61900b0, size 0x78, virtual false, abstract: false, final false
   static inline ::System::DateTime SqlSmallDateTimeToDateTime(int16_t dateticks, uint16_t timeticks);
 
-  /// @brief Method SqlSmallDateTimeToString, addr 0x6054eb4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SqlSmallDateTimeToString, addr 0x618ffb0, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW SqlSmallDateTimeToString(int16_t dateticks, uint16_t timeticks);
 
-  /// @brief Method Write2Dig, addr 0x6053a44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Write2Dig, addr 0x618eb40, size 0x54, virtual false, abstract: false, final false
   static inline void Write2Dig(::System::Text::StringBuilder* sb, int32_t val);
 
-  /// @brief Method Write3Dec, addr 0x6053b48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Write3Dec, addr 0x618ec44, size 0x94, virtual false, abstract: false, final false
   static inline void Write3Dec(::System::Text::StringBuilder* sb, int32_t val);
 
-  /// @brief Method Write4DigNeg, addr 0x6053a98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Write4DigNeg, addr 0x618eb94, size 0xb0, virtual false, abstract: false, final false
   static inline void Write4DigNeg(::System::Text::StringBuilder* sb, int32_t val);
 
-  /// @brief Method WriteDate, addr 0x6053bdc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method WriteDate, addr 0x618ecd8, size 0x100, virtual false, abstract: false, final false
   static inline void WriteDate(::System::Text::StringBuilder* sb, int32_t yr, int32_t mnth, int32_t day);
 
-  /// @brief Method WriteTime, addr 0x6053cdc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method WriteTime, addr 0x618edd8, size 0x144, virtual false, abstract: false, final false
   static inline void WriteTime(::System::Text::StringBuilder* sb, int32_t hr, int32_t min, int32_t sec, int32_t ms);
 
-  /// @brief Method WriteTimeFullPrecision, addr 0x6053e20, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method WriteTimeFullPrecision, addr 0x618ef1c, size 0x23c, virtual false, abstract: false, final false
   static inline void WriteTimeFullPrecision(::System::Text::StringBuilder* sb, int32_t hr, int32_t min, int32_t sec, int32_t fraction);
 
-  /// @brief Method WriteTimeZone, addr 0x60541b4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method WriteTimeZone, addr 0x618f2b0, size 0x11c, virtual false, abstract: false, final false
   static inline void WriteTimeZone(::System::Text::StringBuilder* sb, bool negTimeZone, int32_t hr, int32_t min);
 
-  /// @brief Method WriteTimeZone, addr 0x605405c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method WriteTimeZone, addr 0x618f158, size 0x158, virtual false, abstract: false, final false
   static inline void WriteTimeZone(::System::Text::StringBuilder* sb, ::System::TimeSpan zone);
 
-  /// @brief Method XsdDateTimeToDateTime, addr 0x60547fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method XsdDateTimeToDateTime, addr 0x618f8f8, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdDateTimeToDateTime(int64_t val);
 
-  /// @brief Method XsdDateTimeToString, addr 0x60546f4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method XsdDateTimeToString, addr 0x618f7f0, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW XsdDateTimeToString(int64_t val);
 
-  /// @brief Method XsdDateToDateTime, addr 0x60549a0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method XsdDateToDateTime, addr 0x618fa9c, size 0x150, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdDateToDateTime(int64_t val);
 
-  /// @brief Method XsdDateToString, addr 0x60548b4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method XsdDateToString, addr 0x618f9b0, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW XsdDateToString(int64_t val);
 
-  /// @brief Method XsdKatmaiDateOffsetToDateTime, addr 0x6055450, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateOffsetToDateTime, addr 0x619054c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdKatmaiDateOffsetToDateTime(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateOffsetToDateTimeOffset, addr 0x6055500, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateOffsetToDateTimeOffset, addr 0x61905fc, size 0x68, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset XsdKatmaiDateOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateOffsetToString, addr 0x6055d24, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateOffsetToString, addr 0x6190e20, size 0x154, virtual false, abstract: false, final false
   static inline ::StringW XsdKatmaiDateOffsetToString(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateTimeOffsetToDateTime, addr 0x6055568, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateTimeOffsetToDateTime, addr 0x6190664, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdKatmaiDateTimeOffsetToDateTime(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateTimeOffsetToDateTimeOffset, addr 0x6055618, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateTimeOffsetToDateTimeOffset, addr 0x6190714, size 0xac, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset XsdKatmaiDateTimeOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateTimeOffsetToString, addr 0x6055e78, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateTimeOffsetToString, addr 0x6190f74, size 0x1c0, virtual false, abstract: false, final false
   static inline ::StringW XsdKatmaiDateTimeOffsetToString(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateTimeToDateTime, addr 0x6055124, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateTimeToDateTime, addr 0x6190220, size 0x98, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdKatmaiDateTimeToDateTime(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateTimeToString, addr 0x6055950, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateTimeToString, addr 0x6190a4c, size 0x188, virtual false, abstract: false, final false
   static inline ::StringW XsdKatmaiDateTimeToString(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateToDateTime, addr 0x605502c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateToDateTime, addr 0x6190128, size 0x84, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdKatmaiDateToDateTime(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiDateToString, addr 0x6055830, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiDateToString, addr 0x619092c, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW XsdKatmaiDateToString(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiTimeOffsetToDateTime, addr 0x60556c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiTimeOffsetToDateTime, addr 0x61907c0, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdKatmaiTimeOffsetToDateTime(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiTimeOffsetToDateTimeOffset, addr 0x6055774, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiTimeOffsetToDateTimeOffset, addr 0x6190870, size 0x68, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset XsdKatmaiTimeOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiTimeOffsetToString, addr 0x6056178, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiTimeOffsetToString, addr 0x6191274, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW XsdKatmaiTimeOffsetToString(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiTimeToDateTime, addr 0x60553e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiTimeToDateTime, addr 0x61904e4, size 0x68, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdKatmaiTimeToDateTime(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdKatmaiTimeToString, addr 0x6055bec, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method XsdKatmaiTimeToString, addr 0x6190ce8, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW XsdKatmaiTimeToString(::ArrayW<uint8_t> data, int32_t offset);
 
-  /// @brief Method XsdTimeToDateTime, addr 0x6054bc8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method XsdTimeToDateTime, addr 0x618fcc4, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::DateTime XsdTimeToDateTime(int64_t val);
 
-  /// @brief Method XsdTimeToString, addr 0x6054af0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method XsdTimeToString, addr 0x618fbec, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW XsdTimeToString(int64_t val);
 
   static inline ::ArrayW<int32_t> getStaticF_KatmaiTimeScaleMultiplicator();
@@ -216,7 +216,7 @@ public:
   BinXmlDateTime(BinXmlDateTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

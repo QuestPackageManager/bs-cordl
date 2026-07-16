@@ -70,31 +70,31 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Runtime::Serialization::IDataNode* value);
 
-  /// @brief Method .ctor, addr 0x600fbfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614acf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MemberIndex, addr 0x600fbec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberIndex, addr 0x614ace8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MemberIndex();
 
-  /// @brief Method get_Name, addr 0x600fbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x614acb8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x600fbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x614acc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Value, addr 0x600fbdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x614acd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* get_Value();
 
-  /// @brief Method set_MemberIndex, addr 0x600fbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberIndex, addr 0x614acf0, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberIndex(int32_t value);
 
-  /// @brief Method set_Name, addr 0x600fbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x614acc0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Namespace, addr 0x600fbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x614acd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
-  /// @brief Method set_Value, addr 0x600fbe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x614ace0, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Runtime::Serialization::IDataNode* value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   ExtensionDataMember(ExtensionDataMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17003 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

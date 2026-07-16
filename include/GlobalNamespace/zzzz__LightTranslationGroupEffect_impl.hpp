@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     int32_t, int32_t, bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::LightTranslationGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x585c74c;
+  constexpr static std::size_t addrs = 0x5994cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,119 +232,119 @@ GlobalNamespace::LightTranslationGroupEffect_InitData::New_ctor(int32_t groupId,
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationGroupEffect_InitData::LightTranslationGroupEffect_InitData() {}
-//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::*)()>(
-    &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::*)()>(
+    &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585c558;
+  constexpr static std::size_t addrs = 0x5994c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0._GetTranslationEventHandler_b__0
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0._GetTranslationEventHandler_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::*)(::GlobalNamespace::LightTranslationBeatmapEventData*)>(
-    &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_GetTranslationEventHandler_b__0)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x585c784;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::*)(::GlobalNamespace::LightTranslationBeatmapEventData*)>(
+    &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::_GetTranslationEventHandler_b__0)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x5994d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0*>(),
                                                              { "<GetTranslationEventHandler>b__0", {}, { ::i2c::type_of<::GlobalNamespace::LightTranslationBeatmapEventData*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationTween() {
+constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_translationTween() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationTween;
 }
-constexpr ::Tweening::FloatTween* const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_translationTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationTween;
 }
-constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_translationTween(::Tweening::FloatTween* value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_set_translationTween(::Tweening::FloatTween* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___translationTween = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_translationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_translationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_translationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_set_translationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___translationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_distributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_distributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_distributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_distributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_distributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_set_distributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distributionLimits = value;
 }
-constexpr bool& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_mirrored() {
+constexpr bool& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_mirrored() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrored;
 }
-constexpr bool const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_mirrored() const {
+constexpr bool const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get_mirrored() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrored;
 }
-constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_mirrored(bool value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_set_mirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mirrored = value;
 }
-constexpr ::GlobalNamespace::LightTranslationGroupEffect*& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::LightTranslationGroupEffect*& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::LightTranslationGroupEffect* const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::LightTranslationGroupEffect* const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set___4__this(::GlobalNamespace::LightTranslationGroupEffect* value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::__cordl_internal_set___4__this(::GlobalNamespace::LightTranslationGroupEffect* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-inline void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_ctor() {
+inline void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData) {
+inline void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::_GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0*>(),
                                                            { "<GetTranslationEventHandler>b__0", {}, { ::i2c::type_of<::GlobalNamespace::LightTranslationBeatmapEventData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentEventData);
 }
-inline ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0* GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>());
+inline ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0* GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::LightTranslationGroupEffect___c__DisplayClass12_0() {}
+constexpr ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::LightTranslationGroupEffect___c__DisplayClass14_0() {}
 //  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(::GlobalNamespace::LightTranslationGroupEffect_InitData*,
                                                                                                                 ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::LightTranslationGroupEffect::_ctor)> {
-  constexpr static std::size_t size = 0xc4c;
-  constexpr static std::size_t addrs = 0x585b7b4;
+  constexpr static std::size_t size = 0xc7c;
+  constexpr static std::size_t addrs = 0x5993cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,12 +356,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect.RefreshIfNeeded
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)()>(&::GlobalNamespace::LightTranslationGroupEffect::RefreshIfNeeded)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5994a68;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect*>(), { "RefreshIfNeeded", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect.Cleanup
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)()>(&::GlobalNamespace::LightTranslationGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x585c4f0;
+  constexpr static std::size_t addrs = 0x5994bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect*>(), { "Cleanup", {}, {} })));
@@ -375,7 +387,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
     ::GlobalNamespace::LightTranslationGroupEffect::*)(::Tweening::FloatTween*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::GetTranslationEventHandler)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x585c400;
+  constexpr static std::size_t addrs = 0x5994978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,8 +403,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(float_t)>(&::GlobalNamespace::LightTranslationGroupEffect::SetTranslation)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x585c55c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5994c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightTranslationGroupEffect::SetTweenData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x585c6e0;
+  constexpr static std::size_t addrs = 0x5994c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, ::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::ComputeTranslation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x585c700;
+  constexpr static std::size_t addrs = 0x5994c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -547,6 +559,18 @@ constexpr void GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightTranslationZBeatmapEventCallbackWrapper = value;
 }
+constexpr bool& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__isDirty() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isDirty;
+}
+constexpr bool const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__isDirty() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isDirty;
+}
+constexpr void GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_set__isDirty(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isDirty = value;
+}
 inline void GlobalNamespace::LightTranslationGroupEffect::_ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method =
@@ -556,6 +580,10 @@ inline void GlobalNamespace::LightTranslationGroupEffect::_ctor(::GlobalNamespac
                                                              { ::i2c::type_of<::GlobalNamespace::LightTranslationGroupEffect_InitData*>(), ::i2c::type_of<::Tweening::SongTimeTweeningManager*>(),
                                                                ::i2c::type_of<::GlobalNamespace::BeatmapCallbacksController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initData, tweeningManager, beatmapCallbacksController);
+}
+inline void GlobalNamespace::LightTranslationGroupEffect::RefreshIfNeeded() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect*>(), { "RefreshIfNeeded", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightTranslationGroupEffect::Cleanup() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect*>(), { "Cleanup", {}, {} })));

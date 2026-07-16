@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScaleFunc::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::ScaleFunc::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x666ba68;
+  constexpr static std::size_t addrs = 0x67a9174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::ScaleFunc::*)(::UnityEngine::Vector2Int)>(&::UnityEngine::Rendering::ScaleFunc::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x666bad4;
+  constexpr static std::size_t addrs = 0x67a91e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::UnityEngine::Rendering::ScaleFunc::*)(::UnityEngine::Vector2Int, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::ScaleFunc::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x666bae8;
+  constexpr static std::size_t addrs = 0x67a91f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::ScaleFunc::*)(::System::IAsyncResult*)>(&::UnityEngine::Rendering::ScaleFunc::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x666bb70;
+  constexpr static std::size_t addrs = 0x67a927c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

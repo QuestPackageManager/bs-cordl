@@ -62,7 +62,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::HelpBox_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bf05b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d44470, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x6bf0620, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d444d8, size 0x160, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::HelpBox_UxmlTraits* New_ctor();
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6bf0780, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d44638, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,14 +206,14 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method GetIconClass, addr 0x6bf0234, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetIconClass, addr 0x6d440ec, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetIconClass(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor();
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
-  /// @brief Method UpdateIcon, addr 0x6bf0020, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIcon, addr 0x6d43ed8, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateIcon(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   constexpr ::UnityEngine::UIElements::HelpBoxMessageType const& __cordl_internal_get_m_HelpBoxMessageType() const;
@@ -240,10 +240,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x6bf00c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d43f7c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bf00dc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d43f94, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   static inline ::StringW getStaticF_iconErrorUssClassName();
@@ -262,10 +262,10 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_messageType, addr 0x6beff78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_messageType, addr 0x6d43e30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::HelpBoxMessageType get_messageType();
 
-  /// @brief Method get_text, addr 0x6befe6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6d43d24, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_iconErrorUssClassName(::StringW value);
@@ -284,10 +284,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_messageType, addr 0x6beff80, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_messageType, addr 0x6d43e38, size 0xa0, virtual false, abstract: false, final false
   inline void set_messageType(::UnityEngine::UIElements::HelpBoxMessageType value);
 
-  /// @brief Method set_text, addr 0x6befe8c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6d43d44, size 0xec, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

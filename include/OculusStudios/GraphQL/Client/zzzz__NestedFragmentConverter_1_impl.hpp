@@ -2,9 +2,11 @@
 // IWYU pragma private; include "OculusStudios/GraphQL/Client/NestedFragmentConverter_1.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__NestedFragmentConverter_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JObject_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "OculusStudios/GraphQL/Client/zzzz__IFragment_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename T> inline bool OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::CanConvert(::System::Type* objectType) {
@@ -24,6 +26,14 @@ inline void OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::WriteJ
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
+}
+template <typename T>
+inline ::Newtonsoft::Json::Linq::JObject* OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::MergeFragments(::OculusStudios::GraphQL::Client::IFragment* frag,
+                                                                                                                       ::Newtonsoft::Json::JsonSerializer* serializer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>*>(),
+                                              { "MergeFragments", {}, { ::i2c::type_of<::OculusStudios::GraphQL::Client::IFragment*>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JObject*>(nullptr, ___internal_method, frag, serializer);
 }
 template <typename T> inline void OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>*>(), { ".ctor", {}, {} })));

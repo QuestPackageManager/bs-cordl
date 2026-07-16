@@ -52,23 +52,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x5fad598, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60e8694, size 0x14c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5fad6e4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60e87e0, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x5fad594, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x60e8690, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x5fad9d0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60e8acc, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x5fad76c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e8868, size 0x264, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::RangeConditionHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set__EntityTag_k__BackingField(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method .ctor, addr 0x5fad4a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e859c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor, addr 0x5fad504, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e8600, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method get_Date, addr 0x5fad55c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x60e8658, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method get_EntityTag, addr 0x5fad584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EntityTag, addr 0x60e8680, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Date, addr 0x5fad570, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x60e866c, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method set_EntityTag, addr 0x5fad58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EntityTag, addr 0x60e8688, size 0x8, virtual false, abstract: false, final false
   inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   RangeConditionHeaderValue(RangeConditionHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20305 };
 
   /// @brief Field <Date>k__BackingField, offset: 0x10, size: 0x18, def value: None
   ::System::Nullable_1<::System::DateTimeOffset> ____Date_k__BackingField;

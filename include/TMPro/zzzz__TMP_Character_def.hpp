@@ -34,16 +34,16 @@ public:
 
   static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x6805c94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6944778, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6805cd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69447b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x6805ca8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694478c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x6805d00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69447e4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -61,7 +61,7 @@ public:
   TMP_Character(TMP_Character const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

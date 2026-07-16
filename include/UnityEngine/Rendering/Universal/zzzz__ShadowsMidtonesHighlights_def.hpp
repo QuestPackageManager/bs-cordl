@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x673b5ec, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6879f68, size 0xac, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x673b698, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x687a014, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights* New_ctor();
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_shadowsStart(::UnityEngine::Rendering::MinFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x673b6a0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687a01c, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -123,7 +123,7 @@ public:
   ShadowsMidtonesHighlights(ShadowsMidtonesHighlights const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12783 };
 
   /// @brief Field shadows, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::Vector4Parameter* ___shadows;

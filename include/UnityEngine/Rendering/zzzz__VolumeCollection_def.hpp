@@ -44,10 +44,10 @@ public:
   /// @brief Field m_Volumes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Volumes, put = __cordl_internal_set_m_Volumes)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Volume>>* m_Volumes;
 
-  /// @brief Method ChangeLayer, addr 0x6687c18, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ChangeLayer, addr 0x67c5324, size 0xfc, virtual false, abstract: false, final false
   inline bool ChangeLayer(::UnityEngine::Rendering::Volume* volume, int32_t previousLayerIndex, int32_t currentLayerIndex);
 
-  /// @brief Method GrabVolumes, addr 0x6687e4c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GrabVolumes, addr 0x67c5558, size 0x2d0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Volume>>* GrabVolumes(::UnityEngine::LayerMask mask);
 
   /// @brief Method IsComponentActiveInMask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -55,16 +55,16 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeCollection* New_ctor();
 
-  /// @brief Method Register, addr 0x668752c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x67c4c38, size 0x330, virtual false, abstract: false, final false
   inline bool Register(::UnityEngine::Rendering::Volume* volume, int32_t layer);
 
-  /// @brief Method SetLayerIndexDirty, addr 0x668785c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SetLayerIndexDirty, addr 0x67c4f68, size 0x178, virtual false, abstract: false, final false
   inline void SetLayerIndexDirty(int32_t layerIndex);
 
-  /// @brief Method SortByPriority, addr 0x6687d14, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SortByPriority, addr 0x67c5420, size 0x138, virtual false, abstract: false, final false
   static inline void SortByPriority(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Volume>>* volumes);
 
-  /// @brief Method Unregister, addr 0x66879d4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x67c50e0, size 0x244, virtual false, abstract: false, final false
   inline bool Unregister(::UnityEngine::Rendering::Volume* volume, int32_t layer);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>* const& __cordl_internal_get_m_SortNeeded() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Volumes(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Volume>>* value);
 
-  /// @brief Method .ctor, addr 0x668811c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c5828, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_count, addr 0x66874dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x67c4be8, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_count();
 
 protected:
@@ -108,7 +108,7 @@ public:
   VolumeCollection(VolumeCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12295 };
 
   /// @brief Field k_MaxLayerCount offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxLayerCount{ static_cast<int32_t>(0x20) };

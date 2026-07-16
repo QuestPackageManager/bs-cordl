@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Linq::Expressions::Expression*> (*)(
     ::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::BlockExpression*)>(&::System::Dynamic::Utils::ExpressionVisitorUtils::VisitBlockExpressions)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5e894d4;
+  constexpr static std::size_t addrs = 0x5fc45d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Linq::Expressions::ParameterExpression*> (*)(
     ::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::IParameterProvider*, ::StringW)>(&::System::Dynamic::Utils::ExpressionVisitorUtils::VisitParameters)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5e89670;
+  constexpr static std::size_t addrs = 0x5fc476c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::ExpressionVisitorUtils*>(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Linq::Expressions::Expression*> (*)(
     ::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::IArgumentProvider*)>(&::System::Dynamic::Utils::ExpressionVisitorUtils::VisitArguments)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5e89924;
+  constexpr static std::size_t addrs = 0x5fc4a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

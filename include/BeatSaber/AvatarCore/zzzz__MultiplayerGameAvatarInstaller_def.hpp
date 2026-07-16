@@ -25,7 +25,7 @@ public:
   /// @brief Field _connectedPlayer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
-  /// @brief Method InstallBindings, addr 0x31d7ec8, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x326f2d8, size 0x2d4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x31d819c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326f5ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   MultiplayerGameAvatarInstaller(MultiplayerGameAvatarInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21617 };
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;

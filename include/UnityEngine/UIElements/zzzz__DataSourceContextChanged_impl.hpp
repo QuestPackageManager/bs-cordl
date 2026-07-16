@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>, ::by_ref<::UnityEngine::UIElements::DataSourceContext>,
     ::by_ref<::UnityEngine::UIElements::DataSourceContext>)>(&::UnityEngine::UIElements::DataSourceContextChanged::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6aedf94;
+  constexpr static std::size_t addrs = 0x6c41e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

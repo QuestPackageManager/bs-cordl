@@ -44,14 +44,14 @@ public:
   /// @brief Field otherRevRefs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRevRefs, put = __cordl_internal_set_otherRevRefs)) ::Org::BouncyCastle::Asn1::Asn1Object* otherRevRefs;
 
-  /// @brief Method GetInstance, addr 0x32b4e84, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x337133c, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevRefs);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x32b7840, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3373cf8, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_otherRevRefType() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_otherRevRefs(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x32b7798, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3373c50, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevRefs);
 
-  /// @brief Method .ctor, addr 0x32b759c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3373a54, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OtherRevRefType, addr 0x32b7830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevRefType, addr 0x3373ce8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OtherRevRefType();
 
-  /// @brief Method get_OtherRevRefsObject, addr 0x32b7838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevRefsObject, addr 0x3373cf0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_OtherRevRefsObject();
 
 protected:

@@ -23,13 +23,13 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE SafeHandleAccess {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x6c656ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6db9564, size 0x10, virtual false, abstract: false, final false
   inline bool IsNull();
 
-  /// @brief Method .ctor, addr 0x6c656a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db955c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method op_Implicit, addr 0x6c656bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6db9574, size 0x40, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Implicit___System__IntPtr(::UnityEngine::UIElements::SafeHandleAccess a);
 
   // Ctor Parameters []

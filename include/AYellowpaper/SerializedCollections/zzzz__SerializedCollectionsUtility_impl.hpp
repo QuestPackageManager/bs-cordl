@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::AYellowpaper::SerializedCollections::SerializedCollectionsUtility::IsValidKey)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x31c4108;
+  constexpr static std::size_t addrs = 0x3257140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

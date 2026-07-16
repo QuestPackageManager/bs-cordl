@@ -32,15 +32,15 @@ public:
                       put = __cordl_internal_set__CameraAlignmentAnchor_k__BackingField)) ::UnityW<::GlobalNamespace::OVRSpatialAnchor>
       _CameraAlignmentAnchor_k__BackingField;
 
-  /// @brief Method Align, addr 0x593eacc, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Align, addr 0x5a781d0, size 0x200, virtual false, abstract: false, final false
   inline void Align(::UnityEngine::Transform* anchorTransform);
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor* New_ctor();
 
-  /// @brief Method RealignToAnchor, addr 0x5936b54, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RealignToAnchor, addr 0x5a70258, size 0x2c, virtual false, abstract: false, final false
   inline void RealignToAnchor();
 
-  /// @brief Method Update, addr 0x593eac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a781cc, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::OVRSpatialAnchor> const& __cordl_internal_get__CameraAlignmentAnchor_k__BackingField() const;
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__CameraAlignmentAnchor_k__BackingField(::UnityW<::GlobalNamespace::OVRSpatialAnchor> value);
 
-  /// @brief Method .ctor, addr 0x593eccc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a783d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CameraAlignmentAnchor, addr 0x593eab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CameraAlignmentAnchor, addr 0x5a781bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRSpatialAnchor> get_CameraAlignmentAnchor();
 
-  /// @brief Method set_CameraAlignmentAnchor, addr 0x593eac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CameraAlignmentAnchor, addr 0x5a781c4, size 0x8, virtual false, abstract: false, final false
   inline void set_CameraAlignmentAnchor(::GlobalNamespace::OVRSpatialAnchor* value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   AlignCameraToAnchor(AlignCameraToAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20758 };
 
   /// @brief Field <CameraAlignmentAnchor>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSpatialAnchor> ____CameraAlignmentAnchor_k__BackingField;

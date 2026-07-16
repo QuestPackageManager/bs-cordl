@@ -56,25 +56,25 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ce67d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3aadc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Editable, addr 0x6ce67b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x6e3aabc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
-  /// @brief Method get_Expression, addr 0x6ce67a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x6e3aaac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_Target, addr 0x6ce67c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x6e3aacc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Editable, addr 0x6ce67c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x6e3aac4, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method set_Expression, addr 0x6ce67b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x6e3aab4, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Target, addr 0x6ce67d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x6e3aad4, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   MacroAttribute(MacroAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22511 };
 
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Expression_k__BackingField;

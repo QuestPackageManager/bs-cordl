@@ -28,21 +28,21 @@ public:
 
   __declspec(property(get = get_maxHeight, put = set_maxHeight)) float_t maxHeight;
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x3269dd0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x3323ea8, size 0x28, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x3269df8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x3323ed0, size 0x10, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::GlobalNamespace::MaxHeightVerticalLayoutGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x3269e08, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x3323ee0, size 0x24, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x3269e98, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x3323f70, size 0x24, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method SetMaxWidthAndHeight, addr 0x3269e2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetMaxWidthAndHeight, addr 0x3323f04, size 0x6c, virtual false, abstract: false, final false
   inline void SetMaxWidthAndHeight();
 
   constexpr float_t const& __cordl_internal_get__maxHeight() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__useMaxHeight(bool value);
 
-  /// @brief Method .ctor, addr 0x3269ebc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3323f94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxHeight, addr 0x3269dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x3323e98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxHeight();
 
-  /// @brief Method set_maxHeight, addr 0x3269dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxHeight, addr 0x3323ea0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxHeight(float_t value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   MaxHeightVerticalLayoutGroup(MaxHeightVerticalLayoutGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20533 };
 
   /// @brief Field _useMaxHeight, offset: 0x6b, size: 0x1, def value: None
   bool ____useMaxHeight;

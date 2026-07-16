@@ -36,7 +36,7 @@ public:
   constexpr BindingsAllocator_NativeOwnedMemory(void* data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10442 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -61,13 +61,13 @@ public:
   // Declarations
   using NativeOwnedMemory = ::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory;
 
-  /// @brief Method Free, addr 0x69a832c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6afba0c, size 0x3c, virtual false, abstract: false, final false
   static inline void Free(void* ptr);
 
-  /// @brief Method FreeNativeOwnedMemory, addr 0x69a8368, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeNativeOwnedMemory, addr 0x6afba48, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeNativeOwnedMemory(void* ptr);
 
-  /// @brief Method GetNativeOwnedDataPointer, addr 0x69a83a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNativeOwnedDataPointer, addr 0x6afba84, size 0x14, virtual false, abstract: false, final false
   static inline void* GetNativeOwnedDataPointer(void* ptr);
 
 protected:
@@ -85,7 +85,7 @@ public:
   BindingsAllocator(BindingsAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

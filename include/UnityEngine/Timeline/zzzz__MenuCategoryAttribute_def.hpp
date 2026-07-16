@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_category(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6887164, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c5c48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
 protected:
@@ -49,7 +49,7 @@ public:
   MenuCategoryAttribute(MenuCategoryAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19076 };
 
   /// @brief Field category, offset: 0x10, size: 0x8, def value: None
   ::StringW ___category;

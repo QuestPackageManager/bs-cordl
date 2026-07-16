@@ -185,7 +185,7 @@ public:
   CoreUtils_Sections(CoreUtils_Sections const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12247 };
 
   /// @brief Field section1 offset 0xffffffff size 0x4
   static constexpr int32_t section1{ static_cast<int32_t>(0x2710) };
@@ -239,7 +239,7 @@ public:
   CoreUtils_Priorities(CoreUtils_Priorities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12248 };
 
   /// @brief Field assetsCreateRenderingMenuPriority offset 0xffffffff size 0x4
   static constexpr int32_t assetsCreateRenderingMenuPriority{ static_cast<int32_t>(0x134) };
@@ -278,10 +278,10 @@ public:
 
   static inline ::UnityEngine::Rendering::CoreUtils___c* New_ctor();
 
-  /// @brief Method <GetAllAssemblyTypes>b__97_0, addr 0x667f748, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <GetAllAssemblyTypes>b__97_0, addr 0x67bce54, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _GetAllAssemblyTypes_b__97_0(::System::Reflection::Assembly* t);
 
-  /// @brief Method .ctor, addr 0x667f744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67bce50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::CoreUtils___c* getStaticF___9();
@@ -307,7 +307,7 @@ public:
   CoreUtils___c(CoreUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -361,7 +361,7 @@ public:
   CoreUtils___c__98_1(CoreUtils___c__98_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -415,298 +415,298 @@ public:
   /// @brief Field upVectorList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_upVectorList, put = setStaticF_upVectorList)) ::ArrayW<::UnityEngine::Vector3> upVectorList;
 
-  /// @brief Method AreAnimatedMaterialsEnabled, addr 0x667f190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AreAnimatedMaterialsEnabled, addr 0x67bc89c, size 0x8, virtual false, abstract: false, final false
   static inline bool AreAnimatedMaterialsEnabled(::UnityEngine::Camera* camera);
 
-  /// @brief Method ArePostProcessesEnabled, addr 0x667f188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ArePostProcessesEnabled, addr 0x67bc894, size 0x8, virtual false, abstract: false, final false
   static inline bool ArePostProcessesEnabled(::UnityEngine::Camera* camera);
 
-  /// @brief Method CalculateViewSpaceCorners, addr 0x667f344, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CalculateViewSpaceCorners, addr 0x67bca50, size 0x21c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> CalculateViewSpaceCorners(::UnityEngine::Matrix4x4 proj, float_t z);
 
-  /// @brief Method ClearCubemap, addr 0x667e0f0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ClearCubemap, addr 0x67bb7fc, size 0x1bc, virtual false, abstract: false, final false
   static inline void ClearCubemap(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::Color clearColor, bool clearMips);
 
-  /// @brief Method ClearRenderTarget, addr 0x667bd7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ClearRenderTarget, addr 0x67b9488, size 0x8c, virtual false, abstract: false, final false
   static inline void ClearRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method ConvertLinearToActiveColorSpace, addr 0x667e81c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConvertLinearToActiveColorSpace, addr 0x67bbf28, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ConvertLinearToActiveColorSpace(::UnityEngine::Color color);
 
-  /// @brief Method ConvertSRGBToActiveColorSpace, addr 0x667e748, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConvertSRGBToActiveColorSpace, addr 0x67bbe54, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ConvertSRGBToActiveColorSpace(::UnityEngine::Color color);
 
-  /// @brief Method CreateCubeMesh, addr 0x667edd8, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeMesh, addr 0x67bc4e4, size 0x3b0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CreateCubeMesh(::UnityEngine::Vector3 min, ::UnityEngine::Vector3 max);
 
-  /// @brief Method CreateEngineMaterial, addr 0x6675cfc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateEngineMaterial, addr 0x67b3408, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateEngineMaterial(::UnityEngine::Shader* shader);
 
-  /// @brief Method CreateEngineMaterial, addr 0x667e8f0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CreateEngineMaterial, addr 0x67bbffc, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateEngineMaterial(::StringW shaderPath);
 
-  /// @brief Method Destroy, addr 0x6668514, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x67a5c20, size 0x8c, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method DivRoundUp, addr 0x667f2f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivRoundUp, addr 0x67bc9fc, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DivRoundUp(int32_t value, int32_t divisor);
 
-  /// @brief Method DrawFullScreen, addr 0x667e4c0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DrawFullScreen, addr 0x67bbbcc, size 0xec, virtual false, abstract: false, final false
   static inline void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                     ::UnityEngine::Rendering::RenderTargetIdentifier depthStencilBuffer, ::UnityEngine::MaterialPropertyBlock* properties, int32_t shaderPassId);
 
-  /// @brief Method DrawFullScreen, addr 0x667e3e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DrawFullScreen, addr 0x67bbaf4, size 0xd8, virtual false, abstract: false, final false
   static inline void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                     ::UnityEngine::MaterialPropertyBlock* properties, int32_t shaderPassId);
 
-  /// @brief Method DrawFullScreen, addr 0x667e5ac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DrawFullScreen, addr 0x67bbcb8, size 0xe0, virtual false, abstract: false, final false
   static inline void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                     ::UnityEngine::Rendering::RenderTargetIdentifier depthStencilBuffer, ::UnityEngine::MaterialPropertyBlock* properties, int32_t shaderPassId);
 
-  /// @brief Method DrawFullScreen, addr 0x667e68c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DrawFullScreen, addr 0x67bbd98, size 0xbc, virtual false, abstract: false, final false
   static inline void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                     ::UnityEngine::MaterialPropertyBlock* properties, int32_t shaderPassId);
 
-  /// @brief Method DrawFullScreen, addr 0x667e2ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DrawFullScreen, addr 0x67bb9b8, size 0xb0, virtual false, abstract: false, final false
   static inline void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::MaterialPropertyBlock* properties, int32_t shaderPassId);
 
-  /// @brief Method DrawFullScreen, addr 0x667e35c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DrawFullScreen, addr 0x67bba68, size 0x8c, virtual false, abstract: false, final false
   static inline void DrawFullScreen(::UnityEngine::Rendering::RasterCommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::MaterialPropertyBlock* properties,
                                     int32_t shaderPassId);
 
-  /// @brief Method DrawRendererList, addr 0x667f1c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DrawRendererList, addr 0x67bc8cc, size 0x38, virtual false, abstract: false, final false
   static inline void DrawRendererList(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                       ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method FixupDepthSlice, addr 0x667be08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FixupDepthSlice, addr 0x67b9514, size 0x44, virtual false, abstract: false, final false
   static inline int32_t FixupDepthSlice(int32_t depthSlice, ::UnityEngine::Rendering::RTHandle* buffer);
 
-  /// @brief Method FixupDepthSlice, addr 0x667be4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FixupDepthSlice, addr 0x67b9558, size 0x14, virtual false, abstract: false, final false
   static inline int32_t FixupDepthSlice(int32_t depthSlice, ::UnityEngine::CubemapFace cubemapFace);
 
-  /// @brief Method GetAllAssemblyTypes, addr 0x667ec24, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetAllAssemblyTypes, addr 0x67bc330, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetAllAssemblyTypes();
 
   /// @brief Method GetAllTypesDerivedFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetAllTypesDerivedFrom();
 
-  /// @brief Method GetCorePath, addr 0x667f300, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCorePath, addr 0x67bca0c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetCorePath();
 
   /// @brief Method GetLastEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetLastEnumValue();
 
-  /// @brief Method GetMipCount, addr 0x666e794, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetMipCount, addr 0x67abea0, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetMipCount(float_t size);
 
-  /// @brief Method GetMipCount, addr 0x667f224, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetMipCount, addr 0x67bc930, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetMipCount(int32_t size);
 
-  /// @brief Method GetRenderTargetAutoName, addr 0x667d688, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetRenderTargetAutoName, addr 0x67bad94, size 0x3a4, virtual false, abstract: false, final false
   static inline ::StringW GetRenderTargetAutoName(int32_t width, int32_t height, int32_t depth, ::StringW format, ::UnityEngine::Rendering::TextureDimension dim, ::StringW name, bool mips,
                                                   bool enableMSAA, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool dynamicRes, bool dynamicResExplicit);
 
-  /// @brief Method GetRenderTargetAutoName, addr 0x666c768, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetRenderTargetAutoName, addr 0x67a9e74, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW GetRenderTargetAutoName(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                   ::UnityEngine::Rendering::TextureDimension dim, ::StringW name, bool mips, bool enableMSAA, ::UnityEngine::Rendering::MSAASamples msaaSamples,
                                                   bool dynamicRes, bool dynamicResExplicit);
 
-  /// @brief Method GetRenderTargetAutoName, addr 0x667da2c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetRenderTargetAutoName, addr 0x67bb138, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetRenderTargetAutoName(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::StringW name, bool mips,
                                                   bool enableMSAA, ::UnityEngine::Rendering::MSAASamples msaaSamples);
 
-  /// @brief Method GetRenderTargetAutoName, addr 0x666cfe0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetRenderTargetAutoName, addr 0x67aa6ec, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetRenderTargetAutoName(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::StringW name, bool mips, bool enableMSAA,
                                                   ::UnityEngine::Rendering::MSAASamples msaaSamples);
 
-  /// @brief Method GetTextureAutoName, addr 0x667dc18, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetTextureAutoName, addr 0x67bb324, size 0x3f0, virtual false, abstract: false, final false
   static inline ::StringW GetTextureAutoName(int32_t width, int32_t height, ::StringW format, ::UnityEngine::Rendering::TextureDimension dim, ::StringW name, bool mips, int32_t depth);
 
-  /// @brief Method GetTextureAutoName, addr 0x667e008, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetTextureAutoName, addr 0x67bb714, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW GetTextureAutoName(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Rendering::TextureDimension dim,
                                              ::StringW name, bool mips, int32_t depth);
 
-  /// @brief Method GetTextureAutoName, addr 0x667db30, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetTextureAutoName, addr 0x67bb23c, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW GetTextureAutoName(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, ::UnityEngine::Rendering::TextureDimension dim, ::StringW name, bool mips,
                                              int32_t depth);
 
-  /// @brief Method GetTextureHash, addr 0x666f9a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetTextureHash, addr 0x67ad0b4, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetTextureHash(::UnityEngine::Texture* texture);
 
   /// @brief Method HasFlag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasFlag(T mask, T flag);
 
-  /// @brief Method IsLightOverlapDebugEnabled, addr 0x667f1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsLightOverlapDebugEnabled, addr 0x67bc8ac, size 0x8, virtual false, abstract: false, final false
   static inline bool IsLightOverlapDebugEnabled(::UnityEngine::Camera* camera);
 
-  /// @brief Method IsSceneFilteringEnabled, addr 0x667f1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSceneFilteringEnabled, addr 0x67bc8bc, size 0x8, virtual false, abstract: false, final false
   static inline bool IsSceneFilteringEnabled();
 
-  /// @brief Method IsSceneLightingDisabled, addr 0x667f198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSceneLightingDisabled, addr 0x67bc8a4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsSceneLightingDisabled(::UnityEngine::Camera* camera);
 
-  /// @brief Method IsSceneViewFogEnabled, addr 0x667f1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSceneViewFogEnabled, addr 0x67bc8b4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsSceneViewFogEnabled(::UnityEngine::Camera* camera);
 
-  /// @brief Method IsSceneViewPrefabStageContextHidden, addr 0x667f1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSceneViewPrefabStageContextHidden, addr 0x67bc8c4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsSceneViewPrefabStageContextHidden();
 
-  /// @brief Method PreviousPowerOfTwo, addr 0x667f1f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method PreviousPowerOfTwo, addr 0x67bc904, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t PreviousPowerOfTwo(int32_t size);
 
-  /// @brief Method SafeRelease, addr 0x667edcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SafeRelease, addr 0x67bc4d8, size 0xc, virtual false, abstract: false, final false
   static inline void SafeRelease(::UnityEngine::ComputeBuffer* buffer);
 
-  /// @brief Method SafeRelease, addr 0x667edc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SafeRelease, addr 0x67bc4cc, size 0xc, virtual false, abstract: false, final false
   static inline void SafeRelease(::UnityEngine::GraphicsBuffer* buffer);
 
-  /// @brief Method SetKeyword, addr 0x667eb38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x67bc244, size 0x3c, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::Rendering::BaseCommandBuffer* cmd, ::StringW keyword, bool state);
 
-  /// @brief Method SetKeyword, addr 0x667eaa8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x67bc1b4, size 0x90, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, ::StringW keyword, bool state);
 
-  /// @brief Method SetKeyword, addr 0x667ea7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x67bc188, size 0x2c, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW keyword, bool state);
 
-  /// @brief Method SetKeyword, addr 0x667ebf8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x67bc304, size 0x2c, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::ComputeShader* cs, ::StringW keyword, bool state);
 
-  /// @brief Method SetKeyword, addr 0x667eb74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x67bc280, size 0x2c, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::Material* material, ::StringW keyword, bool state);
 
-  /// @brief Method SetKeyword, addr 0x667eba0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x67bc2ac, size 0x58, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::Material* material, ::UnityEngine::Rendering::LocalKeyword keyword, bool state);
 
-  /// @brief Method SetRenderTarget, addr 0x667cefc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba608, size 0x10c, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::ClearFlag clearFlag,
                                      ::UnityEngine::Color clearColor, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x6677e8c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b5598, size 0xa8, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::ClearFlag clearFlag, int32_t miplevel,
                                      ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x6678380, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b5a8c, size 0x110, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, int32_t miplevel,
                                      ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667be60, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b956c, size 0x100, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::ClearFlag clearFlag,
                                      ::UnityEngine::Color clearColor, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667bf60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b966c, size 0xc4, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::ClearFlag clearFlag,
                                      int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667cbf8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba304, size 0xfc, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetRenderTarget, addr 0x667c7e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9ef0, size 0xb4, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Rendering::ClearFlag clearFlag);
 
-  /// @brief Method SetRenderTarget, addr 0x667c524, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9c30, size 0xe4, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetRenderTarget, addr 0x667c6dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9de8, size 0x108, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, int32_t miplevel,
                                      ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667c608, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9d14, size 0xd4, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667d294, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba9a0, size 0x18c, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RTHandle* depthBuffer,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667d0b4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba7c0, size 0x130, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RTHandle* depthBuffer,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667d1e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba8f0, size 0xb0, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RTHandle* depthBuffer,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667d008, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba714, size 0xac, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RTHandle* depthBuffer, int32_t miplevel,
                                      ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667ccf4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba400, size 0xec, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlag);
 
-  /// @brief Method SetRenderTarget, addr 0x667c898, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9fa4, size 0x11c, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetRenderTarget, addr 0x667cac0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba1cc, size 0x138, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor,
                                      int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667c9b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67ba0c0, size 0x10c, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667c0fc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9808, size 0x118, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, int32_t miplevel,
                                      ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667c214, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9920, size 0xdc, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, int32_t miplevel,
                                      ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667c024, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9730, size 0xd8, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, int32_t miplevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x667d420, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67bab2c, size 0xb4, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                      ::UnityEngine::Rendering::RTHandle* depthBuffer);
 
-  /// @brief Method SetRenderTarget, addr 0x667d4d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67babe0, size 0xc0, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                      ::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag);
 
-  /// @brief Method SetRenderTarget, addr 0x667d594, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67baca0, size 0xf4, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                      ::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetRenderTarget, addr 0x667c2f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b99fc, size 0xa0, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer);
 
-  /// @brief Method SetRenderTarget, addr 0x667c478, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9b84, size 0xac, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag);
 
-  /// @brief Method SetRenderTarget, addr 0x667c390, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x67b9a9c, size 0xe8, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,
                                      ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetViewport, addr 0x667ce88, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetViewport, addr 0x67ba594, size 0x74, virtual false, abstract: false, final false
   static inline void SetViewport(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* target);
 
-  /// @brief Method SetViewportAndClear, addr 0x667cde0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetViewportAndClear, addr 0x67ba4ec, size 0xa8, virtual false, abstract: false, final false
   static inline void SetViewportAndClear(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::ClearFlag clearFlag,
                                          ::UnityEngine::Color clearColor);
 
@@ -735,28 +735,28 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_upVectorList();
 
-  /// @brief Method get_blackCubeTexture, addr 0x667b16c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method get_blackCubeTexture, addr 0x67b8878, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Cubemap> get_blackCubeTexture();
 
-  /// @brief Method get_blackVolumeTexture, addr 0x667ba60, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method get_blackVolumeTexture, addr 0x67b916c, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture3D> get_blackVolumeTexture();
 
-  /// @brief Method get_emptyBuffer, addr 0x667b938, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_emptyBuffer, addr 0x67b9044, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* get_emptyBuffer();
 
-  /// @brief Method get_emptyUAV, addr 0x667b7fc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_emptyUAV, addr 0x67b8f08, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> get_emptyUAV();
 
-  /// @brief Method get_magentaCubeTexture, addr 0x667b2fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method get_magentaCubeTexture, addr 0x67b8a08, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Cubemap> get_magentaCubeTexture();
 
-  /// @brief Method get_magentaCubeTextureArray, addr 0x667b48c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method get_magentaCubeTextureArray, addr 0x67b8b98, size 0x1e0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::CubemapArray> get_magentaCubeTextureArray();
 
-  /// @brief Method get_whiteCubeTexture, addr 0x667b66c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method get_whiteCubeTexture, addr 0x67b8d78, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Cubemap> get_whiteCubeTexture();
 
-  /// @brief Method get_whiteVolumeTexture, addr 0x667bbf0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method get_whiteVolumeTexture, addr 0x67b92fc, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture3D> get_whiteVolumeTexture();
 
   static inline void setStaticF_lookAtList(::ArrayW<::UnityEngine::Vector3> value);
@@ -796,7 +796,7 @@ public:
   CoreUtils(CoreUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12251 };
 
   /// @brief Field assetCreateMenuPriority1 offset 0xffffffff size 0x4
   static constexpr int32_t assetCreateMenuPriority1{ static_cast<int32_t>(0xe6) };

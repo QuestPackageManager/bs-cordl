@@ -76,7 +76,7 @@ public:
   static ::UnityEngine::Android::PermissionCallbacks_Result const Granted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20143 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,7 +114,7 @@ public:
   /// @brief Field PermissionRequestDismissed, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_PermissionRequestDismissed, put = __cordl_internal_set_PermissionRequestDismissed)) ::System::Action_1<::StringW>* PermissionRequestDismissed;
 
-  /// @brief Method Invoke, addr 0x68d7f80, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a2ee98, size 0x90, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::StringW methodName, ::System::IntPtr javaArgs);
 
   static inline ::UnityEngine::Android::PermissionCallbacks* New_ctor();
@@ -143,34 +143,34 @@ public:
 
   constexpr void __cordl_internal_set_PermissionRequestDismissed(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x68d7f0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a2ee24, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PermissionDenied, addr 0x68d7a8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionDenied, addr 0x6a2e9a4, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x68d7c0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x6a2eb24, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionGranted, addr 0x68d790c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionGranted, addr 0x6a2e824, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionRequestDismissed, addr 0x68d7d8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionRequestDismissed, addr 0x6a2eca4, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionRequestDismissed(::System::Action_1<::StringW>* value);
 
-  /// @brief Method onPermissionResult, addr 0x68d8010, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method onPermissionResult, addr 0x6a2ef28, size 0xf8, virtual false, abstract: false, final false
   inline void onPermissionResult(::System::IntPtr javaArgs);
 
-  /// @brief Method remove_PermissionDenied, addr 0x68d7b4c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionDenied, addr 0x6a2ea64, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x68d7ccc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x6a2ebe4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionGranted, addr 0x68d79cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionGranted, addr 0x6a2e8e4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionRequestDismissed, addr 0x68d7e4c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionRequestDismissed, addr 0x6a2ed64, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionRequestDismissed(::System::Action_1<::StringW>* value);
 
 protected:
@@ -188,7 +188,7 @@ public:
   PermissionCallbacks(PermissionCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20144 };
 
   /// @brief Field PermissionGranted, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionGranted;

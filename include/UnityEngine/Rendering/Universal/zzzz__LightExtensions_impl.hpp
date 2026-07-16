@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> (*)(::UnityEngine::Light*)>(
     &::UnityEngine::Rendering::Universal::LightExtensions::GetUniversalAdditionalLightData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x67853b0;
+  constexpr static std::size_t addrs = 0x68c3d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightExtensions*>(),

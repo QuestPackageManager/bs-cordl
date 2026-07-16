@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapCapsLockState::*)()>(&::HMUI::ButtonSpriteSwapCapsLockState::OnEnable)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x573c9f8;
+  constexpr static std::size_t addrs = 0x5883c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonSpriteSwapCapsLockState*>(), { "OnEnable", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapCapsLockState::*)()>(&::HMUI::ButtonSpriteSwapCapsLockState::OnDisable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x573cc28;
+  constexpr static std::size_t addrs = 0x5883e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonSpriteSwapCapsLockState*>(), { "OnDisable", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapCapsLockState::*)(::HMUI::CapsLockState)>(&::HMUI::ButtonSpriteSwapCapsLockState::OnCapsLockStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x573ccb4;
+  constexpr static std::size_t addrs = 0x5883ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapCapsLockState::*)(::HMUI::CapsLockState)>(&::HMUI::ButtonSpriteSwapCapsLockState::UpdateSprites)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x573cad0;
+  constexpr static std::size_t addrs = 0x5883cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapCapsLockState::*)()>(&::HMUI::ButtonSpriteSwapCapsLockState::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x573ccb8;
+  constexpr static std::size_t addrs = 0x5883ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonSpriteSwapCapsLockState*>(), { ".ctor", {}, {} })));

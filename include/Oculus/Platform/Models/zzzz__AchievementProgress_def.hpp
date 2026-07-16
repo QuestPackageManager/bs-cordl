@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_UnlockTime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x5cb324c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb474, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -90,7 +90,7 @@ public:
   AchievementProgress(AchievementProgress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17980 };
 
   /// @brief Field Bitfield, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Bitfield;

@@ -44,7 +44,7 @@ public:
   /// @brief Field scheme, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_scheme, put = __cordl_internal_set_scheme)) ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
 
-  /// @brief Method GetInstance, addr 0x33a52d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3461788, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc,
@@ -52,7 +52,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x33a5780, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3461c38, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* const& __cordl_internal_get_func() const;
@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
 
-  /// @brief Method .ctor, addr 0x33a55e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3461a9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc, ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
 
-  /// @brief Method .ctor, addr 0x33a5370, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3461828, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptionScheme, addr 0x33a5778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionScheme, addr 0x3461c30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
 
-  /// @brief Method get_KeyDerivationFunc, addr 0x33a5770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyDerivationFunc, addr 0x3461c28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
 
 protected:

@@ -3,17 +3,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberClashEffect_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
 #include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberClashEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::Start)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58629e8;
+  constexpr static std::size_t addrs = 0x599b1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberClashEffect*>(), { "Start", {}, {} })));
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::OnDisable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5862b6c;
+  constexpr static std::size_t addrs = 0x599b324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberClashEffect*>(), { "OnDisable", {}, {} })));
@@ -36,8 +37,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::LateUpdate)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5862b7c;
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x599b334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberClashEffect*>(), { "LateUpdate", {}, {} })));
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5862cf8;
+  constexpr static std::size_t addrs = 0x599b5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberClashEffect*>(), { ".ctor", {}, {} })));
@@ -80,15 +81,15 @@ constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__glowPart
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____glowParticleSystem = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::SaberClashEffect::__cordl_internal_get__rumblePreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::SaberClashEffect::__cordl_internal_get__rumblePreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumblePreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__rumblePreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__rumblePreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumblePreset;
 }
-constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__rumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__rumblePreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rumblePreset = value;
 }
@@ -104,15 +105,15 @@ constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__saberCla
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberClashChecker = value;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& GlobalNamespace::SaberClashEffect::__cordl_internal_get__hapticFeedbackController() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& GlobalNamespace::SaberClashEffect::__cordl_internal_get__hapticFeedbackController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackController;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__hapticFeedbackController() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__hapticFeedbackController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackController;
 }
-constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__hapticFeedbackController(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
+constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__hapticFeedbackController(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticFeedbackController = value;
 }
@@ -127,6 +128,18 @@ constexpr ::GlobalNamespace::ColorManager* const& GlobalNamespace::SaberClashEff
 constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorManager = value;
+}
+constexpr ::UnityW<::GlobalNamespace::MainCamera>& GlobalNamespace::SaberClashEffect::__cordl_internal_get__mainCamera() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mainCamera;
+}
+constexpr ::UnityW<::GlobalNamespace::MainCamera> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__mainCamera() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mainCamera;
+}
+constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____mainCamera = value;
 }
 constexpr ::UnityEngine::ParticleSystem_EmissionModule& GlobalNamespace::SaberClashEffect::__cordl_internal_get__sparkleParticleSystemEmmisionModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

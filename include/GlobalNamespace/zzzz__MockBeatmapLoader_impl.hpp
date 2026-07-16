@@ -4,7 +4,6 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapLoader_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
@@ -17,54 +16,54 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::*)()>(&::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::MoveNext)> {
-  constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x5893494;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::*)()>(&::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::MoveNext)> {
+  constexpr static std::size_t size = 0x524;
+  constexpr static std::size_t addrs = 0x59c3f74;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x58939d8;
+  constexpr static std::size_t addrs = 0x59c4498;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5>(),
+inline void GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmap", ty:
 // "::GlobalNamespace::BeatmapKeyNetSerializable*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockBeatmapLoader*", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::MockBeatmapLoader__GetBeatmapData_d__5(
+constexpr ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::MockBeatmapLoader__GetBeatmapData_d__4(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*> __t__builder, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
     ::GlobalNamespace::MockBeatmapLoader* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -74,23 +73,22 @@ constexpr ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::MockBeatmap
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5::MockBeatmapLoader__GetBeatmapData_d__5() {}
+constexpr ::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4::MockBeatmapLoader__GetBeatmapData_d__4() {}
 //  Writing Method size for method: ::GlobalNamespace::MockBeatmapLoader._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapLoader::*)(::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::BeatmapDataLoader*,
-                                                                                                      ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::BeatmapCharacteristicCollection*)>(
-    &::GlobalNamespace::MockBeatmapLoader::_ctor)> {
+                                                                                                      ::GlobalNamespace::EnvironmentsListModel*)>(&::GlobalNamespace::MockBeatmapLoader::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5893394;
+  constexpr static std::size_t addrs = 0x59c3e74;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader*>(),
-                                                { ".ctor",
-                                                  {},
-                                                  { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(),
-                                                    ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicCollection*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>() } })));
     return ___internal_method;
   }
 };
@@ -100,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* (
     ::GlobalNamespace::MockBeatmapLoader::*)(::GlobalNamespace::BeatmapKeyNetSerializable*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockBeatmapLoader::GetBeatmapData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x58933a0;
+  constexpr static std::size_t addrs = 0x59c3e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapLoader::*)()>(&::GlobalNamespace::MockBeatmapLoader::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5893490;
+  constexpr static std::size_t addrs = 0x59c3f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader*>(), { "Dispose", {}, {} })));
@@ -158,28 +156,15 @@ constexpr void GlobalNamespace::MockBeatmapLoader::__cordl_internal_set__environ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentsListModel = value;
 }
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& GlobalNamespace::MockBeatmapLoader::__cordl_internal_get__beatmapCharacteristicCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& GlobalNamespace::MockBeatmapLoader::__cordl_internal_get__beatmapCharacteristicCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr void GlobalNamespace::MockBeatmapLoader::__cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapCharacteristicCollection = value;
-}
 inline void GlobalNamespace::MockBeatmapLoader::_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-                                                      ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
-                                                      ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader*>(),
-                                              { ".ctor",
-                                                {},
-                                                { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(),
-                                                  ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicCollection*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapLevelsModel, beatmapDataLoader, environmentsListModel, beatmapCharacteristicCollection);
+                                                      ::GlobalNamespace::EnvironmentsListModel* environmentsListModel) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapLoader*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapLevelsModel, beatmapDataLoader, environmentsListModel);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GlobalNamespace::MockBeatmapLoader::GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
                                                                                                                                    ::System::Threading::CancellationToken cancellationToken) {
@@ -195,9 +180,8 @@ inline void GlobalNamespace::MockBeatmapLoader::Dispose() {
 }
 inline ::GlobalNamespace::MockBeatmapLoader* GlobalNamespace::MockBeatmapLoader::New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                                                           ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-                                                                                          ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
-                                                                                          ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockBeatmapLoader*>(beatmapLevelsModel, beatmapDataLoader, environmentsListModel, beatmapCharacteristicCollection));
+                                                                                          ::GlobalNamespace::EnvironmentsListModel* environmentsListModel) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockBeatmapLoader*>(beatmapLevelsModel, beatmapDataLoader, environmentsListModel));
 }
 /// @brief Convert operator to "::GlobalNamespace::IMockBeatmapDataProvider"
 constexpr GlobalNamespace::MockBeatmapLoader::operator ::GlobalNamespace::IMockBeatmapDataProvider*() noexcept {

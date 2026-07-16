@@ -39,38 +39,38 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>*();
 
-  /// @brief Method Equals, addr 0x69cd674, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b20fb0, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x69caac4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b1e400, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderQueueRange other);
 
-  /// @brief Method GetHashCode, addr 0x69cac10, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b1e54c, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_maximumBound();
 
   static inline int32_t getStaticF_minimumBound();
 
-  /// @brief Method get_all, addr 0x69ca9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x6b1e2f0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_all();
 
-  /// @brief Method get_lowerBound, addr 0x69cd664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowerBound, addr 0x6b20fa0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowerBound();
 
-  /// @brief Method get_opaque, addr 0x69cd650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaque, addr 0x6b20f8c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_opaque();
 
-  /// @brief Method get_transparent, addr 0x69cd658, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_transparent, addr 0x6b20f94, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_transparent();
 
-  /// @brief Method get_upperBound, addr 0x69cd66c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upperBound, addr 0x6b20fa8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_upperBound();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>* i___System__IEquatable_1___UnityEngine__Rendering__RenderQueueRange_();
 
-  /// @brief Method op_Equality, addr 0x69cd734, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b21070, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::RenderQueueRange left, ::UnityEngine::Rendering::RenderQueueRange right);
 
   static inline void setStaticF_maximumBound(int32_t value);
@@ -85,7 +85,7 @@ public:
   constexpr RenderQueueRange(int32_t m_LowerBound, int32_t m_UpperBound) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

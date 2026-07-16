@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::ChecksumCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::ChecksumCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x574c2e0;
+  constexpr static std::size_t addrs = 0x5893be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::ENet::ChecksumCallback::*)(::System::IntPtr, int32_t)>(&::ENet::ChecksumCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x574c34c;
+  constexpr static std::size_t addrs = 0x5893c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::ChecksumCallback*>(), { ::i2c::class_of<::ENet::ChecksumCallback*>(), 13 }));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::ENet::ChecksumCallback::*)(::System::IntPtr, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::ENet::ChecksumCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x574c360;
+  constexpr static std::size_t addrs = 0x5893c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::ChecksumCallback*>(), { ::i2c::class_of<::ENet::ChecksumCallback*>(), 14 }));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::ENet::ChecksumCallback::*)(::System::IAsyncResult*)>(&::ENet::ChecksumCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x574c3d8;
+  constexpr static std::size_t addrs = 0x5893cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::ChecksumCallback*>(), { ::i2c::class_of<::ENet::ChecksumCallback*>(), 15 }));

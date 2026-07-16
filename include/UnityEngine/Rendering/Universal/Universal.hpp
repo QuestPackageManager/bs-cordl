@@ -237,6 +237,7 @@ module;
 #include "UnityEngine/Rendering/Universal/UniversalAdditionalCameraData.hpp"
 #include "UnityEngine/Rendering/Universal/UniversalAdditionalLightData.hpp"
 #include "UnityEngine/Rendering/Universal/UniversalCameraData.hpp"
+#include "UnityEngine/Rendering/Universal/UniversalCameraDataExtension.hpp"
 #include "UnityEngine/Rendering/Universal/UniversalCameraHistory.hpp"
 #include "UnityEngine/Rendering/Universal/UniversalLightData.hpp"
 #include "UnityEngine/Rendering/Universal/UniversalPostProcessingData.hpp"

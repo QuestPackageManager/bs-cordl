@@ -46,7 +46,7 @@ public:
   IMemoryPool_7(IMemoryPool_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

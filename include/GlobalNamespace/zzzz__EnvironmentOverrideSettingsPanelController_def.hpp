@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set_simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  /// @brief Method .ctor, addr 0x58d26bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5921d00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_environmentInfos, addr 0x58d26ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfos, addr 0x5921cf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
-  /// @brief Method set_environmentInfos, addr 0x58d26b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_environmentInfos, addr 0x5921cf8, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
 protected:
@@ -154,7 +154,7 @@ public:
   EnvironmentOverrideSettingsPanelController_Elements(EnvironmentOverrideSettingsPanelController_Elements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6799 };
 
   /// @brief Field label, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ___label;
@@ -202,10 +202,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* New_ctor();
 
-  /// @brief Method <SetData>b__10_0, addr 0x58d2718, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__10_0, addr 0x5921d5c, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _SetData_b__10_0(::GlobalNamespace::EnvironmentInfoSO* x);
 
-  /// @brief Method .ctor, addr 0x58d2714, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5921d58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* getStaticF___9();
@@ -231,7 +231,7 @@ public:
   EnvironmentOverrideSettingsPanelController___c(EnvironmentOverrideSettingsPanelController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -281,24 +281,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x58d20d0, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x5921714, size 0x2e8, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x58d23b8, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x59219fc, size 0x2d4, virtual false, abstract: false, final false
   inline void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58d1d88, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59213cc, size 0x1e4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x58d1f6c, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x59215b0, size 0x164, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetData, addr 0x58d1a5c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x59210a0, size 0x32c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
-  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__14_0, addr 0x58d2690, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__14_0, addr 0x5921cd4, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleOverrideEnvironmentsToggleValueChanged_b__14_0();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -355,7 +355,7 @@ public:
 
   constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method .ctor, addr 0x58d268c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5921cd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
@@ -376,7 +376,7 @@ public:
   EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6801 };
 
   /// @brief Field _overrideEnvironmentsToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideEnvironmentsToggle;

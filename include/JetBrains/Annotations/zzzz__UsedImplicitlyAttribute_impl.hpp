@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(&::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ce66a4;
+  constexpr static std::size_t addrs = 0x6a5b450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { ".ctor", {}, {} })));
@@ -21,98 +21,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annota
 //  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseKindFlags)>(
-    &::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce66bc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseKindFlags>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseTargetFlags)>(
-    &::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce66c8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseTargetFlags>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute._ctor
-template <>
-
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(
     ::JetBrains::Annotations::ImplicitUseKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags)>(&::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce66b4;
+  constexpr static std::size_t addrs = 0x6a5b460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
                                          { ".ctor", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseKindFlags>(), ::i2c::type_of<::JetBrains::Annotations::ImplicitUseTargetFlags>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute.get_UseKindFlags
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::JetBrains::Annotations::ImplicitUseKindFlags (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(
-    &::JetBrains::Annotations::UsedImplicitlyAttribute::get_UseKindFlags)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce66d4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { "get_UseKindFlags", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute.set_UseKindFlags
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseKindFlags)>(
-    &::JetBrains::Annotations::UsedImplicitlyAttribute::set_UseKindFlags)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce66dc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                           { "set_UseKindFlags", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseKindFlags>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute.get_TargetFlags
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::JetBrains::Annotations::ImplicitUseTargetFlags (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(
-    &::JetBrains::Annotations::UsedImplicitlyAttribute::get_TargetFlags)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce66e4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { "get_TargetFlags", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute.set_TargetFlags
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseTargetFlags)>(
-    &::JetBrains::Annotations::UsedImplicitlyAttribute::set_TargetFlags)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce66ec;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                           { "set_TargetFlags", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseTargetFlags>() } })));
     return ___internal_method;
   }
 };
@@ -144,17 +62,6 @@ inline void JetBrains::Annotations::UsedImplicitlyAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void JetBrains::Annotations::UsedImplicitlyAttribute::_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseKindFlags>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, useKindFlags);
-}
-inline void JetBrains::Annotations::UsedImplicitlyAttribute::_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseTargetFlags>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, targetFlags);
-}
 inline void JetBrains::Annotations::UsedImplicitlyAttribute::_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -162,32 +69,8 @@ inline void JetBrains::Annotations::UsedImplicitlyAttribute::_ctor(::JetBrains::
                                        { ".ctor", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseKindFlags>(), ::i2c::type_of<::JetBrains::Annotations::ImplicitUseTargetFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, useKindFlags, targetFlags);
 }
-inline ::JetBrains::Annotations::ImplicitUseKindFlags JetBrains::Annotations::UsedImplicitlyAttribute::get_UseKindFlags() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { "get_UseKindFlags", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::JetBrains::Annotations::ImplicitUseKindFlags>(this, ___internal_method);
-}
-inline void JetBrains::Annotations::UsedImplicitlyAttribute::set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                         { "set_UseKindFlags", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseKindFlags>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline ::JetBrains::Annotations::ImplicitUseTargetFlags JetBrains::Annotations::UsedImplicitlyAttribute::get_TargetFlags() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { "get_TargetFlags", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::JetBrains::Annotations::ImplicitUseTargetFlags>(this, ___internal_method);
-}
-inline void JetBrains::Annotations::UsedImplicitlyAttribute::set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
-                                                                                         { "set_TargetFlags", {}, { ::i2c::type_of<::JetBrains::Annotations::ImplicitUseTargetFlags>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
 inline ::JetBrains::Annotations::UsedImplicitlyAttribute* JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::UsedImplicitlyAttribute*>());
-}
-inline ::JetBrains::Annotations::UsedImplicitlyAttribute* JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::UsedImplicitlyAttribute*>(useKindFlags));
-}
-inline ::JetBrains::Annotations::UsedImplicitlyAttribute* JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::UsedImplicitlyAttribute*>(targetFlags));
 }
 inline ::JetBrains::Annotations::UsedImplicitlyAttribute* JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags,
                                                                                                                     ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) {

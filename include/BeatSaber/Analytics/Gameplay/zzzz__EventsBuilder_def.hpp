@@ -71,47 +71,47 @@ public:
   /// @brief Field _segmentType, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__segmentType, put = __cordl_internal_set__segmentType)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* _segmentType;
 
-  /// @brief Method AbortSegment, addr 0x31ce260, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method AbortSegment, addr 0x3262040, size 0x1b0, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* AbortSegment(uint32_t durationInSeconds);
 
-  /// @brief Method Build, addr 0x31ce7c8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x32625a8, size 0x190, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*>* Build();
 
-  /// @brief Method EndSegment, addr 0x31ce054, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method EndSegment, addr 0x3261e34, size 0x1b0, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* EndSegment(uint32_t durationInSeconds);
 
-  /// @brief Method ForSegment, addr 0x31cde64, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ForSegment, addr 0x3261c44, size 0x17c, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* ForSegment(::StringW segmentName);
 
-  /// @brief Method HasOngoingSegment, addr 0x31ce410, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HasOngoingSegment, addr 0x32621f0, size 0x54, virtual false, abstract: false, final false
   inline bool HasOngoingSegment(::StringW segmentName);
 
-  /// @brief Method IsEndEvent, addr 0x31cd760, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsEndEvent, addr 0x3261540, size 0x108, virtual false, abstract: false, final false
   inline bool IsEndEvent(::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase* evt);
 
   static inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* New_ctor(::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* cache);
 
-  /// @brief Method SetMatchId, addr 0x31cd868, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMatchId, addr 0x3261648, size 0x3c, virtual false, abstract: false, final false
   inline void SetMatchId(::StringW matchId);
 
-  /// @brief Method SetupSegmentFields, addr 0x31cd8c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetupSegmentFields, addr 0x32616a0, size 0xc, virtual false, abstract: false, final false
   inline void SetupSegmentFields(::StringW segmentName, ::StringW segmentId, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* currentSegmentType,
                                  ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* currentSegmentSettings);
 
-  /// @brief Method StartSegment, addr 0x31cd954, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method StartSegment, addr 0x3261734, size 0x300, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* StartSegment(::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
                                                                        ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
-  /// @brief Method ThrowIfAlreadyContainsEndEvent, addr 0x31ce204, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfAlreadyContainsEndEvent, addr 0x3261fe4, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowIfAlreadyContainsEndEvent();
 
-  /// @brief Method TryFlushSegmentData, addr 0x31ceafc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryFlushSegmentData, addr 0x32628dc, size 0x14, virtual false, abstract: false, final false
   inline bool TryFlushSegmentData(::StringW segmentName);
 
-  /// @brief Method WithCustomEvent, addr 0x31ce61c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method WithCustomEvent, addr 0x32623fc, size 0x160, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* WithCustomEvent(::StringW payload, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* eventType);
 
-  /// @brief Method WithMetric, addr 0x31ce464, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method WithMetric, addr 0x3262244, size 0x16c, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* WithMetric(::StringW metricName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* spaceshipMetricType, float_t value);
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* const& __cordl_internal_get__cache() const;
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set__segmentType(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
 
-  /// @brief Method .ctor, addr 0x31cd8cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32616ac, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* cache);
 
-  /// @brief Method get_HasEndEvent, addr 0x31cd660, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_HasEndEvent, addr 0x3261440, size 0x100, virtual false, abstract: false, final false
   inline bool get_HasEndEvent();
 
 protected:
@@ -177,7 +177,7 @@ public:
   EventsBuilder(EventsBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22237 };
 
   /// @brief Field _currentSeqNum, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentSeqNum;

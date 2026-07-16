@@ -52,62 +52,62 @@ public:
   /// @brief Field kClickDelay, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kClickDelay, put = setStaticF_kClickDelay)) ::Unity::IntegerTime::DiscreteTime kClickDelay;
 
-  /// @brief Method OnButtonChange, addr 0x6a090e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnButtonChange, addr 0x6b5cbc4, size 0xd8, virtual false, abstract: false, final false
   inline void OnButtonChange(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::InputForUI::PointerEvent_Button button, bool previousState, bool newState);
 
-  /// @brief Method OnButtonDown, addr 0x6a08db8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnButtonDown, addr 0x6b5c894, size 0x15c, virtual false, abstract: false, final false
   inline void OnButtonDown(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::InputForUI::PointerEvent_Button button);
 
-  /// @brief Method OnButtonUp, addr 0x6a08f14, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnButtonUp, addr 0x6b5c9f0, size 0x90, virtual false, abstract: false, final false
   inline void OnButtonUp(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::InputForUI::PointerEvent_Button button);
 
-  /// @brief Method OnMove, addr 0x6a09038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnMove, addr 0x6b5cb14, size 0x80, virtual false, abstract: false, final false
   inline void OnMove(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::Vector2 position, int32_t displayIndex);
 
-  /// @brief Method Reset, addr 0x6a06e5c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b5a938, size 0xd8, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::Unity::IntegerTime::DiscreteTime getStaticF_kClickDelay();
 
-  /// @brief Method get_ButtonsState, addr 0x6a09f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ButtonsState, addr 0x6b5da34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent_ButtonsState get_ButtonsState();
 
-  /// @brief Method get_ClickCount, addr 0x6a09f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClickCount, addr 0x6b5da4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ClickCount();
 
-  /// @brief Method get_LastDisplayIndex, addr 0x6a09f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastDisplayIndex, addr 0x6b5da6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LastDisplayIndex();
 
-  /// @brief Method get_LastPosition, addr 0x6a09f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastPosition, addr 0x6b5da5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_LastPosition();
 
-  /// @brief Method get_LastPositionValid, addr 0x6a09fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastPositionValid, addr 0x6b5da7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LastPositionValid();
 
-  /// @brief Method get_LastPressedButton, addr 0x6a09f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastPressedButton, addr 0x6b5da24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent_Button get_LastPressedButton();
 
-  /// @brief Method get_NextPressTime, addr 0x6a09f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPressTime, addr 0x6b5da3c, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::IntegerTime::DiscreteTime get_NextPressTime();
 
   static inline void setStaticF_kClickDelay(::Unity::IntegerTime::DiscreteTime value);
 
-  /// @brief Method set_ClickCount, addr 0x6a09f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClickCount, addr 0x6b5da54, size 0x8, virtual false, abstract: false, final false
   inline void set_ClickCount(int32_t value);
 
-  /// @brief Method set_LastDisplayIndex, addr 0x6a09f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastDisplayIndex, addr 0x6b5da74, size 0x8, virtual false, abstract: false, final false
   inline void set_LastDisplayIndex(int32_t value);
 
-  /// @brief Method set_LastPosition, addr 0x6a09f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastPosition, addr 0x6b5da64, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_LastPositionValid, addr 0x6a09fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastPositionValid, addr 0x6b5da84, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPositionValid(bool value);
 
-  /// @brief Method set_LastPressedButton, addr 0x6a09f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastPressedButton, addr 0x6b5da2c, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPressedButton(::UnityEngine::InputForUI::PointerEvent_Button value);
 
-  /// @brief Method set_NextPressTime, addr 0x6a09f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NextPressTime, addr 0x6b5da44, size 0x8, virtual false, abstract: false, final false
   inline void set_NextPressTime(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -124,7 +124,7 @@ public:
                          int32_t _LastDisplayIndex_k__BackingField, bool _LastPositionValid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21786 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

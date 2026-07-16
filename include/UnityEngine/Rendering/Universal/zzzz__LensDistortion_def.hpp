@@ -46,10 +46,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x673ab80, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x68794fc, size 0x84, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x673ac04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6879580, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::LensDistortion* New_ctor();
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_yMultiplier(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x673ac0c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6879588, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -105,7 +105,7 @@ public:
   LensDistortion(LensDistortion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
 
   /// @brief Field intensity, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___intensity;

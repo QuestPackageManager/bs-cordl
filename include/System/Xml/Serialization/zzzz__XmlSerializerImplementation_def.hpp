@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Writer)) ::System::Xml::Serialization::XmlSerializationWriter* Writer;
 
-  /// @brief Method get_Writer, addr 0x61d16d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x630c7cc, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* get_Writer();
 
 protected:
@@ -42,7 +42,7 @@ public:
   XmlSerializerImplementation(XmlSerializerImplementation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

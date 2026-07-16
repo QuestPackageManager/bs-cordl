@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__mapping(::ArrayW<::System::Xml::Serialization::XmlMemberMapping*> value);
 
-  /// @brief Method get_Count, addr 0x61b5bc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x62f0cbc, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_HasWrapperElement, addr 0x61b5bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasWrapperElement, addr 0x62f0cd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasWrapperElement();
 
 protected:
@@ -65,7 +65,7 @@ public:
   XmlMembersMapping(XmlMembersMapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9487 };
 
   /// @brief Field _hasWrapperElement, offset: 0x48, size: 0x1, def value: None
   bool ____hasWrapperElement;

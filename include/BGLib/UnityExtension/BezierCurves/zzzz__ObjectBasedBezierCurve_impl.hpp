@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::get_isReady)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x326dc00;
+  constexpr static std::size_t addrs = 0x332a0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::UnityExtension::BezierCurves::CurveData (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::GetBezierCurveData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x326dcb0;
+  constexpr static std::size_t addrs = 0x332a168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)(::BGLib::UnityExtension::BezierCurves::CurveData)>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::SetBezierCurveData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x326dda4;
+  constexpr static std::size_t addrs = 0x332a25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x326de34;
+  constexpr static std::size_t addrs = 0x332a2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>(), { ".ctor", {}, {} })));

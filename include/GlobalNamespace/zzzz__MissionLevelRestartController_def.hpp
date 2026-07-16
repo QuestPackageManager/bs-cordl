@@ -9,7 +9,7 @@ namespace GlobalNamespace {
 class ILevelRestartController;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class MissionLevelScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
@@ -31,17 +31,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionLevelRestartController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _missionLevelSceneSetupData, offset 0x20, size 0x8
+  /// @brief Field _missionLevelSceneSetupData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__missionLevelSceneSetupData,
-                      put = __cordl_internal_set__missionLevelSceneSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>
-      _missionLevelSceneSetupData;
+                      put = __cordl_internal_set__missionLevelSceneSetupData)) ::GlobalNamespace::MissionLevelScenesTransitionSetupData* _missionLevelSceneSetupData;
 
-  /// @brief Field _missionObjectiveCheckersManager, offset 0x30, size 0x8
+  /// @brief Field _missionObjectiveCheckersManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__missionObjectiveCheckersManager,
                       put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
       _missionObjectiveCheckersManager;
 
-  /// @brief Field _prepareLevelCompletionResults, offset 0x28, size 0x8
+  /// @brief Field _prepareLevelCompletionResults, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
@@ -50,12 +49,12 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x587bd94, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x591784c, size 0xb4, virtual true, abstract: false, final true
   inline void RestartLevel();
 
-  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
+  constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData* const& __cordl_internal_get__missionLevelSceneSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelSceneSetupData();
+  constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData*& __cordl_internal_get__missionLevelSceneSetupData();
 
   constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
 
@@ -65,13 +64,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
 
-  constexpr void __cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
+  constexpr void __cordl_internal_set__missionLevelSceneSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value);
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x587be48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5917900, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -92,25 +91,25 @@ public:
   MissionLevelRestartController(MissionLevelRestartController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6761 };
 
-  /// @brief Field _missionLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelSceneSetupData;
-
-  /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
-  /// @brief Field _missionObjectiveCheckersManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _missionObjectiveCheckersManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
+
+  /// @brief Field _missionLevelSceneSetupData, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::MissionLevelScenesTransitionSetupData* ____missionLevelSceneSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____missionLevelSceneSetupData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____prepareLevelCompletionResults) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____prepareLevelCompletionResults) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____missionObjectiveCheckersManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____missionObjectiveCheckersManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____missionLevelSceneSetupData) == 0x30, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::MissionLevelRestartController) == 0x38, "Size mismatch!");
 

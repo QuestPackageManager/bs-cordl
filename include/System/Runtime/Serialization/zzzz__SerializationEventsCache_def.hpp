@@ -47,10 +47,10 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationEventsCache___c* New_ctor();
 
-  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x5a10f68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x5b4ac38, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEvents* _GetSerializationEventsForType_b__1_0(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5a10f64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4ac34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::SerializationEventsCache___c* getStaticF___9();
@@ -97,7 +97,7 @@ public:
   __declspec(property(get = getStaticF_s_cache,
                       put = setStaticF_s_cache)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* s_cache;
 
-  /// @brief Method GetSerializationEventsForType, addr 0x5a10d3c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationEventsForType, addr 0x5b4aa0c, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* getStaticF_s_cache();

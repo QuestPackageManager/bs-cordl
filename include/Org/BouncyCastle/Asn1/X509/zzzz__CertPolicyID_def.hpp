@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::X509::CertPolicyID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x359b414, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36578cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

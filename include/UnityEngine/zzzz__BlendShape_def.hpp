@@ -24,10 +24,10 @@ public:
 
   __declspec(property(get = get_vertexCount)) uint32_t vertexCount;
 
-  /// @brief Method get_firstVertex, addr 0x695b2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstVertex, addr 0x6aae640, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_firstVertex();
 
-  /// @brief Method get_vertexCount, addr 0x695b30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x6aae650, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_vertexCount();
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
   constexpr BlendShape(uint32_t m_FirstVertex, uint32_t m_VertexCount, bool m_HasNormals, bool m_HasTangents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10190 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

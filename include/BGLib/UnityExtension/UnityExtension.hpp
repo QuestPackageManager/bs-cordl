@@ -9,6 +9,8 @@ module;
 #include "BGLib/UnityExtension/ExternalFileReader.hpp"
 #include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
 #include "BGLib/UnityExtension/LogHelper.hpp"
+#include "BGLib/UnityExtension/PoseExtensions.hpp"
+#include "BGLib/UnityExtension/SceneShaderWarmup.hpp"
 #include "BGLib/UnityExtension/SerializableDictionary.hpp"
 #include "BGLib/UnityExtension/SerializableDictionaryBase.hpp"
 #include "BGLib/UnityExtension/SerializableDictionaryBase_3.hpp"

@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33b3204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f6bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

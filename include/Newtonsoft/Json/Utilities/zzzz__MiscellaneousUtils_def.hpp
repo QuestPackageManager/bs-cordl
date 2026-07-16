@@ -31,31 +31,31 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE MiscellaneousUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ByteArrayCompare, addr 0x5bf3b00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ByteArrayCompare, addr 0x5d2bd28, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t ByteArrayCompare(::ArrayW<uint8_t> a1, ::ArrayW<uint8_t> a2);
 
-  /// @brief Method CreateArgumentOutOfRangeException, addr 0x5be7b24, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentOutOfRangeException, addr 0x5d1fd4c, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* CreateArgumentOutOfRangeException(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method GetLocalName, addr 0x5bf3c34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetLocalName, addr 0x5d2be5c, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetLocalName(::StringW qualifiedName);
 
-  /// @brief Method GetPrefix, addr 0x5bf3b7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetPrefix, addr 0x5d2bda4, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetPrefix(::StringW qualifiedName);
 
-  /// @brief Method GetQualifiedNameParts, addr 0x5bf3b9c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedNameParts, addr 0x5d2bdc4, size 0x98, virtual false, abstract: false, final false
   static inline void GetQualifiedNameParts(::StringW qualifiedName, ::by_ref<::StringW> prefix, ::by_ref<::StringW> localName);
 
-  /// @brief Method GetRegexOptions, addr 0x5bf3c54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetRegexOptions, addr 0x5d2be7c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexOptions GetRegexOptions(::StringW optionsText);
 
-  /// @brief Method ToString, addr 0x5bf3a58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5d2bc80, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ValueEquals, addr 0x5bf374c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method ValueEquals, addr 0x5d2b974, size 0x30c, virtual false, abstract: false, final false
   static inline bool ValueEquals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method Assert, addr 0x5bf3748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Assert, addr 0x5d2b970, size 0x4, virtual false, abstract: false, final false
   static inline void _cordl_Assert(bool condition, ::StringW message);
 
 protected:
@@ -73,7 +73,7 @@ public:
   MiscellaneousUtils(MiscellaneousUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

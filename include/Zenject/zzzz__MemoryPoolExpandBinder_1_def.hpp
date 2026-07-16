@@ -81,7 +81,7 @@ public:
   MemoryPoolExpandBinder_1(MemoryPoolExpandBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14192 };
 
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::Zenject::MemoryPoolBindInfo* ____MemoryPoolBindInfo_k__BackingField;

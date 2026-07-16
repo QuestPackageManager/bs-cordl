@@ -29,24 +29,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedTextMeshPro : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshPro>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x326157c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x331a31c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x3261554, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x331a2f4, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x3261500, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x331a2a0, size 0x54, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshPro* New_ctor();
 
-  /// @brief Method SetText, addr 0x32613e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x331a188, size 0x28, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x3261410, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x331a1b0, size 0xf0, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x32615a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331a344, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   LocalizedTextMeshPro(LocalizedTextMeshPro const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

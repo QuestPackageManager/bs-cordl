@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::SystemAcl::*)()>(&::System::Security::AccessControl::SystemAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59e4b04;
+  constexpr static std::size_t addrs = 0x5b1e7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::SystemAcl::*)(::System::Security::AccessControl::AceQualifier)>(
     &::System::Security::AccessControl::SystemAcl::GetAceInsertPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e4b24;
+  constexpr static std::size_t addrs = 0x5b1e7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

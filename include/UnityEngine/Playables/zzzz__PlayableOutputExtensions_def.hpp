@@ -45,6 +45,9 @@ public:
   /// @brief Method GetSourcePlayable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline ::UnityEngine::Playables::Playable GetSourcePlayable(U output);
 
+  /// @brief Method GetUserData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename U> static inline ::UnityW<::UnityEngine::Object> GetUserData(U output);
+
   /// @brief Method PushNotification, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
@@ -75,7 +78,7 @@ public:
   PlayableOutputExtensions(PlayableOutputExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10657 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

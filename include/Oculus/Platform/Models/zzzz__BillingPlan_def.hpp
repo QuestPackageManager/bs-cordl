@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_TrialOffersOptional(::Oculus::Platform::Models::TrialOfferList* value);
 
-  /// @brief Method .ctor, addr 0x5cb38fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5debb24, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -75,7 +75,7 @@ public:
   BillingPlan(BillingPlan const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };
 
   /// @brief Field PaidOffer, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::PaidOffer* ___PaidOffer;

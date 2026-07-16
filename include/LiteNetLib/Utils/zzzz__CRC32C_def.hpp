@@ -24,7 +24,7 @@ public:
   /// @brief Field Table, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Table, put = setStaticF_Table)) ::ArrayW<uint32_t> Table;
 
-  /// @brief Method Compute, addr 0x5765278, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Compute, addr 0x58ab76c, size 0x3bc, virtual false, abstract: false, final false
   static inline uint32_t Compute(::ArrayW<uint8_t> input, int32_t offset, int32_t length);
 
   static inline ::ArrayW<uint32_t> getStaticF_Table();
@@ -52,7 +52,7 @@ public:
   static constexpr uint32_t Poly{ static_cast<uint32_t>(0x82f63b78u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

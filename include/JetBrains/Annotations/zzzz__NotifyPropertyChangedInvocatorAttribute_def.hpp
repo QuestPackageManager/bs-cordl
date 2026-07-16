@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__ParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ce6610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3a914, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ce6614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3a918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW parameterName);
 
-  /// @brief Method get_ParameterName, addr 0x6ce661c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterName, addr 0x6e3a920, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParameterName();
 
-  /// @brief Method set_ParameterName, addr 0x6ce6624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterName, addr 0x6e3a928, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterName(::StringW value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   NotifyPropertyChangedInvocatorAttribute(NotifyPropertyChangedInvocatorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22495 };
 
   /// @brief Field <ParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ParameterName_k__BackingField;

@@ -35,37 +35,37 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::DerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteEncoded, addr 0x35c6b74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x368302c, size 0x50, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t flags, int32_t tagNo, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteEncoded, addr 0x35c6914, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x3682dcc, size 0x5c, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteEncoded, addr 0x35c69ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x3682ea4, size 0x64, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method WriteEncoded, addr 0x35c6970, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x3682e28, size 0x7c, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, uint8_t first, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteLength, addr 0x35c6864, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x3682d1c, size 0xb0, virtual false, abstract: false, final false
   inline void WriteLength(int32_t length);
 
-  /// @brief Method WriteNull, addr 0x35c6bc4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x368307c, size 0x38, virtual false, abstract: false, final false
   inline void WriteNull();
 
-  /// @brief Method WriteObject, addr 0x35c6d68, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x3683220, size 0x70, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method WriteObject, addr 0x35c6dd8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x3683290, size 0x58, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method WriteObject, addr 0x35c6bfc, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x36830b4, size 0x16c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteTag, addr 0x35c6a50, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WriteTag, addr 0x3682f08, size 0x124, virtual false, abstract: false, final false
   inline void WriteTag(int32_t flags, int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x35c6860, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3682d18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:

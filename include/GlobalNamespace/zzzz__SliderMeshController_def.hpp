@@ -85,10 +85,11 @@ public:
 
   __declspec(property(get = get_pathsHolder)) ::GlobalNamespace::PathsHolder* pathsHolder;
 
-  /// @brief Method CreateBezierPathAndMesh, addr 0x583cf14, size 0x78c, virtual false, abstract: false, final false
-  inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale);
+  /// @brief Method CreateBezierPathAndMesh, addr 0x5974800, size 0xaa4, virtual false, abstract: false, final false
+  inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, int32_t headRotation, int32_t tailRotation,
+                                      float_t jumpSpeed, float_t noteUniformScale);
 
-  /// @brief Method CutDirectionToControlPointPosition, addr 0x5841fa8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CutDirectionToControlPointPosition, addr 0x5979c20, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection, float_t angleOffset);
 
   static inline ::GlobalNamespace::SliderMeshController* New_ctor();
@@ -159,16 +160,16 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshConstructor(::UnityW<::GlobalNamespace::SliderMeshConstructor> value);
 
-  /// @brief Method .ctor, addr 0x5842050, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5979cc8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x5841f88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x5979c00, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_pathLength, addr 0x5841f64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_pathLength, addr 0x5979bdc, size 0x24, virtual false, abstract: false, final false
   inline float_t get_pathLength();
 
-  /// @brief Method get_pathsHolder, addr 0x5841fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pathsHolder, addr 0x5979c18, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
 
 protected:
@@ -186,7 +187,7 @@ public:
   SliderMeshController(SliderMeshController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
 
   /// @brief Field kDefaultGameNoteSize offset 0xffffffff size 0x4
   static constexpr float_t kDefaultGameNoteSize{ static_cast<float_t>(0.45f) };

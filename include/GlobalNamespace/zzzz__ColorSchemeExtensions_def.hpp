@@ -28,17 +28,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorSchemeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetColorSchemeForGameplayOverride, addr 0x3638d44, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForGameplayOverride, addr 0x36f51fc, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IGameplayColorScheme* GetColorSchemeForGameplayOverride(::GlobalNamespace::IGameplayColorScheme* playerOverrideColorScheme,
                                                                                            ::GlobalNamespace::IGameplayColorScheme* beatmapOverrideColorScheme,
                                                                                            ::GlobalNamespace::IGameplayColorScheme* environmentColorScheme, bool usingBeatmapDefaultEnvironment);
 
-  /// @brief Method GetColorSchemeForLightshowOverride, addr 0x3638e20, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForLightshowOverride, addr 0x36f52d8, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ILightshowColorScheme* GetColorSchemeForLightshowOverride(::GlobalNamespace::ILightshowColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
                                                                                              ::GlobalNamespace::ILightshowColorScheme* beatmapOverrideColorScheme,
                                                                                              ::GlobalNamespace::ILightshowColorScheme* environmentColorScheme, bool usingBeatmapDefaultEnvironment);
 
-  /// @brief Method ResolveColorScheme, addr 0x3638824, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method ResolveColorScheme, addr 0x36f4cdc, size 0x520, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* ResolveColorScheme(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
                                                                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::ColorScheme* environmentColorScheme,
                                                                    bool usingBeatmapDefaultEnvironment);
@@ -58,7 +58,7 @@ public:
   ColorSchemeExtensions(ColorSchemeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,13 +22,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE JsonTokenUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEndToken, addr 0x5bdf5c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndToken, addr 0x5d177e8, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsPrimitiveToken, addr 0x5bf2fa4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveToken, addr 0x5d2b1cc, size 0x18, virtual false, abstract: false, final false
   static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsStartToken, addr 0x5bf2f94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsStartToken, addr 0x5d2b1bc, size 0x10, virtual false, abstract: false, final false
   static inline bool IsStartToken(::Newtonsoft::Json::JsonToken token);
 
 protected:
@@ -46,7 +46,7 @@ public:
   JsonTokenUtils(JsonTokenUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

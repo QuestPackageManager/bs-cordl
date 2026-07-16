@@ -65,40 +65,40 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x64bd264, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x65fa030, size 0x12c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x64bd198, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x65f9f64, size 0xcc, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::AffineTransform rhs);
 
-  /// @brief Method GetHashCode, addr 0x64bd390, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x65fa15c, size 0xc8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x64bd458, size 0x3a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65fa224, size 0x3a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x64bd7f8, size 0x39c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x65fa5c4, size 0x39c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x64bd0b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9e84, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3x4 m);
 
-  /// @brief Method .ctor, addr 0x64bd0ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9eb8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float4x4 m);
 
-  /// @brief Method .ctor, addr 0x64bd04c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9e18, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::RigidTransform rigid);
 
-  /// @brief Method .ctor, addr 0x64bcfd4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9da0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3x3 rotationScale);
 
-  /// @brief Method .ctor, addr 0x64bce8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9c58, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x64bcf00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9ccc, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::quaternion rotation, ::Unity::Mathematics::float3 scale);
 
-  /// @brief Method .ctor, addr 0x64bcfb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9d84, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::float3x3 rotationScale);
 
   static inline ::Unity::Mathematics::AffineTransform getStaticF_identity();
@@ -111,10 +111,10 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Implicit, addr 0x64bd12c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x65f9ef8, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3x4 op_Implicit___Unity__Mathematics__float3x4(::Unity::Mathematics::AffineTransform m);
 
-  /// @brief Method op_Implicit, addr 0x64bd140, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x65f9f0c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float4x4 op_Implicit___Unity__Mathematics__float4x4(::Unity::Mathematics::AffineTransform m);
 
   static inline void setStaticF_identity(::Unity::Mathematics::AffineTransform value);
@@ -130,7 +130,7 @@ public:
   constexpr AffineTransform(::Unity::Mathematics::float3x3 rs, ::Unity::Mathematics::float3 t) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13096 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

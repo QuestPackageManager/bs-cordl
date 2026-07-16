@@ -48,10 +48,10 @@ namespace Zenject {
 class SceneContext___c;
 }
 namespace Zenject {
-class SceneContext___c__DisplayClass49_0;
+class SceneContext___c__DisplayClass50_0;
 }
 namespace Zenject {
-class SceneContext___c__DisplayClass51_0;
+class SceneContext___c__DisplayClass52_0;
 }
 namespace Zenject {
 class SceneDecoratorContext;
@@ -64,20 +64,20 @@ namespace Zenject {
 class SceneContext___c;
 }
 namespace Zenject {
-class SceneContext___c__DisplayClass49_0;
+class SceneContext___c__DisplayClass50_0;
 }
 namespace Zenject {
-class SceneContext___c__DisplayClass51_0;
+class SceneContext___c__DisplayClass52_0;
 }
 // Write type traits
 MARK_REF_T(::Zenject::SceneContext*);
 MARK_REF_T(::Zenject::SceneContext___c*);
-MARK_REF_T(::Zenject::SceneContext___c__DisplayClass49_0*);
-MARK_REF_T(::Zenject::SceneContext___c__DisplayClass51_0*);
+MARK_REF_T(::Zenject::SceneContext___c__DisplayClass50_0*);
+MARK_REF_T(::Zenject::SceneContext___c__DisplayClass52_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::SceneContext*, "Zenject", "SceneContext");
 DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c*, "Zenject", "SceneContext/<>c");
-DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c__DisplayClass49_0*, "Zenject", "SceneContext/<>c__DisplayClass49_0");
-DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c__DisplayClass51_0*, "Zenject", "SceneContext/<>c__DisplayClass51_0");
+DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c__DisplayClass50_0*, "Zenject", "SceneContext/<>c__DisplayClass50_0");
+DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c__DisplayClass52_0*, "Zenject", "SceneContext/<>c__DisplayClass52_0");
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -88,77 +88,77 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::SceneContext___c* __9;
 
-  /// @brief Field <>9__49_0, offset 0xffffffff, size 0x8
-  __declspec(property(
-      get = getStaticF___9__49_0,
-      put = setStaticF___9__49_0)) ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* __9__49_0;
-
-  /// @brief Field <>9__49_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__49_1,
-                      put = setStaticF___9__49_1)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* __9__49_1;
-
-  /// @brief Field <>9__49_3, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__49_3, put = setStaticF___9__49_3)) ::System::Func_2<::UnityW<::Zenject::SceneContext>, ::Zenject::DiContainer*>* __9__49_3;
-
   /// @brief Field <>9__50_0, offset 0xffffffff, size 0x8
   __declspec(property(
       get = getStaticF___9__50_0,
       put = setStaticF___9__50_0)) ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* __9__50_0;
 
   /// @brief Field <>9__50_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__50_1,
+                      put = setStaticF___9__50_1)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* __9__50_1;
+
+  /// @brief Field <>9__50_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__50_3, put = setStaticF___9__50_3)) ::System::Func_2<::UnityW<::Zenject::SceneContext>, ::Zenject::DiContainer*>* __9__50_3;
+
+  /// @brief Field <>9__51_0, offset 0xffffffff, size 0x8
   __declspec(property(
-      get = getStaticF___9__50_1,
-      put = setStaticF___9__50_1)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>*>* __9__50_1;
+      get = getStaticF___9__51_0,
+      put = setStaticF___9__51_0)) ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* __9__51_0;
+
+  /// @brief Field <>9__51_1, offset 0xffffffff, size 0x8
+  __declspec(property(
+      get = getStaticF___9__51_1,
+      put = setStaticF___9__51_1)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>*>* __9__51_1;
 
   static inline ::Zenject::SceneContext___c* New_ctor();
 
-  /// @brief Method <GetParentContainers>b__49_0, addr 0x6d1c694, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* _GetParentContainers_b__49_0(::UnityEngine::SceneManagement::Scene scene);
+  /// @brief Method <GetParentContainers>b__50_0, addr 0x6e714c4, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* _GetParentContainers_b__50_0(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method <GetParentContainers>b__49_1, addr 0x6d1c6b0, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetParentContainers_b__49_1(::UnityEngine::GameObject* root);
+  /// @brief Method <GetParentContainers>b__50_1, addr 0x6e714e0, size 0x54, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetParentContainers_b__50_1(::UnityEngine::GameObject* root);
 
-  /// @brief Method <GetParentContainers>b__49_3, addr 0x6d1c704, size 0x20, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* _GetParentContainers_b__49_3(::Zenject::SceneContext* x);
+  /// @brief Method <GetParentContainers>b__50_3, addr 0x6e71534, size 0x20, virtual false, abstract: false, final false
+  inline ::Zenject::DiContainer* _GetParentContainers_b__50_3(::Zenject::SceneContext* x);
 
-  /// @brief Method <LookupDecoratorContexts>b__50_0, addr 0x6d1c724, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* _LookupDecoratorContexts_b__50_0(::UnityEngine::SceneManagement::Scene scene);
+  /// @brief Method <LookupDecoratorContexts>b__51_0, addr 0x6e71554, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* _LookupDecoratorContexts_b__51_0(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method <LookupDecoratorContexts>b__50_1, addr 0x6d1c740, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>* _LookupDecoratorContexts_b__50_1(::UnityEngine::GameObject* root);
+  /// @brief Method <LookupDecoratorContexts>b__51_1, addr 0x6e71570, size 0x54, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>* _LookupDecoratorContexts_b__51_1(::UnityEngine::GameObject* root);
 
-  /// @brief Method __zenCreate, addr 0x6d1c794, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e715c4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d1c7d8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e71608, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6d1c690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e714c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::SceneContext___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* getStaticF___9__49_0();
-
-  static inline ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* getStaticF___9__49_1();
-
-  static inline ::System::Func_2<::UnityW<::Zenject::SceneContext>, ::Zenject::DiContainer*>* getStaticF___9__49_3();
-
   static inline ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* getStaticF___9__50_0();
 
-  static inline ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>*>* getStaticF___9__50_1();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* getStaticF___9__50_1();
+
+  static inline ::System::Func_2<::UnityW<::Zenject::SceneContext>, ::Zenject::DiContainer*>* getStaticF___9__50_3();
+
+  static inline ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* getStaticF___9__51_0();
+
+  static inline ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>*>* getStaticF___9__51_1();
 
   static inline void setStaticF___9(::Zenject::SceneContext___c* value);
 
-  static inline void setStaticF___9__49_0(::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* value);
-
-  static inline void setStaticF___9__49_1(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* value);
-
-  static inline void setStaticF___9__49_3(::System::Func_2<::UnityW<::Zenject::SceneContext>, ::Zenject::DiContainer*>* value);
-
   static inline void setStaticF___9__50_0(::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* value);
 
-  static inline void setStaticF___9__50_1(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>*>* value);
+  static inline void setStaticF___9__50_1(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* value);
+
+  static inline void setStaticF___9__50_3(::System::Func_2<::UnityW<::Zenject::SceneContext>, ::Zenject::DiContainer*>* value);
+
+  static inline void setStaticF___9__51_0(::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>* value);
+
+  static inline void setStaticF___9__51_1(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>*>* value);
 
 protected:
   // Ctor Parameters []
@@ -175,7 +175,7 @@ public:
   SceneContext___c(SceneContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -186,8 +186,8 @@ static_assert(sizeof(::Zenject::SceneContext___c) == 0x10, "Size mismatch!");
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: Zenject.SceneContext/<>c__DisplayClass49_0
-class CORDL_TYPE SceneContext___c__DisplayClass49_0 : public ::System::Object {
+// CS Name: Zenject.SceneContext/<>c__DisplayClass50_0
+class CORDL_TYPE SceneContext___c__DisplayClass50_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9__4, offset 0x18, size 0x8
@@ -196,12 +196,12 @@ public:
   /// @brief Field parentContractNames, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_parentContractNames, put = __cordl_internal_set_parentContractNames)) ::System::Collections::Generic::IEnumerable_1<::StringW>* parentContractNames;
 
-  static inline ::Zenject::SceneContext___c__DisplayClass49_0* New_ctor();
+  static inline ::Zenject::SceneContext___c__DisplayClass50_0* New_ctor();
 
-  /// @brief Method <GetParentContainers>b__2, addr 0x6d1c96c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__2, addr 0x6e7179c, size 0xe0, virtual false, abstract: false, final false
   inline bool _GetParentContainers_b__2(::Zenject::SceneContext* sceneContext);
 
-  /// @brief Method <GetParentContainers>b__4, addr 0x6d1ca4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__4, addr 0x6e7187c, size 0x5c, virtual false, abstract: false, final false
   inline bool _GetParentContainers_b__4(::StringW x);
 
   constexpr ::System::Func_2<::StringW, bool>* const& __cordl_internal_get___9__4() const;
@@ -216,31 +216,31 @@ public:
 
   constexpr void __cordl_internal_set_parentContractNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method __zenCreate, addr 0x6d1caa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e718d8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d1caec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e7191c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6d1b67c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e704ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SceneContext___c__DisplayClass49_0();
+  constexpr SceneContext___c__DisplayClass50_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass49_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SceneContext___c__DisplayClass49_0(SceneContext___c__DisplayClass49_0&&) = delete;
+  SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass49_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c__DisplayClass49_0(SceneContext___c__DisplayClass49_0 const&) = delete;
+  SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14451 };
 
   /// @brief Field parentContractNames, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::StringW>* ___parentContractNames;
@@ -251,26 +251,26 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass49_0, ___parentContractNames) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass50_0, ___parentContractNames) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass49_0, _____9__4) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass50_0, _____9__4) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::Zenject::SceneContext___c__DisplayClass49_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::Zenject::SceneContext___c__DisplayClass50_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: Zenject.SceneContext/<>c__DisplayClass51_0
-class CORDL_TYPE SceneContext___c__DisplayClass51_0 : public ::System::Object {
+// CS Name: Zenject.SceneContext/<>c__DisplayClass52_0
+class CORDL_TYPE SceneContext___c__DisplayClass52_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parents, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_parents, put = __cordl_internal_set_parents)) ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parents;
 
-  static inline ::Zenject::SceneContext___c__DisplayClass51_0* New_ctor();
+  static inline ::Zenject::SceneContext___c__DisplayClass52_0* New_ctor();
 
-  /// @brief Method <Install>b__0, addr 0x6d1cc80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <Install>b__0, addr 0x6e71ab0, size 0x84, virtual false, abstract: false, final false
   inline bool _Install_b__0(::Zenject::DiContainer* x);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* const& __cordl_internal_get_parents() const;
@@ -279,31 +279,31 @@ public:
 
   constexpr void __cordl_internal_set_parents(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x6d1cd04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e71b34, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d1cd48, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e71b78, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6d1b9bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e707ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SceneContext___c__DisplayClass51_0();
+  constexpr SceneContext___c__DisplayClass52_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass51_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SceneContext___c__DisplayClass51_0(SceneContext___c__DisplayClass51_0&&) = delete;
+  SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass51_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c__DisplayClass51_0(SceneContext___c__DisplayClass51_0 const&) = delete;
+  SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14452 };
 
   /// @brief Field parents, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* ___parents;
@@ -311,9 +311,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass51_0, ___parents) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass52_0, ___parents) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::Zenject::SceneContext___c__DisplayClass51_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::Zenject::SceneContext___c__DisplayClass52_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
 // Dependencies Zenject.RunnableContext
@@ -325,9 +325,9 @@ public:
   // Declarations
   using __c = ::Zenject::SceneContext___c;
 
-  using __c__DisplayClass49_0 = ::Zenject::SceneContext___c__DisplayClass49_0;
+  using __c__DisplayClass50_0 = ::Zenject::SceneContext___c__DisplayClass50_0;
 
-  using __c__DisplayClass51_0 = ::Zenject::SceneContext___c__DisplayClass51_0;
+  using __c__DisplayClass52_0 = ::Zenject::SceneContext___c__DisplayClass52_0;
 
   __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
@@ -404,43 +404,46 @@ public:
   /// @brief Field _parentNewObjectsUnderSceneContext, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get__parentNewObjectsUnderSceneContext, put = __cordl_internal_set__parentNewObjectsUnderSceneContext)) bool _parentNewObjectsUnderSceneContext;
 
-  /// @brief Method Awake, addr 0x6d1a9ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6e6f7dc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Create, addr 0x6d1c2c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e710f4, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> Create();
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x6d1c278, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x6e710a8, size 0x4c, virtual true, abstract: false, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetParentContainers, addr 0x6d1b078, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method GetParentContainers, addr 0x6e6fea8, size 0x604, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* GetParentContainers();
 
-  /// @brief Method GetRootGameObjects, addr 0x6d1b04c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x6e6fe7c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method Install, addr 0x6d1a9dc, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method Install, addr 0x6e6f80c, size 0x5ac, virtual false, abstract: false, final false
   inline void Install();
 
-  /// @brief Method InstallBindings, addr 0x6d1bb30, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e70960, size 0x5f0, virtual false, abstract: false, final false
   inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
-  /// @brief Method LookupDecoratorContexts, addr 0x6d1b680, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method LookupDecoratorContexts, addr 0x6e704b0, size 0x33c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Zenject::SceneDecoratorContext>>* LookupDecoratorContexts();
 
   static inline ::Zenject::SceneContext* New_ctor();
 
-  /// @brief Method Resolve, addr 0x6d1af88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x6e6f550, size 0x60, virtual false, abstract: false, final false
+  static inline void NoDomainReloadInit();
+
+  /// @brief Method Resolve, addr 0x6e6fdb8, size 0x9c, virtual false, abstract: false, final false
   inline void Resolve();
 
-  /// @brief Method RunInternal, addr 0x6d1b024, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x6e6fe54, size 0x28, virtual true, abstract: false, final false
   inline void RunInternal();
 
-  /// @brief Method Validate, addr 0x6d1a9b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6e6f7e0, size 0x2c, virtual false, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method <LookupDecoratorContexts>b__50_2, addr 0x6d1c48c, size 0x68, virtual false, abstract: false, final false
-  inline bool _LookupDecoratorContexts_b__50_2(::Zenject::SceneDecoratorContext* decoratorContext);
+  /// @brief Method <LookupDecoratorContexts>b__51_2, addr 0x6e712bc, size 0x68, virtual false, abstract: false, final false
+  inline bool _LookupDecoratorContexts_b__51_2(::Zenject::SceneDecoratorContext* decoratorContext);
 
   constexpr ::UnityEngine::Events::UnityEvent* const& __cordl_internal_get_OnPostInstall() const;
 
@@ -532,22 +535,22 @@ public:
 
   constexpr void __cordl_internal_set__parentNewObjectsUnderSceneContext(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d1c4f4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e71324, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6d1c37c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e711ac, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PostInstall, addr 0x6d1a378, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PostInstall, addr 0x6e6f148, size 0xac, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
-  /// @brief Method add_PostResolve, addr 0x6d1a628, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PostResolve, addr 0x6e6f3f8, size 0xac, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
-  /// @brief Method add_PreInstall, addr 0x6d1a220, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PreInstall, addr 0x6e6eff0, size 0xac, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
-  /// @brief Method add_PreResolve, addr 0x6d1a4d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PreResolve, addr 0x6e6f2a0, size 0xac, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
   static inline ::System::Action_1<::Zenject::DiContainer*>* getStaticF_ExtraBindingsEarlyInstallMethod();
@@ -560,37 +563,37 @@ public:
 
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* getStaticF_ParentContainers();
 
-  /// @brief Method get_Container, addr 0x6d1a780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x6e6f5b0, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_ContractNames, addr 0x6d1a7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractNames, addr 0x6e6f5f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_ContractNames();
 
-  /// @brief Method get_HasInstalled, addr 0x6d1a790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasInstalled, addr 0x6e6f5c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasInstalled();
 
-  /// @brief Method get_HasResolved, addr 0x6d1a788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasResolved, addr 0x6e6f5b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasResolved();
 
-  /// @brief Method get_IsValidating, addr 0x6d1a798, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValidating, addr 0x6e6f5c8, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsValidating();
 
-  /// @brief Method get_ParentContractNames, addr 0x6d1a888, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContractNames, addr 0x6e6f6b8, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_ParentContractNames();
 
-  /// @brief Method get_ParentNewObjectsUnderSceneContext, addr 0x6d1a99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentNewObjectsUnderSceneContext, addr 0x6e6f7cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParentNewObjectsUnderSceneContext();
 
-  /// @brief Method remove_PostInstall, addr 0x6d1a424, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PostInstall, addr 0x6e6f1f4, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
-  /// @brief Method remove_PostResolve, addr 0x6d1a6d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PostResolve, addr 0x6e6f4a4, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
-  /// @brief Method remove_PreInstall, addr 0x6d1a2cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PreInstall, addr 0x6e6f09c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
-  /// @brief Method remove_PreResolve, addr 0x6d1a57c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PreResolve, addr 0x6e6f34c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
   static inline void setStaticF_ExtraBindingsEarlyInstallMethod(::System::Action_1<::Zenject::DiContainer*>* value);
@@ -603,13 +606,13 @@ public:
 
   static inline void setStaticF_ParentContainers(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method set_ContractNames, addr 0x6d1a7cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_ContractNames, addr 0x6e6f5fc, size 0xbc, virtual false, abstract: false, final false
   inline void set_ContractNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_ParentContractNames, addr 0x6d1a93c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_ParentContractNames, addr 0x6e6f76c, size 0x60, virtual false, abstract: false, final false
   inline void set_ParentContractNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_ParentNewObjectsUnderSceneContext, addr 0x6d1a9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentNewObjectsUnderSceneContext, addr 0x6e6f7d4, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentNewObjectsUnderSceneContext(bool value);
 
 protected:
@@ -627,7 +630,7 @@ public:
   SceneContext(SceneContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };
 
   /// @brief Field PreInstall, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PreInstall;

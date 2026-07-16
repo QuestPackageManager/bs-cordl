@@ -51,7 +51,7 @@ public:
   OVRMesh_IOVRMeshDataProvider(OVRMesh_IOVRMeshDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,7 +108,7 @@ public:
   static ::GlobalNamespace::OVRMesh_MeshType const XRHandRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7898 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,24 +154,24 @@ public:
   /// @brief Field _meshType, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__meshType, put = __cordl_internal_set__meshType)) ::GlobalNamespace::OVRMesh_MeshType _meshType;
 
-  /// @brief Method Awake, addr 0x5dc69e8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5efec10, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetMeshType, addr 0x5dc69d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMeshType, addr 0x5efec00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMesh_MeshType GetMeshType();
 
-  /// @brief Method Initialize, addr 0x5dc6b20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5efed48, size 0xc0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRMesh_MeshType meshType);
 
   static inline ::GlobalNamespace::OVRMesh* New_ctor();
 
-  /// @brief Method SetMeshType, addr 0x5dc69e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMeshType, addr 0x5efec08, size 0x8, virtual false, abstract: false, final false
   inline void SetMeshType(::GlobalNamespace::OVRMesh_MeshType type);
 
-  /// @brief Method ShouldInitialize, addr 0x5dc6af8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x5efed20, size 0x28, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method TransformOvrpMesh, addr 0x5dc6be0, size 0xa58, virtual false, abstract: false, final false
+  /// @brief Method TransformOvrpMesh, addr 0x5efee08, size 0xa58, virtual false, abstract: false, final false
   inline void TransformOvrpMesh(::GlobalNamespace::OVRPlugin_Mesh* ovrpMesh, ::UnityEngine::Mesh* mesh);
 
   constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
@@ -204,16 +204,16 @@ public:
 
   constexpr void __cordl_internal_set__meshType(::GlobalNamespace::OVRMesh_MeshType value);
 
-  /// @brief Method .ctor, addr 0x5dc7638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eff860, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x5dc69c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x5efebe8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_Mesh, addr 0x5dc69d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mesh, addr 0x5efebf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
-  /// @brief Method set_IsInitialized, addr 0x5dc69c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x5efebf0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:
@@ -231,7 +231,7 @@ public:
   OVRMesh(OVRMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7899 };
 
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRMesh_IOVRMeshDataProvider* ____dataProvider;

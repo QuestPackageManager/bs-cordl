@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceRecorder_def.hpp"
+#include "BeatSaber/Automation/zzzz__RecPlayBehaviourState_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventRecorder_def.hpp"
@@ -19,15 +20,39 @@
 #include "GlobalNamespace/zzzz__PerformanceConfigurationStats_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__ProfilerMetrics_def.hpp"
-#include "GlobalNamespace/zzzz__RecPlayBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_ReportDescriptor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::get_ReportDescriptor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58f3dfc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_ReportDescriptor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_ReportDescriptor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::StringW)>(&::GlobalNamespace::PerformanceRecorder::set_ReportDescriptor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58f3e04;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "set_ReportDescriptor", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_StartEnabled
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::get_StartEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4580;
+  constexpr static std::size_t addrs = 0x58f3e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_StartEnabled", {}, {} })));
@@ -39,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(bool)>(&::GlobalNamespace::PerformanceRecorder::set_StartEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4588;
+  constexpr static std::size_t addrs = 0x58f3e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SettingsManager* (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_SettingsManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4590;
+  constexpr static std::size_t addrs = 0x58f3e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_SettingsManager", {}, {} })));
@@ -66,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::SettingsManager*)>(
     &::GlobalNamespace::PerformanceRecorder::set_SettingsManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4598;
+  constexpr static std::size_t addrs = 0x58f3e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_PlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45a0;
+  constexpr static std::size_t addrs = 0x58f3e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_PlayerSpecificSettings", {}, {} })));
@@ -93,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::PerformanceRecorder::set_PlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45a8;
+  constexpr static std::size_t addrs = 0x58f3e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(),
@@ -107,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifierMask (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_GameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45b0;
+  constexpr static std::size_t addrs = 0x58f3e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_GameplayModifiers", {}, {} })));
@@ -120,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceRecorder::set_GameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45b8;
+  constexpr static std::size_t addrs = 0x58f3e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,10 +157,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_RecPlayState
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecPlayBehaviour_State* (::GlobalNamespace::PerformanceRecorder::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Automation::RecPlayBehaviourState* (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_RecPlayState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45c0;
+  constexpr static std::size_t addrs = 0x58f3e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_RecPlayState", {}, {} })));
@@ -145,15 +170,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecPla
 //  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_RecPlayState
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::RecPlayBehaviour_State*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceRecorder::set_RecPlayState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45c8;
+  constexpr static std::size_t addrs = 0x58f3e54;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "set_RecPlayState", {}, { ::i2c::type_of<::GlobalNamespace::RecPlayBehaviour_State*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(),
+                                                                                           { "set_RecPlayState", {}, { ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
     return ___internal_method;
   }
 };
@@ -162,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IGamePause* (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::get_GamePause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45d0;
+  constexpr static std::size_t addrs = 0x58f3e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_GamePause", {}, {} })));
@@ -174,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::IGamePause*)>(&::GlobalNamespace::PerformanceRecorder::set_GamePause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45d8;
+  constexpr static std::size_t addrs = 0x58f3e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayCoreSceneSetupData* (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_SceneSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45e0;
+  constexpr static std::size_t addrs = 0x58f3e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_SceneSetupData", {}, {} })));
@@ -201,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::GameplayCoreSceneSetupData*)>(
     &::GlobalNamespace::PerformanceRecorder::set_SceneSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45e8;
+  constexpr static std::size_t addrs = 0x58f3e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(),
@@ -215,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapObjectManager* (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_ObjectManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45f0;
+  constexpr static std::size_t addrs = 0x58f3e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_ObjectManager", {}, {} })));
@@ -228,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::BeatmapObjectManager*)>(
     &::GlobalNamespace::PerformanceRecorder::set_ObjectManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d45f8;
+  constexpr static std::size_t addrs = 0x58f3e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCallbacksController* (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_CallbackController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4600;
+  constexpr static std::size_t addrs = 0x58f3e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_CallbackController", {}, {} })));
@@ -256,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::PerformanceRecorder::set_CallbackController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4608;
+  constexpr static std::size_t addrs = 0x58f3e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(),
@@ -270,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::AudioTimeSyncController> (::GlobalNamespace::PerformanceRecorder::*)()>(
     &::GlobalNamespace::PerformanceRecorder::get_TimeSync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4610;
+  constexpr static std::size_t addrs = 0x58f3e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_TimeSync", {}, {} })));
@@ -283,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::AudioTimeSyncController*)>(
     &::GlobalNamespace::PerformanceRecorder::set_TimeSync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57d4618;
+  constexpr static std::size_t addrs = 0x58f3ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::Awake)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57d4620;
+  constexpr static std::size_t addrs = 0x58f3eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "Awake", {}, {} })));
@@ -309,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57d462c;
+  constexpr static std::size_t addrs = 0x58f3eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "OnEnable", {}, {} })));
@@ -321,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57d471c;
+  constexpr static std::size_t addrs = 0x58f3fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "OnDisable", {}, {} })));
@@ -333,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57d4ddc;
+  constexpr static std::size_t addrs = 0x58f47fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "Update", {}, {} })));
@@ -344,8 +368,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::CollectFrameData)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x57d4de0;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x58f4800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "CollectFrameData", {}, {} })));
@@ -356,8 +380,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::ClearRecordingData)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x57d4630;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x58f3ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "ClearRecordingData", {}, {} })));
@@ -368,8 +392,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::GenerateReports)> {
-  constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x57d4720;
+  constexpr static std::size_t size = 0x80c;
+  constexpr static std::size_t addrs = 0x58f3ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "GenerateReports", {}, {} })));
@@ -381,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::GlobalNamespace::PerformanceRecorder::WriteFileReport)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x57d57c0;
+  constexpr static std::size_t addrs = 0x58f51d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,25 +417,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::Str
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x57d5d10;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x58f57e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::PerformanceRecorder::__cordl_internal_get_minFpsWindow() {
+constexpr ::StringW& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__ReportDescriptor_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___minFpsWindow;
+  return this->____ReportDescriptor_k__BackingField;
 }
-constexpr float_t const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get_minFpsWindow() const {
+constexpr ::StringW const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__ReportDescriptor_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___minFpsWindow;
+  return this->____ReportDescriptor_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set_minFpsWindow(float_t value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__ReportDescriptor_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___minFpsWindow = value;
+  this->____ReportDescriptor_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__StartEnabled_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -461,15 +485,15 @@ constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__Gamep
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____GameplayModifiers_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::RecPlayBehaviour_State*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__RecPlayState_k__BackingField() {
+constexpr ::BeatSaber::Automation::RecPlayBehaviourState*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__RecPlayState_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RecPlayState_k__BackingField;
 }
-constexpr ::GlobalNamespace::RecPlayBehaviour_State* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__RecPlayState_k__BackingField() const {
+constexpr ::BeatSaber::Automation::RecPlayBehaviourState* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__RecPlayState_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RecPlayState_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__RecPlayState_k__BackingField(::GlobalNamespace::RecPlayBehaviour_State* value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__RecPlayState_k__BackingField(::BeatSaber::Automation::RecPlayBehaviourState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____RecPlayState_k__BackingField = value;
 }
@@ -533,17 +557,29 @@ constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__TimeS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____TimeSync_k__BackingField = value;
 }
-constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__frameTimes() {
+constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__cpuTimes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____frameTimes;
+  return this->____cpuTimes;
 }
-constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__frameTimes() const {
+constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__cpuTimes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____frameTimes;
+  return this->____cpuTimes;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__frameTimes(::System::Collections::Generic::List_1<float_t>* value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__cpuTimes(::System::Collections::Generic::List_1<float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____frameTimes = value;
+  this->____cpuTimes = value;
+}
+constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__gpuTimes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gpuTimes;
+}
+constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__gpuTimes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gpuTimes;
+}
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__gpuTimes(::System::Collections::Generic::List_1<float_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____gpuTimes = value;
 }
 constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__songTimes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -665,6 +701,15 @@ constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__ovrTo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ovrToolMetrics = value;
 }
+inline ::StringW GlobalNamespace::PerformanceRecorder::get_ReportDescriptor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_ReportDescriptor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void GlobalNamespace::PerformanceRecorder::set_ReportDescriptor(::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "set_ReportDescriptor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline bool GlobalNamespace::PerformanceRecorder::get_StartEnabled() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_StartEnabled", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -702,14 +747,14 @@ inline void GlobalNamespace::PerformanceRecorder::set_GameplayModifiers(::Global
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "set_GameplayModifiers", {}, { ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::RecPlayBehaviour_State* GlobalNamespace::PerformanceRecorder::get_RecPlayState() {
+inline ::BeatSaber::Automation::RecPlayBehaviourState* GlobalNamespace::PerformanceRecorder::get_RecPlayState() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "get_RecPlayState", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RecPlayBehaviour_State*>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Automation::RecPlayBehaviourState*>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::set_RecPlayState(::GlobalNamespace::RecPlayBehaviour_State* value) {
+inline void GlobalNamespace::PerformanceRecorder::set_RecPlayState(::BeatSaber::Automation::RecPlayBehaviourState* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "set_RecPlayState", {}, { ::i2c::type_of<::GlobalNamespace::RecPlayBehaviour_State*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceRecorder*>(), { "set_RecPlayState", {}, { ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::IGamePause* GlobalNamespace::PerformanceRecorder::get_GamePause() {

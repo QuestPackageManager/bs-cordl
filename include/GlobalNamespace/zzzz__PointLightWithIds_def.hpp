@@ -28,7 +28,7 @@ public:
   /// @brief Field _pointLight, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__pointLight, put = __cordl_internal_set__pointLight)) ::UnityW<::GlobalNamespace::PointLight> _pointLight;
 
-  /// @brief Method ColorWasSet, addr 0x572bd40, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x587278c, size 0x1c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::PointLightWithIds* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__pointLight(::UnityW<::GlobalNamespace::PointLight> value);
 
-  /// @brief Method .ctor, addr 0x572bd5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58727a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   PointLightWithIds(PointLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19518 };
 
   /// @brief Field _pointLight, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PointLight> ____pointLight;

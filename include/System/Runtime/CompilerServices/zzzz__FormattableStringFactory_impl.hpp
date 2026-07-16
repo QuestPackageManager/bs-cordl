@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a34504;
+  constexpr static std::size_t addrs = 0x5b6e1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3450c;
+  constexpr static std::size_t addrs = 0x5b6e1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::GetArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a34514;
+  constexpr static std::size_t addrs = 0x5b6e1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a3451c;
+  constexpr static std::size_t addrs = 0x5b6e1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(int32_t)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::GetArgument)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a34534;
+  constexpr static std::size_t addrs = 0x5b6e204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(::System::IFormatProvider*)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a34564;
+  constexpr static std::size_t addrs = 0x5b6e234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::FormattableString* (*)(::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory::Create)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5a34438;
+  constexpr static std::size_t addrs = 0x5b6e108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FormattableStringFactory*>(),

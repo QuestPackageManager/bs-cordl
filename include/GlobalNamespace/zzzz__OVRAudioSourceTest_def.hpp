@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::OVRAudioSourceTest* New_ctor();
 
-  /// @brief Method Start, addr 0x5db7238, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5eef460, size 0x114, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5db734c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5eef574, size 0x1e8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_nextActionTime() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_period(float_t value);
 
-  /// @brief Method .ctor, addr 0x5db7534, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eef75c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   OVRAudioSourceTest(OVRAudioSourceTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7836 };
 
   /// @brief Field period, offset: 0x20, size: 0x4, def value: None
   float_t ___period;

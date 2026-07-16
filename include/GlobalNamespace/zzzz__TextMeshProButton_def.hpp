@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x58cec94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59fd6dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x58cec8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x59fd6d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x58cec84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x59fd6cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_text();
 
 protected:
@@ -73,7 +73,7 @@ public:
   TextMeshProButton(TextMeshProButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6306 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

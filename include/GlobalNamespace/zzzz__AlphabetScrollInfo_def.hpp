@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_character(char16_t value);
 
-  /// @brief Method .ctor, addr 0x570f4cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58757e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(char16_t character, int32_t cellIdx);
 
 protected:
@@ -66,7 +66,7 @@ public:
   AlphabetScrollInfo_Data(AlphabetScrollInfo_Data const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19099 };
 
   /// @brief Field character, offset: 0x10, size: 0x2, def value: None
   char16_t ___character;
@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::AlphabetScrollInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x570f4c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58757e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   AlphabetScrollInfo(AlphabetScrollInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

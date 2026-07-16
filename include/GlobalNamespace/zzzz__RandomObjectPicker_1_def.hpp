@@ -78,7 +78,7 @@ public:
   RandomObjectPicker_1(RandomObjectPicker_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21370 };
 
   /// @brief Field _objects, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ____objects;

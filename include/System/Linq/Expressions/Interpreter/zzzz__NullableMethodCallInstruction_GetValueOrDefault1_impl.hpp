@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e7e9f8;
+  constexpr static std::size_t addrs = 0x5fb9af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::Run)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e7ea00;
+  constexpr static std::size_t addrs = 0x5fb9afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e7e874;
+  constexpr static std::size_t addrs = 0x5fb9970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

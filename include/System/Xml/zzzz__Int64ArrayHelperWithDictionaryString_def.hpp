@@ -36,15 +36,15 @@ public:
 
   static inline ::System::Xml::Int64ArrayHelperWithDictionaryString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x5fbdfa0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x60f909c, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int64_t> array,
                            int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x5fbdfd8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x60f90d4, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri,
                          ::ArrayW<int64_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x5fbe014, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60f9110, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Int64ArrayHelperWithDictionaryString* getStaticF_Instance();
@@ -66,7 +66,7 @@ public:
   Int64ArrayHelperWithDictionaryString(Int64ArrayHelperWithDictionaryString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

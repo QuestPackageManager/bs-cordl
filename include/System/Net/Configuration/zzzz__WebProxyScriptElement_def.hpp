@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::WebProxyScriptElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6231760, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636c85c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x623179c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x636c898, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -47,7 +47,7 @@ public:
   WebProxyScriptElement(WebProxyScriptElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

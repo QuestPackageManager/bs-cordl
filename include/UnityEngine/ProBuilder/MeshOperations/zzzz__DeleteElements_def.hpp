@@ -74,10 +74,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c* New_ctor();
 
-  /// @brief Method <DeleteFaces>b__3_0, addr 0x65e1858, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFaces>b__3_0, addr 0x671ef64, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _DeleteFaces_b__3_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x65e1854, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671ef60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c* getStaticF___9();
@@ -103,7 +103,7 @@ public:
   DeleteElements___c(DeleteElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,16 +126,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <DeleteVertices>b__0, addr 0x65e1878, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__0, addr 0x671ef84, size 0x98, virtual false, abstract: false, final false
   inline bool _DeleteVertices_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method <DeleteVertices>b__1, addr 0x65e1910, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__1, addr 0x671f01c, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> _DeleteVertices_b__1(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
-  /// @brief Method <DeleteVertices>b__2, addr 0x65e19b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__2, addr 0x671f0c0, size 0x98, virtual false, abstract: false, final false
   inline bool _DeleteVertices_b__2(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method <DeleteVertices>b__3, addr 0x65e1a4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__3, addr 0x671f158, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> _DeleteVertices_b__3(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_offset() const;
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_sorted(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x65e1044, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671e750, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   DeleteElements___c__DisplayClass0_0(DeleteElements___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16836 };
 
   /// @brief Field sorted, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___sorted;
@@ -198,7 +198,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <DeleteFaces>b__0, addr 0x65e1af0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFaces>b__0, addr 0x671f1fc, size 0x68, virtual false, abstract: false, final false
   inline int32_t _DeleteFaces_b__0(::UnityEngine::ProBuilder::Face* x);
 
   constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method .ctor, addr 0x65e1048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671e754, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -225,7 +225,7 @@ public:
   DeleteElements___c__DisplayClass2_0(DeleteElements___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16837 };
 
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
@@ -251,22 +251,22 @@ public:
 
   using __c__DisplayClass2_0 = ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass2_0;
 
-  /// @brief Method DeleteFace, addr 0x65cff60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DeleteFace, addr 0x670d66c, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> DeleteFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method DeleteFaces, addr 0x65e104c, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method DeleteFaces, addr 0x671e758, size 0x664, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* faceIndexes);
 
-  /// @brief Method DeleteFaces, addr 0x65d7f98, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DeleteFaces, addr 0x67156a4, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method DeleteVertices, addr 0x65d1cd4, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method DeleteVertices, addr 0x670f3e0, size 0x5e8, virtual false, abstract: false, final false
   static inline void DeleteVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* distinctIndexes);
 
-  /// @brief Method RemoveDegenerateTriangles, addr 0x65e16b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveDegenerateTriangles, addr 0x671edbc, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method RemoveUnusedVertices, addr 0x65e1758, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveUnusedVertices, addr 0x671ee64, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
 protected:
@@ -284,7 +284,7 @@ public:
   DeleteElements(DeleteElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

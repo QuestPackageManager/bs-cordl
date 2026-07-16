@@ -26,10 +26,10 @@ namespace BeatSaber::RecPlay {
 struct CORDL_TYPE PoseNoise {
 public:
   // Declarations
-  /// @brief Method Sample, addr 0x322d5ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Sample, addr 0x32c4270, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose Sample(float_t time);
 
-  /// @brief Method SampleLemniscateOfBernoulli, addr 0x322d674, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SampleLemniscateOfBernoulli, addr 0x32c4338, size 0x440, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 SampleLemniscateOfBernoulli(float_t time);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr PoseNoise(float_t frequency, float_t move, float_t rotate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

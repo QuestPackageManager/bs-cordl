@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Http::NtlmSession::*)()>(&::Mono::Http::NtlmSession::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9e4b8;
+  constexpr static std::size_t addrs = 0x5fd95b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Http::NtlmSession*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::Mono::Http::NtlmSession::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::Mono::Http::NtlmSession::Authenticate)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x5e9e4bc;
+  constexpr static std::size_t addrs = 0x5fd95b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

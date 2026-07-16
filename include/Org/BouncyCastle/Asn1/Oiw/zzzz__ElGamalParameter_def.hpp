@@ -45,7 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x33a0d74, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x345d22c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_g() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x33a0bdc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345d094, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x33a0c68, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345d120, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_G, addr 0x33a0d5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x345d214, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_P, addr 0x33a0d44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x345d1fc, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
 protected:

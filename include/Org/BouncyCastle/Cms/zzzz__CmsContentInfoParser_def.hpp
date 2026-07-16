@@ -31,7 +31,7 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::IO::Stream* data;
 
-  /// @brief Method Close, addr 0x35e8564, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x36a4a1c, size 0x70, virtual false, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* New_ctor(::System::IO::Stream* data);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x35e82fc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a47b4, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* data);
 
 protected:

@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x61a1424, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dc520, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
 protected:
@@ -54,7 +54,7 @@ public:
   XmlCachedStream(XmlCachedStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9412 };
 
   /// @brief Field uri, offset: 0x50, size: 0x8, def value: None
   ::System::Uri* ___uri;

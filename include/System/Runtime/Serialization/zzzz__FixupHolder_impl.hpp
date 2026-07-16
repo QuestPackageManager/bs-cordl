@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::FixupHolder::*)(int64_t, ::System::Object*, int32_t)>(
     &::System::Runtime::Serialization::FixupHolder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a173e8;
+  constexpr static std::size_t addrs = 0x5b510b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

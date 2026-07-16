@@ -3,6 +3,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
+#include "BeatSaber/Destinations/zzzz__Destination_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManagerConfigSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsPromoDataSO_def.hpp"
@@ -15,34 +18,26 @@
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentAudioEffectsPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__GameLiftNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__IRandom_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModel_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
 #include "GlobalNamespace/zzzz__LocalServerNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerEntitlementChecker_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductCollectionModel_def.hpp"
-#include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentAudioNoiseController_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataFileManagerSO_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__ResettableRandom_def.hpp"
 #include "GlobalNamespace/zzzz__RichPresenceManager_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMasksModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__SteamNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
-#include "GlobalNamespace/zzzz__VoipManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
@@ -53,73 +48,73 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c::*)()>(&::GlobalNamespace::MainSystemInit___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b4c58;
+  constexpr static std::size_t addrs = 0x3772ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__33_1
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__27_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IRandom* (::GlobalNamespace::MainSystemInit___c::*)(::Zenject::InjectContext*)>(
-    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__33_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ResettableRandom* (::GlobalNamespace::MainSystemInit___c::*)(::Zenject::InjectContext*)>(
+    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_1)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x36b4c5c;
+  constexpr static std::size_t addrs = 0x3772ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { "<InstallBindings>b__33_1", {}, { ::i2c::type_of<::Zenject::InjectContext*>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { "<InstallBindings>b__27_1", {}, { ::i2c::type_of<::Zenject::InjectContext*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__33_2
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__27_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PerceivedLoudnessPerLevelModel* (
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__33_2)> {
+    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x36b4d5c;
+  constexpr static std::size_t addrs = 0x3772be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
-                                         { "<InstallBindings>b__33_2", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
+                                         { "<InstallBindings>b__27_2", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__33_3
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__27_3
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel* (
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__33_3)> {
+    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x36b4dd0;
+  constexpr static std::size_t addrs = 0x3772c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
-                                         { "<InstallBindings>b__33_3", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
+                                         { "<InstallBindings>b__27_3", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallPlatformLeaderboardsModel_b__36_0
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallPlatformLeaderboardsModel_b__30_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LeaderboardIdsModel* (::GlobalNamespace::MainSystemInit___c::*)(::GlobalNamespace::BeatmapLevelsModel*)>(
-    &::GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__36_0)> {
+    &::GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__30_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x36b4e44;
+  constexpr static std::size_t addrs = 0x3772cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
-                                                             { "<InstallPlatformLeaderboardsModel>b__36_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>() } })));
+                                                             { "<InstallPlatformLeaderboardsModel>b__30_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>() } })));
     return ___internal_method;
   }
 };
@@ -129,75 +124,75 @@ inline void GlobalNamespace::MainSystemInit___c::setStaticF___9(::GlobalNamespac
 inline ::GlobalNamespace::MainSystemInit___c* GlobalNamespace::MainSystemInit___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::MainSystemInit___c*, "<>9", ::GlobalNamespace::MainSystemInit___c*>();
 }
-inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__33_1(::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::IRandom*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::IRandom*>*, "<>9__33_1", ::GlobalNamespace::MainSystemInit___c*>(
-      std::forward<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::IRandom*>*>(value));
+inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__27_1(::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::ResettableRandom*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::ResettableRandom*>*, "<>9__27_1", ::GlobalNamespace::MainSystemInit___c*>(
+      std::forward<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::ResettableRandom*>*>(value));
 }
-inline ::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::IRandom*>* GlobalNamespace::MainSystemInit___c::getStaticF___9__33_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::IRandom*>*, "<>9__33_1", ::GlobalNamespace::MainSystemInit___c*>();
+inline ::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::ResettableRandom*>* GlobalNamespace::MainSystemInit___c::getStaticF___9__27_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::ResettableRandom*>*, "<>9__27_1", ::GlobalNamespace::MainSystemInit___c*>();
 }
-inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__33_2(
+inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__27_2(
     ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* value) {
   ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__33_2",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__27_2",
       ::GlobalNamespace::MainSystemInit___c*>(
       std::forward<::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*
-GlobalNamespace::MainSystemInit___c::getStaticF___9__33_2() {
+GlobalNamespace::MainSystemInit___c::getStaticF___9__27_2() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__33_2",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__27_2",
       ::GlobalNamespace::MainSystemInit___c*>();
 }
-inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__33_3(
+inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__27_3(
     ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>* value) {
   ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__33_3",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__27_3",
       ::GlobalNamespace::MainSystemInit___c*>(
       std::forward<::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*
-GlobalNamespace::MainSystemInit___c::getStaticF___9__33_3() {
+GlobalNamespace::MainSystemInit___c::getStaticF___9__27_3() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__33_3",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__27_3",
       ::GlobalNamespace::MainSystemInit___c*>();
 }
-inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__36_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__36_0", ::GlobalNamespace::MainSystemInit___c*>(
+inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__30_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__30_0", ::GlobalNamespace::MainSystemInit___c*>(
       std::forward<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* GlobalNamespace::MainSystemInit___c::getStaticF___9__36_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__36_0", ::GlobalNamespace::MainSystemInit___c*>();
+inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* GlobalNamespace::MainSystemInit___c::getStaticF___9__30_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__30_0", ::GlobalNamespace::MainSystemInit___c*>();
 }
 inline void GlobalNamespace::MainSystemInit___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::IRandom* GlobalNamespace::MainSystemInit___c::_InstallBindings_b__33_1(::Zenject::InjectContext* ctx) {
+inline ::GlobalNamespace::ResettableRandom* GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_1(::Zenject::InjectContext* ctx) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { "<InstallBindings>b__33_1", {}, { ::i2c::type_of<::Zenject::InjectContext*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IRandom*>(this, ___internal_method, ctx);
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { "<InstallBindings>b__27_1", {}, { ::i2c::type_of<::Zenject::InjectContext*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ResettableRandom*>(this, ___internal_method, ctx);
 }
 inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel*
-GlobalNamespace::MainSystemInit___c::_InstallBindings_b__33_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
+GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
-                                       { "<InstallBindings>b__33_2", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
+                                       { "<InstallBindings>b__27_2", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PerceivedLoudnessPerLevelModel*>(this, ___internal_method, packDefinitions);
 }
 inline ::GlobalNamespace::OculusLevelProductCollectionModel*
-GlobalNamespace::MainSystemInit___c::_InstallBindings_b__33_3(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
+GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_3(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
-                                       { "<InstallBindings>b__33_3", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
+                                       { "<InstallBindings>b__27_3", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OculusLevelProductCollectionModel*>(this, ___internal_method, packDefinitions);
 }
-inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__36_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
+inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__30_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
-                                                           { "<InstallPlatformLeaderboardsModel>b__36_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>() } })));
+                                                           { "<InstallPlatformLeaderboardsModel>b__30_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LeaderboardIdsModel*>(this, ___internal_method, beatmapLevelsModel);
 }
 inline ::GlobalNamespace::MainSystemInit___c* GlobalNamespace::MainSystemInit___c::New_ctor() {
@@ -205,64 +200,64 @@ inline ::GlobalNamespace::MainSystemInit___c* GlobalNamespace::MainSystemInit___
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSystemInit___c::MainSystemInit___c() {}
-//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c__DisplayClass33_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c__DisplayClass27_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c__DisplayClass33_0::*)()>(&::GlobalNamespace::MainSystemInit___c__DisplayClass33_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::*)()>(&::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b4700;
+  constexpr static std::size_t addrs = 0x377258c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass33_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c__DisplayClass33_0._InstallBindings_b__0
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c__DisplayClass27_0._InstallBindings_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DeterminismConfig* (::GlobalNamespace::MainSystemInit___c__DisplayClass33_0::*)(::GlobalNamespace::TimeHelper*)>(
-    &::GlobalNamespace::MainSystemInit___c__DisplayClass33_0::_InstallBindings_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DeterminismConfig* (::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::*)(::GlobalNamespace::TimeHelper*)>(
+    &::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::_InstallBindings_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x36b4ec0;
+  constexpr static std::size_t addrs = 0x3772d4c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass33_0*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>(),
                                                                                            { "<InstallBindings>b__0", {}, { ::i2c::type_of<::GlobalNamespace::TimeHelper*>() } })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::MainSystemInit___c__DisplayClass33_0::__cordl_internal_get_isRunningFromTests() {
+constexpr bool& GlobalNamespace::MainSystemInit___c__DisplayClass27_0::__cordl_internal_get_isRunningFromTests() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRunningFromTests;
 }
-constexpr bool const& GlobalNamespace::MainSystemInit___c__DisplayClass33_0::__cordl_internal_get_isRunningFromTests() const {
+constexpr bool const& GlobalNamespace::MainSystemInit___c__DisplayClass27_0::__cordl_internal_get_isRunningFromTests() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRunningFromTests;
 }
-constexpr void GlobalNamespace::MainSystemInit___c__DisplayClass33_0::__cordl_internal_set_isRunningFromTests(bool value) {
+constexpr void GlobalNamespace::MainSystemInit___c__DisplayClass27_0::__cordl_internal_set_isRunningFromTests(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isRunningFromTests = value;
 }
-inline void GlobalNamespace::MainSystemInit___c__DisplayClass33_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass33_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::MainSystemInit___c__DisplayClass27_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DeterminismConfig* GlobalNamespace::MainSystemInit___c__DisplayClass33_0::_InstallBindings_b__0(::GlobalNamespace::TimeHelper* timeHelper) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass33_0*>(),
+inline ::GlobalNamespace::DeterminismConfig* GlobalNamespace::MainSystemInit___c__DisplayClass27_0::_InstallBindings_b__0(::GlobalNamespace::TimeHelper* timeHelper) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>(),
                                                                                          { "<InstallBindings>b__0", {}, { ::i2c::type_of<::GlobalNamespace::TimeHelper*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DeterminismConfig*>(this, ___internal_method, timeHelper);
 }
-inline ::GlobalNamespace::MainSystemInit___c__DisplayClass33_0* GlobalNamespace::MainSystemInit___c__DisplayClass33_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MainSystemInit___c__DisplayClass33_0*>());
+inline ::GlobalNamespace::MainSystemInit___c__DisplayClass27_0* GlobalNamespace::MainSystemInit___c__DisplayClass27_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MainSystemInit___c__DisplayClass33_0::MainSystemInit___c__DisplayClass33_0() {}
+constexpr ::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::MainSystemInit___c__DisplayClass27_0() {}
 //  Writing Method size for method: ::GlobalNamespace::MainSystemInit.Init
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::GlobalNamespace::SettingsApplicatorSO*)>(&::GlobalNamespace::MainSystemInit::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x36acca0;
+  constexpr static std::size_t addrs = 0x3768c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,14 +268,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::MainSystemInit.InstallBindings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(&::GlobalNamespace::MainSystemInit::InstallBindings)> {
-  constexpr static std::size_t size = 0x1c3c;
-  constexpr static std::size_t addrs = 0x36ad450;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, ::BeatSaber::Destinations::Destination*)>(
+    &::GlobalNamespace::MainSystemInit::InstallBindings)> {
+  constexpr static std::size_t size = 0x1e8c;
+  constexpr static std::size_t addrs = 0x3769668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(), { "InstallBindings", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<bool>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(),
+                                                             { "InstallBindings", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::BeatSaber::Destinations::Destination*>() } })));
     return ___internal_method;
   }
 };
@@ -289,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(&::GlobalNamespace::MainSystemInit::InstallRichPresence)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x36b4828;
+  constexpr static std::size_t addrs = 0x37726b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(&::GlobalNamespace::MainSystemInit::InstallOculusDestinationBindings)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x36b4704;
+  constexpr static std::size_t addrs = 0x3772590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallPlatformLeaderboardsModel)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x36b4960;
+  constexpr static std::size_t addrs = 0x37727ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)()>(&::GlobalNamespace::MainSystemInit::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36b4bf8;
+  constexpr static std::size_t addrs = 0x3772a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(), { ".ctor", {}, {} })));
@@ -361,42 +357,6 @@ constexpr ::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> const& GlobalName
 constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__playerDataFileManager(::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playerDataFileManager = value;
-}
-constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__standardLevelScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____standardLevelScenesTransitionSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__standardLevelScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____standardLevelScenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____standardLevelScenesTransitionSetupData = value;
-}
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__missionLevelScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____missionLevelScenesTransitionSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__missionLevelScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____missionLevelScenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____missionLevelScenesTransitionSetupData = value;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____multiplayerLevelScenesTransitionSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____multiplayerLevelScenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____multiplayerLevelScenesTransitionSetupData = value;
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__playerDataModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -445,18 +405,6 @@ constexpr ::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager> const&
 constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__multiplayerSessionManagerPrefab(::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplayerSessionManagerPrefab = value;
-}
-constexpr ::UnityW<::GlobalNamespace::VoipManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__voipManagerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____voipManagerPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::VoipManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__voipManagerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____voipManagerPrefab;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__voipManagerPrefab(::UnityW<::GlobalNamespace::VoipManager> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____voipManagerPrefab = value;
 }
 constexpr ::UnityW<::GlobalNamespace::GameLiftNetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__gameLiftNetworkPlayerModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -602,42 +550,6 @@ constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__beatmapLev
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapLevelsPromoData = value;
 }
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__networkConfig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____networkConfig;
-}
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__networkConfig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____networkConfig;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____networkConfig = value;
-}
-constexpr ::UnityW<::GlobalNamespace::SteamNetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamNetworkPlayerModelPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____steamNetworkPlayerModelPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::SteamNetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamNetworkPlayerModelPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____steamNetworkPlayerModelPrefab;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__steamNetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::SteamNetworkPlayerModel> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____steamNetworkPlayerModelPrefab = value;
-}
-constexpr ::UnityW<::GlobalNamespace::OculusNetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusNetworkPlayerModelPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____oculusNetworkPlayerModelPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::OculusNetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusNetworkPlayerModelPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____oculusNetworkPlayerModelPrefab;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__oculusNetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::OculusNetworkPlayerModel> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____oculusNetworkPlayerModelPrefab = value;
-}
 constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader>& GlobalNamespace::MainSystemInit::__cordl_internal_get__leaderboardScoreUploader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardScoreUploader;
@@ -674,18 +586,6 @@ constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__coroutineS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____coroutineStarter = value;
 }
-constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__menuTransitionHelperPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____menuTransitionHelperPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__menuTransitionHelperPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____menuTransitionHelperPrefab;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__menuTransitionHelperPrefab(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____menuTransitionHelperPrefab = value;
-}
 constexpr int32_t& GlobalNamespace::MainSystemInit::__cordl_internal_get__defaultMaxCachedBeatmapLevels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMaxCachedBeatmapLevels;
@@ -710,6 +610,30 @@ constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__persistent
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____persistentAudioNoisePrefab = value;
 }
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__hapticFeedbackControllerPrefab() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hapticFeedbackControllerPrefab;
+}
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__hapticFeedbackControllerPrefab() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hapticFeedbackControllerPrefab;
+}
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__hapticFeedbackControllerPrefab(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hapticFeedbackControllerPrefab = value;
+}
+constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__audioManagerConfig() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManagerConfig;
+}
+constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__audioManagerConfig() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManagerConfig;
+}
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__audioManagerConfig(::UnityW<::GlobalNamespace::AudioManagerConfigSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____audioManagerConfig = value;
+}
 constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::MainSystemInit::__cordl_internal_get__settingsManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
@@ -727,11 +651,11 @@ inline void GlobalNamespace::MainSystemInit::Init(::GlobalNamespace::SettingsApp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(), { "Init", {}, { ::i2c::type_of<::GlobalNamespace::SettingsApplicatorSO*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settingsApplicator);
 }
-inline void GlobalNamespace::MainSystemInit::InstallBindings(::Zenject::DiContainer* container, bool isRunningFromTests) {
+inline void GlobalNamespace::MainSystemInit::InstallBindings(::Zenject::DiContainer* container, ::BeatSaber::Destinations::Destination* destination) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(), { "InstallBindings", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, isRunningFromTests);
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(),
+                                                           { "InstallBindings", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::BeatSaber::Destinations::Destination*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, destination);
 }
 inline void GlobalNamespace::MainSystemInit::InstallRichPresence(::Zenject::DiContainer* container, bool isRunningFromTests) {
   static auto* ___internal_method =

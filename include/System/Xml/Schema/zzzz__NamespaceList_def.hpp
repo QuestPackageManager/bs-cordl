@@ -75,7 +75,7 @@ public:
   static ::System::Xml::Schema::NamespaceList_ListType const Set;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,35 +115,35 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Xml::Schema::NamespaceList_ListType type;
 
-  /// @brief Method Allows, addr 0x609d8f4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x61d89f0, size 0x80, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
-  /// @brief Method Allows, addr 0x609d974, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Allows, addr 0x61d8a70, size 0x1c, virtual false, abstract: false, final false
   inline bool Allows(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method Clone, addr 0x609d750, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x61d884c, size 0x130, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList* Clone();
 
-  /// @brief Method CompareSetToOther, addr 0x609e730, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CompareSetToOther, addr 0x61d982c, size 0x144, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList* CompareSetToOther(::System::Xml::Schema::NamespaceList* other);
 
-  /// @brief Method Intersection, addr 0x609e874, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method Intersection, addr 0x61d9970, size 0x51c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::NamespaceList* Intersection(::System::Xml::Schema::NamespaceList* o1, ::System::Xml::Schema::NamespaceList* o2, bool v1Compat);
 
-  /// @brief Method IsSubset, addr 0x609de50, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method IsSubset, addr 0x61d8f4c, size 0x3a4, virtual false, abstract: false, final false
   static inline bool IsSubset(::System::Xml::Schema::NamespaceList* sub, ::System::Xml::Schema::NamespaceList* super);
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor();
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method RemoveNamespace, addr 0x609ed90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveNamespace, addr 0x61d9e8c, size 0x60, virtual false, abstract: false, final false
   inline void RemoveNamespace(::StringW tns);
 
-  /// @brief Method ToString, addr 0x609d990, size 0x4c0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x61d8a8c, size 0x4c0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Union, addr 0x609e1f4, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method Union, addr 0x61d92f0, size 0x53c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::NamespaceList* Union(::System::Xml::Schema::NamespaceList* o1, ::System::Xml::Schema::NamespaceList* o2, bool v1Compat);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_set() const;
@@ -164,19 +164,19 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Xml::Schema::NamespaceList_ListType value);
 
-  /// @brief Method .ctor, addr 0x609d4c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d85bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x609d4c4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d85c0, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method get_Enumerate, addr 0x609d890, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Enumerate, addr 0x61d898c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Enumerate();
 
-  /// @brief Method get_Excluded, addr 0x609d888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Excluded, addr 0x61d8984, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Excluded();
 
-  /// @brief Method get_Type, addr 0x609d880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x61d897c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList_ListType get_Type();
 
 protected:
@@ -194,7 +194,7 @@ public:
   NamespaceList(NamespaceList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9667 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Schema::NamespaceList_ListType ___type;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)(float_t, bool, float_t)>(&::GlobalNamespace::MissionStageLockView::UpdateLocalPositionY)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x58de488;
+  constexpr static std::size_t addrs = 0x593b7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)()>(&::GlobalNamespace::MissionStageLockView::Update)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x58de510;
+  constexpr static std::size_t addrs = 0x593b83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStageLockView*>(), { "Update", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)(::StringW)>(&::GlobalNamespace::MissionStageLockView::UpdateStageLockText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58de608;
+  constexpr static std::size_t addrs = 0x593b934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)()>(&::GlobalNamespace::MissionStageLockView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58de628;
+  constexpr static std::size_t addrs = 0x593b954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStageLockView*>(), { ".ctor", {}, {} })));

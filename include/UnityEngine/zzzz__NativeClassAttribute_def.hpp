@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a5ee0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb28e8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x6a5ee74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb2950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
-  /// @brief Method set_Declaration, addr 0x6a5ee04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x6bb28e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
-  /// @brief Method set_QualifiedNativeName, addr 0x6a5edfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x6bb28d8, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   NativeClassAttribute(NativeClassAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23024 };
 
   /// @brief Field <QualifiedNativeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____QualifiedNativeName_k__BackingField;

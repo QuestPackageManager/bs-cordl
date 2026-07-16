@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::ColorScheme*,
                                                                                            bool)>(&::GlobalNamespace::ColorSchemeExtensions::ResolveColorScheme)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x3638824;
+  constexpr static std::size_t addrs = 0x36f4cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILight
                                                                                                      ::GlobalNamespace::ILightshowColorScheme*, bool)>(
     &::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForLightshowOverride)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3638e20;
+  constexpr static std::size_t addrs = 0x36f52d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::IGameplayColorScheme* (*)(::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, bool)>(
         &::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForGameplayOverride)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3638d44;
+  constexpr static std::size_t addrs = 0x36f51fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

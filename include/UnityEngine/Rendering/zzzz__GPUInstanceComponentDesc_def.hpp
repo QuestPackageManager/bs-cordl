@@ -28,7 +28,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUInstanceComponentDesc {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x66dd684, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681ad90, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t inPropertyID, int32_t inByteSize, bool inIsOverriden, bool inPerInstance, ::UnityEngine::Rendering::InstanceType inInstanceType,
                     ::UnityEngine::Rendering::InstanceComponentGroup inComponentType);
 
@@ -44,7 +44,7 @@ public:
                                      ::UnityEngine::Rendering::InstanceComponentGroup componentGroup) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17646 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

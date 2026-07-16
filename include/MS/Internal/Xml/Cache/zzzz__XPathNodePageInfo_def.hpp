@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__pageNum(int32_t value);
 
-  /// @brief Method get_NextPage, addr 0x613acbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPage, addr 0x6275db8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_NextPage();
 
-  /// @brief Method get_NodeCount, addr 0x613acb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeCount, addr 0x6275db0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NodeCount();
 
-  /// @brief Method get_PageNumber, addr 0x613acac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageNumber, addr 0x6275da8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PageNumber();
 
 protected:
@@ -82,7 +82,7 @@ public:
   XPathNodePageInfo(XPathNodePageInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9854 };
 
   /// @brief Field _pageNum, offset: 0x10, size: 0x4, def value: None
   int32_t ____pageNum;

@@ -4,7 +4,7 @@
 #include "GlobalNamespace/zzzz__SceneTransitionAudioFadeController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupData_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(&::GlobalNamespace::SceneTransitionAudioFadeController::Initialize)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5780004;
+  constexpr static std::size_t addrs = 0x58bc2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { "Initialize", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(&::GlobalNamespace::SceneTransitionAudioFadeController::Dispose)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5780130;
+  constexpr static std::size_t addrs = 0x58bc3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { "Dispose", {}, {} })));
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t)>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidStart)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x578025c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x58bc524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,10 +51,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType,
-                                                                                                                       ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
+                                                                                                                       ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidFinish)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5780290;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x58bc55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                              { "HandleTransitionDidFinish",
                                                                {},
                                                                { ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneTransitionType>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                 ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(&::GlobalNamespace::SceneTransitionAudioFadeController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57802c0;
+  constexpr static std::size_t addrs = 0x58bc590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { ".ctor", {}, {} })));
@@ -117,14 +117,14 @@ inline void GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitio
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionType, duration);
 }
 inline void GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType,
-                                                                                           ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo, ::Zenject::DiContainer* diContainer) {
+                                                                                           ::GlobalNamespace::ScenesTransitionSetupData* transitionSetupData, ::Zenject::DiContainer* diContainer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(),
                                                            { "HandleTransitionDidFinish",
                                                              {},
                                                              { ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneTransitionType>(),
-                                                               ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionType, transitionSetupDataSo, diContainer);
+                                                               ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionType, transitionSetupData, diContainer);
 }
 inline void GlobalNamespace::SceneTransitionAudioFadeController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { ".ctor", {}, {} })));

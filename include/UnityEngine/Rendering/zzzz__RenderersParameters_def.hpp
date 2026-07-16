@@ -84,7 +84,7 @@ public:
   static ::UnityEngine::Rendering::RenderersParameters_Flags const UseBoundingSphereParameter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -199,7 +199,7 @@ public:
   RenderersParameters_ParamNames(RenderersParameters_ParamNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,7 +216,7 @@ public:
   // Declarations
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method get_valid, addr 0x66f58b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6832fc0, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   // Ctor Parameters []
@@ -228,7 +228,7 @@ public:
   constexpr RenderersParameters_ParamInfo(int32_t index, int32_t gpuAddress, int32_t uintOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -270,15 +270,15 @@ public:
   /// @brief Field s_uintSize, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_uintSize, put = setStaticF_s_uintSize)) int32_t s_uintSize;
 
-  /// @brief Method CreateInstanceDataBuffer, addr 0x66f42c8, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceDataBuffer, addr 0x68319d4, size 0x3c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
                                                                                           ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
-  /// @brief Method <.ctor>g__GetParamInfo|14_0, addr 0x66f53e4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>g__GetParamInfo|14_0, addr 0x6832af0, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo __ctor_g__GetParamInfo_14_0(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer, int32_t paramNameIdx,
                                                                                                     bool assertOnFail);
 
-  /// @brief Method .ctor, addr 0x66f4690, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6831d9c, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer);
 
   static inline int32_t getStaticF_s_uintSize();
@@ -303,7 +303,7 @@ public:
                                 ::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo> windHistoryParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

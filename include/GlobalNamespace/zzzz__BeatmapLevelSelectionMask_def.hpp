@@ -47,31 +47,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*();
 
-  /// @brief Method Deserialize, addr 0x320e410, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x32a5450, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevelSelectionMask Deserialize(::LiteNetLib::Utils::NetDataReader* reader, uint32_t version);
 
-  /// @brief Method Equals, addr 0x320e1c8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x32a5208, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x320e25c, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x32a529c, size 0x12c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapLevelSelectionMask other);
 
-  /// @brief Method GetHashCode, addr 0x320e388, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32a53c8, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x320e3c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x32a5404, size 0x4c, virtual false, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t version);
 
-  /// @brief Method .ctor, addr 0x320e1b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a51f0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks);
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>* i___System__IEquatable_1___GlobalNamespace__BeatmapLevelSelectionMask_();
 
-  /// @brief Method op_Equality, addr 0x320e494, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x32a54d4, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::BeatmapLevelSelectionMask l, ::GlobalNamespace::BeatmapLevelSelectionMask r);
 
-  /// @brief Method op_Inequality, addr 0x320e508, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x32a5548, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::BeatmapLevelSelectionMask l, ::GlobalNamespace::BeatmapLevelSelectionMask r);
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
   constexpr BeatmapLevelSelectionMask(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18804 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

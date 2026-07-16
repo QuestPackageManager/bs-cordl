@@ -144,7 +144,7 @@ public:
   GPUInstanceDataBufferGrower_CopyInstancesKernelIDs(GPUInstanceDataBufferGrower_CopyInstancesKernelIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17655 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,13 +162,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method CreateResources, addr 0x66dfda0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateResources, addr 0x681d4ac, size 0x4, virtual false, abstract: false, final false
   inline void CreateResources();
 
-  /// @brief Method Dispose, addr 0x66e00d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x681d7e0, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadShaders, addr 0x66e0020, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadShaders, addr 0x681d72c, size 0xb4, virtual false, abstract: false, final false
   inline void LoadShaders(::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Convert to "::System::IDisposable"
@@ -183,7 +183,7 @@ public:
   constexpr GPUInstanceDataBufferGrower_GPUResources(::UnityW<::UnityEngine::ComputeShader> cs, int32_t kernelId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17656 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -218,13 +218,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x66dfda4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x681d4b0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SubmitToGpu, addr 0x66dfad4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method SubmitToGpu, addr 0x681d1e0, size 0x2cc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* SubmitToGpu(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources> gpuResources);
 
-  /// @brief Method .ctor, addr 0x66df948, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681d054, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
   /// @brief Convert to "::System::IDisposable"
@@ -239,7 +239,7 @@ public:
   constexpr GPUInstanceDataBufferGrower(::UnityEngine::Rendering::GPUInstanceDataBuffer* m_SrcBuffer, ::UnityEngine::Rendering::GPUInstanceDataBuffer* m_DstBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

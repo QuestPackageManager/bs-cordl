@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableClearEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Data::DataTableClearEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5eee2e8;
+  constexpr static std::size_t addrs = 0x60293e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableClearEventHandler*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableClearEventHandler::*)(::System::Object*, ::System::Data::DataTableClearEventArgs*)>(
     &::System::Data::DataTableClearEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5eee430;
+  constexpr static std::size_t addrs = 0x602952c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

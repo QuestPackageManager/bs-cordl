@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(uint8_t)>(&::UnityEngine::Rendering::BatchFilterSettings::set_batchLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d3a24;
+  constexpr static std::size_t addrs = 0x6b27360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(::UnityEngine::MotionVectorGenerationMode)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_motionMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d3a2c;
+  constexpr static std::size_t addrs = 0x6b27368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(::UnityEngine::Rendering::ShadowCastingMode)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_shadowCastingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d3a34;
+  constexpr static std::size_t addrs = 0x6b27370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchFilterSettings>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(bool)>(&::UnityEngine::Rendering::BatchFilterSettings::set_receiveShadows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d3a3c;
+  constexpr static std::size_t addrs = 0x6b27378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(bool)>(&::UnityEngine::Rendering::BatchFilterSettings::set_staticShadowCaster)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d3a44;
+  constexpr static std::size_t addrs = 0x6b27380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(bool)>(&::UnityEngine::Rendering::BatchFilterSettings::set_allDepthSorted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d3a4c;
+  constexpr static std::size_t addrs = 0x6b27388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -30,10 +30,10 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::TMPro::Extents zero;
 
-  /// @brief Method ToString, addr 0x6805690, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6944174, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6805684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6944168, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   static inline ::TMPro::Extents getStaticF_uninitialized();
@@ -52,7 +52,7 @@ public:
   constexpr Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15847 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

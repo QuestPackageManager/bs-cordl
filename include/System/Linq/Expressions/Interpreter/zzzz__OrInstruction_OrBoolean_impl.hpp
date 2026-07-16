@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OrInstruction_OrBoolean::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::OrInstruction_OrBoolean::Run)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5e7b788;
+  constexpr static std::size_t addrs = 0x5fb6884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OrInstruction_OrBoolean::*)()>(&::GlobalNamespace::OrInstruction_OrBoolean::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e7b214;
+  constexpr static std::size_t addrs = 0x5fb6310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OrInstruction_OrBoolean*>(), { ".ctor", {}, {} })));

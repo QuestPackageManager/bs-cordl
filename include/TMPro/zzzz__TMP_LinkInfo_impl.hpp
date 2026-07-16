@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_LinkInfo::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::TMPro::TMP_LinkInfo::SetLinkID)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x680534c;
+  constexpr static std::size_t addrs = 0x6943e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_LinkInfo::*)()>(&::TMPro::TMP_LinkInfo::GetLinkText)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6805438;
+  constexpr static std::size_t addrs = 0x6943f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_LinkInfo>(), { "GetLinkText", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_LinkInfo::*)()>(&::TMPro::TMP_LinkInfo::GetLink)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6805514;
+  constexpr static std::size_t addrs = 0x6943ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_LinkInfo>(), { "GetLink", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_LinkInfo::*)()>(&::TMPro::TMP_LinkInfo::GetLinkID)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6805518;
+  constexpr static std::size_t addrs = 0x6943ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_LinkInfo>(), { "GetLinkID", {}, {} })));

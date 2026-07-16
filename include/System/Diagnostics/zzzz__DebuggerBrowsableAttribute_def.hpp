@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Diagnostics::DebuggerBrowsableState value);
 
-  /// @brief Method .ctor, addr 0x5aa4aec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bde7c4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
 protected:

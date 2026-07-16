@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackBindingTypeAttribute::*)(::System::Type*)>(&::UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6887110;
+  constexpr static std::size_t addrs = 0x69c5bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackBindingTypeAttribute::*)(::System::Type*, ::UnityEngine::Timeline::TrackBindingFlags)>(
     &::UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6887120;
+  constexpr static std::size_t addrs = 0x69c5c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

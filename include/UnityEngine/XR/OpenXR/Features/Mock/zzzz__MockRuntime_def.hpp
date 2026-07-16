@@ -153,7 +153,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -176,18 +176,18 @@ namespace UnityEngine::XR::OpenXR::Features::Mock {
 class CORDL_TYPE MockRuntime_ScriptEventDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x68b1bf0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6a08b08, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x68b1c94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6a08bac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x68b1bdc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a08af4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param);
 
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x68b1b70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a08a88, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -205,7 +205,7 @@ public:
   MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,18 +220,18 @@ namespace UnityEngine::XR::OpenXR::Features::Mock {
 class CORDL_TYPE MockRuntime_BeforeFunctionDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x68b1cb4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6a08bcc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW functionName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x68b1cd4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6a08bec, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x68b1ca0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a08bb8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult Invoke(::StringW functionName);
 
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x68b0dd4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a07cec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -249,7 +249,7 @@ public:
   MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -264,18 +264,18 @@ namespace UnityEngine::XR::OpenXR::Features::Mock {
 class CORDL_TYPE MockRuntime_AfterFunctionDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x68b1d0c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6a08c24, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW functionName, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x68b1da4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6a08cbc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x68b1cf8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a08c10, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW functionName, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result);
 
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x68b0e50, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a07d68, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -293,7 +293,7 @@ public:
   MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -330,116 +330,116 @@ public:
   __declspec(property(get = getStaticF_s_BeforeFunctionCallbacks, put = setStaticF_s_BeforeFunctionCallbacks)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>* s_BeforeFunctionCallbacks;
 
-  /// @brief Method ActivateSecondaryView, addr 0x68b1840, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ActivateSecondaryView, addr 0x6a08758, size 0x80, virtual false, abstract: false, final false
   static inline void ActivateSecondaryView(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, bool activate);
 
-  /// @brief Method AfterFunctionCallback, addr 0x68b06dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AfterFunctionCallback, addr 0x6a075f4, size 0x48, virtual false, abstract: false, final false
   static inline void AfterFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result);
 
-  /// @brief Method BeforeFunctionCallback, addr 0x68b06a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method BeforeFunctionCallback, addr 0x6a075c0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult BeforeFunctionCallback(::StringW function);
 
-  /// @brief Method CauseInstanceLoss, addr 0x68b1648, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CauseInstanceLoss, addr 0x6a08560, size 0x64, virtual false, abstract: false, final false
   static inline void CauseInstanceLoss();
 
-  /// @brief Method CauseUserPresenceChange, addr 0x68b16ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CauseUserPresenceChange, addr 0x6a085c4, size 0x7c, virtual false, abstract: false, final false
   static inline void CauseUserPresenceChange(bool hasUserPresent);
 
-  /// @brief Method ClearFunctionCallbacks, addr 0x68b0fc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ClearFunctionCallbacks, addr 0x6a07ed8, size 0x54, virtual false, abstract: false, final false
   static inline void ClearFunctionCallbacks();
 
-  /// @brief Method GetAfterFunctionCallback, addr 0x68b09ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAfterFunctionCallback, addr 0x6a078c4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* GetAfterFunctionCallback(::StringW function);
 
-  /// @brief Method GetBeforeFunctionCallback, addr 0x68b0918, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBeforeFunctionCallback, addr 0x6a07830, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* GetBeforeFunctionCallback(::StringW function);
 
-  /// @brief Method GetEndFrameStats, addr 0x68b17bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetEndFrameStats, addr 0x6a086d4, size 0x84, virtual false, abstract: false, final false
   static inline void GetEndFrameStats(::by_ref<int32_t> primaryLayerCount, ::by_ref<int32_t> secondaryLayerCount);
 
-  /// @brief Method GetRegisteredAndroidThreadsCount, addr 0x68b1b64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRegisteredAndroidThreadsCount, addr 0x6a08a7c, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t GetRegisteredAndroidThreadsCount();
 
-  /// @brief Method HookCreateInstance, addr 0x68b1064, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HookCreateInstance, addr 0x6a07f7c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::IntPtr HookCreateInstance(::System::IntPtr func);
 
-  /// @brief Method Internal_GetRegisteredAndroidThreadsCount, addr 0x68b1afc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetRegisteredAndroidThreadsCount, addr 0x6a08a14, size 0x64, virtual false, abstract: false, final false
   static inline uint64_t Internal_GetRegisteredAndroidThreadsCount();
 
-  /// @brief Method Internal_GetSessionState, addr 0x68b1580, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSessionState, addr 0x6a08498, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState Internal_GetSessionState();
 
-  /// @brief Method Internal_IsAndroidThreadTypeRegistered, addr 0x68b1a78, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsAndroidThreadTypeRegistered, addr 0x6a08990, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_IsAndroidThreadTypeRegistered(uint32_t threadType);
 
-  /// @brief Method Internal_RegisterScriptEventCallback, addr 0x68b147c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RegisterScriptEventCallback, addr 0x6a08394, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult Internal_RegisterScriptEventCallback(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* callback);
 
-  /// @brief Method Internal_TransitionToState, addr 0x68b14f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Internal_TransitionToState, addr 0x6a08410, size 0x88, virtual false, abstract: false, final false
   static inline bool Internal_TransitionToState(::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState state, bool forceTransition);
 
-  /// @brief Method IsAndroidThreadTypeRegistered, addr 0x68b1b60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsAndroidThreadTypeRegistered, addr 0x6a08a78, size 0x4, virtual false, abstract: false, final false
   static inline bool IsAndroidThreadTypeRegistered(uint32_t threadType);
 
-  /// @brief Method MetaPerformanceMetrics_SeedCounterOnce_Float, addr 0x68b18c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MetaPerformanceMetrics_SeedCounterOnce_Float, addr 0x6a087d8, size 0xa8, virtual false, abstract: false, final false
   static inline void MetaPerformanceMetrics_SeedCounterOnce_Float(::StringW xrPathString, float_t value, uint32_t unit);
 
-  /// @brief Method MockRuntime_RegisterFunctionCallbacks, addr 0x68b0ed0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MockRuntime_RegisterFunctionCallbacks, addr 0x6a07de8, size 0x98, virtual false, abstract: false, final false
   static inline void MockRuntime_RegisterFunctionCallbacks(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* hookBefore,
                                                            ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* hookAfter);
 
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime* New_ctor();
 
-  /// @brief Method OnInstanceDestroy, addr 0x68b1060, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x6a07f78, size 0x4, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t instance);
 
-  /// @brief Method PerformanceSettings_CauseNotification, addr 0x68b1968, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PerformanceSettings_CauseNotification, addr 0x6a08880, size 0x94, virtual false, abstract: false, final false
   static inline void PerformanceSettings_CauseNotification(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain,
                                                            ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceSubDomain subDomain,
                                                            ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel level);
 
-  /// @brief Method PerformanceSettings_GetPerformanceLevelHint, addr 0x68b19fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method PerformanceSettings_GetPerformanceLevelHint, addr 0x6a08914, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint
   PerformanceSettings_GetPerformanceLevelHint(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain);
 
-  /// @brief Method ReceiveScriptEvent, addr 0x68b0624, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReceiveScriptEvent, addr 0x6a0753c, size 0x84, virtual false, abstract: false, final false
   static inline void ReceiveScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param);
 
-  /// @brief Method RequestExitSession, addr 0x68b15e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RequestExitSession, addr 0x6a084fc, size 0x64, virtual false, abstract: false, final false
   static inline void RequestExitSession();
 
-  /// @brief Method ResetDefaults, addr 0x68b1014, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ResetDefaults, addr 0x6a07f2c, size 0x4c, virtual false, abstract: false, final false
   static inline void ResetDefaults();
 
-  /// @brief Method SetFunctionCallback, addr 0x68b0f94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetFunctionCallback, addr 0x6a07eac, size 0x2c, virtual false, abstract: false, final false
   static inline void SetFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* afterCallback);
 
-  /// @brief Method SetFunctionCallback, addr 0x68b0f68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetFunctionCallback, addr 0x6a07e80, size 0x2c, virtual false, abstract: false, final false
   static inline void SetFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* beforeCallback);
 
-  /// @brief Method SetFunctionCallback, addr 0x68b0a40, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method SetFunctionCallback, addr 0x6a07958, size 0x394, virtual false, abstract: false, final false
   static inline void SetFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* beforeCallback,
                                          ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* afterCallback);
 
-  /// @brief Method SetKeepFunctionCallbacks, addr 0x68b10dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetKeepFunctionCallbacks, addr 0x6a07ff4, size 0x7c, virtual false, abstract: false, final false
   static inline void SetKeepFunctionCallbacks(bool value);
 
-  /// @brief Method SetReferenceSpaceBounds, addr 0x68b1728, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetReferenceSpaceBounds, addr 0x6a08640, size 0x94, virtual false, abstract: false, final false
   static inline void SetReferenceSpaceBounds(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType referenceSpace, ::UnityEngine::Vector2 bounds);
 
-  /// @brief Method SetSpace, addr 0x68b13a0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetSpace, addr 0x6a082b8, size 0xdc, virtual false, abstract: false, final false
   static inline void SetSpace(uint64_t actionHandle, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                               ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags locationFlags);
 
-  /// @brief Method SetSpace, addr 0x68b12c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetSpace, addr 0x6a081dc, size 0xdc, virtual false, abstract: false, final false
   static inline void SetSpace(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType referenceSpace, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                               ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags locationFlags);
 
-  /// @brief Method SetViewPose, addr 0x68b1158, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetViewPose, addr 0x6a08070, size 0xec, virtual false, abstract: false, final false
   static inline void SetViewPose(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, int32_t viewIndex, ::UnityEngine::Vector3 position,
                                  ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector4 fov);
 
-  /// @brief Method SetViewState, addr 0x68b1244, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetViewState, addr 0x6a0815c, size 0x80, virtual false, abstract: false, final false
   static inline void SetViewState(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags viewStateFlags);
 
   constexpr bool const& __cordl_internal_get_ignoreValidationErrors() const;
@@ -448,10 +448,10 @@ public:
 
   constexpr void __cordl_internal_set_ignoreValidationErrors(bool value);
 
-  /// @brief Method .ctor, addr 0x68b1b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a08a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onScriptEvent, addr 0x68b0724, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_onScriptEvent, addr 0x6a0763c, size 0xd0, virtual false, abstract: false, final false
   static inline void add_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
   static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* getStaticF_onScriptEvent();
@@ -460,10 +460,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>* getStaticF_s_BeforeFunctionCallbacks();
 
-  /// @brief Method get_Instance, addr 0x68b08c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x6a077dc, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime> get_Instance();
 
-  /// @brief Method remove_onScriptEvent, addr 0x68b07f4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_onScriptEvent, addr 0x6a0770c, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
   static inline void setStaticF_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
@@ -488,7 +488,7 @@ public:
   MockRuntime(MockRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23352 };
 
   /// @brief Field extLib offset 0xffffffff size 0x8
   static constexpr ::ConstString extLib{ u"mock_api" };

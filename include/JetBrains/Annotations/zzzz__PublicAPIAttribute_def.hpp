@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__Comment_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ce6744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3aa48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ce6748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3aa4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
-  /// @brief Method get_Comment, addr 0x6ce6750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x6e3aa54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x6ce6758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x6e3aa5c, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   PublicAPIAttribute(PublicAPIAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22504 };
 
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Comment_k__BackingField;

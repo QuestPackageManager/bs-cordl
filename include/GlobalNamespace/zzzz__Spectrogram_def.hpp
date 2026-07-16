@@ -53,12 +53,12 @@ public:
 
   __declspec(property(get = get_materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
 
-  /// @brief Method Awake, addr 0x5867ef8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59a11c0, size 0x118, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Spectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x5868010, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59a12d8, size 0x1b0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -85,14 +85,14 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x58681c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a1488, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__spectrogramDataID();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x5867e3c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x59a1104, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -114,7 +114,7 @@ public:
   Spectrogram(Spectrogram const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
 
   /// @brief Field _setAsGlobal, offset: 0x20, size: 0x1, def value: None
   bool ____setAsGlobal;

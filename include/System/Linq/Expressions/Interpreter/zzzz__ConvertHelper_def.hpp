@@ -23,7 +23,7 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ConvertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToInt32NoNull, addr 0x5e4caec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ToInt32NoNull, addr 0x5f87be8, size 0x154, virtual false, abstract: false, final false
   static inline int32_t ToInt32NoNull(::System::Object* val);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ConvertHelper(ConvertHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

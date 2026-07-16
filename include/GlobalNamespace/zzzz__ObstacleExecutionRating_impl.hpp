@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ObstacleExecutionRating_Rating (::GlobalNamespace::ObstacleExecutionRating::*)()>(
     &::GlobalNamespace::ObstacleExecutionRating::get_rating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x367f53c;
+  constexpr static std::size_t addrs = 0x373ac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleExecutionRating*>(), { "get_rating", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleExecutionRating::*)(float_t, ::GlobalNamespace::ObstacleExecutionRating_Rating)>(
     &::GlobalNamespace::ObstacleExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x367f544;
+  constexpr static std::size_t addrs = 0x373ac3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

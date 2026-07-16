@@ -36,13 +36,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image* New_ctor();
 
-  /// @brief Method Setup, addr 0x5920df4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5a4f8, size 0x54, virtual false, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture* watchTexture);
 
-  /// @brief Method Update, addr 0x5920e68, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a5a56c, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSize, addr 0x5920d5c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UpdateSize, addr 0x5a5a460, size 0x98, virtual false, abstract: false, final false
   inline void UpdateSize();
 
   constexpr float_t const& __cordl_internal_get__defaultHeight() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__watchTexture(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture* value);
 
-  /// @brief Method .ctor, addr 0x5920f5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5a660, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Texture, addr 0x5920cb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Texture, addr 0x5a5a3b8, size 0x4, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_Texture();
 
-  /// @brief Method set_Texture, addr 0x5920cb8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method set_Texture, addr 0x5a5a3bc, size 0xa4, virtual true, abstract: false, final false
   inline void set_Texture(::UnityEngine::Texture2D* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   Image(Image const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18369 };
 
   /// @brief Field _watchTexture, offset: 0x78, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::WatchTexture* ____watchTexture;

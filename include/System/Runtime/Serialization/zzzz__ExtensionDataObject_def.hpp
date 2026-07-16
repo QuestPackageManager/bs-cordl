@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set_members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
-  /// @brief Method .ctor, addr 0x600fba8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614aca4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Members, addr 0x600fbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x614aca8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* get_Members();
 
-  /// @brief Method set_Members, addr 0x600fbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Members, addr 0x614acb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   ExtensionDataObject(ExtensionDataObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17002 };
 
   /// @brief Field members, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* ___members;

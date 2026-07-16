@@ -51,18 +51,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method GetInputBlockSize, addr 0x32f1c38, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x33ae0f0, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x32f1c78, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x33ae130, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x32f1970, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33ade28, size 0x2c8, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ElGamalEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x32f1cb8, size 0x4f8, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x33ae170, size 0x4f8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
   constexpr int32_t const& __cordl_internal_get_bitSize() const;
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x32f21b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ae668, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x32f192c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33adde4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"

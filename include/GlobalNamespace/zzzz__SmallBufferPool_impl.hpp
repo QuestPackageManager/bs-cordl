@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::SmallBufferPool::*)(int32_t)>(&::GlobalNamespace::SmallBufferPool::GetBuffer)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x326ed04;
+  constexpr static std::size_t addrs = 0x332b1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::SmallBufferPool::ReleaseBuffer)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32824f8;
+  constexpr static std::size_t addrs = 0x333e9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)(::by_ref<::ArrayW<uint8_t>>)>(&::GlobalNamespace::SmallBufferPool::ReleaseBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x326ece8;
+  constexpr static std::size_t addrs = 0x332b1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::SmallBufferPool::ReleaseBufferInternal)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x32824fc;
+  constexpr static std::size_t addrs = 0x333e9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)()>(&::GlobalNamespace::SmallBufferPool::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x32826cc;
+  constexpr static std::size_t addrs = 0x333eb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmallBufferPool*>(), { ".ctor", {}, {} })));

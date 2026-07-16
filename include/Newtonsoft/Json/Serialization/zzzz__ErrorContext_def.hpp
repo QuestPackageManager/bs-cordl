@@ -94,31 +94,31 @@ public:
 
   constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5c069e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3ec10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method get_Error, addr 0x5c06a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x5d3ec2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
-  /// @brief Method get_Handled, addr 0x5c06a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handled, addr 0x5d3ec4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
-  /// @brief Method get_Member, addr 0x5c06a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x5d3ec3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
-  /// @brief Method get_OriginalObject, addr 0x5c06a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalObject, addr 0x5d3ec34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
-  /// @brief Method get_Path, addr 0x5c06a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x5d3ec44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Traced, addr 0x5c069f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Traced, addr 0x5d3ec1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
-  /// @brief Method set_Handled, addr 0x5c06a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Handled, addr 0x5d3ec54, size 0x8, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
-  /// @brief Method set_Traced, addr 0x5c069fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Traced, addr 0x5d3ec24, size 0x8, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
 protected:
@@ -136,7 +136,7 @@ public:
   ErrorContext(ErrorContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13461 };
 
   /// @brief Field <Traced>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Traced_k__BackingField;

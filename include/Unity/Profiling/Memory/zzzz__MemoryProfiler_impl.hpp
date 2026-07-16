@@ -9,12 +9,42 @@
 #include "Unity/Profiling/Memory/zzzz__MemorySnapshotMetadata_def.hpp"
 #include "Unity/Profiling/zzzz__DebugScreenCapture_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
+//  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.add_CreatingMetadata
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*)>(
+    &::Unity::Profiling::Memory::MemoryProfiler::add_CreatingMetadata)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6a58f60;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(),
+                                                             { "add_CreatingMetadata", {}, { ::i2c::type_of<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.remove_CreatingMetadata
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*)>(
+    &::Unity::Profiling::Memory::MemoryProfiler::remove_CreatingMetadata)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6a59044;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(),
+                                                             { "remove_CreatingMetadata", {}, { ::i2c::type_of<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.PrepareMetadata
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6905d80;
+  constexpr static std::size_t addrs = 0x6a59128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(), { "PrepareMetadata", {}, {} })));
@@ -26,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6905f78;
+  constexpr static std::size_t addrs = 0x6a59320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, ::StringW)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6906000;
+  constexpr static std::size_t addrs = 0x6a593a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool)>(&::Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69060cc;
+  constexpr static std::size_t addrs = 0x6a59474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int32_t, ::UnityEngine::TextureFormat, int32_t, int32_t)>(
     &::Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6906154;
+  constexpr static std::size_t addrs = 0x6a594fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,6 +129,18 @@ inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_CreatingMetadat
 }
 inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_CreatingMetadata() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*, "CreatingMetadata", ::Unity::Profiling::Memory::MemoryProfiler*>();
+}
+inline void Unity::Profiling::Memory::MemoryProfiler::add_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(),
+                                                           { "add_CreatingMetadata", {}, { ::i2c::type_of<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline void Unity::Profiling::Memory::MemoryProfiler::remove_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(),
+                                                           { "remove_CreatingMetadata", {}, { ::i2c::type_of<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline ::ArrayW<uint8_t> Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(), { "PrepareMetadata", {}, {} })));

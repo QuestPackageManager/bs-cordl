@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::ActionHook* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591c5c4;
+  constexpr static std::size_t addrs = 0x5a55cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::*)(::Meta::XR::ImmersiveDebugger::Manager::ActionHook*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::set_Action)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x591916c;
+  constexpr static std::size_t addrs = 0x5a52870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x591c5cc;
+  constexpr static std::size_t addrs = 0x5a55cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

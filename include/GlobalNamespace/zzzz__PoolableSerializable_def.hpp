@@ -57,24 +57,24 @@ public:
   /// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method GetPool, addr 0x36be8e4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetPool, addr 0x377cb30, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>* GetPool(::System::Type* t);
 
   static inline ::GlobalNamespace::PoolableSerializable* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x36be78c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x377c9d8, size 0x80, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Obtain();
 
-  /// @brief Method Release, addr 0x36be220, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x377c46c, size 0x74, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Release, addr 0x36be80c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x377ca58, size 0xd8, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IPoolableSerializable* t);
 
-  /// @brief Method Retain, addr 0x36be33c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Retain, addr 0x377c588, size 0x10, virtual true, abstract: false, final false
   inline void Retain();
 
   /// @brief Method Serialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x36bca40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x377ac8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>*>*
@@ -116,7 +116,7 @@ public:
   PoolableSerializable(PoolableSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21156 };
 
   /// @brief Field kPoolSize offset 0xffffffff size 0x4
   static constexpr int32_t kPoolSize{ static_cast<int32_t>(0x20) };

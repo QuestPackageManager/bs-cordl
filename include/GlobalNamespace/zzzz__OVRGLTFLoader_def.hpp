@@ -158,7 +158,7 @@ public:
 
   static inline ::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0* New_ctor();
 
-  /// @brief Method <LoadGLBCoroutine>b__1, addr 0x5d1a02c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <LoadGLBCoroutine>b__1, addr 0x5e52254, size 0x18, virtual false, abstract: false, final false
   inline bool _LoadGLBCoroutine_b__1();
 
   constexpr ::System::Threading::Tasks::Task_1<::OVRSimpleJSON::JSONNode*>* const& __cordl_internal_get_task() const;
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task_1<::OVRSimpleJSON::JSONNode*>* value);
 
-  /// @brief Method .ctor, addr 0x5d1a028, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e52250, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -185,7 +185,7 @@ public:
   OVRGLTFLoader___c__DisplayClass26_0(OVRGLTFLoader___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7141 };
 
   /// @brief Field task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::OVRSimpleJSON::JSONNode*>* ___task;
@@ -239,21 +239,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d1a048, size 0x8ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e52270, size 0x8ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d1a934, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e52b5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d1a93c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e52b64, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d1a974, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e52b9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d1a044, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e5226c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -298,7 +298,7 @@ public:
 
   constexpr void __cordl_internal_set_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x5d174b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4f6dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -325,7 +325,7 @@ public:
   OVRGLTFLoader__LoadGLBCoroutine_d__26(OVRGLTFLoader__LoadGLBCoroutine_d__26 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7142 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -415,21 +415,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d1a980, size 0x6dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e52ba8, size 0x6dc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d1b05c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e53284, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d1b064, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e5328c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d1b09c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e532c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d1a97c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e52ba4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -486,7 +486,7 @@ public:
 
   constexpr void __cordl_internal_set_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x5d17c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4fe60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -513,7 +513,7 @@ public:
   OVRGLTFLoader__LoadGLTF_d__37(OVRGLTFLoader__LoadGLTF_d__37 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7143 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -604,21 +604,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d1b0a8, size 0x6c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e532d0, size 0x6c8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d1b770, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e53998, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d1b778, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e539a0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d1b7b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e539d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d1b0a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e532cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -657,7 +657,7 @@ public:
 
   constexpr void __cordl_internal_set__processingStart_5__3(float_t value);
 
-  /// @brief Method .ctor, addr 0x5d19d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e51f50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -684,7 +684,7 @@ public:
   OVRGLTFLoader__ProcessAnimations_d__48(OVRGLTFLoader__ProcessAnimations_d__48 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7144 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -784,21 +784,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d1b7bc, size 0xd64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e539e4, size 0xd64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d1c520, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e54748, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d1c528, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e54750, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d1c560, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e54788, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d1b7b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e539e0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -885,7 +885,7 @@ public:
 
   constexpr void __cordl_internal_set_parent(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5d17cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4feec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -912,7 +912,7 @@ public:
   OVRGLTFLoader__ProcessNode_d__38(OVRGLTFLoader__ProcessNode_d__38 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7145 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1079,31 +1079,31 @@ public:
   __declspec(property(get = __cordl_internal_get_textureUriHandler,
                       put = __cordl_internal_set_textureUriHandler)) ::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* textureUriHandler;
 
-  /// @brief Method ApplyTextureQuality, addr 0x5d1792c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ApplyTextureQuality, addr 0x5e4fb54, size 0x170, virtual false, abstract: false, final false
   static inline void ApplyTextureQuality(::GlobalNamespace::OVRTextureQualityFiltering qualityLevel, ::by_ref<::UnityEngine::Texture2D*> destTexture);
 
-  /// @brief Method CreateUnityMaterial, addr 0x5d18e5c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CreateUnityMaterial, addr 0x5e51084, size 0x324, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> CreateUnityMaterial(::GlobalNamespace::OVRMaterialData matData, bool loadMips);
 
-  /// @brief Method DetectTextureQuality, addr 0x5d1786c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DetectTextureQuality, addr 0x5e4fa94, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTextureQualityFiltering DetectTextureQuality(::by_ref<::UnityEngine::Texture2D*> srcTexture);
 
-  /// @brief Method FlipTriangleIndices, addr 0x5d19180, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FlipTriangleIndices, addr 0x5e513a8, size 0x70, virtual false, abstract: false, final false
   static inline void FlipTriangleIndices(::by_ref<::ArrayW<int32_t>> indices);
 
-  /// @brief Method GetInputNodeType, addr 0x5d19b4c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodeType, addr 0x5e51d74, size 0x188, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFInputNode GetInputNodeType(::StringW name);
 
-  /// @brief Method InitializeGLBLoad, addr 0x5d174bc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method InitializeGLBLoad, addr 0x5e4f6e4, size 0xec, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* InitializeGLBLoad();
 
-  /// @brief Method LoadGLB, addr 0x5d17360, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LoadGLB, addr 0x5e4f588, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFScene LoadGLB(bool supportAnimation, bool loadMips);
 
-  /// @brief Method LoadGLBCoroutine, addr 0x5d17440, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadGLBCoroutine, addr 0x5e4f668, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadGLBCoroutine(bool supportAnimation, bool loadMips);
 
-  /// @brief Method LoadGLTF, addr 0x5d17bc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadGLTF, addr 0x5e4fdec, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadGLTF(bool supportAnimation, bool loadMips);
 
   static inline ::GlobalNamespace::OVRGLTFLoader* New_ctor(::ArrayW<uint8_t> data);
@@ -1112,52 +1112,52 @@ public:
 
   static inline ::GlobalNamespace::OVRGLTFLoader* New_ctor(::StringW fileName);
 
-  /// @brief Method ProcessAnimations, addr 0x5d19cd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ProcessAnimations, addr 0x5e51efc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessAnimations();
 
-  /// @brief Method ProcessMaterial, addr 0x5d185b4, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method ProcessMaterial, addr 0x5e507dc, size 0x3e0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMaterialData ProcessMaterial(int32_t matId);
 
-  /// @brief Method ProcessMesh, addr 0x5d17ccc, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method ProcessMesh, addr 0x5e4fef4, size 0x8e8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshData ProcessMesh(::OVRSimpleJSON::JSONNode* meshNode, bool loadMips);
 
-  /// @brief Method ProcessNode, addr 0x5d17c40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ProcessNode, addr 0x5e4fe68, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessNode(::OVRSimpleJSON::JSONArray* nodes, int32_t nodeId, bool loadMips, ::UnityEngine::Transform* parent);
 
-  /// @brief Method ProcessSkin, addr 0x5d19768, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessSkin, addr 0x5e51990, size 0x3e4, virtual false, abstract: false, final false
   inline void ProcessSkin(::OVRSimpleJSON::JSONNode* skinNode, ::UnityEngine::SkinnedMeshRenderer* renderer);
 
-  /// @brief Method ProcessTexture, addr 0x5d18994, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTexture, addr 0x5e50bbc, size 0x40c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTextureData ProcessTexture(int32_t textureId);
 
-  /// @brief Method ReadChunk, addr 0x5d1775c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadChunk, addr 0x5e4f984, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadChunk(::System::IO::Stream* glbStream, ::GlobalNamespace::OVRChunkType type);
 
-  /// @brief Method ReadMeshAttributes, addr 0x5d191f0, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method ReadMeshAttributes, addr 0x5e51418, size 0x578, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshAttributes ReadMeshAttributes(::OVRSimpleJSON::JSONNode* jsonAttributes, int32_t totalVertexCount, int32_t vertexOffset);
 
-  /// @brief Method SetMipMapBias, addr 0x5d1784c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetMipMapBias, addr 0x5e4fa74, size 0x20, virtual false, abstract: false, final false
   inline void SetMipMapBias(float_t loadedTexturesMipmapBiasing);
 
-  /// @brief Method SetModelAlphaBlendShader, addr 0x5d1783c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetModelAlphaBlendShader, addr 0x5e4fa64, size 0x8, virtual false, abstract: false, final false
   inline void SetModelAlphaBlendShader(::UnityEngine::Shader* shader);
 
-  /// @brief Method SetModelShader, addr 0x5d17834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetModelShader, addr 0x5e4fa5c, size 0x8, virtual false, abstract: false, final false
   inline void SetModelShader(::UnityEngine::Shader* shader);
 
-  /// @brief Method SetTextureQualityFiltering, addr 0x5d17844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTextureQualityFiltering, addr 0x5e4fa6c, size 0x8, virtual false, abstract: false, final false
   inline void SetTextureQualityFiltering(::GlobalNamespace::OVRTextureQualityFiltering loadedTexturesQuality);
 
-  /// @brief Method TranscodeTexture, addr 0x5d18da0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method TranscodeTexture, addr 0x5e50fc8, size 0xbc, virtual false, abstract: false, final false
   inline void TranscodeTexture(::by_ref<::GlobalNamespace::OVRTextureData> textureData);
 
-  /// @brief Method ValidateChunk, addr 0x5d17a9c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ValidateChunk, addr 0x5e4fcc4, size 0x128, virtual false, abstract: false, final false
   static inline bool ValidateChunk(::System::IO::Stream* glbStream, ::GlobalNamespace::OVRChunkType type, ::by_ref<uint32_t> chunkLength);
 
-  /// @brief Method ValidateGLB, addr 0x5d175a8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ValidateGLB, addr 0x5e4f7d0, size 0x1b4, virtual false, abstract: false, final false
   static inline bool ValidateGLB(::System::IO::Stream* glbStream);
 
-  /// @brief Method <LoadGLBCoroutine>b__26_0, addr 0x5d1a024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <LoadGLBCoroutine>b__26_0, addr 0x5e5224c, size 0x4, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* _LoadGLBCoroutine_b__26_0();
 
   constexpr ::GlobalNamespace::OVRGLTFAccessor* const& __cordl_internal_get__dataAccessor() const;
@@ -1262,13 +1262,13 @@ public:
 
   constexpr void __cordl_internal_set_textureUriHandler(::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x5d171f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4f420, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x5d172d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4f4f8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<::System::IO::Stream*>* deferredStream);
 
-  /// @brief Method .ctor, addr 0x5d17154, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4f37c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
   static inline ::UnityEngine::Vector3 getStaticF_GLTFToUnitySpace();
@@ -1305,7 +1305,7 @@ public:
   static constexpr float_t LoadingMaxTimePerFrame{ static_cast<float_t>(0.014285714f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7146 };
 
   /// @brief Field m_deferredStream, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<::System::IO::Stream*>* ___m_deferredStream;

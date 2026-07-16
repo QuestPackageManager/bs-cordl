@@ -28,30 +28,30 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x30
   __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::UnityEngine::Rendering::SphericalHarmonicsL1 zero;
 
-  /// @brief Method Equals, addr 0x66566f0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6793dfc, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x66567c8, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6793ed4, size 0x114, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 getStaticF_zero();
 
-  /// @brief Method op_Addition, addr 0x6656510, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6793c1c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Addition(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
-  /// @brief Method op_Division, addr 0x6656580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6793c8c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Division(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, float_t rhs);
 
-  /// @brief Method op_Equality, addr 0x66565a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6793cb0, size 0xb0, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
-  /// @brief Method op_Inequality, addr 0x6656654, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6793d60, size 0x9c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
-  /// @brief Method op_Multiply, addr 0x6656560, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6793c6c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Multiply(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, float_t rhs);
 
-  /// @brief Method op_Subtraction, addr 0x6656538, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6793c44, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Subtraction(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
   static inline void setStaticF_zero(::UnityEngine::Rendering::SphericalHarmonicsL1 value);
@@ -65,7 +65,7 @@ public:
   constexpr SphericalHarmonicsL1(::UnityEngine::Vector4 shAr, ::UnityEngine::Vector4 shAg, ::UnityEngine::Vector4 shAb) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12134 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

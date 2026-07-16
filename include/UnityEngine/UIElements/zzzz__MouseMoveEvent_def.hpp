@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c47f54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d9be0c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6c47f50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9be08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent___c* getStaticF___9();
@@ -78,18 +78,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseMoveEvent___c;
 
-  /// @brief Method GetPooled, addr 0x6c47eb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d9bd68, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseMoveEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x6c47df4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d9bcac, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6c47e4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d9bd04, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c47e58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9bd10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -38,12 +38,12 @@ public:
   /// @brief Field _container, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Method Construct, addr 0x6d47288, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x6e9c294, size 0x68, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* container);
 
   static inline ::Zenject::ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
 
-  /// @brief Method Start, addr 0x6d472f0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6e9c2fc, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d474dc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9c4e8, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x6d473e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6e9c3f0, size 0xf8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x6d473e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9c3ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ZenjectStateMachineBehaviourAutoInjecter(ZenjectStateMachineBehaviourAutoInjecter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
 
   /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

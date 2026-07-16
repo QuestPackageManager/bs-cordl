@@ -26,12 +26,12 @@ public:
   /// @brief Field _spawnCenter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__spawnCenter, put = __cordl_internal_set__spawnCenter)) ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _spawnCenter;
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x57853a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x58c1f1c, size 0x68, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t distance);
 
   static inline ::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method Start, addr 0x57852bc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58c1e38, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__spawnCenter() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnCenter(::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> value);
 
-  /// @brief Method .ctor, addr 0x5785408, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c1f84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   OffsetByBeatmapObjectSpawnCenter(OffsetByBeatmapObjectSpawnCenter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5607 };
 
   /// @brief Field _spawnCenter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> ____spawnCenter;

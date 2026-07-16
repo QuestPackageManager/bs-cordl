@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutComputedData (*)()>(&::UnityEngine::UIElements::Layout::LayoutComputedData::get_Default)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6ba80f0;
+  constexpr static std::size_t addrs = 0x6cfbfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutComputedData>(), { "get_Default", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t* (::UnityEngine::UIElements::Layout::LayoutComputedData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_MarginBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bab964;
+  constexpr static std::size_t addrs = 0x6cff81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutComputedData>(), { "get_MarginBuffer", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t* (::UnityEngine::UIElements::Layout::LayoutComputedData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_BorderBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bab96c;
+  constexpr static std::size_t addrs = 0x6cff824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutComputedData>(), { "get_BorderBuffer", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t* (::UnityEngine::UIElements::Layout::LayoutComputedData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_PaddingBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bab974;
+  constexpr static std::size_t addrs = 0x6cff82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutComputedData>(), { "get_PaddingBuffer", {}, {} })));

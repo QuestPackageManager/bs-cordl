@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestSceneUsage::*)()>(&::GlobalNamespace::TestSceneUsage::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59039c8;
+  constexpr static std::size_t addrs = 0x5a3d0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestSceneUsage*>(), { "Start", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestSceneUsage::*)()>(&::GlobalNamespace::TestSceneUsage::Update)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x5903a1c;
+  constexpr static std::size_t addrs = 0x5a3d120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestSceneUsage*>(), { "Update", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestSceneUsage::*)()>(&::GlobalNamespace::TestSceneUsage::TogglePassthrough)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5903c68;
+  constexpr static std::size_t addrs = 0x5a3d36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestSceneUsage*>(), { "TogglePassthrough", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::TestSceneUsage::TogglePassthroughStatic)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5903c6c;
+  constexpr static std::size_t addrs = 0x5a3d370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestSceneUsage*>(), { "TogglePassthroughStatic", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestSceneUsage::*)()>(&::GlobalNamespace::TestSceneUsage::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5903d14;
+  constexpr static std::size_t addrs = 0x5a3d418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestSceneUsage*>(), { ".ctor", {}, {} })));

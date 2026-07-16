@@ -9,58 +9,6 @@
 #include "OculusStudios/Platform/Core/zzzz__Vendor_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_id
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::ProductDefinition::*)()>(&::OculusStudios::Platform::Core::ProductDefinition::get_id)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3f28;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_id", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_idForVendor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* (
-    ::OculusStudios::Platform::Core::ProductDefinition::*)()>(&::OculusStudios::Platform::Core::ProductDefinition::get_idForVendor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3f30;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_idForVendor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_children
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* (
-    ::OculusStudios::Platform::Core::ProductDefinition::*)()>(&::OculusStudios::Platform::Core::ProductDefinition::get_children)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3f38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_children", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_ownershipRequirement
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::OwnershipRequirement (::OculusStudios::Platform::Core::ProductDefinition::*)()>(
-    &::OculusStudios::Platform::Core::ProductDefinition::get_ownershipRequirement)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3f40;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_ownershipRequirement", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition._ctor
 template <>
 
@@ -69,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Pl
     ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>*, ::OculusStudios::Platform::Core::OwnershipRequirement)>(
     &::OculusStudios::Platform::Core::ProductDefinition::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5df3f48;
+  constexpr static std::size_t addrs = 0x5f2c1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,6 +31,70 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Pl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_id
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::ProductDefinition::*)()>(&::OculusStudios::Platform::Core::ProductDefinition::get_id)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f2c1f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_id", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_idForVendor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* (
+    ::OculusStudios::Platform::Core::ProductDefinition::*)()>(&::OculusStudios::Platform::Core::ProductDefinition::get_idForVendor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f2c1f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_idForVendor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_children
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* (
+    ::OculusStudios::Platform::Core::ProductDefinition::*)()>(&::OculusStudios::Platform::Core::ProductDefinition::get_children)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f2c200;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_children", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::Platform::Core::ProductDefinition.get_ownershipRequirement
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::OwnershipRequirement (::OculusStudios::Platform::Core::ProductDefinition::*)()>(
+    &::OculusStudios::Platform::Core::ProductDefinition::get_ownershipRequirement)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f2c208;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_ownershipRequirement", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>*& OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_get__children() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____children;
+}
+constexpr ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* const& OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_get__children() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____children;
+}
+constexpr void OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_set__children(::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____children = value;
+}
 constexpr ::StringW& OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_get__id() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
@@ -110,18 +122,6 @@ constexpr void OculusStudios::Platform::Core::ProductDefinition::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idForVendor = value;
 }
-constexpr ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>*& OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_get__children() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____children;
-}
-constexpr ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* const& OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_get__children() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____children;
-}
-constexpr void OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_set__children(::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____children = value;
-}
 constexpr ::OculusStudios::Platform::Core::OwnershipRequirement& OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_get__ownershipRequirement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownershipRequirement;
@@ -133,6 +133,20 @@ constexpr ::OculusStudios::Platform::Core::OwnershipRequirement const& OculusStu
 constexpr void OculusStudios::Platform::Core::ProductDefinition::__cordl_internal_set__ownershipRequirement(::OculusStudios::Platform::Core::OwnershipRequirement value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ownershipRequirement = value;
+}
+inline void OculusStudios::Platform::Core::ProductDefinition::_ctor(::StringW id,
+                                                                    ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* idForVendor,
+                                                                    ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* children,
+                                                                    ::OculusStudios::Platform::Core::OwnershipRequirement ownershipRequirement) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(),
+                          { ".ctor",
+                            {},
+                            { ::i2c::type_of<::StringW>(), ::i2c::type_of<::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>*>(),
+                              ::i2c::type_of<::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>*>(),
+                              ::i2c::type_of<::OculusStudios::Platform::Core::OwnershipRequirement>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, idForVendor, children, ownershipRequirement);
 }
 inline ::StringW OculusStudios::Platform::Core::ProductDefinition::get_id() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_id", {}, {} })));
@@ -150,20 +164,6 @@ inline ::OculusStudios::Platform::Core::OwnershipRequirement OculusStudios::Plat
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(), { "get_ownershipRequirement", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::OculusStudios::Platform::Core::OwnershipRequirement>(this, ___internal_method);
-}
-inline void OculusStudios::Platform::Core::ProductDefinition::_ctor(::StringW id,
-                                                                    ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* idForVendor,
-                                                                    ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* children,
-                                                                    ::OculusStudios::Platform::Core::OwnershipRequirement ownershipRequirement) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinition*>(),
-                          { ".ctor",
-                            {},
-                            { ::i2c::type_of<::StringW>(), ::i2c::type_of<::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>*>(),
-                              ::i2c::type_of<::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>*>(),
-                              ::i2c::type_of<::OculusStudios::Platform::Core::OwnershipRequirement>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, idForVendor, children, ownershipRequirement);
 }
 inline ::OculusStudios::Platform::Core::ProductDefinition*
 OculusStudios::Platform::Core::ProductDefinition::New_ctor(::StringW id, ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* idForVendor,

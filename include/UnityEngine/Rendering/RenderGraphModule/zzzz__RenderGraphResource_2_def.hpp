@@ -99,7 +99,7 @@ public:
   RenderGraphResource_2(RenderGraphResource_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12433 };
 
   /// @brief Field desc, offset: 0x30, size: 0x8, def value: None
   DescType ___desc;

@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_keyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5853fc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598c220, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5818 };
 
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
@@ -109,7 +109,7 @@ public:
                       put = __cordl_internal_set__gameObjectKeywordItems)) ::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*>
       _gameObjectKeywordItems;
 
-  /// @brief Method Initialize, addr 0x5853e78, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x598c0d4, size 0x148, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   static inline ::GlobalNamespace::GameObjectKeywordSwitchEffect* New_ctor();
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectKeywordItems(::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*> value);
 
-  /// @brief Method .ctor, addr 0x5853fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598c21c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5819 };
 
   /// @brief Field _defaultGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____defaultGameObject;

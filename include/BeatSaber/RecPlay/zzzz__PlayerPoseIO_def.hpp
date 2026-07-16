@@ -33,19 +33,19 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE PlayerPoseIO : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x322cdb8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x32c3ae8, size 0x164, virtual false, abstract: false, final false
   static inline bool Clamp(::by_ref<::System::ReadOnlySpan_1<char16_t>> s, char16_t start, char16_t end);
 
-  /// @brief Method DeserializeFromText, addr 0x322c42c, size 0x7ec, virtual false, abstract: false, final false
+  /// @brief Method DeserializeFromText, addr 0x32c315c, size 0x7ec, virtual false, abstract: false, final false
   static inline bool DeserializeFromText(::StringW text, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> playerPoseFrames, ::by_ref<::StringW> log);
 
-  /// @brief Method NextToken, addr 0x322cc18, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x32c3948, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> NextToken(::by_ref<::System::ReadOnlySpan_1<char16_t>> s);
 
-  /// @brief Method SerializeAsText, addr 0x322bc3c, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method SerializeAsText, addr 0x32c296c, size 0x3d8, virtual false, abstract: false, final false
   static inline ::StringW SerializeAsText(::BeatSaber::RecPlay::PlayerPoseFrames frames);
 
-  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x322c014, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x32c2d44, size 0x418, virtual false, abstract: false, final false
   static inline void _SerializeAsText_g__WriteFrames_0_0(::System::Text::StringBuilder* sb, ::StringW name, ::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames);
 
 protected:
@@ -63,7 +63,7 @@ public:
   PlayerPoseIO(PlayerPoseIO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23243 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

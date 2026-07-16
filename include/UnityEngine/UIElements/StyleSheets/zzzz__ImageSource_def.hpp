@@ -31,7 +31,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x6bbb3ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6d0f264, size 0xec, virtual false, abstract: false, final false
   inline bool IsNull();
 
   // Ctor Parameters []

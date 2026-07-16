@@ -47,18 +47,18 @@ public:
   /// @brief Field _relations, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__relations, put = __cordl_internal_set__relations)) ::System::Collections::ArrayList* _relations;
 
-  /// @brief Method AddCore, addr 0x5ee92d8, size 0x568, virtual true, abstract: false, final false
+  /// @brief Method AddCore, addr 0x60243d4, size 0x568, virtual true, abstract: false, final false
   inline void AddCore(::System::Data::DataRelation* relation);
 
-  /// @brief Method Clear, addr 0x5ee90a4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x60241a0, size 0x34, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetDataSet, addr 0x5ee90d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDataSet, addr 0x60241d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* GetDataSet();
 
   static inline ::GlobalNamespace::DataRelationCollection_DataSetRelationCollection* New_ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method RemoveCore, addr 0x5ee9840, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method RemoveCore, addr 0x602493c, size 0x244, virtual true, abstract: false, final false
   inline void RemoveCore(::System::Data::DataRelation* relation);
 
   constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set__relations(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x5ee9000, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60240fc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method get_Item, addr 0x5ee90e0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x60241dc, size 0x100, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x5ee91e0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x60242dc, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(::StringW name);
 
-  /// @brief Method get_List, addr 0x5ee909c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x6024198, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
 protected:
@@ -106,7 +106,7 @@ public:
   DataRelationCollection_DataSetRelationCollection(DataRelationCollection_DataSetRelationCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13747 };
 
   /// @brief Field _dataSet, offset: 0x38, size: 0x8, def value: None
   ::System::Data::DataSet* ____dataSet;

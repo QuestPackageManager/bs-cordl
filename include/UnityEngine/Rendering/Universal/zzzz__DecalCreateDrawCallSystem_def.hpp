@@ -59,7 +59,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6716380, size 0x30c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6854f3c, size 0x30c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -98,7 +98,7 @@ public:
       ::Unity::Collections::NativeArray_1<int32_t> subCallCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };
@@ -239,10 +239,10 @@ public:
 
   __declspec(property(get = get_maxDrawDistance, put = set_maxDrawDistance)) float_t maxDrawDistance;
 
-  /// @brief Method Execute, addr 0x6716004, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6854bc0, size 0x1cc, virtual false, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Execute, addr 0x67161d0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6854d8c, size 0x1b0, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk, ::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk,
                       ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* drawCallChunk, int32_t count);
 
@@ -266,13 +266,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6715f6c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6854b28, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, float_t maxDrawDistance);
 
-  /// @brief Method get_maxDrawDistance, addr 0x6715f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxDrawDistance, addr 0x6854b18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxDrawDistance();
 
-  /// @brief Method set_maxDrawDistance, addr 0x6715f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxDrawDistance, addr 0x6854b20, size 0x8, virtual false, abstract: false, final false
   inline void set_maxDrawDistance(float_t value);
 
 protected:
@@ -290,7 +290,7 @@ public:
   DecalCreateDrawCallSystem(DecalCreateDrawCallSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };
 
   /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;

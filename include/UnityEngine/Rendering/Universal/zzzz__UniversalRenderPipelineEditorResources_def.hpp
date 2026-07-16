@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainDetailLitPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x67305c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686ef40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,7 +138,7 @@ public:
   UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12717 };
 
   /// @brief Field autodeskInteractivePS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___autodeskInteractivePS;
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainLit(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x67305c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686ef44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -249,7 +249,7 @@ public:
   UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12718 };
 
   /// @brief Field lit, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___lit;
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x67305bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686ef38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -327,7 +327,7 @@ public:
   UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12719 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* ___shaders;

@@ -17,106 +17,106 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::*)()>(
-    &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::*)()>(
+    &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57a164c;
+  constexpr static std::size_t addrs = 0x595c340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0._RefreshContent_b__0
+//  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0._RefreshContent_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::*)(int32_t, ::GlobalNamespace::ObjectiveListItem*)>(
-    &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_RefreshContent_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::*)(int32_t, ::GlobalNamespace::ObjectiveListItem*)>(
+    &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_RefreshContent_b__0)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x57a1738;
+  constexpr static std::size_t addrs = 0x595c370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>(),
                                                              { "<RefreshContent>b__0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::ObjectiveListItem*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0._RefreshContent_b__1
+//  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0._RefreshContent_b__1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::*)(int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(
-    &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_RefreshContent_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::*)(int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(
+    &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_RefreshContent_b__1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x57a195c;
+  constexpr static std::size_t addrs = 0x595c594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>(),
                                                              { "<RefreshContent>b__1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierInfoListItem*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective*>& GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::__cordl_internal_get_missionObjectives() {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*>& GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::__cordl_internal_get_missionObjectives() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectives;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::__cordl_internal_get_missionObjectives() const {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::__cordl_internal_get_missionObjectives() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectives;
 }
-constexpr void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::__cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value) {
+constexpr void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::__cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___missionObjectives = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*&
-GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::__cordl_internal_get_modifierParamsList() {
+GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::__cordl_internal_get_modifierParamsList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifierParamsList;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const&
-GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::__cordl_internal_get_modifierParamsList() const {
+GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::__cordl_internal_get_modifierParamsList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifierParamsList;
 }
-constexpr void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::__cordl_internal_set_modifierParamsList(
+constexpr void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::__cordl_internal_set_modifierParamsList(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifierParamsList = value;
 }
-inline void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_ctor() {
+inline void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_RefreshContent_b__0(int32_t idx, ::GlobalNamespace::ObjectiveListItem* objectiveListItem) {
+inline void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_RefreshContent_b__0(int32_t idx, ::GlobalNamespace::ObjectiveListItem* objectiveListItem) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>(),
                                                            { "<RefreshContent>b__0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::ObjectiveListItem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idx, objectiveListItem);
 }
-inline void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::_RefreshContent_b__1(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem) {
+inline void GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_RefreshContent_b__1(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>(),
                                                            { "<RefreshContent>b__1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierInfoListItem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idx, gameplayModifierInfoListItem);
 }
-inline ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0* GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*>());
+inline ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0* GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0::MissionLevelDetailViewController___c__DisplayClass14_0() {}
+constexpr ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::MissionLevelDetailViewController___c__DisplayClass15_0() {}
 //  Writing Method size for method: ::GlobalNamespace::MissionLevelDetailViewController.add_didPressPlayButtonEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*)>(&::GlobalNamespace::MissionLevelDetailViewController::add_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57a115c;
+  constexpr static std::size_t addrs = 0x595be78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*)>(&::GlobalNamespace::MissionLevelDetailViewController::remove_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57a121c;
+  constexpr static std::size_t addrs = 0x595bf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionLevelDetailViewController::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController::get_missionNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57a12dc;
+  constexpr static std::size_t addrs = 0x595bff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { "get_missionNode", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(::GlobalNamespace::MissionNode*)>(
     &::GlobalNamespace::MissionLevelDetailViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x57a12e4;
+  constexpr static std::size_t addrs = 0x595c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionLevelDetailViewController::DidActivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x57a159c;
+  constexpr static std::size_t addrs = 0x595c290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(),
@@ -185,8 +185,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(&::GlobalNamespace::MissionLevelDetailViewController::RefreshContent)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x57a1310;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x595c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { "RefreshContent", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(&::GlobalNamespace::MissionLevelDetailViewController::PlayButtonPressed)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x57a170c;
+  constexpr static std::size_t addrs = 0x595c344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { "PlayButtonPressed", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(&::GlobalNamespace::MissionLevelDetailViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57a1734;
+  constexpr static std::size_t addrs = 0x595c36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { ".ctor", {}, {} })));

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>, ::Unity::Profiling::ProfilerMarker, ::StringW,
                                                                 ::System::Object*)>(&::UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x63bedac;
+  constexpr static std::size_t addrs = 0x64fb9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

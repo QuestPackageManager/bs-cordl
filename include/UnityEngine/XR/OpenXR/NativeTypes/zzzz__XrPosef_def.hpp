@@ -27,7 +27,7 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrPosef {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x689a78c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f16a4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 vec3, ::UnityEngine::Quaternion quaternion);
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
   constexpr XrPosef(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf Orientation, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f Position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18507 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

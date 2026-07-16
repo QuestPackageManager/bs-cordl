@@ -32,10 +32,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleForGizmo* New_ctor();
 
-  /// @brief Method Setup, addr 0x5925564, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5ec68, size 0x94, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method <Setup>b__4_0, addr 0x5925604, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__4_0, addr 0x5a5ed08, size 0x10, virtual false, abstract: false, final false
   inline void _Setup_b__4_0();
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* const& __cordl_internal_get__hook() const;
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__hook(::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* value);
 
-  /// @brief Method .ctor, addr 0x59255f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5ecfc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Hook, addr 0x59254e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hook, addr 0x5a5ebe8, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* get_Hook();
 
-  /// @brief Method set_Hook, addr 0x59254ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_Hook, addr 0x5a5ebf0, size 0x78, virtual false, abstract: false, final false
   inline void set_Hook(::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ToggleForGizmo(ToggleForGizmo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18393 };
 
   /// @brief Field _hook, offset: 0xb8, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* ____hook;

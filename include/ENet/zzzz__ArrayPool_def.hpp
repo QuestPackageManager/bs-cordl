@@ -31,10 +31,10 @@ public:
   /// @brief Field pointerBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_pointerBuffer, put = setStaticF_pointerBuffer)) ::ArrayW<::System::IntPtr> pointerBuffer;
 
-  /// @brief Method GetByteBuffer, addr 0x574c3fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetByteBuffer, addr 0x5893cfc, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetByteBuffer();
 
-  /// @brief Method GetPointerBuffer, addr 0x574c504, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetPointerBuffer, addr 0x5893e04, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::IntPtr> GetPointerBuffer();
 
   static inline ::ArrayW<uint8_t> getStaticF_byteBuffer();
@@ -60,7 +60,7 @@ public:
   ArrayPool(ArrayPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21675 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

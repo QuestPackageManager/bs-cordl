@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapLevel.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapBasicData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel___c::*)()>(&::GlobalNamespace::BeatmapLevel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3660614;
+  constexpr static std::size_t addrs = 0x371d4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(), { ".ctor", {}, {} })));
@@ -35,16 +35,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::BeatmapLevel___c::*)(
-    ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_1)> {
+    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3660618;
+  constexpr static std::size_t addrs = 0x371d500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
-            { "<GetDifficulties>b__23_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
+                            { "<GetDifficulties>b__23_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
     return ___internal_method;
   }
 };
@@ -54,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevel___c::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3660620;
+  constexpr static std::size_t addrs = 0x371d508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,31 +65,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevel___c._GetCharacteristics_b__24_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::BeatmapLevel___c::*)(
-    ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::BeatmapLevel___c::*)(
+    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3660628;
+  constexpr static std::size_t addrs = 0x371d510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
-            { "<GetCharacteristics>b__24_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
+                            { "<GetCharacteristics>b__24_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevel___c._GetCharacteristics_b__24_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevel___c::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevel___c::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_1)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3660630;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x371d518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
-                                                                                           { "<GetCharacteristics>b__24_1", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+                                                                                           { "<GetCharacteristics>b__24_1", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
     return ___internal_method;
   }
 };
@@ -101,16 +99,15 @@ inline ::GlobalNamespace::BeatmapLevel___c* GlobalNamespace::BeatmapLevel___c::g
   return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapLevel___c*, "<>9", ::GlobalNamespace::BeatmapLevel___c*>();
 }
 inline void GlobalNamespace::BeatmapLevel___c::setStaticF___9__23_1(
-    ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*, "<>9__23_1",
-      ::GlobalNamespace::BeatmapLevel___c*>(
-      std::forward<::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*>(value));
+    ::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*,
+                                    "<>9__23_1", ::GlobalNamespace::BeatmapLevel___c*>(
+      std::forward<::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*>(value));
 }
-inline ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*
+inline ::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*
 GlobalNamespace::BeatmapLevel___c::getStaticF___9__23_1() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*, "<>9__23_1",
+      ::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapDifficulty>*, "<>9__23_1",
       ::GlobalNamespace::BeatmapLevel___c*>();
 }
 inline void GlobalNamespace::BeatmapLevel___c::setStaticF___9__23_2(::System::Func_2<::GlobalNamespace::BeatmapDifficulty, int32_t>* value) {
@@ -121,38 +118,34 @@ inline ::System::Func_2<::GlobalNamespace::BeatmapDifficulty, int32_t>* GlobalNa
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapDifficulty, int32_t>*, "<>9__23_2", ::GlobalNamespace::BeatmapLevel___c*>();
 }
 inline void GlobalNamespace::BeatmapLevel___c::setStaticF___9__24_0(
-    ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*,
-      "<>9__24_0", ::GlobalNamespace::BeatmapLevel___c*>(
-      std::forward<
-          ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>(
-          value));
+    ::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapCharacteristic>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapCharacteristic>*,
+                                    "<>9__24_0", ::GlobalNamespace::BeatmapLevel___c*>(
+      std::forward<::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapCharacteristic>*>(value));
 }
-inline ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*
+inline ::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapCharacteristic>*
 GlobalNamespace::BeatmapLevel___c::getStaticF___9__24_0() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*,
-      "<>9__24_0", ::GlobalNamespace::BeatmapLevel___c*>();
+      ::System::Func_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapCharacteristic>*, "<>9__24_0",
+      ::GlobalNamespace::BeatmapLevel___c*>();
 }
-inline void GlobalNamespace::BeatmapLevel___c::setStaticF___9__24_1(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, int32_t>*, "<>9__24_1", ::GlobalNamespace::BeatmapLevel___c*>(
-      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, int32_t>*>(value));
+inline void GlobalNamespace::BeatmapLevel___c::setStaticF___9__24_1(::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, int32_t>*, "<>9__24_1", ::GlobalNamespace::BeatmapLevel___c*>(
+      std::forward<::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, int32_t>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, int32_t>* GlobalNamespace::BeatmapLevel___c::getStaticF___9__24_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, int32_t>*, "<>9__24_1", ::GlobalNamespace::BeatmapLevel___c*>();
+inline ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, int32_t>* GlobalNamespace::BeatmapLevel___c::getStaticF___9__24_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, int32_t>*, "<>9__24_1", ::GlobalNamespace::BeatmapLevel___c*>();
 }
 inline void GlobalNamespace::BeatmapLevel___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BeatmapDifficulty
-GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_1(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
-                       { "<GetDifficulties>b__23_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_1(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
+                          { "<GetDifficulties>b__23_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDifficulty>(this, ___internal_method, entry);
 }
 inline int32_t GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_2(::GlobalNamespace::BeatmapDifficulty difficulty) {
@@ -161,18 +154,17 @@ inline int32_t GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_2(::Glo
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(), { "<GetDifficulties>b__23_2", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, difficulty);
 }
-inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
-GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_0(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline ::GlobalNamespace::BeatmapCharacteristic
+GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_0(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
-          { "<GetCharacteristics>b__24_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>(this, ___internal_method, entry);
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
+                          { "<GetCharacteristics>b__24_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapCharacteristic>(this, ___internal_method, entry);
 }
-inline int32_t GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_1(::GlobalNamespace::BeatmapCharacteristicSO* entry) {
+inline int32_t GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_1(::GlobalNamespace::BeatmapCharacteristic entry) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
-                                                                                         { "<GetCharacteristics>b__24_1", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+                                                                                         { "<GetCharacteristics>b__24_1", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, entry);
 }
 inline ::GlobalNamespace::BeatmapLevel___c* GlobalNamespace::BeatmapLevel___c::New_ctor() {
@@ -185,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::*)()>(&::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x365ff48;
+  constexpr static std::size_t addrs = 0x371ce50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
@@ -195,30 +187,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0._GetDifficulties_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<bool (::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::*)(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>)>(
-        &::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_GetDifficulties_b__0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3660644;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::*)(
+    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_GetDifficulties_b__0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x371d570;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(),
-                         { "<GetDifficulties>b__0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(),
+                            { "<GetDifficulties>b__0", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::__cordl_internal_get_characteristic() {
+constexpr ::GlobalNamespace::BeatmapCharacteristic& GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::__cordl_internal_get_characteristic() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::__cordl_internal_get_characteristic() const {
+constexpr ::GlobalNamespace::BeatmapCharacteristic const& GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::__cordl_internal_get_characteristic() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
-constexpr void GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::__cordl_internal_set_characteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
+constexpr void GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::__cordl_internal_set_characteristic(::GlobalNamespace::BeatmapCharacteristic value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characteristic = value;
 }
@@ -226,12 +216,11 @@ inline void GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool
-GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_GetDifficulties_b__0(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(),
-                          { "<GetDifficulties>b__0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+inline bool GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_GetDifficulties_b__0(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(),
+                                       { "<GetDifficulties>b__0", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, entry);
 }
 inline ::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0* GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::New_ctor() {
@@ -243,10 +232,10 @@ constexpr ::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::BeatmapLevel___
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<
-    ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>* (::GlobalNamespace::BeatmapLevel::*)()>(
+    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>* (::GlobalNamespace::BeatmapLevel::*)()>(
     &::GlobalNamespace::BeatmapLevel::get_beatmapBasicData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x365fbcc;
+  constexpr static std::size_t addrs = 0x371cad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "get_beatmapBasicData", {}, {} })));
@@ -259,24 +248,23 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)(
     int32_t, bool, ::StringW, ::StringW, ::StringW, ::StringW, ::ArrayW<::StringW>, ::ArrayW<::StringW>, float_t, float_t, float_t, float_t, float_t, float_t, ::GlobalNamespace::PlayerSensitivityFlag,
     ::GlobalNamespace::IPreviewMediaData*,
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
-                                                 ::GlobalNamespace::BeatmapBasicData*>*)>(&::GlobalNamespace::BeatmapLevel::_ctor)> {
+    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>*)>(
+    &::GlobalNamespace::BeatmapLevel::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x365fbd4;
+  constexpr static std::size_t addrs = 0x371cadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-            { ".ctor",
-              {},
-              { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
-                ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>(),
-                ::i2c::type_of<::GlobalNamespace::IPreviewMediaData*>(),
-                ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
-                                                                            ::GlobalNamespace::BeatmapBasicData*>*>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
+                            { ".ctor",
+                              {},
+                              { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>(),
+                                ::i2c::type_of<::GlobalNamespace::IPreviewMediaData*>(),
+                                ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
+                                                                                            ::GlobalNamespace::BeatmapBasicData*>*>() } })));
     return ___internal_method;
   }
 };
@@ -284,23 +272,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* (
-    ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(&::GlobalNamespace::BeatmapLevel::GetDifficulties)> {
+    ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapLevel::GetDifficulties)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x365fc14;
+  constexpr static std::size_t addrs = 0x371cb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetDifficulties", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetDifficulties", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevel.GetCharacteristics
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* (::GlobalNamespace::BeatmapLevel::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristic>* (::GlobalNamespace::BeatmapLevel::*)()>(
     &::GlobalNamespace::BeatmapLevel::GetCharacteristics)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x365ff4c;
+  constexpr static std::size_t addrs = 0x371ce54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetCharacteristics", {}, {} })));
@@ -313,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapKey>* (::GlobalNamespace::BeatmapLevel::*)()>(
     &::GlobalNamespace::BeatmapLevel::GetBeatmapKeys)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x36601f0;
+  constexpr static std::size_t addrs = 0x371d0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetBeatmapKeys", {}, {} })));
@@ -324,15 +312,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapBasicData* (
-    ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetDifficultyBeatmapData)> {
+    ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetDifficultyBeatmapData)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3660344;
+  constexpr static std::size_t addrs = 0x371d24c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                            { "GetDifficultyBeatmapData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
+                                         { "GetDifficultyBeatmapData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
     return ___internal_method;
   }
 };
@@ -340,15 +328,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentName (::GlobalNamespace::BeatmapLevel::*)(
-    ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetEnvironmentName)> {
+    ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetEnvironmentName)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x36603bc;
+  constexpr static std::size_t addrs = 0x371d2c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                         { "GetEnvironmentName", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
+                                                { "GetEnvironmentName", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
     return ___internal_method;
   }
 };
@@ -356,48 +343,48 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Enviro
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (
-    ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetColorScheme)> {
+    ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetColorScheme)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3660448;
+  constexpr static std::size_t addrs = 0x371d350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                                { "GetColorScheme", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+                                                { "GetColorScheme", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevel.AddBeatmapBasicData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty,
                                                                                                  ::GlobalNamespace::BeatmapBasicData*)>(&::GlobalNamespace::BeatmapLevel::AddBeatmapBasicData)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3660460;
+  constexpr static std::size_t addrs = 0x371d368;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                                             { "AddBeatmapBasicData",
-                                                               {},
-                                                               { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::BeatmapBasicData*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "AddBeatmapBasicData",
+                                                                                   {},
+                                                                                   { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
+                                                                                     ::i2c::type_of<::GlobalNamespace::BeatmapBasicData*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevel.RemoveBeatmapBasicData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapLevel::RemoveBeatmapBasicData)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3660508;
+  constexpr static std::size_t addrs = 0x371d410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                         { "RemoveBeatmapBasicData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+                                         { "RemoveBeatmapBasicData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
     return ___internal_method;
   }
 };
@@ -405,16 +392,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::BeatmapLevel::*)(
-    ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3660590;
+    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x371d498;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                         { "<GetBeatmapKeys>b__25_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
+                            { "<GetBeatmapKeys>b__25_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
     return ___internal_method;
   }
 };
@@ -610,33 +596,31 @@ constexpr void GlobalNamespace::BeatmapLevel::__cordl_internal_set_previewMediaD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___previewMediaData = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
-                                                       ::GlobalNamespace::BeatmapBasicData*>*&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>*&
 GlobalNamespace::BeatmapLevel::__cordl_internal_get__beatmapBasicDatas() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapBasicDatas;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
+constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
                                                        ::GlobalNamespace::BeatmapBasicData*>* const&
 GlobalNamespace::BeatmapLevel::__cordl_internal_get__beatmapBasicDatas() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapBasicDatas;
 }
 constexpr void GlobalNamespace::BeatmapLevel::__cordl_internal_set__beatmapBasicDatas(
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
-                                                 ::GlobalNamespace::BeatmapBasicData*>* value) {
+    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapBasicDatas = value;
 }
-constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& GlobalNamespace::BeatmapLevel::__cordl_internal_get__characteristicsCache() {
+constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>& GlobalNamespace::BeatmapLevel::__cordl_internal_get__characteristicsCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characteristicsCache;
 }
-constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& GlobalNamespace::BeatmapLevel::__cordl_internal_get__characteristicsCache() const {
+constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const& GlobalNamespace::BeatmapLevel::__cordl_internal_get__characteristicsCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characteristicsCache;
 }
-constexpr void GlobalNamespace::BeatmapLevel::__cordl_internal_set__characteristicsCache(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value) {
+constexpr void GlobalNamespace::BeatmapLevel::__cordl_internal_set__characteristicsCache(::ArrayW<::GlobalNamespace::BeatmapCharacteristic> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____characteristicsCache = value;
 }
@@ -652,19 +636,19 @@ constexpr void GlobalNamespace::BeatmapLevel::__cordl_internal_set__beatmapKeysC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapKeysCache = value;
 }
-inline ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
+inline ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
                                                              ::GlobalNamespace::BeatmapBasicData*>*
 GlobalNamespace::BeatmapLevel::get_beatmapBasicData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "get_beatmapBasicData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyDictionary_2<
-      ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>*>(this, ___internal_method);
+      ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>*>(this, ___internal_method);
 }
-inline void
-GlobalNamespace::BeatmapLevel::_ctor(int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::ArrayW<::StringW> allMappers,
-                                     ::ArrayW<::StringW> allLighters, float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset, float_t previewStartTime, float_t previewDuration,
-                                     float_t songDuration, ::GlobalNamespace::PlayerSensitivityFlag contentRating, ::GlobalNamespace::IPreviewMediaData* previewMediaData,
-                                     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
-                                                                                  ::GlobalNamespace::BeatmapBasicData*>* beatmapBasicData) {
+inline void GlobalNamespace::BeatmapLevel::_ctor(int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName,
+                                                 ::ArrayW<::StringW> allMappers, ::ArrayW<::StringW> allLighters, float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset,
+                                                 float_t previewStartTime, float_t previewDuration, float_t songDuration, ::GlobalNamespace::PlayerSensitivityFlag contentRating,
+                                                 ::GlobalNamespace::IPreviewMediaData* previewMediaData,
+                                                 ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
+                                                                                              ::GlobalNamespace::BeatmapBasicData*>* beatmapBasicData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -674,79 +658,75 @@ GlobalNamespace::BeatmapLevel::_ctor(int32_t version, bool hasPrecalculatedData,
             { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
               ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
               ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>(), ::i2c::type_of<::GlobalNamespace::IPreviewMediaData*>(),
-              ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
+              ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
                                                                           ::GlobalNamespace::BeatmapBasicData*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, version, hasPrecalculatedData, levelID, songName, songSubName, songAuthorName, allMappers, allLighters, beatsPerMinute,
                                                    integratedLufs, songTimeOffset, previewStartTime, previewDuration, songDuration, contentRating, previewMediaData, beatmapBasicData);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* GlobalNamespace::BeatmapLevel::GetDifficulties(::GlobalNamespace::BeatmapCharacteristicSO* characteristic) {
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* GlobalNamespace::BeatmapLevel::GetDifficulties(::GlobalNamespace::BeatmapCharacteristic characteristic) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetDifficulties", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetDifficulties", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>*>(this, ___internal_method, characteristic);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* GlobalNamespace::BeatmapLevel::GetCharacteristics() {
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristic>* GlobalNamespace::BeatmapLevel::GetCharacteristics() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetCharacteristics", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristic>*>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapKey>* GlobalNamespace::BeatmapLevel::GetBeatmapKeys() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetBeatmapKeys", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapKey>*>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapBasicData* GlobalNamespace::BeatmapLevel::GetDifficultyBeatmapData(::GlobalNamespace::BeatmapCharacteristicSO* characteristic,
+inline ::GlobalNamespace::BeatmapBasicData* GlobalNamespace::BeatmapLevel::GetDifficultyBeatmapData(::GlobalNamespace::BeatmapCharacteristic characteristic,
                                                                                                     ::GlobalNamespace::BeatmapDifficulty difficulty) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                       { "GetDifficultyBeatmapData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+                                       { "GetDifficultyBeatmapData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapBasicData*>(this, ___internal_method, characteristic, difficulty);
 }
-inline ::GlobalNamespace::EnvironmentName GlobalNamespace::BeatmapLevel::GetEnvironmentName(::GlobalNamespace::BeatmapCharacteristicSO* characteristic,
-                                                                                            ::GlobalNamespace::BeatmapDifficulty difficulty) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                       { "GetEnvironmentName", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EnvironmentName>(this, ___internal_method, characteristic, difficulty);
-}
-inline ::GlobalNamespace::ColorScheme* GlobalNamespace::BeatmapLevel::GetColorScheme(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) {
+inline ::GlobalNamespace::EnvironmentName GlobalNamespace::BeatmapLevel::GetEnvironmentName(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                              { "GetColorScheme", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+                                              { "GetEnvironmentName", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EnvironmentName>(this, ___internal_method, characteristic, difficulty);
+}
+inline ::GlobalNamespace::ColorScheme* GlobalNamespace::BeatmapLevel::GetColorScheme(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
+                                              { "GetColorScheme", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorScheme*>(this, ___internal_method, characteristic, difficulty);
 }
-inline void GlobalNamespace::BeatmapLevel::AddBeatmapBasicData(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
+inline void GlobalNamespace::BeatmapLevel::AddBeatmapBasicData(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
                                                                ::GlobalNamespace::BeatmapBasicData* beatmapBasicData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                                           { "AddBeatmapBasicData",
-                                                             {},
-                                                             { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
-                                                               ::i2c::type_of<::GlobalNamespace::BeatmapBasicData*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "AddBeatmapBasicData",
+                                                                                 {},
+                                                                                 { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
+                                                                                   ::i2c::type_of<::GlobalNamespace::BeatmapBasicData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, characteristic, difficulty, beatmapBasicData);
 }
-inline void GlobalNamespace::BeatmapLevel::RemoveBeatmapBasicData(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) {
+inline void GlobalNamespace::BeatmapLevel::RemoveBeatmapBasicData(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                                       { "RemoveBeatmapBasicData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+                                       { "RemoveBeatmapBasicData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, characteristic, difficulty);
 }
 inline ::GlobalNamespace::BeatmapKey
-GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
-                       { "<GetBeatmapKeys>b__25_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
+                          { "<GetBeatmapKeys>b__25_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKey>(this, ___internal_method, entry);
 }
-inline ::GlobalNamespace::BeatmapLevel*
-GlobalNamespace::BeatmapLevel::New_ctor(int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName,
-                                        ::ArrayW<::StringW> allMappers, ::ArrayW<::StringW> allLighters, float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset,
-                                        float_t previewStartTime, float_t previewDuration, float_t songDuration, ::GlobalNamespace::PlayerSensitivityFlag contentRating,
-                                        ::GlobalNamespace::IPreviewMediaData* previewMediaData,
-                                        ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
-                                                                                     ::GlobalNamespace::BeatmapBasicData*>* beatmapBasicData) {
+inline ::GlobalNamespace::BeatmapLevel* GlobalNamespace::BeatmapLevel::New_ctor(
+    int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::ArrayW<::StringW> allMappers, ::ArrayW<::StringW> allLighters,
+    float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset, float_t previewStartTime, float_t previewDuration, float_t songDuration,
+    ::GlobalNamespace::PlayerSensitivityFlag contentRating, ::GlobalNamespace::IPreviewMediaData* previewMediaData,
+    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>*
+        beatmapBasicData) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapLevel*>(version, hasPrecalculatedData, levelID, songName, songSubName, songAuthorName, allMappers, allLighters,
                                                                                             beatsPerMinute, integratedLufs, songTimeOffset, previewStartTime, previewDuration, songDuration,
                                                                                             contentRating, previewMediaData, beatmapBasicData));

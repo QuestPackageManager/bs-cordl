@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* New_ctor(bool hasValue);
 
-  /// @brief Method Run, addr 0x5e506e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f8b7dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasValue() const;
@@ -50,20 +50,20 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x5e50684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8b780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool hasValue);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* getStaticF_NonVoid();
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* getStaticF_Void();
 
-  /// @brief Method get_ConsumedStack, addr 0x5e506d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f8b7cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e5068c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f8b788, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e506d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f8b7d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_NonVoid(::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* value);
@@ -85,7 +85,7 @@ public:
   EnterExceptionHandlerInstruction(EnterExceptionHandlerInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16258 };
 
   /// @brief Field _hasValue, offset: 0x10, size: 0x1, def value: None
   bool ____hasValue;

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowXmlException)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fef040;
+  constexpr static std::size_t addrs = 0x612a13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowXmlException)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fef054;
+  constexpr static std::size_t addrs = 0x612a150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowXmlException)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fef064;
+  constexpr static std::size_t addrs = 0x612a160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlExceptionHelper::ThrowXmlException)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x5fef070;
+  constexpr static std::size_t addrs = 0x612a16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::System::Xml::XmlException*)>(&::System::Xml::XmlExceptionHelper::ThrowXmlException)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5fea4d4;
+  constexpr static std::size_t addrs = 0x61255d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::GetName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fef428;
+  constexpr static std::size_t addrs = 0x612a524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::GetWhatWasFound)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x5fef4ac;
+  constexpr static std::size_t addrs = 0x612a5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowStartElementExpected)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5fef92c;
+  constexpr static std::size_t addrs = 0x612aa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowEndElementExpected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5fef984;
+  constexpr static std::size_t addrs = 0x612aa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowMaxStringContentLengthExceeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fef9e8;
+  constexpr static std::size_t addrs = 0x612aae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowMaxArrayLengthExceeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fefa58;
+  constexpr static std::size_t addrs = 0x612ab54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowMaxArrayLengthOrMaxItemsQuotaExceeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fefac8;
+  constexpr static std::size_t addrs = 0x612abc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowMaxDepthExceeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fefb38;
+  constexpr static std::size_t addrs = 0x612ac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowMaxBytesPerReadExceeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5feae24;
+  constexpr static std::size_t addrs = 0x6125f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowMaxNameTableCharCountExceeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fefba8;
+  constexpr static std::size_t addrs = 0x612aca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowBase64DataExpected)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5fefc18;
+  constexpr static std::size_t addrs = 0x612ad14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowUndefinedPrefix)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5fefc70;
+  constexpr static std::size_t addrs = 0x612ad6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowProcessingInstructionNotSupported)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5fe9d00;
+  constexpr static std::size_t addrs = 0x6124dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, uint8_t)>(&::System::Xml::XmlExceptionHelper::ThrowInvalidXml)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5feb610;
+  constexpr static std::size_t addrs = 0x612670c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowUnexpectedEndOfFile)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5fefcc8;
+  constexpr static std::size_t addrs = 0x612adc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowUnexpectedEndElement)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5fefd78;
+  constexpr static std::size_t addrs = 0x612ae74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, char16_t)>(&::System::Xml::XmlExceptionHelper::ThrowTokenExpected)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5feabfc;
+  constexpr static std::size_t addrs = 0x6125cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowTokenExpected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fea388;
+  constexpr static std::size_t addrs = 0x6125484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowInvalidCharRef)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5fefdc8;
+  constexpr static std::size_t addrs = 0x612aec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlExceptionHelper::ThrowTagMismatch)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5feb308;
+  constexpr static std::size_t addrs = 0x6126404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowDuplicateXmlnsAttribute)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5fefe18;
+  constexpr static std::size_t addrs = 0x612af14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlExceptionHelper::ThrowDuplicateAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fefecc;
+  constexpr static std::size_t addrs = 0x612afc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowInvalidBinaryFormat)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5feff50;
+  constexpr static std::size_t addrs = 0x612b04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowInvalidRootData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5fec54c;
+  constexpr static std::size_t addrs = 0x6127648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowMultipleRootElements)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5feffa0;
+  constexpr static std::size_t addrs = 0x612b09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowDeclarationNotFirst)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5fe9d50;
+  constexpr static std::size_t addrs = 0x6124e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW)>(&::System::Xml::XmlExceptionHelper::ThrowConversionOverflow)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fefff0;
+  constexpr static std::size_t addrs = 0x612b0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowXmlDictionaryStringIDOutOfRange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5ff004c;
+  constexpr static std::size_t addrs = 0x612b148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlExceptionHelper*>(),
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowXmlDictionaryStringIDUndefinedStatic)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ff00e0;
+  constexpr static std::size_t addrs = 0x612b1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*, int32_t)>(&::System::Xml::XmlExceptionHelper::ThrowXmlDictionaryStringIDUndefinedSession)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ff0150;
+  constexpr static std::size_t addrs = 0x612b24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::XmlExceptionHelper::ThrowEmptyNamespace)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ff01c0;
+  constexpr static std::size_t addrs = 0x612b2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -518,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlException* (*)(::StringW, ::StringW, ::System::Exception*)>(&::System::Xml::XmlExceptionHelper::CreateConversionException)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5ff0210;
+  constexpr static std::size_t addrs = 0x612b30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlException* (*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Exception*)>(
     &::System::Xml::XmlExceptionHelper::CreateEncodingException)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ff0348;
+  constexpr static std::size_t addrs = 0x612b444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlException* (*)(::StringW, ::System::Exception*)>(&::System::Xml::XmlExceptionHelper::CreateEncodingException)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5ff03f8;
+  constexpr static std::size_t addrs = 0x612b4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

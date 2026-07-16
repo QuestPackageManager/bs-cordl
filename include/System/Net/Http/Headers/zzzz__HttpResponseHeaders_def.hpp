@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::HttpResponseHeaders* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f9ef98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60da094, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   HttpResponseHeaders(HttpResponseHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

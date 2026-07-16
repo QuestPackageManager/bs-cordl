@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)(int32_t)>(
     &::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a36e60;
+  constexpr static std::size_t addrs = 0x5b70b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)(::System::Runtime::CompilerServices::CompilationRelaxations)>(
     &::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a36e68;
+  constexpr static std::size_t addrs = 0x5b70b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)()>(
     &::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::get_CompilationRelaxations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a36e70;
+  constexpr static std::size_t addrs = 0x5b70b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

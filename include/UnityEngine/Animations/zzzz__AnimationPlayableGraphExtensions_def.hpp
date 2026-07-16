@@ -29,10 +29,10 @@ namespace UnityEngine::Animations {
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x68ecd64, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput, addr 0x6a43c7c, size 0x148, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
-  /// @brief Method InternalCreateAnimationOutput_Injected, addr 0x68eceac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput_Injected, addr 0x6a43dc4, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
                                                             ::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
@@ -51,7 +51,7 @@ public:
   AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

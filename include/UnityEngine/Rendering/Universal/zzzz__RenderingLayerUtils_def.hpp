@@ -90,7 +90,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event const Opaque;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,7 +153,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize const Bits8;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12909 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -180,46 +180,46 @@ public:
 
   using MaskSize = ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize;
 
-  /// @brief Method Combine, addr 0x676da6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x68ac3e8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event Combine(::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event a,
                                                                                        ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event b);
 
-  /// @brief Method Combine, addr 0x676dda0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x68ac71c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize Combine(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize a,
                                                                                           ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize b);
 
-  /// @brief Method CombineRendererEvents, addr 0x676da44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CombineRendererEvents, addr 0x68ac3c0, size 0x28, virtual false, abstract: false, final false
   static inline void CombineRendererEvents(bool isDeferred, int32_t msaaSampleCount, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event rendererEvent,
                                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> combinedEvent);
 
-  /// @brief Method GetBits, addr 0x676df1c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x68ac898, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetBits(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize);
 
-  /// @brief Method GetFormat, addr 0x676df68, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetFormat, addr 0x68ac8e4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetFormat(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize);
 
-  /// @brief Method GetMaskSize, addr 0x676ddac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetMaskSize, addr 0x68ac728, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize GetMaskSize(int32_t bits);
 
-  /// @brief Method RequireRenderingLayers, addr 0x676dae8, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method RequireRenderingLayers, addr 0x68ac464, size 0x2b8, virtual false, abstract: false, final false
   static inline bool RequireRenderingLayers(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* rendererFeatures,
                                             ::UnityEngine::Rendering::Universal::RenderingMode renderingMode, bool accurateGbufferNormals, int32_t msaaSampleCount,
                                             ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> combinedEvent,
                                             ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> combinedMaskSize);
 
-  /// @brief Method RequireRenderingLayers, addr 0x676da78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RequireRenderingLayers, addr 0x68ac3f4, size 0x70, virtual false, abstract: false, final false
   static inline bool RequireRenderingLayers(::UnityEngine::Rendering::Universal::UniversalRenderer* universalRenderer,
                                             ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* rendererFeatures, int32_t msaaSampleCount,
                                             ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> combinedEvent,
                                             ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> combinedMaskSize);
 
-  /// @brief Method SetupProperties, addr 0x676dde0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x68ac75c, size 0x70, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize);
 
-  /// @brief Method SetupProperties, addr 0x676de50, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x68ac7cc, size 0xcc, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize);
 
-  /// @brief Method ToValidRenderingLayers, addr 0x676e00c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToValidRenderingLayers, addr 0x68ac988, size 0x104, virtual false, abstract: false, final false
   static inline uint32_t ToValidRenderingLayers(uint32_t renderingLayers);
 
 protected:
@@ -237,7 +237,7 @@ public:
   RenderingLayerUtils(RenderingLayerUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

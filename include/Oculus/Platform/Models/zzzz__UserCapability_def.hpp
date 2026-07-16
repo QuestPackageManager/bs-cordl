@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_ReasonCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cb84fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df0724, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -79,7 +79,7 @@ public:
   UserCapability(UserCapability const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18071 };
 
   /// @brief Field Description, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Description;

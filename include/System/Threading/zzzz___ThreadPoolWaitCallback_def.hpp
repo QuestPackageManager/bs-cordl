@@ -19,7 +19,7 @@ namespace System::Threading {
 class CORDL_TYPE _ThreadPoolWaitCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PerformWaitCallback, addr 0x5b7a1ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PerformWaitCallback, addr 0x5cb4330, size 0x50, virtual false, abstract: false, final false
   static inline bool PerformWaitCallback();
 
 protected:

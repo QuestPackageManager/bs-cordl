@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::GlobalNamespace::EssentialHelpers::get_CurrentTimeStamp)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3268d90;
+  constexpr static std::size_t addrs = 0x3322048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EssentialHelpers*>(), { "get_CurrentTimeStamp", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::GlobalNamespace::EssentialHelpers::SafeDestroy)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3268e6c;
+  constexpr static std::size_t addrs = 0x3322124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -3,6 +3,7 @@
 #include "OculusStudios/GraphQL/Client/zzzz__IFragment_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::IFragment.CovertNestedFragments
 template <>
 
@@ -17,13 +18,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::IFragment.GetNestedFragment
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::IFragment.GetNestedFragments
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::GraphQLModel* (::OculusStudios::GraphQL::Client::IFragment::*)()>(
-    &::OculusStudios::GraphQL::Client::IFragment::GetNestedFragment)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5de8580;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::OculusStudios::GraphQL::Client::GraphQLModel*>* (
+    ::OculusStudios::GraphQL::Client::IFragment::*)()>(&::OculusStudios::GraphQL::Client::IFragment::GetNestedFragments)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5f207a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,8 +37,8 @@ inline void OculusStudios::GraphQL::Client::IFragment::CovertNestedFragments(::N
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::IFragment*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, json);
 }
-inline ::OculusStudios::GraphQL::Client::GraphQLModel* OculusStudios::GraphQL::Client::IFragment::GetNestedFragment() {
+inline ::System::Collections::Generic::IEnumerable_1<::OculusStudios::GraphQL::Client::GraphQLModel*>* OculusStudios::GraphQL::Client::IFragment::GetNestedFragments() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::IFragment*>(), 1 })));
-  return ::cordl_internals::RunMethodRethrow<::OculusStudios::GraphQL::Client::GraphQLModel*>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::OculusStudios::GraphQL::Client::GraphQLModel*>*>(this, ___internal_method);
 }

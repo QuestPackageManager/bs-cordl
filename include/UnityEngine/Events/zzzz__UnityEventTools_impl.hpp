@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Events::UnityEventTools::TidyAssemblyTypeName)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x69a5d64;
+  constexpr static std::size_t addrs = 0x6af9444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

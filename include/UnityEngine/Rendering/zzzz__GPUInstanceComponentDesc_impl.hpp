@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceComponentDesc::*)(
     int32_t, int32_t, bool, bool, ::UnityEngine::Rendering::InstanceType, ::UnityEngine::Rendering::InstanceComponentGroup)>(&::UnityEngine::Rendering::GPUInstanceComponentDesc::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66dd684;
+  constexpr static std::size_t addrs = 0x681ad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

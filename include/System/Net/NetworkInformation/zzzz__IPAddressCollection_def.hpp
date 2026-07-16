@@ -58,30 +58,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x6211764, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x634c860, size 0x50, virtual true, abstract: false, final false
   inline void Add(::System::Net::IPAddress* address);
 
-  /// @brief Method Clear, addr 0x6211930, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x634ca2c, size 0x50, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x6211818, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x634c914, size 0x64, virtual true, abstract: false, final false
   inline bool Contains(::System::Net::IPAddress* address);
 
-  /// @brief Method CopyTo, addr 0x621169c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x634c798, size 0x6c, virtual true, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Net::IPAddress*> array, int32_t offset);
 
-  /// @brief Method GetEnumerator, addr 0x621188c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x634c988, size 0x54, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Net::IPAddress*>* GetEnumerator();
 
-  /// @brief Method InternalAdd, addr 0x62117b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InternalAdd, addr 0x634c8b0, size 0x64, virtual false, abstract: false, final false
   inline void InternalAdd(::System::Net::IPAddress* address);
 
   static inline ::System::Net::NetworkInformation::IPAddressCollection* New_ctor();
 
-  /// @brief Method Remove, addr 0x62118e0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x634c9dc, size 0x50, virtual true, abstract: false, final false
   inline bool Remove(::System::Net::IPAddress* address);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x621187c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x634c978, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* const& __cordl_internal_get_addresses() const;
@@ -90,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* value);
 
-  /// @brief Method .ctor, addr 0x6211628, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634c724, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x6211708, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x634c804, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x621175c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x634c858, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
@@ -123,7 +123,7 @@ public:
   IPAddressCollection(IPAddressCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11644 };
 
   /// @brief Field addresses, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* ___addresses;

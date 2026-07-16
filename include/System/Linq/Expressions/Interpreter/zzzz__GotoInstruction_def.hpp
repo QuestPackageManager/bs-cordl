@@ -43,12 +43,12 @@ public:
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_cache, put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*> s_cache;
 
-  /// @brief Method Create, addr 0x5e4f374, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5f8a470, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::GotoInstruction* Create(int32_t labelIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
   static inline ::System::Linq::Expressions::Interpreter::GotoInstruction* New_ctor(int32_t targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
-  /// @brief Method Run, addr 0x5e4f4d4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f8a5d0, size 0xd0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -69,18 +69,18 @@ public:
 
   constexpr void __cordl_internal_set__labelTargetGetsValue(bool value);
 
-  /// @brief Method .ctor, addr 0x5e4f360, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8a45c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*> getStaticF_s_cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x5e4f350, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f8a44c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e4f30c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f8a408, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e4f358, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f8a454, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*> value);
@@ -100,7 +100,7 @@ public:
   GotoInstruction(GotoInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16249 };
 
   /// @brief Field _hasResult, offset: 0x14, size: 0x1, def value: None
   bool ____hasResult;

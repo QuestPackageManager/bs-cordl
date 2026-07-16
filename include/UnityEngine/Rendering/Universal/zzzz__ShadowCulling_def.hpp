@@ -53,19 +53,19 @@ public:
   __declspec(property(get = getStaticF_computeShadowCasterCullingInfosMarker,
                       put = setStaticF_computeShadowCasterCullingInfosMarker)) ::UnityEngine::Rendering::ProfilingSampler* computeShadowCasterCullingInfosMarker;
 
-  /// @brief Method ComputeShadowCasterCullingInfos, addr 0x6777044, size 0x84c, virtual false, abstract: false, final false
+  /// @brief Method ComputeShadowCasterCullingInfos, addr 0x68b59c0, size 0x84c, virtual false, abstract: false, final false
   static inline void ComputeShadowCasterCullingInfos(::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                                      ::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout> shadowAtlasLayout,
                                                      ::by_ref<::UnityEngine::Rendering::CullingResults> cullingResults,
                                                      ::by_ref<::UnityEngine::Rendering::ShadowCastersCullingInfos> shadowCullingInfos,
                                                      ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos>> urpVisibleLightsShadowCullingInfos);
 
-  /// @brief Method CullShadowCasters, addr 0x6776f60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CullShadowCasters, addr 0x68b58dc, size 0xe4, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos>
   CullShadowCasters(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> context, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                     ::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout> shadowAtlasLayout, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults);
 
-  /// @brief Method GetCullingProjectionType, addr 0x6777ccc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCullingProjectionType, addr 0x68b6648, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BatchCullingProjectionType GetCullingProjectionType(::UnityEngine::LightType type);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_computeShadowCasterCullingInfosMarker();
@@ -87,7 +87,7 @@ public:
   ShadowCulling(ShadowCulling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -97,10 +97,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <ProcessType>b__0, addr 0x5928404, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>b__0, addr 0x5a61b08, size 0x1d4, virtual false, abstract: false, final false
   inline bool _ProcessType_b__0(::System::Reflection::MemberInfo* info, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method <ProcessType>b__1, addr 0x59285d8, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>b__1, addr 0x5a61cdc, size 0x300, virtual false, abstract: false, final false
   inline void _ProcessType_b__1(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* memberController, ::System::Reflection::MemberInfo* member,
                                 ::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instance);
 
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5927bc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a612cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   GizmoManager___c__DisplayClass4_0(GizmoManager___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18401 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -212,10 +212,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClass4_1* New_ctor();
 
-  /// @brief Method <ProcessType>g__GetState|3, addr 0x5928ab4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>g__GetState|3, addr 0x5a621b8, size 0x6c, virtual false, abstract: false, final false
   inline bool _ProcessType_g__GetState_3();
 
-  /// @brief Method <ProcessType>g__OnStateChanged|2, addr 0x592893c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>g__OnStateChanged|2, addr 0x5a62040, size 0x7c, virtual false, abstract: false, final false
   inline void _ProcessType_g__OnStateChanged_2(bool state);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClass4_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -236,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set_member(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x59288d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a61fdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -254,7 +254,7 @@ public:
   GizmoManager___c__DisplayClass4_1(GizmoManager___c__DisplayClass4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18402 };
 
   /// @brief Field member, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ___member;
@@ -304,29 +304,29 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
   constexpr operator ::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*() noexcept;
 
-  /// @brief Method AddGizmo, addr 0x5927d8c, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method AddGizmo, addr 0x5a61490, size 0x2b4, virtual false, abstract: false, final false
   static inline bool AddGizmo(::System::Type* type, ::System::Reflection::MemberInfo* member, ::Meta::XR::ImmersiveDebugger::DebugMember* gizmoAttribute,
                               ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* instanceCache, ::by_ref<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*> gizmoRendererManager);
 
-  /// @brief Method GetCountPerType, addr 0x59282d4, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetCountPerType, addr 0x5a619d8, size 0x98, virtual true, abstract: false, final true
   inline int32_t GetCountPerType(::System::Type* type);
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoManager* New_ctor();
 
-  /// @brief Method ProcessType, addr 0x59276a0, size 0x528, virtual true, abstract: false, final true
+  /// @brief Method ProcessType, addr 0x5a60da4, size 0x528, virtual true, abstract: false, final true
   inline void ProcessType(::System::Type* type);
 
-  /// @brief Method ProcessTypeFromHierarchy, addr 0x5928078, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromHierarchy, addr 0x5a6177c, size 0x38, virtual true, abstract: false, final true
   inline void ProcessTypeFromHierarchy(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ProcessTypeFromInspector, addr 0x5928040, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromInspector, addr 0x5a61744, size 0x38, virtual true, abstract: false, final true
   inline void ProcessTypeFromInspector(::System::Type* type, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle, ::System::Reflection::MemberInfo* memberInfo,
                                        ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute);
 
-  /// @brief Method RemoveGizmosForType, addr 0x5927bcc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RemoveGizmosForType, addr 0x5a612d0, size 0x1c0, virtual false, abstract: false, final false
   inline void RemoveGizmosForType(::System::Type* type);
 
-  /// @brief Method Setup, addr 0x5927698, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Setup, addr 0x5a60d9c, size 0x8, virtual true, abstract: false, final true
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* panel, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache);
 
   constexpr ::System::Collections::Generic::Dictionary_2<
@@ -354,10 +354,10 @@ public:
 
   constexpr void __cordl_internal_set__uiPanel(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* value);
 
-  /// @brief Method .ctor, addr 0x592836c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a61a70, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x5928290, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_TelemetryAnnotation, addr 0x5a61994, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_TelemetryAnnotation();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
@@ -378,7 +378,7 @@ public:
   GizmoManager(GizmoManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18403 };
 
   /// @brief Field GizmosDict, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<

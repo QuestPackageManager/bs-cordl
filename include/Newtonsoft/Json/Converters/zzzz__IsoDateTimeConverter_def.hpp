@@ -59,10 +59,10 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::IsoDateTimeConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5c61314, size 0x4b4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d9953c, size 0x4b4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5c610bc, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d992e4, size 0x258, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set__dateTimeStyles(::System::Globalization::DateTimeStyles value);
 
-  /// @brief Method .ctor, addr 0x5c617c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d999f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Culture, addr 0x5c61048, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x5d99270, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_DateTimeFormat, addr 0x5c61004, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeFormat, addr 0x5d9922c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DateTimeFormat();
 
-  /// @brief Method get_DateTimeStyles, addr 0x5c60ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeStyles, addr 0x5d9921c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::DateTimeStyles get_DateTimeStyles();
 
-  /// @brief Method set_Culture, addr 0x5c610b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Culture, addr 0x5d992dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DateTimeFormat, addr 0x5c61024, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeFormat, addr 0x5d9924c, size 0x24, virtual false, abstract: false, final false
   inline void set_DateTimeFormat(::StringW value);
 
-  /// @brief Method set_DateTimeStyles, addr 0x5c60ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeStyles, addr 0x5d99224, size 0x8, virtual false, abstract: false, final false
   inline void set_DateTimeStyles(::System::Globalization::DateTimeStyles value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   static constexpr ::ConstString DefaultDateTimeFormat{ u"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss.FFFFFFFK" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13635 };
 
   /// @brief Field _dateTimeStyles, offset: 0x10, size: 0x4, def value: None
   ::System::Globalization::DateTimeStyles ____dateTimeStyles;

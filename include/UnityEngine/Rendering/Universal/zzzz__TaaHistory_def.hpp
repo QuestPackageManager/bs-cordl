@@ -48,33 +48,33 @@ public:
   /// @brief Field m_TaaAccumulationVersions, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TaaAccumulationVersions, put = __cordl_internal_set_m_TaaAccumulationVersions)) ::ArrayW<int32_t> m_TaaAccumulationVersions;
 
-  /// @brief Method Alloc, addr 0x6734e9c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6873818, size 0x158, virtual false, abstract: false, final false
   inline void Alloc(::by_ref<::UnityEngine::RenderTextureDescriptor> desc, bool xrMultipassEnabled);
 
-  /// @brief Method GetAccumulationTexture, addr 0x6734d80, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulationTexture, addr 0x68736fc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetAccumulationTexture(int32_t eyeIndex);
 
-  /// @brief Method GetAccumulationVersion, addr 0x6734db4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulationVersion, addr 0x6873730, size 0x30, virtual false, abstract: false, final false
   inline int32_t GetAccumulationVersion(int32_t eyeIndex);
 
-  /// @brief Method IsDirty, addr 0x6734e30, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x68737ac, size 0x6c, virtual false, abstract: false, final false
   inline bool IsDirty(::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
 
-  /// @brief Method IsValid, addr 0x6734e14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6873790, size 0x1c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::Universal::TaaHistory* New_ctor();
 
-  /// @brief Method OnCreate, addr 0x6734c88, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnCreate, addr 0x6873604, size 0x4c, virtual true, abstract: false, final false
   inline void OnCreate(::UnityEngine::Rendering::BufferedRTHandleSystem* owner, uint32_t typeId);
 
-  /// @brief Method Reset, addr 0x6734cd4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6873650, size 0xac, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetAccumulationVersion, addr 0x6734de4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetAccumulationVersion, addr 0x6873760, size 0x30, virtual false, abstract: false, final false
   inline void SetAccumulationVersion(int32_t eyeIndex, int32_t version);
 
-  /// @brief Method Update, addr 0x6734ff4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6873970, size 0x10c, virtual false, abstract: false, final false
   inline bool Update(::by_ref<::UnityEngine::RenderTextureDescriptor> cameraDesc, bool xrMultipassEnabled);
 
   constexpr ::UnityEngine::Hash128 const& __cordl_internal_get_m_DescKey() const;
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TaaAccumulationVersions(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6735100, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6873a7c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF_m_TaaAccumulationNames();
@@ -123,7 +123,7 @@ public:
   TaaHistory(TaaHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12739 };
 
   /// @brief Field m_TaaAccumulationTextureIds, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_TaaAccumulationTextureIds;

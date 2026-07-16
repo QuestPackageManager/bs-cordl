@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos::IsSliceValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6776f50;
+  constexpr static std::size_t addrs = 0x68b58cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

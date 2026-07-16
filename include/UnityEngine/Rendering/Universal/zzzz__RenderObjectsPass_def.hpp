@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x675e970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689d2ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   RenderObjectsPass_PassData(RenderObjectsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12848 };
 
   /// @brief Field cameraSettings, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* ___cameraSettings;
@@ -256,10 +256,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderObjectsPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__33_0, addr 0x6760b7c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__33_0, addr 0x689f4f8, size 0xd4, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__33_0(::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6760b78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689f4f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::RenderObjectsPass___c* getStaticF___9();
@@ -288,7 +288,7 @@ public:
   RenderObjectsPass___c(RenderObjectsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -351,21 +351,21 @@ public:
   /// @brief Field renderQueueType, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_renderQueueType, put = __cordl_internal_set_renderQueueType)) ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType;
 
-  /// @brief Method Execute, addr 0x675e974, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x689d2f0, size 0x1f0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x675eee4, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x689d860, size 0x3f4, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData* passData, ::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                  ::UnityEngine::Rendering::RendererList rendererList, bool isYFlipped);
 
-  /// @brief Method Init, addr 0x675e4b4, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x689ce30, size 0x3ac, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags, ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType,
                    int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method InitPassData, addr 0x675eb64, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x689d4e0, size 0x34, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData*> passData);
 
-  /// @brief Method InitRendererLists, addr 0x675eb98, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x689d514, size 0x34c, virtual false, abstract: false, final false
   inline void InitRendererLists(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                 ::by_ref<::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
@@ -379,16 +379,16 @@ public:
                                                                                  ::ArrayW<::StringW> shaderTags, ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType,
                                                                                  int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method RecordRenderGraph, addr 0x675fd5c, size 0xdc8, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x689e6d8, size 0xdc8, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method SetDepthState, addr 0x675e2a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDepthState, addr 0x689cc20, size 0x3c, virtual false, abstract: false, final false
   inline void SetDepthState(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction function);
 
-  /// @brief Method SetDetphState, addr 0x675e268, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDetphState, addr 0x689cbe4, size 0x3c, virtual false, abstract: false, final false
   inline void SetDetphState(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction function);
 
-  /// @brief Method SetStencilState, addr 0x675e2e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetStencilState, addr 0x689cc5c, size 0xa4, virtual false, abstract: false, final false
   inline void SetStencilState(int32_t reference, ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::StencilOp passOp, ::UnityEngine::Rendering::StencilOp failOp,
                               ::UnityEngine::Rendering::StencilOp zFailOp);
 
@@ -452,36 +452,36 @@ public:
 
   constexpr void __cordl_internal_set_renderQueueType(::UnityEngine::Rendering::Universal::RenderQueueType value);
 
-  /// @brief Method .ctor, addr 0x675e860, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689d1dc, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profileId, ::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags,
                     ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType, int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method .ctor, addr 0x675e384, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689cd00, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, ::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags,
                     ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType, int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method get_overrideMaterial, addr 0x675e228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideMaterial, addr 0x689cba4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_overrideMaterial();
 
-  /// @brief Method get_overrideMaterialPassIndex, addr 0x675e238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideMaterialPassIndex, addr 0x689cbb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overrideMaterialPassIndex();
 
-  /// @brief Method get_overrideShader, addr 0x675e248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideShader, addr 0x689cbc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_overrideShader();
 
-  /// @brief Method get_overrideShaderPassIndex, addr 0x675e258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideShaderPassIndex, addr 0x689cbd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overrideShaderPassIndex();
 
-  /// @brief Method set_overrideMaterial, addr 0x675e230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterial, addr 0x689cbac, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_overrideMaterialPassIndex, addr 0x675e240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterialPassIndex, addr 0x689cbbc, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterialPassIndex(int32_t value);
 
-  /// @brief Method set_overrideShader, addr 0x675e250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShader, addr 0x689cbcc, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_overrideShaderPassIndex, addr 0x675e260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShaderPassIndex, addr 0x689cbdc, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShaderPassIndex(int32_t value);
 
 protected:
@@ -499,7 +499,7 @@ public:
   RenderObjectsPass(RenderObjectsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12850 };
 
   /// @brief Field renderQueueType, offset: 0xb8, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderQueueType ___renderQueueType;

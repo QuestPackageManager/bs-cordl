@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Threading::ThreadStateException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b6d2cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca6fa4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b6d350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca7028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b6d32c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca7004, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

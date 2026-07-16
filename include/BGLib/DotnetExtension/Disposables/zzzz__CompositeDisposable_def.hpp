@@ -33,13 +33,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x32555d8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x330de9c, size 0xe4, virtual false, abstract: false, final false
   inline void Add(::ArrayW<::System::IDisposable*> disposables);
 
-  /// @brief Method Add, addr 0x32554d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x330dd9c, size 0x100, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* item);
 
-  /// @brief Method Dispose, addr 0x32556bc, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x330df80, size 0x168, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::BGLib::DotnetExtension::Disposables::CompositeDisposable* New_ctor(int32_t capacity);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__disposables(::System::Collections::Generic::List_1<::System::IDisposable*>* value);
 
-  /// @brief Method .ctor, addr 0x32553f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330dcb8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x3255478, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330dd3c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::IDisposable*> disposables);
 
   /// @brief Convert to "::System::IDisposable"
@@ -76,7 +76,7 @@ public:
   CompositeDisposable(CompositeDisposable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20479 };
 
   /// @brief Field _disposables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::IDisposable*>* ____disposables;

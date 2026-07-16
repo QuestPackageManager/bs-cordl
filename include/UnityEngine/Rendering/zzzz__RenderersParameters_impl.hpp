@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderersParameters_ParamInfo::*)()>(&::UnityEngine::Rendering::RenderersParameters_ParamInfo::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f58b4;
+  constexpr static std::size_t addrs = 0x6832fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters_ParamInfo>(), { "get_valid", {}, {} })));
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (*)(::UnityEngine::Rendering::RenderersParameters_Flags, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo>)>(
         &::UnityEngine::Rendering::RenderersParameters::CreateInstanceDataBuffer)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x66f42c8;
+  constexpr static std::size_t addrs = 0x68319d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderersParameters::*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>)>(
     &::UnityEngine::Rendering::RenderersParameters::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x66f4690;
+  constexpr static std::size_t addrs = 0x6831d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderersParameters_ParamInfo (*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>, int32_t, bool)>(
     &::UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_14_0)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x66f53e4;
+  constexpr static std::size_t addrs = 0x6832af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

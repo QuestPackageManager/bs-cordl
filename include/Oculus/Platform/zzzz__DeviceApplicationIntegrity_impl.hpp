@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)(::StringW)>(&::Oculus::Platform::DeviceApplicationIntegrity::GetIntegrityToken)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5cad8b0;
+  constexpr static std::size_t addrs = 0x5de5ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x67d4e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691392c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
 protected:
@@ -42,7 +42,7 @@ public:
   DownloadOnlyLocation(DownloadOnlyLocation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

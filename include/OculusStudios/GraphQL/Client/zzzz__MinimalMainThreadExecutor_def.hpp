@@ -36,13 +36,13 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* New_ctor();
 
-  /// @brief Method RunOnMainThread, addr 0x5de7640, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method RunOnMainThread, addr 0x5f1f868, size 0x14c, virtual false, abstract: false, final false
   inline void RunOnMainThread(::System::Action* runnable);
 
-  /// @brief Method RunPendingActions, addr 0x5de503c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method RunPendingActions, addr 0x5f1d264, size 0x378, virtual false, abstract: false, final false
   inline void RunPendingActions();
 
-  /// @brief Method StartOnMainThread, addr 0x5de7608, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method StartOnMainThread, addr 0x5f1f830, size 0x38, virtual false, abstract: false, final false
   inline void StartOnMainThread(::System::Collections::IEnumerator* func, bool enableStop);
 
   constexpr ::System::Collections::Generic::List_1<::System::Action*>* const& __cordl_internal_get_actions_() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_toRun_(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x5de6000, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1e228, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   MinimalMainThreadExecutor(MinimalMainThreadExecutor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20353 };
 
   /// @brief Field actions_, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Action*>* ___actions_;

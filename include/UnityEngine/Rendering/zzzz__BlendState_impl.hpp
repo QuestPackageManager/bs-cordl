@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BlendState (*)()>(&::UnityEngine::Rendering::BlendState::get_defaultValue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69c6fa4;
+  constexpr static std::size_t addrs = 0x6b1a8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BlendState>(), { "get_defaultValue", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BlendState::*)(bool, bool)>(&::UnityEngine::Rendering::BlendState::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69c6fec;
+  constexpr static std::size_t addrs = 0x6b1a928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BlendState::*)(::UnityEngine::Rendering::RenderTargetBlendState)>(
     &::UnityEngine::Rendering::BlendState::set_blendState0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c7084;
+  constexpr static std::size_t addrs = 0x6b1a9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BlendState::*)(::UnityEngine::Rendering::BlendState)>(&::UnityEngine::Rendering::BlendState::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69c708c;
+  constexpr static std::size_t addrs = 0x6b1a9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BlendState::*)(::System::Object*)>(&::UnityEngine::Rendering::BlendState::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x69c71c4;
+  constexpr static std::size_t addrs = 0x6b1ab00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BlendState::*)()>(&::UnityEngine::Rendering::BlendState::GetHashCode)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x69c7258;
+  constexpr static std::size_t addrs = 0x6b1ab94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

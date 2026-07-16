@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 class ILobbyGameStateControllerBase;
 }
 namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
+class MultiplayerLevelScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
 struct MultiplayerLobbyState;
@@ -118,7 +118,7 @@ public:
   inline void add_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
   /// @brief Method add_levelFinishedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void add_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  inline void add_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
   /// @brief Method add_lobbyDisconnectedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_lobbyDisconnectedEvent(::System::Action* value);
@@ -193,7 +193,7 @@ public:
   inline void remove_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
   /// @brief Method remove_levelFinishedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void remove_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  inline void remove_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
   /// @brief Method remove_lobbyDisconnectedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_lobbyDisconnectedEvent(::System::Action* value);
@@ -224,7 +224,7 @@ public:
   ILobbyGameStateController(ILobbyGameStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

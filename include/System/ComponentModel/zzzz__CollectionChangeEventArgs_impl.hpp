@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::CollectionChangeEventArgs::*)(::System::ComponentModel::CollectionChangeAction, ::System::Object*)>(
     &::System::ComponentModel::CollectionChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6275ad4;
+  constexpr static std::size_t addrs = 0x63b1b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::CollectionChangeAction (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6275b40;
+  constexpr static std::size_t addrs = 0x63b1bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::CollectionChangeEventArgs*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Element)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6275b48;
+  constexpr static std::size_t addrs = 0x63b1be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::CollectionChangeEventArgs*>(),

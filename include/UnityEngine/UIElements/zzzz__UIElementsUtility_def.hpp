@@ -123,63 +123,63 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IUIElementsUtility"
   constexpr operator ::UnityEngine::UIElements::IUIElementsUtility*() noexcept;
 
-  /// @brief Method BeginContainerGUI, addr 0x6b62648, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method BeginContainerGUI, addr 0x6cb6500, size 0x280, virtual false, abstract: false, final false
   static inline void BeginContainerGUI(::UnityEngine::GUILayoutUtility_LayoutCache* cache, ::UnityEngine::Event* evt, ::UnityEngine::UIElements::IMGUIContainer* container);
 
-  /// @brief Method CreateEvent, addr 0x6b62b74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x6cb6a2c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* CreateEvent(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method CreateEvent, addr 0x6b5dc38, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x6cb1af0, size 0x358, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* CreateEvent(::UnityEngine::Event* systemEvent, ::UnityEngine::EventType eventType);
 
-  /// @brief Method DoDispatch, addr 0x6b61ee8, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method DoDispatch, addr 0x6cb5da0, size 0x600, virtual false, abstract: false, final false
   static inline bool DoDispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method EndContainerGUI, addr 0x6b628c8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUI, addr 0x6cb6780, size 0x2ac, virtual false, abstract: false, final false
   static inline void EndContainerGUI(::UnityEngine::Event* evt, ::UnityEngine::Rect layoutSize);
 
-  /// @brief Method GetAllPanels, addr 0x6b5e7f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetAllPanels, addr 0x6cb26ac, size 0x174, virtual false, abstract: false, final false
   static inline void GetAllPanels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* panels, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method GetPanelsIterator, addr 0x6b62bec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetPanelsIterator, addr 0x6cb6aa4, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2_Enumerator<int32_t, ::UnityEngine::UIElements::Panel*> GetPanelsIterator();
 
   static inline ::UnityEngine::UIElements::UIElementsUtility* New_ctor();
 
-  /// @brief Method ParseMenuName, addr 0x6b62d90, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ParseMenuName, addr 0x6cb6c48, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW ParseMenuName(::StringW menuName);
 
-  /// @brief Method PixelsPerUnitScaleForElement, addr 0x6b62ccc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method PixelsPerUnitScaleForElement, addr 0x6cb6b84, size 0xc4, virtual false, abstract: false, final false
   static inline float_t PixelsPerUnitScaleForElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Sprite* sprite);
 
-  /// @brief Method RegisterCachedPanel, addr 0x6b5e574, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RegisterCachedPanel, addr 0x6cb242c, size 0xa8, virtual false, abstract: false, final false
   static inline void RegisterCachedPanel(int32_t instanceID, ::UnityEngine::UIElements::Panel* panel);
 
-  /// @brief Method RemoveCachedPanel, addr 0x6b5e76c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveCachedPanel, addr 0x6cb2624, size 0x88, virtual false, abstract: false, final false
   static inline void RemoveCachedPanel(int32_t instanceID);
 
-  /// @brief Method TryGetPanel, addr 0x6b5e138, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetPanel, addr 0x6cb1ff0, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetPanel(int32_t instanceID, ::by_ref<::UnityEngine::UIElements::Panel*> panel);
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.CleanupRoots, addr 0x6b624e8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.CleanupRoots, addr 0x6cb63a0, size 0x68, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_CleanupRoots();
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.EndContainerGUIFromException, addr 0x6b62550, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.EndContainerGUIFromException, addr 0x6cb6408, size 0xf8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.MakeCurrentIMGUIContainerDirty, addr 0x6b61be8, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.MakeCurrentIMGUIContainerDirty, addr 0x6cb5aa0, size 0xf8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_MakeCurrentIMGUIContainerDirty();
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ProcessEvent, addr 0x6b61dbc, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ProcessEvent, addr 0x6cb5c74, size 0x12c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr, ::by_ref<bool> eventHandled);
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ReleaseCapture, addr 0x6b61db4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ReleaseCapture, addr 0x6cb5c6c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_ReleaseCapture();
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.TakeCapture, addr 0x6b61ce0, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.TakeCapture, addr 0x6cb5b98, size 0xd4, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_TakeCapture();
 
-  /// @brief Method .ctor, addr 0x6b61b90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb5a48, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_editorPlayModeTintColor();
@@ -208,7 +208,7 @@ public:
 
   static inline float_t getStaticF_singleLineHeight();
 
-  /// @brief Method get_isOSXContextualMenuPlatform, addr 0x6b61ad4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_isOSXContextualMenuPlatform, addr 0x6cb598c, size 0xbc, virtual false, abstract: false, final false
   static inline bool get_isOSXContextualMenuPlatform();
 
   /// @brief Convert to "::UnityEngine::UIElements::IUIElementsUtility"

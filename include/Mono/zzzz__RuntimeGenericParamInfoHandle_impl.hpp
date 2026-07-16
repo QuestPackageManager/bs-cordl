@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::RuntimeGenericParamInfoHandle::*)(::System::IntPtr)>(&::Mono::RuntimeGenericParamInfoHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5972e4c;
+  constexpr static std::size_t addrs = 0x5aab7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::Mono::RuntimeGenericParamInfoHandle::*)()>(&::Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5972e54;
+  constexpr static std::size_t addrs = 0x5aab7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeGenericParamInfoHandle>(), { "get_Constraints", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::GenericParameterAttributes (::Mono::RuntimeGenericParamInfoHandle::*)()>(
     &::Mono::RuntimeGenericParamInfoHandle::get_Attributes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5972f68;
+  constexpr static std::size_t addrs = 0x5aab8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeGenericParamInfoHandle>(), { "get_Attributes", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::Mono::RuntimeGenericParamInfoHandle::*)()>(&::Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5972e58;
+  constexpr static std::size_t addrs = 0x5aab7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeGenericParamInfoHandle>(), { "GetConstraints", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::RuntimeGenericParamInfoHandle::*)()>(&::Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5972f80;
+  constexpr static std::size_t addrs = 0x5aab8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeGenericParamInfoHandle>(), { "GetConstraintsCount", {}, {} })));

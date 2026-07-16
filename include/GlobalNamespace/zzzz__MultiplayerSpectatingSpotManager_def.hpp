@@ -51,10 +51,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotManager___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58b2f3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e3640, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_defaultSpot>b__3_0, addr 0x58b2f40, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <get_defaultSpot>b__3_0, addr 0x59e3644, size 0xa4, virtual false, abstract: false, final false
   inline bool _get_defaultSpot_b__3_0(::GlobalNamespace::IMultiplayerSpectatingSpot* s);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotManager___c* getStaticF___9();
@@ -80,7 +80,7 @@ public:
   MultiplayerSpectatingSpotManager___c(MultiplayerSpectatingSpotManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,21 +109,21 @@ public:
 
   __declspec(property(get = get_spectatingSpots)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpots;
 
-  /// @brief Method GetAdjacentSpot, addr 0x58b2b8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAdjacentSpot, addr 0x59e3290, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int32_t offset);
 
-  /// @brief Method GetIndexBySpot, addr 0x58b2c4c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetIndexBySpot, addr 0x59e3350, size 0x88, virtual false, abstract: false, final false
   inline int32_t GetIndexBySpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotManager* New_ctor();
 
-  /// @brief Method RegisterSpectatingSpot, addr 0x58b2110, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RegisterSpectatingSpot, addr 0x59e2814, size 0x174, virtual false, abstract: false, final false
   inline void RegisterSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method SpotOnHasBeenRemoved, addr 0x58b2cd4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SpotOnHasBeenRemoved, addr 0x59e33d8, size 0x134, virtual false, abstract: false, final false
   inline void SpotOnHasBeenRemoved(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method UpdateIndexBySpotDictionary, addr 0x58b29fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndexBySpotDictionary, addr 0x59e3100, size 0x190, virtual false, abstract: false, final false
   inline void UpdateIndexBySpotDictionary();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* const& __cordl_internal_get__spectatingSpots() const;
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__spotIndexBySpot(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x58b2e08, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e350c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_defaultSpot, addr 0x58b288c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpot, addr 0x59e2f90, size 0x170, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
 
-  /// @brief Method get_spectatingSpots, addr 0x58b2884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spectatingSpots, addr 0x59e2f88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
 
 protected:
@@ -162,7 +162,7 @@ public:
   MultiplayerSpectatingSpotManager(MultiplayerSpectatingSpotManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6169 };
 
   /// @brief Field _spectatingSpots, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* ____spectatingSpots;

@@ -60,26 +60,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x5a36d70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x5b70a40, size 0x4, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x5a36984, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x5b70654, size 0x5c, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method QueueContinuation, addr 0x5a369e0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method QueueContinuation, addr 0x5b706b0, size 0x2c4, virtual false, abstract: false, final false
   static inline void QueueContinuation(::System::Action* continuation, bool flowContext);
 
-  /// @brief Method RunAction, addr 0x5a36d00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RunAction, addr 0x5b709d0, size 0x70, virtual false, abstract: false, final false
   static inline void RunAction(::System::Object* state);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x5a36ca4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x5b70974, size 0x5c, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
   static inline ::System::Threading::SendOrPostCallback* getStaticF_s_sendOrPostCallbackRunAction();
 
   static inline ::System::Threading::WaitCallback* getStaticF_s_waitCallbackRunAction();
 
-  /// @brief Method get_IsCompleted, addr 0x5a3697c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x5b7064c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -119,7 +119,7 @@ public:
   // Declarations
   using YieldAwaiter = ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x5a36974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x5b70644, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter GetAwaiter();
 
   // Ctor Parameters []

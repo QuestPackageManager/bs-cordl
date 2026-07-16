@@ -3,31 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentAudioNoiseController_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupData_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PersistentAudioNoiseController.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::Start)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x577f6d8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x58bbb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "Start", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PersistentAudioNoiseController.OnResetAudioEvent
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::OnResetAudioEvent)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x577f804;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnResetAudioEvent", {}, {} })));
     return ___internal_method;
   }
 };
@@ -35,8 +23,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::OnDestroy)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x577f828;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x58bbc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnDestroy", {}, {} })));
@@ -47,10 +35,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType,
-                                                                                                                   ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
+                                                                                                                   ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::PersistentAudioNoiseController::HandleTransitionDidFinish)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x577f9d4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x58bbd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                              { "HandleTransitionDidFinish",
                                                                {},
                                                                { ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneTransitionType>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                 ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -67,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::OnValidate)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x577fa88;
+  constexpr static std::size_t addrs = 0x58bbd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnValidate", {}, {} })));
@@ -79,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577fb70;
+  constexpr static std::size_t addrs = 0x58bbe70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { ".ctor", {}, {} })));
@@ -98,17 +86,15 @@ constexpr void GlobalNamespace::PersistentAudioNoiseController::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioSource = value;
 }
-constexpr ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__shaderWarmupScenesTransitionSetupData() {
+constexpr ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData*& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__shaderWarmupScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shaderWarmupScenesTransitionSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> const&
-GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__shaderWarmupScenesTransitionSetupData() const {
+constexpr ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* const& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__shaderWarmupScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shaderWarmupScenesTransitionSetupData;
 }
-constexpr void
-GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_set__shaderWarmupScenesTransitionSetupData(::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> value) {
+constexpr void GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_set__shaderWarmupScenesTransitionSetupData(::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shaderWarmupScenesTransitionSetupData = value;
 }
@@ -124,24 +110,8 @@ constexpr void GlobalNamespace::PersistentAudioNoiseController::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameScenesManager = value;
 }
-constexpr bool& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__wasStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____wasStarted;
-}
-constexpr bool const& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__wasStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____wasStarted;
-}
-constexpr void GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_set__wasStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____wasStarted = value;
-}
 inline void GlobalNamespace::PersistentAudioNoiseController::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "Start", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::PersistentAudioNoiseController::OnResetAudioEvent() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnResetAudioEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PersistentAudioNoiseController::OnDestroy() {
@@ -149,14 +119,14 @@ inline void GlobalNamespace::PersistentAudioNoiseController::OnDestroy() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PersistentAudioNoiseController::HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType,
-                                                                                       ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo, ::Zenject::DiContainer* diContainer) {
+                                                                                       ::GlobalNamespace::ScenesTransitionSetupData* transitionSetupData, ::Zenject::DiContainer* diContainer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(),
                                                            { "HandleTransitionDidFinish",
                                                              {},
                                                              { ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneTransitionType>(),
-                                                               ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionType, transitionSetupDataSo, diContainer);
+                                                               ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionType, transitionSetupData, diContainer);
 }
 inline void GlobalNamespace::PersistentAudioNoiseController::OnValidate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnValidate", {}, {} })));

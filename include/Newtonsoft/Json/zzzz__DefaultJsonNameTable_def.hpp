@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b98ba0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0dc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::DefaultJsonNameTable_Entry* next);
 
 protected:
@@ -78,7 +78,7 @@ public:
   DefaultJsonNameTable_Entry(DefaultJsonNameTable_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13210 };
 
   /// @brief Field Value, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Value;
@@ -122,21 +122,21 @@ public:
   /// @brief Field _mask, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
-  /// @brief Method Add, addr 0x5b98904, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5cd0b2c, size 0x194, virtual false, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x5b98a98, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x5cd0cc0, size 0x108, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Get, addr 0x5b986cc, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x5cd08f4, size 0x188, virtual true, abstract: false, final false
   inline ::StringW Get(::ArrayW<char16_t> key, int32_t start, int32_t length);
 
-  /// @brief Method Grow, addr 0x5b98bb0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x5cd0dd8, size 0x130, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::Newtonsoft::Json::DefaultJsonNameTable* New_ctor();
 
-  /// @brief Method TextEquals, addr 0x5b98854, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x5cd0a7c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t> str2, int32_t str2Start, int32_t str2Length);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__mask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b9866c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0894, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_HashCodeRandomizer();
@@ -179,7 +179,7 @@ public:
   DefaultJsonNameTable(DefaultJsonNameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13211 };
 
   /// @brief Field _count, offset: 0x10, size: 0x4, def value: None
   int32_t ____count;

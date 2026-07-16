@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334cbfc;
+  constexpr static std::size_t addrs = 0x34090b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::IsVerified)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x334cc04;
+  constexpr static std::size_t addrs = 0x34090bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::IsVerified)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x334ccbc;
+  constexpr static std::size_t addrs = 0x3409174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

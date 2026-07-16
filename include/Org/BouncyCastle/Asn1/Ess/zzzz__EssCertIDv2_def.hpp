@@ -52,10 +52,10 @@ public:
   /// @brief Field issuerSerial, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial;
 
-  /// @brief Method GetCertHash, addr 0x32bc670, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0x3378b28, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetCertHash();
 
-  /// @brief Method GetInstance, addr 0x32bc2c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x337877c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t> certHash);
@@ -69,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x32bc6d8, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3378b90, size 0x1c0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_certHash() const;
@@ -90,27 +90,27 @@ public:
 
   constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method .ctor, addr 0x32bc650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378b08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t> certHash);
 
-  /// @brief Method .ctor, addr 0x32bc5c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378a80, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x32bc5b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378a70, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> certHash);
 
-  /// @brief Method .ctor, addr 0x32bc658, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378b10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x32bc364, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337881c, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultAlgID();
 
-  /// @brief Method get_HashAlgorithm, addr 0x32bc668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x3378b20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_IssuerSerial, addr 0x32bc6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0x3378b88, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
   static inline void setStaticF_DefaultAlgID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);

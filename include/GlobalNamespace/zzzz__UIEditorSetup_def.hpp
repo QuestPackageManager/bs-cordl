@@ -33,7 +33,7 @@ public:
   /// @brief Field TweakableFloat, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_TweakableFloat, put = __cordl_internal_set_TweakableFloat)) float_t TweakableFloat;
 
-  /// @brief Method Method, addr 0x5903d2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Method, addr 0x5a3d430, size 0x4, virtual false, abstract: false, final false
   inline void Method();
 
   static inline ::GlobalNamespace::UIEditorSetup* New_ctor();
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_TweakableFloat(float_t value);
 
-  /// @brief Method .ctor, addr 0x5903d30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3d434, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   UIEditorSetup(UIEditorSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18291 };
 
   /// @brief Field Float, offset: 0x20, size: 0x4, def value: None
   float_t ___Float;

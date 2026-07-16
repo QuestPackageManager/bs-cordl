@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UpdateLODGroupTransformJob::*)(int32_t)>(&::UnityEngine::Rendering::UpdateLODGroupTransformJob::Execute)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x66edfb4;
+  constexpr static std::size_t addrs = 0x682b6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

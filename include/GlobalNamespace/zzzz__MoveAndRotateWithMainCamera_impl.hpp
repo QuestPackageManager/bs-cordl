@@ -5,14 +5,15 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MoveAndRotateWithMainCamera_def.hpp"
 #include "GlobalNamespace/zzzz__MainCamera_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MoveAndRotateWithMainCamera.Awake
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::Awake)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x57c5eec;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x58e5318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "Awake", {}, {} })));
@@ -23,8 +24,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::OnDestroy)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x57c6020;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x58e543c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "OnDestroy", {}, {} })));
@@ -34,14 +35,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::MoveAndRotateWithMainCamera.OnPreCullCallback
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)(::UnityEngine::Camera*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::MoveAndRotateWithMainCamera::OnPreCullCallback)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x57c6114;
+  constexpr static std::size_t addrs = 0x58e54e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "OnPreCullCallback", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(),
+                                                { "OnPreCullCallback", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
     return ___internal_method;
   }
 };
@@ -50,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57c62a0;
+  constexpr static std::size_t addrs = 0x58e5670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { ".ctor", {}, {} })));
@@ -113,10 +115,11 @@ inline void GlobalNamespace::MoveAndRotateWithMainCamera::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MoveAndRotateWithMainCamera::OnPreCullCallback(::UnityEngine::Camera* currentCamera) {
+inline void GlobalNamespace::MoveAndRotateWithMainCamera::OnPreCullCallback(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* currentCamera) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "OnPreCullCallback", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentCamera);
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(),
+                                              { "OnPreCullCallback", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, currentCamera);
 }
 inline void GlobalNamespace::MoveAndRotateWithMainCamera::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { ".ctor", {}, {} })));

@@ -25,12 +25,6 @@ template <typename T> class LinkedListNode_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class CallbacksInTime;
@@ -46,12 +40,19 @@ class CORDL_TYPE CallbacksInTime : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _callbacks, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__callbacks, put = __cordl_internal_set__callbacks)) ::System::Collections::Generic::Dictionary_2<
-      ::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacks;
+  __declspec(property(get = __cordl_internal_get__callbacks,
+                      put =
+                          __cordl_internal_set__callbacks)) ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacks;
 
   /// @brief Field _callbacksWithSubtypeIdentifier, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__callbacksWithSubtypeIdentifier, put = __cordl_internal_set__callbacksWithSubtypeIdentifier)) ::System::Collections::Generic::Dictionary_2<
-      ::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacksWithSubtypeIdentifier;
+  __declspec(property(get = __cordl_internal_get__callbacksWithSubtypeIdentifier, put = __cordl_internal_set__callbacksWithSubtypeIdentifier)) ::System::Collections::Generic::List_1<
+      ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*>* _callbacksWithSubtypeIdentifier;
+
+  /// @brief Field _hasCallbacks, offset 0x39, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasCallbacks, put = __cordl_internal_set__hasCallbacks)) bool _hasCallbacks;
+
+  /// @brief Field _hasSubtypeCallbacks, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasSubtypeCallbacks, put = __cordl_internal_set__hasSubtypeCallbacks)) bool _hasSubtypeCallbacks;
 
   /// @brief Field aheadTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_aheadTime, put = __cordl_internal_set_aheadTime)) float_t aheadTime;
@@ -66,31 +67,47 @@ public:
   __declspec(property(get = __cordl_internal_get_lastProcessedNode,
                       put = __cordl_internal_set_lastProcessedNode)) ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* lastProcessedNode;
 
-  /// @brief Method AddCallback, addr 0x5789bf0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method AddCallback, addr 0x58c63ec, size 0x4e4, virtual false, abstract: false, final false
   inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method CallCallbacks, addr 0x5788840, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x58c5bf4, size 0x50, virtual false, abstract: false, final false
   inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method CallCallbacks, addr 0x5789f04, size 0x220, virtual false, abstract: false, final false
-  inline void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+  /// @brief Method CallCallbacks, addr 0x58c6d10, size 0x264, virtual false, abstract: false, final false
+  inline void CallCallbacks(int32_t typeId, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+
+  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void EnsureCapacity(::System::Collections::Generic::List_1<T>* list, int32_t index);
 
   static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
-  /// @brief Method RemoveCallback, addr 0x5788460, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method RemoveCallback, addr 0x58c68d0, size 0x300, virtual false, abstract: false, final false
   inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* const&
-  __cordl_internal_get__callbacks() const;
+  /// @brief Method UpdateHasCallbacks, addr 0x58c6c70, size 0xa0, virtual false, abstract: false, final false
+  inline void UpdateHasCallbacks();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& __cordl_internal_get__callbacks();
+  /// @brief Method UpdateHasSubtypeCallbacks, addr 0x58c6bd0, size 0xa0, virtual false, abstract: false, final false
+  inline void UpdateHasSubtypeCallbacks();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>,
-                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* const&
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* const& __cordl_internal_get__callbacks() const;
+
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& __cordl_internal_get__callbacks();
+
+  constexpr ::System::Collections::Generic::List_1<
+      ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*>* const&
   __cordl_internal_get__callbacksWithSubtypeIdentifier() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*&
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*>*&
   __cordl_internal_get__callbacksWithSubtypeIdentifier();
+
+  constexpr bool const& __cordl_internal_get__hasCallbacks() const;
+
+  constexpr bool& __cordl_internal_get__hasCallbacks();
+
+  constexpr bool const& __cordl_internal_get__hasSubtypeCallbacks() const;
+
+  constexpr bool& __cordl_internal_get__hasSubtypeCallbacks();
 
   constexpr float_t const& __cordl_internal_get_aheadTime() const;
 
@@ -104,11 +121,14 @@ public:
 
   constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get_lastProcessedNode();
 
-  constexpr void
-  __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
+  constexpr void __cordl_internal_set__callbacks(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
 
   constexpr void __cordl_internal_set__callbacksWithSubtypeIdentifier(
-      ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
+      ::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*>* value);
+
+  constexpr void __cordl_internal_set__hasCallbacks(bool value);
+
+  constexpr void __cordl_internal_set__hasSubtypeCallbacks(bool value);
 
   constexpr void __cordl_internal_set_aheadTime(float_t value);
 
@@ -116,10 +136,10 @@ public:
 
   constexpr void __cordl_internal_set_lastProcessedNode(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method .ctor, addr 0x5789adc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c6320, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime);
 
-  /// @brief Method get_isEmpty, addr 0x5788678, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x58c6300, size 0x20, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -137,7 +157,7 @@ public:
   CallbacksInTime(CallbacksInTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5622 };
 
   /// @brief Field lastProcessedNode, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* ___lastProcessedNode;
@@ -149,11 +169,17 @@ public:
   ::GlobalNamespace::BeatmapEventData* ___beatmapEventDataForCallbacksAfterNodeRemoval;
 
   /// @brief Field _callbacksWithSubtypeIdentifier, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*
+  ::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*>*
       ____callbacksWithSubtypeIdentifier;
 
   /// @brief Field _callbacks, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* ____callbacks;
+  ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* ____callbacks;
+
+  /// @brief Field _hasSubtypeCallbacks, offset: 0x38, size: 0x1, def value: None
+  bool ____hasSubtypeCallbacks;
+
+  /// @brief Field _hasCallbacks, offset: 0x39, size: 0x1, def value: None
+  bool ____hasCallbacks;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,6 +194,10 @@ static_assert(offsetof(::GlobalNamespace::CallbacksInTime, ____callbacksWithSubt
 
 static_assert(offsetof(::GlobalNamespace::CallbacksInTime, ____callbacks) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::CallbacksInTime) == 0x38, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::CallbacksInTime, ____hasSubtypeCallbacks) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CallbacksInTime, ____hasCallbacks) == 0x39, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::CallbacksInTime) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

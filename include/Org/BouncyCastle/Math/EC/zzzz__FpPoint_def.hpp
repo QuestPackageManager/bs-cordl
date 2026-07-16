@@ -30,32 +30,32 @@ namespace Org::BouncyCastle::Math::EC {
 class CORDL_TYPE FpPoint : public ::Org::BouncyCastle::Math::EC::AbstractFpPoint {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x346bde0, size 0xb4c, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3528298, size 0xb4c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method CalculateJacobianModifiedW, addr 0x346e62c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method CalculateJacobianModifiedW, addr 0x352aae4, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* CalculateJacobianModifiedW(::Org::BouncyCastle::Math::EC::ECFieldElement* Z, ::Org::BouncyCastle::Math::EC::ECFieldElement* ZSquared);
 
-  /// @brief Method Detach, addr 0x346bcc8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Detach, addr 0x3528180, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method DoubleProductFromSquares, addr 0x346e488, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method DoubleProductFromSquares, addr 0x352a940, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* DoubleProductFromSquares(::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b,
                                                                                  ::Org::BouncyCastle::Math::EC::ECFieldElement* aSquared, ::Org::BouncyCastle::Math::EC::ECFieldElement* bSquared);
 
-  /// @brief Method Eight, addr 0x346e454, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Eight, addr 0x352a90c, size 0x34, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Eight(::Org::BouncyCastle::Math::EC::ECFieldElement* x);
 
-  /// @brief Method Four, addr 0x346e420, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Four, addr 0x352a8d8, size 0x34, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Four(::Org::BouncyCastle::Math::EC::ECFieldElement* x);
 
-  /// @brief Method GetJacobianModifiedW, addr 0x346e78c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetJacobianModifiedW, addr 0x352ac44, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* GetJacobianModifiedW();
 
-  /// @brief Method GetZCoord, addr 0x346bd5c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetZCoord, addr 0x3528214, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int32_t index);
 
-  /// @brief Method Negate, addr 0x346e4fc, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x352a9b4, size 0x130, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::FpPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -67,34 +67,34 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::FpPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                  ::Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 
-  /// @brief Method Three, addr 0x346e3ec, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Three, addr 0x352a8a4, size 0x34, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Three(::Org::BouncyCastle::Math::EC::ECFieldElement* x);
 
-  /// @brief Method ThreeTimes, addr 0x346d878, size 0x3f4, virtual true, abstract: false, final false
+  /// @brief Method ThreeTimes, addr 0x3529d30, size 0x3f4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
 
-  /// @brief Method TimesPow2, addr 0x346dc6c, size 0x764, virtual true, abstract: false, final false
+  /// @brief Method TimesPow2, addr 0x352a124, size 0x764, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TimesPow2(int32_t e);
 
-  /// @brief Method Twice, addr 0x346c92c, size 0xad8, virtual true, abstract: false, final false
+  /// @brief Method Twice, addr 0x3528de4, size 0xad8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwiceJacobianModified, addr 0x346e818, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method TwiceJacobianModified, addr 0x352acd0, size 0x348, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::FpPoint* TwiceJacobianModified(bool calculateW);
 
-  /// @brief Method TwicePlus, addr 0x346d404, size 0x474, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x35298bc, size 0x474, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Two, addr 0x346e3d0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Two, addr 0x352a888, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Two(::Org::BouncyCastle::Math::EC::ECFieldElement* x);
 
-  /// @brief Method .ctor, addr 0x346bcc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3528178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0x3466014, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35224cc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x3466458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3522910, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 

@@ -33,13 +33,13 @@ public:
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x585716c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598f518, size 0x130, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x5857168, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598f514, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x585729c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598f648, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::TextureProcessor3D> const& __cordl_internal_get__textureProcessor3D() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x58572a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598f64c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   FloatTextureProcessor3DPresetEffectTarget(FloatTextureProcessor3DPresetEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
 
   /// @brief Field _textureProcessor3D, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextureProcessor3D> ____textureProcessor3D;

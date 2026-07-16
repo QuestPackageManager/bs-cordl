@@ -39,13 +39,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_integer* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x60879e8, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x61c2ae4, size 0x158, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x607f6f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ba7f4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x60879e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c2adc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -63,7 +63,7 @@ public:
   Datatype_integer(Datatype_integer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

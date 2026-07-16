@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3639c8c;
+  constexpr static std::size_t addrs = 0x36f6144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -18,44 +18,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, floa
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::CoreMathUtils.__CalculateHalfJumpDurationInBeatsV2
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV2)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3639cd0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(),
-                                                { "__CalculateHalfJumpDurationInBeatsV2",
-                                                  {},
-                                                  { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::CoreMathUtils.__CalculateHalfJumpDurationInBeatsV1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV1)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3639d08;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(),
-                                                { "__CalculateHalfJumpDurationInBeatsV1",
-                                                  {},
-                                                  { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::CoreMathUtils._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreMathUtils::*)()>(&::GlobalNamespace::CoreMathUtils::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3639d50;
+  constexpr static std::size_t addrs = 0x36f6188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(), { ".ctor", {}, {} })));
@@ -70,24 +38,6 @@ inline float_t GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats(
           ::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(),
           { "CalculateHalfJumpDurationInBeats", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, startHalfJumpDurationInBeats, maxHalfJumpDistance, noteJumpMovementSpeed, oneBeatDuration, noteJumpStartBeatOffset);
-}
-inline float_t GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV2(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed,
-                                                                                    float_t oneBeatDuration, float_t noteJumpStartBeatOffset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(),
-          { "__CalculateHalfJumpDurationInBeatsV2", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, startHalfJumpDurationInBeats, maxHalfJumpDistance, noteJumpMovementSpeed, oneBeatDuration, noteJumpStartBeatOffset);
-}
-inline int32_t GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV1(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed,
-                                                                                    float_t oneBeatDuration, float_t minHalfJumpDistance) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(),
-          { "__CalculateHalfJumpDurationInBeatsV1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, startHalfJumpDurationInBeats, maxHalfJumpDistance, noteJumpMovementSpeed, oneBeatDuration, minHalfJumpDistance);
 }
 inline void GlobalNamespace::CoreMathUtils::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(), { ".ctor", {}, {} })));

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IndirectBufferAllocInfo::*)()>(&::UnityEngine::Rendering::IndirectBufferAllocInfo::IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66ebaa4;
+  constexpr static std::size_t addrs = 0x68291b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferAllocInfo>(), { "IsEmpty", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IndirectBufferAllocInfo::*)(::by_ref<::UnityEngine::Rendering::IndirectBufferLimits>)>(
     &::UnityEngine::Rendering::IndirectBufferAllocInfo::IsWithinLimits)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66ebab4;
+  constexpr static std::size_t addrs = 0x68291c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferAllocInfo>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::IndirectBufferAllocInfo::*)()>(
     &::UnityEngine::Rendering::IndirectBufferAllocInfo::GetExtraDrawInfoSlotIndex)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66ebae8;
+  constexpr static std::size_t addrs = 0x68291f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -45,37 +45,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::Text::RenderedText>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::Text::RenderedText>*();
 
-  /// @brief Method CreateString, addr 0x6aad35c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x6c01214, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW CreateString();
 
-  /// @brief Method Equals, addr 0x6ab0230, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c040e8, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ab0164, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c0401c, size 0xcc, virtual true, abstract: false, final true
   inline bool Equals(::StringW other);
 
-  /// @brief Method Equals, addr 0x6aadd10, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c01bc8, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::Text::RenderedText other);
 
-  /// @brief Method GetEnumerator, addr 0x6ab0020, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6c03ed8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::RenderedText_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x6ab02e8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c041a0, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6aaffe8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03ea0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(char16_t repeat, int32_t repeatCount, ::StringW suffix);
 
-  /// @brief Method .ctor, addr 0x6aad478, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c01330, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6aaff40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03df8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, int32_t start, int32_t length, ::StringW suffix);
 
-  /// @brief Method .ctor, addr 0x6aaffa4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03e5c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW suffix);
 
-  /// @brief Method get_CharacterCount, addr 0x6ab0000, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CharacterCount, addr 0x6c03eb8, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_CharacterCount();
 
   /// @brief Convert to "::System::IEquatable_1<::StringW>"
@@ -94,7 +94,7 @@ public:
   constexpr RenderedText(::StringW value, int32_t valueStart, int32_t valueLength, ::StringW suffix, char16_t repeat, int32_t repeatCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -144,13 +144,13 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) char16_t Current;
 
-  /// @brief Method MoveNext, addr 0x6ab0050, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6c03f08, size 0x114, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6ab003c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03ef4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::TextCore::Text::RenderedText> source);
 
-  /// @brief Method get_Current, addr 0x6ab0394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6c0424c, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_Current();
 
   // Ctor Parameters []
@@ -162,7 +162,7 @@ public:
   constexpr RenderedText_Enumerator(::UnityEngine::TextCore::Text::RenderedText m_Source, int32_t m_Stage, int32_t m_StageIndex, char16_t m_Current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

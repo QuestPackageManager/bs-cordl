@@ -39,13 +39,13 @@ public:
 
   static inline ::GlobalNamespace::StartMiddleEndButtonBackgroundController* New_ctor();
 
-  /// @brief Method SetEndSprite, addr 0x58ceb40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetEndSprite, addr 0x5920d20, size 0x20, virtual false, abstract: false, final false
   inline void SetEndSprite();
 
-  /// @brief Method SetMiddleSprite, addr 0x58ceb20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetMiddleSprite, addr 0x5920d00, size 0x20, virtual false, abstract: false, final false
   inline void SetMiddleSprite();
 
-  /// @brief Method SetStartSprite, addr 0x58ceb00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetStartSprite, addr 0x5920ce0, size 0x20, virtual false, abstract: false, final false
   inline void SetStartSprite();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__endSprite() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__startSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x58ceb60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5920d40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   StartMiddleEndButtonBackgroundController(StartMiddleEndButtonBackgroundController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6795 };
 
   /// @brief Field _startSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____startSprite;

@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ParameterValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5b9860c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool parameterValue);
 
-  /// @brief Method get_ParameterValue, addr 0x5b98614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterValue, addr 0x5cd083c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParameterValue();
 
 protected:
@@ -53,7 +53,7 @@ public:
   DoesNotReturnIfAttribute(DoesNotReturnIfAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13205 };
 
   /// @brief Field <ParameterValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ParameterValue_k__BackingField;

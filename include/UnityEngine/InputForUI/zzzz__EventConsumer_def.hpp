@@ -28,12 +28,12 @@ namespace UnityEngine::InputForUI {
 class CORDL_TYPE EventConsumer : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6a05398, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6b58e74, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::by_ref<::UnityEngine::InputForUI::Event> ev);
 
   static inline ::UnityEngine::InputForUI::EventConsumer* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6a0531c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b58df8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   EventConsumer(EventConsumer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

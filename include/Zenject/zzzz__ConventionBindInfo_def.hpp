@@ -28,10 +28,10 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class ConventionBindInfo___c__DisplayClass6_0;
+class ConventionBindInfo___c__DisplayClass7_0;
 }
 namespace Zenject {
-class ConventionBindInfo___c__DisplayClass7_0;
+class ConventionBindInfo___c__DisplayClass8_0;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -41,31 +41,31 @@ namespace Zenject {
 class ConventionBindInfo;
 }
 namespace Zenject {
-class ConventionBindInfo___c__DisplayClass6_0;
+class ConventionBindInfo___c__DisplayClass7_0;
 }
 namespace Zenject {
-class ConventionBindInfo___c__DisplayClass7_0;
+class ConventionBindInfo___c__DisplayClass8_0;
 }
 // Write type traits
 MARK_REF_T(::Zenject::ConventionBindInfo*);
-MARK_REF_T(::Zenject::ConventionBindInfo___c__DisplayClass6_0*);
 MARK_REF_T(::Zenject::ConventionBindInfo___c__DisplayClass7_0*);
+MARK_REF_T(::Zenject::ConventionBindInfo___c__DisplayClass8_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");
-DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo___c__DisplayClass6_0*, "Zenject", "ConventionBindInfo/<>c__DisplayClass6_0");
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo___c__DisplayClass7_0*, "Zenject", "ConventionBindInfo/<>c__DisplayClass7_0");
+DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo___c__DisplayClass8_0*, "Zenject", "ConventionBindInfo/<>c__DisplayClass8_0");
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: Zenject.ConventionBindInfo/<>c__DisplayClass6_0
-class CORDL_TYPE ConventionBindInfo___c__DisplayClass6_0 : public ::System::Object {
+// CS Name: Zenject.ConventionBindInfo/<>c__DisplayClass7_0
+class CORDL_TYPE ConventionBindInfo___c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assembly, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly)) ::System::Reflection::Assembly* assembly;
 
-  static inline ::Zenject::ConventionBindInfo___c__DisplayClass6_0* New_ctor();
+  static inline ::Zenject::ConventionBindInfo___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ShouldIncludeAssembly>b__0, addr 0x6cf4aec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <ShouldIncludeAssembly>b__0, addr 0x6e49140, size 0x24, virtual false, abstract: false, final false
   inline bool _ShouldIncludeAssembly_b__0(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
 
   constexpr ::System::Reflection::Assembly* const& __cordl_internal_get_assembly() const;
@@ -74,71 +74,13 @@ public:
 
   constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
 
-  /// @brief Method __zenCreate, addr 0x6cf4b10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e49164, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cf4b54, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e491a8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6cf482c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConventionBindInfo___c__DisplayClass6_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConventionBindInfo___c__DisplayClass6_0(ConventionBindInfo___c__DisplayClass6_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo___c__DisplayClass6_0(ConventionBindInfo___c__DisplayClass6_0 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14023 };
-
-  /// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
-  ::System::Reflection::Assembly* ___assembly;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::Zenject::ConventionBindInfo___c__DisplayClass6_0, ___assembly) == 0x10, "Offset mismatch!");
-
-static_assert(sizeof(::Zenject::ConventionBindInfo___c__DisplayClass6_0) == 0x18, "Size mismatch!");
-
-} // namespace Zenject
-// Dependencies System.Object
-namespace Zenject {
-// Is value type: false
-// CS Name: Zenject.ConventionBindInfo/<>c__DisplayClass7_0
-class CORDL_TYPE ConventionBindInfo___c__DisplayClass7_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
-
-  static inline ::Zenject::ConventionBindInfo___c__DisplayClass7_0* New_ctor();
-
-  /// @brief Method <ShouldIncludeType>b__0, addr 0x6cf4ce8, size 0x24, virtual false, abstract: false, final false
-  inline bool _ShouldIncludeType_b__0(::System::Func_2<::System::Type*, bool>* predicate);
-
-  constexpr ::System::Type* const& __cordl_internal_get_type() const;
-
-  constexpr ::System::Type*& __cordl_internal_get_type();
-
-  constexpr void __cordl_internal_set_type(::System::Type* value);
-
-  /// @brief Method __zenCreate, addr 0x6cf4d0c, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cf4d50, size 0x194, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
-  /// @brief Method .ctor, addr 0x6cf490c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e48e80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +98,65 @@ public:
   ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14011 };
+
+  /// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
+  ::System::Reflection::Assembly* ___assembly;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::Zenject::ConventionBindInfo___c__DisplayClass7_0, ___assembly) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::Zenject::ConventionBindInfo___c__DisplayClass7_0) == 0x18, "Size mismatch!");
+
+} // namespace Zenject
+// Dependencies System.Object
+namespace Zenject {
+// Is value type: false
+// CS Name: Zenject.ConventionBindInfo/<>c__DisplayClass8_0
+class CORDL_TYPE ConventionBindInfo___c__DisplayClass8_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field type, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
+
+  static inline ::Zenject::ConventionBindInfo___c__DisplayClass8_0* New_ctor();
+
+  /// @brief Method <ShouldIncludeType>b__0, addr 0x6e4933c, size 0x24, virtual false, abstract: false, final false
+  inline bool _ShouldIncludeType_b__0(::System::Func_2<::System::Type*, bool>* predicate);
+
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
+
+  constexpr ::System::Type*& __cordl_internal_get_type();
+
+  constexpr void __cordl_internal_set_type(::System::Type* value);
+
+  /// @brief Method __zenCreate, addr 0x6e49360, size 0x44, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e493a4, size 0x194, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x6e48f60, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConventionBindInfo___c__DisplayClass8_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14012 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -164,9 +164,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Zenject::ConventionBindInfo___c__DisplayClass7_0, ___type) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Zenject::ConventionBindInfo___c__DisplayClass8_0, ___type) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::Zenject::ConventionBindInfo___c__DisplayClass7_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::Zenject::ConventionBindInfo___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
 // Dependencies System.Object
@@ -176,9 +176,9 @@ namespace Zenject {
 class CORDL_TYPE ConventionBindInfo : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass6_0 = ::Zenject::ConventionBindInfo___c__DisplayClass6_0;
-
   using __c__DisplayClass7_0 = ::Zenject::ConventionBindInfo___c__DisplayClass7_0;
+
+  using __c__DisplayClass8_0 = ::Zenject::ConventionBindInfo___c__DisplayClass8_0;
 
   /// @brief Field _assemblyFilters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__assemblyFilters,
@@ -191,31 +191,34 @@ public:
   /// @brief Field _typeFilters, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__typeFilters, put = __cordl_internal_set__typeFilters)) ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* _typeFilters;
 
-  /// @brief Method AddAssemblyFilter, addr 0x6cf4130, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddAssemblyFilter, addr 0x6e486c0, size 0xb4, virtual false, abstract: false, final false
   inline void AddAssemblyFilter(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
 
-  /// @brief Method AddTypeFilter, addr 0x6cf4680, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddTypeFilter, addr 0x6e48cd4, size 0xb4, virtual false, abstract: false, final false
   inline void AddTypeFilter(::System::Func_2<::System::Type*, bool>* predicate);
 
-  /// @brief Method GetAllAssemblies, addr 0x6cf4734, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAllAssemblies, addr 0x6e48d88, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* GetAllAssemblies();
 
-  /// @brief Method GetTypes, addr 0x6cf4910, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x6e48f64, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> GetTypes(::System::Reflection::Assembly* assembly);
 
   static inline ::Zenject::ConventionBindInfo* New_ctor();
 
-  /// @brief Method ResolveTypes, addr 0x6cf3204, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x6e48c10, size 0xc4, virtual false, abstract: false, final false
+  static inline void NoDomainReloadInit();
+
+  /// @brief Method ResolveTypes, addr 0x6e47794, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypes();
 
-  /// @brief Method ShouldIncludeAssembly, addr 0x6cf4750, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ShouldIncludeAssembly, addr 0x6e48da4, size 0xdc, virtual false, abstract: false, final false
   inline bool ShouldIncludeAssembly(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method ShouldIncludeType, addr 0x6cf4830, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ShouldIncludeType, addr 0x6e48e84, size 0xdc, virtual false, abstract: false, final false
   inline bool ShouldIncludeType(::System::Type* type);
 
-  /// @brief Method <ResolveTypes>b__9_0, addr 0x6cf4ae8, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _ResolveTypes_b__9_0(::System::Reflection::Assembly* assembly);
+  /// @brief Method <ResolveTypes>b__10_0, addr 0x6e4913c, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _ResolveTypes_b__10_0(::System::Reflection::Assembly* assembly);
 
   constexpr ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>* const& __cordl_internal_get__assemblyFilters() const;
 
@@ -229,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set__typeFilters(::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* value);
 
-  /// @brief Method .ctor, addr 0x6cf3140, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e476d0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*>>* getStaticF__assemblyTypeCache();
@@ -251,7 +254,7 @@ public:
   ConventionBindInfo(ConventionBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14013 };
 
   /// @brief Field _typeFilters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* ____typeFilters;

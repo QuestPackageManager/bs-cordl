@@ -20,7 +20,7 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUInt, addr 0x3252f2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt, addr 0x330b7f0, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ::by_ref<uint32_t> uNumber, ::by_ref<bool> isNegative);
 
 protected:
@@ -38,7 +38,7 @@ public:
   IntegerExtensions(IntegerExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

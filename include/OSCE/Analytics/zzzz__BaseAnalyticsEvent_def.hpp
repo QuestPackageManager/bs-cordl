@@ -49,27 +49,27 @@ public:
   /// @brief Convert operator to "::OSCE::Networking::IPureCSharpPoolElement"
   constexpr operator ::OSCE::Networking::IPureCSharpPoolElement*() noexcept;
 
-  /// @brief Method ApplyBasicFields, addr 0x5dff0cc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x5f373f0, size 0x2c, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method ApplyTime, addr 0x5dff04c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ApplyTime, addr 0x5f37370, size 0x80, virtual true, abstract: false, final false
   inline void ApplyTime(::OSCE::Analytics::AnalyticsManager* manager, int32_t timestamp);
 
-  /// @brief Method ConvertToLoggerEvent, addr 0x5dfefe0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ConvertToLoggerEvent, addr 0x5f37304, size 0x6c, virtual true, abstract: false, final false
   inline ::OSCE::Analytics::LoggerAnalyticsEvent ConvertToLoggerEvent();
 
-  /// @brief Method EventRequiresAnalyticsID, addr 0x5dfef00, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EventRequiresAnalyticsID, addr 0x5f37224, size 0x20, virtual true, abstract: false, final false
   inline bool EventRequiresAnalyticsID();
 
-  /// @brief Method GetIDType, addr 0x5dfeef8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x5f3721c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::OSCE::Analytics::BaseAnalyticsEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x5dfef70, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x5f37294, size 0x70, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
-  /// @brief Method ReturnedToPool, addr 0x5dfef20, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x5f37244, size 0x50, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
   constexpr bool const& __cordl_internal_get__CreatedByPool_k__BackingField() const;
@@ -90,22 +90,22 @@ public:
 
   constexpr void __cordl_internal_set_client_time(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5dff0f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3741c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CreatedByPool, addr 0x5dfeee8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CreatedByPool, addr 0x5f3720c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CreatedByPool();
 
-  /// @brief Method get_logger, addr 0x5dfeed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logger, addr 0x5f371fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logger();
 
   /// @brief Convert to "::OSCE::Networking::IPureCSharpPoolElement"
   constexpr ::OSCE::Networking::IPureCSharpPoolElement* i___OSCE__Networking__IPureCSharpPoolElement() noexcept;
 
-  /// @brief Method set_CreatedByPool, addr 0x5dfeef0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CreatedByPool, addr 0x5f37214, size 0x8, virtual true, abstract: false, final true
   inline void set_CreatedByPool(bool value);
 
-  /// @brief Method set_logger, addr 0x5dfeee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_logger, addr 0x5f37204, size 0x8, virtual false, abstract: false, final false
   inline void set_logger(::StringW value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   BaseAnalyticsEvent(BaseAnalyticsEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };
 
   /// @brief Field client_time, offset: 0x10, size: 0x4, def value: None
   int32_t ___client_time;

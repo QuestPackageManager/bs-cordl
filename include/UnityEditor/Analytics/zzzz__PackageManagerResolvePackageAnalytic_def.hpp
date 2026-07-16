@@ -36,7 +36,7 @@ public:
   /// @brief Field packages, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_packages, put = __cordl_internal_set_packages)) ::ArrayW<::StringW> packages;
 
-  /// @brief Method CreatePackageManagerResolvePackageAnalytic, addr 0x6cce2ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerResolvePackageAnalytic, addr 0x6e221a4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic* CreatePackageManagerResolvePackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic* New_ctor();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_packages(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6cce258, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e22110, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   PackageManagerResolvePackageAnalytic(PackageManagerResolvePackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22963 };
 
   /// @brief Field packages, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::StringW> ___packages;

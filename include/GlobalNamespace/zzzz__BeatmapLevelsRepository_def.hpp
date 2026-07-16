@@ -54,21 +54,21 @@ public:
 
   __declspec(property(get = get_beatmapLevelPacks)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks;
 
-  /// @brief Method AddBeatmapLevel, addr 0x3666154, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapLevel, addr 0x37230bc, size 0xc0, virtual false, abstract: false, final false
   inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW songPackId);
 
-  /// @brief Method GetBeatmapLevelById, addr 0x3665fb4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelById, addr 0x3722f1c, size 0x1a0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* GetBeatmapLevelById(::StringW levelId, bool ignoreCase);
 
-  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x3665f20, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x3722e88, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByBeatmapLevelId(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x3665d80, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x3722ce8, size 0x1a0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByPackId(::StringW packId, bool ignoreCase);
 
   static inline ::GlobalNamespace::BeatmapLevelsRepository* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method TryGetBeatmapLevelById, addr 0x3666214, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetBeatmapLevelById, addr 0x372317c, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetBeatmapLevelById(::StringW levelId, ::by_ref<::GlobalNamespace::BeatmapLevel*> beatmapLevel);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__beatmapLevelIdToBeatmapLevelPackId() const;
@@ -95,10 +95,10 @@ public:
 
   constexpr void __cordl_internal_set__idToBeatmapLevelPack(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x36659d0, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3722938, size 0x3b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method get_beatmapLevelPacks, addr 0x36659c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x3722930, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
 protected:
@@ -116,7 +116,7 @@ public:
   BeatmapLevelsRepository(BeatmapLevelsRepository const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14948 };
 
   /// @brief Field _beatmapLevelPacks, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapLevelPack*> ____beatmapLevelPacks;

@@ -175,7 +175,7 @@ public:
   static ::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10287 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -209,7 +209,7 @@ public:
   AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -233,7 +233,7 @@ public:
   constexpr Awaitable_AwaitableAsyncMethodBuilder(::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox* _stateMachineBox, ::UnityEngine::Awaitable* _resultingCoroutine) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10289 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -274,7 +274,7 @@ public:
   AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -301,7 +301,7 @@ public:
                                                     ::UnityEngine::Awaitable_1<T>* _resultingCoroutine) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10291 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -327,10 +327,10 @@ public:
 
   __declspec(property(get = get_FrameIndex)) int32_t FrameIndex;
 
-  /// @brief Method get_Awaitable, addr 0x6985fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Awaitable, addr 0x6ad9374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable* get_Awaitable();
 
-  /// @brief Method get_FrameIndex, addr 0x6985fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FrameIndex, addr 0x6ad937c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FrameIndex();
 
   // Ctor Parameters []
@@ -342,7 +342,7 @@ public:
   constexpr Awaitable_AwaitableAndFrameIndex(::UnityEngine::Awaitable* _Awaitable_k__BackingField, int32_t _FrameIndex_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10292 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -377,12 +377,12 @@ public:
   /// @brief Field _scratch, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__scratch, put = __cordl_internal_set__scratch)) ::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* _scratch;
 
-  /// @brief Method Clear, addr 0x6984854, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6ad7bf4, size 0x78, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Awaitable_DoubleBufferedAwaitableList* New_ctor();
 
-  /// @brief Method SwapAndComplete, addr 0x6984930, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method SwapAndComplete, addr 0x6ad7cd0, size 0x298, virtual false, abstract: false, final false
   inline void SwapAndComplete();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* const& __cordl_internal_get__awaitables() const;
@@ -397,7 +397,7 @@ public:
 
   constexpr void __cordl_internal_set__scratch(::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* value);
 
-  /// @brief Method .ctor, addr 0x6985f40, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad92e0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -415,7 +415,7 @@ public:
   Awaitable_DoubleBufferedAwaitableList(Awaitable_DoubleBufferedAwaitableList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10293 };
 
   /// @brief Field _awaitables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* ____awaitables;
@@ -450,20 +450,20 @@ public:
   /// @brief Field NullHandle, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_NullHandle, put = setStaticF_NullHandle)) ::UnityEngine::Awaitable_AwaitableHandle NullHandle;
 
-  /// @brief Method .ctor, addr 0x698600c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad93ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr handle);
 
   static inline ::UnityEngine::Awaitable_AwaitableHandle getStaticF_ManagedHandle();
 
   static inline ::UnityEngine::Awaitable_AwaitableHandle getStaticF_NullHandle();
 
-  /// @brief Method get_IsManaged, addr 0x69856d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IsManaged, addr 0x6ad8a74, size 0x6c, virtual false, abstract: false, final false
   inline bool get_IsManaged();
 
-  /// @brief Method get_IsNull, addr 0x6985740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x6ad8ae0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method op_Implicit, addr 0x6986014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ad93b4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Implicit___System__IntPtr(::UnityEngine::Awaitable_AwaitableHandle handle);
 
   static inline void setStaticF_ManagedHandle(::UnityEngine::Awaitable_AwaitableHandle value);
@@ -478,7 +478,7 @@ public:
   constexpr Awaitable_AwaitableHandle(::System::IntPtr _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10294 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -509,13 +509,13 @@ public:
 
   static inline ::UnityEngine::Awaitable___c* New_ctor();
 
-  /// @brief Method <.cctor>b__76_0, addr 0x69860c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__76_0, addr 0x6ad9464, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::Awaitable*>* __cctor_b__76_0();
 
-  /// @brief Method <.cctor>b__76_1, addr 0x6986204, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__76_1, addr 0x6ad95a4, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable* __cctor_b__76_1();
 
-  /// @brief Method .ctor, addr 0x69860c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad9460, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Awaitable___c* getStaticF___9();
@@ -541,7 +541,7 @@ public:
   Awaitable___c(Awaitable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -632,63 +632,63 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method CheckPointerValidity, addr 0x6985ce0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckPointerValidity, addr 0x6ad9080, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable_AwaitableHandle CheckPointerValidity();
 
-  /// @brief Method DoRunContinuationOnSynchonizationContext, addr 0x6985174, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DoRunContinuationOnSynchonizationContext, addr 0x6ad8514, size 0x70, virtual false, abstract: false, final false
   static inline void DoRunContinuationOnSynchonizationContext(::System::Object* continuation);
 
-  /// @brief Method IsNativeAwaitableCompleted, addr 0x698479c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsNativeAwaitableCompleted, addr 0x6ad7b3c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t IsNativeAwaitableCompleted(::System::IntPtr nativeAwaitable);
 
-  /// @brief Method MatchCompletionThreadAffinity, addr 0x6984d94, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method MatchCompletionThreadAffinity, addr 0x6ad8134, size 0xe8, virtual false, abstract: false, final false
   static inline bool MatchCompletionThreadAffinity(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity);
 
-  /// @brief Method NewManagedAwaitable, addr 0x6984ca4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method NewManagedAwaitable, addr 0x6ad8044, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Awaitable* NewManagedAwaitable();
 
   static inline ::UnityEngine::Awaitable* New_ctor();
 
-  /// @brief Method OnDelayedCallManagerCleared, addr 0x69847d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnDelayedCallManagerCleared, addr 0x6ad7b78, size 0x7c, virtual false, abstract: false, final false
   static inline void OnDelayedCallManagerCleared();
 
-  /// @brief Method OnEndOfFrame, addr 0x6984bc8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnEndOfFrame, addr 0x6ad7f68, size 0x64, virtual false, abstract: false, final false
   static inline void OnEndOfFrame();
 
-  /// @brief Method OnUpdate, addr 0x69848cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x6ad7c6c, size 0x64, virtual false, abstract: false, final false
   static inline void OnUpdate();
 
-  /// @brief Method PropagateExceptionAndRelease, addr 0x6985330, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method PropagateExceptionAndRelease, addr 0x6ad86d0, size 0x3a4, virtual false, abstract: false, final false
   inline void PropagateExceptionAndRelease();
 
-  /// @brief Method RaiseManagedCompletion, addr 0x69851e4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method RaiseManagedCompletion, addr 0x6ad8584, size 0x14c, virtual false, abstract: false, final false
   inline void RaiseManagedCompletion();
 
-  /// @brief Method RaiseManagedCompletion, addr 0x6984e7c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RaiseManagedCompletion, addr 0x6ad821c, size 0x184, virtual false, abstract: false, final false
   inline void RaiseManagedCompletion(::System::Exception* exception);
 
-  /// @brief Method ReleaseNativeAwaitable, addr 0x6984760, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseNativeAwaitable, addr 0x6ad7b00, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseNativeAwaitable(::System::IntPtr nativeAwaitable);
 
-  /// @brief Method RunContinuation, addr 0x6984628, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RunContinuation, addr 0x6ad79c8, size 0x138, virtual false, abstract: false, final false
   inline void RunContinuation();
 
-  /// @brief Method RunOrScheduleContinuation, addr 0x6985000, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RunOrScheduleContinuation, addr 0x6ad83a0, size 0x174, virtual false, abstract: false, final false
   inline void RunOrScheduleContinuation(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity, ::System::Action* continuation);
 
-  /// @brief Method SetExceptionFromNative, addr 0x69844f4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetExceptionFromNative, addr 0x6ad7894, size 0x134, virtual false, abstract: false, final false
   inline void SetExceptionFromNative(::System::Exception* ex);
 
-  /// @brief Method SetSynchronizationContext, addr 0x6984c2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSynchronizationContext, addr 0x6ad7fcc, size 0x70, virtual false, abstract: false, final false
   static inline void SetSynchronizationContext(::UnityEngine::UnitySynchronizationContext* synchronizationContext);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x6985d88, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x6ad9128, size 0x34, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6985dbc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6ad915c, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6985dc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6ad9160, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Nullable_1<::System::Threading::CancellationTokenRegistration> const& __cordl_internal_get__cancelTokenRegistration() const;
@@ -739,7 +739,7 @@ public:
 
   constexpr void __cordl_internal_set__spinLock(::System::Threading::SpinLock value);
 
-  /// @brief Method .ctor, addr 0x6984c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad803c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Awaitable_DoubleBufferedAwaitableList* getStaticF__endOfFrameAwaitables();
@@ -756,13 +756,13 @@ public:
 
   static inline ::System::Threading::SynchronizationContext* getStaticF__synchronizationContext();
 
-  /// @brief Method get_IsCompleted, addr 0x69858f0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x6ad8c90, size 0x12c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_IsCompletedNoLock, addr 0x6985750, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompletedNoLock, addr 0x6ad8af0, size 0x1a0, virtual false, abstract: false, final false
   inline bool get_IsCompletedNoLock();
 
-  /// @brief Method get_IsDettachedOrCompleted, addr 0x6985a1c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method get_IsDettachedOrCompleted, addr 0x6ad8dbc, size 0x2c4, virtual false, abstract: false, final false
   inline bool get_IsDettachedOrCompleted();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -797,7 +797,7 @@ public:
   Awaitable(Awaitable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10296 };
 
   /// @brief Field _spinLock, offset: 0x10, size: 0x4, def value: None
   ::System::Threading::SpinLock ____spinLock;

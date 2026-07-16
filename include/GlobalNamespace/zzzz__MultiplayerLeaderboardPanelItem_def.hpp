@@ -71,7 +71,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelItem* New_ctor();
 
-  /// @brief Method SetData, addr 0x5871af8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x59a6888, size 0x2c8, virtual false, abstract: false, final false
   inline void SetData(int32_t position, ::StringW playerName, int32_t score, bool failed, int32_t numberOfPlayers);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -152,10 +152,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5871dc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a6b54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x5871894, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x59a6624, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -173,7 +173,7 @@ public:
   MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5983 };
 
   /// @brief Field _playerNameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;

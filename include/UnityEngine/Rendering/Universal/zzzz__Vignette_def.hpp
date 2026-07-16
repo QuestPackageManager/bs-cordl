@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x673bcf8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x687a674, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x673bd28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x687a6a4, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::Vignette* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_smoothness(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x673bd30, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687a6ac, size 0x164, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -111,7 +111,7 @@ public:
   Vignette(Vignette const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12792 };
 
   /// @brief Field color, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ColorParameter* ___color;

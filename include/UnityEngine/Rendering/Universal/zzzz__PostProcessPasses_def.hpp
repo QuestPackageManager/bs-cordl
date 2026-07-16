@@ -55,34 +55,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x67671bc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68a5b38, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Recreate, addr 0x6766ff4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Recreate, addr 0x68a5970, size 0x1c8, virtual false, abstract: false, final false
   inline void Recreate(::UnityEngine::Rendering::Universal::PostProcessData* data, ::by_ref<::UnityEngine::Rendering::Universal::PostProcessParams> ppParams);
 
-  /// @brief Method ReleaseRenderTargets, addr 0x6767220, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReleaseRenderTargets, addr 0x68a5b9c, size 0x54, virtual false, abstract: false, final false
   inline void ReleaseRenderTargets();
 
-  /// @brief Method .ctor, addr 0x6766fdc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a5958, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::PostProcessData* rendererPostProcessData, ::by_ref<::UnityEngine::Rendering::Universal::PostProcessParams> postProcessParams);
 
-  /// @brief Method get_afterPostProcessColor, addr 0x6766f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_afterPostProcessColor, addr 0x68a58e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_afterPostProcessColor();
 
-  /// @brief Method get_colorGradingLut, addr 0x6766f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradingLut, addr 0x68a58ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_colorGradingLut();
 
-  /// @brief Method get_colorGradingLutPass, addr 0x6766f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradingLutPass, addr 0x68a58cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass* get_colorGradingLutPass();
 
-  /// @brief Method get_finalPostProcessPass, addr 0x6766f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_finalPostProcessPass, addr 0x68a58dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::PostProcessPass* get_finalPostProcessPass();
 
-  /// @brief Method get_isCreated, addr 0x6766f78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isCreated, addr 0x68a58f4, size 0x64, virtual false, abstract: false, final false
   inline bool get_isCreated();
 
-  /// @brief Method get_postProcessPass, addr 0x6766f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postProcessPass, addr 0x68a58d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::PostProcessPass* get_postProcessPass();
 
   /// @brief Convert to "::System::IDisposable"
@@ -105,7 +105,7 @@ public:
                               ::UnityW<::UnityEngine::Rendering::Universal::PostProcessData> m_CurrentPostProcessData, ::UnityW<::UnityEngine::Material> m_BlitMaterial) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12869 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

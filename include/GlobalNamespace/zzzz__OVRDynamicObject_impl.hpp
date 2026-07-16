@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRDynamicObject::*)()>(
     &::GlobalNamespace::OVRDynamicObject::IOVRAnchorComponent_OVRDynamicObject__get_Type)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cdd588;
+  constexpr static std::size_t addrs = 0x5e157b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::IOVRAnchorComponent_OVRDynamicObject__get_Handle)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cdd5ec;
+  constexpr static std::size_t addrs = 0x5e15814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRDynamicObject (::GlobalNamespace::OVRDynamicObject::*)(::GlobalNamespace::OVRAnchor)>(
     &::GlobalNamespace::OVRDynamicObject::IOVRAnchorComponent_OVRDynamicObject__FromAnchor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cdd644;
+  constexpr static std::size_t addrs = 0x5e1586c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::get_IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cdd6dc;
+  constexpr static std::size_t addrs = 0x5e15904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRDynamicObject>(), { "get_IsNull", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::get_IsEnabled)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5cdd73c;
+  constexpr static std::size_t addrs = 0x5e15964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRDynamicObject>(), { "get_IsEnabled", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRDynamicObject::*)(bool, double_t)>(
     &::GlobalNamespace::OVRDynamicObject::IOVRAnchorComponent_OVRDynamicObject__SetEnabledAsync)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5cdd828;
+  constexpr static std::size_t addrs = 0x5e15a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRDynamicObject::*)(::GlobalNamespace::OVRDynamicObject)>(&::GlobalNamespace::OVRDynamicObject::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cdd874;
+  constexpr static std::size_t addrs = 0x5e15a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRDynamicObject, ::GlobalNamespace::OVRDynamicObject)>(&::GlobalNamespace::OVRDynamicObject::op_Equality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cdd8e0;
+  constexpr static std::size_t addrs = 0x5e15b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRDynamicObject, ::GlobalNamespace::OVRDynamicObject)>(&::GlobalNamespace::OVRDynamicObject::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cdd950;
+  constexpr static std::size_t addrs = 0x5e15b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRDynamicObject::*)(::System::Object*)>(&::GlobalNamespace::OVRDynamicObject::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cdd9c4;
+  constexpr static std::size_t addrs = 0x5e15bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::GetHashCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cdda54;
+  constexpr static std::size_t addrs = 0x5e15c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::ToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cddac4;
+  constexpr static std::size_t addrs = 0x5e15cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cdd5e0;
+  constexpr static std::size_t addrs = 0x5e15808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRDynamicObject>(), { "get_Type", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRDynamicObject::*)()>(&::GlobalNamespace::OVRDynamicObject::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cddb84;
+  constexpr static std::size_t addrs = 0x5e15dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRDynamicObject>(), { "get_Handle", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRDynamicObject::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRDynamicObject::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5cdd674;
+  constexpr static std::size_t addrs = 0x5e1589c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRAnchor_TrackableType (::GlobalNamespace::OVRDynamicObject::*)()>(
     &::GlobalNamespace::OVRDynamicObject::get_TrackableType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5cddb8c;
+  constexpr static std::size_t addrs = 0x5e15db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRDynamicObject>(), { "get_TrackableType", {}, {} })));

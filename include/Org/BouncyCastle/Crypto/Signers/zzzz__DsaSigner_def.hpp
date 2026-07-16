@@ -62,23 +62,23 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsaExt"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsaExt*() noexcept;
 
-  /// @brief Method CalculateE, addr 0x3364fe8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method CalculateE, addr 0x34214a0, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t> message);
 
-  /// @brief Method GenerateSignature, addr 0x3364a04, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x3420ebc, size 0x3c4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
 
-  /// @brief Method Init, addr 0x3364744, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3420bfc, size 0x29c, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitSecureRandom, addr 0x33650c4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method InitSecureRandom, addr 0x342157c, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, ::Org::BouncyCastle::Security::SecureRandom* provided);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator);
 
-  /// @brief Method VerifySignature, addr 0x3364dc8, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3421280, size 0x220, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t> message, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
   constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* const& __cordl_internal_get_kCalculator() const;
@@ -99,16 +99,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x33646a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3420b58, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33646f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3420bac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator);
 
-  /// @brief Method get_AlgorithmName, addr 0x3364700, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3420bb8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_Order, addr 0x33649e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Order, addr 0x3420e98, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Order();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"

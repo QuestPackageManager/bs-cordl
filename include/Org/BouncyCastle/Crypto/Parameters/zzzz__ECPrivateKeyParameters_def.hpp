@@ -38,13 +38,13 @@ public:
   /// @brief Field d, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::Org::BouncyCastle::Math::BigInteger* d;
 
-  /// @brief Method Equals, addr 0x335263c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340eaf4, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33526e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x340eba0, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x3352740, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x340ebf8, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d,
@@ -64,19 +64,19 @@ public:
 
   constexpr void __cordl_internal_set_d(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x3352454, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340e90c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x3352598, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340ea50, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor, addr 0x33523f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340e8a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x33524f0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340e9a8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_D, addr 0x3352634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_D, addr 0x340eaec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_D();
 
 protected:

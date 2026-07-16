@@ -37,14 +37,14 @@ public:
   // Declarations
   static inline ::BGLib::JsonExtension::Vector3Converter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x325be04, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x33146c8, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Vector3 existingValue, bool hasExistingValue,
                                          ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x325bec0, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3314784, size 0x14c, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Vector3 value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x325c00c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33148d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   Vector3Converter(Vector3Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23338 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

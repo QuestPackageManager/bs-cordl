@@ -45,12 +45,12 @@ public:
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method GetTypes, addr 0x5a0416c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x5b3de3c, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> GetTypes(::ArrayW<::StringW> typeArray);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodRef* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method Resolve, addr 0x5a042b8, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x5b3df88, size 0x460, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* Resolve();
 
   constexpr bool const& __cordl_internal_get_ctor() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a04718, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b3e3e8, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
 protected:

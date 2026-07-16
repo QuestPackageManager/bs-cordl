@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BPMChangeBeatmapEventData* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x31c6128;
+  constexpr static std::size_t addrs = 0x32596b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BPMChangeBeatmapEventData* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x31c61a4;
+  constexpr static std::size_t addrs = 0x3259730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BPMChangeBeatmapEventData*>(), { "get_nextSameTypeEventData", {}, {} })));
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BPMCha
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BPMChangeBeatmapEventData::*)(float_t, float_t)>(&::GlobalNamespace::BPMChangeBeatmapEventData::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x31c6220;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x32597ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x31c6240;
+  constexpr static std::size_t addrs = 0x32597d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31c62b8;
+  constexpr static std::size_t addrs = 0x3259850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -118,18 +118,18 @@ public:
 
   __declspec(property(get = get_worldSpaceCameraPos)) ::UnityEngine::Vector3 worldSpaceCameraPos;
 
-  /// @brief Method GetXRMultiPassId, addr 0x6738f2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetXRMultiPassId, addr 0x68778a8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetXRMultiPassId(::UnityEngine::Experimental::Rendering::XRPass* xr);
 
   static inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6738b54, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x68774d0, size 0x2d4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetGlobalMotionMatrices, addr 0x67395b0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalMotionMatrices, addr 0x6877f2c, size 0x19c, virtual false, abstract: false, final false
   inline void SetGlobalMotionMatrices(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr);
 
-  /// @brief Method Update, addr 0x6738f5c, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x68778d8, size 0x654, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_m_LastFrameIndex() const;
@@ -222,55 +222,55 @@ public:
 
   constexpr void __cordl_internal_set_m_worldSpaceCameraPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x6738a14, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6877390, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_deltaTime, addr 0x6738ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x6877874, size 0x8, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_lastDeltaTime, addr 0x6738f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastDeltaTime, addr 0x687787c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lastDeltaTime();
 
-  /// @brief Method get_lastFrameIndex, addr 0x6738e28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lastFrameIndex, addr 0x68777a4, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_lastFrameIndex();
 
-  /// @brief Method get_previousPreviousProjectionStereo, addr 0x6738ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousPreviousProjectionStereo, addr 0x6877854, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_previousPreviousProjectionStereo();
 
-  /// @brief Method get_previousPreviousViewStereo, addr 0x6738ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousPreviousViewStereo, addr 0x687786c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_previousPreviousViewStereo();
 
-  /// @brief Method get_previousPreviousWorldSpaceCameraPos, addr 0x6738f20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_previousPreviousWorldSpaceCameraPos, addr 0x687789c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_previousPreviousWorldSpaceCameraPos();
 
-  /// @brief Method get_previousProjectionStereo, addr 0x6738ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousProjectionStereo, addr 0x687784c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_previousProjectionStereo();
 
-  /// @brief Method get_previousViewProjection, addr 0x6738e84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_previousViewProjection, addr 0x6877800, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_previousViewProjection();
 
-  /// @brief Method get_previousViewProjectionStereo, addr 0x6738ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousViewProjectionStereo, addr 0x687783c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_previousViewProjectionStereo();
 
-  /// @brief Method get_previousViewStereo, addr 0x6738ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousViewStereo, addr 0x6877864, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_previousViewStereo();
 
-  /// @brief Method get_previousWorldSpaceCameraPos, addr 0x6738f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_previousWorldSpaceCameraPos, addr 0x6877890, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_previousWorldSpaceCameraPos();
 
-  /// @brief Method get_projectionStereo, addr 0x6738ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_projectionStereo, addr 0x6877844, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_projectionStereo();
 
-  /// @brief Method get_viewProjection, addr 0x6738e50, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_viewProjection, addr 0x68777cc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_viewProjection();
 
-  /// @brief Method get_viewProjectionStereo, addr 0x6738eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewProjectionStereo, addr 0x6877834, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_viewProjectionStereo();
 
-  /// @brief Method get_viewStereo, addr 0x6738ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewStereo, addr 0x687785c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_viewStereo();
 
-  /// @brief Method get_worldSpaceCameraPos, addr 0x6738f08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldSpaceCameraPos, addr 0x6877884, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldSpaceCameraPos();
 
 protected:
@@ -288,7 +288,7 @@ public:
   MotionVectorsPersistentData(MotionVectorsPersistentData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12756 };
 
   /// @brief Field k_EyeCount offset 0xffffffff size 0x4
   static constexpr int32_t k_EyeCount{ static_cast<int32_t>(0x2) };

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRResources___c__DisplayClass2_0::*)()>(&::GlobalNamespace::OVRResources___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d85118;
+  constexpr static std::size_t addrs = 0x5ebd340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources___c__DisplayClass2_0*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRResources___c__DisplayClass2_0::*)(::StringW)>(&::GlobalNamespace::OVRResources___c__DisplayClass2_0::_Load_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5d8520c;
+  constexpr static std::size_t addrs = 0x5ebd434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW)>(&::GlobalNamespace::OVRResources::Load)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5d84f08;
+  constexpr static std::size_t addrs = 0x5ebd130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources*>(), { "Load", {}, { ::i2c::type_of<::StringW>() } })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AssetBundle*)>(&::GlobalNamespace::OVRResources::SetResourceBundle)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5d8511c;
+  constexpr static std::size_t addrs = 0x5ebd344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRResources::*)()>(&::GlobalNamespace::OVRResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d85208;
+  constexpr static std::size_t addrs = 0x5ebd430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources*>(), { ".ctor", {}, {} })));

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::BuddyAllocation::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::BuddyAllocation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6738004;
+  constexpr static std::size_t addrs = 0x6876980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (::UnityEngine::Rendering::Universal::BuddyAllocation::*)()>(
     &::UnityEngine::Rendering::Universal::BuddyAllocation::get_index2D)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x673800c;
+  constexpr static std::size_t addrs = 0x6876988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocation>(), { "get_index2D", {}, {} })));

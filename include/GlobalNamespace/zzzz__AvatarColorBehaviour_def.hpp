@@ -52,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::AvatarColorBehaviour* New_ctor();
 
-  /// @brief Method OnGraphStart, addr 0x57e50d4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x5905728, size 0x78, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x57e5350, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x59059a4, size 0x90, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x57e514c, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x59057a0, size 0x204, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> const& __cordl_internal_get__avatarVisualController() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x57e53e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5905a34, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   AvatarColorBehaviour(AvatarColorBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6661 };
 
   /// @brief Field _startColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ____startColor;

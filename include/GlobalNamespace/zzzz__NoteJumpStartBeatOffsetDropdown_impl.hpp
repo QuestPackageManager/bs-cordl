@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t, ::StringW>*>* (
     ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x58e58b4;
+  constexpr static std::size_t addrs = 0x5a0f400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58e5a54;
+  constexpr static std::size_t addrs = 0x5a0f5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*>(), { ".ctor", {}, {} })));

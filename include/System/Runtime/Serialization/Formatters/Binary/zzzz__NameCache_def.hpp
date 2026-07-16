@@ -32,12 +32,12 @@ public:
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method GetCachedValue, addr 0x5a284e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCachedValue, addr 0x5b621b8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Object* GetCachedValue(::StringW name);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameCache* New_ctor();
 
-  /// @brief Method SetCachedValue, addr 0x5a2898c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetCachedValue, addr 0x5b6265c, size 0x98, virtual false, abstract: false, final false
   inline void SetCachedValue(::System::Object* value);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a24b5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5e82c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::System::Object*>* getStaticF_ht();

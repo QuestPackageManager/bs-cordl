@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_repeatMode(::UnityEngine::Rendering::DebugActionRepeatMode value);
 
-  /// @brief Method .ctor, addr 0x6620448, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675db54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   DebugActionDesc(DebugActionDesc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
 
   /// @brief Field buttonAction, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___buttonAction;

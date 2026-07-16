@@ -28,22 +28,22 @@ namespace Unity::Collections {
 class CORDL_TYPE FixedString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x637f34c, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bbf6c, size 0x5ac, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0);
 
-  /// @brief Method Format, addr 0x637f068, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bbc88, size 0x110, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1);
 
-  /// @brief Method Format, addr 0x637e610, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb230, size 0x130, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637da14, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba634, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637ce1c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9a3c, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -61,34 +61,34 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637ece8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb908, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1);
 
-  /// @brief Method Format, addr 0x637e220, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bae40, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d608, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba228, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637c9fc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b961c, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637e97c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb59c, size 0x128, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1);
 
-  /// @brief Method Format, addr 0x637de1c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64baa3c, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d208, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9e28, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637c610, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9230, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -154,22 +154,22 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637f260, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bbe80, size 0xec, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0);
 
-  /// @brief Method Format, addr 0x637ef3c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bbb5c, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1);
 
-  /// @brief Method Format, addr 0x637e4bc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb0dc, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d8c4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba4e4, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637ccb0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b98d0, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -187,52 +187,52 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637ebd0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb7f0, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1);
 
-  /// @brief Method Format, addr 0x637e0d0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bacf0, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d4c4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba0e4, size 0x144, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637c8ac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b94cc, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637e850, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb470, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1);
 
-  /// @brief Method Format, addr 0x637dcb0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba8d0, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d0b8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9cd8, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637c4bc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b90dc, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637f178, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bbd98, size 0xe8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0);
 
-  /// @brief Method Format, addr 0x637ee14, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bba34, size 0x128, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1);
 
-  /// @brief Method Format, addr 0x637e374, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64baf94, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d758, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba378, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637cb68, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9788, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -250,47 +250,47 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637eaa4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb6c4, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1);
 
-  /// @brief Method Format, addr 0x637df64, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bab84, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637d374, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9f94, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637c758, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9378, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637e740, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64bb360, size 0x110, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1);
 
-  /// @brief Method Format, addr 0x637db68, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64ba788, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x637cf64, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b9b84, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x637c38c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8fac, size 0x130, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x637c234, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8e54, size 0x158, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1>
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63799d4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b65f4, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6377128, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3d48, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -307,28 +307,28 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b4f8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8118, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6378c2c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b584c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x637638c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2fac, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637a758, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7378, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377eb0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4ad0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375604, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2224, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -387,16 +387,16 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637bddc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b89fc, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6379558, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b6178, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376ca0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b38c0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -412,40 +412,40 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b07c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7c9c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63787a4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b53c4, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375ee0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2b00, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637a2d0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b6ef0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377a04, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4624, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x637517c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b1d9c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b968, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8588, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63790c0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b5ce0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376814, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3434, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -461,28 +461,28 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637abe4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7804, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6378330, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4f50, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375a60, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2680, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x6379e44, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b6a64, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377584, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b41a4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6374d20, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b1940, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -715,16 +715,16 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637c0c0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8ce0, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x637985c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b647c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376f9c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3bbc, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -740,28 +740,28 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b380, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7fa0, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6378ab0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b56d0, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x63761fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2e1c, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637a5cc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b71ec, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377d20, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4940, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375478, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2098, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -819,16 +819,16 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637bc64, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8884, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63793dc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b5ffc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376b10, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3730, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -844,40 +844,40 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637af00, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7b20, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x637863c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b525c, size 0x168, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375d64, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2984, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637a140, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b6d60, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377888, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b44a8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375004, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b1c24, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b7dc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b83fc, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6378f30, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b5b50, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376688, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b32a8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -893,40 +893,40 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637aa54, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7674, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63781b4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4dd4, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x63758e8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2508, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x6379cb8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b68d8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x637740c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b402c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6374bac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b17cc, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637bf50, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b8b70, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63796d0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b62f0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376e2c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3a4c, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -942,28 +942,28 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b1f4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7e14, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6378920, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b5540, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376070, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2c90, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637a45c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b707c, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377b94, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b47b4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375308, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b1f28, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1021,16 +1021,16 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637bad8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b86f8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x637924c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b5e6c, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376984, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b35a4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1046,40 +1046,40 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637ad70, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b7990, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x63784c0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b50e0, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375bec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b280c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x6379fb4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b6bd4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377710, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4330, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6374e90, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b1ab0, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637b66c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b828c, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6378da4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b59c4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6376518, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3138, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, int32_t arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1095,28 +1095,28 @@ public:
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x637a8c8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b74e8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x637803c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b4c5c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6375774, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b2394, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, int32_t arg3);
 
-  /// @brief Method Format, addr 0x6379b48, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b6768, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, ::StringW arg3);
 
   /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1> static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x6377298, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b3eb8, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x6374a54, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x64b1674, size 0x158, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
 protected:
@@ -1134,7 +1134,7 @@ public:
   FixedString(FixedString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

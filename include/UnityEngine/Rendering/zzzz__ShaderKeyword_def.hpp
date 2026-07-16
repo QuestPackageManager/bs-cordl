@@ -26,28 +26,28 @@ public:
   // Declarations
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method CreateGlobalKeyword, addr 0x69d6e34, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalKeyword, addr 0x6b2a910, size 0x124, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword(::StringW keyword);
 
-  /// @brief Method CreateGlobalKeyword_Injected, addr 0x69d6f58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalKeyword_Injected, addr 0x6b2aa34, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
-  /// @brief Method GetGlobalKeywordCount, addr 0x69d6ca4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordCount, addr 0x6b2a780, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordCount();
 
-  /// @brief Method GetGlobalKeywordIndex, addr 0x69d6ccc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordIndex, addr 0x6b2a7a8, size 0x12c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex(::StringW keyword);
 
-  /// @brief Method GetGlobalKeywordIndex_Injected, addr 0x69d6df8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordIndex_Injected, addr 0x6b2a8d4, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
-  /// @brief Method ToString, addr 0x69d7020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b2aafc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x69d6f9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2aa78, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW keywordName);
 
-  /// @brief Method get_name, addr 0x69d6f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6b2aa70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr ShaderKeyword(::StringW m_Name, uint32_t m_Index, bool m_IsLocal, bool m_IsCompute, bool m_IsValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10866 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

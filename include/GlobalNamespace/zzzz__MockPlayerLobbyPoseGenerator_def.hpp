@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x594d324, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5a85c90, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x594d2b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a85c24, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -83,7 +83,7 @@ public:
   MockPlayerLobbyPoseGenerator(MockPlayerLobbyPoseGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22189 };
 
   /// @brief Field multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ___multiplayerSessionManager;

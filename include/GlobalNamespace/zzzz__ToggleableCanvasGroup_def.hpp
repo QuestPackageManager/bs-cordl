@@ -34,18 +34,18 @@ public:
   /// @brief Field _toggle, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  /// @brief Method HandleToggleValueChanged, addr 0x572fb20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueChanged, addr 0x587682c, size 0x4, virtual false, abstract: false, final false
   inline void HandleToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::ToggleableCanvasGroup* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x572fa38, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5876744, size 0xe8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x572f910, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x587661c, size 0xfc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetCanvasGroupData, addr 0x572fa0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetCanvasGroupData, addr 0x5876718, size 0x2c, virtual false, abstract: false, final false
   inline void SetCanvasGroupData(bool isOn);
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x572fb24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5876830, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ToggleableCanvasGroup(ToggleableCanvasGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19110 };
 
   /// @brief Field _canvasGroup, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;

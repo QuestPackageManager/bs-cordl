@@ -30,7 +30,7 @@ public:
   constexpr FrustumPlanes(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

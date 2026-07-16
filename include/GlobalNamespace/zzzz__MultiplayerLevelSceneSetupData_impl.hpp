@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelSceneSetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey>, bool)>(
     &::GlobalNamespace::MultiplayerLevelSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x57ee73c;
+  constexpr static std::size_t addrs = 0x590c29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelSceneSetupData*>(),

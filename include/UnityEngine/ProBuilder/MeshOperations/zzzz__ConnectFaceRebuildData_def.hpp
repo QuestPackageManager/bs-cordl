@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x65db448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6718b54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
 protected:
@@ -65,7 +65,7 @@ public:
   ConnectFaceRebuildData(ConnectFaceRebuildData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16830 };
 
   /// @brief Field faceRebuildData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::FaceRebuildData* ___faceRebuildData;

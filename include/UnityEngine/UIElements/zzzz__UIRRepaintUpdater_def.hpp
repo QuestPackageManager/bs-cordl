@@ -88,58 +88,58 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IPanelRenderer"
   constexpr operator ::UnityEngine::UIElements::IPanelRenderer*() noexcept;
 
-  /// @brief Method AttachToPanel, addr 0x6c804a4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method AttachToPanel, addr 0x6dd435c, size 0x2f8, virtual false, abstract: false, final false
   inline void AttachToPanel();
 
-  /// @brief Method CreateRenderChain, addr 0x6c7fe34, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateRenderChain, addr 0x6dd3cec, size 0x64, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChain* CreateRenderChain();
 
-  /// @brief Method DestroyRenderChain, addr 0x6c7fafc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DestroyRenderChain, addr 0x6dd39b4, size 0x50, virtual false, abstract: false, final false
   inline void DestroyRenderChain();
 
-  /// @brief Method DetachFromPanel, addr 0x6c801d8, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method DetachFromPanel, addr 0x6dd4090, size 0x2cc, virtual false, abstract: false, final false
   inline void DetachFromPanel();
 
-  /// @brief Method Dispose, addr 0x6c8087c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6dd4734, size 0x30, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method InitRenderChain, addr 0x6c7fcf4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitRenderChain, addr 0x6dd3bac, size 0xb4, virtual false, abstract: false, final false
   inline void InitRenderChain();
 
   static inline ::UnityEngine::UIElements::UIRRepaintUpdater* New_ctor();
 
-  /// @brief Method OnGraphicsResourcesRecreate, addr 0x6c7ffac, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnGraphicsResourcesRecreate, addr 0x6dd3e64, size 0x214, virtual false, abstract: false, final false
   static inline void OnGraphicsResourcesRecreate(bool recreate);
 
-  /// @brief Method OnPanelAtlasChanged, addr 0x6c8082c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelAtlasChanged, addr 0x6dd46e4, size 0x4, virtual false, abstract: false, final false
   inline void OnPanelAtlasChanged();
 
-  /// @brief Method OnPanelChanged, addr 0x6c801c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnPanelChanged, addr 0x6dd4078, size 0x18, virtual false, abstract: false, final false
   inline void OnPanelChanged(::UnityEngine::UIElements::BaseVisualElementPanel* obj);
 
-  /// @brief Method OnPanelDrawsInCamerasChanged, addr 0x6c80830, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDrawsInCamerasChanged, addr 0x6dd46e8, size 0x4, virtual false, abstract: false, final false
   inline void OnPanelDrawsInCamerasChanged();
 
-  /// @brief Method OnPanelHierarchyChanged, addr 0x6c80834, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnPanelHierarchyChanged, addr 0x6dd46ec, size 0x38, virtual false, abstract: false, final false
   inline void OnPanelHierarchyChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType,
                                       ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
 
-  /// @brief Method OnPanelIsFlatChanged, addr 0x6c80828, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelIsFlatChanged, addr 0x6dd46e0, size 0x4, virtual false, abstract: false, final false
   inline void OnPanelIsFlatChanged();
 
-  /// @brief Method OnVersionChanged, addr 0x6c7fb7c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6dd3a34, size 0x11c, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Render, addr 0x6c7fda8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Render, addr 0x6dd3c60, size 0x8c, virtual true, abstract: false, final true
   inline void Render();
 
-  /// @brief Method Reset, addr 0x6c8079c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6dd4654, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method ResetAllElementsDataRecursive, addr 0x6c807a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ResetAllElementsDataRecursive, addr 0x6dd4658, size 0x88, virtual false, abstract: false, final false
   inline void ResetAllElementsDataRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x6c7fc98, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6dd3b50, size 0x5c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
@@ -184,29 +184,29 @@ public:
 
   constexpr void __cordl_internal_set_renderChain(::UnityEngine::UIElements::UIR::RenderChain* value);
 
-  /// @brief Method .ctor, addr 0x6c7f9f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd38b0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_breakBatches, addr 0x6c7fb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakBatches, addr 0x6dd3a2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
-  /// @brief Method get_disposed, addr 0x6c8086c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6dd4724, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_drawStats, addr 0x6c7fb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawStats, addr 0x6dd3a24, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
-  /// @brief Method get_forceGammaRendering, addr 0x6c7fad8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_forceGammaRendering, addr 0x6dd3990, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGammaRendering();
 
-  /// @brief Method get_profilerMarker, addr 0x6c7fa7c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x6dd3934, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_vertexBudget, addr 0x6c7fb4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_vertexBudget, addr 0x6dd3a04, size 0x8, virtual true, abstract: false, final true
   inline uint32_t get_vertexBudget();
 
   /// @brief Convert to "::UnityEngine::UIElements::IPanelRenderer"
@@ -216,13 +216,13 @@ public:
 
   static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x6c80874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6dd472c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_forceGammaRendering, addr 0x6c7fae0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_forceGammaRendering, addr 0x6dd3998, size 0x1c, virtual true, abstract: false, final true
   inline void set_forceGammaRendering(bool value);
 
-  /// @brief Method set_vertexBudget, addr 0x6c7fb54, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_vertexBudget, addr 0x6dd3a0c, size 0x18, virtual true, abstract: false, final true
   inline void set_vertexBudget(uint32_t value);
 
 protected:

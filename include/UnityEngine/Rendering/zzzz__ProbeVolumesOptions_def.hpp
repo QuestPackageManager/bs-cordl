@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_worldOffset(::UnityEngine::Rendering::Vector3Parameter* value);
 
-  /// @brief Method .ctor, addr 0x6655d64, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6793470, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   ProbeVolumesOptions(ProbeVolumesOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12127 };
 
   /// @brief Field normalBias, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___normalBias;

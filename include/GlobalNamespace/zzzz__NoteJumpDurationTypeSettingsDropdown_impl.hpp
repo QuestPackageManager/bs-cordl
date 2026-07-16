@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* (
     ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x58e5778;
+  constexpr static std::size_t addrs = 0x5a0f2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58e5870;
+  constexpr static std::size_t addrs = 0x5a0f3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(), { ".ctor", {}, {} })));

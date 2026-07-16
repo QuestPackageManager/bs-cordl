@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__playerCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x578f01c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cbe74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distance, addr 0x578f014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x58cbe6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_playerCount, addr 0x578f00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerCount, addr 0x58cbe64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playerCount();
 
 protected:
@@ -82,7 +82,7 @@ public:
   BeatmapObjectSpawnCenter_PlayerCountToDistance(BeatmapObjectSpawnCenter_PlayerCountToDistance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5626 };
 
   /// @brief Field _playerCount, offset: 0x10, size: 0x4, def value: None
   int32_t ____playerCount;
@@ -129,12 +129,12 @@ public:
   __declspec(property(get = __cordl_internal_get_spawnCenterDistanceWasFoundEvent,
                       put = __cordl_internal_set_spawnCenterDistanceWasFoundEvent)) ::System::Action_1<float_t>* spawnCenterDistanceWasFoundEvent;
 
-  /// @brief Method CalculateSpawnCenterPosition, addr 0x578ee5c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CalculateSpawnCenterPosition, addr 0x58cbcb4, size 0x17c, virtual false, abstract: false, final false
   inline float_t CalculateSpawnCenterPosition(int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x578efd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x58cbe30, size 0x28, virtual false, abstract: false, final false
   inline void ReportAndSaveSpawnCenterDistance(float_t distance);
 
   constexpr float_t const& __cordl_internal_get__defaultDistnace() const;
@@ -167,19 +167,19 @@ public:
 
   constexpr void __cordl_internal_set_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x578f000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cbe58, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x578ecdc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x58cbb34, size 0xc0, virtual false, abstract: false, final false
   inline void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_spawnCenterDistance, addr 0x578eccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistance, addr 0x58cbb24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spawnCenterDistance();
 
-  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x578ecd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x58cbb2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_spawnCenterDistanceWasFound();
 
-  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x578ed9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x58cbbf4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -197,7 +197,7 @@ public:
   BeatmapObjectSpawnCenter(BeatmapObjectSpawnCenter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5627 };
 
   /// @brief Field _distances, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*> ____distances;

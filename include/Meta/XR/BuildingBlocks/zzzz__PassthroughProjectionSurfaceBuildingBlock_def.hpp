@@ -27,7 +27,7 @@ public:
 
   static inline ::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock* New_ctor();
 
-  /// @brief Method Start, addr 0x58f88c0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a31fc4, size 0x1f4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_projectionObject() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_projectionObject(::UnityW<::UnityEngine::MeshFilter> value);
 
-  /// @brief Method .ctor, addr 0x58f8ab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a321b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   PassthroughProjectionSurfaceBuildingBlock(PassthroughProjectionSurfaceBuildingBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21308 };
 
   /// @brief Field projectionObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ___projectionObject;

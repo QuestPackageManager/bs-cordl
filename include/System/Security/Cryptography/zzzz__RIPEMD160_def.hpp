@@ -19,12 +19,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x59c46ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5afe3bc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RIPEMD160* Create();
 
   static inline ::System::Security::Cryptography::RIPEMD160* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59c46e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afe3b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

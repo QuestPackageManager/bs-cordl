@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsDropdown.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown___c::*)()>(&::GlobalNamespace::BeatmapCharacteristicsDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581652c;
+  constexpr static std::size_t addrs = 0x593cf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(), { ".ctor", {}, {} })));
@@ -27,14 +27,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown___c._OnEnable_b__7_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicsDropdown___c::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicsDropdown___c::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown___c::_OnEnable_b__7_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5816530;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x593cf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(),
-                                                                                           { "<OnEnable>b__7_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+                                                                                           { "<OnEnable>b__7_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
     return ___internal_method;
   }
 };
@@ -45,20 +45,20 @@ inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::setStaticF___9(
 inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* GlobalNamespace::BeatmapCharacteristicsDropdown___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*, "<>9", ::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>();
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::setStaticF___9__7_0(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>*, "<>9__7_0", ::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(
-      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>*>(value));
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::setStaticF___9__7_0(::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>*, "<>9__7_0", ::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(
+      std::forward<::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* GlobalNamespace::BeatmapCharacteristicsDropdown___c::getStaticF___9__7_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>*, "<>9__7_0", ::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>();
+inline ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* GlobalNamespace::BeatmapCharacteristicsDropdown___c::getStaticF___9__7_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>*, "<>9__7_0", ::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>();
 }
 inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::BeatmapCharacteristicsDropdown___c::_OnEnable_b__7_0(::GlobalNamespace::BeatmapCharacteristicSO* x) {
+inline ::StringW GlobalNamespace::BeatmapCharacteristicsDropdown___c::_OnEnable_b__7_0(::GlobalNamespace::BeatmapCharacteristic x) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(),
-                                                                                         { "<OnEnable>b__7_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+                                                                                         { "<OnEnable>b__7_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
 }
 inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* GlobalNamespace::BeatmapCharacteristicsDropdown___c::New_ctor() {
@@ -69,30 +69,30 @@ constexpr ::GlobalNamespace::BeatmapCharacteristicsDropdown___c::BeatmapCharacte
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.add_didSelectCellWithIdxEvent
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5815d5c;
+  constexpr static std::size_t addrs = 0x593c704;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                { "add_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
+                                                             { "add_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.remove_didSelectCellWithIdxEvent
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5815e1c;
+  constexpr static std::size_t addrs = 0x593c7c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                { "remove_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
+                                                             { "remove_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*>() } })));
     return ___internal_method;
   }
 };
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::OnEnable)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5815edc;
+  constexpr static std::size_t addrs = 0x593c884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { "OnEnable", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::OnDisable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x58160ec;
+  constexpr static std::size_t addrs = 0x593ca94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { "OnDisable", {}, {} })));
@@ -123,25 +123,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.SetNotAllowedCharacteristics
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58161c8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x593cb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                             { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*>>() } })));
+                                                             { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.GetSelectedBeatmapCharacteristic
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58161d0;
+  constexpr static std::size_t addrs = 0x593cb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,15 +152,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.SelectCellWithBeatmapCharacteristic
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5816230;
+  constexpr static std::size_t addrs = 0x593cbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                             { "SelectCellWithBeatmapCharacteristic", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+                                                             { "SelectCellWithBeatmapCharacteristic", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
     return ___internal_method;
   }
 };
@@ -169,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::StringW)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x58162c8;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x593cc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58163a4;
+  constexpr static std::size_t addrs = 0x593cd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5816434;
+  constexpr static std::size_t addrs = 0x593ce1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { ".ctor", {}, {} })));
@@ -230,55 +230,53 @@ constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapCharacteristicCollection = value;
 }
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() {
+constexpr ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* const& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didSelectCellWithIdxEvent = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*&
-GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__beatmapCharacteristics() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>*& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__beatmapCharacteristics() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristics;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>* const&
 GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__beatmapCharacteristics() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristics;
 }
-constexpr void
-GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_set__beatmapCharacteristics(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_set__beatmapCharacteristics(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapCharacteristics = value;
 }
-constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__notAllowedCharacteristics() {
+constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__notAllowedCharacteristics() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notAllowedCharacteristics;
 }
-constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__notAllowedCharacteristics() const {
+constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__notAllowedCharacteristics() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notAllowedCharacteristics;
 }
-constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_set__notAllowedCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value) {
+constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_set__notAllowedCharacteristics(::ArrayW<::GlobalNamespace::BeatmapCharacteristic> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notAllowedCharacteristics = value;
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                           { "add_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+                                                           { "add_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                              { "remove_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
+                                                           { "remove_didSelectCellWithIdxEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BeatmapCharacteristicsDropdown::OnEnable() {
@@ -289,21 +287,21 @@ inline void GlobalNamespace::BeatmapCharacteristicsDropdown::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { "OnDisable", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics(::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                           { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*>>() } })));
+                                                           { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, notAllowedCharacteristics);
 }
-inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic() {
+inline ::GlobalNamespace::BeatmapCharacteristic GlobalNamespace::BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { "GetSelectedBeatmapCharacteristic", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapCharacteristic>(this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                           { "SelectCellWithBeatmapCharacteristic", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>() } })));
+                                                           { "SelectCellWithBeatmapCharacteristic", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapCharacteristic);
 }
 inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic(::StringW serializedName) {

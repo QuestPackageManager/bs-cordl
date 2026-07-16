@@ -28,7 +28,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Avatar : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LaunchAvatarEditor, addr 0x5cac464, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method LaunchAvatarEditor, addr 0x5de468c, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options);
 
 protected:
@@ -46,7 +46,7 @@ public:
   Avatar(Avatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

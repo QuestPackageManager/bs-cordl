@@ -54,240 +54,240 @@ namespace UnityEngine {
 class CORDL_TYPE RenderSettings : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method GetRenderSettings, addr 0x693b140, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetRenderSettings, addr 0x6a8e484, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetRenderSettings();
 
-  /// @brief Method GetRenderSettings_Injected, addr 0x693b254, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetRenderSettings_Injected, addr 0x6a8e598, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetRenderSettings_Injected();
 
   static inline ::UnityEngine::RenderSettings* New_ctor();
 
-  /// @brief Method Reset, addr 0x693b27c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6a8e5c0, size 0x28, virtual false, abstract: false, final false
   static inline void Reset();
 
-  /// @brief Method .ctor, addr 0x6939cf0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a8d034, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ambientEquatorColor, addr 0x693a19c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ambientEquatorColor, addr 0x6a8d4e0, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_ambientEquatorColor();
 
-  /// @brief Method get_ambientEquatorColor_Injected, addr 0x693a1e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ambientEquatorColor_Injected, addr 0x6a8d528, size 0x3c, virtual false, abstract: false, final false
   static inline void get_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_ambientGroundColor, addr 0x693a2a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ambientGroundColor, addr 0x6a8d5e4, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_ambientGroundColor();
 
-  /// @brief Method get_ambientGroundColor_Injected, addr 0x693a2e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ambientGroundColor_Injected, addr 0x6a8d62c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_ambientIntensity, addr 0x6939c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ambientIntensity, addr 0x6a8cf9c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_ambientIntensity();
 
-  /// @brief Method get_ambientLight, addr 0x693a3a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ambientLight, addr 0x6a8d6e8, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_ambientLight();
 
-  /// @brief Method get_ambientLight_Injected, addr 0x693a3ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ambientLight_Injected, addr 0x6a8d730, size 0x3c, virtual false, abstract: false, final false
   static inline void get_ambientLight_Injected(::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_ambientMode, addr 0x693a034, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ambientMode, addr 0x6a8d378, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AmbientMode get_ambientMode();
 
-  /// @brief Method get_ambientProbe, addr 0x693a99c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ambientProbe, addr 0x6a8dce0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL2 get_ambientProbe();
 
-  /// @brief Method get_ambientProbe_Injected, addr 0x693aa08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ambientProbe_Injected, addr 0x6a8dd4c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_ambientProbe_Injected(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> ret);
 
-  /// @brief Method get_ambientSkyColor, addr 0x693a098, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ambientSkyColor, addr 0x6a8d3dc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_ambientSkyColor();
 
-  /// @brief Method get_ambientSkyColor_Injected, addr 0x693a0e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ambientSkyColor_Injected, addr 0x6a8d424, size 0x3c, virtual false, abstract: false, final false
   static inline void get_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_ambientSkyboxAmount, addr 0x6939c30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ambientSkyboxAmount, addr 0x6a8cf74, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_ambientSkyboxAmount();
 
-  /// @brief Method get_customReflection, addr 0x693aabc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_customReflection, addr 0x6a8de00, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Cubemap> get_customReflection();
 
-  /// @brief Method get_customReflectionTexture, addr 0x693ab5c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_customReflectionTexture, addr 0x6a8dea0, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> get_customReflectionTexture();
 
-  /// @brief Method get_customReflectionTexture_Injected, addr 0x693acf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_customReflectionTexture_Injected, addr 0x6a8e038, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_customReflectionTexture_Injected();
 
-  /// @brief Method get_defaultReflection, addr 0x693ae1c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_defaultReflection, addr 0x6a8e160, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Cubemap> get_defaultReflection();
 
-  /// @brief Method get_defaultReflectionMode, addr 0x693af58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_defaultReflectionMode, addr 0x6a8e29c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DefaultReflectionMode get_defaultReflectionMode();
 
-  /// @brief Method get_defaultReflectionResolution, addr 0x693afbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_defaultReflectionResolution, addr 0x6a8e300, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_defaultReflectionResolution();
 
-  /// @brief Method get_defaultReflection_Injected, addr 0x693af30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_defaultReflection_Injected, addr 0x6a8e274, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_defaultReflection_Injected();
 
-  /// @brief Method get_flareFadeSpeed, addr 0x693b0e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_flareFadeSpeed, addr 0x6a8e424, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_flareFadeSpeed();
 
-  /// @brief Method get_flareStrength, addr 0x693b080, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_flareStrength, addr 0x6a8e3c4, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_flareStrength();
 
-  /// @brief Method get_fog, addr 0x6939d48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fog, addr 0x6a8d08c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_fog();
 
-  /// @brief Method get_fogColor, addr 0x6939ed0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_fogColor, addr 0x6a8d214, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_fogColor();
 
-  /// @brief Method get_fogColor_Injected, addr 0x6939f18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_fogColor_Injected, addr 0x6a8d25c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_fogColor_Injected(::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_fogDensity, addr 0x6939fd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fogDensity, addr 0x6a8d318, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_fogDensity();
 
-  /// @brief Method get_fogEndDistance, addr 0x6939e0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fogEndDistance, addr 0x6a8d150, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_fogEndDistance();
 
-  /// @brief Method get_fogMode, addr 0x6939e6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fogMode, addr 0x6a8d1b0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::FogMode get_fogMode();
 
-  /// @brief Method get_fogStartDistance, addr 0x6939dac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fogStartDistance, addr 0x6a8d0f0, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_fogStartDistance();
 
-  /// @brief Method get_haloStrength, addr 0x693b020, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_haloStrength, addr 0x6a8e364, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_haloStrength();
 
-  /// @brief Method get_reflectionBounces, addr 0x693adb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionBounces, addr 0x6a8e0fc, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_reflectionBounces();
 
-  /// @brief Method get_reflectionIntensity, addr 0x693ad58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionIntensity, addr 0x6a8e09c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_reflectionIntensity();
 
-  /// @brief Method get_skybox, addr 0x693a5ac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_skybox, addr 0x6a8d8f0, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_skybox();
 
-  /// @brief Method get_skybox_Injected, addr 0x693a6c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_skybox_Injected, addr 0x6a8da04, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_skybox_Injected();
 
-  /// @brief Method get_subtractiveShadowColor, addr 0x693a4a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_subtractiveShadowColor, addr 0x6a8d7ec, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_subtractiveShadowColor();
 
-  /// @brief Method get_subtractiveShadowColor_Injected, addr 0x693a4f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subtractiveShadowColor_Injected, addr 0x6a8d834, size 0x3c, virtual false, abstract: false, final false
   static inline void get_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_sun, addr 0x693a7a4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_sun, addr 0x6a8dae8, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Light> get_sun();
 
-  /// @brief Method get_sun_Injected, addr 0x693a8b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_sun_Injected, addr 0x6a8dbfc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_sun_Injected();
 
-  /// @brief Method set_ambientEquatorColor, addr 0x693a220, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ambientEquatorColor, addr 0x6a8d564, size 0x44, virtual false, abstract: false, final false
   static inline void set_ambientEquatorColor(::UnityEngine::Color value);
 
-  /// @brief Method set_ambientEquatorColor_Injected, addr 0x693a264, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientEquatorColor_Injected, addr 0x6a8d5a8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_ambientGroundColor, addr 0x693a324, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ambientGroundColor, addr 0x6a8d668, size 0x44, virtual false, abstract: false, final false
   static inline void set_ambientGroundColor(::UnityEngine::Color value);
 
-  /// @brief Method set_ambientGroundColor_Injected, addr 0x693a368, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientGroundColor_Injected, addr 0x6a8d6ac, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_ambientIntensity, addr 0x6939cb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_ambientIntensity, addr 0x6a8cffc, size 0x38, virtual false, abstract: false, final false
   static inline void set_ambientIntensity(float_t value);
 
-  /// @brief Method set_ambientLight, addr 0x693a428, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ambientLight, addr 0x6a8d76c, size 0x44, virtual false, abstract: false, final false
   static inline void set_ambientLight(::UnityEngine::Color value);
 
-  /// @brief Method set_ambientLight_Injected, addr 0x693a46c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientLight_Injected, addr 0x6a8d7b0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientLight_Injected(::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_ambientMode, addr 0x693a05c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientMode, addr 0x6a8d3a0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientMode(::UnityEngine::Rendering::AmbientMode value);
 
-  /// @brief Method set_ambientProbe, addr 0x693aa44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientProbe, addr 0x6a8dd88, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientProbe(::UnityEngine::Rendering::SphericalHarmonicsL2 value);
 
-  /// @brief Method set_ambientProbe_Injected, addr 0x693aa80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientProbe_Injected, addr 0x6a8ddc4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientProbe_Injected(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> value);
 
-  /// @brief Method set_ambientSkyColor, addr 0x693a11c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ambientSkyColor, addr 0x6a8d460, size 0x44, virtual false, abstract: false, final false
   static inline void set_ambientSkyColor(::UnityEngine::Color value);
 
-  /// @brief Method set_ambientSkyColor_Injected, addr 0x693a160, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_ambientSkyColor_Injected, addr 0x6a8d4a4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_ambientSkyboxAmount, addr 0x6939c80, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_ambientSkyboxAmount, addr 0x6a8cfc4, size 0x38, virtual false, abstract: false, final false
   static inline void set_ambientSkyboxAmount(float_t value);
 
-  /// @brief Method set_customReflection, addr 0x693ac70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_customReflection, addr 0x6a8dfb4, size 0x4, virtual false, abstract: false, final false
   static inline void set_customReflection(::UnityEngine::Cubemap* value);
 
-  /// @brief Method set_customReflectionTexture, addr 0x693ac74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_customReflectionTexture, addr 0x6a8dfb8, size 0x80, virtual false, abstract: false, final false
   static inline void set_customReflectionTexture(::UnityEngine::Texture* value);
 
-  /// @brief Method set_customReflectionTexture_Injected, addr 0x693ad1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_customReflectionTexture_Injected, addr 0x6a8e060, size 0x3c, virtual false, abstract: false, final false
   static inline void set_customReflectionTexture_Injected(::System::IntPtr value);
 
-  /// @brief Method set_defaultReflectionMode, addr 0x693af80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultReflectionMode, addr 0x6a8e2c4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_defaultReflectionMode(::UnityEngine::Rendering::DefaultReflectionMode value);
 
-  /// @brief Method set_defaultReflectionResolution, addr 0x693afe4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultReflectionResolution, addr 0x6a8e328, size 0x3c, virtual false, abstract: false, final false
   static inline void set_defaultReflectionResolution(int32_t value);
 
-  /// @brief Method set_flareFadeSpeed, addr 0x693b108, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_flareFadeSpeed, addr 0x6a8e44c, size 0x38, virtual false, abstract: false, final false
   static inline void set_flareFadeSpeed(float_t value);
 
-  /// @brief Method set_flareStrength, addr 0x693b0a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_flareStrength, addr 0x6a8e3ec, size 0x38, virtual false, abstract: false, final false
   static inline void set_flareStrength(float_t value);
 
-  /// @brief Method set_fog, addr 0x6939d70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_fog, addr 0x6a8d0b4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_fog(bool value);
 
-  /// @brief Method set_fogColor, addr 0x6939f54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fogColor, addr 0x6a8d298, size 0x44, virtual false, abstract: false, final false
   static inline void set_fogColor(::UnityEngine::Color value);
 
-  /// @brief Method set_fogColor_Injected, addr 0x6939f98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_fogColor_Injected, addr 0x6a8d2dc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_fogColor_Injected(::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_fogDensity, addr 0x6939ffc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_fogDensity, addr 0x6a8d340, size 0x38, virtual false, abstract: false, final false
   static inline void set_fogDensity(float_t value);
 
-  /// @brief Method set_fogEndDistance, addr 0x6939e34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_fogEndDistance, addr 0x6a8d178, size 0x38, virtual false, abstract: false, final false
   static inline void set_fogEndDistance(float_t value);
 
-  /// @brief Method set_fogMode, addr 0x6939e94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_fogMode, addr 0x6a8d1d8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_fogMode(::UnityEngine::FogMode value);
 
-  /// @brief Method set_fogStartDistance, addr 0x6939dd4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_fogStartDistance, addr 0x6a8d118, size 0x38, virtual false, abstract: false, final false
   static inline void set_fogStartDistance(float_t value);
 
-  /// @brief Method set_haloStrength, addr 0x693b048, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_haloStrength, addr 0x6a8e38c, size 0x38, virtual false, abstract: false, final false
   static inline void set_haloStrength(float_t value);
 
-  /// @brief Method set_reflectionBounces, addr 0x693ade0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionBounces, addr 0x6a8e124, size 0x3c, virtual false, abstract: false, final false
   static inline void set_reflectionBounces(int32_t value);
 
-  /// @brief Method set_reflectionIntensity, addr 0x693ad80, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionIntensity, addr 0x6a8e0c4, size 0x38, virtual false, abstract: false, final false
   static inline void set_reflectionIntensity(float_t value);
 
-  /// @brief Method set_skybox, addr 0x693a6e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_skybox, addr 0x6a8da2c, size 0x80, virtual false, abstract: false, final false
   static inline void set_skybox(::UnityEngine::Material* value);
 
-  /// @brief Method set_skybox_Injected, addr 0x693a768, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_skybox_Injected, addr 0x6a8daac, size 0x3c, virtual false, abstract: false, final false
   static inline void set_skybox_Injected(::System::IntPtr value);
 
-  /// @brief Method set_subtractiveShadowColor, addr 0x693a52c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_subtractiveShadowColor, addr 0x6a8d870, size 0x44, virtual false, abstract: false, final false
   static inline void set_subtractiveShadowColor(::UnityEngine::Color value);
 
-  /// @brief Method set_subtractiveShadowColor_Injected, addr 0x693a570, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_subtractiveShadowColor_Injected, addr 0x6a8d8b4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_sun, addr 0x693a8e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_sun, addr 0x6a8dc24, size 0x80, virtual false, abstract: false, final false
   static inline void set_sun(::UnityEngine::Light* value);
 
-  /// @brief Method set_sun_Injected, addr 0x693a960, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_sun_Injected, addr 0x6a8dca4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_sun_Injected(::System::IntPtr value);
 
 protected:
@@ -305,7 +305,7 @@ public:
   RenderSettings(RenderSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

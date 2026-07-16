@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::SortingLayer* New_ctor();
 
-  /// @brief Method Reset, addr 0x5713c28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3324710, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x5713c7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3324764, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x5713c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x3324708, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -59,7 +59,7 @@ public:
   SortingLayer(SortingLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20540 };
 
   /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;

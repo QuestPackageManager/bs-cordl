@@ -39,71 +39,71 @@ public:
 
   __declspec(property(get = get_vertical, put = set_vertical)) float_t vertical;
 
-  /// @brief Method Equals, addr 0x6805fb8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6944a9c, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6806028, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6944b0c, size 0xa0, virtual false, abstract: false, final false
   inline bool Equals(::TMPro::TMP_Offset other);
 
-  /// @brief Method GetHashCode, addr 0x6805f54, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6944a38, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6805e58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694493c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t horizontal, float_t vertical);
 
-  /// @brief Method .ctor, addr 0x6805e4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6944930, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t left, float_t right, float_t top, float_t bottom);
 
   static inline ::TMPro::TMP_Offset getStaticF_k_ZeroOffset();
 
-  /// @brief Method get_bottom, addr 0x6805dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottom, addr 0x69448a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bottom();
 
-  /// @brief Method get_horizontal, addr 0x6805dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal, addr 0x69448b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontal();
 
-  /// @brief Method get_left, addr 0x6805d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6944870, size 0x8, virtual false, abstract: false, final false
   inline float_t get_left();
 
-  /// @brief Method get_right, addr 0x6805d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6944880, size 0x8, virtual false, abstract: false, final false
   inline float_t get_right();
 
-  /// @brief Method get_top, addr 0x6805dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x6944890, size 0x8, virtual false, abstract: false, final false
   inline float_t get_top();
 
-  /// @brief Method get_vertical, addr 0x6805ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertical, addr 0x69448c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_vertical();
 
-  /// @brief Method get_zero, addr 0x6805dec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x69448d0, size 0x60, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Offset get_zero();
 
-  /// @brief Method op_Equality, addr 0x6805e64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6944948, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::TMPro::TMP_Offset lhs, ::TMPro::TMP_Offset rhs);
 
-  /// @brief Method op_Inequality, addr 0x6805e8c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6944970, size 0xb4, virtual false, abstract: false, final false
   static inline bool op_Inequality(::TMPro::TMP_Offset lhs, ::TMPro::TMP_Offset rhs);
 
-  /// @brief Method op_Multiply, addr 0x6805f40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6944a24, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Offset op_Multiply(::TMPro::TMP_Offset a, float_t b);
 
   static inline void setStaticF_k_ZeroOffset(::TMPro::TMP_Offset value);
 
-  /// @brief Method set_bottom, addr 0x6805dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bottom, addr 0x69448a8, size 0x8, virtual false, abstract: false, final false
   inline void set_bottom(float_t value);
 
-  /// @brief Method set_horizontal, addr 0x6805dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontal, addr 0x69448b8, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontal(float_t value);
 
-  /// @brief Method set_left, addr 0x6805d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x6944878, size 0x8, virtual false, abstract: false, final false
   inline void set_left(float_t value);
 
-  /// @brief Method set_right, addr 0x6805da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x6944888, size 0x8, virtual false, abstract: false, final false
   inline void set_right(float_t value);
 
-  /// @brief Method set_top, addr 0x6805db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_top, addr 0x6944898, size 0x8, virtual false, abstract: false, final false
   inline void set_top(float_t value);
 
-  /// @brief Method set_vertical, addr 0x6805de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertical, addr 0x69448c8, size 0x8, virtual false, abstract: false, final false
   inline void set_vertical(float_t value);
 
   // Ctor Parameters []
@@ -115,7 +115,7 @@ public:
   constexpr TMP_Offset(float_t m_Left, float_t m_Right, float_t m_Top, float_t m_Bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15855 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

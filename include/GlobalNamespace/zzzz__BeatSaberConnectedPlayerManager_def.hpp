@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatSaberPlayerIdentityPacketData_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerActiveHand_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -34,6 +35,9 @@ namespace GlobalNamespace {
 class IConnectionManager;
 }
 namespace GlobalNamespace {
+struct MultiplayerActiveHand;
+}
+namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
 }
 namespace GlobalNamespace {
@@ -41,6 +45,9 @@ template <typename TType, typename TData> class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
 class PlayerAvatarPacket;
+}
+namespace GlobalNamespace {
+class PlayerControllerDataPacket;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -69,6 +76,7 @@ public:
   /// @brief Nested struct __BeatSaberConnectedPlayerManager_BeatSaberMessageType_Unwrapped
   enum struct __BeatSaberConnectedPlayerManager_BeatSaberMessageType_Unwrapped : uint8_t {
     __E_PlayerAvatarUpdate = static_cast<uint8_t>(0x0u),
+    __E_PlayerControllerDataUpdate = static_cast<uint8_t>(0x1u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -91,8 +99,11 @@ public:
   /// @brief Field PlayerAvatarUpdate value: U8(0)
   static ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType const PlayerAvatarUpdate;
 
+  /// @brief Field PlayerControllerDataUpdate value: U8(1)
+  static ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType const PlayerControllerDataUpdate;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18807 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -108,7 +119,7 @@ static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSa
 static_assert(sizeof(::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType) == 0x1, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatSaberPlayerIdentityPacketData, ConnectedPlayerManager`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, MultiplayerAvatarsData
+// Dependencies BeatSaberPlayerIdentityPacketData, ConnectedPlayerManager`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, MultiplayerActiveHand, MultiplayerAvatarsData
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatSaberConnectedPlayerManager
@@ -118,32 +129,42 @@ public:
   // Declarations
   using BeatSaberMessageType = ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType;
 
-  /// @brief Field _beatSaberMessageSerializer, offset 0x128, size 0x8
+  /// @brief Field _beatSaberMessageSerializer, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get__beatSaberMessageSerializer,
                       put = __cordl_internal_set__beatSaberMessageSerializer)) ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType,
                                                                                                                             ::GlobalNamespace::IBeatSaberConnectedPlayer*>* _beatSaberMessageSerializer;
 
-  /// @brief Field _localPlayerAvatars, offset 0x110, size 0x18
+  /// @brief Field _localPlayerActiveHand, offset 0x130, size 0x1
+  __declspec(property(get = __cordl_internal_get__localPlayerActiveHand, put = __cordl_internal_set__localPlayerActiveHand)) ::GlobalNamespace::MultiplayerActiveHand _localPlayerActiveHand;
+
+  /// @brief Field _localPlayerAvatars, offset 0x118, size 0x18
   __declspec(property(get = __cordl_internal_get__localPlayerAvatars, put = __cordl_internal_set__localPlayerAvatars)) ::GlobalNamespace::MultiplayerAvatarsData _localPlayerAvatars;
 
   /// @brief Field playerAvatarChangedEvent, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get_playerAvatarChangedEvent,
                       put = __cordl_internal_set_playerAvatarChangedEvent)) ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* playerAvatarChangedEvent;
 
-  /// @brief Method DisposeGameSpecificResources, addr 0x320f290, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Field playerControllerDataChangedEvent, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerControllerDataChangedEvent,
+                      put = __cordl_internal_set_playerControllerDataChangedEvent)) ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* playerControllerDataChangedEvent;
+
+  /// @brief Method DisposeGameSpecificResources, addr 0x32a6840, size 0xe0, virtual true, abstract: false, final false
   inline void DisposeGameSpecificResources();
 
-  /// @brief Method HandleGameSpecificConnected, addr 0x320ef9c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificConnected, addr 0x32a6358, size 0x3c, virtual true, abstract: false, final false
   inline void HandleGameSpecificConnected();
 
-  /// @brief Method HandleGameSpecificPlayerAdded, addr 0x320efc0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificPlayerAdded, addr 0x32a6394, size 0x4, virtual true, abstract: false, final false
   inline void HandleGameSpecificPlayerAdded(::GlobalNamespace::BeatSaberConnectedPlayer* player);
 
-  /// @brief Method HandleGameSpecificPlayerIdentityUpdate, addr 0x320efc4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificPlayerIdentityUpdate, addr 0x32a6398, size 0x140, virtual true, abstract: false, final false
   inline void HandleGameSpecificPlayerIdentityUpdate(::GlobalNamespace::BeatSaberPlayerIdentityPacketData identityData, ::GlobalNamespace::IBeatSaberConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePlayerAvatarUpdate, addr 0x320f1b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerAvatarUpdate, addr 0x32a6644, size 0xd8, virtual false, abstract: false, final false
   inline void HandlePlayerAvatarUpdate(::GlobalNamespace::PlayerAvatarPacket* packet, ::GlobalNamespace::IBeatSaberConnectedPlayer* iPlayer);
+
+  /// @brief Method HandlePlayerControllerDataUpdate, addr 0x32a671c, size 0xcc, virtual false, abstract: false, final false
+  inline void HandlePlayerControllerDataUpdate(::GlobalNamespace::PlayerControllerDataPacket* packet, ::GlobalNamespace::IBeatSaberConnectedPlayer* iPlayer);
 
   static inline ::GlobalNamespace::BeatSaberConnectedPlayerManager*
   New_ctor(::GlobalNamespace::IConnectionManager* connectionManager,
@@ -155,7 +176,10 @@ public:
            ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                         ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
-  /// @brief Method SetLocalPlayerAvatar, addr 0x320f0e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerActiveHand, addr 0x32a65b4, size 0x90, virtual false, abstract: false, final false
+  inline void SetLocalPlayerActiveHand(::GlobalNamespace::MultiplayerActiveHand activeHand);
+
+  /// @brief Method SetLocalPlayerAvatar, addr 0x32a64d8, size 0xdc, virtual false, abstract: false, final false
   inline void SetLocalPlayerAvatar(::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData);
 
   constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* const&
@@ -163,6 +187,10 @@ public:
 
   constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>*&
   __cordl_internal_get__beatSaberMessageSerializer();
+
+  constexpr ::GlobalNamespace::MultiplayerActiveHand const& __cordl_internal_get__localPlayerActiveHand() const;
+
+  constexpr ::GlobalNamespace::MultiplayerActiveHand& __cordl_internal_get__localPlayerActiveHand();
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__localPlayerAvatars() const;
 
@@ -172,28 +200,42 @@ public:
 
   constexpr ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*& __cordl_internal_get_playerAvatarChangedEvent();
 
+  constexpr ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* const& __cordl_internal_get_playerControllerDataChangedEvent() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*& __cordl_internal_get_playerControllerDataChangedEvent();
+
   constexpr void __cordl_internal_set__beatSaberMessageSerializer(
       ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
+
+  constexpr void __cordl_internal_set__localPlayerActiveHand(::GlobalNamespace::MultiplayerActiveHand value);
 
   constexpr void __cordl_internal_set__localPlayerAvatars(::GlobalNamespace::MultiplayerAvatarsData value);
 
   constexpr void __cordl_internal_set_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x320ecb8, size 0xb8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
+
+  /// @brief Method .ctor, addr 0x32a5f78, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectionManager* connectionManager,
                     ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                  ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
-  /// @brief Method .ctor, addr 0x320ed70, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a6030, size 0x328, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager,
                     ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                  ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
-  /// @brief Method add_playerAvatarChangedEvent, addr 0x320eb38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playerAvatarChangedEvent, addr 0x32a5c78, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerAvatarChangedEvent, addr 0x320ebf8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playerControllerDataChangedEvent, addr 0x32a5df8, size 0xc0, virtual false, abstract: false, final false
+  inline void add_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
+
+  /// @brief Method remove_playerAvatarChangedEvent, addr 0x32a5d38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
+
+  /// @brief Method remove_playerControllerDataChangedEvent, addr 0x32a5eb8, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
 protected:
   // Ctor Parameters []
@@ -210,15 +252,21 @@ public:
   BeatSaberConnectedPlayerManager(BeatSaberConnectedPlayerManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18808 };
 
   /// @brief Field playerAvatarChangedEvent, offset: 0x108, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerAvatarChangedEvent;
 
-  /// @brief Field _localPlayerAvatars, offset: 0x110, size: 0x18, def value: None
+  /// @brief Field playerControllerDataChangedEvent, offset: 0x110, size: 0x8, def value: None
+  ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerControllerDataChangedEvent;
+
+  /// @brief Field _localPlayerAvatars, offset: 0x118, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____localPlayerAvatars;
 
-  /// @brief Field _beatSaberMessageSerializer, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _localPlayerActiveHand, offset: 0x130, size: 0x1, def value: None
+  ::GlobalNamespace::MultiplayerActiveHand ____localPlayerActiveHand;
+
+  /// @brief Field _beatSaberMessageSerializer, offset: 0x138, size: 0x8, def value: None
   ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* ____beatSaberMessageSerializer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -226,10 +274,14 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ___playerAvatarChangedEvent) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ____localPlayerAvatars) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ___playerControllerDataChangedEvent) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ____beatSaberMessageSerializer) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ____localPlayerAvatars) == 0x118, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatSaberConnectedPlayerManager) == 0x130, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ____localPlayerActiveHand) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatSaberConnectedPlayerManager, ____beatSaberMessageSerializer) == 0x138, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::BeatSaberConnectedPlayerManager) == 0x140, "Size mismatch!");
 
 } // namespace GlobalNamespace

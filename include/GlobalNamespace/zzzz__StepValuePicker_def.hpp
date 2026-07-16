@@ -50,18 +50,18 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method DecButtonPressed, addr 0x58f4bc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x5a2e504, size 0x1c, virtual false, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method IncButtonPressed, addr 0x58f4ba8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x5a2e4e8, size 0x1c, virtual false, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::StepValuePicker* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58f4a54, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a2e394, size 0x154, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x58f4900, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a2e240, size 0x154, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
@@ -94,31 +94,31 @@ public:
 
   constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x58f4be0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2e520, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x58f3c50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x5a2d590, size 0xac, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x58f3cfc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x5a2d63c, size 0xac, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_text, addr 0x58f48e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5a2e220, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x58f3f14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x5a2d854, size 0xac, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x58f3fc0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x5a2d900, size 0xac, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method set_decButtonInteractable, addr 0x58f3a88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_decButtonInteractable, addr 0x5a2d3c8, size 0x1c, virtual false, abstract: false, final false
   inline void set_decButtonInteractable(bool value);
 
-  /// @brief Method set_incButtonInteractable, addr 0x58f3acc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_incButtonInteractable, addr 0x5a2d40c, size 0x1c, virtual false, abstract: false, final false
   inline void set_incButtonInteractable(bool value);
 
-  /// @brief Method set_text, addr 0x58f3b14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x5a2d454, size 0x20, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -136,7 +136,7 @@ public:
   StepValuePicker(StepValuePicker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23294 };
 
   /// @brief Field _decButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____decButton;

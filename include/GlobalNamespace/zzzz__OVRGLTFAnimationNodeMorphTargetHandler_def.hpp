@@ -38,12 +38,12 @@ public:
   /// @brief Field _modified, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__modified, put = __cordl_internal_set__modified)) bool _modified;
 
-  /// @brief Method MarkModified, addr 0x5d17148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkModified, addr 0x5e4f370, size 0xc, virtual false, abstract: false, final false
   inline void MarkModified();
 
   static inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* New_ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method Update, addr 0x5d16ec4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e4f0ec, size 0x284, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<float_t> const& __cordl_internal_get_Weights() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__modified(bool value);
 
-  /// @brief Method .ctor, addr 0x5d16e18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4f040, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRMeshData meshData);
 
 protected:
@@ -88,7 +88,7 @@ public:
   OVRGLTFAnimationNodeMorphTargetHandler(OVRGLTFAnimationNodeMorphTargetHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7132 };
 
   /// @brief Field _meshData, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::OVRMeshData ____meshData;

@@ -47,10 +47,10 @@ public:
   /// @brief Field responseStatus, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_responseStatus, put = __cordl_internal_set_responseStatus)) ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* responseStatus;
 
-  /// @brief Method GetInstance, addr 0x339cd54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x345920c, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x339cd68, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3459220, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* responseStatus,
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x339d218, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x34596d0, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* const& __cordl_internal_get_responseBytes() const;
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_responseStatus(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* value);
 
-  /// @brief Method .ctor, addr 0x339d038, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34594f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* responseStatus, ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* responseBytes);
 
-  /// @brief Method .ctor, addr 0x339ceec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34593a4, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ResponseBytes, addr 0x339d210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseBytes, addr 0x34596c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* get_ResponseBytes();
 
-  /// @brief Method get_ResponseStatus, addr 0x339d208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseStatus, addr 0x34596c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* get_ResponseStatus();
 
 protected:

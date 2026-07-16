@@ -23,8 +23,18 @@ namespace UnityEngine::VFX {
 struct CORDL_TYPE VFXOutputEventArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6cd5244, size 0xc, virtual false, abstract: false, final false
+  __declspec(property(get = get_eventAttribute)) ::UnityEngine::VFX::VFXEventAttribute* eventAttribute;
+
+  __declspec(property(get = get_nameId)) int32_t nameId;
+
+  /// @brief Method .ctor, addr 0x6e2a834, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameId, ::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
+
+  /// @brief Method get_eventAttribute, addr 0x6e2a82c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::VFX::VFXEventAttribute* get_eventAttribute();
+
+  /// @brief Method get_nameId, addr 0x6e2a824, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_nameId();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -35,7 +45,7 @@ public:
   constexpr VFXOutputEventArgs(int32_t _nameId_k__BackingField, ::UnityEngine::VFX::VFXEventAttribute* _eventAttribute_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22329 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

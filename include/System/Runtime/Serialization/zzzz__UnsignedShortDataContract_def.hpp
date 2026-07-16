@@ -41,19 +41,19 @@ public:
 
   static inline ::System::Runtime::Serialization::UnsignedShortDataContract* New_ctor();
 
-  /// @brief Method ReadXmlValue, addr 0x601b918, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6156a14, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteXmlValue, addr 0x601b8bc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x61569b8, size 0x5c, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x601b798, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6156894, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadMethodName, addr 0x601b878, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x6156974, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x601b834, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x6156930, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -71,7 +71,7 @@ public:
   UnsignedShortDataContract(UnsignedShortDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

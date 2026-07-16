@@ -73,21 +73,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x31d67e8, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x326dcf4, size 0xcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::AvatarCore::AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31d68b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x326ddc0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31d68bc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x326ddc8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31d68f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x326de00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x31d67e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x326dcf0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x31d67d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326dcdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -141,7 +141,7 @@ public:
   AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2(AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21602 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -183,13 +183,13 @@ public:
 
   static inline ::BeatSaber::AvatarCore::AvatarVisualController* New_ctor();
 
-  /// @brief Method SetLightColor, addr 0x31d6614, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x326db20, size 0x140, virtual false, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method WaitForAvatarLoadAndSetLightColor, addr 0x31d6754, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WaitForAvatarLoadAndSetLightColor, addr 0x326dc60, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForAvatarLoadAndSetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method __SetAvatarController, addr 0x31d67d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __SetAvatarController, addr 0x326dce4, size 0x8, virtual false, abstract: false, final false
   inline void __SetAvatarController(::BeatSaber::AvatarCore::AvatarController* avatarController);
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarController> const& __cordl_internal_get__avatarController() const;
@@ -198,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set__avatarController(::UnityW<::BeatSaber::AvatarCore::AvatarController> value);
 
-  /// @brief Method .ctor, addr 0x31d67e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326dcec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,7 +216,7 @@ public:
   AvatarVisualController(AvatarVisualController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21603 };
 
   /// @brief Field _avatarController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarController> ____avatarController;

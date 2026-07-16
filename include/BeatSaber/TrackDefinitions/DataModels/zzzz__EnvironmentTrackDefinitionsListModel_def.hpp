@@ -58,13 +58,13 @@ public:
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0x3234cdc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x32ec6e4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> __ctor_b__1_0(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method <.ctor>b__1_1, addr 0x3234cf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_1, addr 0x32ec6f8, size 0x5c, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* __ctor_b__1_1(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method .ctor, addr 0x3234cd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ec6e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c* getStaticF___9();
@@ -96,7 +96,7 @@ public:
   EnvironmentTrackDefinitionsListModel___c(EnvironmentTrackDefinitionsListModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,10 +131,10 @@ public:
   constexpr void __cordl_internal_set__environmentTracksTypeMap(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
 
-  /// @brief Method .ctor, addr 0x3232fcc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ea9d4, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
-  /// @brief Method get_Item, addr 0x3234c10, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x32ec618, size 0x74, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* get_Item(::GlobalNamespace::EnvironmentInfoSO* type);
 
 protected:
@@ -152,7 +152,7 @@ public:
   EnvironmentTrackDefinitionsListModel(EnvironmentTrackDefinitionsListModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22914 };
 
   /// @brief Field _environmentTracksTypeMap, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>*

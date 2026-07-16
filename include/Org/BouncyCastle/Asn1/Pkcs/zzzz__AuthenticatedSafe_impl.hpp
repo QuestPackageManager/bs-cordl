@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> (*)(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>)>(
     &::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::Copy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33a1514;
+  constexpr static std::size_t addrs = 0x345d9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe*>(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x33a158c;
+  constexpr static std::size_t addrs = 0x345da44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x33a162c;
+  constexpr static std::size_t addrs = 0x345dae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::*)(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>)>(
     &::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33a1818;
+  constexpr static std::size_t addrs = 0x345dcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> (::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::GetContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33a183c;
+  constexpr static std::size_t addrs = 0x345dcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe*>(), { "GetContentInfo", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::ToAsn1Object)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33a1844;
+  constexpr static std::size_t addrs = 0x345dcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -57,10 +57,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x35dfba8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369c060, size 0x104, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x35dfad8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x369bf90, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -85,22 +85,22 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x35df954, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369be0c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x35df9ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369bea4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method get_Format, addr 0x35dfa94, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x369bf4c, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_G, addr 0x35dfb78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x369c030, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_P, addr 0x35dfb60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x369c018, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Y, addr 0x35dfb90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x369c048, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"

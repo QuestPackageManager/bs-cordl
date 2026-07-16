@@ -36,18 +36,18 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_nonNegativeInteger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x607f864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ba960, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x6088bb8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x61c3cb4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_HasValueFacets, addr 0x6088c1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x61c3d18, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x6088c14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c3d10, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
@@ -67,7 +67,7 @@ public:
   Datatype_nonNegativeInteger(Datatype_nonNegativeInteger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,0 +1,71 @@
+#pragma once
+// IWYU pragma private; include "GlobalNamespace/OptionalArgument_1.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(OptionalArgument_1)
+// Forward declare root types
+namespace GlobalNamespace {
+template <typename T> class OptionalArgument_1;
+}
+// Write type traits
+MARK_GEN_REF_T_PTR(::GlobalNamespace::OptionalArgument_1);
+DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::OptionalArgument_1, "", "OptionalArgument`1");
+// Dependencies RequiredArgument`1<T>
+namespace GlobalNamespace {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: OptionalArgument`1<T>
+class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::RequiredArgument_1<T> {
+public:
+  // Declarations
+  /// @brief Field _defaultValue, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) T _defaultValue;
+
+  __declspec(property(get = get_isOptional)) bool isOptional;
+
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetValueOrDefault();
+
+  static inline ::GlobalNamespace::OptionalArgument_1<T>* New_ctor(::StringW name, ::StringW description, T defaultValue, ::ArrayW<::StringW> autocompleteValues);
+
+  constexpr T const& __cordl_internal_get__defaultValue() const;
+
+  constexpr T& __cordl_internal_get__defaultValue();
+
+  constexpr void __cordl_internal_set__defaultValue(T value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, ::StringW description, T defaultValue, ::ArrayW<::StringW> autocompleteValues);
+
+  /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_isOptional();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OptionalArgument_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OptionalArgument_1(OptionalArgument_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OptionalArgument_1(OptionalArgument_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19342 };
+
+  /// @brief Field _defaultValue, offset: 0x40, size: 0x8, def value: None
+  T ____defaultValue;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace GlobalNamespace

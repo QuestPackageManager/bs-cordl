@@ -32,7 +32,7 @@ namespace UnityEngine {
 class CORDL_TYPE Coroutine_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x69881a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6adb11c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Coroutine* coroutine);
 
 protected:
@@ -50,7 +50,7 @@ public:
   Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -70,12 +70,12 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Finalize, addr 0x69880f4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6adb06c, size 0x74, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method ReleaseCoroutine, addr 0x6988168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x6adb0e0, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x69880f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adb068, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   Coroutine(Coroutine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10307 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::OculusPlatformResponseException::*)()>(
     &::OculusStudios::Platform::Oculus::OculusPlatformResponseException::get_message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dfa2e8;
+  constexpr static std::size_t addrs = 0x5f325a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::OculusPlatformResponseException::*)(::Oculus::Platform::Models::Error*)>(
     &::OculusStudios::Platform::Oculus::OculusPlatformResponseException::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5dfa300;
+  constexpr static std::size_t addrs = 0x5f325b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::OculusPlatformResponseException*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::OculusPlatformResponseException::*)(::StringW, ::Oculus::Platform::Models::Error*)>(
     &::OculusStudios::Platform::Oculus::OculusPlatformResponseException::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5df7ce4;
+  constexpr static std::size_t addrs = 0x5f2ff9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::OculusPlatformResponseException*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::Oculus::Platform::Models::Error*, ::by_ref<::OculusStudios::Platform::Oculus::OculusPlatformResponseErrorCode>,
                                                                      ::by_ref<::System::Net::HttpStatusCode>)>(&::OculusStudios::Platform::Oculus::OculusPlatformResponseException::ParseMessage)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5dfa398;
+  constexpr static std::size_t addrs = 0x5f32650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::OculusPlatformResponseException*>(),

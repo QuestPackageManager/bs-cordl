@@ -31,17 +31,17 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b73bb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc7a70, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Left();
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Right();
 
-  /// @brief Method get_left, addr 0x6b73b00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6cc79b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_left();
 
-  /// @brief Method get_right, addr 0x6b73b5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6cc7a14, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_right();
 
   static inline void setStaticF_s_Left(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);

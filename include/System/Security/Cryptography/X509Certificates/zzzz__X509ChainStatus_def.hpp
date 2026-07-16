@@ -28,19 +28,19 @@ public:
 
   __declspec(property(put = set_StatusInformation)) ::StringW StatusInformation;
 
-  /// @brief Method GetInformation, addr 0x626df48, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInformation, addr 0x63a9fe4, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetInformation(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
-  /// @brief Method .ctor, addr 0x626df28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a9fc4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
 
-  /// @brief Method get_Status, addr 0x626e0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x63aa160, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
 
-  /// @brief Method set_Status, addr 0x626e0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x63aa168, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
-  /// @brief Method set_StatusInformation, addr 0x626e0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusInformation, addr 0x63aa170, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusInformation(::StringW value);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   constexpr X509ChainStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status, ::StringW info) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11180 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

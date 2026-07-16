@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref::*)(::System::Type*)>(
     &::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e7f2fc;
+  constexpr static std::size_t addrs = 0x5fba3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref::ConvertNull)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e7f45c;
+  constexpr static std::size_t addrs = 0x5fba558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref*>(),

@@ -123,7 +123,7 @@ public:
   constexpr UnsafeHashMap_2_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<TKey> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -216,7 +216,7 @@ public:
   constexpr UnsafeHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -361,7 +361,7 @@ public:
   constexpr UnsafeHashMap_2(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

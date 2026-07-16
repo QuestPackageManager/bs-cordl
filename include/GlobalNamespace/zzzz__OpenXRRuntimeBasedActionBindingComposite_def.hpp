@@ -31,21 +31,21 @@ public:
   /// @brief Field otherRuntimes, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_otherRuntimes, put = __cordl_internal_set_otherRuntimes)) int32_t otherRuntimes;
 
-  /// @brief Method EvaluateMagnitude, addr 0x5718454, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x585e428, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method Init, addr 0x57184d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x585e4a4, size 0x4, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor();
 
-  /// @brief Method ReadOculusRuntimeValue, addr 0x571839c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadOculusRuntimeValue, addr 0x585e370, size 0x5c, virtual false, abstract: false, final false
   inline float_t ReadOculusRuntimeValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadOtherRuntimeValue, addr 0x57183f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadOtherRuntimeValue, addr 0x585e3cc, size 0x5c, virtual false, abstract: false, final false
   inline float_t ReadOtherRuntimeValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadValue, addr 0x5718318, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x585e2ec, size 0x84, virtual true, abstract: false, final false
   inline float_t ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x57184d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x585e4a8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   static constexpr ::ConstString OCULUS_RUNTIME_NAME{ u"Oculus" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21403 };
 
   /// @brief Field oculusRuntime, offset: 0x10, size: 0x4, def value: None
   int32_t ___oculusRuntime;

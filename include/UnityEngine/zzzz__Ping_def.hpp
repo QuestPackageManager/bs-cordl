@@ -36,7 +36,7 @@ namespace UnityEngine {
 class CORDL_TYPE Ping_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x697fe7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6ad321c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Ping* ping);
 
 protected:
@@ -54,7 +54,7 @@ public:
   Ping_BindingsMarshaller(Ping_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10242 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,25 +78,25 @@ public:
 
   __declspec(property(get = get_time)) int32_t time;
 
-  /// @brief Method DestroyPing, addr 0x697fc8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DestroyPing, addr 0x6ad302c, size 0x4c, virtual false, abstract: false, final false
   inline void DestroyPing();
 
-  /// @brief Method Finalize, addr 0x697fc0c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6ad2fac, size 0x80, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x697fae0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6ad2e80, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::StringW address);
 
-  /// @brief Method Internal_Create_Injected, addr 0x697fd14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create_Injected, addr 0x6ad30b4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> address);
 
-  /// @brief Method Internal_Destroy, addr 0x697fcd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x6ad3078, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_IsDone, addr 0x697fd64, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone, addr 0x6ad3104, size 0x50, virtual false, abstract: false, final false
   inline bool Internal_IsDone();
 
-  /// @brief Method Internal_IsDone_Injected, addr 0x697fdb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone_Injected, addr 0x6ad3154, size 0x3c, virtual false, abstract: false, final false
   static inline bool Internal_IsDone_Injected(::System::IntPtr _unity_self);
 
   static inline ::UnityEngine::Ping* New_ctor(::StringW address);
@@ -107,16 +107,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x697fac4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad2e64, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method get_isDone, addr 0x697fd50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x6ad30f0, size 0x14, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_time, addr 0x697fdf0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6ad3190, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_time();
 
-  /// @brief Method get_time_Injected, addr 0x697fe40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time_Injected, addr 0x6ad31e0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_time_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -134,7 +134,7 @@ public:
   Ping(Ping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10243 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

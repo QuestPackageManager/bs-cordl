@@ -95,88 +95,88 @@ public:
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
 
-  /// @brief Method Add, addr 0x5b22f40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5c5cc18, size 0x64, virtual false, abstract: false, final false
   inline ::System::TimeSpan Add(::System::TimeSpan ts);
 
-  /// @brief Method Compare, addr 0x5b22fa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5c5cc7c, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Compare(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method CompareTo, addr 0x5b22fb4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x5c5cc8c, size 0xc8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method CompareTo, addr 0x5b2307c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x5c5cd54, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::TimeSpan value);
 
-  /// @brief Method Duration, addr 0x5b231ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Duration, addr 0x5c5cec4, size 0xb8, virtual false, abstract: false, final false
   inline ::System::TimeSpan Duration();
 
-  /// @brief Method Equals, addr 0x5b23320, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5c5cff8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::System::TimeSpan obj);
 
-  /// @brief Method Equals, addr 0x5b232a4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c5cf7c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method FromDays, addr 0x5b23090, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromDays, addr 0x5c5cd68, size 0x68, virtual false, abstract: false, final false
   static inline ::System::TimeSpan FromDays(double_t value);
 
-  /// @brief Method FromHours, addr 0x5b2333c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromHours, addr 0x5c5d014, size 0x68, virtual false, abstract: false, final false
   static inline ::System::TimeSpan FromHours(double_t value);
 
-  /// @brief Method FromMilliseconds, addr 0x5b233a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FromMilliseconds, addr 0x5c5d07c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::TimeSpan FromMilliseconds(double_t value);
 
-  /// @brief Method FromMinutes, addr 0x5b23408, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FromMinutes, addr 0x5c5d0e0, size 0x64, virtual false, abstract: false, final false
   static inline ::System::TimeSpan FromMinutes(double_t value);
 
-  /// @brief Method FromSeconds, addr 0x5b23520, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FromSeconds, addr 0x5c5d1f8, size 0x64, virtual false, abstract: false, final false
   static inline ::System::TimeSpan FromSeconds(double_t value);
 
-  /// @brief Method FromTicks, addr 0x5b235e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromTicks, addr 0x5c5d2c0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::TimeSpan FromTicks(int64_t value);
 
-  /// @brief Method GetHashCode, addr 0x5b23330, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c5d008, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Interval, addr 0x5b230f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Interval, addr 0x5c5cdd0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::TimeSpan Interval(double_t value, int32_t scale);
 
-  /// @brief Method Negate, addr 0x5b2346c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x5c5d144, size 0xb4, virtual false, abstract: false, final false
   inline ::System::TimeSpan Negate();
 
-  /// @brief Method Parse, addr 0x5b23668, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5c5d340, size 0x88, virtual false, abstract: false, final false
   static inline ::System::TimeSpan Parse(::StringW input, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Parse, addr 0x5b235ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5c5d2c4, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan Parse(::StringW s);
 
-  /// @brief Method Subtract, addr 0x5b23584, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x5c5d25c, size 0x64, virtual false, abstract: false, final false
   inline ::System::TimeSpan Subtract(::System::TimeSpan ts);
 
-  /// @brief Method TimeToTicks, addr 0x5b22c00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TimeToTicks, addr 0x5c5c8d8, size 0x98, virtual false, abstract: false, final false
   static inline int64_t TimeToTicks(int32_t hour, int32_t minute, int32_t second);
 
-  /// @brief Method ToString, addr 0x5b2379c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c5d474, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x5b23804, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c5d4dc, size 0x74, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method ToString, addr 0x5b23878, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x5c5d550, size 0x78, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryFormat, addr 0x5b238f0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method TryFormat, addr 0x5c5d5c8, size 0xa8, virtual true, abstract: false, final true
   inline bool TryFormat(::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryParseExact, addr 0x5b236f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x5c5d3c8, size 0xac, virtual false, abstract: false, final false
   static inline bool TryParseExact(::StringW input, ::StringW format, ::System::IFormatProvider* formatProvider, ::by_ref<::System::TimeSpan> result);
 
-  /// @brief Method .ctor, addr 0x5b22c98, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5c970, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t days, int32_t hours, int32_t minutes, int32_t seconds, int32_t milliseconds);
 
-  /// @brief Method .ctor, addr 0x5b22b7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5c854, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t hours, int32_t minutes, int32_t seconds);
 
-  /// @brief Method .ctor, addr 0x5b22b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5c84c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t ticks);
 
   static inline ::System::TimeSpan getStaticF_MaxValue();
@@ -185,37 +185,37 @@ public:
 
   static inline ::System::TimeSpan getStaticF_Zero();
 
-  /// @brief Method get_Days, addr 0x5b22d58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Days, addr 0x5c5ca30, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Days();
 
-  /// @brief Method get_Hours, addr 0x5b22d84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Hours, addr 0x5c5ca5c, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_Hours();
 
-  /// @brief Method get_Milliseconds, addr 0x5b22dc8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Milliseconds, addr 0x5c5caa0, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_Milliseconds();
 
-  /// @brief Method get_Minutes, addr 0x5b22e14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Minutes, addr 0x5c5caec, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Minutes();
 
-  /// @brief Method get_Seconds, addr 0x5b22e5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x5c5cb34, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
-  /// @brief Method get_Ticks, addr 0x5b22d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ticks, addr 0x5c5ca28, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Ticks();
 
-  /// @brief Method get_TotalDays, addr 0x5b22ea8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TotalDays, addr 0x5c5cb80, size 0x18, virtual false, abstract: false, final false
   inline double_t get_TotalDays();
 
-  /// @brief Method get_TotalHours, addr 0x5b22ec0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TotalHours, addr 0x5c5cb98, size 0x18, virtual false, abstract: false, final false
   inline double_t get_TotalHours();
 
-  /// @brief Method get_TotalMilliseconds, addr 0x5b22ed8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_TotalMilliseconds, addr 0x5c5cbb0, size 0x38, virtual false, abstract: false, final false
   inline double_t get_TotalMilliseconds();
 
-  /// @brief Method get_TotalMinutes, addr 0x5b22f10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TotalMinutes, addr 0x5c5cbe8, size 0x18, virtual false, abstract: false, final false
   inline double_t get_TotalMinutes();
 
-  /// @brief Method get_TotalSeconds, addr 0x5b22f28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TotalSeconds, addr 0x5c5cc00, size 0x18, virtual false, abstract: false, final false
   inline double_t get_TotalSeconds();
 
   /// @brief Convert to "::System::IComparable"
@@ -233,31 +233,31 @@ public:
   /// @brief Convert to "::System::ISpanFormattable"
   constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
-  /// @brief Method op_Addition, addr 0x5b23ab4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x5c5d78c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan op_Addition(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_Equality, addr 0x5b23b20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5c5d7f8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_GreaterThan, addr 0x5b23b50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x5c5d828, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x5b23b5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x5c5d834, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_Inequality, addr 0x5b23b2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5c5d804, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_LessThan, addr 0x5b23b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x5c5d810, size 0xc, virtual false, abstract: false, final false
   static inline bool op_LessThan(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x5b23b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x5c5d81c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_Subtraction, addr 0x5b23a48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x5c5d720, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan op_Subtraction(::System::TimeSpan t1, ::System::TimeSpan t2);
 
-  /// @brief Method op_UnaryNegation, addr 0x5b23998, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryNegation, addr 0x5c5d670, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::TimeSpan op_UnaryNegation(::System::TimeSpan t);
 
   static inline void setStaticF_MaxValue(::System::TimeSpan value);

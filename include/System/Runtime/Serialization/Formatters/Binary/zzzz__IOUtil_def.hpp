@@ -32,13 +32,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class CORDL_TYPE IOUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FlagTest, addr 0x5a1b7f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FlagTest, addr 0x5b554c4, size 0xc, virtual false, abstract: false, final false
   static inline bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
 
-  /// @brief Method WriteStringWithCode, addr 0x5a1b800, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringWithCode, addr 0x5b554d0, size 0x7c, virtual false, abstract: false, final false
   static inline void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method WriteWithCode, addr 0x5a1b87c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method WriteWithCode, addr 0x5b5554c, size 0x120, virtual false, abstract: false, final false
   static inline void WriteWithCode(::System::Type* type, ::System::Object* value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
 protected:

@@ -33,21 +33,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x5b22848, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5c5c520, size 0x10, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x5b22858, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c5c530, size 0x10, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x5b22868, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c5c540, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetObjectData, addr 0x5b2288c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5c5c564, size 0xa4, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::OrdinalCaseSensitiveComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b21f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5bc68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

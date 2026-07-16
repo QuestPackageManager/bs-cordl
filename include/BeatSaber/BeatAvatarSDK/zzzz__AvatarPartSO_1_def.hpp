@@ -93,7 +93,7 @@ public:
   AvatarPartSO_1(AvatarPartSO_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22344 };
 
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;

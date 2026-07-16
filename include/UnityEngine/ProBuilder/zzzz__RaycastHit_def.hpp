@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x659cbf4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66da300, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
 protected:
@@ -81,7 +81,7 @@ public:
   RaycastHit(RaycastHit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16761 };
 
   /// @brief Field distance, offset: 0x10, size: 0x4, def value: None
   float_t ___distance;

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::StartReport)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6892318;
+  constexpr static std::size_t addrs = 0x69e9230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "StartReport", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::GetSection)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x689237c;
+  constexpr static std::size_t addrs = 0x69e9294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::StringW, ::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::AddSectionEntry)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x689240c;
+  constexpr static std::size_t addrs = 0x69e9324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::AddSectionBreak)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68924c8;
+  constexpr static std::size_t addrs = 0x69e93e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::AddEventEntry)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x689253c;
+  constexpr static std::size_t addrs = 0x69e9454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_DumpReport)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68925e8;
+  constexpr static std::size_t addrs = 0x69e9500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "Internal_DumpReport", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_DumpReport)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x689264c;
+  constexpr static std::size_t addrs = 0x69e9564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_GenerateReport)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68926dc;
+  constexpr static std::size_t addrs = 0x69e95f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "Internal_GenerateReport", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_ReleaseReport)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6892740;
+  constexpr static std::size_t addrs = 0x69e9658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::GenerateReport)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68927bc;
+  constexpr static std::size_t addrs = 0x69e96d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "GenerateReport", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::DumpReport)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x689284c;
+  constexpr static std::size_t addrs = 0x69e9764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::DiagnosticReport::*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6892850;
+  constexpr static std::size_t addrs = 0x69e9768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { ".ctor", {}, {} })));

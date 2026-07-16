@@ -28,15 +28,15 @@ public:
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*> s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x59bcda4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5af6a74, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::Aes* Create();
 
-  /// @brief Method Create, addr 0x59bce10, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5af6ae0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::Aes* Create(::StringW algorithmName);
 
   static inline ::System::Security::Cryptography::Aes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59bcd1c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af69ec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalBlockSizes();

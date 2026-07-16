@@ -64,7 +64,7 @@ public:
 
   static inline ::ArrayW<uint8_t> getStaticF_fileNameField();
 
-  /// @brief Method get_DefaultEncoding, addr 0x6cd069c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultEncoding, addr 0x6e24554, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_DefaultEncoding();
 
   static inline void setStaticF_ampersand(::ArrayW<uint8_t> value);
@@ -98,7 +98,7 @@ public:
   WWWForm(WWWForm const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

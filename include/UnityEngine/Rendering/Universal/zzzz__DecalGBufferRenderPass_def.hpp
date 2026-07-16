@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* value);
 
-  /// @brief Method .ctor, addr 0x671cdb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685b57c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   DecalGBufferRenderPass_PassData(DecalGBufferRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12683 };
 
   /// @brief Field drawSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* ___drawSystem;
@@ -203,10 +203,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__15_0, addr 0x671e608, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__15_0, addr 0x685cdd0, size 0x50, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__15_0(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x671e604, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685cdcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* getStaticF___9();
@@ -235,7 +235,7 @@ public:
   DecalGBufferRenderPass___c(DecalGBufferRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -279,29 +279,29 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method Configure, addr 0x671cdc0, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x685b588, size 0x470, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Execute, addr 0x671d238, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x685ba00, size 0x330, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x671d5ac, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x685bd74, size 0x170, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x671d568, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x685bd30, size 0x44, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*> passData);
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass* New_ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings,
                                                                                       ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers);
 
-  /// @brief Method OnCameraCleanup, addr 0x671e4c4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x685cc8c, size 0xec, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x671d71c, size 0xda8, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x685bee4, size 0xda8, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x671cdb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x685b580, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
   constexpr bool const& __cordl_internal_get_m_DecalLayers() const;
@@ -352,7 +352,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x671cadc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685b2a4, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings, ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers);
 
 protected:
@@ -370,7 +370,7 @@ public:
   DecalGBufferRenderPass(DecalGBufferRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12685 };
 
   /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;

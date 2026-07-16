@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::UIElements::StyleSheet*, ::UnityEngine::UIElements::StyleValueHandle)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions::ReadAsString)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x6bbbe7c;
+  constexpr static std::size_t addrs = 0x6d0fd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleValueHandle)>(&::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions::IsVarFunction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bbf404;
+  constexpr static std::size_t addrs = 0x6d132bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions*>(),

@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method AllocateNative, addr 0x646b4d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AllocateNative, addr 0x65a829c, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> AllocateNative(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t payloadSize);
 
   constexpr int32_t const& __cordl_internal_get_sizeInBytes() const;
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method .ctor, addr 0x646b130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a7efc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes);
 
-  /// @brief Method get_payloadPtr, addr 0x646b4c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_payloadPtr, addr 0x65a8294, size 0x8, virtual false, abstract: false, final false
   inline void* get_payloadPtr();
 
-  /// @brief Method get_payloadSizeInBytes, addr 0x646b4bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_payloadSizeInBytes, addr 0x65a8288, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_payloadSizeInBytes();
 
-  /// @brief Method get_typeStatic, addr 0x646b56c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65a8338, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -128,7 +128,7 @@ public:
   static constexpr int64_t GenericSuccess{ static_cast<int64_t>(0x1) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8937 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

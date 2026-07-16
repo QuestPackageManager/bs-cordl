@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method GetBezierCurveData, addr 0x326d4c0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method GetBezierCurveData, addr 0x3329978, size 0x1c4, virtual true, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::CurveData GetBezierCurveData();
 
   static inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurve* New_ctor();
 
-  /// @brief Method SetBezierCurveData, addr 0x326d684, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method SetBezierCurveData, addr 0x3329b3c, size 0x1b0, virtual true, abstract: false, final false
   inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData newValue);
 
-  /// @brief Method .ctor, addr 0x326d834, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329cec, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x326d4b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x3329970, size 0x8, virtual true, abstract: false, final false
   inline bool get_isReady();
 
 protected:
@@ -56,7 +56,7 @@ public:
   GenericBezierCurve(GenericBezierCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

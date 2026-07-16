@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31e6498, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327d718, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Color, addr 0x31e648c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Color, addr 0x327d70c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_Color();
 
-  /// @brief Method get_id, addr 0x31e6484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x327d704, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
 protected:
@@ -72,7 +72,7 @@ public:
   SkinColorSO(SkinColorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22359 };
 
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;

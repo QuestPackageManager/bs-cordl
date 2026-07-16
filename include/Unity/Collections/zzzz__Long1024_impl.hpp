@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::Long1024::*)()>(&::Unity::Collections::Long1024::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636a124;
+  constexpr static std::size_t addrs = 0x64a6d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Long1024>(), { "get_Length", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::Long1024::*)(int32_t)>(&::Unity::Collections::Long1024::set_Length)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x636a12c;
+  constexpr static std::size_t addrs = 0x64a6d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Long1024>(), { "set_Length", {}, { ::i2c::type_of<int32_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<int64_t> (::Unity::Collections::Long1024::*)(int32_t)>(&::Unity::Collections::Long1024::ElementAt)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63669f0;
+  constexpr static std::size_t addrs = 0x64a3610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Long1024>(), { "ElementAt", {}, { ::i2c::type_of<int32_t>() } })));

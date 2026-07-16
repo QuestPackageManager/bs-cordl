@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Guid getStaticF_DocumentType_Text();
 
-  /// @brief Method get_FileName, addr 0x5e48c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x5f83d54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
   static inline void setStaticF_DocumentType_Text(::System::Guid value);
@@ -57,7 +57,7 @@ public:
   SymbolDocumentInfo(SymbolDocumentInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16200 };
 
   /// @brief Field <FileName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;

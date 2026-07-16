@@ -56,16 +56,16 @@ public:
   /// @brief Field s_cachedWings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_cachedWings, put = setStaticF_s_cachedWings)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* s_cachedWings;
 
-  /// @brief Method Dijkstra, addr 0x65a4ee0, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method Dijkstra, addr 0x66e25ec, size 0x6dc, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start);
 
-  /// @brief Method GetMinimalPath, addr 0x65a4db4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetMinimalPath, addr 0x66e24c0, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetMinimalPath(::ArrayW<int32_t> predecessors, int32_t start, int32_t end);
 
-  /// @brief Method GetPath, addr 0x65a4b08, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x66e2214, size 0x2ac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start, int32_t end);
 
-  /// @brief Method GetWeight, addr 0x65a55bc, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x66e2cc8, size 0x424, virtual false, abstract: false, final false
   static inline float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline int32_t getStaticF_s_cachedFacesCount();
@@ -107,7 +107,7 @@ public:
   SelectPathFaces(SelectPathFaces const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -2,9 +2,9 @@
 // IWYU pragma private; include "VRUIControls/VRInputModule.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "VRUIControls/zzzz__VRInputModule_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__IVRInputModule_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::get_useMouseForPressInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce1e18;
+  constexpr static std::size_t addrs = 0x5970740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRInputModule*>(), { "get_useMouseForPressInput", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(bool)>(&::VRUIControls::VRInputModule::set_useMouseForPressInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce1e20;
+  constexpr static std::size_t addrs = 0x5970748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::VRUIControls::VRInputModule::add_onProcessMousePressEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ce1e28;
+  constexpr static std::size_t addrs = 0x5970750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::VRUIControls::VRInputModule::remove_onProcessMousePressEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ce1ee8;
+  constexpr static std::size_t addrs = 0x5970810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::VRUIControls::VRInputModule::add_pointerDidClickEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ce1fa8;
+  constexpr static std::size_t addrs = 0x59708d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::VRUIControls::VRInputModule::remove_pointerDidClickEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ce2068;
+  constexpr static std::size_t addrs = 0x5970990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::OnDisable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ce2128;
+  constexpr static std::size_t addrs = 0x5970a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::VRUIControls::VRInputModule*>(), { ::i2c::class_of<::VRUIControls::VRInputModule*>(), 7 }));
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRInputModule::*)(int32_t, ::by_ref<::UnityEngine::EventSystems::PointerEventData*>, bool)>(
     &::VRUIControls::VRInputModule::GetPointerData)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ce2320;
+  constexpr static std::size_t addrs = 0x5970c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::VRUIControls::MouseState* (::VRUIControls::VRInputModule::*)(int32_t)>(&::VRUIControls::VRInputModule::GetMousePointerEventData)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x6ce242c;
+  constexpr static std::size_t addrs = 0x5970d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerEventData* (::VRUIControls::VRInputModule::*)(int32_t)>(
     &::VRUIControls::VRInputModule::GetLastPointerEventData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ce2724;
+  constexpr static std::size_t addrs = 0x597104c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRInputModule::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, bool)>(
     &::VRUIControls::VRInputModule::ShouldStartDrag)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6ce2740;
+  constexpr static std::size_t addrs = 0x5971068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::VRUIControls::VRInputModule::ProcessMove)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6ce2770;
+  constexpr static std::size_t addrs = 0x5971098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::VRUIControls::VRInputModule::ProcessDrag)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x6ce3264;
+  constexpr static std::size_t addrs = 0x5971b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRInputModule::*)(int32_t)>(&::VRUIControls::VRInputModule::IsPointerOverGameObject)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6ce3574;
+  constexpr static std::size_t addrs = 0x5971e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::ClearSelection)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6ce214c;
+  constexpr static std::size_t addrs = 0x5970a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRInputModule*>(), { "ClearSelection", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::ToString)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6ce3618;
+  constexpr static std::size_t addrs = 0x5971f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::VRUIControls::VRInputModule*>(), { ::i2c::class_of<::VRUIControls::VRInputModule*>(), 3 }));
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*)>(
     &::VRUIControls::VRInputModule::DeselectIfSelectionChanged)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6ce3890;
+  constexpr static std::size_t addrs = 0x59721b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,8 +257,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRI
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::Process)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6ce398c;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x59722b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::SendUpdateEventToSelectedObject)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6ce4420;
+  constexpr static std::size_t addrs = 0x5972ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRInputModule*>(), { "SendUpdateEventToSelectedObject", {}, {} })));
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::VRUIControls::MouseButtonEventData*)>(&::VRUIControls::VRInputModule::ProcessMousePress)> {
   constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x6ce3bb4;
+  constexpr static std::size_t addrs = 0x59724e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*)>(
     &::VRUIControls::VRInputModule::HandlePointerExitAndEnter)> {
   constexpr static std::size_t size = 0x998;
-  constexpr static std::size_t addrs = 0x6ce28cc;
+  constexpr static std::size_t addrs = 0x59711f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::EventSystems::RaycastResult, ::UnityEngine::EventSystems::RaycastResult)>(
     &::VRUIControls::VRInputModule::RaycastComparer)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x6ce457c;
+  constexpr static std::size_t addrs = 0x5972e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,8 +327,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6ce49cc;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5973254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRInputModule*>(), { ".ctor", {}, {} })));
@@ -347,27 +347,27 @@ constexpr void VRUIControls::VRInputModule::__cordl_internal_set__vrPointer(::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vrPointer = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& VRUIControls::VRInputModule::__cordl_internal_get__rumblePreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& VRUIControls::VRInputModule::__cordl_internal_get__rumblePreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumblePreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& VRUIControls::VRInputModule::__cordl_internal_get__rumblePreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& VRUIControls::VRInputModule::__cordl_internal_get__rumblePreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumblePreset;
 }
-constexpr void VRUIControls::VRInputModule::__cordl_internal_set__rumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void VRUIControls::VRInputModule::__cordl_internal_set__rumblePreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rumblePreset = value;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& VRUIControls::VRInputModule::__cordl_internal_get__hapticFeedbackManager() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& VRUIControls::VRInputModule::__cordl_internal_get__hapticFeedbackManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& VRUIControls::VRInputModule::__cordl_internal_get__hapticFeedbackManager() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& VRUIControls::VRInputModule::__cordl_internal_get__hapticFeedbackManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr void VRUIControls::VRInputModule::__cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
+constexpr void VRUIControls::VRInputModule::__cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticFeedbackManager = value;
 }

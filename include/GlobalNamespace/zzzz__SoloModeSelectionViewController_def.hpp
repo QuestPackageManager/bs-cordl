@@ -75,7 +75,7 @@ public:
   static ::GlobalNamespace::SoloModeSelectionViewController_MenuType const OneSaberMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6451 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,24 +117,24 @@ public:
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>,
                                                                                      ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x57ad0c8, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a1cb2c, size 0x240, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x57ad308, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x5a1cd6c, size 0x28, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::SoloModeSelectionViewController_MenuType subMenuType);
 
   static inline ::GlobalNamespace::SoloModeSelectionViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x57ad334, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x5a1cd98, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
-  /// @brief Method <DidActivate>b__8_1, addr 0x57ad358, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x5a1cdbc, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_1();
 
-  /// @brief Method <DidActivate>b__8_2, addr 0x57ad37c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_2, addr 0x5a1cde0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_2();
 
-  /// @brief Method <DidActivate>b__8_3, addr 0x57ad3a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_3, addr 0x5a1ce04, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__dismissButton() const;
@@ -169,13 +169,13 @@ public:
   constexpr void
   __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value);
 
-  /// @brief Method .ctor, addr 0x57ad330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1cd94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x57acf48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5a1c9ac, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x57ad008, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5a1ca6c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value);
 
 protected:
@@ -193,7 +193,7 @@ public:
   SoloModeSelectionViewController(SoloModeSelectionViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6452 };
 
   /// @brief Field _freePlayModeButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____freePlayModeButton;

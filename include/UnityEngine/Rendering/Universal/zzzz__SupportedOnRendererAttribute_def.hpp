@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__rendererTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x677ad1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b9698, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* renderer);
 
-  /// @brief Method .ctor, addr 0x677adc0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b973c, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*> renderers);
 
-  /// @brief Method get_rendererTypes, addr 0x677ad14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendererTypes, addr 0x68b9690, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_rendererTypes();
 
 protected:
@@ -63,7 +63,7 @@ public:
   SupportedOnRendererAttribute(SupportedOnRendererAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12939 };
 
   /// @brief Field <rendererTypes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____rendererTypes_k__BackingField;

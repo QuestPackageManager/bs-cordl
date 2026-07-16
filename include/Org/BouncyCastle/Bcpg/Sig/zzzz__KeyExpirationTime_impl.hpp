@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int64_t)>(&::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::TimeToBytes)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35d635c;
+  constexpr static std::size_t addrs = 0x3692814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::*)(bool, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35d63f4;
+  constexpr static std::size_t addrs = 0x36928ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::*)(bool, int64_t)>(&::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35d640c;
+  constexpr static std::size_t addrs = 0x36928c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::*)()>(&::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::get_Time)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35d6444;
+  constexpr static std::size_t addrs = 0x36928fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime*>(), { "get_Time", {}, {} })));

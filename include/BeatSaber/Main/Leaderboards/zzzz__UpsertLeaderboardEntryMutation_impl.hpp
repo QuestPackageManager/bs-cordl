@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifiers*)>(&::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x320d0e8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x32a4068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* (*)(::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapKey,
                                                                                                            ::GlobalNamespace::GameplayModifiers*)>(
         &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::ConvertInputData)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x320d5d4;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x32a454c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

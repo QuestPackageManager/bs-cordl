@@ -12,13 +12,7 @@ namespace GlobalNamespace {
 struct AuthenticationToken_PlatformType;
 }
 namespace GlobalNamespace {
-struct AuthenticationToken;
-}
-namespace GlobalNamespace {
 struct PlatformEnvironment;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,9 +37,6 @@ public:
   /// @brief Convert operator to "::BGNet::Core::IPlatformAccessTokenFetcher"
   constexpr operator ::BGNet::Core::IPlatformAccessTokenFetcher*() noexcept;
 
-  /// @brief Method GetAuthenticationToken, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
-
   /// @brief Method GetTokenPlatform, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::AuthenticationToken_PlatformType GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
@@ -66,7 +57,7 @@ public:
   IAuthenticationTokenProvider(IAuthenticationTokenProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

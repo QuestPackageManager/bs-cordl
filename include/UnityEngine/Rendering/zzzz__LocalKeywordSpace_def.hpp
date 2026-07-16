@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalKeywordSpace)
@@ -12,6 +13,9 @@ template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::Rendering {
+struct LocalKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -27,22 +31,30 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE LocalKeywordSpace {
 public:
   // Declarations
+  __declspec(property(get = get_keywords)) ::ArrayW<::UnityEngine::Rendering::LocalKeyword> keywords;
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x69d6c18, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b2a69c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x69d6c94, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b2a718, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x69d6c10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b2a61c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
+
+  /// @brief Method GetKeywords, addr 0x6b2a624, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> GetKeywords();
+
+  /// @brief Method get_keywords, addr 0x6b2a660, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> get_keywords();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x69d6bf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b2a600, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []
@@ -53,7 +65,7 @@ public:
   constexpr LocalKeywordSpace(::System::IntPtr m_KeywordSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10864 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

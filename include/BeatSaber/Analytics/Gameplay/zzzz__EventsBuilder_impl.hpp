@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)()>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::get_HasEndEvent)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x31cd660;
+  constexpr static std::size_t addrs = 0x3261440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(), { "get_HasEndEvent", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::StringW)>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::SetMatchId)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31cd868;
+  constexpr static std::size_t addrs = 0x3261648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analyt
                                                                                                                  ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField*)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::SetupSegmentFields)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31cd8c0;
+  constexpr static std::size_t addrs = 0x32616a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x31cd8cc;
+  constexpr static std::size_t addrs = 0x32616ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(),
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                                       ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField*)>(
         &::BeatSaber::Analytics::Gameplay::EventsBuilder::StartSegment)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x31cd954;
+  constexpr static std::size_t addrs = 0x3261734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventsBuilder* (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::ForSegment)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x31cde64;
+  constexpr static std::size_t addrs = 0x3261c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventsBuilder* (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(uint32_t)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::EndSegment)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x31ce054;
+  constexpr static std::size_t addrs = 0x3261e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventsBuilder* (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(uint32_t)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::AbortSegment)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x31ce260;
+  constexpr static std::size_t addrs = 0x3262040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::StringW)>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::HasOngoingSegment)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31ce410;
+  constexpr static std::size_t addrs = 0x32621f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)()>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::ThrowIfAlreadyContainsEndEvent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x31ce204;
+  constexpr static std::size_t addrs = 0x3261fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::G
     ::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::StringW, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*, float_t)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::WithMetric)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x31ce464;
+  constexpr static std::size_t addrs = 0x3262244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventsBuilder* (
     ::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::StringW, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*)>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::WithCustomEvent)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x31ce61c;
+  constexpr static std::size_t addrs = 0x32623fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*>* (
     ::BeatSaber::Analytics::Gameplay::EventsBuilder::*)()>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::Build)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x31ce7c8;
+  constexpr static std::size_t addrs = 0x32625a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(), { "Build", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilder::IsEndEvent)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x31cd760;
+  constexpr static std::size_t addrs = 0x3261540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilder::*)(::StringW)>(&::BeatSaber::Analytics::Gameplay::EventsBuilder::TryFlushSegmentData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31ceafc;
+  constexpr static std::size_t addrs = 0x32628dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

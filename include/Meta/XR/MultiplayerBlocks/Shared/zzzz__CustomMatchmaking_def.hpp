@@ -125,7 +125,7 @@ public:
   CustomMatchmaking_ICustomMatchmakingBehaviour(CustomMatchmaking_ICustomMatchmakingBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -147,7 +147,7 @@ public:
   constexpr CustomMatchmaking_RoomCreationOptions(::StringW RoomPassword, int32_t MaxPlayersPerRoom, bool IsPrivate, ::StringW LobbyName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20716 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -187,7 +187,7 @@ public:
   // Declarations
   __declspec(property(get = get_IsSuccess)) bool IsSuccess;
 
-  /// @brief Method get_IsSuccess, addr 0x5937b84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsSuccess, addr 0x5a71288, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsSuccess();
 
   // Ctor Parameters []
@@ -199,7 +199,7 @@ public:
   constexpr CustomMatchmaking_RoomOperationResult(::StringW ErrorMessage, ::StringW RoomToken, ::StringW RoomPassword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20717 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -236,10 +236,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5937ba4, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a712a8, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5937e70, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a71574, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -259,7 +259,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -301,10 +301,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5937ef0, size 0x3c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a715f4, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x59382b8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a719bc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -325,7 +325,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20719 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -372,10 +372,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5938338, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a71a3c, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x59386e4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a71de8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -396,7 +396,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -443,10 +443,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5938764, size 0x3b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a71e68, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5938b14, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a72218, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -467,7 +467,7 @@ public:
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -572,28 +572,28 @@ public:
   /// @brief Field onRoomLeaveFinished, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_onRoomLeaveFinished, put = __cordl_internal_set_onRoomLeaveFinished)) ::UnityEngine::Events::UnityEvent* onRoomLeaveFinished;
 
-  /// @brief Method CreateRoom, addr 0x5937470, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateRoom, addr 0x5a70b74, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* CreateRoom();
 
-  /// @brief Method CreateRoom, addr 0x593754c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateRoom, addr 0x5a70c50, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>*
   CreateRoom(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions options);
 
-  /// @brief Method GenerateRoomPassword, addr 0x5937a5c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GenerateRoomPassword, addr 0x5a71160, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW GenerateRoomPassword();
 
-  /// @brief Method JoinOpenRoom, addr 0x5937738, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method JoinOpenRoom, addr 0x5a70e3c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* JoinOpenRoom(::StringW roomLobby);
 
-  /// @brief Method JoinRoom, addr 0x5937648, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method JoinRoom, addr 0x5a70d4c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* JoinRoom(::StringW roomToken, ::StringW roomPassword);
 
-  /// @brief Method LeaveRoom, addr 0x5937828, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method LeaveRoom, addr 0x5a70f2c, size 0xc4, virtual false, abstract: false, final false
   inline void LeaveRoom();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5937384, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a70a88, size 0xec, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_ICustomMatchmakingBehaviour* const& __cordl_internal_get_MatchmakingBehaviour() const;
@@ -644,40 +644,40 @@ public:
 
   constexpr void __cordl_internal_set_onRoomLeaveFinished(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method .ctor, addr 0x5937b2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a71230, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConnectedRoomToken, addr 0x59379a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectedRoomToken, addr 0x5a710a4, size 0xbc, virtual false, abstract: false, final false
   inline ::StringW get_ConnectedRoomToken();
 
-  /// @brief Method get_IsConnected, addr 0x59378ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_IsConnected, addr 0x5a70ff0, size 0xb4, virtual false, abstract: false, final false
   inline bool get_IsConnected();
 
-  /// @brief Method get_IsPasswordProtected, addr 0x5937374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPasswordProtected, addr 0x5a70a78, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPasswordProtected();
 
-  /// @brief Method get_IsPrivate, addr 0x5937354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrivate, addr 0x5a70a58, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPrivate();
 
-  /// @brief Method get_LobbyName, addr 0x5937344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LobbyName, addr 0x5a70a48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LobbyName();
 
-  /// @brief Method get_MaxPlayersPerRoom, addr 0x5937364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxPlayersPerRoom, addr 0x5a70a68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxPlayersPerRoom();
 
-  /// @brief Method get_SupportsRoomPassword, addr 0x5937a78, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsRoomPassword, addr 0x5a7117c, size 0xb4, virtual false, abstract: false, final false
   inline bool get_SupportsRoomPassword();
 
-  /// @brief Method set_IsPasswordProtected, addr 0x593737c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsPasswordProtected, addr 0x5a70a80, size 0x8, virtual false, abstract: false, final false
   inline void set_IsPasswordProtected(bool value);
 
-  /// @brief Method set_IsPrivate, addr 0x593735c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsPrivate, addr 0x5a70a60, size 0x8, virtual false, abstract: false, final false
   inline void set_IsPrivate(bool value);
 
-  /// @brief Method set_LobbyName, addr 0x593734c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LobbyName, addr 0x5a70a50, size 0x8, virtual false, abstract: false, final false
   inline void set_LobbyName(::StringW value);
 
-  /// @brief Method set_MaxPlayersPerRoom, addr 0x593736c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxPlayersPerRoom, addr 0x5a70a70, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxPlayersPerRoom(int32_t value);
 
 protected:
@@ -698,7 +698,7 @@ public:
   static constexpr ::ConstString DebugCategory{ u"Custom Matchmaking" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20722 };
 
   /// @brief Field onRoomCreationFinished, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* ___onRoomCreationFinished;

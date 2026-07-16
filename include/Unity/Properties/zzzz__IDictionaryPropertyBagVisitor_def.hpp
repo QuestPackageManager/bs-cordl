@@ -30,7 +30,7 @@ public:
   IDictionaryPropertyBagVisitor(IDictionaryPropertyBagVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

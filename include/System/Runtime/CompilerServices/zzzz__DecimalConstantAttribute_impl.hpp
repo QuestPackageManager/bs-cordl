@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)(uint8_t, uint8_t, uint32_t, uint32_t, uint32_t)>(
     &::System::Runtime::CompilerServices::DecimalConstantAttribute::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a34398;
+  constexpr static std::size_t addrs = 0x5b6e068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)()>(
     &::System::Runtime::CompilerServices::DecimalConstantAttribute::get_Value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a3440c;
+  constexpr static std::size_t addrs = 0x5b6e0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

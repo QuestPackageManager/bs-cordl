@@ -54,7 +54,7 @@ public:
   __declspec(property(get = __cordl_internal_get__tabBarViewControllerPrefab, put = __cordl_internal_set__tabBarViewControllerPrefab)) ::UnityW<::GlobalNamespace::TabBarViewController>
       _tabBarViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x58c6854, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59f7500, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainSettingsMenuViewControllersInstaller* New_ctor();
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__tabBarViewControllerPrefab(::UnityW<::GlobalNamespace::TabBarViewController> value);
 
-  /// @brief Method .ctor, addr 0x58c691c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f75c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   MainSettingsMenuViewControllersInstaller(MainSettingsMenuViewControllersInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6280 };
 
   /// @brief Field _defaultSettingsMenuViewController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> ____defaultSettingsMenuViewController;

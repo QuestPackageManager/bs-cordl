@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::AnalyticsEventsDispatcher* (::Analytics::Model::TelemetryModel::*)()>(
     &::Analytics::Model::TelemetryModel::get_analyticsEventsDispatcher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31c3a48;
+  constexpr static std::size_t addrs = 0x3256a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Analytics::Model::TelemetryModel*>(), { "get_analyticsEventsDispatcher", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Analytics::Model::TelemetryModel::*)(::BeatGames::Analytics::AnalyticsEventsDispatcher*)>(
     &::Analytics::Model::TelemetryModel::SetEventDispatcher)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x31c3a50;
+  constexpr static std::size_t addrs = 0x3256a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Analytics::Model::TelemetryModel*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Analytics::Model::TelemetryModel::*)(::StringW, int32_t)>(&::Analytics::Model::TelemetryModel::SendAppLoadingEvent)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x31c3c14;
+  constexpr static std::size_t addrs = 0x3256c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Analytics::Model::TelemetryModel::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Analytics::Model::TelemetryModel::SendLevelLoadingEvent)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x31c3d50;
+  constexpr static std::size_t addrs = 0x3256d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Analytics::Model::TelemetryModel::*)(::StringW, ::StringW, int32_t)>(&::Analytics::Model::TelemetryModel::SendPromoEvent)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x31c3e94;
+  constexpr static std::size_t addrs = 0x3256ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Analytics::Model::TelemetryModel::*)()>(&::Analytics::Model::TelemetryModel::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x31c3fd4;
+  constexpr static std::size_t addrs = 0x325700c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Analytics::Model::TelemetryModel*>(), { ".ctor", {}, {} })));

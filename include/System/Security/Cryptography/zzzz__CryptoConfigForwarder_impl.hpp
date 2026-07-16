@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfigForwarder::CreateFromName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59d5614;
+  constexpr static std::size_t addrs = 0x5b0f2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

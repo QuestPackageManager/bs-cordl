@@ -52,13 +52,13 @@ public:
   /// @brief Field keyData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_keyData, put = __cordl_internal_set_keyData)) ::Org::BouncyCastle::Asn1::DerBitString* keyData;
 
-  /// @brief Method GetInstance, addr 0x35a7acc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3663f84, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x35a7ae0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3663f98, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetPublicKey, addr 0x35a7df4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x36642ac, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetPublicKey();
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> publicKey);
@@ -67,10 +67,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ParsePublicKey, addr 0x35a7dcc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ParsePublicKey, addr 0x3664284, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ParsePublicKey();
 
-  /// @brief Method ToAsn1Object, addr 0x35a7e24, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36642dc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_keyData(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x35a7d54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366420c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> publicKey);
 
-  /// @brief Method .ctor, addr 0x35a7ce4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366419c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::Asn1Encodable* publicKey);
 
-  /// @brief Method .ctor, addr 0x35a7b80, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3664038, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgorithmID, addr 0x35a7dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmID, addr 0x366427c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
 
-  /// @brief Method get_PublicKeyData, addr 0x35a7e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyData, addr 0x36642d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_PublicKeyData();
 
 protected:

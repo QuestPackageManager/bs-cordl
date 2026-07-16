@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::InputActions::RuntimeSettings> (*)()>(&::Meta::XR::InputActions::RuntimeSettings::get_Instance)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5d1697c;
+  constexpr static std::size_t addrs = 0x5e4eba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::InputActions::RuntimeSettings*>(), { "get_Instance", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::InputActions::RuntimeSettings::*)()>(&::Meta::XR::InputActions::RuntimeSettings::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5d16a8c;
+  constexpr static std::size_t addrs = 0x5e4ecb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::InputActions::RuntimeSettings*>(), { ".ctor", {}, {} })));

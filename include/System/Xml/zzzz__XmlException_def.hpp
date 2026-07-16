@@ -60,22 +60,22 @@ public:
   /// @brief Field sourceUri, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_sourceUri, put = __cordl_internal_set_sourceUri)) ::StringW sourceUri;
 
-  /// @brief Method BuildCharExceptionArgs, addr 0x61a5038, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BuildCharExceptionArgs, addr 0x62e0134, size 0x54, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> BuildCharExceptionArgs(::ArrayW<char16_t> data, int32_t length, int32_t invCharIndex);
 
-  /// @brief Method BuildCharExceptionArgs, addr 0x619b518, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BuildCharExceptionArgs, addr 0x62d6614, size 0x54, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> BuildCharExceptionArgs(::StringW data, int32_t invCharIndex);
 
-  /// @brief Method BuildCharExceptionArgs, addr 0x61a09f8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method BuildCharExceptionArgs, addr 0x62dbaf4, size 0x25c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> BuildCharExceptionArgs(char16_t invChar, char16_t nextChar);
 
-  /// @brief Method CreateMessage, addr 0x61a42f0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method CreateMessage, addr 0x62df3ec, size 0x250, virtual false, abstract: false, final false
   static inline ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW> args, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method FormatUserMessage, addr 0x61a4828, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FormatUserMessage, addr 0x62df924, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW FormatUserMessage(::StringW message, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method GetObjectData, addr 0x61a4540, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x62df63c, size 0x184, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::XmlException* New_ctor();
@@ -152,73 +152,73 @@ public:
 
   constexpr void __cordl_internal_set_sourceUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61a46c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62df7c0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x61a3f44, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62df040, size 0x3ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x61a46dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62df7d8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x61a46f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62df7f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x61a46f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62df7ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x61a4708, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62df804, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri);
 
-  /// @brief Method .ctor, addr 0x619b460, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d655c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor, addr 0x61a4c7c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dfd78, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::System::Exception* innerException, ::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method .ctor, addr 0x61a4a50, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dfb4c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method .ctor, addr 0x61a033c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62db438, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x61a4e68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dff64, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri);
 
-  /// @brief Method .ctor, addr 0x61a498c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dfa88, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri);
 
-  /// @brief Method .ctor, addr 0x619b56c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d6668, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args);
 
-  /// @brief Method .ctor, addr 0x61a4fbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e00b8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x61a490c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dfa08, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri);
 
-  /// @brief Method .ctor, addr 0x61a4e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dff5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method .ctor, addr 0x61a4ae8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dfbe4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Xml::IXmlLineInfo* lineInfo, ::StringW sourceUri);
 
-  /// @brief Method .ctor, addr 0x61a05c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62db6c4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x61a4f40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e003c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri);
 
-  /// @brief Method get_LineNumber, addr 0x61a508c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x62e0188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x61a5094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x62e0190, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Message, addr 0x61a509c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x62e0198, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_ResString, addr 0x61a50b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResString, addr 0x62e01b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ResString();
 
 protected:
@@ -236,7 +236,7 @@ public:
   XmlException(XmlException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9425 };
 
   /// @brief Field res, offset: 0x90, size: 0x8, def value: None
   ::StringW ___res;

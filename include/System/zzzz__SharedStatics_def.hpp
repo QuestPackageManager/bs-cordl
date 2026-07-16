@@ -28,12 +28,12 @@ public:
   /// @brief Field _sharedStatics, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__sharedStatics, put = setStaticF__sharedStatics)) ::System::SharedStatics* _sharedStatics;
 
-  /// @brief Method GetSharedStringMaker, addr 0x5b4e020, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetSharedStringMaker, addr 0x5c87cf8, size 0x1a4, virtual false, abstract: false, final false
   static inline ::System::Security::Util::Tokenizer_StringMaker* GetSharedStringMaker();
 
   static inline ::System::SharedStatics* New_ctor();
 
-  /// @brief Method ReleaseSharedStringMaker, addr 0x5b4e1c4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSharedStringMaker, addr 0x5c87e9c, size 0x124, virtual false, abstract: false, final false
   static inline void ReleaseSharedStringMaker(::by_ref<::System::Security::Util::Tokenizer_StringMaker*> maker);
 
   constexpr ::System::Security::Util::Tokenizer_StringMaker* const& __cordl_internal_get__maker() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__maker(::System::Security::Util::Tokenizer_StringMaker* value);
 
-  /// @brief Method .ctor, addr 0x5b4e018, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c87cf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::SharedStatics* getStaticF__sharedStatics();

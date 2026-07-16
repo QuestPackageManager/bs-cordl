@@ -19,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE ClassLibraryInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x69864f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6ad9898, size 0x8, virtual false, abstract: false, final false
   static inline void Init();
 
 protected:
@@ -37,7 +37,7 @@ public:
   ClassLibraryInitializer(ClassLibraryInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

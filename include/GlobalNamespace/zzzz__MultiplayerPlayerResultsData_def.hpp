@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x367dbd8, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x37392d0, size 0x1dc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer,
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x367dbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37392c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
   /// @brief Convert to "::System::IComparable"
@@ -93,7 +93,7 @@ public:
   MultiplayerPlayerResultsData(MultiplayerPlayerResultsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15080 };
 
   /// @brief Field connectedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ___connectedPlayer;

@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
-  /// @brief Method .ctor, addr 0x3659458, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371629c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
                     float_t strobeBrightness, bool strobeFade);
 
@@ -123,7 +123,7 @@ public:
   LightColorBaseData(LightColorBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14900 };
 
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;

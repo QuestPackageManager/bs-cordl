@@ -175,7 +175,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x66d24cc, size 0x460, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x680fbd8, size 0x460, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -196,7 +196,7 @@ public:
                                                    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> supportedPackedMaterialDatas) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -242,7 +242,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x66d292c, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6810038, size 0x1d4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -262,7 +262,7 @@ public:
                                                           ::Unity::Collections::NativeList_1<int32_t> unsupportedRenderers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17586 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -303,7 +303,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x66d2b00, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x681020c, size 0x2cc, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -325,7 +325,7 @@ public:
                                                            ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> selectedRenderGroups) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17587 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -375,7 +375,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x66d2dcc, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68104d8, size 0x164, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -395,7 +395,7 @@ public:
       ::Unity::Collections::NativeHashSet_1<int32_t> filteredMaterials) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17588 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -491,7 +491,7 @@ public:
   GPUResidentDrawer_Strings(GPUResidentDrawer_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -541,164 +541,164 @@ public:
 
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::GPUResidentDrawerSettings settings;
 
-  /// @brief Method AppendNewInstance, addr 0x66d2360, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AppendNewInstance, addr 0x680fa6c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle AppendNewInstance(int32_t rendererGroupID, ::by_ref<::UnityEngine::Matrix4x4> instanceTransform);
 
-  /// @brief Method ClassifyMaterials, addr 0x66d12f8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ClassifyMaterials, addr 0x680ea04, size 0x1c4, virtual false, abstract: false, final false
   inline void ClassifyMaterials(::Unity::Collections::NativeArray_1<int32_t> materials, ::by_ref<::Unity::Collections::NativeList_1<int32_t>> unsupportedMaterials,
                                 ::by_ref<::Unity::Collections::NativeList_1<int32_t>> supportedMaterials,
                                 ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas,
                                 ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method CleanUp, addr 0x66d0328, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x680da34, size 0x60, virtual false, abstract: false, final false
   static inline void CleanUp();
 
-  /// @brief Method Dispose, addr 0x66d0388, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x680da94, size 0x29c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FindRenderersFromMaterials, addr 0x66d1fe8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method FindRenderersFromMaterials, addr 0x680f6f4, size 0x1fc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<int32_t> FindRenderersFromMaterials(::Unity::Collections::NativeArray_1<int32_t> sortedExcludeRenderers,
                                                                                 ::Unity::Collections::NativeHashSet_1<int32_t> materials, ::Unity::Collections::Allocator rendererListAllocator);
 
-  /// @brief Method FindUnsupportedRenderers, addr 0x66d14bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FindUnsupportedRenderers, addr 0x680ebc8, size 0x124, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<int32_t> FindUnsupportedRenderers(::Unity::Collections::NativeArray_1<int32_t> unsupportedMaterials);
 
-  /// @brief Method FreeInstances, addr 0x66d2308, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FreeInstances, addr 0x680fa14, size 0x58, virtual false, abstract: false, final false
   inline void FreeInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method FreeRendererGroupInstances, addr 0x66d2208, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FreeRendererGroupInstances, addr 0x680f914, size 0xe8, virtual false, abstract: false, final false
   inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1<int32_t> unsupportedRendererGroupIDs);
 
-  /// @brief Method GetDebugStats, addr 0x66c7d34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDebugStats, addr 0x6805440, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugRendererBatcherStats* GetDebugStats();
 
-  /// @brief Method GetGlobalSettingsFromRPAsset, addr 0x66cb958, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalSettingsFromRPAsset, addr 0x6809064, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUResidentDrawerSettings GetGlobalSettingsFromRPAsset();
 
-  /// @brief Method GetMaterialsWithChangedPackedMaterial, addr 0x66d1e64, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialsWithChangedPackedMaterial, addr 0x680f570, size 0x184, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeHashSet_1<int32_t>
   GetMaterialsWithChangedPackedMaterial(::Unity::Collections::NativeArray_1<int32_t> materials,
                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method InsertIntoPlayerLoop, addr 0x66cfb30, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method InsertIntoPlayerLoop, addr 0x680d23c, size 0x424, virtual false, abstract: false, final false
   inline void InsertIntoPlayerLoop();
 
-  /// @brief Method InstanceOcclusionTest, addr 0x66cf84c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InstanceOcclusionTest, addr 0x680cf58, size 0xa0, virtual false, abstract: false, final false
   static inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                            ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
-  /// @brief Method IsEnabled, addr 0x66cbcac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x68093b8, size 0x54, virtual false, abstract: false, final false
   static inline bool IsEnabled();
 
-  /// @brief Method IsForcedOnViaCommandLine, addr 0x66d0230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsForcedOnViaCommandLine, addr 0x680d93c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsForcedOnViaCommandLine();
 
-  /// @brief Method IsGPUResidentDrawerSupportedBySRP, addr 0x66cbab4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method IsGPUResidentDrawerSupportedBySRP, addr 0x68091c0, size 0x1a4, virtual false, abstract: false, final false
   static inline bool IsGPUResidentDrawerSupportedBySRP(::UnityEngine::Rendering::GPUResidentDrawerSettings settings, ::by_ref<::StringW> message, ::by_ref<::UnityEngine::LogType> severity);
 
-  /// @brief Method IsInstanceOcclusionCullingEnabled, addr 0x66cf714, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsInstanceOcclusionCullingEnabled, addr 0x680ce20, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsInstanceOcclusionCullingEnabled();
 
-  /// @brief Method IsOcclusionForcedOnViaCommandLine, addr 0x66d0238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsOcclusionForcedOnViaCommandLine, addr 0x680d944, size 0x8, virtual false, abstract: false, final false
   static inline bool IsOcclusionForcedOnViaCommandLine();
 
-  /// @brief Method IsProjectSupported, addr 0x66d23e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsProjectSupported, addr 0x680faec, size 0x24, virtual false, abstract: false, final false
   static inline bool IsProjectSupported();
 
-  /// @brief Method IsProjectSupported, addr 0x66d2404, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsProjectSupported, addr 0x680fb10, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsProjectSupported(::by_ref<::StringW> message, ::by_ref<::UnityEngine::LogType> severity);
 
-  /// @brief Method LogMessage, addr 0x66d0bfc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method LogMessage, addr 0x680e308, size 0xb8, virtual false, abstract: false, final false
   static inline void LogMessage(::StringW message, ::UnityEngine::LogType severity);
 
   static inline ::UnityEngine::Rendering::GPUResidentDrawer* New_ctor(::UnityEngine::Rendering::GPUResidentDrawerSettings settings, int32_t maxInstanceCount, int32_t maxTreeInstanceCount);
 
-  /// @brief Method OnBeginCameraRendering, addr 0x66d1290, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x680e99c, size 0x34, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method OnBeginContextRendering, addr 0x66d10e8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnBeginContextRendering, addr 0x680e7f4, size 0xe8, virtual false, abstract: false, final false
   inline void OnBeginContextRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method OnEndCameraRendering, addr 0x66d12c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEndCameraRendering, addr 0x680e9d0, size 0x34, virtual false, abstract: false, final false
   inline void OnEndCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method OnEndContextRendering, addr 0x66d11d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnEndContextRendering, addr 0x680e8dc, size 0xc0, virtual false, abstract: false, final false
   inline void OnEndContextRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method OnSceneLoaded, addr 0x66d0cd0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x680e3dc, size 0x28, virtual false, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method OnSetupAmbientProbe, addr 0x66cf7e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnSetupAmbientProbe, addr 0x680cef0, size 0x68, virtual false, abstract: false, final false
   static inline void OnSetupAmbientProbe();
 
-  /// @brief Method PostCullBeginCameraRendering, addr 0x66cf780, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PostCullBeginCameraRendering, addr 0x680ce8c, size 0x64, virtual false, abstract: false, final false
   static inline void PostCullBeginCameraRendering(::UnityEngine::Rendering::RenderRequestBatcherContext context);
 
-  /// @brief Method PostPostLateUpdate, addr 0x66d0d54, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method PostPostLateUpdate, addr 0x680e460, size 0x394, virtual false, abstract: false, final false
   inline void PostPostLateUpdate();
 
-  /// @brief Method PostPostLateUpdateStatic, addr 0x66d0cf8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PostPostLateUpdateStatic, addr 0x680e404, size 0x5c, virtual false, abstract: false, final false
   static inline void PostPostLateUpdateStatic();
 
-  /// @brief Method ProcessLODGroups, addr 0x66d17b0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ProcessLODGroups, addr 0x680eebc, size 0x78, virtual false, abstract: false, final false
   inline void ProcessLODGroups(::Unity::Collections::NativeArray_1<int32_t> changedID, ::Unity::Collections::NativeArray_1<int32_t> destroyed,
                                ::Unity::Collections::NativeArray_1<int32_t> transformedID);
 
-  /// @brief Method ProcessMaterials, addr 0x66d15e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ProcessMaterials, addr 0x680ecec, size 0x74, virtual false, abstract: false, final false
   inline void ProcessMaterials(::Unity::Collections::NativeArray_1<int32_t> destroyedID, ::Unity::Collections::NativeArray_1<int32_t> unsupportedMaterials);
 
-  /// @brief Method ProcessMeshes, addr 0x66d1654, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMeshes, addr 0x680ed60, size 0x15c, virtual false, abstract: false, final false
   inline void ProcessMeshes(::Unity::Collections::NativeArray_1<int32_t> destroyedID);
 
-  /// @brief Method ProcessRendererMaterialChanges, addr 0x66d1a64, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ProcessRendererMaterialChanges, addr 0x680f170, size 0x3dc, virtual false, abstract: false, final false
   inline void ProcessRendererMaterialChanges(::Unity::Collections::NativeArray_1<int32_t> excludedRenderers, ::Unity::Collections::NativeArray_1<int32_t> changedMaterials,
                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> changedPackedMaterialDatas);
 
-  /// @brief Method ProcessRenderers, addr 0x66d1828, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ProcessRenderers, addr 0x680ef34, size 0x23c, virtual false, abstract: false, final false
   inline void ProcessRenderers(::UnityEngine::TypeDispatchData rendererChanges, ::Unity::Collections::NativeArray_1<int32_t> unsupportedRenderers);
 
-  /// @brief Method Recreate, addr 0x66d0264, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Recreate, addr 0x680d970, size 0xc4, virtual false, abstract: false, final false
   static inline void Recreate(::UnityEngine::Rendering::GPUResidentDrawerSettings settings);
 
-  /// @brief Method Reinitialize, addr 0x66d0240, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x680d94c, size 0x24, virtual false, abstract: false, final false
   static inline void Reinitialize();
 
-  /// @brief Method ReinitializeIfNeeded, addr 0x66cf98c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReinitializeIfNeeded, addr 0x680d098, size 0x4, virtual false, abstract: false, final false
   static inline void ReinitializeIfNeeded();
 
-  /// @brief Method RemoveFromPlayerLoop, addr 0x66cff54, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromPlayerLoop, addr 0x680d660, size 0x2dc, virtual false, abstract: false, final false
   inline void RemoveFromPlayerLoop();
 
-  /// @brief Method RenderDebugOccluderOverlay, addr 0x66cfa4c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method RenderDebugOccluderOverlay, addr 0x680d158, size 0xe4, virtual false, abstract: false, final false
   static inline void RenderDebugOccluderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
                                                 ::UnityEngine::Vector2 screenPos, float_t maxHeight, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorBuffer);
 
-  /// @brief Method RenderDebugOcclusionTestOverlay, addr 0x66cf990, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method RenderDebugOcclusionTestOverlay, addr 0x680d09c, size 0xbc, virtual false, abstract: false, final false
   static inline void RenderDebugOcclusionTestOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
                                                      int32_t viewInstanceID, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorBuffer);
 
-  /// @brief Method ScheduleQueryMeshInstancesJob, addr 0x66d1e40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryMeshInstancesJob, addr 0x680f54c, size 0x24, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryMeshInstancesJob(::Unity::Collections::NativeArray_1<int32_t> sortedMeshIDs,
                                                                 ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x66d21e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x680f8f0, size 0x24, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
                                                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x66d2398, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x680faa4, size 0x24, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x66d23bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x680fac8, size 0x24, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1<int32_t> instancesOffset,
                                                                          ::Unity::Collections::NativeArray_1<int32_t> instancesCount,
                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method TransformInstances, addr 0x66d22f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TransformInstances, addr 0x680f9fc, size 0x18, virtual false, abstract: false, final false
   inline void TransformInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices);
 
-  /// @brief Method UpdateInstanceOccluders, addr 0x66cf8ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceOccluders, addr 0x680cff8, size 0xa0, virtual false, abstract: false, final false
   static inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParameters,
                                              ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
@@ -738,18 +738,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Settings(::UnityEngine::Rendering::GPUResidentDrawerSettings value);
 
-  /// @brief Method .ctor, addr 0x66d0624, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x680dd30, size 0x5d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUResidentDrawerSettings settings, int32_t maxInstanceCount, int32_t maxTreeInstanceCount);
 
   static inline ::UnityEngine::Rendering::GPUResidentDrawer* getStaticF_s_Instance();
 
-  /// @brief Method get_batcher, addr 0x66d0cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batcher, addr 0x680e3c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUResidentBatcher* get_batcher();
 
-  /// @brief Method get_instance, addr 0x66cf6c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x680cdd4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUResidentDrawer* get_instance();
 
-  /// @brief Method get_settings, addr 0x66d0cbc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x680e3c8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUResidentDrawerSettings get_settings();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Rendering::GPUResidentDrawer* value);
@@ -769,7 +769,7 @@ public:
   GPUResidentDrawer(GPUResidentDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17590 };
 
   /// @brief Field m_ContextIntPtr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_ContextIntPtr;

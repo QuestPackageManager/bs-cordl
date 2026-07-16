@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::AixStructs::sockaddr_dl::*)(::System::IntPtr)>(
     &::System::Net::NetworkInformation::AixStructs::sockaddr_dl::Read)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x62138e0;
+  constexpr static std::size_t addrs = 0x634e9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

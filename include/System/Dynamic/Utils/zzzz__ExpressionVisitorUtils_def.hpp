@@ -39,13 +39,13 @@ namespace System::Dynamic::Utils {
 class CORDL_TYPE ExpressionVisitorUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method VisitArguments, addr 0x5e89924, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method VisitArguments, addr 0x5fc4a20, size 0x298, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Expression*> VisitArguments(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::IArgumentProvider* nodes);
 
-  /// @brief Method VisitBlockExpressions, addr 0x5e894d4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method VisitBlockExpressions, addr 0x5fc45d0, size 0x19c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Expression*> VisitBlockExpressions(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::BlockExpression* block);
 
-  /// @brief Method VisitParameters, addr 0x5e89670, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method VisitParameters, addr 0x5fc476c, size 0x2b4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::ParameterExpression*> VisitParameters(::System::Linq::Expressions::ExpressionVisitor* visitor,
                                                                                             ::System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
 
@@ -64,7 +64,7 @@ public:
   ExpressionVisitorUtils(ExpressionVisitorUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

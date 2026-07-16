@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect_InitData::*)(int32_t, int32_t, ::GlobalNamespace::FloatFxGroupEffectTarget*)>(
     &::GlobalNamespace::FloatFxGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58551c8;
+  constexpr static std::size_t addrs = 0x598d424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(
     ::GlobalNamespace::FloatFxGroupEffect_InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(&::GlobalNamespace::FloatFxGroupEffect::_ctor)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5855464;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x598d6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)()>(&::GlobalNamespace::FloatFxGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58552d8;
+  constexpr static std::size_t addrs = 0x598d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffect*>(), { "Cleanup", {}, {} })));
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(::GlobalNamespace::FloatFxBeatmapEventData*)>(
     &::GlobalNamespace::FloatFxGroupEffect::HandleFloatFxBeatmapEventCallback)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5855684;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x598d8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,12 +116,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::FloatFxGroupEffect.SetValueWithValidation
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(float_t)>(&::GlobalNamespace::FloatFxGroupEffect::SetValueWithValidation)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x598d9e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffect*>(), { "SetValueWithValidation", {}, { ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::FloatFxGroupEffect.SetValue
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(float_t)>(&::GlobalNamespace::FloatFxGroupEffect::SetValue)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5855730;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x598da94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,6 +202,30 @@ constexpr void GlobalNamespace::FloatFxGroupEffect::__cordl_internal_set__initDa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initData = value;
 }
+constexpr float_t& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__lastSetValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetValue;
+}
+constexpr float_t const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__lastSetValue() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetValue;
+}
+constexpr void GlobalNamespace::FloatFxGroupEffect::__cordl_internal_set__lastSetValue(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastSetValue = value;
+}
+constexpr int32_t& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__lastSetValueFrameCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetValueFrameCount;
+}
+constexpr int32_t const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__lastSetValueFrameCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetValueFrameCount;
+}
+constexpr void GlobalNamespace::FloatFxGroupEffect::__cordl_internal_set__lastSetValueFrameCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastSetValueFrameCount = value;
+}
 inline void GlobalNamespace::FloatFxGroupEffect::_ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                        ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method =
@@ -208,6 +245,11 @@ inline void GlobalNamespace::FloatFxGroupEffect::HandleFloatFxBeatmapEventCallba
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffect*>(), { "HandleFloatFxBeatmapEventCallback", {}, { ::i2c::type_of<::GlobalNamespace::FloatFxBeatmapEventData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentEvent);
+}
+inline void GlobalNamespace::FloatFxGroupEffect::SetValueWithValidation(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffect*>(), { "SetValueWithValidation", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::FloatFxGroupEffect::SetValue(float_t value) {
   static auto* ___internal_method =

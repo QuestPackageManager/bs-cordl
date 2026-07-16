@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::Process* (*)(::StringW, ::StringW)>(&::BGLib::DotnetExtension::ExternalProcessHelper::StartBackgroundProcess)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3254f28;
+  constexpr static std::size_t addrs = 0x330d7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::ExternalProcessHelper*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW, ::StringW)>(
     &::BGLib::DotnetExtension::ExternalProcessHelper::GetProcessOutputLines)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x3254f9c;
+  constexpr static std::size_t addrs = 0x330d860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::ExternalProcessHelper*>(),

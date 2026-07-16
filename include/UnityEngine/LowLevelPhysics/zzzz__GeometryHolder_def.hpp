@@ -38,7 +38,7 @@ public:
   constexpr GeometryHolder__m_Blob_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -81,7 +81,7 @@ public:
                            ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer m_Blob) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

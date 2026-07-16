@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::NoInterpFloatParameter* New_ctor(float_t value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6689d64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c7470, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(float_t value, bool overrideState);
 
 protected:
@@ -40,7 +40,7 @@ public:
   NoInterpFloatParameter(NoInterpFloatParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12319 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

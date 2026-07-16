@@ -71,27 +71,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IVolume"
   constexpr operator ::UnityEngine::Rendering::IVolume*() noexcept;
 
-  /// @brief Method HasInstantiatedProfile, addr 0x66870fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HasInstantiatedProfile, addr 0x67c4808, size 0x64, virtual false, abstract: false, final false
   inline bool HasInstantiatedProfile();
 
   static inline ::UnityEngine::Rendering::Volume* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6687214, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x67c4920, size 0x6c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6687160, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67c486c, size 0xb4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6687440, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x67c4b4c, size 0x14, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Update, addr 0x6687280, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x67c498c, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLayer, addr 0x6687298, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLayer, addr 0x67c49a4, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLayer();
 
-  /// @brief Method UpdatePriority, addr 0x6687340, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UpdatePriority, addr 0x67c4a4c, size 0x100, virtual false, abstract: false, final false
   inline void UpdatePriority();
 
   constexpr float_t const& __cordl_internal_get_blendDistance() const;
@@ -148,28 +148,28 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x6687454, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c4b60, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colliders, addr 0x6687078, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_colliders, addr 0x67c4784, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* get_colliders();
 
-  /// @brief Method get_isGlobal, addr 0x6686ddc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isGlobal, addr 0x67c44e8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isGlobal();
 
-  /// @brief Method get_profile, addr 0x6686dec, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method get_profile, addr 0x67c44f8, size 0x284, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_profile();
 
-  /// @brief Method get_profileRef, addr 0x6687080, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_profileRef, addr 0x67c478c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_profileRef();
 
   /// @brief Convert to "::UnityEngine::Rendering::IVolume"
   constexpr ::UnityEngine::Rendering::IVolume* i___UnityEngine__Rendering__IVolume() noexcept;
 
-  /// @brief Method set_isGlobal, addr 0x6686de4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_isGlobal, addr 0x67c44f0, size 0x8, virtual true, abstract: false, final true
   inline void set_isGlobal(bool value);
 
-  /// @brief Method set_profile, addr 0x6687070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_profile, addr 0x67c477c, size 0x8, virtual false, abstract: false, final false
   inline void set_profile(::UnityEngine::Rendering::VolumeProfile* value);
 
 protected:
@@ -187,7 +187,7 @@ public:
   Volume(Volume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12294 };
 
   /// @brief Field m_IsGlobal, offset: 0x20, size: 0x1, def value: None
   bool ___m_IsGlobal;

@@ -23,10 +23,10 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrVector2f {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x689a73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f1654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x689a734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f164c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr XrVector2f(float_t X, float_t Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18504 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

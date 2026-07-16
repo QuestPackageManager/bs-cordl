@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Box_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6be0eec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d34da4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Box* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6be0de8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d34ca0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();

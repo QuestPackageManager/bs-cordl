@@ -35,10 +35,10 @@ public:
   /// @brief Field m_Sampler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Sampler, put = __cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler* m_Sampler;
 
-  /// @brief Method Execute, addr 0x671c24c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x685aa14, size 0x118, virtual false, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Execute, addr 0x671c364, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x685ab2c, size 0xd0, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk, int32_t count);
 
   static inline ::UnityEngine::Rendering::Universal::DecalUpdateCulledSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x671c1c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685a98c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:
@@ -73,7 +73,7 @@ public:
   DecalUpdateCulledSystem(DecalUpdateCulledSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12679 };
 
   /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;

@@ -66,10 +66,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method Run, addr 0x5e7909c, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x5fb4198, size 0x16c, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x5e7925c, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fb4358, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
@@ -90,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set__to(::System::TypeCode value);
 
-  /// @brief Method .ctor, addr 0x5e79090, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb418c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_ConsumedStack, addr 0x5e7924c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fb4348, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e79208, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb4304, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e79254, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fb4350, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -117,7 +117,7 @@ public:
   NumericConvertInstruction(NumericConvertInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16525 };
 
   /// @brief Field _from, offset: 0x10, size: 0x4, def value: None
   ::System::TypeCode ____from;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::*)(::StringW, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360ca74;
+  constexpr static std::size_t addrs = 0x36c8f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::*)()>(
     &::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::GetDigest)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x360ca7c;
+  constexpr static std::size_t addrs = 0x36c8f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator*>(), { "GetDigest", {}, {} })));

@@ -28,12 +28,12 @@ namespace System::Xml {
 class CORDL_TYPE OnXmlDictionaryReaderClose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5fdfba0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x611ac9c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XmlDictionaryReader* reader);
 
   static inline ::System::Xml::OnXmlDictionaryReaderClose* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5fdfa5c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x611ab58, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   OnXmlDictionaryReaderClose(OnXmlDictionaryReaderClose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

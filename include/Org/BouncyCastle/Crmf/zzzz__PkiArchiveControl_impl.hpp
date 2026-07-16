@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::PkiArchiveControl::*)(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*)>(
     &::Org::BouncyCastle::Crmf::PkiArchiveControl::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3619860;
+  constexpr static std::size_t addrs = 0x36d5d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControl*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Crmf::PkiArchiveControl::*)()>(
     &::Org::BouncyCastle::Crmf::PkiArchiveControl::get_Type)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x361cc74;
+  constexpr static std::size_t addrs = 0x36d912c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControl*>(), { "get_Type", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Crmf::PkiArchiveControl::*)()>(
     &::Org::BouncyCastle::Crmf::PkiArchiveControl::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x361ccd0;
+  constexpr static std::size_t addrs = 0x36d9188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControl*>(), { "get_Value", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crmf::PkiArchiveControl::*)()>(&::Org::BouncyCastle::Crmf::PkiArchiveControl::get_ArchiveType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x361ccd8;
+  constexpr static std::size_t addrs = 0x36d9190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControl*>(), { "get_ArchiveType", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crmf::PkiArchiveControl::*)()>(&::Org::BouncyCastle::Crmf::PkiArchiveControl::get_EnvelopedData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x361ccf4;
+  constexpr static std::size_t addrs = 0x36d91ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControl*>(), { "get_EnvelopedData", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (::Org::BouncyCastle::Crmf::PkiArchiveControl::*)()>(
     &::Org::BouncyCastle::Crmf::PkiArchiveControl::GetEnvelopedData)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x361cd38;
+  constexpr static std::size_t addrs = 0x36d91f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControl*>(), { "GetEnvelopedData", {}, {} })));

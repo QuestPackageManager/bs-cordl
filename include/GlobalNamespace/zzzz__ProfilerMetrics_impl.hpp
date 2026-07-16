@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordFrameTimingMetrics)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x57d51a4;
+  constexpr static std::size_t addrs = 0x58f5d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordRenderingMetrics)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x57d63f4;
+  constexpr static std::size_t addrs = 0x58f6090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordMemoryMetrics)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x57d6458;
+  constexpr static std::size_t addrs = 0x58f60f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordListedMetrics)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x57d64bc;
+  constexpr static std::size_t addrs = 0x58f6158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t, bool)>(&::GlobalNamespace::ProfilerMetrics::RecordAllMetrics)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x57d6a00;
+  constexpr static std::size_t addrs = 0x58f4c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>, int32_t)>(
     &::GlobalNamespace::ProfilerMetrics::Record)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x57d6110;
+  constexpr static std::size_t addrs = 0x58f5dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfilerMetrics::*)(
     ::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>, ::ArrayW<::Unity::Profiling::ProfilerRecorder>, int32_t)>(&::GlobalNamespace::ProfilerMetrics::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x57d6bf0;
+  constexpr static std::size_t addrs = 0x58f669c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfilerMetrics::*)()>(&::GlobalNamespace::ProfilerMetrics::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x57d5134;
+  constexpr static std::size_t addrs = 0x58f4bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfilerMetrics*>(), { "Dispose", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfilerMetrics::*)()>(&::GlobalNamespace::ProfilerMetrics::CaptureFrame)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x57d5030;
+  constexpr static std::size_t addrs = 0x58f4ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfilerMetrics*>(), { "CaptureFrame", {}, {} })));
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ProfilerMetrics::*)(bool)>(&::GlobalNamespace::ProfilerMetrics::GenerateListReport)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x57d5aa8;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x58f551c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,8 +155,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ProfilerMetrics::*)(bool)>(&::GlobalNamespace::ProfilerMetrics::GenerateTableReport)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x57d57f4;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x58f5204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*)>(
     &::GlobalNamespace::ProfilerMetrics::AddExposedMetrics)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x57d658c;
+  constexpr static std::size_t addrs = 0x58f6228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

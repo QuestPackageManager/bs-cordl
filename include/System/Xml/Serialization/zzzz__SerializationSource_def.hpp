@@ -34,7 +34,7 @@ public:
   /// @brief Field namspace, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_namspace, put = __cordl_internal_set_namspace)) ::StringW namspace;
 
-  /// @brief Method BaseEquals, addr 0x61abcf8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BaseEquals, addr 0x62e6df4, size 0xdc, virtual false, abstract: false, final false
   inline bool BaseEquals(::System::Xml::Serialization::SerializationSource* other);
 
   static inline ::System::Xml::Serialization::SerializationSource* New_ctor(::StringW namspace, ::ArrayW<::System::Type*> includedTypes);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_namspace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61abce8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e6de4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW namspace, ::ArrayW<::System::Type*> includedTypes);
 
 protected:
@@ -75,7 +75,7 @@ public:
   SerializationSource(SerializationSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9461 };
 
   /// @brief Field includedTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ___includedTypes;

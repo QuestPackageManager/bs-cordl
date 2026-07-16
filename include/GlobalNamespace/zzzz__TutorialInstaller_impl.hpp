@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__TutorialInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentsListModel_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformationSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
@@ -12,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialInstaller::*)()>(&::GlobalNamespace::TutorialInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x1094;
-  constexpr static std::size_t addrs = 0x58c832c;
+  constexpr static std::size_t size = 0x10e8;
+  constexpr static std::size_t addrs = 0x59f8abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialInstaller::*)()>(&::GlobalNamespace::TutorialInstaller::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58c93c0;
+  constexpr static std::size_t addrs = 0x59f9ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialInstaller*>(), { ".ctor", {}, {} })));
@@ -116,6 +117,18 @@ constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData* const& Glob
 constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayAdditionalInformationSetupData = value;
+}
+constexpr ::GlobalNamespace::EnvironmentsListModel*& GlobalNamespace::TutorialInstaller::__cordl_internal_get__environmentsList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentsList;
+}
+constexpr ::GlobalNamespace::EnvironmentsListModel* const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__environmentsList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentsList;
+}
+constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__environmentsList(::GlobalNamespace::EnvironmentsListModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentsList = value;
 }
 inline void GlobalNamespace::TutorialInstaller::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TutorialInstaller*>(), 8 })));

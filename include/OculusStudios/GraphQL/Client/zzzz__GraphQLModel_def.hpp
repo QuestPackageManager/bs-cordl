@@ -37,7 +37,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5de778c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1f9b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLModel"
@@ -61,7 +61,7 @@ public:
   static constexpr ::ConstString UNKNOWN_ENUM_VALUE{ u"__UnknownValue" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

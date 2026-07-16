@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::EventBoxGroup::*)()>(&::BeatmapSaveDataVersion3::EventBoxGroup::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369e0dc;
+  constexpr static std::size_t addrs = 0x375a134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::EventBoxGroup*>(), { "get_groupId", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::EventBoxGroup::*)(float_t, int32_t)>(&::BeatmapSaveDataVersion3::EventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x369e0e4;
+  constexpr static std::size_t addrs = 0x375a13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

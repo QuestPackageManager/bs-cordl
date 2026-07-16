@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayInitInstruction* New_ctor(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method Run, addr 0x5e4c960, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f87a5c, size 0x90, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr int32_t const& __cordl_internal_get__elementCount() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set__elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5e4c900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f879fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method get_ConsumedStack, addr 0x5e4c90c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f87a08, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e4c91c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f87a18, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e4c914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f87a10, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -83,7 +83,7 @@ public:
   NewArrayInitInstruction(NewArrayInitInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16231 };
 
   /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____elementType;

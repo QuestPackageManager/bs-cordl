@@ -78,29 +78,29 @@ public:
   /// @brief Field m_FilteringSettings, offset 0x18, size 0x20
   __declspec(property(get = __cordl_internal_get_m_FilteringSettings, put = __cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings m_FilteringSettings;
 
-  /// @brief Method CreateDebugRenderSetups, addr 0x670cfb8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CreateDebugRenderSetups, addr 0x684bb70, size 0x148, virtual false, abstract: false, final false
   inline void CreateDebugRenderSetups(::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
-  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x670bee4, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x684aa9c, size 0x3a4, virtual false, abstract: false, final false
   inline void CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                       ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                       ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock);
 
-  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x670c348, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x684af00, size 0x38c, virtual false, abstract: false, final false
   inline void CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                       ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                       ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock);
 
-  /// @brief Method DisposeDebugRenderLists, addr 0x670d118, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method DisposeDebugRenderLists, addr 0x684bcd0, size 0x188, virtual false, abstract: false, final false
   inline void DisposeDebugRenderLists();
 
-  /// @brief Method DrawWithRendererList, addr 0x670d7b8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method DrawWithRendererList, addr 0x684c370, size 0x238, virtual false, abstract: false, final false
   inline void DrawWithRendererList(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
   static inline ::UnityEngine::Rendering::Universal::DebugRendererLists* New_ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler,
                                                                                   ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
-  /// @brief Method PrepareRendererListForRasterPass, addr 0x670d61c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method PrepareRendererListForRasterPass, addr 0x684c1d4, size 0x19c, virtual false, abstract: false, final false
   inline void PrepareRendererListForRasterPass(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* builder);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>* const& __cordl_internal_get_m_ActiveDebugRendererList() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  /// @brief Method .ctor, addr 0x670bdb4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684a96c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler, ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
 protected:
@@ -151,7 +151,7 @@ public:
   DebugRendererLists(DebugRendererLists const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12640 };
 
   /// @brief Field m_DebugHandler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugHandler* ___m_DebugHandler;

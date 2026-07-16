@@ -58,21 +58,21 @@ public:
   /// @brief Field m_ServerSocketEP, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ServerSocketEP, put = __cordl_internal_set_m_ServerSocketEP)) ::System::Net::IPEndPoint* m_ServerSocketEP;
 
-  /// @brief Method BeginAcceptTcpClient, addr 0x622aad0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BeginAcceptTcpClient, addr 0x6365bcc, size 0x74, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAcceptTcpClient(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndAcceptTcpClient, addr 0x622ab44, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method EndAcceptTcpClient, addr 0x6365c40, size 0x158, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::TcpClient* EndAcceptTcpClient(::System::IAsyncResult* asyncResult);
 
   static inline ::System::Net::Sockets::TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method Start, addr 0x622a894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6365990, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Start, addr 0x622a89c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6365998, size 0x170, virtual false, abstract: false, final false
   inline void Start(int32_t backlog);
 
-  /// @brief Method Stop, addr 0x622aa0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x6365b08, size 0xc4, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ServerSocketEP(::System::Net::IPEndPoint* value);
 
-  /// @brief Method .ctor, addr 0x622a6ec, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63657e8, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method get_LocalEndpoint, addr 0x622a86c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndpoint, addr 0x6365968, size 0x28, virtual false, abstract: false, final false
   inline ::System::Net::EndPoint* get_LocalEndpoint();
 
 protected:
@@ -120,7 +120,7 @@ public:
   TcpListener(TcpListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11752 };
 
   /// @brief Field m_ServerSocketEP, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ___m_ServerSocketEP;

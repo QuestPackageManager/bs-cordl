@@ -21,19 +21,19 @@ namespace System::Xml {
 class CORDL_TYPE SafeAsciiDecoder : public ::System::Text::Decoder {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x61a2ad8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x62ddbd4, size 0x8c, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x61a2a60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x62ddb5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x61a2a68, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x62ddb64, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   static inline ::System::Xml::SafeAsciiDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61a2a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ddb58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   SafeAsciiDecoder(SafeAsciiDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

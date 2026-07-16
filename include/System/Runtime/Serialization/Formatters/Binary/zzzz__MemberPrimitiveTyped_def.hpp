@@ -39,18 +39,18 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Object* value;
 
-  /// @brief Method Dump, addr 0x5a1cc08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b568d8, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
 
-  /// @brief Method Read, addr 0x5a1cbb8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b56888, size 0x50, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5a1cb4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b5681c, size 0xc, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::System::Object* value);
 
-  /// @brief Method Write, addr 0x5a1cb58, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b56828, size 0x60, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_primitiveTypeEnum() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5a1cb48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b56818, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

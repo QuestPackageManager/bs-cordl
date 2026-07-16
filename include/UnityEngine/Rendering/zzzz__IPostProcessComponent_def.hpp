@@ -21,7 +21,7 @@ public:
   /// @brief Method IsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x6656b48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTileCompatible, addr 0x6794254, size 0x8, virtual true, abstract: false, final false
   inline bool IsTileCompatible();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPostProcessComponent", modifiers: "const&", def_value: None }]
@@ -29,7 +29,7 @@ public:
   IPostProcessComponent(IPostProcessComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

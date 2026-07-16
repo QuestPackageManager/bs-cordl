@@ -78,7 +78,7 @@ public:
   static ::UnityEngine::UI::Navigation_Mode const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17443 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -118,49 +118,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::Navigation>*();
 
-  /// @brief Method Equals, addr 0x6caabb8, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6dfea70, size 0x11c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::Navigation other);
 
-  /// @brief Method get_defaultNavigation, addr 0x6caab9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultNavigation, addr 0x6dfea54, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::Navigation get_defaultNavigation();
 
-  /// @brief Method get_mode, addr 0x6caab3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x6dfe9f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Navigation_Mode get_mode();
 
-  /// @brief Method get_selectOnDown, addr 0x6caab6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnDown, addr 0x6dfea24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnDown();
 
-  /// @brief Method get_selectOnLeft, addr 0x6caab7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnLeft, addr 0x6dfea34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnLeft();
 
-  /// @brief Method get_selectOnRight, addr 0x6caab8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnRight, addr 0x6dfea44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnRight();
 
-  /// @brief Method get_selectOnUp, addr 0x6caab5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnUp, addr 0x6dfea14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnUp();
 
-  /// @brief Method get_wrapAround, addr 0x6caab4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapAround, addr 0x6dfea04, size 0x8, virtual false, abstract: false, final false
   inline bool get_wrapAround();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
   constexpr ::System::IEquatable_1<::UnityEngine::UI::Navigation>* i___System__IEquatable_1___UnityEngine__UI__Navigation_();
 
-  /// @brief Method set_mode, addr 0x6caab44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x6dfe9fc, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::UI::Navigation_Mode value);
 
-  /// @brief Method set_selectOnDown, addr 0x6caab74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnDown, addr 0x6dfea2c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnDown(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_selectOnLeft, addr 0x6caab84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnLeft, addr 0x6dfea3c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnLeft(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_selectOnRight, addr 0x6caab94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnRight, addr 0x6dfea4c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnRight(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_selectOnUp, addr 0x6caab64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnUp, addr 0x6dfea1c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnUp(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_wrapAround, addr 0x6caab54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapAround, addr 0x6dfea0c, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapAround(bool value);
 
   // Ctor Parameters []
@@ -175,7 +175,7 @@ public:
                        ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnLeft, ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

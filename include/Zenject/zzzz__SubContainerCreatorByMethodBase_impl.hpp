@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorByMethodBase::*)(::Zenject::DiContainer*, ::Zenject::SubContainerCreatorBindInfo*)>(
     &::Zenject::SubContainerCreatorByMethodBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d32980;
+  constexpr static std::size_t addrs = 0x6e87640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByMethodBase::*)()>(
     &::Zenject::SubContainerCreatorByMethodBase::CreateEmptySubContainer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d32988;
+  constexpr static std::size_t addrs = 0x6e87648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorByMethodBase*>(), { "CreateEmptySubContainer", {}, {} })));

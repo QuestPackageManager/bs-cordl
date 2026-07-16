@@ -55,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set_representation(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x334cd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3409208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::ArrayW<uint8_t> representation);
 
-  /// @brief Method .ctor, addr 0x334cd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3409210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::System::Object* representation);
 
-  /// @brief Method .ctor, addr 0x334cd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3409200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* representation);
 
-  /// @brief Method get_AlgorithmIdentifier, addr 0x334cd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmIdentifier, addr 0x3409218, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmIdentifier();
 
-  /// @brief Method get_Representation, addr 0x334cd68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Representation, addr 0x3409220, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Representation();
 
 protected:

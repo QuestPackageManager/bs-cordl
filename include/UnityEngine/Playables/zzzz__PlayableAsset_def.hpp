@@ -51,21 +51,21 @@ public:
   /// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
-  /// @brief Method Internal_CreatePlayable, addr 0x69ada80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreatePlayable, addr 0x6b01160, size 0xe0, virtual false, abstract: false, final false
   static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
 
-  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x69adb60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x6b01240, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
 
   static inline ::UnityEngine::Playables::PlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69adb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b01268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x69ad9c8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x6b010a8, size 0x5c, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x69ada24, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x6b01104, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
@@ -86,7 +86,7 @@ public:
   PlayableAsset(PlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

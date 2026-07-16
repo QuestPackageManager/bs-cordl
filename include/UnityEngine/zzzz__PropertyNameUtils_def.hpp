@@ -26,10 +26,10 @@ namespace UnityEngine {
 class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropertyNameFromString, addr 0x6981a1c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x6ad4dbc, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x6981b50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x6ad4ef0, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::PropertyName> ret);
 
 protected:
@@ -47,7 +47,7 @@ public:
   PropertyNameUtils(PropertyNameUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

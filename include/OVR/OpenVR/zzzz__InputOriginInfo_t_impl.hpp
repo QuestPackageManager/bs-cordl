@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::InputOriginInfo_t::*)()>(&::OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
   constexpr static std::size_t size = 0x870;
-  constexpr static std::size_t addrs = 0x5d0dd68;
+  constexpr static std::size_t addrs = 0x5e45f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::InputOriginInfo_t>(), { "get_rchRenderModelComponentName", {}, {} })));

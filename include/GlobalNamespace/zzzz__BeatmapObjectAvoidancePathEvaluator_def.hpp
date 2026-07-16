@@ -59,7 +59,7 @@ public:
   /// @brief Field _zOffset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  /// @brief Method GetCurrentPathPosition, addr 0x31e9e74, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPathPosition, addr 0x328104c, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms,
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x31e9e5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3281034, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
@@ -139,7 +139,7 @@ public:
   BeatmapObjectAvoidancePathEvaluator(BeatmapObjectAvoidancePathEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21951 };
 
   /// @brief Field _jumpStartZ, offset: 0x10, size: 0x4, def value: None
   float_t ____jumpStartZ;

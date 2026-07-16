@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::UnityEngine::AsyncInstantiateOperation*, int32_t)>(
     &::UnityEngine::AsyncInstantiateOperationHelper::CreateAsyncInstantiateOperationResultArray)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x698355c;
+  constexpr static std::size_t addrs = 0x6ad68fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -31,21 +31,21 @@ public:
   /// @brief Field _keyboardManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x57c0e5c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HasInputFocus, addr 0x58dfafc, size 0x104, virtual false, abstract: false, final false
   static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
 
   static inline ::GlobalNamespace::InputActions* New_ctor();
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x57c1118, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x58dfdb8, size 0x3a4, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-  /// @brief Method ToggleAutopilot, addr 0x57c0f60, size 0x1b4, virtual false, abstract: false, final false
-  static inline void ToggleAutopilot();
+  /// @brief Method ToggleAutoplay, addr 0x58dfc00, size 0x1b4, virtual false, abstract: false, final false
+  static inline void ToggleAutoplay();
 
-  /// @brief Method ToggleLevelFreeze, addr 0x57c1114, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevelFreeze, addr 0x58dfdb4, size 0x4, virtual false, abstract: false, final false
   static inline void ToggleLevelFreeze();
 
-  /// @brief Method Update, addr 0x57c0b84, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58df824, size 0x2d8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-  /// @brief Method .ctor, addr 0x57c14bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e015c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   InputActions(InputActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6500 };
 
   /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;

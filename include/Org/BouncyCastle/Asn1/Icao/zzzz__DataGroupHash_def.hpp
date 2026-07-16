@@ -45,14 +45,14 @@ public:
   /// @brief Field dataGroupNumber, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_dataGroupNumber, put = __cordl_internal_set_dataGroupNumber)) ::Org::BouncyCastle::Asn1::DerInteger* dataGroupNumber;
 
-  /// @brief Method GetInstance, addr 0x33907fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x344ccb4, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* New_ctor(int32_t dataGroupNumber, ::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3390a08, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x344cec0, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_dataGroupHashValue() const;
@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_dataGroupNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x3390978, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x344ce30, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataGroupNumber, ::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue);
 
-  /// @brief Method .ctor, addr 0x339089c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x344cd54, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DataGroupHashValue, addr 0x3390a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataGroupHashValue, addr 0x344ceb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_DataGroupHashValue();
 
-  /// @brief Method get_DataGroupNumber, addr 0x33909e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_DataGroupNumber, addr 0x344cea0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_DataGroupNumber();
 
 protected:

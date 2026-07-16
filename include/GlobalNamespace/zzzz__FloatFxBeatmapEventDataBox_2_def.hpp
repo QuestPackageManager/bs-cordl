@@ -339,7 +339,7 @@ public:
   FloatFxBeatmapEventDataBox_2__Unpack_d__3(FloatFxBeatmapEventDataBox_2__Unpack_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14886 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -471,7 +471,7 @@ public:
   FloatFxBeatmapEventDataBox_2(FloatFxBeatmapEventDataBox_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14887 };
 
   /// @brief Field _beatStep, offset: 0x34, size: 0x4, def value: None
   float_t ____beatStep;

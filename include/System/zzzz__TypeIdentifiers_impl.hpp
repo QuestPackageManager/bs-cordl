@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TypeIdentifiers_Display::*)(::StringW)>(&::System::TypeIdentifiers_Display::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b62838;
+  constexpr static std::size_t addrs = 0x5c9c510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeIdentifiers_Display*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TypeIdentifiers_Display::*)()>(&::System::TypeIdentifiers_Display::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b62840;
+  constexpr static std::size_t addrs = 0x5c9c518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TypeIdentifiers_Display::*)()>(&::System::TypeIdentifiers_Display::get_InternalName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5b62848;
+  constexpr static std::size_t addrs = 0x5c9c520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeIdentifiers_Display*>(), { "get_InternalName", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TypeIdentifiers_Display::*)()>(&::System::TypeIdentifiers_Display::GetInternalName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6286c;
+  constexpr static std::size_t addrs = 0x5c9c544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeIdentifiers_Display*>(), { "GetInternalName", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeIdentifier* (*)(::StringW)>(&::System::TypeIdentifiers::FromDisplay)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5b627e8;
+  constexpr static std::size_t addrs = 0x5c9c4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeIdentifiers*>(), { "FromDisplay", {}, { ::i2c::type_of<::StringW>() } })));

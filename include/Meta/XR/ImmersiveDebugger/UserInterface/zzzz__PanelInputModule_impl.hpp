@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule_RaycastComparer::*)(
     ::UnityEngine::EventSystems::RaycastResult, ::UnityEngine::EventSystems::RaycastResult)>(&::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule_RaycastComparer::Compare)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x591b2c8;
+  constexpr static std::size_t addrs = 0x5a549cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule_RaycastComparer::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule_RaycastComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591b2c4;
+  constexpr static std::size_t addrs = 0x5a549c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::RegisterRaycaster)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x591a120;
+  constexpr static std::size_t addrs = 0x5a53824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::UnregisterRaycaster)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x591a23c;
+  constexpr static std::size_t addrs = 0x5a53940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::SetDebugInterface)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591a318;
+  constexpr static std::size_t addrs = 0x5a53a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::Awake)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x591a320;
+  constexpr static std::size_t addrs = 0x5a53a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::ShouldActivateModule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591a3cc;
+  constexpr static std::size_t addrs = 0x5a53ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::IsModuleSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591a3d4;
+  constexpr static std::size_t addrs = 0x5a53ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::Update)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x591a3dc;
+  constexpr static std::size_t addrs = 0x5a53ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(), { "Update", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::by_ref<::UnityEngine::EventSystems::RaycastResult>)>(&::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::Raycast)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x591a474;
+  constexpr static std::size_t addrs = 0x5a53b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSyste
     ::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)(::GlobalNamespace::OVRInput_Controller, ::UnityEngine::Transform*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::GetMouseStateFromRaycast)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x591a734;
+  constexpr static std::size_t addrs = 0x5a53e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::Process)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x591ad4c;
+  constexpr static std::size_t addrs = 0x5a54450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(),
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerEventData_FramePressState (*)(::GlobalNamespace::OVRInput_Controller)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::ComputeControllerState)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x591ac7c;
+  constexpr static std::size_t addrs = 0x5a54380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(),
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRInput_Controller (*)(::GlobalNamespace::OVRInput_Controller)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::ChooseBestController)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x591ae24;
+  constexpr static std::size_t addrs = 0x5a54528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(),
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)(::UnityEngine::Transform*, ::GlobalNamespace::OVRInput_Controller)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::UpdateRayTransform)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x591af4c;
+  constexpr static std::size_t addrs = 0x5a54650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x591b180;
+  constexpr static std::size_t addrs = 0x5a54884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*>(), { ".ctor", {}, {} })));

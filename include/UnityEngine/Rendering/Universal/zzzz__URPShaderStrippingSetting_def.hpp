@@ -60,7 +60,7 @@ public:
   static ::UnityEngine::Rendering::Universal::URPShaderStrippingSetting_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -134,31 +134,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::Universal::URPShaderStrippingSetting_Version value);
 
-  /// @brief Method .ctor, addr 0x67762d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b4c54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_stripScreenCoordOverrideVariants, addr 0x6776260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripScreenCoordOverrideVariants, addr 0x68b4bdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripScreenCoordOverrideVariants();
 
-  /// @brief Method get_stripUnusedPostProcessingVariants, addr 0x6776170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripUnusedPostProcessingVariants, addr 0x68b4aec, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripUnusedPostProcessingVariants();
 
-  /// @brief Method get_stripUnusedVariants, addr 0x67761e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripUnusedVariants, addr 0x68b4b64, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripUnusedVariants();
 
-  /// @brief Method get_version, addr 0x6776168, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b4ae4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_stripScreenCoordOverrideVariants, addr 0x6776268, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripScreenCoordOverrideVariants, addr 0x68b4be4, size 0x70, virtual false, abstract: false, final false
   inline void set_stripScreenCoordOverrideVariants(bool value);
 
-  /// @brief Method set_stripUnusedPostProcessingVariants, addr 0x6776178, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripUnusedPostProcessingVariants, addr 0x68b4af4, size 0x70, virtual false, abstract: false, final false
   inline void set_stripUnusedPostProcessingVariants(bool value);
 
-  /// @brief Method set_stripUnusedVariants, addr 0x67761f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripUnusedVariants, addr 0x68b4b6c, size 0x70, virtual false, abstract: false, final false
   inline void set_stripUnusedVariants(bool value);
 
 protected:
@@ -176,7 +176,7 @@ public:
   URPShaderStrippingSetting(URPShaderStrippingSetting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12927 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::URPShaderStrippingSetting_Version ___m_Version;

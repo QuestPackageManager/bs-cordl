@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LocalizedHoverHint* New_ctor();
 
-  /// @brief Method SetText, addr 0x58dbbd8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x5a09498, size 0x14, virtual true, abstract: false, final false
   inline void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x58dbbec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x5a094ac, size 0x4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x58dbbf0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a094b0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   LocalizedHoverHint(LocalizedHoverHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

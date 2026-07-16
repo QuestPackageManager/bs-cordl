@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::*)(::System::Type*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69034b0;
+  constexpr static std::size_t addrs = 0x6a564a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

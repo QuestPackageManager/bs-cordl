@@ -25,12 +25,12 @@ namespace System {
 class CORDL_TYPE Action : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5a70e20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5baaaf8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Action* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5a70db8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5baaa90, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

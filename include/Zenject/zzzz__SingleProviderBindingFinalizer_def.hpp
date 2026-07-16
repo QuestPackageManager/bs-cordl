@@ -34,13 +34,13 @@ namespace Zenject {
 class CORDL_TYPE SingleProviderBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
   // Declarations
-  /// @brief Field _providerFactory, offset 0x18, size 0x8
+  /// @brief Field _providerFactory, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__providerFactory,
                       put = __cordl_internal_set__providerFactory)) ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
 
   static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x6d0f820, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x6e64414, size 0xd8, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* const& __cordl_internal_get__providerFactory() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x6d0f818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6440c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
 protected:
@@ -67,16 +67,16 @@ public:
   SingleProviderBindingFinalizer(SingleProviderBindingFinalizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14297 };
 
-  /// @brief Field _providerFactory, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _providerFactory, offset: 0x20, size: 0x8, def value: None
   ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* ____providerFactory;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Zenject::SingleProviderBindingFinalizer, ____providerFactory) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Zenject::SingleProviderBindingFinalizer, ____providerFactory) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::Zenject::SingleProviderBindingFinalizer) == 0x20, "Size mismatch!");
+static_assert(sizeof(::Zenject::SingleProviderBindingFinalizer) == 0x28, "Size mismatch!");
 
 } // namespace Zenject

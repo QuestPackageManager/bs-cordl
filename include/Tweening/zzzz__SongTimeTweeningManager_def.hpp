@@ -23,10 +23,10 @@ namespace Tweening {
 class CORDL_TYPE SongTimeTweeningManager : public ::Tweening::TweeningManager {
 public:
   // Declarations
-  /// @brief Field _audioTimeSource, offset 0x50, size 0x8
+  /// @brief Field _audioTimeSource, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Method GetTime, addr 0x583775c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x5973604, size 0xa4, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::SongTimeTweeningManager* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x5837800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59736a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,16 +55,16 @@ public:
   SongTimeTweeningManager(SongTimeTweeningManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7004 };
 
-  /// @brief Field _audioTimeSource, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _audioTimeSource, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Tweening::SongTimeTweeningManager, ____audioTimeSource) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::Tweening::SongTimeTweeningManager, ____audioTimeSource) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::Tweening::SongTimeTweeningManager) == 0x58, "Size mismatch!");
+static_assert(sizeof(::Tweening::SongTimeTweeningManager) == 0x50, "Size mismatch!");
 
 } // namespace Tweening

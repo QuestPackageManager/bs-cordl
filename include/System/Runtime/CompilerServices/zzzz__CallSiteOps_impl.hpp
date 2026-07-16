@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::CompilerServices::CallSite*)>(&::System::Runtime::CompilerServices::CallSiteOps::SetNotMatched)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e80f2c;
+  constexpr static std::size_t addrs = 0x5fbc028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSiteOps*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::CompilerServices::CallSite*)>(&::System::Runtime::CompilerServices::CallSiteOps::GetMatch)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e80f48;
+  constexpr static std::size_t addrs = 0x5fbc044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSiteOps*>(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::CompilerServices::CallSite*)>(&::System::Runtime::CompilerServices::CallSiteOps::ClearMatch)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e80f5c;
+  constexpr static std::size_t addrs = 0x5fbc058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSiteOps*>(),

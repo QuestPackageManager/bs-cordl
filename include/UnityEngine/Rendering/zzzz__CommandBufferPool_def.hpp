@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::Rendering::CommandBufferPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x66131cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x67508d8, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::UnityEngine::Rendering::CommandBuffer* x);
 
-  /// @brief Method .ctor, addr 0x66131c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67508d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::CommandBufferPool___c* getStaticF___9();
@@ -64,7 +64,7 @@ public:
   CommandBufferPool___c(CommandBufferPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -84,13 +84,13 @@ public:
   /// @brief Field s_BufferPool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_BufferPool, put = setStaticF_s_BufferPool)) ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* s_BufferPool;
 
-  /// @brief Method Get, addr 0x6612e7c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6750588, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CommandBuffer* Get();
 
-  /// @brief Method Get, addr 0x6612f30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x675063c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CommandBuffer* Get(::StringW name);
 
-  /// @brief Method Release, addr 0x6612fd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x67506dc, size 0x88, virtual false, abstract: false, final false
   static inline void Release(::UnityEngine::Rendering::CommandBuffer* buffer);
 
   static inline ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* getStaticF_s_BufferPool();
@@ -112,7 +112,7 @@ public:
   CommandBufferPool(CommandBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

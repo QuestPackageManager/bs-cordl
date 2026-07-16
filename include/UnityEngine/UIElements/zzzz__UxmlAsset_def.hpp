@@ -66,19 +66,19 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlAsset* New_ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method RemoveAttribute, addr 0x6b66b18, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RemoveAttribute, addr 0x6cba9d0, size 0xfc, virtual false, abstract: false, final false
   inline void RemoveAttribute(::StringW attributeName);
 
-  /// @brief Method SetAttribute, addr 0x6b66c14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAttribute, addr 0x6cbaacc, size 0x4, virtual false, abstract: false, final false
   inline void SetAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method SetOrAddProperty, addr 0x6b6911c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetOrAddProperty, addr 0x6cbcfd4, size 0x210, virtual false, abstract: false, final false
   inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method ToString, addr 0x6b6932c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cbd1e4, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetAttributeValue, addr 0x6b6903c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method TryGetAttributeValue, addr 0x6cbcef4, size 0xe0, virtual true, abstract: false, final true
   inline bool TryGetAttributeValue(::StringW propertyName, ::by_ref<::StringW> value);
 
   constexpr ::StringW const& __cordl_internal_get_m_FullTypeName() const;
@@ -123,28 +123,28 @@ public:
 
   constexpr void __cordl_internal_set_m_XmlNamespace(::UnityEngine::UIElements::UxmlNamespaceDefinition value);
 
-  /// @brief Method .ctor, addr 0x6b69000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbceb8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method get_fullTypeName, addr 0x6b6900c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x6cbcec4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_id, addr 0x6b69014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6cbcecc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_orderInDocument, addr 0x6b69024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orderInDocument, addr 0x6cbcedc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_orderInDocument();
 
-  /// @brief Method get_parentId, addr 0x6b6902c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x6cbcee4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
   /// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
   constexpr ::UnityEngine::UIElements::IUxmlAttributes* i___UnityEngine__UIElements__IUxmlAttributes() noexcept;
 
-  /// @brief Method set_id, addr 0x6b6901c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x6cbced4, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
-  /// @brief Method set_parentId, addr 0x6b69034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentId, addr 0x6cbceec, size 0x8, virtual false, abstract: false, final false
   inline void set_parentId(int32_t value);
 
 protected:

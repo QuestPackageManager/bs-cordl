@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set_membersList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x60fb988, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6236a84, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Examplar, addr 0x60fb978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Examplar, addr 0x6236a74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Examplar();
 
-  /// @brief Method get_Members, addr 0x60fb970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x6236a6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Members();
 
-  /// @brief Method set_Examplar, addr 0x60fb980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Examplar, addr 0x6236a7c, size 0x8, virtual false, abstract: false, final false
   inline void set_Examplar(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   XmlSchemaSubstitutionGroup(XmlSchemaSubstitutionGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9790 };
 
   /// @brief Field membersList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::ArrayList* ___membersList;

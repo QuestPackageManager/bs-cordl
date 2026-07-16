@@ -28,16 +28,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator* New_ctor(int32_t defaultStrength);
 
-  /// @brief Method .ctor, addr 0x3316bac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d3064, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3316bb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d3070, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method engineGenerateKey, addr 0x3316ca0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0x33d3158, size 0xbc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> engineGenerateKey();
 
-  /// @brief Method engineInit, addr 0x3316bbc, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method engineInit, addr 0x33d3074, size 0xe4, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
 protected:

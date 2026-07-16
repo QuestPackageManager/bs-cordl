@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeSceneData::*)(::UnityEngine::Object*)>(&::UnityEngine::Rendering::ProbeVolumeSceneData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6654f2c;
+  constexpr static std::size_t addrs = 0x6792638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeSceneData::*)(::UnityEngine::Object*)>(
     &::UnityEngine::Rendering::ProbeVolumeSceneData::SetParentObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6654f34;
+  constexpr static std::size_t addrs = 0x6792640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

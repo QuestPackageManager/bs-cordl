@@ -16,12 +16,24 @@
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
+//  Writing Method size for method: ::Zenject::Internal::ZenPools.NoDomainReloadInit
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Zenject::Internal::ZenPools::NoDomainReloadInit)> {
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x6e9e538;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ZenPools*>(), { "NoDomainReloadInit", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Zenject::Internal::ZenPools.SpawnStatement
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindStatement* (*)()>(&::Zenject::Internal::ZenPools::SpawnStatement)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d4952c;
+  constexpr static std::size_t addrs = 0x6e9e86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ZenPools*>(), { "SpawnStatement", {}, {} })));
@@ -33,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::BindStatement*)>(&::Zenject::Internal::ZenPools::DespawnStatement)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d495ac;
+  constexpr static std::size_t addrs = 0x6e9e8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindInfo* (*)()>(&::Zenject::Internal::ZenPools::SpawnBindInfo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d49644;
+  constexpr static std::size_t addrs = 0x6e9e984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ZenPools*>(), { "SpawnBindInfo", {}, {} })));
@@ -58,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::BindInfo*)>(&::Zenject::Internal::ZenPools::DespawnBindInfo)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d496c4;
+  constexpr static std::size_t addrs = 0x6e9ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::Internal::LookupId* (*)(::Zenject::IProvider*, ::Zenject::BindingId)>(&::Zenject::Internal::ZenPools::SpawnLookupId)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d4975c;
+  constexpr static std::size_t addrs = 0x6e9ea9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::Internal::LookupId*)>(&::Zenject::Internal::ZenPools::DespawnLookupId)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d49800;
+  constexpr static std::size_t addrs = 0x6e9eb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (*)(::Zenject::DiContainer*, ::System::Type*)>(&::Zenject::Internal::ZenPools::SpawnInjectContext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d49888;
+  constexpr static std::size_t addrs = 0x6e9ebc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::InjectContext*)>(&::Zenject::Internal::ZenPools::DespawnInjectContext)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d49928;
+  constexpr static std::size_t addrs = 0x6e9ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (*)(::Zenject::DiContainer*, ::Zenject::InjectableInfo*, ::Zenject::InjectContext*, ::System::Object*, ::System::Type*,
                                                                                      ::System::Object*)>(&::Zenject::Internal::ZenPools::SpawnInjectContext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6d499c0;
+  constexpr static std::size_t addrs = 0x6e9ed00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,6 +177,10 @@ inline void Zenject::Internal::ZenPools::setStaticF__bindStatementPool(::Zenject
 }
 inline ::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* Zenject::Internal::ZenPools::getStaticF__bindStatementPool() {
   return ::cordl_internals::getStaticField<::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>*, "_bindStatementPool", ::Zenject::Internal::ZenPools*>();
+}
+inline void Zenject::Internal::ZenPools::NoDomainReloadInit() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ZenPools*>(), { "NoDomainReloadInit", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* Zenject::Internal::ZenPools::SpawnHashSet() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ZenPools*>(), { "SpawnHashSet", { ::i2c::class_of<T>() }, {} })));

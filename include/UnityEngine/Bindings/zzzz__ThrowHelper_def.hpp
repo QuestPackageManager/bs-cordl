@@ -23,10 +23,10 @@ namespace UnityEngine::Bindings {
 class CORDL_TYPE ThrowHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ThrowArgumentNullException, addr 0x69a3908, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentNullException, addr 0x6af6ec8, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowArgumentNullException(::System::Object* obj, ::StringW parameterName);
 
-  /// @brief Method ThrowNullReferenceException, addr 0x699da8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ThrowNullReferenceException, addr 0x6af104c, size 0x44, virtual false, abstract: false, final false
   static inline void ThrowNullReferenceException(::System::Object* obj);
 
 protected:
@@ -44,7 +44,7 @@ public:
   ThrowHelper(ThrowHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

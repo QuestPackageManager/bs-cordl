@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlBinaryReaderSession::*)(int32_t, ::by_ref<::System::Xml::XmlDictionaryString*>)>(
     &::System::Xml::XmlBinaryReaderSession::TryLookup)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5fd5530;
+  constexpr static std::size_t addrs = 0x611062c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

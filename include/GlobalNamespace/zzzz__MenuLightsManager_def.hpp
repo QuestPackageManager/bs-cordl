@@ -85,21 +85,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x584afcc, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59831d4, size 0x260, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MenuLightsManager__Start_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x584b228, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5983434, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x584b230, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x598343c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x584b268, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5983474, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x584afc8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59831d0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
-  /// @brief Method .ctor, addr 0x584a6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5982900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -147,7 +147,7 @@ public:
   MenuLightsManager__Start_d__8(MenuLightsManager__Start_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5787 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -201,51 +201,51 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method CurrentColorForID, addr 0x584a714, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CurrentColorForID, addr 0x5982920, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color CurrentColorForID(int32_t lightId);
 
-  /// @brief Method GetLightForIndex, addr 0x584a880, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetLightForIndex, addr 0x5982a8c, size 0x98, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, ::UnityEngine::Color> GetLightForIndex(int32_t index);
 
-  /// @brief Method GetLightsCount, addr 0x584a85c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLightsCount, addr 0x5982a68, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetLightsCount();
 
-  /// @brief Method HandleTweenFinished, addr 0x584ad2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleTweenFinished, addr 0x5982f34, size 0x5c, virtual false, abstract: false, final false
   inline void HandleTweenFinished();
 
   static inline ::GlobalNamespace::MenuLightsManager* New_ctor();
 
-  /// @brief Method RefreshColors, addr 0x584ae94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RefreshColors, addr 0x598309c, size 0x90, virtual false, abstract: false, final false
   inline void RefreshColors();
 
-  /// @brief Method ResetColorPresetToDefault, addr 0x584ac04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ResetColorPresetToDefault, addr 0x5982e10, size 0x9c, virtual false, abstract: false, final false
   inline void ResetColorPresetToDefault(bool animated);
 
-  /// @brief Method SaveOriginalColors, addr 0x584a990, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SaveOriginalColors, addr 0x5982b9c, size 0xf4, virtual false, abstract: false, final false
   inline void SaveOriginalColors();
 
-  /// @brief Method SetAlphaMultiplier, addr 0x584ad88, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetAlphaMultiplier, addr 0x5982f90, size 0x10c, virtual false, abstract: false, final false
   inline void SetAlphaMultiplier(float_t alphaMultiplier, bool animated, float_t duration);
 
-  /// @brief Method SetColor, addr 0x584a6fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5982908, size 0x18, virtual false, abstract: false, final false
   inline void SetColor(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method SetColorPreset, addr 0x584ab28, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetColorPreset, addr 0x5982d34, size 0xdc, virtual false, abstract: false, final false
   inline void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated, float_t duration);
 
-  /// @brief Method SetDefaultPreset, addr 0x584aa84, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultPreset, addr 0x5982c90, size 0xa4, virtual false, abstract: false, final false
   inline void SetDefaultPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
 
-  /// @brief Method SetTargetColors, addr 0x584a918, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetTargetColors, addr 0x5982b24, size 0x78, virtual false, abstract: false, final false
   inline void SetTargetColors();
 
-  /// @brief Method Start, addr 0x584a6a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59828ac, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method StartLightAnimation, addr 0x584aca0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method StartLightAnimation, addr 0x5982eac, size 0x88, virtual false, abstract: false, final false
   inline void StartLightAnimation(float_t duration);
 
-  /// @brief Method UpdateColors, addr 0x584a730, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x598293c, size 0x12c, virtual false, abstract: false, final false
   inline void UpdateColors(float_t interpolationFactor);
 
   constexpr float_t const& __cordl_internal_get__alphaMultiplier() const;
@@ -290,7 +290,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x584af24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598312c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -308,7 +308,7 @@ public:
   MenuLightsManager(MenuLightsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5788 };
 
   /// @brief Field kDefaultAnimationDuration offset 0xffffffff size 0x4
   static constexpr float_t kDefaultAnimationDuration{ static_cast<float_t>(0.5f) };

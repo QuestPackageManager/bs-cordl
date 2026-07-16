@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_x509list*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                                                                 ::Mono::Unity::UnityTls_unitytls_errorstate*)>(&::Mono::Unity::CertHelper::AddCertificatesToNativeChain)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5e90298;
+  constexpr static std::size_t addrs = 0x5fcb394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_x509list*, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
                                                                 ::Mono::Unity::UnityTls_unitytls_errorstate*)>(&::Mono::Unity::CertHelper::AddCertificateToNativeChain)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5e90438;
+  constexpr static std::size_t addrs = 0x5fcb534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

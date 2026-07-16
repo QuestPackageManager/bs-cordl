@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(int32_t)>(&::UnityEngine::Rendering::MeshGizmo::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6684814;
+  constexpr static std::size_t addrs = 0x67c1f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MeshGizmo*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)()>(&::UnityEngine::Rendering::MeshGizmo::Clear)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6684988;
+  constexpr static std::size_t addrs = 0x67c2094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MeshGizmo*>(), { "Clear", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color)>(
     &::UnityEngine::Rendering::MeshGizmo::AddWireCube)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6684a30;
+  constexpr static std::size_t addrs = 0x67c213c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(
     ::UnityEngine::Matrix4x4, ::UnityEngine::Material*, ::UnityEngine::MeshTopology, ::UnityEngine::Rendering::CompareFunction, ::StringW)>(&::UnityEngine::Rendering::MeshGizmo::DrawMesh)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6684f74;
+  constexpr static std::size_t addrs = 0x67c2680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CompareFunction, ::StringW)>(
     &::UnityEngine::Rendering::MeshGizmo::RenderWireframe)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6685130;
+  constexpr static std::size_t addrs = 0x67c283c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)()>(&::UnityEngine::Rendering::MeshGizmo::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x668516c;
+  constexpr static std::size_t addrs = 0x67c2878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MeshGizmo*>(), { "Dispose", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0>)>(&::UnityEngine::Rendering::MeshGizmo::_AddWireCube_g__AddEdge_10_0)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6684c50;
+  constexpr static std::size_t addrs = 0x67c235c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

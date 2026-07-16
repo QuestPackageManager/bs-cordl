@@ -84,48 +84,48 @@ public:
   /// @brief Field signatureAlgorithm, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm)) ::StringW signatureAlgorithm;
 
-  /// @brief Method AddAttribute, addr 0x3596218, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x36526d0, size 0x48, virtual false, abstract: false, final false
   inline void AddAttribute(::Org::BouncyCastle::X509::X509Attribute* attribute);
 
-  /// @brief Method AddExtension, addr 0x359633c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x36527f4, size 0x98, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t> extensionValue);
 
-  /// @brief Method AddExtension, addr 0x35962a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x365275c, size 0x98, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extensionValue);
 
-  /// @brief Method Generate, addr 0x35963d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x365288c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method Generate, addr 0x35963dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x3652894, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Generate, addr 0x359645c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x3652914, size 0x570, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
 
   static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificateGenerator* New_ctor();
 
-  /// @brief Method Reset, addr 0x3595e94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x365234c, size 0x6c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetHolder, addr 0x3595f00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetHolder, addr 0x36523b8, size 0x24, virtual false, abstract: false, final false
   inline void SetHolder(::Org::BouncyCastle::X509::AttributeCertificateHolder* holder);
 
-  /// @brief Method SetIssuer, addr 0x3595f24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x36523dc, size 0x2c, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* issuer);
 
-  /// @brief Method SetIssuerUniqueId, addr 0x3596260, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerUniqueId, addr 0x3652718, size 0x44, virtual false, abstract: false, final false
   inline void SetIssuerUniqueId(::ArrayW<bool> iui);
 
-  /// @brief Method SetNotAfter, addr 0x3596040, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNotAfter, addr 0x36524f8, size 0x78, virtual false, abstract: false, final false
   inline void SetNotAfter(::System::DateTime date);
 
-  /// @brief Method SetNotBefore, addr 0x3595fc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNotBefore, addr 0x3652480, size 0x78, virtual false, abstract: false, final false
   inline void SetNotBefore(::System::DateTime date);
 
-  /// @brief Method SetSerialNumber, addr 0x3595f50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x3652408, size 0x78, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method SetSignatureAlgorithm, addr 0x35960b8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureAlgorithm, addr 0x3652570, size 0x160, virtual false, abstract: false, final false
   inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator* const& __cordl_internal_get_acInfoGen() const;
@@ -158,10 +158,10 @@ public:
 
   constexpr void __cordl_internal_set_signatureAlgorithm(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3595e08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36522c0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SignatureAlgNames, addr 0x35969cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x3652e84, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
 protected:

@@ -21,10 +21,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6b478e0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c9b798, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x6b478fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9b7b4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -20,7 +20,7 @@ namespace System::Net {
 class CORDL_TYPE TcpValidationHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidatePortNumber, addr 0x62b7fc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidatePortNumber, addr 0x63f4064, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidatePortNumber(int32_t port);
 
 protected:
@@ -38,7 +38,7 @@ public:
   TcpValidationHelpers(TcpValidationHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
 
-  /// @brief Method .ctor, addr 0x6c7dab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd196c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

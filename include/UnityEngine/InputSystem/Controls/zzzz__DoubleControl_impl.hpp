@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DoubleControl::*)()>(&::UnityEngine::InputSystem::Controls::DoubleControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63b8fc4;
+  constexpr static std::size_t addrs = 0x64f5be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DoubleControl*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::Controls::DoubleControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63b9048;
+  constexpr static std::size_t addrs = 0x64f5c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DoubleControl*>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DoubleControl::*)(double_t, void*)>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63b90b4;
+  constexpr static std::size_t addrs = 0x64f5cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DoubleControl*>(),

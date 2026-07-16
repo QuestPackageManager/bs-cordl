@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::ByteArrayContent::*)(::ArrayW<uint8_t>)>(&::System::Net::Http::ByteArrayContent::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f9a358;
+  constexpr static std::size_t addrs = 0x60d5454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::Http::ByteArrayContent::*)()>(
     &::System::Net::Http::ByteArrayContent::CreateContentReadStreamAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f9a3bc;
+  constexpr static std::size_t addrs = 0x60d54b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::ByteArrayContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(
     &::System::Net::Http::ByteArrayContent::SerializeToStreamAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f9a47c;
+  constexpr static std::size_t addrs = 0x60d5578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::ByteArrayContent::*)(::by_ref<int64_t>)>(&::System::Net::Http::ByteArrayContent::TryComputeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f9a4a0;
+  constexpr static std::size_t addrs = 0x60d559c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

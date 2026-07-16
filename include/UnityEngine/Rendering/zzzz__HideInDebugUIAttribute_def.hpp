@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::HideInDebugUIAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x661375c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6750e68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   HideInDebugUIAttribute(HideInDebugUIAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(NestedFragmentConverter_1)
+namespace Newtonsoft::Json::Linq {
+class JObject;
+}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
@@ -13,6 +16,9 @@ class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace OculusStudios::GraphQL::Client {
+class IFragment;
 }
 namespace System {
 class Object;
@@ -38,6 +44,9 @@ public:
   // Declarations
   /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
+
+  /// @brief Method MergeFragments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Linq::JObject* MergeFragments(::OculusStudios::GraphQL::Client::IFragment* frag, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   static inline ::OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>* New_ctor();
 
@@ -65,7 +74,7 @@ public:
   NestedFragmentConverter_1(NestedFragmentConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

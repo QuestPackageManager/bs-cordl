@@ -57,7 +57,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE InstanceOcclusionEventDebugArray_Info {
 public:
   // Declarations
-  /// @brief Method HasVersion, addr 0x66d67c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HasVersion, addr 0x6813ed0, size 0x24, virtual false, abstract: false, final false
   inline bool HasVersion();
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                                   ::UnityEngine::Rendering::OcclusionTest occlusionTest) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -124,7 +124,7 @@ public:
                                                      ::UnityEngine::Rendering::AsyncGPUReadbackRequest readback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17625 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -162,20 +162,20 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x66d6074, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6813780, size 0x164, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x66d5f88, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6813694, size 0xec, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method MoveToDebugStatsAndClear, addr 0x66d6300, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method MoveToDebugStatsAndClear, addr 0x6813a0c, size 0x4c4, virtual false, abstract: false, final false
   inline void MoveToDebugStatsAndClear(::UnityEngine::Rendering::DebugRendererBatcherStats* debugStats);
 
-  /// @brief Method TryAdd, addr 0x66d61d8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method TryAdd, addr 0x68138e4, size 0x128, virtual false, abstract: false, final false
   inline int32_t TryAdd(int32_t viewInstanceID, ::UnityEngine::Rendering::InstanceOcclusionEventType eventType, int32_t occluderVersion, int32_t subviewMask,
                         ::UnityEngine::Rendering::OcclusionTest occlusionTest);
 
-  /// @brief Method get_CounterBuffer, addr 0x66d5f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CounterBuffer, addr 0x681368c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_CounterBuffer();
 
   /// @brief Convert to "::System::IDisposable"
@@ -203,7 +203,7 @@ public:
   static constexpr int32_t MaxPassCount{ static_cast<int32_t>(0x40) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17626 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

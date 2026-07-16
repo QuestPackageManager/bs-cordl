@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__Order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x69a82d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afb9b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Name, addr 0x69a82d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6afb9b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Order, addr 0x69a82c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x6afb9a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   CategoryInfoAttribute(CategoryInfoAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10439 };
 
   /// @brief Field <Order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____Order_k__BackingField;

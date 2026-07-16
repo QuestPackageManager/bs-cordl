@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle (*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::get_nullHandle)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66a1050;
+  constexpr static std::size_t addrs = 0x67de75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66a10b0;
+  constexpr static std::size_t addrs = 0x67de7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::RayTracingAccelerationStructure* (*)(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle)>(
         &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::op_Implicit___UnityEngine__Rendering__RayTracingAccelerationStructure_)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x66a11a8;
+  constexpr static std::size_t addrs = 0x67de8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::IsValid)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x66a1298;
+  constexpr static std::size_t addrs = 0x67de9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

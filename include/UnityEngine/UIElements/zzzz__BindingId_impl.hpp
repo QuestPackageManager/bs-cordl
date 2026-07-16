@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindingId::*)(::StringW)>(&::UnityEngine::UIElements::BindingId::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b72b8c;
+  constexpr static std::size_t addrs = 0x6cc6a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindingId::*)(::by_ref<::Unity::Properties::PropertyPath>)>(&::UnityEngine::UIElements::BindingId::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6b72c18;
+  constexpr static std::size_t addrs = 0x6cc6ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
     &::UnityEngine::UIElements::BindingId::op_Implicit___Unity__Properties__PropertyPath)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b72c4c;
+  constexpr static std::size_t addrs = 0x6cc6b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(&::UnityEngine::UIElements::BindingId::op_Implicit___StringW)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72c5c;
+  constexpr static std::size_t addrs = 0x6cc6b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingId (*)(::StringW)>(&::UnityEngine::UIElements::BindingId::op_Implicit___UnityEngine__UIElements__BindingId)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b72c64;
+  constexpr static std::size_t addrs = 0x6cc6b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingId (*)(::by_ref<::Unity::Properties::PropertyPath>)>(
     &::UnityEngine::UIElements::BindingId::op_Implicit___UnityEngine__UIElements__BindingId)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b72cec;
+  constexpr static std::size_t addrs = 0x6cc6ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::BindingId::*)()>(&::UnityEngine::UIElements::BindingId::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72d44;
+  constexpr static std::size_t addrs = 0x6cc6bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BindingId::*)(::UnityEngine::UIElements::BindingId)>(&::UnityEngine::UIElements::BindingId::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b72d4c;
+  constexpr static std::size_t addrs = 0x6cc6c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BindingId::*)(::System::Object*)>(&::UnityEngine::UIElements::BindingId::Equals)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b72d9c;
+  constexpr static std::size_t addrs = 0x6cc6c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BindingId::*)()>(&::UnityEngine::UIElements::BindingId::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72e60;
+  constexpr static std::size_t addrs = 0x6cc6d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::UIElements::BindingId>, ::by_ref<::UnityEngine::UIElements::BindingId>)>(
     &::UnityEngine::UIElements::BindingId::op_Equality)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b72e68;
+  constexpr static std::size_t addrs = 0x6cc6d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::UIElements::BindingId>, ::by_ref<::UnityEngine::UIElements::BindingId>)>(
     &::UnityEngine::UIElements::BindingId::op_Inequality)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b72eb8;
+  constexpr static std::size_t addrs = 0x6cc6d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

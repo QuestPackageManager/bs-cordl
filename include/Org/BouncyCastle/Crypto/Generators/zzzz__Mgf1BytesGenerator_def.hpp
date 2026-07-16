@@ -44,13 +44,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x331f2d4, size 0x4c4, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0x33db78c, size 0x4c4, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t> output, int32_t outOff, int32_t length);
 
-  /// @brief Method Init, addr 0x331f13c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33db5f4, size 0x13c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method ItoOSP, addr 0x331f280, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0x33db738, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t> sp);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x331f080, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33db538, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x331f278, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0x33db730, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

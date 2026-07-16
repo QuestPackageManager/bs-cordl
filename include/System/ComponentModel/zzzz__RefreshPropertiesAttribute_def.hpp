@@ -41,13 +41,13 @@ public:
   /// @brief Field refresh, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_refresh, put = __cordl_internal_set_refresh)) ::System::ComponentModel::RefreshProperties refresh;
 
-  /// @brief Method Equals, addr 0x62a9584, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63e5620, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x62a9600, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63e569c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x62a9608, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x63e56a4, size 0x6c, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::RefreshPropertiesAttribute* New_ctor(::System::ComponentModel::RefreshProperties refresh);
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_refresh(::System::ComponentModel::RefreshProperties value);
 
-  /// @brief Method .ctor, addr 0x62a9574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63e5610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::RefreshProperties refresh);
 
   static inline ::System::ComponentModel::RefreshPropertiesAttribute* getStaticF_All();
@@ -67,7 +67,7 @@ public:
 
   static inline ::System::ComponentModel::RefreshPropertiesAttribute* getStaticF_Repaint();
 
-  /// @brief Method get_RefreshProperties, addr 0x62a957c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefreshProperties, addr 0x63e5618, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::RefreshProperties get_RefreshProperties();
 
   static inline void setStaticF_All(::System::ComponentModel::RefreshPropertiesAttribute* value);
@@ -91,7 +91,7 @@ public:
   RefreshPropertiesAttribute(RefreshPropertiesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11317 };
 
   /// @brief Field refresh, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::RefreshProperties ___refresh;

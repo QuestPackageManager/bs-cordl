@@ -30,12 +30,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnvironmentEffectsFilterPresetDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x58e504c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x5a0eb90, size 0x130, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58e517c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0ecc0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,16 @@ public:
   EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
+
+  /// @brief Field kAllEnvironmentEffectsLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kAllEnvironmentEffectsLocalizationKey{ u"PLAYER_SETTINGS_ALL_ENVIRONMENT_EFFECTS" };
+
+  /// @brief Field kNoEnvironmentEffectsLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kNoEnvironmentEffectsLocalizationKey{ u"PLAYER_SETTINGS_NO_ENVIRONMENT_EFFECTS" };
+
+  /// @brief Field kStrobeLightsReductionLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kStrobeLightsReductionLocalizationKey{ u"PLAYER_SETTINGS_STROBE_LIGHTS_REDUCTION" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

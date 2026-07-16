@@ -38,13 +38,13 @@ public:
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values)) ::ArrayW<::System::Runtime::Serialization::ObjectHolder*> m_values;
 
-  /// @brief Method Add, addr 0x5a17e20, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x5b51af0, size 0x78, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::ObjectHolder* value);
 
-  /// @brief Method EnlargeArray, addr 0x5a17e98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x5b51b68, size 0x8c, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method GetFixupEnumerator, addr 0x5a16de4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetFixupEnumerator, addr 0x5b50ab4, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
 
   static inline ::System::Runtime::Serialization::ObjectHolderList* New_ctor();
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::ObjectHolder*> value);
 
-  /// @brief Method .ctor, addr 0x5a141fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4decc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a17dbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b51a8c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method get_Count, addr 0x5a17f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5b51c24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Version, addr 0x5a17f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x5b51c1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

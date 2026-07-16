@@ -26,10 +26,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRecycledItemFromId, addr 0x6c386e8, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromId, addr 0x6d8c5a0, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
-  /// @brief Method GetRecycledItemFromIndex, addr 0x6c389e4, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x6d8c89c, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:

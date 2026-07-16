@@ -53,18 +53,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method BitsToInt, addr 0x336bd70, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method BitsToInt, addr 0x3428228, size 0xcc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BitsToInt(::ArrayW<uint8_t> t);
 
-  /// @brief Method Init, addr 0x336b944, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x3427dfc, size 0x42c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
 
-  /// @brief Method Init, addr 0x336b8f8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3427db0, size 0x4c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NextK, addr 0x336be3c, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0x34282f4, size 0x284, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_K() const;
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x336b80c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3427cc4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_IsDeterministic, addr 0x336b8f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0x3427da8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"

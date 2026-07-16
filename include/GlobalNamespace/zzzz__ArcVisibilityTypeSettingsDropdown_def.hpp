@@ -30,12 +30,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ArcVisibilityTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::ArcVisibilityType> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x58e3b40, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x5a0d67c, size 0x168, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::ArcVisibilityType, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58e3ca8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0d7e4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,19 @@ public:
   ArcVisibilityTypeSettingsDropdown(ArcVisibilityTypeSettingsDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6369 };
+
+  /// @brief Field kArcVisibilityHighLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kArcVisibilityHighLocalizationKey{ u"PLAYER_SETTINGS_ARC_VISIBILITY_HIGH" };
+
+  /// @brief Field kArcVisibilityLowLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kArcVisibilityLowLocalizationKey{ u"PLAYER_SETTINGS_ARC_VISIBILITY_LOW" };
+
+  /// @brief Field kArcVisibilityNoneLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kArcVisibilityNoneLocalizationKey{ u"PLAYER_SETTINGS_ARC_VISIBILITY_NONE" };
+
+  /// @brief Field kArcVisibilityStandardLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kArcVisibilityStandardLocalizationKey{ u"PLAYER_SETTINGS_ARC_VISIBILITY_STANDARD" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

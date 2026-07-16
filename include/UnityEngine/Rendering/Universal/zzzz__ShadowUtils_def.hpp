@@ -94,149 +94,149 @@ public:
   /// @brief Field m_ForceShadowPointSampling, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_m_ForceShadowPointSampling, put = setStaticF_m_ForceShadowPointSampling)) bool m_ForceShadowPointSampling;
 
-  /// @brief Method AllocShadowRT, addr 0x6779810, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AllocShadowRT, addr 0x68b818c, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* AllocShadowRT(int32_t width, int32_t height, int32_t bits, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
-  /// @brief Method ApplySliceTransform, addr 0x67782d0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ApplySliceTransform, addr 0x68b6c4c, size 0x130, virtual false, abstract: false, final false
   static inline void ApplySliceTransform(::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData, int32_t atlasWidth, int32_t atlasHeight);
 
-  /// @brief Method ExtractDirectionalLightMatrix, addr 0x6777890, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ExtractDirectionalLightMatrix, addr 0x68b620c, size 0x1b8, virtual false, abstract: false, final false
   static inline bool ExtractDirectionalLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                                    int32_t shadowLightIndex, int32_t cascadeIndex, int32_t shadowmapWidth, int32_t shadowmapHeight, int32_t shadowResolution, float_t shadowNearPlane,
                                                    ::by_ref<::UnityEngine::Vector4> cascadeSplitDistance, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData);
 
-  /// @brief Method ExtractDirectionalLightMatrix, addr 0x6778064, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ExtractDirectionalLightMatrix, addr 0x68b69e0, size 0xdc, virtual false, abstract: false, final false
   static inline bool ExtractDirectionalLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::by_ref<::UnityEngine::Rendering::Universal::ShadowData> shadowData,
                                                    int32_t shadowLightIndex, int32_t cascadeIndex, int32_t shadowmapWidth, int32_t shadowmapHeight, int32_t shadowResolution, float_t shadowNearPlane,
                                                    ::by_ref<::UnityEngine::Vector4> cascadeSplitDistance, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData);
 
-  /// @brief Method ExtractDirectionalLightMatrix, addr 0x6777f34, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ExtractDirectionalLightMatrix, addr 0x68b68b0, size 0x130, virtual false, abstract: false, final false
   static inline bool ExtractDirectionalLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::by_ref<::UnityEngine::Rendering::Universal::ShadowData> shadowData,
                                                    int32_t shadowLightIndex, int32_t cascadeIndex, int32_t shadowmapWidth, int32_t shadowmapHeight, int32_t shadowResolution, float_t shadowNearPlane,
                                                    ::by_ref<::UnityEngine::Vector4> cascadeSplitDistance, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData,
                                                    ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix);
 
-  /// @brief Method ExtractPointLightMatrix, addr 0x6777a64, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ExtractPointLightMatrix, addr 0x68b63e0, size 0x15c, virtual false, abstract: false, final false
   static inline bool ExtractPointLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                              int32_t shadowLightIndex, ::UnityEngine::CubemapFace cubemapFace, float_t fovBias, ::by_ref<::UnityEngine::Matrix4x4> shadowMatrix,
                                              ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                              ::by_ref<::UnityEngine::Rendering::ShadowSplitData> splitData);
 
-  /// @brief Method ExtractPointLightMatrix, addr 0x67784a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ExtractPointLightMatrix, addr 0x68b6e24, size 0xc8, virtual false, abstract: false, final false
   static inline bool ExtractPointLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::by_ref<::UnityEngine::Rendering::Universal::ShadowData> shadowData,
                                              int32_t shadowLightIndex, ::UnityEngine::CubemapFace cubemapFace, float_t fovBias, ::by_ref<::UnityEngine::Matrix4x4> shadowMatrix,
                                              ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                              ::by_ref<::UnityEngine::Rendering::ShadowSplitData> splitData);
 
-  /// @brief Method ExtractSpotLightMatrix, addr 0x6777bc0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ExtractSpotLightMatrix, addr 0x68b653c, size 0x10c, virtual false, abstract: false, final false
   static inline bool ExtractSpotLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                             int32_t shadowLightIndex, ::by_ref<::UnityEngine::Matrix4x4> shadowMatrix, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                             ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> splitData);
 
-  /// @brief Method ExtractSpotLightMatrix, addr 0x6778400, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ExtractSpotLightMatrix, addr 0x68b6d7c, size 0xa8, virtual false, abstract: false, final false
   static inline bool ExtractSpotLightMatrix(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults, ::by_ref<::UnityEngine::Rendering::Universal::ShadowData> shadowData,
                                             int32_t shadowLightIndex, ::by_ref<::UnityEngine::Matrix4x4> shadowMatrix, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                             ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> splitData);
 
-  /// @brief Method FastApproximately, addr 0x677a094, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FastApproximately, addr 0x68b8a10, size 0x100, virtual false, abstract: false, final false
   static inline bool FastApproximately(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b);
 
-  /// @brief Method FastApproximately, addr 0x677a07c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method FastApproximately, addr 0x68b89f8, size 0x18, virtual false, abstract: false, final false
   static inline bool FastApproximately(float_t a, float_t b);
 
-  /// @brief Method GetMaxTileResolutionInAtlas, addr 0x67788e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetMaxTileResolutionInAtlas, addr 0x68b7260, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetMaxTileResolutionInAtlas(int32_t atlasWidth, int32_t atlasHeight, int32_t tileCount);
 
-  /// @brief Method GetPunctualLightShadowSlicesCount, addr 0x6777a48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetPunctualLightShadowSlicesCount, addr 0x68b63c4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetPunctualLightShadowSlicesCount(::by_ref<::UnityEngine::LightType> lightType);
 
-  /// @brief Method GetScaleAndBiasForLinearDistanceFade, addr 0x6778e2c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetScaleAndBiasForLinearDistanceFade, addr 0x68b77a8, size 0x54, virtual false, abstract: false, final false
   static inline void GetScaleAndBiasForLinearDistanceFade(float_t fadeDistance, float_t border, ::by_ref<float_t> scale, ::by_ref<float_t> bias);
 
-  /// @brief Method GetShadowBias, addr 0x67789e8, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method GetShadowBias, addr 0x68b7364, size 0x380, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetShadowBias(::by_ref<::UnityEngine::Rendering::VisibleLight> shadowLight, int32_t shadowLightIndex,
                                                      ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* bias, bool supportsSoftShadows, ::UnityEngine::Matrix4x4 lightProjectionMatrix,
                                                      float_t shadowResolution);
 
-  /// @brief Method GetShadowBias, addr 0x6778d68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetShadowBias, addr 0x68b76e4, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetShadowBias(::by_ref<::UnityEngine::Rendering::VisibleLight> shadowLight, int32_t shadowLightIndex,
                                                      ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData, ::UnityEngine::Matrix4x4 lightProjectionMatrix, float_t shadowResolution);
 
-  /// @brief Method GetShadowBias, addr 0x6778910, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetShadowBias, addr 0x68b728c, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetShadowBias(::by_ref<::UnityEngine::Rendering::VisibleLight> shadowLight, int32_t shadowLightIndex,
                                                      ::by_ref<::UnityEngine::Rendering::Universal::ShadowData> shadowData, ::UnityEngine::Matrix4x4 lightProjectionMatrix, float_t shadowResolution);
 
-  /// @brief Method GetShadowTransform, addr 0x6778140, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetShadowTransform, addr 0x68b6abc, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetShadowTransform(::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view);
 
-  /// @brief Method GetTemporaryShadowTexture, addr 0x67794ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryShadowTexture, addr 0x68b7e68, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporaryShadowTexture(int32_t width, int32_t height, int32_t bits);
 
-  /// @brief Method GetTemporaryShadowTextureDescriptor, addr 0x67793dc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryShadowTextureDescriptor, addr 0x68b7d58, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor GetTemporaryShadowTextureDescriptor(int32_t width, int32_t height, int32_t bits);
 
-  /// @brief Method IsValidShadowCastingLight, addr 0x6779f0c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsValidShadowCastingLight, addr 0x68b8888, size 0x144, virtual false, abstract: false, final false
   static inline bool IsValidShadowCastingLight(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, int32_t i);
 
-  /// @brief Method IsValidShadowCastingLight, addr 0x677a050, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsValidShadowCastingLight, addr 0x68b89cc, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsValidShadowCastingLight(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, int32_t i, ::UnityEngine::LightType lightType,
                                                ::UnityEngine::LightShadows lightShadows, float_t shadowStrength);
 
-  /// @brief Method MinimalPunctualLightShadowResolution, addr 0x677a194, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MinimalPunctualLightShadowResolution, addr 0x68b8b10, size 0x14, virtual false, abstract: false, final false
   static inline int32_t MinimalPunctualLightShadowResolution(bool softShadow);
 
-  /// @brief Method RenderShadowSlice, addr 0x6778830, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RenderShadowSlice, addr 0x68b71ac, size 0xb4, virtual false, abstract: false, final false
   static inline void RenderShadowSlice(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> context,
                                        ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData, ::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings> settings);
 
-  /// @brief Method RenderShadowSlice, addr 0x6778570, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RenderShadowSlice, addr 0x68b6eec, size 0x158, virtual false, abstract: false, final false
   static inline void RenderShadowSlice(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> context,
                                        ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData, ::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings> settings,
                                        ::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view);
 
-  /// @brief Method RenderShadowSlice, addr 0x67786c8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RenderShadowSlice, addr 0x68b7044, size 0x168, virtual false, abstract: false, final false
   static inline void RenderShadowSlice(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData> shadowSliceData,
                                        ::by_ref<::UnityEngine::Rendering::RendererList> shadowRendererList, ::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view);
 
-  /// @brief Method SetCameraPosition, addr 0x67791f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetCameraPosition, addr 0x68b7b74, size 0xa0, virtual false, abstract: false, final false
   static inline void SetCameraPosition(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector3 worldSpaceCameraPos);
 
-  /// @brief Method SetLightDirection, addr 0x67790b8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetLightDirection, addr 0x68b7a34, size 0xa0, virtual false, abstract: false, final false
   static inline void SetLightDirection(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector3 lightDirection);
 
-  /// @brief Method SetLightPosition, addr 0x6779158, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetLightPosition, addr 0x68b7ad4, size 0xa0, virtual false, abstract: false, final false
   static inline void SetLightPosition(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector3 lightPosition);
 
-  /// @brief Method SetPerLightSoftShadowKeyword, addr 0x6779bd4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetPerLightSoftShadowKeyword, addr 0x68b8550, size 0xb0, virtual false, abstract: false, final false
   static inline void SetPerLightSoftShadowKeyword(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool hasSoftShadows);
 
-  /// @brief Method SetShadowBias, addr 0x6779014, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetShadowBias, addr 0x68b7990, size 0xa4, virtual false, abstract: false, final false
   static inline void SetShadowBias(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector4 shadowBias);
 
-  /// @brief Method SetSoftShadowQualityShaderKeywords, addr 0x6779c84, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method SetSoftShadowQualityShaderKeywords, addr 0x68b8600, size 0x288, virtual false, abstract: false, final false
   static inline void SetSoftShadowQualityShaderKeywords(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method SetWorldToCameraAndCameraToWorldMatrices, addr 0x6779298, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetWorldToCameraAndCameraToWorldMatrices, addr 0x68b7c14, size 0x144, virtual false, abstract: false, final false
   static inline void SetWorldToCameraAndCameraToWorldMatrices(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Matrix4x4 viewMatrix);
 
-  /// @brief Method SetupShadowCasterConstantBuffer, addr 0x6778e80, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetupShadowCasterConstantBuffer, addr 0x68b77fc, size 0xd4, virtual false, abstract: false, final false
   static inline void SetupShadowCasterConstantBuffer(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::VisibleLight> shadowLight, ::UnityEngine::Vector4 shadowBias);
 
-  /// @brief Method SetupShadowCasterConstantBuffer, addr 0x6778f54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetupShadowCasterConstantBuffer, addr 0x68b78d0, size 0xc0, virtual false, abstract: false, final false
   static inline void SetupShadowCasterConstantBuffer(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::VisibleLight> shadowLight,
                                                      ::UnityEngine::Vector4 shadowBias);
 
-  /// @brief Method ShadowRTNeedsReAlloc, addr 0x67795d8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ShadowRTNeedsReAlloc, addr 0x68b7f54, size 0x238, virtual false, abstract: false, final false
   static inline bool ShadowRTNeedsReAlloc(::UnityEngine::Rendering::RTHandle* handle, int32_t width, int32_t height, int32_t bits, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
-  /// @brief Method ShadowRTReAllocateIfNeeded, addr 0x6779904, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ShadowRTReAllocateIfNeeded, addr 0x68b8280, size 0xf4, virtual false, abstract: false, final false
   static inline bool ShadowRTReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, int32_t width, int32_t height, int32_t bits, int32_t anisoLevel, float_t mipMapBias,
                                                 ::StringW name);
 
-  /// @brief Method SoftShadowQualityToShaderProperty, addr 0x67799f8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SoftShadowQualityToShaderProperty, addr 0x68b8374, size 0x140, virtual false, abstract: false, final false
   static inline float_t SoftShadowQualityToShaderProperty(::UnityEngine::Light* light, bool softShadowsEnabled);
 
-  /// @brief Method SupportsPerLightSoftShadowQuality, addr 0x6779b38, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SupportsPerLightSoftShadowQuality, addr 0x68b84b4, size 0x9c, virtual false, abstract: false, final false
   static inline bool SupportsPerLightSoftShadowQuality();
 
   static inline bool getStaticF_m_ForceShadowPointSampling();
@@ -258,7 +258,7 @@ public:
   ShadowUtils(ShadowUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12936 };
 
   /// @brief Field kMinimumPunctualLightHardShadowResolution offset 0xffffffff size 0x4
   static constexpr int32_t kMinimumPunctualLightHardShadowResolution{ static_cast<int32_t>(0x8) };

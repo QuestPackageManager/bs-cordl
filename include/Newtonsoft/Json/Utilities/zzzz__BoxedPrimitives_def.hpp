@@ -108,19 +108,19 @@ public:
   /// @brief Field Int64_M1, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Int64_M1, put = setStaticF_Int64_M1)) ::System::Object* Int64_M1;
 
-  /// @brief Method Get, addr 0x5be1718, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x5d19940, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Object* Get(::System::Decimal value);
 
-  /// @brief Method Get, addr 0x5be12cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x5d194f4, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Object* Get(bool value);
 
-  /// @brief Method Get, addr 0x5be1808, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x5d19a30, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* Get(double_t value);
 
-  /// @brief Method Get, addr 0x5be1348, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x5d19570, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int32_t value);
 
-  /// @brief Method Get, addr 0x5be1570, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x5d19798, size 0x1a8, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int64_t value);
 
   static inline ::System::Object* getStaticF_BooleanFalse();
@@ -246,7 +246,7 @@ public:
   BoxedPrimitives(BoxedPrimitives const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

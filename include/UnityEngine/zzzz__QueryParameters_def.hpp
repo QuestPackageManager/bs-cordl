@@ -24,10 +24,10 @@ namespace UnityEngine {
 struct CORDL_TYPE QueryParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6a3ee24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b92900, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces);
 
-  /// @brief Method get_Default, addr 0x6a3ee38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6b92914, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::QueryParameters get_Default();
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
   constexpr QueryParameters(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18646 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -51,25 +51,25 @@ public:
 
   constexpr void __cordl_internal_set__startControlPointDelta(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x326ce8c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329344, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endControlPoint, addr 0x326ce10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_endControlPoint, addr 0x33292c8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endControlPoint();
 
   /// @brief Method get_endPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_startControlPoint, addr 0x326cd94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_startControlPoint, addr 0x332924c, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startControlPoint();
 
   /// @brief Method get_startPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
-  /// @brief Method set_endControlPoint, addr 0x326ce40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endControlPoint, addr 0x33292f8, size 0x4c, virtual false, abstract: false, final false
   inline void set_endControlPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startControlPoint, addr 0x326cdc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startControlPoint, addr 0x332927c, size 0x4c, virtual false, abstract: false, final false
   inline void set_startControlPoint(::UnityEngine::Vector3 value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   BaseBezierCurveData(BaseBezierCurveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20609 };
 
   /// @brief Field _startControlPointDelta, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startControlPointDelta;

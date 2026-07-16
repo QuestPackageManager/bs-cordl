@@ -103,25 +103,25 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextHandle___c* New_ctor();
 
-  /// @brief Method <InitThreadArrays>b__4_0, addr 0x6ab9230, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <InitThreadArrays>b__4_0, addr 0x6c0d0e8, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerationSettings* _InitThreadArrays_b__4_0();
 
-  /// @brief Method <InitThreadArrays>b__4_1, addr 0x6ab9288, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <InitThreadArrays>b__4_1, addr 0x6c0d140, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerator* _InitThreadArrays_b__4_1();
 
-  /// @brief Method <InitThreadArrays>b__4_2, addr 0x6ab92e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <InitThreadArrays>b__4_2, addr 0x6c0d198, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* _InitThreadArrays_b__4_2();
 
-  /// @brief Method .ctor, addr 0x6ab922c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0d0e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_generators>b__10_0, addr 0x6ab9568, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_generators>b__10_0, addr 0x6c0d420, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerator* _get_generators_b__10_0();
 
-  /// @brief Method <get_settingsArray>b__7_0, addr 0x6ab9510, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_settingsArray>b__7_0, addr 0x6c0d3c8, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerationSettings* _get_settingsArray_b__7_0();
 
-  /// @brief Method <get_textInfosCommon>b__13_0, addr 0x6ab95c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_textInfosCommon>b__13_0, addr 0x6c0d478, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* _get_textInfosCommon_b__13_0();
 
   static inline ::UnityEngine::TextCore::Text::TextHandle___c* getStaticF___9();
@@ -167,7 +167,7 @@ public:
   TextHandle___c(TextHandle___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -258,147 +258,147 @@ public:
 
   __declspec(property(get = get_useAdvancedText)) bool useAdvancedText;
 
-  /// @brief Method AddTextInfoToPermanentCache, addr 0x6ab7190, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method AddTextInfoToPermanentCache, addr 0x6c0b048, size 0xd0, virtual true, abstract: false, final false
   inline void AddTextInfoToPermanentCache();
 
-  /// @brief Method AddTextInfoToTemporaryCache, addr 0x6ab7260, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddTextInfoToTemporaryCache, addr 0x6c0b118, size 0xa4, virtual false, abstract: false, final false
   inline void AddTextInfoToTemporaryCache(int32_t hashCode);
 
-  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x6ab7c20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x6c0bad8, size 0x2c, virtual false, abstract: false, final false
   static inline float_t ConvertPixelUnitsToTextCoreRelativeUnits(float_t fontSize, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method Finalize, addr 0x6ab6574, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6c0a42c, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FindIntersectingLink, addr 0x6ab7ff0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x6c0bea8, size 0xfc, virtual false, abstract: false, final false
   inline int32_t FindIntersectingLink(::UnityEngine::Vector3 position, bool inverseYAxis);
 
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x6ab83bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x6c0c274, size 0x80, virtual false, abstract: false, final false
   inline float_t GetCharacterHeightFromIndex(int32_t index);
 
-  /// @brief Method GetCorrespondingStringIndex, addr 0x6ab80ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingStringIndex, addr 0x6c0bfa4, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetCorrespondingStringIndex(int32_t index);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x6ab7e3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x6c0bcf4, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetCursorIndexFromPosition(::UnityEngine::Vector2 position, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x6ab7c4c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x6c0bb04, size 0x84, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(int32_t index, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x6ab7cd0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x6c0bb88, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingLineHeight(int32_t index, bool useXAdvance, bool inverseYAxis);
 
-  /// @brief Method GetEndOfPreviousWord, addr 0x6ab872c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfPreviousWord, addr 0x6c0c5e4, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetEndOfPreviousWord(int32_t currentIndex);
 
-  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x6ab8804, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x6c0c6bc, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetFirstCharacterIndexOnLine(int32_t currentIndex);
 
-  /// @brief Method GetHighlightRectangles, addr 0x6ab7d64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightRectangles, addr 0x6c0bc1c, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rect> GetHighlightRectangles(int32_t cursorIndex, int32_t selectIndex);
 
-  /// @brief Method GetLastCharacterIndexOnLine, addr 0x6ab88dc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetLastCharacterIndexOnLine, addr 0x6c0c794, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetLastCharacterIndexOnLine(int32_t currentIndex);
 
-  /// @brief Method GetLineHeight, addr 0x6ab82bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x6c0c174, size 0x80, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
-  /// @brief Method GetLineHeightDefault, addr 0x6ab7718, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightDefault, addr 0x6c0b5d0, size 0xa0, virtual false, abstract: false, final false
   static inline float_t GetLineHeightDefault(::UnityEngine::TextCore::Text::TextGenerationSettings* settings);
 
-  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x6ab833c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x6c0c1f4, size 0x80, virtual false, abstract: false, final false
   inline float_t GetLineHeightFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x6ab8144, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x6c0bffc, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::LineInfo GetLineInfoFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineNumber, addr 0x6ab823c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x6c0c0f4, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetLineNumber(int32_t index);
 
-  /// @brief Method GetStartOfNextWord, addr 0x6ab8654, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetStartOfNextWord, addr 0x6c0c50c, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetStartOfNextWord(int32_t currentIndex);
 
-  /// @brief Method IndexOf, addr 0x6ab89b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6c0c86c, size 0xcc, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
   /// @brief Method InitArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InitArray(::by_ref<::ArrayW<T>> array, ::System::Func_1<T>* createInstance);
 
-  /// @brief Method InitThreadArrays, addr 0x6ab66e8, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method InitThreadArrays, addr 0x6c0a5a0, size 0x34c, virtual false, abstract: false, final false
   static inline void InitThreadArrays();
 
-  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x6ab9050, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x6c0cf08, size 0x8, virtual true, abstract: false, final false
   inline bool IsAdvancedTextEnabledForElement();
 
-  /// @brief Method IsDirty, addr 0x6ab7398, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x6c0b250, size 0x3c, virtual false, abstract: false, final false
   inline bool IsDirty(int32_t hashCode);
 
-  /// @brief Method IsElided, addr 0x6ab73dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsElided, addr 0x6c0b294, size 0x44, virtual false, abstract: false, final false
   inline bool IsElided();
 
-  /// @brief Method LastIndexOf, addr 0x6ab8a80, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x6c0c938, size 0xcc, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x6ab7ef0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x6c0bda8, size 0x80, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalLogicalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x6ab7f70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x6c0be28, size 0x80, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalLogicalPos);
 
   static inline ::UnityEngine::TextCore::Text::TextHandle* New_ctor();
 
-  /// @brief Method NextCodePointIndex, addr 0x6ab857c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method NextCodePointIndex, addr 0x6c0c434, size 0xd8, virtual false, abstract: false, final false
   inline int32_t NextCodePointIndex(int32_t currentIndex);
 
-  /// @brief Method PrepareFontAsset, addr 0x6ab77b8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method PrepareFontAsset, addr 0x6c0b670, size 0x130, virtual false, abstract: false, final false
   inline bool PrepareFontAsset();
 
-  /// @brief Method PreviousCodePointIndex, addr 0x6ab84a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method PreviousCodePointIndex, addr 0x6c0c35c, size 0xd8, virtual false, abstract: false, final false
   inline int32_t PreviousCodePointIndex(int32_t currentIndex);
 
-  /// @brief Method RemoveTextInfoFromPermanentCache, addr 0x6ab6638, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RemoveTextInfoFromPermanentCache, addr 0x6c0a4f0, size 0xb0, virtual false, abstract: false, final false
   inline void RemoveTextInfoFromPermanentCache();
 
-  /// @brief Method RemoveTextInfoFromTemporaryCache, addr 0x6ab65c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RemoveTextInfoFromTemporaryCache, addr 0x6c0a47c, size 0x74, virtual false, abstract: false, final false
   inline void RemoveTextInfoFromTemporaryCache();
 
-  /// @brief Method SelectCurrentParagraph, addr 0x6ab8c38, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentParagraph, addr 0x6c0caf0, size 0xd8, virtual false, abstract: false, final false
   inline void SelectCurrentParagraph(::by_ref<int32_t> cursorIndex, ::by_ref<int32_t> selectIndex);
 
-  /// @brief Method SelectCurrentWord, addr 0x6ab8b4c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentWord, addr 0x6c0ca04, size 0xec, virtual false, abstract: false, final false
   inline void SelectCurrentWord(int32_t index, ::by_ref<int32_t> cursorIndex, ::by_ref<int32_t> selectIndex);
 
-  /// @brief Method SelectToEndOfParagraph, addr 0x6ab8f80, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SelectToEndOfParagraph, addr 0x6c0ce38, size 0xd0, virtual false, abstract: false, final false
   inline void SelectToEndOfParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SelectToNextParagraph, addr 0x6ab8de0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SelectToNextParagraph, addr 0x6c0cc98, size 0xd0, virtual false, abstract: false, final false
   inline void SelectToNextParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SelectToPreviousParagraph, addr 0x6ab8d10, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SelectToPreviousParagraph, addr 0x6c0cbc8, size 0xd0, virtual false, abstract: false, final false
   inline void SelectToPreviousParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SelectToStartOfParagraph, addr 0x6ab8eb0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SelectToStartOfParagraph, addr 0x6c0cd68, size 0xd0, virtual false, abstract: false, final false
   inline void SelectToStartOfParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SetDirty, addr 0x6ab738c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6c0b244, size 0xc, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method Substring, addr 0x6ab843c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x6c0c2f4, size 0x68, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
-  /// @brief Method Update, addr 0x6ab74ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6c0b364, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update();
 
-  /// @brief Method UpdateCurrentFrame, addr 0x6ab7304, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateCurrentFrame, addr 0x6c0b1bc, size 0x88, virtual false, abstract: false, final false
   static inline void UpdateCurrentFrame();
 
-  /// @brief Method UpdatePreferredSize, addr 0x6ab78e8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredSize, addr 0x6c0b7a0, size 0x338, virtual false, abstract: false, final false
   inline void UpdatePreferredSize();
 
-  /// @brief Method UpdatePreferredValues, addr 0x6ab7420, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredValues, addr 0x6c0b2d8, size 0x8c, virtual false, abstract: false, final false
   inline void UpdatePreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method UpdateWithHash, addr 0x6ab7520, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateWithHash, addr 0x6c0b3d8, size 0x1f8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* UpdateWithHash(int32_t hashCode);
 
   constexpr bool const& __cordl_internal_get__IsCachedPermanent_k__BackingField() const;
@@ -473,7 +473,7 @@ public:
 
   constexpr void __cordl_internal_set_textGenerationInfo(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6ab6524, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0a3dc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::OTL_FeatureTag>* getStaticF_m_ActiveFontFeatures();
@@ -488,46 +488,46 @@ public:
 
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> getStaticF_s_TextInfosCommon();
 
-  /// @brief Method get_IsCachedPermanent, addr 0x6ab709c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCachedPermanent, addr 0x6c0af54, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCachedPermanent();
 
-  /// @brief Method get_IsCachedTemporary, addr 0x6ab70ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCachedTemporary, addr 0x6c0af64, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCachedTemporary();
 
-  /// @brief Method get_IsPlaceholder, addr 0x6ab73d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPlaceholder, addr 0x6c0b28c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPlaceholder();
 
-  /// @brief Method get_TextInfoNode, addr 0x6ab708c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextInfoNode, addr 0x6c0af44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextInfo*>* get_TextInfoNode();
 
-  /// @brief Method get_characterCount, addr 0x6ab70c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_characterCount, addr 0x6c0af80, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_characterCount();
 
-  /// @brief Method get_generator, addr 0x6ab6f44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_generator, addr 0x6c0adfc, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextGenerator* get_generator();
 
-  /// @brief Method get_generators, addr 0x6ab6bb0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_generators, addr 0x6c0aa68, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerator*> get_generators();
 
-  /// @brief Method get_preferredSize, addr 0x6ab707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preferredSize, addr 0x6c0af34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_preferredSize();
 
-  /// @brief Method get_settings, addr 0x6ab6fe0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x6c0ae98, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* get_settings();
 
-  /// @brief Method get_settingsArray, addr 0x6ab6a34, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_settingsArray, addr 0x6c0a8ec, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerationSettings*> get_settingsArray();
 
-  /// @brief Method get_textInfo, addr 0x6ab7110, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_textInfo, addr 0x6c0afc8, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfo();
 
-  /// @brief Method get_textInfoCommon, addr 0x6ab6ea8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_textInfoCommon, addr 0x6c0ad60, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoCommon();
 
-  /// @brief Method get_textInfosCommon, addr 0x6ab6d2c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_textInfosCommon, addr 0x6c0abe4, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> get_textInfosCommon();
 
-  /// @brief Method get_useAdvancedText, addr 0x6ab70bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_useAdvancedText, addr 0x6c0af74, size 0xc, virtual false, abstract: false, final false
   inline bool get_useAdvancedText();
 
   static inline void setStaticF_m_ActiveFontFeatures(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::OTL_FeatureTag>* value);
@@ -542,16 +542,16 @@ public:
 
   static inline void setStaticF_s_TextInfosCommon(::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> value);
 
-  /// @brief Method set_IsCachedPermanent, addr 0x6ab70a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCachedPermanent, addr 0x6c0af5c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCachedPermanent(bool value);
 
-  /// @brief Method set_IsCachedTemporary, addr 0x6ab70b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCachedTemporary, addr 0x6c0af6c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCachedTemporary(bool value);
 
-  /// @brief Method set_TextInfoNode, addr 0x6ab7094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TextInfoNode, addr 0x6c0af4c, size 0x8, virtual false, abstract: false, final false
   inline void set_TextInfoNode(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextInfo*>* value);
 
-  /// @brief Method set_preferredSize, addr 0x6ab7084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_preferredSize, addr 0x6c0af3c, size 0x8, virtual false, abstract: false, final false
   inline void set_preferredSize(::UnityEngine::Vector2 value);
 
 protected:
@@ -569,7 +569,7 @@ public:
   TextHandle(TextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17242 };
 
   /// @brief Field nativeSettings, offset: 0x10, size: 0x60, def value: None
   ::UnityEngine::TextCore::NativeTextGenerationSettings ___nativeSettings;

@@ -98,10 +98,10 @@ public:
 
   __declspec(property(get = get_whiteTextureXR, put = set_whiteTextureXR)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle whiteTextureXR;
 
-  /// @brief Method Cleanup, addr 0x669d2bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x67da9c8, size 0x40, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method InitializeForRendering, addr 0x669d2fc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method InitializeForRendering, addr 0x67daa08, size 0x20c, virtual false, abstract: false, final false
   inline void InitializeForRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* New_ctor();
@@ -184,67 +184,67 @@ public:
 
   constexpr void __cordl_internal_set_m_WhiteTexture2D(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method .ctor, addr 0x669d1b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67da8c0, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_blackTexture, addr 0x669d0ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_blackTexture, addr 0x67da7f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_blackTexture();
 
-  /// @brief Method get_blackTexture3DXR, addr 0x669d178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_blackTexture3DXR, addr 0x67da884, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_blackTexture3DXR();
 
-  /// @brief Method get_blackTextureArrayXR, addr 0x669d150, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_blackTextureArrayXR, addr 0x67da85c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_blackTextureArrayXR();
 
-  /// @brief Method get_blackTextureXR, addr 0x669d13c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_blackTextureXR, addr 0x67da848, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_blackTextureXR();
 
-  /// @brief Method get_blackUIntTextureXR, addr 0x669d164, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_blackUIntTextureXR, addr 0x67da870, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_blackUIntTextureXR();
 
-  /// @brief Method get_clearTextureXR, addr 0x669d114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clearTextureXR, addr 0x67da820, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_clearTextureXR();
 
-  /// @brief Method get_defaultShadowTexture, addr 0x669d1a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultShadowTexture, addr 0x67da8ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_defaultShadowTexture();
 
-  /// @brief Method get_magentaTextureXR, addr 0x669d128, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_magentaTextureXR, addr 0x67da834, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_magentaTextureXR();
 
-  /// @brief Method get_whiteTexture, addr 0x669d100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_whiteTexture, addr 0x67da80c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_whiteTexture();
 
-  /// @brief Method get_whiteTextureXR, addr 0x669d18c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_whiteTextureXR, addr 0x67da898, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_whiteTextureXR();
 
-  /// @brief Method set_blackTexture, addr 0x669d0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blackTexture, addr 0x67da804, size 0x8, virtual false, abstract: false, final false
   inline void set_blackTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_blackTexture3DXR, addr 0x669d184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blackTexture3DXR, addr 0x67da890, size 0x8, virtual false, abstract: false, final false
   inline void set_blackTexture3DXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_blackTextureArrayXR, addr 0x669d15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blackTextureArrayXR, addr 0x67da868, size 0x8, virtual false, abstract: false, final false
   inline void set_blackTextureArrayXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_blackTextureXR, addr 0x669d148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blackTextureXR, addr 0x67da854, size 0x8, virtual false, abstract: false, final false
   inline void set_blackTextureXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_blackUIntTextureXR, addr 0x669d170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blackUIntTextureXR, addr 0x67da87c, size 0x8, virtual false, abstract: false, final false
   inline void set_blackUIntTextureXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_clearTextureXR, addr 0x669d120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearTextureXR, addr 0x67da82c, size 0x8, virtual false, abstract: false, final false
   inline void set_clearTextureXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_defaultShadowTexture, addr 0x669d1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultShadowTexture, addr 0x67da8b8, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultShadowTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_magentaTextureXR, addr 0x669d134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_magentaTextureXR, addr 0x67da840, size 0x8, virtual false, abstract: false, final false
   inline void set_magentaTextureXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_whiteTexture, addr 0x669d10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_whiteTexture, addr 0x67da818, size 0x8, virtual false, abstract: false, final false
   inline void set_whiteTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_whiteTextureXR, addr 0x669d198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_whiteTextureXR, addr 0x67da8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_whiteTextureXR(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
 protected:
@@ -262,7 +262,7 @@ public:
   RenderGraphDefaultResources(RenderGraphDefaultResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12393 };
 
   /// @brief Field m_BlackTexture2D, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ___m_BlackTexture2D;

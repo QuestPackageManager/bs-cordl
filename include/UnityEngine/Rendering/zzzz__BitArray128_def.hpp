@@ -43,61 +43,61 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IBitArray"
   constexpr operator ::UnityEngine::Rendering::IBitArray*();
 
-  /// @brief Method BitAnd, addr 0x6674824, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method BitAnd, addr 0x67b1f30, size 0xa0, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IBitArray* BitAnd(::UnityEngine::Rendering::IBitArray* other);
 
-  /// @brief Method BitNot, addr 0x6674964, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method BitNot, addr 0x67b2070, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IBitArray* BitNot();
 
-  /// @brief Method BitOr, addr 0x66748c4, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method BitOr, addr 0x67b1fd0, size 0xa0, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IBitArray* BitOr(::UnityEngine::Rendering::IBitArray* other);
 
-  /// @brief Method Equals, addr 0x66749e8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x67b20f4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6674a74, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67b2180, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x667471c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b1e28, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<uint32_t>* bitIndexTrue);
 
-  /// @brief Method .ctor, addr 0x6674714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b1e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t initValue1, uint64_t initValue2);
 
-  /// @brief Method get_Item, addr 0x66746c8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x67b1dd4, size 0x18, virtual true, abstract: false, final true
   inline bool get_Item(uint32_t index);
 
-  /// @brief Method get_allFalse, addr 0x6674404, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_allFalse, addr 0x67b1b10, size 0x20, virtual true, abstract: false, final true
   inline bool get_allFalse();
 
-  /// @brief Method get_allTrue, addr 0x6674424, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_allTrue, addr 0x67b1b30, size 0x24, virtual true, abstract: false, final true
   inline bool get_allTrue();
 
-  /// @brief Method get_capacity, addr 0x66743fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_capacity, addr 0x67b1b08, size 0x8, virtual true, abstract: false, final true
   inline uint32_t get_capacity();
 
-  /// @brief Method get_humanizedData, addr 0x6674448, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method get_humanizedData, addr 0x67b1b54, size 0x280, virtual true, abstract: false, final true
   inline ::StringW get_humanizedData();
 
   /// @brief Convert to "::UnityEngine::Rendering::IBitArray"
   constexpr ::UnityEngine::Rendering::IBitArray* i___UnityEngine__Rendering__IBitArray();
 
-  /// @brief Method op_BitwiseAnd, addr 0x6674818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x67b1f24, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BitArray128 op_BitwiseAnd(::UnityEngine::Rendering::BitArray128 a, ::UnityEngine::Rendering::BitArray128 b);
 
-  /// @brief Method op_BitwiseOr, addr 0x667480c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x67b1f18, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BitArray128 op_BitwiseOr(::UnityEngine::Rendering::BitArray128 a, ::UnityEngine::Rendering::BitArray128 b);
 
-  /// @brief Method op_Equality, addr 0x66749c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x67b20d4, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::BitArray128 a, ::UnityEngine::Rendering::BitArray128 b);
 
-  /// @brief Method op_Inequality, addr 0x66749d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x67b20e4, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::BitArray128 a, ::UnityEngine::Rendering::BitArray128 b);
 
-  /// @brief Method op_OnesComplement, addr 0x6674800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_OnesComplement, addr 0x67b1f0c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BitArray128 op_OnesComplement(::UnityEngine::Rendering::BitArray128 a);
 
-  /// @brief Method set_Item, addr 0x66746e0, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x67b1dec, size 0x34, virtual true, abstract: false, final true
   inline void set_Item(uint32_t index, bool value);
 
   // Ctor Parameters []
@@ -108,7 +108,7 @@ public:
   constexpr BitArray128(uint64_t data1, uint64_t data2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12235 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

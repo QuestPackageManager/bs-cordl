@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::EnumMemberAttribute::*)()>(&::System::Runtime::Serialization::EnumMemberAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600fb98;
+  constexpr static std::size_t addrs = 0x614ac94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumMemberAttribute*>(), { "get_Value", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::EnumMemberAttribute::*)()>(
     &::System::Runtime::Serialization::EnumMemberAttribute::get_IsValueSetExplicitly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600fba0;
+  constexpr static std::size_t addrs = 0x614ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

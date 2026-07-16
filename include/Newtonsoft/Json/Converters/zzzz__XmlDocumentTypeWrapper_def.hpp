@@ -56,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::XmlDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x5c64c44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9ce6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x5c651f0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x5d9d418, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x5c65208, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x5d9d430, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x5c651a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x5d9d3cc, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x5c651d8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x5d9d400, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x5c651c0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x5d9d3e8, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
@@ -95,7 +95,7 @@ public:
   XmlDocumentTypeWrapper(XmlDocumentTypeWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
 
   /// @brief Field _documentType, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDocumentType* ____documentType;

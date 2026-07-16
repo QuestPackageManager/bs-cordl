@@ -42,24 +42,24 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE UnsafeMeshGenerationNode {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6c7e6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6dd25a8, size 0x8, virtual false, abstract: false, final false
   static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method DrawGradientsInternal, addr 0x6c7e880, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DrawGradientsInternal, addr 0x6dd2738, size 0x54, virtual false, abstract: false, final false
   inline void DrawGradientsInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
                                     ::UnityEngine::UIElements::VectorImage* gradientsOwner);
 
-  /// @brief Method DrawMesh, addr 0x6c7e6f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6dd25b0, size 0x58, virtual false, abstract: false, final false
   inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture);
 
-  /// @brief Method DrawMeshInternal, addr 0x6c7e81c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInternal, addr 0x6dd26d4, size 0x64, virtual false, abstract: false, final false
   inline void DrawMeshInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
                                bool skipAtlas);
 
-  /// @brief Method GetManaged, addr 0x6c7e614, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetManaged, addr 0x6dd24cc, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* GetManaged();
 
-  /// @brief Method GetParentEntry, addr 0x6c7e9e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x6dd2898, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
   // Ctor Parameters []

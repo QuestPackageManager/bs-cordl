@@ -40,7 +40,7 @@ public:
   /// @brief Field _installMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  /// @brief Method CreateSubContainer, addr 0x6d329d0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CreateSubContainer, addr 0x6e87690, size 0x9c, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x6d329c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e87684, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
 protected:
@@ -70,7 +70,7 @@ public:
   SubContainerCreatorByMethod(SubContainerCreatorByMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14574 };
 
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installMethod;

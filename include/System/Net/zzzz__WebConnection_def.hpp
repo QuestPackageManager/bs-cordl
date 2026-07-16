@@ -149,13 +149,13 @@ public:
 
   static inline ::System::Net::WebConnection___c* New_ctor();
 
-  /// @brief Method <Connect>b__16_0, addr 0x620270c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_0, addr 0x633d808, size 0xa4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _Connect_b__16_0(::System::Net::IPEndPoint* targetEndPoint, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method <Connect>b__16_1, addr 0x62027b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_1, addr 0x633d8ac, size 0xfc, virtual false, abstract: false, final false
   inline void _Connect_b__16_1(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method .ctor, addr 0x6202708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633d804, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::WebConnection___c* getStaticF___9();
@@ -185,7 +185,7 @@ public:
   WebConnection___c(WebConnection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11612 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -204,10 +204,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x62028ac, size 0x914, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633d9a8, size 0x914, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x62031c0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633e2bc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -229,7 +229,7 @@ public:
                                          ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -296,10 +296,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x620322c, size 0x6ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633e328, size 0x6ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6203918, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633ea14, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -322,7 +322,7 @@ public:
                                               ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -389,10 +389,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6203998, size 0x5b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633ea94, size 0x5b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6204154, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633f250, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -414,7 +414,7 @@ public:
                                                 ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -528,57 +528,57 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CanReuse, addr 0x6201824, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CanReuse, addr 0x633c920, size 0x30, virtual false, abstract: false, final false
   inline bool CanReuse();
 
-  /// @brief Method CanReuseConnection, addr 0x61ffeac, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method CanReuseConnection, addr 0x633afa8, size 0x3f0, virtual false, abstract: false, final false
   inline bool CanReuseConnection(::System::Net::WebOperation* operation);
 
-  /// @brief Method CheckReusable, addr 0x6201854, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckReusable, addr 0x633c950, size 0x98, virtual false, abstract: false, final false
   inline bool CheckReusable();
 
-  /// @brief Method Close, addr 0x62022e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x633d3e0, size 0xc4, virtual false, abstract: false, final false
   inline void Close(bool reset);
 
-  /// @brief Method CloseSocket, addr 0x62023a8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x633d4a4, size 0x298, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method Connect, addr 0x62018ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x633c9e8, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Continue, addr 0x61fec94, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Continue, addr 0x6339d90, size 0x164, virtual false, abstract: false, final false
   inline bool Continue(::System::Net::WebOperation* next);
 
-  /// @brief Method CreateStream, addr 0x62019b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x633cab4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x61ffbd8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x633acd4, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6202648, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x633d744, size 0x3c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetException, addr 0x6201bc0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x633ccbc, size 0x1e0, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus status, ::System::Exception* error);
 
-  /// @brief Method InitConnection, addr 0x6201ac8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitConnection, addr 0x633cbc4, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::WebConnection* New_ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method PrepareSharingNtlm, addr 0x6201f48, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method PrepareSharingNtlm, addr 0x633d044, size 0x2dc, virtual false, abstract: false, final false
   inline bool PrepareSharingNtlm(::System::Net::WebOperation* operation);
 
-  /// @brief Method ReadLine, addr 0x6201da0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x633ce9c, size 0x1a8, virtual false, abstract: false, final false
   static inline bool ReadLine(::ArrayW<uint8_t> buffer, ::by_ref<int32_t> start, int32_t max, ::by_ref<::StringW> output);
 
-  /// @brief Method Reset, addr 0x6202224, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x633d320, size 0xb4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetNtlm, addr 0x62022d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetNtlm, addr 0x633d3d4, size 0xc, virtual false, abstract: false, final false
   inline void ResetNtlm();
 
-  /// @brief Method StartOperation, addr 0x620029c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x633b398, size 0x210, virtual false, abstract: false, final false
   inline bool StartOperation(::System::Net::WebOperation* operation, bool reused);
 
   constexpr ::System::Net::ServicePoint* const& __cordl_internal_get__ServicePoint_k__BackingField() const;
@@ -647,37 +647,37 @@ public:
 
   constexpr void __cordl_internal_set_unsafe_sharing(bool value);
 
-  /// @brief Method .ctor, addr 0x62004ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633b5a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method get_Closed, addr 0x61ffc14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Closed, addr 0x633ad10, size 0x10, virtual false, abstract: false, final false
   inline bool get_Closed();
 
-  /// @brief Method get_IdleSince, addr 0x6202640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IdleSince, addr 0x633d73c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_IdleSince();
 
-  /// @brief Method get_NtlmAuthenticated, addr 0x6202684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmAuthenticated, addr 0x633d780, size 0x8, virtual false, abstract: false, final false
   inline bool get_NtlmAuthenticated();
 
-  /// @brief Method get_NtlmCredential, addr 0x6202694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmCredential, addr 0x633d790, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_NtlmCredential();
 
-  /// @brief Method get_ServicePoint, addr 0x620181c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x633c918, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x62026a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x633d7a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_UnsafeAuthenticatedConnectionSharing();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_NtlmAuthenticated, addr 0x620268c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmAuthenticated, addr 0x633d788, size 0x8, virtual false, abstract: false, final false
   inline void set_NtlmAuthenticated(bool value);
 
-  /// @brief Method set_NtlmCredential, addr 0x620269c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmCredential, addr 0x633d798, size 0x8, virtual false, abstract: false, final false
   inline void set_NtlmCredential(::System::Net::NetworkCredential* value);
 
-  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x62026ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x633d7a8, size 0x8, virtual false, abstract: false, final false
   inline void set_UnsafeAuthenticatedConnectionSharing(bool value);
 
 protected:
@@ -695,7 +695,7 @@ public:
   WebConnection(WebConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11616 };
 
   /// @brief Field ntlm_credentials, offset: 0x10, size: 0x8, def value: None
   ::System::Net::NetworkCredential* ___ntlm_credentials;

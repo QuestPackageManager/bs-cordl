@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
-  /// @brief Method .ctor, addr 0x6a5f2c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb2da0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6a5f2c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb2da4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6a5f2cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb2da8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
-  /// @brief Method .ctor, addr 0x6a5f2f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb2dd4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
-  /// @brief Method set_TargetType, addr 0x6a5f2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetType, addr 0x6bb2d98, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   NativePropertyAttribute(NativePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23032 };
 
   /// @brief Field <TargetType>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Bindings::TargetType ____TargetType_k__BackingField;

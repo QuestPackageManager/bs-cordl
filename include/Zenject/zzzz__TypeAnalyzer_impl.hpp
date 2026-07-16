@@ -10,123 +10,135 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ReflectionBakingCoverageModes_def.hpp"
 #include "Zenject/zzzz__TypeAnalyzer_def.hpp"
-//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass23_0._ctor
+//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass24_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::TypeAnalyzer___c__DisplayClass23_0::*)()>(&::Zenject::TypeAnalyzer___c__DisplayClass23_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::TypeAnalyzer___c__DisplayClass24_0::*)()>(&::Zenject::TypeAnalyzer___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d4543c;
+  constexpr static std::size_t addrs = 0x6e9a444;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass23_0._CreateTypeInfoFromReflection_b__0
+//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass24_0._CreateTypeInfoFromReflection_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo_InjectMemberInfo* (
-    ::Zenject::TypeAnalyzer___c__DisplayClass23_0::*)(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*)>(&::Zenject::TypeAnalyzer___c__DisplayClass23_0::_CreateTypeInfoFromReflection_b__0)> {
+    ::Zenject::TypeAnalyzer___c__DisplayClass24_0::*)(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*)>(&::Zenject::TypeAnalyzer___c__DisplayClass24_0::_CreateTypeInfoFromReflection_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d458a4;
+  constexpr static std::size_t addrs = 0x6e9a8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(),
                                                              { "<CreateTypeInfoFromReflection>b__0", {}, { ::i2c::type_of<::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass23_0._CreateTypeInfoFromReflection_b__1
+//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass24_0._CreateTypeInfoFromReflection_b__1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::Zenject::InjectTypeInfo_InjectMemberInfo* (::Zenject::TypeAnalyzer___c__DisplayClass23_0::*)(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*)>(
-        &::Zenject::TypeAnalyzer___c__DisplayClass23_0::_CreateTypeInfoFromReflection_b__1)> {
+    static_cast<::Zenject::InjectTypeInfo_InjectMemberInfo* (::Zenject::TypeAnalyzer___c__DisplayClass24_0::*)(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*)>(
+        &::Zenject::TypeAnalyzer___c__DisplayClass24_0::_CreateTypeInfoFromReflection_b__1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d45928;
+  constexpr static std::size_t addrs = 0x6e9a934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(),
                                                              { "<CreateTypeInfoFromReflection>b__1", {}, { ::i2c::type_of<::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass23_0.__zenCreate
+//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass24_0.__zenCreate
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::TypeAnalyzer___c__DisplayClass23_0::__zenCreate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::TypeAnalyzer___c__DisplayClass24_0::__zenCreate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d459ac;
+  constexpr static std::size_t addrs = 0x6e9a9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass23_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::TypeAnalyzer___c__DisplayClass24_0.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TypeAnalyzer___c__DisplayClass23_0::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TypeAnalyzer___c__DisplayClass24_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6d459f0;
+  constexpr static std::size_t addrs = 0x6e9a9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& Zenject::TypeAnalyzer___c__DisplayClass23_0::__cordl_internal_get_type() {
+constexpr ::System::Type*& Zenject::TypeAnalyzer___c__DisplayClass24_0::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::System::Type* const& Zenject::TypeAnalyzer___c__DisplayClass23_0::__cordl_internal_get_type() const {
+constexpr ::System::Type* const& Zenject::TypeAnalyzer___c__DisplayClass24_0::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr void Zenject::TypeAnalyzer___c__DisplayClass23_0::__cordl_internal_set_type(::System::Type* value) {
+constexpr void Zenject::TypeAnalyzer___c__DisplayClass24_0::__cordl_internal_set_type(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
-inline void Zenject::TypeAnalyzer___c__DisplayClass23_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
+inline void Zenject::TypeAnalyzer___c__DisplayClass24_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Zenject::InjectTypeInfo_InjectMemberInfo* Zenject::TypeAnalyzer___c__DisplayClass23_0::_CreateTypeInfoFromReflection_b__0(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo* x) {
+inline ::Zenject::InjectTypeInfo_InjectMemberInfo* Zenject::TypeAnalyzer___c__DisplayClass24_0::_CreateTypeInfoFromReflection_b__0(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(),
                                                            { "<CreateTypeInfoFromReflection>b__0", {}, { ::i2c::type_of<::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo_InjectMemberInfo*>(this, ___internal_method, x);
 }
-inline ::Zenject::InjectTypeInfo_InjectMemberInfo* Zenject::TypeAnalyzer___c__DisplayClass23_0::_CreateTypeInfoFromReflection_b__1(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo* x) {
+inline ::Zenject::InjectTypeInfo_InjectMemberInfo* Zenject::TypeAnalyzer___c__DisplayClass24_0::_CreateTypeInfoFromReflection_b__1(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(),
                                                            { "<CreateTypeInfoFromReflection>b__1", {}, { ::i2c::type_of<::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo_InjectMemberInfo*>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::TypeAnalyzer___c__DisplayClass23_0::__zenCreate(::ArrayW<::System::Object*> P_0) {
+inline ::System::Object* Zenject::TypeAnalyzer___c__DisplayClass24_0::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer___c__DisplayClass23_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
+inline ::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer___c__DisplayClass24_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::TypeAnalyzer___c__DisplayClass23_0* Zenject::TypeAnalyzer___c__DisplayClass23_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::TypeAnalyzer___c__DisplayClass23_0*>());
+inline ::Zenject::TypeAnalyzer___c__DisplayClass24_0* Zenject::TypeAnalyzer___c__DisplayClass24_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::TypeAnalyzer___c__DisplayClass24_0*>());
 }
 // Ctor Parameters []
-constexpr ::Zenject::TypeAnalyzer___c__DisplayClass23_0::TypeAnalyzer___c__DisplayClass23_0() {}
+constexpr ::Zenject::TypeAnalyzer___c__DisplayClass24_0::TypeAnalyzer___c__DisplayClass24_0() {}
+//  Writing Method size for method: ::Zenject::TypeAnalyzer.NoDomainReloadInit
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Zenject::TypeAnalyzer::NoDomainReloadInit)> {
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x6e99888;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "NoDomainReloadInit", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Zenject::TypeAnalyzer.get_ReflectionBakingCoverageMode
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ReflectionBakingCoverageModes (*)()>(&::Zenject::TypeAnalyzer::get_ReflectionBakingCoverageMode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d44a88;
+  constexpr static std::size_t addrs = 0x6e99a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "get_ReflectionBakingCoverageMode", {}, {} })));
@@ -138,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::ReflectionBakingCoverageModes)>(&::Zenject::TypeAnalyzer::set_ReflectionBakingCoverageMode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6d44ae4;
+  constexpr static std::size_t addrs = 0x6e99aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::ShouldAllowDuringValidation)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6d2d264;
+  constexpr static std::size_t addrs = 0x6e81e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::ShouldAllowDuringValidationInternal)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6d44b44;
+  constexpr static std::size_t addrs = 0x6e99b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::HasInfo)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d44c70;
+  constexpr static std::size_t addrs = 0x6e99c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "HasInfo", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -190,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::GetInfo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d33f58;
+  constexpr static std::size_t addrs = 0x6e88c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "GetInfo", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -202,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::TryGetInfo)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6d2b374;
+  constexpr static std::size_t addrs = 0x6e80298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "TryGetInfo", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -214,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::GetInfoInternal)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6d44cd4;
+  constexpr static std::size_t addrs = 0x6e99cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::ShouldSkipTypeAnalysis)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d44f74;
+  constexpr static std::size_t addrs = 0x6e99f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::IsStaticType)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d45398;
+  constexpr static std::size_t addrs = 0x6e9a3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)(::System::Type*)>(&::Zenject::TypeAnalyzer::CreateTypeInfoFromReflection)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6d450cc;
+  constexpr static std::size_t addrs = 0x6e9a0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,6 +293,10 @@ inline void Zenject::TypeAnalyzer::setStaticF__ReflectionBakingCoverageMode_k__B
 }
 inline ::Zenject::ReflectionBakingCoverageModes Zenject::TypeAnalyzer::getStaticF__ReflectionBakingCoverageMode_k__BackingField() {
   return ::cordl_internals::getStaticField<::Zenject::ReflectionBakingCoverageModes, "<ReflectionBakingCoverageMode>k__BackingField", ::Zenject::TypeAnalyzer*>();
+}
+inline void Zenject::TypeAnalyzer::NoDomainReloadInit() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "NoDomainReloadInit", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline ::Zenject::ReflectionBakingCoverageModes Zenject::TypeAnalyzer::get_ReflectionBakingCoverageMode() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeAnalyzer*>(), { "get_ReflectionBakingCoverageMode", {}, {} })));

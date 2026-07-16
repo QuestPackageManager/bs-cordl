@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState const PreparingToDownload;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15000 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -90,7 +90,7 @@ public:
   // Declarations
   using AssetDownloadingState = ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState;
 
-  /// @brief Method .ctor, addr 0x366e6f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372b044, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred, ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState assetDownloadingState);
 
   // Ctor Parameters []
@@ -104,7 +104,7 @@ public:
                                          ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState assetDownloadingState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15001 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

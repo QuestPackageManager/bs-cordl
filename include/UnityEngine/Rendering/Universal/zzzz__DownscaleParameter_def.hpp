@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::DownscaleParameter* New_ctor(::UnityEngine::Rendering::Universal::BloomDownscaleMode value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x673002c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686e9a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::BloomDownscaleMode value, bool overrideState);
 
 protected:
@@ -43,7 +43,7 @@ public:
   DownscaleParameter(DownscaleParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

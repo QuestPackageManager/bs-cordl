@@ -46,46 +46,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Properties::PropertyPathPart>"
   constexpr operator ::System::IEquatable_1<::Unity::Properties::PropertyPathPart>*();
 
-  /// @brief Method CheckKind, addr 0x6a47b78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CheckKind, addr 0x6b9b654, size 0x48, virtual false, abstract: false, final false
   inline void CheckKind(::Unity::Properties::PropertyPathPartKind type);
 
-  /// @brief Method Equals, addr 0x6a47d84, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b9b860, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a47cf8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b9b7d4, size 0x8c, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::PropertyPathPart other);
 
-  /// @brief Method GetHashCode, addr 0x6a47e10, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b9b8ec, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a47bc0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b9b69c, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a47b24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9b600, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method .ctor, addr 0x6a47b4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9b628, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key);
 
-  /// @brief Method .ctor, addr 0x6a47b0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9b5e8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Index, addr 0x6a47a74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x6b9b550, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_IsIndex, addr 0x6a47a14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsIndex, addr 0x6b9b4f0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsIndex();
 
-  /// @brief Method get_IsName, addr 0x6a47a04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsName, addr 0x6b9b4e0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsName();
 
-  /// @brief Method get_Key, addr 0x6a47ac0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x6b9b59c, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Kind, addr 0x6a47a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x6b9b500, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPathPartKind get_Kind();
 
-  /// @brief Method get_Name, addr 0x6a47a2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6b9b508, size 0x48, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Properties::PropertyPathPart>"
@@ -100,7 +100,7 @@ public:
   constexpr PropertyPathPart(::Unity::Properties::PropertyPathPartKind m_Kind, ::StringW m_Name, int32_t m_Index, ::System::Object* m_Key) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19594 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

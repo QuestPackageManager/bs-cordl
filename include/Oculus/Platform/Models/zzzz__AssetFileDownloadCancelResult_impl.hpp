@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::AssetFileDownloadCancelResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::AssetFileDownloadCancelResult::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5cb36b0;
+  constexpr static std::size_t addrs = 0x5deb8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

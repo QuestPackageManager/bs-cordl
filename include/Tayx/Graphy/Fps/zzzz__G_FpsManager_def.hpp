@@ -98,33 +98,33 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Awake, addr 0x62fe8f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x643a994, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x62f9a08, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6435aa4, size 0x4c4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsManager* New_ctor();
 
-  /// @brief Method RefreshParameters, addr 0x62fbc00, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x6437c9c, size 0x19c, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method RestorePreviousState, addr 0x62f97ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x6435848, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method SetGraphActive, addr 0x62fe900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetGraphActive, addr 0x643a99c, size 0x44, virtual false, abstract: false, final false
   inline void SetGraphActive(bool active);
 
-  /// @brief Method SetPosition, addr 0x62f6990, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x6432a2c, size 0x314, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x62f730c, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x64333a8, size 0x1b8, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate);
 
-  /// @brief Method Start, addr 0x62fe8fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x643a998, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateParameters, addr 0x62f74f0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x643358c, size 0x1a4, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get_m_backgroundImages() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x62feaf4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643ab90, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
@@ -217,7 +217,7 @@ public:
   G_FpsManager(G_FpsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21450 };
 
   /// @brief Field m_fpsGraphGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_fpsGraphGameObject;

@@ -6,11 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(HeadInObstacleHapticEffect)
-namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
+namespace BeatSaber::Haptics {
+class HapticFeedbackManager;
+}
+namespace BeatSaber::Haptics {
+class HapticPresetSO;
 }
 namespace GlobalNamespace {
-class HapticFeedbackManager;
+class GameplayLevelSceneTransitionEvents;
 }
 namespace GlobalNamespace {
 class IGamePause;
@@ -20,9 +23,6 @@ class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,10 +46,11 @@ public:
                       put = __cordl_internal_set__gameplayLevelSceneTransitionEvents)) ::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _hapticFeedbackManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>
+      _hapticFeedbackManager;
 
   /// @brief Field _headHapticPreset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__headHapticPreset, put = __cordl_internal_set__headHapticPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _headHapticPreset;
+  __declspec(property(get = __cordl_internal_get__headHapticPreset, put = __cordl_internal_set__headHapticPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _headHapticPreset;
 
   /// @brief Field _isGamePaused, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__isGamePaused, put = __cordl_internal_set__isGamePaused)) bool _isGamePaused;
@@ -74,24 +75,24 @@ public:
   /// @brief Field _wasHeadInWallLastFrame, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__wasHeadInWallLastFrame, put = __cordl_internal_set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x584a58c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x5982798, size 0x14, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x584a5b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x59827c4, size 0x14, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
-  /// @brief Method HandleDidResumeEvent, addr 0x584a5a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleDidResumeEvent, addr 0x59827ac, size 0x18, virtual false, abstract: false, final false
   inline void HandleDidResumeEvent();
 
   static inline ::GlobalNamespace::HeadInObstacleHapticEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x584a26c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5982478, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x584a058, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5982264, size 0x214, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x584a4d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59826e0, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
@@ -102,13 +103,13 @@ public:
 
   constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__headHapticPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__headHapticPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__headHapticPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__headHapticPreset();
 
   constexpr bool const& __cordl_internal_get__isGamePaused() const;
 
@@ -142,9 +143,9 @@ public:
 
   constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value);
 
-  constexpr void __cordl_internal_set__headHapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__headHapticPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
   constexpr void __cordl_internal_set__isGamePaused(bool value);
 
@@ -160,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x584a5cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59827d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -178,19 +179,19 @@ public:
   HeadInObstacleHapticEffect(HeadInObstacleHapticEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5783 };
 
   /// @brief Field kInvalidTime offset 0xffffffff size 0x4
   static constexpr float_t kInvalidTime{ static_cast<float_t>(-1.0f) };
 
   /// @brief Field _headHapticPreset, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____headHapticPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____headHapticPreset;
 
   /// @brief Field _minimalHapticDuration, offset: 0x28, size: 0x4, def value: None
   float_t ____minimalHapticDuration;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+  ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;

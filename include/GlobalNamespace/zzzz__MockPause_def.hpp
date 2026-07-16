@@ -41,13 +41,13 @@ public:
 
   static inline ::GlobalNamespace::MockPause* New_ctor();
 
-  /// @brief Method Pause, addr 0x58754e4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x59a9e0c, size 0x38, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x5875554, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x59a9e7c, size 0x38, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x587551c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x59a9e44, size 0x38, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr ::System::Action* const& __cordl_internal_get_didPauseEvent() const;
@@ -68,31 +68,31 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x587558c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a9eb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPauseEvent, addr 0x58750dc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x59a9a04, size 0xac, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x587538c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x59a9cb4, size 0xac, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x5875234, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x59a9b5c, size 0xac, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x58750d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x59a99fc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  /// @brief Method remove_didPauseEvent, addr 0x5875188, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x59a9ab0, size 0xac, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x5875438, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x59a9d60, size 0xac, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x58752e0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x59a9c08, size 0xac, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   MockPause(MockPause const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5998 };
 
   /// @brief Field didPauseEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didPauseEvent;

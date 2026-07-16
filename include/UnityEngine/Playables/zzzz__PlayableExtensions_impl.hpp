@@ -103,6 +103,12 @@ template <typename U> inline ::UnityEngine::Playables::Playable UnityEngine::Pla
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable>(nullptr, ___internal_method, playable, inputPort);
 }
+template <typename U> inline ::UnityEngine::Playables::Playable UnityEngine::Playables::PlayableExtensions::GetOutput(U playable, int32_t outputPort) {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableExtensions*>(),
+                                                                                              { "GetOutput", { ::i2c::class_of<U>() }, { ::i2c::type_of<U>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable>(nullptr, ___internal_method, playable, outputPort);
+}
 template <typename U> inline void UnityEngine::Playables::PlayableExtensions::SetInputWeight(U playable, int32_t inputIndex, float_t weight) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableExtensions*>(),

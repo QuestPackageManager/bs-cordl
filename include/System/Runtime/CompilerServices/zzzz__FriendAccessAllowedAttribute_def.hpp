@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::FriendAccessAllowedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a36e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70b60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x66d4690;
+  constexpr static std::size_t addrs = 0x6811d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::Execute)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x66d4730;
+  constexpr static std::size_t addrs = 0x6811e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

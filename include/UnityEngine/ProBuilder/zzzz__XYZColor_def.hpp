@@ -33,15 +33,15 @@ public:
   /// @brief Field z, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) float_t z;
 
-  /// @brief Method FromRGB, addr 0x6576aec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x66b41f8, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* FromRGB(float_t R, float_t G, float_t B);
 
-  /// @brief Method FromRGB, addr 0x65769f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x66b4100, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::XYZColor* New_ctor(float_t x, float_t y, float_t z);
 
-  /// @brief Method ToString, addr 0x6576d0c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66b4418, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_z(float_t value);
 
-  /// @brief Method .ctor, addr 0x65769e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b40f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z);
 
 protected:
@@ -80,7 +80,7 @@ public:
   XYZColor(XYZColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16694 };
 
   /// @brief Field x, offset: 0x10, size: 0x4, def value: None
   float_t ___x;

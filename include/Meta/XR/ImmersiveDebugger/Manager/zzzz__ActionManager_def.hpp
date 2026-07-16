@@ -79,11 +79,11 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::ActionManager___c* New_ctor();
 
-  /// @brief Method <ProcessType>b__4_0, addr 0x5925bc8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>b__4_0, addr 0x5a5f2cc, size 0x1a8, virtual false, abstract: false, final false
   inline void _ProcessType_b__4_0(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* memberController, ::System::Reflection::MethodInfo* member,
                                   ::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instance);
 
-  /// @brief Method .ctor, addr 0x5925bc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5f2c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::ActionManager___c* getStaticF___9();
@@ -109,7 +109,7 @@ public:
   ActionManager___c(ActionManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -141,22 +141,22 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
   constexpr operator ::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*() noexcept;
 
-  /// @brief Method GetCountPerType, addr 0x5925a40, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetCountPerType, addr 0x5a5f144, size 0x98, virtual true, abstract: false, final true
   inline int32_t GetCountPerType(::System::Type* type);
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::ActionManager* New_ctor();
 
-  /// @brief Method ProcessType, addr 0x592561c, size 0x370, virtual true, abstract: false, final true
+  /// @brief Method ProcessType, addr 0x5a5ed20, size 0x370, virtual true, abstract: false, final true
   inline void ProcessType(::System::Type* type);
 
-  /// @brief Method ProcessTypeFromHierarchy, addr 0x59259c4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromHierarchy, addr 0x5a5f0c8, size 0x38, virtual true, abstract: false, final true
   inline void ProcessTypeFromHierarchy(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ProcessTypeFromInspector, addr 0x592598c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromInspector, addr 0x5a5f090, size 0x38, virtual true, abstract: false, final true
   inline void ProcessTypeFromInspector(::System::Type* type, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle, ::System::Reflection::MemberInfo* memberInfo,
                                        ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute);
 
-  /// @brief Method Setup, addr 0x5925614, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Setup, addr 0x5a5ed18, size 0x8, virtual true, abstract: false, final true
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* uiPanel, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* instanceCache);
 
   constexpr ::System::Collections::Generic::Dictionary_2<
@@ -183,10 +183,10 @@ public:
 
   constexpr void __cordl_internal_set__uiPanel(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* value);
 
-  /// @brief Method .ctor, addr 0x5925ad8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5f1dc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x59259fc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_TelemetryAnnotation, addr 0x5a5f100, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_TelemetryAnnotation();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
@@ -207,7 +207,7 @@ public:
   ActionManager(ActionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
 
   /// @brief Field ActionsDict, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<

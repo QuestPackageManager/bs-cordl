@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::get_needsToCheckFramePress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b8250;
+  constexpr static std::size_t addrs = 0x64f4e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)(bool)>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::set_needsToCheckFramePress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b8258;
+  constexpr static std::size_t addrs = 0x64f4e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::get_pressPointOrDefault)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63b8260;
+  constexpr static std::size_t addrs = 0x64f4e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63b791c;
+  constexpr static std::size_t addrs = 0x64f453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::ButtonControl*>(), { ".ctor", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::IsValueConsideredPressed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63b82d0;
+  constexpr static std::size_t addrs = 0x64f4ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::get_isPressed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63b8340;
+  constexpr static std::size_t addrs = 0x64f4f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::ButtonControl*>(), { "get_isPressed", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)(bool, bool)>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::BeginTestingForFramePresses)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x63b8400;
+  constexpr static std::size_t addrs = 0x64f5020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::ButtonControl*>(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::get_wasPressedThisFrame)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x63b84fc;
+  constexpr static std::size_t addrs = 0x64f511c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::ButtonControl::get_wasReleasedThisFrame)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x63b86c0;
+  constexpr static std::size_t addrs = 0x64f52e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::UpdateWasPressed)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x63b8884;
+  constexpr static std::size_t addrs = 0x64f54a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::ButtonControl*>(), { "UpdateWasPressed", {}, {} })));

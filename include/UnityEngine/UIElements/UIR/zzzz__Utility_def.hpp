@@ -240,100 +240,100 @@ public:
   /// @brief Field s_MarkerRaiseEngineUpdate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_MarkerRaiseEngineUpdate, put = setStaticF_s_MarkerRaiseEngineUpdate)) ::Unity::Profiling::ProfilerMarker s_MarkerRaiseEngineUpdate;
 
-  /// @brief Method AllocateBuffer, addr 0x6b7acf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AllocateBuffer, addr 0x6ccebac, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocateBuffer(int32_t elementCount, int32_t elementStride, bool vertexBuffer);
 
-  /// @brief Method CPUFencePassed, addr 0x6b7b288, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CPUFencePassed, addr 0x6ccf140, size 0x3c, virtual false, abstract: false, final false
   static inline bool CPUFencePassed(uint32_t fence);
 
-  /// @brief Method CreateStencilState, addr 0x6b7b130, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateStencilState, addr 0x6ccefe8, size 0x88, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateStencilState(::UnityEngine::Rendering::StencilState stencilState);
 
-  /// @brief Method CreateStencilState_Injected, addr 0x6b7b1b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateStencilState_Injected, addr 0x6ccf070, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateStencilState_Injected(::by_ref<::UnityEngine::Rendering::StencilState> stencilState);
 
-  /// @brief Method DisableScissor, addr 0x6b7b108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DisableScissor, addr 0x6ccefc0, size 0x28, virtual false, abstract: false, final false
   static inline void DisableScissor();
 
-  /// @brief Method DrawRanges, addr 0x6b7af18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DrawRanges, addr 0x6ccedd0, size 0x74, virtual false, abstract: false, final false
   static inline void DrawRanges(::System::IntPtr ib, ::System::IntPtr* vertexStreams, int32_t streamCount, ::System::IntPtr ranges, int32_t rangeCount, ::System::IntPtr vertexDecl);
 
-  /// @brief Method FreeBuffer, addr 0x6b7ad48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeBuffer, addr 0x6ccec00, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeBuffer(::System::IntPtr buffer);
 
-  /// @brief Method GetActiveViewport, addr 0x6b7b328, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetActiveViewport, addr 0x6ccf1e0, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt GetActiveViewport();
 
-  /// @brief Method GetActiveViewport_Injected, addr 0x6b7b3b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveViewport_Injected, addr 0x6ccf268, size 0x3c, virtual false, abstract: false, final false
   static inline void GetActiveViewport_Injected(::by_ref<::UnityEngine::RectInt> ret);
 
-  /// @brief Method GetUnityProjectionMatrix, addr 0x6b7b478, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetUnityProjectionMatrix, addr 0x6ccf330, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetUnityProjectionMatrix();
 
-  /// @brief Method GetUnityProjectionMatrix_Injected, addr 0x6b7b518, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetUnityProjectionMatrix_Injected, addr 0x6ccf3d0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetUnityProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetVertexDeclaration, addr 0x6b7adf0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetVertexDeclaration, addr 0x6cceca8, size 0xec, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexDeclaration(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> vertexAttributes);
 
-  /// @brief Method GetVertexDeclaration_Injected, addr 0x6b7aedc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexDeclaration_Injected, addr 0x6cced94, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexDeclaration_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> vertexAttributes);
 
-  /// @brief Method HasMappedBufferRange, addr 0x6b7b238, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasMappedBufferRange, addr 0x6ccf0f0, size 0x28, virtual false, abstract: false, final false
   static inline bool HasMappedBufferRange();
 
-  /// @brief Method InsertCPUFence, addr 0x6b7b260, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InsertCPUFence, addr 0x6ccf118, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t InsertCPUFence();
 
-  /// @brief Method NotifyOfUIREvents, addr 0x6b7b43c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfUIREvents, addr 0x6ccf2f4, size 0x3c, virtual false, abstract: false, final false
   static inline void NotifyOfUIREvents(bool subscribe);
 
-  /// @brief Method ProfileDrawChainBegin, addr 0x6b7b3ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ProfileDrawChainBegin, addr 0x6ccf2a4, size 0x28, virtual false, abstract: false, final false
   static inline void ProfileDrawChainBegin();
 
-  /// @brief Method ProfileDrawChainEnd, addr 0x6b7b414, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ProfileDrawChainEnd, addr 0x6ccf2cc, size 0x28, virtual false, abstract: false, final false
   static inline void ProfileDrawChainEnd();
 
-  /// @brief Method RaiseEngineUpdate, addr 0x6b7abe4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RaiseEngineUpdate, addr 0x6ccea9c, size 0x98, virtual false, abstract: false, final false
   static inline void RaiseEngineUpdate();
 
-  /// @brief Method RaiseFlushPendingResources, addr 0x6b7ac7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RaiseFlushPendingResources, addr 0x6cceb34, size 0x78, virtual false, abstract: false, final false
   static inline void RaiseFlushPendingResources();
 
-  /// @brief Method RaiseGraphicsResourcesRecreate, addr 0x6b7ab64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RaiseGraphicsResourcesRecreate, addr 0x6ccea1c, size 0x80, virtual false, abstract: false, final false
   static inline void RaiseGraphicsResourcesRecreate(bool recreate);
 
-  /// @brief Method SetPropertyBlock, addr 0x6b7af8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyBlock, addr 0x6ccee44, size 0x80, virtual false, abstract: false, final false
   static inline void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* props);
 
-  /// @brief Method SetPropertyBlock_Injected, addr 0x6b7b00c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyBlock_Injected, addr 0x6cceec4, size 0x3c, virtual false, abstract: false, final false
   static inline void SetPropertyBlock_Injected(::System::IntPtr props);
 
-  /// @brief Method SetScissorRect, addr 0x6b7b048, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetScissorRect, addr 0x6ccef00, size 0x84, virtual false, abstract: false, final false
   static inline void SetScissorRect(::UnityEngine::RectInt scissorRect);
 
-  /// @brief Method SetScissorRect_Injected, addr 0x6b7b0cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetScissorRect_Injected, addr 0x6ccef84, size 0x3c, virtual false, abstract: false, final false
   static inline void SetScissorRect_Injected(::by_ref<::UnityEngine::RectInt> scissorRect);
 
-  /// @brief Method SetStencilState, addr 0x6b7b1f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetStencilState, addr 0x6ccf0ac, size 0x44, virtual false, abstract: false, final false
   static inline void SetStencilState(::System::IntPtr stencilState, int32_t stencilRef);
 
-  /// @brief Method SyncRenderThread, addr 0x6b7b300, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SyncRenderThread, addr 0x6ccf1b8, size 0x28, virtual false, abstract: false, final false
   static inline void SyncRenderThread();
 
-  /// @brief Method UpdateBufferRanges, addr 0x6b7ad84, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateBufferRanges, addr 0x6ccec3c, size 0x6c, virtual false, abstract: false, final false
   static inline void UpdateBufferRanges(::System::IntPtr buffer, ::System::IntPtr ranges, int32_t rangeCount, int32_t writeRangeStart, int32_t writeRangeEnd);
 
-  /// @brief Method WaitForCPUFencePassed, addr 0x6b7b2c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCPUFencePassed, addr 0x6ccf17c, size 0x3c, virtual false, abstract: false, final false
   static inline void WaitForCPUFencePassed(uint32_t fence);
 
-  /// @brief Method add_EngineUpdate, addr 0x6b7a7a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_EngineUpdate, addr 0x6cce65c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_EngineUpdate(::System::Action* value);
 
-  /// @brief Method add_FlushPendingResources, addr 0x6b7a984, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_FlushPendingResources, addr 0x6cce83c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_FlushPendingResources(::System::Action* value);
 
-  /// @brief Method add_GraphicsResourcesRecreate, addr 0x6b7a59c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method add_GraphicsResourcesRecreate, addr 0x6cce454, size 0x104, virtual false, abstract: false, final false
   static inline void add_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
   static inline ::System::Action* getStaticF_EngineUpdate();
@@ -344,13 +344,13 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerRaiseEngineUpdate();
 
-  /// @brief Method remove_EngineUpdate, addr 0x6b7a894, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_EngineUpdate, addr 0x6cce74c, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_EngineUpdate(::System::Action* value);
 
-  /// @brief Method remove_FlushPendingResources, addr 0x6b7aa74, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_FlushPendingResources, addr 0x6cce92c, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_FlushPendingResources(::System::Action* value);
 
-  /// @brief Method remove_GraphicsResourcesRecreate, addr 0x6b7a6a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method remove_GraphicsResourcesRecreate, addr 0x6cce558, size 0x104, virtual false, abstract: false, final false
   static inline void remove_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
   static inline void setStaticF_EngineUpdate(::System::Action* value);

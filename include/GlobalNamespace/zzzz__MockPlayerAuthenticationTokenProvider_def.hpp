@@ -15,9 +15,6 @@ namespace GlobalNamespace {
 struct AuthenticationToken_PlatformType;
 }
 namespace GlobalNamespace {
-struct AuthenticationToken;
-}
-namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
@@ -46,23 +43,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerAuthenticationTokenProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <hashedUserId>k__BackingField, offset 0x20, size 0x8
+  /// @brief Field <hashedUserId>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__hashedUserId_k__BackingField, put = __cordl_internal_set__hashedUserId_k__BackingField)) ::StringW _hashedUserId_k__BackingField;
 
-  /// @brief Field _mockTokenData, offset 0x38, size 0x10
+  /// @brief Field _mockTokenData, offset 0x28, size 0x10
   __declspec(property(get = __cordl_internal_get__mockTokenData, put = __cordl_internal_set__mockTokenData)) ::GlobalNamespace::XPlatformAccessTokenData _mockTokenData;
 
-  /// @brief Field _password, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password)) ::StringW _password;
-
-  /// @brief Field <platformType>k__BackingField, offset 0x30, size 0x1
+  /// @brief Field <platformType>k__BackingField, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__platformType_k__BackingField,
                       put = __cordl_internal_set__platformType_k__BackingField)) ::GlobalNamespace::AuthenticationToken_PlatformType _platformType_k__BackingField;
 
-  /// @brief Field _userId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId)) ::StringW _userId;
-
-  /// @brief Field <userName>k__BackingField, offset 0x28, size 0x8
+  /// @brief Field <userName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__userName_k__BackingField, put = __cordl_internal_set__userName_k__BackingField)) ::StringW _userName_k__BackingField;
 
   __declspec(property(get = get_hashedUserId)) ::StringW hashedUserId;
@@ -77,16 +68,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Method GetAuthenticationToken, addr 0x5947f20, size 0xa8, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
-
-  /// @brief Method GetTokenPlatform, addr 0x5947fc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTokenPlatform, addr 0x5a80930, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_PlatformType GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x5947fd0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessToken, addr 0x5a80938, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
-  static inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* New_ctor(::StringW userId, ::StringW userName, ::StringW password, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
+  static inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* New_ctor(::StringW userId, ::StringW userName, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
 
   constexpr ::StringW const& __cordl_internal_get__hashedUserId_k__BackingField() const;
 
@@ -96,17 +84,9 @@ public:
 
   constexpr ::GlobalNamespace::XPlatformAccessTokenData& __cordl_internal_get__mockTokenData();
 
-  constexpr ::StringW const& __cordl_internal_get__password() const;
-
-  constexpr ::StringW& __cordl_internal_get__password();
-
   constexpr ::GlobalNamespace::AuthenticationToken_PlatformType const& __cordl_internal_get__platformType_k__BackingField() const;
 
   constexpr ::GlobalNamespace::AuthenticationToken_PlatformType& __cordl_internal_get__platformType_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__userId() const;
-
-  constexpr ::StringW& __cordl_internal_get__userId();
 
   constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
 
@@ -116,24 +96,20 @@ public:
 
   constexpr void __cordl_internal_set__mockTokenData(::GlobalNamespace::XPlatformAccessTokenData value);
 
-  constexpr void __cordl_internal_set__password(::StringW value);
-
   constexpr void __cordl_internal_set__platformType_k__BackingField(::GlobalNamespace::AuthenticationToken_PlatformType value);
-
-  constexpr void __cordl_internal_set__userId(::StringW value);
 
   constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5947e44, size 0xdc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW userId, ::StringW userName, ::StringW password, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
+  /// @brief Method .ctor, addr 0x5a80864, size 0xcc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW userId, ::StringW userName, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
 
-  /// @brief Method get_hashedUserId, addr 0x5947e2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hashedUserId, addr 0x5a8084c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_platformType, addr 0x5947e3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_platformType, addr 0x5a8085c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_PlatformType get_platformType();
 
-  /// @brief Method get_userName, addr 0x5947e34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x5a80854, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"
@@ -157,41 +133,31 @@ public:
   MockPlayerAuthenticationTokenProvider(MockPlayerAuthenticationTokenProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22179 };
 
-  /// @brief Field _userId, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____userId;
-
-  /// @brief Field _password, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____password;
-
-  /// @brief Field <hashedUserId>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field <hashedUserId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____hashedUserId_k__BackingField;
 
-  /// @brief Field <userName>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <userName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____userName_k__BackingField;
 
-  /// @brief Field <platformType>k__BackingField, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field <platformType>k__BackingField, offset: 0x20, size: 0x1, def value: None
   ::GlobalNamespace::AuthenticationToken_PlatformType ____platformType_k__BackingField;
 
-  /// @brief Field _mockTokenData, offset: 0x38, size: 0x10, def value: None
+  /// @brief Field _mockTokenData, offset: 0x28, size: 0x10, def value: None
   ::GlobalNamespace::XPlatformAccessTokenData ____mockTokenData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____userId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____hashedUserId_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____password) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____userName_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____hashedUserId_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____platformType_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____userName_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____mockTokenData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____platformType_k__BackingField) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, ____mockTokenData) == 0x38, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MockPlayerAuthenticationTokenProvider) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

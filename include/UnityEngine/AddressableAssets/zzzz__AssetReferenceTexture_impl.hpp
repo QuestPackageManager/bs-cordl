@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceTexture::*)(::StringW)>(&::UnityEngine::AddressableAssets::AssetReferenceTexture::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x631dd90;
+  constexpr static std::size_t addrs = 0x645a9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

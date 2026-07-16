@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x3575d3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36321f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_cpdext();
@@ -113,22 +113,22 @@ public:
 
   static inline ::ArrayW<int32_t> getStaticF_fixed_tl();
 
-  /// @brief Method huft_build, addr 0x35795d0, size 0x79c, virtual false, abstract: false, final false
+  /// @brief Method huft_build, addr 0x3635a88, size 0x79c, virtual false, abstract: false, final false
   inline int32_t huft_build(::ArrayW<int32_t> b, int32_t bindex, int32_t n, int32_t s, ::ArrayW<int32_t> d, ::ArrayW<int32_t> e, ::ArrayW<int32_t> t, ::ArrayW<int32_t> m, ::ArrayW<int32_t> hp,
                             ::ArrayW<int32_t> hn, ::ArrayW<int32_t> v);
 
-  /// @brief Method inflate_trees_bits, addr 0x3577168, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method inflate_trees_bits, addr 0x3633620, size 0x12c, virtual false, abstract: false, final false
   inline int32_t inflate_trees_bits(::ArrayW<int32_t> c, ::ArrayW<int32_t> bb, ::ArrayW<int32_t> tb, ::ArrayW<int32_t> hp, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_trees_dynamic, addr 0x3577294, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method inflate_trees_dynamic, addr 0x363374c, size 0x27c, virtual false, abstract: false, final false
   inline int32_t inflate_trees_dynamic(int32_t nl, int32_t nd, ::ArrayW<int32_t> c, ::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, ::ArrayW<int32_t> tl, ::ArrayW<int32_t> td, ::ArrayW<int32_t> hp,
                                        ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_trees_fixed, addr 0x3577068, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method inflate_trees_fixed, addr 0x3633520, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t inflate_trees_fixed(::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, ::ArrayW<::ArrayW<int32_t>> tl, ::ArrayW<::ArrayW<int32_t>> td,
                                             ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method initWorkArea, addr 0x3579d6c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method initWorkArea, addr 0x3636224, size 0x1b8, virtual false, abstract: false, final false
   inline void initWorkArea(int32_t vsize);
 
   static inline void setStaticF_cpdext(::ArrayW<int32_t> value);

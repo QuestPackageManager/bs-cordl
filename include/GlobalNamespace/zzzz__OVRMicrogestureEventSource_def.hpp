@@ -37,12 +37,12 @@ public:
   /// @brief Field _hand, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hand, put = __cordl_internal_set__hand)) ::UnityW<::GlobalNamespace::OVRHand> _hand;
 
-  /// @brief Method CheckForNewGesture, addr 0x5d3882c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckForNewGesture, addr 0x5e70a54, size 0x70, virtual false, abstract: false, final false
   inline void CheckForNewGesture(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
   static inline ::GlobalNamespace::OVRMicrogestureEventSource* New_ctor();
 
-  /// @brief Method Update, addr 0x5d387ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e70a14, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Events::UnityEvent_1<::GlobalNamespace::OVRHand_MicrogestureType>* const& __cordl_internal_get_GestureRecognizedEvent() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__hand(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  /// @brief Method .ctor, addr 0x5d3889c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70ac4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Hand, addr 0x5d387dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hand, addr 0x5e70a04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRHand> get_Hand();
 
-  /// @brief Method set_Hand, addr 0x5d387e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hand, addr 0x5e70a0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Hand(::GlobalNamespace::OVRHand* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   OVRMicrogestureEventSource(OVRMicrogestureEventSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7223 };
 
   /// @brief Field _hand, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRHand> ____hand;

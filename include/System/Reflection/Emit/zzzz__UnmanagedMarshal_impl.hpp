@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::Emit::UnmanagedMarshal::*)()>(&::System::Reflection::Emit::UnmanagedMarshal::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a5800c;
+  constexpr static std::size_t addrs = 0x5b91ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::UnmanagedMarshal*>(), { ".ctor", {}, {} })));

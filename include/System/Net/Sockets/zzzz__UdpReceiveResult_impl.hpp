@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::UdpReceiveResult::*)(::ArrayW<uint8_t>, ::System::Net::IPEndPoint*)>(
     &::System::Net::Sockets::UdpReceiveResult::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x622b8ac;
+  constexpr static std::size_t addrs = 0x63669a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::UdpReceiveResult>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Net::Sockets::UdpReceiveResult::*)()>(&::System::Net::Sockets::UdpReceiveResult::get_Buffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622b92c;
+  constexpr static std::size_t addrs = 0x6366a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::UdpReceiveResult>(), { "get_Buffer", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::UdpReceiveResult::*)()>(&::System::Net::Sockets::UdpReceiveResult::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x622b934;
+  constexpr static std::size_t addrs = 0x6366a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::UdpReceiveResult::*)(::System::Object*)>(&::System::Net::Sockets::UdpReceiveResult::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x622b97c;
+  constexpr static std::size_t addrs = 0x6366a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::UdpReceiveResult::*)(::System::Net::Sockets::UdpReceiveResult)>(
     &::System::Net::Sockets::UdpReceiveResult::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x622b9fc;
+  constexpr static std::size_t addrs = 0x6366af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

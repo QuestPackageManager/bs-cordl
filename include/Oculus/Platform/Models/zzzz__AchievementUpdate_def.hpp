@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5c9f2e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd7508, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AchievementUpdate(AchievementUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17982 };
 
   /// @brief Field JustUnlocked, offset: 0x10, size: 0x1, def value: None
   bool ___JustUnlocked;

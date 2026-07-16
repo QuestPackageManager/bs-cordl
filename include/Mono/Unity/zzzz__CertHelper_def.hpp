@@ -31,11 +31,11 @@ namespace Mono::Unity {
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificateToNativeChain, addr 0x5e90438, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x5fcb534, size 0x1a4, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::Mono::Unity::UnityTls_unitytls_x509list* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method AddCertificatesToNativeChain, addr 0x5e90298, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method AddCertificatesToNativeChain, addr 0x5fcb394, size 0x1a0, virtual false, abstract: false, final false
   static inline void AddCertificatesToNativeChain(::Mono::Unity::UnityTls_unitytls_x509list* nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
@@ -54,7 +54,7 @@ public:
   CertHelper(CertHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

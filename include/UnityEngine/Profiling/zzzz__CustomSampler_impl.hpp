@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Profiling::CustomSampler*)>(&::UnityEngine::Profiling::CustomSampler_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a5188;
+  constexpr static std::size_t addrs = 0x6af8748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::CustomSampler_BindingsMarshaller*>(),
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::CustomSampler::*)()>(&::UnityEngine::Profiling::CustomSampler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69a4fc0;
+  constexpr static std::size_t addrs = 0x6af8580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::CustomSampler*>(), { ".ctor", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::CustomSampler::*)(::System::IntPtr)>(&::UnityEngine::Profiling::CustomSampler::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a5018;
+  constexpr static std::size_t addrs = 0x6af85d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Profiling::CustomSampler* (*)(::StringW, bool)>(&::UnityEngine::Profiling::CustomSampler::Create)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69a507c;
+  constexpr static std::size_t addrs = 0x6af863c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

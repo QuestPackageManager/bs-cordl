@@ -11,6 +11,9 @@ class AudioManager;
 namespace GlobalNamespace {
 class GameplayLevelSceneTransitionEvents;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ResetPitchOnGameplayFinished;
@@ -32,10 +35,13 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
                       put = __cordl_internal_set__gameplayLevelSceneTransitionEvents)) ::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
-  /// @brief Method Finalize, addr 0x577ff20, size 0xc8, virtual true, abstract: false, final false
-  inline void Finalize();
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x577ffe8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x58bc220, size 0x90, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x58bc2b0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
@@ -53,8 +59,11 @@ public:
 
   constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  /// @brief Method .ctor, addr 0x577fe80, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bc180, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManager* audioManager);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -71,7 +80,7 @@ public:
   ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinished const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };
 
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;

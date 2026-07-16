@@ -80,27 +80,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5de9714, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f219cc, size 0x198, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x5de98f4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x5f21bac, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x5de98ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x5f21b64, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5de9980, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5f21c38, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5de98b4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f21b6c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5de98ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f21ba4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5de9710, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5f219c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5de8a78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f20d30, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -154,7 +154,7 @@ public:
   FBUserAgent__EncodedPropertyKeys_d__7(FBUserAgent__EncodedPropertyKeys_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20376 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -206,21 +206,21 @@ public:
 
   __declspec(property(get = get_systemVersion, put = set_systemVersion)) ::StringW systemVersion;
 
-  /// @brief Method AddEncodedProperties, addr 0x5de9240, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method AddEncodedProperties, addr 0x5f214f8, size 0x43c, virtual false, abstract: false, final false
   inline void AddEncodedProperties();
 
-  /// @brief Method AddFriendlyNames, addr 0x5de918c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddFriendlyNames, addr 0x5f21444, size 0xb4, virtual false, abstract: false, final false
   inline void AddFriendlyNames();
 
-  /// @brief Method EncodedPropertyKeys, addr 0x5de8a10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method EncodedPropertyKeys, addr 0x5f20cc8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EncodedPropertyKeys();
 
-  /// @brief Method GetPropertyOrNull, addr 0x5de8ae4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyOrNull, addr 0x5f20d9c, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetPropertyOrNull(::StringW key);
 
   static inline ::OculusStudios::GraphQL::Client::FBUserAgent* New_ctor();
 
-  /// @brief Method Serialize, addr 0x5de910c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x5f213c4, size 0x80, virtual false, abstract: false, final false
   inline ::StringW Serialize();
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_friendlyNames() const;
@@ -235,49 +235,49 @@ public:
 
   constexpr void __cordl_internal_set_sb_(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x5de967c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f21934, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_appName, addr 0x5de8a98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_appName, addr 0x5f20d50, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_appName();
 
-  /// @brief Method get_appVersion, addr 0x5de8c14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_appVersion, addr 0x5f20ecc, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_appVersion();
 
-  /// @brief Method get_buildVersion, addr 0x5de8ce8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_buildVersion, addr 0x5f20fa0, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_buildVersion();
 
-  /// @brief Method get_device, addr 0x5de8dbc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x5f21074, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_device();
 
-  /// @brief Method get_locale, addr 0x5de9038, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_locale, addr 0x5f212f0, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_locale();
 
-  /// @brief Method get_systemName, addr 0x5de8e90, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_systemName, addr 0x5f21148, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_systemName();
 
-  /// @brief Method get_systemVersion, addr 0x5de8f64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_systemVersion, addr 0x5f2121c, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_systemVersion();
 
-  /// @brief Method set_appName, addr 0x5de8b8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_appName, addr 0x5f20e44, size 0x88, virtual false, abstract: false, final false
   inline void set_appName(::StringW value);
 
-  /// @brief Method set_appVersion, addr 0x5de8c60, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_appVersion, addr 0x5f20f18, size 0x88, virtual false, abstract: false, final false
   inline void set_appVersion(::StringW value);
 
-  /// @brief Method set_buildVersion, addr 0x5de8d34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_buildVersion, addr 0x5f20fec, size 0x88, virtual false, abstract: false, final false
   inline void set_buildVersion(::StringW value);
 
-  /// @brief Method set_device, addr 0x5de8e08, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x5f210c0, size 0x88, virtual false, abstract: false, final false
   inline void set_device(::StringW value);
 
-  /// @brief Method set_locale, addr 0x5de9084, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_locale, addr 0x5f2133c, size 0x88, virtual false, abstract: false, final false
   inline void set_locale(::StringW value);
 
-  /// @brief Method set_systemName, addr 0x5de8edc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_systemName, addr 0x5f21194, size 0x88, virtual false, abstract: false, final false
   inline void set_systemName(::StringW value);
 
-  /// @brief Method set_systemVersion, addr 0x5de8fb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_systemVersion, addr 0x5f21268, size 0x88, virtual false, abstract: false, final false
   inline void set_systemVersion(::StringW value);
 
 protected:
@@ -316,7 +316,7 @@ public:
   static constexpr ::ConstString SYSTEM_VERSION{ u"FBSV" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20377 };
 
   /// @brief Field friendlyNames, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::StringW> ___friendlyNames;

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Tweening/TweeningManager.hpp"
-#include "Tweening/zzzz__FrameParity_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tweening/zzzz__TweeningManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -13,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::Start)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63070f0;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6443cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "Start", {}, {} })));
@@ -25,8 +24,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tweenin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::LateUpdate)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x630715c;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x6443e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "LateUpdate", {}, {} })));
@@ -48,42 +47,41 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::Twee
 //  Writing Method size for method: ::Tweening::TweeningManager.AddTween
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(&::Tweening::TweeningManager::AddTween)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::AddTween)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6307578;
+  constexpr static std::size_t addrs = 0x6444248;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                             { "AddTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "AddTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tweening::TweeningManager.RestartTween
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(&::Tweening::TweeningManager::RestartTween)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6307750;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::RestartTween)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x64443a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                             { "RestartTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "RestartTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tweening::TweeningManager.ResumeTween
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(&::Tweening::TweeningManager::ResumeTween)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6307818;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::ResumeTween)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6444460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                             { "ResumeTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "ResumeTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -92,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)(::System::Object*)>(&::Tweening::TweeningManager::KillAllTweens)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6307840;
+  constexpr static std::size_t addrs = 0x6444484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,8 +102,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tweenin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*)>(&::Tweening::TweeningManager::RemoveTweenFromOwnerDictionary)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6307364;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x644406c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,14 +114,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tweenin
 //  Writing Method size for method: ::Tweening::TweeningManager.AddTweenToDataStructures
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(&::Tweening::TweeningManager::AddTweenToDataStructures)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x63075c4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::AddTweenToDataStructures)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6444294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                { "AddTweenToDataStructures", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "AddTweenToDataStructures", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -131,8 +129,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::Tweenin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::AddTweenToOwnerDictionary)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6307988;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x64445cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,8 +143,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tweenin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::_ctor)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6306e00;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x6443a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { ".ctor", {}, {} })));
@@ -217,18 +215,6 @@ constexpr void Tweening::TweeningManager::__cordl_internal_set__reusableTweenHas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reusableTweenHashSets = value;
 }
-constexpr ::Tweening::FrameParity& Tweening::TweeningManager::__cordl_internal_get__parityOfNextNewTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____parityOfNextNewTween;
-}
-constexpr ::Tweening::FrameParity const& Tweening::TweeningManager::__cordl_internal_get__parityOfNextNewTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____parityOfNextNewTween;
-}
-constexpr void Tweening::TweeningManager::__cordl_internal_set__parityOfNextNewTween(::Tweening::FrameParity value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____parityOfNextNewTween = value;
-}
 inline void Tweening::TweeningManager::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "Start", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -241,23 +227,20 @@ inline float_t Tweening::TweeningManager::GetTime() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Tweening::TweeningManager*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline ::Tweening::Tween* Tweening::TweeningManager::AddTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
+inline ::Tweening::Tween* Tweening::TweeningManager::AddTween(::Tweening::Tween* tween, ::System::Object* owner) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "AddTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*>(this, ___internal_method, tween, owner, updateEveryOtherFrame);
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "AddTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*>(this, ___internal_method, tween, owner);
 }
-inline ::Tweening::Tween* Tweening::TweeningManager::RestartTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                           { "RestartTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*>(this, ___internal_method, tween, owner, updateEveryOtherFrame);
+inline ::Tweening::Tween* Tweening::TweeningManager::RestartTween(::Tweening::Tween* tween, ::System::Object* owner) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "RestartTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*>(this, ___internal_method, tween, owner);
 }
-inline ::Tweening::Tween* Tweening::TweeningManager::ResumeTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                           { "ResumeTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*>(this, ___internal_method, tween, owner, updateEveryOtherFrame);
+inline ::Tweening::Tween* Tweening::TweeningManager::ResumeTween(::Tweening::Tween* tween, ::System::Object* owner) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "ResumeTween", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*>(this, ___internal_method, tween, owner);
 }
 inline void Tweening::TweeningManager::KillAllTweens(::System::Object* owner) {
   static auto* ___internal_method =
@@ -269,11 +252,11 @@ inline void Tweening::TweeningManager::RemoveTweenFromOwnerDictionary(::Tweening
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "RemoveTweenFromOwnerDictionary", {}, { ::i2c::type_of<::Tweening::Tween*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tween);
 }
-inline bool Tweening::TweeningManager::AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(),
-                                                           { "AddTweenToDataStructures", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, tween, owner, updateEveryOtherFrame);
+inline bool Tweening::TweeningManager::AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "AddTweenToDataStructures", {}, { ::i2c::type_of<::Tweening::Tween*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, tween, owner);
 }
 inline void Tweening::TweeningManager::AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::System::Object* owner) {
   static auto* ___internal_method = THROW_UNLESS(

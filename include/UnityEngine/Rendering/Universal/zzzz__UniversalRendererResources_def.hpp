@@ -64,7 +64,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRendererResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6772cb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b1634, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_CameraMotionVector() const;
@@ -97,22 +97,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6772ea0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b181c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cameraMotionVector, addr 0x6772d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraMotionVector, addr 0x68b16b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_cameraMotionVector();
 
-  /// @brief Method get_copyDepthPS, addr 0x6772cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_copyDepthPS, addr 0x68b163c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_copyDepthPS();
 
-  /// @brief Method get_decalDBufferClear, addr 0x6772e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_decalDBufferClear, addr 0x68b17a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_decalDBufferClear();
 
-  /// @brief Method get_stencilDeferredPS, addr 0x6772db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stencilDeferredPS, addr 0x68b172c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_stencilDeferredPS();
 
-  /// @brief Method get_version, addr 0x6772cb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b162c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -121,16 +121,16 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_cameraMotionVector, addr 0x6772d40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_cameraMotionVector, addr 0x68b16bc, size 0x70, virtual false, abstract: false, final false
   inline void set_cameraMotionVector(::UnityEngine::Shader* value);
 
-  /// @brief Method set_copyDepthPS, addr 0x6772cc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_copyDepthPS, addr 0x68b1644, size 0x70, virtual false, abstract: false, final false
   inline void set_copyDepthPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_decalDBufferClear, addr 0x6772e30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_decalDBufferClear, addr 0x68b17ac, size 0x70, virtual false, abstract: false, final false
   inline void set_decalDBufferClear(::UnityEngine::Shader* value);
 
-  /// @brief Method set_stencilDeferredPS, addr 0x6772db8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stencilDeferredPS, addr 0x68b1734, size 0x70, virtual false, abstract: false, final false
   inline void set_stencilDeferredPS(::UnityEngine::Shader* value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   UniversalRendererResources(UniversalRendererResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12913 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;

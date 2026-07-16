@@ -139,7 +139,7 @@ public:
   static ::HMUI::InputFieldView_SelectionState const Selected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19183 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -164,7 +164,7 @@ public:
   // Declarations
   static inline ::HMUI::InputFieldView_InputFieldChanged* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5741ef8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5889114, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -219,21 +219,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5741fd8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58891f4, size 0x8c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5742064, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5889280, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x574206c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5889288, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57420a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58892c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5741fd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58891f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView> value);
 
-  /// @brief Method .ctor, addr 0x5741dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5888fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -281,7 +281,7 @@ public:
   InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -384,48 +384,48 @@ public:
 
   __declspec(property(get = get_useSystemKeyboardIfAvailable)) bool useSystemKeyboardIfAvailable;
 
-  /// @brief Method ActivateKeyboard, addr 0x5741668, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ActivateKeyboard, addr 0x5888884, size 0x244, virtual false, abstract: false, final false
   inline void ActivateKeyboard(::HMUI::UIKeyboard* keyboard);
 
-  /// @brief Method Awake, addr 0x57414d8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x58886f4, size 0x11c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BlinkingCaretCoroutine, addr 0x57418ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BlinkingCaretCoroutine, addr 0x5888ac8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
 
-  /// @brief Method ClearInput, addr 0x5741b68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ClearInput, addr 0x5888d84, size 0x54, virtual false, abstract: false, final false
   inline void ClearInput();
 
-  /// @brief Method DeactivateKeyboard, addr 0x5741900, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method DeactivateKeyboard, addr 0x5888b1c, size 0x218, virtual false, abstract: false, final false
   inline void DeactivateKeyboard(::HMUI::UIKeyboard* keyboard);
 
-  /// @brief Method DoStateTransition, addr 0x5741608, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x5888824, size 0x60, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState state, bool instant);
 
-  /// @brief Method KeyboardDeletePressed, addr 0x5741ce0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method KeyboardDeletePressed, addr 0x5888efc, size 0xe4, virtual false, abstract: false, final false
   inline void KeyboardDeletePressed();
 
-  /// @brief Method KeyboardKeyPressed, addr 0x5741bbc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method KeyboardKeyPressed, addr 0x5888dd8, size 0x124, virtual false, abstract: false, final false
   inline void KeyboardKeyPressed(char16_t letter);
 
   static inline ::HMUI::InputFieldView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57415f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5888810, size 0x14, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetText, addr 0x5741b50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x5888d6c, size 0x18, virtual false, abstract: false, final false
   inline void SetText(::StringW value);
 
-  /// @brief Method UpdateCaretPosition, addr 0x57413a4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UpdateCaretPosition, addr 0x58885c0, size 0xfc, virtual false, abstract: false, final false
   inline void UpdateCaretPosition();
 
-  /// @brief Method UpdateClearButton, addr 0x5741b18, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateClearButton, addr 0x5888d34, size 0x38, virtual false, abstract: false, final false
   inline void UpdateClearButton();
 
-  /// @brief Method UpdatePlaceholder, addr 0x57414a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlaceholder, addr 0x58886bc, size 0x38, virtual false, abstract: false, final false
   inline void UpdatePlaceholder();
 
-  /// @brief Method <Awake>b__37_0, addr 0x5741f44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__37_0, addr 0x5889160, size 0x90, virtual false, abstract: false, final false
   inline void _Awake_b__37_0();
 
   constexpr ::UnityEngine::YieldInstruction* const& __cordl_internal_get__blinkWaitYieldInstruction() const;
@@ -536,37 +536,37 @@ public:
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x5741dcc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5888fe8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x57411a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x58883bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
-  /// @brief Method get_keyboardPositionOffset, addr 0x5741338, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardPositionOffset, addr 0x5888554, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_keyboardPositionOffset();
 
-  /// @brief Method get_onValueChanged, addr 0x5741190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x58883ac, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::InputFieldView_InputFieldChanged* get_onValueChanged();
 
-  /// @brief Method get_selectionState, addr 0x5741320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x588853c, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::InputFieldView_SelectionState get_selectionState();
 
-  /// @brief Method get_text, addr 0x5741348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5888564, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_useGlobalKeyboard, addr 0x5741328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGlobalKeyboard, addr 0x5888544, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGlobalKeyboard();
 
-  /// @brief Method get_useSystemKeyboardIfAvailable, addr 0x5741330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useSystemKeyboardIfAvailable, addr 0x588854c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useSystemKeyboardIfAvailable();
 
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x5741260, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x588847c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
-  /// @brief Method set_onValueChanged, addr 0x5741198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x58883b4, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::HMUI::InputFieldView_InputFieldChanged* value);
 
-  /// @brief Method set_text, addr 0x5741350, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x588856c, size 0x54, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -584,7 +584,7 @@ public:
   InputFieldView(InputFieldView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19186 };
 
   /// @brief Field kBlinkingRate offset 0xffffffff size 0x4
   static constexpr float_t kBlinkingRate{ static_cast<float_t>(0.4f) };

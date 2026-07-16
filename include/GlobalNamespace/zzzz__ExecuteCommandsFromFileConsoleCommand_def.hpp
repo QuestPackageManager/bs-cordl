@@ -1,0 +1,89 @@
+#pragma once
+// IWYU pragma private; include "GlobalNamespace/ExecuteCommandsFromFileConsoleCommand.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(ExecuteCommandsFromFileConsoleCommand)
+namespace GlobalNamespace {
+struct ConsoleMessage;
+}
+namespace GlobalNamespace {
+template <typename T> class RequiredArgument_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class ExecuteCommandsFromFileConsoleCommand;
+}
+// Write type traits
+MARK_REF_T(::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand*, "", "ExecuteCommandsFromFileConsoleCommand");
+// Dependencies ConsoleCommandBase
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ExecuteCommandsFromFileConsoleCommand
+class CORDL_TYPE ExecuteCommandsFromFileConsoleCommand : public ::GlobalNamespace::ConsoleCommandBase {
+public:
+  // Declarations
+  /// @brief Field _filePath, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath)) ::GlobalNamespace::RequiredArgument_1<::StringW>* _filePath;
+
+  __declspec(property(get = get_commandName)) ::StringW commandName;
+
+  __declspec(property(get = get_description)) ::StringW description;
+
+  /// @brief Method ExecuteAsync, addr 0x32cfaf4, size 0x328, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
+
+  static inline ::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand* New_ctor();
+
+  constexpr ::GlobalNamespace::RequiredArgument_1<::StringW>* const& __cordl_internal_get__filePath() const;
+
+  constexpr ::GlobalNamespace::RequiredArgument_1<::StringW>*& __cordl_internal_get__filePath();
+
+  constexpr void __cordl_internal_set__filePath(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
+
+  /// @brief Method .ctor, addr 0x32cfe1c, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_commandName, addr 0x32cfa6c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_commandName();
+
+  /// @brief Method get_description, addr 0x32cfab0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_description();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExecuteCommandsFromFileConsoleCommand();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandsFromFileConsoleCommand", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExecuteCommandsFromFileConsoleCommand(ExecuteCommandsFromFileConsoleCommand&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandsFromFileConsoleCommand", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExecuteCommandsFromFileConsoleCommand(ExecuteCommandsFromFileConsoleCommand const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19360 };
+
+  /// @brief Field _filePath, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::RequiredArgument_1<::StringW>* ____filePath;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand, ____filePath) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand) == 0x40, "Size mismatch!");
+
+} // namespace GlobalNamespace

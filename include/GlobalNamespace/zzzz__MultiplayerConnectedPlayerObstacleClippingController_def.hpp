@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
 
-  /// @brief Method SetClippingParams, addr 0x5886968, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetClippingParams, addr 0x59b773c, size 0x150, virtual false, abstract: false, final false
   inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> const& __cordl_internal_get__materialPropertyBlockControllers() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> value);
 
-  /// @brief Method .ctor, addr 0x5886ab8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b788c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__clippingPlaneNormalID();
@@ -73,7 +73,7 @@ public:
   MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6045 };
 
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;

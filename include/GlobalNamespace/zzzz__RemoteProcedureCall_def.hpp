@@ -99,7 +99,7 @@ public:
   RemoteProcedureCall_TypeWrapper_1(RemoteProcedureCall_TypeWrapper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18230 };
 
   /// @brief Field _v, offset: 0x10, size: 0x8, def value: None
   T ____v;
@@ -131,24 +131,24 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method DeserializeData, addr 0x3281e60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeserializeData, addr 0x333e318, size 0x4, virtual true, abstract: false, final false
   inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
 
-  /// @brief Method Init, addr 0x3282004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x333e4bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0x3281ea8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0x333e360, size 0x44, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0x3281e64, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0x333e31c, size 0x44, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   static inline ::GlobalNamespace::RemoteProcedureCall* New_ctor();
 
-  /// @brief Method Release, addr 0x3281eec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x333e3a4, size 0x4, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SerializeData, addr 0x3281e5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SerializeData, addr 0x333e314, size 0x4, virtual true, abstract: false, final false
   inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
 
   constexpr int64_t const& __cordl_internal_get__syncTime_k__BackingField() const;
@@ -157,10 +157,10 @@ public:
 
   constexpr void __cordl_internal_set__syncTime_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x328200c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333e4c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_syncTime, addr 0x3281e4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_syncTime, addr 0x333e304, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_syncTime();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -172,7 +172,7 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  /// @brief Method set_syncTime, addr 0x3281e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_syncTime, addr 0x333e30c, size 0x8, virtual false, abstract: false, final false
   inline void set_syncTime(int64_t value);
 
 protected:
@@ -190,7 +190,7 @@ public:
   RemoteProcedureCall(RemoteProcedureCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
 
   /// @brief Field <syncTime>k__BackingField, offset: 0x10, size: 0x8, def value: None
   int64_t ____syncTime_k__BackingField;

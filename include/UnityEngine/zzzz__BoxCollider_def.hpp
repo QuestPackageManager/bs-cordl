@@ -33,37 +33,37 @@ public:
 
   static inline ::UnityEngine::BoxCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a247e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b782c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x6a24438, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6b77f14, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x6a244d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x6b77fb4, size 0x44, virtual false, abstract: false, final false
   static inline void get_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_extents, addr 0x6a247b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_extents, addr 0x6b78294, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_extents();
 
-  /// @brief Method get_size, addr 0x6a245f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6b780d4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6a24698, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x6b78174, size 0x44, virtual false, abstract: false, final false
   static inline void get_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_center, addr 0x6a2451c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x6b77ff8, size 0x98, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x6a245b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x6b78090, size 0x44, virtual false, abstract: false, final false
   static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_extents, addr 0x6a247d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_extents, addr 0x6b782b4, size 0x10, virtual false, abstract: false, final false
   inline void set_extents(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size, addr 0x6a246dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6b781b8, size 0x98, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size_Injected, addr 0x6a24774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_size_Injected, addr 0x6b78250, size 0x44, virtual false, abstract: false, final false
   static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   BoxCollider(BoxCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

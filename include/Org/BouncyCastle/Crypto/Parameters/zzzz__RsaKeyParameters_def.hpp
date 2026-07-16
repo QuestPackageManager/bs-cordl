@@ -39,15 +39,15 @@ public:
   /// @brief Field modulus, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_modulus, put = __cordl_internal_set_modulus)) ::Org::BouncyCastle::Math::BigInteger* modulus;
 
-  /// @brief Method Equals, addr 0x33571d8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3413690, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x33572c0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3413778, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* exponent);
 
-  /// @brief Method Validate, addr 0x3356ea4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x341335c, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Validate(::Org::BouncyCastle::Math::BigInteger* modulus);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_exponent() const;
@@ -62,15 +62,15 @@ public:
 
   constexpr void __cordl_internal_set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x3357010, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34134c8, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* exponent);
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_SmallPrimesProduct();
 
-  /// @brief Method get_Exponent, addr 0x33571d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exponent, addr 0x3413688, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent();
 
-  /// @brief Method get_Modulus, addr 0x33571c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x3413680, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
   static inline void setStaticF_SmallPrimesProduct(::Org::BouncyCastle::Math::BigInteger* value);

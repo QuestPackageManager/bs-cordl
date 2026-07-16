@@ -56,34 +56,34 @@ public:
   /// @brief Field _preserveChanges, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__preserveChanges, put = __cordl_internal_set__preserveChanges)) bool _preserveChanges;
 
-  /// @brief Method GetSrcKey, addr 0x5f09abc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetSrcKey, addr 0x6044bb8, size 0x150, virtual false, abstract: false, final false
   inline ::System::Data::DataKey GetSrcKey(::System::Data::DataTable* src, ::System::Data::DataTable* dst);
 
-  /// @brief Method MergeConstraints, addr 0x5f08940, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MergeConstraints, addr 0x6043a3c, size 0x70, virtual false, abstract: false, final false
   inline void MergeConstraints(::System::Data::DataSet* source);
 
-  /// @brief Method MergeConstraints, addr 0x5f0a300, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method MergeConstraints, addr 0x60453fc, size 0x2b0, virtual false, abstract: false, final false
   inline void MergeConstraints(::System::Data::DataTable* table);
 
-  /// @brief Method MergeDataSet, addr 0x5f0791c, size 0xf70, virtual false, abstract: false, final false
+  /// @brief Method MergeDataSet, addr 0x6042a18, size 0xf70, virtual false, abstract: false, final false
   inline void MergeDataSet(::System::Data::DataSet* source);
 
-  /// @brief Method MergeExtendedProperties, addr 0x5f09190, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method MergeExtendedProperties, addr 0x604428c, size 0x25c, virtual false, abstract: false, final false
   inline void MergeExtendedProperties(::System::Data::PropertyCollection* src, ::System::Data::PropertyCollection* dst);
 
-  /// @brief Method MergeRelation, addr 0x5f089b0, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method MergeRelation, addr 0x6043aac, size 0x7e0, virtual false, abstract: false, final false
   inline void MergeRelation(::System::Data::DataRelation* relation);
 
-  /// @brief Method MergeSchema, addr 0x5f09c0c, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method MergeSchema, addr 0x6044d08, size 0x6f4, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* MergeSchema(::System::Data::DataTable* table);
 
-  /// @brief Method MergeTable, addr 0x5f093ec, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method MergeTable, addr 0x60444e8, size 0x230, virtual false, abstract: false, final false
   inline void MergeTable(::System::Data::DataTable* src);
 
-  /// @brief Method MergeTable, addr 0x5f0961c, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method MergeTable, addr 0x6044718, size 0x4a0, virtual false, abstract: false, final false
   inline void MergeTable(::System::Data::DataTable* src, ::System::Data::DataTable* dst);
 
-  /// @brief Method MergeTableData, addr 0x5f0888c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MergeTableData, addr 0x6043988, size 0xb4, virtual false, abstract: false, final false
   inline void MergeTableData(::System::Data::DataTable* src);
 
   static inline ::System::Data::Merger* New_ctor(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
@@ -126,10 +126,10 @@ public:
 
   constexpr void __cordl_internal_set__preserveChanges(bool value);
 
-  /// @brief Method .ctor, addr 0x5f078e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60429e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
 
-  /// @brief Method .ctor, addr 0x5f078fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60429f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dataTable, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
 
 protected:
@@ -147,7 +147,7 @@ public:
   Merger(Merger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13808 };
 
   /// @brief Field _dataSet, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataSet* ____dataSet;

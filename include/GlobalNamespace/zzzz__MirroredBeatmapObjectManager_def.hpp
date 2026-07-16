@@ -54,6 +54,9 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
@@ -122,31 +125,34 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderControllersToMirroredSliderControllers, put = __cordl_internal_set__sliderControllersToMirroredSliderControllers)) ::System::Collections::
       Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* _sliderControllersToMirroredSliderControllers;
 
-  /// @brief Method Finalize, addr 0x5790d20, size 0x2f0, virtual true, abstract: false, final false
-  inline void Finalize();
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x5791a1c, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x58cdb84, size 0x2d4, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x58ce860, size 0x520, virtual false, abstract: false, final false
   inline void HandleDidHideAllBeatmapObjects(bool hide);
 
-  /// @brief Method HandleNoteWasDespawned, addr 0x5791234, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasDespawned, addr 0x58ce07c, size 0x1b4, virtual false, abstract: false, final false
   inline void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x5791010, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x58cde58, size 0x224, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasDespawned, addr 0x5791614, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasDespawned, addr 0x58ce458, size 0xd8, virtual false, abstract: false, final false
   inline void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleWasSpawned, addr 0x57913e8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x58ce230, size 0xb8, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleSliderWasDespawned, addr 0x5791944, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasDespawned, addr 0x58ce788, size 0xd8, virtual false, abstract: false, final false
   inline void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x57916ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x58ce530, size 0xb8, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method Init, addr 0x57908bc, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58cd720, size 0x464, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::MirroredGameNoteController_Pool* mirroredBasicGameNotePool,
                    ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::MirroredBombNoteController_Pool* mirroredBombNotePool, ::GlobalNamespace::MirroredObstacleController_Pool* mirroredObstaclePool,
@@ -154,10 +160,10 @@ public:
 
   static inline ::GlobalNamespace::MirroredBeatmapObjectManager* New_ctor();
 
-  /// @brief Method __InvalidateBombNotePool, addr 0x5792054, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method __InvalidateBombNotePool, addr 0x58cee98, size 0xa0, virtual false, abstract: false, final false
   inline void __InvalidateBombNotePool();
 
-  /// @brief Method __InvalidateGameNotePools, addr 0x5791f94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method __InvalidateGameNotePools, addr 0x58cedd8, size 0xc0, virtual false, abstract: false, final false
   inline void __InvalidateGameNotePools();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -244,8 +250,11 @@ public:
   constexpr void __cordl_internal_set__sliderControllersToMirroredSliderControllers(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* value);
 
-  /// @brief Method .ctor, addr 0x57920f4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cef38, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -262,7 +271,7 @@ public:
   MirroredBeatmapObjectManager(MirroredBeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5635 };
 
   /// @brief Field _beatmapObjectManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;

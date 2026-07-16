@@ -90,18 +90,18 @@ public:
   /// @brief Field _scoreProvider, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider)) ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
-  /// @brief Method HandleStateChanged, addr 0x58b0974, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59e1078, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b0984, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59e1088, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b08c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59e0fcc, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58b0a98, size 0x8a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59e1198, size 0x8a0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accelerationMetersPerSecondSquared() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x58b1338, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e1a38, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -200,7 +200,7 @@ public:
   MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6163 };
 
   /// @brief Field _movementRange, offset: 0x20, size: 0x4, def value: None
   float_t ____movementRange;

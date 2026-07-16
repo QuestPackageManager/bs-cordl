@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData::*)()>(
     &::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData::Release)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6b51d80;
+  constexpr static std::size_t addrs = 0x6ca5c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData*>(), { "Release", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData::*)()>(&::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b52644;
+  constexpr static std::size_t addrs = 0x6ca64fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData*>(), { ".ctor", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem_PrepareTextJobData::*)(int32_t)>(
     &::UnityEngine::UIElements::UITKTextJobSystem_PrepareTextJobData::Execute)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6b52648;
+  constexpr static std::size_t addrs = 0x6ca6500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem_GenerateTextJobData::*)(int32_t)>(
     &::UnityEngine::UIElements::UITKTextJobSystem_GenerateTextJobData::Execute)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6b5279c;
+  constexpr static std::size_t addrs = 0x6ca6654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem___c::*)()>(&::UnityEngine::UIElements::UITKTextJobSystem___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b529cc;
+  constexpr static std::size_t addrs = 0x6ca6884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem___c*>(), { ".ctor", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData* (::UnityEngine::UIElements::UITKTextJobSystem___c::*)()>(
     &::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b529d0;
+  constexpr static std::size_t addrs = 0x6ca6888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem___c*>(), { "<.cctor>b__25_0", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem___c::*)(::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData*)>(
     &::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b52a14;
+  constexpr static std::size_t addrs = 0x6ca68cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* (::UnityEngine::UIElements::UITKTextJobSystem___c::*)()>(
     &::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_2)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b52a28;
+  constexpr static std::size_t addrs = 0x6ca68e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem___c*>(), { "<.cctor>b__25_2", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem___c::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*)>(
     &::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6b52a98;
+  constexpr static std::size_t addrs = 0x6ca6950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>* (
     ::UnityEngine::UIElements::UITKTextJobSystem___c::*)()>(&::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_4)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b52b0c;
+  constexpr static std::size_t addrs = 0x6ca69c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem___c*>(), { "<.cctor>b__25_4", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem___c::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*)>(&::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_5)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b52b7c;
+  constexpr static std::size_t addrs = 0x6ca6a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>* (
     ::UnityEngine::UIElements::UITKTextJobSystem___c::*)()>(&::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_6)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b52bd0;
+  constexpr static std::size_t addrs = 0x6ca6a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem___c*>(), { "<.cctor>b__25_6", {}, {} })));
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem___c::*)(
     ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>*)>(&::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_7)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b52c40;
+  constexpr static std::size_t addrs = 0x6ca6af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>* (::UnityEngine::UIElements::UITKTextJobSystem___c::*)()>(
     &::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_8)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b52c94;
+  constexpr static std::size_t addrs = 0x6ca6b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem___c*>(), { "<.cctor>b__25_8", {}, {} })));
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem___c::*)(
     ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>*)>(&::UnityEngine::UIElements::UITKTextJobSystem___c::__cctor_b__25_9)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b52d04;
+  constexpr static std::size_t addrs = 0x6ca6bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem::*)()>(&::UnityEngine::UIElements::UITKTextJobSystem::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6b505f8;
+  constexpr static std::size_t addrs = 0x6ca44b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem*>(), { ".ctor", {}, {} })));
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData*)>(&::UnityEngine::UIElements::UITKTextJobSystem::OnGetManagedJob)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b5072c;
+  constexpr static std::size_t addrs = 0x6ca45e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem::*)(Il2CppObject*, ::UnityEngine::UIElements::TextElement*)>(
     &::UnityEngine::UIElements::UITKTextJobSystem::GenerateText)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6b50748;
+  constexpr static std::size_t addrs = 0x6ca4600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::UITKTextJobSystem::PrepareTextJobified)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b508d4;
+  constexpr static std::size_t addrs = 0x6ca478c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem*>(),
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::UITKTextJobSystem::GenerateTextJobified)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6b50a20;
+  constexpr static std::size_t addrs = 0x6ca48d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem*>(),
@@ -515,7 +515,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::Unity
                                                                 ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*>)>(
     &::UnityEngine::UIElements::UITKTextJobSystem::ConvertMeshInfoToUIRVertex)> {
   constexpr static std::size_t size = 0xb40;
-  constexpr static std::size_t addrs = 0x6b50d38;
+  constexpr static std::size_t addrs = 0x6ca4bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextJobSystem::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::UITKTextJobSystem::AddDrawEntries)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6b51878;
+  constexpr static std::size_t addrs = 0x6ca5730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextJobSystem*>(),

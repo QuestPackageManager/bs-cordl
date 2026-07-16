@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::DelegateHelpers___c::*)()>(
     &::System::Linq::Expressions::Interpreter::DelegateHelpers___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e80098;
+  constexpr static std::size_t addrs = 0x5fbb194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::DelegateHelpers___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::DelegateHelpers___c::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::DelegateHelpers___c::_MakeDelegate_b__1_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e8009c;
+  constexpr static std::size_t addrs = 0x5fbb198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::ArrayW<::System::Type*>)>(&::System::Linq::Expressions::Interpreter::DelegateHelpers::MakeDelegate)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x5e6f74c;
+  constexpr static std::size_t addrs = 0x5faa848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

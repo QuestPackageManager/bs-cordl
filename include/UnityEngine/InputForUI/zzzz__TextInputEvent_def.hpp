@@ -47,28 +47,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method ToString, addr 0x6a03da8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b57884, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_eventModifiers, addr 0x6a03d98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventModifiers, addr 0x6b57874, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-  /// @brief Method get_eventSource, addr 0x6a03d80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x6b5785c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
-  /// @brief Method set_eventModifiers, addr 0x6a03da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventModifiers, addr 0x6b5787c, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
-  /// @brief Method set_eventSource, addr 0x6a03d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventSource, addr 0x6b57864, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
-  /// @brief Method set_playerId, addr 0x6a03d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x6b5786c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
-  /// @brief Method set_timestamp, addr 0x6a03d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6b57854, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
                            uint32_t _playerId_k__BackingField, ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21770 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

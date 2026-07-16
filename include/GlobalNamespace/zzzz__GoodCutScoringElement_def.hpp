@@ -46,7 +46,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GoodCutScoringElement_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58bf80c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59eff30, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   GoodCutScoringElement_Pool(GoodCutScoringElement_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,15 +106,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x58bf794, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x59efeb8, size 0x20, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method Init, addr 0x58bef74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59ef698, size 0x70, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteCutInfo noteCutInfo);
 
   static inline ::GlobalNamespace::GoodCutScoringElement* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0x58bf77c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x59efea0, size 0x18, virtual true, abstract: false, final false
   inline void Reinitialize();
 
   constexpr ::GlobalNamespace::CutScoreBuffer* const& __cordl_internal_get__cutScoreBuffer() const;
@@ -135,22 +135,22 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value);
 
-  /// @brief Method .ctor, addr 0x58bf7b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59efed8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutScore, addr 0x58bf6f0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x59efe14, size 0x3c, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_cutScoreBuffer, addr 0x58bf73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutScoreBuffer, addr 0x59efe60, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyCutScoreBuffer* get_cutScoreBuffer();
 
-  /// @brief Method get_executionOrder, addr 0x58bf744, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x59efe68, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_multiplierEventType, addr 0x58bf734, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x59efe58, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x58bf72c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59efe50, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
@@ -171,7 +171,7 @@ public:
   GoodCutScoringElement(GoodCutScoringElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
 
   /// @brief Field _cutScoreBuffer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::CutScoreBuffer* ____cutScoreBuffer;

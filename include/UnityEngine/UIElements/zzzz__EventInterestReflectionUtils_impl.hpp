@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6b73274;
+  constexpr static std::size_t addrs = 0x6cc712c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(&::UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6b73598;
+  constexpr static std::size_t addrs = 0x6cc7450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCategory (*)(::System::Type*)>(&::UnityEngine::UIElements::EventInterestReflectionUtils::GetEventCategory)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6b73790;
+  constexpr static std::size_t addrs = 0x6cc7648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

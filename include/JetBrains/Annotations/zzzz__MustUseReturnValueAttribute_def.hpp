@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__Justification_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ce6768, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3aa6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ce676c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3aa70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW justification);
 
-  /// @brief Method get_Justification, addr 0x6ce6774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Justification, addr 0x6e3aa78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Justification();
 
-  /// @brief Method set_Justification, addr 0x6ce677c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Justification, addr 0x6e3aa80, size 0x8, virtual false, abstract: false, final false
   inline void set_Justification(::StringW value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   MustUseReturnValueAttribute(MustUseReturnValueAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22507 };
 
   /// @brief Field <Justification>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Justification_k__BackingField;

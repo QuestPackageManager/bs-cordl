@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::BeatSaber::Main::Leaderboards::UpsertUserMutation* New_ctor(::BGLib::Polyglot::LocalizationLanguage language);
 
-  /// @brief Method .ctor, addr 0x320c920, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a38a4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::Polyglot::LocalizationLanguage language);
 
 protected:
@@ -45,7 +45,7 @@ public:
   UpsertUserMutation(UpsertUserMutation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -79,7 +79,7 @@ public:
 
   __declspec(property(get = get_waypoints)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* waypoints;
 
-  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x369f0ec, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x375b144, size 0x300, virtual false, abstract: false, final false
   inline void ConvertBeatmapSaveDataPreV2_5_0Inline();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x369f064, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375b0bc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* notes,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* sliders,
@@ -139,25 +139,25 @@ public:
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* obstacles,
                     ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* specialEventsKeywordFilters);
 
-  /// @brief Method get_events, addr 0x369f034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_events, addr 0x375b08c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* get_events();
 
-  /// @brief Method get_notes, addr 0x369f03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notes, addr 0x375b094, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* get_notes();
 
-  /// @brief Method get_obstacles, addr 0x369f054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacles, addr 0x375b0ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* get_obstacles();
 
-  /// @brief Method get_sliders, addr 0x369f044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliders, addr 0x375b09c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* get_sliders();
 
-  /// @brief Method get_specialEventsKeywordFilters, addr 0x369f05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEventsKeywordFilters, addr 0x375b0b4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
 
-  /// @brief Method get_version, addr 0x369f02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x375b084, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method get_waypoints, addr 0x369f04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_waypoints, addr 0x375b0a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* get_waypoints();
 
 protected:
@@ -175,7 +175,7 @@ public:
   BeatmapSaveData(BeatmapSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15349 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"2.6.0" };

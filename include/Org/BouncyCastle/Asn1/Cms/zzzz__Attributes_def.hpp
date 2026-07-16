@@ -38,17 +38,17 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::Org::BouncyCastle::Asn1::Asn1Set* attributes;
 
-  /// @brief Method GetAttributes, addr 0x3294114, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x33505cc, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::Attribute*> GetAttributes();
 
-  /// @brief Method GetInstance, addr 0x3294078, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3350530, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method ToAsn1Object, addr 0x3294208, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x33506c0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_attributes() const;
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x3294004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33504bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor, addr 0x329400c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33504c4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
 protected:

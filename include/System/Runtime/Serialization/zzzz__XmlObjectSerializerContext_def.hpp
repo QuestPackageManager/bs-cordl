@@ -122,47 +122,47 @@ public:
   /// @brief Field streamingContext, offset 0x50, size 0x10
   __declspec(property(get = __cordl_internal_get_streamingContext, put = __cordl_internal_set_streamingContext)) ::System::Runtime::Serialization::StreamingContext streamingContext;
 
-  /// @brief Method CheckIfTypeSerializable, addr 0x6026130, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CheckIfTypeSerializable, addr 0x616122c, size 0x9c, virtual true, abstract: false, final false
   inline void CheckIfTypeSerializable(::System::Type* memberType, bool isMemberTypeSerializable);
 
-  /// @brief Method DemandMemberAccessPermission, addr 0x6025d4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandMemberAccessPermission, addr 0x6160e48, size 0x4, virtual false, abstract: false, final false
   inline void DemandMemberAccessPermission();
 
-  /// @brief Method DemandSerializationFormatterPermission, addr 0x6025d48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandSerializationFormatterPermission, addr 0x6160e44, size 0x4, virtual false, abstract: false, final false
   inline void DemandSerializationFormatterPermission();
 
-  /// @brief Method GetDataContract, addr 0x60260b4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x61611b0, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle);
 
-  /// @brief Method GetDataContract, addr 0x6025f64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x6161060, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::Type* type);
 
-  /// @brief Method GetDataContract, addr 0x6025fb0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x61610ac, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetDataContractFromSerializerKnownTypes, addr 0x6026218, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractFromSerializerKnownTypes, addr 0x6161314, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContractFromSerializerKnownTypes(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetDataContractSkipValidation, addr 0x6026054, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetDataContractSkipValidation, addr 0x6161150, size 0x60, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContractSkipValidation(int32_t typeId, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetDataContractsForKnownTypes, addr 0x6026294, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractsForKnownTypes, addr 0x6161390, size 0x2f8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*
   GetDataContractsForKnownTypes(::System::Collections::Generic::IList_1<::System::Type*>* knownTypeList);
 
-  /// @brief Method GetStreamingContext, addr 0x6025d50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetStreamingContext, addr 0x6160e4c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::StreamingContext GetStreamingContext();
 
-  /// @brief Method GetSurrogatedType, addr 0x60261cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogatedType, addr 0x61612c8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* GetSurrogatedType(::System::Type* type);
 
-  /// @brief Method IncrementItemCount, addr 0x6025e30, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IncrementItemCount, addr 0x6160f2c, size 0xbc, virtual false, abstract: false, final false
   inline void IncrementItemCount(int32_t count);
 
-  /// @brief Method IsKnownType, addr 0x602658c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsKnownType, addr 0x6161688, size 0x78, virtual false, abstract: false, final false
   inline bool IsKnownType(::System::Runtime::Serialization::DataContract* dataContract, ::System::Type* declaredType);
 
-  /// @brief Method IsKnownType, addr 0x6017684, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsKnownType, addr 0x6152780, size 0x68, virtual false, abstract: false, final false
   inline bool IsKnownType(::System::Runtime::Serialization::DataContract* dataContract,
                           ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* knownDataContracts,
                           ::System::Type* declaredType);
@@ -180,20 +180,20 @@ public:
                                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext, bool ignoreExtensionDataObject,
                                                                                        ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method ResolveDataContractFromDataContractResolver, addr 0x6026794, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ResolveDataContractFromDataContractResolver, addr 0x6161890, size 0x140, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractFromDataContractResolver(::System::Xml::XmlQualifiedName* typeName, ::System::Type* declaredType);
 
-  /// @brief Method ResolveDataContractFromKnownTypes, addr 0x6026604, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ResolveDataContractFromKnownTypes, addr 0x6161700, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractFromKnownTypes(::StringW typeName, ::StringW typeNs, ::System::Runtime::Serialization::DataContract* memberTypeContract,
                                                                                            ::System::Type* declaredType);
 
-  /// @brief Method ResolveDataContractFromKnownTypes, addr 0x6026740, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ResolveDataContractFromKnownTypes, addr 0x616183c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractFromKnownTypes(::System::Xml::XmlQualifiedName* typeName);
 
-  /// @brief Method ResolveDataContractFromRootDataContract, addr 0x60268d4, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ResolveDataContractFromRootDataContract, addr 0x61619d0, size 0x130, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractFromRootDataContract(::System::Xml::XmlQualifiedName* typeQName);
 
-  /// @brief Method ResolveNameFromKnownTypes, addr 0x6017780, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResolveNameFromKnownTypes, addr 0x615287c, size 0x28, virtual false, abstract: false, final false
   inline ::System::Type* ResolveNameFromKnownTypes(::System::Xml::XmlQualifiedName* typeName);
 
   constexpr ::System::Runtime::Serialization::DataContractResolver* const& __cordl_internal_get_dataContractResolver() const;
@@ -270,50 +270,50 @@ public:
 
   constexpr void __cordl_internal_set_streamingContext(::System::Runtime::Serialization::StreamingContext value);
 
-  /// @brief Method .ctor, addr 0x6025cbc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6160db8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::DataContractSerializer* serializer, ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                     ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method .ctor, addr 0x6025cfc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6160df8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::NetDataContractSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x6025ca0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6160d9c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::XmlObjectSerializer* serializer, int32_t maxItemsInObjectGraph, ::System::Runtime::Serialization::StreamingContext streamingContext,
                     bool ignoreExtensionDataObject);
 
-  /// @brief Method .ctor, addr 0x6025c84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6160d80, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::XmlObjectSerializer* serializer, int32_t maxItemsInObjectGraph, ::System::Runtime::Serialization::StreamingContext streamingContext,
                     bool ignoreExtensionDataObject, ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
   static inline ::System::Reflection::MethodInfo* getStaticF_incrementItemCountMethod();
 
-  /// @brief Method get_DataContractResolver, addr 0x6025f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataContractResolver, addr 0x6160ffc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContractResolver* get_DataContractResolver();
 
-  /// @brief Method get_IgnoreExtensionDataObject, addr 0x6025ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreExtensionDataObject, addr 0x6160ff4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreExtensionDataObject();
 
-  /// @brief Method get_IncrementItemCountMethod, addr 0x6025d5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_IncrementItemCountMethod, addr 0x6160e58, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_IncrementItemCountMethod();
 
-  /// @brief Method get_IsGetOnlyCollection, addr 0x6025d3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsGetOnlyCollection, addr 0x6160e38, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsGetOnlyCollection();
 
-  /// @brief Method get_KnownTypeResolver, addr 0x6025f08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_KnownTypeResolver, addr 0x6161004, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::KnownTypeDataContractResolver* get_KnownTypeResolver();
 
-  /// @brief Method get_Mode, addr 0x6025d34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x6160e30, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationMode get_Mode();
 
-  /// @brief Method get_RemainingItemCount, addr 0x6025eec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RemainingItemCount, addr 0x6160fe8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_RemainingItemCount();
 
-  /// @brief Method get_SerializerKnownDataContracts, addr 0x60261d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_SerializerKnownDataContracts, addr 0x61612d0, size 0x44, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_SerializerKnownDataContracts();
 
   static inline void setStaticF_incrementItemCountMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method set_IsGetOnlyCollection, addr 0x6025d44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IsGetOnlyCollection, addr 0x6160e40, size 0x4, virtual true, abstract: false, final false
   inline void set_IsGetOnlyCollection(bool value);
 
 protected:
@@ -331,7 +331,7 @@ public:
   XmlObjectSerializerContext(XmlObjectSerializerContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17106 };
 
   /// @brief Field serializer, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::XmlObjectSerializer* ___serializer;

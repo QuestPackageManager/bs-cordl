@@ -53,7 +53,7 @@ public:
 
   __declspec(property(get = get_sunLight)) ::UnityW<::UnityEngine::Light> sunLight;
 
-  /// @brief Method AddGameObject, addr 0x66bb29c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddGameObject, addr 0x67f89a8, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> AddGameObject(bool persistent);
 
   static inline ::UnityEngine::Rendering::LookDev::StageRuntimeInterface* New_ctor(::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* AddGameObject,
@@ -84,14 +84,14 @@ public:
 
   constexpr void __cordl_internal_set_m_GetSunLight(::System::Func_1<::UnityW<::UnityEngine::Light>>* value);
 
-  /// @brief Method .ctor, addr 0x66bb290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f899c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* AddGameObject, ::System::Func_1<::UnityW<::UnityEngine::Camera>>* GetCamera,
                     ::System::Func_1<::UnityW<::UnityEngine::Light>>* GetSunLight);
 
-  /// @brief Method get_camera, addr 0x66bb2c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x67f89cc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_sunLight, addr 0x66bb2e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_sunLight, addr 0x67f89ec, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Light> get_sunLight();
 
 protected:
@@ -109,7 +109,7 @@ public:
   StageRuntimeInterface(StageRuntimeInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12479 };
 
   /// @brief Field m_AddGameObject, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* ___m_AddGameObject;

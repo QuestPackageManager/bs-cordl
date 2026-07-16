@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::*)()>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b99fb4;
+  constexpr static std::size_t addrs = 0x6cede6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::*)(::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b99fb8;
+  constexpr static std::size_t addrs = 0x6cede70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b99df8;
+  constexpr static std::size_t addrs = 0x6cedcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

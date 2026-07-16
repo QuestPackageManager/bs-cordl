@@ -92,21 +92,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6898618, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69ef530, size 0x2fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6898998, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69ef8b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x68989a0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69ef8b8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x68989d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69ef8f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x68985ec, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x69ef504, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -133,10 +133,10 @@ public:
 
   constexpr void __cordl_internal_set_pauseTimeInSeconds(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x6898964, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x69ef87c, size 0x34, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x6898584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ef49c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -163,7 +163,7 @@ public:
   OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35(OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18479 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -223,21 +223,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6898a0c, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69ef924, size 0x220, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6898c60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69efb78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6898c68, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69efb80, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6898ca0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69efbb8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x68989e0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x69ef8f8, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -264,10 +264,10 @@ public:
 
   constexpr void __cordl_internal_set_pauseTimeInSeconds(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x6898c2c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x69efb44, size 0x34, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x689857c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ef494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -294,7 +294,7 @@ public:
   OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34(OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18480 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -357,21 +357,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6898cd4, size 0x55c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69efbec, size 0x55c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6899300, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69f0218, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6899308, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69f0220, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6899340, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69f0258, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6898ca8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x69efbc0, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -404,10 +404,10 @@ public:
 
   constexpr void __cordl_internal_set_shouldShutdown(bool value);
 
-  /// @brief Method <>m__Finally1, addr 0x68992c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x69f01e0, size 0x38, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x689858c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ef4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -434,7 +434,7 @@ public:
   OpenXRRestarter__RestartCoroutine_d__36(OpenXRRestarter__RestartCoroutine_d__36 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18481 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -519,36 +519,36 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> s_Instance;
 
-  /// @brief Method DecrementPauseAndRestartCoroutineCount, addr 0x689847c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DecrementPauseAndRestartCoroutineCount, addr 0x69ef394, size 0x100, virtual false, abstract: false, final false
   inline void DecrementPauseAndRestartCoroutineCount();
 
-  /// @brief Method IncrementPauseAndRestartCoroutineCount, addr 0x689837c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IncrementPauseAndRestartCoroutineCount, addr 0x69ef294, size 0x100, virtual false, abstract: false, final false
   inline void IncrementPauseAndRestartCoroutineCount();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter* New_ctor();
 
-  /// @brief Method PauseAndRetryInitialization, addr 0x6897508, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PauseAndRetryInitialization, addr 0x69ee420, size 0x170, virtual false, abstract: false, final false
   inline void PauseAndRetryInitialization();
 
-  /// @brief Method PauseAndRetryInitializationCoroutine, addr 0x6898318, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PauseAndRetryInitializationCoroutine, addr 0x69ef230, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PauseAndRetryInitializationCoroutine(float_t pauseTimeInSeconds);
 
-  /// @brief Method PauseAndShutdownAndRestart, addr 0x6897398, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PauseAndShutdownAndRestart, addr 0x69ee2b0, size 0x170, virtual false, abstract: false, final false
   inline void PauseAndShutdownAndRestart();
 
-  /// @brief Method PauseAndShutdownAndRestartCoroutine, addr 0x68982b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PauseAndShutdownAndRestartCoroutine, addr 0x69ef1cc, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PauseAndShutdownAndRestartCoroutine(float_t pauseTimeInSeconds);
 
-  /// @brief Method ResetCallbacks, addr 0x6897f88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ResetCallbacks, addr 0x69eeea0, size 0x6c, virtual false, abstract: false, final false
   inline void ResetCallbacks();
 
-  /// @brief Method RestartCoroutine, addr 0x6898240, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RestartCoroutine, addr 0x69ef158, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestartCoroutine(bool shouldRestart, bool shouldShutdown);
 
-  /// @brief Method Shutdown, addr 0x68979ac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x69ee8c4, size 0x164, virtual false, abstract: false, final false
   inline void Shutdown();
 
-  /// @brief Method ShutdownAndRestart, addr 0x6897234, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ShutdownAndRestart, addr 0x69ee14c, size 0x164, virtual false, abstract: false, final false
   inline void ShutdownAndRestart();
 
   constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get_m_Coroutine() const;
@@ -593,7 +593,7 @@ public:
 
   constexpr void __cordl_internal_set_onQuit(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x6898594, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ef4ac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__DisableApplicationQuit_k__BackingField();
@@ -606,22 +606,22 @@ public:
 
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> getStaticF_s_Instance();
 
-  /// @brief Method get_DisableApplicationQuit, addr 0x6898180, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DisableApplicationQuit, addr 0x69ef098, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_DisableApplicationQuit();
 
-  /// @brief Method get_Instance, addr 0x6897068, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x69edf80, size 0x1cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> get_Instance();
 
-  /// @brief Method get_PauseAndRestartAttempts, addr 0x68980c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_PauseAndRestartAttempts, addr 0x69eefe0, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_PauseAndRestartAttempts();
 
-  /// @brief Method get_PauseAndRestartCoroutineCount, addr 0x6898124, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_PauseAndRestartCoroutineCount, addr 0x69ef03c, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_PauseAndRestartCoroutineCount();
 
-  /// @brief Method get_TimeBetweenRestartAttempts, addr 0x6898004, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_TimeBetweenRestartAttempts, addr 0x69eef1c, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_TimeBetweenRestartAttempts();
 
-  /// @brief Method get_isRunning, addr 0x6897ff4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isRunning, addr 0x69eef0c, size 0x10, virtual false, abstract: false, final false
   inline bool get_isRunning();
 
   static inline void setStaticF__DisableApplicationQuit_k__BackingField(bool value);
@@ -634,10 +634,10 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> value);
 
-  /// @brief Method set_DisableApplicationQuit, addr 0x68981dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_DisableApplicationQuit, addr 0x69ef0f4, size 0x64, virtual false, abstract: false, final false
   static inline void set_DisableApplicationQuit(bool value);
 
-  /// @brief Method set_TimeBetweenRestartAttempts, addr 0x6898060, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_TimeBetweenRestartAttempts, addr 0x69eef78, size 0x68, virtual false, abstract: false, final false
   static inline void set_TimeBetweenRestartAttempts(float_t value);
 
 protected:
@@ -655,7 +655,7 @@ public:
   OpenXRRestarter(OpenXRRestarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18482 };
 
   /// @brief Field onAfterRestart, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___onAfterRestart;

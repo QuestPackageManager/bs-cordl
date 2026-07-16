@@ -48,13 +48,13 @@ public:
   /// @brief Field m_encoding, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_encoding, put = setStaticF_m_encoding)) ::System::Text::UnicodeEncoding* m_encoding;
 
-  /// @brief Method Close, addr 0x5add174, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x5c16e4c, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x5add184, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5c16e5c, size 0x8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FlushAsync, addr 0x5add648, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x5c17320, size 0x94, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync();
 
   static inline ::System::IO::StringWriter* New_ctor();
@@ -65,25 +65,25 @@ public:
 
   static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString, addr 0x5add6dc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c173b4, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Write, addr 0x5add274, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c16f4c, size 0x154, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x5add3c8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c170a0, size 0x34, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x5add24c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c16f24, size 0x28, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteAsync, addr 0x5add574, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x5c1724c, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x5add4b8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x5c17190, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
 
-  /// @brief Method WriteAsync, addr 0x5add3fc, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x5c170d4, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
 
   constexpr bool const& __cordl_internal_get__isOpen() const;
@@ -98,21 +98,21 @@ public:
 
   constexpr void __cordl_internal_set__sb(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x5adcf1c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c16bf4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5add090, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c16d68, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x5add100, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c16dd8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::StringBuilder* sb);
 
-  /// @brief Method .ctor, addr 0x5adcfb0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c16c88, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
 
   static inline ::System::Text::UnicodeEncoding* getStaticF_m_encoding();
 
-  /// @brief Method get_Encoding, addr 0x5add18c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x5c16e64, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
   static inline void setStaticF_m_encoding(::System::Text::UnicodeEncoding* value);

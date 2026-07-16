@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6bc7ebc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d1bd74, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6bc7eb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1bd70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c* getStaticF___9();
@@ -79,18 +79,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c;
 
-  /// @brief Method GetPooled, addr 0x6bc7dc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d1bc78, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID);
 
-  /// @brief Method Init, addr 0x6bc7d5c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d1bc14, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6bc7db4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d1bc6c, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bc7e0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1bcc4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

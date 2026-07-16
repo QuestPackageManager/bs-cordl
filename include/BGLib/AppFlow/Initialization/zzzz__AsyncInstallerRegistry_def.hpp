@@ -6,16 +6,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncInstallerRegistry)
 namespace BGLib::AppFlow::Initialization {
-class AsyncInstaller_IInstallerRegistry;
+class IInstallerRegistry;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class MonoInstaller;
-}
-namespace Zenject {
-class ScriptableObjectInstaller;
+class IInstaller;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {
@@ -31,41 +28,28 @@ namespace BGLib::AppFlow::Initialization {
 class CORDL_TYPE AsyncInstallerRegistry : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field monoInstallers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_monoInstallers, put = __cordl_internal_set_monoInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* monoInstallers;
+  /// @brief Field installers, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_installers, put = __cordl_internal_set_installers)) ::System::Collections::Generic::List_1<::Zenject::IInstaller*>* installers;
 
-  /// @brief Field scriptableObjectInstallers, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_scriptableObjectInstallers,
-                      put = __cordl_internal_set_scriptableObjectInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers;
+  /// @brief Convert operator to "::BGLib::AppFlow::Initialization::IInstallerRegistry"
+  constexpr operator ::BGLib::AppFlow::Initialization::IInstallerRegistry*() noexcept;
 
-  /// @brief Convert operator to "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry"
-  constexpr operator ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*() noexcept;
-
-  /// @brief Method AddMonoInstaller, addr 0x324f1b4, size 0xb4, virtual true, abstract: false, final true
-  inline void AddMonoInstaller(::Zenject::MonoInstaller* newMonoInstaller);
-
-  /// @brief Method AddScriptableObjectInstaller, addr 0x324f268, size 0xb4, virtual true, abstract: false, final true
-  inline void AddScriptableObjectInstaller(::Zenject::ScriptableObjectInstaller* newScriptableObjectInstaller);
+  /// @brief Method AddInstaller, addr 0x3306d80, size 0xb4, virtual true, abstract: false, final true
+  inline void AddInstaller(::Zenject::IInstaller* newInstaller);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* const& __cordl_internal_get_monoInstallers() const;
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IInstaller*>* const& __cordl_internal_get_installers() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*& __cordl_internal_get_monoInstallers();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IInstaller*>*& __cordl_internal_get_installers();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* const& __cordl_internal_get_scriptableObjectInstallers() const;
+  constexpr void __cordl_internal_set_installers(::System::Collections::Generic::List_1<::Zenject::IInstaller*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*& __cordl_internal_get_scriptableObjectInstallers();
-
-  constexpr void __cordl_internal_set_monoInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
-
-  constexpr void __cordl_internal_set_scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
-
-  /// @brief Method .ctor, addr 0x324f31c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3306e34, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry"
-  constexpr ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* i___BGLib__AppFlow__Initialization__AsyncInstaller_IInstallerRegistry() noexcept;
+  /// @brief Convert to "::BGLib::AppFlow::Initialization::IInstallerRegistry"
+  constexpr ::BGLib::AppFlow::Initialization::IInstallerRegistry* i___BGLib__AppFlow__Initialization__IInstallerRegistry() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -82,21 +66,16 @@ public:
   AsyncInstallerRegistry(AsyncInstallerRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21501 };
 
-  /// @brief Field monoInstallers, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ___monoInstallers;
-
-  /// @brief Field scriptableObjectInstallers, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ___scriptableObjectInstallers;
+  /// @brief Field installers, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::Zenject::IInstaller*>* ___installers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry, ___monoInstallers) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry, ___installers) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry, ___scriptableObjectInstallers) == 0x18, "Offset mismatch!");
-
-static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry) == 0x20, "Size mismatch!");
+static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry) == 0x18, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization

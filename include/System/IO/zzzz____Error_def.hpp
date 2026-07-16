@@ -21,22 +21,22 @@ namespace System::IO {
 class CORDL_TYPE __Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndOfFile, addr 0x5ad9794, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EndOfFile, addr 0x5c1346c, size 0x50, virtual false, abstract: false, final false
   static inline void EndOfFile();
 
-  /// @brief Method FileNotOpen, addr 0x5ad97e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FileNotOpen, addr 0x5c134bc, size 0x54, virtual false, abstract: false, final false
   static inline void FileNotOpen();
 
-  /// @brief Method GetDisplayablePath, addr 0x5ad988c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayablePath, addr 0x5c13564, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayablePath(::StringW path, bool isInvalidPath);
 
-  /// @brief Method ReaderClosed, addr 0x5ad9838, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReaderClosed, addr 0x5c13510, size 0x54, virtual false, abstract: false, final false
   static inline void ReaderClosed();
 
-  /// @brief Method WinIOError, addr 0x5ad9b68, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method WinIOError, addr 0x5c13840, size 0x550, virtual false, abstract: false, final false
   static inline void WinIOError(int32_t errorCode, ::StringW maybeFullPath);
 
-  /// @brief Method WriterClosed, addr 0x5ada0b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WriterClosed, addr 0x5c13d90, size 0x54, virtual false, abstract: false, final false
   static inline void WriterClosed();
 
 protected:

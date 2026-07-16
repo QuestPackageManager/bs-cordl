@@ -30,21 +30,21 @@ public:
   /// @brief Field m_Timer, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Timer, put = __cordl_internal_set_m_Timer)) float_t m_Timer;
 
-  /// @brief Method GetChild, addr 0x66c2dc8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetChild, addr 0x68004d4, size 0x134, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetChild(int32_t index);
 
-  /// @brief Method IsActive, addr 0x66c2f80, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x680068c, size 0x140, virtual false, abstract: false, final false
   inline bool IsActive(::UnityEngine::Rendering::DebugUI_Table* table, int32_t index, ::UnityEngine::GameObject* child);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerRow* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x66c2dc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x68004cc, size 0x8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method TryGetChild, addr 0x66c2efc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryGetChild, addr 0x6800608, size 0x84, virtual false, abstract: false, final false
   inline bool TryGetChild(int32_t index, ::by_ref<::UnityEngine::GameObject*> child);
 
-  /// @brief Method Update, addr 0x66c30c0, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x68007cc, size 0x3fc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_m_Timer() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Timer(float_t value);
 
-  /// @brief Method .ctor, addr 0x66c34bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6800bc8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   DebugUIHandlerRow(DebugUIHandlerRow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12509 };
 
   /// @brief Field m_Timer, offset: 0x80, size: 0x4, def value: None
   float_t ___m_Timer;

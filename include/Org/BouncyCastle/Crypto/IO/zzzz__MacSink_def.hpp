@@ -31,10 +31,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::IO::MacSink* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method Write, addr 0x3327fd0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x33e4488, size 0xec, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x3327f18, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x33e43d0, size 0xb8, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::IMac* const& __cordl_internal_get_mMac() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_mMac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  /// @brief Method .ctor, addr 0x3327ee8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e43a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Mac, addr 0x3327f10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mac, addr 0x33e43c8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IMac* get_Mac();
 
 protected:

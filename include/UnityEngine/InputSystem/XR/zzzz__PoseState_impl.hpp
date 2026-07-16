@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::XR::PoseState::*)()>(
     &::UnityEngine::InputSystem::XR::PoseState::get_format)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64447c4;
+  constexpr static std::size_t addrs = 0x65813e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::PoseState>(), { "get_format", {}, {} })));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
                                                                                                            ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::XR::PoseState::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6444820;
+  constexpr static std::size_t addrs = 0x6581440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

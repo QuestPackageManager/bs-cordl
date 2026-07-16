@@ -44,14 +44,14 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::Org::BouncyCastle::Asn1::Asn1Encodable* value;
 
-  /// @brief Method GetInstance, addr 0x35a4470, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3660928, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::OtherName* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::OtherName* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::OtherName* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* typeID, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method ToAsn1Object, addr 0x35a45f4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3660aac, size 0x150, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_typeID() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x35a4510, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36609c8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x35a45dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3660a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* typeID, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_TypeID, addr 0x35a45e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeID, addr 0x3660a9c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_TypeID();
 
-  /// @brief Method get_Value, addr 0x35a45ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3660aa4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
 protected:

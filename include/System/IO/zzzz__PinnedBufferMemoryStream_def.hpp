@@ -34,18 +34,18 @@ public:
   /// @brief Field _pinningHandle, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__pinningHandle, put = __cordl_internal_set__pinningHandle)) ::System::Runtime::InteropServices::GCHandle _pinningHandle;
 
-  /// @brief Method Dispose, addr 0x5abef9c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5bf8c74, size 0x28, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5abef48, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5bf8c20, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::IO::PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t> array);
 
-  /// @brief Method Read, addr 0x5abea64, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5bf873c, size 0x4, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method Write, addr 0x5abec68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5bf8940, size 0x4, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get__array() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__pinningHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x5abe760, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf8438, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> array);
 
 protected:

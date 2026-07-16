@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::UnsafeQueueBlockHeader* (::Unity::Collections::UnsafeQueueBlockPoolData::*)()>(
     &::Unity::Collections::UnsafeQueueBlockPoolData::AllocateBlock)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6386cd0;
+  constexpr static std::size_t addrs = 0x64c38f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPoolData>(), { "AllocateBlock", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueBlockPoolData::*)(::Unity::Collections::UnsafeQueueBlockHeader*)>(
     &::Unity::Collections::UnsafeQueueBlockPoolData::FreeBlock)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6386d7c;
+  constexpr static std::size_t addrs = 0x64c399c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -94,41 +94,41 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method AddTargetGroup, addr 0x3582c00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddTargetGroup, addr 0x363f0b8, size 0xb4, virtual false, abstract: false, final false
   inline void AddTargetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* group);
 
-  /// @brief Method AddTargetGroup, addr 0x3582cb4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddTargetGroup, addr 0x363f16c, size 0x2c, virtual false, abstract: false, final false
   inline void AddTargetGroup(::ArrayW<uint8_t> name);
 
-  /// @brief Method AddTargetName, addr 0x35826dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddTargetName, addr 0x363eb94, size 0x2c, virtual false, abstract: false, final false
   inline void AddTargetName(::ArrayW<uint8_t> name);
 
-  /// @brief Method AddTargetName, addr 0x3582628, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddTargetName, addr 0x363eae0, size 0xb4, virtual false, abstract: false, final false
   inline void AddTargetName(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method Clone, addr 0x358256c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x363ea24, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method ExtractGeneralNames, addr 0x3582720, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method ExtractGeneralNames, addr 0x363ebd8, size 0x47c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* ExtractGeneralNames(::System::Collections::IEnumerable* names);
 
-  /// @brief Method GetTargetGroups, addr 0x3582cf8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetTargetGroups, addr 0x363f1b0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetTargetGroups();
 
-  /// @brief Method GetTargetNames, addr 0x3582b9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetTargetNames, addr 0x363f054, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetTargetNames();
 
-  /// @brief Method Match, addr 0x3581d50, size 0x81c, virtual true, abstract: false, final true
+  /// @brief Method Match, addr 0x363e208, size 0x81c, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor();
 
   static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* o);
 
-  /// @brief Method SetTargetGroups, addr 0x3582ce0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTargetGroups, addr 0x363f198, size 0x18, virtual false, abstract: false, final false
   inline void SetTargetGroups(::System::Collections::IEnumerable* names);
 
-  /// @brief Method SetTargetNames, addr 0x3582708, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTargetNames, addr 0x363ebc0, size 0x18, virtual false, abstract: false, final false
   inline void SetTargetNames(::System::Collections::IEnumerable* names);
 
   constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate* const& __cordl_internal_get_attributeCert() const;
@@ -173,28 +173,28 @@ public:
 
   constexpr void __cordl_internal_set_targetNames(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method .ctor, addr 0x3581bfc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363e0b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3581c70, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363e128, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* o);
 
-  /// @brief Method get_AttribueCertificateValid, addr 0x35825d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttribueCertificateValid, addr 0x363ea90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttribueCertificateValid();
 
-  /// @brief Method get_AttributeCert, addr 0x35825c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeCert, addr 0x363ea80, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* get_AttributeCert();
 
-  /// @brief Method get_AttributeCertificateValid, addr 0x35825e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeCertificateValid, addr 0x363eaa0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttributeCertificateValid();
 
-  /// @brief Method get_Holder, addr 0x35825f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Holder, addr 0x363eab0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder();
 
-  /// @brief Method get_Issuer, addr 0x3582608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x363eac0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x3582618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x363ead0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
@@ -203,22 +203,22 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_AttribueCertificateValid, addr 0x35825e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttribueCertificateValid, addr 0x363ea98, size 0x8, virtual false, abstract: false, final false
   inline void set_AttribueCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_AttributeCert, addr 0x35825d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeCert, addr 0x363ea88, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeCert(::Org::BouncyCastle::X509::IX509AttributeCertificate* value);
 
-  /// @brief Method set_AttributeCertificateValid, addr 0x35825f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeCertificateValid, addr 0x363eaa8, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_Holder, addr 0x3582600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Holder, addr 0x363eab8, size 0x8, virtual false, abstract: false, final false
   inline void set_Holder(::Org::BouncyCastle::X509::AttributeCertificateHolder* value);
 
-  /// @brief Method set_Issuer, addr 0x3582610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Issuer, addr 0x363eac8, size 0x8, virtual false, abstract: false, final false
   inline void set_Issuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* value);
 
-  /// @brief Method set_SerialNumber, addr 0x3582620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SerialNumber, addr 0x363ead8, size 0x8, virtual false, abstract: false, final false
   inline void set_SerialNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
 protected:

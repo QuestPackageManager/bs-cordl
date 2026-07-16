@@ -402,7 +402,7 @@ public:
   ConnectedPlayer_3(ConnectedPlayer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18088 };
 
   /// @brief Field kFixedSyncTimeOffset offset 0xffffffff size 0x8
   static constexpr int64_t kFixedSyncTimeOffset{ static_cast<int64_t>(0x21) };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::Compare)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63be8a0;
+  constexpr static std::size_t addrs = 0x64fb4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer>(),

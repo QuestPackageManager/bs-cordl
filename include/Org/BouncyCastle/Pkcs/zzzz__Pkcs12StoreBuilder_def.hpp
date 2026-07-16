@@ -40,21 +40,21 @@ public:
   /// @brief Field useDerEncoding, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_useDerEncoding, put = __cordl_internal_set_useDerEncoding)) bool useDerEncoding;
 
-  /// @brief Method Build, addr 0x34fba48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x35b7f00, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* Build();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* New_ctor();
 
-  /// @brief Method SetCertAlgorithm, addr 0x34fbad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertAlgorithm, addr 0x35b7f8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetCertAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm, addr 0x34fbadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetKeyAlgorithm, addr 0x35b7f94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm, addr 0x34fbae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKeyAlgorithm, addr 0x35b7f9c, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm);
 
-  /// @brief Method SetUseDerEncoding, addr 0x34fbaf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetUseDerEncoding, addr 0x35b7fa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetUseDerEncoding(bool useDerEncoding);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_certAlgorithm() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_useDerEncoding(bool value);
 
-  /// @brief Method .ctor, addr 0x34fb9d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b7e90, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

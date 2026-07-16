@@ -61,13 +61,13 @@ public:
 
   static inline ::GlobalNamespace::CommandBufferGOCore* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5e078d8, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f3f63c, size 0x448, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5e074d0, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f3f234, size 0x408, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnWillRenderObject, addr 0x5e07de0, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x5f3fb44, size 0x1d4, virtual true, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* const& __cordl_internal_get__cameras() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x5e07070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3edd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
@@ -104,7 +104,7 @@ public:
   CommandBufferGOCore(CommandBufferGOCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20871 };
 
   /// @brief Field _cameras, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* ____cameras;

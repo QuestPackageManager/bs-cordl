@@ -95,31 +95,31 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x57b66dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596c9a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x57b6634, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x596c900, size 0x20, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideConditionText, addr 0x57b6654, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideConditionText, addr 0x596c920, size 0x34, virtual false, abstract: false, final false
   inline void set_hideConditionText(bool value);
 
-  /// @brief Method set_hideValueText, addr 0x57b66a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideValueText, addr 0x596c974, size 0x34, virtual false, abstract: false, final false
   inline void set_hideValueText(bool value);
 
-  /// @brief Method set_icon, addr 0x57b65e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x596c8b0, size 0x18, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_iconColor, addr 0x57b65c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_iconColor, addr 0x596c890, size 0x20, virtual false, abstract: false, final false
   inline void set_iconColor(::UnityEngine::Color value);
 
-  /// @brief Method set_iconGlow, addr 0x57b65fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_iconGlow, addr 0x596c8c8, size 0x18, virtual false, abstract: false, final false
   inline void set_iconGlow(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_title, addr 0x57b6614, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x596c8e0, size 0x20, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_valueText, addr 0x57b6688, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_valueText, addr 0x596c954, size 0x20, virtual false, abstract: false, final false
   inline void set_valueText(::StringW value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   ResultObjectiveListItem(ResultObjectiveListItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6987 };
 
   /// @brief Field _icon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;

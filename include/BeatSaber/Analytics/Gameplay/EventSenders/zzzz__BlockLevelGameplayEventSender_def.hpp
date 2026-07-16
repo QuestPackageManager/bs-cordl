@@ -42,7 +42,7 @@ public:
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::BlockLevelGameplayEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager,
                                                                                                         ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
-  /// @brief Method SendBlockLevelGameplayEvent, addr 0x31d058c, size 0x334, virtual true, abstract: false, final true
+  /// @brief Method SendBlockLevelGameplayEvent, addr 0x326436c, size 0x334, virtual true, abstract: false, final true
   inline void SendBlockLevelGameplayEvent(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData, ::StringW blockLevelJSON);
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* const& __cordl_internal_get__eventsBuilderFactory() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__eventsBuilderFactory(::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* value);
 
-  /// @brief Method .ctor, addr 0x31cf70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32634ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender"
@@ -72,7 +72,7 @@ public:
   BlockLevelGameplayEventSender(BlockLevelGameplayEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22252 };
 
   /// @brief Field _eventsBuilderFactory, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* ____eventsBuilderFactory;

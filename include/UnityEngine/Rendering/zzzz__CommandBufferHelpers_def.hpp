@@ -50,19 +50,19 @@ public:
   /// @brief Field unsafeCmd, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_unsafeCmd, put = setStaticF_unsafeCmd)) ::UnityEngine::Rendering::UnsafeCommandBuffer* unsafeCmd;
 
-  /// @brief Method GetComputeCommandBuffer, addr 0x660bcd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetComputeCommandBuffer, addr 0x67493dc, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ComputeCommandBuffer* GetComputeCommandBuffer(::UnityEngine::Rendering::CommandBuffer* baseBuffer);
 
-  /// @brief Method GetNativeCommandBuffer, addr 0x660bda8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNativeCommandBuffer, addr 0x67494b4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CommandBuffer* GetNativeCommandBuffer(::UnityEngine::Rendering::UnsafeCommandBuffer* baseBuffer);
 
-  /// @brief Method GetRasterCommandBuffer, addr 0x660bc64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetRasterCommandBuffer, addr 0x6749370, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RasterCommandBuffer* GetRasterCommandBuffer(::UnityEngine::Rendering::CommandBuffer* baseBuffer);
 
-  /// @brief Method GetUnsafeCommandBuffer, addr 0x660bd3c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeCommandBuffer, addr 0x6749448, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnsafeCommandBuffer* GetUnsafeCommandBuffer(::UnityEngine::Rendering::CommandBuffer* baseBuffer);
 
-  /// @brief Method VFXManager_ProcessCameraCommand, addr 0x660bdbc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method VFXManager_ProcessCameraCommand, addr 0x67494c8, size 0xa8, virtual false, abstract: false, final false
   static inline void VFXManager_ProcessCameraCommand(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings,
                                                      ::UnityEngine::Rendering::CullingResults results);
 
@@ -83,7 +83,7 @@ public:
   constexpr CommandBufferHelpers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11844 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

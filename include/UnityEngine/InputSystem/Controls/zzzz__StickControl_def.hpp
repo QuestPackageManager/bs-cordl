@@ -43,7 +43,7 @@ public:
 
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
-  /// @brief Method FinishSetup, addr 0x63ba44c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x64f706c, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::StickControl* New_ctor();
@@ -72,31 +72,31 @@ public:
 
   constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x63ba548, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f7168, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_down, addr 0x63ba41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x64f703c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
-  /// @brief Method get_left, addr 0x63ba42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x64f704c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
-  /// @brief Method get_right, addr 0x63ba43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x64f705c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
-  /// @brief Method get_up, addr 0x63ba40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x64f702c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
-  /// @brief Method set_down, addr 0x63ba424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x64f7044, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_left, addr 0x63ba434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x64f7054, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_right, addr 0x63ba444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x64f7064, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_up, addr 0x63ba414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x64f7034, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   StickControl(StickControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9105 };
 
   /// @brief Field <up>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____up_k__BackingField;

@@ -24,13 +24,13 @@ namespace UnityEngine {
 struct CORDL_TYPE TagHandle {
 public:
   // Declarations
-  /// @brief Method TagToString, addr 0x6990a9c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TagToString, addr 0x6ae3b48, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW TagToString(uint32_t tagIndex);
 
-  /// @brief Method TagToString_Injected, addr 0x6990b68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TagToString_Injected, addr 0x6ae3c14, size 0x44, virtual false, abstract: false, final false
   static inline void TagToString_Injected(uint32_t tagIndex, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method ToString, addr 0x6990a94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ae3b40, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr TagHandle(uint32_t _tagIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10340 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

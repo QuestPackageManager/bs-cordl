@@ -44,10 +44,10 @@ public:
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5858e90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599123c, size 0x60, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5858cd8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5991084, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*> const& __cordl_internal_get__bufferedLightColorGroupEffects() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> value);
 
-  /// @brief Method .ctor, addr 0x5858ef0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599129c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5861 };
 
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroups;

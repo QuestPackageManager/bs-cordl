@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ConstantExpression* (*)(bool)>(&::System::Linq::Expressions::Utils::Constant)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e4a0f8;
+  constexpr static std::size_t addrs = 0x5f851f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Utils*>(), { "Constant", {}, { ::i2c::type_of<bool>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ConstantExpression* (*)(int32_t)>(&::System::Linq::Expressions::Utils::Constant)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5e4a178;
+  constexpr static std::size_t addrs = 0x5f85274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Utils*>(), { "Constant", {}, { ::i2c::type_of<int32_t>() } })));

@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x6cd54e8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e2c4a4, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Video::VideoClipPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6cd54dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6e2c498, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
@@ -55,7 +55,7 @@ public:
   constexpr VideoClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

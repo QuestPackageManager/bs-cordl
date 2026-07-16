@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColor)
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine::Rendering {
+class RTHandle;
+}
 namespace UnityEngine {
 struct Color;
 }
@@ -16,9 +22,6 @@ class Material;
 }
 namespace UnityEngine {
 struct Matrix4x4;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 namespace UnityEngine {
 class Shader;
@@ -65,13 +68,13 @@ public:
 
   __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
-  /// @brief Method InitIfNeeded, addr 0x571d560, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x58622cc, size 0x190, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColor* New_ctor();
 
-  /// @brief Method Render, addr 0x571d6f0, size 0xd4, virtual true, abstract: false, final false
-  inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
+  /// @brief Method Render, addr 0x586245c, size 0x138, virtual true, abstract: false, final false
+  inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
@@ -103,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__shader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x571d7c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5862594, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -112,10 +115,10 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
 
-  /// @brief Method get_bgColor, addr 0x571d4c8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_bgColor, addr 0x5862234, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_bgColor();
 
-  /// @brief Method get_color, addr 0x571d4b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x586221c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorID(int32_t value);
@@ -124,7 +127,7 @@ public:
 
   static inline void setStaticF__material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method set_color, addr 0x571d4bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x5862228, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -142,7 +145,7 @@ public:
   BloomPrePassBackgroundColor(BloomPrePassBackgroundColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19415 };
 
   /// @brief Field _intensity, offset: 0x28, size: 0x4, def value: None
   float_t ____intensity;

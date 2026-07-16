@@ -88,7 +88,7 @@ public:
   static ::UnityEngine::Audio::AudioRandomContainer_ChangeEventType const Volume;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21045 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -149,234 +149,234 @@ public:
 
   __declspec(property(get = get_volumeRandomizationRange, put = set_volumeRandomizationRange)) ::UnityEngine::Vector2 volumeRandomizationRange;
 
-  /// @brief Method Internal_Create, addr 0x68fd178, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6a53fc8, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Audio::AudioRandomContainer* self);
 
   static inline ::UnityEngine::Audio::AudioRandomContainer* New_ctor();
 
-  /// @brief Method NotifyObservers, addr 0x68fee7c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method NotifyObservers, addr 0x6a55ccc, size 0x90, virtual false, abstract: false, final false
   inline void NotifyObservers(::UnityEngine::Audio::AudioRandomContainer_ChangeEventType eventType);
 
-  /// @brief Method NotifyObservers_Injected, addr 0x68fef0c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method NotifyObservers_Injected, addr 0x6a55d5c, size 0x1b0, virtual false, abstract: false, final false
   static inline void NotifyObservers_Injected(::System::IntPtr _unity_self, ::UnityEngine::Audio::AudioRandomContainer_ChangeEventType eventType);
 
-  /// @brief Method .ctor, addr 0x68fd138, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a53f88, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_automaticTriggerMode, addr 0x68fe1ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerMode, addr 0x6a54ffc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AudioRandomContainerAutomaticTriggerMode get_automaticTriggerMode();
 
-  /// @brief Method get_automaticTriggerMode_Injected, addr 0x68fe22c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerMode_Injected, addr 0x6a5507c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioRandomContainerAutomaticTriggerMode get_automaticTriggerMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_automaticTriggerTime, addr 0x68fe33c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerTime, addr 0x6a5518c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_automaticTriggerTime();
 
-  /// @brief Method get_automaticTriggerTimeRandomizationEnabled, addr 0x68fe688, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerTimeRandomizationEnabled, addr 0x6a554d8, size 0x80, virtual false, abstract: false, final false
   inline bool get_automaticTriggerTimeRandomizationEnabled();
 
-  /// @brief Method get_automaticTriggerTimeRandomizationEnabled_Injected, addr 0x68fe708, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerTimeRandomizationEnabled_Injected, addr 0x6a55558, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_automaticTriggerTimeRandomizationEnabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_automaticTriggerTimeRandomizationRange, addr 0x68fe4d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerTimeRandomizationRange, addr 0x6a55324, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_automaticTriggerTimeRandomizationRange();
 
-  /// @brief Method get_automaticTriggerTimeRandomizationRange_Injected, addr 0x68fe56c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerTimeRandomizationRange_Injected, addr 0x6a553bc, size 0x44, virtual false, abstract: false, final false
   static inline void get_automaticTriggerTimeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_automaticTriggerTime_Injected, addr 0x68fe3bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_automaticTriggerTime_Injected, addr 0x6a5520c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_automaticTriggerTime_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_avoidRepeatingLast, addr 0x68fe01c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_avoidRepeatingLast, addr 0x6a54e6c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_avoidRepeatingLast();
 
-  /// @brief Method get_avoidRepeatingLast_Injected, addr 0x68fe09c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_avoidRepeatingLast_Injected, addr 0x6a54eec, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_avoidRepeatingLast_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_elements, addr 0x68fdb6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_elements, addr 0x6a549bc, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioContainerElement>> get_elements();
 
-  /// @brief Method get_elements_Injected, addr 0x68fdbec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_elements_Injected, addr 0x6a54a3c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioContainerElement>> get_elements_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_loopCount, addr 0x68fe9a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_loopCount, addr 0x6a557f8, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_loopCount();
 
-  /// @brief Method get_loopCountRandomizationEnabled, addr 0x68fecec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_loopCountRandomizationEnabled, addr 0x6a55b3c, size 0x80, virtual false, abstract: false, final false
   inline bool get_loopCountRandomizationEnabled();
 
-  /// @brief Method get_loopCountRandomizationEnabled_Injected, addr 0x68fed6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loopCountRandomizationEnabled_Injected, addr 0x6a55bbc, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_loopCountRandomizationEnabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_loopCountRandomizationRange, addr 0x68feb38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_loopCountRandomizationRange, addr 0x6a55988, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_loopCountRandomizationRange();
 
-  /// @brief Method get_loopCountRandomizationRange_Injected, addr 0x68febd0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_loopCountRandomizationRange_Injected, addr 0x6a55a20, size 0x44, virtual false, abstract: false, final false
   static inline void get_loopCountRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_loopCount_Injected, addr 0x68fea28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loopCount_Injected, addr 0x6a55878, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_loopCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_loopMode, addr 0x68fe818, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_loopMode, addr 0x6a55668, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AudioRandomContainerLoopMode get_loopMode();
 
-  /// @brief Method get_loopMode_Injected, addr 0x68fe898, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loopMode_Injected, addr 0x6a556e8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioRandomContainerLoopMode get_loopMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_pitch, addr 0x68fd690, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_pitch, addr 0x6a544e0, size 0x80, virtual false, abstract: false, final false
   inline float_t get_pitch();
 
-  /// @brief Method get_pitchRandomizationEnabled, addr 0x68fd9dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_pitchRandomizationEnabled, addr 0x6a5482c, size 0x80, virtual false, abstract: false, final false
   inline bool get_pitchRandomizationEnabled();
 
-  /// @brief Method get_pitchRandomizationEnabled_Injected, addr 0x68fda5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pitchRandomizationEnabled_Injected, addr 0x6a548ac, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_pitchRandomizationEnabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_pitchRandomizationRange, addr 0x68fd828, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_pitchRandomizationRange, addr 0x6a54678, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pitchRandomizationRange();
 
-  /// @brief Method get_pitchRandomizationRange_Injected, addr 0x68fd8c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pitchRandomizationRange_Injected, addr 0x6a54710, size 0x44, virtual false, abstract: false, final false
   static inline void get_pitchRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_pitch_Injected, addr 0x68fd710, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pitch_Injected, addr 0x6a54560, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_pitch_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_playbackMode, addr 0x68fde8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_playbackMode, addr 0x6a54cdc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AudioRandomContainerPlaybackMode get_playbackMode();
 
-  /// @brief Method get_playbackMode_Injected, addr 0x68fdf0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playbackMode_Injected, addr 0x6a54d5c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioRandomContainerPlaybackMode get_playbackMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_triggerMode, addr 0x68fdcfc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_triggerMode, addr 0x6a54b4c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AudioRandomContainerTriggerMode get_triggerMode();
 
-  /// @brief Method get_triggerMode_Injected, addr 0x68fdd7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_triggerMode_Injected, addr 0x6a54bcc, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioRandomContainerTriggerMode get_triggerMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_volume, addr 0x68fd1b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x6a54004, size 0x80, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method get_volumeRandomizationEnabled, addr 0x68fd500, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_volumeRandomizationEnabled, addr 0x6a54350, size 0x80, virtual false, abstract: false, final false
   inline bool get_volumeRandomizationEnabled();
 
-  /// @brief Method get_volumeRandomizationEnabled_Injected, addr 0x68fd580, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_volumeRandomizationEnabled_Injected, addr 0x6a543d0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_volumeRandomizationEnabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_volumeRandomizationRange, addr 0x68fd34c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_volumeRandomizationRange, addr 0x6a5419c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_volumeRandomizationRange();
 
-  /// @brief Method get_volumeRandomizationRange_Injected, addr 0x68fd3e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_volumeRandomizationRange_Injected, addr 0x6a54234, size 0x44, virtual false, abstract: false, final false
   static inline void get_volumeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_volume_Injected, addr 0x68fd234, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_volume_Injected, addr 0x6a54084, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_volume_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_automaticTriggerMode, addr 0x68fe268, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerMode, addr 0x6a550b8, size 0x90, virtual false, abstract: false, final false
   inline void set_automaticTriggerMode(::UnityEngine::Audio::AudioRandomContainerAutomaticTriggerMode value);
 
-  /// @brief Method set_automaticTriggerMode_Injected, addr 0x68fe2f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerMode_Injected, addr 0x6a55148, size 0x44, virtual false, abstract: false, final false
   static inline void set_automaticTriggerMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Audio::AudioRandomContainerAutomaticTriggerMode value);
 
-  /// @brief Method set_automaticTriggerTime, addr 0x68fe3f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerTime, addr 0x6a55248, size 0x90, virtual false, abstract: false, final false
   inline void set_automaticTriggerTime(float_t value);
 
-  /// @brief Method set_automaticTriggerTimeRandomizationEnabled, addr 0x68fe744, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerTimeRandomizationEnabled, addr 0x6a55594, size 0x90, virtual false, abstract: false, final false
   inline void set_automaticTriggerTimeRandomizationEnabled(bool value);
 
-  /// @brief Method set_automaticTriggerTimeRandomizationEnabled_Injected, addr 0x68fe7d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerTimeRandomizationEnabled_Injected, addr 0x6a55624, size 0x44, virtual false, abstract: false, final false
   static inline void set_automaticTriggerTimeRandomizationEnabled_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_automaticTriggerTimeRandomizationRange, addr 0x68fe5b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerTimeRandomizationRange, addr 0x6a55400, size 0x94, virtual false, abstract: false, final false
   inline void set_automaticTriggerTimeRandomizationRange(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_automaticTriggerTimeRandomizationRange_Injected, addr 0x68fe644, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerTimeRandomizationRange_Injected, addr 0x6a55494, size 0x44, virtual false, abstract: false, final false
   static inline void set_automaticTriggerTimeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_automaticTriggerTime_Injected, addr 0x68fe488, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_automaticTriggerTime_Injected, addr 0x6a552d8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_automaticTriggerTime_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_avoidRepeatingLast, addr 0x68fe0d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_avoidRepeatingLast, addr 0x6a54f28, size 0x90, virtual false, abstract: false, final false
   inline void set_avoidRepeatingLast(int32_t value);
 
-  /// @brief Method set_avoidRepeatingLast_Injected, addr 0x68fe168, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_avoidRepeatingLast_Injected, addr 0x6a54fb8, size 0x44, virtual false, abstract: false, final false
   static inline void set_avoidRepeatingLast_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_elements, addr 0x68fdc28, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_elements, addr 0x6a54a78, size 0x90, virtual false, abstract: false, final false
   inline void set_elements(::ArrayW<::UnityEngine::Audio::AudioContainerElement*> value);
 
-  /// @brief Method set_elements_Injected, addr 0x68fdcb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_elements_Injected, addr 0x6a54b08, size 0x44, virtual false, abstract: false, final false
   static inline void set_elements_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Audio::AudioContainerElement*> value);
 
-  /// @brief Method set_loopCount, addr 0x68fea64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_loopCount, addr 0x6a558b4, size 0x90, virtual false, abstract: false, final false
   inline void set_loopCount(int32_t value);
 
-  /// @brief Method set_loopCountRandomizationEnabled, addr 0x68feda8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_loopCountRandomizationEnabled, addr 0x6a55bf8, size 0x90, virtual false, abstract: false, final false
   inline void set_loopCountRandomizationEnabled(bool value);
 
-  /// @brief Method set_loopCountRandomizationEnabled_Injected, addr 0x68fee38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loopCountRandomizationEnabled_Injected, addr 0x6a55c88, size 0x44, virtual false, abstract: false, final false
   static inline void set_loopCountRandomizationEnabled_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_loopCountRandomizationRange, addr 0x68fec14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_loopCountRandomizationRange, addr 0x6a55a64, size 0x94, virtual false, abstract: false, final false
   inline void set_loopCountRandomizationRange(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_loopCountRandomizationRange_Injected, addr 0x68feca8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loopCountRandomizationRange_Injected, addr 0x6a55af8, size 0x44, virtual false, abstract: false, final false
   static inline void set_loopCountRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_loopCount_Injected, addr 0x68feaf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loopCount_Injected, addr 0x6a55944, size 0x44, virtual false, abstract: false, final false
   static inline void set_loopCount_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_loopMode, addr 0x68fe8d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_loopMode, addr 0x6a55724, size 0x90, virtual false, abstract: false, final false
   inline void set_loopMode(::UnityEngine::Audio::AudioRandomContainerLoopMode value);
 
-  /// @brief Method set_loopMode_Injected, addr 0x68fe964, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loopMode_Injected, addr 0x6a557b4, size 0x44, virtual false, abstract: false, final false
   static inline void set_loopMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Audio::AudioRandomContainerLoopMode value);
 
-  /// @brief Method set_pitch, addr 0x68fd74c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_pitch, addr 0x6a5459c, size 0x90, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_pitchRandomizationEnabled, addr 0x68fda98, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_pitchRandomizationEnabled, addr 0x6a548e8, size 0x90, virtual false, abstract: false, final false
   inline void set_pitchRandomizationEnabled(bool value);
 
-  /// @brief Method set_pitchRandomizationEnabled_Injected, addr 0x68fdb28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_pitchRandomizationEnabled_Injected, addr 0x6a54978, size 0x44, virtual false, abstract: false, final false
   static inline void set_pitchRandomizationEnabled_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_pitchRandomizationRange, addr 0x68fd904, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_pitchRandomizationRange, addr 0x6a54754, size 0x94, virtual false, abstract: false, final false
   inline void set_pitchRandomizationRange(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pitchRandomizationRange_Injected, addr 0x68fd998, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_pitchRandomizationRange_Injected, addr 0x6a547e8, size 0x44, virtual false, abstract: false, final false
   static inline void set_pitchRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_pitch_Injected, addr 0x68fd7dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_pitch_Injected, addr 0x6a5462c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_pitch_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_playbackMode, addr 0x68fdf48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_playbackMode, addr 0x6a54d98, size 0x90, virtual false, abstract: false, final false
   inline void set_playbackMode(::UnityEngine::Audio::AudioRandomContainerPlaybackMode value);
 
-  /// @brief Method set_playbackMode_Injected, addr 0x68fdfd8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_playbackMode_Injected, addr 0x6a54e28, size 0x44, virtual false, abstract: false, final false
   static inline void set_playbackMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Audio::AudioRandomContainerPlaybackMode value);
 
-  /// @brief Method set_triggerMode, addr 0x68fddb8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_triggerMode, addr 0x6a54c08, size 0x90, virtual false, abstract: false, final false
   inline void set_triggerMode(::UnityEngine::Audio::AudioRandomContainerTriggerMode value);
 
-  /// @brief Method set_triggerMode_Injected, addr 0x68fde48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_triggerMode_Injected, addr 0x6a54c98, size 0x44, virtual false, abstract: false, final false
   static inline void set_triggerMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Audio::AudioRandomContainerTriggerMode value);
 
-  /// @brief Method set_volume, addr 0x68fd270, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x6a540c0, size 0x90, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
-  /// @brief Method set_volumeRandomizationEnabled, addr 0x68fd5bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_volumeRandomizationEnabled, addr 0x6a5440c, size 0x90, virtual false, abstract: false, final false
   inline void set_volumeRandomizationEnabled(bool value);
 
-  /// @brief Method set_volumeRandomizationEnabled_Injected, addr 0x68fd64c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_volumeRandomizationEnabled_Injected, addr 0x6a5449c, size 0x44, virtual false, abstract: false, final false
   static inline void set_volumeRandomizationEnabled_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_volumeRandomizationRange, addr 0x68fd428, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_volumeRandomizationRange, addr 0x6a54278, size 0x94, virtual false, abstract: false, final false
   inline void set_volumeRandomizationRange(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_volumeRandomizationRange_Injected, addr 0x68fd4bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_volumeRandomizationRange_Injected, addr 0x6a5430c, size 0x44, virtual false, abstract: false, final false
   static inline void set_volumeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_volume_Injected, addr 0x68fd300, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_volume_Injected, addr 0x6a54150, size 0x4c, virtual false, abstract: false, final false
   static inline void set_volume_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -394,7 +394,7 @@ public:
   AudioRandomContainer(AudioRandomContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

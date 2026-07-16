@@ -25,7 +25,7 @@ namespace HMUI {
 class CORDL_TYPE RoundedCornersDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetFlipAndSymmetry, addr 0x57426d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetFlipAndSymmetry, addr 0x58898f4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFlipAndSymmetry(::HMUI::RoundedCornersDirection direction);
 
 protected:
@@ -43,7 +43,7 @@ public:
   RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

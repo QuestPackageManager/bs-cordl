@@ -11,10 +11,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffectManager::*)()>(&::GlobalNamespace::LightTranslationGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x585c8fc;
+  constexpr static std::size_t addrs = 0x5994e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffectManager*>(), { "Start", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffectManager.LateUpdate
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffectManager::*)()>(&::GlobalNamespace::LightTranslationGroupEffectManager::LateUpdate)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5995270;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffectManager*>(), { "LateUpdate", {}, {} })));
     return ___internal_method;
   }
 };
@@ -23,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffectManager::*)()>(&::GlobalNamespace::LightTranslationGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x585cce4;
+  constexpr static std::size_t addrs = 0x5995314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffectManager::*)()>(&::GlobalNamespace::LightTranslationGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x585cde8;
+  constexpr static std::size_t addrs = 0x5995418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffectManager*>(), { ".ctor", {}, {} })));
@@ -83,6 +95,10 @@ constexpr void GlobalNamespace::LightTranslationGroupEffectManager::__cordl_inte
 }
 inline void GlobalNamespace::LightTranslationGroupEffectManager::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffectManager*>(), { "Start", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::LightTranslationGroupEffectManager::LateUpdate() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffectManager*>(), { "LateUpdate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightTranslationGroupEffectManager::OnDestroy() {

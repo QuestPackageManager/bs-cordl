@@ -3,15 +3,15 @@
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderHapticFeedbackInteractionEffect_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SliderHapticFeedbackInteractionEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Start)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5840154;
+  constexpr static std::size_t addrs = 0x5977dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Update)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x58402a4;
+  constexpr static std::size_t addrs = 0x5977f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(), { "Update", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)(float_t)>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::StartEffect)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58403c4;
+  constexpr static std::size_t addrs = 0x597803c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::EndEffect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x584040c;
+  constexpr static std::size_t addrs = 0x5978084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Vibrate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5840394;
+  constexpr static std::size_t addrs = 0x597800c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(), { "Vibrate", {}, {} })));
@@ -75,34 +75,34 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5840418;
+  constexpr static std::size_t addrs = 0x5978090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticPreset;
 }
-constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_set__hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_set__hapticPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticPreset = value;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticFeedbackManager() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticFeedbackManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticFeedbackManager() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_get__hapticFeedbackManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
+constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticFeedbackManager = value;
 }

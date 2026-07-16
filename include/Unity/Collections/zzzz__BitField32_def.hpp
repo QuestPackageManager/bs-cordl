@@ -20,43 +20,43 @@ namespace Unity::Collections {
 struct CORDL_TYPE BitField32 {
 public:
   // Declarations
-  /// @brief Method CheckArgs, addr 0x636961c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CheckArgs, addr 0x64a623c, size 0xbc, virtual false, abstract: false, final false
   static inline void CheckArgs(int32_t pos, int32_t numBits);
 
-  /// @brief Method Clear, addr 0x63694a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x64a60c8, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CountBits, addr 0x6369588, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CountBits, addr 0x64a61a8, size 0x18, virtual false, abstract: false, final false
   inline int32_t CountBits();
 
-  /// @brief Method CountLeadingZeros, addr 0x63695a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CountLeadingZeros, addr 0x64a61c0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t CountLeadingZeros();
 
-  /// @brief Method CountTrailingZeros, addr 0x63695dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CountTrailingZeros, addr 0x64a61fc, size 0x40, virtual false, abstract: false, final false
   inline int32_t CountTrailingZeros();
 
-  /// @brief Method GetBits, addr 0x6369504, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x64a6124, size 0x1c, virtual false, abstract: false, final false
   inline uint32_t GetBits(int32_t pos, int32_t numBits);
 
-  /// @brief Method IsSet, addr 0x6369520, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSet, addr 0x64a6140, size 0x10, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
-  /// @brief Method SetBits, addr 0x63694b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x64a60d0, size 0x24, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value);
 
-  /// @brief Method SetBits, addr 0x63694d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x64a60f4, size 0x30, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value, int32_t numBits);
 
-  /// @brief Method TestAll, addr 0x6369568, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAll, addr 0x64a6188, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestAny, addr 0x636954c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TestAny, addr 0x64a616c, size 0x1c, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestNone, addr 0x6369530, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TestNone, addr 0x64a6150, size 0x1c, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
-  /// @brief Method .ctor, addr 0x63694a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a60c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t initialValue);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr BitField32(uint32_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15521 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

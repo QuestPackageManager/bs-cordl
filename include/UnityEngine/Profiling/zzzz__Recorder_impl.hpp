@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a4c08;
+  constexpr static std::size_t addrs = 0x6af81c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Recorder::*)(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle)>(
     &::UnityEngine::Profiling::Recorder::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69a4c0c;
+  constexpr static std::size_t addrs = 0x6af81cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::Finalize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69a4c9c;
+  constexpr static std::size_t addrs = 0x6af825c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::get_enabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69a4cfc;
+  constexpr static std::size_t addrs = 0x6af82bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "get_enabled", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Recorder::*)(bool)>(&::UnityEngine::Profiling::Recorder::set_enabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a4d08;
+  constexpr static std::size_t addrs = 0x6af82c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::get_elapsedNanoseconds)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69a4d74;
+  constexpr static std::size_t addrs = 0x6af8334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "get_elapsedNanoseconds", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::get_gpuElapsedNanoseconds)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69a4da8;
+  constexpr static std::size_t addrs = 0x6af8368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "get_gpuElapsedNanoseconds", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::get_sampleBlockCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69a4ddc;
+  constexpr static std::size_t addrs = 0x6af839c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "get_sampleBlockCount", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Profiling::Recorder::*)()>(&::UnityEngine::Profiling::Recorder::get_gpuSampleBlockCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69a4e3c;
+  constexpr static std::size_t addrs = 0x6af83fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "get_gpuSampleBlockCount", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Recorder::*)(bool)>(&::UnityEngine::Profiling::Recorder::SetEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69a4d0c;
+  constexpr static std::size_t addrs = 0x6af82cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Recorder*>(), { "SetEnabled", {}, { ::i2c::type_of<bool>() } })));

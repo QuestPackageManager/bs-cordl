@@ -28,12 +28,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x60de7fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62198f8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
   static inline ::System::Xml::Schema::ValidationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x60de6b4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62197b0, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   ValidationEventHandler(ValidationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

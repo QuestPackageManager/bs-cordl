@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(TransitionTimingSO)
 namespace GlobalNamespace {
 struct EaseType;
 }
+namespace UnityEngine {
+class AnimationCurve;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class TransitionTimingSO;
@@ -24,17 +27,26 @@ namespace GlobalNamespace {
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
+  /// @brief Field _animationCurve, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__animationCurve, put = __cordl_internal_set__animationCurve)) ::UnityEngine::AnimationCurve* _animationCurve;
+
   /// @brief Field _easeDuration, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__easeDuration, put = __cordl_internal_set__easeDuration)) float_t _easeDuration;
 
   /// @brief Field _easeType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType)) ::GlobalNamespace::EaseType _easeType;
 
+  __declspec(property(get = get_animationCurve)) ::UnityEngine::AnimationCurve* animationCurve;
+
   __declspec(property(get = get_easeDuration)) float_t easeDuration;
 
   __declspec(property(get = get_easeType)) ::GlobalNamespace::EaseType easeType;
 
   static inline ::GlobalNamespace::TransitionTimingSO* New_ctor();
+
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animationCurve();
 
   constexpr float_t const& __cordl_internal_get__easeDuration() const;
 
@@ -44,17 +56,22 @@ public:
 
   constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
 
+  constexpr void __cordl_internal_set__animationCurve(::UnityEngine::AnimationCurve* value);
+
   constexpr void __cordl_internal_set__easeDuration(float_t value);
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method .ctor, addr 0x6304b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644130c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x6304b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationCurve, addr 0x6441304, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::AnimationCurve* get_animationCurve();
+
+  /// @brief Method get_easeDuration, addr 0x64412fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x6304b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x64412f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:
@@ -72,13 +89,16 @@ public:
   TransitionTimingSO(TransitionTimingSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22304 };
 
   /// @brief Field _easeType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
   /// @brief Field _easeDuration, offset: 0x1c, size: 0x4, def value: None
   float_t ____easeDuration;
+
+  /// @brief Field _animationCurve, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::AnimationCurve* ____animationCurve;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,6 +107,8 @@ static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeType) == 0
 
 static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeDuration) == 0x1c, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::TransitionTimingSO) == 0x20, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____animationCurve) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::TransitionTimingSO) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace

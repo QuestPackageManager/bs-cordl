@@ -49,16 +49,16 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule* New_ctor(::UnityEngine::GameObject* owner, ::GlobalNamespace::OVRCursor* cursor);
 
-  /// @brief Method Refresh, addr 0x591bb24, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5a55228, size 0xb8, virtual false, abstract: false, final false
   inline bool Refresh();
 
-  /// @brief Method SearchForEventSystem, addr 0x591bbdc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SearchForEventSystem, addr 0x5a552e0, size 0xf4, virtual false, abstract: false, final false
   inline void SearchForEventSystem();
 
-  /// @brief Method SetupEventSystem, addr 0x591bcd0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetupEventSystem, addr 0x5a553d4, size 0xdc, virtual false, abstract: false, final false
   inline void SetupEventSystem(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method SetupInputModule, addr 0x591bdac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetupInputModule, addr 0x5a554b0, size 0xc4, virtual false, abstract: false, final false
   inline void SetupInputModule(::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule* inputModule);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule> const& __cordl_internal_get__InputModule_k__BackingField() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__owner(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x591bb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a55220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* owner, ::GlobalNamespace::OVRCursor* cursor);
 
-  /// @brief Method get_InputModule, addr 0x591bb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputModule, addr 0x5a55210, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule> get_InputModule();
 
-  /// @brief Method set_InputModule, addr 0x591bb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InputModule, addr 0x5a55218, size 0x8, virtual false, abstract: false, final false
   inline void set_InputModule(::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule* value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   ProxyInputModule(ProxyInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18353 };
 
   /// @brief Field _owner, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____owner;

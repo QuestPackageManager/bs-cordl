@@ -32,13 +32,13 @@ public:
 
   static inline ::System::DllNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5af31b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2ce8c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5af3238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2cf10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5af3214, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2ceec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

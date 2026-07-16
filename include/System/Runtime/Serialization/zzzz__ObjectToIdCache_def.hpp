@@ -39,30 +39,30 @@ public:
   /// @brief Field primes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_primes, put = setStaticF_primes)) ::ArrayW<int32_t> primes;
 
-  /// @brief Method ComputeStartPosition, addr 0x6019ebc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ComputeStartPosition, addr 0x6154fb8, size 0x34, virtual false, abstract: false, final false
   inline int32_t ComputeStartPosition(::System::Object* o);
 
-  /// @brief Method FindElement, addr 0x6019870, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x615496c, size 0xd0, virtual false, abstract: false, final false
   inline int32_t FindElement(::System::Object* obj, ::by_ref<bool> isEmpty, ::by_ref<bool> isWrapped);
 
-  /// @brief Method GetId, addr 0x6019730, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x615482c, size 0x140, virtual false, abstract: false, final false
   inline int32_t GetId(::System::Object* obj, ::by_ref<bool> newId);
 
-  /// @brief Method GetPrime, addr 0x601962c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPrime, addr 0x6154728, size 0x104, virtual false, abstract: false, final false
   static inline int32_t GetPrime(int32_t min);
 
-  /// @brief Method IsPrime, addr 0x6019ef0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsPrime, addr 0x6154fec, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsPrime(int32_t candidate);
 
   static inline ::System::Runtime::Serialization::ObjectToIdCache* New_ctor();
 
-  /// @brief Method ReassignId, addr 0x6019b48, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ReassignId, addr 0x6154c44, size 0x160, virtual false, abstract: false, final false
   inline int32_t ReassignId(int32_t oldObjId, ::System::Object* oldObj, ::System::Object* newObj);
 
-  /// @brief Method Rehash, addr 0x6019940, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Rehash, addr 0x6154a3c, size 0x208, virtual false, abstract: false, final false
   inline void Rehash();
 
-  /// @brief Method RemoveAt, addr 0x6019ca8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x6154da4, size 0x214, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t position);
 
   constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_objs(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x6019538, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6154634, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_primes();
@@ -111,7 +111,7 @@ public:
   ObjectToIdCache(ObjectToIdCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17028 };
 
   /// @brief Field m_currentCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_currentCount;

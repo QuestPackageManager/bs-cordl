@@ -19,6 +19,11 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE RayTracingShader : public ::UnityEngine::Object {
 public:
   // Declarations
+  static inline ::UnityEngine::Rendering::RayTracingShader* New_ctor();
+
+  /// @brief Method .ctor, addr 0x6b2a728, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -34,7 +39,7 @@ public:
   RayTracingShader(RayTracingShader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

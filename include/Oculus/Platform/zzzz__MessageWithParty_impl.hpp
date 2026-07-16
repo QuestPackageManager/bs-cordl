@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithParty::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithParty::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ca1f84;
+  constexpr static std::size_t addrs = 0x5dda1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::MessageWithParty::*)()>(&::Oculus::Platform::MessageWithParty::GetParty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ca1fe0;
+  constexpr static std::size_t addrs = 0x5dda208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::MessageWithParty::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithParty::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ca2024;
+  constexpr static std::size_t addrs = 0x5dda24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

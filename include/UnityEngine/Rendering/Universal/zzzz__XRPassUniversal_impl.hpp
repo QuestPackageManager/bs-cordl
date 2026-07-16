@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::XRPass* (*)(::UnityEngine::Experimental::Rendering::XRPassCreateInfo)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::Create)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x67a48c0;
+  constexpr static std::size_t addrs = 0x68e3390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRPassUniversal*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(&::UnityEngine::Rendering::Universal::XRPassUniversal::Release)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67a49ac;
+  constexpr static std::size_t addrs = 0x68e347c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRPassUniversal*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_isLateLatchEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a20;
+  constexpr static std::size_t addrs = 0x68e34f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_isLateLatchEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a28;
+  constexpr static std::size_t addrs = 0x68e34f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(&::UnityEngine::Rendering::Universal::XRPassUniversal::get_canMarkLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a30;
+  constexpr static std::size_t addrs = 0x68e3500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_canMarkLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a38;
+  constexpr static std::size_t addrs = 0x68e3508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_hasMarkedLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a40;
+  constexpr static std::size_t addrs = 0x68e3510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_hasMarkedLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a48;
+  constexpr static std::size_t addrs = 0x68e3518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_canFoveateIntermediatePasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a50;
+  constexpr static std::size_t addrs = 0x68e3520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_canFoveateIntermediatePasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a58;
+  constexpr static std::size_t addrs = 0x68e3528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(&::UnityEngine::Rendering::Universal::XRPassUniversal::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a4a60;
+  constexpr static std::size_t addrs = 0x68e3530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRPassUniversal*>(), { ".ctor", {}, {} })));

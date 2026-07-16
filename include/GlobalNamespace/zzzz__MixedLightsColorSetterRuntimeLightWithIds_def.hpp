@@ -34,7 +34,7 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockColorSetter)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>
       _materialPropertyBlockColorSetter;
 
-  /// @brief Method ColorWasSet, addr 0x572b874, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x58722c0, size 0x30, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds* New_ctor();
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
 
-  /// @brief Method .ctor, addr 0x572b8a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58722f0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   MixedLightsColorSetterRuntimeLightWithIds(MixedLightsColorSetterRuntimeLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19515 };
 
   /// @brief Field _materialPropertyBlockColorSetter, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;

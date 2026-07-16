@@ -30,26 +30,26 @@ public:
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*> s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x59688a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5aa120c, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::RC4* Create();
 
   static inline ::Mono::Security::Cryptography::RC4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5963ac8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9c434, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_IV, addr 0x5968854, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x5aa11c0, size 0x48, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_IV();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
-  /// @brief Method set_IV, addr 0x596889c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x5aa1208, size 0x4, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t> value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   RC4(RC4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

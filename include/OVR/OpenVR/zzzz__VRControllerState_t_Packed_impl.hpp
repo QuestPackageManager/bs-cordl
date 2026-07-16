@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::VRControllerState_t_Packed::*)(::OVR::OpenVR::VRControllerState_t)>(&::OVR::OpenVR::VRControllerState_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d08ff0;
+  constexpr static std::size_t addrs = 0x5e41218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::VRControllerState_t_Packed::*)(::by_ref<::OVR::OpenVR::VRControllerState_t>)>(
     &::OVR::OpenVR::VRControllerState_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d09034;
+  constexpr static std::size_t addrs = 0x5e4125c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

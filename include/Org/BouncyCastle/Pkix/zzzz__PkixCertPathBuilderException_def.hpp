@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x35092ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c57a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34fed18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bb1d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x34ff4e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bb99c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

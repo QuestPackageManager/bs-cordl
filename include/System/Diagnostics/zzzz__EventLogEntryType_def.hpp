@@ -64,7 +64,7 @@ public:
   static ::System::Diagnostics::EventLogEntryType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21249 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

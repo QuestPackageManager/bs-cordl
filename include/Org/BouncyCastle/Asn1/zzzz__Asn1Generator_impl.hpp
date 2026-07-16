@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Generator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::Asn1Generator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35c2e14;
+  constexpr static std::size_t addrs = 0x367f2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::Asn1Generator::*)()>(&::Org::BouncyCastle::Asn1::Asn1Generator::get_Out)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35c2e1c;
+  constexpr static std::size_t addrs = 0x367f2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Generator*>(), { "get_Out", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (*)(int32_t)>(&::Mono::Security::ASN1Convert::FromInt32)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x594f1a4;
+  constexpr static std::size_t addrs = 0x5a87b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1Convert*>(), { "FromInt32", {}, { ::i2c::type_of<int32_t>() } })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (*)(::StringW)>(&::Mono::Security::ASN1Convert::FromOid)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x594f324;
+  constexpr static std::size_t addrs = 0x5a87c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1Convert*>(), { "FromOid", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (*)(::ArrayW<uint8_t>)>(&::Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x594f408;
+  constexpr static std::size_t addrs = 0x5a87d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1Convert::ToInt32)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x594f508;
+  constexpr static std::size_t addrs = 0x5a87e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1Convert::ToOid)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x594f60c;
+  constexpr static std::size_t addrs = 0x5a87f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1Convert::ToDateTime)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x594f864;
+  constexpr static std::size_t addrs = 0x5a881d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

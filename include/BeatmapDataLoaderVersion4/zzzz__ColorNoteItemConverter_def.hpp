@@ -36,7 +36,7 @@ public:
   /// @brief Field _colorNotes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__colorNotes, put = __cordl_internal_set__colorNotes)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote> _colorNotes;
 
-  /// @brief Method Convert, addr 0x36a2b60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x375eb98, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote> colorNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote> value);
 
-  /// @brief Method .ctor, addr 0x36a2b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375eb60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote> colorNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -65,7 +65,7 @@ public:
   ColorNoteItemConverter(ColorNoteItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15398 };
 
   /// @brief Field _colorNotes, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::ColorNote> ____colorNotes;

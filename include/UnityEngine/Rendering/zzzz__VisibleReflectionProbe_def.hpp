@@ -65,37 +65,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::VisibleReflectionProbe>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::VisibleReflectionProbe>*();
 
-  /// @brief Method Equals, addr 0x69d3328, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b26c64, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x69d3038, size 0x2f0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b26974, size 0x2f0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::VisibleReflectionProbe other);
 
-  /// @brief Method GetHashCode, addr 0x69d33bc, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b26cf8, size 0x1bc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_blendDistance, addr 0x69d2fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blendDistance, addr 0x6b26904, size 0x8, virtual false, abstract: false, final false
   inline float_t get_blendDistance();
 
-  /// @brief Method get_bounds, addr 0x69d2f8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x6b268c8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_hdrData, addr 0x69d2fbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hdrData, addr 0x6b268f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_hdrData();
 
-  /// @brief Method get_importance, addr 0x69d2fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importance, addr 0x6b2690c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_importance();
 
-  /// @brief Method get_isBoxProjection, addr 0x69d2fd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isBoxProjection, addr 0x6b26914, size 0x60, virtual false, abstract: false, final false
   inline bool get_isBoxProjection();
 
-  /// @brief Method get_localToWorldMatrix, addr 0x69d2fa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_localToWorldMatrix, addr 0x6b268dc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
 
-  /// @brief Method get_reflectionProbe, addr 0x69d2ef8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbe, addr 0x6b26834, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ReflectionProbe> get_reflectionProbe();
 
-  /// @brief Method get_texture, addr 0x69d2e48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x6b26784, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::VisibleReflectionProbe>"
@@ -114,7 +114,7 @@ public:
                                    float_t m_BlendDistance, int32_t m_Importance, int32_t m_BoxProjection, int32_t m_InstanceId, int32_t m_TextureId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10819 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };

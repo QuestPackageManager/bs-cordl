@@ -33,10 +33,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor* New_ctor();
 
-  /// @brief Method VisitConditional, addr 0x5bebdb0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method VisitConditional, addr 0x5d23fd8, size 0x104, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node);
 
-  /// @brief Method .ctor, addr 0x5bebc30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d23e58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_ErrorResult();
@@ -58,7 +58,7 @@ public:
   NoThrowExpressionVisitor(NoThrowExpressionVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

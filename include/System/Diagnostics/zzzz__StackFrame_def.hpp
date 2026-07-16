@@ -51,38 +51,38 @@ public:
   /// @brief Field nativeOffset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_nativeOffset, put = __cordl_internal_set_nativeOffset)) int32_t nativeOffset;
 
-  /// @brief Method GetFileLineNumber, addr 0x5aa4d84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileLineNumber, addr 0x5bdea5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetFileLineNumber();
 
-  /// @brief Method GetFileName, addr 0x5aa4d8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x5bdea64, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetFileName();
 
-  /// @brief Method GetILOffset, addr 0x5aa4e70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetILOffset, addr 0x5bdeb48, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetILOffset();
 
-  /// @brief Method GetInternalMethodName, addr 0x5aa4e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInternalMethodName, addr 0x5bdeb70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetInternalMethodName();
 
-  /// @brief Method GetMethod, addr 0x5aa4e78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x5bdeb50, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetMethodAddress, addr 0x5aa4e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodAddress, addr 0x5bdeb60, size 0x8, virtual false, abstract: false, final false
   inline int64_t GetMethodAddress();
 
-  /// @brief Method GetMethodIndex, addr 0x5aa4e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodIndex, addr 0x5bdeb68, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetMethodIndex();
 
-  /// @brief Method GetNativeOffset, addr 0x5aa4e80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNativeOffset, addr 0x5bdeb58, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetNativeOffset();
 
-  /// @brief Method GetSecureFileName, addr 0x5aa4d94, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetSecureFileName, addr 0x5bdea6c, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetSecureFileName();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method ToString, addr 0x5aa4ea0, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5bdeb78, size 0x22c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_columnNumber() const;
@@ -139,13 +139,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5aa4d28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdea00, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5aa4d54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdea2c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method get_frame_info, addr 0x5aa4d24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_frame_info, addr 0x5bde9fc, size 0x4, virtual false, abstract: false, final false
   static inline bool get_frame_info(int32_t skip, bool needFileInfo, ::by_ref<::System::Reflection::MethodBase*> method, ::by_ref<int32_t> iloffset, ::by_ref<int32_t> native_offset,
                                     ::by_ref<::StringW> file, ::by_ref<int32_t> line, ::by_ref<int32_t> column);
 

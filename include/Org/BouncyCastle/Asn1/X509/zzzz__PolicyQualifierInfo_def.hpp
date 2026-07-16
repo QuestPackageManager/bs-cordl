@@ -45,7 +45,7 @@ public:
   /// @brief Field qualifier, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_qualifier, put = __cordl_internal_set_qualifier)) ::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier;
 
-  /// @brief Method GetInstance, addr 0x35a53d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3661888, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::StringW cps);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x35a5480, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3661938, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_policyQualifierId() const;
@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set_qualifier(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x35a51d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3661688, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW cps);
 
-  /// @brief Method .ctor, addr 0x35a51c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3661680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier);
 
-  /// @brief Method .ctor, addr 0x35a5274, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366172c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PolicyQualifierId, addr 0x35a5470, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PolicyQualifierId, addr 0x3661928, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PolicyQualifierId();
 
-  /// @brief Method get_Qualifier, addr 0x35a5478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Qualifier, addr 0x3661930, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Qualifier();
 
 protected:

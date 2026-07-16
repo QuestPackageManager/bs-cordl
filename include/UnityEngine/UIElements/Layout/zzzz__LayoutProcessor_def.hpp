@@ -32,7 +32,7 @@ public:
   /// @brief Field s_Processor, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Processor, put = setStaticF_s_Processor)) ::UnityEngine::UIElements::Layout::ILayoutProcessor* s_Processor;
 
-  /// @brief Method CalculateLayout, addr 0x6baaf48, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x6cfee00, size 0x130, virtual false, abstract: false, final false
   static inline void CalculateLayout(::UnityEngine::UIElements::Layout::LayoutNode node, float_t parentWidth, float_t parentHeight, ::UnityEngine::UIElements::Layout::LayoutDirection parentDirection);
 
   static inline ::UnityEngine::UIElements::Layout::ILayoutProcessor* getStaticF_s_Processor();

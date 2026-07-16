@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::OpenSsl::PemException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x34e8670, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a4b28, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x34e8694, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a4b4c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

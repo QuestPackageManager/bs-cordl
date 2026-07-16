@@ -78,28 +78,28 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x600c670, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614776c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EmitDefaultValue, addr 0x600c6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x61477b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_IsNameSetExplicitly, addr 0x600c69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNameSetExplicitly, addr 0x6147798, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNameSetExplicitly();
 
-  /// @brief Method get_IsRequired, addr 0x600c6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x61477a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_Name, addr 0x600c684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6147780, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x600c6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x61477a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method set_IsRequired, addr 0x600c6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsRequired, addr 0x61477b0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsRequired(bool value);
 
-  /// @brief Method set_Name, addr 0x600c68c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6147788, size 0x10, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -117,7 +117,7 @@ public:
   DataMemberAttribute(DataMemberAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16996 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

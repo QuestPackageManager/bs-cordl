@@ -29,21 +29,21 @@ public:
   /// @brief Field EPSILON, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EPSILON, put = setStaticF_EPSILON)) double_t EPSILON;
 
-  /// @brief Method InScanArea, addr 0x656d408, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InScanArea, addr 0x66aab14, size 0x78, virtual false, abstract: false, final false
   static inline bool InScanArea(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                 ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil* New_ctor();
 
-  /// @brief Method Orient2d, addr 0x656ba1c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Orient2d, addr 0x66a9128, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                                                           ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
 
-  /// @brief Method SmartIncircle, addr 0x656dcf4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SmartIncircle, addr 0x66ab400, size 0xc4, virtual false, abstract: false, final false
   static inline bool SmartIncircle(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
-  /// @brief Method .ctor, addr 0x656f234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ac940, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_EPSILON();
@@ -65,7 +65,7 @@ public:
   TriangulationUtil(TriangulationUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

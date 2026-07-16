@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6732af8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6871474, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::Rendering::Universal::ColorGradingMode const& __cordl_internal_get_gradingMode() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_useFastSRGBLinearConversion(bool value);
 
-  /// @brief Method .ctor, addr 0x6732b08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6871484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   UniversalPostProcessingData(UniversalPostProcessingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12729 };
 
   /// @brief Field isEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___isEnabled;

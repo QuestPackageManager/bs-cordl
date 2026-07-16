@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Texture3DParameter::*)(::UnityEngine::Texture*, bool)>(&::UnityEngine::Rendering::Texture3DParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x668acb0;
+  constexpr static std::size_t addrs = 0x67c83bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Texture3DParameter::*)()>(&::UnityEngine::Rendering::Texture3DParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x668ad14;
+  constexpr static std::size_t addrs = 0x67c8420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)(
     ::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::TypeHandleRef*)>(&::System::Runtime::Serialization::TypeHandleRefEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x600abc0;
+  constexpr static std::size_t addrs = 0x6145cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)(::System::Runtime::Serialization::TypeHandleRef*)>(
     &::System::Runtime::Serialization::TypeHandleRefEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x600abe8;
+  constexpr static std::size_t addrs = 0x6145ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeHandleRefEqualityComparer*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)()>(
     &::System::Runtime::Serialization::TypeHandleRefEqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6007450;
+  constexpr static std::size_t addrs = 0x614254c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeHandleRefEqualityComparer*>(), { ".ctor", {}, {} })));

@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTask_Builder::*)(::GlobalNamespace::OVRPlugin_Result, ::System::Guid)>(&::GlobalNamespace::OVRTask_Builder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5db6f5c;
+  constexpr static std::size_t addrs = 0x5eef184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> (::GlobalNamespace::OVRTask_Builder::*)()>(
     &::GlobalNamespace::OVRTask_Builder::ToTask)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5db71e8;
+  constexpr static std::size_t addrs = 0x5eef410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_Builder>(), { "ToTask", {}, {} })));
@@ -1284,7 +1284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_Builder (*)(bool, uint64_t)>(&::GlobalNamespace::OVRTask::Build)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5db6e90;
+  constexpr static std::size_t addrs = 0x5eef0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1297,7 +1297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_Builder (*)(::GlobalNamespace::OVRPlugin_Result, uint64_t)>(&::GlobalNamespace::OVRTask::Build)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5db6f6c;
+  constexpr static std::size_t addrs = 0x5eef194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1312,7 +1312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_Builder (*)(::GlobalNamespace::OVRPlugin_Result, uint64_t, ::GlobalNamespace::OVRPlugin_EventType)>(
     &::GlobalNamespace::OVRTask::Build)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5db6fd4;
+  constexpr static std::size_t addrs = 0x5eef1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1327,7 +1327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (*)(uint64_t, uint64_t)>(&::GlobalNamespace::OVRTask::GetId)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5db709c;
+  constexpr static std::size_t addrs = 0x5eef2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1340,7 +1340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (*)(uint64_t, ::GlobalNamespace::OVRPlugin_EventType)>(&::GlobalNamespace::OVRTask::GetId)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5db7040;
+  constexpr static std::size_t addrs = 0x5eef268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1354,7 +1354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (*)(uint64_t)>(&::GlobalNamespace::OVRTask::GetId)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5db6f04;
+  constexpr static std::size_t addrs = 0x5eef12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask*>(), { "GetId", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -1366,7 +1366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::Guid)>(&::GlobalNamespace::OVRTask::GetId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db70fc;
+  constexpr static std::size_t addrs = 0x5eef324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask*>(), { "GetId", {}, { ::i2c::type_of<::System::Guid>() } })));
@@ -1378,7 +1378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<uint64_t, uint64_t> (*)(::System::Guid)>(&::GlobalNamespace::OVRTask::GetIdParts)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5db7100;
+  constexpr static std::size_t addrs = 0x5eef328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -44,18 +44,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x326f824, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x332bcdc, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x326f844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x332bcfc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PingPacket* Init(int64_t pingTime);
 
   static inline ::GlobalNamespace::PingPacket* New_ctor();
 
-  /// @brief Method Release, addr 0x326f84c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x332bd04, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x326f810, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x332bcc8, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int64_t const& __cordl_internal_get_pingTime() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_pingTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x326f8a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332bd5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x326f7cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x332bc84, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PingPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -91,7 +91,7 @@ public:
   PingPacket(PingPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18102 };
 
   /// @brief Field pingTime, offset: 0x10, size: 0x8, def value: None
   int64_t ___pingTime;

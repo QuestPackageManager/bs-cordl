@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::BakedLightDataLoader* New_ctor();
 
-  /// @brief Method SetTextureDataToShaders, addr 0x57c1594, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetTextureDataToShaders, addr 0x58e0234, size 0x144, virtual false, abstract: false, final false
   inline void SetTextureDataToShaders();
 
-  /// @brief Method Start, addr 0x57c14d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58e0170, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
@@ -60,21 +60,21 @@ public:
 
   constexpr void __cordl_internal_set__lightmapData(::UnityW<::GlobalNamespace::LightmapDataSO> value);
 
-  /// @brief Method .ctor, addr 0x57c16d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e0378, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__lightMap1PropertyId();
 
   static inline int32_t getStaticF__lightMap2PropertyId();
 
-  /// @brief Method get_lightmapData, addr 0x57c14c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapData, addr 0x58e0160, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapDataSO> get_lightmapData();
 
   static inline void setStaticF__lightMap1PropertyId(int32_t value);
 
   static inline void setStaticF__lightMap2PropertyId(int32_t value);
 
-  /// @brief Method set_lightmapData, addr 0x57c14c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapData, addr 0x58e0168, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   BakedLightDataLoader(BakedLightDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6501 };
 
   /// @brief Field _lightmapData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightmapDataSO> ____lightmapData;

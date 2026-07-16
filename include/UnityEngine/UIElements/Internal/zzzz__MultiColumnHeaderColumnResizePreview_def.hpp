@@ -28,7 +28,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizePreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bcba6c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1f924, size 0x100, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();

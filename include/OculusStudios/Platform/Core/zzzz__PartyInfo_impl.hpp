@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OculusStudios::Platform::Core::PartyInfo::*)()>(&::OculusStudios::Platform::Core::PartyInfo::get_currentUsers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3f9c;
+  constexpr static std::size_t addrs = 0x5f2c254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PartyInfo>(), { "get_currentUsers", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OculusStudios::Platform::Core::PartyInfo::*)()>(&::OculusStudios::Platform::Core::PartyInfo::get_maxUsers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3fa4;
+  constexpr static std::size_t addrs = 0x5f2c25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PartyInfo>(), { "get_maxUsers", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::PartyInfo::*)()>(&::OculusStudios::Platform::Core::PartyInfo::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3fac;
+  constexpr static std::size_t addrs = 0x5f2c264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PartyInfo>(), { "get_groupId", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::PartyInfo::*)()>(&::OculusStudios::Platform::Core::PartyInfo::get_joinKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df3fb4;
+  constexpr static std::size_t addrs = 0x5f2c26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PartyInfo>(), { "get_joinKey", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PartyInfo::*)(uint32_t, uint32_t, ::StringW, ::StringW)>(
     &::OculusStudios::Platform::Core::PartyInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5df3fbc;
+  constexpr static std::size_t addrs = 0x5f2c274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

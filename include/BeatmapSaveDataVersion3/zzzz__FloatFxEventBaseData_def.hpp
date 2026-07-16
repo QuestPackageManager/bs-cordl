@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x369e9f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375aa4c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::BeatmapSaveDataCommon::EaseType easeType);
 
-  /// @brief Method get_beat, addr 0x369e9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x375aa24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x369e9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x375aa44, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x369e9d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x375aa2c, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x369e9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x375aa3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:
@@ -101,7 +101,7 @@ public:
   FloatFxEventBaseData(FloatFxEventBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15329 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

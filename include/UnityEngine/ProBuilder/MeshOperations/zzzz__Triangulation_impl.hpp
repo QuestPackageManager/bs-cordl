@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65fa464;
+  constexpr static std::size_t addrs = 0x6737b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0::*)(::UnityEngine::Vector2)>(
         &::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0::_Triangulate_b__0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65fa46c;
+  constexpr static std::size_t addrs = 0x6737b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0*>(),
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0::*)(::UnityEngine::Vector2)>(
         &::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0::_Triangulate_b__1)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65fa4e4;
+  constexpr static std::size_t addrs = 0x6737bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65fa468;
+  constexpr static std::size_t addrs = 0x6737b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0::*)(::UnityEngine::Vector2)>(
         &::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0::_Triangulate_b__0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65fa55c;
+  constexpr static std::size_t addrs = 0x6737c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0*>(),
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0::*)(::UnityEngine::Vector2)>(
         &::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0::_Triangulate_b__1)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65fa5d4;
+  constexpr static std::size_t addrs = 0x6737ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0*>(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* (*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::Triangulation::get_triangulationContext)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x65f8340;
+  constexpr static std::size_t addrs = 0x6735a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::by_ref<::System::Collections::Generic::List_1<int32_t>*>, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::Triangulation::SortAndTriangulate)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x65f83d4;
+  constexpr static std::size_t addrs = 0x6735ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::by_ref<::System::Collections::Generic::List_1<int32_t>*>, bool, bool)>(
         &::UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x65f92b0;
+  constexpr static std::size_t addrs = 0x67369bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::Vector3>, ::by_ref<::System::Collections::Generic::List_1<int32_t>*>,
                                                                 ::ArrayW<::ArrayW<::UnityEngine::Vector3>>)>(&::UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x65f9700;
+  constexpr static std::size_t addrs = 0x6736e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::Vector3>, ::by_ref<::System::Collections::Generic::List_1<int32_t>*>, bool, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x65f94c4;
+  constexpr static std::size_t addrs = 0x6736bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::by_ref<::System::Collections::Generic::List_1<int32_t>*>, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate)> {
   constexpr static std::size_t size = 0xb84;
-  constexpr static std::size_t addrs = 0x65f872c;
+  constexpr static std::size_t addrs = 0x6735e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>*,
                          ::by_ref<::System::Collections::Generic::List_1<int32_t>*>)>(&::UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate)> {
   constexpr static std::size_t size = 0xbec;
-  constexpr static std::size_t addrs = 0x65f9878;
+  constexpr static std::size_t addrs = 0x6736f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

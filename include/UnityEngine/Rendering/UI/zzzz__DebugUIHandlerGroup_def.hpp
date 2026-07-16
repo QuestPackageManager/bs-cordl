@@ -51,13 +51,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerGroup* New_ctor();
 
-  /// @brief Method Next, addr 0x66c0bfc, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x67fe308, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnSelection, addr 0x66c0b3c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x67fe248, size 0xc0, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x66c0a48, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x67fe154, size 0xf4, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_header() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x66c0cb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fe3c4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   DebugUIHandlerGroup(DebugUIHandlerGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12495 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

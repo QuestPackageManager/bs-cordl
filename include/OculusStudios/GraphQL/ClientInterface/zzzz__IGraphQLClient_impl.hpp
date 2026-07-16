@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IQueryRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5df2294;
+  constexpr static std::size_t addrs = 0x5f2a54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IMutationRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5df2354;
+  constexpr static std::size_t addrs = 0x5f2a60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),

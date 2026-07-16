@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)()>(
     &::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x7c8;
-  constexpr static std::size_t addrs = 0x326b704;
+  constexpr static std::size_t addrs = 0x3326198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0>(), { "MoveNext", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x326c06c;
+  constexpr static std::size_t addrs = 0x3326b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::StringW)>(&::BGLib::UnityExtension::ExternalFileReader::ExistsAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x326b624;
+  constexpr static std::size_t addrs = 0x33260b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

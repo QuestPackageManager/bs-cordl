@@ -33,21 +33,21 @@ public:
 
   __declspec(property(get = get_contentSize)) float_t contentSize;
 
-  /// @brief Method GetCellPosition, addr 0x574b6c0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetCellPosition, addr 0x5892fc0, size 0x50, virtual true, abstract: false, final false
   inline float_t GetCellPosition(int32_t idx);
 
-  /// @brief Method GetCellSize, addr 0x574b690, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetCellSize, addr 0x5892f90, size 0x30, virtual true, abstract: false, final false
   inline float_t GetCellSize(int32_t idx);
 
-  /// @brief Method GetMaxVisibleIdx, addr 0x574b5a0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetMaxVisibleIdx, addr 0x5892ea0, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetMaxVisibleIdx();
 
-  /// @brief Method GetMinVisibleIdx, addr 0x574b4d0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetMinVisibleIdx, addr 0x5892dd0, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetMinVisibleIdx();
 
   static inline ::HMUI::TableViewWithVariableSizedCells* New_ctor();
 
-  /// @brief Method UpdateCachedData, addr 0x574b710, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method UpdateCachedData, addr 0x5893010, size 0x1f4, virtual true, abstract: false, final false
   inline void UpdateCachedData();
 
   constexpr ::ArrayW<float_t> const& __cordl_internal_get__cachedCellSizes() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__totalHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x574b904, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5893204, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_contentSize, addr 0x574b4c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentSize, addr 0x5892dc8, size 0x8, virtual true, abstract: false, final false
   inline float_t get_contentSize();
 
 protected:
@@ -89,7 +89,7 @@ public:
   TableViewWithVariableSizedCells(TableViewWithVariableSizedCells const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19231 };
 
   /// @brief Field _totalHeight, offset: 0xc4, size: 0x4, def value: None
   float_t ____totalHeight;

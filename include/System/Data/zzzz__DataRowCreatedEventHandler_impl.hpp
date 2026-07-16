@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowCreatedEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Data::DataRowCreatedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5eed948;
+  constexpr static std::size_t addrs = 0x6028a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowCreatedEventHandler*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowCreatedEventHandler::*)(::System::Object*, ::System::Data::DataRow*)>(
     &::System::Data::DataRowCreatedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5eeda90;
+  constexpr static std::size_t addrs = 0x6028b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

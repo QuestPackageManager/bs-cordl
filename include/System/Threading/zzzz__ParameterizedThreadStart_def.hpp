@@ -25,12 +25,12 @@ namespace System::Threading {
 class CORDL_TYPE ParameterizedThreadStart : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5b6d000, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5ca6cd8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj);
 
   static inline ::System::Threading::ParameterizedThreadStart* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5b6cebc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca6b94, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

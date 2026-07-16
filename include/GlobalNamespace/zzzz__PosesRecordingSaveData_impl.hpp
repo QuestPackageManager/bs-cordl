@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingSaveData_PoseSaveData::*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::PosesRecordingSaveData_PoseSaveData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x57c9474;
+  constexpr static std::size_t addrs = 0x58e8844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe::*)(
     ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*>, float_t)>(&::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57c9488;
+  constexpr static std::size_t addrs = 0x58e8858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData::*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x57c9494;
+  constexpr static std::size_t addrs = 0x58e8864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::ArrayW<::StringW>, ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe*>, ::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData*)>(
     &::GlobalNamespace::PosesRecordingSaveData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57c9468;
+  constexpr static std::size_t addrs = 0x58e8838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

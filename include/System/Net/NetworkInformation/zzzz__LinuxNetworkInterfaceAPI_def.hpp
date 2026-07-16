@@ -27,18 +27,18 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
-  /// @brief Method FreeInterfaceAddresses, addr 0x6214218, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeInterfaceAddresses, addr 0x634f314, size 0x4, virtual false, abstract: false, final false
   static inline void FreeInterfaceAddresses(::System::IntPtr ifap);
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x6214318, size 0xae8, virtual true, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x634f414, size 0xae8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
 
-  /// @brief Method GetInterfaceAddresses, addr 0x6214298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInterfaceAddresses, addr 0x634f394, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetInterfaceAddresses(::by_ref<::System::IntPtr> ifap);
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6214ee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634ffe0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   LinuxNetworkInterfaceAPI(LinuxNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

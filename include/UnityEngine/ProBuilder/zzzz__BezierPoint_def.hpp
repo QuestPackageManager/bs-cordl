@@ -38,28 +38,28 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE BezierPoint {
 public:
   // Declarations
-  /// @brief Method CubicPosition, addr 0x6570da8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CubicPosition, addr 0x66ae4b4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CubicPosition(::UnityEngine::ProBuilder::BezierPoint a, ::UnityEngine::ProBuilder::BezierPoint b, float_t t);
 
-  /// @brief Method EnforceTangentMode, addr 0x65709cc, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method EnforceTangentMode, addr 0x66ae0d8, size 0x30c, virtual false, abstract: false, final false
   inline void EnforceTangentMode(::UnityEngine::ProBuilder::BezierTangentDirection master, ::UnityEngine::ProBuilder::BezierTangentMode mode);
 
-  /// @brief Method GetLookDirection, addr 0x6570e4c, size 0xa38, virtual false, abstract: false, final false
+  /// @brief Method GetLookDirection, addr 0x66ae558, size 0xa38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLookDirection(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, int32_t index, int32_t previous, int32_t next);
 
-  /// @brief Method QuadraticPosition, addr 0x6570d48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method QuadraticPosition, addr 0x66ae454, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 QuadraticPosition(::UnityEngine::ProBuilder::BezierPoint a, ::UnityEngine::ProBuilder::BezierPoint b, float_t t);
 
-  /// @brief Method SetPosition, addr 0x6570cd8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x66ae3e4, size 0x48, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetTangentIn, addr 0x6570d20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetTangentIn, addr 0x66ae42c, size 0x14, virtual false, abstract: false, final false
   inline void SetTangentIn(::UnityEngine::Vector3 tangent, ::UnityEngine::ProBuilder::BezierTangentMode mode);
 
-  /// @brief Method SetTangentOut, addr 0x6570d34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetTangentOut, addr 0x66ae440, size 0x14, virtual false, abstract: false, final false
   inline void SetTangentOut(::UnityEngine::Vector3 tangent, ::UnityEngine::ProBuilder::BezierTangentMode mode);
 
-  /// @brief Method .ctor, addr 0x65709a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ae0ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangentIn, ::UnityEngine::Vector3 tangentOut, ::UnityEngine::Quaternion rotation);
 
   // Ctor Parameters []
@@ -72,7 +72,7 @@ public:
   constexpr BezierPoint(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangentIn, ::UnityEngine::Vector3 tangentOut, ::UnityEngine::Quaternion rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };

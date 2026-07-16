@@ -3,12 +3,13 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentsListModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentSceneSetup.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentSceneSetup::*)()>(&::GlobalNamespace::EnvironmentSceneSetup::InstallBindings)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x57e95a8;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x5909bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,13 +22,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentSceneSetup::*)()>(&::GlobalNamespace::EnvironmentSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57e974c;
+  constexpr static std::size_t addrs = 0x5909dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentSceneSetup*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::EnvironmentsListModel*& GlobalNamespace::EnvironmentSceneSetup::__cordl_internal_get__environmentsList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentsList;
+}
+constexpr ::GlobalNamespace::EnvironmentsListModel* const& GlobalNamespace::EnvironmentSceneSetup::__cordl_internal_get__environmentsList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentsList;
+}
+constexpr void GlobalNamespace::EnvironmentSceneSetup::__cordl_internal_set__environmentsList(::GlobalNamespace::EnvironmentsListModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentsList = value;
+}
 constexpr ::GlobalNamespace::EnvironmentSceneSetupData*& GlobalNamespace::EnvironmentSceneSetup::__cordl_internal_get__sceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;

@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_StreamingResult(::Oculus::Platform::LivestreamingStartStatus value);
 
-  /// @brief Method .ctor, addr 0x5cb66d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dee8fc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -52,7 +52,7 @@ public:
   LivestreamingStartResult(LivestreamingStartResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18032 };
 
   /// @brief Field StreamingResult, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::LivestreamingStartStatus ___StreamingResult;

@@ -92,21 +92,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58a5664, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59d6434, size 0x13c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58a57a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59d6570, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58a57a8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59d6578, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58a57e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59d65b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58a5660, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59d6430, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58a5568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d6338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -166,7 +166,7 @@ public:
   MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13(MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6129 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -231,30 +231,30 @@ public:
       get = __cordl_internal_get__playerIdToAvatarMap,
       put = __cordl_internal_set__playerIdToAvatarMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* _playerIdToAvatarMap;
 
-  /// @brief Method ActivateMultiplayerLobbyAvatarManager, addr 0x58a4620, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobbyAvatarManager, addr 0x59d53f0, size 0x2d0, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobbyAvatarManager();
 
-  /// @brief Method AddPlayer, addr 0x58a48f0, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method AddPlayer, addr 0x59d56c0, size 0x478, virtual false, abstract: false, final false
   inline void AddPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method DeactivateMultiplayerLobbyAvatarManager, addr 0x58a4d68, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobbyAvatarManager, addr 0x59d5b38, size 0x44c, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobbyAvatarManager();
 
-  /// @brief Method HandleLobbyStateDataModelPlayerConnected, addr 0x58a51b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyStateDataModelPlayerConnected, addr 0x59d5f84, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyStateDataModelPlayerConnected(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleLobbyStateDataModelPlayerDisconnected, addr 0x58a51b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyStateDataModelPlayerDisconnected, addr 0x59d5f88, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyStateDataModelPlayerDisconnected(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method Init, addr 0x58a4618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59d53e8, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarManager* New_ctor();
 
-  /// @brief Method RemovePlayer, addr 0x58a51bc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RemovePlayer, addr 0x59d5f8c, size 0x178, virtual false, abstract: false, final false
   inline void RemovePlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method RemovePlayerAndDestroy, addr 0x58a5500, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemovePlayerAndDestroy, addr 0x59d62d0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RemovePlayerAndDestroy(::StringW userId, ::GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
 
   constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController_Factory* const& __cordl_internal_get__avatarControllerFactory() const;
@@ -293,7 +293,7 @@ public:
 
   constexpr void __cordl_internal_set__playerIdToAvatarMap(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* value);
 
-  /// @brief Method .ctor, addr 0x58a5570, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d6340, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -311,7 +311,7 @@ public:
   MultiplayerLobbyAvatarManager(MultiplayerLobbyAvatarManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6130 };
 
   /// @brief Field _lobbyStateDataModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;

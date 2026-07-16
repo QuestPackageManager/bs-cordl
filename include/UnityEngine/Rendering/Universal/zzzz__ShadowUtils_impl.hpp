@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(
         &::UnityEngine::Rendering::Universal::ShadowUtils::ExtractDirectionalLightMatrix)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6777f34;
+  constexpr static std::size_t addrs = 0x68b68b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 int32_t, int32_t, int32_t, float_t, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData>)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::ExtractDirectionalLightMatrix)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6778064;
+  constexpr static std::size_t addrs = 0x68b69e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 int32_t, int32_t, int32_t, float_t, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData>)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::ExtractDirectionalLightMatrix)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6777890;
+  constexpr static std::size_t addrs = 0x68b620c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>,
                                                                 ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(&::UnityEngine::Rendering::Universal::ShadowUtils::ExtractSpotLightMatrix)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6778400;
+  constexpr static std::size_t addrs = 0x68b6d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>,
                                                                 ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(&::UnityEngine::Rendering::Universal::ShadowUtils::ExtractSpotLightMatrix)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6777bc0;
+  constexpr static std::size_t addrs = 0x68b653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
         &::UnityEngine::Rendering::Universal::ShadowUtils::ExtractPointLightMatrix)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67784a8;
+  constexpr static std::size_t addrs = 0x68b6e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
         &::UnityEngine::Rendering::Universal::ShadowUtils::ExtractPointLightMatrix)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6777a64;
+  constexpr static std::size_t addrs = 0x68b63e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData>, ::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings>,
                                                                 ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(&::UnityEngine::Rendering::Universal::ShadowUtils::RenderShadowSlice)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6778570;
+  constexpr static std::size_t addrs = 0x68b6eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::by_ref<::UnityEngine::Rendering::RendererList>, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::RenderShadowSlice)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x67786c8;
+  constexpr static std::size_t addrs = 0x68b7044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData>, ::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings>)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::RenderShadowSlice)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6778830;
+  constexpr static std::size_t addrs = 0x68b71ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::ShadowUtils::GetMaxTileResolutionInAtlas)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67788e4;
+  constexpr static std::size_t addrs = 0x68b7260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::Universal::ShadowSliceData>, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::ApplySliceTransform)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x67782d0;
+  constexpr static std::size_t addrs = 0x68b6c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::by_ref<::UnityEngine::Rendering::VisibleLight>, int32_t, ::by_ref<::UnityEngine::Rendering::Universal::ShadowData>,
                                                                                   ::UnityEngine::Matrix4x4, float_t)>(&::UnityEngine::Rendering::Universal::ShadowUtils::GetShadowBias)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6778910;
+  constexpr static std::size_t addrs = 0x68b728c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::by_ref<::UnityEngine::Rendering::VisibleLight>, int32_t, ::UnityEngine::Rendering::Universal::UniversalShadowData*,
                                                                                   ::UnityEngine::Matrix4x4, float_t)>(&::UnityEngine::Rendering::Universal::ShadowUtils::GetShadowBias)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6778d68;
+  constexpr static std::size_t addrs = 0x68b76e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*
                                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, bool, ::UnityEngine::Matrix4x4, float_t)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::GetShadowBias)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x67789e8;
+  constexpr static std::size_t addrs = 0x68b7364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::by_ref<float_t>, ::by_ref<float_t>)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::GetScaleAndBiasForLinearDistanceFade)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6778e2c;
+  constexpr static std::size_t addrs = 0x68b77a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::VisibleLight>, ::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetupShadowCasterConstantBuffer)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6778e80;
+  constexpr static std::size_t addrs = 0x68b77fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::VisibleLight>, ::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetupShadowCasterConstantBuffer)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6778f54;
+  constexpr static std::size_t addrs = 0x68b78d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetShadowBias)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6779014;
+  constexpr static std::size_t addrs = 0x68b7990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetLightDirection)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x67790b8;
+  constexpr static std::size_t addrs = 0x68b7a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetLightPosition)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6779158;
+  constexpr static std::size_t addrs = 0x68b7ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetCameraPosition)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x67791f8;
+  constexpr static std::size_t addrs = 0x68b7b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetWorldToCameraAndCameraToWorldMatrices)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6779298;
+  constexpr static std::size_t addrs = 0x68b7c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureDescriptor (*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::GetTemporaryShadowTextureDescriptor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x67793dc;
+  constexpr static std::size_t addrs = 0x68b7d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::GetTemporaryShadowTexture)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x67794ec;
+  constexpr static std::size_t addrs = 0x68b7e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::RTHandle*, int32_t, int32_t, int32_t, int32_t, float_t, ::StringW)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::ShadowRTNeedsReAlloc)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x67795d8;
+  constexpr static std::size_t addrs = 0x68b7f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (*)(int32_t, int32_t, int32_t, int32_t, float_t, ::StringW)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::AllocShadowRT)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6779810;
+  constexpr static std::size_t addrs = 0x68b818c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::RTHandle*>, int32_t, int32_t, int32_t, int32_t, float_t, ::StringW)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::ShadowRTReAllocateIfNeeded)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6779904;
+  constexpr static std::size_t addrs = 0x68b8280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::GetShadowTransform)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6778140;
+  constexpr static std::size_t addrs = 0x68b6abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -555,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Light*, bool)>(&::UnityEngine::Rendering::Universal::ShadowUtils::SoftShadowQualityToShaderProperty)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x67799f8;
+  constexpr static std::size_t addrs = 0x68b8374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::ShadowUtils::SupportsPerLightSoftShadowQuality)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6779b38;
+  constexpr static std::size_t addrs = 0x68b84b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, bool)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetPerLightSoftShadowKeyword)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6779bd4;
+  constexpr static std::size_t addrs = 0x68b8550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::SetSoftShadowQualityShaderKeywords)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6779c84;
+  constexpr static std::size_t addrs = 0x68b8600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::Universal::UniversalLightData*, int32_t)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::IsValidShadowCastingLight)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6779f0c;
+  constexpr static std::size_t addrs = 0x68b8888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::Universal::UniversalLightData*, int32_t, ::UnityEngine::LightType, ::UnityEngine::LightShadows, float_t)>(
     &::UnityEngine::Rendering::Universal::ShadowUtils::IsValidShadowCastingLight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x677a050;
+  constexpr static std::size_t addrs = 0x68b89cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::LightType>)>(&::UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6777a48;
+  constexpr static std::size_t addrs = 0x68b63c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::Rendering::Universal::ShadowUtils::FastApproximately)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x677a07c;
+  constexpr static std::size_t addrs = 0x68b89f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector4, ::UnityEngine::Vector4)>(&::UnityEngine::Rendering::Universal::ShadowUtils::FastApproximately)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x677a094;
+  constexpr static std::size_t addrs = 0x68b8a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(bool)>(&::UnityEngine::Rendering::Universal::ShadowUtils::MinimalPunctualLightShadowResolution)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x677a194;
+  constexpr static std::size_t addrs = 0x68b8b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

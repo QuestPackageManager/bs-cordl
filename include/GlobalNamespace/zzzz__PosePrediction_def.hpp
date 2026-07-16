@@ -27,22 +27,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE PosePrediction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolatePose, addr 0x32257fc, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0x32bcaac, size 0x2d0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float_t t);
 
-  /// @brief Method InterpolatePoseSerializable, addr 0x3225bfc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSerializable, addr 0x32bceac, size 0x120, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t t);
 
   static inline ::GlobalNamespace::PosePrediction* New_ctor();
 
-  /// @brief Method PredictPose, addr 0x322570c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PredictPose, addr 0x32bc9bc, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, int64_t prevTime, ::UnityEngine::Pose curr, int64_t currTime, int64_t time);
 
-  /// @brief Method PredictPoseSerializable, addr 0x3225acc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method PredictPoseSerializable, addr 0x32bcd7c, size 0x130, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime,
                                                                             int64_t time);
 
-  /// @brief Method .ctor, addr 0x3225d1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32bcfcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   PosePrediction(PosePrediction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18949 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

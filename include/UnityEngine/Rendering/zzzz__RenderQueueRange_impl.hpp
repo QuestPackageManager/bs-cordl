@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderQueueRange (*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_all)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca9b4;
+  constexpr static std::size_t addrs = 0x6b1e2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderQueueRange>(), { "get_all", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderQueueRange (*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_opaque)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cd650;
+  constexpr static std::size_t addrs = 0x6b20f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderQueueRange>(), { "get_opaque", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderQueueRange (*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_transparent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69cd658;
+  constexpr static std::size_t addrs = 0x6b20f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderQueueRange>(), { "get_transparent", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderQueueRange::*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_lowerBound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cd664;
+  constexpr static std::size_t addrs = 0x6b20fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderQueueRange>(), { "get_lowerBound", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderQueueRange::*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_upperBound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cd66c;
+  constexpr static std::size_t addrs = 0x6b20fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderQueueRange>(), { "get_upperBound", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderQueueRange::*)(::UnityEngine::Rendering::RenderQueueRange)>(
     &::UnityEngine::Rendering::RenderQueueRange::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69caac4;
+  constexpr static std::size_t addrs = 0x6b1e400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderQueueRange::*)(::System::Object*)>(&::UnityEngine::Rendering::RenderQueueRange::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69cd674;
+  constexpr static std::size_t addrs = 0x6b20fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderQueueRange::*)()>(&::UnityEngine::Rendering::RenderQueueRange::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69cac10;
+  constexpr static std::size_t addrs = 0x6b1e54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::RenderQueueRange, ::UnityEngine::Rendering::RenderQueueRange)>(
     &::UnityEngine::Rendering::RenderQueueRange::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69cd734;
+  constexpr static std::size_t addrs = 0x6b21070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

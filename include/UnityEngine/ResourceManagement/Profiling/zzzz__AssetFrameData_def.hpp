@@ -25,10 +25,10 @@ namespace UnityEngine::ResourceManagement::Profiling {
 struct CORDL_TYPE AssetFrameData {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x67e02c0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x691eda4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x67e034c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x691ee30, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr AssetFrameData(int32_t AssetCode, int32_t BundleCode, int32_t ReferenceCount, float_t PercentComplete, ::UnityEngine::ResourceManagement::Profiling::ContentStatus Status) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

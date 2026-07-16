@@ -34,21 +34,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE DurationFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x60925ec, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61cd6e8, size 0x108, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x60926f4, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61cd7f0, size 0x308, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x6092b04, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61cdc00, size 0x80, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x60929fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61cdaf8, size 0x108, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::TimeSpan value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::DurationFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x607eed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b9fcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   DurationFacetsChecker(DurationFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

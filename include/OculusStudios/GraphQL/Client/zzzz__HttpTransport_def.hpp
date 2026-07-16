@@ -76,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5df0e8c, size 0x910, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f29144, size 0x910, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5df179c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f29a54, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -106,7 +106,7 @@ public:
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__2, ::System::TimeSpan _latency_5__6) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -203,17 +203,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5df0e88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f29140, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ExecuteAsync, addr 0x5dec7d4, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method ExecuteAsync, addr 0x5f24a8c, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest,
                                                                                                                     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* _);
 
-  /// @brief Method GetFullURL, addr 0x5df0bb8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetFullURL, addr 0x5f28e70, size 0x2d0, virtual false, abstract: false, final false
   inline ::System::Uri* GetFullURL(::OculusStudios::GraphQL::Client::GraphQLRequest* req);
 
-  /// @brief Method GetHttpRequest, addr 0x5df00f4, size 0xac4, virtual false, abstract: false, final false
+  /// @brief Method GetHttpRequest, addr 0x5f283ac, size 0xac4, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* GetHttpRequest(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest);
 
   static inline ::OculusStudios::GraphQL::Client::HttpTransport* New_ctor();
@@ -242,13 +242,13 @@ public:
 
   constexpr void __cordl_internal_set_http_(::OculusStudios::GraphQL::Client::HttpRequestManager* value);
 
-  /// @brief Method .ctor, addr 0x5de4b8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1cdb4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AccessToken, addr 0x5df00e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessToken, addr 0x5f2839c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
-  /// @brief Method get_Endpoint, addr 0x5df00d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Endpoint, addr 0x5f2838c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
   /// @brief Convert to "::OculusStudios::GraphQL::Client::IGraphQLClientTransport"
@@ -257,10 +257,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_AccessToken, addr 0x5df00ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessToken, addr 0x5f283a4, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
-  /// @brief Method set_Endpoint, addr 0x5df00dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Endpoint, addr 0x5f28394, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
 protected:
@@ -278,7 +278,7 @@ public:
   HttpTransport(HttpTransport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20402 };
 
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Endpoint_k__BackingField;

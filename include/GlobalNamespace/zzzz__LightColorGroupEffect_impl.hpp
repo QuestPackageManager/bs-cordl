@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect_InitData::*)(int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::LightColorGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5859ba8;
+  constexpr static std::size_t addrs = 0x5992000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorGroupEffect_InitData*>(),
@@ -80,8 +80,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)(
     ::GlobalNamespace::LightColorGroupEffect_InitData*, ::GlobalNamespace::LightWithIdManager*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::ColorManager*,
     ::GlobalNamespace::BeatmapCallbacksController*, ::GlobalNamespace::IBpmController*)>(&::GlobalNamespace::LightColorGroupEffect::_ctor)> {
-  constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x5858ef8;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x59912a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)()>(&::GlobalNamespace::LightColorGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58592b4;
+  constexpr static std::size_t addrs = 0x5991674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorGroupEffect*>(), { "Cleanup", {}, {} })));
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::LightColorGroupEffect::HandleColorChangeBeatmapEvent)> {
-  constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x5859354;
+  constexpr static std::size_t size = 0x40c;
+  constexpr static std::size_t addrs = 0x5991714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,8 +125,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)(bool)>(&::GlobalNamespace::LightColorGroupEffect::UseBoostColors)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x58598ac;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x5991b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightColorGroupEffect::*)(::GlobalNamespace::EnvironmentColorType, bool, float_t)>(
     &::GlobalNamespace::LightColorGroupEffect::GetColor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5859a0c;
+  constexpr static std::size_t addrs = 0x5991c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, float_t, float_t, float_t, float_t, bool)>(&::GlobalNamespace::LightColorGroupEffect::SetData)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5859a40;
+  constexpr static std::size_t addrs = 0x5991c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,12 +167,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::LightColorGroupEffect.SetColorWithValidation
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)(float_t)>(&::GlobalNamespace::LightColorGroupEffect::SetColorWithValidation)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5991df8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorGroupEffect*>(), { "SetColorWithValidation", {}, { ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LightColorGroupEffect.SetColor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorGroupEffect::*)(float_t)>(&::GlobalNamespace::LightColorGroupEffect::SetColor)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5859754;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5991e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -396,6 +409,30 @@ constexpr void GlobalNamespace::LightColorGroupEffect::__cordl_internal_set__usi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____usingBoostColors = value;
 }
+constexpr float_t& GlobalNamespace::LightColorGroupEffect::__cordl_internal_get__lastSetColorT() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetColorT;
+}
+constexpr float_t const& GlobalNamespace::LightColorGroupEffect::__cordl_internal_get__lastSetColorT() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetColorT;
+}
+constexpr void GlobalNamespace::LightColorGroupEffect::__cordl_internal_set__lastSetColorT(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastSetColorT = value;
+}
+constexpr int32_t& GlobalNamespace::LightColorGroupEffect::__cordl_internal_get__lastSetColorFrameCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetColorFrameCount;
+}
+constexpr int32_t const& GlobalNamespace::LightColorGroupEffect::__cordl_internal_get__lastSetColorFrameCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetColorFrameCount;
+}
+constexpr void GlobalNamespace::LightColorGroupEffect::__cordl_internal_set__lastSetColorFrameCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastSetColorFrameCount = value;
+}
 inline void GlobalNamespace::LightColorGroupEffect::_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                           ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                           ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController) {
@@ -439,6 +476,11 @@ inline void GlobalNamespace::LightColorGroupEffect::SetData(::UnityEngine::Color
                               ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fromColor, toColor, alternativeFromColor, alternativeToColor, fromStrobeBeatFrequency, toStrobeBeatFrequency,
                                                    fromStrobeBrightness, toStrobeBrightness, strobeFade);
+}
+inline void GlobalNamespace::LightColorGroupEffect::SetColorWithValidation(float_t t) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorGroupEffect*>(), { "SetColorWithValidation", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
 }
 inline void GlobalNamespace::LightColorGroupEffect::SetColor(float_t t) {
   static auto* ___internal_method =

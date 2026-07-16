@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Security::Cryptography::Rijndael* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59c13a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afb078, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalBlockSizes();

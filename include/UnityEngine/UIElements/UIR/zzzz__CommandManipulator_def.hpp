@@ -31,36 +31,36 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE CommandManipulator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DisableElementRendering, addr 0x6b7e1a0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method DisableElementRendering, addr 0x6cd2058, size 0x23c, virtual false, abstract: false, final false
   static inline void DisableElementRendering(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, bool renderingDisabled);
 
-  /// @brief Method FindHeadCommandInsertionPoint, addr 0x6b7de9c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method FindHeadCommandInsertionPoint, addr 0x6cd1d54, size 0x17c, virtual false, abstract: false, final false
   static inline void FindHeadCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                    ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method FindTailCommandInsertionPoint, addr 0x6b7e018, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FindTailCommandInsertionPoint, addr 0x6cd1ed0, size 0xe4, virtual false, abstract: false, final false
   static inline void FindTailCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                    ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectCommandInBetween, addr 0x6b7e0fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InjectCommandInBetween, addr 0x6cd1fb4, size 0xa4, virtual false, abstract: false, final false
   static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                             ::UnityEngine::UIElements::UIR::RenderChainCommand* prev, ::UnityEngine::UIElements::UIR::RenderChainCommand* next);
 
-  /// @brief Method IsParentOrAncestorOf, addr 0x6b7d910, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsParentOrAncestorOf, addr 0x6cd17c8, size 0x34, virtual false, abstract: false, final false
   static inline bool IsParentOrAncestorOf(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method RemoveChain, addr 0x6b7dda8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveChain, addr 0x6cd1c60, size 0xf4, virtual false, abstract: false, final false
   static inline void RemoveChain(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* first,
                                  ::UnityEngine::UIElements::UIR::RenderChainCommand* last);
 
-  /// @brief Method RemoveSingleCommand, addr 0x6b7e3dc, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method RemoveSingleCommand, addr 0x6cd2294, size 0x35c, virtual false, abstract: false, final false
   static inline void RemoveSingleCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve,
                                          ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method ReplaceCommands, addr 0x6b7d944, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReplaceCommands, addr 0x6cd17fc, size 0x1bc, virtual false, abstract: false, final false
   static inline void ReplaceCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::EntryProcessor* processor);
 
-  /// @brief Method ResetCommands, addr 0x6b7db00, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ResetCommands, addr 0x6cd19b8, size 0x2a8, virtual false, abstract: false, final false
   static inline void ResetCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
 protected:

@@ -53,13 +53,13 @@ public:
 
   static inline ::GlobalNamespace::EditableBeatmapSelectionView* New_ctor();
 
-  /// @brief Method SetBeatmap, addr 0x57b0c7c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetBeatmap, addr 0x5969ef4, size 0x60, virtual true, abstract: false, final false
   inline void SetBeatmap(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetVisibility, addr 0x57a4170, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x5969ec4, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x57a4168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5969eec, size 0x8, virtual false, abstract: false, final false
   inline void Setup(bool showClearButton);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearButton() const;
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x57b0ce0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5969f54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearButton, addr 0x57b0c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearButton, addr 0x5969e44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
-  /// @brief Method get_editButton, addr 0x57b0c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editButton, addr 0x5969e3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
-  /// @brief Method get_interactable, addr 0x57b0c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x5969e4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_showClearButton, addr 0x57b0c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showClearButton, addr 0x5969eb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_interactable, addr 0x57a478c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x5969e54, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_showClearButton, addr 0x57b0c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_showClearButton, addr 0x5969ebc, size 0x8, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   EditableBeatmapSelectionView(EditableBeatmapSelectionView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6978 };
 
   /// @brief Field _editButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;

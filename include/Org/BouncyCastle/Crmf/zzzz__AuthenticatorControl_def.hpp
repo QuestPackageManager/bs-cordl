@@ -55,18 +55,18 @@ public:
 
   constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
-  /// @brief Method .ctor, addr 0x3619398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d5850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
 
-  /// @brief Method .ctor, addr 0x36193a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d5858, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  /// @brief Method get_Type, addr 0x361940c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x36d58c4, size 0x5c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x3619468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x36d5920, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"

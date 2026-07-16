@@ -27,13 +27,13 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x603badc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x6176bd8, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*> args);
 
-  /// @brief Method GetString, addr 0x6032754, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x616d850, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x6032e74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x616df70, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*> args);
 
 protected:
@@ -51,7 +51,7 @@ public:
   SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

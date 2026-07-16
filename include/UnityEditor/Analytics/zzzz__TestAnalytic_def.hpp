@@ -23,7 +23,7 @@ public:
   /// @brief Field param, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param)) int32_t param;
 
-  /// @brief Method CreateTestAnalytic, addr 0x6cceb58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateTestAnalytic, addr 0x6e22a10, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::TestAnalytic* CreateTestAnalytic();
 
   static inline ::UnityEditor::Analytics::TestAnalytic* New_ctor();
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_param(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cceae0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e22998, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   TestAnalytic(TestAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22973 };
 
   /// @brief Field param, offset: 0x2c, size: 0x4, def value: None
   int32_t ___param;

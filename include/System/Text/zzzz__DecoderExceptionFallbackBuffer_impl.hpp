@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::DecoderExceptionFallbackBuffer::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Text::DecoderExceptionFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b8f9e0;
+  constexpr static std::size_t addrs = 0x5cc9b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Text::DecoderExceptionFallbackBuffer::*)()>(&::System::Text::DecoderExceptionFallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b8fbbc;
+  constexpr static std::size_t addrs = 0x5cc9ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::DecoderExceptionFallbackBuffer::*)()>(&::System::Text::DecoderExceptionFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b8fbc4;
+  constexpr static std::size_t addrs = 0x5cc9ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderExceptionFallbackBuffer::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Text::DecoderExceptionFallbackBuffer::Throw)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5b8f9e8;
+  constexpr static std::size_t addrs = 0x5cc9b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderExceptionFallbackBuffer::*)()>(&::System::Text::DecoderExceptionFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b8f96c;
+  constexpr static std::size_t addrs = 0x5cc9a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::DecoderExceptionFallbackBuffer*>(), { ".ctor", {}, {} })));

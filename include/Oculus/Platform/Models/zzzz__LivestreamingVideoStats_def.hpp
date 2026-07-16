@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cb6804, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deea2c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -71,7 +71,7 @@ public:
   LivestreamingVideoStats(LivestreamingVideoStats const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18034 };
 
   /// @brief Field CommentCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___CommentCount;

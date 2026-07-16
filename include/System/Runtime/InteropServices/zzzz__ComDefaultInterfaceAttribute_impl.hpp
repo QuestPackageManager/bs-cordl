@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::ComDefaultInterfaceAttribute::*)(::System::Type*)>(
     &::System::Runtime::InteropServices::ComDefaultInterfaceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a304a0;
+  constexpr static std::size_t addrs = 0x5b6a170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

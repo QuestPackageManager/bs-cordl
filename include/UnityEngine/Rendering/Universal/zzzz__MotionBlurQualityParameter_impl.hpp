@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionBlurQualityParameter::*)(::UnityEngine::Rendering::Universal::MotionBlurQuality, bool)>(
     &::UnityEngine::Rendering::Universal::MotionBlurQualityParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x673b05c;
+  constexpr static std::size_t addrs = 0x68799d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

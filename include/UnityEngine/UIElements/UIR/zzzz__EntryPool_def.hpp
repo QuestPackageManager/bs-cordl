@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__8_0, addr 0x6b82018, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__8_0, addr 0x6cd5ed0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* __cctor_b__8_0();
 
-  /// @brief Method <.cctor>b__8_1, addr 0x6b82060, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__8_1, addr 0x6cd5f18, size 0x28, virtual false, abstract: false, final false
   inline void __cctor_b__8_1(::UnityEngine::UIElements::UIR::Entry* e);
 
-  /// @brief Method .ctor, addr 0x6b82014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd5ecc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool___c* getStaticF___9();
@@ -107,12 +107,12 @@ public:
                       put = __cordl_internal_set_m_ThreadEntries)) ::ArrayW<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::UIR::Entry*>*>
       m_ThreadEntries;
 
-  /// @brief Method Get, addr 0x6b81bc0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6cd5a78, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* Get();
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool* New_ctor(int32_t maxCapacity);
 
-  /// @brief Method ReturnAll, addr 0x6b81dac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReturnAll, addr 0x6cd5c64, size 0xdc, virtual false, abstract: false, final false
   inline void ReturnAll();
 
   constexpr ::UnityEngine::UIElements::UIR::ImplicitPool_1<::UnityEngine::UIElements::UIR::Entry*>* const& __cordl_internal_get_m_SharedPool() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ThreadEntries(::ArrayW<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::UIR::Entry*>*> value);
 
-  /// @brief Method .ctor, addr 0x6b819d4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd588c, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCapacity);
 
   static inline ::System::Func_1<::UnityEngine::UIElements::UIR::Entry*>* getStaticF_k_CreateAction();

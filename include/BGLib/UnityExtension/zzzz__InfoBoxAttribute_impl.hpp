@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::InfoBoxAttribute::*)(::StringW, ::BGLib::UnityExtension::InfoBoxAttribute_Type)>(
     &::BGLib::UnityExtension::InfoBoxAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x326c0ec;
+  constexpr static std::size_t addrs = 0x3326b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

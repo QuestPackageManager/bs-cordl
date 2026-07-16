@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::*)(::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x331a168;
+  constexpr static std::size_t addrs = 0x33d6620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x331a21c;
+  constexpr static std::size_t addrs = 0x33d66d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331a3c4;
+  constexpr static std::size_t addrs = 0x33d687c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator*>(), { ".ctor", {}, {} })));

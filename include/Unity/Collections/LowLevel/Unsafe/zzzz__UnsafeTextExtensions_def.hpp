@@ -26,10 +26,10 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE UnsafeTextExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsUnsafeListOfBytes, addr 0x638d028, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AsUnsafeListOfBytes, addr 0x64c9c48, size 0x44, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t>> AsUnsafeListOfBytes(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> text);
 
-  /// @brief Method AsUnsafeListOfBytesRO, addr 0x638d06c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AsUnsafeListOfBytesRO, addr 0x64c9c8c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t> AsUnsafeListOfBytesRO(::Unity::Collections::LowLevel::Unsafe::UnsafeText text);
 
 protected:
@@ -47,7 +47,7 @@ public:
   UnsafeTextExtensions(UnsafeTextExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

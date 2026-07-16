@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::TryFaultHandler::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Linq::Expressions::Interpreter::TryFaultHandler::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e60930;
+  constexpr static std::size_t addrs = 0x5f9ba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

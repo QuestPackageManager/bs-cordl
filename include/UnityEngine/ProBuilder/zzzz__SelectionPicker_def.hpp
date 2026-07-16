@@ -51,20 +51,20 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE SelectionPicker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PickEdgesInRect, addr 0x659f4e4, size 0x980, virtual false, abstract: false, final false
+  /// @brief Method PickEdgesInRect, addr 0x66dcbf0, size 0x980, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
   PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickFace, addr 0x65a06bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PickFace, addr 0x66dddc8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* PickFace(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::ProBuilder::ProBuilderMesh* pickable);
 
-  /// @brief Method PickFacesInRect, addr 0x659de68, size 0x1034, virtual false, abstract: false, final false
+  /// @brief Method PickFacesInRect, addr 0x66db574, size 0x1034, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
   PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickVerticesInRect, addr 0x659cc0c, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method PickVerticesInRect, addr 0x66da318, size 0x694, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<int32_t>*>*
   PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
                      ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
@@ -84,7 +84,7 @@ public:
   SelectionPicker(SelectionPicker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

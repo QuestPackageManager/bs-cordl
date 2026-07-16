@@ -6,13 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(VRControllersRecorderExtensions)
 namespace GlobalNamespace {
-class GameplayAdditionalInformation;
-}
-namespace GlobalNamespace {
 struct PlaymodeOptions;
-}
-namespace GlobalNamespace {
-class VRControllersRecorder_InitData;
 }
 namespace GlobalNamespace {
 struct VRControllersRecorder_Mode;
@@ -31,10 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRControllersRecorderExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToVRControllersRecorderInitData, addr 0x57c0b0c, size 0x78, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::VRControllersRecorder_InitData* ToVRControllersRecorderInitData(::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation);
-
-  /// @brief Method ToVRControllersRecorderMode, addr 0x57c0af4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToVRControllersRecorderMode, addr 0x58df80c, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_Mode ToVRControllersRecorderMode(::GlobalNamespace::PlaymodeOptions playmodeOptions);
 
 protected:
@@ -52,7 +43,7 @@ public:
   VRControllersRecorderExtensions(VRControllersRecorderExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

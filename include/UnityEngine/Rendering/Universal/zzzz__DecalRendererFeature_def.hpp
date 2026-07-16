@@ -203,52 +203,52 @@ public:
 
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::Universal::DecalSettings* settings;
 
-  /// @brief Method AddRenderPasses, addr 0x676aebc, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x68a9838, size 0x1ac, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ChangeAdaptivePerformanceDrawDistances, addr 0x676b35c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ChangeAdaptivePerformanceDrawDistances, addr 0x68a9cd8, size 0x4, virtual false, abstract: false, final false
   inline void ChangeAdaptivePerformanceDrawDistances();
 
-  /// @brief Method Create, addr 0x676a050, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x68a89cc, size 0x64, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x676b238, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68a9bb4, size 0x124, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetDBufferSettings, addr 0x676a364, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDBufferSettings, addr 0x68a8ce0, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DBufferSettings* GetDBufferSettings();
 
-  /// @brief Method GetScreenSpaceSettings, addr 0x676a3d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetScreenSpaceSettings, addr 0x68a8d50, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* GetScreenSpaceSettings();
 
-  /// @brief Method GetTechnique, addr 0x676a17c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetTechnique, addr 0x68a8af8, size 0x1e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalTechnique GetTechnique(bool isDeferred, bool needsGBufferAccurateNormals, bool checkForInvalidTechniques);
 
-  /// @brief Method GetTechnique, addr 0x676a588, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetTechnique, addr 0x68a8f04, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalTechnique GetTechnique(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer);
 
-  /// @brief Method GetTechnique, addr 0x676a444, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetTechnique, addr 0x68a8dc0, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalTechnique GetTechnique(::UnityEngine::Rendering::Universal::ScriptableRendererData* renderer);
 
-  /// @brief Method IsAutomaticDBuffer, addr 0x676a684, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsAutomaticDBuffer, addr 0x68a9000, size 0xf4, virtual false, abstract: false, final false
   inline bool IsAutomaticDBuffer();
 
   static inline ::UnityEngine::Rendering::Universal::DecalRendererFeature* New_ctor();
 
-  /// @brief Method OnCameraPreCull, addr 0x676ad78, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method OnCameraPreCull, addr 0x68a96f4, size 0x144, virtual true, abstract: false, final false
   inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method RecreateSystemsIfNeeded, addr 0x676a778, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method RecreateSystemsIfNeeded, addr 0x68a90f4, size 0x600, virtual false, abstract: false, final false
   inline bool RecreateSystemsIfNeeded(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method RequireRenderingLayers, addr 0x676a0b4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method RequireRenderingLayers, addr 0x68a8a30, size 0xc8, virtual true, abstract: false, final false
   inline bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> atEvent,
                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> maskSize);
 
-  /// @brief Method SetupRenderPasses, addr 0x676b07c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method SetupRenderPasses, addr 0x68a99f8, size 0x1bc, virtual true, abstract: false, final false
   inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SupportsNativeRenderPass, addr 0x676b068, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method SupportsNativeRenderPass, addr 0x68a99e4, size 0x14, virtual true, abstract: false, final false
   inline bool SupportsNativeRenderPass();
 
   constexpr ::UnityEngine::Rendering::Universal::DBufferCopyDepthPass* const& __cordl_internal_get_m_CopyDepthPass() const;
@@ -395,24 +395,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Technique(::UnityEngine::Rendering::Universal::DecalTechnique value);
 
-  /// @brief Method .ctor, addr 0x676b360, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a9cdc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* getStaticF__sharedDecalEntityManager_k__BackingField();
 
-  /// @brief Method get_intermediateRendering, addr 0x6769fc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_intermediateRendering, addr 0x68a8944, size 0x10, virtual false, abstract: false, final false
   inline bool get_intermediateRendering();
 
-  /// @brief Method get_isGLDevice, addr 0x6769ff0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isGLDevice, addr 0x68a896c, size 0x60, virtual false, abstract: false, final false
   static inline bool get_isGLDevice();
 
-  /// @brief Method get_requiresDecalLayers, addr 0x6769fd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_requiresDecalLayers, addr 0x68a8954, size 0x18, virtual false, abstract: false, final false
   inline bool get_requiresDecalLayers();
 
-  /// @brief Method get_settings, addr 0x6769fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x68a893c, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::DecalSettings*> get_settings();
 
-  /// @brief Method get_sharedDecalEntityManager, addr 0x6769f64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedDecalEntityManager, addr 0x68a88e0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* get_sharedDecalEntityManager();
 
   static inline void setStaticF__sharedDecalEntityManager_k__BackingField(::UnityEngine::Rendering::Universal::SharedDecalEntityManager* value);
@@ -432,7 +432,7 @@ public:
   DecalRendererFeature(DecalRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12885 };
 
   /// @brief Field m_Settings, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalSettings* ___m_Settings;

@@ -71,37 +71,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*();
 
-  /// @brief Method Equals, addr 0x6cdf4dc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e36498, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cdf570, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e3652c, size 0x16c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::MeshGenerationResult other);
 
-  /// @brief Method GetHashCode, addr 0x6cdf6dc, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e36698, size 0x1c4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_Attributes, addr 0x6cdf4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x6e3646c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshVertexAttributes get_Attributes();
 
-  /// @brief Method get_Mesh, addr 0x6cdf498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mesh, addr 0x6e36454, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
-  /// @brief Method get_MeshCollider, addr 0x6cdf4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MeshCollider, addr 0x6e3645c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshCollider> get_MeshCollider();
 
-  /// @brief Method get_MeshId, addr 0x6cdf48c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MeshId, addr 0x6e36448, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshId get_MeshId();
 
-  /// @brief Method get_Position, addr 0x6cdf4b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x6e36474, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x6cdf4c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x6e36480, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_Scale, addr 0x6cdf4d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Scale, addr 0x6e3648c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Scale();
 
-  /// @brief Method get_Status, addr 0x6cdf4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x6e36464, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshGenerationStatus get_Status();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
@@ -123,7 +123,7 @@ public:
                                  ::UnityEngine::Quaternion _Rotation_k__BackingField, ::UnityEngine::Vector3 _Scale_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22138 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

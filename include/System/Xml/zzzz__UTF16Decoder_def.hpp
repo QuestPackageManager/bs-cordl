@@ -27,17 +27,17 @@ public:
   /// @brief Field lastByte, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_lastByte, put = __cordl_internal_set_lastByte)) int32_t lastByte;
 
-  /// @brief Method Convert, addr 0x61a288c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x62dd988, size 0x1d0, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x61a262c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x62dd728, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetCharCount, addr 0x61a263c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x62dd738, size 0xd8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetChars, addr 0x61a2714, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x62dd810, size 0x178, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   static inline ::System::Xml::UTF16Decoder* New_ctor(bool bigEndian);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_lastByte(int32_t value);
 
-  /// @brief Method .ctor, addr 0x61a261c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dd718, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool bigEndian);
 
 protected:
@@ -72,7 +72,7 @@ public:
   UTF16Decoder(UTF16Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9413 };
 
   /// @brief Field bigEndian, offset: 0x20, size: 0x1, def value: None
   bool ___bigEndian;

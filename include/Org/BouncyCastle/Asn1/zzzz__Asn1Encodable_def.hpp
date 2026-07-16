@@ -34,19 +34,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Equals, addr 0x3287a24, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3343edc, size 0x118, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetDerEncoded, addr 0x3287928, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetDerEncoded, addr 0x3343de0, size 0xc8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetDerEncoded();
 
-  /// @brief Method GetEncoded, addr 0x3287768, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3343c20, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x3287820, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3343cd8, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0x32879f0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3343ea8, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
@@ -54,7 +54,7 @@ public:
   /// @brief Method ToAsn1Object, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x3287b48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3344000, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"

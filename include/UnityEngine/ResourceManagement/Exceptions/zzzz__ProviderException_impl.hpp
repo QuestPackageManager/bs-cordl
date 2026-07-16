@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::ProviderException::*)(
     ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::System::Exception*)>(&::UnityEngine::ResourceManagement::Exceptions::ProviderException::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67cd9d8;
+  constexpr static std::size_t addrs = 0x690c4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::UnityEngine::ResourceManagement::Exceptions::ProviderException::*)()>(&::UnityEngine::ResourceManagement::Exceptions::ProviderException::get_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67cda00;
+  constexpr static std::size_t addrs = 0x690c4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

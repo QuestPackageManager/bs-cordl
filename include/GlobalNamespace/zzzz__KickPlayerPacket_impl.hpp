@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::KickPlayerPacket*>* (*)()>(&::GlobalNamespace::KickPlayerPacket::get_pool)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x326f5f4;
+  constexpr static std::size_t addrs = 0x332baac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KickPlayerPacket*>(), { "get_pool", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::KickPlayerPacket* (::GlobalNamespace::KickPlayerPacket::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::KickPlayerPacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326f638;
+  constexpr static std::size_t addrs = 0x332baf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KickPlayerPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::KickPlayerPacket::Serialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x326f640;
+  constexpr static std::size_t addrs = 0x332baf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KickPlayerPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::KickPlayerPacket::Deserialize)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x326f668;
+  constexpr static std::size_t addrs = 0x332bb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KickPlayerPacket::*)()>(&::GlobalNamespace::KickPlayerPacket::Release)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x326f694;
+  constexpr static std::size_t addrs = 0x332bb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KickPlayerPacket*>(), { "Release", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KickPlayerPacket::*)()>(&::GlobalNamespace::KickPlayerPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x326f6ec;
+  constexpr static std::size_t addrs = 0x332bba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KickPlayerPacket*>(), { ".ctor", {}, {} })));

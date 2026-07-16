@@ -318,7 +318,7 @@ public:
   NetSerializer_FastCall_1(NetSerializer_FastCall_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20075 };
 
   /// @brief Field IsArray, offset: 0x10, size: 0x1, def value: None
   bool ___IsArray;
@@ -401,7 +401,7 @@ public:
   NetSerializer_FastCallSpecific_2(NetSerializer_FastCallSpecific_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20076 };
 
   /// @brief Field Getter, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TClass, TProperty>* ___Getter;
@@ -466,7 +466,7 @@ public:
   NetSerializer_FastCallSpecificAuto_2(NetSerializer_FastCallSpecificAuto_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -532,7 +532,7 @@ public:
   NetSerializer_FastCallStatic_2(NetSerializer_FastCallStatic_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20078 };
 
   /// @brief Field _writer, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* ____writer;
@@ -594,7 +594,7 @@ public:
   NetSerializer_FastCallStruct_2(NetSerializer_FastCallStruct_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20079 };
 
   /// @brief Field _p, offset: 0x38, size: 0x8, def value: None
   TProperty ____p;
@@ -653,7 +653,7 @@ public:
   NetSerializer_FastCallClass_2(NetSerializer_FastCallClass_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20080 };
 
   /// @brief Field _constructor, offset: 0x38, size: 0x8, def value: None
   ::System::Func_1<TProperty>* ____constructor;
@@ -703,7 +703,7 @@ public:
   NetSerializer_IntSerializer_1(NetSerializer_IntSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -750,7 +750,7 @@ public:
   NetSerializer_UIntSerializer_1(NetSerializer_UIntSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -797,7 +797,7 @@ public:
   NetSerializer_ShortSerializer_1(NetSerializer_ShortSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -844,7 +844,7 @@ public:
   NetSerializer_UShortSerializer_1(NetSerializer_UShortSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -891,7 +891,7 @@ public:
   NetSerializer_LongSerializer_1(NetSerializer_LongSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -938,7 +938,7 @@ public:
   NetSerializer_ULongSerializer_1(NetSerializer_ULongSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -985,7 +985,7 @@ public:
   NetSerializer_ByteSerializer_1(NetSerializer_ByteSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1032,7 +1032,7 @@ public:
   NetSerializer_SByteSerializer_1(NetSerializer_SByteSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1079,7 +1079,7 @@ public:
   NetSerializer_FloatSerializer_1(NetSerializer_FloatSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1126,7 +1126,7 @@ public:
   NetSerializer_DoubleSerializer_1(NetSerializer_DoubleSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1173,7 +1173,7 @@ public:
   NetSerializer_BoolSerializer_1(NetSerializer_BoolSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1214,7 +1214,7 @@ public:
   NetSerializer_CharSerializer_1(NetSerializer_CharSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1255,7 +1255,7 @@ public:
   NetSerializer_IPEndPointSerializer_1(NetSerializer_IPEndPointSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20093 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1311,7 +1311,7 @@ public:
   NetSerializer_StringSerializer_1(NetSerializer_StringSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20094 };
 
   /// @brief Field _maxLength, offset: 0x38, size: 0x4, def value: None
   int32_t ____maxLength;
@@ -1373,7 +1373,7 @@ public:
   NetSerializer_EnumByteSerializer_1(NetSerializer_EnumByteSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20095 };
 
   /// @brief Field Property, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___Property;
@@ -1420,7 +1420,7 @@ public:
   NetSerializer_EnumIntSerializer_1(NetSerializer_EnumIntSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1486,7 +1486,7 @@ public:
   NetSerializer_ClassInfo_1(NetSerializer_ClassInfo_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20097 };
 
   /// @brief Field _serializers, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*> ____serializers;
@@ -1510,7 +1510,7 @@ public:
 
   static inline ::LiteNetLib::Utils::NetSerializer_CustomType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x57684dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ae9d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1528,7 +1528,7 @@ public:
   NetSerializer_CustomType(NetSerializer_CustomType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1568,7 +1568,7 @@ public:
   NetSerializer_CustomTypeStruct_1(NetSerializer_CustomTypeStruct_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20099 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1615,7 +1615,7 @@ public:
   NetSerializer_CustomTypeClass_1(NetSerializer_CustomTypeClass_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20100 };
 
   /// @brief Field _constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<TProperty>* ____constructor;
@@ -1675,7 +1675,7 @@ public:
   NetSerializer_CustomTypeStatic_1(NetSerializer_CustomTypeStatic_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20101 };
 
   /// @brief Field _writer, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* ____writer;
@@ -1807,10 +1807,10 @@ public:
 
   constexpr void __cordl_internal_set__writer(::LiteNetLib::Utils::NetDataWriter* value);
 
-  /// @brief Method .ctor, addr 0x5767f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ae424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5768040, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ae534, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:
@@ -1828,7 +1828,7 @@ public:
   NetSerializer(NetSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20102 };
 
   /// @brief Field _writer, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetDataWriter* ____writer;

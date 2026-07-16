@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BlendShapeBufferRange::*)(uint32_t)>(&::UnityEngine::BlendShapeBufferRange::set_startIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695b304;
+  constexpr static std::size_t addrs = 0x6aae648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BlendShapeBufferRange::*)(uint32_t)>(&::UnityEngine::BlendShapeBufferRange::set_endIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695b314;
+  constexpr static std::size_t addrs = 0x6aae658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -73,7 +73,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const ToConstantBeforeNormalize;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9092 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -131,33 +131,33 @@ public:
   /// @brief Field scaleFactor, offset 0x128, size 0x4
   __declspec(property(get = __cordl_internal_get_scaleFactor, put = __cordl_internal_set_scaleFactor)) float_t scaleFactor;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x63b80e4, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x64f4d04, size 0x16c, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
-  /// @brief Method CompareValue, addr 0x63b7ed8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method CompareValue, addr 0x64f4af8, size 0xf4, virtual true, abstract: false, final false
   inline bool CompareValue(void* firstStatePtr, void* secondStatePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x63b7fcc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x64f4bec, size 0x64, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(void* statePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x63b8030, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x64f4c50, size 0x90, virtual false, abstract: false, final false
   inline float_t EvaluateMagnitude(float_t value);
 
-  /// @brief Method FinishSetup, addr 0x63b7b94, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x64f47b4, size 0xec, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor();
 
-  /// @brief Method Preprocess, addr 0x63b79d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Preprocess, addr 0x64f45f8, size 0xbc, virtual false, abstract: false, final false
   inline float_t Preprocess(float_t value);
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b7c80, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f48a0, size 0x170, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method Unpreprocess, addr 0x63b7a94, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Unpreprocess, addr 0x64f46b4, size 0x7c, virtual false, abstract: false, final false
   inline float_t Unpreprocess(float_t value);
 
-  /// @brief Method WriteValueIntoState, addr 0x63b7df0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x64f4a10, size 0xe8, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const& __cordl_internal_get_clamp() const;
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleFactor(float_t value);
 
-  /// @brief Method .ctor, addr 0x63b7b10, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f4730, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -244,7 +244,7 @@ public:
   AxisControl(AxisControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9093 };
 
   /// @brief Field clamp, offset: 0x104, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl_Clamp ___clamp;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IDisposable*, ::BGLib::DotnetExtension::Disposables::CompositeDisposable*)>(
     &::BGLib::DotnetExtension::Disposables::DisposableExtensions::AddTo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32566f0;
+  constexpr static std::size_t addrs = 0x330efb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IDisposable*, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*)>(
     &::BGLib::DotnetExtension::Disposables::DisposableExtensions::AddTo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x325670c;
+  constexpr static std::size_t addrs = 0x330efd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

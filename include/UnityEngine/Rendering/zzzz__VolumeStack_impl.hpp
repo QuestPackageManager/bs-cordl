@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeStack::*)()>(&::UnityEngine::Rendering::VolumeStack::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x668c194;
+  constexpr static std::size_t addrs = 0x67c98a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeStack*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeStack::*)()>(&::UnityEngine::Rendering::VolumeStack::Clear)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x668c234;
+  constexpr static std::size_t addrs = 0x67c9940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeStack*>(), { "Clear", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeStack::*)(::ArrayW<::System::Type*>)>(&::UnityEngine::Rendering::VolumeStack::Reload)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x668c3b4;
+  constexpr static std::size_t addrs = 0x67c9ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::VolumeComponent> (::UnityEngine::Rendering::VolumeStack::*)(::System::Type*)>(
     &::UnityEngine::Rendering::VolumeStack::GetComponent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x668c5b8;
+  constexpr static std::size_t addrs = 0x67c9cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeStack::*)()>(&::UnityEngine::Rendering::VolumeStack::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x668c62c;
+  constexpr static std::size_t addrs = 0x67c9d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeStack*>(), { "Dispose", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VolumeStack::*)()>(&::UnityEngine::Rendering::VolumeStack::get_isValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668c644;
+  constexpr static std::size_t addrs = 0x67c9d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeStack*>(), { "get_isValid", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeStack::*)(bool)>(&::UnityEngine::Rendering::VolumeStack::set_isValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668c64c;
+  constexpr static std::size_t addrs = 0x67c9d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

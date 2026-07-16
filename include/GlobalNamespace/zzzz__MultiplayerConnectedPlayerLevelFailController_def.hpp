@@ -56,21 +56,21 @@ public:
   /// @brief Field playerDidFailEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerDidFailEvent, put = __cordl_internal_set_playerDidFailEvent)) ::System::Action* playerDidFailEvent;
 
-  /// @brief Method CheckIfPlayerFailed, addr 0x58855e8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfPlayerFailed, addr 0x59b63c0, size 0x1f4, virtual false, abstract: false, final false
   inline void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x58857dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x59b65b4, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x58857e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x59b65b8, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x588543c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59b6214, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x588528c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59b6064, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -109,13 +109,13 @@ public:
 
   constexpr void __cordl_internal_set_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x58857e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b65bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFailEvent, addr 0x5884584, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_playerDidFailEvent, addr 0x59b5340, size 0xac, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFailEvent, addr 0x588405c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_playerDidFailEvent, addr 0x59b4e24, size 0xac, virtual false, abstract: false, final false
   inline void remove_playerDidFailEvent(::System::Action* value);
 
 protected:
@@ -133,7 +133,7 @@ public:
   MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlayerLevelFailController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6032 };
 
   /// @brief Field _failVFXController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VFXController> ____failVFXController;

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::UxmlIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b68934, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbc7ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

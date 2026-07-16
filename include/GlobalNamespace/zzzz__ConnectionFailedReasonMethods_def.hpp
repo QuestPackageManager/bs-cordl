@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x3676c5c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x3732398, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method LocalizedKey, addr 0x3676b54, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x3732268, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:
@@ -44,13 +44,16 @@ public:
   ConnectionFailedReasonMethods(ConnectionFailedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };
 
   /// @brief Field kConnectionFailedConnectionCanceled offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedConnectionCanceled{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
 
   /// @brief Field kConnectionFailedFailedToFindMatch offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedFailedToFindMatch{ u"CONNECTION_FAILED_FAILED_TO_FIND_MATCH" };
+
+  /// @brief Field kConnectionFailedGameSessionEnded offset 0xffffffff size 0x8
+  static constexpr ::ConstString kConnectionFailedGameSessionEnded{ u"CONNECTION_FAILED_GAME_SESSION_ENDED" };
 
   /// @brief Field kConnectionFailedIncompatibleServerEnvironment offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedIncompatibleServerEnvironment{ u"CONNECTION_FAILED_INCOMPATIBLE_SERVER_ENVIRONMENT" };
@@ -87,6 +90,9 @@ public:
 
   /// @brief Field kConnectionFailedUnknown offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedUnknown{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
+
+  /// @brief Field kConnectionFailedUpdateRequired offset 0xffffffff size 0x8
+  static constexpr ::ConstString kConnectionFailedUpdateRequired{ u"MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED" };
 
   /// @brief Field kConnectionFailedVersionMismatch offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedVersionMismatch{ u"CONNECTION_FAILED_VERSION_MISMATCH" };

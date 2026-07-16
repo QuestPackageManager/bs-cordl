@@ -107,7 +107,7 @@ public:
   static ::UnityEngine::Rendering::HDROutputUtils_Operation const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12276 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -130,7 +130,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE HDROutputUtils_HDRDisplayInformation {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x66833b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c0ac4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxFullFrameToneMapLuminance, int32_t maxToneMapLuminance, int32_t minToneMapLuminance, float_t hdrPaperWhiteNits);
 
   // Ctor Parameters []
@@ -142,7 +142,7 @@ public:
   constexpr HDROutputUtils_HDRDisplayInformation(int32_t maxFullFrameToneMapLuminance, int32_t maxToneMapLuminance, int32_t minToneMapLuminance, float_t paperWhiteNits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12277 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -236,7 +236,7 @@ public:
   static constexpr ::ConstString HDR_INPUT{ u"HDR_INPUT" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12278 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -280,7 +280,7 @@ public:
   HDROutputUtils_ShaderPropertyId(HDROutputUtils_ShaderPropertyId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -303,25 +303,25 @@ public:
 
   using ShaderPropertyId = ::UnityEngine::Rendering::HDROutputUtils_ShaderPropertyId;
 
-  /// @brief Method ConfigureHDROutput, addr 0x6683000, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x67c070c, size 0x250, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::ComputeShader* computeShader, ::UnityEngine::ColorGamut gamut, ::UnityEngine::Rendering::HDROutputUtils_Operation operations);
 
-  /// @brief Method ConfigureHDROutput, addr 0x6682b6c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x67c0278, size 0x248, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::Material* material, ::UnityEngine::ColorGamut gamut, ::UnityEngine::Rendering::HDROutputUtils_Operation operations);
 
-  /// @brief Method ConfigureHDROutput, addr 0x6682e7c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x67c0588, size 0x184, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::Material* material, ::UnityEngine::Rendering::HDROutputUtils_Operation operations);
 
-  /// @brief Method ConfigureHDROutput, addr 0x6682db4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x67c04c0, size 0xc8, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetColorEncodingForGamut, addr 0x66829c0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetColorEncodingForGamut, addr 0x67c00cc, size 0x1ac, virtual false, abstract: false, final false
   static inline bool GetColorEncodingForGamut(::UnityEngine::ColorGamut gamut, ::by_ref<int32_t> encoding);
 
-  /// @brief Method GetColorSpaceForGamut, addr 0x668276c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetColorSpaceForGamut, addr 0x67bfe78, size 0x254, virtual false, abstract: false, final false
   static inline bool GetColorSpaceForGamut(::UnityEngine::ColorGamut gamut, ::by_ref<int32_t> colorspace);
 
-  /// @brief Method IsShaderVariantValid, addr 0x6683250, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method IsShaderVariantValid, addr 0x67c095c, size 0x168, virtual false, abstract: false, final false
   static inline bool IsShaderVariantValid(::UnityEngine::Rendering::ShaderKeywordSet shaderKeywordSet, bool isHDREnabled);
 
 protected:
@@ -339,7 +339,7 @@ public:
   HDROutputUtils(HDROutputUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

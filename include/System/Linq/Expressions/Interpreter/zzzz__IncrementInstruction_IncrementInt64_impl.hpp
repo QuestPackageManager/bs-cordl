@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::IncrementInstruction_IncrementInt64::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::IncrementInstruction_IncrementInt64::Run)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5e570c0;
+  constexpr static std::size_t addrs = 0x5f921bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IncrementInstruction_IncrementInt64*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncrementInstruction_IncrementInt64::*)()>(&::GlobalNamespace::IncrementInstruction_IncrementInt64::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e56ed4;
+  constexpr static std::size_t addrs = 0x5f91fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IncrementInstruction_IncrementInt64*>(), { ".ctor", {}, {} })));

@@ -35,25 +35,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BlendState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BlendState>*();
 
-  /// @brief Method Equals, addr 0x69c71c4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b1ab00, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x69c708c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b1a9c8, size 0xc0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BlendState other);
 
-  /// @brief Method GetHashCode, addr 0x69c7258, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b1ab94, size 0x2b8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x69c6fec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b1a928, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool separateMRTBlend, bool alphaToMask);
 
-  /// @brief Method get_defaultValue, addr 0x69c6fa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6b1a8e0, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BlendState get_defaultValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BlendState>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BlendState>* i___System__IEquatable_1___UnityEngine__Rendering__BlendState_();
 
-  /// @brief Method set_blendState0, addr 0x69c7084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blendState0, addr 0x6b1a9c0, size 0x8, virtual false, abstract: false, final false
   inline void set_blendState0(::UnityEngine::Rendering::RenderTargetBlendState value);
 
   // Ctor Parameters []
@@ -74,7 +74,7 @@ public:
                        uint8_t m_AlphaToMask, int16_t m_Padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x44 };

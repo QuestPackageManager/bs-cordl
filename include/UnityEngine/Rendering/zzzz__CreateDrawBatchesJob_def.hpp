@@ -57,16 +57,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method EditDrawBatch, addr 0x66d9f64, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method EditDrawBatch, addr 0x6817670, size 0x1ac, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::DrawBatch> EditDrawBatch(::by_ref<::UnityEngine::Rendering::DrawKey> key, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor);
 
-  /// @brief Method EditDrawRange, addr 0x66d9dec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method EditDrawRange, addr 0x68174f8, size 0x178, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::DrawRange> EditDrawRange(::by_ref<::UnityEngine::Rendering::RangeKey> key);
 
-  /// @brief Method Execute, addr 0x66da7ac, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6817eb8, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method ProcessRenderer, addr 0x66da110, size 0x69c, virtual false, abstract: false, final false
+  /// @brief Method ProcessRenderer, addr 0x681781c, size 0x69c, virtual false, abstract: false, final false
   inline void ProcessRenderer(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -99,7 +99,7 @@ public:
                                  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x240 };

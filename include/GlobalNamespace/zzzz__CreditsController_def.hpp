@@ -27,13 +27,16 @@ namespace GlobalNamespace {
 class CreditsController___c;
 }
 namespace GlobalNamespace {
-class CreditsScenesTransitionSetupDataSO;
+class CreditsScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IXRSystemState;
 }
 namespace GlobalNamespace {
 class PackDefinitionSO;
+}
+namespace GlobalNamespace {
+struct XRSystemEventType;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -121,19 +124,19 @@ public:
 
   static inline ::GlobalNamespace::CreditsController___c* New_ctor();
 
-  /// @brief Method <OnDestroy>b__16_0, addr 0x31e7888, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnDestroy>b__16_0, addr 0x327ef94, size 0x24, virtual false, abstract: false, final false
   inline bool _OnDestroy_b__16_0(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <StartAsync>b__15_0, addr 0x31e77bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <StartAsync>b__15_0, addr 0x327eebc, size 0x24, virtual false, abstract: false, final false
   inline bool _StartAsync_b__15_0(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <StartAsync>b__15_1, addr 0x31e77d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <StartAsync>b__15_1, addr 0x327eee0, size 0x20, virtual false, abstract: false, final false
   inline int32_t _StartAsync_b__15_1(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <StartAsync>b__15_2, addr 0x31e77f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <StartAsync>b__15_2, addr 0x327ef00, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>* _StartAsync_b__15_2(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method .ctor, addr 0x31e77b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327eeb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::CreditsController___c* getStaticF___9();
@@ -171,7 +174,7 @@ public:
   CreditsController___c(CreditsController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,21 +223,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x31e78a4, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x327efbc, size 0x240, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::CreditsController__ScrollCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31e7ae4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x327f1fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31e7aec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x327f204, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31e7b24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x327f23c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x31e78a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x327efb8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -279,7 +282,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollingSpeed_5__5(float_t value);
 
-  /// @brief Method .ctor, addr 0x31e7114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327e858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -306,7 +309,7 @@ public:
   CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23170 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -359,10 +362,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31e7b2c, size 0xa34, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x327f244, size 0x768, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31e8560, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x327f9ac, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -379,7 +382,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23171 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -423,30 +426,30 @@ public:
 
   using __c = ::GlobalNamespace::CreditsController___c;
 
-  /// @brief Field _afterMusicPacksCredits, offset 0x58, size 0x8
+  /// @brief Field _afterMusicPacksCredits, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__afterMusicPacksCredits, put = __cordl_internal_set__afterMusicPacksCredits)) ::ArrayW<::UnityW<::UnityEngine::GameObject>> _afterMusicPacksCredits;
 
-  /// @brief Field _audioPlayer, offset 0x28, size 0x8
+  /// @brief Field _audioPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioPlayer, put = __cordl_internal_set__audioPlayer)) ::UnityW<::GlobalNamespace::AudioPlayerBase> _audioPlayer;
 
-  /// @brief Field _beforeMusicPacksCredits, offset 0x50, size 0x8
+  /// @brief Field _beforeMusicPacksCredits, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__beforeMusicPacksCredits, put = __cordl_internal_set__beforeMusicPacksCredits)) ::ArrayW<::UnityW<::UnityEngine::GameObject>> _beforeMusicPacksCredits;
 
   /// @brief Field _buttonBinder, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _contentRectTransform, offset 0x38, size 0x8
+  /// @brief Field _contentRectTransform, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__contentRectTransform, put = __cordl_internal_set__contentRectTransform)) ::UnityW<::UnityEngine::RectTransform> _contentRectTransform;
 
-  /// @brief Field _contentWrapper, offset 0x48, size 0x8
+  /// @brief Field _contentWrapper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__contentWrapper, put = __cordl_internal_set__contentWrapper)) ::UnityW<::UnityEngine::RectTransform> _contentWrapper;
 
-  /// @brief Field _continueButton, offset 0x30, size 0x8
+  /// @brief Field _continueButton, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button> _continueButton;
 
-  /// @brief Field _creditsSceneSetupDataSO, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__creditsSceneSetupDataSO, put = __cordl_internal_set__creditsSceneSetupDataSO)) ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>
-      _creditsSceneSetupDataSO;
+  /// @brief Field _creditsSceneSetupData, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__creditsSceneSetupData,
+                      put = __cordl_internal_set__creditsSceneSetupData)) ::GlobalNamespace::CreditsScenesTransitionSetupData* _creditsSceneSetupData;
 
   /// @brief Field _didFinish, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__didFinish, put = __cordl_internal_set__didFinish)) bool _didFinish;
@@ -454,58 +457,49 @@ public:
   /// @brief Field _isPaused, offset 0x79, size 0x1
   __declspec(property(get = __cordl_internal_get__isPaused, put = __cordl_internal_set__isPaused)) bool _isPaused;
 
-  /// @brief Field _overflowHeight, offset 0x40, size 0x4
+  /// @brief Field _overflowHeight, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__overflowHeight, put = __cordl_internal_set__overflowHeight)) float_t _overflowHeight;
 
-  /// @brief Field _packDefinitions, offset 0x68, size 0x8
+  /// @brief Field _packDefinitions, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__packDefinitions,
                       put = __cordl_internal_set__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _packDefinitions;
 
-  /// @brief Field _vrPlatformHelper, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _xrSystemState, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
   /// @brief Field anchor, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_anchor, put = setStaticF_anchor)) ::UnityEngine::Vector2 anchor;
 
-  /// @brief Method Finish, addr 0x31e6d74, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x327e694, size 0x170, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method HandleHmdMounted, addr 0x31e71d4, size 0x2c, virtual false, abstract: false, final false
-  inline void HandleHmdMounted();
-
-  /// @brief Method HandleHmdUnmounted, addr 0x31e7200, size 0x30, virtual false, abstract: false, final false
-  inline void HandleHmdUnmounted();
-
-  /// @brief Method HandleInputFocusCaptured, addr 0x31e711c, size 0x30, virtual false, abstract: false, final false
-  inline void HandleInputFocusCaptured();
-
-  /// @brief Method HandleInputFocusReleased, addr 0x31e717c, size 0x2c, virtual false, abstract: false, final false
-  inline void HandleInputFocusReleased();
+  /// @brief Method HandleSystemStateChange, addr 0x327e860, size 0x74, virtual false, abstract: false, final false
+  inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::CreditsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x31e66c4, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x327e1b4, size 0x4e0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PauseCredits, addr 0x31e714c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PauseCredits, addr 0x327e8d4, size 0x30, virtual false, abstract: false, final false
   inline void PauseCredits();
 
-  /// @brief Method ScrollCoroutine, addr 0x31e70c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScrollCoroutine, addr 0x327e804, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ScrollCoroutine();
 
-  /// @brief Method SpawnAllCredits, addr 0x31e7230, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SpawnAllCredits, addr 0x327e930, size 0x98, virtual false, abstract: false, final false
   inline void SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* musicPackCredits);
 
-  /// @brief Method SpawnCredits, addr 0x31e72c8, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method SpawnCredits, addr 0x327e9c8, size 0x43c, virtual false, abstract: false, final false
   inline float_t SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* creditsToSpawn, float_t initialHeight);
 
-  /// @brief Method Start, addr 0x31e6594, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x327e084, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartAsync, addr 0x31e6614, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method StartAsync, addr 0x327e104, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsync();
 
-  /// @brief Method UnpauseCredits, addr 0x31e71a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UnpauseCredits, addr 0x327e904, size 0x2c, virtual false, abstract: false, final false
   inline void UnpauseCredits();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__afterMusicPacksCredits() const;
@@ -536,9 +530,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> const& __cordl_internal_get__creditsSceneSetupDataSO() const;
+  constexpr ::GlobalNamespace::CreditsScenesTransitionSetupData* const& __cordl_internal_get__creditsSceneSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>& __cordl_internal_get__creditsSceneSetupDataSO();
+  constexpr ::GlobalNamespace::CreditsScenesTransitionSetupData*& __cordl_internal_get__creditsSceneSetupData();
 
   constexpr bool const& __cordl_internal_get__didFinish() const;
 
@@ -556,9 +550,9 @@ public:
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get__packDefinitions();
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::GlobalNamespace::IXRSystemState* const& __cordl_internal_get__xrSystemState() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IXRSystemState*& __cordl_internal_get__xrSystemState();
 
   constexpr void __cordl_internal_set__afterMusicPacksCredits(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
@@ -574,7 +568,7 @@ public:
 
   constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set__creditsSceneSetupDataSO(::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> value);
+  constexpr void __cordl_internal_set__creditsSceneSetupData(::GlobalNamespace::CreditsScenesTransitionSetupData* value);
 
   constexpr void __cordl_internal_set__didFinish(bool value);
 
@@ -584,9 +578,9 @@ public:
 
   constexpr void __cordl_internal_set__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x31e7704, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327ee04, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_anchor();
@@ -608,37 +602,37 @@ public:
   CreditsController(CreditsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23172 };
 
-  /// @brief Field _creditsSceneSetupDataSO, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> ____creditsSceneSetupDataSO;
-
-  /// @brief Field _audioPlayer, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _audioPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPlayerBase> ____audioPlayer;
 
-  /// @brief Field _continueButton, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _continueButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
-  /// @brief Field _contentRectTransform, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _contentRectTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentRectTransform;
 
-  /// @brief Field _overflowHeight, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _overflowHeight, offset: 0x38, size: 0x4, def value: None
   float_t ____overflowHeight;
 
-  /// @brief Field _contentWrapper, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _contentWrapper, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentWrapper;
 
-  /// @brief Field _beforeMusicPacksCredits, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _beforeMusicPacksCredits, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____beforeMusicPacksCredits;
 
-  /// @brief Field _afterMusicPacksCredits, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _afterMusicPacksCredits, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____afterMusicPacksCredits;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+  /// @brief Field _xrSystemState, offset: 0x58, size: 0x8, def value: None
+  ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
-  /// @brief Field _packDefinitions, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _packDefinitions, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ____packDefinitions;
+
+  /// @brief Field _creditsSceneSetupData, offset: 0x68, size: 0x8, def value: None
+  ::GlobalNamespace::CreditsScenesTransitionSetupData* ____creditsSceneSetupData;
 
   /// @brief Field _buttonBinder, offset: 0x70, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
@@ -652,25 +646,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____creditsSceneSetupDataSO) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____audioPlayer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____audioPlayer) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____continueButton) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____continueButton) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____contentRectTransform) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____contentRectTransform) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____overflowHeight) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____overflowHeight) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____contentWrapper) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____contentWrapper) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____beforeMusicPacksCredits) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____beforeMusicPacksCredits) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____afterMusicPacksCredits) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____afterMusicPacksCredits) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____xrSystemState) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____vrPlatformHelper) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____packDefinitions) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreditsController, ____packDefinitions) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreditsController, ____creditsSceneSetupData) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreditsController, ____buttonBinder) == 0x70, "Offset mismatch!");
 

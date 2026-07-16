@@ -45,15 +45,15 @@ public:
   /// @brief Field m_Smooth, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  /// @brief Method CopyShape, addr 0x65c0128, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x66fd834, size 0x98, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cone* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x65c0340, size 0xc68, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x66fda4c, size 0xc68, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x65c01c0, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x66fd8cc, size 0x180, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x65c0fa8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66fe6b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   Cone(Cone const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16805 };
 
   /// @brief Field m_NumberOfSides, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_NumberOfSides;

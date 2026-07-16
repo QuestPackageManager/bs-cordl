@@ -36,22 +36,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method Create, addr 0x69afc2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6b035ec, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
-  /// @brief Method GetHandle, addr 0x69afe10, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6b037d0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x69afcfc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b036bc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  /// @brief Method get_Null, addr 0x69afc80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6b03640, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method op_Implicit, addr 0x69afc7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6b0363c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput output);
 
   // Ctor Parameters []
@@ -62,7 +62,7 @@ public:
   constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10661 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

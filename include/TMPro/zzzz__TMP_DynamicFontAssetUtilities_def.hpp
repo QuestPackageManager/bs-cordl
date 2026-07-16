@@ -34,7 +34,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_DynamicFontAssetUtilities_FontReference {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x680d298, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694bd7c, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::StringW fontFilePath, ::StringW faceNameAndStyle, int32_t index);
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   constexpr TMP_DynamicFontAssetUtilities_FontReference(::StringW familyName, ::StringW styleName, int32_t faceIndex, ::StringW filePath, uint64_t hashCode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15880 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -105,18 +105,18 @@ public:
   /// @brief Field s_SystemFontPaths, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_s_SystemFontPaths, put = __cordl_internal_set_s_SystemFontPaths)) ::ArrayW<::StringW> s_SystemFontPaths;
 
-  /// @brief Method InitializeSystemFontReferenceCache, addr 0x680cc98, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method InitializeSystemFontReferenceCache, addr 0x694b77c, size 0x600, virtual false, abstract: false, final false
   inline void InitializeSystemFontReferenceCache();
 
   static inline ::TMPro::TMP_DynamicFontAssetUtilities* New_ctor();
 
-  /// @brief Method TryGetSystemFontReference, addr 0x680d4d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TryGetSystemFontReference, addr 0x694bfb8, size 0x80, virtual false, abstract: false, final false
   static inline bool TryGetSystemFontReference(::StringW familyName, ::by_ref<::TMPro::TMP_DynamicFontAssetUtilities_FontReference> fontRef);
 
-  /// @brief Method TryGetSystemFontReference, addr 0x680d7dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryGetSystemFontReference, addr 0x694c2c0, size 0x84, virtual false, abstract: false, final false
   static inline bool TryGetSystemFontReference(::StringW familyName, ::StringW styleName, ::by_ref<::TMPro::TMP_DynamicFontAssetUtilities_FontReference> fontRef);
 
-  /// @brief Method TryGetSystemFontReferenceInternal, addr 0x680d554, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method TryGetSystemFontReferenceInternal, addr 0x694c038, size 0x288, virtual false, abstract: false, final false
   inline bool TryGetSystemFontReferenceInternal(::StringW familyName, ::StringW styleName, ::by_ref<::TMPro::TMP_DynamicFontAssetUtilities_FontReference> fontRef);
 
   constexpr uint32_t const& __cordl_internal_get_s_RegularStyleNameHashCode() const;
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set_s_SystemFontPaths(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x680d860, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694c344, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_DynamicFontAssetUtilities* getStaticF_s_Instance();
@@ -159,7 +159,7 @@ public:
   TMP_DynamicFontAssetUtilities(TMP_DynamicFontAssetUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15881 };
 
   /// @brief Field s_SystemFontLookup, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint64_t, ::TMPro::TMP_DynamicFontAssetUtilities_FontReference>* ___s_SystemFontLookup;

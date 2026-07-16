@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::OneTimeLightColorEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x584bab8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5983cc4, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__lightsId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x584bb14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5983d20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   OneTimeLightColorEffect(OneTimeLightColorEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5793 };
 
   /// @brief Field _color, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color;

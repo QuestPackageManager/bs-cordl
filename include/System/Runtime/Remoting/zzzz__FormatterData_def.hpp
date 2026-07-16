@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::FormatterData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59ed2a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b26f78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

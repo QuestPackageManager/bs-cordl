@@ -19,12 +19,12 @@ namespace UnityEditor::Analytics {
 class CORDL_TYPE PackageManagerTestAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
   // Declarations
-  /// @brief Method CreatePackageManagerTestAnalytic, addr 0x6cce11c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerTestAnalytic, addr 0x6e21fd4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerTestAnalytic* CreatePackageManagerTestAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerTestAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cce088, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e21f40, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   PackageManagerTestAnalytic(PackageManagerTestAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

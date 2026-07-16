@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AnimationCurveParameter::*)(::UnityEngine::AnimationCurve*, bool)>(
     &::UnityEngine::Rendering::AnimationCurveParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x668b3cc;
+  constexpr static std::size_t addrs = 0x67c8ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AnimationCurveParameter*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AnimationCurveParameter::*)(::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, float_t)>(
     &::UnityEngine::Rendering::AnimationCurveParameter::Interp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x668b430;
+  constexpr static std::size_t addrs = 0x67c8b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AnimationCurveParameter::*)(::UnityEngine::Rendering::VolumeParameter*)>(
     &::UnityEngine::Rendering::AnimationCurveParameter::SetValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x668b43c;
+  constexpr static std::size_t addrs = 0x67c8b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::AnimationCurveParameter::*)()>(&::UnityEngine::Rendering::AnimationCurveParameter::Clone)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x668b4dc;
+  constexpr static std::size_t addrs = 0x67c8be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::AnimationCurveParameter::*)()>(&::UnityEngine::Rendering::AnimationCurveParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x668b5c4;
+  constexpr static std::size_t addrs = 0x67c8cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

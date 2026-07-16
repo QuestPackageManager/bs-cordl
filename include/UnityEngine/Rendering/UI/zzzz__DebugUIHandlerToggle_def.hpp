@@ -51,22 +51,22 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerToggle* New_ctor();
 
-  /// @brief Method OnAction, addr 0x66c36f8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x6800e04, size 0x98, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDeselection, addr 0x66c36a8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6800db4, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnSelection, addr 0x66c3650, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6800d5c, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method OnToggleValueChanged, addr 0x66c362c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnToggleValueChanged, addr 0x6800d38, size 0x24, virtual false, abstract: false, final false
   inline void OnToggleValueChanged(bool value);
 
-  /// @brief Method SetWidget, addr 0x66c34d4, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6800be0, size 0x158, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x66c3790, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6800e9c, size 0xc4, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_checkmarkImage() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x66c3854, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6800f60, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   DebugUIHandlerToggle(DebugUIHandlerToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12510 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

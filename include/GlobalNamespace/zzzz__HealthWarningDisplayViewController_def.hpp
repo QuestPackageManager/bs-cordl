@@ -32,7 +32,7 @@ public:
   /// @brief Field _showShortHealthAndSafety, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get__showShortHealthAndSafety, put = __cordl_internal_set__showShortHealthAndSafety)) bool _showShortHealthAndSafety;
 
-  /// @brief Method DidActivate, addr 0x579fa34, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a13d38, size 0x38, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__showShortHealthAndSafety(bool value);
 
-  /// @brief Method .ctor, addr 0x579fa6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a13d70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   HealthWarningDisplayViewController(HealthWarningDisplayViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6413 };
 
   /// @brief Field _healthAndSafetyTextMesh, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____healthAndSafetyTextMesh;

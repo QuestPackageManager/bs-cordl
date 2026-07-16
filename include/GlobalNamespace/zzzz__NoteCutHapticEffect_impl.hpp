@@ -2,10 +2,10 @@
 // IWYU pragma private; include "GlobalNamespace/NoteCutHapticEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::NoteCutHapticEffect_Type::NoteCutHapticEffect_Type(int32_t value__) noexcept {
   this->value__ = value__;
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)(::GlobalNamespace::SaberType, ::GlobalNamespace::NoteCutHapticEffect_Type)>(
     &::GlobalNamespace::NoteCutHapticEffect::HitNote)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x584b270;
+  constexpr static std::size_t addrs = 0x598347c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,118 +40,118 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)()>(&::GlobalNamespace::NoteCutHapticEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x584b328;
+  constexpr static std::size_t addrs = 0x5983534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutHapticEffect*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__normalPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__normalPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__normalPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__normalPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__normalPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainHeadPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainHeadPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chainHeadPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainHeadPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainHeadPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chainHeadPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__chainHeadPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__chainHeadPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chainHeadPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainLinkPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainLinkPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chainLinkPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainLinkPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__chainLinkPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chainLinkPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__chainLinkPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__chainLinkPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chainLinkPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__bombPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__bombPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__bombPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__bombPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__bombPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__bombPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bombPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__badCutPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__badCutPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__badCutPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__badCutPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__badCutPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__badCutPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____badCutPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcHeadPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcHeadPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__arcHeadPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__arcHeadPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____arcHeadPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcTailPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcTailPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcTailPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcTailPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcTailPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcTailPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__arcTailPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__arcTailPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____arcTailPreset = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadAndTailPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadAndTailPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcHeadAndTailPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadAndTailPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__arcHeadAndTailPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcHeadAndTailPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__arcHeadAndTailPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__arcHeadAndTailPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____arcHeadAndTailPreset = value;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__hapticFeedbackManager() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__hapticFeedbackManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__hapticFeedbackManager() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__hapticFeedbackManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticFeedbackManager = value;
 }

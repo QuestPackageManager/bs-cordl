@@ -101,49 +101,49 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_writeNullMethod();
 
-  /// @brief Method get_BoxPointer, addr 0x602204c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_BoxPointer, addr 0x615d148, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_BoxPointer();
 
-  /// @brief Method get_EnsureArraySizeMethod, addr 0x6022540, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_EnsureArraySizeMethod, addr 0x615d63c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_EnsureArraySizeMethod();
 
-  /// @brief Method get_ExtensionDataSetExplicitMethodInfo, addr 0x6022da4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionDataSetExplicitMethodInfo, addr 0x615dea0, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_ExtensionDataSetExplicitMethodInfo();
 
-  /// @brief Method get_GetCurrentMethod, addr 0x60221e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_GetCurrentMethod, addr 0x615d2dc, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_GetCurrentMethod();
 
-  /// @brief Method get_GetDefaultValueMethod, addr 0x6022b4c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_GetDefaultValueMethod, addr 0x615dc48, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_GetDefaultValueMethod();
 
-  /// @brief Method get_GetHasValueMethod, addr 0x6022cdc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_GetHasValueMethod, addr 0x615ddd8, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_GetHasValueMethod();
 
-  /// @brief Method get_GetNullableValueMethod, addr 0x6022c14, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_GetNullableValueMethod, addr 0x615dd10, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_GetNullableValueMethod();
 
-  /// @brief Method get_HashtableCtor, addr 0x6022380, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_HashtableCtor, addr 0x615d47c, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* get_HashtableCtor();
 
-  /// @brief Method get_IncrementCollectionCountGenericMethod, addr 0x6022a84, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IncrementCollectionCountGenericMethod, addr 0x615db80, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_IncrementCollectionCountGenericMethod();
 
-  /// @brief Method get_IncrementCollectionCountMethod, addr 0x60228c0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method get_IncrementCollectionCountMethod, addr 0x615d9bc, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_IncrementCollectionCountMethod();
 
-  /// @brief Method get_IncrementItemCountMethod, addr 0x6022478, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IncrementItemCountMethod, addr 0x615d574, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_IncrementItemCountMethod();
 
-  /// @brief Method get_MoveNextMethod, addr 0x602211c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_MoveNextMethod, addr 0x615d218, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_MoveNextMethod();
 
-  /// @brief Method get_TrimArraySizeMethod, addr 0x6022608, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_TrimArraySizeMethod, addr 0x615d704, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_TrimArraySizeMethod();
 
-  /// @brief Method get_UnboxPointer, addr 0x60222bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_UnboxPointer, addr 0x615d3b8, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_UnboxPointer();
 
-  /// @brief Method get_WriteNullMethod, addr 0x60226d0, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method get_WriteNullMethod, addr 0x615d7cc, size 0x1f0, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_WriteNullMethod();
 
   static inline void setStaticF_boxPointer(::System::Reflection::MethodInfo* value);
@@ -191,7 +191,7 @@ public:
   XmlFormatGeneratorStatics(XmlFormatGeneratorStatics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

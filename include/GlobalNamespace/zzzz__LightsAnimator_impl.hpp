@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::*)(int32_t)>(
     &::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887124;
+  constexpr static std::size_t addrs = 0x59b7ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5887130;
+  constexpr static std::size_t addrs = 0x59b7f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::MoveNext)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5887134;
+  constexpr static std::size_t addrs = 0x59b7f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887228;
+  constexpr static std::size_t addrs = 0x59b7ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5887230;
+  constexpr static std::size_t addrs = 0x59b8004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887268;
+  constexpr static std::size_t addrs = 0x59b803c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)()>(&::GlobalNamespace::LightsAnimator::Awake)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5886e34;
+  constexpr static std::size_t addrs = 0x59b7c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightsAnimator*>(), { "Awake", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)()>(&::GlobalNamespace::LightsAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5886f14;
+  constexpr static std::size_t addrs = 0x59b7ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightsAnimator*>(), { "OnDestroy", {}, {} })));
@@ -237,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightsAnimator::AnimateToColor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x58841f0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x59b4fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color)>(&::GlobalNamespace::LightsAnimator::SetColor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5886fa0;
+  constexpr static std::size_t addrs = 0x59b7d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color)>(&::GlobalNamespace::LightsAnimator::SetLightsColor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5886fbc;
+  constexpr static std::size_t addrs = 0x59b7d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(float_t)>(&::GlobalNamespace::LightsAnimator::SetLightsWidth)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x58846a4;
+  constexpr static std::size_t addrs = 0x59b5460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(float_t)>(&::GlobalNamespace::LightsAnimator::DisableDirectionalLights)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x588708c;
+  constexpr static std::size_t addrs = 0x59b7e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LightsAnimator::*)(float_t)>(
     &::GlobalNamespace::LightsAnimator::DisableDirectionalLightsCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58870c0;
+  constexpr static std::size_t addrs = 0x59b7e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightsAnimator::*)()>(&::GlobalNamespace::LightsAnimator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x588712c;
+  constexpr static std::size_t addrs = 0x59b7f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightsAnimator*>(), { ".ctor", {}, {} })));

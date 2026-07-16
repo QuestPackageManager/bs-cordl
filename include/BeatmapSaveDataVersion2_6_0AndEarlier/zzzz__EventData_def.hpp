@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set__value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x369f3ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375b444, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::BeatmapSaveDataCommon::BeatmapEventType type, int32_t value, float_t floatValue);
 
-  /// @brief Method get_floatValue, addr 0x369f414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x375b46c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_time, addr 0x369f3fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x375b454, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x369f404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x375b45c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::BeatmapEventType get_type();
 
-  /// @brief Method get_value, addr 0x369f40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x375b464, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -101,7 +101,7 @@ public:
   EventData(EventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15350 };
 
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;

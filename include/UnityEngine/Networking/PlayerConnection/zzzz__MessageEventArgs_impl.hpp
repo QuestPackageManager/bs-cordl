@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::MessageEventArgs::*)()>(
     &::UnityEngine::Networking::PlayerConnection::MessageEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ab0e8;
+  constexpr static std::size_t addrs = 0x6afe7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>(), { ".ctor", {}, {} })));

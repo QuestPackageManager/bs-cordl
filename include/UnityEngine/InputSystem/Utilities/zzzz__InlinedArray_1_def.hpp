@@ -160,7 +160,7 @@ public:
   constexpr InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue> additionalValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9134 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -233,7 +233,7 @@ public:
   constexpr InlinedArray_1_Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9133 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

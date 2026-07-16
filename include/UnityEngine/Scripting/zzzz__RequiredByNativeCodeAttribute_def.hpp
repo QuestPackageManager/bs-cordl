@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6a5f52c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb3008, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6a5f530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb300c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6a5f538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb3014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool optional);
 
-  /// @brief Method set_GenerateProxy, addr 0x6a5f550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x6bb302c, size 0x8, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
-  /// @brief Method set_Name, addr 0x6a5f540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6bb301c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional, addr 0x6a5f548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x6bb3024, size 0x8, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   RequiredByNativeCodeAttribute(RequiredByNativeCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23046 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

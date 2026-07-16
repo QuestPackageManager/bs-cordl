@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::DiagnosticsConfigurationHandler::*)()>(&::System::Diagnostics::DiagnosticsConfigurationHandler::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x623188c;
+  constexpr static std::size_t addrs = 0x636c988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::DiagnosticsConfigurationHandler*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Diagnostics::DiagnosticsConfigurationHandler::*)(::System::Object*, ::System::Object*, ::System::Xml::XmlNode*)>(
     &::System::Diagnostics::DiagnosticsConfigurationHandler::Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x62318c8;
+  constexpr static std::size_t addrs = 0x636c9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Diagnostics::DiagnosticsConfigurationHandler*>(),

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DropdownMenuItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c3ca04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d908bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

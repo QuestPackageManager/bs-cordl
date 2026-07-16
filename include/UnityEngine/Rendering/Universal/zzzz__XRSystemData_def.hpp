@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_xrOcclusionMeshPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6730098, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686ea14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   XRSystemData_ShaderResources(XRSystemData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12714 };
 
   /// @brief Field xrOcclusionMeshPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___xrOcclusionMeshPS;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x6730090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686ea0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   XRSystemData(XRSystemData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12715 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* ___shaders;

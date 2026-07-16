@@ -66,135 +66,135 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method CanCastTo, addr 0x5b5ca74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanCastTo, addr 0x5c9674c, size 0x10, virtual false, abstract: false, final false
   static inline bool CanCastTo(::System::RuntimeType* type, ::System::RuntimeType* target);
 
-  /// @brief Method Equals, addr 0x5b5c734, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c9640c, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::System::RuntimeTypeHandle handle);
 
-  /// @brief Method Equals, addr 0x5b5c64c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c96324, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetArrayRank, addr 0x5b5c9ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetArrayRank, addr 0x5c966c4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetArrayRank(::System::RuntimeType* type);
 
-  /// @brief Method GetAssembly, addr 0x5b5ca08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetAssembly, addr 0x5c966e0, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Reflection::RuntimeAssembly* GetAssembly(::System::RuntimeType* type);
 
-  /// @brief Method GetAttributes, addr 0x5b5c74c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x5c96424, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Reflection::TypeAttributes GetAttributes(::System::RuntimeType* type);
 
-  /// @brief Method GetBaseType, addr 0x5b5ca70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBaseType, addr 0x5c96748, size 0x4, virtual false, abstract: false, final false
   static inline ::System::RuntimeType* GetBaseType(::System::RuntimeType* type);
 
-  /// @brief Method GetCorElementType, addr 0x5b5c7f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCorElementType, addr 0x5c964cc, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Reflection::CorElementType GetCorElementType(::System::RuntimeType* type);
 
-  /// @brief Method GetElementType, addr 0x5b5ca28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetElementType, addr 0x5c96700, size 0x4, virtual false, abstract: false, final false
   static inline ::System::RuntimeType* GetElementType(::System::RuntimeType* type);
 
-  /// @brief Method GetGenericParameterInfo, addr 0x5b5cabc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetGenericParameterInfo, addr 0x5c96794, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetGenericParameterInfo(::System::RuntimeType* type);
 
-  /// @brief Method GetGenericTypeDefinition, addr 0x5b5c7bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeDefinition, addr 0x5c96494, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeDefinition(::System::RuntimeType* type);
 
-  /// @brief Method GetGenericTypeDefinition_impl, addr 0x5b5c7b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeDefinition_impl, addr 0x5c96490, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeDefinition_impl(::System::RuntimeType* type);
 
-  /// @brief Method GetHashCode, addr 0x5b5c744, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c9641c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetMetadataToken, addr 0x5b5c770, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMetadataToken, addr 0x5c96448, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetMetadataToken(::System::RuntimeType* type);
 
-  /// @brief Method GetModule, addr 0x5b5ca2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetModule, addr 0x5c96704, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Reflection::RuntimeModule* GetModule(::System::RuntimeType* type);
 
-  /// @brief Method GetObjectData, addr 0x5b5c4c8, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5c961a0, size 0x184, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetToken, addr 0x5b5c794, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetToken, addr 0x5c9646c, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetToken(::System::RuntimeType* type);
 
-  /// @brief Method GetTypeByName, addr 0x5b5cae8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method GetTypeByName, addr 0x5c967c0, size 0x338, virtual false, abstract: false, final false
   static inline ::System::RuntimeType* GetTypeByName(::StringW typeName, bool throwOnError, bool ignoreCase, bool reflectionOnly, ::by_ref<::System::Threading::StackCrawlMark> stackMark,
                                                      bool loadTypeFromPartialName);
 
-  /// @brief Method HasElementType, addr 0x5b5c890, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HasElementType, addr 0x5c96568, size 0x44, virtual false, abstract: false, final false
   static inline bool HasElementType(::System::RuntimeType* type);
 
-  /// @brief Method HasInstantiation, addr 0x5b5c8d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HasInstantiation, addr 0x5c965ac, size 0x4, virtual false, abstract: false, final false
   static inline bool HasInstantiation(::System::RuntimeType* type);
 
-  /// @brief Method HasReferences, addr 0x5b5c910, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HasReferences, addr 0x5c965e8, size 0x24, virtual false, abstract: false, final false
   static inline bool HasReferences(::System::RuntimeType* type);
 
-  /// @brief Method IsArray, addr 0x5b5c848, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsArray, addr 0x5c96520, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsArray(::System::RuntimeType* type);
 
-  /// @brief Method IsByRef, addr 0x5b5c810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsByRef, addr 0x5c964e8, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsByRef(::System::RuntimeType* type);
 
-  /// @brief Method IsComObject, addr 0x5b5c8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsComObject, addr 0x5c965b0, size 0x8, virtual false, abstract: false, final false
   static inline bool IsComObject(::System::RuntimeType* type);
 
-  /// @brief Method IsComObject, addr 0x5b5c934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsComObject, addr 0x5c9660c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsComObject(::System::RuntimeType* type, bool isGenericCOM);
 
-  /// @brief Method IsContextful, addr 0x5b5c93c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsContextful, addr 0x5c96614, size 0x80, virtual false, abstract: false, final false
   static inline bool IsContextful(::System::RuntimeType* type);
 
-  /// @brief Method IsEquivalentTo, addr 0x5b5c9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEquivalentTo, addr 0x5c96694, size 0x8, virtual false, abstract: false, final false
   static inline bool IsEquivalentTo(::System::RuntimeType* rtType1, ::System::RuntimeType* rtType2);
 
-  /// @brief Method IsGenericTypeDefinition, addr 0x5b5ca88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsGenericTypeDefinition, addr 0x5c96760, size 0x34, virtual false, abstract: false, final false
   static inline bool IsGenericTypeDefinition(::System::RuntimeType* type);
 
-  /// @brief Method IsGenericVariable, addr 0x5b5ca48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsGenericVariable, addr 0x5c96720, size 0x28, virtual false, abstract: false, final false
   static inline bool IsGenericVariable(::System::RuntimeType* type);
 
-  /// @brief Method IsInstanceOfType, addr 0x5b5c8e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsInstanceOfType, addr 0x5c965b8, size 0x30, virtual false, abstract: false, final false
   static inline bool IsInstanceOfType(::System::RuntimeType* type, ::System::Object* o);
 
-  /// @brief Method IsInterface, addr 0x5b5c9c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsInterface, addr 0x5c9669c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsInterface(::System::RuntimeType* type);
 
-  /// @brief Method IsPointer, addr 0x5b5c82c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsPointer, addr 0x5c96504, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsPointer(::System::RuntimeType* type);
 
-  /// @brief Method IsPrimitive, addr 0x5b5c7c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x5c96498, size 0x34, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::RuntimeType* type);
 
-  /// @brief Method IsSubclassOf, addr 0x5b5cac0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsSubclassOf, addr 0x5c96798, size 0x20, virtual false, abstract: false, final false
   static inline bool IsSubclassOf(::System::RuntimeType* childType, ::System::RuntimeType* baseType);
 
-  /// @brief Method IsSzArray, addr 0x5b5c874, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsSzArray, addr 0x5c9654c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsSzArray(::System::RuntimeType* type);
 
-  /// @brief Method .ctor, addr 0x5b5c33c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c96014, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b5c324, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c95ffc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::RuntimeType* type);
 
-  /// @brief Method .ctor, addr 0x5b5c31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c95ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr val);
 
-  /// @brief Method get_Value, addr 0x5b5c4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5c96198, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-  /// @brief Method internal_from_name, addr 0x5b5cae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_from_name, addr 0x5c967bc, size 0x4, virtual false, abstract: false, final false
   static inline ::System::RuntimeType* internal_from_name(::StringW name, ::by_ref<::System::Threading::StackCrawlMark> stackMark, ::System::Reflection::Assembly* callerAssembly, bool throwOnError,
                                                           bool ignoreCase, bool reflectionOnly);
 
-  /// @brief Method is_subclass_of, addr 0x5b5cae0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method is_subclass_of, addr 0x5c967b8, size 0x4, virtual false, abstract: false, final false
   static inline bool is_subclass_of(::System::IntPtr childType, ::System::IntPtr baseType);
 
-  /// @brief Method type_is_assignable_from, addr 0x5b5ca84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method type_is_assignable_from, addr 0x5c9675c, size 0x4, virtual false, abstract: false, final false
   static inline bool type_is_assignable_from(::System::Type* a, ::System::Type* b);
 
   // Ctor Parameters []

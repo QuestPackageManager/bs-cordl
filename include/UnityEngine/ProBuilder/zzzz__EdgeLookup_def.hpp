@@ -54,7 +54,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <GetEdgeLookup>b__0, addr 0x6578ae0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLookup>b__0, addr 0x66b61ec, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EdgeLookup _GetEdgeLookup_b__0(::UnityEngine::ProBuilder::Edge x);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get_lookup() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x657874c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b5e58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   EdgeLookup___c__DisplayClass16_0(EdgeLookup___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16698 };
 
   /// @brief Field lookup, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___lookup;
@@ -110,51 +110,51 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>*();
 
-  /// @brief Method Equals, addr 0x6578204, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x66b5910, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6578174, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x66b5880, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::EdgeLookup other);
 
-  /// @brief Method GetEdgeLookup, addr 0x657863c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLookup, addr 0x66b5d48, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::EdgeLookup>*
   GetEdgeLookup(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method GetEdgeLookupHashSet, addr 0x6578750, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLookupHashSet, addr 0x66b5e5c, size 0x390, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*
   GetEdgeLookupHashSet(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method GetHashCode, addr 0x6578294, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x66b59a0, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x657849c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66b5ba8, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6578154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b5860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Edge common, ::UnityEngine::ProBuilder::Edge local);
 
-  /// @brief Method .ctor, addr 0x657815c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b5868, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t cx, int32_t cy, int32_t x, int32_t y);
 
-  /// @brief Method get_common, addr 0x6578144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_common, addr 0x66b5850, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge get_common();
 
-  /// @brief Method get_local, addr 0x6578134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_local, addr 0x66b5840, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge get_local();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>* i___System__IEquatable_1___UnityEngine__ProBuilder__EdgeLookup_();
 
-  /// @brief Method op_Equality, addr 0x657830c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x66b5a18, size 0xcc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::EdgeLookup a, ::UnityEngine::ProBuilder::EdgeLookup b);
 
-  /// @brief Method op_Inequality, addr 0x65783d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x66b5ae4, size 0xc4, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::EdgeLookup a, ::UnityEngine::ProBuilder::EdgeLookup b);
 
-  /// @brief Method set_common, addr 0x657814c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_common, addr 0x66b5858, size 0x8, virtual false, abstract: false, final false
   inline void set_common(::UnityEngine::ProBuilder::Edge value);
 
-  /// @brief Method set_local, addr 0x657813c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_local, addr 0x66b5848, size 0x8, virtual false, abstract: false, final false
   inline void set_local(::UnityEngine::ProBuilder::Edge value);
 
   // Ctor Parameters []
@@ -166,7 +166,7 @@ public:
   constexpr EdgeLookup(::UnityEngine::ProBuilder::Edge m_Local, ::UnityEngine::ProBuilder::Edge m_Common) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

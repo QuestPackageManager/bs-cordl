@@ -49,13 +49,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
-  /// @brief Method Read, addr 0x35dd908, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3699dc0, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x35dd730, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3699be8, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadPartialDataLength, addr 0x35dd7d8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ReadPartialDataLength, addr 0x3699c90, size 0x130, virtual false, abstract: false, final false
   inline int32_t ReadPartialDataLength();
 
   constexpr int32_t const& __cordl_internal_get_dataLength() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_partial(bool value);
 
-  /// @brief Method .ctor, addr 0x35db73c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3697bf4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
 protected:
@@ -135,33 +135,33 @@ public:
   /// @brief Field nextB, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_nextB, put = __cordl_internal_set_nextB)) int32_t nextB;
 
-  /// @brief Method Close, addr 0x35dd6ac, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3699b64, size 0x84, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method NextPacketTag, addr 0x35daf60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method NextPacketTag, addr 0x3697418, size 0xe4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag NextPacketTag();
 
-  /// @brief Method Read, addr 0x35dae3c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x36972f4, size 0xb0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAll, addr 0x35daeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadAll, addr 0x36973a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadAll();
 
-  /// @brief Method ReadByte, addr 0x35dae04, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x36972bc, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadFully, addr 0x35daf48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x3697400, size 0x18, virtual false, abstract: false, final false
   inline void ReadFully(::ArrayW<uint8_t> buffer);
 
-  /// @brief Method ReadFully, addr 0x35daef4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x36973ac, size 0x54, virtual false, abstract: false, final false
   inline void ReadFully(::ArrayW<uint8_t> buffer, int32_t off, int32_t len);
 
-  /// @brief Method ReadPacket, addr 0x35db044, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x36974fc, size 0x6f8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::Packet* ReadPacket();
 
-  /// @brief Method Wrap, addr 0x35dad44, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Wrap, addr 0x36971fc, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Wrap(::System::IO::Stream* inStr);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_m_in() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_nextB(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35dadd8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3697290, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:

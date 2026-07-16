@@ -25,7 +25,7 @@ public:
   /// @brief Field _privacyPolicyView, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__privacyPolicyView, put = __cordl_internal_set__privacyPolicyView)) ::UnityW<::GlobalNamespace::PrivacyPolicyView> _privacyPolicyView;
 
-  /// @brief Method DidActivate, addr 0x57a73c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a16cd4, size 0x24, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::PrivacyPolicyDisplayViewController* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__privacyPolicyView(::UnityW<::GlobalNamespace::PrivacyPolicyView> value);
 
-  /// @brief Method .ctor, addr 0x57a757c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a16e70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   PrivacyPolicyDisplayViewController(PrivacyPolicyDisplayViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
 
   /// @brief Field _privacyPolicyView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrivacyPolicyView> ____privacyPolicyView;

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x32b24b0;
+  constexpr static std::size_t addrs = 0x336e968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x32b2634;
+  constexpr static std::size_t addrs = 0x336eaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32b2ad0;
+  constexpr static std::size_t addrs = 0x336ef88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x32b2b84;
+  constexpr static std::size_t addrs = 0x336f03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::GetOtherCertIDs)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x32b2d0c;
+  constexpr static std::size_t addrs = 0x336f1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b2e30;
+  constexpr static std::size_t addrs = 0x336f2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(),

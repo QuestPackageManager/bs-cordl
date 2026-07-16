@@ -27,7 +27,7 @@ public:
   /// @brief Field displayMask, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_displayMask, put = __cordl_internal_set_displayMask)) int32_t displayMask;
 
-  /// @brief Method GetGUITargetAttrValue, addr 0x69f50d0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetGUITargetAttrValue, addr 0x6b48bac, size 0x174, virtual false, abstract: false, final false
   static inline int32_t GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName);
 
   constexpr int32_t const& __cordl_internal_get_displayMask() const;
@@ -51,7 +51,7 @@ public:
   GUITargetAttribute(GUITargetAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19858 };
 
   /// @brief Field displayMask, offset: 0x10, size: 0x4, def value: None
   int32_t ___displayMask;

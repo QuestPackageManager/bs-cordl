@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::LicensingErrorAnalytic::*)()>(&::UnityEditor::Analytics::LicensingErrorAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6ccda70;
+  constexpr static std::size_t addrs = 0x6e21928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::LicensingErrorAnalytic*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::LicensingErrorAnalytic* (*)()>(&::UnityEditor::Analytics::LicensingErrorAnalytic::CreateLicensingErrorAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ccdae8;
+  constexpr static std::size_t addrs = 0x6e219a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

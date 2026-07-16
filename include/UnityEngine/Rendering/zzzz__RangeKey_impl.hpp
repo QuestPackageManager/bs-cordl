@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RangeKey::*)(::UnityEngine::Rendering::RangeKey)>(&::UnityEngine::Rendering::RangeKey::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66d3afc;
+  constexpr static std::size_t addrs = 0x6811208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RangeKey::*)()>(&::UnityEngine::Rendering::RangeKey::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x66d3b80;
+  constexpr static std::size_t addrs = 0x681128c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

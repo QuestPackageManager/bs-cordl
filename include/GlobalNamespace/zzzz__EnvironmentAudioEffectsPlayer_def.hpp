@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentAudioEffectsPlayer* New_ctor();
 
-  /// @brief Method PlayEffect, addr 0x577cdf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x58b92a4, size 0x60, virtual false, abstract: false, final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x577ce58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b9304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioSource, addr 0x577cdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSource, addr 0x58b929c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> get_audioSource();
 
 protected:
@@ -63,7 +63,7 @@ public:
   EnvironmentAudioEffectsPlayer(EnvironmentAudioEffectsPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5563 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;

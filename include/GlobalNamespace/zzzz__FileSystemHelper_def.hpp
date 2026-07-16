@@ -23,19 +23,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileSystemHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindFirstExistedParentPath, addr 0x3251bec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FindFirstExistedParentPath, addr 0x330a440, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW FindFirstExistedParentPath(::StringW path);
 
-  /// @brief Method HasWritePermission, addr 0x3251c80, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermission, addr 0x330a4d4, size 0x338, virtual false, abstract: false, final false
   static inline bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity* accessControlList);
 
-  /// @brief Method HasWritePermissionOnDirectory, addr 0x3251fb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermissionOnDirectory, addr 0x330a80c, size 0x14, virtual false, abstract: false, final false
   static inline bool HasWritePermissionOnDirectory(::StringW path);
 
-  /// @brief Method HasWritePermissionOnFile, addr 0x3251fcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermissionOnFile, addr 0x330a820, size 0x14, virtual false, abstract: false, final false
   static inline bool HasWritePermissionOnFile(::StringW path);
 
-  /// @brief Method IsFileWritable, addr 0x3251fe0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsFileWritable, addr 0x330a834, size 0x80, virtual false, abstract: false, final false
   static inline bool IsFileWritable(::StringW path);
 
 protected:
@@ -53,7 +53,7 @@ public:
   FileSystemHelper(FileSystemHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

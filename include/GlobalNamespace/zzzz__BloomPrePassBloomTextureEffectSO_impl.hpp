@@ -6,32 +6,52 @@
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__IUnsafeRenderGraphBuilder_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBloomTextureEffectSO.get_toneMapping
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ToneMapping (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e0ec74;
+  constexpr static std::size_t addrs = 0x5f49d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 12 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassBloomTextureEffectSO.BindAndFetchTempTextureHandles
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)(
+    ::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::RenderTextureDescriptor,
+    ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>)>(&::GlobalNamespace::BloomPrePassBloomTextureEffectSO::BindAndFetchTempTextureHandles)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f49d3c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBloomTextureEffectSO.Render
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
-    &::GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e0ec88;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)(
+    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
+    ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5f49d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 5 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -40,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)()>(&::GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5e0ecf4;
+  constexpr static std::size_t addrs = 0x5f49e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), { ".ctor", {}, {} })));
@@ -205,13 +225,23 @@ constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_intern
 }
 inline ::GlobalNamespace::ToneMapping GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ToneMapping>(this, ___internal_method);
 }
-inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest) {
+inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder,
+                                                                                              ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                                              ::UnityEngine::RenderTextureDescriptor destDesc,
+                                                                                              ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, src, dest);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, builder, renderGraph, destDesc, textureHandles);
+}
+inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src,
+                                                                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
+                                                                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, src, dest, tempTextures);
 }
 inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>(), { ".ctor", {}, {} })));

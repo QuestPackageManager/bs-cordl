@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method .ctor, addr 0x607bb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b6c48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
 
-  /// @brief Method get_TypedValue, addr 0x607bb5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x61b6c58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x607bb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x61b6c50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:
@@ -73,7 +73,7 @@ public:
   XsdSimpleValue(XsdSimpleValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9579 };
 
   /// @brief Field xmlType, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaSimpleType* ___xmlType;

@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__pageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6644cd4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67823e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method get_URL, addr 0x6644d3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_URL, addr 0x6782448, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_URL();
 
-  /// @brief Method get_pageHash, addr 0x6644ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageHash, addr 0x67823d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageHash();
 
-  /// @brief Method get_pageName, addr 0x6644cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageName, addr 0x67823d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageName();
 
 protected:
@@ -73,7 +73,7 @@ public:
   CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12042 };
 
   /// @brief Field <pageName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____pageName_k__BackingField;

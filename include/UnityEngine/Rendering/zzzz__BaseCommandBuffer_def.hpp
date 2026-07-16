@@ -43,19 +43,19 @@ public:
   static inline ::UnityEngine::Rendering::BaseCommandBuffer* New_ctor(::UnityEngine::Rendering::CommandBuffer* wrapped, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* executingPass,
                                                                       bool isAsync);
 
-  /// @brief Method ThrowIfGlobalStateNotAllowed, addr 0x660b5f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfGlobalStateNotAllowed, addr 0x6748d04, size 0x78, virtual false, abstract: false, final false
   inline void ThrowIfGlobalStateNotAllowed();
 
-  /// @brief Method ThrowIfRasterNotAllowed, addr 0x660b670, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfRasterNotAllowed, addr 0x6748d7c, size 0x94, virtual false, abstract: false, final false
   inline void ThrowIfRasterNotAllowed();
 
-  /// @brief Method ValidateTextureHandle, addr 0x660b704, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureHandle, addr 0x6748e10, size 0x1e0, virtual false, abstract: false, final false
   inline void ValidateTextureHandle(::UnityEngine::Rendering::RenderGraphModule::TextureHandle h);
 
-  /// @brief Method ValidateTextureHandleRead, addr 0x660b8e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureHandleRead, addr 0x6748ff0, size 0x18c, virtual false, abstract: false, final false
   inline void ValidateTextureHandleRead(::UnityEngine::Rendering::RenderGraphModule::TextureHandle h);
 
-  /// @brief Method ValidateTextureHandleWrite, addr 0x660ba70, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureHandleWrite, addr 0x674917c, size 0x1f4, virtual false, abstract: false, final false
   inline void ValidateTextureHandleWrite(::UnityEngine::Rendering::RenderGraphModule::TextureHandle h);
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const& __cordl_internal_get_m_ExecutingPass() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_m_WrappedCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x660b5a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748cac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* wrapped, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* executingPass, bool isAsync);
 
-  /// @brief Method get_name, addr 0x660b5c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6748cd4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_sizeInBytes, addr 0x660b5e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x6748cec, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_sizeInBytes();
 
 protected:
@@ -94,7 +94,7 @@ public:
   BaseCommandBuffer(BaseCommandBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11843 };
 
   /// @brief Field m_WrappedCommandBuffer, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ___m_WrappedCommandBuffer;

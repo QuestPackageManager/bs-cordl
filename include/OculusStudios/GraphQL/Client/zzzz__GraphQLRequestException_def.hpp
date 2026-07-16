@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_graphErrorCode(::OculusStudios::GraphQL::ClientInterface::GraphErrorCode value);
 
-  /// @brief Method .ctor, addr 0x5de4860, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1ca88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5de46c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1c8e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x5de4864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1ca8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -70,7 +70,7 @@ public:
   GraphQLRequestException(GraphQLRequestException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20328 };
 
   /// @brief Field graphErrorCode, offset: 0x8c, size: 0x4, def value: None
   ::OculusStudios::GraphQL::ClientInterface::GraphErrorCode ___graphErrorCode;

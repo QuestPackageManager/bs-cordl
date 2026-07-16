@@ -34,15 +34,15 @@ public:
   /// @brief Field enableButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton)) ::UnityW<::UnityEngine::UI::Button> enableButton;
 
-  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x5d97228, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x5ecf450, size 0x84, virtual false, abstract: false, final false
   inline void DisableSimultaneousHandsAndControllers();
 
-  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x5d971a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x5ecf3cc, size 0x84, virtual false, abstract: false, final false
   inline void EnableSimultaneousHandsAndControllers();
 
   static inline ::GlobalNamespace::OVRSimultaneousHandsAndControllersSample* New_ctor();
 
-  /// @brief Method Update, addr 0x5d970a4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ecf2cc, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x5d972ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ecf4d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   OVRSimultaneousHandsAndControllersSample(OVRSimultaneousHandsAndControllersSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7673 };
 
   /// @brief Field enableButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___enableButton;

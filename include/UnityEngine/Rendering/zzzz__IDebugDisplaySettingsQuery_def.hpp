@@ -27,16 +27,16 @@ public:
 
   __declspec(property(get = get_IsPostProcessingAllowed)) bool IsPostProcessingAllowed;
 
-  /// @brief Method TryGetScreenClearColor, addr 0x662a918, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryGetScreenClearColor, addr 0x6768024, size 0x8, virtual true, abstract: false, final false
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
 
   /// @brief Method get_AreAnySettingsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_IsLightingActive, addr 0x662a910, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsLightingActive, addr 0x676801c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsLightingActive();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x662a908, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x6768014, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPostProcessingAllowed();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsQuery", modifiers: "const&", def_value: None }]
@@ -44,7 +44,7 @@ public:
   IDebugDisplaySettingsQuery(IDebugDisplaySettingsQuery const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -14,7 +14,7 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct BeatmapCharacteristic;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicsDropdown___c;
@@ -57,23 +57,23 @@ public:
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* __9;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* __9__7_0;
+  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* __9__7_0;
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* New_ctor();
 
-  /// @brief Method <OnEnable>b__7_0, addr 0x5816530, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _OnEnable_b__7_0(::GlobalNamespace::BeatmapCharacteristicSO* x);
+  /// @brief Method <OnEnable>b__7_0, addr 0x593cf18, size 0x5c, virtual false, abstract: false, final false
+  inline ::StringW _OnEnable_b__7_0(::GlobalNamespace::BeatmapCharacteristic x);
 
-  /// @brief Method .ctor, addr 0x581652c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593cf14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* getStaticF___9__7_0();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* getStaticF___9__7_0();
 
   static inline void setStaticF___9(::GlobalNamespace::BeatmapCharacteristicsDropdown___c* value);
 
-  static inline void setStaticF___9__7_0(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* value);
+  static inline void setStaticF___9__7_0(::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -90,7 +90,7 @@ public:
   BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,7 +98,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicsDropdown___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapCharacteristicSO, UnityEngine.MonoBehaviour
+// Dependencies BeatmapCharacteristic, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapCharacteristicsDropdown
@@ -113,10 +113,10 @@ public:
 
   /// @brief Field _beatmapCharacteristics, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristics,
-                      put = __cordl_internal_set__beatmapCharacteristics)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* _beatmapCharacteristics;
+                      put = __cordl_internal_set__beatmapCharacteristics)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>* _beatmapCharacteristics;
 
   /// @brief Field _notAllowedCharacteristics, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__notAllowedCharacteristics, put = __cordl_internal_set__notAllowedCharacteristics)) ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>
+  __declspec(property(get = __cordl_internal_get__notAllowedCharacteristics, put = __cordl_internal_set__notAllowedCharacteristics)) ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>
       _notAllowedCharacteristics;
 
   /// @brief Field _simpleTextDropdown, offset 0x20, size 0x8
@@ -124,69 +124,69 @@ public:
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
-                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* didSelectCellWithIdxEvent;
+                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* didSelectCellWithIdxEvent;
 
-  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x58161d0, size 0x60, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetSelectedBeatmapCharacteristic();
+  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x593cb7c, size 0x60, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapCharacteristic GetSelectedBeatmapCharacteristic();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x58163a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x593cd8c, size 0x90, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58160ec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x593ca94, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5815edc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x593c884, size 0x210, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x5816230, size 0x98, virtual false, abstract: false, final false
-  inline void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x593cbdc, size 0x98, virtual false, abstract: false, final false
+  inline void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x58162c8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x593cc74, size 0x118, virtual false, abstract: false, final false
   inline void SelectCellWithBeatmapCharacteristic(::StringW serializedName);
 
-  /// @brief Method SetNotAllowedCharacteristics, addr 0x58161c8, size 0x8, virtual false, abstract: false, final false
-  inline void SetNotAllowedCharacteristics(::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics);
+  /// @brief Method SetNotAllowedCharacteristics, addr 0x593cb70, size 0xc, virtual false, abstract: false, final false
+  inline void SetNotAllowedCharacteristics(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& __cordl_internal_get__beatmapCharacteristics() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>* const& __cordl_internal_get__beatmapCharacteristics() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__beatmapCharacteristics();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>*& __cordl_internal_get__beatmapCharacteristics();
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& __cordl_internal_get__notAllowedCharacteristics() const;
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const& __cordl_internal_get__notAllowedCharacteristics() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& __cordl_internal_get__notAllowedCharacteristics();
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>& __cordl_internal_get__notAllowedCharacteristics();
 
   constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
   constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
   constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
-  constexpr void __cordl_internal_set__beatmapCharacteristics(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristics(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  constexpr void __cordl_internal_set__notAllowedCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value);
+  constexpr void __cordl_internal_set__notAllowedCharacteristics(::ArrayW<::GlobalNamespace::BeatmapCharacteristic> value);
 
   constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method .ctor, addr 0x5816434, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593ce1c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x5815d5c, size 0xc0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x593c704, size 0xc0, virtual false, abstract: false, final false
+  inline void add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x5815e1c, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x593c7c4, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
 protected:
   // Ctor Parameters []
@@ -203,7 +203,7 @@ public:
   BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6862 };
 
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
@@ -212,13 +212,13 @@ public:
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ___didSelectCellWithIdxEvent;
+  ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* ___didSelectCellWithIdxEvent;
 
   /// @brief Field _beatmapCharacteristics, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ____beatmapCharacteristics;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristic>* ____beatmapCharacteristics;
 
   /// @brief Field _notAllowedCharacteristics, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> ____notAllowedCharacteristics;
+  ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> ____notAllowedCharacteristics;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

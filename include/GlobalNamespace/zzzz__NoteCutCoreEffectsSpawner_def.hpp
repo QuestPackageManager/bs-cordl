@@ -103,31 +103,31 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderInteractionManagers,
                       put = __cordl_internal_set__sliderInteractionManagers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
-  /// @brief Method HandleNoteWasCut, addr 0x5850a88, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x5988cdc, size 0x19c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x58510cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x5989328, size 0x98, virtual false, abstract: false, final false
   inline bool IsArcHapticsCurrentlyActive(::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::NoteCutCoreEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58509f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5988c44, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x5851060, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x59892bc, size 0x6c, virtual false, abstract: false, final false
   inline void PlayHitChainNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, bool isChainHead);
 
-  /// @brief Method PlayHitNoteHapticEffect, addr 0x5850f0c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlayHitNoteHapticEffect, addr 0x5989164, size 0x104, virtual false, abstract: false, final false
   inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method SpawnBombCutEffect, addr 0x5851010, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SpawnBombCutEffect, addr 0x5989268, size 0x54, virtual false, abstract: false, final false
   inline void SpawnBombCutEffect(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method SpawnNoteCutEffect, addr 0x5850c24, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteCutEffect, addr 0x5988e78, size 0x2ec, virtual false, abstract: false, final false
   inline void SpawnNoteCutEffect(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount,
                                  int32_t explosionParticlesCount);
 
-  /// @brief Method Start, addr 0x585084c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5988aa0, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManagers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
-  /// @brief Method .ctor, addr 0x5851a3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5989c98, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,7 +217,7 @@ public:
   NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5810 };
 
   /// @brief Field kBurstSliderElementParticlesCount offset 0xffffffff size 0x4
   static constexpr int32_t kBurstSliderElementParticlesCount{ static_cast<int32_t>(0x14) };

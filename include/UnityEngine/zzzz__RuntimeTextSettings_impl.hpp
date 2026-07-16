@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RuntimeTextSettings> (*)()>(&::UnityEngine::RuntimeTextSettings::get_defaultTextSettings)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69fa9b4;
+  constexpr static std::size_t addrs = 0x6b4e490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RuntimeTextSettings*>(), { "get_defaultTextSettings", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::RuntimeTextSettings::*)()>(&::UnityEngine::RuntimeTextSettings::GetFontShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69faa74;
+  constexpr static std::size_t addrs = 0x6b4e550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (::UnityEngine::RuntimeTextSettings::*)()>(
     &::UnityEngine::RuntimeTextSettings::GetStaticFallbackOSFontAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69faac8;
+  constexpr static std::size_t addrs = 0x6b4e5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeTextSettings::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*)>(
     &::UnityEngine::RuntimeTextSettings::SetStaticFallbackOSFontAsset)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69fab14;
+  constexpr static std::size_t addrs = 0x6b4e5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeTextSettings::*)()>(&::UnityEngine::RuntimeTextSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fab64;
+  constexpr static std::size_t addrs = 0x6b4e640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RuntimeTextSettings*>(), { ".ctor", {}, {} })));

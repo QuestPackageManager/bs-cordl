@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Scripting::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69a8624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afbd04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   PreserveAttribute(PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

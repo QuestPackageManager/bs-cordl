@@ -56,13 +56,13 @@ public:
   /// @brief Field _kernelSize, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__kernelSize, put = __cordl_internal_set__kernelSize)) ::GlobalNamespace::KawaseBlurRendererSO_KernelSize _kernelSize;
 
-  /// @brief Method CamerasDict, addr 0x5e06ffc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CamerasDict, addr 0x5f3ed60, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent, addr 0x5e07058, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x5f3edbc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
-  /// @brief Method CreateCommandBuffer, addr 0x5e06ef8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CreateCommandBuffer, addr 0x5f3ec5c, size 0x104, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::CommandBufferBlurryScreenGrab* New_ctor();
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__kernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value);
 
-  /// @brief Method .ctor, addr 0x5e07060, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3edc4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
@@ -113,7 +113,7 @@ public:
   CommandBufferBlurryScreenGrab(CommandBufferBlurryScreenGrab const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20869 };
 
   /// @brief Field _kawaseBlurRenderer, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;

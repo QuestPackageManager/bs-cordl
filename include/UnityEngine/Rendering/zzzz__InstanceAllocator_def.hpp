@@ -26,28 +26,28 @@ public:
 
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method AllocateInstance, addr 0x66e07e4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AllocateInstance, addr 0x681def0, size 0x148, virtual false, abstract: false, final false
   inline int32_t AllocateInstance();
 
-  /// @brief Method Dispose, addr 0x66e0774, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x681de80, size 0x70, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeInstance, addr 0x66e092c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FreeInstance, addr 0x681e038, size 0x60, virtual false, abstract: false, final false
   inline void FreeInstance(int32_t instance);
 
-  /// @brief Method GetNumAllocated, addr 0x66e098c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetNumAllocated, addr 0x681e098, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetNumAllocated();
 
-  /// @brief Method Initialize, addr 0x66e06bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x681ddc8, size 0xb8, virtual false, abstract: false, final false
   inline void Initialize(int32_t baseInstanceOffset, int32_t instanceStride);
 
-  /// @brief Method get_length, addr 0x66e0658, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x681dd64, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_length();
 
-  /// @brief Method get_valid, addr 0x66e0670, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x681dd7c, size 0x4c, virtual false, abstract: false, final false
   inline bool get_valid();
 
-  /// @brief Method set_length, addr 0x66e0664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x681dd70, size 0xc, virtual false, abstract: false, final false
   inline void set_length(int32_t value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
                               int32_t m_InstanceStride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17661 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

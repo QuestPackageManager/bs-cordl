@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::*)()>(
     &::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::GetVariableNames)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x32080ec;
+  constexpr static std::size_t addrs = 0x329eaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::*)(
     ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData*)>(&::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::set_Data)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32081e8;
+  constexpr static std::size_t addrs = 0x329eb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* (
     ::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::*)()>(&::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::get_Data)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3208268;
+  constexpr static std::size_t addrs = 0x329ec1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::*)()>(
     &::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3208318;
+  constexpr static std::size_t addrs = 0x329eccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::*)()>(
     &::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x320832c;
+  constexpr static std::size_t addrs = 0x329ece0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry*>(), { ".ctor", {}, {} })));

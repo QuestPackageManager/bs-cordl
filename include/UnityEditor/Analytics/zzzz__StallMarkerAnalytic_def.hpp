@@ -30,7 +30,7 @@ public:
   /// @brief Field Name, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
-  /// @brief Method CreateStallMarkerAnalytic, addr 0x6ccea8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateStallMarkerAnalytic, addr 0x6e22944, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::StallMarkerAnalytic* CreateStallMarkerAnalytic();
 
   static inline ::UnityEditor::Analytics::StallMarkerAnalytic* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ccea14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e228cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   StallMarkerAnalytic(StallMarkerAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22972 };
 
   /// @brief Field Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___Name;

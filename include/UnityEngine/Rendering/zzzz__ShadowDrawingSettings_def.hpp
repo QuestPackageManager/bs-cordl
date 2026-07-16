@@ -38,22 +38,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>*();
 
-  /// @brief Method Equals, addr 0x69d1738, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b25074, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x69d1450, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b24d8c, size 0x170, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShadowDrawingSettings other);
 
-  /// @brief Method GetHashCode, addr 0x69d17f4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b25130, size 0xc0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x69d12d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b24c10, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CullingResults cullingResults, int32_t lightIndex);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>* i___System__IEquatable_1___UnityEngine__Rendering__ShadowDrawingSettings_();
 
-  /// @brief Method set_useRenderingLayerMaskTest, addr 0x69d12c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useRenderingLayerMaskTest, addr 0x6b24c04, size 0xc, virtual false, abstract: false, final false
   inline void set_useRenderingLayerMaskTest(bool value);
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
                                   ::UnityEngine::Rendering::BatchCullingProjectionType m_ProjectionType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10805 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x128 };

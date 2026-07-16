@@ -74,30 +74,30 @@ public:
   /// @brief Field _rigidbody, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody)) ::UnityW<::UnityEngine::Rigidbody> _rigidbody;
 
-  /// @brief Method Awake, addr 0x31f2d14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3287820, size 0xac, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x31f2f94, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3287aa0, size 0x174, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarJumpEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x31f2f68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3287a74, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x31f2f10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3287a1c, size 0x2c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x31f2f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3287a18, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnInject, addr 0x31f2dc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnInject, addr 0x32878cc, size 0x4, virtual false, abstract: false, final false
   inline void OnInject();
 
-  /// @brief Method TrySubscribe, addr 0x31f2dc4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method TrySubscribe, addr 0x32878d0, size 0x148, virtual false, abstract: false, final false
   inline void TrySubscribe();
 
-  /// @brief Method TryUnsubscribe, addr 0x31f2f3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryUnsubscribe, addr 0x3287a48, size 0x2c, virtual false, abstract: false, final false
   inline void TryUnsubscribe();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x31f3108, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3287c14, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,7 +184,7 @@ public:
   HydraulicCarJumpEffect(HydraulicCarJumpEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23447 };
 
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;

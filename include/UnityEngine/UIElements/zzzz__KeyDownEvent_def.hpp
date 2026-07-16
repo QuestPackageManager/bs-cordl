@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c46fe4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d9ae9c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::KeyDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6c46fe0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9ae98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::KeyDownEvent___c* getStaticF___9();
@@ -81,18 +81,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::KeyDownEvent___c;
 
-  /// @brief Method GetEquivalentImguiEvent, addr 0x6c463dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetEquivalentImguiEvent, addr 0x6d9a294, size 0xfc, virtual false, abstract: false, final false
   inline void GetEquivalentImguiEvent(::UnityEngine::Event* outImguiEvent);
 
   static inline ::UnityEngine::UIElements::KeyDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6c464d8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6d9a390, size 0x110, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x6c465e8, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x6d9a4a0, size 0x6dc, virtual false, abstract: false, final false
   inline void SendEquivalentNavigationEventIfAny(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6c46f40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9adf8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -25,7 +25,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1,
                                                                                  ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
-  /// @brief Method .ctor, addr 0x656d354, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66aaa60, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
 protected:
@@ -43,7 +43,7 @@ public:
   DTSweepConstraint(DTSweepConstraint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

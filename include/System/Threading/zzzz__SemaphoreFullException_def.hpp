@@ -29,10 +29,10 @@ public:
 
   static inline ::System::Threading::SemaphoreFullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b6d014, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca6cec, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b6d064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca6d3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

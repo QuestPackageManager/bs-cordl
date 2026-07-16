@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_checkingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x58ceaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59fd6c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
 protected:
@@ -69,7 +69,7 @@ public:
   SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6304 };
 
   /// @brief Field checkingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___checkingEnabled;
@@ -125,10 +125,10 @@ public:
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method Start, addr 0x58ce7dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59fd3a8, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58ce840, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59fd40c, size 0x250, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenInsideSafeArea() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x58cea90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59fd65c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,7 +209,7 @@ public:
   SafeAreaRectChecker(SafeAreaRectChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6305 };
 
   /// @brief Field _minAngleX, offset: 0x20, size: 0x4, def value: None
   float_t ____minAngleX;

@@ -25,7 +25,7 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetSizeOptimized, addr 0x591c5d8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetSizeOptimized, addr 0x5a55cdc, size 0x124, virtual false, abstract: false, final false
   static inline void SetSizeOptimized(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Vector2 offsetMin, ::UnityEngine::Vector2 offsetMax, ::UnityEngine::Vector2 fixedDimensions,
                                       bool setAnchoredPosition);
 
@@ -44,7 +44,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

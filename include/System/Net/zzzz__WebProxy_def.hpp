@@ -91,37 +91,37 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method AreAllBypassed, addr 0x62e456c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method AreAllBypassed, addr 0x6420608, size 0x2d4, virtual false, abstract: false, final false
   static inline bool AreAllBypassed(::System::Collections::Generic::IEnumerable_1<::StringW>* proxies, bool checkFirstOnly);
 
-  /// @brief Method CreateDefaultProxy, addr 0x62e44fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultProxy, addr 0x6420598, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* CreateDefaultProxy();
 
-  /// @brief Method GetObjectData, addr 0x62e43bc, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x6420458, size 0x138, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetProxy, addr 0x62e3870, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method GetProxy, addr 0x641f90c, size 0x184, virtual true, abstract: false, final true
   inline ::System::Uri* GetProxy(::System::Uri* destination);
 
-  /// @brief Method GetProxyAuto, addr 0x62e39f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetProxyAuto, addr 0x641fa90, size 0x5c, virtual false, abstract: false, final false
   inline bool GetProxyAuto(::System::Uri* destination, ::by_ref<::System::Uri*> proxyUri);
 
-  /// @brief Method IsBypassed, addr 0x62e3f14, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method IsBypassed, addr 0x641ffb0, size 0xdc, virtual true, abstract: false, final true
   inline bool IsBypassed(::System::Uri* host);
 
-  /// @brief Method IsBypassedAuto, addr 0x62e3ff0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsBypassedAuto, addr 0x642008c, size 0x4c, virtual false, abstract: false, final false
   inline bool IsBypassedAuto(::System::Uri* destination, ::by_ref<bool> isBypassed);
 
-  /// @brief Method IsBypassedManual, addr 0x62e3a50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsBypassedManual, addr 0x641faec, size 0xd0, virtual false, abstract: false, final false
   inline bool IsBypassedManual(::System::Uri* host);
 
-  /// @brief Method IsLocal, addr 0x62e3cc0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsLocal, addr 0x641fd5c, size 0x170, virtual false, abstract: false, final false
   inline bool IsLocal(::System::Uri* host);
 
-  /// @brief Method IsLocalInProxyHash, addr 0x62e3e30, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsLocalInProxyHash, addr 0x641fecc, size 0xe4, virtual false, abstract: false, final false
   inline bool IsLocalInProxyHash(::System::Uri* host);
 
-  /// @brief Method IsMatchInBypassList, addr 0x62e3b20, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsMatchInBypassList, addr 0x641fbbc, size 0x1a0, virtual false, abstract: false, final false
   inline bool IsMatchInBypassList(::System::Uri* input);
 
   static inline ::System::Net::WebProxy* New_ctor();
@@ -132,17 +132,17 @@ public:
 
   static inline ::System::Net::WebProxy* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method ProxyUri, addr 0x62e4840, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ProxyUri, addr 0x64208dc, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Uri* ProxyUri(::StringW proxyName);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x62e43b0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x642044c, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method UnsafeUpdateFromRegistry, addr 0x62e43a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UnsafeUpdateFromRegistry, addr 0x6420440, size 0xc, virtual false, abstract: false, final false
   inline void UnsafeUpdateFromRegistry();
 
-  /// @brief Method UpdateRegExList, addr 0x62e3530, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method UpdateRegExList, addr 0x641f5cc, size 0x240, virtual false, abstract: false, final false
   inline void UpdateRegExList(bool canThrow);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__BypassList() const;
@@ -199,25 +199,25 @@ public:
 
   constexpr void __cordl_internal_set_m_ScriptEngine(::System::Net::AutoWebProxyScriptEngine* value);
 
-  /// @brief Method .ctor, addr 0x62e343c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x641f4d8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x62e348c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x641f528, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, ::System::Net::ICredentials* Credentials);
 
-  /// @brief Method .ctor, addr 0x62e4550, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64205ec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool enableAutoproxy);
 
-  /// @brief Method .ctor, addr 0x62e403c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64200d8, size 0x368, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Credentials, addr 0x62e3770, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Credentials, addr 0x641f80c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::ICredentials* get_Credentials();
 
-  /// @brief Method get_ScriptEngine, addr 0x62e44f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScriptEngine, addr 0x6420590, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::AutoWebProxyScriptEngine* get_ScriptEngine();
 
-  /// @brief Method get_UseDefaultCredentials, addr 0x62e3778, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_UseDefaultCredentials, addr 0x641f814, size 0x80, virtual false, abstract: false, final false
   inline bool get_UseDefaultCredentials();
 
   /// @brief Convert to "::System::Net::IWebProxy"
@@ -226,7 +226,7 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_UseDefaultCredentials, addr 0x62e37f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_UseDefaultCredentials, addr 0x641f894, size 0x78, virtual false, abstract: false, final false
   inline void set_UseDefaultCredentials(bool value);
 
 protected:
@@ -244,7 +244,7 @@ public:
   WebProxy(WebProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11536 };
 
   /// @brief Field _UseRegistry, offset: 0x10, size: 0x1, def value: None
   bool ____UseRegistry;

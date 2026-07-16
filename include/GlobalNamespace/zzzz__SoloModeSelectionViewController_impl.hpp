@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*)>(
     &::GlobalNamespace::SoloModeSelectionViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57acf48;
+  constexpr static std::size_t addrs = 0x5a1c9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*)>(
     &::GlobalNamespace::SoloModeSelectionViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57ad008;
+  constexpr static std::size_t addrs = 0x5a1ca6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SoloModeSelectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x57ad0c8;
+  constexpr static std::size_t addrs = 0x5a1cb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)(::GlobalNamespace::SoloModeSelectionViewController_MenuType)>(
     &::GlobalNamespace::SoloModeSelectionViewController::HandleMenuButton)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x57ad308;
+  constexpr static std::size_t addrs = 0x5a1cd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(&::GlobalNamespace::SoloModeSelectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57ad330;
+  constexpr static std::size_t addrs = 0x5a1cd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloModeSelectionViewController*>(), { ".ctor", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(&::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x57ad334;
+  constexpr static std::size_t addrs = 0x5a1cd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloModeSelectionViewController*>(), { "<DidActivate>b__8_0", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(&::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x57ad358;
+  constexpr static std::size_t addrs = 0x5a1cdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloModeSelectionViewController*>(), { "<DidActivate>b__8_1", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(&::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x57ad37c;
+  constexpr static std::size_t addrs = 0x5a1cde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloModeSelectionViewController*>(), { "<DidActivate>b__8_2", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(&::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x57ad3a0;
+  constexpr static std::size_t addrs = 0x5a1ce04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloModeSelectionViewController*>(), { "<DidActivate>b__8_3", {}, {} })));

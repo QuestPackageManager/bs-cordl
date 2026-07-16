@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::ISystemDependencyProvider* (*)()>(&::Mono::DependencyInjector::get_SystemProvider)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x597278c;
+  constexpr static std::size_t addrs = 0x5aab0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::DependencyInjector*>(), { "get_SystemProvider", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::ISystemDependencyProvider*)>(&::Mono::DependencyInjector::Register)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5972ab0;
+  constexpr static std::size_t addrs = 0x5aab41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::ISystemDependencyProvider* (*)()>(&::Mono::DependencyInjector::ReflectionLoad)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5972998;
+  constexpr static std::size_t addrs = 0x5aab304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::DependencyInjector*>(), { "ReflectionLoad", {}, {} })));

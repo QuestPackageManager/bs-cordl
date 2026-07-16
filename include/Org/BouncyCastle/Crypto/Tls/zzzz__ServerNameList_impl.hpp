@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ServerNameList::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33b07f8;
+  constexpr static std::size_t addrs = 0x346ccb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Tls::ServerNameList::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::get_ServerNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33b0850;
+  constexpr static std::size_t addrs = 0x346cd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ServerNameList::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::ServerNameList::Encode)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x33b0858;
+  constexpr static std::size_t addrs = 0x346cd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::ServerNameList* (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::ServerNameList::Parse)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x33b0d98;
+  constexpr static std::size_t addrs = 0x346d250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::ServerNameList::CheckNameType)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33b0cec;
+  constexpr static std::size_t addrs = 0x346d1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::ServerNameList*>(),

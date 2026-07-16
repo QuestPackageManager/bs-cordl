@@ -35,30 +35,30 @@ namespace UnityEngine::UI {
 class CORDL_TYPE MaskUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindRootSortOverrideCanvas, addr 0x6ca88f0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindRootSortOverrideCanvas, addr 0x6dfc7a8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
 
-  /// @brief Method GetRectMaskForClippable, addr 0x6ca95a4, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method GetRectMaskForClippable, addr 0x6dfd45c, size 0x458, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UI::RectMask2D> GetRectMaskForClippable(::UnityEngine::UI::IClippable* clippable);
 
-  /// @brief Method GetRectMasksForClip, addr 0x6ca9f68, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method GetRectMasksForClip, addr 0x6dfde20, size 0x3ac, virtual false, abstract: false, final false
   static inline void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* masks);
 
-  /// @brief Method GetStencilDepth, addr 0x6ca8ab0, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method GetStencilDepth, addr 0x6dfc968, size 0x2a0, virtual false, abstract: false, final false
   static inline int32_t GetStencilDepth(::UnityEngine::Transform* transform, ::UnityEngine::Transform* stopAfter);
 
-  /// @brief Method IsDescendantOrSelf, addr 0x6ca9e18, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOrSelf, addr 0x6dfdcd0, size 0x150, virtual false, abstract: false, final false
   static inline bool IsDescendantOrSelf(::UnityEngine::Transform* father, ::UnityEngine::Transform* child);
 
   static inline ::UnityEngine::UI::MaskUtilities* New_ctor();
 
-  /// @brief Method Notify2DMaskStateChanged, addr 0x6ca9b98, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Notify2DMaskStateChanged, addr 0x6dfda50, size 0x280, virtual false, abstract: false, final false
   static inline void Notify2DMaskStateChanged(::UnityEngine::Component* mask);
 
-  /// @brief Method NotifyStencilStateChanged, addr 0x6ca8144, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method NotifyStencilStateChanged, addr 0x6dfbffc, size 0x27c, virtual false, abstract: false, final false
   static inline void NotifyStencilStateChanged(::UnityEngine::Component* mask);
 
-  /// @brief Method .ctor, addr 0x6caa314, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dfe1cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   MaskUtilities(MaskUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17439 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

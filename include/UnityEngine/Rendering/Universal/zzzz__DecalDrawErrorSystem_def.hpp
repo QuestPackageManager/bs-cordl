@@ -39,10 +39,10 @@ public:
   /// @brief Field m_Technique, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Technique, put = __cordl_internal_set_m_Technique)) ::UnityEngine::Rendering::Universal::DecalTechnique m_Technique;
 
-  /// @brief Method GetMaterial, addr 0x6713b0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x68526c8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk);
 
-  /// @brief Method GetPassIndex, addr 0x6713a9c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetPassIndex, addr 0x6852658, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
   static inline ::UnityEngine::Rendering::Universal::DecalDrawErrorSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager,
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Technique(::UnityEngine::Rendering::Universal::DecalTechnique value);
 
-  /// @brief Method .ctor, addr 0x6713a0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68525c8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, ::UnityEngine::Rendering::Universal::DecalTechnique technique);
 
 protected:
@@ -72,7 +72,7 @@ public:
   DecalDrawErrorSystem(DecalDrawErrorSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12654 };
 
   /// @brief Field m_Technique, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DecalTechnique ___m_Technique;

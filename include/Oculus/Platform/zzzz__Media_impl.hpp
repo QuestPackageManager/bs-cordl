@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* (*)(::StringW, ::StringW, ::Oculus::Platform::MediaContentType)>(
     &::Oculus::Platform::Media::ShareToFacebook)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5cb0028;
+  constexpr static std::size_t addrs = 0x5de8250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

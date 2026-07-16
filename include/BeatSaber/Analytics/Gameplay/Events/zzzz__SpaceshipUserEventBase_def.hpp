@@ -46,15 +46,15 @@ public:
   /// @brief Field user_type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_user_type, put = __cordl_internal_set_user_type)) ::StringW user_type;
 
-  /// @brief Method ApplyBasicFields, addr 0x31d1090, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x3264e70, size 0x128, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method GetIDType, addr 0x31d17a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x3265580, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x31d17a8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x3265588, size 0x4c, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
   constexpr ::System::Nullable_1<uint64_t> const& __cordl_internal_get_app_id() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_user_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31d0d40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3264b20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   SpaceshipUserEventBase(SpaceshipUserEventBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22270 };
 
   /// @brief Field seg_id, offset: 0x28, size: 0x8, def value: None
   ::StringW ___seg_id;

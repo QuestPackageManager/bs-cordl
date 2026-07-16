@@ -49,21 +49,21 @@ public:
   /// @brief Field _selectedClip, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedClip, put = __cordl_internal_set__selectedClip)) ::UnityW<::UnityEngine::AnimationClip> _selectedClip;
 
-  /// @brief Method Awake, addr 0x57420ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58892c8, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x5742158, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x5889374, size 0x124, virtual false, abstract: false, final false
   inline void HandleInputFieldViewSelectionStateDidChange(::HMUI::InputFieldView_SelectionState state);
 
   static inline ::HMUI::InputFieldViewStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5742294, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58894b0, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x574227c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5889498, size 0x18, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x5742138, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5889354, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__didStart() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x57423a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58895c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   InputFieldViewStaticAnimations(InputFieldViewStaticAnimations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19187 };
 
   /// @brief Field _inputFieldView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____inputFieldView;

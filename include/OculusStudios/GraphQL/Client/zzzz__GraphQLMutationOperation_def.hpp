@@ -34,10 +34,10 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLMutationOperation* New_ctor();
 
-  /// @brief Method SetData, addr 0x5de7790, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5f1f9b8, size 0x80, virtual false, abstract: false, final false
   inline void SetData(::System::Object* o);
 
-  /// @brief Method .ctor, addr 0x5de7810, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1fa38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation"
@@ -58,7 +58,7 @@ public:
   GraphQLMutationOperation(GraphQLMutationOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

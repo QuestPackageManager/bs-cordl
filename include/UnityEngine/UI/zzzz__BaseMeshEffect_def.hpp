@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMeshModifier"
   constexpr operator ::UnityEngine::UI::IMeshModifier*() noexcept;
 
-  /// @brief Method ModifyMesh, addr 0x6cbc654, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x6e1050c, size 0x174, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::Mesh* mesh);
 
   /// @brief Method ModifyMesh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UI::BaseMeshEffect* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6cbc5b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6e1046c, size 0xa0, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x6cbc514, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6e103cc, size 0xa0, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6cbc474, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e1032c, size 0xa0, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Graphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  /// @brief Method .ctor, addr 0x6cbc7c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e10680, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x6cbc3d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x6e10290, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   /// @brief Convert to "::UnityEngine::UI::IMeshModifier"
@@ -86,7 +86,7 @@ public:
   BaseMeshEffect(BaseMeshEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17482 };
 
   /// @brief Field m_Graphic, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Graphic;

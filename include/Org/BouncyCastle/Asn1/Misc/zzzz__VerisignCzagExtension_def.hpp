@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x339925c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3455714, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3399224, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34556dc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:

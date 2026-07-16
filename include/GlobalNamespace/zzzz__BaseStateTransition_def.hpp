@@ -46,60 +46,60 @@ public:
 
   __declspec(property(get = get_tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
 
-  /// @brief Method HandleSelectableStateControllerStateDidChange, addr 0x630100c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableStateControllerStateDidChange, addr 0x643d1ac, size 0xcc, virtual false, abstract: false, final false
   inline void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::SelectableStateController_ViewState state, bool animated);
 
   static inline ::GlobalNamespace::BaseStateTransition* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6300f70, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x643d110, size 0x9c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x6300e24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x643cfc4, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6300cc4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x643ce64, size 0xa0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetDisabledState, addr 0x6301100, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x643d2a0, size 0x4, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x63010f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x643d298, size 0x4, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x63010f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x643d294, size 0x4, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x63010fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x643d29c, size 0x4, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x6301108, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x643d2a8, size 0x4, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x6301104, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x643d2a4, size 0x4, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method SetState, addr 0x6300c3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x643cddc, size 0x88, virtual false, abstract: false, final false
   inline void SetState(::GlobalNamespace::SelectableStateController_ViewState viewState);
 
-  /// @brief Method StopCurrentTransitionAnimation, addr 0x63010f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StopCurrentTransitionAnimation, addr 0x643d290, size 0x4, virtual true, abstract: false, final false
   inline void StopCurrentTransitionAnimation();
 
-  /// @brief Method TransitionToDisabledState, addr 0x63010e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x643d284, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToHighlightedState, addr 0x63010dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x643d27c, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToNormalState, addr 0x63010d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x643d278, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToPressedState, addr 0x63010e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x643d280, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x63010ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x643d28c, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToSelectedState, addr 0x63010e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x643d288, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
   constexpr ::UnityW<::GlobalNamespace::SelectableStateController> const& __cordl_internal_get__selectableStateController() const;
@@ -114,13 +114,13 @@ public:
 
   constexpr void __cordl_internal_set__viewState(::GlobalNamespace::SelectableStateController_ViewState value);
 
-  /// @brief Method .ctor, addr 0x630110c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643d2ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_transition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
-  /// @brief Method get_tweeningManager, addr 0x6300c24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_tweeningManager, addr 0x643cdc4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
 protected:
@@ -138,7 +138,7 @@ public:
   BaseStateTransition(BaseStateTransition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22275 };
 
   /// @brief Field _selectableStateController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectableStateController> ____selectableStateController;

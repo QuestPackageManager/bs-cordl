@@ -3,7 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HierarchyManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupData_def.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)()>(&::HMUI::HierarchyManager::Start)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x323b31c;
+  constexpr static std::size_t addrs = 0x32f2d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HierarchyManager*>(), { "Start", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)()>(&::HMUI::HierarchyManager::OnDestroy)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x323b4e0;
+  constexpr static std::size_t addrs = 0x32f2ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HierarchyManager*>(), { "OnDestroy", {}, {} })));
@@ -35,10 +35,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyMa
 //  Writing Method size for method: ::HMUI::HierarchyManager.HandleSceneTransitionDidFinish
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*,
                                                                                           ::Zenject::DiContainer*)>(&::HMUI::HierarchyManager::HandleSceneTransitionDidFinish)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x323b434;
+  constexpr static std::size_t addrs = 0x32f2e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyMa
         (::i2c::find_method(::i2c::class_of<::HMUI::HierarchyManager*>(), { "HandleSceneTransitionDidFinish",
                                                                             {},
                                                                             { ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneTransitionType>(),
-                                                                              ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                              ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::HMUI::HierarchyManager::HandleBeforeDismissingScenes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x323b658;
+  constexpr static std::size_t addrs = 0x32f3060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)(::HMUI::FlowCoordinator*)>(&::HMUI::HierarchyManager::StartWithFlowCoordinator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x323b704;
+  constexpr static std::size_t addrs = 0x32f310c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HierarchyManager::*)()>(&::HMUI::HierarchyManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x323b724;
+  constexpr static std::size_t addrs = 0x32f312c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HierarchyManager*>(), { ".ctor", {}, {} })));
@@ -135,13 +135,13 @@ inline void HMUI::HierarchyManager::OnDestroy() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void HMUI::HierarchyManager::HandleSceneTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
-                                                                   ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container) {
+                                                                   ::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, ::Zenject::DiContainer* container) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::HMUI::HierarchyManager*>(), { "HandleSceneTransitionDidFinish",
                                                                           {},
                                                                           { ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneTransitionType>(),
-                                                                            ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                            ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sceneTransitionType, scenesTransitionSetupData, container);
 }
 inline void HMUI::HierarchyManager::HandleBeforeDismissingScenes(::System::Collections::Generic::IReadOnlyList_1<::StringW>* _) {

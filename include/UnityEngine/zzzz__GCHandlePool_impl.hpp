@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GCHandlePool::*)()>(&::UnityEngine::GCHandlePool::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68dca10;
+  constexpr static std::size_t addrs = 0x6a33928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GCHandlePool*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (::UnityEngine::GCHandlePool::*)(::System::Object*)>(&::UnityEngine::GCHandlePool::Alloc)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68ded74;
+  constexpr static std::size_t addrs = 0x6a35c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GCHandlePool*>(), { "Alloc", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::GCHandlePool::*)(::System::Object*)>(&::UnityEngine::GCHandlePool::AllocHandleIfNotNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68dede4;
+  constexpr static std::size_t addrs = 0x6a35cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GCHandlePool::*)(::System::Runtime::InteropServices::GCHandle)>(&::UnityEngine::GCHandlePool::Free)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x68dd278;
+  constexpr static std::size_t addrs = 0x6a34190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

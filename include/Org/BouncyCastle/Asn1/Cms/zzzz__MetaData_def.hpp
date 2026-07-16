@@ -60,7 +60,7 @@ public:
   /// @brief Field otherMetaData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_otherMetaData, put = __cordl_internal_set_otherMetaData)) ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData;
 
-  /// @brief Method GetInstance, addr 0x329e704, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335abbc, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName,
@@ -68,7 +68,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x329e7a4, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x335ac5c, size 0x1ac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String* const& __cordl_internal_get_fileName() const;
@@ -95,23 +95,23 @@ public:
 
   constexpr void __cordl_internal_set_otherMetaData(::Org::BouncyCastle::Asn1::Cms::Attributes* value);
 
-  /// @brief Method .ctor, addr 0x329e4e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335a99c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName, ::Org::BouncyCastle::Asn1::DerIA5String* mediaType,
                     ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
 
-  /// @brief Method .ctor, addr 0x329e4f0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335a9a8, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_FileName, addr 0x329e970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x335ae28, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_FileName();
 
-  /// @brief Method get_IsHashProtected, addr 0x329e950, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsHashProtected, addr 0x335ae08, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsHashProtected();
 
-  /// @brief Method get_MediaType, addr 0x329e978, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MediaType, addr 0x335ae30, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_MediaType();
 
-  /// @brief Method get_OtherMetaData, addr 0x329e980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OtherMetaData, addr 0x335ae38, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attributes* get_OtherMetaData();
 
 protected:

@@ -5,18 +5,19 @@
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupData_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayLevelSceneTransitionEvents.add_anyGameplayLevelDidFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::System::Action*)>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x57eee38;
+  constexpr static std::size_t addrs = 0x590c814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::System::Action*)>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::remove_anyGameplayLevelDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x57eeee4;
+  constexpr static std::size_t addrs = 0x590c8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
@@ -42,31 +43,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*)>(
+    ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionLevelScenesTransitionSetupData*)>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x57eef90;
+  constexpr static std::size_t addrs = 0x590c96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
                                                                                            { ".ctor",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(),
-                                                                                               ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(),
-                                                                                               ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>() } })));
+                                                                                             { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(),
+                                                                                               ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(),
+                                                                                               ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameplayLevelSceneTransitionEvents.Finalize
+//  Writing Method size for method: ::GlobalNamespace::GameplayLevelSceneTransitionEvents.Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)()>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::Finalize)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x57ef45c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)()>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::Dispose)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x590cd78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(), 1 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
@@ -74,16 +74,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish)> {
+    ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ef958;
+  constexpr static std::size_t addrs = 0x590d168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
-            { "HandleStandardLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
+            { "HandleStandardLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
     return ___internal_method;
   }
 };
@@ -91,10 +91,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*)>(
+    static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerResultsData*)>(
         &::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ef990;
+  constexpr static std::size_t addrs = 0x590d1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
                                          { "HandleMultiplayerLevelDidFinish",
                                            {},
-                                           { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::MultiplayerResultsData*>() } })));
+                                           { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::MultiplayerResultsData*>() } })));
     return ___internal_method;
   }
 };
@@ -110,17 +110,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::DisconnectedReason)>(
+    static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::DisconnectedReason)>(
         &::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidDisconnect)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ef9ac;
+  constexpr static std::size_t addrs = 0x590d1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
                                                 { "HandleMultiplayerLevelDidDisconnect",
                                                   {},
-                                                  { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::DisconnectedReason>() } })));
+                                                  { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::DisconnectedReason>() } })));
     return ___internal_method;
   }
 };
@@ -128,16 +128,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(
-    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish)> {
+    ::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ef9c8;
+  constexpr static std::size_t addrs = 0x590d1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
-            { "HandleMissionLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::MissionCompletionResults*>() } })));
+            { "HandleMissionLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::MissionCompletionResults*>() } })));
     return ___internal_method;
   }
 };
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)()>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::InvokeAnyGameplayLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ef974;
+  constexpr static std::size_t addrs = 0x590d184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,48 +155,43 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__standardLevelScenesTransitionSetupData() {
+constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupData*& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__standardLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelScenesTransitionSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const&
-GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__standardLevelScenesTransitionSetupData() const {
+constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupData* const& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__standardLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelScenesTransitionSetupData;
 }
-constexpr void
-GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value) {
+constexpr void GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_set__standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____standardLevelScenesTransitionSetupData = value;
 }
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__missionLevelScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____missionLevelScenesTransitionSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const&
-GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__missionLevelScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____missionLevelScenesTransitionSetupData;
-}
-constexpr void
-GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____missionLevelScenesTransitionSetupData = value;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>&
-GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() {
+constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLevelScenesTransitionSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const&
+constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* const&
 GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLevelScenesTransitionSetupData;
 }
 constexpr void
-GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value) {
+GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplayerLevelScenesTransitionSetupData = value;
+}
+constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData*& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__missionLevelScenesTransitionSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____missionLevelScenesTransitionSetupData;
+}
+constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData* const& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get__missionLevelScenesTransitionSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____missionLevelScenesTransitionSetupData;
+}
+constexpr void GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_set__missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____missionLevelScenesTransitionSetupData = value;
 }
 constexpr ::System::Action*& GlobalNamespace::GameplayLevelSceneTransitionEvents::__cordl_internal_get_anyGameplayLevelDidFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -220,59 +215,57 @@ inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::remove_anyGamep
                                                                                          { "remove_anyGameplayLevelDidFinishEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
-                                                                       ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
-                                                                       ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData) {
+inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
+                                                                       ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
+                                                                       ::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
                                                                                          { ".ctor",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(),
-                                                                                             ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(),
-                                                                                             ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, standardLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData);
+                                                                                           { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(),
+                                                                                             ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(),
+                                                                                             ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, standardLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData);
 }
-inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::Finalize() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(), 1 })));
+inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
+inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
                                                                                               ::GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
-          { "HandleStandardLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
+          { "HandleStandardLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, standardLevelScenesTransitionSetupData, levelCompletionResults);
 }
 inline void
-GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
+GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
                                                                                      ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
-                                       { "HandleMultiplayerLevelDidFinish",
-                                         {},
-                                         { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::MultiplayerResultsData*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
+                                              { "HandleMultiplayerLevelDidFinish",
+                                                {},
+                                                { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::MultiplayerResultsData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, multiplayerLevelScenesTransitionSetupData, multiplayerResultsData);
 }
 inline void
-GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidDisconnect(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
+GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidDisconnect(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
                                                                                          ::GlobalNamespace::DisconnectedReason disconnectedReason) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
                                               { "HandleMultiplayerLevelDidDisconnect",
                                                 {},
-                                                { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::DisconnectedReason>() } })));
+                                                { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::DisconnectedReason>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, multiplayerLevelScenesTransitionSetupData, disconnectedReason);
 }
-inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
+inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData,
                                                                                              ::GlobalNamespace::MissionCompletionResults* missionCompletionResults) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(),
-          { "HandleMissionLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::MissionCompletionResults*>() } })));
+          { "HandleMissionLevelDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::MissionCompletionResults*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, missionLevelScenesTransitionSetupData, missionCompletionResults);
 }
 inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::InvokeAnyGameplayLevelDidFinish() {
@@ -281,11 +274,19 @@ inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::InvokeAnyGamepl
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::GlobalNamespace::GameplayLevelSceneTransitionEvents*
-GlobalNamespace::GameplayLevelSceneTransitionEvents::New_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
-                                                              ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
-                                                              ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(standardLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData,
-                                                                                                                  multiplayerLevelScenesTransitionSetupData));
+GlobalNamespace::GameplayLevelSceneTransitionEvents::New_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
+                                                              ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
+                                                              ::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayLevelSceneTransitionEvents*>(standardLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData,
+                                                                                                                  missionLevelScenesTransitionSetupData));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::GameplayLevelSceneTransitionEvents::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::GameplayLevelSceneTransitionEvents::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents::GameplayLevelSceneTransitionEvents() {}

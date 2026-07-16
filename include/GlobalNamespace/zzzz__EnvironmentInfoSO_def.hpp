@@ -93,7 +93,7 @@ public:
   static ::GlobalNamespace::EnvironmentInfoSO_Tags const InDevelopment;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14808 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -249,46 +249,46 @@ public:
 
   constexpr void __cordl_internal_set__tags(::GlobalNamespace::EnvironmentInfoSO_Tags value);
 
-  /// @brief Method .ctor, addr 0x3649504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3705994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x364949c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x370592c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method get_defaultLightshowAsset, addr 0x36494dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_defaultLightshowAsset, addr 0x370596c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::TextAsset> get_defaultLightshowAsset();
 
-  /// @brief Method get_environmentIntensityReductionOptions, addr 0x36494c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentIntensityReductionOptions, addr 0x3705954, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
 
-  /// @brief Method get_environmentKeywords, addr 0x36494cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_environmentKeywords, addr 0x370595c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
-  /// @brief Method get_environmentLightGroups, addr 0x36494d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_environmentLightGroups, addr 0x3705964, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IEnvironmentLightGroups* get_environmentLightGroups();
 
-  /// @brief Method get_environmentName, addr 0x3649494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x3705924, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_environmentSceneName, addr 0x36494ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentSceneName, addr 0x370593c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentSceneName();
 
-  /// @brief Method get_environmentSizeData, addr 0x36494bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentSizeData, addr 0x370594c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
 
-  /// @brief Method get_environmentType, addr 0x36494b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentType, addr 0x3705944, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentType get_environmentType();
 
-  /// @brief Method get_isBranded, addr 0x36494ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isBranded, addr 0x370597c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isBranded();
 
-  /// @brief Method get_isInDevelopment, addr 0x36494f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isInDevelopment, addr 0x3705988, size 0xc, virtual false, abstract: false, final false
   inline bool get_isInDevelopment();
 
-  /// @brief Method get_order, addr 0x36494e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x3705974, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method get_serializedName, addr 0x36494a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x3705934, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentInfo"
@@ -309,7 +309,7 @@ public:
   EnvironmentInfoSO(EnvironmentInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14809 };
 
   /// @brief Field kEnvironmentScenesSuffix offset 0xffffffff size 0x8
   static constexpr ::ConstString kEnvironmentScenesSuffix{ u"Environment" };

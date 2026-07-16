@@ -36,7 +36,7 @@ public:
   /// @brief Field _waypoints, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__waypoints, put = __cordl_internal_set__waypoints)) ::ArrayW<::BeatmapSaveDataVersion4::Waypoint> _waypoints;
 
-  /// @brief Method Convert, addr 0x36a30d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x375f110, size 0xfc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::WaypointItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint> waypoints, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__waypoints(::ArrayW<::BeatmapSaveDataVersion4::Waypoint> value);
 
-  /// @brief Method .ctor, addr 0x36a2b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375eb90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint> waypoints, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -65,7 +65,7 @@ public:
   WaypointItemConverter(WaypointItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15403 };
 
   /// @brief Field _waypoints, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::Waypoint> ____waypoints;

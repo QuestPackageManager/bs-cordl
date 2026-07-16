@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__revision(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a30610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6a2e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
 protected:

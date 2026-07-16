@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Android::AndroidLocale::*)()>(&::UnityEngine::Android::AndroidLocale::get_country)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d84ac;
+  constexpr static std::size_t addrs = 0x6a2f3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidLocale*>(), { "get_country", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Android::AndroidLocale::*)()>(&::UnityEngine::Android::AndroidLocale::get_language)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d84b4;
+  constexpr static std::size_t addrs = 0x6a2f3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidLocale*>(), { "get_language", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidLocale::*)(::StringW, ::StringW)>(&::UnityEngine::Android::AndroidLocale::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d84bc;
+  constexpr static std::size_t addrs = 0x6a2f3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

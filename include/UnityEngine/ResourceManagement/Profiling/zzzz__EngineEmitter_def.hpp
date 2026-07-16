@@ -38,18 +38,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Profiling::IProfilerEmitter"
   constexpr operator ::UnityEngine::ResourceManagement::Profiling::IProfilerEmitter*() noexcept;
 
-  /// @brief Method EmitFrameMetaData, addr 0x67e0260, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method EmitFrameMetaData, addr 0x691ed44, size 0x4, virtual true, abstract: false, final true
   inline void EmitFrameMetaData(::System::Guid id, int32_t tag, ::System::Array* data);
 
-  /// @brief Method InitialiseCallbacks, addr 0x67e0264, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method InitialiseCallbacks, addr 0x691ed48, size 0x58, virtual true, abstract: false, final true
   inline void InitialiseCallbacks(::System::Action_1<float_t>* d);
 
   static inline ::UnityEngine::ResourceManagement::Profiling::EngineEmitter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67e02bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691eda0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEnabled, addr 0x67e0238, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x691ed1c, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Profiling::IProfilerEmitter"
@@ -70,7 +70,7 @@ public:
   EngineEmitter(EngineEmitter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -100,23 +100,23 @@ public:
 
   __declspec(property(get = get_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method GetContact, addr 0x6a1ab68, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetContact, addr 0x6b6e644, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::ContactPoint GetContact(int32_t index);
 
-  /// @brief Method GetContacts, addr 0x6a1ad74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetContacts, addr 0x6b6e850, size 0x94, virtual false, abstract: false, final false
   inline int32_t GetContacts(::ArrayW<::UnityEngine::ContactPoint> contacts);
 
-  /// @brief Method GetContacts, addr 0x6a1ae08, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetContacts, addr 0x6b6e8e4, size 0x168, virtual false, abstract: false, final false
   inline int32_t GetContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* contacts);
 
-  /// @brief Method GetEnumerator, addr 0x6a1b154, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6b6ec30, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::UnityEngine::Collision* New_ctor();
 
   static inline ::UnityEngine::Collision* New_ctor(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
 
-  /// @brief Method Reuse, addr 0x6a1ab38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Reuse, addr 0x6b6e614, size 0x30, virtual false, abstract: false, final false
   inline void Reuse(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair);
 
   constexpr bool const& __cordl_internal_get_m_Flipped() const;
@@ -143,55 +143,55 @@ public:
 
   constexpr void __cordl_internal_set_m_Pair(::UnityEngine::ContactPair value);
 
-  /// @brief Method .ctor, addr 0x6a1aa6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6e548, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6a1aa88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6e564, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
 
-  /// @brief Method get_Flipped, addr 0x6a1a8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flipped, addr 0x6b6e37c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Flipped();
 
-  /// @brief Method get_articulationBody, addr 0x6a1a53c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_articulationBody, addr 0x6b6e018, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_articulationBody();
 
-  /// @brief Method get_body, addr 0x6a1a524, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_body, addr 0x6b6e000, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_body();
 
-  /// @brief Method get_collider, addr 0x6a1a678, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x6b6e154, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_contactCount, addr 0x6a1a8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactCount, addr 0x6b6e38c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contactCount();
 
-  /// @brief Method get_contacts, addr 0x6a1a8b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_contacts, addr 0x6b6e394, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ContactPoint> get_contacts();
 
-  /// @brief Method get_frictionForceSum, addr 0x6a1b1c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_frictionForceSum, addr 0x6b6ec9c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_frictionForceSum();
 
-  /// @brief Method get_gameObject, addr 0x6a1a808, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x6b6e2e4, size 0x98, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_impactForceSum, addr 0x6a1b170, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_impactForceSum, addr 0x6b6ec4c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impactForceSum();
 
-  /// @brief Method get_impulse, addr 0x6a1a468, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x6b6df44, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_other, addr 0x6a1b210, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_other, addr 0x6b6ecec, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_other();
 
-  /// @brief Method get_relativeVelocity, addr 0x6a1a474, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_relativeVelocity, addr 0x6b6df50, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_relativeVelocity();
 
-  /// @brief Method get_rigidbody, addr 0x6a1a4a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_rigidbody, addr 0x6b6df7c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
 
-  /// @brief Method get_transform, addr 0x6a1a770, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x6b6e24c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method set_Flipped, addr 0x6a1a8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Flipped, addr 0x6b6e384, size 0x8, virtual false, abstract: false, final false
   inline void set_Flipped(bool value);
 
 protected:
@@ -209,7 +209,7 @@ public:
   Collision(Collision const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18580 };
 
   /// @brief Field m_Header, offset: 0x10, size: 0x28, def value: None
   ::UnityEngine::ContactPairHeader ___m_Header;

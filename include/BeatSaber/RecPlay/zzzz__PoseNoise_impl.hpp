@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::BeatSaber::RecPlay::PoseNoise::*)(float_t)>(&::BeatSaber::RecPlay::PoseNoise::Sample)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x322d5ac;
+  constexpr static std::size_t addrs = 0x32c4270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PoseNoise>(), { "Sample", {}, { ::i2c::type_of<float_t>() } })));
@@ -19,8 +19,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::Be
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(float_t)>(&::BeatSaber::RecPlay::PoseNoise::SampleLemniscateOfBernoulli)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x322d674;
+  constexpr static std::size_t size = 0x440;
+  constexpr static std::size_t addrs = 0x32c4338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

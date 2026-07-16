@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit::*)(
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b74e0;
+  constexpr static std::size_t addrs = 0x67f4bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

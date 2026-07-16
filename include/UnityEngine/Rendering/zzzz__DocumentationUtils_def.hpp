@@ -26,7 +26,7 @@ public:
   /// @brief Method GetHelpURL, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEnum> static inline ::StringW GetHelpURL(TEnum mask);
 
-  /// @brief Method TryGetHelpURL, addr 0x6645348, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetHelpURL, addr 0x6782a54, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetHelpURL(::System::Type* type, ::by_ref<::StringW> url);
 
 protected:
@@ -44,7 +44,7 @@ public:
   DocumentationUtils(DocumentationUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1189,24 +1189,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b07ba4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5ba5c, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b07c48, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5bb00, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-  /// @brief Method .ctor, addr 0x6b0715c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b014, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b07b9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5ba54, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b07b14, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5b9cc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b07b58, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5ba10, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1245,24 +1245,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b07d90, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5bc48, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignItemsProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b07e38, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5bcf0, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-  /// @brief Method .ctor, addr 0x6b071b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b06c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b07d88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5bc40, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b07d00, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5bbb8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b07d44, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5bbfc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1301,24 +1301,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b07f80, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5be38, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignSelfProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b08028, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5bee0, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-  /// @brief Method .ctor, addr 0x6b0720c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b0c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b07f78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5be30, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b07ef0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5bda8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b07f34, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5bdec, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1356,7 +1356,7 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0832c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5c1e4, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1395,24 +1395,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b08170, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5c028, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b08244, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5c0fc, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b07264, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b11c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b08168, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5c020, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b080e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5bf98, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b08124, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5bfdc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1450,7 +1450,7 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b08784, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5c63c, size 0x5e0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1489,24 +1489,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b085c8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5c480, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackground GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundImageProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0869c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5c554, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackground value);
 
-  /// @brief Method .ctor, addr 0x6b07268, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b085c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5c478, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b08538, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5c3f0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0857c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5c434, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1543,7 +1543,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b08f5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5ce14, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1582,24 +1582,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b08df4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5ccac, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackgroundPosition GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionXProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b08e9c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5cd54, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundPosition value);
 
-  /// @brief Method .ctor, addr 0x6b0726c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b124, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b08dec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5cca4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b08d64, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5cc1c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b08da8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5cc60, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1638,24 +1638,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b09038, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5cef0, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackgroundPosition GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionYProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b090e0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5cf98, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundPosition value);
 
-  /// @brief Method .ctor, addr 0x6b07270, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b128, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b09030, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5cee8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b08fa8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5ce60, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b08fec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5cea4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1691,7 +1691,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b093a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5d258, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1730,24 +1730,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b09230, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5d0e8, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackgroundRepeat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundRepeatProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b092e0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5d198, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundRepeat value);
 
-  /// @brief Method .ctor, addr 0x6b07274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b12c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b09228, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5d0e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b091a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5d058, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b091e4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5d09c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1783,7 +1783,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b09634, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5d4ec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1822,24 +1822,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0947c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5d334, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackgroundSize GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundSizeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0954c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5d404, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundSize value);
 
-  /// @brief Method .ctor, addr 0x6b07278, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b130, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b09474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5d32c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b093ec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5d2a4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b09430, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5d2e8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1878,24 +1878,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b09710, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5d5c8, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b097e4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5d69c, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b0727c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b134, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b09708, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5d5c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b09680, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5d538, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b096c4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5d57c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -1933,7 +1933,7 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b09acc, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5d984, size 0x394, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1972,24 +1972,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0995c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5d814, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b09a0c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5d8c4, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b138, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b09954, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5d80c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b098cc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5d784, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b09910, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5d7c8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2028,24 +2028,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b09ef0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5dda8, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b09fa0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5de58, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07284, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b13c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b09ee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5dda0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b09e60, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5dd18, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b09ea4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5dd5c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2083,7 +2083,7 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0a250, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5e108, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2122,24 +2122,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0a0f0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5dfa8, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0a198, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5e050, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b07288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b140, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0a0e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5dfa0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0a060, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5df18, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0a0a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5df5c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2178,24 +2178,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0a4ec, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5e3a4, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0a5c0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5e478, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b0728c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b144, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0a4e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5e39c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0a45c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5e314, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0a4a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5e358, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2234,24 +2234,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0a738, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5e5f0, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0a7e0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5e698, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b07290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b148, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0a730, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5e5e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0a6a8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5e560, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0a6ec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5e5a4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2290,24 +2290,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0a928, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5e7e0, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0a9fc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5e8b4, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b07294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b14c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0a920, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5e7d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0a898, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5e750, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0a8dc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5e794, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2346,24 +2346,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0ab74, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5ea2c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0ac1c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5ead4, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b07298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b150, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0ab6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5ea24, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0aae4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5e99c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0ab28, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5e9e0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2402,24 +2402,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0ad64, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5ec1c, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0ae38, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5ecf0, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b0729c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b154, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0ad5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5ec14, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0acd4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5eb8c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0ad18, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5ebd0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2458,24 +2458,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0afb0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5ee68, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0b060, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5ef18, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b072a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0afa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5ee60, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0af20, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5edd8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0af64, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5ee1c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2514,24 +2514,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0b1b0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5f068, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0b260, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5f118, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b072a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b15c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0b1a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5f060, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0b120, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5efd8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0b164, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5f01c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2570,24 +2570,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0b3b0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5f268, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0b458, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5f310, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b072a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b160, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0b3a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5f260, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0b320, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5f1d8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0b364, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5f21c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2626,24 +2626,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0b5a0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5f458, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BottomProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0b650, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5f508, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b072ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b164, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0b598, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5f450, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0b510, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5f3c8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0b554, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5f40c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2682,24 +2682,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0b7a0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5f658, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0b874, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5f72c, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b072b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b168, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0b798, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5f650, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0b710, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5f5c8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0b754, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5f60c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2735,7 +2735,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0bb90, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5fa48, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2774,24 +2774,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0b9ec, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5f8a4, size 0xcc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleCursor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_CursorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0bab8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5f970, size 0xd8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleCursor value);
 
-  /// @brief Method .ctor, addr 0x6b072b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b16c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0b9e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5f89c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0b95c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5f814, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0b9a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5f858, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2830,24 +2830,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0bc6c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5fb24, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_DisplayProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0bd14, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5fbcc, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> value);
 
-  /// @brief Method .ctor, addr 0x6b072b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b170, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0bc64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5fb1c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0bbdc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5fa94, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0bc20, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5fad8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2886,24 +2886,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0be5c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5fd14, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexBasisProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0bf0c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5fdc4, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07310, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b1c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0be54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5fd0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0bdcc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5fc84, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0be10, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5fcc8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2943,24 +2943,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0c05c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c5ff14, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexDirectionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0c104, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c5ffbc, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> value);
 
-  /// @brief Method .ctor, addr 0x6b07314, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b1cc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0c054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c5ff0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0bfcc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c5fe84, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0c010, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c5fec8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -2999,24 +2999,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0c24c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c60104, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexGrowProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0c2f4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c601ac, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b0736c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0c244, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c600fc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0c1bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60074, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0c200, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c600b8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3055,24 +3055,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0c43c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c602f4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexShrinkProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0c4e4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6039c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b07370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0c434, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c602ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0c3ac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60264, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0c3f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c602a8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3111,24 +3111,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0c62c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c604e4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexWrapProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0c6d4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6058c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> value);
 
-  /// @brief Method .ctor, addr 0x6b07374, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b22c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0c624, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c604dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0c59c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60454, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0c5e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c60498, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3167,24 +3167,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0c81c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c606d4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FontSizeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0c8cc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c60784, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b073cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b284, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0c814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c606cc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0c78c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60644, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0c7d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c60688, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3223,24 +3223,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0ca1c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c608d4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0cacc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c60984, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b073d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b288, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0ca14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c608cc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0c98c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60844, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0c9d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c60888, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3279,24 +3279,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0cc1c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c60ad4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0ccc4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c60b7c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> value);
 
-  /// @brief Method .ctor, addr 0x6b073d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b28c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0cc14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c60acc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0cb8c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60a44, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0cbd0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c60a88, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3335,24 +3335,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0ce0c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c60cc4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LeftProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0cebc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c60d74, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b0742c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0ce04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c60cbc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0cd7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60c34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0cdc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c60c78, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3391,24 +3391,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0d00c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c60ec4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LetterSpacingProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0d0bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c60f74, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0d004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c60ebc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0cf7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c60e34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0cfc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c60e78, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3447,24 +3447,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0d20c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c610c4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginBottomProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0d2bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61174, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0d204, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c610bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0d17c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61034, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0d1c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61078, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3503,24 +3503,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0d40c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c612c4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginLeftProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0d4bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61374, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0d404, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c612bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0d37c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61234, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0d3c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61278, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3559,24 +3559,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0d60c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c614c4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginRightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0d6bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61574, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b0743c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0d604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c614bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0d57c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61434, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0d5c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61478, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3615,24 +3615,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0d80c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c616c4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginTopProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0d8bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61774, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07440, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0d804, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c616bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0d77c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61634, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0d7c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61678, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3671,24 +3671,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0da0c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c618c4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxHeightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0dabc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61974, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b2fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0da04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c618bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0d97c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61834, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0d9c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61878, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3727,24 +3727,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0dc0c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c61ac4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0dcbc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61b74, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07448, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0dc04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c61abc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0db7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61a34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0dbc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61a78, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3783,24 +3783,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0de0c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c61cc4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinHeightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0debc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61d74, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b0744c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0de04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c61cbc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0dd7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61c34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0ddc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61c78, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3839,24 +3839,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0e00c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c61ec4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0e0bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c61f74, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07450, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b308, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0e004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c61ebc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0df7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c61e34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0dfc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c61e78, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3895,24 +3895,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0e20c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c620c4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OpacityProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0e2b4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6216c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b07454, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b30c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0e204, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c620bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0e17c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62034, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0e1c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62078, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -3951,24 +3951,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0e3fc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c622b4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OverflowProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0e4a4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6235c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> value);
 
-  /// @brief Method .ctor, addr 0x6b07458, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b310, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0e3f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c622ac, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0e36c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62224, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0e3b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62268, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4007,24 +4007,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0e5ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c624a4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingBottomProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0e69c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c62554, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b074b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b368, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0e5e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6249c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0e55c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62414, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0e5a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62458, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4063,24 +4063,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0e7ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c626a4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingLeftProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0e89c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c62754, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b074b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b36c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0e7e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6269c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0e75c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62614, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0e7a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62658, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4119,24 +4119,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0e9ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c628a4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingRightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0ea9c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c62954, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b074b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b370, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0e9e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6289c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0e95c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62814, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0e9a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62858, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4175,24 +4175,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0ebec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c62aa4, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingTopProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0ec9c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c62b54, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b074bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b374, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0ebe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c62a9c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0eb5c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62a14, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0eba0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62a58, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4231,24 +4231,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0edec, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c62ca4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PositionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0ee94, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c62d4c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> value);
 
-  /// @brief Method .ctor, addr 0x6b074c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b378, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0ede4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c62c9c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0ed5c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62c14, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0eda0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62c58, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4287,24 +4287,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0efdc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c62e94, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0f08c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c62f44, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b3d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0efd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c62e8c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0ef4c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c62e04, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0ef90, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c62e48, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4340,7 +4340,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0f398, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c63250, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -4379,24 +4379,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0f1dc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c63094, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRotate GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RotateProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0f2b0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c63168, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleRotate value);
 
-  /// @brief Method .ctor, addr 0x6b0751c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b3d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0f1d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6308c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0f14c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c63004, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0f190, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c63048, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4432,7 +4432,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0f630, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c634e8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -4471,24 +4471,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0f474, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c6332c, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleScale GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ScaleProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0f548, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c63400, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleScale value);
 
-  /// @brief Method .ctor, addr 0x6b07520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b3d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0f46c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c63324, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0f3e4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c6329c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0f428, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c632e0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4527,24 +4527,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0f70c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c635c4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextOverflowProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0f7b4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6366c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> value);
 
-  /// @brief Method .ctor, addr 0x6b07524, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b3dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0f704, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c635bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0f67c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c63534, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0f6c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c63578, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4580,7 +4580,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0faa0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c63958, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -4619,24 +4619,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0f8fc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c637b4, size 0xcc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleTextShadow GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextShadowProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0f9c8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c63880, size 0xd8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleTextShadow value);
 
-  /// @brief Method .ctor, addr 0x6b0757c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b434, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0f8f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c637ac, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0f86c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c63724, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0f8b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c63768, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4675,24 +4675,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0fb7c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c63a34, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TopProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0fc2c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c63ae4, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07580, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b438, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0fb74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c63a2c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0faec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c639a4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0fb30, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c639e8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4728,7 +4728,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0ff34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c63dec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -4767,24 +4767,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b0fd7c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c63c34, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleTransformOrigin GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransformOriginProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b0fe4c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c63d04, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleTransformOrigin value);
 
-  /// @brief Method .ctor, addr 0x6b07584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b43c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b0fd74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c63c2c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0fcec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c63ba4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0fd30, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c63be8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4859,24 +4859,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b10010, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c63ec8, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDelayProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b100b8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c63f70, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> value);
 
-  /// @brief Method .ctor, addr 0x6b07588, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b440, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b10008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c63ec0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b0ff80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c63e38, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b0ffc4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c63e7c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4916,24 +4916,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b10208, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c640c0, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDurationProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b102b0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c64168, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> value);
 
-  /// @brief Method .ctor, addr 0x6b075e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b498, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b10200, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c640b8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b10178, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64030, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b101bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c64074, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -4973,24 +4973,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b10400, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c642b8, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b104a8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c64360, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> value);
 
-  /// @brief Method .ctor, addr 0x6b07638, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b4f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b103f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c642b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b10370, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64228, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b103b4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6426c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5030,24 +5030,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b105f8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c644b0, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b106a0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c64558, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> value);
 
-  /// @brief Method .ctor, addr 0x6b07690, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b548, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b105f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c644a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b10568, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64420, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b105ac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c64464, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5083,7 +5083,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b109ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c64864, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -5122,24 +5122,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b107f0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c646a8, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleTranslate GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b108c4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6477c, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleTranslate value);
 
-  /// @brief Method .ctor, addr 0x6b076e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b5a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b107e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c646a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b10760, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64618, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b107a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6465c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5178,24 +5178,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b10a88, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c64940, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b10b5c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c64a14, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b076ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b5a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b10a80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c64938, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b109f8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c648b0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b10a3c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c648f4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5235,24 +5235,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b10cd4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c64b8c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b10d7c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c64c34, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> value);
 
-  /// @brief Method .ctor, addr 0x6b076f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b5a8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b10ccc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c64b84, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b10c44, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64afc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b10c88, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c64b40, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5288,7 +5288,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b1102c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c64ee4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -5327,24 +5327,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b10ec4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c64d7c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFont GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b10f6c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c64e24, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFont value);
 
-  /// @brief Method .ctor, addr 0x6b07748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b600, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b10ebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c64d74, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b10e34, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64cec, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b10e78, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c64d30, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5382,7 +5382,7 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b112c0, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c65178, size 0x394, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -5421,24 +5421,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b11108, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c64fc0, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFontDefinition GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b111d8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c65090, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFontDefinition value);
 
-  /// @brief Method .ctor, addr 0x6b0774c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b604, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b11100, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c64fb8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b11078, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c64f30, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b110bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c64f74, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5477,24 +5477,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b116e4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c6559c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b1178c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c65644, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> value);
 
-  /// @brief Method .ctor, addr 0x6b07750, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b608, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b116dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c65594, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b11654, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c6550c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b11698, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c65550, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5534,24 +5534,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b118d4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c6578c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b1197c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c65834, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> value);
 
-  /// @brief Method .ctor, addr 0x6b077a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b660, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b118cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c65784, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b11844, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c656fc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b11888, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c65740, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5590,24 +5590,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b11ac4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c6597c, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b11b74, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c65a2c, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b07800, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b11abc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c65974, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b11a34, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c658ec, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b11a78, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c65930, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5643,7 +5643,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b11e24, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c65cdc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -5682,24 +5682,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b11cc4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c65b7c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceBottomProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b11d6c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c65c24, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method .ctor, addr 0x6b07804, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b11cbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c65b74, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b11c34, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c65aec, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b11c78, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c65b30, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5738,24 +5738,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b11f00, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c65db8, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceLeftProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b11fa8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c65e60, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method .ctor, addr 0x6b07808, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b11ef8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c65db0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b11e70, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c65d28, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b11eb4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c65d6c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5794,24 +5794,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b120f0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c65fa8, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceRightProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12198, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66050, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method .ctor, addr 0x6b0780c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b120e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c65fa0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12060, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c65f18, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b120a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c65f5c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5850,24 +5850,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b122e0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66198, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceScaleProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12388, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66240, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b07810, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b122d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66190, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12250, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c66108, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12294, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6614c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5906,24 +5906,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b124d0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66388, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceTopProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12578, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66430, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method .ctor, addr 0x6b07814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b124c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66380, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12440, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c662f8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12484, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6633c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -5962,24 +5962,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b126c0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66578, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextAlignProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12768, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66620, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> value);
 
-  /// @brief Method .ctor, addr 0x6b07818, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b6d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b126b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66570, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12630, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c664e8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12674, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6652c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6018,24 +6018,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b128b0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66768, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextGeneratorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12958, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66810, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> value);
 
-  /// @brief Method .ctor, addr 0x6b07870, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b728, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b128a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66760, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12820, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c666d8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12864, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6671c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6074,24 +6074,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b12aa0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66958, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12b74, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66a2c, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method .ctor, addr 0x6b078c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b780, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b12a98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66950, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12a10, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c668c8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12a54, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c6690c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6130,24 +6130,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b12cec, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66ba4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12d94, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66c4c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method .ctor, addr 0x6b078cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b784, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b12ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66b9c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12c5c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c66b14, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12ca0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c66b58, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6187,24 +6187,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b12edc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66d94, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b12f84, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c66e3c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> value);
 
-  /// @brief Method .ctor, addr 0x6b078d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b788, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b12ed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66d8c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b12e4c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c66d04, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b12e90, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c66d48, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6243,24 +6243,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b130cc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c66f84, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b13174, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6702c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> value);
 
-  /// @brief Method .ctor, addr 0x6b07928, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b7e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b130c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c66f7c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b1303c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c66ef4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b13080, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c66f38, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6299,24 +6299,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b132bc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c67174, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b13364, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c6721c, size 0xb8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> value);
 
-  /// @brief Method .ctor, addr 0x6b07980, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b838, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b132b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6716c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b1322c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c670e4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b13270, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c67128, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6355,24 +6355,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b134ac, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c67364, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WidthProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b1355c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c67414, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b079d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b890, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b134a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6735c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b1341c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c672d4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b13460, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c67318, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6411,24 +6411,24 @@ public:
 
   __declspec(property(get = get_ussName)) ::StringW ussName;
 
-  /// @brief Method GetValue, addr 0x6b136ac, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c67564, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6b1375c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c67614, size 0xc0, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method .ctor, addr 0x6b079dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5b894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6b136a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c6755c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b1361c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c674d4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ussName, addr 0x6b13660, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ussName, addr 0x6c67518, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ussName();
 
 protected:
@@ -6554,13 +6554,13 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6b13874, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6c6772c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor __ctor_b__0_0(::by_ref<::UnityEngine::Color32> v);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6b138c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6c67778, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 __ctor_b__0_1(::by_ref<::UnityEngine::UIElements::StyleColor> sv);
 
-  /// @brief Method .ctor, addr 0x6b13870, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c67728, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
@@ -6638,28 +6638,28 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6b13940, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6c677f8, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_0(::by_ref<::UnityEngine::Texture2D*> v);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6b13980, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6c67838, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_1(::by_ref<::UnityEngine::Sprite*> v);
 
-  /// @brief Method <.ctor>b__0_2, addr 0x6b139c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_2, addr 0x6c67878, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_2(::by_ref<::UnityEngine::UIElements::VectorImage*> v);
 
-  /// @brief Method <.ctor>b__0_3, addr 0x6b13a00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_3, addr 0x6c678b8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> __ctor_b__0_3(::by_ref<::UnityEngine::UIElements::StyleBackground> sv);
 
-  /// @brief Method <.ctor>b__0_4, addr 0x6b13a18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_4, addr 0x6c678d0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> __ctor_b__0_4(::by_ref<::UnityEngine::UIElements::StyleBackground> sv);
 
-  /// @brief Method <.ctor>b__0_5, addr 0x6b13a30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_5, addr 0x6c678e8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> __ctor_b__0_5(::by_ref<::UnityEngine::UIElements::StyleBackground> sv);
 
-  /// @brief Method <.ctor>b__0_6, addr 0x6b13a48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_6, addr 0x6c67900, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> __ctor_b__0_6(::by_ref<::UnityEngine::UIElements::StyleBackground> sv);
 
-  /// @brief Method .ctor, addr 0x6b1393c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c677f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
@@ -6741,19 +6741,19 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6b13ab8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6c67970, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength __ctor_b__0_0(::by_ref<float_t> v);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6b13ae0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6c67998, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength __ctor_b__0_1(::by_ref<int32_t> v);
 
-  /// @brief Method <.ctor>b__0_2, addr 0x6b13b0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_2, addr 0x6c679c4, size 0x28, virtual false, abstract: false, final false
   inline float_t __ctor_b__0_2(::by_ref<::UnityEngine::UIElements::StyleLength> sv);
 
-  /// @brief Method <.ctor>b__0_3, addr 0x6b13b34, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_3, addr 0x6c679ec, size 0x40, virtual false, abstract: false, final false
   inline int32_t __ctor_b__0_3(::by_ref<::UnityEngine::UIElements::StyleLength> sv);
 
-  /// @brief Method .ctor, addr 0x6b13ab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6796c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
@@ -6817,13 +6817,13 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6b13bcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6c67a84, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat __ctor_b__0_0(::by_ref<int32_t> v);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6b13bdc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6c67a94, size 0x2c, virtual false, abstract: false, final false
   inline int32_t __ctor_b__0_1(::by_ref<::UnityEngine::UIElements::StyleFloat> sv);
 
-  /// @brief Method .ctor, addr 0x6b13bc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c67a80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
@@ -6889,19 +6889,19 @@ public:
 
   static inline ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6b13c60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6c67b18, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFontDefinition __ctor_b__0_0(::by_ref<::UnityEngine::Font*> v);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6b13c70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6c67b28, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFontDefinition __ctor_b__0_1(::by_ref<::UnityEngine::TextCore::Text::FontAsset*> v);
 
-  /// @brief Method <.ctor>b__0_2, addr 0x6b13c80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_2, addr 0x6c67b38, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> __ctor_b__0_2(::by_ref<::UnityEngine::UIElements::StyleFontDefinition> sv);
 
-  /// @brief Method <.ctor>b__0_3, addr 0x6b13c98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_3, addr 0x6c67b50, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> __ctor_b__0_3(::by_ref<::UnityEngine::UIElements::StyleFontDefinition> sv);
 
-  /// @brief Method .ctor, addr 0x6b13c5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c67b14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
@@ -7173,15 +7173,15 @@ public:
   /// @brief Method AddProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStyleValue, typename TValue> inline void AddProperty(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>* property);
 
-  /// @brief Method GetProperties, addr 0x6b079e0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x6c5b898, size 0x64, virtual true, abstract: false, final false
   inline ::Unity::Properties::PropertyCollection_1<::UnityEngine::UIElements::InlineStyleAccess*> GetProperties();
 
-  /// @brief Method GetProperties, addr 0x6b07a44, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x6c5b8fc, size 0x64, virtual true, abstract: false, final false
   inline ::Unity::Properties::PropertyCollection_1<::UnityEngine::UIElements::InlineStyleAccess*> GetProperties(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag* New_ctor();
 
-  /// @brief Method TryGetProperty, addr 0x6b07aa8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method TryGetProperty, addr 0x6c5b960, size 0x6c, virtual true, abstract: false, final true
   inline bool TryGetProperty(::by_ref<::UnityEngine::UIElements::InlineStyleAccess*> container, ::StringW name,
                              ::by_ref<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*> property);
 
@@ -7199,7 +7199,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PropertiesList(::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6b05acc, size 0x1690, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c59984, size 0x1690, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>"

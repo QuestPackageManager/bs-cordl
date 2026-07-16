@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_mVerifier(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x33d3938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x348fdf0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier, ::ArrayW<uint8_t> salt);
 
-  /// @brief Method get_Group, addr 0x33d3944, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Group, addr 0x348fdfc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* get_Group();
 
-  /// @brief Method get_Salt, addr 0x33d394c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x348fe04, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Salt();
 
-  /// @brief Method get_Verifier, addr 0x33d3954, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Verifier, addr 0x348fe0c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Verifier();
 
 protected:

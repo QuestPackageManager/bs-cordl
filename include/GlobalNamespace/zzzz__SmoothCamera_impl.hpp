@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)(float_t, float_t, float_t, bool, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::SmoothCamera::Init)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x58bf910;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x59f0034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(),
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::OnEnable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58bfac4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x59f0218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "OnEnable", {}, {} })));
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::OnDisable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58bfae0;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x59f0278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "OnDisable", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::LateUpdate)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x58bfafc;
+  constexpr static std::size_t addrs = 0x59f02c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "LateUpdate", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bfd3c;
+  constexpr static std::size_t addrs = 0x59f0500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { ".ctor", {}, {} })));
@@ -154,6 +154,30 @@ constexpr float_t const& GlobalNamespace::SmoothCamera::__cordl_internal_get__po
 constexpr void GlobalNamespace::SmoothCamera::__cordl_internal_set__positionSmooth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positionSmooth = value;
+}
+constexpr Il2CppObject*& GlobalNamespace::SmoothCamera::__cordl_internal_get__xrDisplaySubsystem() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____xrDisplaySubsystem;
+}
+constexpr Il2CppObject* const& GlobalNamespace::SmoothCamera::__cordl_internal_get__xrDisplaySubsystem() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____xrDisplaySubsystem;
+}
+constexpr void GlobalNamespace::SmoothCamera::__cordl_internal_set__xrDisplaySubsystem(Il2CppObject* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____xrDisplaySubsystem = value;
+}
+constexpr int32_t& GlobalNamespace::SmoothCamera::__cordl_internal_get__xrOriginalMirrorViewBlitMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____xrOriginalMirrorViewBlitMode;
+}
+constexpr int32_t const& GlobalNamespace::SmoothCamera::__cordl_internal_get__xrOriginalMirrorViewBlitMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____xrOriginalMirrorViewBlitMode;
+}
+constexpr void GlobalNamespace::SmoothCamera::__cordl_internal_set__xrOriginalMirrorViewBlitMode(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____xrOriginalMirrorViewBlitMode = value;
 }
 inline void GlobalNamespace::SmoothCamera::Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                                                 ::UnityEngine::Vector3 thirdPersonEulerAngles) {

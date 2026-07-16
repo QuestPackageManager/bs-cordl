@@ -86,7 +86,7 @@ public:
   UnityEvent_2(UnityEvent_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10432 };
 
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*> ___m_InvokeArray;

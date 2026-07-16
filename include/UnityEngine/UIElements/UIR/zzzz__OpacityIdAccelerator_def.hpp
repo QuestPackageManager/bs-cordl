@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6b8eab0, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6ce2968, size 0x108, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -118,17 +118,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CompleteJobs, addr 0x6b8e888, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompleteJobs, addr 0x6ce2740, size 0xc8, virtual false, abstract: false, final false
   inline void CompleteJobs();
 
-  /// @brief Method CreateJob, addr 0x6b8e778, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateJob, addr 0x6ce2630, size 0x110, virtual false, abstract: false, final false
   inline void CreateJob(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> oldVerts, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> newVerts,
                         ::UnityEngine::Color32 opacityData, int32_t vertexCount);
 
-  /// @brief Method Dispose, addr 0x6b8e960, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ce2818, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6b8e9d0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ce2888, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* New_ctor();
@@ -151,16 +151,16 @@ public:
 
   constexpr void __cordl_internal_set_m_NextJobIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b8ea40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce28f8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6b8e950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6ce2808, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6b8e958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6ce2810, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

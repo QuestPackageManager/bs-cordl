@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::System::Diagnostics::BooleanSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method OnValueChanged, addr 0x625563c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x63916d8, size 0x68, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
-  /// @brief Method .ctor, addr 0x6255568, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6391604, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:
@@ -43,7 +43,7 @@ public:
   BooleanSwitch(BooleanSwitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

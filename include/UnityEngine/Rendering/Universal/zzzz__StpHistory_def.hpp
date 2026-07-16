@@ -34,18 +34,18 @@ public:
   /// @brief Field m_historyContexts, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_historyContexts, put = __cordl_internal_set_m_historyContexts)) ::ArrayW<::UnityEngine::Rendering::STP_HistoryContext*> m_historyContexts;
 
-  /// @brief Method GetHistoryContext, addr 0x6734b30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryContext, addr 0x68734ac, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::STP_HistoryContext* GetHistoryContext(int32_t eyeIndex);
 
   static inline ::UnityEngine::Rendering::Universal::StpHistory* New_ctor();
 
-  /// @brief Method OnCreate, addr 0x6734a1c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnCreate, addr 0x6873398, size 0xb4, virtual true, abstract: false, final false
   inline void OnCreate(::UnityEngine::Rendering::BufferedRTHandleSystem* owner, uint32_t typeId);
 
-  /// @brief Method Reset, addr 0x6734ad0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x687344c, size 0x60, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x6734b60, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x68734dc, size 0xcc, virtual false, abstract: false, final false
   inline bool Update(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   constexpr ::ArrayW<::UnityEngine::Rendering::STP_HistoryContext*> const& __cordl_internal_get_m_historyContexts() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_m_historyContexts(::ArrayW<::UnityEngine::Rendering::STP_HistoryContext*> value);
 
-  /// @brief Method .ctor, addr 0x6734c2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68735a8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   StpHistory(StpHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12738 };
 
   /// @brief Field m_historyContexts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::STP_HistoryContext*> ___m_historyContexts;

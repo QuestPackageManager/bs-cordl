@@ -34,13 +34,13 @@ public:
   /// @brief Field m_Low, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low)) ::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
 
-  /// @brief Method Allocate, addr 0x6ba4c0c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6cf8ac4, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
 
-  /// @brief Method Free, addr 0x6ba4d70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6cf8c28, size 0x74, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
-  /// @brief Method HighLowCollide, addr 0x6ba4d38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HighLowCollide, addr 0x6cf8bf0, size 0x38, virtual false, abstract: false, final false
   inline bool HighLowCollide();
 
   static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  /// @brief Method .ctor, addr 0x6ba4b8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf8a44, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint32_t maxSize);
 
-  /// @brief Method get_isEmpty, addr 0x6ba4de4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x6cf8c9c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:

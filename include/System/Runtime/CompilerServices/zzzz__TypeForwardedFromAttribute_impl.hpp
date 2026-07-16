@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)(::StringW)>(
     &::System::Runtime::CompilerServices::TypeForwardedFromAttribute::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a34888;
+  constexpr static std::size_t addrs = 0x5b6e558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)()>(
     &::System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a348e8;
+  constexpr static std::size_t addrs = 0x5b6e5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

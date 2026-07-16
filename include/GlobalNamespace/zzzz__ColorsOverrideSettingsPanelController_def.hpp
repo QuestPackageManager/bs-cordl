@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorsOverrideSettingsPanelController)
 namespace GlobalNamespace {
@@ -110,46 +111,46 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method HandleColorOverrideTypeDropdownDidSelectCellWithIdx, addr 0x57fdf24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleColorOverrideTypeDropdownDidSelectCellWithIdx, addr 0x591fe3c, size 0x18, virtual false, abstract: false, final false
   inline void HandleColorOverrideTypeDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* _, int32_t idx);
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x57fda74, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x591f98c, size 0x1dc, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x57fdf3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x591fe54, size 0x84, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeButtonWasPressed();
 
-  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x57fe024, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x591ff44, size 0x2c, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x57fdfd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x591fef0, size 0x54, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidFinish();
 
-  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x57fdc50, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x591fb68, size 0x2d4, virtual false, abstract: false, final false
   inline void HandleOverrideColorsToggleValueChanged(bool isOn);
 
-  /// @brief Method HideDropdown, addr 0x57fda28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HideDropdown, addr 0x591f940, size 0x4c, virtual false, abstract: false, final false
   inline void HideDropdown(bool animated);
 
   static inline ::GlobalNamespace::ColorsOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57fd34c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x591f260, size 0x338, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x57fd7f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x591f704, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x57fd814, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x591f728, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x57fd824, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x591f738, size 0x208, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetData, addr 0x57fcdd0, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x591ece4, size 0x410, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
 
-  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__23_0, addr 0x57fe054, size 0x1c, virtual false, abstract: false, final false
-  inline void _HandleOverrideColorsToggleValueChanged_b__23_0();
+  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__25_0, addr 0x591ff74, size 0x1c, virtual false, abstract: false, final false
+  inline void _HandleOverrideColorsToggleValueChanged_b__25_0();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
 
@@ -235,10 +236,10 @@ public:
 
   constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method .ctor, addr 0x57fe050, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591ff70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_editColorSchemeModalView, addr 0x57fcdc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editColorSchemeModalView, addr 0x591ecdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ModalView> get_editColorSchemeModalView();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
@@ -259,7 +260,13 @@ public:
   ColorsOverrideSettingsPanelController(ColorsOverrideSettingsPanelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6789 };
+
+  /// @brief Field kColorTypeOverrideAllLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kColorTypeOverrideAllLocalizationKey{ u"COLOR_TYPE_OVERRIDE_ALL" };
+
+  /// @brief Field kColorTypeOverrideNotesOnlyLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kColorTypeOverrideNotesOnlyLocalizationKey{ u"COLOR_TYPE_OVERRIDE_NOTES_ONLY" };
 
   /// @brief Field _overrideColorsToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideColorsToggle;

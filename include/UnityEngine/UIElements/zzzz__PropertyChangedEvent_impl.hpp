@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyChangedEvent___c::*)()>(&::UnityEngine::UIElements::PropertyChangedEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b7321c;
+  constexpr static std::size_t addrs = 0x6cc70d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PropertyChangedEvent* (::UnityEngine::UIElements::PropertyChangedEvent___c::*)()>(
     &::UnityEngine::UIElements::PropertyChangedEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b73220;
+  constexpr static std::size_t addrs = 0x6cc70d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingId (::UnityEngine::UIElements::PropertyChangedEvent::*)()>(
     &::UnityEngine::UIElements::PropertyChangedEvent::get_property)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b73094;
+  constexpr static std::size_t addrs = 0x6cc6f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(), { "get_property", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyChangedEvent::*)(::UnityEngine::UIElements::BindingId)>(
     &::UnityEngine::UIElements::PropertyChangedEvent::set_property)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b730a4;
+  constexpr static std::size_t addrs = 0x6cc6f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyChangedEvent::*)()>(&::UnityEngine::UIElements::PropertyChangedEvent::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b730b0;
+  constexpr static std::size_t addrs = 0x6cc6f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(), { ".ctor", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PropertyChangedEvent* (*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
     &::UnityEngine::UIElements::PropertyChangedEvent::GetPooled)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b73134;
+  constexpr static std::size_t addrs = 0x6cc6fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(),

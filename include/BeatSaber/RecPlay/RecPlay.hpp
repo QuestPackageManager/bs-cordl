@@ -14,7 +14,6 @@ module;
 #include "BeatSaber/RecPlay/PoseNoise.hpp"
 #include "BeatSaber/RecPlay/PoseOffsets.hpp"
 #include "BeatSaber/RecPlay/PoseSampler.hpp"
-#include "BeatSaber/RecPlay/Poser.hpp"
 #ifdef __cpp_modules
 export module RecPlay;
 #endif

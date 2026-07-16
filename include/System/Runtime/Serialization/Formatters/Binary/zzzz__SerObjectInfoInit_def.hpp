@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_seenBeforeTable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x5a24898, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5e568, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -50,17 +50,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method GetContent, addr 0x35f1cb8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x36ae170, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x35f1c18, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x36ae0d0, size 0x68, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::ArrayW<uint8_t> bytes);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method Write, addr 0x35f1c80, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x36ae138, size 0x38, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* zOut);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_bytes() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x35f1b98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ae050, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x35f1c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ae0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method get_Type, addr 0x35f1c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x36ae0c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"

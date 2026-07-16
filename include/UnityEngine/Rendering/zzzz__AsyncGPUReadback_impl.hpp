@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AsyncGPUReadbackRequest (*)(
     ::UnityEngine::GraphicsBuffer*, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*)>(&::UnityEngine::Rendering::AsyncGPUReadback::Request)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69b1da4;
+  constexpr static std::size_t addrs = 0x6b05764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AsyncGPUReadbackRequest (*)(
     ::UnityEngine::GraphicsBuffer*, int32_t, int32_t, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*)>(&::UnityEngine::Rendering::AsyncGPUReadback::Request)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69b1ea4;
+  constexpr static std::size_t addrs = 0x6b05864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadback*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AsyncGPUReadbackRequest (*)(::UnityEngine::GraphicsBuffer*, ::UnityEngine::Rendering::AsyncRequestNativeArrayData*)>(
     &::UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69b1e00;
+  constexpr static std::size_t addrs = 0x6b057c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AsyncGPUReadbackRequest (*)(
     ::UnityEngine::GraphicsBuffer*, int32_t, int32_t, ::UnityEngine::Rendering::AsyncRequestNativeArrayData*)>(&::UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_2)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69b1f00;
+  constexpr static std::size_t addrs = 0x6b058c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadback*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Rendering::AsyncRequestNativeArrayData*, ::by_ref<::UnityEngine::Rendering::AsyncGPUReadbackRequest>)>(
     &::UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_1_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69b1fbc;
+  constexpr static std::size_t addrs = 0x6b0597c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::IntPtr, int32_t, int32_t, ::UnityEngine::Rendering::AsyncRequestNativeArrayData*, ::by_ref<::UnityEngine::Rendering::AsyncGPUReadbackRequest>)>(
         &::UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_2_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69b2010;
+  constexpr static std::size_t addrs = 0x6b059d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

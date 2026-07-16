@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor, addr 0x5a0a1f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b43ec8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   static inline ::ArrayW<::StringW> getStaticF_InternalKeys();

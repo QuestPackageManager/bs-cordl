@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__ConditionType_k__BackingField(::JetBrains::Annotations::AssertionConditionType value);
 
-  /// @brief Method .ctor, addr 0x6ce6940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3ac44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method get_ConditionType, addr 0x6ce6948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConditionType, addr 0x6e3ac4c, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
-  /// @brief Method set_ConditionType, addr 0x6ce6950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConditionType, addr 0x6e3ac54, size 0x8, virtual false, abstract: false, final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AssertionConditionAttribute(AssertionConditionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22538 };
 
   /// @brief Field <ConditionType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::AssertionConditionType ____ConditionType_k__BackingField;

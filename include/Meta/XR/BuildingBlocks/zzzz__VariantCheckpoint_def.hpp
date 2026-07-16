@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5900a60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3a164, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW memberName, ::StringW value);
 
-  /// @brief Method get_MemberName, addr 0x5900a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x5a3a154, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_Value, addr 0x5900a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5a3a15c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -68,7 +68,7 @@ public:
   VariantCheckpoint(VariantCheckpoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21334 };
 
   /// @brief Field _memberName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____memberName;

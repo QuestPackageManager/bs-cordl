@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1a38;
+  constexpr static std::size_t addrs = 0x369def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::SignatureSubpacket* (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::ReadPacket)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x35e1a40;
+  constexpr static std::size_t addrs = 0x369def8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser*>(), { "ReadPacket", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::CheckData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35e2a78;
+  constexpr static std::size_t addrs = 0x369ef30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

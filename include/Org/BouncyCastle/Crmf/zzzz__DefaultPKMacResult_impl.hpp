@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::DefaultPKMacResult::*)(::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crmf::DefaultPKMacResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x361d3e4;
+  constexpr static std::size_t addrs = 0x36d989c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crmf::DefaultPKMacResult::*)()>(&::Org::BouncyCastle::Crmf::DefaultPKMacResult::Collect)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x361d65c;
+  constexpr static std::size_t addrs = 0x36d9b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::DefaultPKMacResult*>(), { "Collect", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crmf::DefaultPKMacResult::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crmf::DefaultPKMacResult::Collect)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x361d7a4;
+  constexpr static std::size_t addrs = 0x36d9c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

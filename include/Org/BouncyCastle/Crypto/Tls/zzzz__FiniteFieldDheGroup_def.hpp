@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE FiniteFieldDheGroup : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x33acc04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x34690bc, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t group);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33acc14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34690cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

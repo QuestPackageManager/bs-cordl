@@ -45,7 +45,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotation* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x60eb574, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x6226670, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*> moreAttributes);
 
   constexpr ::StringW const& __cordl_internal_get_id() const;
@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*> value);
 
-  /// @brief Method .ctor, addr 0x60eb57c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6226678, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Id, addr 0x60eb54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x6226648, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x60eb564, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x6226660, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_Items, addr 0x60eb55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x6226658, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
-  /// @brief Method set_Id, addr 0x60eb554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x6226650, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x60eb56c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x6226668, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   XmlSchemaAnnotation(XmlSchemaAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9713 };
 
   /// @brief Field id, offset: 0x38, size: 0x8, def value: None
   ::StringW ___id;

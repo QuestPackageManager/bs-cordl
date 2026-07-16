@@ -224,7 +224,7 @@ public:
   /// @brief Method ToResultTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStatus> inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<TStatus>> ToResultTask();
 
-  /// @brief Method ToTask, addr 0x5db71e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToTask, addr 0x5eef410, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> ToTask();
 
   /// @brief Method ToTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -236,7 +236,7 @@ public:
   /// @brief Method ToTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStatus> inline ::GlobalNamespace::OVRTask_1<TStatus> ToTask();
 
-  /// @brief Method .ctor, addr 0x5db6f5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eef184, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRPlugin_Result synchronousResult, ::System::Guid taskId);
 
   // Ctor Parameters []
@@ -248,7 +248,7 @@ public:
   constexpr OVRTask_Builder(::GlobalNamespace::OVRPlugin_Result _synchronousResult, ::System::Guid _taskId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7801 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -343,7 +343,7 @@ public:
   OVRTask_MultiTaskData_1(OVRTask_MultiTaskData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7802 };
 
   /// @brief Field CombinedTask, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::OVRTask_1<T> ___CombinedTask;
@@ -400,7 +400,7 @@ public:
   MultiTaskData_2_OVRTask___c(MultiTaskData_2_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -456,7 +456,7 @@ public:
   OVRTask_MultiTaskData_2(OVRTask_MultiTaskData_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -507,7 +507,7 @@ public:
   MultiTaskData_3_OVRTask___c(MultiTaskData_3_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -572,7 +572,7 @@ public:
   OVRTask_MultiTaskData_3(OVRTask_MultiTaskData_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -626,7 +626,7 @@ public:
   MultiTaskData_4_OVRTask___c(MultiTaskData_4_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -699,7 +699,7 @@ public:
   OVRTask_MultiTaskData_4(OVRTask_MultiTaskData_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -756,7 +756,7 @@ public:
   MultiTaskData_5_OVRTask___c(MultiTaskData_5_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -838,7 +838,7 @@ public:
   OVRTask_MultiTaskData_5(OVRTask_MultiTaskData_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -898,7 +898,7 @@ public:
   MultiTaskData_6_OVRTask___c(MultiTaskData_6_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -988,7 +988,7 @@ public:
   OVRTask_MultiTaskData_6(OVRTask_MultiTaskData_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1051,7 +1051,7 @@ public:
   MultiTaskData_7_OVRTask___c(MultiTaskData_7_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1150,7 +1150,7 @@ public:
   OVRTask_MultiTaskData_7(OVRTask_MultiTaskData_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1216,7 +1216,7 @@ public:
   MultiTaskData_8_OVRTask___c(MultiTaskData_8_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1330,7 +1330,7 @@ public:
   OVRTask_MultiTaskData_8(OVRTask_MultiTaskData_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1362,13 +1362,13 @@ public:
   template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
   using MultiTaskData_8 = ::GlobalNamespace::OVRTask_MultiTaskData_8<T1, T2, T3, T4, T5, T6, T7, T8>;
 
-  /// @brief Method Build, addr 0x5db6f6c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x5eef194, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_Builder Build(::GlobalNamespace::OVRPlugin_Result result, uint64_t requestId);
 
-  /// @brief Method Build, addr 0x5db6fd4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x5eef1fc, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_Builder Build(::GlobalNamespace::OVRPlugin_Result result, uint64_t requestId, ::GlobalNamespace::OVRPlugin_EventType eventType);
 
-  /// @brief Method Build, addr 0x5db6e90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x5eef0b8, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_Builder Build(bool success, uint64_t requestId);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1395,19 +1395,19 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x5db7040, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x5eef268, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t handle, ::GlobalNamespace::OVRPlugin_EventType eventType);
 
-  /// @brief Method GetId, addr 0x5db709c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x5eef2c4, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t part1, uint64_t part2);
 
-  /// @brief Method GetId, addr 0x5db6f04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x5eef12c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
-  /// @brief Method GetId, addr 0x5db70fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x5eef324, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t GetId(::System::Guid value);
 
-  /// @brief Method GetIdParts, addr 0x5db7100, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetIdParts, addr 0x5eef328, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<uint64_t, uint64_t> GetIdParts(::System::Guid id);
 
   /// @brief Method RegisterType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1492,7 +1492,7 @@ public:
   static constexpr uint64_t HashModifier2{ static_cast<uint64_t>(0x96de1b173f119089u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

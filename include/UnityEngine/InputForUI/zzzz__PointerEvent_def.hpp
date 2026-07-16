@@ -110,7 +110,7 @@ public:
   static ::UnityEngine::InputForUI::PointerEvent_Type const TouchCanceled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -201,7 +201,7 @@ public:
   static ::UnityEngine::InputForUI::PointerEvent_Button const Primary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,16 +224,16 @@ namespace UnityEngine::InputForUI {
 struct CORDL_TYPE PointerEvent_ButtonsState {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x6a03cc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6b577a4, size 0x10, virtual false, abstract: false, final false
   inline bool Get(::UnityEngine::InputForUI::PointerEvent_Button button);
 
-  /// @brief Method Reset, addr 0x6a03cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b577b4, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Set, addr 0x6a03cac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6b57788, size 0x1c, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputForUI::PointerEvent_Button button, bool pressed);
 
-  /// @brief Method ToString, addr 0x6a03ce0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b577bc, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -244,7 +244,7 @@ public:
   constexpr PointerEvent_ButtonsState(uint32_t _state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21768 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -291,43 +291,43 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method ButtonFromButtonIndex, addr 0x6a03c98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ButtonFromButtonIndex, addr 0x6b57774, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::PointerEvent_Button ButtonFromButtonIndex(int32_t index);
 
-  /// @brief Method ToString, addr 0x6a03194, size 0xb04, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b56c70, size 0xb04, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_altitude, addr 0x6a030e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_altitude, addr 0x6b56bc0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_altitude();
 
-  /// @brief Method get_azimuth, addr 0x6a03034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_azimuth, addr 0x6b56b10, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuth();
 
-  /// @brief Method get_eventModifiers, addr 0x6a03184, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventModifiers, addr 0x6b56c60, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-  /// @brief Method get_eventSource, addr 0x6a0316c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x6b56c48, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
-  /// @brief Method get_isPrimaryPointer, addr 0x6a03024, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isPrimaryPointer, addr 0x6b56b00, size 0x10, virtual false, abstract: false, final false
   inline bool get_isPrimaryPointer();
 
-  /// @brief Method get_timestamp, addr 0x6a0315c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timestamp, addr 0x6b56c38, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::IntegerTime::DiscreteTime get_timestamp();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
-  /// @brief Method set_eventModifiers, addr 0x6a0318c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventModifiers, addr 0x6b56c68, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
-  /// @brief Method set_eventSource, addr 0x6a03174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventSource, addr 0x6b56c50, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
-  /// @brief Method set_playerId, addr 0x6a0317c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x6b56c58, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
-  /// @brief Method set_timestamp, addr 0x6a03164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6b56c40, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -351,7 +351,7 @@ public:
                          ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21769 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set_xmlAttributes(::System::Xml::Serialization::XmlAttributes* value);
 
-  /// @brief Method .ctor, addr 0x61ba550, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f564c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type, ::System::Xml::Serialization::XmlAttributes* attributes);
 
-  /// @brief Method get_DeclaringType, addr 0x61bc56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x62f7668, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_IsReturnValue, addr 0x61bc554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReturnValue, addr 0x62f7650, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReturnValue();
 
-  /// @brief Method get_MemberName, addr 0x61bc55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x62f7658, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_MemberType, addr 0x61bc564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x62f7660, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_XmlAttributes, addr 0x61b994c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttributes, addr 0x62f4a48, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_XmlAttributes();
 
-  /// @brief Method set_DeclaringType, addr 0x61bc574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeclaringType, addr 0x62f7670, size 0x8, virtual false, abstract: false, final false
   inline void set_DeclaringType(::System::Type* value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   XmlReflectionMember(XmlReflectionMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9491 };
 
   /// @brief Field isReturnValue, offset: 0x10, size: 0x1, def value: None
   bool ___isReturnValue;

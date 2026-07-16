@@ -46,33 +46,33 @@ public:
   /// @brief Field s_CoincidentVertices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_CoincidentVertices, put = setStaticF_s_CoincidentVertices)) ::System::Collections::Generic::List_1<int32_t>* s_CoincidentVertices;
 
-  /// @brief Method SetSharedVertexPosition, addr 0x65bcf10, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method SetSharedVertexPosition, addr 0x66fa61c, size 0x36c, virtual false, abstract: false, final false
   static inline void SetSharedVertexPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t sharedVertexHandle, ::UnityEngine::Vector3 position);
 
-  /// @brief Method SetSharedVertexValues, addr 0x65bd27c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method SetSharedVertexValues, addr 0x66fa988, size 0x2b8, virtual false, abstract: false, final false
   static inline void SetSharedVertexValues(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t sharedVertexHandle, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method TranslateVertices, addr 0x65bcca8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TranslateVertices, addr 0x66fa3b4, size 0x134, virtual false, abstract: false, final false
   static inline void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                        ::UnityEngine::Vector3 offset);
 
-  /// @brief Method TranslateVertices, addr 0x65bcddc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TranslateVertices, addr 0x66fa4e8, size 0x134, virtual false, abstract: false, final false
   static inline void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                        ::UnityEngine::Vector3 offset);
 
-  /// @brief Method TranslateVertices, addr 0x65bca00, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TranslateVertices, addr 0x66fa10c, size 0x134, virtual false, abstract: false, final false
   static inline void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method TranslateVerticesInWorldSpace, addr 0x65bc364, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TranslateVerticesInWorldSpace, addr 0x66f9a70, size 0x11c, virtual false, abstract: false, final false
   static inline void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method TranslateVerticesInWorldSpace, addr 0x65bc480, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method TranslateVerticesInWorldSpace, addr 0x66f9b8c, size 0x580, virtual false, abstract: false, final false
   static inline void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, ::UnityEngine::Vector3 offset, float_t snapValue, bool snapAxisOnly);
 
-  /// @brief Method TranslateVerticesInternal, addr 0x65bcb34, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TranslateVerticesInternal, addr 0x66fa240, size 0x174, virtual false, abstract: false, final false
   static inline void TranslateVerticesInternal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indices, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method VerticesInWorldSpace, addr 0x65bc1e4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method VerticesInWorldSpace, addr 0x66f98f0, size 0x180, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> VerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_s_CoincidentVertices();
@@ -94,7 +94,7 @@ public:
   VertexPositioning(VertexPositioning const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

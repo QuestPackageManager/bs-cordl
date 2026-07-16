@@ -63,25 +63,25 @@ public:
   /// @brief Field wildcards, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards)) ::System::Collections::Hashtable* wildcards;
 
-  /// @brief Method AddName, addr 0x61dcaa8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x6317ba4, size 0x104, virtual false, abstract: false, final false
   inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-  /// @brief Method AddNamespaceList, addr 0x61dcbac, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceList, addr 0x6317ca8, size 0x370, virtual false, abstract: false, final false
   inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
 
-  /// @brief Method AddWildcard, addr 0x61dcf1c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AddWildcard, addr 0x6318018, size 0x160, virtual false, abstract: false, final false
   inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
 
-  /// @brief Method Exists, addr 0x61dd83c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6318938, size 0x30, virtual false, abstract: false, final false
   inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x61dd07c, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceListSymbols, addr 0x6318178, size 0x730, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
 
-  /// @brief Method GetParticle, addr 0x61dd86c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x6318968, size 0x34, virtual false, abstract: false, final false
   inline ::System::Object* GetParticle(int32_t symbol);
 
-  /// @brief Method NameOf, addr 0x61dd8a0, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method NameOf, addr 0x631899c, size 0x630, virtual false, abstract: false, final false
   inline ::StringW NameOf(int32_t symbol);
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
@@ -122,19 +122,19 @@ public:
 
   constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x61dc9f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6317af0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x61dca8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6317b88, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsUpaEnforced, addr 0x61dca98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpaEnforced, addr 0x6317b94, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUpaEnforced();
 
-  /// @brief Method get_Item, addr 0x61dd7ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x63188a8, size 0x90, virtual false, abstract: false, final false
   inline int32_t get_Item(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method set_IsUpaEnforced, addr 0x61dcaa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsUpaEnforced, addr 0x6317b9c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsUpaEnforced(bool value);
 
 protected:
@@ -152,7 +152,7 @@ public:
   SymbolsDictionary(SymbolsDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9557 };
 
   /// @brief Field last, offset: 0x10, size: 0x4, def value: None
   int32_t ___last;

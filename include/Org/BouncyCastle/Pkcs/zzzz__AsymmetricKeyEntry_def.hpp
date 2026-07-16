@@ -37,10 +37,10 @@ public:
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
 
-  /// @brief Method Equals, addr 0x34ed0b0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35a9568, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x34ed15c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35a9614, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x34ecfe0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a9498, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method .ctor, addr 0x34ed058, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a9510, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x34ed080, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a9538, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Key, addr 0x34ed0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x35a9560, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
 protected:

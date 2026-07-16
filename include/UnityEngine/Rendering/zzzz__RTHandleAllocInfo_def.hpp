@@ -87,115 +87,115 @@ public:
 
   __declspec(property(get = get_wrapModeW, put = set_wrapModeW)) ::UnityEngine::TextureWrapMode wrapModeW;
 
-  /// @brief Method .ctor, addr 0x666bcb4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a93c0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_anisoLevel, addr 0x666bc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anisoLevel, addr 0x67a9340, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_anisoLevel();
 
-  /// @brief Method get_autoGenerateMips, addr 0x666bc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoGenerateMips, addr 0x67a9330, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoGenerateMips();
 
-  /// @brief Method get_bindTextureMS, addr 0x666bc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindTextureMS, addr 0x67a9370, size 0x8, virtual false, abstract: false, final false
   inline bool get_bindTextureMS();
 
-  /// @brief Method get_dimension, addr 0x666bbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dimension, addr 0x67a9300, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::TextureDimension get_dimension();
 
-  /// @brief Method get_enableRandomWrite, addr 0x666bc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRandomWrite, addr 0x67a9310, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRandomWrite();
 
-  /// @brief Method get_filterMode, addr 0x666bbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterMode, addr 0x67a92c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FilterMode get_filterMode();
 
-  /// @brief Method get_format, addr 0x666bba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x67a92b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_format();
 
-  /// @brief Method get_memoryless, addr 0x666bc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_memoryless, addr 0x67a9390, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureMemoryless get_memoryless();
 
-  /// @brief Method get_mipMapBias, addr 0x666bc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipMapBias, addr 0x67a9350, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipMapBias();
 
-  /// @brief Method get_msaaSamples, addr 0x666bc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_msaaSamples, addr 0x67a9360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::MSAASamples get_msaaSamples();
 
-  /// @brief Method get_name, addr 0x666bca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x67a93b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_slices, addr 0x666bb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slices, addr 0x67a92a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_slices();
 
-  /// @brief Method get_useDynamicScale, addr 0x666bc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicScale, addr 0x67a9380, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDynamicScale();
 
-  /// @brief Method get_useMipMap, addr 0x666bc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMipMap, addr 0x67a9320, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMipMap();
 
-  /// @brief Method get_vrUsage, addr 0x666bc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vrUsage, addr 0x67a93a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VRTextureUsage get_vrUsage();
 
-  /// @brief Method get_wrapModeU, addr 0x666bbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapModeU, addr 0x67a92d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapModeU();
 
-  /// @brief Method get_wrapModeV, addr 0x666bbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapModeV, addr 0x67a92e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapModeV();
 
-  /// @brief Method get_wrapModeW, addr 0x666bbe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapModeW, addr 0x67a92f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapModeW();
 
-  /// @brief Method set_anisoLevel, addr 0x666bc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_anisoLevel, addr 0x67a9348, size 0x8, virtual false, abstract: false, final false
   inline void set_anisoLevel(int32_t value);
 
-  /// @brief Method set_autoGenerateMips, addr 0x666bc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_autoGenerateMips, addr 0x67a9338, size 0x8, virtual false, abstract: false, final false
   inline void set_autoGenerateMips(bool value);
 
-  /// @brief Method set_bindTextureMS, addr 0x666bc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bindTextureMS, addr 0x67a9378, size 0x8, virtual false, abstract: false, final false
   inline void set_bindTextureMS(bool value);
 
-  /// @brief Method set_dimension, addr 0x666bbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x67a9308, size 0x8, virtual false, abstract: false, final false
   inline void set_dimension(::UnityEngine::Rendering::TextureDimension value);
 
-  /// @brief Method set_enableRandomWrite, addr 0x666bc0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableRandomWrite, addr 0x67a9318, size 0x8, virtual false, abstract: false, final false
   inline void set_enableRandomWrite(bool value);
 
-  /// @brief Method set_filterMode, addr 0x666bbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_filterMode, addr 0x67a92c8, size 0x8, virtual false, abstract: false, final false
   inline void set_filterMode(::UnityEngine::FilterMode value);
 
-  /// @brief Method set_format, addr 0x666bbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x67a92b8, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_memoryless, addr 0x666bc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_memoryless, addr 0x67a9398, size 0x8, virtual false, abstract: false, final false
   inline void set_memoryless(::UnityEngine::RenderTextureMemoryless value);
 
-  /// @brief Method set_mipMapBias, addr 0x666bc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipMapBias, addr 0x67a9358, size 0x8, virtual false, abstract: false, final false
   inline void set_mipMapBias(float_t value);
 
-  /// @brief Method set_msaaSamples, addr 0x666bc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_msaaSamples, addr 0x67a9368, size 0x8, virtual false, abstract: false, final false
   inline void set_msaaSamples(::UnityEngine::Rendering::MSAASamples value);
 
-  /// @brief Method set_name, addr 0x666bcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x67a93b8, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_slices, addr 0x666bb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_slices, addr 0x67a92a8, size 0x8, virtual false, abstract: false, final false
   inline void set_slices(int32_t value);
 
-  /// @brief Method set_useDynamicScale, addr 0x666bc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicScale, addr 0x67a9388, size 0x8, virtual false, abstract: false, final false
   inline void set_useDynamicScale(bool value);
 
-  /// @brief Method set_useMipMap, addr 0x666bc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useMipMap, addr 0x67a9328, size 0x8, virtual false, abstract: false, final false
   inline void set_useMipMap(bool value);
 
-  /// @brief Method set_vrUsage, addr 0x666bc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vrUsage, addr 0x67a93a8, size 0x8, virtual false, abstract: false, final false
   inline void set_vrUsage(::UnityEngine::VRTextureUsage value);
 
-  /// @brief Method set_wrapModeU, addr 0x666bbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapModeU, addr 0x67a92d8, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapModeU(::UnityEngine::TextureWrapMode value);
 
-  /// @brief Method set_wrapModeV, addr 0x666bbdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapModeV, addr 0x67a92e8, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapModeV(::UnityEngine::TextureWrapMode value);
 
-  /// @brief Method set_wrapModeW, addr 0x666bbec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapModeW, addr 0x67a92f8, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapModeW(::UnityEngine::TextureWrapMode value);
 
   // Ctor Parameters []
@@ -221,7 +221,7 @@ public:
                               ::UnityEngine::RenderTextureMemoryless _memoryless_k__BackingField, ::UnityEngine::VRTextureUsage _vrUsage_k__BackingField, ::StringW _name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12218 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

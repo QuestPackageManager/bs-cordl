@@ -65,7 +65,7 @@ public:
   constexpr ReceiverSphereCuller_SplitInfo(::Unity::Mathematics::float4 receiverSphereLightSpace, float_t cascadeBlendCullingFactor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -95,25 +95,25 @@ public:
   // Declarations
   using SplitInfo = ::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo;
 
-  /// @brief Method ComputeSplitVisibilityMask, addr 0x66cdee8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ComputeSplitVisibilityMask, addr 0x680b5f4, size 0x28c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
                                                     ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, ::by_ref<::UnityEngine::Rendering::AABB> bounds);
 
-  /// @brief Method Create, addr 0x66cdb8c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x680b298, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverSphereCuller Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method CreateEmptyForTesting, addr 0x66cda84, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyForTesting, addr 0x680b190, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverSphereCuller CreateEmptyForTesting(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Dispose, addr 0x66cdb28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x680b234, size 0x64, virtual false, abstract: false, final false
   inline void Dispose(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method DistanceUntilCylinderFullyCrossesPlane, addr 0x66cddbc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method DistanceUntilCylinderFullyCrossesPlane, addr 0x680b4c8, size 0x12c, virtual false, abstract: false, final false
   static inline float_t DistanceUntilCylinderFullyCrossesPlane(::Unity::Mathematics::float3 cylinderCenter, ::Unity::Mathematics::float3 cylinderDirection, float_t cylinderRadius,
                                                                ::UnityEngine::Plane plane);
 
-  /// @brief Method UseReceiverPlanes, addr 0x66cd7d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UseReceiverPlanes, addr 0x680aee0, size 0x6c, virtual false, abstract: false, final false
   inline bool UseReceiverPlanes();
 
   // Ctor Parameters []
@@ -126,7 +126,7 @@ public:
                                  ::Unity::Mathematics::float3x3 worldToLightSpaceRotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17583 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

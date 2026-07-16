@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6a6f440, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc32f8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   FastAction(FastAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17173 };
 
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action*>* ___delegates;

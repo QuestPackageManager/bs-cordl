@@ -31,10 +31,10 @@ public:
   /// @brief Method SetAnimatedProperties, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method SetAnimatedPropertiesInternal, addr 0x68ecc90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetAnimatedPropertiesInternal, addr 0x6a43ba8, size 0x90, virtual false, abstract: false, final false
   static inline void SetAnimatedPropertiesInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> playable, ::UnityEngine::AnimationClip* animatedProperties);
 
-  /// @brief Method SetAnimatedPropertiesInternal_Injected, addr 0x68ecd20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAnimatedPropertiesInternal_Injected, addr 0x6a43c38, size 0x44, virtual false, abstract: false, final false
   static inline void SetAnimatedPropertiesInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> playable, ::System::IntPtr animatedProperties);
 
 protected:
@@ -52,7 +52,7 @@ public:
   AnimationPlayableExtensions(AnimationPlayableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

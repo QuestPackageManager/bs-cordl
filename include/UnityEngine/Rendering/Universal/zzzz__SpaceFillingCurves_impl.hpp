@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::Part1By1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x677a1a8;
+  constexpr static std::size_t addrs = 0x68b8b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::Compact1By1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x677a1cc;
+  constexpr static std::size_t addrs = 0x68b8b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Unity::Mathematics::uint2)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::EncodeMorton2D)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x677a1f4;
+  constexpr static std::size_t addrs = 0x68b8b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::DecodeMorton2D)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x677a268;
+  constexpr static std::size_t addrs = 0x68b8be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

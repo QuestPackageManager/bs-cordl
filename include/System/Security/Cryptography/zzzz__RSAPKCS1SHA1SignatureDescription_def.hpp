@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59cadcc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b04a9c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

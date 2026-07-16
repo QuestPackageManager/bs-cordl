@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::CompatibleComparer::*)(::System::Collections::IComparer*, ::System::Collections::IHashCodeProvider*)>(
     &::System::Collections::Specialized::CompatibleComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62b1a78;
+  constexpr static std::size_t addrs = 0x63edb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::CompatibleComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::CompatibleComparer::Equals)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x62b2204;
+  constexpr static std::size_t addrs = 0x63ee2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::CompatibleComparer*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Specialized::CompatibleComparer::*)(::System::Object*)>(
     &::System::Collections::Specialized::CompatibleComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x62b2410;
+  constexpr static std::size_t addrs = 0x63ee4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IComparer* (::System::Collections::Specialized::CompatibleComparer::*)()>(
     &::System::Collections::Specialized::CompatibleComparer::get_Comparer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62b2528;
+  constexpr static std::size_t addrs = 0x63ee5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::CompatibleComparer*>(), { "get_Comparer", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IHashCodeProvider* (::System::Collections::Specialized::CompatibleComparer::*)()>(
     &::System::Collections::Specialized::CompatibleComparer::get_HashCodeProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62b2530;
+  constexpr static std::size_t addrs = 0x63ee5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IComparer* (*)()>(&::System::Collections::Specialized::CompatibleComparer::get_DefaultComparer)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x62b1254;
+  constexpr static std::size_t addrs = 0x63ed2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IHashCodeProvider* (*)()>(&::System::Collections::Specialized::CompatibleComparer::get_DefaultHashCodeProvider)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x62b1170;
+  constexpr static std::size_t addrs = 0x63ed20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

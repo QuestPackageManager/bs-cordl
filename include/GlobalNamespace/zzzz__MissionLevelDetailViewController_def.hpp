@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelDetailViewController)
 namespace GlobalNamespace {
@@ -25,7 +26,7 @@ namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class MissionLevelDetailViewController___c__DisplayClass14_0;
+class MissionLevelDetailViewController___c__DisplayClass15_0;
 }
 namespace GlobalNamespace {
 class MissionNode;
@@ -53,18 +54,18 @@ namespace GlobalNamespace {
 class MissionLevelDetailViewController;
 }
 namespace GlobalNamespace {
-class MissionLevelDetailViewController___c__DisplayClass14_0;
+class MissionLevelDetailViewController___c__DisplayClass15_0;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionLevelDetailViewController*);
-MARK_REF_T(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*);
+MARK_REF_T(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelDetailViewController*, "", "MissionLevelDetailViewController");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass14_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass15_0");
 // Dependencies MissionObjective, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: MissionLevelDetailViewController/<>c__DisplayClass14_0
-class CORDL_TYPE MissionLevelDetailViewController___c__DisplayClass14_0 : public ::System::Object {
+// CS Name: MissionLevelDetailViewController/<>c__DisplayClass15_0
+class CORDL_TYPE MissionLevelDetailViewController___c__DisplayClass15_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field missionObjectives, offset 0x10, size 0x8
@@ -74,12 +75,12 @@ public:
   __declspec(property(get = __cordl_internal_get_modifierParamsList,
                       put = __cordl_internal_set_modifierParamsList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParamsList;
 
-  static inline ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0* New_ctor();
+  static inline ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <RefreshContent>b__0, addr 0x57a1738, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__0, addr 0x595c370, size 0x224, virtual false, abstract: false, final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::ObjectiveListItem* objectiveListItem);
 
-  /// @brief Method <RefreshContent>b__1, addr 0x57a195c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__1, addr 0x595c594, size 0x80, virtual false, abstract: false, final false
   inline void _RefreshContent_b__1(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   constexpr ::ArrayW<::GlobalNamespace::MissionObjective*> const& __cordl_internal_get_missionObjectives() const;
@@ -94,25 +95,25 @@ public:
 
   constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x57a164c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595c340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MissionLevelDetailViewController___c__DisplayClass14_0();
+  constexpr MissionLevelDetailViewController___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  MissionLevelDetailViewController___c__DisplayClass14_0(MissionLevelDetailViewController___c__DisplayClass14_0&&) = delete;
+  MissionLevelDetailViewController___c__DisplayClass15_0(MissionLevelDetailViewController___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelDetailViewController___c__DisplayClass14_0(MissionLevelDetailViewController___c__DisplayClass14_0 const&) = delete;
+  MissionLevelDetailViewController___c__DisplayClass15_0(MissionLevelDetailViewController___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6934 };
 
   /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*> ___missionObjectives;
@@ -123,11 +124,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0, ___missionObjectives) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0, ___missionObjectives) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0, ___modifierParamsList) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0, ___modifierParamsList) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies HMUI.ViewController
@@ -137,7 +138,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionLevelDetailViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using __c__DisplayClass14_0 = ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0;
+  using __c__DisplayClass15_0 = ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0;
 
   /// @brief Field _gameplayModifierInfoListItemsList, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifierInfoListItemsList,
@@ -169,18 +170,18 @@ public:
 
   __declspec(property(get = get_missionNode)) ::UnityW<::GlobalNamespace::MissionNode> missionNode;
 
-  /// @brief Method DidActivate, addr 0x57a159c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x595c290, size 0xb0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionLevelDetailViewController* New_ctor();
 
-  /// @brief Method PlayButtonPressed, addr 0x57a170c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PlayButtonPressed, addr 0x595c344, size 0x28, virtual false, abstract: false, final false
   inline void PlayButtonPressed();
 
-  /// @brief Method RefreshContent, addr 0x57a1310, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x595c02c, size 0x264, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x57a12e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x595c000, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionNode* missionNode);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
@@ -231,16 +232,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x57a1734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595c36c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x57a115c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x595be78, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
-  /// @brief Method get_missionNode, addr 0x57a12dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNode, addr 0x595bff8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x57a121c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x595bf38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
 protected:
@@ -258,7 +259,10 @@ public:
   MissionLevelDetailViewController(MissionLevelDetailViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6935 };
+
+  /// @brief Field kCampaignFinishLevelLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCampaignFinishLevelLocalizationKey{ u"CAMPAIGN_FINISH_LEVEL" };
 
   /// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;

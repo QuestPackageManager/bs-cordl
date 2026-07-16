@@ -36,19 +36,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x662afd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67686e0, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x662afdc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67686e8, size 0x94, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method .ctor, addr 0x662af30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x676863c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::System::Object* arg);
 
-  /// @brief Method .ctor, addr 0x662af98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67686a4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::ArrayW<::System::Object*> args);
 
-  /// @brief Method .ctor, addr 0x662aea0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67685ac, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW name, ::UnityEngine::Profiling::CustomSampler* sampler);
 
   /// @brief Convert to "::System::IDisposable"
@@ -64,7 +64,7 @@ public:
   constexpr ProfilingSample(::UnityEngine::Rendering::CommandBuffer* m_Cmd, ::StringW m_Name, bool m_Disposed, ::UnityEngine::Profiling::CustomSampler* m_Sampler) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12026 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

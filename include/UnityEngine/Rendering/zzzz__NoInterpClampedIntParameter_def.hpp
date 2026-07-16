@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set_min(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6689c68, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c7374, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, int32_t min, int32_t max, bool overrideState);
 
-  /// @brief Method get_value, addr 0x6689c44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x67c7350, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_value, addr 0x6689c4c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x67c7358, size 0x1c, virtual true, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   NoInterpClampedIntParameter(NoInterpClampedIntParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12317 };
 
   /// @brief Field min, offset: 0x18, size: 0x4, def value: None
   int32_t ___min;

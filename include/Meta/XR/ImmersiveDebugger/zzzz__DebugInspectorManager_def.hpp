@@ -40,27 +40,27 @@ public:
   __declspec(property(get = __cordl_internal_get__inspectors,
                       put = __cordl_internal_set__inspectors)) ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::DebugInspector>>* _inspectors;
 
-  /// @brief Method FetchCategory, addr 0x59054f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method FetchCategory, addr 0x5a3ebfc, size 0x18, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Manager::Category FetchCategory(::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
   static inline ::Meta::XR::ImmersiveDebugger::DebugInspectorManager* New_ctor();
 
-  /// @brief Method OnReadyInternal, addr 0x5905280, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OnReadyInternal, addr 0x5a3e984, size 0xfc, virtual true, abstract: false, final false
   inline void OnReadyInternal();
 
-  /// @brief Method ProcessInspector, addr 0x5904a90, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessInspector, addr 0x5a3e194, size 0x4d0, virtual false, abstract: false, final false
   inline void ProcessInspector(::Meta::XR::ImmersiveDebugger::DebugInspector* inspector);
 
-  /// @brief Method RegisterInspector, addr 0x5904230, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RegisterInspector, addr 0x5a3d934, size 0xb4, virtual false, abstract: false, final false
   inline void RegisterInspector(::Meta::XR::ImmersiveDebugger::DebugInspector* inspector);
 
-  /// @brief Method UnprocessInspector, addr 0x5904f60, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method UnprocessInspector, addr 0x5a3e664, size 0x318, virtual false, abstract: false, final false
   inline void UnprocessInspector(::Meta::XR::ImmersiveDebugger::DebugInspector* inspector);
 
-  /// @brief Method UnregisterInspector, addr 0x590433c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UnregisterInspector, addr 0x5a3da40, size 0x70, virtual false, abstract: false, final false
   inline void UnregisterInspector(::Meta::XR::ImmersiveDebugger::DebugInspector* inspector);
 
-  /// @brief Method UpdateCategory, addr 0x59054c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdateCategory, addr 0x5a3ebcc, size 0x30, virtual false, abstract: false, final false
   inline void UpdateCategory(::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::Meta::XR::ImmersiveDebugger::DebugInspector* inspector);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::DebugInspector>>* const& __cordl_internal_get__inspectors() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__inspectors(::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::DebugInspector>>* value);
 
-  /// @brief Method .ctor, addr 0x59055c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3eccc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Method, addr 0x5905278, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x5a3e97c, size 0x8, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Telemetry_Method get_Method();
 
 protected:
@@ -90,7 +90,7 @@ public:
   DebugInspectorManager(DebugInspectorManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18296 };
 
   /// @brief Field _inspectors, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::DebugInspector>>* ____inspectors;

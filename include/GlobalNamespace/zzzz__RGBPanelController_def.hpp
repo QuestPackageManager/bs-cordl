@@ -50,21 +50,21 @@ public:
   __declspec(property(get = __cordl_internal_get_colorDidChangeEvent,
                       put = __cordl_internal_set_colorDidChangeEvent)) ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x58f2d6c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a2c6ac, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleSliderColorDidChange, addr 0x58f301c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderColorDidChange, addr 0x5a2c95c, size 0x3c, virtual false, abstract: false, final false
   inline void HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
   static inline ::GlobalNamespace::RGBPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58f2e6c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a2c7ac, size 0x1b0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshSlidersColors, addr 0x58f2c40, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshSlidersColors, addr 0x5a2c580, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshSlidersColors();
 
-  /// @brief Method RefreshSlidersValues, addr 0x58f2d20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RefreshSlidersValues, addr 0x5a2c660, size 0x4c, virtual false, abstract: false, final false
   inline void RefreshSlidersValues();
 
   constexpr ::UnityW<::HMUI::ColorGradientSlider> const& __cordl_internal_get__blueSlider() const;
@@ -97,19 +97,19 @@ public:
 
   constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x58f3058, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2c998, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x58f2a94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x5a2c3d4, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method get_color, addr 0x58f2c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5a2c554, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x58f2b54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x5a2c494, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method set_color, addr 0x58f2c20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x5a2c560, size 0x20, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   RGBPanelController(RGBPanelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23103 };
 
   /// @brief Field _redSlider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ColorGradientSlider> ____redSlider;

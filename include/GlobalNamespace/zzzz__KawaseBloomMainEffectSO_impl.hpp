@@ -3,19 +3,19 @@
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBloomMainEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IBaseCommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::KawaseBloomMainEffectSO.get_hasPostProcessEffect
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e088e0;
+  constexpr static std::size_t addrs = 0x5f40644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 8 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e088e8;
+  constexpr static std::size_t addrs = 0x5f4064c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e089d8;
+  constexpr static std::size_t addrs = 0x5f4073c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { "OnDisable", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::LazyInitializeMaterials)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e08914;
+  constexpr static std::size_t addrs = 0x5f40678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { "LazyInitializeMaterials", {}, {} })));
@@ -59,23 +59,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::KawaseBloomMainEffectSO.PreRender
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::PreRender)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e089f8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 5 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::KawaseBloomMainEffectSO.Render
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t)>(
-    &::GlobalNamespace::KawaseBloomMainEffectSO::Render)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5e08b28;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)(::UnityEngine::Rendering::IBaseCommandBuffer*)>(
+    &::GlobalNamespace::KawaseBloomMainEffectSO::PreRender)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5f4075c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e08d40;
+  constexpr static std::size_t addrs = 0x5f4093c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { ".ctor", {}, {} })));
@@ -235,7 +222,7 @@ inline int32_t GlobalNamespace::KawaseBloomMainEffectSO::getStaticF__fadeID() {
 }
 inline bool GlobalNamespace::KawaseBloomMainEffectSO::get_hasPostProcessEffect() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void GlobalNamespace::KawaseBloomMainEffectSO::OnEnable() {
@@ -251,15 +238,10 @@ inline void GlobalNamespace::KawaseBloomMainEffectSO::LazyInitializeMaterials() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { "LazyInitializeMaterials", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::KawaseBloomMainEffectSO::PreRender() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::KawaseBloomMainEffectSO::Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade) {
+inline void GlobalNamespace::KawaseBloomMainEffectSO::PreRender(::UnityEngine::Rendering::IBaseCommandBuffer* cmd) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, src, dest, fade);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
 }
 inline void GlobalNamespace::KawaseBloomMainEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBloomMainEffectSO*>(), { ".ctor", {}, {} })));

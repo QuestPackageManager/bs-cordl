@@ -99,7 +99,7 @@ public:
   static ::GlobalNamespace::LevelCompletionResults_LevelEndStateType const Incomplete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -158,7 +158,7 @@ public:
   static ::GlobalNamespace::LevelCompletionResults_LevelEndAction const Restart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21141 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -274,13 +274,13 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x36badc4, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3779010, size 0x118, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CreateFromSerializedData, addr 0x36bb320, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x377956c, size 0x390, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x36bb318, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x3779564, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
@@ -294,7 +294,7 @@ public:
                                                                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                                                                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated);
 
-  /// @brief Method Serialize, addr 0x36baedc, size 0x41c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x3779128, size 0x41c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const;
@@ -447,10 +447,10 @@ public:
 
   constexpr void __cordl_internal_set_totalCutScore(int32_t value);
 
-  /// @brief Method .ctor, addr 0x36bad48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3778f94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36bad4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3778f98, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::RankModel_Rank rank, bool fullCombo,
                     float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance,
                     ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction, float_t energy,
@@ -458,7 +458,7 @@ public:
                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated);
 
-  /// @brief Method get_cumulativeScore, addr 0x36bad40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cumulativeScore, addr 0x3778f8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cumulativeScore();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
@@ -486,7 +486,7 @@ public:
   LevelCompletionResults(LevelCompletionResults const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21142 };
 
   /// @brief Field gameplayModifiers, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Runtime::Serialization::IDataContractSurrogate*, ::System::Type*)>(
     &::System::Runtime::Serialization::DataContractSurrogateCaller::GetDataContractType)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6017134;
+  constexpr static std::size_t addrs = 0x6152230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Runtime::Serialization::IDataContractSurrogate*, ::System::Object*, ::System::Type*, ::System::Type*)>(
     &::System::Runtime::Serialization::DataContractSurrogateCaller::GetObjectToSerialize)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6017220;
+  constexpr static std::size_t addrs = 0x615231c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Runtime::Serialization::IDataContractSurrogate*, ::System::Object*, ::System::Type*, ::System::Type*)>(
     &::System::Runtime::Serialization::DataContractSurrogateCaller::GetDeserializedObject)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6017314;
+  constexpr static std::size_t addrs = 0x6152410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

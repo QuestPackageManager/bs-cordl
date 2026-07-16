@@ -20,7 +20,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE NativeReferenceDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6380e04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x64bda24, size 0x28, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr NativeReferenceDispose(void* m_Data, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15654 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

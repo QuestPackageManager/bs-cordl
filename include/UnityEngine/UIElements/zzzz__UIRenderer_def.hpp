@@ -40,13 +40,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIRenderer* New_ctor();
 
-  /// @brief Method OnRenderNodeExecute, addr 0x6c5ff2c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnRenderNodeExecute, addr 0x6db3de4, size 0xd4, virtual false, abstract: false, final false
   static inline void OnRenderNodeExecute(::UnityEngine::UIElements::UIRenderer* renderer, int32_t safeFrameIndex, int32_t cmdListIndex);
 
-  /// @brief Method SetNativeData, addr 0x6c5fdf8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetNativeData, addr 0x6db3cb0, size 0xd8, virtual false, abstract: false, final false
   inline void SetNativeData(int32_t safeFrameIndex, int32_t cmdListIndex, ::UnityEngine::Material* mat);
 
-  /// @brief Method SetNativeData_Injected, addr 0x6c5fed0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetNativeData_Injected, addr 0x6db3d88, size 0x5c, virtual false, abstract: false, final false
   static inline void SetNativeData_Injected(::System::IntPtr _unity_self, int32_t safeFrameIndex, int32_t cmdListIndex, ::System::IntPtr mat);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> const& __cordl_internal_get_commandLists() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_skipRendering(bool value);
 
-  /// @brief Method .ctor, addr 0x6c60000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db3eb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

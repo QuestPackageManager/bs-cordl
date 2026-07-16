@@ -34,30 +34,30 @@ public:
   /// @brief Field driver, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_driver, put = __cordl_internal_set_driver)) ::System::TermInfoDriver* driver;
 
-  /// @brief Method InternalWriteChar, addr 0x5ae6ab4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteChar, addr 0x5c2078c, size 0x88, virtual false, abstract: false, final false
   inline void InternalWriteChar(char16_t val);
 
-  /// @brief Method InternalWriteChars, addr 0x5ae6bc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteChars, addr 0x5c2089c, size 0x90, virtual false, abstract: false, final false
   inline void InternalWriteChars(::ArrayW<char16_t> buffer, int32_t n);
 
-  /// @brief Method InternalWriteString, addr 0x5ae6b3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteString, addr 0x5c20814, size 0x88, virtual false, abstract: false, final false
   inline void InternalWriteString(::StringW val);
 
   static inline ::System::IO::CStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
 
-  /// @brief Method Write, addr 0x5ae652c, size 0x3d0, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c20204, size 0x3d0, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x5ae6c54, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c2092c, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t> val);
 
-  /// @brief Method Write, addr 0x5ae6c78, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c20950, size 0xd0, virtual true, abstract: false, final false
   inline void Write(::StringW val);
 
-  /// @brief Method Write, addr 0x5ae68fc, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c205d4, size 0x1b8, virtual true, abstract: false, final false
   inline void Write(char16_t val);
 
-  /// @brief Method WriteLine, addr 0x5ae6d48, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x5c20a20, size 0x48, virtual true, abstract: false, final false
   inline void WriteLine(::StringW val);
 
   constexpr ::System::TermInfoDriver* const& __cordl_internal_get_driver() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_driver(::System::TermInfoDriver* value);
 
-  /// @brief Method .ctor, addr 0x5ae63f4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c200cc, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
 
 protected:

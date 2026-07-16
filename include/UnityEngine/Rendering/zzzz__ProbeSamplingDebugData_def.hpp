@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_update(::UnityEngine::Rendering::ProbeSamplingDebugUpdate value);
 
-  /// @brief Method .ctor, addr 0x664ead4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x678c1e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ProbeSamplingDebugData(ProbeSamplingDebugData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12094 };
 
   /// @brief Field update, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeSamplingDebugUpdate ___update;

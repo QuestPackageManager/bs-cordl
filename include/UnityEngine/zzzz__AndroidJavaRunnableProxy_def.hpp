@@ -29,7 +29,7 @@ public:
   /// @brief Field mRunnable, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_mRunnable, put = __cordl_internal_set_mRunnable)) ::UnityEngine::AndroidJavaRunnable* mRunnable;
 
-  /// @brief Method Invoke, addr 0x68d1088, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a27fa0, size 0xb0, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::StringW methodName, ::System::IntPtr javaArgs);
 
   static inline ::UnityEngine::AndroidJavaRunnableProxy* New_ctor(::UnityEngine::AndroidJavaRunnable* runnable);
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_mRunnable(::UnityEngine::AndroidJavaRunnable* value);
 
-  /// @brief Method .ctor, addr 0x68d0f78, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a27e90, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaRunnable* runnable);
 
-  /// @brief Method run, addr 0x68d1068, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method run, addr 0x6a27f80, size 0x20, virtual false, abstract: false, final false
   inline void run();
 
 protected:
@@ -61,7 +61,7 @@ public:
   AndroidJavaRunnableProxy(AndroidJavaRunnableProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20124 };
 
   /// @brief Field mRunnable, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AndroidJavaRunnable* ___mRunnable;

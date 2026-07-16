@@ -50,7 +50,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*() noexcept;
 
-  /// @brief Method FromInternalContext, addr 0x6698f7c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x67d6688, size 0xa4, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* New_ctor();
@@ -67,15 +67,15 @@ public:
 
   constexpr void __cordl_internal_set_wrappedContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* value);
 
-  /// @brief Method .ctor, addr 0x6699020, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d672c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ComputeCommandBuffer* getStaticF_computecmd();
 
-  /// @brief Method get_defaultResources, addr 0x6698f4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x67d6658, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderGraphPool, addr 0x6698f64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x67d6670, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -98,7 +98,7 @@ public:
   ComputeGraphContext(ComputeGraphContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12386 };
 
   /// @brief Field wrappedContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* ___wrappedContext;

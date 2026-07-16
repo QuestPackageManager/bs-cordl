@@ -28,12 +28,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE GetViewDataDictionary : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6c61630, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6db54e8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ISerializableJsonDictionary* Invoke();
 
   static inline ::UnityEngine::UIElements::GetViewDataDictionary* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6c615c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db5480, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

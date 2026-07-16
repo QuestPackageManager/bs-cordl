@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::MultiplayerStatusData_AvailabilityStatus const Online;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18928 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x321fbcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b75ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   UserMessage_MultiplayerStatusData_LocalizedMessage(UserMessage_MultiplayerStatusData_LocalizedMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18929 };
 
   /// @brief Field language, offset: 0x10, size: 0x8, def value: None
   ::StringW ___language;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set_localizations(::ArrayW<::GlobalNamespace::UserMessage_MultiplayerStatusData_LocalizedMessage*> value);
 
-  /// @brief Method .ctor, addr 0x321fbc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b75e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +201,7 @@ public:
   MultiplayerStatusData_UserMessage(MultiplayerStatusData_UserMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18930 };
 
   /// @brief Field localizations, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::UserMessage_MultiplayerStatusData_LocalizedMessage*> ___localizations;
@@ -254,19 +254,14 @@ public:
 
   __declspec(property(get = get_useLocalServer, put = set_useLocalServer)) bool useLocalServer;
 
-  __declspec(property(get = get_useXPlatformAuth, put = set_useXPlatformAuth)) bool useXPlatformAuth;
-
   /// @brief Field use_gamelift, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_use_gamelift, put = __cordl_internal_set_use_gamelift)) bool use_gamelift;
 
-  /// @brief Field use_gamelift_udp_ping_beacons, offset 0x41, size 0x1
+  /// @brief Field use_gamelift_udp_ping_beacons, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_use_gamelift_udp_ping_beacons, put = __cordl_internal_set_use_gamelift_udp_ping_beacons)) bool use_gamelift_udp_ping_beacons;
 
   /// @brief Field use_local_server, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_use_local_server, put = __cordl_internal_set_use_local_server)) bool use_local_server;
-
-  /// @brief Field use_xplatform_auth, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_use_xplatform_auth, put = __cordl_internal_set_use_xplatform_auth)) bool use_xplatform_auth;
 
   __declspec(property(get = get_userMessage, put = set_userMessage)) ::GlobalNamespace::MultiplayerStatusData_UserMessage* userMessage;
 
@@ -307,10 +302,6 @@ public:
 
   constexpr bool& __cordl_internal_get_use_local_server();
 
-  constexpr bool const& __cordl_internal_get_use_xplatform_auth() const;
-
-  constexpr bool& __cordl_internal_get_use_xplatform_auth();
-
   constexpr ::GlobalNamespace::MultiplayerStatusData_UserMessage* const& __cordl_internal_get_user_message() const;
 
   constexpr ::GlobalNamespace::MultiplayerStatusData_UserMessage*& __cordl_internal_get_user_message();
@@ -331,65 +322,57 @@ public:
 
   constexpr void __cordl_internal_set_use_local_server(bool value);
 
-  constexpr void __cordl_internal_set_use_xplatform_auth(bool value);
-
   constexpr void __cordl_internal_set_user_message(::GlobalNamespace::MultiplayerStatusData_UserMessage* value);
 
-  /// @brief Method .ctor, addr 0x321fbc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b75e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localServerPort, addr 0x321fb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localServerPort, addr 0x32b75c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_localServerPort();
 
-  /// @brief Method get_maintenanceEndTime, addr 0x321fb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceEndTime, addr 0x32b7584, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceEndTime();
 
-  /// @brief Method get_maintenanceStartTime, addr 0x321fb44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceStartTime, addr 0x32b7574, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceStartTime();
 
-  /// @brief Method get_minimumAppVersion, addr 0x321fb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumAppVersion, addr 0x32b7564, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_minimumAppVersion();
 
-  /// @brief Method get_useGameLiftUdpPingBeacons, addr 0x321fbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGameLiftUdpPingBeacons, addr 0x32b75d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGameLiftUdpPingBeacons();
 
-  /// @brief Method get_useGamelift, addr 0x321fb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGamelift, addr 0x32b75a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGamelift();
 
-  /// @brief Method get_useLocalServer, addr 0x321fb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useLocalServer, addr 0x32b75b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useLocalServer();
 
-  /// @brief Method get_useXPlatformAuth, addr 0x321fba4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useXPlatformAuth();
-
-  /// @brief Method get_userMessage, addr 0x321fb64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userMessage, addr 0x32b7594, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerStatusData_UserMessage* get_userMessage();
 
-  /// @brief Method set_localServerPort, addr 0x321fb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localServerPort, addr 0x32b75cc, size 0x8, virtual false, abstract: false, final false
   inline void set_localServerPort(int32_t value);
 
-  /// @brief Method set_maintenanceEndTime, addr 0x321fb5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceEndTime, addr 0x32b758c, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceEndTime(int64_t value);
 
-  /// @brief Method set_maintenanceStartTime, addr 0x321fb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceStartTime, addr 0x32b757c, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceStartTime(int64_t value);
 
-  /// @brief Method set_minimumAppVersion, addr 0x321fb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumAppVersion, addr 0x32b756c, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumAppVersion(::StringW value);
 
-  /// @brief Method set_useGameLiftUdpPingBeacons, addr 0x321fbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useGameLiftUdpPingBeacons, addr 0x32b75dc, size 0x8, virtual false, abstract: false, final false
   inline void set_useGameLiftUdpPingBeacons(bool value);
 
-  /// @brief Method set_useGamelift, addr 0x321fb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useGamelift, addr 0x32b75ac, size 0x8, virtual false, abstract: false, final false
   inline void set_useGamelift(bool value);
 
-  /// @brief Method set_useLocalServer, addr 0x321fb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useLocalServer, addr 0x32b75bc, size 0x8, virtual false, abstract: false, final false
   inline void set_useLocalServer(bool value);
 
-  /// @brief Method set_useXPlatformAuth, addr 0x321fbac, size 0x8, virtual false, abstract: false, final false
-  inline void set_useXPlatformAuth(bool value);
-
-  /// @brief Method set_userMessage, addr 0x321fb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userMessage, addr 0x32b759c, size 0x8, virtual false, abstract: false, final false
   inline void set_userMessage(::GlobalNamespace::MultiplayerStatusData_UserMessage* value);
 
 protected:
@@ -407,7 +390,7 @@ public:
   MultiplayerStatusData(MultiplayerStatusData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18931 };
 
   /// @brief Field minimum_app_version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___minimum_app_version;
@@ -433,10 +416,7 @@ public:
   /// @brief Field local_server_port, offset: 0x3c, size: 0x4, def value: None
   int32_t ___local_server_port;
 
-  /// @brief Field use_xplatform_auth, offset: 0x40, size: 0x1, def value: None
-  bool ___use_xplatform_auth;
-
-  /// @brief Field use_gamelift_udp_ping_beacons, offset: 0x41, size: 0x1, def value: None
+  /// @brief Field use_gamelift_udp_ping_beacons, offset: 0x40, size: 0x1, def value: None
   bool ___use_gamelift_udp_ping_beacons;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -458,9 +438,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___use_local_se
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___local_server_port) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___use_xplatform_auth) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___use_gamelift_udp_ping_beacons) == 0x41, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___use_gamelift_udp_ping_beacons) == 0x40, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::MultiplayerStatusData) == 0x48, "Size mismatch!");
 

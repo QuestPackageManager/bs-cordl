@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::CannotStartGameReason)>(&::GlobalNamespace::CannotStartGameReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3676a58;
+  constexpr static std::size_t addrs = 0x373216c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

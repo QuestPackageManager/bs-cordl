@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::StringW>)>(&::Unity::Burst::SafeStringArrayHelper::SerialiseStringArraySafe)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x632f75c;
+  constexpr static std::size_t addrs = 0x646c37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&::Unity::Burst::SafeStringArrayHelper::DeserialiseStringArraySafe)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x632f970;
+  constexpr static std::size_t addrs = 0x646c590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

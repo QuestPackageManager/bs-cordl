@@ -69,21 +69,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x66c0040, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x67fd74c, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x66c0130, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x67fd83c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x66c0138, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x67fd844, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x66c0170, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x67fd87c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x66c003c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x67fd748, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory> value);
 
-  /// @brief Method .ctor, addr 0x66c0030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fd73c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -131,7 +131,7 @@ public:
   DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4(DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12490 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -168,13 +168,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory* New_ctor();
 
-  /// @brief Method RefreshAfterSanitization, addr 0x66bffdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshAfterSanitization, addr 0x67fd6e8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshAfterSanitization();
 
-  /// @brief Method SetWidget, addr 0x66bfb2c, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x67fd238, size 0x28c, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x66bfdb8, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x67fd4c4, size 0x224, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Text>> const& __cordl_internal_get_historyValues() const;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set_historyValues(::ArrayW<::UnityW<::UnityEngine::UI::Text>> value);
 
-  /// @brief Method .ctor, addr 0x66c0038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fd744, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +201,7 @@ public:
   DebugUIHandlerEnumHistory(DebugUIHandlerEnumHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12491 };
 
   /// @brief Field k_XOffset offset 0xffffffff size 0x4
   static constexpr float_t k_XOffset{ static_cast<float_t>(230.0f) };

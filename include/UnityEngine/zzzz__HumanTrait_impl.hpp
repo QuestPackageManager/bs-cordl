@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::HumanTrait::GetBoneIndexFromMono)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x68e2e70;
+  constexpr static std::size_t addrs = 0x6a39d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

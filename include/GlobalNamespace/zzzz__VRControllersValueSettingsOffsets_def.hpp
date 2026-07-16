@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x36961fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37516c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alternativeHandling, addr 0x3696124, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_alternativeHandling, addr 0x37515e8, size 0x28, virtual true, abstract: false, final false
   inline bool get_alternativeHandling();
 
-  /// @brief Method get_leftPositionOffset, addr 0x369614c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftPositionOffset, addr 0x3751610, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftPositionOffset();
 
-  /// @brief Method get_leftRotationOffset, addr 0x3696178, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftRotationOffset, addr 0x375163c, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftRotationOffset();
 
-  /// @brief Method get_rightPositionOffset, addr 0x36961a4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightPositionOffset, addr 0x3751668, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightPositionOffset();
 
-  /// @brief Method get_rightRotationOffset, addr 0x36961d0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightRotationOffset, addr 0x3751694, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightRotationOffset();
 
 protected:
@@ -91,7 +91,7 @@ public:
   VRControllersValueSettingsOffsets(VRControllersValueSettingsOffsets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15223 };
 
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

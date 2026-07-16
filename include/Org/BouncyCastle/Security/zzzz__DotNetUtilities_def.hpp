@@ -66,81 +66,81 @@ namespace Org::BouncyCastle::Security {
 class CORDL_TYPE DotNetUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertRSAParametersField, addr 0x353cfd8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ConvertRSAParametersField, addr 0x35f9490, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ConvertRSAParametersField(::Org::BouncyCastle::Math::BigInteger* n, int32_t size);
 
-  /// @brief Method CreateRSAProvider, addr 0x353cb28, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CreateRSAProvider, addr 0x35f8fe0, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* CreateRSAProvider(::System::Security::Cryptography::RSAParameters rp);
 
-  /// @brief Method CreateRSAProvider, addr 0x353ccac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateRSAProvider, addr 0x35f9164, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* CreateRSAProvider(::System::Security::Cryptography::RSAParameters rp, ::System::Security::Cryptography::CspParameters* csp);
 
-  /// @brief Method FromX509Certificate, addr 0x353c0e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromX509Certificate, addr 0x35f85a0, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::X509Certificate* FromX509Certificate(::System::Security::Cryptography::X509Certificates::X509Certificate* x509Cert);
 
-  /// @brief Method GetDsaKeyPair, addr 0x353c1a8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetDsaKeyPair, addr 0x35f8660, size 0x218, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GetDsaKeyPair(::System::Security::Cryptography::DSAParameters dp);
 
-  /// @brief Method GetDsaKeyPair, addr 0x353c160, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetDsaKeyPair, addr 0x35f8618, size 0x48, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GetDsaKeyPair(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method GetDsaPublicKey, addr 0x353c408, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetDsaPublicKey, addr 0x35f88c0, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* GetDsaPublicKey(::System::Security::Cryptography::DSAParameters dp);
 
-  /// @brief Method GetDsaPublicKey, addr 0x353c3c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetDsaPublicKey, addr 0x35f8878, size 0x48, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* GetDsaPublicKey(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method GetKeyPair, addr 0x353c914, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetKeyPair, addr 0x35f8dcc, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GetKeyPair(::System::Security::Cryptography::AsymmetricAlgorithm* privateKey);
 
-  /// @brief Method GetRsaKeyPair, addr 0x353c5e0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetRsaKeyPair, addr 0x35f8a98, size 0x224, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GetRsaKeyPair(::System::Security::Cryptography::RSAParameters rp);
 
-  /// @brief Method GetRsaKeyPair, addr 0x353c598, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRsaKeyPair, addr 0x35f8a50, size 0x48, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GetRsaKeyPair(::System::Security::Cryptography::RSA* rsa);
 
-  /// @brief Method GetRsaPublicKey, addr 0x353c84c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRsaPublicKey, addr 0x35f8d04, size 0xc8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* GetRsaPublicKey(::System::Security::Cryptography::RSAParameters rp);
 
-  /// @brief Method GetRsaPublicKey, addr 0x353c804, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRsaPublicKey, addr 0x35f8cbc, size 0x48, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* GetRsaPublicKey(::System::Security::Cryptography::RSA* rsa);
 
   static inline ::Org::BouncyCastle::Security::DotNetUtilities* New_ctor();
 
-  /// @brief Method ToRSA, addr 0x353ce94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToRSA, addr 0x35f934c, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* ToRSA(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* privKey);
 
-  /// @brief Method ToRSA, addr 0x353cfac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToRSA, addr 0x35f9464, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* ToRSA(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* privKey, ::System::Security::Cryptography::CspParameters* csp);
 
-  /// @brief Method ToRSA, addr 0x353cd50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToRSA, addr 0x35f9208, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* ToRSA(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privKey);
 
-  /// @brief Method ToRSA, addr 0x353ce68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToRSA, addr 0x35f9320, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* ToRSA(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privKey, ::System::Security::Cryptography::CspParameters* csp);
 
-  /// @brief Method ToRSA, addr 0x353ca84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToRSA, addr 0x35f8f3c, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* ToRSA(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaKey);
 
-  /// @brief Method ToRSA, addr 0x353cc80, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToRSA, addr 0x35f9138, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* ToRSA(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaKey, ::System::Security::Cryptography::CspParameters* csp);
 
-  /// @brief Method ToRSAParameters, addr 0x353ceb8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToRSAParameters, addr 0x35f9370, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSAParameters ToRSAParameters(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* privKey);
 
-  /// @brief Method ToRSAParameters, addr 0x353cd74, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToRSAParameters, addr 0x35f922c, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSAParameters ToRSAParameters(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privKey);
 
-  /// @brief Method ToRSAParameters, addr 0x353caa8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToRSAParameters, addr 0x35f8f60, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSAParameters ToRSAParameters(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaKey);
 
-  /// @brief Method ToX509Certificate, addr 0x353c064, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToX509Certificate, addr 0x35f851c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* ToX509Certificate(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
 
-  /// @brief Method ToX509Certificate, addr 0x353bfe8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToX509Certificate, addr 0x35f84a0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* ToX509Certificate(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* x509Struct);
 
-  /// @brief Method .ctor, addr 0x353bfe4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f849c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

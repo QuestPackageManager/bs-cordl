@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b55b0;
+  constexpr static std::size_t addrs = 0x3671a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW, char16_t)>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35b576c;
+  constexpr static std::size_t addrs = 0x3671c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::HasMoreTokens)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35b57e8;
+  constexpr static std::size_t addrs = 0x3671ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(), { "HasMoreTokens", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::NextToken)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x35b55b8;
+  constexpr static std::size_t addrs = 0x3671a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(), { "NextToken", {}, {} })));

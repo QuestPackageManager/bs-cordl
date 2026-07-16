@@ -5,16 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
-#include <cmath>
 CORDL_MODULE_EXPORT(VRPlatformUtils)
 namespace GlobalNamespace {
 class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class IVerboseLogger;
-}
-namespace UnityEngine::XR {
-struct XRNode;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -33,20 +26,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRPlatformUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x5715c4c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x585fb2c, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x571545c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x585d408, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDefaultImplementation();
 
-  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x57154d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x585d484, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDownDefaultImplementation();
-
-  /// @brief Method StopXR, addr 0x5715d88, size 0x110, virtual false, abstract: false, final false
-  static inline void StopXR(::GlobalNamespace::IVerboseLogger* logger);
-
-  /// @brief Method TriggerValueDefaultImplementation, addr 0x5715bc0, size 0x8c, virtual false, abstract: false, final false
-  static inline float_t TriggerValueDefaultImplementation(::UnityEngine::XR::XRNode node);
 
 protected:
   // Ctor Parameters []
@@ -63,7 +50,7 @@ public:
   VRPlatformUtils(VRPlatformUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21407 };
 
   /// @brief Field kMenuButtonLeftHand offset 0xffffffff size 0x8
   static constexpr ::ConstString kMenuButtonLeftHand{ u"OpenXRPrimaryButtonLeftHand" };
@@ -73,12 +60,6 @@ public:
 
   /// @brief Field kMenuButtonRightHand offset 0xffffffff size 0x8
   static constexpr ::ConstString kMenuButtonRightHand{ u"OpenXRPrimaryButtonRightHand" };
-
-  /// @brief Field kTriggerLeftHand offset 0xffffffff size 0x8
-  static constexpr ::ConstString kTriggerLeftHand{ u"TriggerLeftHand" };
-
-  /// @brief Field kTriggerRightHand offset 0xffffffff size 0x8
-  static constexpr ::ConstString kTriggerRightHand{ u"TriggerRightHand" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GridElementController::*)()>(&::GlobalNamespace::GridElementController::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0edac;
+  constexpr static std::size_t addrs = 0x5f49e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GridElementController*>(), { "Awake", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GridElementController::*)()>(&::GlobalNamespace::GridElementController::Initialize)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5e0edb0;
+  constexpr static std::size_t addrs = 0x5f49e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GridElementController*>(), { "Initialize", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::GridElementController::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::GridElementController::ConvertPositionToObjectSpace)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e0ef28;
+  constexpr static std::size_t addrs = 0x5f4a010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GridElementController::*)(::UnityEngine::Material*)>(&::GlobalNamespace::GridElementController::SetGridMaterial)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e0ef70;
+  constexpr static std::size_t addrs = 0x5f4a058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GridElementController::*)()>(&::GlobalNamespace::GridElementController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e0ef98;
+  constexpr static std::size_t addrs = 0x5f4a080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GridElementController*>(), { ".ctor", {}, {} })));

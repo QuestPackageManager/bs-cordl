@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::AccessControl::AceFlags, ::System::Security::AccessControl::AceQualifier, int32_t, ::System::Security::Principal::SecurityIdentifier*, bool, ::ArrayW<uint8_t>)>(
     &::System::Security::AccessControl::CommonAce::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x59e0c0c;
+  constexpr static std::size_t addrs = 0x5b1a8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonAce::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::CommonAce::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x59e0da0;
+  constexpr static std::size_t addrs = 0x5b1aa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::CommonAce::*)()>(&::System::Security::AccessControl::CommonAce::get_BinaryLength)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59e10e4;
+  constexpr static std::size_t addrs = 0x5b1adb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonAce::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::AccessControl::CommonAce::GetBinaryForm)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x59e1134;
+  constexpr static std::size_t addrs = 0x5b1ae04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AceType (*)(::System::Security::AccessControl::AceQualifier, bool)>(
     &::System::Security::AccessControl::CommonAce::ConvertType)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59e0c6c;
+  constexpr static std::size_t addrs = 0x5b1a93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

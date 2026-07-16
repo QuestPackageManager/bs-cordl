@@ -38,7 +38,7 @@ public:
 
   static inline ::UnityEngine::Rendering::APVDefinitions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6656420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6793b2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_debugEmptyColor();
@@ -72,7 +72,7 @@ public:
   APVDefinitions(APVDefinitions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12130 };
 
   /// @brief Field probeValidityThreshold offset 0xffffffff size 0x4
   static constexpr float_t probeValidityThreshold{ static_cast<float_t>(0.05f) };

@@ -37,10 +37,10 @@ public:
   /// @brief Field cert, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert)) ::Org::BouncyCastle::X509::X509Certificate* cert;
 
-  /// @brief Method Equals, addr 0x34fde20, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35ba2d8, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x34fdecc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35ba384, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method .ctor, addr 0x34fdd44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ba1fc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x34fddc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ba278, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x34fddec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ba2a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Certificate, addr 0x34fde18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x35ba2d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Certificate();
 
 protected:

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (::UnityEngine::UIElements::Internal::TypePathVisitor::*)()>(
     &::UnityEngine::UIElements::Internal::TypePathVisitor::get_Path)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bc96d8;
+  constexpr static std::size_t addrs = 0x6d1d590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>(), { "get_Path", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::TypePathVisitor::*)(::Unity::Properties::PropertyPath)>(
     &::UnityEngine::UIElements::Internal::TypePathVisitor::set_Path)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bc96e8;
+  constexpr static std::size_t addrs = 0x6d1d5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::TypePathVisitor::*)(::System::Type*)>(
     &::UnityEngine::UIElements::Internal::TypePathVisitor::set_resolvedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc96f4;
+  constexpr static std::size_t addrs = 0x6d1d5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::VisitReturnCode (::UnityEngine::UIElements::Internal::TypePathVisitor::*)()>(
     &::UnityEngine::UIElements::Internal::TypePathVisitor::get_ReturnCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc96fc;
+  constexpr static std::size_t addrs = 0x6d1d5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>(), { "get_ReturnCode", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::TypePathVisitor::*)(::Unity::Properties::VisitReturnCode)>(
     &::UnityEngine::UIElements::Internal::TypePathVisitor::set_ReturnCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc9704;
+  constexpr static std::size_t addrs = 0x6d1d5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>(),
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::TypePathVisitor::*)()>(&::UnityEngine::UIElements::Internal::TypePathVisitor::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bc970c;
+  constexpr static std::size_t addrs = 0x6d1d5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>(), { "Reset", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Internal::TypePathVisitor::*)()>(&::UnityEngine::UIElements::Internal::TypePathVisitor::IsLastPartReached)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6bc9728;
+  constexpr static std::size_t addrs = 0x6d1d5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>(), { "IsLastPartReached", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::UnityEngine::UIElements::Internal::TypePathVisitor::GetElementType)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6bc9794;
+  constexpr static std::size_t addrs = 0x6d1d64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::TypePathVisitor::*)()>(&::UnityEngine::UIElements::Internal::TypePathVisitor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bc9958;
+  constexpr static std::size_t addrs = 0x6d1d810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::OnXmlDictionaryReaderClose::*)(::System::Object*, ::System::IntPtr)>(&::System::Xml::OnXmlDictionaryReaderClose::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5fdfa5c;
+  constexpr static std::size_t addrs = 0x611ab58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::OnXmlDictionaryReaderClose::*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::OnXmlDictionaryReaderClose::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fdfba0;
+  constexpr static std::size_t addrs = 0x611ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

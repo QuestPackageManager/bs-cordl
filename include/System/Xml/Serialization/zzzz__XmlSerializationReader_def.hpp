@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_TypeNs(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61bd0d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f81cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   XmlSerializationReader_WriteCallbackInfo(XmlSerializationReader_WriteCallbackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9498 };
 
   /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___Type;
@@ -244,22 +244,22 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61c0fac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62fc0a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* collection, ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback, ::StringW id);
 
-  /// @brief Method get_Callback, addr 0x61c0fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x62fc0b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* get_Callback();
 
-  /// @brief Method get_Collection, addr 0x61c0fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Collection, addr 0x62fc0bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Collection();
 
-  /// @brief Method get_CollectionItems, addr 0x61c0fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItems, addr 0x62fc0cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CollectionItems();
 
-  /// @brief Method get_Id, addr 0x61c0fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x62fc0c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
-  /// @brief Method set_CollectionItems, addr 0x61c0fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionItems, addr 0x62fc0d4, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionItems(::System::Object* value);
 
 protected:
@@ -277,7 +277,7 @@ public:
   XmlSerializationReader_CollectionFixup(XmlSerializationReader_CollectionFixup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9499 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* ___callback;
@@ -347,16 +347,16 @@ public:
 
   constexpr void __cordl_internal_set_source(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x61c0fe0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62fc0dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* o, ::System::Xml::Serialization::XmlSerializationFixupCallback* callback, int32_t count);
 
-  /// @brief Method get_Callback, addr 0x61c1058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x62fc154, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationFixupCallback* get_Callback();
 
-  /// @brief Method get_Ids, addr 0x61c1060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ids, addr 0x62fc15c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_Ids();
 
-  /// @brief Method get_Source, addr 0x61c1068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x62fc164, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Source();
 
 protected:
@@ -374,7 +374,7 @@ public:
   XmlSerializationReader_Fixup(XmlSerializationReader_Fixup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9500 };
 
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___source;
@@ -439,16 +439,16 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Array* value);
 
-  /// @brief Method .ctor, addr 0x61bf4dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62fa5d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* list, int32_t index, ::StringW id);
 
-  /// @brief Method get_Collection, addr 0x61c1070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Collection, addr 0x62fc16c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Array* get_Collection();
 
-  /// @brief Method get_Id, addr 0x61c1080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x62fc17c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_Index, addr 0x61c1078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x62fc174, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
 protected:
@@ -466,7 +466,7 @@ public:
   XmlSerializationReader_CollectionItemFixup(XmlSerializationReader_CollectionItemFixup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9501 };
 
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Array* ___list;
@@ -583,55 +583,55 @@ public:
   /// @brief Field wsdlNS, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_wsdlNS, put = __cordl_internal_set_wsdlNS)) ::StringW wsdlNS;
 
-  /// @brief Method AddFixup, addr 0x61bceb0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddFixup, addr 0x62f7fac, size 0xb8, virtual false, abstract: false, final false
   inline void AddFixup(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup* fixup);
 
-  /// @brief Method AddFixup, addr 0x61bcfac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddFixup, addr 0x62f80a8, size 0x44, virtual false, abstract: false, final false
   inline void AddFixup(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup* fixup);
 
-  /// @brief Method AddFixup, addr 0x61bcf68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddFixup, addr 0x62f8064, size 0x44, virtual false, abstract: false, final false
   inline void AddFixup(::System::Xml::Serialization::XmlSerializationReader_Fixup* fixup);
 
-  /// @brief Method AddReadCallback, addr 0x61bcff0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddReadCallback, addr 0x62f80ec, size 0xe0, virtual false, abstract: false, final false
   inline void AddReadCallback(::StringW name, ::StringW ns, ::System::Type* type, ::System::Xml::Serialization::XmlSerializationReadCallback* read);
 
-  /// @brief Method AddTarget, addr 0x61bd0d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddTarget, addr 0x62f81d0, size 0xa8, virtual false, abstract: false, final false
   inline void AddTarget(::StringW id, ::System::Object* o);
 
-  /// @brief Method CreateReadOnlyCollectionException, addr 0x61bd340, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateReadOnlyCollectionException, addr 0x62f843c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Exception* CreateReadOnlyCollectionException(::StringW name);
 
-  /// @brief Method CreateUnknownConstantException, addr 0x61bd408, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownConstantException, addr 0x62f8504, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownConstantException(::StringW value, ::System::Type* enumType);
 
-  /// @brief Method CreateUnknownNodeException, addr 0x61bd4e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownNodeException, addr 0x62f85dc, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownNodeException();
 
-  /// @brief Method CreateUnknownTypeException, addr 0x61bd580, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownTypeException, addr 0x62f867c, size 0x174, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownTypeException(::System::Xml::XmlQualifiedName* type);
 
-  /// @brief Method CurrentTag, addr 0x61bd17c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CurrentTag, addr 0x62f8278, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW CurrentTag();
 
-  /// @brief Method EnsureArrayIndex, addr 0x61bd6f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnsureArrayIndex, addr 0x62f87f0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Array* EnsureArrayIndex(::System::Array* a, int32_t index, ::System::Type* elementType);
 
-  /// @brief Method EnsureArrayList, addr 0x61bcd50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EnsureArrayList, addr 0x62f7e4c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* EnsureArrayList(::System::Collections::ArrayList* list);
 
-  /// @brief Method EnsureHashtable, addr 0x61bcdb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EnsureHashtable, addr 0x62f7eac, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* EnsureHashtable(::System::Collections::Hashtable* hash);
 
-  /// @brief Method GetCallbackInfo, addr 0x61be5a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackInfo, addr 0x62f96a0, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo* GetCallbackInfo(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetNullAttr, addr 0x61bd780, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetNullAttr, addr 0x62f887c, size 0xb0, virtual false, abstract: false, final false
   inline bool GetNullAttr();
 
-  /// @brief Method GetTarget, addr 0x61bd830, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x62f892c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Object* GetTarget(::StringW id);
 
-  /// @brief Method GetXsiType, addr 0x61bd914, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetXsiType, addr 0x62f8a10, size 0x220, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetXsiType();
 
   /// @brief Method InitCallbacks, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -640,93 +640,93 @@ public:
   /// @brief Method InitIDs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InitIDs();
 
-  /// @brief Method Initialize, addr 0x61bc9fc, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62f7af8, size 0x354, virtual false, abstract: false, final false
   inline void Initialize(::System::Xml::XmlReader* reader, ::System::Xml::Serialization::XmlSerializer* eventSource);
 
-  /// @brief Method IsXmlnsAttribute, addr 0x61bdb34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsXmlnsAttribute, addr 0x62f8c30, size 0xa4, virtual false, abstract: false, final false
   inline bool IsXmlnsAttribute(::StringW name);
 
   static inline ::System::Xml::Serialization::XmlSerializationReader* New_ctor();
 
-  /// @brief Method OnUnknownNode, addr 0x61c080c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method OnUnknownNode, addr 0x62fb908, size 0x288, virtual false, abstract: false, final false
   inline void OnUnknownNode(::System::Xml::XmlNode* node, ::System::Object* o, ::StringW qnames);
 
-  /// @brief Method ParseWsdlArrayType, addr 0x61bdbd8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseWsdlArrayType, addr 0x62f8cd4, size 0x190, virtual false, abstract: false, final false
   inline void ParseWsdlArrayType(::System::Xml::XmlAttribute* attr);
 
-  /// @brief Method ReadElementQualifiedName, addr 0x61bdd68, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadElementQualifiedName, addr 0x62f8e64, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ReadElementQualifiedName();
 
-  /// @brief Method ReadEndElement, addr 0x61be064, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadEndElement, addr 0x62f9160, size 0xa8, virtual false, abstract: false, final false
   inline void ReadEndElement();
 
-  /// @brief Method ReadList, addr 0x61be694, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method ReadList, addr 0x62f9790, size 0x4ec, virtual false, abstract: false, final false
   inline bool ReadList(::by_ref<::System::Object*> resultList);
 
-  /// @brief Method ReadNull, addr 0x61be10c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadNull, addr 0x62f9208, size 0xd0, virtual false, abstract: false, final false
   inline bool ReadNull();
 
-  /// @brief Method ReadNullableQualifiedName, addr 0x61be210, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadNullableQualifiedName, addr 0x62f930c, size 0x28, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ReadNullableQualifiedName();
 
-  /// @brief Method ReadNullableString, addr 0x61be238, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadNullableString, addr 0x62f9334, size 0x48, virtual false, abstract: false, final false
   inline ::StringW ReadNullableString();
 
-  /// @brief Method ReadReferencedElement, addr 0x61be280, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencedElement, addr 0x62f937c, size 0x58, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencedElement();
 
-  /// @brief Method ReadReferencedElement, addr 0x61be2d8, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencedElement, addr 0x62f93d4, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencedElement(::StringW name, ::StringW ns);
 
-  /// @brief Method ReadReferencedElements, addr 0x61bf4ec, size 0xd54, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencedElements, addr 0x62fa5e8, size 0xd54, virtual false, abstract: false, final false
   inline void ReadReferencedElements();
 
-  /// @brief Method ReadReferencingElement, addr 0x61c02d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencingElement, addr 0x62fb3d4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencingElement(::by_ref<::StringW> fixupReference);
 
-  /// @brief Method ReadReferencingElement, addr 0x61c033c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencingElement, addr 0x62fb438, size 0x330, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencingElement(::StringW name, ::StringW ns, bool elementCanBeType, ::by_ref<::StringW> fixupReference);
 
-  /// @brief Method ReadReferencingElement, addr 0x61bf4d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencingElement, addr 0x62fa5cc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencingElement(::StringW name, ::StringW ns, ::by_ref<::StringW> fixupReference);
 
-  /// @brief Method ReadSerializable, addr 0x61c066c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ReadSerializable, addr 0x62fb768, size 0x198, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::IXmlSerializable* ReadSerializable(::System::Xml::Serialization::IXmlSerializable* serializable);
 
-  /// @brief Method ReadTypedPrimitive, addr 0x61beb80, size 0x950, virtual false, abstract: false, final false
+  /// @brief Method ReadTypedPrimitive, addr 0x62f9c7c, size 0x950, virtual false, abstract: false, final false
   inline ::System::Object* ReadTypedPrimitive(::System::Xml::XmlQualifiedName* qname, bool reportUnknown);
 
-  /// @brief Method ReadTypedPrimitive, addr 0x61c0804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadTypedPrimitive, addr 0x62fb900, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* ReadTypedPrimitive(::System::Xml::XmlQualifiedName* type);
 
-  /// @brief Method ReadXmlDocument, addr 0x61c0afc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlDocument, addr 0x62fbbf8, size 0x120, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* ReadXmlDocument(bool wrapped);
 
-  /// @brief Method ReadXmlNode, addr 0x61c0a94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlNode, addr 0x62fbb90, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ReadXmlNode(bool wrapped);
 
-  /// @brief Method ShrinkArray, addr 0x61c0c1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ShrinkArray, addr 0x62fbd18, size 0x90, virtual false, abstract: false, final false
   inline ::System::Array* ShrinkArray(::System::Array* a, int32_t length, ::System::Type* elementType, bool isNullable);
 
-  /// @brief Method TargetReady, addr 0x61bd8f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TargetReady, addr 0x62f89f4, size 0x1c, virtual false, abstract: false, final false
   inline bool TargetReady(::StringW id);
 
-  /// @brief Method ToXmlQualifiedName, addr 0x61bde38, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ToXmlQualifiedName, addr 0x62f8f34, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ToXmlQualifiedName(::StringW value);
 
-  /// @brief Method UnknownAttribute, addr 0x61c0cac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UnknownAttribute, addr 0x62fbda8, size 0x164, virtual false, abstract: false, final false
   inline void UnknownAttribute(::System::Object* o, ::System::Xml::XmlAttribute* attr, ::StringW qnames);
 
-  /// @brief Method UnknownElement, addr 0x61c0e10, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UnknownElement, addr 0x62fbf0c, size 0x164, virtual false, abstract: false, final false
   inline void UnknownElement(::System::Object* o, ::System::Xml::XmlElement* elem, ::StringW qnames);
 
-  /// @brief Method UnknownNode, addr 0x61be1dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UnknownNode, addr 0x62f92d8, size 0x34, virtual false, abstract: false, final false
   inline void UnknownNode(::System::Object* o);
 
-  /// @brief Method UnknownNode, addr 0x61c0f74, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UnknownNode, addr 0x62fc070, size 0x38, virtual false, abstract: false, final false
   inline void UnknownNode(::System::Object* o, ::StringW qnames);
 
-  /// @brief Method UnreferencedObject, addr 0x61c0240, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UnreferencedObject, addr 0x62fb33c, size 0x98, virtual false, abstract: false, final false
   inline void UnreferencedObject(::StringW id, ::System::Object* o);
 
   constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_arrayQName() const;
@@ -879,13 +879,13 @@ public:
 
   constexpr void __cordl_internal_set_wsdlNS(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61bce14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f7f10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Document, addr 0x61bce18, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x62f7f14, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_Document();
 
-  /// @brief Method get_Reader, addr 0x61bcea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x62f7fa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* get_Reader();
 
 protected:
@@ -903,7 +903,7 @@ public:
   XmlSerializationReader(XmlSerializationReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9502 };
 
   /// @brief Field document, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDocument* ___document;

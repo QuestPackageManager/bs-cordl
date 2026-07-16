@@ -57,7 +57,7 @@ public:
   constexpr InstanceCullerSplitDebugArray_Info(::UnityEngine::Rendering::BatchCullingViewType viewType, int32_t viewInstanceID, int32_t splitIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -98,22 +98,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddSync, addr 0x66d5c94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddSync, addr 0x68133a0, size 0x8c, virtual false, abstract: false, final false
   inline void AddSync(int32_t baseIndex, ::Unity::Jobs::JobHandle jobHandle);
 
-  /// @brief Method Dispose, addr 0x66d5b18, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6813224, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x66d5a40, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x681314c, size 0xd8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method MoveToDebugStatsAndClear, addr 0x66d5d20, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method MoveToDebugStatsAndClear, addr 0x681342c, size 0x260, virtual false, abstract: false, final false
   inline void MoveToDebugStatsAndClear(::UnityEngine::Rendering::DebugRendererBatcherStats* debugStats);
 
-  /// @brief Method TryAddSplits, addr 0x66d5bac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryAddSplits, addr 0x68132b8, size 0xe8, virtual false, abstract: false, final false
   inline int32_t TryAddSplits(::UnityEngine::Rendering::BatchCullingViewType viewType, int32_t viewInstanceID, int32_t splitCount);
 
-  /// @brief Method get_Counters, addr 0x66d5a34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Counters, addr 0x6813140, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> get_Counters();
 
   /// @brief Convert to "::System::IDisposable"
@@ -133,7 +133,7 @@ public:
   static constexpr int32_t MaxSplitCount{ static_cast<int32_t>(0x40) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -39,19 +39,19 @@ public:
   /// @brief Field m_Axes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_Axes, put = setStaticF_m_Axes)) ::ArrayW<::UnityEngine::Vector3> m_Axes;
 
-  /// @brief Method OBBAABBIntersect, addr 0x66548c0, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method OBBAABBIntersect, addr 0x6791fcc, size 0x544, virtual false, abstract: false, final false
   static inline bool OBBAABBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::by_ref<::UnityEngine::Bounds> b, ::by_ref<::UnityEngine::Bounds> aAABB);
 
-  /// @brief Method OBBContains, addr 0x66547e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OBBContains, addr 0x6791ef4, size 0xd8, virtual false, abstract: false, final false
   static inline bool OBBContains(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> obb, ::UnityEngine::Vector3 point);
 
-  /// @brief Method OBBIntersect, addr 0x6654024, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method OBBIntersect, addr 0x6791730, size 0x6dc, virtual false, abstract: false, final false
   static inline bool OBBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> b);
 
-  /// @brief Method ProjectAABB, addr 0x6654e04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ProjectAABB, addr 0x6792510, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ProjectAABB(::by_ref<::ArrayW<::UnityEngine::Vector3>> corners, ::UnityEngine::Vector3 axis);
 
-  /// @brief Method ProjectOBB, addr 0x6654700, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ProjectOBB, addr 0x6791e0c, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ProjectOBB(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::UnityEngine::Vector3 axis);
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_m_AABBCorners();
@@ -77,7 +77,7 @@ public:
   ProbeVolumePositioning(ProbeVolumePositioning const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

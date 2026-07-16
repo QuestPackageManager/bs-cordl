@@ -59,6 +59,7 @@ public:
     __E_BeatSaberInOutBack = static_cast<int32_t>(0x20),
     __E_BeatSaberInOutElastic = static_cast<int32_t>(0x21),
     __E_BeatSaberInOutBounce = static_cast<int32_t>(0x22),
+    __E_AnimationCurve = static_cast<int32_t>(0x23),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -77,6 +78,9 @@ public:
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EaseType(int32_t value__) noexcept;
+
+  /// @brief Field AnimationCurve value: I32(35)
+  static ::GlobalNamespace::EaseType const AnimationCurve;
 
   /// @brief Field BeatSaberInOutBack value: I32(32)
   static ::GlobalNamespace::EaseType const BeatSaberInOutBack;
@@ -184,7 +188,7 @@ public:
   static ::GlobalNamespace::EaseType const OutSine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22921 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

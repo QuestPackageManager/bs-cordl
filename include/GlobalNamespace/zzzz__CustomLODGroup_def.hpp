@@ -35,16 +35,16 @@ public:
   /// @brief Field _levels, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levels, put = __cordl_internal_set__levels)) ::ArrayW<::UnityW<::UnityEngine::GameObject>> _levels;
 
-  /// @brief Method Awake, addr 0x5843738, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x597b450, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DetectLODs, addr 0x5843a04, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method DetectLODs, addr 0x597b71c, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* DetectLODs();
 
-  /// @brief Method DisableAllLevels, addr 0x58438ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DisableAllLevels, addr 0x597b604, size 0xc8, virtual false, abstract: false, final false
   inline void DisableAllLevels();
 
-  /// @brief Method GetActiveLevel, addr 0x58438b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveLevel, addr 0x597b5c8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetActiveLevel();
 
   /// @brief Method GetStartupLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -52,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::CustomLODGroup* New_ctor();
 
-  /// @brief Method SetActiveLevel, addr 0x584375c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetActiveLevel, addr 0x597b474, size 0x154, virtual false, abstract: false, final false
   inline void SetActiveLevel(int32_t level);
 
-  /// @brief Method SetLevels, addr 0x58439dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetLevels, addr 0x597b6f4, size 0x28, virtual false, abstract: false, final false
   inline void SetLevels(::ArrayW<::UnityEngine::GameObject*> levels);
 
-  /// @brief Method ToggleLevel, addr 0x58439b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevel, addr 0x597b6cc, size 0x28, virtual false, abstract: false, final false
   inline void ToggleLevel();
 
   constexpr int32_t const& __cordl_internal_get__activeLevel() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__levels(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
-  /// @brief Method .ctor, addr 0x5843bfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597b914, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,13 @@ public:
   CustomLODGroup(CustomLODGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5747 };
+
+  /// @brief Field kHDLevel offset 0xffffffff size 0x4
+  static constexpr int32_t kHDLevel{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field kLWLevel offset 0xffffffff size 0x4
+  static constexpr int32_t kLWLevel{ static_cast<int32_t>(0x1) };
 
   /// @brief Field kLodPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString kLodPrefix{ u"LOD" };

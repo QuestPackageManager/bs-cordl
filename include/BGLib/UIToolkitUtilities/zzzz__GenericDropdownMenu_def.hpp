@@ -41,24 +41,24 @@ public:
   /// @brief Field _dropdownMenu, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dropdownMenu, put = __cordl_internal_set__dropdownMenu)) ::UnityEngine::UIElements::GenericDropdownMenu* _dropdownMenu;
 
-  /// @brief Method AddDisabledItem, addr 0x6ac171c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddDisabledItem, addr 0x6c155d4, size 0x20, virtual false, abstract: false, final false
   inline void AddDisabledItem(::StringW itemName, bool isChecked);
 
-  /// @brief Method AddItem, addr 0x6ac16b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AddItem, addr 0x6c15570, size 0x34, virtual false, abstract: false, final false
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
 
-  /// @brief Method AddItem, addr 0x6ac16ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddItem, addr 0x6c155a4, size 0x30, virtual false, abstract: false, final false
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action_1<::System::Object*>* action, ::System::Object* data);
 
-  /// @brief Method AddSeparator, addr 0x6ac173c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddSeparator, addr 0x6c155f4, size 0x18, virtual false, abstract: false, final false
   inline void AddSeparator(::StringW path);
 
-  /// @brief Method DropDown, addr 0x6ac1754, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DropDown, addr 0x6c1560c, size 0x1c, virtual false, abstract: false, final false
   inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
 
   static inline ::BGLib::UIToolkitUtilities::GenericDropdownMenu* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x6ac1770, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x6c15628, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateItem(::StringW itemName, bool isChecked);
 
   constexpr ::UnityEngine::UIElements::GenericDropdownMenu* const& __cordl_internal_get__dropdownMenu() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__dropdownMenu(::UnityEngine::UIElements::GenericDropdownMenu* value);
 
-  /// @brief Method .ctor, addr 0x6ac165c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c15514, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   GenericDropdownMenu(GenericDropdownMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17354 };
 
   /// @brief Field _dropdownMenu, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::GenericDropdownMenu* ____dropdownMenu;

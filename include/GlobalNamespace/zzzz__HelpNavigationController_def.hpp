@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::HelpNavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x579fe88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a14188, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   HelpNavigationController(HelpNavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

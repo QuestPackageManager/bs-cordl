@@ -94,7 +94,7 @@ public:
   static ::GlobalNamespace::GhostEffectBehaviour_EndBehavior const Nothing;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -149,7 +149,7 @@ public:
   static ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType const TextMeshPro;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -234,15 +234,15 @@ public:
   /// @brief Field textMeshPros, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_textMeshPros, put = __cordl_internal_set_textMeshPros)) ::ArrayW<::UnityW<::TMPro::TextMeshPro>> textMeshPros;
 
-  /// @brief Method EnableObjects, addr 0x57e6448, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x5906a9c, size 0x114, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::GhostEffectBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x57e62b8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x590690c, size 0x190, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x57e655c, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x5906bb0, size 0x478, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>> const& __cordl_internal_get__canvasGroups() const;
@@ -359,7 +359,7 @@ public:
 
   constexpr void __cordl_internal_set_textMeshPros(::ArrayW<::UnityW<::TMPro::TextMeshPro>> value);
 
-  /// @brief Method .ctor, addr 0x57e69d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5907028, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -377,7 +377,7 @@ public:
   GhostEffectBehaviour(GhostEffectBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6673 };
 
   /// @brief Field alphaCurve, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___alphaCurve;

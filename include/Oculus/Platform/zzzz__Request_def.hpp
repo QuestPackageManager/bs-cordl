@@ -34,15 +34,15 @@ public:
   /// @brief Field callback_, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_)) ::Oculus::Platform::Message_Callback* callback_;
 
-  /// @brief Method HandleMessage, addr 0x5cb18f0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x5de9b18, size 0x64, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
 
-  /// @brief Method OnComplete, addr 0x5cb1880, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x5de9aa8, size 0x70, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::Message_Callback* callback);
 
-  /// @brief Method RunCallbacks, addr 0x5c7b8b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RunCallbacks, addr 0x5db3ae0, size 0x70, virtual false, abstract: false, final false
   static inline void RunCallbacks(uint32_t limit);
 
   constexpr uint64_t const& __cordl_internal_get__RequestID_k__BackingField() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_callback_(::Oculus::Platform::Message_Callback* value);
 
-  /// @brief Method .ctor, addr 0x5ca67f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddea1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method get_RequestID, addr 0x5cb1870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestID, addr 0x5de9a98, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestID();
 
-  /// @brief Method set_RequestID, addr 0x5cb1878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestID, addr 0x5de9aa0, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestID(uint64_t value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   Request(Request const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17948 };
 
   /// @brief Field callback_, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Message_Callback* ___callback_;

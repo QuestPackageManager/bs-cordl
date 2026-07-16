@@ -30,7 +30,7 @@ public:
   /// @brief Field raiseExceptions, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_raiseExceptions, put = setStaticF_raiseExceptions)) bool raiseExceptions;
 
-  /// @brief Method AreEqual, addr 0x69b0280, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x6b03c40, size 0xd0, virtual false, abstract: false, final false
   static inline void AreEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
 
   /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -42,19 +42,19 @@ public:
   /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AreEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method AreEqual, addr 0x69b0878, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x6b04238, size 0xa0, virtual false, abstract: false, final false
   static inline void AreEqual(int32_t expected, int32_t actual);
 
-  /// @brief Method Fail, addr 0x69afe48, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Fail, addr 0x6b03808, size 0x130, virtual false, abstract: false, final false
   static inline void Fail(::StringW message, ::StringW userMessage);
 
-  /// @brief Method IsFalse, addr 0x69b0188, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x6b03b48, size 0x6c, virtual false, abstract: false, final false
   static inline void IsFalse(bool condition);
 
-  /// @brief Method IsFalse, addr 0x69b01f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x6b03bb4, size 0x8c, virtual false, abstract: false, final false
   static inline void IsFalse(bool condition, ::StringW message);
 
-  /// @brief Method IsNotNull, addr 0x69b07b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x6b04174, size 0xc4, virtual false, abstract: false, final false
   static inline void IsNotNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -63,7 +63,7 @@ public:
   /// @brief Method IsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNotNull(T value, ::StringW message);
 
-  /// @brief Method IsNull, addr 0x69b0570, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6b03f30, size 0xc4, virtual false, abstract: false, final false
   static inline void IsNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -72,10 +72,10 @@ public:
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNull(T value, ::StringW message);
 
-  /// @brief Method IsTrue, addr 0x69affec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x6b039ac, size 0x6c, virtual false, abstract: false, final false
   static inline void IsTrue(bool condition);
 
-  /// @brief Method IsTrue, addr 0x69b0058, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x6b03a18, size 0x8c, virtual false, abstract: false, final false
   static inline void IsTrue(bool condition, ::StringW message);
 
   static inline bool getStaticF_raiseExceptions();
@@ -97,7 +97,7 @@ public:
   _cordl_Assert(_cordl_Assert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

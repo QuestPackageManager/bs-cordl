@@ -34,18 +34,18 @@ public:
   /// @brief Field _valueBounds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x585575c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x598db08, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Move, addr 0x58557c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x598db74, size 0x94, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::FloatLocalScaleEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x58557c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598db70, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x585585c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598dc08, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startScale() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5855860, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598dc0c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   FloatLocalScaleEffect(FloatLocalScaleEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5834 };
 
   /// @brief Field _transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____transforms;

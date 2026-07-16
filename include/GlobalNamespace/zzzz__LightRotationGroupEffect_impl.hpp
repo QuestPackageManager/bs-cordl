@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect_InitData::*)(int32_t, int32_t, ::GlobalNamespace::LightAxis, bool, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::LightRotationGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x585ae20;
+  constexpr static std::size_t addrs = 0x5993368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffect_InitData*>(),
@@ -109,8 +109,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)(::GlobalNamespace::LightRotationGroupEffect_InitData*,
                                                                                                              ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::LightRotationGroupEffect::_ctor)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x585a7d4;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x5992c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)()>(&::GlobalNamespace::LightRotationGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x585aa28;
+  constexpr static std::size_t addrs = 0x5992ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffect*>(), { "Cleanup", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)(::GlobalNamespace::LightRotationBeatmapEventData*)>(
     &::GlobalNamespace::LightRotationGroupEffect::HandleRotationChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x585aac8;
+  constexpr static std::size_t addrs = 0x5992f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,12 +149,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::LightRotationGroupEffect.SetRotationWithValidation
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)(float_t)>(&::GlobalNamespace::LightRotationGroupEffect::SetRotationWithValidation)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x599315c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffect*>(), { "SetRotationWithValidation", {}, { ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LightRotationGroupEffect.SetRotation
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)(float_t)>(&::GlobalNamespace::LightRotationGroupEffect::SetRotation)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x585abf0;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x59931d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, int32_t, ::GlobalNamespace::LightRotationDirection)>(
     &::GlobalNamespace::LightRotationGroupEffect::ComputeTargetAngle)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x585ad50;
+  constexpr static std::size_t addrs = 0x599308c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,6 +276,30 @@ constexpr void GlobalNamespace::LightRotationGroupEffect::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightRotationBeatmapEventCallbackWrapper = value;
 }
+constexpr float_t& GlobalNamespace::LightRotationGroupEffect::__cordl_internal_get__lastSetRotation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetRotation;
+}
+constexpr float_t const& GlobalNamespace::LightRotationGroupEffect::__cordl_internal_get__lastSetRotation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetRotation;
+}
+constexpr void GlobalNamespace::LightRotationGroupEffect::__cordl_internal_set__lastSetRotation(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastSetRotation = value;
+}
+constexpr int32_t& GlobalNamespace::LightRotationGroupEffect::__cordl_internal_get__lastSetRotationFrameCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetRotationFrameCount;
+}
+constexpr int32_t const& GlobalNamespace::LightRotationGroupEffect::__cordl_internal_get__lastSetRotationFrameCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastSetRotationFrameCount;
+}
+constexpr void GlobalNamespace::LightRotationGroupEffect::__cordl_internal_set__lastSetRotationFrameCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastSetRotationFrameCount = value;
+}
 inline void GlobalNamespace::LightRotationGroupEffect::_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                              ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method =
@@ -282,6 +319,11 @@ inline void GlobalNamespace::LightRotationGroupEffect::HandleRotationChangeBeatm
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffect*>(),
                                                            { "HandleRotationChangeBeatmapEvent", {}, { ::i2c::type_of<::GlobalNamespace::LightRotationBeatmapEventData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentEventData);
+}
+inline void GlobalNamespace::LightRotationGroupEffect::SetRotationWithValidation(float_t rotation) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffect*>(), { "SetRotationWithValidation", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rotation);
 }
 inline void GlobalNamespace::LightRotationGroupEffect::SetRotation(float_t rotation) {
   static auto* ___internal_method =

@@ -49,7 +49,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE DownloadHandlerAudioClip_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6ccfb78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e23a30, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Networking::DownloadHandlerAudioClip* handler);
 
 protected:
@@ -67,7 +67,7 @@ public:
   DownloadHandlerAudioClip_BindingsMarshaller(DownloadHandlerAudioClip_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,26 +91,26 @@ public:
 
   __declspec(property(put = set_streamAudio)) bool streamAudio;
 
-  /// @brief Method Create, addr 0x6ccf68c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e23544, size 0x144, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method Create_Injected, addr 0x6ccf7d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create_Injected, addr 0x6e23688, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create_Injected(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url,
                                                  ::UnityEngine::AudioType audioType);
 
-  /// @brief Method Dispose, addr 0x6ccf860, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6e23718, size 0x60, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetContent, addr 0x6ccfb20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x6e239d8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetNativeData, addr 0x6ccf854, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x6e2370c, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method GetText, addr 0x6ccf8c0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetText, addr 0x6e23778, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW GetText();
 
-  /// @brief Method InternalCreateAudioClip, addr 0x6ccf824, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioClip, addr 0x6e236dc, size 0x18, virtual false, abstract: false, final false
   inline void InternalCreateAudioClip(::StringW url, ::UnityEngine::AudioType audioType);
 
   static inline ::UnityEngine::Networking::DownloadHandlerAudioClip* New_ctor(::StringW url, ::UnityEngine::AudioType audioType);
@@ -121,19 +121,19 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x6ccf83c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e236f4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method get_audioClip, addr 0x6ccf90c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_audioClip, addr 0x6e237c4, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
-  /// @brief Method get_audioClip_Injected, addr 0x6ccfa48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioClip_Injected, addr 0x6e23900, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_audioClip_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_streamAudio, addr 0x6ccfa84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_streamAudio, addr 0x6e2393c, size 0x58, virtual false, abstract: false, final false
   inline void set_streamAudio(bool value);
 
-  /// @brief Method set_streamAudio_Injected, addr 0x6ccfadc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_streamAudio_Injected, addr 0x6e23994, size 0x44, virtual false, abstract: false, final false
   static inline void set_streamAudio_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   DownloadHandlerAudioClip(DownloadHandlerAudioClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23258 };
 
   /// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;

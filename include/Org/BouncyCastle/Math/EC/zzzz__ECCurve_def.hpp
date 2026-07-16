@@ -84,19 +84,19 @@ public:
   /// @brief Field outer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer)) ::Org::BouncyCastle::Math::EC::ECCurve* outer;
 
-  /// @brief Method Create, addr 0x33e64f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x34a29b0, size 0xd4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* Create();
 
   static inline ::Org::BouncyCastle::Math::EC::ECCurve_Config* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, int32_t coord, ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
                                                                         ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier);
 
-  /// @brief Method SetCoordinateSystem, addr 0x33e64e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCoordinateSystem, addr 0x34a2998, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve_Config* SetCoordinateSystem(int32_t coord);
 
-  /// @brief Method SetEndomorphism, addr 0x33e64e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndomorphism, addr 0x34a29a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve_Config* SetEndomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
 
-  /// @brief Method SetMultiplier, addr 0x33e64f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplier, addr 0x34a29a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve_Config* SetMultiplier(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier);
 
   constexpr int32_t const& __cordl_internal_get_coord() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  /// @brief Method .ctor, addr 0x33e4c08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a10c0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, int32_t coord, ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
                     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier);
 
@@ -188,13 +188,13 @@ public:
   /// @brief Field m_table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table)) ::ArrayW<uint8_t> m_table;
 
-  /// @brief Method CreatePoint, addr 0x33e677c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x34a2c34, size 0xfc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint8_t> x, ::ArrayW<uint8_t> y);
 
-  /// @brief Method Lookup, addr 0x33e65d8, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x34a2a90, size 0x1a4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x33e6878, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x34a2d30, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::ECCurve_DefaultLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, ::ArrayW<uint8_t> table, int32_t size);
@@ -217,10 +217,10 @@ public:
 
   constexpr void __cordl_internal_set_m_table(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x33e5a34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a1eec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, ::ArrayW<uint8_t> table, int32_t size);
 
-  /// @brief Method get_Size, addr 0x33e65d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x34a2a88, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:
@@ -312,31 +312,31 @@ public:
   /// @brief Field m_order, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_order, put = __cordl_internal_set_m_order)) ::Org::BouncyCastle::Math::BigInteger* m_order;
 
-  /// @brief Method CheckPoint, addr 0x33e5a40, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CheckPoint, addr 0x34a1ef8, size 0x94, virtual true, abstract: false, final false
   inline void CheckPoint(::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method CheckPoints, addr 0x33e5ad4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CheckPoints, addr 0x34a1f8c, size 0x24, virtual true, abstract: false, final false
   inline void CheckPoints(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points);
 
-  /// @brief Method CheckPoints, addr 0x33e5af8, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method CheckPoints, addr 0x34a1fb0, size 0x150, virtual true, abstract: false, final false
   inline void CheckPoints(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
   /// @brief Method CloneCurve, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method Configure, addr 0x33e4b98, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x34a1050, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve_Config* Configure();
 
-  /// @brief Method CreateCacheSafeLookupTable, addr 0x33e5818, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method CreateCacheSafeLookupTable, addr 0x34a1cd0, size 0x21c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
-  /// @brief Method CreateDefaultMultiplier, addr 0x33e4da4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CreateDefaultMultiplier, addr 0x34a125c, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateDefaultMultiplier();
 
-  /// @brief Method CreatePoint, addr 0x33e4d28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x34a11e0, size 0x14, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method CreatePoint, addr 0x33e4d3c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x34a11f4, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
   /// @brief Method CreateRawPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -346,37 +346,37 @@ public:
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 
-  /// @brief Method DecodePoint, addr 0x33e5fa4, size 0x400, virtual true, abstract: false, final false
+  /// @brief Method DecodePoint, addr 0x34a245c, size 0x400, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* DecodePoint(::ArrayW<uint8_t> encoded);
 
   /// @brief Method DecompressPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
 
-  /// @brief Method Equals, addr 0x33e5d98, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x34a2250, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33e5c48, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x34a2100, size 0x150, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECCurve* other);
 
   /// @brief Method FromBigInteger, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method GetAllCoordinateSystems, addr 0x33e4b10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAllCoordinateSystems, addr 0x34a0fc8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> GetAllCoordinateSystems();
 
-  /// @brief Method GetEndomorphism, addr 0x33e5ee4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetEndomorphism, addr 0x34a239c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* GetEndomorphism();
 
-  /// @brief Method GetHashCode, addr 0x33e5e30, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x34a22e8, size 0xb4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetMultiplier, addr 0x33e5eec, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplier, addr 0x34a23a4, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* GetMultiplier();
 
-  /// @brief Method GetPreCompInfo, addr 0x33e4e68, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method GetPreCompInfo, addr 0x34a1320, size 0x1f4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* GetPreCompInfo(::Org::BouncyCastle::Math::EC::ECPoint* point, ::StringW name);
 
-  /// @brief Method ImportPoint, addr 0x33e53bc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ImportPoint, addr 0x34a1874, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   /// @brief Method IsValidFieldElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -384,13 +384,13 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* field);
 
-  /// @brief Method NormalizeAll, addr 0x33e54cc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method NormalizeAll, addr 0x34a1984, size 0x28, virtual true, abstract: false, final false
   inline void NormalizeAll(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points);
 
-  /// @brief Method NormalizeAll, addr 0x33e54f4, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method NormalizeAll, addr 0x34a19ac, size 0x2f4, virtual true, abstract: false, final false
   inline void NormalizeAll(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len, ::Org::BouncyCastle::Math::EC::ECFieldElement* iso);
 
-  /// @brief Method Precompute, addr 0x33e505c, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method Precompute, addr 0x34a1514, size 0x360, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::ECPoint* point, ::StringW name,
                                                                             ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* callback);
 
@@ -400,13 +400,13 @@ public:
   /// @brief Method RandomFieldElementMult, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method SupportsCoordinateSystem, addr 0x33e4e5c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SupportsCoordinateSystem, addr 0x34a1314, size 0xc, virtual true, abstract: false, final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
-  /// @brief Method ValidatePoint, addr 0x33e4c18, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ValidatePoint, addr 0x34a10d0, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method ValidatePoint, addr 0x33e4ca4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ValidatePoint, addr 0x34a115c, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
   constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement* const& __cordl_internal_get_m_a() const;
@@ -457,22 +457,22 @@ public:
 
   constexpr void __cordl_internal_set_m_order(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x33e4b88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a1040, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::Field::IFiniteField* field);
 
-  /// @brief Method get_A, addr 0x33e57f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_A, addr 0x34a1ca8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_A();
 
-  /// @brief Method get_B, addr 0x33e57f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_B, addr 0x34a1cb0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_B();
 
-  /// @brief Method get_Cofactor, addr 0x33e5808, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Cofactor, addr 0x34a1cc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Cofactor();
 
-  /// @brief Method get_CoordinateSystem, addr 0x33e5810, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CoordinateSystem, addr 0x34a1cc8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_CoordinateSystem();
 
-  /// @brief Method get_Field, addr 0x33e57e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Field, addr 0x34a1ca0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Field();
 
   /// @brief Method get_FieldSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -481,7 +481,7 @@ public:
   /// @brief Method get_Infinity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_Order, addr 0x33e5800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Order, addr 0x34a1cb8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Order();
 
 protected:

@@ -46,16 +46,16 @@ public:
 
   static inline ::System::FormattableString* New_ctor();
 
-  /// @brief Method System.IFormattable.ToString, addr 0x5af490c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.IFormattable.ToString, addr 0x5c2e5e4, size 0x10, virtual true, abstract: false, final true
   inline ::StringW System_IFormattable_ToString(::StringW ignored, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString, addr 0x5af491c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c2e5f4, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x5af4988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2e660, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ArgumentCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

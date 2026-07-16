@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66be53c;
+  constexpr static std::size_t addrs = 0x67fbc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c::_Rebuild_b__12_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66be540;
+  constexpr static std::size_t addrs = 0x67fbc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c::*)(::UnityEngine::Rendering::UI::DebugUIHandlerPanel*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c::_ActivatePanel_b__15_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66be58c;
+  constexpr static std::size_t addrs = 0x67fbc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass14_0::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66bde08;
+  constexpr static std::size_t addrs = 0x67fb514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass14_0::*)(::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass14_0::_GetWidgetFromPath_b__0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66be5b8;
+  constexpr static std::size_t addrs = 0x67fbcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::OnEnable)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x66bc2b8;
+  constexpr static std::size_t addrs = 0x67f99c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "OnEnable", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::Update)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x66bc444;
+  constexpr static std::size_t addrs = 0x67f9b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "Update", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::RequestHierarchyReset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66bcc30;
+  constexpr static std::size_t addrs = 0x67fa33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::ResetAllHierarchy)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x66bc580;
+  constexpr static std::size_t addrs = 0x67f9c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "ResetAllHierarchy", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::Rebuild)> {
   constexpr static std::size_t size = 0x9cc;
-  constexpr static std::size_t addrs = 0x66bcc3c;
+  constexpr static std::size_t addrs = 0x67fa348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "Rebuild", {}, {} })));
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::DebugUI_IContainer*, ::UnityEngine::Transform*, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*, ::by_ref<::UnityEngine::Rendering::UI::DebugUIHandlerWidget*>)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::Traverse)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x66bd638;
+  constexpr static std::size_t addrs = 0x67fad44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)(::StringW)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::GetWidgetFromPath)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x66bdcb8;
+  constexpr static std::size_t addrs = 0x67fb3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)(int32_t, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::ActivatePanel)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x66bdaa8;
+  constexpr static std::size_t addrs = 0x67fb1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)(::UnityEngine::Rendering::UI::DebugUIHandlerWidget*, bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::ChangeSelection)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x66bde64;
+  constexpr static std::size_t addrs = 0x67fb570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::SelectPreviousItem)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x66be17c;
+  constexpr static std::size_t addrs = 0x67fb888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "SelectPreviousItem", {}, {} })));
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::SelectNextPanel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66be244;
+  constexpr static std::size_t addrs = 0x67fb950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "SelectNextPanel", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::SelectPreviousPanel)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66be2c0;
+  constexpr static std::size_t addrs = 0x67fb9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "SelectPreviousPanel", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::SelectNextItem)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x66be0b4;
+  constexpr static std::size_t addrs = 0x67fb7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "SelectNextItem", {}, {} })));
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)(float_t)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::ChangeSelectionValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x66be34c;
+  constexpr static std::size_t addrs = 0x67fba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::ActivateSelection)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66be458;
+  constexpr static std::size_t addrs = 0x67fbb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "ActivateSelection", {}, {} })));
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::HandleInput)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x66bc868;
+  constexpr static std::size_t addrs = 0x67f9f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { "HandleInput", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)(::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::SetScrollTarget)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x66bdfcc;
+  constexpr static std::size_t addrs = 0x67fb6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(),
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerCanvas::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66be4e4;
+  constexpr static std::size_t addrs = 0x67fbbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*>(), { ".ctor", {}, {} })));

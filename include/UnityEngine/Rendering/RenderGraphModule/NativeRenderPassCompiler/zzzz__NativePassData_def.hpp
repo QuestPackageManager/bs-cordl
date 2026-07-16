@@ -43,39 +43,39 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE NativePassData {
 public:
   // Declarations
-  /// @brief Method CanMerge, addr 0x66b84a8, size 0x7a8, virtual false, abstract: false, final false
+  /// @brief Method CanMerge, addr 0x67f5bb4, size 0x7a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit CanMerge(Il2CppObject* contextData, int32_t activeNativePassId, int32_t passIdToMerge);
 
-  /// @brief Method CanMergeNativeSubPass, addr 0x66b8da0, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method CanMergeNativeSubPass, addr 0x67f64ac, size 0x5a0, virtual false, abstract: false, final false
   static inline bool CanMergeNativeSubPass(Il2CppObject* contextData, ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData nativePass,
                                            ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData passToMerge);
 
-  /// @brief Method Clear, addr 0x66b8058, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x67f5764, size 0x134, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetGraphPassNames, addr 0x66b8384, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetGraphPassNames, addr 0x67f5a90, size 0x124, virtual false, abstract: false, final false
   inline void GetGraphPassNames(Il2CppObject* ctx, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>* dest);
 
-  /// @brief Method GraphPasses, addr 0x66b819c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GraphPasses, addr 0x67f58a8, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> GraphPasses(Il2CppObject* ctx);
 
-  /// @brief Method IsValid, addr 0x66b818c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x67f5898, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method SetPassStatesForNativePass, addr 0x66b9d90, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetPassStatesForNativePass, addr 0x67f749c, size 0x1d4, virtual false, abstract: false, final false
   static inline void SetPassStatesForNativePass(Il2CppObject* contextData, int32_t nativePassId);
 
-  /// @brief Method TryMerge, addr 0x66b96f8, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method TryMerge, addr 0x67f6e04, size 0x698, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit TryMerge(Il2CppObject* contextData, int32_t activeNativePassId, int32_t passIdToMerge);
 
-  /// @brief Method TryMergeNativeSubPass, addr 0x66b79f0, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method TryMergeNativeSubPass, addr 0x67f50fc, size 0x668, virtual false, abstract: false, final false
   static inline void TryMergeNativeSubPass(Il2CppObject* contextData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass,
                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> passToMerge);
 
-  /// @brief Method UpdateNativeSubPassesAttachments, addr 0x66b9340, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateNativeSubPassesAttachments, addr 0x67f6a4c, size 0x3b8, virtual false, abstract: false, final false
   static inline void UpdateNativeSubPassesAttachments(Il2CppObject* contextData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass);
 
-  /// @brief Method .ctor, addr 0x66b7798, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f4ea4, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass, Il2CppObject* ctx);
 
   // Ctor Parameters []
@@ -107,7 +107,7 @@ public:
       int32_t samples, bool hasDepth, bool hasFoveatedRasterization) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12472 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c0 };

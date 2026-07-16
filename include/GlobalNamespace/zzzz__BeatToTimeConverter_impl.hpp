@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatToTimeConverter::*)(::GlobalNamespace::IBeatToTimeConverter*)>(&::GlobalNamespace::BeatToTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x365442c;
+  constexpr static std::size_t addrs = 0x3711114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatToTimeConverter::*)(float_t)>(&::GlobalNamespace::BeatToTimeConverter::BeatToTime)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3654434;
+  constexpr static std::size_t addrs = 0x371111c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -36,15 +36,15 @@ public:
 
   __declspec(property(get = get_language)) ::BGLib::Polyglot::LocalizationLanguage language;
 
-  /// @brief Method ApplyValue, addr 0x58e5628, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x5a0f174, size 0xe4, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x58e5460, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x5a0efac, size 0x1c8, virtual true, abstract: false, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x58e570c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x5a0f258, size 0x68, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get__language() const;
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x58e5774, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0f2c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0x58e5458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x5a0efa4, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationLanguage get_language();
 
 protected:
@@ -80,7 +80,7 @@ public:
   LanguageSettingsController(LanguageSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6382 };
 
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

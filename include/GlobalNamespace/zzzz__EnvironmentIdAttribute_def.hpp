@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_filter(::GlobalNamespace::EnvironmentIdFilter value);
 
-  /// @brief Method .ctor, addr 0x366df7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372af98, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW emptyExplanation, ::GlobalNamespace::EnvironmentIdFilter filter);
 
 protected:
@@ -71,7 +71,7 @@ public:
   EnvironmentIdAttribute(EnvironmentIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14996 };
 
   /// @brief Field emptyIsAllowed, offset: 0x15, size: 0x1, def value: None
   bool ___emptyIsAllowed;

@@ -127,34 +127,34 @@ public:
 
   constexpr void __cordl_internal_set__requires(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> value);
 
-  /// @brief Method .ctor, addr 0x364d4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3709dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x364d47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x3709dac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_icon, addr 0x364d484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x3709db4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_isInBeta, addr 0x364d4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBeta, addr 0x3709de4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBeta();
 
-  /// @brief Method get_modifierNameLocalizationKey, addr 0x364d474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifierNameLocalizationKey, addr 0x3709da4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_modifierNameLocalizationKey();
 
-  /// @brief Method get_multiplier, addr 0x364d4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x3709dd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiplier();
 
-  /// @brief Method get_multiplierConditionallyValid, addr 0x364d4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierConditionallyValid, addr 0x3709ddc, size 0x8, virtual false, abstract: false, final false
   inline bool get_multiplierConditionallyValid();
 
-  /// @brief Method get_mutuallyExclusives, addr 0x364d48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mutuallyExclusives, addr 0x3709dbc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> get_mutuallyExclusives();
 
-  /// @brief Method get_requiredBy, addr 0x364d49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiredBy, addr 0x3709dcc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> get_requiredBy();
 
-  /// @brief Method get_requires, addr 0x364d494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires, addr 0x3709dc4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> get_requires();
 
 protected:
@@ -172,7 +172,7 @@ public:
   GameplayModifierParamsSO(GameplayModifierParamsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14842 };
 
   /// @brief Field _modifierNameLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____modifierNameLocalizationKey;

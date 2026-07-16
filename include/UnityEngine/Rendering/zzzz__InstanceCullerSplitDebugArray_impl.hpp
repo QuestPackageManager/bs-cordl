@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)()>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::get_Counters)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66d5a34;
+  constexpr static std::size_t addrs = 0x6813140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>(), { "get_Counters", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)()>(&::UnityEngine::Rendering::InstanceCullerSplitDebugArray::Init)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x66d5a40;
+  constexpr static std::size_t addrs = 0x681314c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>(), { "Init", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)()>(&::UnityEngine::Rendering::InstanceCullerSplitDebugArray::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x66d5b18;
+  constexpr static std::size_t addrs = 0x6813224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>(), { "Dispose", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)(::UnityEngine::Rendering::BatchCullingViewType, int32_t, int32_t)>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::TryAddSplits)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x66d5bac;
+  constexpr static std::size_t addrs = 0x68132b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)(int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::AddSync)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66d5c94;
+  constexpr static std::size_t addrs = 0x68133a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)(::UnityEngine::Rendering::DebugRendererBatcherStats*)>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::MoveToDebugStatsAndClear)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x66d5d20;
+  constexpr static std::size_t addrs = 0x681342c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

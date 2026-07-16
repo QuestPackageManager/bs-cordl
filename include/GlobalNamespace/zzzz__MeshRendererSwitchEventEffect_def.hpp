@@ -50,18 +50,18 @@ public:
   __declspec(property(get = __cordl_internal_get__deactivateOnBoostRenderers, put = __cordl_internal_set__deactivateOnBoostRenderers)) ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>>
       _deactivateOnBoostRenderers;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x585f4fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5997b24, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::MeshRendererSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x585f4e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5997b08, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x585f3b8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59979e0, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x585f518, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x5997b40, size 0xb4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>> const& __cordl_internal_get__activateOnBoostRenderers() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>> value);
 
-  /// @brief Method .ctor, addr 0x585f5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5997bf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   MeshRendererSwitchEventEffect(MeshRendererSwitchEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5899 };
 
   /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;

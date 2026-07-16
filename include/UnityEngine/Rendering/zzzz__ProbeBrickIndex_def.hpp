@@ -85,13 +85,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>*();
 
-  /// @brief Method Equals, addr 0x66469bc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x67840c8, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ProbeBrickIndex_Brick other);
 
-  /// @brief Method IntersectArea, addr 0x6646a04, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IntersectArea, addr 0x6784110, size 0x1a0, virtual false, abstract: false, final false
   inline bool IntersectArea(::UnityEngine::Bounds boundInBricksToCheck);
 
-  /// @brief Method .ctor, addr 0x66469b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67840bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3Int position, int32_t subdivisionLevel);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>"
@@ -106,7 +106,7 @@ public:
   constexpr ProbeBrickIndex_Brick(::UnityEngine::Vector3Int position, int32_t subdivisionLevel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12051 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -147,7 +147,7 @@ public:
                                                        bool hasOnlyBiggerBricks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };
@@ -200,7 +200,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeBrickIndex_CellIndexUpdateInfo {
 public:
   // Declarations
-  /// @brief Method GetNumberOfChunks, addr 0x6646ba4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfChunks, addr 0x67842b0, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetNumberOfChunks();
 
   // Ctor Parameters []
@@ -211,7 +211,7 @@ public:
   constexpr ProbeBrickIndex_CellIndexUpdateInfo(::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entriesInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -287,62 +287,62 @@ public:
   /// @brief Field m_UpdateMinIndex, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_m_UpdateMinIndex, put = __cordl_internal_set_m_UpdateMinIndex)) int32_t m_UpdateMinIndex;
 
-  /// @brief Method AddBricks, addr 0x6646500, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method AddBricks, addr 0x6783c0c, size 0x3d4, virtual false, abstract: false, final false
   inline void AddBricks(::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo* cellInfo, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> bricks,
                         ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* allocations, int32_t allocationSize, int32_t poolWidth, int32_t poolHeight);
 
-  /// @brief Method BrickOverlapEntry, addr 0x6646170, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method BrickOverlapEntry, addr 0x678387c, size 0x4c, virtual false, abstract: false, final false
   static inline bool BrickOverlapEntry(::UnityEngine::Vector3Int brickMin, ::UnityEngine::Vector3Int brickMax, ::UnityEngine::Vector3Int entryMin, ::UnityEngine::Vector3Int entryMax);
 
-  /// @brief Method Cleanup, addr 0x6645b14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6783220, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x664576c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6782e78, size 0xb8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeFragmentationRate, addr 0x6645bb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ComputeFragmentationRate, addr 0x67832bc, size 0x64, virtual false, abstract: false, final false
   inline void ComputeFragmentationRate();
 
-  /// @brief Method FindSlotsForEntries, addr 0x6645ca0, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method FindSlotsForEntries, addr 0x67833ac, size 0x384, virtual false, abstract: false, final false
   inline bool FindSlotsForEntries(::by_ref<::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>> entriesInfo);
 
-  /// @brief Method GetDebugFragmentationBuffer, addr 0x6645514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDebugFragmentationBuffer, addr 0x6782c20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ComputeBuffer* GetDebugFragmentationBuffer();
 
-  /// @brief Method GetNumberOfChunks, addr 0x6645c20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfChunks, addr 0x678332c, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetNumberOfChunks(int32_t brickCount);
 
-  /// @brief Method GetRemainingChunkCount, addr 0x6645824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRemainingChunkCount, addr 0x6782f30, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetRemainingChunkCount();
 
-  /// @brief Method GetRuntimeResources, addr 0x6645a20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeResources, addr 0x678312c, size 0xf4, virtual false, abstract: false, final false
   inline void GetRuntimeResources(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources> rr);
 
-  /// @brief Method LocationToIndex, addr 0x66461bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocationToIndex, addr 0x67838c8, size 0x10, virtual false, abstract: false, final false
   static inline int32_t LocationToIndex(int32_t x, int32_t y, int32_t z, ::UnityEngine::Vector3Int sizeOfValid);
 
-  /// @brief Method MarkBrickInPhysicalBuffer, addr 0x66461cc, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method MarkBrickInPhysicalBuffer, addr 0x67838d8, size 0x334, virtual false, abstract: false, final false
   inline void MarkBrickInPhysicalBuffer(::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry, ::UnityEngine::Vector3Int brickMin, ::UnityEngine::Vector3Int brickMax,
                                         int32_t brickSubdivLevel, int32_t entrySubdivLevel, int32_t idx);
 
-  /// @brief Method MergeIndex, addr 0x6645c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MergeIndex, addr 0x6783320, size 0xc, virtual false, abstract: false, final false
   inline int32_t MergeIndex(int32_t index, int32_t size);
 
   static inline ::UnityEngine::Rendering::ProbeBrickIndex* New_ctor(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget);
 
-  /// @brief Method RemoveBricks, addr 0x66468e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RemoveBricks, addr 0x6783ff4, size 0xc8, virtual false, abstract: false, final false
   inline void RemoveBricks(::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo* cellInfo);
 
-  /// @brief Method ReserveChunks, addr 0x6646024, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReserveChunks, addr 0x6783730, size 0x14c, virtual false, abstract: false, final false
   inline bool ReserveChunks(::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entriesInfo, bool ignoreErrorLog);
 
-  /// @brief Method SizeOfPhysicalIndexFromBudget, addr 0x664552c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SizeOfPhysicalIndexFromBudget, addr 0x6782c38, size 0x48, virtual false, abstract: false, final false
   inline int32_t SizeOfPhysicalIndexFromBudget(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget);
 
-  /// @brief Method UpdateDebugData, addr 0x66458a8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UpdateDebugData, addr 0x6782fb4, size 0x178, virtual false, abstract: false, final false
   inline void UpdateDebugData();
 
-  /// @brief Method UploadIndexData, addr 0x664582c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UploadIndexData, addr 0x6782f38, size 0x7c, virtual false, abstract: false, final false
   inline void UploadIndexData();
 
   constexpr int32_t const& __cordl_internal_get__estimatedVMemCost_k__BackingField() const;
@@ -429,19 +429,19 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateMinIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6645574, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6782c80, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget);
 
-  /// @brief Method get_estimatedVMemCost, addr 0x6645504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_estimatedVMemCost, addr 0x6782c10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
-  /// @brief Method get_fragmentationRate, addr 0x664551c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fragmentationRate, addr 0x6782c28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fragmentationRate();
 
-  /// @brief Method set_estimatedVMemCost, addr 0x664550c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_estimatedVMemCost, addr 0x6782c18, size 0x8, virtual false, abstract: false, final false
   inline void set_estimatedVMemCost(int32_t value);
 
-  /// @brief Method set_fragmentationRate, addr 0x6645524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fragmentationRate, addr 0x6782c30, size 0x8, virtual false, abstract: false, final false
   inline void set_fragmentationRate(float_t value);
 
 protected:
@@ -459,7 +459,7 @@ public:
   ProbeBrickIndex(ProbeBrickIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12054 };
 
   /// @brief Field kEmptyIndex offset 0xffffffff size 0x4
   static constexpr int32_t kEmptyIndex{ static_cast<int32_t>(0xfffffffe) };

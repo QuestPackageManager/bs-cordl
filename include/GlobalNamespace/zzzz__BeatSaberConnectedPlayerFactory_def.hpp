@@ -48,19 +48,19 @@ public:
   constexpr operator ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                   ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*() noexcept;
 
-  /// @brief Method CreateDirectlyConnectedPlayer, addr 0x320e7f8, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method CreateDirectlyConnectedPlayer, addr 0x32a5938, size 0x250, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatSaberConnectedPlayer*
   CreateDirectlyConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                             ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
                                 uint8_t connectionId, ::GlobalNamespace::IConnection* connection);
 
-  /// @brief Method CreateLocalPlayer, addr 0x320e734, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CreateLocalPlayer, addr 0x32a5874, size 0xc4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatSaberConnectedPlayer*
   CreateLocalPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                 ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
                     ::StringW userId, ::StringW userName, bool isConnectionOwner, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random, ::StringW compatibilityVersion);
 
-  /// @brief Method CreateRemoteConnectedPlayer, addr 0x320ea48, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method CreateRemoteConnectedPlayer, addr 0x32a5b88, size 0xec, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatSaberConnectedPlayer*
   CreateRemoteConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                           ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
@@ -68,7 +68,7 @@ public:
 
   static inline ::GlobalNamespace::BeatSaberConnectedPlayerFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x320eb34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a5c74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to
@@ -92,7 +92,7 @@ public:
   BeatSaberConnectedPlayerFactory(BeatSaberConnectedPlayerFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

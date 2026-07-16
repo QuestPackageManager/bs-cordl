@@ -30,7 +30,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlObjectAsset* New_ctor(::StringW fullTypeNameOrFieldName, bool isField, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method ToString, addr 0x6b693e4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cbd29c, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_IsField() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_m_IsField(bool value);
 
-  /// @brief Method .ctor, addr 0x6b693d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbd28c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeNameOrFieldName, bool isField, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method get_isField, addr 0x6b693cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isField, addr 0x6cbd284, size 0x8, virtual false, abstract: false, final false
   inline bool get_isField();
 
 protected:

@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "BeatSaber/Main/GraphQL/Enums/ISOCountryCode.hpp"
+#include "BeatSaber/Main/GraphQL/Enums/TimezoneIDEnum.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/XOCBeatGamesBeatmapCharacteristic.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/XOCBeatGamesBeatmapDifficulty.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/XOCBeatGamesBeatmapLeaderboardEntryOrderBySubject.hpp"

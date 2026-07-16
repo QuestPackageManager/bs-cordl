@@ -98,7 +98,7 @@ public:
                                               int32_t vrshell_average_frame_rate, int32_t vrshell_gpu_time_microseconds, int32_t vrshell_and_guardian_gpu_time_microseconds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x118 };
@@ -473,39 +473,39 @@ public:
   /// @brief Field _NativeInitialized, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__NativeInitialized, put = setStaticF__NativeInitialized)) bool _NativeInitialized;
 
-  /// @brief Method AppendCsvDebugString, addr 0x5e05b48, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AppendCsvDebugString, addr 0x5f3de6c, size 0x170, virtual false, abstract: false, final false
   inline bool AppendCsvDebugString(::StringW debugString);
 
-  /// @brief Method Awake, addr 0x5e05888, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f3dbac, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EnterVrMode, addr 0x5e05898, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EnterVrMode, addr 0x5f3dbbc, size 0x11c, virtual false, abstract: false, final false
   inline void EnterVrMode();
 
-  /// @brief Method GetLatestMetricsSnapshot, addr 0x5e05e28, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetLatestMetricsSnapshot, addr 0x5f3e14c, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::GlobalNamespace::OVRMetricsToolSDK_MetricsSnapshot> GetLatestMetricsSnapshot();
 
-  /// @brief Method Initialize, addr 0x5e05524, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f3d848, size 0x364, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LeaveVrMode, addr 0x5e059c4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LeaveVrMode, addr 0x5f3dce8, size 0x114, virtual false, abstract: false, final false
   inline void LeaveVrMode();
 
   static inline ::GlobalNamespace::OVRMetricsToolSDK* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x5e05b3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x5f3de60, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pause);
 
-  /// @brief Method OnDestroy, addr 0x5e059b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5f3dcd8, size 0x10, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetOverlayDebugString, addr 0x5e05cb8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayDebugString, addr 0x5f3dfdc, size 0x170, virtual false, abstract: false, final false
   inline bool SetOverlayDebugString(::StringW debugString);
 
-  /// @brief Method Shutdown, addr 0x5e05ad8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x5f3ddfc, size 0x64, virtual false, abstract: false, final false
   inline void Shutdown();
 
-  /// @brief Method .ctor, addr 0x5e05ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3e31c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF__Context();
@@ -518,28 +518,28 @@ public:
 
   static inline bool getStaticF__NativeInitialized();
 
-  /// @brief Method get_Instance, addr 0x5e053e0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5f3d704, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRMetricsToolSDK> get_Instance();
 
-  /// @brief Method ovrMetricsTool_AppendCsvDebugString, addr 0x5e05148, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_AppendCsvDebugString, addr 0x5f3d46c, size 0x9c, virtual false, abstract: false, final false
   static inline bool ovrMetricsTool_AppendCsvDebugString(::StringW debugString);
 
-  /// @brief Method ovrMetricsTool_EnterVrMode, addr 0x5e050dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_EnterVrMode, addr 0x5f3d400, size 0x6c, virtual false, abstract: false, final false
   static inline bool ovrMetricsTool_EnterVrMode();
 
-  /// @brief Method ovrMetricsTool_GetLatestEventJson, addr 0x5e05280, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_GetLatestEventJson, addr 0x5f3d5a4, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW ovrMetricsTool_GetLatestEventJson();
 
-  /// @brief Method ovrMetricsTool_Initialize, addr 0x5e05040, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_Initialize, addr 0x5f3d364, size 0x9c, virtual false, abstract: false, final false
   static inline bool ovrMetricsTool_Initialize(::System::IntPtr jvm, ::System::IntPtr jni, ::System::IntPtr context);
 
-  /// @brief Method ovrMetricsTool_LeaveVrMode, addr 0x5e05308, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_LeaveVrMode, addr 0x5f3d62c, size 0x6c, virtual false, abstract: false, final false
   static inline bool ovrMetricsTool_LeaveVrMode();
 
-  /// @brief Method ovrMetricsTool_SetOverlayDebugString, addr 0x5e051e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_SetOverlayDebugString, addr 0x5f3d508, size 0x9c, virtual false, abstract: false, final false
   static inline bool ovrMetricsTool_SetOverlayDebugString(::StringW debugString);
 
-  /// @brief Method ovrMetricsTool_Shutdown, addr 0x5e05374, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ovrMetricsTool_Shutdown, addr 0x5f3d698, size 0x6c, virtual false, abstract: false, final false
   static inline bool ovrMetricsTool_Shutdown();
 
   static inline void setStaticF__Context(::UnityEngine::AndroidJavaObject* value);
@@ -567,7 +567,7 @@ public:
   OVRMetricsToolSDK(OVRMetricsToolSDK const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,17 +34,17 @@ public:
 
   static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor(::StringW mediaType);
 
-  /// @brief Method TryParse, addr 0x5fab6ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e67a8, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x5fab534, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x60e6630, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x5fab530, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e662c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5fab52c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e6628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW mediaType);
 
 protected:
@@ -62,7 +62,7 @@ public:
   MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

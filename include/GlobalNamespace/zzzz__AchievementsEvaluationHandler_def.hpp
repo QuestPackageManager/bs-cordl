@@ -135,10 +135,10 @@ public:
   __declspec(property(get = __cordl_internal_get__kilometersTravelled100Achievement, put = __cordl_internal_set__kilometersTravelled100Achievement)) ::UnityW<::GlobalNamespace::AchievementSO>
       _kilometersTravelled100Achievement;
 
-  /// @brief Field _missionNodesManager, offset 0xf0, size 0x8
+  /// @brief Field _missionNodesManager, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager)) ::GlobalNamespace::IMissionNodesManager* _missionNodesManager;
 
-  /// @brief Field _platform, offset 0xf8, size 0x8
+  /// @brief Field _platform, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
 
   /// @brief Field _playerDataModel, offset 0xe8, size 0x8
@@ -163,30 +163,30 @@ public:
   __declspec(property(get = __cordl_internal_get__totalScore100MillionAchievement, put = __cordl_internal_set__totalScore100MillionAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
       _totalScore100MillionAchievement;
 
-  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x363bc40, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x36f8078, size 0xfc, virtual false, abstract: false, final false
   inline void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x363bc18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x36f8050, size 0x28, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x363a3c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x36f67fc, size 0x54, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   static inline ::GlobalNamespace::AchievementsEvaluationHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x363a1fc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x36f6634, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessLevelFinishData, addr 0x363a418, size 0x1230, virtual false, abstract: false, final false
+  /// @brief Method ProcessLevelFinishData, addr 0x36f6850, size 0x1230, virtual false, abstract: false, final false
   inline void ProcessLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ProcessMissionFinishData, addr 0x363bd3c, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method ProcessMissionFinishData, addr 0x36f8174, size 0x664, virtual false, abstract: false, final false
   inline void ProcessMissionFinishData(::GlobalNamespace::IMissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x363b648, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x36f7a80, size 0x5d0, virtual false, abstract: false, final false
   inline void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Start, addr 0x363a084, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x36f64bc, size 0x178, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsFullComboAchievement() const;
@@ -357,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScore100MillionAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  /// @brief Method .ctor, addr 0x363c3a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f87d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -375,7 +375,7 @@ public:
   AchievementsEvaluationHandler(AchievementsEvaluationHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14734 };
 
   /// @brief Field _clearedLevel100Achievement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevel100Achievement;
@@ -455,11 +455,11 @@ public:
   /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _missionNodesManager, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::IMissionNodesManager* ____missionNodesManager;
-
-  /// @brief Field _platform, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _platform, offset: 0xf0, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
+
+  /// @brief Field _missionNodesManager, offset: 0xf8, size: 0x8, def value: None
+  ::GlobalNamespace::IMissionNodesManager* ____missionNodesManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -516,9 +516,9 @@ static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____all
 
 static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____playerDataModel) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____missionNodesManager) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____platform) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____platform) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____missionNodesManager) == 0xf8, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::AchievementsEvaluationHandler) == 0x100, "Size mismatch!");
 

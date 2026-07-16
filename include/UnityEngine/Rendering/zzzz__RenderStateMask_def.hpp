@@ -68,7 +68,7 @@ public:
   static ::UnityEngine::Rendering::RenderStateMask const Stencil;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10797 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

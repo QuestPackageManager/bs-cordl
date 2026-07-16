@@ -47,33 +47,33 @@ public:
   /// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IContentHandler"
   constexpr operator ::Mono::Xml::SmallXmlParser_IContentHandler*() noexcept;
 
-  /// @brief Method LoadXml, addr 0x5973744, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LoadXml, addr 0x5aac0b0, size 0x94, virtual false, abstract: false, final false
   inline void LoadXml(::StringW xml);
 
   static inline ::Mono::Xml::SecurityParser* New_ctor();
 
-  /// @brief Method OnChars, addr 0x5973cc4, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method OnChars, addr 0x5aac630, size 0x84, virtual true, abstract: false, final true
   inline void OnChars(::StringW ch);
 
-  /// @brief Method OnEndElement, addr 0x5973c38, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method OnEndElement, addr 0x5aac5a4, size 0x8c, virtual true, abstract: false, final true
   inline void OnEndElement(::StringW name);
 
-  /// @brief Method OnEndParsing, addr 0x5973d48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnEndParsing, addr 0x5aac6b4, size 0x4, virtual true, abstract: false, final true
   inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method OnIgnorableWhitespace, addr 0x59739b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnIgnorableWhitespace, addr 0x5aac320, size 0x4, virtual true, abstract: false, final true
   inline void OnIgnorableWhitespace(::StringW s);
 
-  /// @brief Method OnProcessingInstruction, addr 0x59739b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnProcessingInstruction, addr 0x5aac31c, size 0x4, virtual true, abstract: false, final true
   inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method OnStartElement, addr 0x59739b8, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method OnStartElement, addr 0x5aac324, size 0x280, virtual true, abstract: false, final true
   inline void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method OnStartParsing, addr 0x59739ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnStartParsing, addr 0x5aac318, size 0x4, virtual true, abstract: false, final true
   inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method ToXml, addr 0x59739a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToXml, addr 0x5aac310, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr ::System::Security::SecurityElement* const& __cordl_internal_get_current() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_stack(::System::Collections::Stack* value);
 
-  /// @brief Method .ctor, addr 0x59735d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aabf44, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Mono::Xml::SmallXmlParser_IContentHandler"

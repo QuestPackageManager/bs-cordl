@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Assertions::AssertionException::*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::AssertionException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69aff78;
+  constexpr static std::size_t addrs = 0x6b03938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Assertions::AssertionException::*)()>(&::UnityEngine::Assertions::AssertionException::get_Message)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69b0968;
+  constexpr static std::size_t addrs = 0x6b04328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

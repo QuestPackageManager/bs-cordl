@@ -32,34 +32,34 @@ public:
 
   __declspec(property(get = get_Value)) float_t Value;
 
-  /// @brief Method Auto, addr 0x6baa340, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x6cfe1f8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue Auto();
 
-  /// @brief Method Equals, addr 0x6bac780, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d00638, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6bac71c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d005d4, size 0x64, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::Layout::LayoutValue other);
 
-  /// @brief Method GetHashCode, addr 0x6bac848, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6d00700, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Percent, addr 0x6baa3cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x6cfe284, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue Percent(float_t value);
 
-  /// @brief Method Point, addr 0x6baa34c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Point, addr 0x6cfe204, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue Point(float_t value);
 
-  /// @brief Method Undefined, addr 0x6baa3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Undefined, addr 0x6cfe2a4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue Undefined();
 
-  /// @brief Method get_Unit, addr 0x6bac70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x6d005c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutUnit get_Unit();
 
-  /// @brief Method get_Value, addr 0x6bac714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6d005cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Value();
 
-  /// @brief Method op_Implicit, addr 0x6bac86c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6d00724, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue op_Implicit___UnityEngine__UIElements__Layout__LayoutValue(float_t value);
 
   // Ctor Parameters []

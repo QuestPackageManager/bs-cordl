@@ -49,25 +49,25 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method .ctor, addr 0x5f9c8b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60d79b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method get_ContentDisposition, addr 0x5fa12b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ContentDisposition, addr 0x60dc3b0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* get_ContentDisposition();
 
-  /// @brief Method get_ContentLength, addr 0x5f99af4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x60d4bf0, size 0x138, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_ContentLength();
 
-  /// @brief Method get_ContentType, addr 0x5f9e1d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x60d92d0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
 
-  /// @brief Method set_ContentDisposition, addr 0x5fa1494, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_ContentDisposition, addr 0x60dc590, size 0x7c, virtual false, abstract: false, final false
   inline void set_ContentDisposition(::System::Net::Http::Headers::ContentDispositionHeaderValue* value);
 
-  /// @brief Method set_ContentLength, addr 0x5fa6724, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_ContentLength, addr 0x60e1820, size 0x80, virtual false, abstract: false, final false
   inline void set_ContentLength(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_ContentType, addr 0x5f9aa90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x60d5b8c, size 0x7c, virtual false, abstract: false, final false
   inline void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   HttpContentHeaders(HttpContentHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20274 };
 
   /// @brief Field content, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Http::HttpContent* ___content;

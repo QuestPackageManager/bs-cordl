@@ -35,21 +35,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::GetArrayItemInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x5e4ce08, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f87f04, size 0x98, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5e4cdb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f87eac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::GetArrayItemInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x5e4cdb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f87eb0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e4cdc4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f87ec0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e4cdbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f87eb8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::GetArrayItemInstruction* value);
@@ -69,7 +69,7 @@ public:
   GetArrayItemInstruction(GetArrayItemInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::AsmxCharDataContract::*)()>(&::System::Runtime::Serialization::AsmxCharDataContract::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x601aecc;
+  constexpr static std::size_t addrs = 0x6155fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::AsmxCharDataContract*>(), { ".ctor", {}, {} })));

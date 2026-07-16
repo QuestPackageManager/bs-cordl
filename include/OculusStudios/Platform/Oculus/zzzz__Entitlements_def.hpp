@@ -116,13 +116,13 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::Entitlements___c* New_ctor();
 
-  /// @brief Method <GetAllProductsAsync>b__5_0, addr 0x5df6b9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetAllProductsAsync>b__5_0, addr 0x5f2ee38, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _GetAllProductsAsync_b__5_0(::Oculus::Platform::Models::Purchase* x);
 
-  /// @brief Method <GetAllProductsAsync>b__5_1, addr 0x5df6bb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetAllProductsAsync>b__5_1, addr 0x5f2ee4c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _GetAllProductsAsync_b__5_1(::OculusStudios::Platform::Core::Product* product);
 
-  /// @brief Method .ctor, addr 0x5df6b98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2ee34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OculusStudios::Platform::Oculus::Entitlements___c* getStaticF___9();
@@ -152,7 +152,7 @@ public:
   Entitlements___c(Entitlements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,7 +177,7 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetAllProductsAsync>b__3, addr 0x5df6bcc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <GetAllProductsAsync>b__3, addr 0x5f2ee68, size 0xdc, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::Product* _GetAllProductsAsync_b__3(::OculusStudios::Platform::Core::IProductDefinition* definition);
 
   constexpr ::System::Func_2<::OculusStudios::Platform::Core::IProductDefinition*, ::OculusStudios::Platform::Core::Product*>* const& __cordl_internal_get___9__3() const;
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set_productMap(::System::Collections::Generic::Dictionary_2<::StringW, ::OculusStudios::Platform::Core::Product*>* value);
 
-  /// @brief Method .ctor, addr 0x5df6bc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2ee64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,7 +210,7 @@ public:
   Entitlements___c__DisplayClass5_0(Entitlements___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22077 };
 
   /// @brief Field productMap, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::OculusStudios::Platform::Core::Product*>* ___productMap;
@@ -240,7 +240,7 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method <GetAllProductsAsync>b__2, addr 0x5df6cac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetAllProductsAsync>b__2, addr 0x5f2ef48, size 0x60, virtual false, abstract: false, final false
   inline bool _GetAllProductsAsync_b__2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Oculus::Platform::Models::Purchase*> x);
 
   constexpr ::StringW const& __cordl_internal_get_vendorProductId() const;
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_vendorProductId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5df6ca8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2ef44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -267,7 +267,7 @@ public:
   Entitlements___c__DisplayClass5_1(Entitlements___c__DisplayClass5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22078 };
 
   /// @brief Field vendorProductId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___vendorProductId;
@@ -290,10 +290,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5df6d0c, size 0xfd8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f2efa8, size 0xff4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5df7d88, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f30040, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -314,7 +314,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22079 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -379,12 +379,12 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformEntitlements"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformEntitlements*() noexcept;
 
-  /// @brief Method GetAllProductsAsync, addr 0x5df69ec, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method GetAllProductsAsync, addr 0x5f2ec88, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>* GetAllProductsAsync();
 
   static inline ::OculusStudios::Platform::Oculus::Entitlements* New_ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method RegisterNewProducts, addr 0x5df6acc, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method RegisterNewProducts, addr 0x5f2ed68, size 0x78, virtual true, abstract: false, final true
   inline void RegisterNewProducts(::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* productDefinitions);
 
   constexpr ::OculusStudios::Platform::Core::IPlatformLogger* const& __cordl_internal_get_logger() const;
@@ -405,7 +405,7 @@ public:
 
   constexpr void __cordl_internal_set_productInstances(::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* value);
 
-  /// @brief Method .ctor, addr 0x5df692c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2ebcc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformEntitlements"
@@ -429,7 +429,7 @@ public:
   static ::OculusStudios::Platform::Core::Vendor const VENDOR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22080 };
 
   /// @brief Field logger, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatformLogger* ___logger;

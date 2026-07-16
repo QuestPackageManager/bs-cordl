@@ -41,7 +41,7 @@ public:
                                                                                                  ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                                                                                                  ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x67cda48, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x690c518, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* const& __cordl_internal_get__WebRequestResult_k__BackingField() const;
@@ -50,14 +50,14 @@ public:
 
   constexpr void __cordl_internal_set__WebRequestResult_k__BackingField(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* value);
 
-  /// @brief Method .ctor, addr 0x67cda08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690c4d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                     ::System::Exception* innerException);
 
-  /// @brief Method get_Message, addr 0x67cda34, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x690c504, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_WebRequestResult, addr 0x67cda40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestResult, addr 0x690c510, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* get_WebRequestResult();
 
 protected:
@@ -75,7 +75,7 @@ public:
   RemoteProviderException(RemoteProviderException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18689 };
 
   /// @brief Field <WebRequestResult>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* ____WebRequestResult_k__BackingField;

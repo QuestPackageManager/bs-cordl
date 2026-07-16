@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6287f38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c3fd4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x6287f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x63c402c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -54,7 +54,7 @@ public:
   TypeDescriptionProviderAttribute(TypeDescriptionProviderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11276 };
 
   /// @brief Field <TypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TypeName_k__BackingField;

@@ -51,13 +51,13 @@ public:
   /// @brief Field m_Sampler, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Sampler, put = __cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler* m_Sampler;
 
-  /// @brief Method Execute, addr 0x671c8dc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x685b0a4, size 0x160, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk, ::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk, int32_t count);
 
-  /// @brief Method Execute, addr 0x671c760, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x685af28, size 0x17c, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Camera* camera);
 
-  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x671ca3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x685b204, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetSceneCullingMaskFromCamera(::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, float_t drawDistance);
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x671c688, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685ae50, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, float_t drawDistance);
 
-  /// @brief Method get_boundingDistance, addr 0x671c638, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_boundingDistance, addr 0x685ae00, size 0x28, virtual false, abstract: false, final false
   inline float_t get_boundingDistance();
 
-  /// @brief Method set_boundingDistance, addr 0x671c660, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_boundingDistance, addr 0x685ae28, size 0x28, virtual false, abstract: false, final false
   inline void set_boundingDistance(float_t value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   DecalUpdateCullingGroupSystem(DecalUpdateCullingGroupSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12681 };
 
   /// @brief Field m_BoundingDistance, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<float_t> ___m_BoundingDistance;

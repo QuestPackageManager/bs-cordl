@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class ScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
-class ShaderWarmupScenesTransitionSetupDataSO;
+class ShaderWarmupScenesTransitionSetupData;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -45,28 +45,21 @@ public:
 
   /// @brief Field _shaderWarmupScenesTransitionSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__shaderWarmupScenesTransitionSetupData,
-                      put = __cordl_internal_set__shaderWarmupScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>
-      _shaderWarmupScenesTransitionSetupData;
+                      put = __cordl_internal_set__shaderWarmupScenesTransitionSetupData)) ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* _shaderWarmupScenesTransitionSetupData;
 
-  /// @brief Field _wasStarted, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__wasStarted, put = __cordl_internal_set__wasStarted)) bool _wasStarted;
-
-  /// @brief Method HandleTransitionDidFinish, addr 0x577f9d4, size 0xb4, virtual false, abstract: false, final false
-  inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
+  /// @brief Method HandleTransitionDidFinish, addr 0x58bbd24, size 0x64, virtual false, abstract: false, final false
+  inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupData* transitionSetupData,
                                         ::Zenject::DiContainer* diContainer);
 
   static inline ::GlobalNamespace::PersistentAudioNoiseController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x577f828, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58bbc10, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnResetAudioEvent, addr 0x577f804, size 0x24, virtual false, abstract: false, final false
-  inline void OnResetAudioEvent();
-
-  /// @brief Method OnValidate, addr 0x577fa88, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x58bbd88, size 0xe8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x577f6d8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58bbb80, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -77,23 +70,17 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> const& __cordl_internal_get__shaderWarmupScenesTransitionSetupData() const;
+  constexpr ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* const& __cordl_internal_get__shaderWarmupScenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>& __cordl_internal_get__shaderWarmupScenesTransitionSetupData();
-
-  constexpr bool const& __cordl_internal_get__wasStarted() const;
-
-  constexpr bool& __cordl_internal_get__wasStarted();
+  constexpr ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData*& __cordl_internal_get__shaderWarmupScenesTransitionSetupData();
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr void __cordl_internal_set__shaderWarmupScenesTransitionSetupData(::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> value);
+  constexpr void __cordl_internal_set__shaderWarmupScenesTransitionSetupData(::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* value);
 
-  constexpr void __cordl_internal_set__wasStarted(bool value);
-
-  /// @brief Method .ctor, addr 0x577fb70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bbe70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,19 +98,16 @@ public:
   PersistentAudioNoiseController(PersistentAudioNoiseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5576 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _shaderWarmupScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> ____shaderWarmupScenesTransitionSetupData;
+  ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* ____shaderWarmupScenesTransitionSetupData;
 
   /// @brief Field _gameScenesManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
-
-  /// @brief Field _wasStarted, offset: 0x38, size: 0x1, def value: None
-  bool ____wasStarted;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,8 +118,6 @@ static_assert(offsetof(::GlobalNamespace::PersistentAudioNoiseController, ____sh
 
 static_assert(offsetof(::GlobalNamespace::PersistentAudioNoiseController, ____gameScenesManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PersistentAudioNoiseController, ____wasStarted) == 0x38, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::PersistentAudioNoiseController) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PersistentAudioNoiseController) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

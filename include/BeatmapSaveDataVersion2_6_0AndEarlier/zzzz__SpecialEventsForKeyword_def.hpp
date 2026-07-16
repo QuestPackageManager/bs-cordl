@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x369f57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375b5d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents);
 
-  /// @brief Method get_keyword, addr 0x369f56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x375b5c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_specialEvents, addr 0x369f574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEvents, addr 0x375b5cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_specialEvents();
 
 protected:
@@ -76,7 +76,7 @@ public:
   SpecialEventsForKeyword(SpecialEventsForKeyword const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15362 };
 
   /// @brief Field _keyword, offset: 0x10, size: 0x8, def value: None
   ::StringW ____keyword;

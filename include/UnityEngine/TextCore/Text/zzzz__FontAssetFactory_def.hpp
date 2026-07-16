@@ -39,13 +39,13 @@ public:
   __declspec(property(get = getStaticF_visitedFontAssets,
                       put = setStaticF_visitedFontAssets)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* visitedFontAssets;
 
-  /// @brief Method CreateDefaultEditorFontAsset, addr 0x6aa6c34, size 0x834, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultEditorFontAsset, addr 0x6bfaaec, size 0x834, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateDefaultEditorFontAsset(::UnityEngine::Font* font, ::UnityEngine::Shader* shader);
 
-  /// @brief Method SetHideFlags, addr 0x6aa7530, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetHideFlags, addr 0x6bfb3e8, size 0xc0, virtual false, abstract: false, final false
   static inline void SetHideFlags(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method SetupFontAssetSettings, addr 0x6aa7468, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetupFontAssetSettings, addr 0x6bfb320, size 0xc8, virtual false, abstract: false, final false
   static inline void SetupFontAssetSettings(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Shader* shader);
 
   static inline ::StringW getStaticF_k_SystemFontName();
@@ -71,7 +71,7 @@ public:
   FontAssetFactory(FontAssetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17198 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_publicParameter(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x33dd9ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3499ea4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
 
-  /// @brief Method get_Private, addr 0x33ddab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Private, addr 0x3499f6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
 
-  /// @brief Method get_Public, addr 0x33ddaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x3499f64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
 
 protected:

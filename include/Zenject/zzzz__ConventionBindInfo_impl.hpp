@@ -11,119 +11,30 @@
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__ConventionBindInfo_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass6_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ConventionBindInfo___c__DisplayClass6_0::*)()>(&::Zenject::ConventionBindInfo___c__DisplayClass6_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cf482c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass6_0._ShouldIncludeAssembly_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ConventionBindInfo___c__DisplayClass6_0::*)(::System::Func_2<::System::Reflection::Assembly*, bool>*)>(
-    &::Zenject::ConventionBindInfo___c__DisplayClass6_0::_ShouldIncludeAssembly_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6cf4aec;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(),
-                                                             { "<ShouldIncludeAssembly>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Reflection::Assembly*, bool>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass6_0.__zenCreate
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::ConventionBindInfo___c__DisplayClass6_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6cf4b10;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass6_0.__zenCreateInjectTypeInfo
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ConventionBindInfo___c__DisplayClass6_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6cf4b54;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Reflection::Assembly*& Zenject::ConventionBindInfo___c__DisplayClass6_0::__cordl_internal_get_assembly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___assembly;
-}
-constexpr ::System::Reflection::Assembly* const& Zenject::ConventionBindInfo___c__DisplayClass6_0::__cordl_internal_get_assembly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___assembly;
-}
-constexpr void Zenject::ConventionBindInfo___c__DisplayClass6_0::__cordl_internal_set_assembly(::System::Reflection::Assembly* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___assembly = value;
-}
-inline void Zenject::ConventionBindInfo___c__DisplayClass6_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline bool Zenject::ConventionBindInfo___c__DisplayClass6_0::_ShouldIncludeAssembly_b__0(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(),
-                                                           { "<ShouldIncludeAssembly>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Reflection::Assembly*, bool>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, predicate);
-}
-inline ::System::Object* Zenject::ConventionBindInfo___c__DisplayClass6_0::__zenCreate(::ArrayW<::System::Object*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
-}
-inline ::Zenject::InjectTypeInfo* Zenject::ConventionBindInfo___c__DisplayClass6_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
-}
-inline ::Zenject::ConventionBindInfo___c__DisplayClass6_0* Zenject::ConventionBindInfo___c__DisplayClass6_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::ConventionBindInfo___c__DisplayClass6_0*>());
-}
-// Ctor Parameters []
-constexpr ::Zenject::ConventionBindInfo___c__DisplayClass6_0::ConventionBindInfo___c__DisplayClass6_0() {}
 //  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass7_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ConventionBindInfo___c__DisplayClass7_0::*)()>(&::Zenject::ConventionBindInfo___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cf490c;
+  constexpr static std::size_t addrs = 0x6e48e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass7_0._ShouldIncludeType_b__0
+//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass7_0._ShouldIncludeAssembly_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ConventionBindInfo___c__DisplayClass7_0::*)(::System::Func_2<::System::Type*, bool>*)>(
-    &::Zenject::ConventionBindInfo___c__DisplayClass7_0::_ShouldIncludeType_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ConventionBindInfo___c__DisplayClass7_0::*)(::System::Func_2<::System::Reflection::Assembly*, bool>*)>(
+    &::Zenject::ConventionBindInfo___c__DisplayClass7_0::_ShouldIncludeAssembly_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6cf4ce8;
+  constexpr static std::size_t addrs = 0x6e49140;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass7_0*>(),
-                                                                                           { "<ShouldIncludeType>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Type*, bool>*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass7_0*>(),
+                                                             { "<ShouldIncludeAssembly>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Reflection::Assembly*, bool>*>() } })));
     return ___internal_method;
   }
 };
@@ -132,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::ConventionBindInfo___c__DisplayClass7_0::__zenCreate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6cf4d0c;
+  constexpr static std::size_t addrs = 0x6e49164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ConventionBindInfo___c__DisplayClass7_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6cf4d50;
+  constexpr static std::size_t addrs = 0x6e491a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,25 +64,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& Zenject::ConventionBindInfo___c__DisplayClass7_0::__cordl_internal_get_type() {
+constexpr ::System::Reflection::Assembly*& Zenject::ConventionBindInfo___c__DisplayClass7_0::__cordl_internal_get_assembly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___type;
+  return this->___assembly;
 }
-constexpr ::System::Type* const& Zenject::ConventionBindInfo___c__DisplayClass7_0::__cordl_internal_get_type() const {
+constexpr ::System::Reflection::Assembly* const& Zenject::ConventionBindInfo___c__DisplayClass7_0::__cordl_internal_get_assembly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___type;
+  return this->___assembly;
 }
-constexpr void Zenject::ConventionBindInfo___c__DisplayClass7_0::__cordl_internal_set_type(::System::Type* value) {
+constexpr void Zenject::ConventionBindInfo___c__DisplayClass7_0::__cordl_internal_set_assembly(::System::Reflection::Assembly* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___type = value;
+  this->___assembly = value;
 }
 inline void Zenject::ConventionBindInfo___c__DisplayClass7_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool Zenject::ConventionBindInfo___c__DisplayClass7_0::_ShouldIncludeType_b__0(::System::Func_2<::System::Type*, bool>* predicate) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass7_0*>(),
-                                                                                         { "<ShouldIncludeType>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Type*, bool>*>() } })));
+inline bool Zenject::ConventionBindInfo___c__DisplayClass7_0::_ShouldIncludeAssembly_b__0(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass7_0*>(),
+                                                           { "<ShouldIncludeAssembly>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Reflection::Assembly*, bool>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, predicate);
 }
 inline ::System::Object* Zenject::ConventionBindInfo___c__DisplayClass7_0::__zenCreate(::ArrayW<::System::Object*> P_0) {
@@ -189,13 +101,113 @@ inline ::Zenject::ConventionBindInfo___c__DisplayClass7_0* Zenject::ConventionBi
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConventionBindInfo___c__DisplayClass7_0::ConventionBindInfo___c__DisplayClass7_0() {}
+//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass8_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ConventionBindInfo___c__DisplayClass8_0::*)()>(&::Zenject::ConventionBindInfo___c__DisplayClass8_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6e48f60;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass8_0._ShouldIncludeType_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ConventionBindInfo___c__DisplayClass8_0::*)(::System::Func_2<::System::Type*, bool>*)>(
+    &::Zenject::ConventionBindInfo___c__DisplayClass8_0::_ShouldIncludeType_b__0)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6e4933c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(),
+                                                                                           { "<ShouldIncludeType>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Type*, bool>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass8_0.__zenCreate
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::ConventionBindInfo___c__DisplayClass8_0::__zenCreate)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6e49360;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::ConventionBindInfo___c__DisplayClass8_0.__zenCreateInjectTypeInfo
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ConventionBindInfo___c__DisplayClass8_0::__zenCreateInjectTypeInfo)> {
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6e493a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Type*& Zenject::ConventionBindInfo___c__DisplayClass8_0::__cordl_internal_get_type() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
+}
+constexpr ::System::Type* const& Zenject::ConventionBindInfo___c__DisplayClass8_0::__cordl_internal_get_type() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
+}
+constexpr void Zenject::ConventionBindInfo___c__DisplayClass8_0::__cordl_internal_set_type(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___type = value;
+}
+inline void Zenject::ConventionBindInfo___c__DisplayClass8_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool Zenject::ConventionBindInfo___c__DisplayClass8_0::_ShouldIncludeType_b__0(::System::Func_2<::System::Type*, bool>* predicate) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(),
+                                                                                         { "<ShouldIncludeType>b__0", {}, { ::i2c::type_of<::System::Func_2<::System::Type*, bool>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, predicate);
+}
+inline ::System::Object* Zenject::ConventionBindInfo___c__DisplayClass8_0::__zenCreate(::ArrayW<::System::Object*> P_0) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
+}
+inline ::Zenject::InjectTypeInfo* Zenject::ConventionBindInfo___c__DisplayClass8_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
+}
+inline ::Zenject::ConventionBindInfo___c__DisplayClass8_0* Zenject::ConventionBindInfo___c__DisplayClass8_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::ConventionBindInfo___c__DisplayClass8_0*>());
+}
+// Ctor Parameters []
+constexpr ::Zenject::ConventionBindInfo___c__DisplayClass8_0::ConventionBindInfo___c__DisplayClass8_0() {}
+//  Writing Method size for method: ::Zenject::ConventionBindInfo.NoDomainReloadInit
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Zenject::ConventionBindInfo::NoDomainReloadInit)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6e48c10;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "NoDomainReloadInit", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Zenject::ConventionBindInfo.AddAssemblyFilter
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ConventionBindInfo::*)(::System::Func_2<::System::Reflection::Assembly*, bool>*)>(
     &::Zenject::ConventionBindInfo::AddAssemblyFilter)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cf4130;
+  constexpr static std::size_t addrs = 0x6e486c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ConventionBindInfo::*)(::System::Func_2<::System::Type*, bool>*)>(&::Zenject::ConventionBindInfo::AddTypeFilter)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cf4680;
+  constexpr static std::size_t addrs = 0x6e48cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* (::Zenject::ConventionBindInfo::*)()>(
     &::Zenject::ConventionBindInfo::GetAllAssemblies)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6cf4734;
+  constexpr static std::size_t addrs = 0x6e48d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "GetAllAssemblies", {}, {} })));
@@ -235,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ConventionBindInfo::*)(::System::Reflection::Assembly*)>(&::Zenject::ConventionBindInfo::ShouldIncludeAssembly)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6cf4750;
+  constexpr static std::size_t addrs = 0x6e48da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ConventionBindInfo::*)(::System::Type*)>(&::Zenject::ConventionBindInfo::ShouldIncludeType)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6cf4830;
+  constexpr static std::size_t addrs = 0x6e48e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::Zenject::ConventionBindInfo::*)(::System::Reflection::Assembly*)>(&::Zenject::ConventionBindInfo::GetTypes)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6cf4910;
+  constexpr static std::size_t addrs = 0x6e48f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Type*>* (::Zenject::ConventionBindInfo::*)()>(&::Zenject::ConventionBindInfo::ResolveTypes)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6cf3204;
+  constexpr static std::size_t addrs = 0x6e47794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "ResolveTypes", {}, {} })));
@@ -286,24 +298,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ConventionBindInfo::*)()>(&::Zenject::ConventionBindInfo::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6cf3140;
+  constexpr static std::size_t addrs = 0x6e476d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::ConventionBindInfo._ResolveTypes_b__9_0
+//  Writing Method size for method: ::Zenject::ConventionBindInfo._ResolveTypes_b__10_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (::Zenject::ConventionBindInfo::*)(::System::Reflection::Assembly*)>(
-    &::Zenject::ConventionBindInfo::_ResolveTypes_b__9_0)> {
+    &::Zenject::ConventionBindInfo::_ResolveTypes_b__10_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cf4ae8;
+  constexpr static std::size_t addrs = 0x6e4913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "<ResolveTypes>b__9_0", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "<ResolveTypes>b__10_0", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
     return ___internal_method;
   }
 };
@@ -338,6 +350,10 @@ inline void Zenject::ConventionBindInfo::setStaticF__assemblyTypeCache(::System:
 inline ::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*>>* Zenject::ConventionBindInfo::getStaticF__assemblyTypeCache() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*>>*, "_assemblyTypeCache",
                                            ::Zenject::ConventionBindInfo*>();
+}
+inline void Zenject::ConventionBindInfo::NoDomainReloadInit() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "NoDomainReloadInit", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline void Zenject::ConventionBindInfo::AddAssemblyFilter(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(),
@@ -376,9 +392,9 @@ inline void Zenject::ConventionBindInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::ConventionBindInfo::_ResolveTypes_b__9_0(::System::Reflection::Assembly* assembly) {
+inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::ConventionBindInfo::_ResolveTypes_b__10_0(::System::Reflection::Assembly* assembly) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "<ResolveTypes>b__9_0", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionBindInfo*>(), { "<ResolveTypes>b__10_0", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this, ___internal_method, assembly);
 }
 inline ::Zenject::ConventionBindInfo* Zenject::ConventionBindInfo::New_ctor() {

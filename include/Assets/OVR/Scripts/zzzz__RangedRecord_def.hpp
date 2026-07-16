@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x5d0f7f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e47a20, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:
@@ -69,7 +69,7 @@ public:
   RangedRecord(RangedRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8521 };
 
   /// @brief Field value, offset: 0x28, size: 0x4, def value: None
   float_t ___value;

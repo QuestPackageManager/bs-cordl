@@ -31,13 +31,13 @@ public:
   /// @brief Field _triangleMap, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__triangleMap, put = __cordl_internal_set__triangleMap)) ::ArrayW<int32_t> _triangleMap;
 
-  /// @brief Method CreateSliderMeshInternal, addr 0x5841a7c, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method CreateSliderMeshInternal, addr 0x59796f4, size 0x430, virtual true, abstract: false, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes, ::by_ref<::UnityEngine::Bounds> bounds);
 
-  /// @brief Method GetTrianglesCount, addr 0x5841ec4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetTrianglesCount, addr 0x5979b3c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount, addr 0x5841eac, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetVertexCount, addr 0x5979b24, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
 
   static inline ::GlobalNamespace::SliderMeshConstructorCrossedStrips* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__triangleMap(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x5841ee4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5979b5c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   SliderMeshConstructorCrossedStrips(SliderMeshConstructorCrossedStrips const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
 
   /// @brief Field _triangleMap, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<int32_t> ____triangleMap;

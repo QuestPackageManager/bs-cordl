@@ -38,15 +38,15 @@ public:
   /// @brief Field _tutorialFinishedSignal, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
-  /// @brief Method HandleTutorialFinished, addr 0x363c4d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialFinished, addr 0x36f8910, size 0x134, virtual false, abstract: false, final false
   inline void HandleTutorialFinished();
 
   static inline ::GlobalNamespace::FinishTutorialAchievementHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x363c44c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x36f8884, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x363c3b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x36f87ec, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__finishTutorialAchievement() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x363c60c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f8a44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   FinishTutorialAchievementHandler(FinishTutorialAchievementHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
 
   /// @brief Field _platform, offset: 0x20, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;

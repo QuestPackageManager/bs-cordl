@@ -41,19 +41,19 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE InputDeviceCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x646b328, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x65a80f4, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* command, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x646b350, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x65a811c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int64_t> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x646b314, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x65a80e0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int64_t> Invoke(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* command);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x646b1cc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a7f98, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -71,7 +71,7 @@ public:
   InputDeviceCommandDelegate(InputDeviceCommandDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

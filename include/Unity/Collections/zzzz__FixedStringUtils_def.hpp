@@ -93,7 +93,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15589 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,10 +113,10 @@ public:
   // Declarations
   using UintFloatUnion = ::Unity::Collections::FixedStringUtils_UintFloatUnion;
 
-  /// @brief Method Base10ToBase2, addr 0x637f9b8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Base10ToBase2, addr 0x64bc5d8, size 0xe4, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ParseError Base10ToBase2(::by_ref<float_t> output, uint64_t mantissa10, int32_t exponent10);
 
-  /// @brief Method Base2ToBase10, addr 0x637fa9c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Base2ToBase10, addr 0x64bc6bc, size 0x170, virtual false, abstract: false, final false
   static inline void Base2ToBase10(::by_ref<uint64_t> mantissa10, ::by_ref<int32_t> exponent10, float_t input);
 
 protected:
@@ -134,7 +134,7 @@ public:
   FixedStringUtils(FixedStringUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

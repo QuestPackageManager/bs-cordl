@@ -73,13 +73,13 @@ public:
   /// @brief Field m_CallBack, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CallBack, put = __cordl_internal_set_m_CallBack)) ::System::Func_1<bool>* m_CallBack;
 
-  /// @brief Method Execute, addr 0x67dc3ac, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x691ae7c, size 0xa0, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x67dc318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x691ade8, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x67dc320, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x691adf0, size 0x8c, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CallBack(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x67dc2c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691ad94, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18757 };
 
   /// @brief Field m_CallBack, offset: 0x98, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_CallBack;
@@ -139,7 +139,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__0, addr 0x67dc44c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__0, addr 0x691af1c, size 0x28, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__0();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* const& __cordl_internal_get___4__this() const;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x67dc2c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691ad90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -178,7 +178,7 @@ public:
   ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18758 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* _____4__this;
@@ -230,16 +230,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
 
-  /// @brief Method CanProvide, addr 0x67dc0bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanProvide, addr 0x691ab8c, size 0x40, virtual true, abstract: false, final false
   inline bool CanProvide(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method GetDefaultType, addr 0x67dc10c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultType, addr 0x691abdc, size 0x30, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Initialize, addr 0x67dc09c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x691ab6c, size 0x20, virtual true, abstract: false, final false
   inline bool Initialize(::StringW id, ::StringW data);
 
-  /// @brief Method InitializeAsync, addr 0x67dc13c, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x691ac0c, size 0x184, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* New_ctor();
@@ -247,13 +247,13 @@ public:
   /// @brief Method Provide, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method Release, addr 0x67dc108, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x691abd8, size 0x4, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
 
-  /// @brief Method ToString, addr 0x67dc0fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x691abcc, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags, addr 0x67dc310, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags, addr 0x691ade0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags const& __cordl_internal_get_m_BehaviourFlags() const;
@@ -268,10 +268,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ProviderId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x67d8980, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6917450, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ProviderId, addr 0x67dc054, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_ProviderId, addr 0x691ab24, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_ProviderId();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider"
@@ -295,7 +295,7 @@ public:
   ResourceProviderBase(ResourceProviderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18759 };
 
   /// @brief Field m_ProviderId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_ProviderId;

@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_obstaclesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x365f4c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371c308, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
                     int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount, ::ArrayW<::StringW> mappers, ::ArrayW<::StringW> lighters);
 
@@ -143,7 +143,7 @@ public:
   BeatmapBasicData(BeatmapBasicData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14921 };
 
   /// @brief Field noteJumpMovementSpeed, offset: 0x10, size: 0x4, def value: None
   float_t ___noteJumpMovementSpeed;

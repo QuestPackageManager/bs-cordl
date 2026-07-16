@@ -42,18 +42,18 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x5854964, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x598cbc0, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x5854988, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598cbe4, size 0xa4, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x5854984, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598cbe0, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x5854a2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598cc88, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr float_t const& __cordl_internal_get__granularityMultiplier() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5854a30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598cc8c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   FloatArrayMaterialPropertyEffectTarget(FloatArrayMaterialPropertyEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5826 };
 
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;

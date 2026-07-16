@@ -161,43 +161,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x6304ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644127c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x6302a64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x643ec40, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x6302a70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x643ec4c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x6302914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x643eaf0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x6302920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x643eafc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x6302574, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x643e750, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x6302580, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x643e75c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x63029bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x643eb98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x63029c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x643eba4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x6302bb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x643ed90, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x6302bc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x643ed9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x6302b0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x643ece8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x6302b18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x643ecf4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:
@@ -215,7 +215,7 @@ public:
   GradientTransitionSO(GradientTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22301 };
 
   /// @brief Field _normalColor1, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor1;

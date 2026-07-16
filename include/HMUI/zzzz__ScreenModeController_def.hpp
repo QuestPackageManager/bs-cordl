@@ -42,15 +42,15 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method Awake, addr 0x323ca44, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x32f444c, size 0x138, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::ScreenModeController* New_ctor();
 
-  /// @brief Method SetDefaultMode, addr 0x323cdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultMode, addr 0x32f47cc, size 0x8, virtual false, abstract: false, final false
   inline void SetDefaultMode();
 
-  /// @brief Method SetMode, addr 0x323cba0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x32f45a8, size 0x224, virtual false, abstract: false, final false
   inline void SetMode(::HMUI::ScreenModeData* screenModeData);
 
   constexpr ::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>> const& __cordl_internal_get__curvedCanvases() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x323cdcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f47d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   ScreenModeController(ScreenModeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20829 };
 
   /// @brief Field _curvedCanvases, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>> ____curvedCanvases;

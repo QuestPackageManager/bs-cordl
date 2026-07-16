@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::InvalidBeatmapDataException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3219af8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b1528, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -40,7 +40,7 @@ public:
   InvalidBeatmapDataException(InvalidBeatmapDataException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

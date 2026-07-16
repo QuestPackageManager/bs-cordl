@@ -66,7 +66,7 @@ public:
   static ::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12924 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -121,13 +121,13 @@ public:
 
   constexpr void __cordl_internal_set_m_VolumeProfile(::UnityW<::UnityEngine::Rendering::VolumeProfile> value);
 
-  /// @brief Method .ctor, addr 0x6776164, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b4ae0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x67760e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b4a60, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
-  /// @brief Method get_volumeProfile, addr 0x67760ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_volumeProfile, addr 0x68b4a68, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_volumeProfile();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDefaultVolumeProfileSettings"
@@ -136,7 +136,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_volumeProfile, addr 0x67760f4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method set_volumeProfile, addr 0x68b4a70, size 0x70, virtual true, abstract: false, final true
   inline void set_volumeProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
 protected:
@@ -154,7 +154,7 @@ public:
   URPDefaultVolumeProfileSettings(URPDefaultVolumeProfileSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12925 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings_Version ___m_Version;

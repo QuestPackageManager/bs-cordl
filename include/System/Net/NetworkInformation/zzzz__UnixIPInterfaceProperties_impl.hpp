@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Netw
                                                                                                                               ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::UnixIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6212328;
+  constexpr static std::size_t addrs = 0x634d424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (::System::Net::NetworkInformation::UnixIPInterfaceProperties::*)()>(
     &::System::Net::NetworkInformation::UnixIPInterfaceProperties::get_UnicastAddresses)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x62167c8;
+  constexpr static std::size_t addrs = 0x63518c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>(),

@@ -28,7 +28,7 @@ public:
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Obtain();
 
-  /// @brief Method Release, addr 0x3281ef0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x333e3a8, size 0x114, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IRemoteProcedureCall* t);
 
 protected:
@@ -46,7 +46,7 @@ public:
   RpcPool(RpcPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

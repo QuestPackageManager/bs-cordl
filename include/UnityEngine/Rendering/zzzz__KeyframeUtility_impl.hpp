@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AnimationCurve*)>(&::UnityEngine::Rendering::KeyframeUtility::ResetAnimationCurve)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6686504;
+  constexpr static std::size_t addrs = 0x67c3c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Keyframe (*)(::UnityEngine::Keyframe, ::UnityEngine::Keyframe, float_t)>(
     &::UnityEngine::Rendering::KeyframeUtility::LerpSingleKeyframe)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6686518;
+  constexpr static std::size_t addrs = 0x67c3c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Keyframe (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe>, int32_t)>(
     &::UnityEngine::Rendering::KeyframeUtility::GetKeyframeAndClampEdge)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6686570;
+  constexpr static std::size_t addrs = 0x67c3c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Keyframe (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe>, int32_t, float_t, float_t)>(
     &::UnityEngine::Rendering::KeyframeUtility::FetchKeyFromIndexClampEdge)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6686660;
+  constexpr static std::size_t addrs = 0x67c3d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<float_t>, ::by_ref<float_t>, ::UnityEngine::Keyframe, ::UnityEngine::Keyframe, float_t)>(
     &::UnityEngine::Rendering::KeyframeUtility::EvalCurveSegmentAndDeriv)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x66866f0;
+  constexpr static std::size_t addrs = 0x67c3dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Keyframe (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe>, int32_t, int32_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::KeyframeUtility::EvalKeyAtTime)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66867bc;
+  constexpr static std::size_t addrs = 0x67c3ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::AnimationCurve*>, ::UnityEngine::AnimationCurve*, float_t)>(
     &::UnityEngine::Rendering::KeyframeUtility::InterpAnimationCurve)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x6686860;
+  constexpr static std::size_t addrs = 0x67c3f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::KeyframeUtility::*)()>(&::UnityEngine::Rendering::KeyframeUtility::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6686dd8;
+  constexpr static std::size_t addrs = 0x67c44e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::KeyframeUtility*>(), { ".ctor", {}, {} })));

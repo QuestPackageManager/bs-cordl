@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::StyledUITemplates::OverridableBool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e04f50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3d274, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   OverridableBool(OverridableBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

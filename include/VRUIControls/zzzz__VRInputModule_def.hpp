@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRInputModule)
-namespace GlobalNamespace {
+namespace BeatSaber::Haptics {
 class HapticFeedbackManager;
+}
+namespace BeatSaber::Haptics {
+class HapticPresetSO;
 }
 namespace GlobalNamespace {
 class IVRInputModule;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -74,7 +74,8 @@ public:
   __declspec(property(get = __cordl_internal_get__componentList, put = __cordl_internal_set__componentList)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* _componentList;
 
   /// @brief Field _hapticFeedbackManager, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>
+      _hapticFeedbackManager;
 
   /// @brief Field _mouseState, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__mouseState, put = __cordl_internal_set__mouseState)) ::VRUIControls::MouseState* _mouseState;
@@ -87,7 +88,7 @@ public:
   __declspec(property(get = getStaticF__raycastComparer, put = setStaticF__raycastComparer)) ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* _raycastComparer;
 
   /// @brief Field _rumblePreset, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__rumblePreset, put = __cordl_internal_set__rumblePreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _rumblePreset;
+  __declspec(property(get = __cordl_internal_get__rumblePreset, put = __cordl_internal_set__rumblePreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _rumblePreset;
 
   /// @brief Field <useMouseForPressInput>k__BackingField, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__useMouseForPressInput_k__BackingField,
@@ -109,63 +110,63 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVRInputModule"
   constexpr operator ::GlobalNamespace::IVRInputModule*() noexcept;
 
-  /// @brief Method ClearSelection, addr 0x6ce214c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x5970a74, size 0x1d4, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method DeselectIfSelectionChanged, addr 0x6ce3890, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DeselectIfSelectionChanged, addr 0x59721b8, size 0xfc, virtual false, abstract: false, final false
   inline void DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent);
 
-  /// @brief Method GetLastPointerEventData, addr 0x6ce2724, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLastPointerEventData, addr 0x597104c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int32_t id);
 
-  /// @brief Method GetMousePointerEventData, addr 0x6ce242c, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method GetMousePointerEventData, addr 0x5970d54, size 0x2f8, virtual true, abstract: false, final false
   inline ::VRUIControls::MouseState* GetMousePointerEventData(int32_t id);
 
-  /// @brief Method GetPointerData, addr 0x6ce2320, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetPointerData, addr 0x5970c48, size 0x10c, virtual false, abstract: false, final false
   inline bool GetPointerData(int32_t id, ::by_ref<::UnityEngine::EventSystems::PointerEventData*> data, bool create);
 
-  /// @brief Method HandlePointerExitAndEnter, addr 0x6ce28cc, size 0x998, virtual false, abstract: false, final false
+  /// @brief Method HandlePointerExitAndEnter, addr 0x59711f4, size 0x998, virtual false, abstract: false, final false
   inline void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
 
-  /// @brief Method IsPointerOverGameObject, addr 0x6ce3574, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x5971e9c, size 0xa4, virtual true, abstract: false, final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
   static inline ::VRUIControls::VRInputModule* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6ce2128, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5970a50, size 0x24, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Process, addr 0x6ce398c, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x59722b4, size 0x234, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method ProcessDrag, addr 0x6ce3264, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method ProcessDrag, addr 0x5971b8c, size 0x310, virtual true, abstract: false, final false
   inline void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method ProcessMousePress, addr 0x6ce3bb4, size 0x7c0, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x59724e8, size 0x7c0, virtual false, abstract: false, final false
   inline void ProcessMousePress(::VRUIControls::MouseButtonEventData* data);
 
-  /// @brief Method ProcessMove, addr 0x6ce2770, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ProcessMove, addr 0x5971098, size 0x15c, virtual true, abstract: false, final false
   inline void ProcessMove(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method RaycastComparer, addr 0x6ce457c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method RaycastComparer, addr 0x5972e04, size 0x450, virtual false, abstract: false, final false
   static inline int32_t RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
 
-  /// @brief Method SendUpdateEventToSelectedObject, addr 0x6ce4420, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SendUpdateEventToSelectedObject, addr 0x5972ca8, size 0x15c, virtual false, abstract: false, final false
   inline bool SendUpdateEventToSelectedObject();
 
-  /// @brief Method ShouldStartDrag, addr 0x6ce2740, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShouldStartDrag, addr 0x5971068, size 0x30, virtual false, abstract: false, final false
   inline bool ShouldStartDrag(::UnityEngine::Vector2 pressPos, ::UnityEngine::Vector2 currentPos, float_t threshold, bool useDragThreshold);
 
-  /// @brief Method ToString, addr 0x6ce3618, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5971f40, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* const& __cordl_internal_get__componentList() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*& __cordl_internal_get__componentList();
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
   constexpr ::VRUIControls::MouseState* const& __cordl_internal_get__mouseState() const;
 
@@ -175,9 +176,9 @@ public:
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get__pointerData();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__rumblePreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__rumblePreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__rumblePreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__rumblePreset();
 
   constexpr bool const& __cordl_internal_get__useMouseForPressInput_k__BackingField() const;
 
@@ -197,13 +198,13 @@ public:
 
   constexpr void __cordl_internal_set__componentList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* value);
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value);
 
   constexpr void __cordl_internal_set__mouseState(::VRUIControls::MouseState* value);
 
   constexpr void __cordl_internal_set__pointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  constexpr void __cordl_internal_set__rumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__rumblePreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
   constexpr void __cordl_internal_set__useMouseForPressInput_k__BackingField(bool value);
 
@@ -213,32 +214,32 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x6ce49cc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5973254, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onProcessMousePressEvent, addr 0x6ce1e28, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onProcessMousePressEvent, addr 0x5970750, size 0xc0, virtual true, abstract: false, final true
   inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_pointerDidClickEvent, addr 0x6ce1fa8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_pointerDidClickEvent, addr 0x59708d0, size 0xc0, virtual true, abstract: false, final true
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   static inline ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* getStaticF__raycastComparer();
 
-  /// @brief Method get_useMouseForPressInput, addr 0x6ce1e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMouseForPressInput, addr 0x5970740, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMouseForPressInput();
 
   /// @brief Convert to "::GlobalNamespace::IVRInputModule"
   constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
-  /// @brief Method remove_onProcessMousePressEvent, addr 0x6ce1ee8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onProcessMousePressEvent, addr 0x5970810, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_pointerDidClickEvent, addr 0x6ce2068, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_pointerDidClickEvent, addr 0x5970990, size 0xc0, virtual true, abstract: false, final true
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   static inline void setStaticF__raycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  /// @brief Method set_useMouseForPressInput, addr 0x6ce1e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useMouseForPressInput, addr 0x5970748, size 0x8, virtual false, abstract: false, final false
   inline void set_useMouseForPressInput(bool value);
 
 protected:
@@ -256,7 +257,7 @@ public:
   VRInputModule(VRInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7002 };
 
   /// @brief Field kMinPressValue offset 0xffffffff size 0x4
   static constexpr float_t kMinPressValue{ static_cast<float_t>(0.9f) };
@@ -268,10 +269,10 @@ public:
   ::UnityW<::VRUIControls::VRPointer> ____vrPointer;
 
   /// @brief Field _rumblePreset, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____rumblePreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____rumblePreset;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+  ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field <useMouseForPressInput>k__BackingField, offset: 0x70, size: 0x1, def value: None
   bool ____useMouseForPressInput_k__BackingField;

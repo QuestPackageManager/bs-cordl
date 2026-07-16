@@ -44,22 +44,22 @@ public:
   /// @brief Convert operator to "::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender"
   constexpr operator ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender*() noexcept;
 
-  /// @brief Method GetBuilderForBeatmapAttempt, addr 0x31cff6c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method GetBuilderForBeatmapAttempt, addr 0x3263d4c, size 0x434, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* GetBuilderForBeatmapAttempt(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData* eventData);
 
-  /// @brief Method NewEventsBuilder, addr 0x31cf978, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method NewEventsBuilder, addr 0x3263758, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* NewEventsBuilder();
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::BeatmapAttempt* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager,
                                                                                          ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
-  /// @brief Method SendAbortedLevel, addr 0x31d03a0, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method SendAbortedLevel, addr 0x3264180, size 0x178, virtual true, abstract: false, final true
   inline void SendAbortedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
-  /// @brief Method SendFinishedLevel, addr 0x31cfe10, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method SendFinishedLevel, addr 0x3263bf0, size 0x15c, virtual true, abstract: false, final true
   inline void SendFinishedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData* eventData);
 
-  /// @brief Method SendStartedLevel, addr 0x31cf994, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method SendStartedLevel, addr 0x3263774, size 0x308, virtual true, abstract: false, final true
   inline void SendStartedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* const& __cordl_internal_get__eventsBuilderFactory() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__eventsBuilderFactory(::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* value);
 
-  /// @brief Method .ctor, addr 0x31cf704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32634e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender"
@@ -89,7 +89,7 @@ public:
   BeatmapAttempt(BeatmapAttempt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22247 };
 
   /// @brief Field _eventsBuilderFactory, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* ____eventsBuilderFactory;

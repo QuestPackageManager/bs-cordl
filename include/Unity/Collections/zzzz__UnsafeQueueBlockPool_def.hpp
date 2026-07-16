@@ -33,18 +33,18 @@ public:
   /// @brief Field Data, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::Unity::Burst::SharedStatic_1<::System::IntPtr> Data;
 
-  /// @brief Method AppDomainOnDomainUnload, addr 0x6386f7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppDomainOnDomainUnload, addr 0x64c3b9c, size 0x94, virtual false, abstract: false, final false
   static inline void AppDomainOnDomainUnload();
 
-  /// @brief Method GetQueueBlockPool, addr 0x6386e50, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetQueueBlockPool, addr 0x64c3a70, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::UnsafeQueueBlockPoolData* GetQueueBlockPool();
 
   static inline ::Unity::Collections::UnsafeQueueBlockPool* New_ctor();
 
-  /// @brief Method OnDomainUnload, addr 0x6387010, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDomainUnload, addr 0x64c3c30, size 0xf0, virtual false, abstract: false, final false
   static inline void OnDomainUnload(::System::Object* sender, ::System::EventArgs* e);
 
-  /// @brief Method .ctor, addr 0x6387100, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c3d20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> getStaticF_Data();
@@ -66,7 +66,7 @@ public:
   UnsafeQueueBlockPool(UnsafeQueueBlockPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15701 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

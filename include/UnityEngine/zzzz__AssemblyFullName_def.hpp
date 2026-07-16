@@ -25,13 +25,13 @@ namespace UnityEngine {
 struct CORDL_TYPE AssemblyFullName {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x69867f0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ad9b90, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x69868a0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ad9c40, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6986930, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ad9cd0, size 0x1a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr AssemblyFullName(::StringW Name, ::UnityEngine::AssemblyVersion Version, ::StringW PublicKeyToken, ::StringW Culture) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10304 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Math::Raw {
 class CORDL_TYPE Nat384 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mul, addr 0x34a616c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x3562624, size 0x170, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y, ::ArrayW<uint32_t> zz);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat384* New_ctor();
 
-  /// @brief Method Square, addr 0x34a62dc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x3562794, size 0x11c, virtual false, abstract: false, final false
   static inline void Square(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> zz);
 
-  /// @brief Method .ctor, addr 0x34a63f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35628b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

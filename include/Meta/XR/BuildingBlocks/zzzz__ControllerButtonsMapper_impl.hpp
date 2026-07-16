@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction::OnCallbackWithContext)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58f8848;
+  constexpr static std::size_t addrs = 0x5a31f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* (
     ::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::get_ButtonClickActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58f8074;
+  constexpr static std::size_t addrs = 0x5a31778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)(
     ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>*)>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::set_ButtonClickActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58f807c;
+  constexpr static std::size_t addrs = 0x5a31780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::OnEnable)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x58f8084;
+  constexpr static std::size_t addrs = 0x5a31788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>(), { "OnEnable", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::OnDisable)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x58f82dc;
+  constexpr static std::size_t addrs = 0x5a319e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>(), { "OnDisable", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::Update)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x58f8534;
+  constexpr static std::size_t addrs = 0x5a31c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>(), { "Update", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction)>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::IsActionTriggered)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x58f866c;
+  constexpr static std::size_t addrs = 0x5a31d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode, ::GlobalNamespace::OVRInput_Button)>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::IsLegacyInputActionTriggered)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x58f86b8;
+  constexpr static std::size_t addrs = 0x5a31dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction)>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::IsNewInputSystemActionTriggered)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58f87b0;
+  constexpr static std::size_t addrs = 0x5a31eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f8844;
+  constexpr static std::size_t addrs = 0x5a31f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>(), { ".ctor", {}, {} })));

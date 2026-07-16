@@ -58,15 +58,15 @@ public:
   /// @brief Field _settingsManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method Activate, addr 0x57a73e4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x5a16cf8, size 0x178, virtual false, abstract: false, final false
   inline void Activate(::HMUI::ButtonBinder* buttonBinder, bool firstActivation);
 
   static inline ::GlobalNamespace::PrivacyPolicyView* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x57b6564, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5a1f284, size 0x5c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool focus);
 
-  /// @brief Method OpenLink, addr 0x57b64f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OpenLink, addr 0x5a1f214, size 0x70, virtual false, abstract: false, final false
   inline void OpenLink();
 
   constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__koreanLocalizedTextAsset() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x57b65c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1f2e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   PrivacyPolicyView(PrivacyPolicyView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6468 };
 
   /// @brief Field kPrivacyPolicyURL offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyURL{ u"https://www.meta.com/legal/privacy-policy/" };

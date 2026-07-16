@@ -56,36 +56,36 @@ public:
   /// @brief Method CastWidget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T CastWidget();
 
-  /// @brief Method GetWidget, addr 0x66c6b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetWidget, addr 0x6804290, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Widget* GetWidget();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* New_ctor();
 
-  /// @brief Method Next, addr 0x66bbfb0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x67f96bc, size 0x108, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnAction, addr 0x66c6b98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x68042a4, size 0x4, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDecrement, addr 0x66c6ba0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x68042ac, size 0x4, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x66c6b94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x68042a0, size 0x4, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnEnable, addr 0x66c6b78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6804284, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnIncrement, addr 0x66c6b9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x68042a8, size 0x4, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x66c6b8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6804298, size 0x8, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method Previous, addr 0x66c6ba4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Previous, addr 0x68042b0, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Previous();
 
-  /// @brief Method SetWidget, addr 0x66c6b7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6804288, size 0x8, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> const& __cordl_internal_get__nextUIHandler_k__BackingField() const;
@@ -124,25 +124,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Widget(::UnityEngine::Rendering::DebugUI_Widget* value);
 
-  /// @brief Method .ctor, addr 0x66bc16c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f9878, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_nextUIHandler, addr 0x66c6b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextUIHandler, addr 0x6804274, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_nextUIHandler();
 
-  /// @brief Method get_parentUIHandler, addr 0x66c6b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentUIHandler, addr 0x6804254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_parentUIHandler();
 
-  /// @brief Method get_previousUIHandler, addr 0x66c6b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousUIHandler, addr 0x6804264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_previousUIHandler();
 
-  /// @brief Method set_nextUIHandler, addr 0x66c6b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextUIHandler, addr 0x680427c, size 0x8, virtual false, abstract: false, final false
   inline void set_nextUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
-  /// @brief Method set_parentUIHandler, addr 0x66c6b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentUIHandler, addr 0x680425c, size 0x8, virtual false, abstract: false, final false
   inline void set_parentUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
-  /// @brief Method set_previousUIHandler, addr 0x66c6b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousUIHandler, addr 0x680426c, size 0x8, virtual false, abstract: false, final false
   inline void set_previousUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
 protected:
@@ -160,7 +160,7 @@ public:
   DebugUIHandlerWidget(DebugUIHandlerWidget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12520 };
 
   /// @brief Field colorDefault, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ___colorDefault;

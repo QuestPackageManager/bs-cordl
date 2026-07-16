@@ -161,64 +161,64 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x600c094, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6147190, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method get_ConflictingMember, addr 0x600c660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConflictingMember, addr 0x614775c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataMember* get_ConflictingMember();
 
-  /// @brief Method get_EmitDefaultValue, addr 0x600c620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x614771c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_HasConflictingNameAndType, addr 0x600c650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasConflictingNameAndType, addr 0x614774c, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasConflictingNameAndType();
 
-  /// @brief Method get_IsGetOnlyCollection, addr 0x600c640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsGetOnlyCollection, addr 0x614773c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsGetOnlyCollection();
 
-  /// @brief Method get_IsNullable, addr 0x600c630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x614772c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsRequired, addr 0x600c610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x614770c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_MemberInfo, addr 0x600c5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x61476e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method get_MemberType, addr 0x600c200, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x61472fc, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_MemberTypeContract, addr 0x600c2ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_MemberTypeContract, addr 0x61473e8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_MemberTypeContract();
 
-  /// @brief Method get_Name, addr 0x600c5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x61476ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x600c600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x61476fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method set_ConflictingMember, addr 0x600c668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConflictingMember, addr 0x6147764, size 0x8, virtual false, abstract: false, final false
   inline void set_ConflictingMember(::System::Runtime::Serialization::DataMember* value);
 
-  /// @brief Method set_EmitDefaultValue, addr 0x600c628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EmitDefaultValue, addr 0x6147724, size 0x8, virtual false, abstract: false, final false
   inline void set_EmitDefaultValue(bool value);
 
-  /// @brief Method set_HasConflictingNameAndType, addr 0x600c658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HasConflictingNameAndType, addr 0x6147754, size 0x8, virtual false, abstract: false, final false
   inline void set_HasConflictingNameAndType(bool value);
 
-  /// @brief Method set_IsGetOnlyCollection, addr 0x600c648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsGetOnlyCollection, addr 0x6147744, size 0x8, virtual false, abstract: false, final false
   inline void set_IsGetOnlyCollection(bool value);
 
-  /// @brief Method set_IsNullable, addr 0x600c638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x6147734, size 0x8, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
-  /// @brief Method set_IsRequired, addr 0x600c618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsRequired, addr 0x6147714, size 0x8, virtual false, abstract: false, final false
   inline void set_IsRequired(bool value);
 
-  /// @brief Method set_Name, addr 0x600c5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x61476f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Order, addr 0x600c608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x6147704, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
 protected:
@@ -236,7 +236,7 @@ public:
   DataMember_CriticalHelper(DataMember_CriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16994 };
 
   /// @brief Field memberTypeContract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::DataContract* ___memberTypeContract;
@@ -328,10 +328,10 @@ public:
   /// @brief Field helper, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::DataMember_CriticalHelper* helper;
 
-  /// @brief Method Equals, addr 0x600c400, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x61474fc, size 0x1d4, virtual false, abstract: false, final false
   inline bool Equals(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method GetHashCode, addr 0x600c5d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x61476d0, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::DataMember* New_ctor(::System::Reflection::MemberInfo* memberInfo);
@@ -342,64 +342,64 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::DataMember_CriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x600c02c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6147128, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method get_ConflictingMember, addr 0x600c3d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ConflictingMember, addr 0x61474cc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataMember* get_ConflictingMember();
 
-  /// @brief Method get_EmitDefaultValue, addr 0x600c150, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x614724c, size 0x18, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_HasConflictingNameAndType, addr 0x600c39c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_HasConflictingNameAndType, addr 0x6147498, size 0x18, virtual false, abstract: false, final false
   inline bool get_HasConflictingNameAndType();
 
-  /// @brief Method get_IsGetOnlyCollection, addr 0x600c1b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsGetOnlyCollection, addr 0x61472b4, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsGetOnlyCollection();
 
-  /// @brief Method get_IsNullable, addr 0x600c184, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x6147280, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsRequired, addr 0x600c11c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x6147218, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_MemberInfo, addr 0x600c0a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x61471a0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method get_MemberType, addr 0x600c1ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x61472e8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_MemberTypeContract, addr 0x600c2d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_MemberTypeContract, addr 0x61473d4, size 0x14, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_MemberTypeContract();
 
-  /// @brief Method get_Name, addr 0x600c0bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x61471b8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x600c0ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x61471e8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method set_ConflictingMember, addr 0x600c3e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_ConflictingMember, addr 0x61474e4, size 0x18, virtual false, abstract: false, final false
   inline void set_ConflictingMember(::System::Runtime::Serialization::DataMember* value);
 
-  /// @brief Method set_EmitDefaultValue, addr 0x600c168, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_EmitDefaultValue, addr 0x6147264, size 0x1c, virtual false, abstract: false, final false
   inline void set_EmitDefaultValue(bool value);
 
-  /// @brief Method set_HasConflictingNameAndType, addr 0x600c3b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_HasConflictingNameAndType, addr 0x61474b0, size 0x1c, virtual false, abstract: false, final false
   inline void set_HasConflictingNameAndType(bool value);
 
-  /// @brief Method set_IsGetOnlyCollection, addr 0x600c1d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsGetOnlyCollection, addr 0x61472cc, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsGetOnlyCollection(bool value);
 
-  /// @brief Method set_IsNullable, addr 0x600c19c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x6147298, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
-  /// @brief Method set_IsRequired, addr 0x600c134, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsRequired, addr 0x6147230, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsRequired(bool value);
 
-  /// @brief Method set_Name, addr 0x600c0d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x61471d0, size 0x18, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Order, addr 0x600c104, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x6147200, size 0x18, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
 protected:
@@ -417,7 +417,7 @@ public:
   DataMember(DataMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16995 };
 
   /// @brief Field helper, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::DataMember_CriticalHelper* ___helper;

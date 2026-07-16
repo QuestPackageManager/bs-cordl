@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x685dcc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699c7ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x685de2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699c910, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x685de84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699c968, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x685de58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699c93c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method get_name, addr 0x685de18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x699c8fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x685de20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x699c904, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   TMP_SpriteCharacter(TMP_SpriteCharacter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15951 };
 
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;

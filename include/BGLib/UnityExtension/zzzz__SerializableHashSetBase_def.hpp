@@ -47,7 +47,7 @@ public:
   // Declarations
   static inline ::BGLib::UnityExtension::SerializableHashSetBase_Storage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x326c1d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328688, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   SerializableHashSetBase_Storage(SerializableHashSetBase_Storage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,7 +113,7 @@ public:
   SerializableHashSetBase_HashSet_1(SerializableHashSetBase_HashSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +132,7 @@ public:
 
   static inline ::BGLib::UnityExtension::SerializableHashSetBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x326c1cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328684, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   SerializableHashSetBase(SerializableHashSetBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

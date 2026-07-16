@@ -74,36 +74,36 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x57fc7b8, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x591e53c, size 0x284, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x57fc700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x591e484, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleDidSelectCellWithIdx, addr 0x57fcbec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCellWithIdx, addr 0x591e890, size 0x14c, virtual false, abstract: false, final false
   inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  /// @brief Method Init, addr 0x57fc46c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x591e1f0, size 0x38, virtual false, abstract: false, final false
   inline void Init(::HMUI::TableView_IDataSource* initTableViewDataSource);
 
-  /// @brief Method LazyInit, addr 0x57fc318, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x591e09c, size 0xc4, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::ColorSchemeDropdown* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x57fc708, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x591e48c, size 0xb0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x57fc3dc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x591e160, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshUI, addr 0x57fc60c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x591e390, size 0xf4, virtual false, abstract: false, final false
   inline void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method SelectCellWithIdx, addr 0x57fcb1c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x591e7c0, size 0xd0, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method SetData, addr 0x57fc4a4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x591e228, size 0x168, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
   constexpr ::UnityW<::GlobalNamespace::ColorSchemeTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x57fcd38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591e9dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
@@ -169,7 +169,7 @@ public:
   ColorSchemeDropdown(ColorSchemeDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6786 };
 
   /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_renderGraphPool(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* value);
 
-  /// @brief Method .ctor, addr 0x6698db4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d64c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   InternalRenderGraphContext(InternalRenderGraphContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12382 };
 
   /// @brief Field renderContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ScriptableRenderContext ___renderContext;

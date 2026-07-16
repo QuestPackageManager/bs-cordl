@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::get_length)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66e0658;
+  constexpr static std::size_t addrs = 0x681dd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceAllocator>(), { "get_length", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)(int32_t)>(&::UnityEngine::Rendering::InstanceAllocator::set_length)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66e0664;
+  constexpr static std::size_t addrs = 0x681dd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::get_valid)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66e0670;
+  constexpr static std::size_t addrs = 0x681dd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceAllocator>(), { "get_valid", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::InstanceAllocator::Initialize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x66e06bc;
+  constexpr static std::size_t addrs = 0x681ddc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66e0774;
+  constexpr static std::size_t addrs = 0x681de80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceAllocator>(), { "Dispose", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::AllocateInstance)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x66e07e4;
+  constexpr static std::size_t addrs = 0x681def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceAllocator>(), { "AllocateInstance", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)(int32_t)>(&::UnityEngine::Rendering::InstanceAllocator::FreeInstance)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66e092c;
+  constexpr static std::size_t addrs = 0x681e038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::GetNumAllocated)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66e098c;
+  constexpr static std::size_t addrs = 0x681e098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceAllocator>(), { "GetNumAllocated", {}, {} })));

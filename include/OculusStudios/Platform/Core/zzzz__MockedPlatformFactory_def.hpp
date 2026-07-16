@@ -16,7 +16,7 @@ namespace OculusStudios::Platform::Core {
 class IPlatform;
 }
 namespace OculusStudios::Platform::Core {
-struct MockedPlatformFactory__CreateAsync_d__0;
+struct MockedPlatformFactory__CreateAsync_d__1;
 }
 namespace OculusStudios::Platform::Core {
 class MockedPlatform;
@@ -35,27 +35,27 @@ namespace OculusStudios::Platform::Core {
 class MockedPlatformFactory;
 }
 namespace OculusStudios::Platform::Core {
-struct MockedPlatformFactory__CreateAsync_d__0;
+struct MockedPlatformFactory__CreateAsync_d__1;
 }
 // Write type traits
 MARK_REF_T(::OculusStudios::Platform::Core::MockedPlatformFactory*);
-MARK_VAL_T(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0);
+MARK_VAL_T(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedPlatformFactory*, "OculusStudios.Platform.Core", "MockedPlatformFactory");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0, "OculusStudios.Platform.Core", "MockedPlatformFactory/<CreateAsync>d__0");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, "OculusStudios.Platform.Core", "MockedPlatformFactory/<CreateAsync>d__1");
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::Platform::Core {
 // Is value type: true
-// CS Name: OculusStudios.Platform.Core.MockedPlatformFactory/<CreateAsync>d__0
-struct CORDL_TYPE MockedPlatformFactory__CreateAsync_d__0 {
+// CS Name: OculusStudios.Platform.Core.MockedPlatformFactory/<CreateAsync>d__1
+struct CORDL_TYPE MockedPlatformFactory__CreateAsync_d__1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5df61d8, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f2e488, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5df6488, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f2e738, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -63,18 +63,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MockedPlatformFactory__CreateAsync_d__0();
+  constexpr MockedPlatformFactory__CreateAsync_d__1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }, CppParam { name: "initParams", ty:
   // "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None }, CppParam { name: "_result_5__2", ty: "::OculusStudios::Platform::Core::MockedPlatform*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr MockedPlatformFactory__CreateAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*> __t__builder,
+  constexpr MockedPlatformFactory__CreateAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*> __t__builder,
                                                     ::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::OculusStudios::Platform::Core::MockedPlatform* _result_5__2,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22422 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -97,17 +97,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0, initParams) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, initParams) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0, _result_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, _result_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0) == 0x38, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1) == 0x38, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Core
 // Dependencies System.Object
@@ -117,21 +117,21 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE MockedPlatformFactory : public ::System::Object {
 public:
   // Declarations
-  using _CreateAsync_d__0 = ::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__0;
+  using _CreateAsync_d__1 = ::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1;
 
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformFactory"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformFactory*() noexcept;
 
-  /// @brief Method CreateAsync, addr 0x5df60ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateAsync, addr 0x5f2e3a4, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>* CreateAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   static inline ::OculusStudios::Platform::Core::MockedPlatformFactory* New_ctor();
 
-  /// @brief Method OculusStudios.Platform.Core.IPlatformFactory.CreateAsync, addr 0x5df61cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.Platform.Core.IPlatformFactory.CreateAsync, addr 0x5f2e39c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>*
   OculusStudios_Platform_Core_IPlatformFactory_CreateAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method .ctor, addr 0x5df61d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformFactory"
@@ -152,7 +152,7 @@ public:
   MockedPlatformFactory(MockedPlatformFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

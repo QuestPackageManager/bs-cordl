@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::BeatmapEditorStartTestLevelData value);
 
-  /// @brief Method .ctor, addr 0x57ed384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590b2d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
 protected:
@@ -52,7 +52,7 @@ public:
   BeatmapEditorGameplaySceneSetupData(BeatmapEditorGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6694 };
 
   /// @brief Field data, offset: 0x10, size: 0x58, def value: None
   ::GlobalNamespace::BeatmapEditorStartTestLevelData ___data;

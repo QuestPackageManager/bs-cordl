@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRNodeStateProperties::IsHmdPresent)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5ce0648;
+  constexpr static std::size_t addrs = 0x5e18870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRNodeStateProperties*>(), { "IsHmdPresent", {}, {} })));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::UnityEngine::XR::XRNode, ::GlobalNamespace::NodeStatePropertyType, ::GlobalNamespace::OVRPlugin_Node, ::GlobalNamespace::OVRPlugin_Step, ::by_ref<::UnityEngine::Vector3>)>(
         &::GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x5cd6260;
+  constexpr static std::size_t addrs = 0x5e0e488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRNodeStateProperties*>(),
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::X
                                                                 ::GlobalNamespace::OVRPlugin_Step, ::by_ref<::UnityEngine::Quaternion>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5cd65d8;
+  constexpr static std::size_t addrs = 0x5e0e800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRNodeStateProperties*>(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::XR::XRNodeState>)>(&::GlobalNamespace::OVRNodeStateProperties::ValidateProperty)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5ce377c;
+  constexpr static std::size_t addrs = 0x5e1b9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::XRNode, ::GlobalNamespace::NodeStatePropertyType, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5ce34dc;
+  constexpr static std::size_t addrs = 0x5e1b704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::XRNode, ::GlobalNamespace::NodeStatePropertyType, ::by_ref<::UnityEngine::Quaternion>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5ce3674;
+  constexpr static std::size_t addrs = 0x5e1b89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

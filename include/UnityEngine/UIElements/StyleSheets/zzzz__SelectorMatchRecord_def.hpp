@@ -26,10 +26,10 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x6bbf9a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x6d13860, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method .ctor, addr 0x6bbf994, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1384c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
   // Ctor Parameters []

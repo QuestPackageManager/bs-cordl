@@ -30,7 +30,7 @@ public:
   /// @brief Field nameTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CreateDocument, addr 0x6182064, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateDocument, addr 0x62bd160, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDocument* CreateDocument();
 
   static inline ::System::Xml::XmlImplementation* New_ctor();
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x617ae34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b5f30, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x617b2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b63b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt);
 
-  /// @brief Method get_NameTable, addr 0x61820c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x62bd1bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
@@ -67,7 +67,7 @@ public:
   XmlImplementation(XmlImplementation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9363 };
 
   /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ___nameTable;

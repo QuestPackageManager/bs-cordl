@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_TailoringIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5975b18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aae484, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
 protected:

@@ -22,31 +22,31 @@ namespace System::Numerics {
 class CORDL_TYPE NumericsHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Abs, addr 0x5fb31f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x60ee2f4, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Abs(int32_t a);
 
-  /// @brief Method CbitHighZero, addr 0x5fb402c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CbitHighZero, addr 0x60ef128, size 0x78, virtual false, abstract: false, final false
   static inline int32_t CbitHighZero(uint32_t u);
 
-  /// @brief Method CbitHighZero, addr 0x5fb8948, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CbitHighZero, addr 0x60f3a44, size 0x24, virtual false, abstract: false, final false
   static inline int32_t CbitHighZero(uint64_t uu);
 
-  /// @brief Method CombineHash, addr 0x5fb2298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x60ed394, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t n1, int32_t n2);
 
-  /// @brief Method CombineHash, addr 0x5fb896c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x60f3a68, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t CombineHash(uint32_t u1, uint32_t u2);
 
-  /// @brief Method DangerousMakeTwosComplement, addr 0x5fb1dd4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DangerousMakeTwosComplement, addr 0x60eced0, size 0xa0, virtual false, abstract: false, final false
   static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t> d);
 
-  /// @brief Method GetDoubleFromParts, addr 0x5fb40a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleFromParts, addr 0x60ef1a0, size 0xa8, virtual false, abstract: false, final false
   static inline double_t GetDoubleFromParts(int32_t sign, int32_t exp, uint64_t man);
 
-  /// @brief Method GetDoubleParts, addr 0x5fb154c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleParts, addr 0x60ec648, size 0x7c, virtual false, abstract: false, final false
   static inline void GetDoubleParts(double_t dbl, ::by_ref<int32_t> sign, ::by_ref<int32_t> exp, ::by_ref<uint64_t> man, ::by_ref<bool> fFinite);
 
-  /// @brief Method MakeUlong, addr 0x5fb247c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MakeUlong, addr 0x60ed578, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t MakeUlong(uint32_t uHi, uint32_t uLo);
 
 protected:
@@ -64,7 +64,7 @@ public:
   NumericsHelpers(NumericsHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -115,39 +115,39 @@ public:
   /// @brief Field _tweeningManager, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method DetailsToggleValueChanged, addr 0x587771c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DetailsToggleValueChanged, addr 0x59ac0f0, size 0x1c, virtual false, abstract: false, final false
   inline void DetailsToggleValueChanged(bool isOn);
 
-  /// @brief Method DisconnectButtonPressed, addr 0x58776e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectButtonPressed, addr 0x59ac0bc, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x5877738, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x59ac10c, size 0xd4, virtual false, abstract: false, final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HandleStateChanged, addr 0x587780c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59ac1e0, size 0x274, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5877588, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59abf5c, size 0x160, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5877304, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59abcec, size 0xe8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5877144, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59abb2c, size 0x1c0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x58773ec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59abdd4, size 0x188, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x5877b10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x59ac4e4, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__22_0();
 
-  /// @brief Method <HandleStateChanged>b__23_0, addr 0x5877b2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <HandleStateChanged>b__23_0, addr 0x59ac500, size 0x18, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_0(float_t val);
 
-  /// @brief Method <HandleStateChanged>b__23_1, addr 0x5877b44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <HandleStateChanged>b__23_1, addr 0x59ac518, size 0x24, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_1();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -246,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5877a80, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ac454, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -264,7 +264,7 @@ public:
   MultiplayerLocalInactivePlayerInGameMenuViewController(MultiplayerLocalInactivePlayerInGameMenuViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6001 };
 
   /// @brief Field _disconnectButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____disconnectButton;

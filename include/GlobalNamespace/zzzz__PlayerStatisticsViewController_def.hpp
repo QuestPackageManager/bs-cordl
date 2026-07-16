@@ -54,19 +54,19 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method .ctor, addr 0x57a5ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5964070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* playerOverallStatsDataFunc);
 
-  /// @brief Method get_playerOverallStatsDataFunc, addr 0x57a650c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerOverallStatsDataFunc, addr 0x59646d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
 
-  /// @brief Method get_text, addr 0x57a64fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x59646c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_playerOverallStatsDataFunc, addr 0x57a6514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerOverallStatsDataFunc, addr 0x59646dc, size 0x8, virtual false, abstract: false, final false
   inline void set_playerOverallStatsDataFunc(::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* value);
 
-  /// @brief Method set_text, addr 0x57a6504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x59646cc, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
   // Ctor Parameters []
@@ -79,7 +79,7 @@ public:
                                                           ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6962 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -150,34 +150,34 @@ public:
   /// @brief Field _totalScoreText, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__totalScoreText, put = __cordl_internal_set__totalScoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _totalScoreText;
 
-  /// @brief Method DidActivate, addr 0x57a58d0, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5963a98, size 0x5d8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x57a631c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x59644e4, size 0xb0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell, addr 0x57a63cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell, addr 0x5964594, size 0x50, virtual false, abstract: false, final false
   inline void HandleStatsScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::PlayerStatisticsViewController* New_ctor();
 
-  /// @brief Method UpdateView, addr 0x57a5eb0, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method UpdateView, addr 0x5964078, size 0x46c, virtual false, abstract: false, final false
   inline void UpdateView(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* playerOverallStatsData);
 
-  /// @brief Method <DidActivate>b__14_0, addr 0x57a64d0, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_0();
+  /// @brief Method <DidActivate>b__19_0, addr 0x5964698, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_0();
 
-  /// @brief Method <DidActivate>b__14_1, addr 0x57a6420, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_1();
+  /// @brief Method <DidActivate>b__19_1, addr 0x59645e8, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_1();
 
-  /// @brief Method <DidActivate>b__14_2, addr 0x57a644c, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_2();
+  /// @brief Method <DidActivate>b__19_2, addr 0x5964614, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_2();
 
-  /// @brief Method <DidActivate>b__14_3, addr 0x57a6478, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_3();
+  /// @brief Method <DidActivate>b__19_3, addr 0x5964640, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_3();
 
-  /// @brief Method <DidActivate>b__14_4, addr 0x57a64a4, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_4();
+  /// @brief Method <DidActivate>b__19_4, addr 0x596466c, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_4();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__badCutsCountCountText() const;
 
@@ -257,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x57a641c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59645e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -275,7 +275,22 @@ public:
   PlayerStatisticsViewController(PlayerStatisticsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6963 };
+
+  /// @brief Field kButtonMultiplayerLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kButtonMultiplayerLocalizationKey{ u"BUTTON_MULTIPLAYER" };
+
+  /// @brief Field kStatsAllLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kStatsAllLocalizationKey{ u"STATS_ALL" };
+
+  /// @brief Field kTitleCampaignLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kTitleCampaignLocalizationKey{ u"TITLE_CAMPAIGN" };
+
+  /// @brief Field kTitlePartyLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kTitlePartyLocalizationKey{ u"TITLE_PARTY" };
+
+  /// @brief Field kTitleSoloLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kTitleSoloLocalizationKey{ u"TITLE_SOLO" };
 
   /// @brief Field _statsScopeSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____statsScopeSegmentedControl;

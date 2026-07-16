@@ -39,14 +39,14 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE ProductDefinition : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _children, offset 0x20, size 0x8
+  /// @brief Field _children, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__children,
                       put = __cordl_internal_set__children)) ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* _children;
 
-  /// @brief Field _id, offset 0x10, size 0x8
+  /// @brief Field _id, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::StringW _id;
 
-  /// @brief Field _idForVendor, offset 0x18, size 0x8
+  /// @brief Field _idForVendor, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__idForVendor,
                       put = __cordl_internal_set__idForVendor)) ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* _idForVendor;
 
@@ -92,20 +92,20 @@ public:
 
   constexpr void __cordl_internal_set__ownershipRequirement(::OculusStudios::Platform::Core::OwnershipRequirement value);
 
-  /// @brief Method .ctor, addr 0x5df3f48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c1e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* idForVendor,
                     ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* children, ::OculusStudios::Platform::Core::OwnershipRequirement ownershipRequirement);
 
-  /// @brief Method get_children, addr 0x5df3f38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_children, addr 0x5f2c200, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* get_children();
 
-  /// @brief Method get_id, addr 0x5df3f28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x5f2c1f0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
-  /// @brief Method get_idForVendor, addr 0x5df3f30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_idForVendor, addr 0x5f2c1f8, size 0x8, virtual true, abstract: false, final true
   inline ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* get_idForVendor();
 
-  /// @brief Method get_ownershipRequirement, addr 0x5df3f40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ownershipRequirement, addr 0x5f2c208, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::Platform::Core::OwnershipRequirement get_ownershipRequirement();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IProductDefinition"
@@ -126,16 +126,16 @@ public:
   ProductDefinition(ProductDefinition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22392 };
 
-  /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field _children, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* ____children;
+
+  /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;
 
-  /// @brief Field _idForVendor, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _idForVendor, offset: 0x20, size: 0x8, def value: None
   ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* ____idForVendor;
-
-  /// @brief Field _children, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* ____children;
 
   /// @brief Field _ownershipRequirement, offset: 0x28, size: 0x4, def value: None
   ::OculusStudios::Platform::Core::OwnershipRequirement ____ownershipRequirement;
@@ -143,11 +143,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____id) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____children) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____idForVendor) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____id) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____children) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____idForVendor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::OculusStudios::Platform::Core::ProductDefinition, ____ownershipRequirement) == 0x28, "Offset mismatch!");
 

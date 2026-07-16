@@ -205,7 +205,7 @@ public:
   MainLightShadowCasterPass_MainLightShadowConstantBuffer(MainLightShadowCasterPass_MainLightShadowConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -305,7 +305,7 @@ public:
 
   constexpr void __cordl_internal_set_shadowmapTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x67c39ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690247c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -323,7 +323,7 @@ public:
   MainLightShadowCasterPass_PassData(MainLightShadowCasterPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
 
   /// @brief Field emptyShadowmap, offset: 0x10, size: 0x1, def value: None
   bool ___emptyShadowmap;
@@ -393,10 +393,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c* New_ctor();
 
-  /// @brief Method <Render>b__38_0, addr 0x67c62e0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__38_0, addr 0x6904db0, size 0xd0, virtual false, abstract: false, final false
   inline void _Render_b__38_0(::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x67c62dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6904dac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c* getStaticF___9();
@@ -425,7 +425,7 @@ public:
   MainLightShadowCasterPass___c(MainLightShadowCasterPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -499,55 +499,55 @@ public:
   /// @brief Field s_EmptyShadowmapSize, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_EmptyShadowmapSize, put = setStaticF_s_EmptyShadowmapSize)) ::UnityEngine::Vector4 s_EmptyShadowmapSize;
 
-  /// @brief Method Clear, addr 0x67c4168, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6902c38, size 0x148, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Configure, addr 0x67c435c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x6902e2c, size 0x140, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Dispose, addr 0x67c3a2c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x69024fc, size 0x34, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x67c449c, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6902f6c, size 0x2d0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method InitPassData, addr 0x67c4854, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6903324, size 0x54, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*> passData,
                            ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                            ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method InitRendererLists, addr 0x67c48a8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6903378, size 0x220, virtual false, abstract: false, final false
   inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x67c5660, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6904130, size 0x94c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method RenderMainLightCascadeShadowmap, addr 0x67c4ac8, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method RenderMainLightCascadeShadowmap, addr 0x6903598, size 0x614, virtual false, abstract: false, final false
   inline void RenderMainLightCascadeShadowmap(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*> data,
                                               bool isRenderGraph);
 
-  /// @brief Method SetShadowParamsForEmptyShadowmap, addr 0x67c476c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetShadowParamsForEmptyShadowmap, addr 0x690323c, size 0xe8, virtual false, abstract: false, final false
   static inline void SetShadowParamsForEmptyShadowmap(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer);
 
-  /// @brief Method Setup, addr 0x67c3b54, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6902624, size 0x430, virtual false, abstract: false, final false
   inline bool Setup(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                     ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method Setup, addr 0x67c3a60, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6902530, size 0xf4, virtual false, abstract: false, final false
   inline bool Setup(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupForEmptyRendering, addr 0x67c3f84, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetupForEmptyRendering, addr 0x6902a54, size 0x1e4, virtual false, abstract: false, final false
   inline bool SetupForEmptyRendering(bool stripShadowsOffVariants, ::UnityEngine::Light* light, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                      ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method SetupMainLightShadowReceiverConstants, addr 0x67c50dc, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method SetupMainLightShadowReceiverConstants, addr 0x6903bac, size 0x584, virtual false, abstract: false, final false
   inline void SetupMainLightShadowReceiverConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::VisibleLight> shadowLight,
                                                     ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method UpdateTextureDescriptorIfNeeded, addr 0x67c42b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextureDescriptorIfNeeded, addr 0x6902d80, size 0xac, virtual false, abstract: false, final false
   inline void UpdateTextureDescriptorIfNeeded();
 
   constexpr float_t const& __cordl_internal_get_m_CascadeBorder() const;
@@ -640,7 +640,7 @@ public:
 
   constexpr void __cordl_internal_set_renderTargetWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67c37fc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69022cc, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
   static inline ::UnityEngine::Vector4 getStaticF_s_EmptyShadowParams();
@@ -666,7 +666,7 @@ public:
   MainLightShadowCasterPass(MainLightShadowCasterPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13081 };
 
   /// @brief Field k_EmptyMainLightShadowMapTextureName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_EmptyMainLightShadowMapTextureName{ u"_EmptyMainLightShadowmapTexture" };

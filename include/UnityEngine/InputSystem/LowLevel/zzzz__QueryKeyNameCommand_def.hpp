@@ -48,7 +48,7 @@ public:
   constexpr QueryKeyNameCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8943 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -92,10 +92,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x646b6b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x65a8484, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand Create(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method ReadKeyName, addr 0x646b68c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyName, addr 0x65a8458, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ReadKeyName();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -116,10 +116,10 @@ public:
 
   constexpr void __cordl_internal_set_scanOrKeyCode(int32_t value);
 
-  /// @brief Method get_Type, addr 0x646b680, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x65a844c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x646b6ac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65a8478, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -183,7 +183,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10c };

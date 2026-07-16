@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
@@ -11,7 +11,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLevelSelectionFlowCoordinator)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct BeatmapCharacteristic;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
@@ -47,7 +47,7 @@ class MultiplayerLevelSelectionFlowCoordinator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*, "", "MultiplayerLevelSelectionFlowCoordinator");
-// Dependencies BeatmapCharacteristicSO, BeatmapDifficultyMask, LevelSelectionFlowCoordinator, SongPackMask
+// Dependencies BeatmapCharacteristic, BeatmapDifficultyMask, LevelSelectionFlowCoordinator, SongPackMask
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLevelSelectionFlowCoordinator
@@ -69,7 +69,7 @@ public:
                       put = __cordl_internal_set__lobbyGameStateController)) ::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
 
   /// @brief Field _notAllowedCharacteristics, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__notAllowedCharacteristics, put = __cordl_internal_set__notAllowedCharacteristics)) ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>
+  __declspec(property(get = __cordl_internal_get__notAllowedCharacteristics, put = __cordl_internal_set__notAllowedCharacteristics)) ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>
       _notAllowedCharacteristics;
 
   /// @brief Field _songPackMask, offset 0x108, size 0x20
@@ -100,41 +100,41 @@ public:
 
   __declspec(property(get = get_mainTitle)) ::StringW mainTitle;
 
-  __declspec(property(get = get_notAllowedCharacteristics)) ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> notAllowedCharacteristics;
+  __declspec(property(get = get_notAllowedCharacteristics)) ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics;
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
   __declspec(property(get = get_songPackMask)) ::GlobalNamespace::SongPackMask songPackMask;
 
-  /// @brief Method ActionButtonWasPressed, addr 0x581118c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ActionButtonWasPressed, addr 0x59353b0, size 0x11c, virtual true, abstract: false, final false
   inline void ActionButtonWasPressed();
 
-  /// @brief Method BackButtonWasPressed, addr 0x58112a4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x59354cc, size 0x34, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DismissViewControllersAndFinish, addr 0x5811894, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DismissViewControllersAndFinish, addr 0x5935aa0, size 0x70, virtual false, abstract: false, final false
   inline void DismissViewControllersAndFinish();
 
-  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x581192c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x5935b10, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStarted(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method HandleLobbyGameStateControllerLobbyDisconnected, addr 0x5811930, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLobbyDisconnected, addr 0x5935b14, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLobbyDisconnected();
 
-  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x58112dc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x5935500, size 0xf0, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorTopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController,
                                                                        ::HMUI::ViewController_AnimationType animationType);
 
   static inline ::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method Setup, addr 0x5811908, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x592ced0, size 0x24, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::LevelSelectionFlowCoordinator_State* state, ::GlobalNamespace::SongPackMask songPackMask, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                     ::StringW actionText, ::StringW titleText);
 
-  /// @brief Method TransitionDidFinish, addr 0x58115c4, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidFinish, addr 0x59357d0, size 0x2d0, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method TransitionDidStart, addr 0x58113e4, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidStart, addr 0x59355f0, size 0x1e0, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
   constexpr ::StringW const& __cordl_internal_get__actionButtonText() const;
@@ -153,9 +153,9 @@ public:
 
   constexpr ::GlobalNamespace::ILobbyGameStateController*& __cordl_internal_get__lobbyGameStateController();
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& __cordl_internal_get__notAllowedCharacteristics() const;
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const& __cordl_internal_get__notAllowedCharacteristics() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& __cordl_internal_get__notAllowedCharacteristics();
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>& __cordl_internal_get__notAllowedCharacteristics();
 
   constexpr ::GlobalNamespace::SongPackMask const& __cordl_internal_get__songPackMask() const;
 
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
 
-  constexpr void __cordl_internal_set__notAllowedCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value);
+  constexpr void __cordl_internal_set__notAllowedCharacteristics(::ArrayW<::GlobalNamespace::BeatmapCharacteristic> value);
 
   constexpr void __cordl_internal_set__songPackMask(::GlobalNamespace::SongPackMask value);
 
@@ -197,46 +197,46 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>* value);
 
-  /// @brief Method .ctor, addr 0x5811934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5935b18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishedEvent, addr 0x5810fe4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishedEvent, addr 0x59299e0, size 0xac, virtual false, abstract: false, final false
   inline void add_didFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x5810e64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x5929920, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>* value);
 
-  /// @brief Method get_actionButtonText, addr 0x581114c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_actionButtonText, addr 0x5935370, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_actionButtonText();
 
-  /// @brief Method get_allowedBeatmapDifficultyMask, addr 0x5811174, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_allowedBeatmapDifficultyMask, addr 0x5935398, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
 
-  /// @brief Method get_enableCustomLevels, addr 0x581116c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_enableCustomLevels, addr 0x5935390, size 0x8, virtual true, abstract: false, final false
   inline bool get_enableCustomLevels();
 
-  /// @brief Method get_hidePacksIfOneOrNone, addr 0x5811144, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hidePacksIfOneOrNone, addr 0x5935368, size 0x8, virtual true, abstract: false, final false
   inline bool get_hidePacksIfOneOrNone();
 
-  /// @brief Method get_hidePracticeButton, addr 0x581113c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hidePracticeButton, addr 0x5935360, size 0x8, virtual true, abstract: false, final false
   inline bool get_hidePracticeButton();
 
-  /// @brief Method get_mainTitle, addr 0x5811184, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x59353a8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_notAllowedCharacteristics, addr 0x581117c, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> get_notAllowedCharacteristics();
+  /// @brief Method get_notAllowedCharacteristics, addr 0x59353a0, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> get_notAllowedCharacteristics();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x5811154, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x5935378, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
-  /// @brief Method get_songPackMask, addr 0x581115c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_songPackMask, addr 0x5935380, size 0x10, virtual true, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask get_songPackMask();
 
-  /// @brief Method remove_didFinishedEvent, addr 0x5811090, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishedEvent, addr 0x592b3a4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x5810f24, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x592b2e4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>* value);
 
 protected:
@@ -254,10 +254,10 @@ public:
   MultiplayerLevelSelectionFlowCoordinator(MultiplayerLevelSelectionFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6826 };
 
   /// @brief Field _notAllowedCharacteristics, offset: 0xd8, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> ____notAllowedCharacteristics;
+  ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> ____notAllowedCharacteristics;
 
   /// @brief Field _lobbyGameStateController, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateController* ____lobbyGameStateController;

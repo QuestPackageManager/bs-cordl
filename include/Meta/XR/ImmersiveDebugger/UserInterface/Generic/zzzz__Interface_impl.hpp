@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::get_Cursor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5923450;
+  constexpr static std::size_t addrs = 0x5a5cb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::set_Cursor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5923458;
+  constexpr static std::size_t addrs = 0x5a5cb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::get_Camera)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5921a18;
+  constexpr static std::size_t addrs = 0x5a5b11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::get_FollowOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5923460;
+  constexpr static std::size_t addrs = 0x5a5cb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::set_FollowOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5923468;
+  constexpr static std::size_t addrs = 0x5a5cb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::get_RotateOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5923470;
+  constexpr static std::size_t addrs = 0x5a5cb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::set_RotateOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5923478;
+  constexpr static std::size_t addrs = 0x5a5cb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::Awake)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5923480;
+  constexpr static std::size_t addrs = 0x5a5cb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::UpdateTransform)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x59235b0;
+  constexpr static std::size_t addrs = 0x5a5ccb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::UpdateCulling)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5923714;
+  constexpr static std::size_t addrs = 0x5a5ce18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, bool)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::SetBits)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59237e8;
+  constexpr static std::size_t addrs = 0x5a5ceec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::LateUpdate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x592380c;
+  constexpr static std::size_t addrs = 0x5a5cf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::RefreshLayoutPreChildren)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5923864;
+  constexpr static std::size_t addrs = 0x5a5cf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5923868;
+  constexpr static std::size_t addrs = 0x5a5cf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface*>(), { ".ctor", {}, {} })));

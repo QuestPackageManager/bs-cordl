@@ -21,13 +21,13 @@ namespace System {
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ansi, addr 0x5b56f20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ansi, addr 0x5c90bf8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> get_ansi();
 
-  /// @brief Method get_linux, addr 0x5b56e30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_linux, addr 0x5c90b08, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> get_linux();
 
-  /// @brief Method get_xterm, addr 0x5b56ea8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_xterm, addr 0x5c90b80, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> get_xterm();
 
 protected:

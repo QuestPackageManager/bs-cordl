@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AvatarColorTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x57e53fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5905a50, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   AvatarColorTrack(AvatarColorTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(
     &::Main::GraphQL::Queries::FeatureFlagsEnabled::GetVariableNames)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x31f58f4;
+  constexpr static std::size_t addrs = 0x328a3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::Main::GraphQL::Queries::FeatureFlagsEnabled::set_Features)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x31f59f0;
+  constexpr static std::size_t addrs = 0x328a4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(
     &::Main::GraphQL::Queries::FeatureFlagsEnabled::get_Features)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x31f5a70;
+  constexpr static std::size_t addrs = 0x328a574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(), { "get_Features", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(&::Main::GraphQL::Queries::FeatureFlagsEnabled::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31f5b30;
+  constexpr static std::size_t addrs = 0x328a634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(&::Main::GraphQL::Queries::FeatureFlagsEnabled::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31f5b44;
+  constexpr static std::size_t addrs = 0x328a648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(), { ".ctor", {}, {} })));

@@ -34,10 +34,10 @@ public:
 
   __declspec(property(get = get_displayMenuHandledOSX, put = set_displayMenuHandledOSX)) bool displayMenuHandledOSX;
 
-  /// @brief Method DisplayMenu, addr 0x6aff908, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DisplayMenu, addr 0x6c537c0, size 0x78, virtual false, abstract: false, final false
   inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target);
 
-  /// @brief Method DisplayMenu, addr 0x6aff980, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method DisplayMenu, addr 0x6c53838, size 0x374, virtual false, abstract: false, final false
   inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::DropdownMenu* menu);
 
   /// @brief Method DisplayMenuIfEventMatches, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__displayMenuHandledOSX_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6affcf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c53bac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_displayMenuHandledOSX, addr 0x6aff8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayMenuHandledOSX, addr 0x6c537b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayMenuHandledOSX();
 
-  /// @brief Method set_displayMenuHandledOSX, addr 0x6aff900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayMenuHandledOSX, addr 0x6c537b8, size 0x8, virtual false, abstract: false, final false
   inline void set_displayMenuHandledOSX(bool value);
 
 protected:

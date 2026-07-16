@@ -29,14 +29,14 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ImportFromFiles, addr 0x3261ed4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ImportFromFiles, addr 0x331ad58, size 0x24c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>*
   ImportFromFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
-  /// @brief Method ImportTextFile, addr 0x3262120, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method ImportTextFile, addr 0x331afa4, size 0x650, virtual false, abstract: false, final false
   static inline void ImportTextFile(::StringW text, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* result);
 
-  /// @brief Method IsLineBreak, addr 0x326276c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsLineBreak, addr 0x331b5f4, size 0x60, virtual false, abstract: false, final false
   static inline bool IsLineBreak(::StringW currentString);
 
 protected:
@@ -54,7 +54,7 @@ public:
   LocalizationImporter(LocalizationImporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

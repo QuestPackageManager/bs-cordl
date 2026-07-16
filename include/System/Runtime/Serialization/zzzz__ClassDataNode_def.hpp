@@ -33,7 +33,7 @@ public:
   /// @brief Field members, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_members, put = __cordl_internal_set_members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* members;
 
-  /// @brief Method Clear, addr 0x600fd8c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x614ae88, size 0x48, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::System::Runtime::Serialization::ClassDataNode* New_ctor();
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
-  /// @brief Method .ctor, addr 0x600fc00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614acfc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Members, addr 0x600fd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x614ae78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* get_Members();
 
-  /// @brief Method set_Members, addr 0x600fd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Members, addr 0x614ae80, size 0x8, virtual false, abstract: false, final false
   inline void set_Members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ClassDataNode(ClassDataNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17006 };
 
   /// @brief Field members, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* ___members;

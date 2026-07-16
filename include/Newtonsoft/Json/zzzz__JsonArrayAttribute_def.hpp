@@ -37,19 +37,19 @@ public:
 
   constexpr void __cordl_internal_set__allowNullItems(bool value);
 
-  /// @brief Method .ctor, addr 0x5b98cf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0f18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b98cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool allowNullItems);
 
-  /// @brief Method .ctor, addr 0x5b98d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method get_AllowNullItems, addr 0x5b98ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowNullItems, addr 0x5cd0f08, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowNullItems();
 
-  /// @brief Method set_AllowNullItems, addr 0x5b98ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllowNullItems, addr 0x5cd0f10, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowNullItems(bool value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   JsonArrayAttribute(JsonArrayAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
 
   /// @brief Field _allowNullItems, offset: 0x68, size: 0x1, def value: None
   bool ____allowNullItems;

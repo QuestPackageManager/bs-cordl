@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::OculusStudios::GraphQL::ClientInterface::RequestState)>(
     &::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions::ToVerboseLogFormat)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5df32b0;
+  constexpr static std::size_t addrs = 0x5f2b568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

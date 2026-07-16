@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_isMSAA(bool value);
 
-  /// @brief Method .ctor, addr 0x66aa288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7994, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12441 };
 
   /// @brief Field isMSAA, offset: 0x10, size: 0x1, def value: None
   bool ___isMSAA;
@@ -188,7 +188,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode const ClampNearest;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12442 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -312,7 +312,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceSlice(int32_t value);
 
-  /// @brief Method .ctor, addr 0x66aa28c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7998, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -330,7 +330,7 @@ public:
   RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12443 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -436,7 +436,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType const ProceduralTriangle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -471,32 +471,32 @@ public:
   /// @brief Field blitTextureProperty, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_blitTextureProperty, put = setStaticF_blitTextureProperty)) int32_t blitTextureProperty;
 
-  /// @brief Method .ctor, addr 0x66aa290, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e799c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Material* material,
                     int32_t shaderPass);
 
-  /// @brief Method .ctor, addr 0x66aa4b8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7bc4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Material* material,
                     int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb, int32_t destinationSlice, int32_t destinationMip, int32_t numSlices, int32_t numMips, int32_t sourceSlice,
                     int32_t sourceMip, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry, int32_t sourceTexturePropertyID,
                     int32_t sourceSlicePropertyID, int32_t sourceMipPropertyID);
 
-  /// @brief Method .ctor, addr 0x66aa7d0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7edc, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Material* material,
                     int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry,
                     int32_t sourceTexturePropertyID, int32_t sourceSlicePropertyID, int32_t sourceMipPropertyID);
 
-  /// @brief Method .ctor, addr 0x66aa3c8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7ad4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
                     ::UnityEngine::Vector2 offset, ::UnityEngine::Material* material, int32_t shaderPass);
 
-  /// @brief Method .ctor, addr 0x66aa64c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7d58, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
                     ::UnityEngine::Vector2 offset, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb, int32_t destinationSlice, int32_t destinationMip,
                     int32_t numSlices, int32_t numMips, int32_t sourceSlice, int32_t sourceMip, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry,
                     int32_t sourceTexturePropertyID, int32_t sourceSlicePropertyID, int32_t sourceMipPropertyID, int32_t scaleBiasPropertyID);
 
-  /// @brief Method .ctor, addr 0x66aa944, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e8050, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
                     ::UnityEngine::Vector2 offset, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb,
                     ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry, int32_t sourceTexturePropertyID, int32_t sourceSlicePropertyID,
@@ -539,7 +539,7 @@ public:
                                                     int32_t scaleBiasPropertyID, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12445 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -811,7 +811,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexturePropertyID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x66aab7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e8288, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -829,7 +829,7 @@ public:
   RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12446 };
 
   /// @brief Field sourceTexturePropertyID, offset: 0x10, size: 0x4, def value: None
   int32_t ___sourceTexturePropertyID;
@@ -953,17 +953,17 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* New_ctor();
 
-  /// @brief Method <AddBlitPass>b__13_0, addr 0x66aacb0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <AddBlitPass>b__13_0, addr 0x67e83bc, size 0x68, virtual false, abstract: false, final false
   inline void _AddBlitPass_b__13_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
                                    ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <AddBlitPass>b__7_0, addr 0x66aac48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <AddBlitPass>b__7_0, addr 0x67e8354, size 0x68, virtual false, abstract: false, final false
   inline void _AddBlitPass_b__7_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <AddCopyPass>b__3_0, addr 0x66aabd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <AddCopyPass>b__3_0, addr 0x67e82e4, size 0x70, virtual false, abstract: false, final false
   inline void _AddCopyPass_b__3_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66aabd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e82e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* getStaticF___9();
@@ -1006,7 +1006,7 @@ public:
   RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1041,32 +1041,32 @@ public:
   /// @brief Field s_PropertyBlock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PropertyBlock, put = setStaticF_s_PropertyBlock)) ::UnityEngine::MaterialPropertyBlock* s_PropertyBlock;
 
-  /// @brief Method AddBlitPass, addr 0x66a97bc, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method AddBlitPass, addr 0x67e6ec8, size 0x6a0, virtual false, abstract: false, final false
   static inline void AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
                                  ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters, ::StringW passName, ::StringW file, int32_t line);
 
-  /// @brief Method AddBlitPass, addr 0x66a8f5c, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method AddBlitPass, addr 0x67e6668, size 0x62c, virtual false, abstract: false, final false
   static inline void AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceSlice,
                                  int32_t destinationSlice, int32_t numSlices, int32_t sourceMip, int32_t destinationMip, int32_t numMips,
                                  ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode, ::StringW passName, ::StringW file, int32_t line);
 
-  /// @brief Method AddCopyPass, addr 0x66a8830, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method AddCopyPass, addr 0x67e5f3c, size 0x6b0, virtual false, abstract: false, final false
   static inline void AddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, int32_t sourceSlice, int32_t destinationSlice, int32_t sourceMip, int32_t destinationMip,
                                  ::StringW passName, ::StringW file, int32_t line);
 
-  /// @brief Method BlitMaterialRenderFunc, addr 0x66a9e5c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method BlitMaterialRenderFunc, addr 0x67e7568, size 0x388, virtual false, abstract: false, final false
   static inline void BlitMaterialRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
                                             ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method BlitRenderFunc, addr 0x66a9588, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method BlitRenderFunc, addr 0x67e6c94, size 0x234, virtual false, abstract: false, final false
   static inline void BlitRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method CanAddCopyPassMSAA, addr 0x66a87dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CanAddCopyPassMSAA, addr 0x67e5ee8, size 0x54, virtual false, abstract: false, final false
   static inline bool CanAddCopyPassMSAA();
 
-  /// @brief Method CopyRenderFunc, addr 0x66a8ee0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CopyRenderFunc, addr 0x67e65ec, size 0x7c, virtual false, abstract: false, final false
   static inline void CopyRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
   static inline ::UnityEngine::Vector4 getStaticF_s_BlitScaleBias();
@@ -1092,7 +1092,7 @@ public:
   RenderGraphUtils(RenderGraphUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -60,109 +60,109 @@ public:
   /// @brief Field _position, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int32_t _position;
 
-  /// @brief Method Clear, addr 0x57597d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x589fcc4, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Get();
 
-  /// @brief Method GetBool, addr 0x5766310, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x58ac804, size 0x48, virtual false, abstract: false, final false
   inline bool GetBool();
 
-  /// @brief Method GetBoolArray, addr 0x5765bc0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetBoolArray, addr 0x58ac0b4, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<bool> GetBoolArray();
 
-  /// @brief Method GetByte, addr 0x5765aa0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x58abf94, size 0x40, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method GetByteArray, addr 0x5765b20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetByteArray, addr 0x58ac014, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetByteArray();
 
-  /// @brief Method GetBytes, addr 0x57665f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x58acae4, size 0x48, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t> destination, int32_t count);
 
-  /// @brief Method GetBytes, addr 0x57665a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x58aca9c, size 0x48, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t> destination, int32_t start, int32_t count);
 
-  /// @brief Method GetBytesWithLength, addr 0x57666dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetBytesWithLength, addr 0x58acbd0, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBytesWithLength();
 
-  /// @brief Method GetChar, addr 0x5766358, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetChar, addr 0x58ac84c, size 0x28, virtual false, abstract: false, final false
   inline char16_t GetChar();
 
-  /// @brief Method GetDouble, addr 0x576647c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDouble, addr 0x58ac970, size 0x2c, virtual false, abstract: false, final false
   inline double_t GetDouble();
 
-  /// @brief Method GetDoubleArray, addr 0x57660dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleArray, addr 0x58ac5d0, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<double_t> GetDoubleArray();
 
-  /// @brief Method GetFloat, addr 0x5766450, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x58ac944, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetFloat();
 
-  /// @brief Method GetFloatArray, addr 0x5766038, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetFloatArray, addr 0x58ac52c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetFloatArray();
 
-  /// @brief Method GetInt, addr 0x5765a74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x58abf68, size 0x2c, virtual false, abstract: false, final false
   inline int32_t GetInt();
 
-  /// @brief Method GetIntArray, addr 0x5765ef0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetIntArray, addr 0x58ac3e4, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetIntArray();
 
-  /// @brief Method GetLong, addr 0x57663d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetLong, addr 0x58ac8c8, size 0x2c, virtual false, abstract: false, final false
   inline int64_t GetLong();
 
-  /// @brief Method GetLongArray, addr 0x5765da8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetLongArray, addr 0x58ac29c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t> GetLongArray();
 
-  /// @brief Method GetNetEndPoint, addr 0x5765914, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNetEndPoint, addr 0x58abe08, size 0x90, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetNetEndPoint();
 
-  /// @brief Method GetRemainingBytes, addr 0x576651c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetRemainingBytes, addr 0x58aca10, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetRemainingBytes();
 
-  /// @brief Method GetRemainingBytesSegment, addr 0x57664a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetRemainingBytesSegment, addr 0x58ac99c, size 0x74, virtual false, abstract: false, final false
   inline ::System::ArraySegment_1<uint8_t> GetRemainingBytesSegment();
 
-  /// @brief Method GetSByte, addr 0x5765ae0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetSByte, addr 0x58abfd4, size 0x40, virtual false, abstract: false, final false
   inline int8_t GetSByte();
 
-  /// @brief Method GetSBytesWithLength, addr 0x5766638, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetSBytesWithLength, addr 0x58acb2c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<int8_t> GetSBytesWithLength();
 
-  /// @brief Method GetShort, addr 0x57663a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetShort, addr 0x58ac89c, size 0x2c, virtual false, abstract: false, final false
   inline int16_t GetShort();
 
-  /// @brief Method GetShortArray, addr 0x5765d04, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetShortArray, addr 0x58ac1f8, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<int16_t> GetShortArray();
 
-  /// @brief Method GetString, addr 0x57555dc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x589bad0, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetString, addr 0x57659a4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x58abe98, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW GetString(int32_t maxLength);
 
-  /// @brief Method GetStringArray, addr 0x5766180, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetStringArray, addr 0x58ac674, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetStringArray();
 
-  /// @brief Method GetStringArray, addr 0x5766240, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetStringArray, addr 0x58ac734, size 0xd0, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetStringArray(int32_t maxStringLength);
 
-  /// @brief Method GetUInt, addr 0x5766428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetUInt, addr 0x58ac91c, size 0x28, virtual false, abstract: false, final false
   inline uint32_t GetUInt();
 
-  /// @brief Method GetUIntArray, addr 0x5765f94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetUIntArray, addr 0x58ac488, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t> GetUIntArray();
 
-  /// @brief Method GetULong, addr 0x5766400, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetULong, addr 0x58ac8f4, size 0x28, virtual false, abstract: false, final false
   inline uint64_t GetULong();
 
-  /// @brief Method GetULongArray, addr 0x5765e4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetULongArray, addr 0x58ac340, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint64_t> GetULongArray();
 
-  /// @brief Method GetUShort, addr 0x5766380, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetUShort, addr 0x58ac874, size 0x28, virtual false, abstract: false, final false
   inline uint16_t GetUShort();
 
-  /// @brief Method GetUShortArray, addr 0x5765c60, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetUShortArray, addr 0x58ac154, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t> GetUShortArray();
 
   static inline ::LiteNetLib::Utils::NetDataReader* New_ctor();
@@ -173,106 +173,106 @@ public:
 
   static inline ::LiteNetLib::Utils::NetDataReader* New_ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize);
 
-  /// @brief Method PeekBool, addr 0x57667e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PeekBool, addr 0x58accdc, size 0x3c, virtual false, abstract: false, final false
   inline bool PeekBool();
 
-  /// @brief Method PeekByte, addr 0x5766780, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method PeekByte, addr 0x58acc74, size 0x34, virtual false, abstract: false, final false
   inline uint8_t PeekByte();
 
-  /// @brief Method PeekChar, addr 0x5766824, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PeekChar, addr 0x58acd18, size 0x10, virtual false, abstract: false, final false
   inline char16_t PeekChar();
 
-  /// @brief Method PeekDouble, addr 0x57668c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PeekDouble, addr 0x58acdb4, size 0x20, virtual false, abstract: false, final false
   inline double_t PeekDouble();
 
-  /// @brief Method PeekFloat, addr 0x57668a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PeekFloat, addr 0x58acd94, size 0x20, virtual false, abstract: false, final false
   inline float_t PeekFloat();
 
-  /// @brief Method PeekInt, addr 0x576687c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PeekInt, addr 0x58acd70, size 0x14, virtual false, abstract: false, final false
   inline int32_t PeekInt();
 
-  /// @brief Method PeekLong, addr 0x5766858, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PeekLong, addr 0x58acd4c, size 0x14, virtual false, abstract: false, final false
   inline int64_t PeekLong();
 
-  /// @brief Method PeekSByte, addr 0x57667b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method PeekSByte, addr 0x58acca8, size 0x34, virtual false, abstract: false, final false
   inline int8_t PeekSByte();
 
-  /// @brief Method PeekShort, addr 0x5766844, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PeekShort, addr 0x58acd38, size 0x14, virtual false, abstract: false, final false
   inline int16_t PeekShort();
 
-  /// @brief Method PeekString, addr 0x57669a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method PeekString, addr 0x58ace98, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW PeekString();
 
-  /// @brief Method PeekString, addr 0x57668e0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method PeekString, addr 0x58acdd4, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW PeekString(int32_t maxLength);
 
-  /// @brief Method PeekUInt, addr 0x5766890, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PeekUInt, addr 0x58acd84, size 0x10, virtual false, abstract: false, final false
   inline uint32_t PeekUInt();
 
-  /// @brief Method PeekULong, addr 0x576686c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PeekULong, addr 0x58acd60, size 0x10, virtual false, abstract: false, final false
   inline uint64_t PeekULong();
 
-  /// @brief Method PeekUShort, addr 0x5766834, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PeekUShort, addr 0x58acd28, size 0x10, virtual false, abstract: false, final false
   inline uint16_t PeekUShort();
 
-  /// @brief Method SetSource, addr 0x5765860, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x58abd54, size 0x24, virtual false, abstract: false, final false
   inline void SetSource(::LiteNetLib::Utils::NetDataWriter* dataWriter);
 
-  /// @brief Method SetSource, addr 0x5765884, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x58abd78, size 0x24, virtual false, abstract: false, final false
   inline void SetSource(::ArrayW<uint8_t> source);
 
-  /// @brief Method SetSource, addr 0x57658a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x58abd9c, size 0x24, virtual false, abstract: false, final false
   inline void SetSource(::ArrayW<uint8_t> source, int32_t offset);
 
-  /// @brief Method SetSource, addr 0x5758150, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x589e644, size 0x10, virtual false, abstract: false, final false
   inline void SetSource(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize);
 
-  /// @brief Method SkipBytes, addr 0x5765850, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SkipBytes, addr 0x58abd44, size 0x10, virtual false, abstract: false, final false
   inline void SkipBytes(int32_t count);
 
-  /// @brief Method TryGetBool, addr 0x5766aa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TryGetBool, addr 0x58acf9c, size 0x44, virtual false, abstract: false, final false
   inline bool TryGetBool(::by_ref<bool> result);
 
-  /// @brief Method TryGetByte, addr 0x5766a20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TryGetByte, addr 0x58acf14, size 0x44, virtual false, abstract: false, final false
   inline bool TryGetByte(::by_ref<uint8_t> result);
 
-  /// @brief Method TryGetBytesWithLength, addr 0x5766f90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TryGetBytesWithLength, addr 0x58ad484, size 0x74, virtual false, abstract: false, final false
   inline bool TryGetBytesWithLength(::by_ref<::ArrayW<uint8_t>> result);
 
-  /// @brief Method TryGetChar, addr 0x5766aec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetChar, addr 0x58acfe0, size 0x5c, virtual false, abstract: false, final false
   inline bool TryGetChar(::by_ref<char16_t> result);
 
-  /// @brief Method TryGetDouble, addr 0x5766dd8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetDouble, addr 0x58ad2cc, size 0x5c, virtual false, abstract: false, final false
   inline bool TryGetDouble(::by_ref<double_t> result);
 
-  /// @brief Method TryGetFloat, addr 0x5766d7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetFloat, addr 0x58ad270, size 0x5c, virtual false, abstract: false, final false
   inline bool TryGetFloat(::by_ref<float_t> result);
 
-  /// @brief Method TryGetInt, addr 0x5766c04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryGetInt, addr 0x58ad0f8, size 0x60, virtual false, abstract: false, final false
   inline bool TryGetInt(::by_ref<int32_t> result);
 
-  /// @brief Method TryGetLong, addr 0x5766cc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryGetLong, addr 0x58ad1b4, size 0x60, virtual false, abstract: false, final false
   inline bool TryGetLong(::by_ref<int64_t> result);
 
-  /// @brief Method TryGetSByte, addr 0x5766a64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TryGetSByte, addr 0x58acf58, size 0x44, virtual false, abstract: false, final false
   inline bool TryGetSByte(::by_ref<int8_t> result);
 
-  /// @brief Method TryGetShort, addr 0x5766b48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryGetShort, addr 0x58ad03c, size 0x60, virtual false, abstract: false, final false
   inline bool TryGetShort(::by_ref<int16_t> result);
 
-  /// @brief Method TryGetString, addr 0x5766e34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetString, addr 0x58ad328, size 0x70, virtual false, abstract: false, final false
   inline bool TryGetString(::by_ref<::StringW> result);
 
-  /// @brief Method TryGetStringArray, addr 0x5766ea4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryGetStringArray, addr 0x58ad398, size 0xec, virtual false, abstract: false, final false
   inline bool TryGetStringArray(::by_ref<::ArrayW<::StringW>> result);
 
-  /// @brief Method TryGetUInt, addr 0x5766c64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetUInt, addr 0x58ad158, size 0x5c, virtual false, abstract: false, final false
   inline bool TryGetUInt(::by_ref<uint32_t> result);
 
-  /// @brief Method TryGetULong, addr 0x5766d20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetULong, addr 0x58ad214, size 0x5c, virtual false, abstract: false, final false
   inline bool TryGetULong(::by_ref<uint64_t> result);
 
-  /// @brief Method TryGetUShort, addr 0x5766ba8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetUShort, addr 0x58ad09c, size 0x5c, virtual false, abstract: false, final false
   inline bool TryGetUShort(::by_ref<uint16_t> result);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get__data() const;
@@ -299,40 +299,40 @@ public:
 
   constexpr void __cordl_internal_set__position(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5758038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589e52c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x57658cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58abdc0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> source);
 
-  /// @brief Method .ctor, addr 0x57658f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58abde4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> source, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x5760140, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a6634, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize);
 
-  /// @brief Method get_AvailableBytes, addr 0x5765844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AvailableBytes, addr 0x58abd38, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_AvailableBytes();
 
-  /// @brief Method get_EndOfData, addr 0x5765834, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfData, addr 0x58abd28, size 0x10, virtual false, abstract: false, final false
   inline bool get_EndOfData();
 
-  /// @brief Method get_IsNull, addr 0x575b718, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x58a1c0c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Position, addr 0x576582c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x58abd20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Position();
 
-  /// @brief Method get_RawData, addr 0x5765808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawData, addr 0x58abcfc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_RawData();
 
-  /// @brief Method get_RawDataSize, addr 0x5765810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawDataSize, addr 0x58abd04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RawDataSize();
 
-  /// @brief Method get_UserDataOffset, addr 0x5765818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserDataOffset, addr 0x58abd0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserDataOffset();
 
-  /// @brief Method get_UserDataSize, addr 0x5765820, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_UserDataSize, addr 0x58abd14, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_UserDataSize();
 
 protected:
@@ -350,7 +350,7 @@ public:
   NetDataReader(NetDataReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20060 };
 
   /// @brief Field _data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____data;

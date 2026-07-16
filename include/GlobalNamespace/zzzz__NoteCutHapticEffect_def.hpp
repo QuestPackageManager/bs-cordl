@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutHapticEffect)
-namespace GlobalNamespace {
+namespace BeatSaber::Haptics {
 class HapticFeedbackManager;
+}
+namespace BeatSaber::Haptics {
+class HapticPresetSO;
 }
 namespace GlobalNamespace {
 struct NoteCutHapticEffect_Type;
 }
 namespace GlobalNamespace {
 struct SaberType;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,7 +94,7 @@ public:
   static ::GlobalNamespace::NoteCutHapticEffect_Type const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5789 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -120,92 +120,93 @@ public:
   using Type = ::GlobalNamespace::NoteCutHapticEffect_Type;
 
   /// @brief Field _arcHeadAndTailPreset, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcHeadAndTailPreset, put = __cordl_internal_set__arcHeadAndTailPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadAndTailPreset;
+  __declspec(property(get = __cordl_internal_get__arcHeadAndTailPreset, put = __cordl_internal_set__arcHeadAndTailPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _arcHeadAndTailPreset;
 
   /// @brief Field _arcHeadPreset, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcHeadPreset, put = __cordl_internal_set__arcHeadPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadPreset;
+  __declspec(property(get = __cordl_internal_get__arcHeadPreset, put = __cordl_internal_set__arcHeadPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _arcHeadPreset;
 
   /// @brief Field _arcTailPreset, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcTailPreset, put = __cordl_internal_set__arcTailPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcTailPreset;
+  __declspec(property(get = __cordl_internal_get__arcTailPreset, put = __cordl_internal_set__arcTailPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _arcTailPreset;
 
   /// @brief Field _badCutPreset, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__badCutPreset, put = __cordl_internal_set__badCutPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _badCutPreset;
+  __declspec(property(get = __cordl_internal_get__badCutPreset, put = __cordl_internal_set__badCutPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _badCutPreset;
 
   /// @brief Field _bombPreset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombPreset, put = __cordl_internal_set__bombPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _bombPreset;
+  __declspec(property(get = __cordl_internal_get__bombPreset, put = __cordl_internal_set__bombPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _bombPreset;
 
   /// @brief Field _chainHeadPreset, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__chainHeadPreset, put = __cordl_internal_set__chainHeadPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _chainHeadPreset;
+  __declspec(property(get = __cordl_internal_get__chainHeadPreset, put = __cordl_internal_set__chainHeadPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _chainHeadPreset;
 
   /// @brief Field _chainLinkPreset, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__chainLinkPreset, put = __cordl_internal_set__chainLinkPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _chainLinkPreset;
+  __declspec(property(get = __cordl_internal_get__chainLinkPreset, put = __cordl_internal_set__chainLinkPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _chainLinkPreset;
 
   /// @brief Field _hapticFeedbackManager, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>
+      _hapticFeedbackManager;
 
   /// @brief Field _normalPreset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
+  __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _normalPreset;
 
-  /// @brief Method HitNote, addr 0x584b270, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HitNote, addr 0x598347c, size 0xb8, virtual false, abstract: false, final false
   inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect_Type type);
 
   static inline ::GlobalNamespace::NoteCutHapticEffect* New_ctor();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__arcHeadAndTailPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__arcHeadAndTailPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__arcHeadAndTailPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__arcHeadAndTailPreset();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__arcHeadPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__arcHeadPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__arcHeadPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__arcHeadPreset();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__arcTailPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__arcTailPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__arcTailPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__arcTailPreset();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__badCutPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__badCutPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__badCutPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__badCutPreset();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__bombPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__bombPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__bombPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__bombPreset();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__chainHeadPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__chainHeadPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__chainHeadPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__chainHeadPreset();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__chainLinkPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__chainLinkPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__chainLinkPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__chainLinkPreset();
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__normalPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__normalPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__normalPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__normalPreset();
 
-  constexpr void __cordl_internal_set__arcHeadAndTailPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__arcHeadAndTailPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__arcHeadPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__arcHeadPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__arcTailPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__arcTailPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__badCutPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__badCutPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__bombPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__bombPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__chainHeadPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__chainHeadPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__chainLinkPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__chainLinkPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value);
 
-  constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__normalPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
-  /// @brief Method .ctor, addr 0x584b328, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5983534, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -223,34 +224,34 @@ public:
   NoteCutHapticEffect(NoteCutHapticEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5790 };
 
   /// @brief Field _normalPreset, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____normalPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____normalPreset;
 
   /// @brief Field _chainHeadPreset, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____chainHeadPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____chainHeadPreset;
 
   /// @brief Field _chainLinkPreset, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____chainLinkPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____chainLinkPreset;
 
   /// @brief Field _bombPreset, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____bombPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____bombPreset;
 
   /// @brief Field _badCutPreset, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____badCutPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____badCutPreset;
 
   /// @brief Field _arcHeadPreset, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____arcHeadPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____arcHeadPreset;
 
   /// @brief Field _arcTailPreset, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____arcTailPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____arcTailPreset;
 
   /// @brief Field _arcHeadAndTailPreset, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____arcHeadAndTailPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____arcHeadAndTailPreset;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+  ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

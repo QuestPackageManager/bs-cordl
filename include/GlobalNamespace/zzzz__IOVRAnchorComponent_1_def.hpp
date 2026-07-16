@@ -62,7 +62,7 @@ public:
   IOVRAnchorComponent_1(IOVRAnchorComponent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

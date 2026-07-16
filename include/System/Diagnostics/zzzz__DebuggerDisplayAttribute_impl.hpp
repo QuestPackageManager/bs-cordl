@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::DebuggerDisplayAttribute::*)(::StringW)>(&::System::Diagnostics::DebuggerDisplayAttribute::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5aa4be0;
+  constexpr static std::size_t addrs = 0x5bde8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::DebuggerDisplayAttribute::*)(::StringW)>(&::System::Diagnostics::DebuggerDisplayAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa4c44;
+  constexpr static std::size_t addrs = 0x5bde91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::DebuggerDisplayAttribute::*)(::StringW)>(&::System::Diagnostics::DebuggerDisplayAttribute::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa4c4c;
+  constexpr static std::size_t addrs = 0x5bde924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

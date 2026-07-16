@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
     &::GlobalNamespace::BeatSaberMultiplayerSessionManager::add_playerAvatarChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x320f3d8;
+  constexpr static std::size_t addrs = 0x32a6a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
     &::GlobalNamespace::BeatSaberMultiplayerSessionManager::remove_playerAvatarChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x320f498;
+  constexpr static std::size_t addrs = 0x32a6ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,13 +44,43 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::BeatSaberMultiplayerSessionManager.add_playerControllerDataChangedEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
+    &::GlobalNamespace::BeatSaberMultiplayerSessionManager::add_playerControllerDataChangedEvent)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x32a6ba4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
+                                                { "add_playerControllerDataChangedEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatSaberMultiplayerSessionManager.remove_playerControllerDataChangedEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
+    &::GlobalNamespace::BeatSaberMultiplayerSessionManager::remove_playerControllerDataChangedEvent)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x32a6c64;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
+                                                { "remove_playerControllerDataChangedEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BeatSaberMultiplayerSessionManager.RegisterGameSpecificEventHandlers
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)()>(
     &::GlobalNamespace::BeatSaberMultiplayerSessionManager::RegisterGameSpecificEventHandlers)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x320f558;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x32a6d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
@@ -63,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)()>(
     &::GlobalNamespace::BeatSaberMultiplayerSessionManager::UnregisterGameSpecificEventHandlers)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x320f5e4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x32a6e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
@@ -78,11 +108,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::GlobalNamespace::BeatSaberMultiplayerSessionManager::HandlePlayerAvatarChanged)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x320f670;
+  constexpr static std::size_t addrs = 0x32a6edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
                                                                                            { "HandlePlayerAvatarChanged", {}, { ::i2c::type_of<::GlobalNamespace::IBeatSaberConnectedPlayer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatSaberMultiplayerSessionManager.HandlePlayerControllerDataChanged
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
+    &::GlobalNamespace::BeatSaberMultiplayerSessionManager::HandlePlayerControllerDataChanged)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x32a6f70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
+                                                             { "HandlePlayerControllerDataChanged", {}, { ::i2c::type_of<::GlobalNamespace::IBeatSaberConnectedPlayer*>() } })));
     return ___internal_method;
   }
 };
@@ -91,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberMultiplayerSessionManager::*)()>(&::GlobalNamespace::BeatSaberMultiplayerSessionManager::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x320f704;
+  constexpr static std::size_t addrs = 0x32a7004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(), { ".ctor", {}, {} })));
@@ -107,7 +152,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     &::GlobalNamespace::BeatSaberMultiplayerSessionManager::
         IMultiplayerSessionManager_BeatSaberConnectedPlayerManager_IBeatSaberConnectedPlayer_BeatSaberConnectedPlayer_BeatSaberPlayerIdentityPacketData__StartSession)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x320f750;
+  constexpr static std::size_t addrs = 0x32a7050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,6 +177,18 @@ constexpr void GlobalNamespace::BeatSaberMultiplayerSessionManager::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerAvatarChangedEvent = value;
 }
+constexpr ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*& GlobalNamespace::BeatSaberMultiplayerSessionManager::__cordl_internal_get_playerControllerDataChangedEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playerControllerDataChangedEvent;
+}
+constexpr ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* const& GlobalNamespace::BeatSaberMultiplayerSessionManager::__cordl_internal_get_playerControllerDataChangedEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playerControllerDataChangedEvent;
+}
+constexpr void GlobalNamespace::BeatSaberMultiplayerSessionManager::__cordl_internal_set_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___playerControllerDataChangedEvent = value;
+}
 inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
@@ -142,6 +199,18 @@ inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::remove_playerAv
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
                                                            { "remove_playerAvatarChangedEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::add_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
+                                                           { "add_playerControllerDataChangedEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::remove_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
+                                              { "remove_playerControllerDataChangedEvent", {}, { ::i2c::type_of<::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::RegisterGameSpecificEventHandlers() {
@@ -157,6 +226,12 @@ inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::UnregisterGameS
 inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::HandlePlayerAvatarChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* player) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
                                                                                          { "HandlePlayerAvatarChanged", {}, { ::i2c::type_of<::GlobalNamespace::IBeatSaberConnectedPlayer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
+}
+inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::HandlePlayerControllerDataChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* player) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberMultiplayerSessionManager*>(),
+                                                           { "HandlePlayerControllerDataChanged", {}, { ::i2c::type_of<::GlobalNamespace::IBeatSaberConnectedPlayer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
 }
 inline void GlobalNamespace::BeatSaberMultiplayerSessionManager::_ctor() {

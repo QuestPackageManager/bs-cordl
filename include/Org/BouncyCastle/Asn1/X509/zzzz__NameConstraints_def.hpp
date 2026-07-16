@@ -47,10 +47,10 @@ public:
   /// @brief Field permitted, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_permitted, put = __cordl_internal_set_permitted)) ::Org::BouncyCastle::Asn1::Asn1Sequence* permitted;
 
-  /// @brief Method CreateSequence, addr 0x35a3144, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method CreateSequence, addr 0x365f5fc, size 0x2b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateSequence(::System::Collections::IList* subtrees);
 
-  /// @brief Method GetInstance, addr 0x35a2c78, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x365f130, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
@@ -59,7 +59,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x35a3408, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x365f8c0, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_excluded() const;
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_permitted(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x35a3108, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365f5c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
 
-  /// @brief Method .ctor, addr 0x35a310c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365f5c4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* permitted, ::System::Collections::IList* excluded);
 
-  /// @brief Method .ctor, addr 0x35a2dfc, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365f2b4, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ExcludedSubtrees, addr 0x35a3400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExcludedSubtrees, addr 0x365f8b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ExcludedSubtrees();
 
-  /// @brief Method get_PermittedSubtrees, addr 0x35a33f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PermittedSubtrees, addr 0x365f8b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PermittedSubtrees();
 
 protected:

@@ -33,11 +33,11 @@ public:
 
   static inline ::BeatSaber::AvatarCore::NoAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method RestrictPose, addr 0x31d81a0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0x326f5b0, size 0x30, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ::by_ref<::UnityEngine::Vector3> newHeadPosition, ::by_ref<::UnityEngine::Vector3> newLeftHandPosition, ::by_ref<::UnityEngine::Vector3> newRightHandPosition);
 
-  /// @brief Method .ctor, addr 0x31d81d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326f5e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
@@ -58,7 +58,7 @@ public:
   NoAvatarPoseRestriction(NoAvatarPoseRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

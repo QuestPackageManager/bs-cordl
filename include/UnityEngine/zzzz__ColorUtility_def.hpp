@@ -29,16 +29,16 @@ namespace UnityEngine {
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DoTryParseHtmlColor, addr 0x69753b8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method DoTryParseHtmlColor, addr 0x6ac86ec, size 0x140, virtual false, abstract: false, final false
   static inline bool DoTryParseHtmlColor(::StringW htmlString, ::by_ref<::UnityEngine::Color32> color);
 
-  /// @brief Method DoTryParseHtmlColor_Injected, addr 0x69754f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DoTryParseHtmlColor_Injected, addr 0x6ac882c, size 0x44, virtual false, abstract: false, final false
   static inline bool DoTryParseHtmlColor_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> htmlString, ::by_ref<::UnityEngine::Color32> color);
 
-  /// @brief Method ToHtmlStringRGB, addr 0x69755a8, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method ToHtmlStringRGB, addr 0x6ac88dc, size 0x3d4, virtual false, abstract: false, final false
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
-  /// @brief Method TryParseHtmlString, addr 0x697553c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryParseHtmlString, addr 0x6ac8870, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryParseHtmlString(::StringW htmlString, ::by_ref<::UnityEngine::Color> color);
 
 protected:
@@ -56,7 +56,7 @@ public:
   ColorUtility(ColorUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

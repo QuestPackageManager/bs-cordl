@@ -25,7 +25,7 @@ namespace BeatmapSaveDataCommon {
 class CORDL_TYPE EaseTypeConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x369f6a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x375b700, size 0x24, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataCommon::EaseType Convert(::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -43,7 +43,7 @@ public:
   EaseTypeConvertor(EaseTypeConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -88,21 +88,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x577a8bc, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58b6d68, size 0x190, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x577aa4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58b6ef8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x577aa54, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58b6f00, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x577aa8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58b6f38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x577a8b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58b6d64, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x577a834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b6ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -174,7 +174,7 @@ public:
   AudioPitchGainEffect__StartEffectCoroutine_d__8(AudioPitchGainEffect__StartEffectCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5553 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -247,21 +247,21 @@ public:
   /// @brief Field _startVolume, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__startVolume, put = __cordl_internal_set__startVolume)) float_t _startVolume;
 
-  /// @brief Method InterruptEffect, addr 0x577a864, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InterruptEffect, addr 0x58b6d10, size 0x3c, virtual false, abstract: false, final false
   inline void InterruptEffect();
 
   static inline ::GlobalNamespace::AudioPitchGainEffect* New_ctor();
 
-  /// @brief Method SetAudioSource, addr 0x577a8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAudioSource, addr 0x58b6d4c, size 0x8, virtual false, abstract: false, final false
   inline void SetAudioSource(::UnityEngine::AudioSource* audioSource);
 
-  /// @brief Method Start, addr 0x577a79c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b6c48, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x577a83c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x58b6ce8, size 0x28, virtual false, abstract: false, final false
   inline void StartEffect(float_t volumeScale, ::System::Action* finishCallback);
 
-  /// @brief Method StartEffectCoroutine, addr 0x577a7c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartEffectCoroutine, addr 0x58b6c6c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartEffectCoroutine(float_t volumeScale, ::System::Action* finishCallback);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set__startVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x577a8a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b6d54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -324,7 +324,7 @@ public:
   AudioPitchGainEffect(AudioPitchGainEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5554 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;

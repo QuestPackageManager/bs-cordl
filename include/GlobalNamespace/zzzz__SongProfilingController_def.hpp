@@ -14,7 +14,7 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class SongProfilingController__ProfileCoroutine_d__8;
+class SongProfilingController__ProfileCoroutine_d__11;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -33,18 +33,18 @@ namespace GlobalNamespace {
 class SongProfilingController;
 }
 namespace GlobalNamespace {
-class SongProfilingController__ProfileCoroutine_d__8;
+class SongProfilingController__ProfileCoroutine_d__11;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SongProfilingController*);
-MARK_REF_T(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8*);
+MARK_REF_T(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongProfilingController*, "", "SongProfilingController");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8*, "", "SongProfilingController/<ProfileCoroutine>d__8");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11*, "", "SongProfilingController/<ProfileCoroutine>d__11");
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SongProfilingController/<ProfileCoroutine>d__8
-class CORDL_TYPE SongProfilingController__ProfileCoroutine_d__8 : public ::System::Object {
+// CS Name: SongProfilingController/<ProfileCoroutine>d__11
+class CORDL_TYPE SongProfilingController__ProfileCoroutine_d__11 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -84,21 +84,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5782444, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58be684, size 0x308, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x578274c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58be98c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5782754, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58be994, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x578278c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58be9cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5782440, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58be680, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_folderName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5782158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58be398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -164,19 +164,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SongProfilingController__ProfileCoroutine_d__8();
+  constexpr SongProfilingController__ProfileCoroutine_d__11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongProfilingController__ProfileCoroutine_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongProfilingController__ProfileCoroutine_d__11", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SongProfilingController__ProfileCoroutine_d__8(SongProfilingController__ProfileCoroutine_d__8&&) = delete;
+  SongProfilingController__ProfileCoroutine_d__11(SongProfilingController__ProfileCoroutine_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongProfilingController__ProfileCoroutine_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongProfilingController__ProfileCoroutine_d__11", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongProfilingController__ProfileCoroutine_d__8(SongProfilingController__ProfileCoroutine_d__8 const&) = delete;
+  SongProfilingController__ProfileCoroutine_d__11(SongProfilingController__ProfileCoroutine_d__11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5589 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -205,23 +205,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, ___folderName) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, ___folderName) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, ____startTime_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, ____startTime_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, ____lastFileName_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, ____lastFileName_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, ____lowFPSCount_5__4) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, ____lowFPSCount_5__4) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8, ____i_5__5) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11, ____i_5__5) == 0x44, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
@@ -231,53 +231,71 @@ namespace GlobalNamespace {
 class CORDL_TYPE SongProfilingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _ProfileCoroutine_d__8 = ::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__8;
+  using _ProfileCoroutine_d__11 = ::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11;
+
+  /// @brief Field _didApplyTargetFps, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get__didApplyTargetFps, put = __cordl_internal_set__didApplyTargetFps)) bool _didApplyTargetFps;
 
   /// @brief Field _fps, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__fps, put = __cordl_internal_set__fps)) ::ArrayW<int32_t> _fps;
 
+  /// @brief Field _previousTargetFps, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__previousTargetFps, put = __cordl_internal_set__previousTargetFps)) int32_t _previousTargetFps;
+
   /// @brief Field _sceneSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method CreateCaptureFolder, addr 0x5782048, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateCaptureFolder, addr 0x58be1f8, size 0x7c, virtual false, abstract: false, final false
   inline void CreateCaptureFolder(::StringW folderName);
 
-  /// @brief Method CreateLogPath, addr 0x5782160, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CreateLogPath, addr 0x58be3a0, size 0x178, virtual false, abstract: false, final false
   inline ::StringW CreateLogPath(::StringW folder, float_t startTime);
 
-  /// @brief Method FinishProfiling, addr 0x5781ee4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FinishProfiling, addr 0x58bdfec, size 0xb0, virtual false, abstract: false, final false
   inline void FinishProfiling();
 
   static inline ::GlobalNamespace::SongProfilingController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5782154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58be304, size 0x94, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProfileCoroutine, addr 0x57820f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProfileCoroutine, addr 0x58be2a4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProfileCoroutine(::StringW folderName);
 
-  /// @brief Method SetupProfiler, addr 0x57820c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetupProfiler, addr 0x58be274, size 0x30, virtual false, abstract: false, final false
   inline void SetupProfiler();
 
-  /// @brief Method Start, addr 0x5781f94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58be09c, size 0x15c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartProfilingToFile, addr 0x57822d8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method StartProfilingToFile, addr 0x58be518, size 0x10c, virtual false, abstract: false, final false
   inline void StartProfilingToFile(::StringW filePath);
+
+  constexpr bool const& __cordl_internal_get__didApplyTargetFps() const;
+
+  constexpr bool& __cordl_internal_get__didApplyTargetFps();
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get__fps() const;
 
   constexpr ::ArrayW<int32_t>& __cordl_internal_get__fps();
 
+  constexpr int32_t const& __cordl_internal_get__previousTargetFps() const;
+
+  constexpr int32_t& __cordl_internal_get__previousTargetFps();
+
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
+  constexpr void __cordl_internal_set__didApplyTargetFps(bool value);
+
   constexpr void __cordl_internal_set__fps(::ArrayW<int32_t> value);
+
+  constexpr void __cordl_internal_set__previousTargetFps(int32_t value);
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x57823e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58be624, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +313,7 @@ public:
   SongProfilingController(SongProfilingController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5590 };
 
   /// @brief Field kLowFPSCountLimit offset 0xffffffff size 0x4
   static constexpr int32_t kLowFPSCountLimit{ static_cast<int32_t>(0x6e) };
@@ -306,11 +324,20 @@ public:
   /// @brief Field kProfilerMaxUsedMemory offset 0xffffffff size 0x4
   static constexpr int32_t kProfilerMaxUsedMemory{ static_cast<int32_t>(0x10000000) };
 
+  /// @brief Field kProfilingTargetFps offset 0xffffffff size 0x4
+  static constexpr int32_t kProfilingTargetFps{ static_cast<int32_t>(0x5a) };
+
   /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
   /// @brief Field _fps, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<int32_t> ____fps;
+
+  /// @brief Field _previousTargetFps, offset: 0x30, size: 0x4, def value: None
+  int32_t ____previousTargetFps;
+
+  /// @brief Field _didApplyTargetFps, offset: 0x34, size: 0x1, def value: None
+  bool ____didApplyTargetFps;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -319,6 +346,10 @@ static_assert(offsetof(::GlobalNamespace::SongProfilingController, ____sceneSetu
 
 static_assert(offsetof(::GlobalNamespace::SongProfilingController, ____fps) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SongProfilingController) == 0x30, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongProfilingController, ____previousTargetFps) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProfilingController, ____didApplyTargetFps) == 0x34, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::SongProfilingController) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

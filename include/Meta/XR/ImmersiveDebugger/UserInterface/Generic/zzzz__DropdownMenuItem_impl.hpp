@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::Setup)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x591fd34;
+  constexpr static std::size_t addrs = 0x5a59438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::RegisterDropdownSourceMenu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591fe5c;
+  constexpr static std::size_t addrs = 0x5a59560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::OnPointerClick)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x591fe64;
+  constexpr static std::size_t addrs = 0x5a59568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x591fe8c;
+  constexpr static std::size_t addrs = 0x5a59590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

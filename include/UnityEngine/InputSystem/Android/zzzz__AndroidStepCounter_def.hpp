@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidStepCounter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x646968c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a6458, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   AndroidStepCounter(AndroidStepCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

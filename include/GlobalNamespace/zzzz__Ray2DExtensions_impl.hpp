@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Ray2D, ::UnityEngine::Vector2, float_t, ::ArrayW<float_t>)>(
     &::GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3269ef8;
+  constexpr static std::size_t addrs = 0x33244b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

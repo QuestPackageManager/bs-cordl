@@ -40,27 +40,27 @@ public:
   /// @brief Field ANONYMOUS_SENDER, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ANONYMOUS_SENDER, put = setStaticF_ANONYMOUS_SENDER)) ::ArrayW<uint8_t> ANONYMOUS_SENDER;
 
-  /// @brief Method CreateKey, addr 0x34d1004, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x358d4bc, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateKey(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData, ::Org::BouncyCastle::Math::EC::ECPoint* s);
 
-  /// @brief Method CreateUserKeyingMaterial, addr 0x34e65ec, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CreateUserKeyingMaterial, addr 0x35a2aa4, size 0x26c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateUserKeyingMaterial(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method GetAgreementAlgorithm, addr 0x34e629c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetAgreementAlgorithm, addr 0x35a2754, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW GetAgreementAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method GetKeyEncryptionOID, addr 0x34e6420, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetKeyEncryptionOID, addr 0x35a28d8, size 0x13c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetKeyEncryptionOID(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method GetKeyLength, addr 0x34e655c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKeyLength, addr 0x35a2a14, size 0x90, virtual false, abstract: false, final false
   static inline int32_t GetKeyLength(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method Kdf, addr 0x34e6858, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Kdf, addr 0x35a2d10, size 0x388, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Kdf(::Org::BouncyCastle::Bcpg::HashAlgorithmTag digestAlg, ::Org::BouncyCastle::Math::EC::ECPoint* s, int32_t keyLen, ::ArrayW<uint8_t> parameters);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34e6298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a2750, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_ANONYMOUS_SENDER();

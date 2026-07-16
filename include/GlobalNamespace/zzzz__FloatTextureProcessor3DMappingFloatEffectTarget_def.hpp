@@ -80,7 +80,7 @@ public:
   static ::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget_TextureProcessor3DMapping const XYZDisplacementScale;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -131,13 +131,13 @@ public:
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x58559d0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598dd7c, size 0x208, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x58559cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598dd78, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x5855bd8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598df84, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr bool const& __cordl_internal_get__invertAxis() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5855bdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598df88, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF__propertyStrings();
@@ -204,7 +204,7 @@ public:
   FloatTextureProcessor3DMappingFloatEffectTarget(FloatTextureProcessor3DMappingFloatEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5838 };
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;

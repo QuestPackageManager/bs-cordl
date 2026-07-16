@@ -87,7 +87,7 @@ public:
   static ::TrueOverdraw::TrueOverdraw_OverdrawType const Transparent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23489 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -167,36 +167,36 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Disable, addr 0x5e04318, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x5f3c63c, size 0x22c, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Dispose, addr 0x5e04544, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f3c868, size 0xe4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Enable, addr 0x5e03c14, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x5f3bf38, size 0x2e4, virtual false, abstract: false, final false
   inline void Enable();
 
   static inline ::TrueOverdraw::TrueOverdraw* New_ctor(::ArrayW<::UnityEngine::Renderer*> renderers);
 
-  /// @brief Method ResolveRendererColor, addr 0x5e03fa4, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ResolveRendererColor, addr 0x5f3c2c8, size 0x260, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ResolveRendererColor(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material);
 
-  /// @brief Method SetGlobalFloats, addr 0x5e03ef8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalFloats, addr 0x5f3c21c, size 0xac, virtual false, abstract: false, final false
   static inline void SetGlobalFloats(float_t trueOverdraw, float_t opaque, float_t transparent);
 
-  /// @brief Method SetMaterialValues, addr 0x5e04204, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialValues, addr 0x5f3c528, size 0x114, virtual false, abstract: false, final false
   static inline void SetMaterialValues(::UnityEngine::Material* material, ::UnityEngine::Color color);
 
-  /// @brief Method SetOverdrawValues, addr 0x5e0468c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetOverdrawValues, addr 0x5f3c9b0, size 0xc8, virtual false, abstract: false, final false
   static inline void SetOverdrawValues(float_t opaque, float_t transparent);
 
-  /// @brief Method ShowEverything, addr 0x5e04628, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShowEverything, addr 0x5f3c94c, size 0x64, virtual false, abstract: false, final false
   inline void ShowEverything();
 
-  /// @brief Method ShowOnlyOpaque, addr 0x5e047b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShowOnlyOpaque, addr 0x5f3cadc, size 0x64, virtual false, abstract: false, final false
   inline void ShowOnlyOpaque();
 
-  /// @brief Method ShowOnlyTransparent, addr 0x5e04754, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShowOnlyTransparent, addr 0x5f3ca78, size 0x64, virtual false, abstract: false, final false
   inline void ShowOnlyTransparent();
 
   constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>>> const& __cordl_internal_get__cachedMaterialInstances() const;
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>> value);
 
-  /// @brief Method .ctor, addr 0x5e0385c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3bb80, size 0x3b8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Renderer*> renderers);
 
   static inline int32_t getStaticF__blendDstAlphaFactor();
@@ -248,10 +248,10 @@ public:
 
   static inline int32_t getStaticF__trueOverdrawProperty();
 
-  /// @brief Method get_overdrawType, addr 0x5e0384c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overdrawType, addr 0x5f3bb70, size 0x8, virtual false, abstract: false, final false
   inline ::TrueOverdraw::TrueOverdraw_OverdrawType get_overdrawType();
 
-  /// @brief Method get_renderersLength, addr 0x5e03834, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderersLength, addr 0x5f3bb58, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_renderersLength();
 
   /// @brief Convert to "::System::IDisposable"
@@ -279,7 +279,7 @@ public:
 
   static inline void setStaticF__trueOverdrawProperty(int32_t value);
 
-  /// @brief Method set_overdrawType, addr 0x5e03854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overdrawType, addr 0x5f3bb78, size 0x8, virtual false, abstract: false, final false
   inline void set_overdrawType(::TrueOverdraw::TrueOverdraw_OverdrawType value);
 
 protected:
@@ -297,7 +297,7 @@ public:
   TrueOverdraw(TrueOverdraw const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23490 };
 
   /// @brief Field kOverdrawViewKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kOverdrawViewKeyword{ u"OVERDRAW_VIEW" };

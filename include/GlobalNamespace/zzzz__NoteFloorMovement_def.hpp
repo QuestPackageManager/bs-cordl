@@ -83,18 +83,18 @@ public:
 
   __declspec(property(get = get_worldRotation)) ::UnityEngine::Quaternion worldRotation;
 
-  /// @brief Method Init, addr 0x579ab74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58d79c4, size 0x78, virtual false, abstract: false, final false
   inline void Init(float_t worldRotation, float_t beatTime, ::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset);
 
-  /// @brief Method ManualUpdate, addr 0x579af98, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58d7de8, size 0x3b8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteFloorMovement* New_ctor();
 
-  /// @brief Method SetToStart, addr 0x579ae0c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method SetToStart, addr 0x58d7c5c, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SetToStart();
 
-  /// @brief Method ShouldMove, addr 0x579abec, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ShouldMove, addr 0x58d7a3c, size 0x220, virtual false, abstract: false, final false
   inline bool ShouldMove();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -157,25 +157,25 @@ public:
 
   constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x579b350, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d81a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distanceToPlayer, addr 0x579aa48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x58d7898, size 0x40, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_endPos, addr 0x579aa88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_endPos, addr 0x58d78d8, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPos();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x579ab5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x58d79ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_localPosition, addr 0x579ab68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x58d79b8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_noteTime, addr 0x579ab48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteTime, addr 0x58d7998, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteTime();
 
-  /// @brief Method get_worldRotation, addr 0x579ab50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x58d79a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
 protected:
@@ -193,7 +193,7 @@ public:
   NoteFloorMovement(NoteFloorMovement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5689 };
 
   /// @brief Field _rotatedObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rotatedObject;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::*)(::System::AggregateException*)>(
     &::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b8b17c;
+  constexpr static std::size_t addrs = 0x5cc52cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

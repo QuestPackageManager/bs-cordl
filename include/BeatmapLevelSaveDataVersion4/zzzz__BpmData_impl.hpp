@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapLevelSaveDataVersion4::BpmData::*)()>(&::BeatmapLevelSaveDataVersion4::BpmData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369f968;
+  constexpr static std::size_t addrs = 0x375b9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapLevelSaveDataVersion4::BpmData*>(), { "get_beat", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapLevelSaveDataVersion4::BpmData::*)()>(&::BeatmapLevelSaveDataVersion4::BpmData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x369f970;
+  constexpr static std::size_t addrs = 0x375b9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapLevelSaveDataVersion4::BpmData*>(), { ".ctor", {}, {} })));

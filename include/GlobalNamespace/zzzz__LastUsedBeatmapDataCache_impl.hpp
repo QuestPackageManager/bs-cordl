@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LastUsedBeatmapDataCache::*)(
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3651524;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x370e260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,8 +33,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LastUsedBeatmapDataCache::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::IEnvironmentInfo*,
                                                                                                              ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreSameBeatmapDataCached)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3651540;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x370e270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredGameplayModifiersSame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3651600;
+  constexpr static std::size_t addrs = 0x370e340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredPlayerSettingsSame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x365161c;
+  constexpr static std::size_t addrs = 0x370e35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -97,7 +97,7 @@ public:
   ManagerUtils_RegisterMember_1(ManagerUtils_RegisterMember_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,7 +133,7 @@ public:
   ManagerUtils(ManagerUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

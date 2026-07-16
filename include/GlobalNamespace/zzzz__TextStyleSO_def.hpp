@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__textStyle(::GlobalNamespace::TextStyle* value);
 
-  /// @brief Method .ctor, addr 0x3232c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c9714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_languageOverrides, addr 0x3232c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_languageOverrides, addr 0x32c970c, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* get_languageOverrides();
 
-  /// @brief Method get_textStyle, addr 0x3232c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textStyle, addr 0x32c9704, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyTextStyle* get_textStyle();
 
 protected:
@@ -81,7 +81,7 @@ public:
   TextStyleSO(TextStyleSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23577 };
 
   /// @brief Field _textStyle, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TextStyle* ____textStyle;

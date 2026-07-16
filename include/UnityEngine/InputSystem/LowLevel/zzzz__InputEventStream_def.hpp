@@ -37,37 +37,37 @@ public:
 
   __declspec(property(get = get_remainingEventCount)) int32_t remainingEventCount;
 
-  /// @brief Method Advance, addr 0x646f2fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x65ac0c8, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Advance(bool leaveEventInBuffer);
 
-  /// @brief Method CleanUpAfterException, addr 0x646f098, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAfterException, addr 0x65abe64, size 0x70, virtual false, abstract: false, final false
   inline void CleanUpAfterException();
 
-  /// @brief Method Close, addr 0x646ef78, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x65abd44, size 0x120, virtual false, abstract: false, final false
   inline void Close(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method Peek, addr 0x646f39c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x65ac168, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Peek();
 
-  /// @brief Method Write, addr 0x646f108, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x65abed4, size 0x1f4, virtual false, abstract: false, final false
   inline void Write(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr);
 
-  /// @brief Method .ctor, addr 0x646eef4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65abcc0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents);
 
-  /// @brief Method get_currentEventPtr, addr 0x646ee74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_currentEventPtr, addr 0x65abc40, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* get_currentEventPtr();
 
-  /// @brief Method get_isOpen, addr 0x646ee54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOpen, addr 0x65abc20, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOpen();
 
-  /// @brief Method get_numBytesRetainedInBuffer, addr 0x646eea8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_numBytesRetainedInBuffer, addr 0x65abc74, size 0x4c, virtual false, abstract: false, final false
   inline uint32_t get_numBytesRetainedInBuffer();
 
-  /// @brief Method get_numEventsRetainedInBuffer, addr 0x646ee6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numEventsRetainedInBuffer, addr 0x65abc38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numEventsRetainedInBuffer();
 
-  /// @brief Method get_remainingEventCount, addr 0x646ee5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_remainingEventCount, addr 0x65abc28, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_remainingEventCount();
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
                              bool m_IsOpen) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };

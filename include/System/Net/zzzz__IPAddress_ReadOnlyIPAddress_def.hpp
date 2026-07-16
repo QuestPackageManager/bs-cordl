@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::IPAddress_ReadOnlyIPAddress* New_ctor(int64_t newAddress);
 
-  /// @brief Method .ctor, addr 0x62b9ad4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f5b70, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int64_t newAddress);
 
 protected:
@@ -40,7 +40,7 @@ public:
   IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

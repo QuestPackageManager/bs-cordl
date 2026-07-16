@@ -29,10 +29,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6bc76b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d1b570, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6bc76b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1b56c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Convert to "::System::IDisposable"

@@ -74,21 +74,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x593e904, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a78008, size 0x16c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x593ea70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a78174, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x593ea78, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a7817c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x593eab0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a781b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x593e900, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5a78004, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x593e468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a77b6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -142,7 +142,7 @@ public:
   PlayerNameTagSpawner__SpawnCoroutine_d__4(PlayerNameTagSpawner__SpawnCoroutine_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20756 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -188,18 +188,18 @@ public:
   /// @brief Field namePrefix, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_namePrefix, put = __cordl_internal_set_namePrefix)) ::ArrayW<::StringW> namePrefix;
 
-  /// @brief Method GetRandomName, addr 0x593e61c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetRandomName, addr 0x5a77d20, size 0x124, virtual false, abstract: false, final false
   inline ::StringW GetRandomName();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner* New_ctor();
 
-  /// @brief Method OnEntitlementFinished, addr 0x593e470, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnEntitlementFinished, addr 0x5a77b74, size 0x1ac, virtual false, abstract: false, final false
   inline void OnEntitlementFinished(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo info);
 
-  /// @brief Method SpawnCoroutine, addr 0x593e408, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SpawnCoroutine, addr 0x5a77b0c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnCoroutine(::StringW playerName);
 
-  /// @brief Method Start, addr 0x593e360, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a77a64, size 0xa8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Meta::XR::MultiplayerBlocks::Shared::INameTagSpawner* const& __cordl_internal_get__nameTagSpawner() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_namePrefix(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x593e740, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a77e44, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   PlayerNameTagSpawner(PlayerNameTagSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20757 };
 
   /// @brief Field namePrefix, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW> ___namePrefix;

@@ -75,45 +75,45 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginReceive, addr 0x622b2c0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method BeginReceive, addr 0x63663bc, size 0x13c, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginReceive(::System::AsyncCallback* requestCallback, ::System::Object* state);
 
-  /// @brief Method BeginSend, addr 0x622b01c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method BeginSend, addr 0x6366118, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginSend(::ArrayW<uint8_t> datagram, int32_t bytes, ::System::Net::IPEndPoint* endPoint, ::System::AsyncCallback* requestCallback, ::System::Object* state);
 
-  /// @brief Method CheckForBroadcast, addr 0x622af38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckForBroadcast, addr 0x6366034, size 0x58, virtual false, abstract: false, final false
   inline void CheckForBroadcast(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method Dispose, addr 0x622aea4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6365fa0, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x622aeb4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6365fb0, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndReceive, addr 0x622b3fc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method EndReceive, addr 0x63664f8, size 0x1f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> EndReceive(::System::IAsyncResult* asyncResult, ::by_ref<::System::Net::IPEndPoint*> remoteEP);
 
-  /// @brief Method EndSend, addr 0x622b218, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EndSend, addr 0x6366314, size 0xa8, virtual false, abstract: false, final false
   inline int32_t EndSend(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method FreeResources, addr 0x622ae50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FreeResources, addr 0x6365f4c, size 0x54, virtual false, abstract: false, final false
   inline void FreeResources();
 
-  /// @brief Method IsBroadcast, addr 0x622af90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsBroadcast, addr 0x636608c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsBroadcast(::System::Net::IPAddress* address);
 
   static inline ::System::Net::Sockets::UdpClient* New_ctor(::System::Net::Sockets::AddressFamily family);
 
-  /// @brief Method ReceiveAsync, addr 0x622b73c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReceiveAsync, addr 0x6366838, size 0x138, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Sockets::UdpReceiveResult>* ReceiveAsync();
 
-  /// @brief Method SendAsync, addr 0x622b5f4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x63666f0, size 0x148, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* SendAsync(::ArrayW<uint8_t> datagram, int32_t bytes, ::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method <ReceiveAsync>b__65_0, addr 0x622b874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ReceiveAsync>b__65_0, addr 0x6366970, size 0x4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _ReceiveAsync_b__65_0(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method <ReceiveAsync>b__65_1, addr 0x622b878, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <ReceiveAsync>b__65_1, addr 0x6366974, size 0x34, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::UdpReceiveResult _ReceiveAsync_b__65_1(::System::IAsyncResult* ar);
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
@@ -152,19 +152,19 @@ public:
 
   constexpr void __cordl_internal_set_m_IsBroadcast(bool value);
 
-  /// @brief Method .ctor, addr 0x622ac9c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6365d98, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family);
 
-  /// @brief Method createClientSocket, addr 0x622add4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method createClientSocket, addr 0x6365ed0, size 0x6c, virtual false, abstract: false, final false
   inline void createClientSocket();
 
-  /// @brief Method get_Client, addr 0x622ae40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Client, addr 0x6365f3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_Client();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Client, addr 0x622ae48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Client, addr 0x6365f44, size 0x8, virtual false, abstract: false, final false
   inline void set_Client(::System::Net::Sockets::Socket* value);
 
 protected:
@@ -182,7 +182,7 @@ public:
   UdpClient(UdpClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11754 };
 
   /// @brief Field m_ClientSocket, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___m_ClientSocket;

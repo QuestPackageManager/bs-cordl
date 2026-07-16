@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)()>(&::UnityEngine::Rendering::FrameTimeSampleHistory___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x662a89c;
+  constexpr static std::size_t addrs = 0x6767fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x662a8a0;
+  constexpr static std::size_t addrs = 0x6767fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x662a8a8;
+  constexpr static std::size_t addrs = 0x6767fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x662a8bc;
+  constexpr static std::size_t addrs = 0x6767fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x662a8c8;
+  constexpr static std::size_t addrs = 0x6767fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x662a8dc;
+  constexpr static std::size_t addrs = 0x6767fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_5)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x662a8ec;
+  constexpr static std::size_t addrs = 0x6767ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>(),
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)(int32_t)>(&::UnityEngine::Rendering::FrameTimeSampleHistory::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x661dbb4;
+  constexpr static std::size_t addrs = 0x675b2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)(::UnityEngine::Rendering::FrameTimeSample)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory::Add)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x661dfa0;
+  constexpr static std::size_t addrs = 0x675b6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)()>(&::UnityEngine::Rendering::FrameTimeSampleHistory::ComputeAggregateValues)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x661e088;
+  constexpr static std::size_t addrs = 0x675b794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)(int32_t)>(&::UnityEngine::Rendering::FrameTimeSampleHistory::DiscardOldSamples)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x661def0;
+  constexpr static std::size_t addrs = 0x675b5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)()>(&::UnityEngine::Rendering::FrameTimeSampleHistory::Clear)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x661fbe4;
+  constexpr static std::size_t addrs = 0x675d2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSampleHistory*>(), { "Clear", {}, {} })));
@@ -227,7 +227,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::UnityEngine::Rendering::FrameTimeSample>, ::UnityEngine::Rendering::FrameTimeSample, ::System::Func_3<float_t, float_t, float_t>*)>(
         &::UnityEngine::Rendering::FrameTimeSampleHistory::_ComputeAggregateValues_g__ForEachSampleMember_12_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x662a514;
+  constexpr static std::size_t addrs = 0x6767c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

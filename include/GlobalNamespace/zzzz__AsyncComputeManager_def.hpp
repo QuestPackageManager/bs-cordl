@@ -59,13 +59,13 @@ public:
   /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
 
-  /// @brief Method BeginOperation, addr 0x326e0c4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method BeginOperation, addr 0x332a57c, size 0x78, virtual true, abstract: false, final true
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
 
-  /// @brief Method ComputeThreadRun, addr 0x326e13c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ComputeThreadRun, addr 0x332a5f4, size 0x170, virtual false, abstract: false, final false
   inline void ComputeThreadRun();
 
-  /// @brief Method Dispose, addr 0x326e058, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x332a510, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__disposed(bool value);
 
-  /// @brief Method .ctor, addr 0x326df08, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332a3c0, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
@@ -112,7 +112,7 @@ public:
   AsyncComputeManager(AsyncComputeManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18081 };
 
   /// @brief Field _asyncComputeRequests, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* ____asyncComputeRequests;

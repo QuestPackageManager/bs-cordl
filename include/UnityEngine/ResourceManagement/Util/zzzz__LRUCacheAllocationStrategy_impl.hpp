@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::_ctor)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x67c7a44;
+  constexpr static std::size_t addrs = 0x6906514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Object*>* (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)()>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::GetPool)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x67d34dc;
+  constexpr static std::size_t addrs = 0x6911fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ReleasePool)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67d35e0;
+  constexpr static std::size_t addrs = 0x69120b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(::System::Type*, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x67d36b4;
+  constexpr static std::size_t addrs = 0x6912184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::Release)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x67d3810;
+  constexpr static std::size_t addrs = 0x69122e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*>(),

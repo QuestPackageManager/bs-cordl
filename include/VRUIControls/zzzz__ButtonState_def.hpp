@@ -62,25 +62,25 @@ public:
 
   constexpr void __cordl_internal_set__pressedValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x6ce008c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e37048, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x6ce006c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x6e37028, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
 
-  /// @brief Method get_eventData, addr 0x6ce005c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventData, addr 0x6e37018, size 0x8, virtual false, abstract: false, final false
   inline ::VRUIControls::MouseButtonEventData* get_eventData();
 
-  /// @brief Method get_pressedValue, addr 0x6ce007c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedValue, addr 0x6e37038, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedValue();
 
-  /// @brief Method set_button, addr 0x6ce0074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x6e37030, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
-  /// @brief Method set_eventData, addr 0x6ce0064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventData, addr 0x6e37020, size 0x8, virtual false, abstract: false, final false
   inline void set_eventData(::VRUIControls::MouseButtonEventData* value);
 
-  /// @brief Method set_pressedValue, addr 0x6ce0084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedValue, addr 0x6e37040, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedValue(float_t value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ButtonState(ButtonState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22771 };
 
   /// @brief Field _button, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventSystems::PointerEventData_InputButton ____button;

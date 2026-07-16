@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::InputForUI::NavigationEventRepeatHelper* New_ctor();
 
-  /// @brief Method Reset, addr 0x6a09448, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b5cf24, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldSendMoveEvent, addr 0x6a094b0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendMoveEvent, addr 0x6b5cf8c, size 0x118, virtual false, abstract: false, final false
   inline bool ShouldSendMoveEvent(::Unity::IntegerTime::DiscreteTime timestamp, ::UnityEngine::InputForUI::NavigationEvent_Direction direction, bool axisButtonsWherePressedThisFrame);
 
   constexpr int32_t const& __cordl_internal_get_m_ConsecutiveMoveCount() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PrevActionTime(::Unity::IntegerTime::DiscreteTime value);
 
-  /// @brief Method .ctor, addr 0x6a06a84, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b5a560, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   NavigationEventRepeatHelper(NavigationEventRepeatHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21785 };
 
   /// @brief Field m_ConsecutiveMoveCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_ConsecutiveMoveCount;

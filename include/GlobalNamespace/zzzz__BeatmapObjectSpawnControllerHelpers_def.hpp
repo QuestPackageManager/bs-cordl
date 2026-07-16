@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues, addr 0x579018c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetNoteJumpValues, addr 0x58ccff0, size 0x34, virtual false, abstract: false, final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
                                        ::by_ref<::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType> noteJumpValueType, ::by_ref<float_t> noteJumpValue);
 
@@ -45,7 +45,7 @@ public:
   BeatmapObjectSpawnControllerHelpers(BeatmapObjectSpawnControllerHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -74,7 +74,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version const Latest;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12449 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,7 +117,7 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x66aad18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x67e8424, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_CoreCopyPS() const;
@@ -132,10 +132,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version value);
 
-  /// @brief Method .ctor, addr 0x66aad98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e84a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_coreCopyPS, addr 0x66aad20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coreCopyPS, addr 0x67e842c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_coreCopyPS();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -144,7 +144,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_coreCopyPS, addr 0x66aad28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_coreCopyPS, addr 0x67e8434, size 0x70, virtual false, abstract: false, final false
   inline void set_coreCopyPS(::UnityEngine::Shader* value);
 
 protected:
@@ -162,7 +162,7 @@ public:
   RenderGraphUtilsResources(RenderGraphUtilsResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12450 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version ___m_Version;

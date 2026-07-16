@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer<::GlobalNamespace::IBeatSaberConnectedPlayer*>"
   constexpr operator ::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer<::GlobalNamespace::IBeatSaberConnectedPlayer*>*();
 
-  /// @brief Method InitializeLocalPlayerSessionState, addr 0x321f8b0, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method InitializeLocalPlayerSessionState, addr 0x32b72e0, size 0x284, virtual true, abstract: false, final true
   inline void InitializeLocalPlayerSessionState();
 
-  /// @brief Method .ctor, addr 0x321f8a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b72d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::MultiplayerSessionType multiplayerSessionType);
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer<::GlobalNamespace::IBeatSaberConnectedPlayer*>"
@@ -55,7 +55,7 @@ public:
                                           ::GlobalNamespace::MultiplayerSessionType _multiplayerSessionType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

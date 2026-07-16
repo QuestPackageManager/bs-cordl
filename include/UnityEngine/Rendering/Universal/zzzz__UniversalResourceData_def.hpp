@@ -162,7 +162,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalResourceData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6733308, size 0x85c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6871c84, size 0x85c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID const& __cordl_internal_get__activeColorID_k__BackingField() const;
@@ -309,160 +309,160 @@ public:
 
   constexpr void __cordl_internal_set__stpDebugView(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6733b64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68724e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeColorID, addr 0x6732c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeColorID, addr 0x6871580, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID get_activeColorID();
 
-  /// @brief Method get_activeColorTexture, addr 0x6732c14, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_activeColorTexture, addr 0x6871590, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_activeColorTexture();
 
-  /// @brief Method get_activeDepthID, addr 0x6732d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeDepthID, addr 0x68716a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID get_activeDepthID();
 
-  /// @brief Method get_activeDepthTexture, addr 0x6732d34, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_activeDepthTexture, addr 0x68716b0, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_activeDepthTexture();
 
-  /// @brief Method get_additionalShadowsTexture, addr 0x6732fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalShadowsTexture, addr 0x687194c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_additionalShadowsTexture();
 
-  /// @brief Method get_afterPostProcessColor, addr 0x67331bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_afterPostProcessColor, addr 0x6871b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_afterPostProcessColor();
 
-  /// @brief Method get_backBufferColor, addr 0x6732d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backBufferColor, addr 0x6871698, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_backBufferColor();
 
-  /// @brief Method get_backBufferDepth, addr 0x6732e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backBufferDepth, addr 0x68717b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_backBufferDepth();
 
-  /// @brief Method get_cameraColor, addr 0x6732d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraColor, addr 0x6871690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_cameraColor();
 
-  /// @brief Method get_cameraDepth, addr 0x6732e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraDepth, addr 0x68717b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_cameraDepth();
 
-  /// @brief Method get_cameraDepthTexture, addr 0x6733050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraDepthTexture, addr 0x68719cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_cameraDepthTexture();
 
-  /// @brief Method get_cameraNormalsTexture, addr 0x6733084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraNormalsTexture, addr 0x6871a00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_cameraNormalsTexture();
 
-  /// @brief Method get_cameraOpaqueTexture, addr 0x673301c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraOpaqueTexture, addr 0x6871998, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_cameraOpaqueTexture();
 
-  /// @brief Method get_dBuffer, addr 0x6733258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dBuffer, addr 0x6871bd4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> get_dBuffer();
 
-  /// @brief Method get_dBufferDepth, addr 0x673326c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dBufferDepth, addr 0x6871be8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_dBufferDepth();
 
-  /// @brief Method get_debugScreenColor, addr 0x6733154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugScreenColor, addr 0x6871ad0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_debugScreenColor();
 
-  /// @brief Method get_debugScreenDepth, addr 0x6733188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugScreenDepth, addr 0x6871b04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_debugScreenDepth();
 
-  /// @brief Method get_gBuffer, addr 0x6733008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gBuffer, addr 0x6871984, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> get_gBuffer();
 
-  /// @brief Method get_internalColorLut, addr 0x6733120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_internalColorLut, addr 0x6871a9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_internalColorLut();
 
-  /// @brief Method get_isActiveTargetBackBuffer, addr 0x6732e44, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveTargetBackBuffer, addr 0x68717c0, size 0x94, virtual false, abstract: false, final false
   inline bool get_isActiveTargetBackBuffer();
 
-  /// @brief Method get_mainShadowsTexture, addr 0x6732f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainShadowsTexture, addr 0x6871914, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_mainShadowsTexture();
 
-  /// @brief Method get_motionVectorColor, addr 0x67330b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_motionVectorColor, addr 0x6871a34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_motionVectorColor();
 
-  /// @brief Method get_motionVectorDepth, addr 0x67330ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_motionVectorDepth, addr 0x6871a68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_motionVectorDepth();
 
-  /// @brief Method get_overlayUITexture, addr 0x67331f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overlayUITexture, addr 0x6871b6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_overlayUITexture();
 
-  /// @brief Method get_renderingLayersTexture, addr 0x6733224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingLayersTexture, addr 0x6871ba0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_renderingLayersTexture();
 
-  /// @brief Method get_ssaoTexture, addr 0x67332a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ssaoTexture, addr 0x6871c1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_ssaoTexture();
 
-  /// @brief Method get_stpDebugView, addr 0x67332d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stpDebugView, addr 0x6871c50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_stpDebugView();
 
-  /// @brief Method set_activeColorID, addr 0x6732c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeColorID, addr 0x6871588, size 0x8, virtual false, abstract: false, final false
   inline void set_activeColorID(::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID value);
 
-  /// @brief Method set_activeDepthID, addr 0x6732d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeDepthID, addr 0x68716a8, size 0x8, virtual false, abstract: false, final false
   inline void set_activeDepthID(::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID value);
 
-  /// @brief Method set_additionalShadowsTexture, addr 0x6732fd8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_additionalShadowsTexture, addr 0x6871954, size 0x30, virtual false, abstract: false, final false
   inline void set_additionalShadowsTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_afterPostProcessColor, addr 0x67331c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_afterPostProcessColor, addr 0x6871b40, size 0x2c, virtual false, abstract: false, final false
   inline void set_afterPostProcessColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_backBufferColor, addr 0x6732ed8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_backBufferColor, addr 0x6871854, size 0x30, virtual false, abstract: false, final false
   inline void set_backBufferColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_backBufferDepth, addr 0x6732f08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_backBufferDepth, addr 0x6871884, size 0x30, virtual false, abstract: false, final false
   inline void set_backBufferDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_cameraColor, addr 0x6732f38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_cameraColor, addr 0x68718b4, size 0x30, virtual false, abstract: false, final false
   inline void set_cameraColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_cameraDepth, addr 0x6732f68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_cameraDepth, addr 0x68718e4, size 0x30, virtual false, abstract: false, final false
   inline void set_cameraDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_cameraDepthTexture, addr 0x6733058, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_cameraDepthTexture, addr 0x68719d4, size 0x2c, virtual false, abstract: false, final false
   inline void set_cameraDepthTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_cameraNormalsTexture, addr 0x673308c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_cameraNormalsTexture, addr 0x6871a08, size 0x2c, virtual false, abstract: false, final false
   inline void set_cameraNormalsTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_cameraOpaqueTexture, addr 0x6733024, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_cameraOpaqueTexture, addr 0x68719a0, size 0x2c, virtual false, abstract: false, final false
   inline void set_cameraOpaqueTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_dBuffer, addr 0x6733260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dBuffer, addr 0x6871bdc, size 0xc, virtual false, abstract: false, final false
   inline void set_dBuffer(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method set_dBufferDepth, addr 0x6733274, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_dBufferDepth, addr 0x6871bf0, size 0x2c, virtual false, abstract: false, final false
   inline void set_dBufferDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_debugScreenColor, addr 0x673315c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_debugScreenColor, addr 0x6871ad8, size 0x2c, virtual false, abstract: false, final false
   inline void set_debugScreenColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_debugScreenDepth, addr 0x6733190, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_debugScreenDepth, addr 0x6871b0c, size 0x2c, virtual false, abstract: false, final false
   inline void set_debugScreenDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_gBuffer, addr 0x6733010, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_gBuffer, addr 0x687198c, size 0xc, virtual false, abstract: false, final false
   inline void set_gBuffer(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method set_internalColorLut, addr 0x6733128, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_internalColorLut, addr 0x6871aa4, size 0x2c, virtual false, abstract: false, final false
   inline void set_internalColorLut(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_mainShadowsTexture, addr 0x6732fa0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_mainShadowsTexture, addr 0x687191c, size 0x30, virtual false, abstract: false, final false
   inline void set_mainShadowsTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_motionVectorColor, addr 0x67330c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_motionVectorColor, addr 0x6871a3c, size 0x2c, virtual false, abstract: false, final false
   inline void set_motionVectorColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_motionVectorDepth, addr 0x67330f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_motionVectorDepth, addr 0x6871a70, size 0x2c, virtual false, abstract: false, final false
   inline void set_motionVectorDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_overlayUITexture, addr 0x67331f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_overlayUITexture, addr 0x6871b74, size 0x2c, virtual false, abstract: false, final false
   inline void set_overlayUITexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_renderingLayersTexture, addr 0x673322c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_renderingLayersTexture, addr 0x6871ba8, size 0x2c, virtual false, abstract: false, final false
   inline void set_renderingLayersTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_ssaoTexture, addr 0x67332a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_ssaoTexture, addr 0x6871c24, size 0x2c, virtual false, abstract: false, final false
   inline void set_ssaoTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_stpDebugView, addr 0x67332dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_stpDebugView, addr 0x6871c58, size 0x2c, virtual false, abstract: false, final false
   inline void set_stpDebugView(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
 protected:
@@ -480,7 +480,7 @@ public:
   UniversalResourceData(UniversalResourceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12733 };
 
   /// @brief Field <activeColorID>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID ____activeColorID_k__BackingField;

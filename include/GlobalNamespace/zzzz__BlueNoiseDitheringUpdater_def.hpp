@@ -14,6 +14,9 @@ class IRandom;
 namespace GlobalNamespace {
 class RandomValueToShader;
 }
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
+}
 namespace UnityEngine {
 class Camera;
 }
@@ -37,18 +40,18 @@ public:
   /// @brief Field _randomValueToShader, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__randomValueToShader, put = __cordl_internal_set__randomValueToShader)) ::UnityW<::GlobalNamespace::RandomValueToShader> _randomValueToShader;
 
-  /// @brief Method HandleCameraPreRender, addr 0x57244cc, size 0x60, virtual false, abstract: false, final false
-  inline void HandleCameraPreRender(::UnityEngine::Camera* camera);
+  /// @brief Method HandleCameraPreRender, addr 0x586b0c8, size 0xc8, virtual false, abstract: false, final false
+  inline void HandleCameraPreRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method Init, addr 0x572425c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x586af30, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IRandom* random);
 
   static inline ::GlobalNamespace::BlueNoiseDitheringUpdater* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x57243dc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x586b020, size 0xa8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5724274, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x586af48, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::BlueNoiseDithering> const& __cordl_internal_get__blueNoiseDithering() const;
@@ -63,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__randomValueToShader(::UnityW<::GlobalNamespace::RandomValueToShader> value);
 
-  /// @brief Method .ctor, addr 0x5724650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586b2b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +84,7 @@ public:
   BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19460 };
 
   /// @brief Field _blueNoiseDithering, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BlueNoiseDithering> ____blueNoiseDithering;

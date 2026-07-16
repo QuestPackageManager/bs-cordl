@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67d4e5c;
+  constexpr static std::size_t addrs = 0x691392c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

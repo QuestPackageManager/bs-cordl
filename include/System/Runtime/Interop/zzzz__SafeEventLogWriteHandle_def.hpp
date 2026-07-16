@@ -23,18 +23,18 @@ namespace System::Runtime::Interop {
 class CORDL_TYPE SafeEventLogWriteHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
-  /// @brief Method DeregisterEventSource, addr 0x6049f98, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DeregisterEventSource, addr 0x6185094, size 0x88, virtual false, abstract: false, final false
   static inline bool DeregisterEventSource(::System::IntPtr hEventLog);
 
   static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* New_ctor();
 
-  /// @brief Method RegisterEventSource, addr 0x6049de8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventSource, addr 0x6184ee4, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* RegisterEventSource(::StringW uncServerName, ::StringW sourceName);
 
-  /// @brief Method ReleaseHandle, addr 0x604a020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x618511c, size 0x8, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x6049d94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6184e90, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   SafeEventLogWriteHandle(SafeEventLogWriteHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

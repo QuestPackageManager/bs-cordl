@@ -95,7 +95,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_DepthSource const DepthNormals;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12893 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,7 +154,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_NormalQuality const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -213,7 +213,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOSampleOption const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12895 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -268,7 +268,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions const InterleavedGradient;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12896 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -327,7 +327,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_BlurQualityOptions const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -474,7 +474,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_DepthSource value);
 
-  /// @brief Method .ctor, addr 0x6760e84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689f800, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -492,7 +492,7 @@ public:
   ScreenSpaceAmbientOcclusionSettings(ScreenSpaceAmbientOcclusionSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12898 };
 
   /// @brief Field AOMethod, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions ___AOMethod;

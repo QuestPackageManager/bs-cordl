@@ -54,13 +54,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x668c234, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x67c9940, size 0x180, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x668c62c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67c9d38, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetComponent, addr 0x668c5b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetComponent, addr 0x67c9cc4, size 0x74, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -68,7 +68,7 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeStack* New_ctor();
 
-  /// @brief Method Reload, addr 0x668c3b4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Reload, addr 0x67c9ac0, size 0x204, virtual false, abstract: false, final false
   inline void Reload(::ArrayW<::System::Type*> componentTypes);
 
   constexpr bool const& __cordl_internal_get__isValid_k__BackingField() const;
@@ -101,16 +101,16 @@ public:
 
   constexpr void __cordl_internal_set_requiresResetForAllProperties(bool value);
 
-  /// @brief Method .ctor, addr 0x668c194, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c98a0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isValid, addr 0x668c644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x67c9d50, size 0x8, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_isValid, addr 0x668c64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isValid, addr 0x67c9d58, size 0x8, virtual false, abstract: false, final false
   inline void set_isValid(bool value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   VolumeStack(VolumeStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12350 };
 
   /// @brief Field components, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityW<::UnityEngine::Rendering::VolumeComponent>>* ___components;

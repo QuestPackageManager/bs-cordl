@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>*)>(
     &::OculusStudios::GraphQL::Client::MutationRequest::add_performRequestCalled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5de8588;
+  constexpr static std::size_t addrs = 0x5f20840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>*)>(
     &::OculusStudios::GraphQL::Client::MutationRequest::remove_performRequestCalled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5de8648;
+  constexpr static std::size_t addrs = 0x5f20900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)(::OculusStudios::GraphQL::Client::GraphQLMutationOperation*, bool)>(
     &::OculusStudios::GraphQL::Client::MutationRequest::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de8708;
+  constexpr static std::size_t addrs = 0x5f209c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)()>(&::OculusStudios::GraphQL::Client::MutationRequest::PerformRequest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5de8784;
+  constexpr static std::size_t addrs = 0x5f20a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* (::OculusStudios::GraphQL::Client::MutationRequest::*)()>(
     &::OculusStudios::GraphQL::Client::MutationRequest::GetCodeGenInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5de87a4;
+  constexpr static std::size_t addrs = 0x5f20a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

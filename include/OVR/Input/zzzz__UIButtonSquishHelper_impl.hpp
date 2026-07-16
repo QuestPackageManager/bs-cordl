@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)()>(&::OVR::Input::UIButtonSquishHelper::Start)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5d0f4a0;
+  constexpr static std::size_t addrs = 0x5e476c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::Input::UIButtonSquishHelper*>(), { "Start", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerEnter)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5d0f518;
+  constexpr static std::size_t addrs = 0x5e47740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerDown)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5d0f5dc;
+  constexpr static std::size_t addrs = 0x5e47804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerExit)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d0f6a0;
+  constexpr static std::size_t addrs = 0x5e478c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerUp)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d0f744;
+  constexpr static std::size_t addrs = 0x5e4796c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)()>(&::OVR::Input::UIButtonSquishHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d0f7e8;
+  constexpr static std::size_t addrs = 0x5e47a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::Input::UIButtonSquishHelper*>(), { ".ctor", {}, {} })));

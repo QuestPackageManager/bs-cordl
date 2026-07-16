@@ -30,21 +30,21 @@ public:
   /// @brief Field _lookAhead, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__lookAhead, put = __cordl_internal_set__lookAhead)) int32_t _lookAhead;
 
-  /// @brief Method CheckForEof, addr 0x35d4b24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckForEof, addr 0x3690fdc, size 0x98, virtual false, abstract: false, final false
   inline bool CheckForEof();
 
   static inline ::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method Read, addr 0x35d4bbc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3691074, size 0x100, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x35d4cbc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3691174, size 0x48, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method RequireByte, addr 0x35d4ac4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RequireByte, addr 0x3690f7c, size 0x60, virtual false, abstract: false, final false
   inline int32_t RequireByte();
 
-  /// @brief Method SetEofOn00, addr 0x35c9990, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetEofOn00, addr 0x3685e48, size 0x10, virtual false, abstract: false, final false
   inline void SetEofOn00(bool eofOn00);
 
   constexpr bool const& __cordl_internal_get__eofOn00() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__lookAhead(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35c52cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3681784, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
 protected:

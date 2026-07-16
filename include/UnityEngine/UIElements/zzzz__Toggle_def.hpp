@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Toggle_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c211c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7507c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   /// @brief Field m_Text, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x6c2122c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d750e4, size 0x138, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Toggle_UxmlTraits* New_ctor();
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6c21364, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7521c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,20 +165,20 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method InitLabel, addr 0x6c20e14, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x6d74ccc, size 0x80, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x6c20e94, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6d74d4c, size 0x174, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
-  /// @brief Method .ctor, addr 0x6c20ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d74b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c20ce8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d74ba0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkUssClassName();

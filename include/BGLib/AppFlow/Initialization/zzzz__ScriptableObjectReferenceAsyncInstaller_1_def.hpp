@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptableObjectReferenceAsyncInstaller_1)
 namespace BGLib::AppFlow::Initialization {
-class AsyncInstaller_IInstallerRegistry;
+class IInstallerRegistry;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4;
+template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -34,21 +34,21 @@ namespace BGLib::AppFlow::Initialization {
 template <typename T> class ScriptableObjectReferenceAsyncInstaller_1;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4;
+template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1);
-MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4);
+MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1, "BGLib.AppFlow.Initialization", "ScriptableObjectReferenceAsyncInstaller`1");
-DEFINE_IL2CPP_GEN_CLASS(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4, "BGLib.AppFlow.Initialization",
-                        "ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__4");
+DEFINE_IL2CPP_GEN_CLASS(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3, "BGLib.AppFlow.Initialization",
+                        "ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__3");
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__4<T>
-struct CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4 {
+// CS Name: BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__3<T>
+struct CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -65,16 +65,16 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4();
+  constexpr ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None }, CppParam {
   // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None }]
-  constexpr ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                             ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21518 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -104,9 +104,9 @@ template <typename T>
 class CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1 : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
-  using _LoadResourcesBeforeInstallAsync_d__4 = ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4<T>;
+  using _LoadResourcesBeforeInstallAsync_d__3 = ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3<T>;
 
-  /// @brief Field _operationHandle, offset 0x28, size 0x18
+  /// @brief Field _operationHandle, offset 0x38, size 0x18
   __declspec(property(get = __cordl_internal_get__operationHandle, put = __cordl_internal_set__operationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>
       _operationHandle;
 
@@ -118,11 +118,8 @@ public:
   /// @brief Method LoadAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> LoadAsync(::StringW runtimeKey);
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* _);
-
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* _);
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* _);
 
   static inline ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>* New_ctor();
 
@@ -156,9 +153,9 @@ public:
   ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21519 };
 
-  /// @brief Field _operationHandle, offset: 0x28, size: 0x18, def value: None
+  /// @brief Field _operationHandle, offset: 0x38, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ____operationHandle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

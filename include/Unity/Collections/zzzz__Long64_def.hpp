@@ -32,7 +32,7 @@ public:
                    ::Unity::Collections::Long8 f5, ::Unity::Collections::Long8 f6, ::Unity::Collections::Long8 f7) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15530 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };

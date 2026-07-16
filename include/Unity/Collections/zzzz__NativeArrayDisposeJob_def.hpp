@@ -26,10 +26,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x69070f4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6a5a49c, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6907138, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6a5a4e0, size 0x44, virtual false, abstract: false, final false
   static inline void RegisterNativeArrayDisposeJobReflectionData();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -43,7 +43,7 @@ public:
   constexpr NativeArrayDisposeJob(::Unity::Collections::NativeArrayDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

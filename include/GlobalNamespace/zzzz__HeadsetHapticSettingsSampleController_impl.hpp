@@ -2,15 +2,15 @@
 // IWYU pragma private; include "GlobalNamespace/HeadsetHapticSettingsSampleController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadsetHapticSettingsSampleController_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
+#include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HeadsetHapticSettingsSampleController.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::Start)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x58e51c0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5a0ed04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { "Start", {}, {} })));
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::OnDestroy)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x58e525c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5a0eda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { "OnDestroy", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::Update)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58e5334;
+  constexpr static std::size_t addrs = 0x5a0ee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { "Update", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::HeadsetHapticSettingsSampleController::HandleHapticSettingValueDidChange)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58e53d8;
+  constexpr static std::size_t addrs = 0x5a0ef24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e544c;
+  constexpr static std::size_t addrs = 0x5a0ef98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { ".ctor", {}, {} })));
@@ -107,27 +107,27 @@ constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticSampleDuration = value;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__headHapticPreset() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__headHapticPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headHapticPreset;
 }
-constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__headHapticPreset() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__headHapticPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headHapticPreset;
 }
-constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_set__headHapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
+constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_set__headHapticPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headHapticPreset = value;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__hapticFeedbackManager() {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__hapticFeedbackManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__hapticFeedbackManager() const {
+constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_get__hapticFeedbackManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
+constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticFeedbackManager = value;
 }

@@ -111,16 +111,16 @@ public:
 
   __declspec(property(get = get_IsDirty, put = set_IsDirty)) bool IsDirty;
 
-  /// @brief Method get_HasNewLayout, addr 0x6baa564, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasNewLayout, addr 0x6cfe41c, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasNewLayout();
 
-  /// @brief Method get_IsDirty, addr 0x6baa468, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x6cfe320, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method set_HasNewLayout, addr 0x6baa5f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HasNewLayout, addr 0x6cfe4ac, size 0x20, virtual false, abstract: false, final false
   inline void set_HasNewLayout(bool value);
 
-  /// @brief Method set_IsDirty, addr 0x6baa4e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsDirty, addr 0x6cfe3a0, size 0x10, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);
 
   // Ctor Parameters []

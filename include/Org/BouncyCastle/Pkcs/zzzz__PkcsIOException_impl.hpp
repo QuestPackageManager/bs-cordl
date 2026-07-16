@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::PkcsIOException::*)(::StringW)>(&::Org::BouncyCastle::Pkcs::PkcsIOException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34fca64;
+  constexpr static std::size_t addrs = 0x35b8f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::PkcsIOException::*)(::StringW, ::System::Exception*)>(&::Org::BouncyCastle::Pkcs::PkcsIOException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34fc0dc;
+  constexpr static std::size_t addrs = 0x35b8594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

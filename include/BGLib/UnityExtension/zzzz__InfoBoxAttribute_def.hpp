@@ -70,7 +70,7 @@ public:
   static ::BGLib::UnityExtension::InfoBoxAttribute_Type const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_messageType(::BGLib::UnityExtension::InfoBoxAttribute_Type value);
 
-  /// @brief Method .ctor, addr 0x326c0ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3326b80, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW info, ::BGLib::UnityExtension::InfoBoxAttribute_Type messageType);
 
 protected:
@@ -133,7 +133,7 @@ public:
   InfoBoxAttribute(InfoBoxAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20580 };
 
   /// @brief Field info, offset: 0x18, size: 0x8, def value: None
   ::StringW ___info;

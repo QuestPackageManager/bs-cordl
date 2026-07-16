@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6136624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6271720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW prefix);
 
-  /// @brief Method get_ReturnType, addr 0x6136634, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x6271730, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x613662c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6271728, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -74,7 +74,7 @@ public:
   Variable(Variable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9845 };
 
   /// @brief Field _localname, offset: 0x10, size: 0x8, def value: None
   ::StringW ____localname;

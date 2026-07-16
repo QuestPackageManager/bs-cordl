@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::get_labelString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x631dc6c;
+  constexpr static std::size_t addrs = 0x645a88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AssetLabelReference*>(), { "get_labelString", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::AssetLabelReference::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::set_labelString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x631dc74;
+  constexpr static std::size_t addrs = 0x645a894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::get_RuntimeKey)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x631dc7c;
+  constexpr static std::size_t addrs = 0x645a89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AssetLabelReference*>(), { "get_RuntimeKey", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&::UnityEngine::AddressableAssets::AssetLabelReference::RuntimeKeyIsValid)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x631dca0;
+  constexpr static std::size_t addrs = 0x645a8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&::UnityEngine::AddressableAssets::AssetLabelReference::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x631dcf8;
+  constexpr static std::size_t addrs = 0x645a918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AssetLabelReference*>(),
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&::UnityEngine::AddressableAssets::AssetLabelReference::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x631dd14;
+  constexpr static std::size_t addrs = 0x645a934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AssetLabelReference*>(), { ".ctor", {}, {} })));

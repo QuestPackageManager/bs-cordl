@@ -26,28 +26,28 @@ public:
 
   __declspec(property(get = get_SupportsModificationDetection)) bool SupportsModificationDetection;
 
-  /// @brief Method FeatureToByteArray, addr 0x35d5dbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FeatureToByteArray, addr 0x3692274, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> FeatureToByteArray(uint8_t feature);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, uint8_t feature);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method SetSupportsFeature, addr 0x35d5f9c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SetSupportsFeature, addr 0x3692454, size 0x1ac, virtual false, abstract: false, final false
   inline void SetSupportsFeature(uint8_t feature, bool support);
 
-  /// @brief Method SupportsFeature, addr 0x35d5f58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportsFeature, addr 0x3692410, size 0x44, virtual false, abstract: false, final false
   inline bool SupportsFeature(uint8_t feature);
 
-  /// @brief Method .ctor, addr 0x35d5e3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36922f4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(bool critical, uint8_t feature);
 
-  /// @brief Method .ctor, addr 0x35d5e24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36922dc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
   static inline uint8_t getStaticF_FEATURE_MODIFICATION_DETECTION();
 
-  /// @brief Method get_SupportsModificationDetection, addr 0x35d5ec0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsModificationDetection, addr 0x3692378, size 0x98, virtual false, abstract: false, final false
   inline bool get_SupportsModificationDetection();
 
   static inline void setStaticF_FEATURE_MODIFICATION_DETECTION(uint8_t value);

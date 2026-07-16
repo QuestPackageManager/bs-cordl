@@ -34,16 +34,16 @@ public:
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method GetNextScanValue, addr 0x5c588dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetNextScanValue, addr 0x5d90b04, size 0x98, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
                                                                    ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method GetTokenIndex, addr 0x5c52d98, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetTokenIndex, addr 0x5d8afc0, size 0x2d0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5c526e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8a910, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   PathFilter(PathFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

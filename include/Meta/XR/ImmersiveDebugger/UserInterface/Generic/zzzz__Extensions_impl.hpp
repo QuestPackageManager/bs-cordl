@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Extensions::SetSizeOptimized)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x591c5d8;
+  constexpr static std::size_t addrs = 0x5a55cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

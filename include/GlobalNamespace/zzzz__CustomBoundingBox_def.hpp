@@ -32,7 +32,7 @@ public:
   /// @brief Field _meshRenderer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  /// @brief Method Awake, addr 0x5710744, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5858928, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CustomBoundingBox* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x57107ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5858990, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   CustomBoundingBox(CustomBoundingBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21354 };
 
   /// @brief Field _boundingBoxCenter, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____boundingBoxCenter;

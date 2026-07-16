@@ -48,21 +48,21 @@ public:
 
   __declspec(property(put = set_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x585facc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5997f54, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsEmitting, addr 0x5852ab8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsEmitting, addr 0x598ad14, size 0x3c, virtual false, abstract: false, final false
   inline bool IsEmitting();
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffect* New_ctor();
 
-  /// @brief Method SetPositionAndRotation, addr 0x5852e10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x598b06c, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method StartEmission, addr 0x5852e88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartEmission, addr 0x598b0e4, size 0xa0, virtual false, abstract: false, final false
   inline void StartEmission();
 
-  /// @brief Method StopEmission, addr 0x5852f28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method StopEmission, addr 0x598b184, size 0xc4, virtual false, abstract: false, final false
   inline void StopEmission();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__burnParticleSystem() const;
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set__sparkleParticleSystemEmissionModule(::UnityEngine::ParticleSystem_EmissionModule value);
 
-  /// @brief Method .ctor, addr 0x585fb54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5997fdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x5852798, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x598a9f4, size 0xa8, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   ObstacleSaberSparkleEffect(ObstacleSaberSparkleEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5901 };
 
   /// @brief Field _sparkleParticleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparkleParticleSystem;

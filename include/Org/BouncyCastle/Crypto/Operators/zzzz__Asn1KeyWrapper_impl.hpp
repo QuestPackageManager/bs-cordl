@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::*)(::StringW, ::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3347530;
+  constexpr static std::size_t addrs = 0x34039e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x334780c;
+  constexpr static std::size_t addrs = 0x3403cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockResult* (::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::Wrap)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x33478b0;
+  constexpr static std::size_t addrs = 0x3403d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -10,4 +10,4 @@ constexpr ::GlobalNamespace::PlaymodeOptions::PlaymodeOptions() {}
 constexpr ::GlobalNamespace::PlaymodeOptions GlobalNamespace::PlaymodeOptions::Default{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlaymodeOptions GlobalNamespace::PlaymodeOptions::Playback{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::PlaymodeOptions GlobalNamespace::PlaymodeOptions::Recording{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::PlaymodeOptions GlobalNamespace::PlaymodeOptions::AutoPilot{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::PlaymodeOptions GlobalNamespace::PlaymodeOptions::AutoPlay{ static_cast<int32_t>(0x4) };

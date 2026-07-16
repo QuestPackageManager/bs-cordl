@@ -43,13 +43,20 @@ public:
                       put = __cordl_internal_set__thumbstickActionReference_k__BackingField)) ::UnityW<::UnityEngine::InputSystem::InputActionReference>
       _thumbstickActionReference_k__BackingField;
 
+  /// @brief Field <triggerActionReference>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__triggerActionReference_k__BackingField,
+                      put = __cordl_internal_set__triggerActionReference_k__BackingField)) ::UnityW<::UnityEngine::InputSystem::InputActionReference>
+      _triggerActionReference_k__BackingField;
+
   __declspec(property(get = get_orientationActionReference, put = set_orientationActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> orientationActionReference;
 
   __declspec(property(get = get_positionActionReference, put = set_positionActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> positionActionReference;
 
   __declspec(property(get = get_thumbstickActionReference, put = set_thumbstickActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> thumbstickActionReference;
 
-  /// @brief Method CreateUnityXRController, addr 0x5714204, size 0xc0, virtual false, abstract: false, final false
+  __declspec(property(get = get_triggerActionReference, put = set_triggerActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> triggerActionReference;
+
+  /// @brief Method CreateUnityXRController, addr 0x591a494, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* CreateUnityXRController(::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::ControllerConfiguration* New_ctor();
@@ -66,32 +73,44 @@ public:
 
   constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__thumbstickActionReference_k__BackingField();
 
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__triggerActionReference_k__BackingField() const;
+
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__triggerActionReference_k__BackingField();
+
   constexpr void __cordl_internal_set__orientationActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
   constexpr void __cordl_internal_set__positionActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
   constexpr void __cordl_internal_set__thumbstickActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  /// @brief Method .ctor, addr 0x5714380, size 0x4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__triggerActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
+
+  /// @brief Method .ctor, addr 0x591a654, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_orientationActionReference, addr 0x57141e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orientationActionReference, addr 0x591a464, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_orientationActionReference();
 
-  /// @brief Method get_positionActionReference, addr 0x57141d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionActionReference, addr 0x591a454, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_positionActionReference();
 
-  /// @brief Method get_thumbstickActionReference, addr 0x57141f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickActionReference, addr 0x591a474, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_thumbstickActionReference();
 
-  /// @brief Method set_orientationActionReference, addr 0x57141ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerActionReference, addr 0x591a484, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_triggerActionReference();
+
+  /// @brief Method set_orientationActionReference, addr 0x591a46c, size 0x8, virtual false, abstract: false, final false
   inline void set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_positionActionReference, addr 0x57141dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionActionReference, addr 0x591a45c, size 0x8, virtual false, abstract: false, final false
   inline void set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_thumbstickActionReference, addr 0x57141fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickActionReference, addr 0x591a47c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value);
+
+  /// @brief Method set_triggerActionReference, addr 0x591a48c, size 0x8, virtual false, abstract: false, final false
+  inline void set_triggerActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
 protected:
   // Ctor Parameters []
@@ -108,7 +127,7 @@ public:
   ControllerConfiguration(ControllerConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6777 };
 
   /// @brief Field <positionActionReference>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____positionActionReference_k__BackingField;
@@ -119,6 +138,9 @@ public:
   /// @brief Field <thumbstickActionReference>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____thumbstickActionReference_k__BackingField;
 
+  /// @brief Field <triggerActionReference>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____triggerActionReference_k__BackingField;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -128,6 +150,8 @@ static_assert(offsetof(::GlobalNamespace::ControllerConfiguration, ____orientati
 
 static_assert(offsetof(::GlobalNamespace::ControllerConfiguration, ____thumbstickActionReference_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ControllerConfiguration) == 0x28, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllerConfiguration, ____triggerActionReference_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::ControllerConfiguration) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace

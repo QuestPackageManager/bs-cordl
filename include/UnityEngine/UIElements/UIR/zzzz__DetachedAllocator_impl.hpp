@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6b7e738;
+  constexpr static std::size_t addrs = 0x6cd25f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b7e85c;
+  constexpr static std::size_t addrs = 0x6cd2714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(), { "Dispose", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b7e8c4;
+  constexpr static std::size_t addrs = 0x6cd277c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

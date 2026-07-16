@@ -27,13 +27,13 @@ public:
 
   static inline ::GlobalNamespace::StartMiddleEndButtonsGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x58ceb64, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method SetLayoutHorizontal, addr 0x5920d44, size 0x104, virtual true, abstract: false, final true
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x58cec68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetLayoutVertical, addr 0x5920e48, size 0x4, virtual true, abstract: false, final true
   inline void SetLayoutVertical();
 
-  /// @brief Method .ctor, addr 0x58cec6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5920e4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
@@ -54,7 +54,7 @@ public:
   StartMiddleEndButtonsGroup(StartMiddleEndButtonsGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

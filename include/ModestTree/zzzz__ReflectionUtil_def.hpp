@@ -71,13 +71,13 @@ namespace ModestTree {
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray, addr 0x6cea8c8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CreateArray, addr 0x6e3ee58, size 0x254, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList, addr 0x6ceab1c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CreateGenericList, addr 0x6e3f0ac, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ToDebugString, addr 0x6ceaff8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x6e3f588, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -112,7 +112,7 @@ public:
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func);
 
-  /// @brief Method ToDebugString, addr 0x6ceaebc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x6e3f44c, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
 protected:
@@ -130,7 +130,7 @@ public:
   ReflectionUtil(ReflectionUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

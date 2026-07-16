@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67305c4;
+  constexpr static std::size_t addrs = 0x686ef40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67305c8;
+  constexpr static std::size_t addrs = 0x686ef44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67305bc;
+  constexpr static std::size_t addrs = 0x686ef38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

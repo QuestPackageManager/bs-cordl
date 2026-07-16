@@ -63,25 +63,25 @@ public:
 
   static inline ::Zenject::ConventionSelectTypesBinder___c* New_ctor();
 
-  /// @brief Method <AllAbstractClasses>b__6_0, addr 0x6cf7224, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <AllAbstractClasses>b__6_0, addr 0x6e4b878, size 0x68, virtual false, abstract: false, final false
   inline bool _AllAbstractClasses_b__6_0(::System::Type* t);
 
-  /// @brief Method <AllClasses>b__4_0, addr 0x6cf7164, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <AllClasses>b__4_0, addr 0x6e4b7b8, size 0x54, virtual false, abstract: false, final false
   inline bool _AllClasses_b__4_0(::System::Type* t);
 
-  /// @brief Method <AllInterfaces>b__7_0, addr 0x6cf728c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AllInterfaces>b__7_0, addr 0x6e4b8e0, size 0x18, virtual false, abstract: false, final false
   inline bool _AllInterfaces_b__7_0(::System::Type* t);
 
-  /// @brief Method <AllNonAbstractClasses>b__5_0, addr 0x6cf71b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <AllNonAbstractClasses>b__5_0, addr 0x6e4b80c, size 0x6c, virtual false, abstract: false, final false
   inline bool _AllNonAbstractClasses_b__5_0(::System::Type* t);
 
-  /// @brief Method __zenCreate, addr 0x6cf72a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e4b8f8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cf72e8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4b93c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6cf7160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4b7b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::ConventionSelectTypesBinder___c* getStaticF___9();
@@ -119,7 +119,7 @@ public:
   ConventionSelectTypesBinder___c(ConventionSelectTypesBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14025 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,22 +139,22 @@ public:
   /// @brief Field _bindInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo)) ::Zenject::ConventionBindInfo* _bindInfo;
 
-  /// @brief Method AllAbstractClasses, addr 0x6cf6f1c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AllAbstractClasses, addr 0x6e4b570, size 0xf8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllAbstractClasses();
 
-  /// @brief Method AllClasses, addr 0x6cf6d2c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AllClasses, addr 0x6e4b380, size 0xf8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllClasses();
 
-  /// @brief Method AllInterfaces, addr 0x6cf7014, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AllInterfaces, addr 0x6e4b668, size 0xf8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllInterfaces();
 
-  /// @brief Method AllNonAbstractClasses, addr 0x6cf6e24, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AllNonAbstractClasses, addr 0x6e4b478, size 0xf8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllNonAbstractClasses();
 
-  /// @brief Method AllTypes, addr 0x6cf6d28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllTypes, addr 0x6e4b37c, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllTypes();
 
-  /// @brief Method CreateNextBinder, addr 0x6cf6cd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateNextBinder, addr 0x6e4b328, size 0x54, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* CreateNextBinder();
 
   static inline ::Zenject::ConventionSelectTypesBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo);
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set__bindInfo(::Zenject::ConventionBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x6cf31fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4778c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ConventionBindInfo* bindInfo);
 
 protected:
@@ -183,7 +183,7 @@ public:
   ConventionSelectTypesBinder(ConventionSelectTypesBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14026 };
 
   /// @brief Field _bindInfo, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ConventionBindInfo* ____bindInfo;

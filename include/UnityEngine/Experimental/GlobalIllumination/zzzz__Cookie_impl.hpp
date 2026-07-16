@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::GlobalIllumination::Cookie (*)()>(&::UnityEngine::Experimental::GlobalIllumination::Cookie::Defaults)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69d8128;
+  constexpr static std::size_t addrs = 0x6b2bc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::Cookie>(), { "Defaults", {}, {} })));

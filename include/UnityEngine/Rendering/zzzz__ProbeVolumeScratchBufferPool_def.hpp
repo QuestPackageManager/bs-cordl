@@ -73,7 +73,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*>"
   constexpr operator ::System::IComparable_1<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x6655bbc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x67932c8, size 0x24, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* other);
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* New_ctor();
@@ -92,10 +92,10 @@ public:
 
   constexpr void __cordl_internal_set_pool(::System::Collections::Generic::Stack_1<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*>* value);
 
-  /// @brief Method .ctor, addr 0x6655b40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x679324c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6655774, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6792e80, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t chunkCount);
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*>"
@@ -117,7 +117,7 @@ public:
   ProbeVolumeScratchBufferPool_ScratchBufferPool(ProbeVolumeScratchBufferPool_ScratchBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12123 };
 
   /// @brief Field chunkCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___chunkCount;
@@ -153,13 +153,13 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c* New_ctor();
 
-  /// @brief Method <AllocateScratchBuffer>b__26_0, addr 0x6655c38, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <AllocateScratchBuffer>b__26_0, addr 0x6793344, size 0x64, virtual false, abstract: false, final false
   inline bool _AllocateScratchBuffer_b__26_0(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* o);
 
-  /// @brief Method <ReleaseScratchBuffer>b__27_0, addr 0x6655c9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ReleaseScratchBuffer>b__27_0, addr 0x67933a8, size 0x64, virtual false, abstract: false, final false
   inline bool _ReleaseScratchBuffer_b__27_0(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* o);
 
-  /// @brief Method .ctor, addr 0x6655c34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6793340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c* getStaticF___9();
@@ -189,7 +189,7 @@ public:
   ProbeVolumeScratchBufferPool___c(ProbeVolumeScratchBufferPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -259,22 +259,22 @@ public:
   /// @brief Field s_ChunkCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_ChunkCount, put = setStaticF_s_ChunkCount)) int32_t s_ChunkCount;
 
-  /// @brief Method AllocateScratchBuffer, addr 0x66553cc, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method AllocateScratchBuffer, addr 0x6792ad8, size 0x3a8, virtual false, abstract: false, final false
   inline bool AllocateScratchBuffer(int32_t chunkCount, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*> scratchBuffer,
                                     ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout> layout, bool allocateGraphicsBuffers);
 
-  /// @brief Method Cleanup, addr 0x6655990, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x679309c, size 0x1b0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CreateScratchBuffer, addr 0x6655348, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateScratchBuffer, addr 0x6792a54, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* CreateScratchBuffer(int32_t chunkCount, bool allocateGraphicsBuffers);
 
-  /// @brief Method GetOrCreateScratchBufferLayout, addr 0x66550d4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateScratchBufferLayout, addr 0x67927e0, size 0x274, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout GetOrCreateScratchBufferLayout(int32_t chunkCount);
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool* New_ctor(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method ReleaseScratchBuffer, addr 0x6655800, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ReleaseScratchBuffer, addr 0x6792f0c, size 0x190, virtual false, abstract: false, final false
   inline void ReleaseScratchBuffer(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* scratchBuffer);
 
   constexpr int32_t const& __cordl_internal_get__chunkSize_k__BackingField() const;
@@ -355,26 +355,26 @@ public:
 
   constexpr void __cordl_internal_set_m_ValiditySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6654f6c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6792678, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
   static inline int32_t getStaticF_s_ChunkCount();
 
-  /// @brief Method get_allocatedMemory, addr 0x6654f5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_allocatedMemory, addr 0x6792668, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_allocatedMemory();
 
-  /// @brief Method get_chunkSize, addr 0x6654f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunkSize, addr 0x6792648, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkSize();
 
-  /// @brief Method get_maxChunkCount, addr 0x6654f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxChunkCount, addr 0x6792658, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxChunkCount();
 
   static inline void setStaticF_s_ChunkCount(int32_t value);
 
-  /// @brief Method set_chunkSize, addr 0x6654f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_chunkSize, addr 0x6792650, size 0x8, virtual false, abstract: false, final false
   inline void set_chunkSize(int32_t value);
 
-  /// @brief Method set_maxChunkCount, addr 0x6654f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxChunkCount, addr 0x6792660, size 0x8, virtual false, abstract: false, final false
   inline void set_maxChunkCount(int32_t value);
 
 protected:
@@ -392,7 +392,7 @@ public:
   ProbeVolumeScratchBufferPool(ProbeVolumeScratchBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12125 };
 
   /// @brief Field <chunkSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____chunkSize_k__BackingField;

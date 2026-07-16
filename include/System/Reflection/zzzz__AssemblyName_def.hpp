@@ -142,31 +142,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5a4d300, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5b86fd8, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method ComputePublicKeyToken, addr 0x5a4ce70, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ComputePublicKeyToken, addr 0x5b86b48, size 0xe4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ComputePublicKeyToken();
 
-  /// @brief Method Create, addr 0x5a4d3bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b87094, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, bool fillCodebase);
 
-  /// @brief Method FillName, addr 0x5a4bba4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method FillName, addr 0x5b8587c, size 0x284, virtual false, abstract: false, final false
   inline void FillName(::Mono::MonoAssemblyName* native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
 
-  /// @brief Method GetNativeName, addr 0x5a4d3b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNativeName, addr 0x5b87090, size 0x4, virtual false, abstract: false, final false
   static inline ::Mono::MonoAssemblyName* GetNativeName(::System::IntPtr assembly_ptr);
 
-  /// @brief Method GetObjectData, addr 0x5a4cfb4, size 0x34c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5b86c8c, size 0x34c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetPublicKey, addr 0x5a4ccfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x5b869d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPublicKey();
 
-  /// @brief Method GetPublicKeyToken, addr 0x5a4cd04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKeyToken, addr 0x5b869dc, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPublicKeyToken();
 
-  /// @brief Method InternalGetPublicKeyToken, addr 0x5a4cbe4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPublicKeyToken, addr 0x5b868bc, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> InternalGetPublicKeyToken();
 
   static inline ::System::Reflection::AssemblyName* New_ctor();
@@ -175,16 +175,16 @@ public:
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method OnDeserialization, addr 0x5a4d39c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnDeserialization, addr 0x5b87074, size 0x1c, virtual true, abstract: false, final true
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ParseAssemblyName, addr 0x5a4c020, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseAssemblyName, addr 0x5b85cf8, size 0x4, virtual false, abstract: false, final false
   static inline bool ParseAssemblyName(::System::IntPtr name, ::by_ref<::Mono::MonoAssemblyName> aname, ::by_ref<bool> is_version_definited, ::by_ref<bool> is_token_defined);
 
-  /// @brief Method SetPublicKey, addr 0x5a4b69c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x5b85374, size 0x20, virtual false, abstract: false, final false
   inline void SetPublicKey(::ArrayW<uint8_t> publicKey);
 
-  /// @brief Method ToString, addr 0x5a4ccd4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b869ac, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_build() const;
@@ -283,34 +283,34 @@ public:
 
   constexpr void __cordl_internal_set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value);
 
-  /// @brief Method .ctor, addr 0x5a4b690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b85368, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a4c024, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b85cfc, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x5a4c2fc, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b85fd4, size 0x544, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method get_CultureInfo, addr 0x5a4c850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureInfo, addr 0x5b86528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CultureInfo();
 
-  /// @brief Method get_Flags, addr 0x5a4c860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x5b86538, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::AssemblyNameFlags get_Flags();
 
-  /// @brief Method get_FullName, addr 0x5a4c870, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x5b86548, size 0x374, virtual false, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_IsPublicKeyValid, addr 0x5a4cdec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_IsPublicKeyValid, addr 0x5b86ac4, size 0x84, virtual false, abstract: false, final false
   inline bool get_IsPublicKeyValid();
 
-  /// @brief Method get_Name, addr 0x5a4c840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5b86518, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Version, addr 0x5a4cccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x5b869a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method get_public_token, addr 0x5a4cf54, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_public_token, addr 0x5b86c2c, size 0x60, virtual false, abstract: false, final false
   static inline void get_public_token(uint8_t* token, uint8_t* pubkey, int32_t len);
 
   /// @brief Convert to "::System::ICloneable"
@@ -325,16 +325,16 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_CultureInfo, addr 0x5a4c858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CultureInfo, addr 0x5b86530, size 0x8, virtual false, abstract: false, final false
   inline void set_CultureInfo(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_Flags, addr 0x5a4c868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x5b86540, size 0x8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Reflection::AssemblyNameFlags value);
 
-  /// @brief Method set_Name, addr 0x5a4c848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5b86520, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Version, addr 0x5a4b6bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x5b85394, size 0x1c, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
 protected:

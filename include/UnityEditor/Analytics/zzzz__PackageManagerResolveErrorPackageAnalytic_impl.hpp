@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic::*)()>(
     &::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6cce510;
+  constexpr static std::size_t addrs = 0x6e223c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic::CreatePackageManagerResolveErrorPackageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6cce5a4;
+  constexpr static std::size_t addrs = 0x6e2245c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

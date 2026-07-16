@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Generic::IntrospectiveSortUtilities::FloorLog2PlusOne)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5ab7830;
+  constexpr static std::size_t addrs = 0x5bf1508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Collections::Generic::IntrospectiveSortUtilities::ThrowOrIgnoreBadComparer)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ab7860;
+  constexpr static std::size_t addrs = 0x5bf1538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

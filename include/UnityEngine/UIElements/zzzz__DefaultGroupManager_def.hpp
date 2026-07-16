@@ -44,18 +44,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
   constexpr operator ::UnityEngine::UIElements::IGroupManager*() noexcept;
 
-  /// @brief Method Init, addr 0x6c5a3bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x6dae274, size 0x8, virtual true, abstract: false, final true
   inline void Init(::UnityEngine::UIElements::IGroupBox* groupBox);
 
   static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
 
-  /// @brief Method OnOptionSelectionChanged, addr 0x6c5a3c4, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method OnOptionSelectionChanged, addr 0x6dae27c, size 0x198, virtual true, abstract: false, final true
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
 
-  /// @brief Method RegisterOption, addr 0x6c5a55c, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method RegisterOption, addr 0x6dae414, size 0x164, virtual true, abstract: false, final true
   inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnregisterOption, addr 0x6c5a6c0, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method UnregisterOption, addr 0x6dae578, size 0xe4, virtual true, abstract: false, final true
   inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::UnityEngine::UIElements::IGroupBox* const& __cordl_internal_get_m_GroupBox() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
-  /// @brief Method .ctor, addr 0x6c59bec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dadaa4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"

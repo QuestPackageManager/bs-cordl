@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value);
 
-  /// @brief Method .ctor, addr 0x365002c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370c72c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allBeatmapCharacteristics, addr 0x3650024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allBeatmapCharacteristics, addr 0x370c724, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* get_allBeatmapCharacteristics();
 
 protected:
@@ -62,7 +62,7 @@ public:
   BeatmapCharacteristicCollectionSO(BeatmapCharacteristicCollectionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14850 };
 
   /// @brief Field _beatmapCharacteristics, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> ____beatmapCharacteristics;

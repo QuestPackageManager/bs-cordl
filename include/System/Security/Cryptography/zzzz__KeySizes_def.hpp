@@ -36,10 +36,10 @@ public:
   /// @brief Field m_skipSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
-  /// @brief Method IsLegal, addr 0x59bd23c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsLegal, addr 0x5af6f0c, size 0x44, virtual false, abstract: false, final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize, addr 0x59bd280, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x5af6f50, size 0x98, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*> legalKeys, int32_t size);
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59bd01c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af6cec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method get_MaxSize, addr 0x59bd22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x5af6efc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_MinSize, addr 0x59bd224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinSize, addr 0x5af6ef4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_SkipSize, addr 0x59bd234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkipSize, addr 0x5af6f04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkipSize();
 
 protected:

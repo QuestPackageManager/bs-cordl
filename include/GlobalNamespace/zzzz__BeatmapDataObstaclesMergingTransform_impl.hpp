@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3646cfc;
+  constexpr static std::size_t addrs = 0x3703180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
         &::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3646d90;
+  constexpr static std::size_t addrs = 0x3703214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3646b40;
+  constexpr static std::size_t addrs = 0x3702fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataObstaclesMergingTransform*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3646d00;
+  constexpr static std::size_t addrs = 0x3703184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

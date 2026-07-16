@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XPath::XPathDocument::*)()>(&::System::Xml::XPath::XPathDocument::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a7394;
+  constexpr static std::size_t addrs = 0x62e2490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XPath::XPathDocument*>(), { "get_NameTable", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XPath::XPathDocument::*)()>(&::System::Xml::XPath::XPathDocument::get_HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a739c;
+  constexpr static std::size_t addrs = 0x62e2498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XPath::XPathDocument*>(), { "get_HasLineInfo", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XPath::XPathDocument::*)(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(
     &::System::Xml::XPath::XPathDocument::GetXmlNamespaceNode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61a73a4;
+  constexpr static std::size_t addrs = 0x62e24a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XPath::XPathDocument::*)(
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int32_t, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(&::System::Xml::XPath::XPathDocument::LookupNamespaces)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x61a73b8;
+  constexpr static std::size_t addrs = 0x62e24b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

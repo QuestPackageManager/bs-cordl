@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::RazorDirectiveAttribute::*)(::StringW)>(&::JetBrains::Annotations::RazorDirectiveAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce6a18;
+  constexpr static std::size_t addrs = 0x6e3ad1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::RazorDirectiveAttribute::*)()>(&::JetBrains::Annotations::RazorDirectiveAttribute::get_Directive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce6a20;
+  constexpr static std::size_t addrs = 0x6e3ad24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorDirectiveAttribute*>(), { "get_Directive", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::RazorDirectiveAttribute::*)(::StringW)>(&::JetBrains::Annotations::RazorDirectiveAttribute::set_Directive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce6a28;
+  constexpr static std::size_t addrs = 0x6e3ad2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

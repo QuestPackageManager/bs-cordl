@@ -68,17 +68,17 @@ public:
   /// @brief Field tracesources, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_tracesources, put = setStaticF_tracesources)) ::System::Collections::Generic::List_1<::System::WeakReference*>* tracesources;
 
-  /// @brief Method Flush, addr 0x62595dc, size 0x6ec, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x6395678, size 0x6ec, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method Initialize, addr 0x6259384, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6395420, size 0xe8, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Diagnostics::TraceSource* New_ctor(::StringW name);
 
   static inline ::System::Diagnostics::TraceSource* New_ctor(::StringW name, ::System::Diagnostics::SourceLevels defaultLevel);
 
-  /// @brief Method NoConfigInit, addr 0x625946c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method NoConfigInit, addr 0x6395508, size 0x170, virtual false, abstract: false, final false
   inline void NoConfigInit();
 
   constexpr bool const& __cordl_internal_get__initCalled() const;
@@ -117,23 +117,23 @@ public:
 
   constexpr void __cordl_internal_set_switchLevel(::System::Diagnostics::SourceLevels value);
 
-  /// @brief Method .ctor, addr 0x6258bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6394c94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6258c00, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6394c9c, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Diagnostics::SourceLevels defaultLevel);
 
-  /// @brief Method _pruneCachedTraceSources, addr 0x6258e78, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method _pruneCachedTraceSources, addr 0x6394f14, size 0x50c, virtual false, abstract: false, final false
   static inline void _pruneCachedTraceSources();
 
   static inline int32_t getStaticF_s_LastCollectionCount();
 
   static inline ::System::Collections::Generic::List_1<::System::WeakReference*>* getStaticF_tracesources();
 
-  /// @brief Method get_Listeners, addr 0x6259cc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x6395d64, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
-  /// @brief Method get_Switch, addr 0x6259ce4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Switch, addr 0x6395d80, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Diagnostics::SourceSwitch* get_Switch();
 
   static inline void setStaticF_s_LastCollectionCount(int32_t value);
@@ -155,7 +155,7 @@ public:
   TraceSource(TraceSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11116 };
 
   /// @brief Field internalSwitch, offset: 0x10, size: 0x8, def value: None
   ::System::Diagnostics::SourceSwitch* ___internalSwitch;

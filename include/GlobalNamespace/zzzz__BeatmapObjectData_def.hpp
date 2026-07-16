@@ -21,10 +21,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapObjectData : public ::GlobalNamespace::BeatmapDataItem {
 public:
   // Declarations
-  /// @brief Field <beat>k__BackingField, offset 0x20, size 0x4
+  /// @brief Field <beat>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__beat_k__BackingField, put = __cordl_internal_set__beat_k__BackingField)) float_t _beat_k__BackingField;
 
-  /// @brief Field <rotation>k__BackingField, offset 0x24, size 0x4
+  /// @brief Field <rotation>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__rotation_k__BackingField, put = __cordl_internal_set__rotation_k__BackingField)) int32_t _rotation_k__BackingField;
 
   __declspec(property(get = get_beat)) float_t beat;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__rotation_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x31c8b20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325c0c8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t beat, int32_t rotation, int32_t subtypeIdentifier);
 
-  /// @brief Method get_beat, addr 0x31c8b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x325c0b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_rotation, addr 0x31c8b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x325c0b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rotation();
 
-  /// @brief Method set_rotation, addr 0x31c8b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x325c0c0, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(int32_t value);
 
 protected:
@@ -75,21 +75,21 @@ public:
   BeatmapObjectData(BeatmapObjectData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21213 };
 
-  /// @brief Field <beat>k__BackingField, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field <beat>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____beat_k__BackingField;
 
-  /// @brief Field <rotation>k__BackingField, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field <rotation>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____rotation_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectData, ____beat_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectData, ____beat_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectData, ____rotation_k__BackingField) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectData, ____rotation_k__BackingField) == 0x2c, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatmapObjectData) == 0x28, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BeatmapObjectData) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace

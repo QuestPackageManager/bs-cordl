@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::OneModifierComposite_ModifiersOrder const Unordered;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,25 +125,25 @@ public:
 
   __declspec(property(get = get_valueType)) ::System::Type* valueType;
 
-  /// @brief Method DetermineValueTypeAndSize, addr 0x63c9eac, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method DetermineValueTypeAndSize, addr 0x6506acc, size 0x444, virtual false, abstract: false, final false
   static inline void DetermineValueTypeAndSize(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context, int32_t part, ::by_ref<::System::Type*> valueType,
                                                ::by_ref<int32_t> valueSizeInBytes, ::by_ref<bool> isButton);
 
-  /// @brief Method EvaluateMagnitude, addr 0x63c9c8c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x65068ac, size 0x40, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x63c9df8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6506a18, size 0xb4, virtual true, abstract: false, final false
   inline void FinishSetup(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifierIsPressed, addr 0x63c9ccc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ModifierIsPressed, addr 0x65068ec, size 0x8c, virtual false, abstract: false, final false
   inline bool ModifierIsPressed(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::OneModifierComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x63c9d58, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6506978, size 0xa0, virtual true, abstract: false, final false
   inline void ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject, addr 0x63ca2f0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x6506f10, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_binding() const;
@@ -188,13 +188,13 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x63ca340, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6506f60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x63c9c84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x65068a4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_valueType, addr 0x63c9c7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x650689c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
 protected:
@@ -212,7 +212,7 @@ public:
   OneModifierComposite(OneModifierComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9186 };
 
   /// @brief Field modifier, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::AddCapability)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x348db58;
+  constexpr static std::size_t addrs = 0x354a010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t)>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::AddCapability)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x348dbd4;
+  constexpr static std::size_t addrs = 0x354a08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::AddCapability)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x348dd0c;
+  constexpr static std::size_t addrs = 0x354a1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1EncodableVector* (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::*)()>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::ToAsn1EncodableVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x348de14;
+  constexpr static std::size_t addrs = 0x354a2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::*)()>(&::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x348de1c;
+  constexpr static std::size_t addrs = 0x354a2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector*>(), { ".ctor", {}, {} })));

@@ -108,19 +108,19 @@ public:
   /// @brief Field typeName, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method ConvertForAssignment, addr 0x61acacc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConvertForAssignment, addr 0x62e7bc8, size 0xd4, virtual false, abstract: false, final false
   inline void ConvertForAssignment(::by_ref<::System::Object*> value);
 
-  /// @brief Method CreateMissingAddMethodException, addr 0x61ad6bc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CreateMissingAddMethodException, addr 0x62e87b8, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* CreateMissingAddMethodException(::System::Type* type, ::StringW inheritFrom, ::System::Type* argumentType);
 
-  /// @brief Method GetGenericListItemType, addr 0x61ad3e4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetGenericListItemType, addr 0x62e84e0, size 0x1e0, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericListItemType(::System::Type* type);
 
-  /// @brief Method GetIndexerProperty, addr 0x61ad5c4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetIndexerProperty, addr 0x62e86c0, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* GetIndexerProperty(::System::Type* collectionType);
 
-  /// @brief Method LookupTypeConvertor, addr 0x61aca20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LookupTypeConvertor, addr 0x62e7b1c, size 0xac, virtual false, abstract: false, final false
   inline void LookupTypeConvertor();
 
   static inline ::System::Xml::Serialization::TypeData* New_ctor(::System::Type* type, ::StringW elementName, bool isPrimitive);
@@ -200,56 +200,56 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61ac4ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e75a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW elementName, bool isPrimitive);
 
-  /// @brief Method .ctor, addr 0x61ac4b8, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e75b4, size 0x3c4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW elementName, bool isPrimitive, ::System::Xml::Serialization::TypeData* mappedType, ::System::Xml::Schema::XmlSchemaPatternFacet* facet);
 
   static inline ::ArrayW<::StringW> getStaticF_keywords();
 
-  /// @brief Method get_FullTypeName, addr 0x61acbb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x62e7cb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_HasPublicConstructor, addr 0x61ad808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasPublicConstructor, addr 0x62e8904, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasPublicConstructor();
 
-  /// @brief Method get_IsComplexType, addr 0x61acbc8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_IsComplexType, addr 0x62e7cc4, size 0x28, virtual false, abstract: false, final false
   inline bool get_IsComplexType();
 
-  /// @brief Method get_IsListType, addr 0x61abbec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsListType, addr 0x62e6ce8, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsListType();
 
-  /// @brief Method get_IsNullable, addr 0x61acc6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x62e7d68, size 0xf4, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsValueType, addr 0x61acc00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueType, addr 0x62e7cfc, size 0x6c, virtual false, abstract: false, final false
   inline bool get_IsValueType();
 
-  /// @brief Method get_IsXsdType, addr 0x61acbf0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsXsdType, addr 0x62e7cec, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsXsdType();
 
-  /// @brief Method get_ListItemType, addr 0x61acd68, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method get_ListItemType, addr 0x62e7e64, size 0x67c, virtual false, abstract: false, final false
   inline ::System::Type* get_ListItemType();
 
-  /// @brief Method get_ListItemTypeData, addr 0x61ac87c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_ListItemTypeData, addr 0x62e7978, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeData* get_ListItemTypeData();
 
-  /// @brief Method get_SchemaType, addr 0x61acbc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x62e7cbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::SchemaTypes get_SchemaType();
 
-  /// @brief Method get_Type, addr 0x61acbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x62e7cac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeName, addr 0x61acba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x62e7c9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_XmlType, addr 0x61acba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x62e7ca4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlType();
 
   static inline void setStaticF_keywords(::ArrayW<::StringW> value);
 
-  /// @brief Method set_IsNullable, addr 0x61acd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x62e7e5c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
 protected:
@@ -267,7 +267,7 @@ public:
   TypeData(TypeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9464 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;

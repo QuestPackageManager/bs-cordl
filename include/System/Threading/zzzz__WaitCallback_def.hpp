@@ -25,12 +25,12 @@ namespace System::Threading {
 class CORDL_TYPE WaitCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5b78280, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5cb240c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   static inline ::System::Threading::WaitCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5b7813c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb22c8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

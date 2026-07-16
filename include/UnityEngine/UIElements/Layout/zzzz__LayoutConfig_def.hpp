@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_PointScaleFactor)) float_t PointScaleFactor;
 
-  /// @brief Method .ctor, addr 0x6ba6a40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfa8f8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Layout::LayoutDataAccess access, ::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method get_Handle, addr 0x6ba6a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x6cfa90c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle get_Handle();
 
-  /// @brief Method get_PointScaleFactor, addr 0x6ba6a5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_PointScaleFactor, addr 0x6cfa914, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<float_t> get_PointScaleFactor();
 
-  /// @brief Method get_Undefined, addr 0x6ba6a28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Undefined, addr 0x6cfa8e0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutConfig get_Undefined();
 
   // Ctor Parameters []

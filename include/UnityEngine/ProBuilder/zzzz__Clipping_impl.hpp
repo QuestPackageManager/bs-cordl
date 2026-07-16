@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Clipping_OutCode (*)(::UnityEngine::Rect, float_t, float_t)>(&::UnityEngine::ProBuilder::Clipping::ComputeOutCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6575668;
+  constexpr static std::size_t addrs = 0x66b2d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rect, float_t, float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::Clipping::RectContainsLineSegment)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x65756a4;
+  constexpr static std::size_t addrs = 0x66b2db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -88,7 +88,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::MinMaxSlider_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bfc574, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5042c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   /// @brief Field m_MinValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MinValue, put = __cordl_internal_set_m_MinValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_MinValue;
 
-  /// @brief Method Init, addr 0x6bfc78c, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d50644, size 0x208, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::MinMaxSlider_UxmlTraits* New_ctor();
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_m_MinValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6bfc5dc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d50494, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -374,71 +374,71 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) ::UnityEngine::Vector2 value;
 
-  /// @brief Method ClampValues, addr 0x6bf95cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ClampValues, addr 0x6d4d484, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ClampValues(::UnityEngine::Vector2 valueToClamp);
 
-  /// @brief Method ComputeValueFromDraggingThumb, addr 0x6bfba1c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ComputeValueFromDraggingThumb, addr 0x6d4f8d4, size 0x1a0, virtual false, abstract: false, final false
   inline void ComputeValueFromDraggingThumb(float_t dragElementStartPos, float_t dragElementEndPos);
 
-  /// @brief Method ComputeValueFromKey, addr 0x6bfb428, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method ComputeValueFromKey, addr 0x6d4f2e0, size 0x564, virtual false, abstract: false, final false
   inline void ComputeValueFromKey(bool leftDirection, bool isShift, ::UnityEngine::UIElements::MinMaxSlider_DragState moveState);
 
-  /// @brief Method ComputeValueFromPosition, addr 0x6bfaf90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ComputeValueFromPosition, addr 0x6d4ee48, size 0x78, virtual false, abstract: false, final false
   inline float_t ComputeValueFromPosition(float_t positionToConvert);
 
-  /// @brief Method GetNavigationState, addr 0x6bfb138, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetNavigationState, addr 0x6d4eff0, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MinMaxSlider_DragState GetNavigationState();
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6bfb008, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x6d4eec0, size 0x130, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::MinMaxSlider* New_ctor();
 
   static inline ::UnityEngine::UIElements::MinMaxSlider* New_ctor(::StringW label, float_t minValue, float_t maxValue, float_t minLimit, float_t maxLimit);
 
-  /// @brief Method OnBlur, addr 0x6bfb330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x6d4f1e8, size 0x8, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* evt);
 
-  /// @brief Method OnFocusIn, addr 0x6bfb304, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnFocusIn, addr 0x6d4f1bc, size 0x2c, virtual false, abstract: false, final false
   inline void OnFocusIn(::UnityEngine::UIElements::FocusInEvent* evt);
 
-  /// @brief Method OnNavigationMove, addr 0x6bfb35c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationMove, addr 0x6d4f214, size 0xcc, virtual false, abstract: false, final false
   inline void OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x6bfb338, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x6d4f1f0, size 0x24, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method RegisterEditingCallbacks, addr 0x6bfbe2c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method RegisterEditingCallbacks, addr 0x6d4fce4, size 0x140, virtual true, abstract: false, final false
   inline void RegisterEditingCallbacks();
 
-  /// @brief Method SetNavigationState, addr 0x6bfb1f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetNavigationState, addr 0x6d4f0a8, size 0x114, virtual false, abstract: false, final false
   inline void SetNavigationState(::UnityEngine::UIElements::MinMaxSlider_DragState newState);
 
-  /// @brief Method SetSliderValueFromClick, addr 0x6bfbbbc, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SetSliderValueFromClick, addr 0x6d4fa74, size 0x26c, virtual false, abstract: false, final false
   inline void SetSliderValueFromClick();
 
-  /// @brief Method SetSliderValueFromDrag, addr 0x6bfb98c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetSliderValueFromDrag, addr 0x6d4f844, size 0x90, virtual false, abstract: false, final false
   inline void SetSliderValueFromDrag();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6bf9890, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6d4d748, size 0x98, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::Vector2 newValue);
 
-  /// @brief Method SliderLerpUnclamped, addr 0x6bfaf80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x6d4ee38, size 0x10, virtual false, abstract: false, final false
   inline float_t SliderLerpUnclamped(float_t a, float_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0x6bfaf70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x6d4ee28, size 0x10, virtual false, abstract: false, final false
   inline float_t SliderNormalizeValue(float_t currentValue, float_t lowerValue, float_t higherValue);
 
-  /// @brief Method UnregisterEditingCallbacks, addr 0x6bfbf6c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method UnregisterEditingCallbacks, addr 0x6d4fe24, size 0x140, virtual true, abstract: false, final false
   inline void UnregisterEditingCallbacks();
 
-  /// @brief Method UpdateDragElementPosition, addr 0x6bf9928, size 0xa24, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragElementPosition, addr 0x6d4d7e0, size 0xa24, virtual false, abstract: false, final false
   inline void UpdateDragElementPosition();
 
-  /// @brief Method UpdateDragElementPosition, addr 0x6bfaf38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragElementPosition, addr 0x6d4edf0, size 0x38, virtual false, abstract: false, final false
   inline void UpdateDragElementPosition(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x6bfbe28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6d4fce0, size 0x4, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::ClampedDragger_1<float_t>* const& __cordl_internal_get__clampedDragger_k__BackingField() const;
@@ -495,10 +495,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ValueStartPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6bfa70c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4e5c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bfa72c, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4e5e4, size 0x80c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, float_t minValue, float_t maxValue, float_t minLimit, float_t maxLimit);
 
   static inline ::StringW getStaticF_draggerUssClassName();
@@ -527,34 +527,34 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clampedDragger, addr 0x6bf941c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clampedDragger, addr 0x6d4d2d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ClampedDragger_1<float_t>* get_clampedDragger();
 
-  /// @brief Method get_dragElement, addr 0x6bf93ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragElement, addr 0x6d4d2a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragElement();
 
-  /// @brief Method get_dragMaxThumb, addr 0x6bf940c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragMaxThumb, addr 0x6d4d2c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragMaxThumb();
 
-  /// @brief Method get_dragMinThumb, addr 0x6bf93fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragMinThumb, addr 0x6d4d2b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragMinThumb();
 
-  /// @brief Method get_highLimit, addr 0x6bfa3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highLimit, addr 0x6d4e26c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highLimit();
 
-  /// @brief Method get_lowLimit, addr 0x6bfa3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowLimit, addr 0x6d4e274, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lowLimit();
 
-  /// @brief Method get_maxValue, addr 0x6bf9604, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x6d4d4bc, size 0x20, virtual false, abstract: false, final false
   inline float_t get_maxValue();
 
-  /// @brief Method get_minValue, addr 0x6bf942c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x6d4d2e4, size 0x10, virtual false, abstract: false, final false
   inline float_t get_minValue();
 
-  /// @brief Method get_range, addr 0x6bfa34c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_range, addr 0x6d4e204, size 0x68, virtual false, abstract: false, final false
   inline float_t get_range();
 
-  /// @brief Method get_value, addr 0x6bf97b8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6d4d670, size 0x48, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_value();
 
   static inline void setStaticF_draggerUssClassName(::StringW value);
@@ -583,31 +583,31 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clampedDragger, addr 0x6bf9424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clampedDragger, addr 0x6d4d2dc, size 0x8, virtual false, abstract: false, final false
   inline void set_clampedDragger(::UnityEngine::UIElements::ClampedDragger_1<float_t>* value);
 
-  /// @brief Method set_dragElement, addr 0x6bf93f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragElement, addr 0x6d4d2ac, size 0x8, virtual false, abstract: false, final false
   inline void set_dragElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_dragMaxThumb, addr 0x6bf9414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragMaxThumb, addr 0x6d4d2cc, size 0x8, virtual false, abstract: false, final false
   inline void set_dragMaxThumb(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_dragMinThumb, addr 0x6bf9404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragMinThumb, addr 0x6d4d2bc, size 0x8, virtual false, abstract: false, final false
   inline void set_dragMinThumb(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_highLimit, addr 0x6bfa568, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method set_highLimit, addr 0x6d4e420, size 0x1a4, virtual false, abstract: false, final false
   inline void set_highLimit(float_t value);
 
-  /// @brief Method set_lowLimit, addr 0x6bfa3c4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method set_lowLimit, addr 0x6d4e27c, size 0x1a4, virtual false, abstract: false, final false
   inline void set_lowLimit(float_t value);
 
-  /// @brief Method set_maxValue, addr 0x6bf9624, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x6d4d4dc, size 0x194, virtual false, abstract: false, final false
   inline void set_maxValue(float_t value);
 
-  /// @brief Method set_minValue, addr 0x6bf943c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x6d4d2f4, size 0x190, virtual false, abstract: false, final false
   inline void set_minValue(float_t value);
 
-  /// @brief Method set_value, addr 0x6bf9800, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6d4d6b8, size 0x90, virtual true, abstract: false, final false
   inline void set_value(::UnityEngine::Vector2 value);
 
 protected:

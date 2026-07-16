@@ -27,16 +27,16 @@ namespace UnityEngine {
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ManagedStreamLength, addr 0x698dda4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamLength, addr 0x6ae0e50, size 0x9c, virtual false, abstract: false, final false
   static inline void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ManagedStreamRead, addr 0x698dc24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamRead, addr 0x6ae0cd0, size 0xc4, virtual false, abstract: false, final false
   static inline void ManagedStreamRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ManagedStreamSeek, addr 0x698dce8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamSeek, addr 0x6ae0d94, size 0xbc, virtual false, abstract: false, final false
   static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ValidateLoadFromStream, addr 0x698db20, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadFromStream, addr 0x6ae0bcc, size 0x104, virtual false, abstract: false, final false
   static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
 
 protected:
@@ -54,7 +54,7 @@ public:
   ManagedStreamHelpers(ManagedStreamHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

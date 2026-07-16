@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::FormattedFloatListSettingsController_ValueType const Normalized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,18 +125,18 @@ public:
 
   __declspec(property(get = get_values, put = set_values)) ::ArrayW<float_t> values;
 
-  /// @brief Method ApplyValue, addr 0x58e4504, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x5a0e040, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x58e43a0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x5a0dedc, size 0x164, virtual true, abstract: false, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x58e438c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5a0dec8, size 0x14, virtual false, abstract: false, final false
   inline void SetValue(float_t value, bool callCallback);
 
-  /// @brief Method TextForValue, addr 0x58e455c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x5a0e098, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::StringW const& __cordl_internal_get__formattingString() const;
@@ -187,22 +187,22 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::GlobalNamespace::FormattedFloatListSettingsController_ValueType value);
 
-  /// @brief Method .ctor, addr 0x58e4624, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0e160, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x58e41c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x5a0dd00, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
-  /// @brief Method get_value, addr 0x58e4344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x5a0de80, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method get_values, addr 0x58e434c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x5a0de88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_values();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x58e4284, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x5a0ddc0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
-  /// @brief Method set_values, addr 0x58e4354, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x5a0de90, size 0x38, virtual false, abstract: false, final false
   inline void set_values(::ArrayW<float_t> value);
 
 protected:
@@ -220,7 +220,7 @@ public:
   FormattedFloatListSettingsController(FormattedFloatListSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6372 };
 
   /// @brief Field _values, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<float_t> ____values;

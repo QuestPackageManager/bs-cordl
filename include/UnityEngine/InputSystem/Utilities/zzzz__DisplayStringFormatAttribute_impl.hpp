@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)()>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::get_formatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bf07c;
+  constexpr static std::size_t addrs = 0x64fbc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::set_formatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bf084;
+  constexpr static std::size_t addrs = 0x64fbca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bf08c;
+  constexpr static std::size_t addrs = 0x64fbcac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -73,7 +73,7 @@ public:
   static ::UnityEngine::Rendering::DebugActionState_DebugActionKeyType const Key;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11958 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,16 +122,16 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugActionState* New_ctor();
 
-  /// @brief Method Reset, addr 0x6624b08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6762214, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Trigger, addr 0x6624a54, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Trigger, addr 0x6762160, size 0xb4, virtual false, abstract: false, final false
   inline void Trigger(int32_t triggerCount, float_t state);
 
-  /// @brief Method TriggerWithButton, addr 0x66208bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TriggerWithButton, addr 0x675dfc8, size 0x7c, virtual false, abstract: false, final false
   inline void TriggerWithButton(::UnityEngine::InputSystem::InputAction* action, float_t state);
 
-  /// @brief Method Update, addr 0x662099c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x675e0a8, size 0x1d4, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::DebugActionDesc* desc);
 
   constexpr float_t const& __cordl_internal_get__actionState_k__BackingField() const;
@@ -170,19 +170,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::Rendering::DebugActionState_DebugActionKeyType value);
 
-  /// @brief Method .ctor, addr 0x662076c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675de78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_actionState, addr 0x6624a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionState, addr 0x6762150, size 0x8, virtual false, abstract: false, final false
   inline float_t get_actionState();
 
-  /// @brief Method get_runningAction, addr 0x6624a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_runningAction, addr 0x6762140, size 0x8, virtual false, abstract: false, final false
   inline bool get_runningAction();
 
-  /// @brief Method set_actionState, addr 0x6624a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_actionState, addr 0x6762158, size 0x8, virtual false, abstract: false, final false
   inline void set_actionState(float_t value);
 
-  /// @brief Method set_runningAction, addr 0x6624a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_runningAction, addr 0x6762148, size 0x8, virtual false, abstract: false, final false
   inline void set_runningAction(bool value);
 
 protected:
@@ -200,7 +200,7 @@ public:
   DebugActionState(DebugActionState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11959 };
 
   /// @brief Field m_Type, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::DebugActionState_DebugActionKeyType ___m_Type;

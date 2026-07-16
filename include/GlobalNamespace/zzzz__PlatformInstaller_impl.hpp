@@ -1,348 +1,142 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlatformInstaller.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstaller_def.hpp"
-#include "Analytics/Model/zzzz__TelemetryModel_def.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__GameplayEventsDispatcher_def.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__IFeatureFlagService_def.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProviderInstallerSO_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
-#include "GlobalNamespace/zzzz__AppIdentificationSO_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstaller_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller___c._ctor
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller_Arguments._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller___c::*)()>(&::GlobalNamespace::PlatformInstaller___c::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b5698;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller___c*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller___c._LoadResourcesBeforeInstall_b__11_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlatformInstaller___c::*)(::GlobalNamespace::AchievementSO*)>(
-    &::GlobalNamespace::PlatformInstaller___c::_LoadResourcesBeforeInstall_b__11_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller_Arguments::*)(
+    bool, ::OSCE::Analytics::AnalyticsManager*, ::OculusStudios::Platform::Core::IPlatform*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, uint64_t,
+    ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO*)>(&::GlobalNamespace::PlatformInstaller_Arguments::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36b569c;
+  constexpr static std::size_t addrs = 0x37734a0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller___c*>(),
-                                                                                           { "<LoadResourcesBeforeInstall>b__11_0", {}, { ::i2c::type_of<::GlobalNamespace::AchievementSO*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller_Arguments*>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<bool>(), ::i2c::type_of<::OSCE::Analytics::AnalyticsManager*>(), ::i2c::type_of<::OculusStudios::Platform::Core::IPlatform*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), ::i2c::type_of<uint64_t>(),
+                                                    ::i2c::type_of<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller___c._LoadResourcesBeforeInstallAsync_b__12_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlatformInstaller___c::*)(::GlobalNamespace::AchievementSO*)>(
-    &::GlobalNamespace::PlatformInstaller___c::_LoadResourcesBeforeInstallAsync_b__12_0)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36b56b0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller___c*>(),
-                                                             { "<LoadResourcesBeforeInstallAsync>b__12_0", {}, { ::i2c::type_of<::GlobalNamespace::AchievementSO*>() } })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::PlatformInstaller___c::setStaticF___9(::GlobalNamespace::PlatformInstaller___c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::PlatformInstaller___c*, "<>9", ::GlobalNamespace::PlatformInstaller___c*>(std::forward<::GlobalNamespace::PlatformInstaller___c*>(value));
+constexpr bool& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_useMock() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useMock;
 }
-inline ::GlobalNamespace::PlatformInstaller___c* GlobalNamespace::PlatformInstaller___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::PlatformInstaller___c*, "<>9", ::GlobalNamespace::PlatformInstaller___c*>();
+constexpr bool const& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_useMock() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useMock;
 }
-inline void GlobalNamespace::PlatformInstaller___c::setStaticF___9__11_0(::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>*, "<>9__11_0", ::GlobalNamespace::PlatformInstaller___c*>(
-      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>*>(value));
+constexpr void GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_set_useMock(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___useMock = value;
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* GlobalNamespace::PlatformInstaller___c::getStaticF___9__11_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>*, "<>9__11_0", ::GlobalNamespace::PlatformInstaller___c*>();
+constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_analyticsManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___analyticsManager;
 }
-inline void GlobalNamespace::PlatformInstaller___c::setStaticF___9__12_0(::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>*, "<>9__12_0", ::GlobalNamespace::PlatformInstaller___c*>(
-      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>*>(value));
+constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_analyticsManager() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___analyticsManager;
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* GlobalNamespace::PlatformInstaller___c::getStaticF___9__12_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>*, "<>9__12_0", ::GlobalNamespace::PlatformInstaller___c*>();
+constexpr void GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_set_analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___analyticsManager = value;
 }
-inline void GlobalNamespace::PlatformInstaller___c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller___c*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_platform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___platform;
 }
-inline ::StringW GlobalNamespace::PlatformInstaller___c::_LoadResourcesBeforeInstall_b__11_0(::GlobalNamespace::AchievementSO* x) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller___c*>(),
-                                                                                         { "<LoadResourcesBeforeInstall>b__11_0", {}, { ::i2c::type_of<::GlobalNamespace::AchievementSO*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
+constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_platform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___platform;
 }
-inline ::StringW GlobalNamespace::PlatformInstaller___c::_LoadResourcesBeforeInstallAsync_b__12_0(::GlobalNamespace::AchievementSO* x) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller___c*>(),
-                                                                                         { "<LoadResourcesBeforeInstallAsync>b__12_0", {}, { ::i2c::type_of<::GlobalNamespace::AchievementSO*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
+constexpr void GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_set_platform(::OculusStudios::Platform::Core::IPlatform* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___platform = value;
 }
-inline ::GlobalNamespace::PlatformInstaller___c* GlobalNamespace::PlatformInstaller___c::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformInstaller___c*>());
+constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>&
+GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_mockPlatformAdditionalContentModelInitialData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___mockPlatformAdditionalContentModelInitialData;
+}
+constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const&
+GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_mockPlatformAdditionalContentModelInitialData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___mockPlatformAdditionalContentModelInitialData;
+}
+constexpr void
+GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_set_mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___mockPlatformAdditionalContentModelInitialData = value;
+}
+constexpr uint64_t& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_graphAppId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___graphAppId;
+}
+constexpr uint64_t const& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_graphAppId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___graphAppId;
+}
+constexpr void GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_set_graphAppId(uint64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___graphAppId = value;
+}
+constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_graphQLClientProviderInstaller() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___graphQLClientProviderInstaller;
+}
+constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> const& GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_get_graphQLClientProviderInstaller() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___graphQLClientProviderInstaller;
+}
+constexpr void GlobalNamespace::PlatformInstaller_Arguments::__cordl_internal_set_graphQLClientProviderInstaller(::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___graphQLClientProviderInstaller = value;
+}
+inline void GlobalNamespace::PlatformInstaller_Arguments::_ctor(bool useMock, ::OSCE::Analytics::AnalyticsManager* analyticsManager, ::OculusStudios::Platform::Core::IPlatform* platform,
+                                                                ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData, uint64_t graphAppId,
+                                                                ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO* graphQLClientProviderInstaller) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller_Arguments*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<bool>(), ::i2c::type_of<::OSCE::Analytics::AnalyticsManager*>(), ::i2c::type_of<::OculusStudios::Platform::Core::IPlatform*>(),
+                                                  ::i2c::type_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), ::i2c::type_of<uint64_t>(),
+                                                  ::i2c::type_of<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, useMock, analyticsManager, platform, mockPlatformAdditionalContentModelInitialData, graphAppId,
+                                                   graphQLClientProviderInstaller);
+}
+inline ::GlobalNamespace::PlatformInstaller_Arguments*
+GlobalNamespace::PlatformInstaller_Arguments::New_ctor(bool useMock, ::OSCE::Analytics::AnalyticsManager* analyticsManager, ::OculusStudios::Platform::Core::IPlatform* platform,
+                                                       ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData, uint64_t graphAppId,
+                                                       ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO* graphQLClientProviderInstaller) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformInstaller_Arguments*>(useMock, analyticsManager, platform, mockPlatformAdditionalContentModelInitialData,
+                                                                                                           graphAppId, graphQLClientProviderInstaller));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformInstaller___c::PlatformInstaller___c() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15.MoveNext
+constexpr ::GlobalNamespace::PlatformInstaller_Arguments::PlatformInstaller_Arguments() {}
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::*)()>(
-    &::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x36b56c4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)(::GlobalNamespace::PlatformInstaller_Arguments*)>(&::GlobalNamespace::PlatformInstaller::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x3772dbc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15>(), { "MoveNext", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::SetStateMachine)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36b5a38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15>(),
-                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15>(), { "MoveNext", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
-}
-inline void GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15>(),
-                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: Some("{}") }, CppParam { name: "telemetry", ty:
-// "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::Platform::Core::IPlatform* platform,
-    ::UnityW<::OSCE::Analytics::AnalyticsManager> analyticsManager, ::Analytics::Model::TelemetryModel* telemetry, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->platform = platform;
-  this->analyticsManager = analyticsManager;
-  this->telemetry = telemetry;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::*)()>(
-    &::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::MoveNext)> {
-  constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x36b5aa4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11>(), { "MoveNext", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::SetStateMachine)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36b5f80;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11>(),
-                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11>(), { "MoveNext", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
-}
-inline void GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11>(),
-                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformInstaller>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: Some("{}")
-// }]
-constexpr ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::PlatformInstaller__LoadResourcesBeforeInstall_d__11(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformInstaller> __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->__4__this = __4__this;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11::PlatformInstaller__LoadResourcesBeforeInstall_d__11() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::*)()>(
-    &::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::MoveNext)> {
-  constexpr static std::size_t size = 0x7b0;
-  constexpr static std::size_t addrs = 0x36b5f88;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12>(), { "MoveNext", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::SetStateMachine)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36b6738;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12>(),
-                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12>(), { "MoveNext", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
-}
-inline void GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12>(),
-                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformInstaller>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stopWatch_5__2", ty:
-// "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformInstaller> __4__this, ::Zenject::DiContainer* container,
-    ::System::Diagnostics::Stopwatch* _stopWatch_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->__4__this = __4__this;
-  this->container = container;
-  this->_stopWatch_5__2 = _stopWatch_5__2;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.get_isRunningFromTests
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::get_isRunningFromTests)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x36b4f30;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "get_isRunningFromTests", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.LoadResourcesBeforeInstall
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
-    &::GlobalNamespace::PlatformInstaller::LoadResourcesBeforeInstall)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36b4f50;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 9 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.LoadResourcesBeforeInstallAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformInstaller::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
-        &::GlobalNamespace::PlatformInstaller::LoadResourcesBeforeInstallAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36b4ff4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 10 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.FindOrCreateAnalyticsManager
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::OSCE::Analytics::AnalyticsManager> (*)()>(&::GlobalNamespace::PlatformInstaller::FindOrCreateAnalyticsManager)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x36b50b4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "FindOrCreateAnalyticsManager", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::PlatformInstaller_Arguments*>() } })));
     return ___internal_method;
   }
 };
@@ -350,213 +144,123 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::OSCE::Analytic
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x36b51d8;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x3772e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 8 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 7 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.InitializeAnalyticsEventsDispatcherAsync
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.BindAnalyticsModel
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::Threading::Tasks::Task* (*)(::Analytics::Model::TelemetryModel*, ::OculusStudios::Platform::Core::IPlatform*, ::OSCE::Analytics::AnalyticsManager*)>(
-        &::GlobalNamespace::PlatformInstaller::InitializeAnalyticsEventsDispatcherAsync)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x36b54f4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindAnalyticsModel)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3773130;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindAnalyticsModel", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.BindBeatmapDataAssetFileModel
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindBeatmapDataAssetFileModel)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x37732a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindBeatmapDataAssetFileModel", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.BindAdditionalContentModel
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindAdditionalContentModel)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x377320c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindAdditionalContentModel", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller.BindMockPlatformAdditionalContentModel
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindMockPlatformAdditionalContentModel)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3773348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(),
-                                                             { "InitializeAnalyticsEventsDispatcherAsync",
-                                                               {},
-                                                               { ::i2c::type_of<::Analytics::Model::TelemetryModel*>(), ::i2c::type_of<::OculusStudios::Platform::Core::IPlatform*>(),
-                                                                 ::i2c::type_of<::OSCE::Analytics::AnalyticsManager*>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindMockPlatformAdditionalContentModel", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b55b8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller._InstallBindings_b__14_0
+//  Writing Method size for method: ::GlobalNamespace::PlatformInstaller._InstallBindings_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* (
-    ::GlobalNamespace::PlatformInstaller::*)(::BeatSaber::FeatureFlags::IFeatureFlagService*)>(&::GlobalNamespace::PlatformInstaller::_InstallBindings_b__14_0)> {
+    ::GlobalNamespace::PlatformInstaller::*)(::BeatSaber::FeatureFlags::IFeatureFlagService*)>(&::GlobalNamespace::PlatformInstaller::_InstallBindings_b__3_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36b55bc;
+  constexpr static std::size_t addrs = 0x3773418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(),
-                                                                                           { "<InstallBindings>b__14_0", {}, { ::i2c::type_of<::BeatSaber::FeatureFlags::IFeatureFlagService*>() } })));
+                                                                                           { "<InstallBindings>b__3_0", {}, { ::i2c::type_of<::BeatSaber::FeatureFlags::IFeatureFlagService*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::AppInitSetupData*& GlobalNamespace::PlatformInstaller::__cordl_internal_get__setupData() {
+constexpr ::GlobalNamespace::PlatformInstaller_Arguments*& GlobalNamespace::PlatformInstaller::__cordl_internal_get__arguments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____setupData;
+  return this->____arguments;
 }
-constexpr ::GlobalNamespace::AppInitSetupData* const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__setupData() const {
+constexpr ::GlobalNamespace::PlatformInstaller_Arguments* const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__arguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____setupData;
+  return this->____arguments;
 }
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value) {
+constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__arguments(::GlobalNamespace::PlatformInstaller_Arguments* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____setupData = value;
+  this->____arguments = value;
 }
-constexpr ::UnityW<::GlobalNamespace::AppIdentificationSO>& GlobalNamespace::PlatformInstaller::__cordl_internal_get__appIdentification() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appIdentification;
-}
-constexpr ::UnityW<::GlobalNamespace::AppIdentificationSO> const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__appIdentification() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appIdentification;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__appIdentification(::UnityW<::GlobalNamespace::AppIdentificationSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____appIdentification = value;
-}
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& GlobalNamespace::PlatformInstaller::__cordl_internal_get__networkConfig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____networkConfig;
-}
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__networkConfig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____networkConfig;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____networkConfig = value;
-}
-constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& GlobalNamespace::PlatformInstaller::__cordl_internal_get__achievementIdsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____achievementIdsModel;
-}
-constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__achievementIdsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____achievementIdsModel;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____achievementIdsModel = value;
-}
-constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& GlobalNamespace::PlatformInstaller::__cordl_internal_get__mockPlatformAdditionalContentModelInitialData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mockPlatformAdditionalContentModelInitialData;
-}
-constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const&
-GlobalNamespace::PlatformInstaller::__cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mockPlatformAdditionalContentModelInitialData;
-}
-constexpr void
-GlobalNamespace::PlatformInstaller::__cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____mockPlatformAdditionalContentModelInitialData = value;
-}
-constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>& GlobalNamespace::PlatformInstaller::__cordl_internal_get__graphQLClientProviderInstaller() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____graphQLClientProviderInstaller;
-}
-constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__graphQLClientProviderInstaller() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____graphQLClientProviderInstaller;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__graphQLClientProviderInstaller(::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____graphQLClientProviderInstaller = value;
-}
-constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::PlatformInstaller::__cordl_internal_get__platform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
-}
-constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__platform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____platform = value;
-}
-constexpr ::StringW& GlobalNamespace::PlatformInstaller::__cordl_internal_get__loggingCategory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____loggingCategory;
-}
-constexpr ::StringW const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__loggingCategory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____loggingCategory;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__loggingCategory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____loggingCategory = value;
-}
-constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& GlobalNamespace::PlatformInstaller::__cordl_internal_get__analyticsManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____analyticsManager;
-}
-constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& GlobalNamespace::PlatformInstaller::__cordl_internal_get__analyticsManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____analyticsManager;
-}
-constexpr void GlobalNamespace::PlatformInstaller::__cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____analyticsManager = value;
-}
-inline bool GlobalNamespace::PlatformInstaller::get_isRunningFromTests() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "get_isRunningFromTests", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
-}
-inline void GlobalNamespace::PlatformInstaller::LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 9 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, registry, container);
-}
-inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformInstaller::LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry,
-                                                                                                             ::Zenject::DiContainer* container) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, registry, container);
-}
-inline ::UnityW<::OSCE::Analytics::AnalyticsManager> GlobalNamespace::PlatformInstaller::FindOrCreateAnalyticsManager() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "FindOrCreateAnalyticsManager", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::OSCE::Analytics::AnalyticsManager>>(nullptr, ___internal_method);
+inline void GlobalNamespace::PlatformInstaller::_ctor(::GlobalNamespace::PlatformInstaller_Arguments* arguments) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::PlatformInstaller_Arguments*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, arguments);
 }
 inline void GlobalNamespace::PlatformInstaller::InstallBindings() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 8 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformInstaller::InitializeAnalyticsEventsDispatcherAsync(::Analytics::Model::TelemetryModel* telemetry,
-                                                                                                                      ::OculusStudios::Platform::Core::IPlatform* platform,
-                                                                                                                      ::OSCE::Analytics::AnalyticsManager* analyticsManager) {
+inline void GlobalNamespace::PlatformInstaller::BindAnalyticsModel() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindAnalyticsModel", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::PlatformInstaller::BindBeatmapDataAssetFileModel() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindBeatmapDataAssetFileModel", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::PlatformInstaller::BindAdditionalContentModel() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindAdditionalContentModel", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::PlatformInstaller::BindMockPlatformAdditionalContentModel() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(),
-                                                           { "InitializeAnalyticsEventsDispatcherAsync",
-                                                             {},
-                                                             { ::i2c::type_of<::Analytics::Model::TelemetryModel*>(), ::i2c::type_of<::OculusStudios::Platform::Core::IPlatform*>(),
-                                                               ::i2c::type_of<::OSCE::Analytics::AnalyticsManager*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(nullptr, ___internal_method, telemetry, platform, analyticsManager);
-}
-inline void GlobalNamespace::PlatformInstaller::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindMockPlatformAdditionalContentModel", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* GlobalNamespace::PlatformInstaller::_InstallBindings_b__14_0(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlagService) {
+inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* GlobalNamespace::PlatformInstaller::_InstallBindings_b__3_0(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlagService) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(),
-                                                                                         { "<InstallBindings>b__14_0", {}, { ::i2c::type_of<::BeatSaber::FeatureFlags::IFeatureFlagService*>() } })));
+                                                                                         { "<InstallBindings>b__3_0", {}, { ::i2c::type_of<::BeatSaber::FeatureFlags::IFeatureFlagService*>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*>(this, ___internal_method, featureFlagService);
 }
-inline ::GlobalNamespace::PlatformInstaller* GlobalNamespace::PlatformInstaller::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformInstaller*>());
+inline ::GlobalNamespace::PlatformInstaller* GlobalNamespace::PlatformInstaller::New_ctor(::GlobalNamespace::PlatformInstaller_Arguments* arguments) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformInstaller*>(arguments));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformInstaller::PlatformInstaller() {}

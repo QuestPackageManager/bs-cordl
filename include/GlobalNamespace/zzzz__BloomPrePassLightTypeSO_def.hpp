@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__renderingPriority(int32_t value);
 
-  /// @brief Method .ctor, addr 0x57205d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5865264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_material, addr 0x57205cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x586525c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_renderingPriority, addr 0x57205c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingPriority, addr 0x5865254, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderingPriority();
 
 protected:
@@ -71,7 +71,7 @@ public:
   BloomPrePassLightTypeSO(BloomPrePassLightTypeSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19433 };
 
   /// @brief Field _renderingPriority, offset: 0x18, size: 0x4, def value: None
   int32_t ____renderingPriority;

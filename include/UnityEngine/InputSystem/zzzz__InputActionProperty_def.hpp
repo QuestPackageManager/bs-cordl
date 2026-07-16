@@ -49,37 +49,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
   constexpr operator ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*();
 
-  /// @brief Method Equals, addr 0x63a6468, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x64e3088, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x63a63dc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x64e2ffc, size 0x1c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputAction* other);
 
-  /// @brief Method Equals, addr 0x63a6334, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x64e2f54, size 0xa8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputActionProperty other);
 
-  /// @brief Method Equals, addr 0x63a63f8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x64e3018, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputActionReference* other);
 
-  /// @brief Method GetHashCode, addr 0x63a6548, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x64e3168, size 0xa0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x63a6318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e2f38, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method .ctor, addr 0x63a6324, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e2f44, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionReference* reference);
 
-  /// @brief Method get_action, addr 0x63a61a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x64e2dc4, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_reference, addr 0x63a62f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_reference, addr 0x64e2f10, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_reference();
 
-  /// @brief Method get_serializedAction, addr 0x63a6308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedAction, addr 0x64e2f28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_serializedAction();
 
-  /// @brief Method get_serializedReference, addr 0x63a6310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedReference, addr 0x64e2f30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_serializedReference();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
@@ -91,10 +91,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
   constexpr ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>* i___System__IEquatable_1___UnityW___UnityEngine__InputSystem__InputActionReference__();
 
-  /// @brief Method op_Equality, addr 0x63a65e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x64e3208, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);
 
-  /// @brief Method op_Inequality, addr 0x63a6618, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x64e3238, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);
 
   // Ctor Parameters []
@@ -106,7 +106,7 @@ public:
   constexpr InputActionProperty(bool m_UseReference, ::UnityEngine::InputSystem::InputAction* m_Action, ::UnityW<::UnityEngine::InputSystem::InputActionReference> m_Reference) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8617 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

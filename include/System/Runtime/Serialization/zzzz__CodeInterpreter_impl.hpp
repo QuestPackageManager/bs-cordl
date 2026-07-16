@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*, ::System::Type*)>(&::System::Runtime::Serialization::CodeInterpreter::ConvertValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x603b4c0;
+  constexpr static std::size_t addrs = 0x61765bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::TypeCode)>(&::System::Runtime::Serialization::CodeInterpreter::CanConvert)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x603b720;
+  constexpr static std::size_t addrs = 0x617681c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*, ::System::Type*, bool)>(
     &::System::Runtime::Serialization::CodeInterpreter::InternalConvert)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x603b4c8;
+  constexpr static std::size_t addrs = 0x61765c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Reflection::MemberInfo*, ::System::Object*)>(&::System::Runtime::Serialization::CodeInterpreter::GetMember)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x603b730;
+  constexpr static std::size_t addrs = 0x617682c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::System::Object*, ::System::Object*)>(
     &::System::Runtime::Serialization::CodeInterpreter::SetMember)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x603b82c;
+  constexpr static std::size_t addrs = 0x6176928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

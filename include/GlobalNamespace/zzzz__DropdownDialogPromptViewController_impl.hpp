@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel::*)()>(
     &::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel::get_component)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e81ec;
+  constexpr static std::size_t addrs = 0x5a1204c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TextMeshProUGUI> (::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel::*)()>(
     &::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel::get_label)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e81f4;
+  constexpr static std::size_t addrs = 0x5a12054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel::*)()>(
     &::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e81fc;
+  constexpr static std::size_t addrs = 0x5a1205c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController___c::*)()>(&::GlobalNamespace::DropdownDialogPromptViewController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e8254;
+  constexpr static std::size_t addrs = 0x5a120b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController___c*>(), { ".ctor", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DropdownDialogPromptViewController___c::*)(::System::ValueTuple_2<::StringW, int32_t>)>(
     &::GlobalNamespace::DropdownDialogPromptViewController___c::_Init_b__12_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e8258;
+  constexpr static std::size_t addrs = 0x5a120b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController___c*>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::DropdownDialogPromptViewController___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e80b8;
+  constexpr static std::size_t addrs = 0x5a11f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::DropdownDialogPromptViewController___c__DisplayClass13_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58e8260;
+  constexpr static std::size_t addrs = 0x5a120c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DropdownDialogPromptViewController::*)()>(
     &::GlobalNamespace::DropdownDialogPromptViewController::get_selectedValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58e7d84;
+  constexpr static std::size_t addrs = 0x5a11968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController::*)(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>*)>(
     &::GlobalNamespace::DropdownDialogPromptViewController::add__didFinishAction)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58e7dc0;
+  constexpr static std::size_t addrs = 0x5a119a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController::*)(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>*)>(
     &::GlobalNamespace::DropdownDialogPromptViewController::remove__didFinishAction)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58e7e80;
+  constexpr static std::size_t addrs = 0x5a11a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::StringW, ::StringW, ::StringW, ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>, ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>*, ::ArrayW<::StringW>)>(
     &::GlobalNamespace::DropdownDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x58da5f4;
+  constexpr static std::size_t addrs = 0x5a11b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::DropdownDialogPromptViewController::DidActivate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x58e7f40;
+  constexpr static std::size_t addrs = 0x5a11da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(),
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController::*)(bool, bool)>(
     &::GlobalNamespace::DropdownDialogPromptViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e80bc;
+  constexpr static std::size_t addrs = 0x5a11f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController::*)(int32_t)>(
     &::GlobalNamespace::DropdownDialogPromptViewController::OnButtonClick)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x58e80c8;
+  constexpr static std::size_t addrs = 0x5a11f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownDialogPromptViewController::*)()>(&::GlobalNamespace::DropdownDialogPromptViewController::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58e8148;
+  constexpr static std::size_t addrs = 0x5a11fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(), { ".ctor", {}, {} })));

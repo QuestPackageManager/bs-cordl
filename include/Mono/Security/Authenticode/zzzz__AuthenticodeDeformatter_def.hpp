@@ -87,23 +87,23 @@ public:
   /// @brief Field trustedTimestampRoot, offset 0x7d, size 0x1
   __declspec(property(get = __cordl_internal_get_trustedTimestampRoot, put = __cordl_internal_set_trustedTimestampRoot)) bool trustedTimestampRoot;
 
-  /// @brief Method CheckSignature, addr 0x596b988, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method CheckSignature, addr 0x5aa42f4, size 0x2fc, virtual false, abstract: false, final false
   inline bool CheckSignature();
 
-  /// @brief Method CompareIssuerSerial, addr 0x596c640, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CompareIssuerSerial, addr 0x5aa4fac, size 0x104, virtual false, abstract: false, final false
   inline bool CompareIssuerSerial(::StringW issuer, ::ArrayW<uint8_t> serial, ::Mono::Security::X509::X509Certificate* x509);
 
   static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor();
 
   static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor(::ArrayW<uint8_t> rawData);
 
-  /// @brief Method Reset, addr 0x596b8e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5aa424c, size 0xa8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method VerifyCounterSignature, addr 0x596c744, size 0x97c, virtual false, abstract: false, final false
+  /// @brief Method VerifyCounterSignature, addr 0x5aa50b0, size 0x97c, virtual false, abstract: false, final false
   inline bool VerifyCounterSignature(::Mono::Security::PKCS7_SignerInfo* cs, ::ArrayW<uint8_t> signature);
 
-  /// @brief Method VerifySignature, addr 0x596bc8c, size 0x9b4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5aa45f8, size 0x9b4, virtual false, abstract: false, final false
   inline bool VerifySignature(::Mono::Security::PKCS7_SignedData* sd, ::ArrayW<uint8_t> calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get_coll() const;
@@ -184,16 +184,16 @@ public:
 
   constexpr void __cordl_internal_set_trustedTimestampRoot(bool value);
 
-  /// @brief Method .ctor, addr 0x596b764, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa40d0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x596b7e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4154, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> rawData);
 
-  /// @brief Method get_SigningCertificate, addr 0x596bc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigningCertificate, addr 0x5aa45f0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_SigningCertificate();
 
-  /// @brief Method set_RawData, addr 0x596b810, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_RawData, addr 0x5aa417c, size 0xd0, virtual false, abstract: false, final false
   inline void set_RawData(::ArrayW<uint8_t> value);
 
 protected:
@@ -211,7 +211,7 @@ public:
   AuthenticodeDeformatter(AuthenticodeDeformatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19308 };
 
   /// @brief Field filename, offset: 0x40, size: 0x8, def value: None
   ::StringW ___filename;

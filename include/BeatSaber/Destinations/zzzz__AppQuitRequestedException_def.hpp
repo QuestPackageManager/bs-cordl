@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::BeatSaber::Destinations::AppQuitRequestedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31e98e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3280a9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   AppQuitRequestedException(AppQuitRequestedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,7 +6,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DeactivateAnimatorOnInputFocusCapture)
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IXRSystemState;
+}
+namespace GlobalNamespace {
+struct XRSystemEventType;
 }
 namespace UnityEngine {
 class Animator;
@@ -28,33 +31,30 @@ public:
   /// @brief Field _animator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _systemState, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__systemState, put = __cordl_internal_set__systemState)) ::GlobalNamespace::IXRSystemState* _systemState;
 
   /// @brief Field _wasEnabled, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__wasEnabled, put = __cordl_internal_set__wasEnabled)) bool _wasEnabled;
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x570ce70, size 0x40, virtual false, abstract: false, final false
-  inline void HandleInputFocusCaptured();
-
-  /// @brief Method HandleInputFocusReleased, addr 0x570d094, size 0x20, virtual false, abstract: false, final false
-  inline void HandleInputFocusReleased();
+  /// @brief Method HandleSystemStateChange, addr 0x5856e2c, size 0x64, virtual false, abstract: false, final false
+  inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x570ceb0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5856cf0, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x570cc58, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5856bd0, size 0x120, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
   constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::GlobalNamespace::IXRSystemState* const& __cordl_internal_get__systemState() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IXRSystemState*& __cordl_internal_get__systemState();
 
   constexpr bool const& __cordl_internal_get__wasEnabled() const;
 
@@ -62,11 +62,11 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__systemState(::GlobalNamespace::IXRSystemState* value);
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x570d0b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5856e90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,13 +84,13 @@ public:
   DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21339 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+  /// @brief Field _systemState, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::IXRSystemState* ____systemState;
 
   /// @brief Field _wasEnabled, offset: 0x30, size: 0x1, def value: None
   bool ____wasEnabled;
@@ -100,7 +100,7 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____animator) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____systemState) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____wasEnabled) == 0x30, "Offset mismatch!");
 

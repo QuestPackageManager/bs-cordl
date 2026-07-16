@@ -14,6 +14,9 @@ namespace GlobalNamespace {
 class IRandom;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Random;
 }
 // Forward declare root types
@@ -42,15 +45,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRandom"
   constexpr operator ::GlobalNamespace::IRandom*() noexcept;
 
-  /// @brief Method Finalize, addr 0x570f040, size 0xc4, virtual true, abstract: false, final false
-  inline void Finalize();
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method HandleDeterminismSet, addr 0x570efb4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3324428, size 0x8c, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method HandleDeterminismSet, addr 0x3324380, size 0x8c, virtual false, abstract: false, final false
   inline void HandleDeterminismSet(bool isDeterministic);
 
   static inline ::GlobalNamespace::ResettableRandom* New_ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
-  /// @brief Method Sample, addr 0x570f104, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Sample, addr 0x332440c, size 0x1c, virtual true, abstract: false, final true
   inline double_t Sample();
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -71,11 +77,14 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x570ef00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33242cc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
   /// @brief Convert to "::GlobalNamespace::IRandom"
   constexpr ::GlobalNamespace::IRandom* i___GlobalNamespace__IRandom() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -92,7 +101,7 @@ public:
   ResettableRandom(ResettableRandom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20536 };
 
   /// @brief Field _determinismConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;

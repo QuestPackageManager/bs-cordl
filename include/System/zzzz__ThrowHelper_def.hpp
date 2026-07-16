@@ -54,157 +54,157 @@ namespace System {
 class CORDL_TYPE ThrowHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArgumentException_DestinationTooShort, addr 0x5b2c9bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentException_DestinationTooShort, addr 0x5c66694, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateArgumentException_DestinationTooShort();
 
-  /// @brief Method CreateArgumentNullException, addr 0x5b2c878, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentNullException, addr 0x5c66550, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateArgumentNullException(::System::ExceptionArgument argument);
 
-  /// @brief Method CreateArgumentOutOfRangeException, addr 0x5b2cad8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentOutOfRangeException, addr 0x5c667b0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateArgumentOutOfRangeException();
 
-  /// @brief Method CreateArgumentOutOfRangeException, addr 0x5b2cb54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentOutOfRangeException, addr 0x5c6682c, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateArgumentOutOfRangeException(::System::ExceptionArgument argument);
 
-  /// @brief Method CreateArrayTypeMismatchException, addr 0x5b2c940, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayTypeMismatchException, addr 0x5c66618, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateArrayTypeMismatchException();
 
-  /// @brief Method CreateIndexOutOfRangeException, addr 0x5b2ca5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateIndexOutOfRangeException, addr 0x5c66734, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateIndexOutOfRangeException();
 
-  /// @brief Method CreateObjectDisposedException_ArrayMemoryPoolBuffer, addr 0x5b2cc1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectDisposedException_ArrayMemoryPoolBuffer, addr 0x5c668f4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateObjectDisposedException_ArrayMemoryPoolBuffer();
 
-  /// @brief Method CreateThrowNotSupportedException, addr 0x5b2ccb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateThrowNotSupportedException, addr 0x5c66988, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateThrowNotSupportedException();
 
-  /// @brief Method GetAddingDuplicateWithKeyArgumentException, addr 0x5b2d990, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetAddingDuplicateWithKeyArgumentException, addr 0x5c67668, size 0x98, virtual false, abstract: false, final false
   static inline ::System::ArgumentException* GetAddingDuplicateWithKeyArgumentException(::System::Object* key);
 
-  /// @brief Method GetArgumentException, addr 0x5b2dd50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetArgumentException, addr 0x5c67a28, size 0xac, virtual false, abstract: false, final false
   static inline ::System::ArgumentException* GetArgumentException(::System::ExceptionResource resource);
 
-  /// @brief Method GetArgumentName, addr 0x5b2d330, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetArgumentName, addr 0x5c67008, size 0x234, virtual false, abstract: false, final false
   static inline ::StringW GetArgumentName(::System::ExceptionArgument argument);
 
-  /// @brief Method GetArgumentNullException, addr 0x5b2dc18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetArgumentNullException, addr 0x5c678f0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::ArgumentNullException* GetArgumentNullException(::System::ExceptionArgument argument);
 
-  /// @brief Method GetArgumentOutOfRangeException, addr 0x5b2d84c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetArgumentOutOfRangeException, addr 0x5c67524, size 0x88, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException(::System::ExceptionArgument argument, ::StringW resource);
 
-  /// @brief Method GetArgumentOutOfRangeException, addr 0x5b2dc88, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetArgumentOutOfRangeException, addr 0x5c67960, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException(::System::ExceptionArgument argument, ::System::ExceptionResource resource);
 
-  /// @brief Method GetArraySegmentCtorValidationFailedException, addr 0x5b2dbe8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetArraySegmentCtorValidationFailedException, addr 0x5c678c0, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Exception* GetArraySegmentCtorValidationFailedException(::System::Array* array, int32_t offset, int32_t count);
 
-  /// @brief Method GetInvalidOperationException, addr 0x5b2db5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidOperationException, addr 0x5c67834, size 0x68, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* GetInvalidOperationException(::StringW str);
 
-  /// @brief Method GetKeyNotFoundException, addr 0x5b2da4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetKeyNotFoundException, addr 0x5c67724, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::KeyNotFoundException* GetKeyNotFoundException(::System::Object* key);
 
-  /// @brief Method GetResourceName, addr 0x5b2cee8, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GetResourceName, addr 0x5c66bc0, size 0x3ec, virtual false, abstract: false, final false
   static inline ::StringW GetResourceName(::System::ExceptionResource resource);
 
   /// @brief Method IfNullAndNullsAreIllegalThenThrow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IfNullAndNullsAreIllegalThenThrow(::System::Object* value, ::System::ExceptionArgument argName);
 
-  /// @brief Method ThrowAddingDuplicateWithKeyArgumentException, addr 0x5b2da28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowAddingDuplicateWithKeyArgumentException, addr 0x5c67700, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowAddingDuplicateWithKeyArgumentException(::System::Object* key);
 
-  /// @brief Method ThrowArgumentException, addr 0x5b2cea0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentException, addr 0x5c66b78, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowArgumentException(::System::ExceptionResource resource);
 
-  /// @brief Method ThrowArgumentException, addr 0x5b2d2d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentException, addr 0x5c66fac, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowArgumentException(::System::ExceptionResource resource, ::System::ExceptionArgument argument);
 
-  /// @brief Method ThrowArgumentException_Argument_InvalidArrayType, addr 0x5b2d944, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentException_Argument_InvalidArrayType, addr 0x5c6761c, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowArgumentException_Argument_InvalidArrayType();
 
-  /// @brief Method ThrowArgumentException_DestinationTooShort, addr 0x5b2c998, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentException_DestinationTooShort, addr 0x5c66670, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowArgumentException_DestinationTooShort();
 
-  /// @brief Method ThrowArgumentNullException, addr 0x5b1ea04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentNullException, addr 0x5c586dc, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowArgumentNullException(::System::ExceptionArgument argument);
 
-  /// @brief Method ThrowArgumentOutOfRangeException, addr 0x5b2cab4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentOutOfRangeException, addr 0x5c6678c, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowArgumentOutOfRangeException();
 
-  /// @brief Method ThrowArgumentOutOfRangeException, addr 0x5b2cb30, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentOutOfRangeException, addr 0x5c66808, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowArgumentOutOfRangeException(::System::ExceptionArgument argument);
 
-  /// @brief Method ThrowArgumentOutOfRangeException, addr 0x5b2d564, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentOutOfRangeException, addr 0x5c6723c, size 0x94, virtual false, abstract: false, final false
   static inline void ThrowArgumentOutOfRangeException(::System::ExceptionArgument argument, ::System::ExceptionResource resource);
 
-  /// @brief Method ThrowArgumentOutOfRange_IndexException, addr 0x5b2d8d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentOutOfRange_IndexException, addr 0x5c675ac, size 0x38, virtual false, abstract: false, final false
   static inline void ThrowArgumentOutOfRange_IndexException();
 
-  /// @brief Method ThrowArraySegmentCtorValidationFailedExceptions, addr 0x5b2dbc4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowArraySegmentCtorValidationFailedExceptions, addr 0x5c6789c, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowArraySegmentCtorValidationFailedExceptions(::System::Array* array, int32_t offset, int32_t count);
 
-  /// @brief Method ThrowArrayTypeMismatchException, addr 0x5b2c91c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowArrayTypeMismatchException, addr 0x5c665f4, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowArrayTypeMismatchException();
 
-  /// @brief Method ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count, addr 0x5b2de28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count, addr 0x5c67b00, size 0x2c, virtual false, abstract: false, final false
   static inline void ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count();
 
-  /// @brief Method ThrowIndexArgumentOutOfRange_NeedNonNegNumException, addr 0x5b2d90c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowIndexArgumentOutOfRange_NeedNonNegNumException, addr 0x5c675e4, size 0x38, virtual false, abstract: false, final false
   static inline void ThrowIndexArgumentOutOfRange_NeedNonNegNumException();
 
-  /// @brief Method ThrowIndexOutOfRangeException, addr 0x5b2ca38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowIndexOutOfRangeException, addr 0x5c66710, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowIndexOutOfRangeException();
 
-  /// @brief Method ThrowInvalidOperationException, addr 0x5b2d5f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException, addr 0x5c672d0, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException(::System::ExceptionResource resource);
 
-  /// @brief Method ThrowInvalidOperationException_ConcurrentOperationsNotSupported, addr 0x5b2db2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException_ConcurrentOperationsNotSupported, addr 0x5c67804, size 0x30, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException_ConcurrentOperationsNotSupported();
 
-  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumEnded, addr 0x5b2d7b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumEnded, addr 0x5c6748c, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException_InvalidOperation_EnumEnded();
 
-  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion, addr 0x5b2d6d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion, addr 0x5c673a8, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion();
 
-  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumNotStarted, addr 0x5b2d768, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumNotStarted, addr 0x5c67440, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException_InvalidOperation_EnumNotStarted();
 
-  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen, addr 0x5b2d71c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen, addr 0x5c673f4, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen();
 
-  /// @brief Method ThrowInvalidOperationException_InvalidOperation_NoValue, addr 0x5b2d800, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException_InvalidOperation_NoValue, addr 0x5c674d8, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException_InvalidOperation_NoValue();
 
-  /// @brief Method ThrowInvalidTypeWithPointersNotSupported, addr 0x5b2dacc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidTypeWithPointersNotSupported, addr 0x5c677a4, size 0x60, virtual false, abstract: false, final false
   static inline void ThrowInvalidTypeWithPointersNotSupported(::System::Type* targetType);
 
-  /// @brief Method ThrowKeyNotFoundException, addr 0x5b2dac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ThrowKeyNotFoundException, addr 0x5c6779c, size 0x8, virtual false, abstract: false, final false
   static inline void ThrowKeyNotFoundException(::System::Object* key);
 
-  /// @brief Method ThrowNotSupportedException, addr 0x5b2cc8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x5c66964, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException();
 
-  /// @brief Method ThrowNotSupportedException, addr 0x5b2d688, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x5c67360, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException(::System::ExceptionResource resource);
 
-  /// @brief Method ThrowObjectDisposedException_ArrayMemoryPoolBuffer, addr 0x5b2cbf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowObjectDisposedException_ArrayMemoryPoolBuffer, addr 0x5c668d0, size 0x24, virtual false, abstract: false, final false
   static inline void ThrowObjectDisposedException_ArrayMemoryPoolBuffer();
 
-  /// @brief Method ThrowSerializationException, addr 0x5b2d640, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowSerializationException, addr 0x5c67318, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowSerializationException(::System::ExceptionResource resource);
 
-  /// @brief Method ThrowStartIndexArgumentOutOfRange_ArgumentOutOfRange_Index, addr 0x5b2ddfc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ThrowStartIndexArgumentOutOfRange_ArgumentOutOfRange_Index, addr 0x5c67ad4, size 0x2c, virtual false, abstract: false, final false
   static inline void ThrowStartIndexArgumentOutOfRange_ArgumentOutOfRange_Index();
 
-  /// @brief Method ThrowValueArgumentOutOfRange_NeedNonNegNumException, addr 0x5b2de54, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ThrowValueArgumentOutOfRange_NeedNonNegNumException, addr 0x5c67b2c, size 0x2c, virtual false, abstract: false, final false
   static inline void ThrowValueArgumentOutOfRange_NeedNonNegNumException();
 
-  /// @brief Method ThrowWrongKeyTypeArgumentException, addr 0x5b2cd08, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ThrowWrongKeyTypeArgumentException, addr 0x5c669e0, size 0xcc, virtual false, abstract: false, final false
   static inline void ThrowWrongKeyTypeArgumentException(::System::Object* key, ::System::Type* targetType);
 
-  /// @brief Method ThrowWrongValueTypeArgumentException, addr 0x5b2cdd4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ThrowWrongValueTypeArgumentException, addr 0x5c66aac, size 0xcc, virtual false, abstract: false, final false
   static inline void ThrowWrongValueTypeArgumentException(::System::Object* value, ::System::Type* targetType);
 
 protected:

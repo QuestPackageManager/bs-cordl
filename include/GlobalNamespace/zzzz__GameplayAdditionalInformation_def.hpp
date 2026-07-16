@@ -30,8 +30,14 @@ public:
   /// @brief Field playmodeOptions, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_playmodeOptions, put = __cordl_internal_set_playmodeOptions)) ::GlobalNamespace::PlaymodeOptions playmodeOptions;
 
+  /// @brief Field profileSong, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_profileSong, put = __cordl_internal_set_profileSong)) bool profileSong;
+
   /// @brief Field recordingRelativePath, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_recordingRelativePath, put = __cordl_internal_set_recordingRelativePath)) ::StringW recordingRelativePath;
+
+  /// @brief Field reportDescriptor, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_reportDescriptor, put = __cordl_internal_set_reportDescriptor)) ::StringW reportDescriptor;
 
   /// @brief Field startPaused, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
@@ -40,7 +46,8 @@ public:
   __declspec(property(get = __cordl_internal_get_useTestNoteCutSoundEffects, put = __cordl_internal_set_useTestNoteCutSoundEffects)) bool useTestNoteCutSoundEffects;
 
   static inline ::GlobalNamespace::GameplayAdditionalInformation* New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
-                                                                           ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath);
+                                                                           ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
+                                                                           ::StringW reportDescriptor);
 
   constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
 
@@ -50,9 +57,17 @@ public:
 
   constexpr ::GlobalNamespace::PlaymodeOptions& __cordl_internal_get_playmodeOptions();
 
+  constexpr bool const& __cordl_internal_get_profileSong() const;
+
+  constexpr bool& __cordl_internal_get_profileSong();
+
   constexpr ::StringW const& __cordl_internal_get_recordingRelativePath() const;
 
   constexpr ::StringW& __cordl_internal_get_recordingRelativePath();
+
+  constexpr ::StringW const& __cordl_internal_get_reportDescriptor() const;
+
+  constexpr ::StringW& __cordl_internal_get_reportDescriptor();
 
   constexpr bool const& __cordl_internal_get_startPaused() const;
 
@@ -66,14 +81,19 @@ public:
 
   constexpr void __cordl_internal_set_playmodeOptions(::GlobalNamespace::PlaymodeOptions value);
 
+  constexpr void __cordl_internal_set_profileSong(bool value);
+
   constexpr void __cordl_internal_set_recordingRelativePath(::StringW value);
+
+  constexpr void __cordl_internal_set_reportDescriptor(::StringW value);
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
   constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x364d3a0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath);
+  /// @brief Method .ctor, addr 0x3709cbc, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
+                    ::StringW reportDescriptor);
 
 protected:
   // Ctor Parameters []
@@ -90,7 +110,7 @@ public:
   GameplayAdditionalInformation(GameplayAdditionalInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14838 };
 
   /// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
   ::StringW ___backButtonText;
@@ -107,6 +127,12 @@ public:
   /// @brief Field recordingRelativePath, offset: 0x20, size: 0x8, def value: None
   ::StringW ___recordingRelativePath;
 
+  /// @brief Field profileSong, offset: 0x28, size: 0x1, def value: None
+  bool ___profileSong;
+
+  /// @brief Field reportDescriptor, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___reportDescriptor;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -120,6 +146,10 @@ static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___play
 
 static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___recordingRelativePath) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::GameplayAdditionalInformation) == 0x28, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___profileSong) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___reportDescriptor) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::GameplayAdditionalInformation) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

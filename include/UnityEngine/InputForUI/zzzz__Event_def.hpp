@@ -149,7 +149,7 @@ public:
   static ::UnityEngine::InputForUI::Event_Type const TextInputEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -182,7 +182,7 @@ public:
   Event_IMapFn_1(Event_IMapFn_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -210,7 +210,7 @@ public:
   constexpr Event_MapAsObject();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -247,7 +247,7 @@ public:
   constexpr Event_MapAsEventSource();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -284,7 +284,7 @@ public:
   constexpr Event_MapAsEventModifiers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -364,28 +364,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method CompareType, addr 0x6a01750, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CompareType, addr 0x6b5522c, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t CompareType(::UnityEngine::InputForUI::Event a, ::UnityEngine::InputForUI::Event b);
 
-  /// @brief Method Ensure, addr 0x6a01990, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Ensure, addr 0x6b5546c, size 0x98, virtual false, abstract: false, final false
   inline void Ensure(::UnityEngine::InputForUI::Event_Type t);
 
-  /// @brief Method From, addr 0x6a0224c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6b55d28, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::CommandEvent commandEvent);
 
-  /// @brief Method From, addr 0x6a0210c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6b55be8, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::IMECompositionEvent imeCompositionEvent);
 
-  /// @brief Method From, addr 0x6a01e44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6b55920, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::KeyEvent keyEvent);
 
-  /// @brief Method From, addr 0x6a02330, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6b55e0c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::NavigationEvent navigationEvent);
 
-  /// @brief Method From, addr 0x6a01f3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6b55a18, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::PointerEvent pointerEvent);
 
-  /// @brief Method From, addr 0x6a02028, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6b55b04, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::TextInputEvent textInputEvent);
 
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -394,7 +394,7 @@ public:
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TOutputType, typename TMapType> inline TOutputType Map(TMapType fn);
 
-  /// @brief Method ToString, addr 0x6a01a28, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b55504, size 0x190, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputForUI::CommandEvent const& __cordl_internal_get__commandEvent() const;
@@ -441,34 +441,34 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputForUI::Event_Type> getStaticF_TypesWithState();
 
-  /// @brief Method get_asCommandEvent, addr 0x6a022bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_asCommandEvent, addr 0x6b55d98, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::CommandEvent get_asCommandEvent();
 
-  /// @brief Method get_asIMECompositionEvent, addr 0x6a02198, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_asIMECompositionEvent, addr 0x6b55c74, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::IMECompositionEvent get_asIMECompositionEvent();
 
-  /// @brief Method get_asKeyEvent, addr 0x6a01ec4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_asKeyEvent, addr 0x6b559a0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::KeyEvent get_asKeyEvent();
 
-  /// @brief Method get_asNavigationEvent, addr 0x6a023b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_asNavigationEvent, addr 0x6b55e94, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::NavigationEvent get_asNavigationEvent();
 
-  /// @brief Method get_asObject, addr 0x6a018a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_asObject, addr 0x6b55384, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::IEventProperties* get_asObject();
 
-  /// @brief Method get_asPointerEvent, addr 0x6a01fb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_asPointerEvent, addr 0x6b55a8c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent get_asPointerEvent();
 
-  /// @brief Method get_asTextInputEvent, addr 0x6a02098, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_asTextInputEvent, addr 0x6b55b74, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::TextInputEvent get_asTextInputEvent();
 
-  /// @brief Method get_eventModifiers, addr 0x6a0191c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method get_eventModifiers, addr 0x6b553f8, size 0x74, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-  /// @brief Method get_eventSource, addr 0x6a0182c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x6b55308, size 0x74, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
-  /// @brief Method get_type, addr 0x6a018a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6b5537c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::Event_Type get_type();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
@@ -594,7 +594,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21752 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

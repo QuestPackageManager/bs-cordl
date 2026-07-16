@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState (::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::*)(
     ::ArrayW<float_t>)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::WithData)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x646aaa4;
+  constexpr static std::size_t addrs = 0x65a7870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::get_format)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x646ab64;
+  constexpr static std::size_t addrs = 0x65a7930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

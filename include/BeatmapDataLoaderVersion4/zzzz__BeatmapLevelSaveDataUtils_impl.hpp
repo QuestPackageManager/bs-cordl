@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*)>(
     &::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::MigrateBeatmapLevelSaveData)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x36a4ce8;
+  constexpr static std::size_t addrs = 0x3760d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

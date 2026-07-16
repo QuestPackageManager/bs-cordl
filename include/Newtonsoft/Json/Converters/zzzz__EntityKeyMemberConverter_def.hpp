@@ -41,24 +41,24 @@ public:
   /// @brief Field _reflectionObject, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-  /// @brief Method CanConvert, addr 0x5c60a20, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5d98c48, size 0x64, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method EnsureReflectionObject, addr 0x5c60568, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EnsureReflectionObject, addr 0x5d98790, size 0xf0, virtual false, abstract: false, final false
   static inline void EnsureReflectionObject(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::EntityKeyMemberConverter* New_ctor();
 
-  /// @brief Method ReadAndAssertProperty, addr 0x5c60658, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadAndAssertProperty, addr 0x5d98880, size 0xf4, virtual false, abstract: false, final false
   static inline void ReadAndAssertProperty(::Newtonsoft::Json::JsonReader* reader, ::StringW propertyName);
 
-  /// @brief Method ReadJson, addr 0x5c6074c, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d98974, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5c60208, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d98430, size 0x360, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5c60a84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d98cac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject();
@@ -92,7 +92,7 @@ public:
   static constexpr ::ConstString ValuePropertyName{ u"Value" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

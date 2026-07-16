@@ -29,12 +29,12 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5ca35ec, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5ddb814, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::MultiplayerErrorOptions* New_ctor();
 
-  /// @brief Method SetErrorKey, addr 0x5ca3574, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetErrorKey, addr 0x5ddb79c, size 0x6c, virtual false, abstract: false, final false
   inline void SetErrorKey(::Oculus::Platform::MultiplayerErrorErrorKey value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5ca3518, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddb740, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5ca35e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5ddb808, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::MultiplayerErrorOptions* options);
 
 protected:
@@ -64,7 +64,7 @@ public:
   MultiplayerErrorOptions(MultiplayerErrorOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17900 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

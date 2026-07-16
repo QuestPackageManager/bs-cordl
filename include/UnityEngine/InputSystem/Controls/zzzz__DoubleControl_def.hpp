@@ -22,13 +22,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b9048, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f5c68, size 0x6c, virtual true, abstract: false, final false
   inline double_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x63b90b4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x64f5cd4, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(double_t value, void* statePtr);
 
-  /// @brief Method .ctor, addr 0x63b8fc4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f5be4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   DoubleControl(DoubleControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

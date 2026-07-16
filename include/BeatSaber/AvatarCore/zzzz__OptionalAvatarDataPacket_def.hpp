@@ -54,21 +54,21 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x31d8a98, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x326fea8, size 0x54, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x31d8b5c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x326ff6c, size 0x34, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(uint32_t dataType, ::ArrayW<uint8_t> data, int32_t length);
 
-  /// @brief Method Init, addr 0x31d8b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x326ff64, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* New_ctor();
 
-  /// @brief Method Release, addr 0x31d8aec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x326fefc, size 0x68, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x31d8a54, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x326fe64, size 0x44, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ByteArrayNetSerializable* const& __cordl_internal_get_data() const;
@@ -83,10 +83,10 @@ public:
 
   constexpr void __cordl_internal_set_dataType(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x31d8b90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326ffa0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x31d8a10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x326fe20, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -110,7 +110,7 @@ public:
   OptionalAvatarDataPacket(OptionalAvatarDataPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21622 };
 
   /// @brief Field dataType, offset: 0x10, size: 0x4, def value: None
   uint32_t ___dataType;

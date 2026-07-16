@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindingInheritanceMethods (::Zenject::NullBindingFinalizer::*)()>(&::Zenject::NullBindingFinalizer::get_BindingInheritanceMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d0b610;
+  constexpr static std::size_t addrs = 0x6e5fd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::NullBindingFinalizer*>(), { "get_BindingInheritanceMethod", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::NullBindingFinalizer::*)(::Zenject::DiContainer*)>(&::Zenject::NullBindingFinalizer::FinalizeBinding)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d0b618;
+  constexpr static std::size_t addrs = 0x6e5fd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::NullBindingFinalizer::*)()>(&::Zenject::NullBindingFinalizer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d0b61c;
+  constexpr static std::size_t addrs = 0x6e5fd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::NullBindingFinalizer*>(), { ".ctor", {}, {} })));

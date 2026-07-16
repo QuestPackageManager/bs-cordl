@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_visibilityConfigCount)) int32_t visibilityConfigCount;
 
-  /// @brief Method get_visibilityConfigCount, addr 0x66d3d8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_visibilityConfigCount, addr 0x6811498, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_visibilityConfigCount();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr BinningConfig(int32_t viewCount, bool supportsCrossFade, bool supportsMotionCheck) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

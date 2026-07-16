@@ -37,7 +37,7 @@ public:
   /// @brief Method PurgeUnusedResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PurgeUnusedResources(int32_t currentFrameIndex);
 
-  /// @brief Method .ctor, addr 0x66a1d24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67df430, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   IRenderGraphResourcePool(IRenderGraphResourcePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurveParameter::*)(::UnityEngine::Rendering::TextureCurve*, bool)>(
     &::UnityEngine::Rendering::TextureCurveParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66859b0;
+  constexpr static std::size_t addrs = 0x67c30bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurveParameter*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurveParameter::*)()>(&::UnityEngine::Rendering::TextureCurveParameter::Release)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6685a14;
+  constexpr static std::size_t addrs = 0x67c3120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

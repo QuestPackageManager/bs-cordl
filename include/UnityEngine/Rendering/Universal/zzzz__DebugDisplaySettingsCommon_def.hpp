@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_foldout(::UnityEngine::Rendering::DebugUI_Foldout* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x66fb8e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x683a498, size 0xf8, virtual false, abstract: false, final false
   inline void __ctor_b__0();
 
-  /// @brief Method .ctor, addr 0x66fb8dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683a494, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0(SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12575 };
 
   /// @brief Field foldout, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_Foldout* ___foldout;
@@ -111,10 +111,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon_SettingsPanel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x66fb5b8, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683a170, size 0x318, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Flags, addr 0x66fb8d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x683a48c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_Flags();
 
 protected:
@@ -132,7 +132,7 @@ public:
   DebugDisplaySettingsCommon_SettingsPanel(DebugDisplaySettingsCommon_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12576 };
 
   /// @brief Field k_GoToSectionString offset 0xffffffff size 0x8
   static constexpr ::ConstString k_GoToSectionString{ u"Go to Section..." };
@@ -160,15 +160,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method CreatePanel, addr 0x66fb564, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CreatePanel, addr 0x683a11c, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* CreatePanel();
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* New_ctor();
 
-  /// @brief Method .ctor, addr 0x66fb8d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683a488, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x66fb55c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x683a114, size 0x8, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -192,7 +192,7 @@ public:
   DebugDisplaySettingsCommon(DebugDisplaySettingsCommon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

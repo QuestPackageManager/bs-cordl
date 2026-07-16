@@ -68,25 +68,25 @@ public:
 
   constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5bf3d08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2bf30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Getter, addr 0x5bf3ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Getter, addr 0x5d2bf10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
-  /// @brief Method get_MemberType, addr 0x5bf3cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x5d2bf00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_Setter, addr 0x5bf3cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Setter, addr 0x5d2bf20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
-  /// @brief Method set_Getter, addr 0x5bf3cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Getter, addr 0x5d2bf18, size 0x8, virtual false, abstract: false, final false
   inline void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_MemberType, addr 0x5bf3ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x5d2bf08, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
-  /// @brief Method set_Setter, addr 0x5bf3d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Setter, addr 0x5d2bf28, size 0x8, virtual false, abstract: false, final false
   inline void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
 protected:
@@ -104,7 +104,7 @@ public:
   ReflectionMember(ReflectionMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13421 };
 
   /// @brief Field <MemberType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____MemberType_k__BackingField;

@@ -31,13 +31,13 @@ public:
   __declspec(property(get = getStaticF__randomizeColorsParamsCollection, put = setStaticF__randomizeColorsParamsCollection)) ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>
       _randomizeColorsParamsCollection;
 
-  /// @brief Method RandomizeAll, addr 0x31e3104, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RandomizeAll, addr 0x327a384, size 0x70, virtual false, abstract: false, final false
   static inline void RandomizeAll(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
 
-  /// @brief Method RandomizeColors, addr 0x31e4a9c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method RandomizeColors, addr 0x327bd1c, size 0x2e0, virtual false, abstract: false, final false
   static inline void RandomizeColors(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
-  /// @brief Method RandomizeModels, addr 0x31e4908, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RandomizeModels, addr 0x327bb88, size 0x194, virtual false, abstract: false, final false
   static inline void RandomizeModels(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
 
   static inline ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*> getStaticF__randomizeColorsParamsCollection();
@@ -59,7 +59,7 @@ public:
   AvatarRandomizer(AvatarRandomizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

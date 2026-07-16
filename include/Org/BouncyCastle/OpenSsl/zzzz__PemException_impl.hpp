@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemException::*)(::StringW)>(&::Org::BouncyCastle::OpenSsl::PemException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34e8670;
+  constexpr static std::size_t addrs = 0x35a4b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemException::*)(::StringW, ::System::Exception*)>(&::Org::BouncyCastle::OpenSsl::PemException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34e8694;
+  constexpr static std::size_t addrs = 0x35a4b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

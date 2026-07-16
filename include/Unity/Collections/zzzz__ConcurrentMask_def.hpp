@@ -20,24 +20,24 @@ namespace Unity::Collections {
 class CORDL_TYPE ConcurrentMask : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AtomicAnd, addr 0x636a17c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AtomicAnd, addr 0x64a6d9c, size 0x4c, virtual false, abstract: false, final false
   static inline int64_t AtomicAnd(::by_ref<int64_t> destination, int64_t source);
 
-  /// @brief Method AtomicOr, addr 0x636a130, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AtomicOr, addr 0x64a6d50, size 0x4c, virtual false, abstract: false, final false
   static inline int64_t AtomicOr(::by_ref<int64_t> destination, int64_t source);
 
-  /// @brief Method MakeMask, addr 0x636a2ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MakeMask, addr 0x64a6f0c, size 0x14, virtual false, abstract: false, final false
   static inline int64_t MakeMask(int32_t offset, int32_t bits);
 
   static inline ::Unity::Collections::ConcurrentMask* New_ctor();
 
-  /// @brief Method Succeeded, addr 0x6366140, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Succeeded, addr 0x64a2d60, size 0xc, virtual false, abstract: false, final false
   static inline bool Succeeded(int32_t error);
 
-  /// @brief Method TryAllocate, addr 0x636a400, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x64a7020, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t TryAllocate(::by_ref<int64_t> l, ::by_ref<int32_t> offset, int32_t bits);
 
-  /// @brief Method TryAllocate, addr 0x636a300, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x64a6f20, size 0x74, virtual false, abstract: false, final false
   static inline int32_t TryAllocate(::by_ref<int64_t> l, int32_t offset, int32_t bits);
 
   /// @brief Method TryAllocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,22 +52,22 @@ public:
   /// @brief Method TryAllocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t TryAllocate(::by_ref<T> t, int32_t offset, int32_t bits);
 
-  /// @brief Method TryFree, addr 0x636a374, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryFree, addr 0x64a6f94, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t TryFree(::by_ref<int64_t> l, int32_t offset, int32_t bits);
 
   /// @brief Method TryFree, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t TryFree(::by_ref<T> t, int32_t offset, int32_t bits);
 
-  /// @brief Method .ctor, addr 0x636a4a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a70c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method foundAtLeastThisManyConsecutiveOnes, addr 0x636a23c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method foundAtLeastThisManyConsecutiveOnes, addr 0x64a6e5c, size 0xa8, virtual false, abstract: false, final false
   static inline bool foundAtLeastThisManyConsecutiveOnes(int64_t value, int32_t minimum, ::by_ref<int32_t> offset, ::by_ref<int32_t> count);
 
-  /// @brief Method foundAtLeastThisManyConsecutiveZeroes, addr 0x636a2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method foundAtLeastThisManyConsecutiveZeroes, addr 0x64a6f04, size 0x8, virtual false, abstract: false, final false
   static inline bool foundAtLeastThisManyConsecutiveZeroes(int64_t value, int32_t minimum, ::by_ref<int32_t> offset, ::by_ref<int32_t> count);
 
-  /// @brief Method longestConsecutiveOnes, addr 0x636a1c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method longestConsecutiveOnes, addr 0x64a6de8, size 0x74, virtual false, abstract: false, final false
   static inline void longestConsecutiveOnes(int64_t value, ::by_ref<int32_t> offset, ::by_ref<int32_t> count);
 
 protected:
@@ -100,7 +100,7 @@ public:
   static constexpr int32_t ErrorFailedToFree{ static_cast<int32_t>(0xffffffff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

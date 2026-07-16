@@ -91,7 +91,7 @@ public:
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const Scene;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7258 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,13 +125,13 @@ public:
 
   static inline ::GlobalNamespace::OVRPermissionsRequester___c* New_ctor();
 
-  /// @brief Method <BuildPermissionCallbacks>b__15_0, addr 0x5d67b30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <BuildPermissionCallbacks>b__15_0, addr 0x5e9fd58, size 0xa8, virtual false, abstract: false, final false
   inline void _BuildPermissionCallbacks_b__15_0(::StringW permissionId);
 
-  /// @brief Method <BuildPermissionCallbacks>b__15_1, addr 0x5d67bd8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <BuildPermissionCallbacks>b__15_1, addr 0x5e9fe00, size 0xf0, virtual false, abstract: false, final false
   inline void _BuildPermissionCallbacks_b__15_1(::StringW permissionId);
 
-  /// @brief Method .ctor, addr 0x5d67b2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e9fd54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRPermissionsRequester___c* getStaticF___9();
@@ -161,7 +161,7 @@ public:
   OVRPermissionsRequester___c(OVRPermissionsRequester___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -183,33 +183,33 @@ public:
   /// @brief Field PermissionGranted, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PermissionGranted, put = setStaticF_PermissionGranted)) ::System::Action_1<::StringW>* PermissionGranted;
 
-  /// @brief Method BuildPermissionCallbacks, addr 0x5d6792c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BuildPermissionCallbacks, addr 0x5e9fb54, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Android::PermissionCallbacks* BuildPermissionCallbacks();
 
-  /// @brief Method GetPermissionId, addr 0x5d67180, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetPermissionId, addr 0x5e9f3a8, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW GetPermissionId(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method IsPermissionGranted, addr 0x5d67410, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPermissionGranted, addr 0x5e9f638, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPermissionGranted(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method IsPermissionSupportedByPlatform, addr 0x5d6729c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method IsPermissionSupportedByPlatform, addr 0x5e9f4c4, size 0x174, virtual false, abstract: false, final false
   static inline bool IsPermissionSupportedByPlatform(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method Request, addr 0x5d67424, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Request, addr 0x5e9f64c, size 0x4, virtual false, abstract: false, final false
   static inline void Request(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRPermissionsRequester_Permission>* permissions);
 
-  /// @brief Method RequestPermissions, addr 0x5d67428, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method RequestPermissions, addr 0x5e9f650, size 0x3d8, virtual false, abstract: false, final false
   static inline void RequestPermissions(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRPermissionsRequester_Permission>* permissions);
 
-  /// @brief Method ShouldRequestPermission, addr 0x5d67800, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ShouldRequestPermission, addr 0x5e9fa28, size 0x12c, virtual false, abstract: false, final false
   static inline bool ShouldRequestPermission(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method add_PermissionGranted, addr 0x5d66fc0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionGranted, addr 0x5e9f1e8, size 0xe0, virtual false, abstract: false, final false
   static inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline ::System::Action_1<::StringW>* getStaticF_PermissionGranted();
 
-  /// @brief Method remove_PermissionGranted, addr 0x5d670a0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionGranted, addr 0x5e9f2c8, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline void setStaticF_PermissionGranted(::System::Action_1<::StringW>* value);
@@ -244,7 +244,7 @@ public:
   static constexpr ::ConstString ScenePermission{ u"com.oculus.permission.USE_SCENE" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

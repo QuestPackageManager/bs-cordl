@@ -61,23 +61,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5a78750, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5bb2428, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Dispose, addr 0x5a787b8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5bb2490, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x5a78754, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5bb242c, size 0x64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::CharEnumerator* New_ctor();
 
   static inline ::System::CharEnumerator* New_ctor(::StringW str);
 
-  /// @brief Method Reset, addr 0x5a78894, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x5bb256c, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a787d0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5bb24a8, size 0x28, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr char16_t const& __cordl_internal_get__currentElement() const;
@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set__str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a788a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bb257c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a78740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bb2418, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method get_Current, addr 0x5a787f8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x5bb24d0, size 0x9c, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"

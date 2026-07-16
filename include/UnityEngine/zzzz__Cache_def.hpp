@@ -43,46 +43,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Cache>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Cache>*();
 
-  /// @brief Method Cache_GetPath, addr 0x6910c70, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Cache_GetPath, addr 0x6a64018, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW Cache_GetPath(int32_t handle);
 
-  /// @brief Method Cache_GetPath_Injected, addr 0x6910d3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Cache_GetPath_Injected, addr 0x6a640e4, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_GetPath_Injected(int32_t handle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method Cache_IsValid, addr 0x6910c2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cache_IsValid, addr 0x6a63fd4, size 0x3c, virtual false, abstract: false, final false
   static inline bool Cache_IsValid(int32_t handle);
 
-  /// @brief Method Cache_SetExpirationDelay, addr 0x6910e4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Cache_SetExpirationDelay, addr 0x6a641f4, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_SetExpirationDelay(int32_t handle, int32_t value);
 
-  /// @brief Method Cache_SetMaximumDiskSpaceAvailable, addr 0x6910dc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Cache_SetMaximumDiskSpaceAvailable, addr 0x6a6416c, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_SetMaximumDiskSpaceAvailable(int32_t handle, int64_t value);
 
-  /// @brief Method Equals, addr 0x6910b64, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a63f0c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6910be0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a63f88, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Cache other);
 
-  /// @brief Method GetHashCode, addr 0x6910b5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a63f04, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_handle, addr 0x6910b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x6a63efc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method get_path, addr 0x6910c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x6a64010, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_valid, addr 0x6910bf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6a63f98, size 0x3c, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Cache>"
   constexpr ::System::IEquatable_1<::UnityEngine::Cache>* i___System__IEquatable_1___UnityEngine__Cache_();
 
-  /// @brief Method set_expirationDelay, addr 0x6910e08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_expirationDelay, addr 0x6a641b0, size 0x44, virtual false, abstract: false, final false
   inline void set_expirationDelay(int32_t value);
 
-  /// @brief Method set_maximumAvailableStorageSpace, addr 0x6910d80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_maximumAvailableStorageSpace, addr 0x6a64128, size 0x44, virtual false, abstract: false, final false
   inline void set_maximumAvailableStorageSpace(int64_t value);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
   constexpr Cache(int32_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

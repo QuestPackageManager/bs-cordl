@@ -64,10 +64,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x32a5794, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3361c4c, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTemporalEvidence, addr 0x32a58d8, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GetTemporalEvidence, addr 0x3361d90, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetTemporalEvidence();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
@@ -108,16 +108,16 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x32a539c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3361854, size 0x3f8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method get_Content, addr 0x32a58d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x3361d88, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Content();
 
-  /// @brief Method get_DataUri, addr 0x32a58c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataUri, addr 0x3361d78, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData, addr 0x32a58c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MetaData, addr 0x3361d80, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
 protected:

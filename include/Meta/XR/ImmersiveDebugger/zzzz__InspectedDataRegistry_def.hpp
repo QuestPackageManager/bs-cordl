@@ -44,7 +44,7 @@ public:
   __declspec(property(get = getStaticF_InspectedMembersRegistry, put = setStaticF_InspectedMembersRegistry)) ::System::Collections::Generic::Dictionary_2<
       ::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>* InspectedMembersRegistry;
 
-  /// @brief Method Add, addr 0x59059a8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5a3f0ac, size 0x1c0, virtual false, abstract: false, final false
   static inline void Add(::System::Type* type, ::Meta::XR::ImmersiveDebugger::InspectedMember* inspectedMember);
 
   /// @brief Method GetMembersForType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,7 +52,7 @@ public:
   static inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<T, ::Meta::XR::ImmersiveDebugger::DebugMember*>>*
   GetMembersForType(::System::Type* type, ::System::Func_3<T, ::Meta::XR::ImmersiveDebugger::DebugMember*, bool>* filterCallback);
 
-  /// @brief Method Reset, addr 0x5905be4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5a3f2e8, size 0x88, virtual false, abstract: false, final false
   static inline void Reset();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*
@@ -76,7 +76,7 @@ public:
   InspectedDataRegistry(InspectedDataRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

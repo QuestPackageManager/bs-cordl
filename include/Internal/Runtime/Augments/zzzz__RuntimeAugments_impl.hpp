@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*)>(&::Internal::Runtime::Augments::RuntimeAugments::ReportUnhandledException)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x598cbd4;
+  constexpr static std::size_t addrs = 0x5ac5540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* (*)()>(&::Internal::Runtime::Augments::RuntimeAugments::get_Callbacks)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x598cbf0;
+  constexpr static std::size_t addrs = 0x5ac555c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Runtime::Augments::RuntimeAugments*>(), { "get_Callbacks", {}, {} })));

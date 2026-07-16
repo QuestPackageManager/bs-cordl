@@ -39,16 +39,16 @@ namespace LiteNetLib {
 struct CORDL_TYPE ReliableChannel_PendingPacket {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x57640e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x58aa5dc, size 0x40, virtual false, abstract: false, final false
   inline bool Clear(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method Init, addr 0x576456c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58aaa60, size 0xc, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ToString, addr 0x5764a90, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x58aaf84, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TrySend, addr 0x5764578, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TrySend, addr 0x58aaa6c, size 0x78, virtual false, abstract: false, final false
   inline void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr ReliableChannel_PendingPacket(::LiteNetLib::NetPacket* _packet, int64_t _timeStamp, bool _isSent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -136,13 +136,13 @@ public:
 
   static inline ::LiteNetLib::ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method ProcessAck, addr 0x5763dc4, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ProcessAck, addr 0x58aa2b8, size 0x324, virtual false, abstract: false, final false
   inline void ProcessAck(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ProcessPacket, addr 0x57645f0, size 0x4a0, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x58aaae4, size 0x4a0, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x5764128, size 0x444, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x58aa61c, size 0x444, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::DeliveryMethod const& __cordl_internal_get__deliveryMethod() const;
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__windowSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5760780, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a6c74, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
 protected:
@@ -244,7 +244,7 @@ public:
   static constexpr int32_t BitsInByte{ static_cast<int32_t>(0x8) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20050 };
 
   /// @brief Field _outgoingAcks, offset: 0x28, size: 0x8, def value: None
   ::LiteNetLib::NetPacket* ____outgoingAcks;

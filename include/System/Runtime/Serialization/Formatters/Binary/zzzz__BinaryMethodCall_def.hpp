@@ -50,12 +50,12 @@ public:
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method Dump, addr 0x5a1c7c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b56498, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* New_ctor();
 
-  /// @brief Method Write, addr 0x5a1c6a4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5b56374, size 0x124, virtual false, abstract: false, final false
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::ArrayW<::System::Type*> const& __cordl_internal_get_argTypes() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a1c7cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5649c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

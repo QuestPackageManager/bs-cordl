@@ -44,28 +44,28 @@ public:
   /// @brief Field tag, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) int32_t tag;
 
-  /// @brief Method Asn1Equals, addr 0x35ca700, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x3686bb8, size 0xf0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x35ca7f0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x3686ca8, size 0x88, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x35ca6cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3686b84, size 0x34, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetContents, addr 0x35ca4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetContents, addr 0x368696c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetContents();
 
-  /// @brief Method GetLengthOfHeader, addr 0x35ca220, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetLengthOfHeader, addr 0x36866d8, size 0xbc, virtual false, abstract: false, final false
   inline int32_t GetLengthOfHeader(::ArrayW<uint8_t> data);
 
-  /// @brief Method GetObject, addr 0x35ca4c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x368697c, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject();
 
-  /// @brief Method GetObject, addr 0x35ca4d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x3686988, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject(int32_t derTagNo);
 
-  /// @brief Method IsConstructed, addr 0x35ca4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsConstructed, addr 0x3686964, size 0x8, virtual false, abstract: false, final false
   inline bool IsConstructed();
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t> octets);
@@ -78,7 +78,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method ReplaceTagNumber, addr 0x35ca584, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReplaceTagNumber, addr 0x3686a3c, size 0x148, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReplaceTagNumber(int32_t newTag, ::ArrayW<uint8_t> input);
 
   constexpr bool const& __cordl_internal_get_isConstructed() const;
@@ -99,22 +99,22 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35c3b94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368004c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t> octets);
 
-  /// @brief Method .ctor, addr 0x35ca12c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36865e4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(bool isExplicit, int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x35ca11c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36865d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x35ca10c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36865c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::ArrayW<uint8_t> octets);
 
-  /// @brief Method .ctor, addr 0x35ca2dc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3686794, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method get_ApplicationTag, addr 0x35ca4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationTag, addr 0x3686974, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ApplicationTag();
 
 protected:

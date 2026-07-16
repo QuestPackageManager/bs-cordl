@@ -50,34 +50,34 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::OculusStudios::Platform::Core::Product___c* __9;
 
-  /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* __9__13_0;
+  /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* __9__15_0;
 
-  /// @brief Field <>9__13_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__13_1, put = setStaticF___9__13_1)) ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* __9__13_1;
+  /// @brief Field <>9__15_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__15_1, put = setStaticF___9__15_1)) ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* __9__15_1;
 
   static inline ::OculusStudios::Platform::Core::Product___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5df3ed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c18c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_owned>b__13_0, addr 0x5df3ed8, size 0x14, virtual false, abstract: false, final false
-  inline bool _get_owned_b__13_0(::OculusStudios::Platform::Core::Product* x);
+  /// @brief Method <get_owned>b__15_0, addr 0x5f2c190, size 0x14, virtual false, abstract: false, final false
+  inline bool _get_owned_b__15_0(::OculusStudios::Platform::Core::Product* x);
 
-  /// @brief Method <get_owned>b__13_1, addr 0x5df3eec, size 0x14, virtual false, abstract: false, final false
-  inline bool _get_owned_b__13_1(::OculusStudios::Platform::Core::Product* x);
+  /// @brief Method <get_owned>b__15_1, addr 0x5f2c1a4, size 0x14, virtual false, abstract: false, final false
+  inline bool _get_owned_b__15_1(::OculusStudios::Platform::Core::Product* x);
 
   static inline ::OculusStudios::Platform::Core::Product___c* getStaticF___9();
 
-  static inline ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* getStaticF___9__13_0();
+  static inline ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* getStaticF___9__15_0();
 
-  static inline ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* getStaticF___9__13_1();
+  static inline ::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* getStaticF___9__15_1();
 
   static inline void setStaticF___9(::OculusStudios::Platform::Core::Product___c* value);
 
-  static inline void setStaticF___9__13_0(::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* value);
+  static inline void setStaticF___9__15_0(::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* value);
 
-  static inline void setStaticF___9__13_1(::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* value);
+  static inline void setStaticF___9__15_1(::System::Func_2<::OculusStudios::Platform::Core::Product*, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -94,7 +94,7 @@ public:
   Product___c(Product___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,25 +111,25 @@ public:
   // Declarations
   using __c = ::OculusStudios::Platform::Core::Product___c;
 
-  /// @brief Field _children, offset 0x18, size 0x8
+  /// @brief Field _children, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__children, put = __cordl_internal_set__children)) ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* _children;
 
-  /// @brief Field _definition, offset 0x10, size 0x8
+  /// @brief Field _definition, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__definition, put = __cordl_internal_set__definition)) ::OculusStudios::Platform::Core::IProductDefinition* _definition;
 
-  /// @brief Field _selfOwned, offset 0x2c, size 0x1
+  /// @brief Field _selfOwned, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__selfOwned, put = __cordl_internal_set__selfOwned)) bool _selfOwned;
 
   __declspec(property(get = get_children)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>* children;
 
   __declspec(property(get = get_definition)) ::OculusStudios::Platform::Core::IProductDefinition* definition;
 
-  /// @brief Field dlcInstallStatus, offset 0x28, size 0x4
+  /// @brief Field dlcInstallStatus, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_dlcInstallStatus, put = __cordl_internal_set_dlcInstallStatus)) ::OculusStudios::Platform::Core::InstallStatus dlcInstallStatus;
 
   __declspec(property(get = get_id)) ::StringW id;
 
-  /// @brief Field idForVendor, offset 0x20, size 0x8
+  /// @brief Field idForVendor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_idForVendor, put = __cordl_internal_set_idForVendor)) ::StringW idForVendor;
 
   __declspec(property(get = get_owned)) bool owned;
@@ -139,7 +139,7 @@ public:
   static inline ::OculusStudios::Platform::Core::Product* New_ctor(::OculusStudios::Platform::Core::IProductDefinition* definition, ::StringW idForVendor,
                                                                    ::OculusStudios::Platform::Core::InstallStatus dlcInstallStatus, bool selfOwned);
 
-  /// @brief Method SetChildren, addr 0x5df3e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetChildren, addr 0x5f2c130, size 0x8, virtual false, abstract: false, final false
   inline void SetChildren(::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* children);
 
   constexpr ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* const& __cordl_internal_get__children() const;
@@ -172,22 +172,22 @@ public:
 
   constexpr void __cordl_internal_set_idForVendor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5df3e64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2bd70, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::IProductDefinition* definition, ::StringW idForVendor, ::OculusStudios::Platform::Core::InstallStatus dlcInstallStatus, bool selfOwned);
 
-  /// @brief Method get_children, addr 0x5df3c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_children, addr 0x5f2bed8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>* get_children();
 
-  /// @brief Method get_definition, addr 0x5df3c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_definition, addr 0x5f2bed0, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IProductDefinition* get_definition();
 
-  /// @brief Method get_id, addr 0x5df3ab8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x5f2bd84, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_owned, addr 0x5df3c14, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method get_owned, addr 0x5f2bee0, size 0x250, virtual false, abstract: false, final false
   inline bool get_owned();
 
-  /// @brief Method get_ownershipRequirement, addr 0x5df3b5c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ownershipRequirement, addr 0x5f2be28, size 0xa8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::OwnershipRequirement get_ownershipRequirement();
 
 protected:
@@ -205,35 +205,35 @@ public:
   Product(Product const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22390 };
 
-  /// @brief Field _definition, offset: 0x10, size: 0x8, def value: None
-  ::OculusStudios::Platform::Core::IProductDefinition* ____definition;
+  /// @brief Field _selfOwned, offset: 0x10, size: 0x1, def value: None
+  bool ____selfOwned;
 
-  /// @brief Field _children, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* ____children;
-
-  /// @brief Field idForVendor, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___idForVendor;
-
-  /// @brief Field dlcInstallStatus, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field dlcInstallStatus, offset: 0x14, size: 0x4, def value: None
   ::OculusStudios::Platform::Core::InstallStatus ___dlcInstallStatus;
 
-  /// @brief Field _selfOwned, offset: 0x2c, size: 0x1, def value: None
-  bool ____selfOwned;
+  /// @brief Field idForVendor, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___idForVendor;
+
+  /// @brief Field _children, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* ____children;
+
+  /// @brief Field _definition, offset: 0x28, size: 0x8, def value: None
+  ::OculusStudios::Platform::Core::IProductDefinition* ____definition;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Core::Product, ____definition) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::Product, ____selfOwned) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::Product, ____children) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::Product, ___dlcInstallStatus) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::Product, ___idForVendor) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::Product, ___idForVendor) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::Product, ___dlcInstallStatus) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::Product, ____children) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::Product, ____selfOwned) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::Product, ____definition) == 0x28, "Offset mismatch!");
 
 static_assert(sizeof(::OculusStudios::Platform::Core::Product) == 0x30, "Size mismatch!");
 

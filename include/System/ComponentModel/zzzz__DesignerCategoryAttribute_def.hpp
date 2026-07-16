@@ -43,13 +43,13 @@ public:
   /// @brief Field <Category>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Category_k__BackingField, put = __cordl_internal_set__Category_k__BackingField)) ::StringW _Category_k__BackingField;
 
-  /// @brief Method Equals, addr 0x6272c74, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63aed10, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6272d04, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63aeda0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x6272d20, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x63aedbc, size 0x7c, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* New_ctor();
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__Category_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6272c4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63aece8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6272c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63aed00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Component();
@@ -76,10 +76,10 @@ public:
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Generic();
 
-  /// @brief Method get_Category, addr 0x6272c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x63aed08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Category();
 
-  /// @brief Method get_TypeId, addr 0x6272d9c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x63aee38, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
   static inline void setStaticF_Component(::System::ComponentModel::DesignerCategoryAttribute* value);
@@ -105,7 +105,7 @@ public:
   DesignerCategoryAttribute(DesignerCategoryAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11196 };
 
   /// @brief Field <Category>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Category_k__BackingField;

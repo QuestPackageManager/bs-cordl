@@ -42,39 +42,39 @@ public:
   /// @brief Field buffer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::Org::BouncyCastle::Crypto::Tls::ByteQueue* buffer;
 
-  /// @brief Method Flush, addr 0x337a61c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x3436ad4, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* New_ctor();
 
-  /// @brief Method Peek, addr 0x337a658, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3436b10, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Peek(::ArrayW<uint8_t> buf);
 
-  /// @brief Method Read, addr 0x337a76c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3436c24, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buf);
 
-  /// @brief Method Read, addr 0x337a790, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3436c48, size 0xb8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadByte, addr 0x337a848, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3436d00, size 0x48, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x337a890, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x3436d48, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x337a8c8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x3436d80, size 0x38, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Skip, addr 0x337a900, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Skip, addr 0x3436db8, size 0x90, virtual true, abstract: false, final false
   inline int32_t Skip(int32_t n);
 
-  /// @brief Method Write, addr 0x337a990, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3436e48, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf);
 
-  /// @brief Method Write, addr 0x337a9b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3436e6c, size 0x14, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x337a9c8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x3436e80, size 0x8c, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue* const& __cordl_internal_get_buffer() const;
@@ -83,28 +83,28 @@ public:
 
   constexpr void __cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
 
-  /// @brief Method .ctor, addr 0x337a568, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3436a20, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Available, addr 0x337a5ec, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Available, addr 0x3436aa4, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Available();
 
-  /// @brief Method get_CanRead, addr 0x337a604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x3436abc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x337a60c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x3436ac4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x337a614, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x3436acc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x337a620, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3436ad8, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x337a6fc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x3436bb4, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x337a734, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x3436bec, size 0x38, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

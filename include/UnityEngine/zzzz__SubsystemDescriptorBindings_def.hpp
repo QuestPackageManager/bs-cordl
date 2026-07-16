@@ -26,13 +26,13 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6a613a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6bb4e84, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::System::IntPtr descriptorPtr);
 
-  /// @brief Method GetId, addr 0x6a612cc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x6bb4da8, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetId(::System::IntPtr descriptorPtr);
 
-  /// @brief Method GetId_Injected, addr 0x6a613e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetId_Injected, addr 0x6bb4ec0, size 0x44, virtual false, abstract: false, final false
   static inline void GetId_Injected(::System::IntPtr descriptorPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -50,7 +50,7 @@ public:
   SubsystemDescriptorBindings(SubsystemDescriptorBindings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

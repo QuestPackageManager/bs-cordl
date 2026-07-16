@@ -65,14 +65,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method CreateSubContext, addr 0x6d346c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContext, addr 0x6e89384, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6d34700, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e893c0, size 0x1b0, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::by_ref<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x6d346bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x6e8937c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
@@ -102,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set__subContainerCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x6d3469c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8935c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll);
 
-  /// @brief Method get_IsCached, addr 0x6d346ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x6e8936c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6d346b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6e89374, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -129,7 +129,7 @@ public:
   SubContainerDependencyProvider(SubContainerDependencyProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14624 };
 
   /// @brief Field _subContainerCreator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ISubContainerCreator* ____subContainerCreator;

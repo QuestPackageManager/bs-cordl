@@ -25,7 +25,7 @@ public:
   /// @brief Method SetClass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool SetClass(::by_ref<T> currentValue, T newValue);
 
-  /// @brief Method SetColor, addr 0x6cb4134, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x6e07fec, size 0x4c, virtual false, abstract: false, final false
   static inline bool SetColor(::by_ref<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -46,7 +46,7 @@ public:
   SetPropertyUtility(SetPropertyUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

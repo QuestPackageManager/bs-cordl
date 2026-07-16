@@ -30,6 +30,9 @@ class PointerEventData;
 namespace UnityEngine {
 class RectTransform;
 }
+namespace UnityEngine {
+struct Rect;
+}
 // Forward declare root types
 namespace HMUI {
 class VerticalScrollController;
@@ -44,10 +47,7 @@ namespace HMUI {
 class CORDL_TYPE VerticalScrollController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _dragPosition, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__dragPosition, put = __cordl_internal_set__dragPosition)) float_t _dragPosition;
-
-  /// @brief Field _handleRectTransform, offset 0x40, size 0x8
+  /// @brief Field _handleRectTransform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__handleRectTransform, put = __cordl_internal_set__handleRectTransform)) ::UnityW<::UnityEngine::RectTransform> _handleRectTransform;
 
   /// @brief Field _scrollRectTransform, offset 0x30, size 0x8
@@ -71,26 +71,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x5745728, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x588ca4c, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
+
+  /// @brief Method GetDragPosition, addr 0x588cc10, size 0x40, virtual false, abstract: false, final false
+  static inline float_t GetDragPosition(::UnityEngine::EventSystems::PointerEventData* eventData, ::UnityEngine::Rect scrollRect, ::UnityEngine::Rect handleRect);
 
   static inline ::HMUI::VerticalScrollController* New_ctor();
 
-  /// @brief Method OnDrag, addr 0x57458fc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x588cc50, size 0xa0, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x5745960, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method OnInitializePotentialDrag, addr 0x588ccf0, size 0x14, virtual true, abstract: false, final true
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x5745828, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x588cb4c, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnValidate, addr 0x5745744, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x588ca68, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
-
-  constexpr float_t const& __cordl_internal_get__dragPosition() const;
-
-  constexpr float_t& __cordl_internal_get__dragPosition();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handleRectTransform() const;
 
@@ -108,8 +107,6 @@ public:
 
   constexpr ::System::Action_1<float_t>*& __cordl_internal_get_updateScrollPositionEvent();
 
-  constexpr void __cordl_internal_set__dragPosition(float_t value);
-
   constexpr void __cordl_internal_set__handleRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
   constexpr void __cordl_internal_set__scrollRectTransform(::UnityW<::UnityEngine::RectTransform> value);
@@ -118,10 +115,10 @@ public:
 
   constexpr void __cordl_internal_set_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x5745974, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x588cd04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_updateScrollPositionEvent, addr 0x574311c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_updateScrollPositionEvent, addr 0x588a40c, size 0xc0, virtual false, abstract: false, final false
   inline void add_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -136,7 +133,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
 
-  /// @brief Method remove_updateScrollPositionEvent, addr 0x5743558, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_updateScrollPositionEvent, addr 0x588a848, size 0xc0, virtual false, abstract: false, final false
   inline void remove_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -154,7 +151,7 @@ public:
   VerticalScrollController(VerticalScrollController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19206 };
 
   /// @brief Field updateScrollPositionEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___updateScrollPositionEvent;
@@ -165,10 +162,7 @@ public:
   /// @brief Field _scrollRectTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____scrollRectTransform;
 
-  /// @brief Field _dragPosition, offset: 0x38, size: 0x4, def value: None
-  float_t ____dragPosition;
-
-  /// @brief Field _handleRectTransform, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _handleRectTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____handleRectTransform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -180,10 +174,8 @@ static_assert(offsetof(::HMUI::VerticalScrollController, ____verticalScrollIndic
 
 static_assert(offsetof(::HMUI::VerticalScrollController, ____scrollRectTransform) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::VerticalScrollController, ____dragPosition) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HMUI::VerticalScrollController, ____handleRectTransform) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::VerticalScrollController, ____handleRectTransform) == 0x40, "Offset mismatch!");
-
-static_assert(sizeof(::HMUI::VerticalScrollController) == 0x48, "Size mismatch!");
+static_assert(sizeof(::HMUI::VerticalScrollController) == 0x40, "Size mismatch!");
 
 } // namespace HMUI

@@ -35,7 +35,7 @@ public:
   /// @brief Field _installMethod, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  /// @brief Method InstallBindings, addr 0x6d43098, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e97d58, size 0x24, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x6d430bc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e97d7c, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d431a0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e97e60, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6d32cac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8796c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ActionInstaller(ActionInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14673 };
 
   /// @brief Field _installMethod, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installMethod;

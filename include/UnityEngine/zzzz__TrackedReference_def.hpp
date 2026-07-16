@@ -27,10 +27,10 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Equals, addr 0x6991968, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ae4a14, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x6991a34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ae4ae0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TrackedReference* New_ctor();
@@ -41,16 +41,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x69918cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae4978, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Equality, addr 0x69918d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ae497c, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-  /// @brief Method op_Implicit, addr 0x6991a3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ae4ae8, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::TrackedReference* exists);
 
-  /// @brief Method op_Inequality, addr 0x699191c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ae49c8, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
 protected:
@@ -68,7 +68,7 @@ public:
   TrackedReference(TrackedReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10344 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

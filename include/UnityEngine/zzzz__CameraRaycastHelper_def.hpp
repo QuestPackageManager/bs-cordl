@@ -33,16 +33,16 @@ namespace UnityEngine {
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RaycastTry, addr 0x6a0a184, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry, addr 0x6b5dc60, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D, addr 0x6a0a358, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D, addr 0x6b5de34, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D_Injected, addr 0x6a0a4c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D_Injected, addr 0x6b5dfa4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry_Injected, addr 0x6a0a2f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry_Injected, addr 0x6b5ddd0, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
 protected:
@@ -60,7 +60,7 @@ public:
   CameraRaycastHelper(CameraRaycastHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::DropdownMenuSeparator::*)()>(&::UnityEngine::UIElements::DropdownMenuSeparator::get_subMenuPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3ca08;
+  constexpr static std::size_t addrs = 0x6d908c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenuSeparator*>(), { "get_subMenuPath", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenuSeparator::*)(::StringW)>(&::UnityEngine::UIElements::DropdownMenuSeparator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3ca10;
+  constexpr static std::size_t addrs = 0x6d908c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

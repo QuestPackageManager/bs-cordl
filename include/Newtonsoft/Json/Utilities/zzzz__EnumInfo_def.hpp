@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x5bebf20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d24148, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isFlags, ::ArrayW<uint64_t> values, ::ArrayW<::StringW> names, ::ArrayW<::StringW> resolvedNames);
 
 protected:
@@ -78,7 +78,7 @@ public:
   EnumInfo(EnumInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13388 };
 
   /// @brief Field IsFlags, offset: 0x10, size: 0x1, def value: None
   bool ___IsFlags;

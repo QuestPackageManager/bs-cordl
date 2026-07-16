@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x636564c;
+  constexpr static std::size_t addrs = 0x64a226c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction*>(),
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)()>(&::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63656b4;
+  constexpr static std::size_t addrs = 0x64a22d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63656c8;
+  constexpr static std::size_t addrs = 0x64a22e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)(::System::IAsyncResult*)>(
     &::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63656e4;
+  constexpr static std::size_t addrs = 0x64a2304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Jobs::EarlyInitHelpers::FlushEarlyInits)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x63652c4;
+  constexpr static std::size_t addrs = 0x64a1ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::EarlyInitHelpers*>(), { "FlushEarlyInits", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction*)>(&::Unity::Jobs::EarlyInitHelpers::AddEarlyInitFunction)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6365474;
+  constexpr static std::size_t addrs = 0x64a2094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::EarlyInitHelpers*>(),
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*)>(&::Unity::Jobs::EarlyInitHelpers::JobReflectionDataCreationFailed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63655c8;
+  constexpr static std::size_t addrs = 0x64a21e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::EarlyInitHelpers::*)()>(&::Unity::Jobs::EarlyInitHelpers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6365648;
+  constexpr static std::size_t addrs = 0x64a2268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::EarlyInitHelpers*>(), { ".ctor", {}, {} })));

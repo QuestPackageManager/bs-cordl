@@ -80,18 +80,18 @@ public:
 
   __declspec(property(get = get_rotationRange)) float_t rotationRange;
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x5785f1c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x58c2a98, size 0x19c, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::BeatLineManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5785930, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58c24ac, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57858a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58c241c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x57859c0, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58c253c, size 0x55c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>* const& __cordl_internal_get__activeBeatLines() const;
@@ -148,16 +148,16 @@ public:
 
   constexpr void __cordl_internal_set__rotationRange(float_t value);
 
-  /// @brief Method .ctor, addr 0x57860b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c2c34, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isMidRotationValid, addr 0x5785888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMidRotationValid, addr 0x58c2404, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMidRotationValid();
 
-  /// @brief Method get_midRotation, addr 0x5785890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_midRotation, addr 0x58c240c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_midRotation();
 
-  /// @brief Method get_rotationRange, addr 0x5785898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationRange, addr 0x58c2414, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationRange();
 
 protected:
@@ -175,7 +175,7 @@ public:
   BeatLineManager(BeatLineManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5610 };
 
   /// @brief Field _linesYPosition, offset: 0x20, size: 0x4, def value: None
   float_t ____linesYPosition;

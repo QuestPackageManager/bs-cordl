@@ -90,7 +90,7 @@ public:
   static ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape const Sphere;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12046 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -169,7 +169,7 @@ public:
   static ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode const OverrideVirtualOffsetSettings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12047 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -228,7 +228,7 @@ public:
   static ::UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation const Remove;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -287,7 +287,7 @@ public:
   static ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version const Mode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -395,15 +395,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Awake, addr 0x66453d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6782ae4, size 0x38, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::Rendering::ProbeAdjustmentVolume* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6645428, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6782b34, size 0x14, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6645410, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6782b1c, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr int32_t const& __cordl_internal_get_directSampleCount() const;
@@ -550,7 +550,7 @@ public:
 
   constexpr void __cordl_internal_set_virtualOffsetThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x664543c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6782b48, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -571,7 +571,7 @@ public:
   ProbeAdjustmentVolume(ProbeAdjustmentVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12050 };
 
   /// @brief Field shape, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape ___shape;

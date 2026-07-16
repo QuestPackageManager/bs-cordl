@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::System::Object*>)>(&::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace::TraceEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x603b984;
+  constexpr static std::size_t addrs = 0x6176a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace*>(),
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility::ThrowHelperError)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6032758;
+  constexpr static std::size_t addrs = 0x616d854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility*>(),
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility::ThrowHelperCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x603b98c;
+  constexpr static std::size_t addrs = 0x6176a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*, ::System::Diagnostics::TraceEventType)>(
     &::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility::ThrowHelper)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x603b988;
+  constexpr static std::size_t addrs = 0x6176a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility::ThrowHelperArgumentNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6037db4;
+  constexpr static std::size_t addrs = 0x6172eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::System::Exception*)>(
     &::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility::ThrowHelperFatal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x603ba08;
+  constexpr static std::size_t addrs = 0x6176b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility*>(),

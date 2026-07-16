@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::RenderModel_TextureMap_t_Packed::*)(::OVR::OpenVR::RenderModel_TextureMap_t)>(
     &::OVR::OpenVR::RenderModel_TextureMap_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d0dcf0;
+  constexpr static std::size_t addrs = 0x5e45f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::RenderModel_TextureMap_t_Packed::*)(::by_ref<::OVR::OpenVR::RenderModel_TextureMap_t>)>(
     &::OVR::OpenVR::RenderModel_TextureMap_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d0dd04;
+  constexpr static std::size_t addrs = 0x5e45f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::RenderModel_TextureMap_t_Packed>(),

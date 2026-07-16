@@ -7,6 +7,8 @@ module;
 #include "System/Threading/AsyncLocalValueChangedArgs_1.hpp"
 #include "System/Threading/AsyncLocal_1.hpp"
 #include "System/Threading/AutoResetEvent.hpp"
+#include "System/Threading/Barrier.hpp"
+#include "System/Threading/BarrierPostPhaseException.hpp"
 #include "System/Threading/CancellationCallbackCoreWorkArguments.hpp"
 #include "System/Threading/CancellationCallbackInfo.hpp"
 #include "System/Threading/CancellationCallbackInfo_WithSyncContext.hpp"

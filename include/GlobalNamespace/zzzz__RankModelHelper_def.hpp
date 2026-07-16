@@ -29,7 +29,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MaxRankForGameplayModifiers, addr 0x3693a2c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x374eef0, size 0xfc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::RankModel_Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                               ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
@@ -48,7 +48,7 @@ public:
   RankModelHelper(RankModelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

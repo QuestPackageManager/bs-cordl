@@ -28,19 +28,19 @@ public:
   /// @brief Field s_priority, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_priority, put = setStaticF_s_priority)) ::ArrayW<int32_t> s_priority;
 
-  /// @brief Method IsArithmetical, addr 0x5f03488, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsArithmetical, addr 0x603e584, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsArithmetical(int32_t op);
 
-  /// @brief Method IsLogical, addr 0x5f034a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsLogical, addr 0x603e5a0, size 0x20, virtual false, abstract: false, final false
   static inline bool IsLogical(int32_t op);
 
-  /// @brief Method IsRelational, addr 0x5f034c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRelational, addr 0x603e5c0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsRelational(int32_t op);
 
-  /// @brief Method Priority, addr 0x5f034d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Priority, addr 0x603e5d0, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t Priority(int32_t op);
 
-  /// @brief Method ToString, addr 0x5f03584, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x603e680, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t op);
 
   static inline ::ArrayW<::StringW> getStaticF_s_looks();
@@ -66,7 +66,7 @@ public:
   Operators(Operators const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

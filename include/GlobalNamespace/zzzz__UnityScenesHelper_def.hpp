@@ -28,8 +28,8 @@ public:
   /// @brief Method GetComponentsInScene, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetComponentsInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<T>* components, bool includeInactive);
 
-  /// @brief Method SetActiveRootObjectsInScene, addr 0x326aa8c, size 0x1c0, virtual false, abstract: false, final false
-  static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
+  /// @brief Method SetRootObjectsActive, addr 0x332564c, size 0xa4, virtual false, abstract: false, final false
+  static inline void SetRootObjectsActive(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   UnityScenesHelper(UnityScenesHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20553 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

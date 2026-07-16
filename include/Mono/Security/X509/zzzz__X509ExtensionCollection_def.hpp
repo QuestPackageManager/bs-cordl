@@ -41,14 +41,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method IndexOf, addr 0x595ddec, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5a96758, size 0x138, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW oid);
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor();
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x595df24, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5a96890, size 0x20, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr bool const& __cordl_internal_get_readOnly() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_readOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x595dde4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a96750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5959ba4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a92510, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Item, addr 0x595d488, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5a95df4, size 0xbc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Extension* get_Item(::StringW oid);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -84,7 +84,7 @@ public:
   X509ExtensionCollection(X509ExtensionCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19263 };
 
   /// @brief Field readOnly, offset: 0x18, size: 0x1, def value: None
   bool ___readOnly;

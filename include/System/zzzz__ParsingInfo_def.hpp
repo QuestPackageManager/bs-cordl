@@ -27,7 +27,7 @@ namespace System {
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x5b049d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c3e6ac, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters []

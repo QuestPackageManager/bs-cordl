@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5c740bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac2e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method get_ByteCount, addr 0x5c74418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x5dac640, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method get_IncludeLength, addr 0x5c74428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x5dac650, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_ByteCount, addr 0x5c74420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x5dac648, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   BsonString(BsonString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13675 };
 
   /// @brief Field <ByteCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____ByteCount_k__BackingField;

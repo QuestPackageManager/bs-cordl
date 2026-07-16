@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::*)()>(
     &::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66f8a7c;
+  constexpr static std::size_t addrs = 0x68375f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::*)(::StringW)>(
     &::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::_get_activatedFromCommandLine_b__1_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66f8a80;
+  constexpr static std::size_t addrs = 0x68375f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c*>(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests::get_activatedFromCommandLine)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x66f886c;
+  constexpr static std::size_t addrs = 0x68373e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests::get_enabled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66f8978;
+  constexpr static std::size_t addrs = 0x68374ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -40,21 +40,21 @@ public:
   /// @brief Field m_TabView, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TabView, put = __cordl_internal_set_m_TabView)) ::UnityEngine::UIElements::TabView* m_TabView;
 
-  /// @brief Method GetHeight, addr 0x6c1d73c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetHeight, addr 0x6d715f4, size 0x20, virtual false, abstract: false, final false
   static inline float_t GetHeight(::UnityEngine::UIElements::VisualElement* t);
 
-  /// @brief Method GetTabOffset, addr 0x6c1d77c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetTabOffset, addr 0x6d71634, size 0x144, virtual false, abstract: false, final false
   inline float_t GetTabOffset(::UnityEngine::UIElements::VisualElement* tab);
 
-  /// @brief Method GetWidth, addr 0x6c1d75c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetWidth, addr 0x6d71614, size 0x20, virtual false, abstract: false, final false
   static inline float_t GetWidth(::UnityEngine::UIElements::VisualElement* t);
 
-  /// @brief Method InitOrderTabs, addr 0x6c1d8c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InitOrderTabs, addr 0x6d71778, size 0x7c, virtual false, abstract: false, final false
   inline void InitOrderTabs();
 
   static inline ::UnityEngine::UIElements::TabLayout* New_ctor(::UnityEngine::UIElements::TabView* tabView, bool isVertical);
 
-  /// @brief Method ReorderDisplay, addr 0x6c1d93c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReorderDisplay, addr 0x6d717f4, size 0x3c, virtual false, abstract: false, final false
   inline void ReorderDisplay(int32_t from, int32_t to);
 
   constexpr bool const& __cordl_internal_get_m_IsVertical() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TabView(::UnityEngine::UIElements::TabView* value);
 
-  /// @brief Method .ctor, addr 0x6c1d718, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d715d0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TabView* tabView, bool isVertical);
 
 protected:

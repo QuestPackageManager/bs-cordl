@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::SettingsBindableAttribute::*)(bool)>(&::System::ComponentModel::SettingsBindableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6287048;
+  constexpr static std::size_t addrs = 0x63c30e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)()>(&::System::ComponentModel::SettingsBindableAttribute::get_Bindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6287050;
+  constexpr static std::size_t addrs = 0x63c30ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::SettingsBindableAttribute*>(), { "get_Bindable", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::SettingsBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6287058;
+  constexpr static std::size_t addrs = 0x63c30f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::SettingsBindableAttribute*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::SettingsBindableAttribute::*)()>(&::System::ComponentModel::SettingsBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x62870f0;
+  constexpr static std::size_t addrs = 0x63c318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::SettingsBindableAttribute*>(),

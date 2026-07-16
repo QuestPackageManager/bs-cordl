@@ -146,7 +146,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21267 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -165,13 +165,13 @@ namespace System::Runtime::Interop {
 class CORDL_TYPE UnsafeNativeMethods_EtwEnableCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x604a4bc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x61855b8, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::by_ref<::System::Guid> sourceId, ::ByRefConst<int32_t> isEnabled, ::ByRefConst<uint8_t> level, ::ByRefConst<int64_t> matchAnyKeywords, ::ByRefConst<int64_t> matchAllKeywords,
                      ::ByRefConst<void*> filterData, ::ByRefConst<void*> callbackContext);
 
   static inline ::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x604a43c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6185538, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -189,7 +189,7 @@ public:
   UnsafeNativeMethods_EtwEnableCallback(UnsafeNativeMethods_EtwEnableCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -208,27 +208,27 @@ public:
 
   using EventData = ::System::Runtime::Interop::UnsafeNativeMethods_EventData;
 
-  /// @brief Method EventActivityIdControl, addr 0x604a27c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EventActivityIdControl, addr 0x6185378, size 0x84, virtual false, abstract: false, final false
   static inline uint32_t EventActivityIdControl(::ByRefConst<int32_t> ControlCode, ::by_ref<::System::Guid> ActivityId);
 
-  /// @brief Method EventEnabled, addr 0x604a150, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EventEnabled, addr 0x618524c, size 0x8c, virtual false, abstract: false, final false
   static inline bool EventEnabled(::ByRefConst<int64_t> registrationHandle, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor);
 
-  /// @brief Method EventRegister, addr 0x604a028, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EventRegister, addr 0x6185124, size 0xa8, virtual false, abstract: false, final false
   static inline uint32_t EventRegister(::by_ref<::System::Guid> providerId, ::ByRefConst<::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback*> enableCallback,
                                        ::ByRefConst<void*> callbackContext, ::by_ref<int64_t> registrationHandle);
 
-  /// @brief Method EventUnregister, addr 0x604a0d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EventUnregister, addr 0x61851cc, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t EventUnregister(::ByRefConst<int64_t> registrationHandle);
 
-  /// @brief Method EventWrite, addr 0x604a1dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method EventWrite, addr 0x61852d8, size 0xa0, virtual false, abstract: false, final false
   static inline uint32_t EventWrite(::ByRefConst<int64_t> registrationHandle, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::ByRefConst<uint32_t> userDataCount,
                                     ::ByRefConst<::System::Runtime::Interop::UnsafeNativeMethods_EventData*> userData);
 
-  /// @brief Method RegisterEventSource, addr 0x6049e7c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventSource, addr 0x6184f78, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* RegisterEventSource(::StringW uncServerName, ::StringW sourceName);
 
-  /// @brief Method ReportEvent, addr 0x604a300, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReportEvent, addr 0x61853fc, size 0x13c, virtual false, abstract: false, final false
   static inline bool ReportEvent(::System::Runtime::InteropServices::SafeHandle* hEventLog, uint16_t type, uint16_t category, uint32_t eventID, ::ArrayW<uint8_t> userSID, uint16_t numStrings,
                                  uint32_t dataLen, ::System::Runtime::InteropServices::HandleRef strings, ::ArrayW<uint8_t> rawData);
 
@@ -247,7 +247,7 @@ public:
   UnsafeNativeMethods(UnsafeNativeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

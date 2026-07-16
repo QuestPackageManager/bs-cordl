@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatSDFPointScaleEffect::*)()>(&::GlobalNamespace::FloatSDFPointScaleEffect::Awake)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5855914;
+  constexpr static std::size_t addrs = 0x598dcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatSDFPointScaleEffect*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatSDFPointScaleEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::FloatSDFPointScaleEffect::SetValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5855920;
+  constexpr static std::size_t addrs = 0x598dccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatSDFPointScaleEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::FloatSDFPointScaleEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5855988;
+  constexpr static std::size_t addrs = 0x598dd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatSDFPointScaleEffect::*)(float_t)>(&::GlobalNamespace::FloatSDFPointScaleEffect::Scale)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5855954;
+  constexpr static std::size_t addrs = 0x598dd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatSDFPointScaleEffect::*)()>(&::GlobalNamespace::FloatSDFPointScaleEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58559bc;
+  constexpr static std::size_t addrs = 0x598dd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatSDFPointScaleEffect*>(), { ".ctor", {}, {} })));

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::NavmeshBakingAnalytic::*)()>(&::UnityEditor::Analytics::NavmeshBakingAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6ccdcd4;
+  constexpr static std::size_t addrs = 0x6e21b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::NavmeshBakingAnalytic*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::NavmeshBakingAnalytic* (*)()>(&::UnityEditor::Analytics::NavmeshBakingAnalytic::CreateNavmeshBakingAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ccdd4c;
+  constexpr static std::size_t addrs = 0x6e21c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

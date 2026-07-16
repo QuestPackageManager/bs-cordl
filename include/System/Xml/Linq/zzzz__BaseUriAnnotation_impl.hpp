@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::BaseUriAnnotation::*)(::StringW)>(&::System::Xml::Linq::BaseUriAnnotation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60628a8;
+  constexpr static std::size_t addrs = 0x619d9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

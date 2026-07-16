@@ -8,14 +8,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ArcAndObstacleHapticEffectManager)
+namespace BeatSaber::Haptics {
+class HapticFeedbackManager;
+}
+namespace BeatSaber::Haptics {
+class HapticPresetSO;
+}
 namespace GlobalNamespace {
 class ArcAndObstacleHapticEffectManager_EffectState;
 }
 namespace GlobalNamespace {
 struct ColorType;
-}
-namespace GlobalNamespace {
-class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffectManager;
@@ -28,9 +31,6 @@ struct SaberType;
 }
 namespace GlobalNamespace {
 class SliderInteractionManager;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -100,13 +100,13 @@ public:
 
   constexpr void __cordl_internal_set_sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x5845dc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597dab4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeActive, addr 0x5845bfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_canBeActive, addr 0x597d8ec, size 0x20, virtual false, abstract: false, final false
   inline bool get_canBeActive();
 
-  /// @brief Method get_isActive, addr 0x5845b3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x597d82c, size 0x40, virtual false, abstract: false, final false
   inline bool get_isActive();
 
 protected:
@@ -124,7 +124,7 @@ public:
   ArcAndObstacleHapticEffectManager_EffectState(ArcAndObstacleHapticEffectManager_EffectState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5752 };
 
   /// @brief Field colorType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ___colorType;
@@ -162,10 +162,11 @@ public:
   using EffectState = ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState;
 
   /// @brief Field _hapticFeedbackManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>
+      _hapticFeedbackManager;
 
   /// @brief Field _hapticPreset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticPreset, put = __cordl_internal_set__hapticPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _hapticPreset;
+  __declspec(property(get = __cordl_internal_get__hapticPreset, put = __cordl_internal_set__hapticPreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _hapticPreset;
 
   /// @brief Field _leftHandEffectState, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__leftHandEffectState,
@@ -187,48 +188,48 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderInteractionManagers,
                       put = __cordl_internal_set__sliderInteractionManagers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
-  /// @brief Method GetState, addr 0x5845cd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x597d9c4, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* GetState(::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method GetState, addr 0x5845bbc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x597d8ac, size 0x40, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* GetState(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders, addr 0x5845c94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders, addr 0x597d984, size 0x40, virtual false, abstract: false, final false
   inline void HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderInteractionManagerSliderWasAddedToActiveSliders, addr 0x5845d00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderInteractionManagerSliderWasAddedToActiveSliders, addr 0x597d9f0, size 0x5c, virtual false, abstract: false, final false
   inline void HandleSliderInteractionManagerSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t sliderInteractionParam);
 
-  /// @brief Method HandleSparkleEffectDidEnd, addr 0x5845c1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidEnd, addr 0x597d90c, size 0x28, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidEnd(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSparkleEffectDidStart, addr 0x5845b7c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidStart, addr 0x597d86c, size 0x40, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5845760, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x597d450, size 0x350, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58453bc, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x597d0ac, size 0x3a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TryDisableThis, addr 0x5845c44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryDisableThis, addr 0x597d934, size 0x50, virtual false, abstract: false, final false
   inline void TryDisableThis();
 
-  /// @brief Method Update, addr 0x5845ab0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x597d7a0, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateHaptic, addr 0x5845ad8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateHaptic, addr 0x597d7c8, size 0x64, virtual false, abstract: false, final false
   inline void UpdateHaptic(::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* state, ::UnityEngine::XR::XRNode node);
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__hapticPreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__hapticPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__hapticPreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__hapticPreset();
 
   constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* const& __cordl_internal_get__leftHandEffectState() const;
 
@@ -250,9 +251,9 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*& __cordl_internal_get__sliderInteractionManagers();
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value);
 
-  constexpr void __cordl_internal_set__hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__hapticPreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
   constexpr void __cordl_internal_set__leftHandEffectState(::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* value);
 
@@ -264,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManagers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
-  /// @brief Method .ctor, addr 0x5845d5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597da4c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -282,10 +283,10 @@ public:
   ArcAndObstacleHapticEffectManager(ArcAndObstacleHapticEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5753 };
 
   /// @brief Field _hapticPreset, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____hapticPreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____hapticPreset;
 
   /// @brief Field _obstacleSaberSparkleEffectManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> ____obstacleSaberSparkleEffectManager;
@@ -297,7 +298,7 @@ public:
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+  ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field _leftHandEffectState, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* ____leftHandEffectState;

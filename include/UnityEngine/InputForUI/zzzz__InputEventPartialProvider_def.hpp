@@ -73,39 +73,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProviderImpl"
   constexpr operator ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept;
 
-  /// @brief Method GetTimestamp, addr 0x6a062ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTimestamp, addr 0x6b59dc8, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(::by_ref<::UnityEngine::Event*> ev);
 
-  /// @brief Method Initialize, addr 0x6a053ac, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x6b58e88, size 0x1b0, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::UnityEngine::InputForUI::InputEventPartialProvider* New_ctor();
 
-  /// @brief Method OnFocusChanged, addr 0x6a0602c, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method OnFocusChanged, addr 0x6b59b08, size 0x178, virtual true, abstract: false, final true
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method RequestCurrentState, addr 0x6a061a4, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method RequestCurrentState, addr 0x6b59c80, size 0x148, virtual true, abstract: false, final true
   inline bool RequestCurrentState(::UnityEngine::InputForUI::Event_Type type);
 
-  /// @brief Method SendNextOrPreviousNavigationEventOnTabKeyDownEvent, addr 0x6a05ca0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SendNextOrPreviousNavigationEventOnTabKeyDownEvent, addr 0x6b5977c, size 0x168, virtual false, abstract: false, final false
   inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(::by_ref<::UnityEngine::Event*> ev);
 
-  /// @brief Method Shutdown, addr 0x6a0555c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Shutdown, addr 0x6b59038, size 0x4, virtual true, abstract: false, final true
   inline void Shutdown();
 
-  /// @brief Method ToCommandEvent, addr 0x6a05e70, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ToCommandEvent, addr 0x6b5994c, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(::by_ref<::UnityEngine::Event*> ev);
 
-  /// @brief Method ToKeyEvent, addr 0x6a05b30, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ToKeyEvent, addr 0x6b5960c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(::by_ref<::UnityEngine::Event*> ev);
 
-  /// @brief Method ToTextInputEvent, addr 0x6a05e08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToTextInputEvent, addr 0x6b598e4, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(::by_ref<::UnityEngine::Event*> ev);
 
-  /// @brief Method Update, addr 0x6a05560, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x6b5903c, size 0x2e0, virtual true, abstract: false, final true
   inline void Update();
 
-  /// @brief Method UpdateEventModifiers, addr 0x6a05840, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method UpdateEventModifiers, addr 0x6b5931c, size 0x2f0, virtual false, abstract: false, final false
   inline void UpdateEventModifiers(::by_ref<::UnityEngine::Event*> ev);
 
   constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>* const& __cordl_internal_get__IMGUICommandToInputForUICommandType() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__sendNavigationEventOnTabKey(bool value);
 
-  /// @brief Method .ctor, addr 0x6a06304, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b59de0, size 0x674, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProviderImpl"
@@ -165,7 +165,7 @@ public:
   InputEventPartialProvider(InputEventPartialProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21777 };
 
   /// @brief Field _ev, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Event* ____ev;

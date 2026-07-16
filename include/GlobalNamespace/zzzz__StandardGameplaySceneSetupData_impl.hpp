@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardGameplaySceneSetupData::*)(
     bool, ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::StandardGameplaySceneSetupData::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x57ee7c0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x590c394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

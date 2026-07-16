@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NullableMethodCallInstruction_HasValue* New_ctor();
 
-  /// @brief Method Run, addr 0x5e7e8f8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb99f4, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5e7e830, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb992c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16570 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

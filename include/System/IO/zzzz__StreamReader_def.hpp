@@ -82,10 +82,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ac16d8, size 0xac4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5bfb3b0, size 0xac4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ac219c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5bfbe74, size 0x5c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -196,10 +196,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ac21f8, size 0x64c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5bfbed0, size 0x64c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ac2844, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5bfc51c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -328,31 +328,31 @@ public:
   /// @brief Field _stream, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream)) ::System::IO::Stream* _stream;
 
-  /// @brief Method CheckAsyncTaskInProgress, addr 0x5abefd0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckAsyncTaskInProgress, addr 0x5bf8ca8, size 0x70, virtual false, abstract: false, final false
   inline void CheckAsyncTaskInProgress();
 
-  /// @brief Method Close, addr 0x5abf840, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x5bf9518, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CompressBuffer, addr 0x5ac0688, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompressBuffer, addr 0x5bfa360, size 0x44, virtual false, abstract: false, final false
   inline void CompressBuffer(int32_t n);
 
-  /// @brief Method DataAvailable, addr 0x5ac1514, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DataAvailable, addr 0x5bfb1ec, size 0x10, virtual false, abstract: false, final false
   inline bool DataAvailable();
 
-  /// @brief Method DetectEncoding, addr 0x5ac06cc, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method DetectEncoding, addr 0x5bfa3a4, size 0x2a4, virtual false, abstract: false, final false
   inline void DetectEncoding();
 
-  /// @brief Method Dispose, addr 0x5abf850, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5bf9528, size 0xf0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Init, addr 0x5abf830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5bf9508, size 0x10, virtual false, abstract: false, final false
   inline void Init(::System::IO::Stream* stream);
 
-  /// @brief Method Init, addr 0x5abf414, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5bf90ec, size 0x148, virtual false, abstract: false, final false
   inline void Init(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen);
 
-  /// @brief Method IsPreamble, addr 0x5ac0970, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsPreamble, addr 0x5bfa648, size 0x130, virtual false, abstract: false, final false
   inline bool IsPreamble();
 
   static inline ::System::IO::StreamReader* New_ctor();
@@ -377,43 +377,43 @@ public:
 
   static inline ::System::IO::StreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen);
 
-  /// @brief Method Peek, addr 0x5abf9f8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x5bf96d0, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x5abfabc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5bf9794, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x5abfb80, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5bf9858, size 0x19c, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Read, addr 0x5abff24, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5bf9bfc, size 0xbc, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<char16_t> buffer);
 
-  /// @brief Method ReadAsync, addr 0x5ac0e68, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x5bfab40, size 0x2b4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadAsyncInternal, addr 0x5ac1300, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ReadAsyncInternal, addr 0x5bfafd8, size 0x130, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsyncInternal(::System::Memory_1<char16_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadBuffer, addr 0x5ac0aa0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ReadBuffer, addr 0x5bfa778, size 0x164, virtual true, abstract: false, final false
   inline int32_t ReadBuffer();
 
-  /// @brief Method ReadBuffer, addr 0x5ac026c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ReadBuffer, addr 0x5bf9f44, size 0x300, virtual false, abstract: false, final false
   inline int32_t ReadBuffer(::System::Span_1<char16_t> userBuffer, ::by_ref<bool> readToUserBuffer);
 
-  /// @brief Method ReadBufferAsync, addr 0x5ac1430, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadBufferAsync, addr 0x5bfb108, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadBufferAsync();
 
-  /// @brief Method ReadLine, addr 0x5ac0c04, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x5bfa8dc, size 0x264, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadSpan, addr 0x5abfd1c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ReadSpan, addr 0x5bf99f4, size 0x208, virtual false, abstract: false, final false
   inline int32_t ReadSpan(::System::Span_1<char16_t> buffer);
 
-  /// @brief Method ReadToEnd, addr 0x5ac056c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x5bfa244, size 0x11c, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method ThrowAsyncIOInProgress, addr 0x5abf040, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowAsyncIOInProgress, addr 0x5bf8d18, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowAsyncIOInProgress();
 
   constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get__asyncReadTask() const;
@@ -506,51 +506,51 @@ public:
 
   constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x5abf08c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf8d64, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5abf55c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf9234, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x5abf594, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf926c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor, addr 0x5abf81c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf94f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x5abf828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf9500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor, addr 0x5abf5d0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf92a8, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x5abf168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf8e40, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor, addr 0x5abf1a4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf8e7c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor, addr 0x5abf3f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf90d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x5abf408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf90e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor, addr 0x5abf1e4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf8ebc, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen);
 
   static inline ::System::IO::StreamReader* getStaticF_Null();
 
-  /// @brief Method get_BaseStream, addr 0x5abf958, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BaseStream, addr 0x5bf9630, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_BaseStream();
 
-  /// @brief Method get_CurrentEncoding, addr 0x5abf950, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurrentEncoding, addr 0x5bf9628, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_CurrentEncoding();
 
-  /// @brief Method get_EndOfStream, addr 0x5abf960, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfStream, addr 0x5bf9638, size 0x98, virtual false, abstract: false, final false
   inline bool get_EndOfStream();
 
-  /// @brief Method get_LeaveOpen, addr 0x5abf940, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_LeaveOpen, addr 0x5bf9618, size 0x10, virtual false, abstract: false, final false
   inline bool get_LeaveOpen();
 
   static inline void setStaticF_Null(::System::IO::StreamReader* value);

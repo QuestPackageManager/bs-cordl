@@ -50,7 +50,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BeatLine_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x578584c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c23c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   BeatLine_Pool(BeatLine_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,16 +117,16 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  /// @brief Method AddHighlight, addr 0x5785544, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddHighlight, addr 0x58c20c0, size 0xb4, virtual false, abstract: false, final false
   inline void AddHighlight(float_t noteTime);
 
-  /// @brief Method ColorWasSet, addr 0x5785538, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x58c20b4, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x578546c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58c1fe8, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ManualUpdate, addr 0x57855f8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58c2174, size 0x190, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
@@ -185,13 +185,13 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x5785788, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c2304, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x578540c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x58c1f88, size 0x58, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation, addr 0x5785464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x58c1fe0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -209,7 +209,7 @@ public:
   BeatLine(BeatLine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5609 };
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;

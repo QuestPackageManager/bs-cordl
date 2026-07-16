@@ -21,10 +21,10 @@ namespace System::Net::Mail {
 class CORDL_TYPE QuotedPairReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountBackslashes, addr 0x622f184, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CountBackslashes, addr 0x636a280, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t CountBackslashes(::StringW data, int32_t index);
 
-  /// @brief Method CountQuotedChars, addr 0x622dcb0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CountQuotedChars, addr 0x6368dac, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
 
 protected:
@@ -42,7 +42,7 @@ public:
   QuotedPairReader(QuotedPairReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

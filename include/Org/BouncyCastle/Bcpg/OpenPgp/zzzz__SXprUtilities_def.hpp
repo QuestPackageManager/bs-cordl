@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_mIterationCount64(int64_t value);
 
-  /// @brief Method .ctor, addr 0x34e6cf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a31a8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64);
 
-  /// @brief Method get_IterationCount, addr 0x34e6d0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x35a31c4, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_IterationCount();
 
 protected:
@@ -98,25 +98,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities* New_ctor();
 
-  /// @brief Method ParseS2k, addr 0x34da860, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ParseS2k, addr 0x3596d18, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::S2k* ParseS2k(::System::IO::Stream* input);
 
-  /// @brief Method ReadBytes, addr 0x34da070, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x3596528, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadBytes(::System::IO::Stream* input, int32_t ch);
 
-  /// @brief Method ReadLength, addr 0x34e6c7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadLength, addr 0x35a3134, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadLength(::System::IO::Stream* input, int32_t ch);
 
-  /// @brief Method ReadString, addr 0x34d9f38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x35963f0, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::System::IO::Stream* input, int32_t ch);
 
-  /// @brief Method SkipCloseParenthesis, addr 0x34d9ffc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SkipCloseParenthesis, addr 0x35964b4, size 0x74, virtual false, abstract: false, final false
   static inline void SkipCloseParenthesis(::System::IO::Stream* input);
 
-  /// @brief Method SkipOpenParenthesis, addr 0x34d9ec4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SkipOpenParenthesis, addr 0x359637c, size 0x74, virtual false, abstract: false, final false
   static inline void SkipOpenParenthesis(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x34e6c78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a3130, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

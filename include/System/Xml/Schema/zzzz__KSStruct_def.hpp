@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_ks(::System::Xml::Schema::KeySequence* value);
 
-  /// @brief Method .ctor, addr 0x61db8e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63169e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::KeySequence* ks, int32_t dim);
 
 protected:
@@ -72,7 +72,7 @@ public:
   KSStruct(KSStruct const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9552 };
 
   /// @brief Field depth, offset: 0x10, size: 0x4, def value: None
   int32_t ___depth;

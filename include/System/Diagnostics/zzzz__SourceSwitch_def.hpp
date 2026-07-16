@@ -27,16 +27,16 @@ public:
 
   static inline ::System::Diagnostics::SourceSwitch* New_ctor(::StringW displayName, ::StringW defaultSwitchValue);
 
-  /// @brief Method OnValueChanged, addr 0x6255c14, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x6391cb0, size 0xd4, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
-  /// @brief Method .ctor, addr 0x6255918, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63919b4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW defaultSwitchValue);
 
-  /// @brief Method get_Level, addr 0x6255bd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x6391c6c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Diagnostics::SourceLevels get_Level();
 
-  /// @brief Method set_Level, addr 0x6255c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x6391cac, size 0x4, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::SourceLevels value);
 
 protected:
@@ -54,7 +54,7 @@ public:
   SourceSwitch(SourceSwitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

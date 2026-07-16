@@ -113,18 +113,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method GetPoint, addr 0x584830c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x597fffc, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t time);
 
   static inline ::GlobalNamespace::FloatingTransformEffect* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5848044, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x597fd34, size 0x168, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x584800c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x597fcfc, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Tick, addr 0x58481ac, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x597fe9c, size 0x160, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__amplitudeX() const;
@@ -271,7 +271,7 @@ public:
 
   constexpr void __cordl_internal_set__zFrequency(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5848398, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5980088, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -292,7 +292,7 @@ public:
   FloatingTransformEffect(FloatingTransformEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5770 };
 
   /// @brief Field _random, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IRandom* ____random;

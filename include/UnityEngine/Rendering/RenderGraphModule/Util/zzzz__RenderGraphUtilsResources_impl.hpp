@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66aad18;
+  constexpr static std::size_t addrs = 0x67e8424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::get_coreCopyPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66aad20;
+  constexpr static std::size_t addrs = 0x67e842c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::set_coreCopyPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66aad28;
+  constexpr static std::size_t addrs = 0x67e8434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66aad98;
+  constexpr static std::size_t addrs = 0x67e84a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

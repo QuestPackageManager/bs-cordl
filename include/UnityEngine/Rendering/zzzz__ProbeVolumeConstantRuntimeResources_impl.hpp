@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources>)>(
     &::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::GetRuntimeResources)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66533f0;
+  constexpr static std::size_t addrs = 0x6790afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::Initialize)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6653454;
+  constexpr static std::size_t addrs = 0x6790b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::GetSkySamplingDirections)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66537dc;
+  constexpr static std::size_t addrs = 0x6790ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::Cleanup)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6653838;
+  constexpr static std::size_t addrs = 0x6790f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources*>(), { "Cleanup", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::GenerateSkyDirections)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x66535c0;
+  constexpr static std::size_t addrs = 0x6790ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

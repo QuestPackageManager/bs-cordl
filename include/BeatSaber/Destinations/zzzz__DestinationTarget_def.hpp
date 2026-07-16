@@ -24,15 +24,14 @@ public:
 
   /// @brief Nested struct __DestinationTarget_Unwrapped
   enum struct __DestinationTarget_Unwrapped : int32_t {
-    __E_MainMenu = static_cast<int32_t>(0x1),
-    __E_StartupError = static_cast<int32_t>(0x3),
-    __E_StandardLevel = static_cast<int32_t>(0x4),
-    __E_MultiplayerLevel = static_cast<int32_t>(0x5),
-    __E_MissionLevel = static_cast<int32_t>(0x6),
-    __E_Tutorial = static_cast<int32_t>(0x7),
-    __E_Credits = static_cast<int32_t>(0x8),
-    __E_RecordingTool = static_cast<int32_t>(0x9),
-    __E_LaunchRecordingTool = static_cast<int32_t>(0xa),
+    __E_MainMenu = static_cast<int32_t>(0x0),
+    __E_StartupError = static_cast<int32_t>(0x2),
+    __E_StandardLevel = static_cast<int32_t>(0x3),
+    __E_MultiplayerLevel = static_cast<int32_t>(0x4),
+    __E_MissionLevel = static_cast<int32_t>(0x5),
+    __E_Tutorial = static_cast<int32_t>(0x6),
+    __E_Credits = static_cast<int32_t>(0x7),
+    __E_LaunchTerminalStartup = static_cast<int32_t>(0x8),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,35 +51,32 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DestinationTarget(int32_t value__) noexcept;
 
-  /// @brief Field Credits value: I32(8)
+  /// @brief Field Credits value: I32(7)
   static ::BeatSaber::Destinations::DestinationTarget const Credits;
 
-  /// @brief Field LaunchRecordingTool value: I32(10)
-  static ::BeatSaber::Destinations::DestinationTarget const LaunchRecordingTool;
+  /// @brief Field LaunchTerminalStartup value: I32(8)
+  static ::BeatSaber::Destinations::DestinationTarget const LaunchTerminalStartup;
 
-  /// @brief Field MainMenu value: I32(1)
+  /// @brief Field MainMenu value: I32(0)
   static ::BeatSaber::Destinations::DestinationTarget const MainMenu;
 
-  /// @brief Field MissionLevel value: I32(6)
+  /// @brief Field MissionLevel value: I32(5)
   static ::BeatSaber::Destinations::DestinationTarget const MissionLevel;
 
-  /// @brief Field MultiplayerLevel value: I32(5)
+  /// @brief Field MultiplayerLevel value: I32(4)
   static ::BeatSaber::Destinations::DestinationTarget const MultiplayerLevel;
 
-  /// @brief Field RecordingTool value: I32(9)
-  static ::BeatSaber::Destinations::DestinationTarget const RecordingTool;
-
-  /// @brief Field StandardLevel value: I32(4)
+  /// @brief Field StandardLevel value: I32(3)
   static ::BeatSaber::Destinations::DestinationTarget const StandardLevel;
 
-  /// @brief Field StartupError value: I32(3)
+  /// @brief Field StartupError value: I32(2)
   static ::BeatSaber::Destinations::DestinationTarget const StartupError;
 
-  /// @brief Field Tutorial value: I32(7)
+  /// @brief Field Tutorial value: I32(6)
   static ::BeatSaber::Destinations::DestinationTarget const Tutorial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

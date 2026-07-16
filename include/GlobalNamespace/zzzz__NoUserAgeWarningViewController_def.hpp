@@ -25,10 +25,10 @@ public:
   /// @brief Field _confirmButton, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__confirmButton, put = __cordl_internal_set__confirmButton)) ::UnityW<::UnityEngine::UI::Button> _confirmButton;
 
-  /// @brief Method DidActivate, addr 0x57a57ac, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a15c60, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x57a5898, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a15d4c, size 0x34, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::NoUserAgeWarningViewController* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__confirmButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x57a58cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a15d80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoUserAgeWarningViewController(NoUserAgeWarningViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6425 };
 
   /// @brief Field _confirmButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____confirmButton;

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::UpsertUserMutation::*)(::BGLib::Polyglot::LocalizationLanguage)>(
     &::BeatSaber::Main::Leaderboards::UpsertUserMutation::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x320c920;
+  constexpr static std::size_t addrs = 0x32a38a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

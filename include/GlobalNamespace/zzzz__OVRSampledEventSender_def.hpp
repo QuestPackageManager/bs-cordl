@@ -47,13 +47,13 @@ public:
   static inline ::GlobalNamespace::OVRSampledEventSender* New_ctor(int32_t markerId, float_t recordRecordChance,
                                                                    ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* addAnnotationsFunc);
 
-  /// @brief Method Send, addr 0x5da3d88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x5edbfb0, size 0x30, virtual false, abstract: false, final false
   inline void Send();
 
-  /// @brief Method ShouldSendEvent, addr 0x5da4008, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendEvent, addr 0x5edc230, size 0x40, virtual false, abstract: false, final false
   static inline bool ShouldSendEvent(float_t chance);
 
-  /// @brief Method Start, addr 0x5da3efc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5edc124, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* const& __cordl_internal_get__addAnnotationsFunc() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__shouldSend(bool value);
 
-  /// @brief Method .ctor, addr 0x5da3d78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edbfa0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t markerId, float_t recordRecordChance, ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* addAnnotationsFunc);
 
 protected:
@@ -104,7 +104,7 @@ public:
   OVRSampledEventSender(OVRSampledEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
 
   /// @brief Field _marker, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::OVRTelemetryMarker ____marker;

@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
 
-  /// @brief Method .ctor, addr 0x5a36e54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70b24, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW dependentAssemblyArgument, ::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
 protected:

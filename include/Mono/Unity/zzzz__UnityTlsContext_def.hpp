@@ -142,65 +142,65 @@ public:
   /// @brief Field writeCallback, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_writeCallback, put = __cordl_internal_set_writeCallback)) ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback;
 
-  /// @brief Method CertificateCallback, addr 0x5e941f8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method CertificateCallback, addr 0x5fcf2f4, size 0x2d0, virtual false, abstract: false, final false
   inline void CertificateCallback(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList, ::System::IntPtr caListLen,
                                   ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method CertificateCallback, addr 0x5e92144, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CertificateCallback, addr 0x5fcd240, size 0x110, virtual false, abstract: false, final false
   static inline void CertificateCallback(void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList,
                                          ::System::IntPtr caListLen, ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key,
                                          ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method Dispose, addr 0x5e931cc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5fce2c8, size 0x78, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExtractNativeKeyAndChainFromManagedCertificate, addr 0x5e92a78, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ExtractNativeKeyAndChainFromManagedCertificate, addr 0x5fcdb74, size 0x31c, virtual false, abstract: false, final false
   static inline void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState,
                                                                     ::by_ref<::Mono::Unity::UnityTls_unitytls_x509list*> nativeCertChain, ::by_ref<::Mono::Unity::UnityTls_unitytls_key*> nativeKey);
 
-  /// @brief Method FinishHandshake, addr 0x5e93560, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method FinishHandshake, addr 0x5fce65c, size 0x114, virtual true, abstract: false, final false
   inline void FinishHandshake();
 
   static inline ::Mono::Unity::UnityTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method PendingRenegotiation, addr 0x5e930b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method PendingRenegotiation, addr 0x5fce1b0, size 0x8, virtual true, abstract: false, final false
   inline bool PendingRenegotiation();
 
-  /// @brief Method ProcessHandshake, addr 0x5e933a8, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ProcessHandshake, addr 0x5fce4a4, size 0x168, virtual true, abstract: false, final false
   inline bool ProcessHandshake();
 
-  /// @brief Method Read, addr 0x5e92dac, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5fcdea8, size 0x16c, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadCallback, addr 0x5e93a6c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ReadCallback, addr 0x5fceb68, size 0x298, virtual false, abstract: false, final false
   inline ::System::IntPtr ReadCallback(uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method ReadCallback, addr 0x5e91f3c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCallback, addr 0x5fcd038, size 0x110, virtual false, abstract: false, final false
   static inline ::System::IntPtr ReadCallback(void* userData, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method Renegotiate, addr 0x5e9307c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Renegotiate, addr 0x5fce178, size 0x38, virtual true, abstract: false, final false
   inline void Renegotiate();
 
-  /// @brief Method Shutdown, addr 0x5e930bc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x5fce1b8, size 0xf8, virtual true, abstract: false, final false
   inline void Shutdown();
 
-  /// @brief Method StartHandshake, addr 0x5e93244, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method StartHandshake, addr 0x5fce340, size 0x164, virtual true, abstract: false, final false
   inline void StartHandshake();
 
-  /// @brief Method VerifyCallback, addr 0x5e93e20, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method VerifyCallback, addr 0x5fcef1c, size 0x364, virtual false, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method VerifyCallback, addr 0x5e9204c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method VerifyCallback, addr 0x5fcd148, size 0xf8, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(void* userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain,
                                                                                   ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method Write, addr 0x5e92f18, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5fce014, size 0x164, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteCallback, addr 0x5e93694, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method WriteCallback, addr 0x5fce790, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::IntPtr WriteCallback(uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method WriteCallback, addr 0x5e91e2c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method WriteCallback, addr 0x5fccf28, size 0x110, virtual false, abstract: false, final false
   static inline ::System::IntPtr WriteCallback(void* userData, uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* const& __cordl_internal_get_certificateCallback() const;
@@ -305,16 +305,16 @@ public:
 
   constexpr void __cordl_internal_set_writeCallback(::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* value);
 
-  /// @brief Method .ctor, addr 0x5e92254, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fcd350, size 0x68c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method get_IsAuthenticated, addr 0x5e92d94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAuthenticated, addr 0x5fcde90, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_LocalClientCertificate, addr 0x5e92d9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalClientCertificate, addr 0x5fcde98, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
 
-  /// @brief Method get_RemoteCertificate, addr 0x5e92da4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RemoteCertificate, addr 0x5fcdea0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_RemoteCertificate();
 
 protected:
@@ -332,7 +332,7 @@ public:
   UnityTlsContext(UnityTlsContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10974 };
 
   /// @brief Field tlsContext, offset: 0x58, size: 0x8, def value: None
   ::Mono::Unity::UnityTls_unitytls_tlsctx* ___tlsContext;

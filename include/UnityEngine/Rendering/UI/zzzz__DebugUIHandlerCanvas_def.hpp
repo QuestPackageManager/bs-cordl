@@ -83,13 +83,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c* New_ctor();
 
-  /// @brief Method <ActivatePanel>b__15_0, addr 0x66be58c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <ActivatePanel>b__15_0, addr 0x67fbc98, size 0x2c, virtual false, abstract: false, final false
   inline void _ActivatePanel_b__15_0(::UnityEngine::Rendering::UI::DebugUIHandlerPanel* p);
 
-  /// @brief Method <Rebuild>b__12_0, addr 0x66be540, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Rebuild>b__12_0, addr 0x67fbc4c, size 0x4c, virtual false, abstract: false, final false
   inline bool _Rebuild_b__12_0(::UnityEngine::Rendering::DebugUI_Widget* x);
 
-  /// @brief Method .ctor, addr 0x66be53c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fbc48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c* getStaticF___9();
@@ -119,7 +119,7 @@ public:
   DebugUIHandlerCanvas___c(DebugUIHandlerCanvas___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,7 +139,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <GetWidgetFromPath>b__0, addr 0x66be5b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetFromPath>b__0, addr 0x67fbcc4, size 0x28, virtual false, abstract: false, final false
   inline bool _GetWidgetFromPath_b__0(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* w);
 
   constexpr ::StringW const& __cordl_internal_get_queryPath() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_queryPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x66bde08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fb514, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,7 +166,7 @@ public:
   DebugUIHandlerCanvas___c__DisplayClass14_0(DebugUIHandlerCanvas___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12484 };
 
   /// @brief Field queryPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___queryPath;
@@ -216,58 +216,58 @@ public:
   /// @brief Field prefabs, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_prefabs, put = __cordl_internal_set_prefabs)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::UI::DebugUIPrefabBundle*>* prefabs;
 
-  /// @brief Method ActivatePanel, addr 0x66bdaa8, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ActivatePanel, addr 0x67fb1b4, size 0x210, virtual false, abstract: false, final false
   inline void ActivatePanel(int32_t index, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* selectedWidget);
 
-  /// @brief Method ActivateSelection, addr 0x66be458, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ActivateSelection, addr 0x67fbb64, size 0x8c, virtual false, abstract: false, final false
   inline void ActivateSelection();
 
-  /// @brief Method ChangeSelection, addr 0x66bde64, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelection, addr 0x67fb570, size 0x168, virtual false, abstract: false, final false
   inline void ChangeSelection(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget, bool fromNext);
 
-  /// @brief Method ChangeSelectionValue, addr 0x66be34c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelectionValue, addr 0x67fba58, size 0x10c, virtual false, abstract: false, final false
   inline void ChangeSelectionValue(float_t multiplier);
 
-  /// @brief Method GetWidgetFromPath, addr 0x66bdcb8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetWidgetFromPath, addr 0x67fb3c4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> GetWidgetFromPath(::StringW queryPath);
 
-  /// @brief Method HandleInput, addr 0x66bc868, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method HandleInput, addr 0x67f9f74, size 0x21c, virtual false, abstract: false, final false
   inline void HandleInput();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerCanvas* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x66bc2b8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67f99c4, size 0x18c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Rebuild, addr 0x66bcc3c, size 0x9cc, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x67fa348, size 0x9cc, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method RequestHierarchyReset, addr 0x66bcc30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RequestHierarchyReset, addr 0x67fa33c, size 0xc, virtual false, abstract: false, final false
   inline void RequestHierarchyReset();
 
-  /// @brief Method ResetAllHierarchy, addr 0x66bc580, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method ResetAllHierarchy, addr 0x67f9c8c, size 0x2e8, virtual false, abstract: false, final false
   inline void ResetAllHierarchy();
 
-  /// @brief Method SelectNextItem, addr 0x66be0b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SelectNextItem, addr 0x67fb7c0, size 0xc8, virtual false, abstract: false, final false
   inline void SelectNextItem();
 
-  /// @brief Method SelectNextPanel, addr 0x66be244, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SelectNextPanel, addr 0x67fb950, size 0x7c, virtual false, abstract: false, final false
   inline void SelectNextPanel();
 
-  /// @brief Method SelectPreviousItem, addr 0x66be17c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SelectPreviousItem, addr 0x67fb888, size 0xc8, virtual false, abstract: false, final false
   inline void SelectPreviousItem();
 
-  /// @brief Method SelectPreviousPanel, addr 0x66be2c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SelectPreviousPanel, addr 0x67fb9cc, size 0x8c, virtual false, abstract: false, final false
   inline void SelectPreviousPanel();
 
-  /// @brief Method SetScrollTarget, addr 0x66bdfcc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetScrollTarget, addr 0x67fb6d8, size 0xe8, virtual false, abstract: false, final false
   inline void SetScrollTarget(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget);
 
-  /// @brief Method Traverse, addr 0x66bd638, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method Traverse, addr 0x67fad44, size 0x470, virtual false, abstract: false, final false
   inline void Traverse(::UnityEngine::Rendering::DebugUI_IContainer* container, ::UnityEngine::Transform* parentTransform, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* parentUIHandler,
                        ::by_ref<::UnityEngine::Rendering::UI::DebugUIHandlerWidget*> selectedHandler);
 
-  /// @brief Method Update, addr 0x66bc444, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x67f9b50, size 0x13c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::StringW const& __cordl_internal_get_m_CurrentQueryPath() const;
@@ -318,7 +318,7 @@ public:
 
   constexpr void __cordl_internal_set_prefabs(::System::Collections::Generic::List_1<::UnityEngine::Rendering::UI::DebugUIPrefabBundle*>* value);
 
-  /// @brief Method .ctor, addr 0x66be4e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fbbf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -336,7 +336,7 @@ public:
   DebugUIHandlerCanvas(DebugUIHandlerCanvas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12485 };
 
   /// @brief Field m_DebugTreeState, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_DebugTreeState;

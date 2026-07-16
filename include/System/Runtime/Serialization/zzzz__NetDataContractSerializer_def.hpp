@@ -97,49 +97,49 @@ public:
   /// @brief Field unsafeTypeForwardingEnabled, offset 0xffffffff, size 0x2
   __declspec(property(get = getStaticF_unsafeTypeForwardingEnabled, put = setStaticF_unsafeTypeForwardingEnabled)) ::System::Nullable_1<bool> unsafeTypeForwardingEnabled;
 
-  /// @brief Method GetDataContractFromSurrogateSelector, addr 0x6018bb8, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractFromSurrogateSelector, addr 0x6153cb4, size 0x2f0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContractFromSurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector,
                                                                                                      ::System::Runtime::Serialization::StreamingContext context, ::System::RuntimeTypeHandle typeHandle,
                                                                                                      ::System::Type* type, ::by_ref<::System::Collections::Hashtable*> surrogateDataContracts);
 
-  /// @brief Method GetSurrogate, addr 0x6018ae4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x6153be0, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector,
                                                                                         ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetTypeInformation, addr 0x60181f0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInformation, addr 0x61532ec, size 0x204, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::TypeInformation* GetTypeInformation(::System::Type* type);
 
-  /// @brief Method IsAssemblyNameForwardingSafe, addr 0x60183f4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsAssemblyNameForwardingSafe, addr 0x61534f0, size 0x16c, virtual false, abstract: false, final false
   static inline bool IsAssemblyNameForwardingSafe(::StringW originalAssemblyName, ::StringW newAssemblyName);
 
-  /// @brief Method IsPublicKeyTokenForwardingSafe, addr 0x6018f6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsPublicKeyTokenForwardingSafe, addr 0x6154068, size 0x74, virtual false, abstract: false, final false
   static inline bool IsPublicKeyTokenForwardingSafe(::ArrayW<uint8_t> sourceToken, ::ArrayW<uint8_t> destinationToken);
 
-  /// @brief Method ReadObject, addr 0x6018a60, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x6153b5c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Object* ReadObject(::System::Xml::XmlDictionaryReader* reader, bool verifyObjectName);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x6018560, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x615365c, size 0x128, virtual false, abstract: false, final false
   static inline void WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::StringW clrTypeName, ::StringW clrAssemblyName);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x601805c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x6153158, size 0x194, virtual false, abstract: false, final false
   static inline void WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Runtime::Serialization::DataContract* dataContract,
                                       ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x6018688, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x6153784, size 0xd0, virtual false, abstract: false, final false
   static inline void WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Type* dataContractType, ::System::Runtime::Serialization::SerializationBinder* binder,
                                       ::StringW defaultClrTypeName, ::StringW defaultClrAssemblyName);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x6018758, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x6153854, size 0x150, virtual false, abstract: false, final false
   static inline void WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Type* dataContractType, ::System::Runtime::Serialization::SerializationBinder* binder,
                                       ::System::Runtime::Serialization::SerializationInfo* serInfo);
 
-  /// @brief Method WriteEndObject, addr 0x60188a8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteEndObject, addr 0x61539a4, size 0x70, virtual true, abstract: false, final false
   inline void WriteEndObject(::System::Xml::XmlDictionaryWriter* writer);
 
-  /// @brief Method WriteObjectContent, addr 0x6017a98, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method WriteObjectContent, addr 0x6152b94, size 0x78, virtual true, abstract: false, final false
   inline void WriteObjectContent(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
-  /// @brief Method WriteStartObject, addr 0x60178b4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObject, addr 0x61529b0, size 0x78, virtual true, abstract: false, final false
   inline void WriteStartObject(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
   constexpr ::System::Runtime::Serialization::SerializationBinder* const& __cordl_internal_get_binder() const;
@@ -176,22 +176,22 @@ public:
 
   static inline ::System::Nullable_1<bool> getStaticF_unsafeTypeForwardingEnabled();
 
-  /// @brief Method get_Binder, addr 0x6017894, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Binder, addr 0x6152990, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Serialization::SerializationBinder* get_Binder();
 
-  /// @brief Method get_Context, addr 0x6017888, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_Context, addr 0x6152984, size 0xc, virtual true, abstract: false, final true
   inline ::System::Runtime::Serialization::StreamingContext get_Context();
 
-  /// @brief Method get_IgnoreExtensionDataObject, addr 0x60178ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreExtensionDataObject, addr 0x61529a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreExtensionDataObject();
 
-  /// @brief Method get_MaxItemsInObjectGraph, addr 0x60178a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxItemsInObjectGraph, addr 0x61529a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxItemsInObjectGraph();
 
-  /// @brief Method get_SurrogateSelector, addr 0x601789c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SurrogateSelector, addr 0x6152998, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Serialization::ISurrogateSelector* get_SurrogateSelector();
 
-  /// @brief Method get_UnsafeTypeForwardingEnabled, addr 0x60177a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeTypeForwardingEnabled, addr 0x61528a4, size 0xe0, virtual false, abstract: false, final false
   static inline bool get_UnsafeTypeForwardingEnabled();
 
   static inline void setStaticF_typeNameCache(::System::Collections::Hashtable* value);
@@ -213,7 +213,7 @@ public:
   NetDataContractSerializer(NetDataContractSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17026 };
 
   /// @brief Field context, offset: 0x10, size: 0x10, def value: None
   ::System::Runtime::Serialization::StreamingContext ___context;

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31f7c90;
+  constexpr static std::size_t addrs = 0x328c798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Main::GraphQL::Queries::FeatureFlagsEnabled* (*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery::CreateQuery)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x31f81e4;
+  constexpr static std::size_t addrs = 0x328ccec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery*>(),

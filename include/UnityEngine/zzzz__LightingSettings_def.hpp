@@ -28,51 +28,51 @@ public:
 
   __declspec(property(get = get_realtimeGI, put = set_realtimeGI)) bool realtimeGI;
 
-  /// @brief Method Internal_Create, addr 0x6925f9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6a79344, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::LightingSettings* self);
 
-  /// @brief Method LightingSettingsDontStripMe, addr 0x6925f20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LightingSettingsDontStripMe, addr 0x6a792c8, size 0x4, virtual false, abstract: false, final false
   inline void LightingSettingsDontStripMe();
 
   static inline ::UnityEngine::LightingSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6925f24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a792cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedGI, addr 0x6925fd8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bakedGI, addr 0x6a79380, size 0x80, virtual false, abstract: false, final false
   inline bool get_bakedGI();
 
-  /// @brief Method get_bakedGI_Injected, addr 0x6926058, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedGI_Injected, addr 0x6a79400, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_bakedGI_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_realtimeEnvironmentLighting, addr 0x69262f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeEnvironmentLighting, addr 0x6a796a0, size 0x80, virtual false, abstract: false, final false
   inline bool get_realtimeEnvironmentLighting();
 
-  /// @brief Method get_realtimeEnvironmentLighting_Injected, addr 0x6926378, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeEnvironmentLighting_Injected, addr 0x6a79720, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_realtimeEnvironmentLighting_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_realtimeGI, addr 0x6926168, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeGI, addr 0x6a79510, size 0x80, virtual false, abstract: false, final false
   inline bool get_realtimeGI();
 
-  /// @brief Method get_realtimeGI_Injected, addr 0x69261e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeGI_Injected, addr 0x6a79590, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_realtimeGI_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_bakedGI, addr 0x6926094, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_bakedGI, addr 0x6a7943c, size 0x90, virtual false, abstract: false, final false
   inline void set_bakedGI(bool value);
 
-  /// @brief Method set_bakedGI_Injected, addr 0x6926124, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bakedGI_Injected, addr 0x6a794cc, size 0x44, virtual false, abstract: false, final false
   static inline void set_bakedGI_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_realtimeEnvironmentLighting, addr 0x69263b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeEnvironmentLighting, addr 0x6a7975c, size 0x90, virtual false, abstract: false, final false
   inline void set_realtimeEnvironmentLighting(bool value);
 
-  /// @brief Method set_realtimeEnvironmentLighting_Injected, addr 0x6926444, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeEnvironmentLighting_Injected, addr 0x6a797ec, size 0x44, virtual false, abstract: false, final false
   static inline void set_realtimeEnvironmentLighting_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_realtimeGI, addr 0x6926224, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeGI, addr 0x6a795cc, size 0x90, virtual false, abstract: false, final false
   inline void set_realtimeGI(bool value);
 
-  /// @brief Method set_realtimeGI_Injected, addr 0x69262b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeGI_Injected, addr 0x6a7965c, size 0x44, virtual false, abstract: false, final false
   static inline void set_realtimeGI_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   LightingSettings(LightingSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -41,12 +41,12 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x5e726f4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x5fad7f0, size 0x78, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_ImmutableValue* New_ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method Run, addr 0x5e72688, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fad784, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Object* const& __cordl_internal_get__defaultValue() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5e7267c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fad778, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method get_InstructionName, addr 0x5e72778, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fad874, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -79,7 +79,7 @@ public:
   InitializeLocalInstruction_ImmutableValue(InitializeLocalInstruction_ImmutableValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16436 };
 
   /// @brief Field _defaultValue, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____defaultValue;

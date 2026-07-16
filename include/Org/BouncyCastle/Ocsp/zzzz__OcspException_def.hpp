@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::OcspException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x34b6da8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3573260, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34b6e00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35732b8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x34b3724, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356fbdc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

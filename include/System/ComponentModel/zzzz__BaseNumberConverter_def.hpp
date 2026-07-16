@@ -40,16 +40,16 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method CanConvertFrom, addr 0x6274c14, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x63b0cb0, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x6275314, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x63b13b0, size 0x40, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x6274c94, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x63b0d30, size 0x404, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x6275098, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x63b1134, size 0x27c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
@@ -64,10 +64,10 @@ public:
   /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x6274c08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b0ca4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x6274c0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x63b0ca8, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
   /// @brief Method get_TargetType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -88,7 +88,7 @@ public:
   BaseNumberConverter(BaseNumberConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

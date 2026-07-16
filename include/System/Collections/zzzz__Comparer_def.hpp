@@ -56,10 +56,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x5aa72a0, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x5be0f78, size 0x1fc, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetObjectData, addr 0x5aa71f4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5be0ecc, size 0xac, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x5aa701c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0cf4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x5aa7090, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0d68, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* getStaticF_Default();

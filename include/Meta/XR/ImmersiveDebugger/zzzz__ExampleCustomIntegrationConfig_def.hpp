@@ -22,12 +22,12 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE ExampleCustomIntegrationConfig : public ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase {
 public:
   // Declarations
-  /// @brief Method GetCamera, addr 0x5908e78, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCamera, addr 0x5a4257c, size 0x70, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> GetCamera();
 
   static inline ::Meta::XR::ImmersiveDebugger::ExampleCustomIntegrationConfig* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5908ee8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a425ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   ExampleCustomIntegrationConfig(ExampleCustomIntegrationConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

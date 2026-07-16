@@ -20,7 +20,7 @@ namespace TMPro {
 struct CORDL_TYPE KerningPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x68187fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69572e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t ascii_left, uint32_t ascii_right);
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr KerningPairKey(uint32_t ascii_Left, uint32_t ascii_Right, uint32_t key) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

@@ -45,7 +45,7 @@ public:
   constexpr BurstRuntime_HashCode64_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9979 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -67,7 +67,7 @@ public:
   /// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int64_t GetHashCode64();
 
-  /// @brief Method HashStringWithFNV1A64, addr 0x6907230, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A64, addr 0x6a5a5d8, size 0x60, virtual false, abstract: false, final false
   static inline int64_t HashStringWithFNV1A64(::StringW text);
 
 protected:
@@ -85,7 +85,7 @@ public:
   BurstRuntime(BurstRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

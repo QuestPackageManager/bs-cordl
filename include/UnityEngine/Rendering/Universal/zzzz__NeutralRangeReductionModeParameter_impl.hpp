@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::NeutralRangeReductionModeParameter::*)(
     ::UnityEngine::Rendering::Universal::NeutralRangeReductionMode, bool)>(&::UnityEngine::Rendering::Universal::NeutralRangeReductionModeParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x673bc30;
+  constexpr static std::size_t addrs = 0x687a5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

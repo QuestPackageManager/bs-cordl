@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  /// @brief Method .ctor, addr 0x369e93c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375a994, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
 
-  /// @brief Method get_beatDistributionParam, addr 0x369e92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParam, addr 0x375a984, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatDistributionParam();
 
-  /// @brief Method get_beatDistributionParamType, addr 0x369e934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParamType, addr 0x375a98c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
 
-  /// @brief Method get_indexFilter, addr 0x369e924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x375a97c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
 
 protected:
@@ -90,7 +90,7 @@ public:
   EventBox(EventBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15326 };
 
   /// @brief Field f, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::IndexFilter* ___f;

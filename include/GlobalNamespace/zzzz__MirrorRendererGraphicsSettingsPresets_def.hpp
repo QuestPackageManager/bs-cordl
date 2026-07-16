@@ -79,7 +79,7 @@ public:
   static ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType const RenderedMirror;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_stereoTextureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3670e30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d048, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   MirrorRendererGraphicsSettingsPresets_Preset(MirrorRendererGraphicsSettingsPresets_Preset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15024 };
 
   /// @brief Field mirrorType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType ___mirrorType;
@@ -268,13 +268,13 @@ public:
 
   constexpr void __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*> value);
 
-  /// @brief Method .ctor, addr 0x3670e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x3670e20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x372d038, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x3670e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x372d030, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*> get_presets();
 
 protected:
@@ -292,7 +292,7 @@ public:
   MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15025 };
 
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*> ____presets;

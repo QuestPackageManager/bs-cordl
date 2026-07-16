@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x592c9f8;
+  constexpr static std::size_t addrs = 0x5a660fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0::_RegisterSpecialisedWidget_g__OnStateChanged_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x592cadc;
+  constexpr static std::size_t addrs = 0x5a661e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0::_RegisterSpecialisedWidget_g__GetState_1)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x592cb58;
+  constexpr static std::size_t addrs = 0x5a6625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0*>(),
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::Immersi
     ::Meta::XR::ImmersiveDebugger::UserInterface::IMember*, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(
     &::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon::RegisterSpecialisedWidget)> {
   constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x592c300;
+  constexpr static std::size_t addrs = 0x5a65a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon*>(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon::get_TelemetryAnnotation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x592c9fc;
+  constexpr static std::size_t addrs = 0x5a66100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon*>(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x592ca40;
+  constexpr static std::size_t addrs = 0x5a66144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon*>(), { ".ctor", {}, {} })));

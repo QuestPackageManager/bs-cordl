@@ -135,7 +135,7 @@ public:
   SerializedDictionary_2(SerializedDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23323 };
 
   /// @brief Field _serializedList, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::AYellowpaper::SerializedCollections::SerializedKeyValuePair_2<TKey, TValue>>* ____serializedList;

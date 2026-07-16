@@ -27,15 +27,15 @@ public:
 
   __declspec(property(get = get_mirror, put = set_mirror)) ::UnityW<::GlobalNamespace::Mirror> mirror;
 
-  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x57c3b40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x58e27e0, size 0x2c, virtual false, abstract: false, final false
   inline void HandleMirrorDidChangeEnabledState(bool isEnabled);
 
   static inline ::GlobalNamespace::DisableWhenMirrorIsEnabled* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57c3b6c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58e280c, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57c3a9c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58e273c, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::Mirror> const& __cordl_internal_get__mirror() const;
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror> value);
 
-  /// @brief Method .ctor, addr 0x57c3c80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e2920, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirror, addr 0x57c3a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirror, addr 0x58e272c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Mirror> get_mirror();
 
-  /// @brief Method set_mirror, addr 0x57c3a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mirror, addr 0x58e2734, size 0x8, virtual false, abstract: false, final false
   inline void set_mirror(::GlobalNamespace::Mirror* value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6508 };
 
   /// @brief Field _mirror, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Mirror> ____mirror;

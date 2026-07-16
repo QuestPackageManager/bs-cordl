@@ -28,12 +28,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x325672c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x330eff0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::BGLib::DotnetExtension::Disposables::EmptyDisposable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3256728, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330efec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::DotnetExtension::Disposables::EmptyDisposable* getStaticF_disposable();
@@ -58,7 +58,7 @@ public:
   EmptyDisposable(EmptyDisposable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

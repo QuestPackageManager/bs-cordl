@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::Game
     ::GlobalNamespace::MultiplayerPlacementErrorCode, ::BGNet::Core::GameLift::PlayerSessionInfo*, int32_t, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::BGNet::Core::GameLift::GetMultiplayerInstanceResponse::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x322af1c;
+  constexpr static std::size_t addrs = 0x32c1c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

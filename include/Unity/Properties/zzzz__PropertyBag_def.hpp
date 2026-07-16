@@ -38,7 +38,7 @@ public:
   template <typename TContainer>
   static inline void AcceptWithSpecializedVisitor(::Unity::Properties::IPropertyBag_1<TContainer>* properties, ::Unity::Properties::IPropertyBagVisitor* visitor, ::by_ref<TContainer> container);
 
-  /// @brief Method GetPropertyBag, addr 0x6a4ad50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBag, addr 0x6b9e82c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Properties::IPropertyBag* GetPropertyBag(::System::Type* type);
 
   /// @brief Method GetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
   PropertyBag(PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

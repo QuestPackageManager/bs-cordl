@@ -96,7 +96,7 @@ public:
   RenderPipeline_StandardRequest(RenderPipeline_StandardRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10789 };
 
   /// @brief Field destination, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___destination;
@@ -140,28 +140,28 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  /// @brief Method BeginCameraRendering, addr 0x69cb144, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BeginCameraRendering, addr 0x6b1ea80, size 0x68, virtual false, abstract: false, final false
   static inline void BeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method BeginContextRendering, addr 0x69cafe4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BeginContextRendering, addr 0x6b1e920, size 0x68, virtual false, abstract: false, final false
   static inline void BeginContextRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method Dispose, addr 0x69cb5a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b1eee0, size 0x7c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x69cb620, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b1ef5c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndCameraRendering, addr 0x69cb3a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method EndCameraRendering, addr 0x6b1ece0, size 0x68, virtual false, abstract: false, final false
   static inline void EndCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method EndContextRendering, addr 0x69cb240, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method EndContextRendering, addr 0x6b1eb7c, size 0x68, virtual false, abstract: false, final false
   static inline void EndContextRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method InternalProcessRenderRequests, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename RequestData> inline void InternalProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, RequestData renderRequest);
 
-  /// @brief Method InternalRender, addr 0x69cb51c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InternalRender, addr 0x6b1ee58, size 0x78, virtual false, abstract: false, final false
   inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method IsRenderRequestSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -175,8 +175,14 @@ public:
   /// @brief Method Render, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*> cameras);
 
-  /// @brief Method Render, addr 0x69cb4a0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x6b1eddc, size 0x7c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
+
+  /// @brief Method SubmitRenderRequest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename RequestData> static inline void SubmitRenderRequest(::UnityEngine::Camera* camera, RequestData data);
+
+  /// @brief Method SupportsRenderRequest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename RequestData> static inline bool SupportsRenderRequest(::UnityEngine::Camera* camera, RequestData data);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
@@ -184,16 +190,16 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x69cb62c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b1ef68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_defaultSettings, addr 0x69cb624, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSettings, addr 0x6b1ef60, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> get_defaultSettings();
 
-  /// @brief Method get_disposed, addr 0x69cb594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b1eed0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x69cb59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b1eed8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -211,7 +217,7 @@ public:
   RenderPipeline(RenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10790 };
 
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;

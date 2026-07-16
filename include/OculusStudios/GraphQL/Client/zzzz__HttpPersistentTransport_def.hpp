@@ -142,10 +142,10 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__15_0, addr 0x5dea68c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__15_0, addr 0x5f22944, size 0x4, virtual false, abstract: false, final false
   inline void _ExecuteAsync_b__15_0();
 
-  /// @brief Method .ctor, addr 0x5dea688, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f22940, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* getStaticF___9();
@@ -171,7 +171,7 @@ public:
   HttpPersistentTransport___c(HttpPersistentTransport___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_responseStream(::OculusStudios::GraphQL::Client::GraphQLResponseStream* value);
 
-  /// @brief Method .ctor, addr 0x5dea690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f22948, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,7 +215,7 @@ public:
   HttpPersistentTransport___c__DisplayClass17_0(HttpPersistentTransport___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20379 };
 
   /// @brief Field responseStream, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLResponseStream* ___responseStream;
@@ -244,7 +244,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1* New_ctor();
 
-  /// @brief Method <ReadFromStream>b__0, addr 0x5dea698, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ReadFromStream>b__0, addr 0x5f22950, size 0x1c, virtual false, abstract: false, final false
   inline void _ReadFromStream_b__0();
 
   constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::IO::StreamReader* value);
 
-  /// @brief Method .ctor, addr 0x5dea694, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2294c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -277,7 +277,7 @@ public:
   HttpPersistentTransport___c__DisplayClass17_1(HttpPersistentTransport___c__DisplayClass17_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20380 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::IO::StreamReader* ___reader;
@@ -311,7 +311,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2* New_ctor();
 
-  /// @brief Method <ReadFromStream>b__1, addr 0x5dea6b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <ReadFromStream>b__1, addr 0x5f22970, size 0x30, virtual false, abstract: false, final false
   inline void _ReadFromStream_b__1();
 
   constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1* const& __cordl_internal_get_CS$__8__locals2() const;
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_resp(::OculusStudios::GraphQL::Client::GraphQLResponse* value);
 
-  /// @brief Method .ctor, addr 0x5dea6b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2296c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,7 +344,7 @@ public:
   HttpPersistentTransport___c__DisplayClass17_2(HttpPersistentTransport___c__DisplayClass17_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20381 };
 
   /// @brief Field resp, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLResponse* ___resp;
@@ -372,10 +372,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5dea7a4, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f22a5c, size 0x384, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5deac10, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f22ec8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -399,7 +399,7 @@ public:
                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20382 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -455,10 +455,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5deac90, size 0x13e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f22f48, size 0x13e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5dec080, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f24338, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -495,7 +495,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20383 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
@@ -661,19 +661,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5dea5bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f22874, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ExecuteAsync, addr 0x5de9ae4, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method ExecuteAsync, addr 0x5f21d9c, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*
   ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor);
 
-  /// @brief Method GetHttpRequest, addr 0x5de9bd8, size 0x91c, virtual false, abstract: false, final false
+  /// @brief Method GetHttpRequest, addr 0x5f21e90, size 0x91c, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* GetHttpRequest(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest);
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport* New_ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
-  /// @brief Method ReadFromStream, addr 0x5dea4f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadFromStream, addr 0x5f227ac, size 0xc8, virtual false, abstract: false, final false
   inline void ReadFromStream(::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* responseStream,
                              ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor);
 
@@ -707,17 +707,17 @@ public:
 
   constexpr void __cordl_internal_set_logger(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* value);
 
-  /// @brief Method .ctor, addr 0x5de99a4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f21c5c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
   static inline int32_t getStaticF_HeartbeatCount();
 
   static inline ::StringW getStaticF_HeartbeatInterval();
 
-  /// @brief Method get_AccessToken, addr 0x5de9994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessToken, addr 0x5f21c4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
-  /// @brief Method get_Endpoint, addr 0x5de9984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Endpoint, addr 0x5f21c3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
   /// @brief Convert to "::OculusStudios::GraphQL::Client::IGraphQLClientTransport"
@@ -730,10 +730,10 @@ public:
 
   static inline void setStaticF_HeartbeatInterval(::StringW value);
 
-  /// @brief Method set_AccessToken, addr 0x5de999c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessToken, addr 0x5f21c54, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
-  /// @brief Method set_Endpoint, addr 0x5de998c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Endpoint, addr 0x5f21c44, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
 protected:
@@ -754,7 +754,7 @@ public:
   static constexpr int32_t BUFF_SIZE{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20384 };
 
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Endpoint_k__BackingField;

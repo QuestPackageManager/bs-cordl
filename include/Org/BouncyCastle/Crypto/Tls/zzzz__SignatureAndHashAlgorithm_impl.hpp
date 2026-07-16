@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)(uint8_t, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x33b1bd8;
+  constexpr static std::size_t addrs = 0x346e090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::get_Hash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33b1cb8;
+  constexpr static std::size_t addrs = 0x346e170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33b1cc0;
+  constexpr static std::size_t addrs = 0x346e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::Equals)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x33b1cc8;
+  constexpr static std::size_t addrs = 0x346e180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::GetHashCode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x33b1da4;
+  constexpr static std::size_t addrs = 0x346e25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::Encode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x33b1de4;
+  constexpr static std::size_t addrs = 0x346e29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::Parse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33b1ea0;
+  constexpr static std::size_t addrs = 0x346e358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -42,21 +42,21 @@ public:
   /// @brief Field writer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer)) ::System::IO::TextWriter* writer;
 
-  /// @brief Method GetOutputSize, addr 0x34eb310, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x35a77c8, size 0x4b0, virtual false, abstract: false, final false
   inline int32_t GetOutputSize(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* obj);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteEncoded, addr 0x34ebd74, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x35a822c, size 0xe0, virtual false, abstract: false, final false
   inline void WriteEncoded(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteObject, addr 0x34eb7c0, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x35a7c78, size 0x518, virtual false, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* objGen);
 
-  /// @brief Method WritePostEncapsulationBoundary, addr 0x34ebe54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WritePostEncapsulationBoundary, addr 0x35a830c, size 0x9c, virtual false, abstract: false, final false
   inline void WritePostEncapsulationBoundary(::StringW type);
 
-  /// @brief Method WritePreEncapsulationBoundary, addr 0x34ebcd8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WritePreEncapsulationBoundary, addr 0x35a8190, size 0x9c, virtual false, abstract: false, final false
   inline void WritePreEncapsulationBoundary(::StringW type);
 
   constexpr ::ArrayW<char16_t> const& __cordl_internal_get_buf() const;
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_writer(::System::IO::TextWriter* value);
 
-  /// @brief Method .ctor, addr 0x34eb214, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a76cc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method get_Writer, addr 0x34eb308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x35a77c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextWriter* get_Writer();
 
 protected:

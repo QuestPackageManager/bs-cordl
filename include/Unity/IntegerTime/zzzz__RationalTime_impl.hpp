@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)(uint32_t, uint32_t)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6904294;
+  constexpr static std::size_t addrs = 0x6a5734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)(::Unity::IntegerTime::RationalTime_TicksPerSecond)>(
     &::Unity::IntegerTime::RationalTime_TicksPerSecond::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69043b8;
+  constexpr static std::size_t addrs = 0x6a57470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime_TicksPerSecond>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)(::System::Object*)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x69043e0;
+  constexpr static std::size_t addrs = 0x6a57498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)()>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6904478;
+  constexpr static std::size_t addrs = 0x6a57530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint32_t>, ::by_ref<uint32_t>)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::Simplify)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x690430c;
+  constexpr static std::size_t addrs = 0x6a573c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime_TicksPerSecond>(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::Gcd)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x69044f4;
+  constexpr static std::size_t addrs = 0x6a575ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::IntegerTime::RationalTime::*)()>(&::Unity::IntegerTime::RationalTime::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690418c;
+  constexpr static std::size_t addrs = 0x6a57244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime>(), { "get_Count", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(::Unity::IntegerTime::RationalTime)>(
     &::Unity::IntegerTime::RationalTime::op_Explicit___Unity__IntegerTime__DiscreteTime)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6904194;
+  constexpr static std::size_t addrs = 0x6a5724c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

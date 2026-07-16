@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_songSubName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3696274, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3752310, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm,
                     ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers);
 
@@ -145,7 +145,7 @@ public:
   LeaderboardUploadData(LeaderboardUploadData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15243 };
 
   /// @brief Field playerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerName;

@@ -24,3 +24,5 @@ constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionF
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::Timeout{ static_cast<int32_t>(0xe) };
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::FailedToFindMatch{ static_cast<int32_t>(0xf) };
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::IncompatibleServerEnvironment{ static_cast<int32_t>(0x10) };
+constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::GameSessionEnded{ static_cast<int32_t>(0x11) };
+constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::ServerEnvironmentNotDeployed{ static_cast<int32_t>(0x12) };

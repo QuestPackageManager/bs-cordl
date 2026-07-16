@@ -269,6 +269,9 @@ public:
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T> array, int32_t arrayIndex);
 
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CopyTo(int32_t index, ::ArrayW<T> array, int32_t arrayIndex, int32_t count);
+
   /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnsureCapacity(int32_t min);
 

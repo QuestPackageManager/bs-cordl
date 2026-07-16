@@ -97,43 +97,43 @@ public:
 
   constexpr void __cordl_internal_set_serverKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3696260, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37522fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends);
 
-  /// @brief Method get_authType, addr 0x3696230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_authType, addr 0x37522cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_authType();
 
-  /// @brief Method get_playerFriends, addr 0x3696240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerFriends, addr 0x37522dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerFriends();
 
-  /// @brief Method get_playerId, addr 0x3696200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x375229c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
-  /// @brief Method get_playerKey, addr 0x3696220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerKey, addr 0x37522bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerKey();
 
-  /// @brief Method get_playerName, addr 0x3696210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x37522ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method get_succeeded, addr 0x3696250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_succeeded, addr 0x37522ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_succeeded();
 
-  /// @brief Method set_authType, addr 0x3696238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_authType, addr 0x37522d4, size 0x8, virtual false, abstract: false, final false
   inline void set_authType(::StringW value);
 
-  /// @brief Method set_playerFriends, addr 0x3696248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerFriends, addr 0x37522e4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerFriends(::StringW value);
 
-  /// @brief Method set_playerId, addr 0x3696208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x37522a4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
-  /// @brief Method set_playerKey, addr 0x3696228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerKey, addr 0x37522c4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerKey(::StringW value);
 
-  /// @brief Method set_playerName, addr 0x3696218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x37522b4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_succeeded, addr 0x3696258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_succeeded, addr 0x37522f4, size 0x8, virtual false, abstract: false, final false
   inline void set_succeeded(bool value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   LeaderboardPlayerInfo(LeaderboardPlayerInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15242 };
 
   /// @brief Field serverKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serverKey;

@@ -8,6 +8,9 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
+struct MultiplayerActiveHand;
+}
+namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
 }
 // Forward declare root types
@@ -24,10 +27,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBeatSaberConnectedPlayer {
 public:
   // Declarations
+  __declspec(property(get = get_activeHand)) ::GlobalNamespace::MultiplayerActiveHand activeHand;
+
   __declspec(property(get = get_multiplayerAvatarsData)) ::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
+
+  /// @brief Method get_activeHand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
   /// @brief Method get_multiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
@@ -40,7 +48,7 @@ public:
   IBeatSaberConnectedPlayer(IBeatSaberConnectedPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

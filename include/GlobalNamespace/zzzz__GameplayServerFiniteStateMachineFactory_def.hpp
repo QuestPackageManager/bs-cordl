@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3219a7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x32b14ac, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams initParams);
 
 protected:
@@ -43,7 +43,7 @@ public:
   GameplayServerFiniteStateMachineFactory(GameplayServerFiniteStateMachineFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

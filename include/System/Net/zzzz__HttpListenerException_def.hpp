@@ -36,16 +36,16 @@ public:
   static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x62ca374, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6406410, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x62ca3f4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6406490, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x62ca42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64064c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x62ca434, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x64064d0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:
@@ -63,7 +63,7 @@ public:
   HttpListenerException(HttpListenerException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

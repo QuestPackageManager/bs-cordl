@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x57850e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c1c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool hideBranding);
 
 protected:
@@ -59,7 +59,7 @@ public:
   EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5601 };
 
   /// @brief Field hideBranding, offset: 0x10, size: 0x1, def value: None
   bool ___hideBranding;
@@ -93,7 +93,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentBrandingManager* New_ctor();
 
-  /// @brief Method Start, addr 0x5785024, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58c1ba0, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__brandingObjects() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__replacementBrandingObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
-  /// @brief Method .ctor, addr 0x57850dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c1c58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   EnvironmentBrandingManager(EnvironmentBrandingManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5602 };
 
   /// @brief Field _brandingObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____brandingObjects;

@@ -41,27 +41,27 @@ public:
   /// @brief Field _transparentImposterShader, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transparentImposterShader, put = __cordl_internal_set__transparentImposterShader)) ::UnityW<::UnityEngine::Shader> _transparentImposterShader;
 
-  /// @brief Method ApplyGlobalSettings, addr 0x5d5fa28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ApplyGlobalSettings, addr 0x5e97c50, size 0x38, virtual false, abstract: false, final false
   inline void ApplyGlobalSettings();
 
-  /// @brief Method EnsureInitialized, addr 0x5d5f92c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method EnsureInitialized, addr 0x5e97b54, size 0xfc, virtual false, abstract: false, final false
   inline void EnsureInitialized();
 
-  /// @brief Method EnsureShaderInitialized, addr 0x5d5fb24, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method EnsureShaderInitialized, addr 0x5e97d4c, size 0x160, virtual false, abstract: false, final false
   static inline void EnsureShaderInitialized(::by_ref<::UnityEngine::Shader*> shader, ::StringW shaderName, ::StringW replaceShaderName);
 
-  /// @brief Method GetOverlayCanvasSettings, addr 0x5d5f7f8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayCanvasSettings, addr 0x5e97a20, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVROverlayCanvasSettings> GetOverlayCanvasSettings();
 
-  /// @brief Method GetShader, addr 0x5d5fa60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetShader, addr 0x5e97c88, size 0x30, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> GetShader(::GlobalNamespace::OVROverlayCanvas_DrawMode drawMode);
 
   static inline ::GlobalNamespace::OVROverlayCanvasSettings* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5d5fc84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5e97eac, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method UsingBuiltInRenderPipeline, addr 0x5d5fa90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UsingBuiltInRenderPipeline, addr 0x5e97cb8, size 0x94, virtual false, abstract: false, final false
   static inline bool UsingBuiltInRenderPipeline();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__opaqueImposterShader() const;
@@ -88,12 +88,12 @@ public:
 
   constexpr void __cordl_internal_set__transparentImposterShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x5d5fc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e97eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::OVROverlayCanvasSettings> getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x5d5f754, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5e9797c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVROverlayCanvasSettings> get_Instance();
 
   static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVROverlayCanvasSettings> value);
@@ -113,7 +113,7 @@ public:
   OVROverlayCanvasSettings(OVROverlayCanvasSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7237 };
 
   /// @brief Field kAssetName offset 0xffffffff size 0x8
   static constexpr ::ConstString kAssetName{ u"OVROverlayCanvasSettings" };

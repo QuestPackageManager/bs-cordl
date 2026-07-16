@@ -73,16 +73,16 @@ public:
   /// @brief Field backButtonText, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText)) ::StringW backButtonText;
 
-  /// @brief Field beatmapKey, offset 0x18, size 0x20
+  /// @brief Field beatmapKey, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapLevel, offset 0x38, size 0x8
+  /// @brief Field beatmapLevel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
-  /// @brief Field showLevelBar, offset 0x41, size 0x1
+  /// @brief Field showLevelBar, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_showLevelBar, put = __cordl_internal_set_showLevelBar)) bool showLevelBar;
 
-  /// @brief Field showRestartButton, offset 0x40, size 0x1
+  /// @brief Field showRestartButton, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_showRestartButton, put = __cordl_internal_set_showRestartButton)) bool showRestartButton;
 
   static inline ::GlobalNamespace::PauseMenuManager_InitData* New_ctor(::StringW backButtonText, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_showRestartButton(bool value);
 
-  /// @brief Method .ctor, addr 0x587b480, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59af3b0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW backButtonText, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar);
 
 protected:
@@ -136,21 +136,21 @@ public:
   PauseMenuManager_InitData(PauseMenuManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
 
   /// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
   ::StringW ___backButtonText;
 
-  /// @brief Field beatmapKey, offset: 0x18, size: 0x20, def value: None
+  /// @brief Field beatmapKey, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field beatmapLevel, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field beatmapLevel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
-  /// @brief Field showRestartButton, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field showRestartButton, offset: 0x30, size: 0x1, def value: None
   bool ___showRestartButton;
 
-  /// @brief Field showLevelBar, offset: 0x41, size: 0x1, def value: None
+  /// @brief Field showLevelBar, offset: 0x31, size: 0x1, def value: None
   bool ___showLevelBar;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -160,13 +160,13 @@ static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___backButt
 
 static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___beatmapKey) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___beatmapLevel) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___beatmapLevel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___showRestartButton) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___showRestartButton) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___showLevelBar) == 0x41, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___showLevelBar) == 0x31, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PauseMenuManager_InitData) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PauseMenuManager_InitData) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
@@ -193,7 +193,7 @@ public:
   /// @brief Field _disabledInteractionRemainingTime, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get__disabledInteractionRemainingTime, put = __cordl_internal_set__disabledInteractionRemainingTime)) float_t _disabledInteractionRemainingTime;
 
-  /// @brief Field _environmentSpawnRotation, offset 0x78, size 0x8
+  /// @brief Field _environmentSpawnRotation, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentSpawnRotation, put = __cordl_internal_set__environmentSpawnRotation)) ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>
       _environmentSpawnRotation;
 
@@ -216,7 +216,7 @@ public:
   /// @brief Field _restartButton, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__restartButton, put = __cordl_internal_set__restartButton)) ::UnityW<::UnityEngine::UI::Button> _restartButton;
 
-  /// @brief Field _vrPlatformHelper, offset 0x70, size 0x8
+  /// @brief Field _vrPlatformHelper, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field _vrPointer, offset 0x60, size 0x8
@@ -237,36 +237,36 @@ public:
   /// @brief Field didStartResumeAnimationEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didStartResumeAnimationEvent, put = __cordl_internal_set_didStartResumeAnimationEvent)) ::System::Action* didStartResumeAnimationEvent;
 
-  /// @brief Method Awake, addr 0x587ad48, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59aec74, size 0x258, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ContinueButtonPressed, addr 0x587b37c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x59af2ac, size 0x38, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method HandleResumeFromPauseAnimationDidFinish, addr 0x587b438, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleResumeFromPauseAnimationDidFinish, addr 0x59af368, size 0x44, virtual false, abstract: false, final false
   inline void HandleResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method MenuButtonPressed, addr 0x587b400, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method MenuButtonPressed, addr 0x59af330, size 0x38, virtual false, abstract: false, final false
   inline void MenuButtonPressed();
 
   static inline ::GlobalNamespace::PauseMenuManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x587b0c8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59aeff4, size 0x120, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RestartButtonPressed, addr 0x587b3b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RestartButtonPressed, addr 0x59af2e4, size 0x4c, virtual false, abstract: false, final false
   inline void RestartButtonPressed();
 
-  /// @brief Method ShowMenu, addr 0x587a6f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x59ae60c, size 0x84, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method Start, addr 0x587af9c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59aeecc, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartResumeAnimation, addr 0x587aad8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StartResumeAnimation, addr 0x59ae7b8, size 0x60, virtual false, abstract: false, final false
   inline void StartResumeAnimation();
 
-  /// @brief Method Update, addr 0x587b1e4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59af114, size 0x198, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
@@ -383,37 +383,37 @@ public:
 
   constexpr void __cordl_internal_set_didStartResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x587b47c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59af3ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishResumeAnimationEvent, addr 0x5879708, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishResumeAnimationEvent, addr 0x59ad7ac, size 0xac, virtual false, abstract: false, final false
   inline void add_didFinishResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x58797b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x59ad858, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressMenuButtonEvent, addr 0x587990c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didPressMenuButtonEvent, addr 0x59ad9b0, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressMenuButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressRestartButtonEvent, addr 0x5879860, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didPressRestartButtonEvent, addr 0x59ad904, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressRestartButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didStartResumeAnimationEvent, addr 0x587965c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didStartResumeAnimationEvent, addr 0x59ad700, size 0xac, virtual false, abstract: false, final false
   inline void add_didStartResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishResumeAnimationEvent, addr 0x587a260, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishResumeAnimationEvent, addr 0x59ae2ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_didFinishResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x587a30c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x59ae358, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressMenuButtonEvent, addr 0x587a464, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressMenuButtonEvent, addr 0x59ae4b0, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressMenuButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressRestartButtonEvent, addr 0x587a3b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressRestartButtonEvent, addr 0x59ae404, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressRestartButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didStartResumeAnimationEvent, addr 0x587a1b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didStartResumeAnimationEvent, addr 0x59ae200, size 0xac, virtual false, abstract: false, final false
   inline void remove_didStartResumeAnimationEvent(::System::Action* value);
 
 protected:
@@ -431,7 +431,7 @@ public:
   PauseMenuManager(PauseMenuManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6009 };
 
   /// @brief Field kDisabledInteractionDuration offset 0xffffffff size 0x4
   static constexpr float_t kDisabledInteractionDuration{ static_cast<float_t>(0.2f) };
@@ -466,11 +466,11 @@ public:
   /// @brief Field _initData, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::PauseMenuManager_InitData* ____initData;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
-
-  /// @brief Field _environmentSpawnRotation, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _environmentSpawnRotation, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> ____environmentSpawnRotation;
+
+  /// @brief Field _vrPlatformHelper, offset: 0x78, size: 0x8, def value: None
+  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   /// @brief Field didPressContinueButtonEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___didPressContinueButtonEvent;
@@ -516,9 +516,9 @@ static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ____vrPointer) == 0x
 
 static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ____initData) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ____vrPlatformHelper) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ____environmentSpawnRotation) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ____environmentSpawnRotation) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ____vrPlatformHelper) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PauseMenuManager, ___didPressContinueButtonEvent) == 0x80, "Offset mismatch!");
 

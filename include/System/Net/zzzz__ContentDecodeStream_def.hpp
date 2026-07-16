@@ -77,7 +77,7 @@ public:
   static ::System::Net::ContentDecodeStream_Mode const GZip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11552 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,15 +108,15 @@ public:
   __declspec(property(get = __cordl_internal_get__OriginalInnerStream_k__BackingField,
                       put = __cordl_internal_set__OriginalInnerStream_k__BackingField)) ::System::IO::Stream* _OriginalInnerStream_k__BackingField;
 
-  /// @brief Method Create, addr 0x62e8010, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x64240ac, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::ContentDecodeStream* Create(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::ContentDecodeStream_Mode mode);
 
-  /// @brief Method FinishReading, addr 0x62e814c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x64241e8, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::ContentDecodeStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
-  /// @brief Method ProcessReadAsync, addr 0x62e812c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x64241c8, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get__OriginalInnerStream_k__BackingField() const;
@@ -125,10 +125,10 @@ public:
 
   constexpr void __cordl_internal_set__OriginalInnerStream_k__BackingField(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x62e80fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6424198, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
-  /// @brief Method get_OriginalInnerStream, addr 0x62e8124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalInnerStream, addr 0x64241c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OriginalInnerStream();
 
 protected:
@@ -146,7 +146,7 @@ public:
   ContentDecodeStream(ContentDecodeStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11553 };
 
   /// @brief Field <OriginalInnerStream>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::IO::Stream* ____OriginalInnerStream_k__BackingField;

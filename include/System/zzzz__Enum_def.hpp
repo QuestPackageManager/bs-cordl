@@ -81,19 +81,19 @@ namespace System {
 struct CORDL_TYPE Enum_EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x5b3f9a4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x5c7967c, size 0x194, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x5b3f330, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c79008, size 0x38, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x5b3fb70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c79848, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x5b3fb38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c79810, size 0x38, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x5b40074, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c79d4c, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x5b3e9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c78678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names);
 
 protected:

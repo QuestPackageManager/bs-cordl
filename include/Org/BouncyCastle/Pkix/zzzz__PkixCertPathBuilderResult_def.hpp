@@ -41,7 +41,7 @@ public:
                                                                                ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method ToString, addr 0x35095a8, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35c5a60, size 0x1bc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Pkix::PkixCertPath* const& __cordl_internal_get_certPath() const;
@@ -50,11 +50,11 @@ public:
 
   constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
-  /// @brief Method .ctor, addr 0x3500a8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bcf44, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_CertPath, addr 0x35095a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x35c5a58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
 protected:

@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_mainEffect(::UnityW<::GlobalNamespace::MainEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x3670e14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d02c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   MainEffectGraphicsSettingsPresetsSO_Preset(MainEffectGraphicsSettingsPresetsSO_Preset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15021 };
 
   /// @brief Field mainEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ___mainEffect;
@@ -101,13 +101,13 @@ public:
 
   constexpr void __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*> value);
 
-  /// @brief Method .ctor, addr 0x3670e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x3670e04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x372d01c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x3670dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x372d014, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*> get_presets();
 
 protected:
@@ -125,7 +125,7 @@ public:
   MainEffectGraphicsSettingsPresetsSO(MainEffectGraphicsSettingsPresetsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15022 };
 
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*> ____presets;

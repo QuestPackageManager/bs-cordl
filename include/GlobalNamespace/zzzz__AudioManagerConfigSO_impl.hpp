@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Audio::AudioMixer> (::GlobalNamespace::AudioManagerConfigSO::*)()>(
     &::GlobalNamespace::AudioManagerConfigSO::get_audioMixer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x577a770;
+  constexpr static std::size_t addrs = 0x3266a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManagerConfigSO*>(), { "get_audioMixer", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioManagerConfigSO::*)()>(&::GlobalNamespace::AudioManagerConfigSO::get_spatializerPluginLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x577a778;
+  constexpr static std::size_t addrs = 0x3266a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManagerConfigSO*>(), { "get_spatializerPluginLatency", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioManagerConfigSO::*)()>(&::GlobalNamespace::AudioManagerConfigSO::get_spatializerSfxVolumeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x577a780;
+  constexpr static std::size_t addrs = 0x3266aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManagerConfigSO*>(), { "get_spatializerSfxVolumeOffset", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManagerConfigSO::*)()>(&::GlobalNamespace::AudioManagerConfigSO::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x577a788;
+  constexpr static std::size_t addrs = 0x3266aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManagerConfigSO*>(), { ".ctor", {}, {} })));

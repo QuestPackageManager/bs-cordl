@@ -43,24 +43,24 @@ public:
 
   constexpr void __cordl_internal_set_EffectiveKeySizeValue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59c0d7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afaa4c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x59c0dfc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x5afaacc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method get_KeySize, addr 0x59c0e18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x5afaae8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
-  /// @brief Method set_KeySize, addr 0x59c0e20, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x5afaaf0, size 0x60, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
 protected:

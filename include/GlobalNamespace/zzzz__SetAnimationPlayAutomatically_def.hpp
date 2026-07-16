@@ -31,18 +31,18 @@ public:
   /// @brief Field _determinismConfig, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__determinismConfig, put = __cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig* _determinismConfig;
 
-  /// @brief Method Init, addr 0x584e5e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5986838, size 0x18c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
   static inline ::GlobalNamespace::SetAnimationPlayAutomatically* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x584e770, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59869c4, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDeterminismSet, addr 0x584e840, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDeterminismSet, addr 0x5986a94, size 0x20, virtual false, abstract: false, final false
   inline void OnDeterminismSet(bool isDeterministic);
 
-  /// @brief Method OnValidate, addr 0x584e860, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5986ab4, size 0x94, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animationToPlay() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value);
 
-  /// @brief Method .ctor, addr 0x584e8f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5986b48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   SetAnimationPlayAutomatically(SetAnimationPlayAutomatically const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5796 };
 
   /// @brief Field _animationToPlay, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animationToPlay;

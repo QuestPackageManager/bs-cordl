@@ -5,19 +5,25 @@
 #include "GlobalNamespace/zzzz__PyramidBloomMainEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__IUnsafeRenderGraphBuilder_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IBaseCommandBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.get_hasPostProcessEffect
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09b6c;
+  constexpr static std::size_t addrs = 0x5f432ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 8 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -26,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::get_bloomTextureWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09b74;
+  constexpr static std::size_t addrs = 0x5f432f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { "get_bloomTextureWidth", {}, {} })));
@@ -38,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5e09b7c;
+  constexpr static std::size_t addrs = 0x5f432fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e09d74;
+  constexpr static std::size_t addrs = 0x5f434f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { "OnDisable", {}, {} })));
@@ -63,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5e09c44;
+  constexpr static std::size_t addrs = 0x5f433c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { "LazyInitializeMaterials", {}, {} })));
@@ -73,9 +79,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.PreRender
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::PreRender)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e09da4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(::UnityEngine::Rendering::IBaseCommandBuffer*)>(
+    &::GlobalNamespace::PyramidBloomMainEffectSO::PreRender)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5f43524;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 6 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.PostRender
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(::UnityEngine::Rendering::RasterCommandBuffer*, float_t)>(
+    &::GlobalNamespace::PyramidBloomMainEffectSO::PostRender)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5f4359c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 8 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.BindAndFetchTempTextureHandles
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(
+    ::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::RenderTextureDescriptor,
+    ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>)>(&::GlobalNamespace::PyramidBloomMainEffectSO::BindAndFetchTempTextureHandles)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f43674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,14 +122,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.Render
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t)>(
-    &::GlobalNamespace::PyramidBloomMainEffectSO::Render)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5e09e0c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(
+    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
+    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, float_t)>(&::GlobalNamespace::PyramidBloomMainEffectSO::Render)> {
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x5f436cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 6 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -102,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e0a090;
+  constexpr static std::size_t addrs = 0x5f43908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ".ctor", {}, {} })));
@@ -357,7 +394,7 @@ inline int32_t GlobalNamespace::PyramidBloomMainEffectSO::getStaticF__fadeID() {
 }
 inline bool GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::PyramidBloomMainEffectSO::get_bloomTextureWidth() {
@@ -377,15 +414,30 @@ inline void GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { "LazyInitializeMaterials", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PyramidBloomMainEffectSO::PreRender() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::PyramidBloomMainEffectSO::Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade) {
+inline void GlobalNamespace::PyramidBloomMainEffectSO::PreRender(::UnityEngine::Rendering::IBaseCommandBuffer* cmd) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, src, dest, fade);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
+}
+inline void GlobalNamespace::PyramidBloomMainEffectSO::PostRender(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t fade) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, fade);
+}
+inline void GlobalNamespace::PyramidBloomMainEffectSO::BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder,
+                                                                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                                      ::UnityEngine::RenderTextureDescriptor destDesc,
+                                                                                      ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, builder, renderGraph, destDesc, textureHandles);
+}
+inline void GlobalNamespace::PyramidBloomMainEffectSO::Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src,
+                                                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle bloomTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
+                                                              ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures, float_t fade) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, src, bloomTexture, dest, tempTextures, fade);
 }
 inline void GlobalNamespace::PyramidBloomMainEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomMainEffectSO*>(), { ".ctor", {}, {} })));

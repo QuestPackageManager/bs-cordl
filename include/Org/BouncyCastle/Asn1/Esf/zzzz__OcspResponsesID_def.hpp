@@ -44,7 +44,7 @@ public:
   /// @brief Field ocspRepHash, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ocspRepHash, put = __cordl_internal_set_ocspRepHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash;
 
-  /// @brief Method GetInstance, addr 0x32b6158, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3372610, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x32b68bc, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3372d74, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* const& __cordl_internal_get_ocspIdentifier() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_ocspRepHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value);
 
-  /// @brief Method .ctor, addr 0x32b684c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier);
 
-  /// @brief Method .ctor, addr 0x32b6854, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372d0c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash);
 
-  /// @brief Method .ctor, addr 0x32b669c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372b54, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OcspIdentifier, addr 0x32b68ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OcspIdentifier, addr 0x3372d64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* get_OcspIdentifier();
 
-  /// @brief Method get_OcspRepHash, addr 0x32b68b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OcspRepHash, addr 0x3372d6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_OcspRepHash();
 
 protected:

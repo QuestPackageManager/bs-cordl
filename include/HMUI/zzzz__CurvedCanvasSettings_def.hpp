@@ -42,19 +42,19 @@ public:
 
   static inline ::HMUI::CurvedCanvasSettings* New_ctor();
 
-  /// @brief Method OnPopulateMesh, addr 0x5733fb0, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x587ad3c, size 0x194, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method RebuildAndSetup, addr 0x5733e18, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RebuildAndSetup, addr 0x587aba4, size 0xf8, virtual false, abstract: false, final false
   static inline void RebuildAndSetup(::UnityEngine::Transform* t);
 
-  /// @brief Method SetRadius, addr 0x5733e00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetRadius, addr 0x587ab8c, size 0x18, virtual false, abstract: false, final false
   inline void SetRadius(float_t value);
 
-  /// @brief Method Start, addr 0x5733f10, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x587ac9c, size 0xa0, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransformPointFromCanvasTo3D, addr 0x5734144, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TransformPointFromCanvasTo3D, addr 0x587aed0, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2 point);
 
   constexpr float_t const& __cordl_internal_get__radius() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__useFlatInEditMode(bool value);
 
-  /// @brief Method .ctor, addr 0x5734184, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587af10, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_radius, addr 0x5733df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x587ab84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
 protected:
@@ -90,7 +90,7 @@ public:
   CurvedCanvasSettings(CurvedCanvasSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19132 };
 
   /// @brief Field kMaxElementWidth offset 0xffffffff size 0x4
   static constexpr float_t kMaxElementWidth{ static_cast<float_t>(10.0f) };

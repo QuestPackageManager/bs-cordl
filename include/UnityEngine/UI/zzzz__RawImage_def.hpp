@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::UI::RawImage* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6cab904, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6dff7bc, size 0x3c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnPopulateMesh, addr 0x6cab22c, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x6dff0e4, size 0x2cc, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method SetNativeSize, addr 0x6caaf6c, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method SetNativeSize, addr 0x6dfee24, size 0x2c0, virtual true, abstract: false, final false
   inline void SetNativeSize();
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Texture() const;
@@ -64,22 +64,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UVRect(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x6caacd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dfeb8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainTexture, addr 0x6caacfc, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x6dfebb4, size 0x160, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_texture, addr 0x6caae5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x6dfed14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
-  /// @brief Method get_uvRect, addr 0x6caaf14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvRect, addr 0x6dfedcc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRect();
 
-  /// @brief Method set_texture, addr 0x6caae64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x6dfed1c, size 0xb0, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture* value);
 
-  /// @brief Method set_uvRect, addr 0x6caaf20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_uvRect, addr 0x6dfedd8, size 0x4c, virtual false, abstract: false, final false
   inline void set_uvRect(::UnityEngine::Rect value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   RawImage(RawImage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17445 };
 
   /// @brief Field m_Texture, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___m_Texture;

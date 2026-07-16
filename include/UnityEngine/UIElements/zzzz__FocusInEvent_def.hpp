@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusInEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c45d88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d99c40, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusInEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6c45d84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d99c3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::FocusInEvent___c* getStaticF___9();
@@ -78,18 +78,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::FocusInEvent___c;
 
-  /// @brief Method Init, addr 0x6c45c04, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d99abc, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6c45c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d99b14, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6c45cc0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6d99b78, size 0x70, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6c45c68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d99b20, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

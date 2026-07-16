@@ -66,18 +66,18 @@ public:
   /// @brief Field iT3, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_iT3, put = setStaticF_iT3)) ::ArrayW<uint32_t> iT3;
 
-  /// @brief Method Decrypt128, addr 0x5e1a5ac, size 0x1dc8, virtual false, abstract: false, final false
+  /// @brief Method Decrypt128, addr 0x5f556a8, size 0x1dc8, virtual false, abstract: false, final false
   inline void Decrypt128(::ArrayW<uint8_t> indata, ::ArrayW<uint8_t> outdata, ::ArrayW<uint32_t> ekey);
 
-  /// @brief Method ECB, addr 0x5e187b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x5f538b0, size 0x14, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
 
-  /// @brief Method Encrypt128, addr 0x5e187c8, size 0x1de4, virtual false, abstract: false, final false
+  /// @brief Method Encrypt128, addr 0x5f538c4, size 0x1de4, virtual false, abstract: false, final false
   inline void Encrypt128(::ArrayW<uint8_t> indata, ::ArrayW<uint8_t> outdata, ::ArrayW<uint32_t> ekey);
 
   static inline ::System::Security::Cryptography::AesTransform* New_ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method SubByte, addr 0x5e186ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SubByte, addr 0x5f537e8, size 0xc8, virtual false, abstract: false, final false
   inline uint32_t SubByte(uint32_t a);
 
   constexpr int32_t const& __cordl_internal_get_Nk() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_expandedKey(::ArrayW<uint32_t> value);
 
-  /// @brief Method .ctor, addr 0x5e17df8, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f52ef4, size 0x6ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv);
 
   static inline ::ArrayW<uint32_t> getStaticF_Rcon();
@@ -160,7 +160,7 @@ public:
   AesTransform(AesTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16027 };
 
   /// @brief Field expandedKey, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___expandedKey;

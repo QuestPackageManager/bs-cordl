@@ -67,7 +67,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c23520, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d773d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_IsMultipleSelection,
                       put = __cordl_internal_set_m_IsMultipleSelection)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsMultipleSelection;
 
-  /// @brief Method Init, addr 0x6c23588, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d77440, size 0x178, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits* New_ctor();
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IsMultipleSelection(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6c23700, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d775b8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,28 +235,28 @@ public:
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup* New_ctor(::StringW label, ::UnityEngine::UIElements::ToggleButtonGroupState toggleButtonGroupState);
 
-  /// @brief Method OnButtonGroupContainerElementAdded, addr 0x6c22528, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method OnButtonGroupContainerElementAdded, addr 0x6d763e0, size 0x340, virtual false, abstract: false, final false
   inline void OnButtonGroupContainerElementAdded(::UnityEngine::UIElements::VisualElement* ve, int32_t index);
 
-  /// @brief Method OnButtonGroupContainerElementRemoved, addr 0x6c22a04, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method OnButtonGroupContainerElementRemoved, addr 0x6d768bc, size 0x37c, virtual false, abstract: false, final false
   inline void OnButtonGroupContainerElementRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnOptionChange, addr 0x6c22d80, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method OnOptionChange, addr 0x6d76c38, size 0x300, virtual false, abstract: false, final false
   inline void OnOptionChange(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x6c21efc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x6d75db4, size 0x78, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6c22344, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6d761fc, size 0x1e4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::UIElements::ToggleButtonGroupState newValue);
 
-  /// @brief Method UpdateButtonStates, addr 0x6c21f74, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonStates, addr 0x6d75e2c, size 0x238, virtual false, abstract: false, final false
   inline void UpdateButtonStates(::UnityEngine::UIElements::ToggleButtonGroupState options);
 
-  /// @brief Method UpdateButtonsStyling, addr 0x6c22868, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonsStyling, addr 0x6d76720, size 0x19c, virtual false, abstract: false, final false
   inline void UpdateButtonsStyling();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x6c221ac, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6d76064, size 0x198, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr bool const& __cordl_internal_get_m_AllowEmptySelection() const;
@@ -289,13 +289,13 @@ public:
 
   constexpr void __cordl_internal_set_m_IsMultipleSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x6c21a60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d75918, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c21a70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d75928, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x6c21bc8, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d75a80, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::ToggleButtonGroupState toggleButtonGroupState);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_allowEmptySelectionProperty();
@@ -322,13 +322,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_allowEmptySelection, addr 0x6c21870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmptySelection, addr 0x6d75728, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowEmptySelection();
 
-  /// @brief Method get_contentContainer, addr 0x6c21eec, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x6d75da4, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_isMultipleSelection, addr 0x6c21408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMultipleSelection, addr 0x6d752c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMultipleSelection();
 
   static inline void setStaticF_allowEmptySelectionProperty(::UnityEngine::UIElements::BindingId value);
@@ -355,10 +355,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_allowEmptySelection, addr 0x6c21878, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method set_allowEmptySelection, addr 0x6d75730, size 0x1e8, virtual false, abstract: false, final false
   inline void set_allowEmptySelection(bool value);
 
-  /// @brief Method set_isMultipleSelection, addr 0x6c21410, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method set_isMultipleSelection, addr 0x6d752c8, size 0x1e8, virtual false, abstract: false, final false
   inline void set_isMultipleSelection(bool value);
 
 protected:

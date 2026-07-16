@@ -218,18 +218,18 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE BeatLeaderboards_FetchLeaderboardTypeFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3209e64, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x32a0e00, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3209e80, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x32a0e1c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3209e50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x32a0dec, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* Invoke();
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3209ae8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0a7c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -247,7 +247,7 @@ public:
   BeatLeaderboards_FetchLeaderboardTypeFunction(BeatLeaderboards_FetchLeaderboardTypeFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20680 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -265,10 +265,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3209f6c, size 0x4b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32a0f08, size 0x4b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x320a4dc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32a1470, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -290,7 +290,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20681 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -344,15 +344,15 @@ public:
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this;
 
-  /// @brief Field key, offset 0x18, size 0x20
+  /// @brief Field key, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::GlobalNamespace::BeatmapKey key;
 
-  /// @brief Field modifiers, offset 0x38, size 0x2
+  /// @brief Field modifiers, offset 0x28, size 0x2
   __declspec(property(get = __cordl_internal_get_modifiers, put = __cordl_internal_set_modifiers)) ::GlobalNamespace::GameplayModifierMask modifiers;
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0, addr 0x3209e8c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0, addr 0x32a0e28, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   _GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0();
 
@@ -374,7 +374,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method .ctor, addr 0x3209ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0a78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -392,15 +392,15 @@ public:
   BeatLeaderboards___c__DisplayClass11_0(BeatLeaderboards___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20682 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::Leaderboards::BeatLeaderboards* _____4__this;
 
-  /// @brief Field key, offset: 0x18, size: 0x20, def value: None
+  /// @brief Field key, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___key;
 
-  /// @brief Field modifiers, offset: 0x38, size: 0x2, def value: None
+  /// @brief Field modifiers, offset: 0x28, size: 0x2, def value: None
   ::GlobalNamespace::GameplayModifierMask ___modifiers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -410,9 +410,9 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__Di
 
 static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0, ___modifiers) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0, ___modifiers) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0) == 0x40, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
 // Dependencies System.Object
@@ -428,7 +428,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1* New_ctor();
 
-  /// @brief Method <GetLeaderboardAroundMeAsync>b__1, addr 0x320a55c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <GetLeaderboardAroundMeAsync>b__1, addr 0x32a14f0, size 0x114, virtual false, abstract: false, final false
   inline void _GetLeaderboardAroundMeAsync_b__1(
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel* node);
 
@@ -438,7 +438,7 @@ public:
 
   constexpr void __cordl_internal_set_result(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* value);
 
-  /// @brief Method .ctor, addr 0x320a420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a13bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -456,7 +456,7 @@ public:
   BeatLeaderboards___c__DisplayClass11_1(BeatLeaderboards___c__DisplayClass11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20683 };
 
   /// @brief Field result, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* ___result;
@@ -479,10 +479,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x320a750, size 0x4b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32a16e4, size 0x4b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x320acc0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32a1c4c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -504,7 +504,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -556,15 +556,15 @@ public:
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this;
 
-  /// @brief Field key, offset 0x18, size 0x20
+  /// @brief Field key, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::GlobalNamespace::BeatmapKey key;
 
-  /// @brief Field modifiers, offset 0x38, size 0x2
+  /// @brief Field modifiers, offset 0x28, size 0x2
   __declspec(property(get = __cordl_internal_get_modifiers, put = __cordl_internal_set_modifiers)) ::GlobalNamespace::GameplayModifierMask modifiers;
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0, addr 0x320a670, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0, addr 0x32a1604, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   _GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0();
 
@@ -586,7 +586,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method .ctor, addr 0x3209d40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0cd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -604,15 +604,15 @@ public:
   BeatLeaderboards___c__DisplayClass12_0(BeatLeaderboards___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20685 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::Leaderboards::BeatLeaderboards* _____4__this;
 
-  /// @brief Field key, offset: 0x18, size: 0x20, def value: None
+  /// @brief Field key, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___key;
 
-  /// @brief Field modifiers, offset: 0x38, size: 0x2, def value: None
+  /// @brief Field modifiers, offset: 0x28, size: 0x2, def value: None
   ::GlobalNamespace::GameplayModifierMask ___modifiers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -622,9 +622,9 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__Di
 
 static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0, ___modifiers) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0, ___modifiers) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0) == 0x40, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
 // Dependencies System.Object
@@ -640,7 +640,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1* New_ctor();
 
-  /// @brief Method <GetLeaderboardFriendsAsync>b__1, addr 0x320ad40, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <GetLeaderboardFriendsAsync>b__1, addr 0x32a1ccc, size 0x114, virtual false, abstract: false, final false
   inline void _GetLeaderboardFriendsAsync_b__1(
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardFriendsModel_NodesModel* node);
 
@@ -650,7 +650,7 @@ public:
 
   constexpr void __cordl_internal_set_result(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* value);
 
-  /// @brief Method .ctor, addr 0x320ac04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a1b98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -668,7 +668,7 @@ public:
   BeatLeaderboards___c__DisplayClass12_1(BeatLeaderboards___c__DisplayClass12_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20686 };
 
   /// @brief Field result, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* ___result;
@@ -691,10 +691,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x320af34, size 0x498, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32a1ec0, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x320b478, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32a23fc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -716,7 +716,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -762,18 +762,18 @@ public:
   using __GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d =
       ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d;
 
-  /// @brief Field <>4__this, offset 0x38, size 0x8
+  /// @brief Field <>4__this, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this;
 
-  /// @brief Field key, offset 0x10, size 0x20
+  /// @brief Field key, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::GlobalNamespace::BeatmapKey key;
 
-  /// @brief Field modifiers, offset 0x30, size 0x2
+  /// @brief Field modifiers, offset 0x20, size 0x2
   __declspec(property(get = __cordl_internal_get_modifiers, put = __cordl_internal_set_modifiers)) ::GlobalNamespace::GameplayModifierMask modifiers;
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0, addr 0x320ae54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0, addr 0x32a1de0, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   _GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0();
 
@@ -795,7 +795,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method .ctor, addr 0x3209e48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0de4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -813,15 +813,15 @@ public:
   BeatLeaderboards___c__DisplayClass13_0(BeatLeaderboards___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20688 };
 
-  /// @brief Field key, offset: 0x10, size: 0x20, def value: None
+  /// @brief Field key, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___key;
 
-  /// @brief Field modifiers, offset: 0x30, size: 0x2, def value: None
+  /// @brief Field modifiers, offset: 0x20, size: 0x2, def value: None
   ::GlobalNamespace::GameplayModifierMask ___modifiers;
 
-  /// @brief Field <>4__this, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::Main::Leaderboards::BeatLeaderboards* _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -829,11 +829,11 @@ public:
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0, ___key) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0, ___modifiers) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0, ___modifiers) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0, _____4__this) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0) == 0x40, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
 // Dependencies System.Object
@@ -849,7 +849,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1* New_ctor();
 
-  /// @brief Method <GetLeaderboardTopNAsync>b__1, addr 0x320b4f8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <GetLeaderboardTopNAsync>b__1, addr 0x32a247c, size 0x114, virtual false, abstract: false, final false
   inline void _GetLeaderboardTopNAsync_b__1(
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel* node);
 
@@ -859,7 +859,7 @@ public:
 
   constexpr void __cordl_internal_set_result(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* value);
 
-  /// @brief Method .ctor, addr 0x320b3cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a2350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -877,7 +877,7 @@ public:
   BeatLeaderboards___c__DisplayClass13_1(BeatLeaderboards___c__DisplayClass13_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20689 };
 
   /// @brief Field result, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* ___result;
@@ -900,10 +900,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x320b60c, size 0x5c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32a2590, size 0x5c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x320bbe0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32a2b64, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -928,7 +928,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -979,10 +979,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x320bc60, size 0xc5c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32a2be4, size 0xc5c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x320c9f4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32a3978, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1003,7 +1003,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel*> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20691 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1054,10 +1054,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x320ca60, size 0x688, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32a39e4, size 0x684, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x320d1a4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32a411c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1080,10 +1080,10 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20692 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1097,16 +1097,16 @@ public:
   /// @brief Field results, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* results;
 
-  /// @brief Field beatmapKey, offset: 0x30, size: 0x20, def value: None
+  /// @brief Field beatmapKey, offset: 0x30, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field modifiers, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field modifiers, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* modifiers;
 
-  /// @brief Field <>u__1, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief Field <>u__2, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x50, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -1122,13 +1122,13 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__Submit
 
 static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, beatmapKey) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, modifiers) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, modifiers) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, __u__1) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, __u__2) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10, __u__2) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10) == 0x68, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10) == 0x58, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
 // Dependencies BeatSaber.Main.Leaderboards.BeatLeaderboardsState, System.Object
@@ -1181,32 +1181,32 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method GetLeaderboardAroundMeAsync, addr 0x32099e0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardAroundMeAsync, addr 0x32a0970, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardAroundMeAsync(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers);
 
-  /// @brief Method GetLeaderboardAsync, addr 0x3209b50, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardAsync, addr 0x32a0ae4, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardAsync(::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction* fetchLeaderboard);
 
-  /// @brief Method GetLeaderboardFriendsAsync, addr 0x3209c3c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardFriendsAsync, addr 0x32a0bd0, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardFriendsAsync(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers);
 
-  /// @brief Method GetLeaderboardTopNAsync, addr 0x3209d44, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardTopNAsync, addr 0x32a0cdc, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardTopNAsync(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers);
 
-  /// @brief Method InitializeAsync, addr 0x320984c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x32a07e0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards* New_ctor();
 
-  /// @brief Method SubmitLeaderboardEntryAsync, addr 0x32098fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SubmitLeaderboardEntryAsync, addr 0x32a0890, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SubmitLeaderboardEntryAsync(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                        ::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method Zenject.IInitializable.Initialize, addr 0x3209828, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Zenject.IInitializable.Initialize, addr 0x32a07bc, size 0x24, virtual true, abstract: false, final true
   inline void Zenject_IInitializable_Initialize();
 
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* const& __cordl_internal_get__graphQLClient() const;
@@ -1245,10 +1245,10 @@ public:
 
   constexpr void __cordl_internal_set__userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3209e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0de8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_state, addr 0x3209820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x32a07b4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::Leaderboards::BeatLeaderboardsState get_state();
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -1269,7 +1269,7 @@ public:
   BeatLeaderboards(BeatLeaderboards const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20693 };
 
   /// @brief Field _localizationModel, offset: 0x10, size: 0x8, def value: None
   ::BGLib::Polyglot::LocalizationModel* ____localizationModel;

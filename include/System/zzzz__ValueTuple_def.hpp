@@ -78,64 +78,64 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*();
 
-  /// @brief Method CombineHashCodes, addr 0x5b2aeec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64bc4, size 0x84, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHashCodes, addr 0x5b2af70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64c48, size 0x84, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHashCodes, addr 0x5b2aff4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64ccc, size 0x94, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
-  /// @brief Method CombineHashCodes, addr 0x5b2b088, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64d60, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5);
 
-  /// @brief Method CombineHashCodes, addr 0x5b2b124, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64dfc, size 0xac, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6);
 
-  /// @brief Method CombineHashCodes, addr 0x5b2b1d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64ea8, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6, int32_t h7);
 
-  /// @brief Method CombineHashCodes, addr 0x5b2b284, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x5c64f5c, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6, int32_t h7, int32_t h8);
 
-  /// @brief Method CompareTo, addr 0x5b2ad24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x5c649fc, size 0x8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::ValueTuple other);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline ::System::ValueTuple_2<T1, T2> Create(T1 item1, T2 item2);
 
-  /// @brief Method Equals, addr 0x5b2ab44, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c6481c, size 0x60, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5b2aba4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5c6487c, size 0x8, virtual true, abstract: false, final true
   inline bool Equals(::System::ValueTuple other);
 
-  /// @brief Method GetHashCode, addr 0x5b2ae44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c64b1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x5b2ad2c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x5c64a04, size 0x118, virtual true, abstract: false, final true
   inline int32_t System_Collections_IStructuralComparable_CompareTo(::System::Object* other, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x5b2abac, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x5c64884, size 0x60, virtual true, abstract: false, final true
   inline bool System_Collections_IStructuralEquatable_Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x5b2ae4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x5c64b24, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method System.IComparable.CompareTo, addr 0x5b2ac0c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable.CompareTo, addr 0x5c648e4, size 0x118, virtual true, abstract: false, final true
   inline int32_t System_IComparable_CompareTo(::System::Object* other);
 
-  /// @brief Method System.IValueTupleInternal.GetHashCode, addr 0x5b2ae54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IValueTupleInternal.GetHashCode, addr 0x5c64b2c, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method System.IValueTupleInternal.ToStringEnd, addr 0x5b2aea0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method System.IValueTupleInternal.ToStringEnd, addr 0x5c64b78, size 0x44, virtual true, abstract: false, final true
   inline ::StringW System_IValueTupleInternal_ToStringEnd();
 
-  /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length, addr 0x5b2aee4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length, addr 0x5c64bbc, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Runtime_CompilerServices_ITuple_get_Length();
 
-  /// @brief Method ToString, addr 0x5b2ae5c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c64b34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::Collections::IStructuralComparable"

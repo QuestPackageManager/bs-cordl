@@ -16,7 +16,10 @@ namespace GlobalNamespace {
 struct HMDSessionTracker__InitializeAsync_d__4;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IXRSystemState;
+}
+namespace GlobalNamespace {
+struct XRSystemEventType;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -52,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x57763b4, size 0x6d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58b371c, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5776a88, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58b3d88, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -116,8 +119,8 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayEventsDispatcher,
                       put = __cordl_internal_set__gameplayEventsDispatcher)) ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* _gameplayEventsDispatcher;
 
-  /// @brief Field _vrPlatformHelper, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _xrSystemState, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -125,41 +128,37 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5775df0, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58b3440, size 0x1b0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleApplicationQuitting, addr 0x5776288, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x58b35f0, size 0x12c, virtual false, abstract: false, final false
   inline bool HandleApplicationQuitting();
 
-  /// @brief Method HandleHMDMounted, addr 0x5776044, size 0x120, virtual false, abstract: false, final false
-  inline void HandleHMDMounted();
+  /// @brief Method HandleHmdStateChanged, addr 0x58b3234, size 0x20c, virtual false, abstract: false, final false
+  inline void HandleHmdStateChanged(::GlobalNamespace::XRSystemEventType xrSystemEventType);
 
-  /// @brief Method HandleHMDUnmounted, addr 0x5776164, size 0x124, virtual false, abstract: false, final false
-  inline void HandleHMDUnmounted();
-
-  /// @brief Method Initialize, addr 0x5775cc0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x58b3104, size 0x80, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x5775d40, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x58b3184, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher,
-                                                               ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
+  static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__gameplayEventsDispatcher() const;
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*& __cordl_internal_get__gameplayEventsDispatcher();
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::GlobalNamespace::IXRSystemState* const& __cordl_internal_get__xrSystemState() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IXRSystemState*& __cordl_internal_get__xrSystemState();
 
   constexpr void __cordl_internal_set__gameplayEventsDispatcher(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* value);
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5775cb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
+  /// @brief Method .ctor, addr 0x58b30fc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
@@ -187,15 +186,15 @@ public:
   /// @brief Field _gameplayEventsDispatcher, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* ____gameplayEventsDispatcher;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+  /// @brief Field _xrSystemState, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HMDSessionTracker, ____gameplayEventsDispatcher) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HMDSessionTracker, ____vrPlatformHelper) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HMDSessionTracker, ____xrSystemState) == 0x18, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::HMDSessionTracker) == 0x20, "Size mismatch!");
 

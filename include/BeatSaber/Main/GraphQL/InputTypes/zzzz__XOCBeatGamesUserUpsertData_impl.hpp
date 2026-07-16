@@ -3,6 +3,7 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__XOCBeatGamesUserUpsertData_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__ISOCountryCode_def.hpp"
+#include "BeatSaber/Main/GraphQL/Enums/zzzz__TimezoneIDEnum_def.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__IXOCBeatGamesUserUpsertData_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLInputObject_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLInputSupportsClientMutationId_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_ClientMutationId)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32095e4;
+  constexpr static std::size_t addrs = 0x32a04cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(
     ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::ISOCountryCode>)>(&::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_CountryCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3209664;
+  constexpr static std::size_t addrs = 0x32a054c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,11 +47,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_Locale)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3209710;
+  constexpr static std::size_t addrs = 0x32a05f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData*>(), { "set_Locale", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData.set_TimezoneId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(
+    ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum>)>(&::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_TimezoneId)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x32a0678;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData*>(),
+                                                             { "set_TimezoneId", {}, { ::i2c::type_of<::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum>>() } })));
     return ___internal_method;
   }
 };
@@ -60,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* (
     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)()>(&::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::GetParams)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3209790;
+  constexpr static std::size_t addrs = 0x32a0724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)()>(
     &::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x320979c;
+  constexpr static std::size_t addrs = 0x32a0730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,6 +126,12 @@ inline void BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::se
 inline void BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_Locale(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData*>(), { "set_Locale", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_TimezoneId(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData*>(),
+                                                           { "set_TimezoneId", {}, { ::i2c::type_of<::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::GetParams() {

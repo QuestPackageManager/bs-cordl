@@ -44,13 +44,13 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceGroveler"
   constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
 
-  /// @brief Method CreateResourceSet, addr 0x5a395c4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method CreateResourceSet, addr 0x5b73294, size 0x2c8, virtual false, abstract: false, final false
   inline ::System::Resources::ResourceSet* CreateResourceSet(::StringW file);
 
-  /// @brief Method FindResourceFile, addr 0x5a394e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FindResourceFile, addr 0x5b731b0, size 0xb4, virtual false, abstract: false, final false
   inline ::StringW FindResourceFile(::System::Globalization::CultureInfo* culture, ::StringW fileName);
 
-  /// @brief Method GrovelForResourceSet, addr 0x5a39280, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method GrovelForResourceSet, addr 0x5b72f50, size 0x244, virtual true, abstract: false, final true
   inline ::System::Resources::ResourceSet* GrovelForResourceSet(::System::Globalization::CultureInfo* culture,
                                                                 ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* localResourceSets, bool tryParents,
                                                                 bool createIfNotExists, ::by_ref<::System::Threading::StackCrawlMark> stackMark);
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__mediator(::System::Resources::ResourceManager_ResourceManagerMediator* value);
 
-  /// @brief Method .ctor, addr 0x5a39278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b72f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceManager_ResourceManagerMediator* mediator);
 
   /// @brief Convert to "::System::Resources::IResourceGroveler"

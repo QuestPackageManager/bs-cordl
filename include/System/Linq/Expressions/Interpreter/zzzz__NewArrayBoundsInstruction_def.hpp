@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction* New_ctor(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method Run, addr 0x5e4cca0, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f87d9c, size 0x110, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set__rank(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5e4cc40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f87d3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method get_ConsumedStack, addr 0x5e4cc4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f87d48, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e4cc5c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f87d58, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e4cc54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f87d50, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -83,7 +83,7 @@ public:
   NewArrayBoundsInstruction(NewArrayBoundsInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
 
   /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____elementType;

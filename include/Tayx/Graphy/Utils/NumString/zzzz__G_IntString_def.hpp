@@ -28,23 +28,23 @@ public:
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer)) ::ArrayW<::StringW> m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x62f8ebc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6434f58, size 0xa0, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method Init, addr 0x62fd0e8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6439184, size 0x230, virtual false, abstract: false, final false
   static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
 
-  /// @brief Method ToStringNonAlloc, addr 0x62fd318, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x64393b4, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(int32_t value);
 
   static inline ::ArrayW<::StringW> getStaticF_m_negativeBuffer();
 
   static inline ::ArrayW<::StringW> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MaxValue, addr 0x62fd080, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x643911c, size 0x68, virtual false, abstract: false, final false
   static inline int32_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x62fd010, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x64390ac, size 0x70, virtual false, abstract: false, final false
   static inline int32_t get_MinValue();
 
   static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW> value);
@@ -66,7 +66,7 @@ public:
   G_IntString(G_IntString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

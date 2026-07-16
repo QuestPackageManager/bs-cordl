@@ -34,10 +34,10 @@ public:
   /// @brief Field EtwLevelToTraceEventType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EtwLevelToTraceEventType, put = setStaticF_EtwLevelToTraceEventType)) ::ArrayW<::System::Diagnostics::TraceEventType> EtwLevelToTraceEventType;
 
-  /// @brief Method GetTraceEventType, addr 0x60470bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetTraceEventType, addr 0x61821b8, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Runtime::TraceEventLevel level);
 
-  /// @brief Method LookupSeverity, addr 0x604713c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method LookupSeverity, addr 0x6182238, size 0x1ec, virtual false, abstract: false, final false
   static inline ::StringW LookupSeverity(::System::Runtime::TraceEventLevel level, ::System::Runtime::TraceEventOpcode opcode);
 
   static inline ::ArrayW<::System::Diagnostics::TraceEventType> getStaticF_EtwLevelToTraceEventType();
@@ -59,7 +59,7 @@ public:
   TraceLevelHelper(TraceLevelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

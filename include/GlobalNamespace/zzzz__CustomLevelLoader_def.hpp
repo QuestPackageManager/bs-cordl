@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultEnvironmentInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3648bc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3705050, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICustomLevelLoader"
@@ -75,7 +75,7 @@ public:
   CustomLevelLoader(CustomLevelLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14787 };
 
   /// @brief Field _defaultEnvironmentInfo, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____defaultEnvironmentInfo;

@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreController)
+namespace BeatSaber::Automation {
+class RecPlayBehaviourState;
+}
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
@@ -49,9 +52,6 @@ struct NoteCutInfo;
 }
 namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
-}
-namespace GlobalNamespace {
-class RecPlayBehaviour_State;
 }
 namespace GlobalNamespace {
 class ScoreController_ApproximateFloatComparer;
@@ -96,12 +96,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<float_t>"
   constexpr operator ::System::Collections::Generic::IComparer_1<float_t>*() noexcept;
 
-  /// @brief Method Compare, addr 0x58bf514, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x59efc38, size 0xe0, virtual true, abstract: false, final true
   inline int32_t Compare(float_t x, float_t y);
 
   static inline ::GlobalNamespace::ScoreController_ApproximateFloatComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58bf510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59efc34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<float_t>"
@@ -122,7 +122,7 @@ public:
   ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -206,7 +206,7 @@ public:
   __declspec(property(get = __cordl_internal_get__prevMultiplierFromModifiers, put = __cordl_internal_set__prevMultiplierFromModifiers)) float_t _prevMultiplierFromModifiers;
 
   /// @brief Field _recPlayState, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__recPlayState, put = __cordl_internal_set__recPlayState)) ::GlobalNamespace::RecPlayBehaviour_State* _recPlayState;
+  __declspec(property(get = __cordl_internal_get__recPlayState, put = __cordl_internal_set__recPlayState)) ::BeatSaber::Automation::RecPlayBehaviourState* _recPlayState;
 
   /// @brief Field _scoreMultiplierCounter, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreMultiplierCounter, put = __cordl_internal_set__scoreMultiplierCounter)) ::GlobalNamespace::ScoreMultiplierCounter* _scoreMultiplierCounter;
@@ -255,36 +255,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IScoreController"
   constexpr operator ::GlobalNamespace::IScoreController*() noexcept;
 
-  /// @brief Method DespawnScoringElement, addr 0x58be628, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DespawnScoringElement, addr 0x59eed4c, size 0x1ac, virtual false, abstract: false, final false
   inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
 
-  /// @brief Method HandleNoteWasCut, addr 0x58beab0, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59ef1d4, size 0x4c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x58bf02c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x59ef750, size 0x254, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x58bea04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x59ef128, size 0xac, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x58bf2c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x59ef9ec, size 0x84, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
-  /// @brief Method HasMultipleNotesOnBeat, addr 0x58be7d4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method HasMultipleNotesOnBeat, addr 0x59eeef8, size 0x230, virtual false, abstract: false, final false
   inline bool HasMultipleNotesOnBeat(float_t noteTime);
 
-  /// @brief Method LateUpdate, addr 0x58bde74, size 0x708, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59ee598, size 0x708, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ScoreController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58bdc48, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59ee36c, size 0x22c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetEnabled, addr 0x58bd9e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetEnabled, addr 0x59ee108, size 0x8, virtual true, abstract: false, final true
   inline void SetEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x58bd9ec, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59ee110, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -359,9 +359,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__prevMultiplierFromModifiers();
 
-  constexpr ::GlobalNamespace::RecPlayBehaviour_State* const& __cordl_internal_get__recPlayState() const;
+  constexpr ::BeatSaber::Automation::RecPlayBehaviourState* const& __cordl_internal_get__recPlayState() const;
 
-  constexpr ::GlobalNamespace::RecPlayBehaviour_State*& __cordl_internal_get__recPlayState();
+  constexpr ::BeatSaber::Automation::RecPlayBehaviourState*& __cordl_internal_get__recPlayState();
 
   constexpr ::GlobalNamespace::ScoreMultiplierCounter* const& __cordl_internal_get__scoreMultiplierCounter() const;
 
@@ -435,7 +435,7 @@ public:
 
   constexpr void __cordl_internal_set__prevMultiplierFromModifiers(float_t value);
 
-  constexpr void __cordl_internal_set__recPlayState(::GlobalNamespace::RecPlayBehaviour_State* value);
+  constexpr void __cordl_internal_set__recPlayState(::BeatSaber::Automation::RecPlayBehaviourState* value);
 
   constexpr void __cordl_internal_set__scoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
 
@@ -455,51 +455,51 @@ public:
 
   constexpr void __cordl_internal_set_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method .ctor, addr 0x58bf34c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59efa70, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_multiplierDidChangeEvent, addr 0x58bd53c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_multiplierDidChangeEvent, addr 0x59edc60, size 0xc0, virtual true, abstract: false, final true
   inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method add_scoreDidChangeEvent, addr 0x58bd3bc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_scoreDidChangeEvent, addr 0x59edae0, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x58bd83c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x59edf60, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method add_scoringForNoteStartedEvent, addr 0x58bd6bc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_scoringForNoteStartedEvent, addr 0x59edde0, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
   static inline ::GlobalNamespace::ScoreController_ApproximateFloatComparer* getStaticF__approximateFloatComparer();
 
-  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x58bd9dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x59ee100, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_immediateMaxPossibleModifiedScore();
 
-  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x58bd9cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x59ee0f0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_immediateMaxPossibleMultipliedScore();
 
-  /// @brief Method get_invalidated, addr 0x58bd9bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_invalidated, addr 0x59ee0e0, size 0x8, virtual true, abstract: false, final true
   inline bool get_invalidated();
 
-  /// @brief Method get_modifiedScore, addr 0x58bd9d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_modifiedScore, addr 0x59ee0f8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_modifiedScore();
 
-  /// @brief Method get_multipliedScore, addr 0x58bd9c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multipliedScore, addr 0x59ee0e8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multipliedScore();
 
   /// @brief Convert to "::GlobalNamespace::IScoreController"
   constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
 
-  /// @brief Method remove_multiplierDidChangeEvent, addr 0x58bd5fc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_multiplierDidChangeEvent, addr 0x59edd20, size 0xc0, virtual true, abstract: false, final true
   inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method remove_scoreDidChangeEvent, addr 0x58bd47c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoreDidChangeEvent, addr 0x59edba0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x58bd8fc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x59ee020, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x58bd77c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x59edea0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
   static inline void setStaticF__approximateFloatComparer(::GlobalNamespace::ScoreController_ApproximateFloatComparer* value);
@@ -519,7 +519,7 @@ public:
   ScoreController(ScoreController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6235 };
 
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
@@ -537,7 +537,7 @@ public:
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _recPlayState, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::RecPlayBehaviour_State* ____recPlayState;
+  ::BeatSaber::Automation::RecPlayBehaviourState* ____recPlayState;
 
   /// @brief Field _goodCutScoringElementPool, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::GoodCutScoringElement_Pool* ____goodCutScoringElementPool;

@@ -80,27 +80,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x57383e0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x587f5fc, size 0x98, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x5738f1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x5880138, size 0x5c, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float_t normalizedValue);
 
   static inline ::HMUI::ColorGradientSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57385cc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x587f7e8, size 0x80, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x5738f78, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x5880194, size 0x84, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SetColors, addr 0x573870c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x587f928, size 0x30, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
-  /// @brief Method TextForNormalizedValue, addr 0x5738d7c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method TextForNormalizedValue, addr 0x587ff98, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW TextForNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method UpdateVisuals, addr 0x573873c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x587f958, size 0x19c, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
@@ -145,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x5738ffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5880218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x5738260, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x587f47c, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline ::System::Text::StringBuilder* getStaticF__stringBuilder();
@@ -159,7 +159,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x5738320, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x587f53c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline void setStaticF__stringBuilder(::System::Text::StringBuilder* value);
@@ -179,7 +179,7 @@ public:
   ColorGradientSlider(ColorGradientSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19154 };
 
   /// @brief Field _textPrefix, offset: 0x148, size: 0x8, def value: None
   ::StringW ____textPrefix;

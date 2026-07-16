@@ -52,16 +52,16 @@ public:
   /// @brief Field status, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> status;
 
-  /// @brief Method Count, addr 0x626a314, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x63a63b0, size 0x24, virtual false, abstract: false, final false
   inline int32_t Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Set, addr 0x626a338, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x63a63d4, size 0x84, virtual false, abstract: false, final false
   inline void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> status, ::by_ref<int32_t> position,
                   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
 
-  /// @brief Method UncompressFlags, addr 0x626a3bc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method UncompressFlags, addr 0x63a6458, size 0x254, virtual false, abstract: false, final false
   inline void UncompressFlags();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& __cordl_internal_get_certificate() const;
@@ -88,19 +88,19 @@ public:
 
   constexpr void __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> value);
 
-  /// @brief Method .ctor, addr 0x626a2d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a6374, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method get_Certificate, addr 0x626a2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x63a6390, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
 
-  /// @brief Method get_ChainElementStatus, addr 0x626a2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElementStatus, addr 0x63a6398, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainElementStatus();
 
-  /// @brief Method get_StatusFlags, addr 0x626a304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusFlags, addr 0x63a63a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
 
-  /// @brief Method set_StatusFlags, addr 0x626a30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusFlags, addr 0x63a63a8, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   X509ChainElement(X509ChainElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11174 };
 
   /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate2* ___certificate;

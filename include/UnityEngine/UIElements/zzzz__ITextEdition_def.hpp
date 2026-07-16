@@ -99,10 +99,10 @@ public:
   /// @brief Method get_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Action* get_UpdateValueFromText();
 
-  /// @brief Method get_autoCorrection, addr 0x6b5b54c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_autoCorrection, addr 0x6caf404, size 0xd4, virtual true, abstract: false, final false
   inline bool get_autoCorrection();
 
-  /// @brief Method get_hideMobileInput, addr 0x6b5b6ec, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_hideMobileInput, addr 0x6caf5a4, size 0xd4, virtual true, abstract: false, final false
   inline bool get_hideMobileInput();
 
   /// @brief Method get_hidePlaceholderOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -117,7 +117,7 @@ public:
   /// @brief Method get_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method get_keyboardType, addr 0x6b5b88c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_keyboardType, addr 0x6caf744, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
   /// @brief Method get_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -150,10 +150,10 @@ public:
   /// @brief Method set_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_UpdateValueFromText(::System::Action* value);
 
-  /// @brief Method set_autoCorrection, addr 0x6b5b620, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_autoCorrection, addr 0x6caf4d8, size 0xcc, virtual true, abstract: false, final false
   inline void set_autoCorrection(bool value);
 
-  /// @brief Method set_hideMobileInput, addr 0x6b5b7c0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_hideMobileInput, addr 0x6caf678, size 0xcc, virtual true, abstract: false, final false
   inline void set_hideMobileInput(bool value);
 
   /// @brief Method set_hidePlaceholderOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -168,7 +168,7 @@ public:
   /// @brief Method set_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_isReadOnly(bool value);
 
-  /// @brief Method set_keyboardType, addr 0x6b5b960, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_keyboardType, addr 0x6caf818, size 0xcc, virtual true, abstract: false, final false
   inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
   /// @brief Method set_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

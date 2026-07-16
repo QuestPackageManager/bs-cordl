@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__Bindings_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* value);
 
-  /// @brief Method get_Bindings, addr 0x5e46550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindings, addr 0x5f8164c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
 protected:
@@ -56,7 +56,7 @@ public:
   MemberMemberBinding(MemberMemberBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16171 };
 
   /// @brief Field <Bindings>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* ____Bindings_k__BackingField;

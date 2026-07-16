@@ -48,7 +48,7 @@ public:
   EventSanitizer_IEventSanitizer(EventSanitizer_IEventSanitizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21787 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -63,16 +63,16 @@ public:
   // Declarations
   using IEventSanitizer = ::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer;
 
-  /// @brief Method AfterProviderUpdate, addr 0x6a04ec0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AfterProviderUpdate, addr 0x6b5899c, size 0xfc, virtual false, abstract: false, final false
   inline void AfterProviderUpdate();
 
-  /// @brief Method BeforeProviderUpdate, addr 0x6a04dc4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method BeforeProviderUpdate, addr 0x6b588a0, size 0xfc, virtual false, abstract: false, final false
   inline void BeforeProviderUpdate();
 
-  /// @brief Method Inspect, addr 0x6a0491c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Inspect, addr 0x6b583f8, size 0x104, virtual false, abstract: false, final false
   inline void Inspect(::by_ref<::UnityEngine::InputForUI::Event> ev);
 
-  /// @brief Method Reset, addr 0x6a04a20, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b584fc, size 0x110, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
   constexpr EventSanitizer(::ArrayW<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*> _sanitizers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x6a6f2f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc31a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6a6f304, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc31bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x6a6f330, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc31e8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -56,7 +56,7 @@ public:
   Character(Character const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

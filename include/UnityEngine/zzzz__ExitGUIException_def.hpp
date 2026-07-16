@@ -24,10 +24,10 @@ public:
 
   static inline ::UnityEngine::ExitGUIException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x69f6204, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b49ce0, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x69efefc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b439d8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ExitGUIException(ExitGUIException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

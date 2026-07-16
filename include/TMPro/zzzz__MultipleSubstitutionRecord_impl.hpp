@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::MultipleSubstitutionRecord::*)()>(&::TMPro::MultipleSubstitutionRecord::get_targetGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67f3654;
+  constexpr static std::size_t addrs = 0x6932138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MultipleSubstitutionRecord>(), { "get_targetGlyphID", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MultipleSubstitutionRecord::*)(uint32_t)>(&::TMPro::MultipleSubstitutionRecord::set_targetGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67f365c;
+  constexpr static std::size_t addrs = 0x6932140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint32_t> (::TMPro::MultipleSubstitutionRecord::*)()>(&::TMPro::MultipleSubstitutionRecord::get_substituteGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67f3664;
+  constexpr static std::size_t addrs = 0x6932148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MultipleSubstitutionRecord>(), { "get_substituteGlyphIDs", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MultipleSubstitutionRecord::*)(::ArrayW<uint32_t>)>(&::TMPro::MultipleSubstitutionRecord::set_substituteGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67f366c;
+  constexpr static std::size_t addrs = 0x6932150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

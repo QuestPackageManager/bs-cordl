@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncReadRequest::*)(::Mono::Net::Security::MobileAuthenticatedStream*, bool, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Net::Security::AsyncReadRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e97cd0;
+  constexpr static std::size_t addrs = 0x5fd2dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::AsyncReadRequest*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::AsyncReadRequest::*)(::Mono::Net::Security::AsyncOperationStatus)>(
     &::Mono::Net::Security::AsyncReadRequest::Run)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e97cd4;
+  constexpr static std::size_t addrs = 0x5fd2dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

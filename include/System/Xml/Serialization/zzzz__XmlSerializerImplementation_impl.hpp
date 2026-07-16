@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (::System::Xml::Serialization::XmlSerializerImplementation::*)()>(
     &::System::Xml::Serialization::XmlSerializerImplementation::get_Writer)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x61d16d0;
+  constexpr static std::size_t addrs = 0x630c7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializerImplementation*>(),

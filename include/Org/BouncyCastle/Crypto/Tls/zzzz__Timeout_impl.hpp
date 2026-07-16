@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Timeout::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x33b3d44;
+  constexpr static std::size_t addrs = 0x34701fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Timeout::*)(int64_t, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x33b3db8;
+  constexpr static std::size_t addrs = 0x3470270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::Timeout::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::RemainingMillis)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33b3e28;
+  constexpr static std::size_t addrs = 0x34702e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::Org::BouncyCastle::Crypto::Tls::Timeout*, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::ConstrainWaitMillis)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x33b3e84;
+  constexpr static std::size_t addrs = 0x347033c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::Timeout* (*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::ForWaitMillis)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33b3f68;
+  constexpr static std::size_t addrs = 0x3470420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::Timeout* (*)(int32_t, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::ForWaitMillis)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x33b3fcc;
+  constexpr static std::size_t addrs = 0x3470484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Crypto::Tls::Timeout*, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::GetWaitMillis)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33b3f34;
+  constexpr static std::size_t addrs = 0x34703ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Crypto::Tls::Timeout*, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::Timeout::HasExpired)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33b40a4;
+  constexpr static std::size_t addrs = 0x347055c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

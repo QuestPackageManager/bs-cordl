@@ -15,14 +15,14 @@ template <typename TBase> constexpr void OculusStudios::Platform::Core::Assignab
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
-template <typename TBase> inline ::StringW OculusStudios::Platform::Core::AssignableOf_1<TBase>::get_name() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::AssignableOf_1<TBase>*>(), { "get_name", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
-}
 template <typename TBase> inline void OculusStudios::Platform::Core::AssignableOf_1<TBase>::_ctor(::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::AssignableOf_1<TBase>*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
+}
+template <typename TBase> inline ::StringW OculusStudios::Platform::Core::AssignableOf_1<TBase>::get_name() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::AssignableOf_1<TBase>*>(), { "get_name", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 template <typename TBase>
 inline ::OculusStudios::Platform::Core::AssignableOf_1<TBase>*

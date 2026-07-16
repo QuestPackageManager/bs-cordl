@@ -44,7 +44,7 @@ public:
   /// @brief Field crlEntryDetails, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_crlEntryDetails, put = __cordl_internal_set_crlEntryDetails)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails;
 
-  /// @brief Method GetInstance, addr 0x3292a6c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x334ef24, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3292c10, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x334f0c8, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* const& __cordl_internal_get_certDetails() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_crlEntryDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method .ctor, addr 0x3292bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334f0a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
 
-  /// @brief Method .ctor, addr 0x3292bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334f0b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails, ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails);
 
-  /// @brief Method .ctor, addr 0x3292998, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334ee50, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertDetails, addr 0x3292c00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertDetails, addr 0x334f0b8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertDetails();
 
-  /// @brief Method get_CrlEntryDetails, addr 0x3292c08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CrlEntryDetails, addr 0x334f0c0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlEntryDetails();
 
 protected:

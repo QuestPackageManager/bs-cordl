@@ -297,6 +297,12 @@ template <typename T> inline void System::Collections::Generic::List_1<T>::Syste
                                                            { "System.Collections.ICollection.CopyTo", {}, { ::i2c::type_of<::System::Array*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, arrayIndex);
 }
+template <typename T> inline void System::Collections::Generic::List_1<T>::CopyTo(int32_t index, ::ArrayW<T> array, int32_t arrayIndex, int32_t count) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::List_1<T>*>(),
+                                                           { "CopyTo", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, array, arrayIndex, count);
+}
 template <typename T> inline void System::Collections::Generic::List_1<T>::CopyTo(::ArrayW<T> array, int32_t arrayIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::List_1<T>*>(), { "CopyTo", {}, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>() } })));

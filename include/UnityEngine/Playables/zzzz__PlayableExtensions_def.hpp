@@ -51,6 +51,9 @@ public:
   /// @brief Method GetInputWeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline float_t GetInputWeight(U playable, int32_t inputIndex);
 
+  /// @brief Method GetOutput, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename U> static inline ::UnityEngine::Playables::Playable GetOutput(U playable, int32_t outputPort);
+
   /// @brief Method GetPlayState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline ::UnityEngine::Playables::PlayState GetPlayState(U playable);
 
@@ -117,7 +120,7 @@ public:
   PlayableExtensions(PlayableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

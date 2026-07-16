@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6014f14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6150010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   AttributeData(AttributeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17013 };
 
   /// @brief Field prefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___prefix;

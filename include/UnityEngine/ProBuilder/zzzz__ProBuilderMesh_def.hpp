@@ -188,7 +188,7 @@ public:
   static ::UnityEngine::ProBuilder::ProBuilderMesh_CacheValidState const SharedVertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -214,10 +214,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6598d18, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x66d6424, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6593810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d0f1c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   /// @brief Convert to "::System::IDisposable"
@@ -232,7 +232,7 @@ public:
   constexpr ProBuilderMesh_NonVersionedEditScope(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh, uint16_t m_VersionIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -280,22 +280,22 @@ public:
 
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh___c* New_ctor();
 
-  /// @brief Method <CopyFrom>b__172_0, addr 0x6598dd8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <CopyFrom>b__172_0, addr 0x66d64e4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _CopyFrom_b__172_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <SetUVs>b__119_0, addr 0x6598d90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <SetUVs>b__119_0, addr 0x66d649c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 _SetUVs_b__119_0(::UnityEngine::Vector4 x);
 
-  /// @brief Method <SetUVs>b__119_1, addr 0x6598d94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <SetUVs>b__119_1, addr 0x66d64a0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 _SetUVs_b__119_1(::UnityEngine::Vector4 x);
 
-  /// @brief Method .ctor, addr 0x6598d8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d6498, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_indexCount>b__127_0, addr 0x6598d98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_indexCount>b__127_0, addr 0x66d64a4, size 0x20, virtual false, abstract: false, final false
   inline int32_t _get_indexCount_b__127_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <get_triangleCount>b__129_0, addr 0x6598db8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_triangleCount>b__129_0, addr 0x66d64c4, size 0x20, virtual false, abstract: false, final false
   inline int32_t _get_triangleCount_b__129_0(::UnityEngine::ProBuilder::Face* x);
 
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh___c* getStaticF___9();
@@ -337,7 +337,7 @@ public:
   ProBuilderMesh___c(ProBuilderMesh___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -357,7 +357,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayClass175_0* New_ctor();
 
-  /// @brief Method <GetUnusedTextureGroup>b__0, addr 0x6598e34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetUnusedTextureGroup>b__0, addr 0x66d6540, size 0x20, virtual false, abstract: false, final false
   inline bool _GetUnusedTextureGroup_b__0(::UnityEngine::ProBuilder::Face* element);
 
   constexpr int32_t const& __cordl_internal_get_i() const;
@@ -366,7 +366,7 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6595648, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d2d54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -384,7 +384,7 @@ public:
   ProBuilderMesh___c__DisplayClass175_0(ProBuilderMesh___c__DisplayClass175_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16753 };
 
   /// @brief Field i, offset: 0x10, size: 0x4, def value: None
   int32_t ___i;
@@ -409,7 +409,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayClass177_0* New_ctor();
 
-  /// @brief Method <UnusedElementGroup>b__0, addr 0x6598e54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <UnusedElementGroup>b__0, addr 0x66d6560, size 0x20, virtual false, abstract: false, final false
   inline bool _UnusedElementGroup_b__0(::UnityEngine::ProBuilder::Face* element);
 
   constexpr int32_t const& __cordl_internal_get_i() const;
@@ -418,7 +418,7 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6595750, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d2e5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -436,7 +436,7 @@ public:
   ProBuilderMesh___c__DisplayClass177_0(ProBuilderMesh___c__DisplayClass177_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16754 };
 
   /// @brief Field i, offset: 0x10, size: 0x4, def value: None
   int32_t ___i;
@@ -687,228 +687,228 @@ public:
 
   __declspec(property(get = get_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method AddSharedVertex, addr 0x6597b40, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddSharedVertex, addr 0x66d524c, size 0xb8, virtual false, abstract: false, final false
   inline void AddSharedVertex(::UnityEngine::ProBuilder::SharedVertex* vertex);
 
-  /// @brief Method AddToFaceSelection, addr 0x65983cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddToFaceSelection, addr 0x66d5ad8, size 0x7c, virtual false, abstract: false, final false
   inline void AddToFaceSelection(int32_t index);
 
-  /// @brief Method AddToSharedVertex, addr 0x6597ab0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddToSharedVertex, addr 0x66d51bc, size 0x90, virtual false, abstract: false, final false
   inline void AddToSharedVertex(int32_t sharedVertexHandle, int32_t vertex);
 
-  /// @brief Method Awake, addr 0x65933cc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x66d0ad8, size 0x168, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CacheSelection, addr 0x6597c68, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CacheSelection, addr 0x66d5374, size 0x2cc, virtual false, abstract: false, final false
   inline void CacheSelection();
 
-  /// @brief Method Clear, addr 0x6591930, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x66cf03c, size 0x128, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearSelection, addr 0x6593774, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x66d0e80, size 0x9c, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method CopyFrom, addr 0x6594bd4, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x66d22e0, size 0x2fc, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::ProBuilder::ProBuilderMesh* other);
 
-  /// @brief Method Create, addr 0x6593e94, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x66d15a0, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create();
 
-  /// @brief Method Create, addr 0x6593f2c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x66d1638, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* positions,
                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Create, addr 0x659411c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x66d1828, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                                            ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                                                                            ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
                                                                            ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
                                                                            ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
-  /// @brief Method CreateInstanceWithPoints, addr 0x6593b5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceWithPoints, addr 0x66d1268, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3> positions);
 
-  /// @brief Method DestroyUnityMesh, addr 0x6593a44, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method DestroyUnityMesh, addr 0x66d1150, size 0x118, virtual false, abstract: false, final false
   inline void DestroyUnityMesh();
 
-  /// @brief Method EnsureMeshColliderIsAssigned, addr 0x6593660, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnsureMeshColliderIsAssigned, addr 0x66d0d6c, size 0x114, virtual false, abstract: false, final false
   inline void EnsureMeshColliderIsAssigned();
 
-  /// @brief Method EnsureMeshFilterIsAssigned, addr 0x6593534, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method EnsureMeshFilterIsAssigned, addr 0x66d0c40, size 0x12c, virtual false, abstract: false, final false
   inline void EnsureMeshFilterIsAssigned();
 
-  /// @brief Method FinalizeToMesh, addr 0x65949b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FinalizeToMesh, addr 0x66d20c0, size 0x48, virtual false, abstract: false, final false
   inline void FinalizeToMesh(bool usedInParticleSystem);
 
-  /// @brief Method GeometryWithPoints, addr 0x6593c84, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GeometryWithPoints, addr 0x66d1390, size 0x210, virtual false, abstract: false, final false
   inline void GeometryWithPoints(::ArrayW<::UnityEngine::Vector3> points);
 
-  /// @brief Method GetActiveEdge, addr 0x6598310, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetActiveEdge, addr 0x66d5a1c, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge GetActiveEdge();
 
-  /// @brief Method GetActiveFace, addr 0x65982b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetActiveFace, addr 0x66d59c4, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* GetActiveFace();
 
-  /// @brief Method GetActiveVertex, addr 0x6598398, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetActiveVertex, addr 0x66d5aa4, size 0x34, virtual false, abstract: false, final false
   inline int32_t GetActiveVertex();
 
-  /// @brief Method GetCoincidentVertices, addr 0x6596564, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCoincidentVertices, addr 0x66d3c70, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method GetCoincidentVertices, addr 0x6597170, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method GetCoincidentVertices, addr 0x66d487c, size 0x67c, virtual false, abstract: false, final false
   inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method GetCoincidentVertices, addr 0x6596b7c, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method GetCoincidentVertices, addr 0x66d4288, size 0x5f4, virtual false, abstract: false, final false
   inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method GetCoincidentVertices, addr 0x65977ec, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetCoincidentVertices, addr 0x66d4ef8, size 0x1cc, virtual false, abstract: false, final false
   inline void GetCoincidentVertices(int32_t vertex, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method GetCoincidentVertices, addr 0x6596640, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method GetCoincidentVertices, addr 0x66d3d4c, size 0x53c, virtual false, abstract: false, final false
   inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method GetColors, addr 0x6591d28, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetColors, addr 0x66cf434, size 0xac, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> GetColors();
 
-  /// @brief Method GetNormals, addr 0x658b9fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNormals, addr 0x66c9108, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> GetNormals();
 
-  /// @brief Method GetSelectedFaces, addr 0x6597f7c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedFaces, addr 0x66d5688, size 0xd0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Face*> GetSelectedFaces();
 
-  /// @brief Method GetSharedVertexHandle, addr 0x6596084, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetSharedVertexHandle, addr 0x66d3790, size 0x164, virtual false, abstract: false, final false
   inline int32_t GetSharedVertexHandle(int32_t vertex);
 
-  /// @brief Method GetSharedVertexHandles, addr 0x65961e8, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method GetSharedVertexHandles, addr 0x66d38f4, size 0x37c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<int32_t>* GetSharedVertexHandles(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method GetTangents, addr 0x658ba8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTangents, addr 0x66c9198, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4> GetTangents();
 
-  /// @brief Method GetUVs, addr 0x6592198, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetUVs, addr 0x66cf8a4, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector2>* GetUVs(int32_t channel);
 
-  /// @brief Method GetUVs, addr 0x658b6d4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method GetUVs, addr 0x66c8de0, size 0x328, virtual false, abstract: false, final false
   inline void GetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
 
-  /// @brief Method GetUnusedTextureGroup, addr 0x6595550, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetUnusedTextureGroup, addr 0x66d2c5c, size 0xf8, virtual false, abstract: false, final false
   inline int32_t GetUnusedTextureGroup(int32_t i);
 
-  /// @brief Method GetVertices, addr 0x658c3f8, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x66c9b04, size 0x6a8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*> GetVertices(::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method GetVerticesInList, addr 0x6590e48, size 0x868, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesInList, addr 0x66ce554, size 0x868, virtual false, abstract: false, final false
   inline void GetVerticesInList(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
-  /// @brief Method HasArrays, addr 0x658b4e0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HasArrays, addr 0x66c8bec, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasArrays(::UnityEngine::ProBuilder::MeshArrays channels);
 
-  /// @brief Method IncrementVersionIndex, addr 0x6591a58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IncrementVersionIndex, addr 0x66cf164, size 0x20, virtual false, abstract: false, final false
   inline void IncrementVersionIndex();
 
-  /// @brief Method InvalidateCaches, addr 0x65907b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method InvalidateCaches, addr 0x66cdec0, size 0x2c, virtual false, abstract: false, final false
   inline void InvalidateCaches();
 
-  /// @brief Method InvalidateFaces, addr 0x65904cc, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method InvalidateFaces, addr 0x66cdbd8, size 0x2e8, virtual false, abstract: false, final false
   inline void InvalidateFaces();
 
-  /// @brief Method InvalidateSharedTextureLookup, addr 0x65903ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvalidateSharedTextureLookup, addr 0x66cdaf8, size 0xe0, virtual false, abstract: false, final false
   inline void InvalidateSharedTextureLookup();
 
-  /// @brief Method InvalidateSharedVertexLookup, addr 0x659030c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvalidateSharedVertexLookup, addr 0x66cda18, size 0xe0, virtual false, abstract: false, final false
   inline void InvalidateSharedVertexLookup();
 
-  /// @brief Method IsValidTextureGroup, addr 0x659564c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidTextureGroup, addr 0x66d2d58, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidTextureGroup(int32_t group);
 
-  /// @brief Method MakeUnique, addr 0x65949fc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method MakeUnique, addr 0x66d2108, size 0x1d8, virtual false, abstract: false, final false
   inline void MakeUnique();
 
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x65938f0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x66d0ffc, size 0x154, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Rebuild, addr 0x658c3bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x66c9ac8, size 0x20, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method RebuildWithPositionsAndFaces, addr 0x6594004, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RebuildWithPositionsAndFaces, addr 0x66d1710, size 0x118, virtual false, abstract: false, final false
   inline void RebuildWithPositionsAndFaces(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* vertices,
                                            ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Refresh, addr 0x6594898, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x66d1fa4, size 0x11c, virtual false, abstract: false, final false
   inline void Refresh(::UnityEngine::ProBuilder::RefreshMask mask);
 
-  /// @brief Method RefreshColors, addr 0x6595438, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RefreshColors, addr 0x66d2b44, size 0x30, virtual false, abstract: false, final false
   inline void RefreshColors();
 
-  /// @brief Method RefreshNormals, addr 0x6595468, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RefreshNormals, addr 0x66d2b74, size 0x74, virtual false, abstract: false, final false
   inline void RefreshNormals();
 
-  /// @brief Method RefreshTangents, addr 0x65954dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RefreshTangents, addr 0x66d2be8, size 0x74, virtual false, abstract: false, final false
   inline void RefreshTangents();
 
-  /// @brief Method RefreshUV, addr 0x6594ed0, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method RefreshUV, addr 0x66d25dc, size 0x568, virtual false, abstract: false, final false
   inline void RefreshUV(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* facesToRefresh);
 
-  /// @brief Method RemoveFromFaceSelectionAtIndex, addr 0x65989b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromFaceSelectionAtIndex, addr 0x66d60c0, size 0x68, virtual false, abstract: false, final false
   inline void RemoveFromFaceSelectionAtIndex(int32_t index);
 
-  /// @brief Method Reset, addr 0x659382c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x66d0f38, size 0xc4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetFaceColor, addr 0x659581c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method SetFaceColor, addr 0x66d2f28, size 0x34c, virtual false, abstract: false, final false
   inline void SetFaceColor(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Color color);
 
-  /// @brief Method SetGroupUV, addr 0x6595754, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetGroupUV, addr 0x66d2e60, size 0xc8, virtual false, abstract: false, final false
   inline void SetGroupUV(::UnityEngine::ProBuilder::AutoUnwrapSettings settings, int32_t group);
 
-  /// @brief Method SetMaterial, addr 0x6595b68, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x66d3274, size 0x51c, virtual false, abstract: false, final false
   inline void SetMaterial(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::UnityEngine::Material* material);
 
-  /// @brief Method SetSelectedEdges, addr 0x6598724, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedEdges, addr 0x66d5e30, size 0x124, virtual false, abstract: false, final false
   inline void SetSelectedEdges(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method SetSelectedFaces, addr 0x659865c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedFaces, addr 0x66d5d68, size 0xc8, virtual false, abstract: false, final false
   inline void SetSelectedFaces(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* selected);
 
-  /// @brief Method SetSelectedFaces, addr 0x6598448, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedFaces, addr 0x66d5b54, size 0x214, virtual false, abstract: false, final false
   inline void SetSelectedFaces(::System::Collections::Generic::IEnumerable_1<int32_t>* selected);
 
-  /// @brief Method SetSelectedVertices, addr 0x6598848, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedVertices, addr 0x66d5f54, size 0x16c, virtual false, abstract: false, final false
   inline void SetSelectedVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method SetSharedTextures, addr 0x6590ca0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSharedTextures, addr 0x66ce3ac, size 0x74, virtual false, abstract: false, final false
   inline void SetSharedTextures(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* indexes);
 
-  /// @brief Method SetSharedVertices, addr 0x6590b58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSharedVertices, addr 0x66ce264, size 0x74, virtual false, abstract: false, final false
   inline void SetSharedVertices(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* indexes);
 
-  /// @brief Method SetTexturesCoincident, addr 0x6597a70, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetTexturesCoincident, addr 0x66d517c, size 0x40, virtual false, abstract: false, final false
   inline void SetTexturesCoincident(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method SetUVs, addr 0x65922c8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x66cf9d4, size 0x2e8, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
 
-  /// @brief Method SetVertices, addr 0x65916b0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x66cedbc, size 0x280, virtual false, abstract: false, final false
   inline void SetVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh);
 
-  /// @brief Method SetVerticesCoincident, addr 0x65979b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetVerticesCoincident, addr 0x66d50c4, size 0xb8, virtual false, abstract: false, final false
   inline void SetVerticesCoincident(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method ToMesh, addr 0x65942c0, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method ToMesh, addr 0x66d19cc, size 0x5d8, virtual false, abstract: false, final false
   inline void ToMesh(::UnityEngine::MeshTopology preferredTopology);
 
-  /// @brief Method UnusedElementGroup, addr 0x6595658, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method UnusedElementGroup, addr 0x66d2d64, size 0xf8, virtual false, abstract: false, final false
   inline int32_t UnusedElementGroup(int32_t i);
 
-  /// @brief Method <SetSelectedFaces>b__246_0, addr 0x6598c3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <SetSelectedFaces>b__246_0, addr 0x66d6348, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _SetSelectedFaces_b__246_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <SetSelectedFaces>b__247_0, addr 0x6598c98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SetSelectedFaces>b__247_0, addr 0x66d63a4, size 0x48, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _SetSelectedFaces_b__247_0(int32_t x);
 
-  /// @brief Method <SetSelectedFaces>b__247_1, addr 0x6598ce0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <SetSelectedFaces>b__247_1, addr 0x66d63ec, size 0x38, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _SetSelectedFaces_b__247_1(int32_t x);
 
   constexpr bool const& __cordl_internal_get__userCollisions_k__BackingField() const;
@@ -1103,25 +1103,25 @@ public:
 
   constexpr void __cordl_internal_set_m_VersionIndex(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x6598a1c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d6128, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_selectedFacesInternal>b__232_0, addr 0x6598be0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <set_selectedFacesInternal>b__232_0, addr 0x66d62ec, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _set_selectedFacesInternal_b__232_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method add_componentHasBeenReset, addr 0x6592ebc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_componentHasBeenReset, addr 0x66d05c8, size 0x108, virtual false, abstract: false, final false
   static inline void add_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method add_componentWillBeDestroyed, addr 0x6592cac, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_componentWillBeDestroyed, addr 0x66d03b8, size 0x108, virtual false, abstract: false, final false
   static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method add_elementSelectionChanged, addr 0x65930cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_elementSelectionChanged, addr 0x66d07d8, size 0x108, virtual false, abstract: false, final false
   static inline void add_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method add_meshWasInitialized, addr 0x6592a9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_meshWasInitialized, addr 0x66d01a8, size 0x108, virtual false, abstract: false, final false
   static inline void add_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method add_meshWillBeDestroyed, addr 0x6592894, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method add_meshWillBeDestroyed, addr 0x66cffa0, size 0x104, virtual false, abstract: false, final false
   static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentHasBeenReset();
@@ -1136,169 +1136,169 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_s_CachedHashSet();
 
-  /// @brief Method get_colors, addr 0x6591b0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0x66cf218, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::Color>* get_colors();
 
-  /// @brief Method get_colorsInternal, addr 0x6591afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorsInternal, addr 0x66cf208, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> get_colorsInternal();
 
-  /// @brief Method get_edgeCount, addr 0x65925b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_edgeCount, addr 0x66cfcbc, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_edgeCount();
 
-  /// @brief Method get_faceCount, addr 0x658e5b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_faceCount, addr 0x66cbcbc, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_faceCount();
 
-  /// @brief Method get_faces, addr 0x65901e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_faces, addr 0x66cd8f4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* get_faces();
 
-  /// @brief Method get_facesInternal, addr 0x65901d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_facesInternal, addr 0x66cd8e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Face*> get_facesInternal();
 
-  /// @brief Method get_filter, addr 0x6590100, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_filter, addr 0x66cd80c, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_filter();
 
-  /// @brief Method get_id, addr 0x65932e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x66d09f0, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_indexCount, addr 0x659264c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_indexCount, addr 0x66cfd58, size 0x11c, virtual false, abstract: false, final false
   inline int32_t get_indexCount();
 
-  /// @brief Method get_mesh, addr 0x658d150, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x66ca85c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_meshFormatVersion, addr 0x65933c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshFormatVersion, addr 0x66d0ad0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_meshFormatVersion();
 
-  /// @brief Method get_meshSyncState, addr 0x6593304, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_meshSyncState, addr 0x66d0a10, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::MeshSyncState get_meshSyncState();
 
-  /// @brief Method get_nonSerializedVersionIndex, addr 0x65901c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nonSerializedVersionIndex, addr 0x66cd8cc, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_nonSerializedVersionIndex();
 
-  /// @brief Method get_normals, addr 0x6591a78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_normals, addr 0x66cf184, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_normals();
 
-  /// @brief Method get_normalsInternal, addr 0x6591aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalsInternal, addr 0x66cf1f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> get_normalsInternal();
 
-  /// @brief Method get_positions, addr 0x6590d24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_positions, addr 0x66ce430, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_positions();
 
-  /// @brief Method get_positionsInternal, addr 0x6590d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionsInternal, addr 0x66ce420, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> get_positionsInternal();
 
-  /// @brief Method get_preserveMeshAssetOnDestroy, addr 0x65901c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preserveMeshAssetOnDestroy, addr 0x66cd8d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_preserveMeshAssetOnDestroy();
 
-  /// @brief Method get_renderer, addr 0x658cf7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x66ca688, size 0x74, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshRenderer> get_renderer();
 
-  /// @brief Method get_selectable, addr 0x6597bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectable, addr 0x66d5304, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectable();
 
-  /// @brief Method get_selectedCoincidentVertexCount, addr 0x6597f34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCoincidentVertexCount, addr 0x66d5640, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectedCoincidentVertexCount();
 
-  /// @brief Method get_selectedCoincidentVertices, addr 0x6597f64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCoincidentVertices, addr 0x66d5670, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedCoincidentVertices();
 
-  /// @brief Method get_selectedEdgeCount, addr 0x6597c38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedEdgeCount, addr 0x66d5344, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectedEdgeCount();
 
-  /// @brief Method get_selectedEdges, addr 0x659813c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_selectedEdges, addr 0x66d5848, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* get_selectedEdges();
 
-  /// @brief Method get_selectedEdgesInternal, addr 0x6598298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedEdgesInternal, addr 0x66d59a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Edge> get_selectedEdgesInternal();
 
-  /// @brief Method get_selectedFaceCount, addr 0x6597c08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedFaceCount, addr 0x66d5314, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectedFaceCount();
 
-  /// @brief Method get_selectedFaceIndexes, addr 0x659804c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_selectedFaceIndexes, addr 0x66d5758, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_selectedFaceIndexes();
 
-  /// @brief Method get_selectedFaceIndicesInternal, addr 0x6598288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedFaceIndicesInternal, addr 0x66d5994, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_selectedFaceIndicesInternal();
 
-  /// @brief Method get_selectedFacesInternal, addr 0x65981b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_selectedFacesInternal, addr 0x66d58c0, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Face*> get_selectedFacesInternal();
 
-  /// @brief Method get_selectedIndexesInternal, addr 0x65982a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedIndexesInternal, addr 0x66d59b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_selectedIndexesInternal();
 
-  /// @brief Method get_selectedSharedVertices, addr 0x6597f4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSharedVertices, addr 0x66d5658, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedSharedVertices();
 
-  /// @brief Method get_selectedSharedVerticesCount, addr 0x6597c50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSharedVerticesCount, addr 0x66d535c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectedSharedVerticesCount();
 
-  /// @brief Method get_selectedVertexCount, addr 0x6597c20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedVertexCount, addr 0x66d532c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectedVertexCount();
 
-  /// @brief Method get_selectedVertices, addr 0x65980c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_selectedVertices, addr 0x66d57d0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_selectedVertices();
 
-  /// @brief Method get_sharedTextureLookup, addr 0x6590bdc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_sharedTextureLookup, addr 0x66ce2e8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* get_sharedTextureLookup();
 
-  /// @brief Method get_sharedTextures, addr 0x6590bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sharedTextures, addr 0x66ce2d8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> get_sharedTextures();
 
-  /// @brief Method get_sharedVertexLookup, addr 0x6590a90, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_sharedVertexLookup, addr 0x66ce19c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* get_sharedVertexLookup();
 
-  /// @brief Method get_sharedVertices, addr 0x65907f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_sharedVertices, addr 0x66cdefc, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* get_sharedVertices();
 
-  /// @brief Method get_sharedVerticesInternal, addr 0x65907e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sharedVerticesInternal, addr 0x66cdeec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> get_sharedVerticesInternal();
 
-  /// @brief Method get_tangents, addr 0x6591dd4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_tangents, addr 0x66cf4e0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* get_tangents();
 
-  /// @brief Method get_tangentsInternal, addr 0x6591fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tangentsInternal, addr 0x66cf6b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4> get_tangentsInternal();
 
-  /// @brief Method get_textures, addr 0x6591fec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_textures, addr 0x66cf6f8, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* get_textures();
 
-  /// @brief Method get_textures2Internal, addr 0x6591fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textures2Internal, addr 0x66cf6d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* get_textures2Internal();
 
-  /// @brief Method get_textures3Internal, addr 0x6591fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textures3Internal, addr 0x66cf6e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* get_textures3Internal();
 
-  /// @brief Method get_texturesInternal, addr 0x6591fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texturesInternal, addr 0x66cf6c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_texturesInternal();
 
-  /// @brief Method get_triangleCount, addr 0x6592768, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_triangleCount, addr 0x66cfe74, size 0x12c, virtual false, abstract: false, final false
   inline int32_t get_triangleCount();
 
-  /// @brief Method get_unwrapParameters, addr 0x65900f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unwrapParameters, addr 0x66cd7fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::UnwrapParameters* get_unwrapParameters();
 
-  /// @brief Method get_userCollisions, addr 0x65900e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userCollisions, addr 0x66cd7ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_userCollisions();
 
-  /// @brief Method get_versionIndex, addr 0x65901b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_versionIndex, addr 0x66cd8c4, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_versionIndex();
 
-  /// @brief Method get_vertexCount, addr 0x658c3a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x66c9ab0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
-  /// @brief Method remove_componentHasBeenReset, addr 0x6592fc4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_componentHasBeenReset, addr 0x66d06d0, size 0x108, virtual false, abstract: false, final false
   static inline void remove_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method remove_componentWillBeDestroyed, addr 0x6592db4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_componentWillBeDestroyed, addr 0x66d04c0, size 0x108, virtual false, abstract: false, final false
   static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method remove_elementSelectionChanged, addr 0x65931d4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_elementSelectionChanged, addr 0x66d08e0, size 0x108, virtual false, abstract: false, final false
   static inline void remove_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method remove_meshWasInitialized, addr 0x6592ba4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_meshWasInitialized, addr 0x66d02b0, size 0x108, virtual false, abstract: false, final false
   static inline void remove_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  /// @brief Method remove_meshWillBeDestroyed, addr 0x6592998, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method remove_meshWillBeDestroyed, addr 0x66d00a4, size 0x104, virtual false, abstract: false, final false
   static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
@@ -1313,79 +1313,79 @@ public:
 
   static inline void setStaticF_s_CachedHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  /// @brief Method set_colors, addr 0x6591b80, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method set_colors, addr 0x66cf28c, size 0x1a8, virtual false, abstract: false, final false
   inline void set_colors(::System::Collections::Generic::IList_1<::UnityEngine::Color>* value);
 
-  /// @brief Method set_colorsInternal, addr 0x6591b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorsInternal, addr 0x66cf210, size 0x8, virtual false, abstract: false, final false
   inline void set_colorsInternal(::ArrayW<::UnityEngine::Color> value);
 
-  /// @brief Method set_faces, addr 0x6590260, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_faces, addr 0x66cd96c, size 0xac, virtual false, abstract: false, final false
   inline void set_faces(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method set_facesInternal, addr 0x65901e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_facesInternal, addr 0x66cd8ec, size 0x8, virtual false, abstract: false, final false
   inline void set_facesInternal(::ArrayW<::UnityEngine::ProBuilder::Face*> value);
 
-  /// @brief Method set_mesh, addr 0x65932dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x66d09e8, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_normalsInternal, addr 0x6591af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalsInternal, addr 0x66cf200, size 0x8, virtual false, abstract: false, final false
   inline void set_normalsInternal(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_positions, addr 0x6590d9c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_positions, addr 0x66ce4a8, size 0xac, virtual false, abstract: false, final false
   inline void set_positions(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_positionsInternal, addr 0x6590d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionsInternal, addr 0x66ce428, size 0x8, virtual false, abstract: false, final false
   inline void set_positionsInternal(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_preserveMeshAssetOnDestroy, addr 0x65901d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_preserveMeshAssetOnDestroy, addr 0x66cd8dc, size 0x8, virtual false, abstract: false, final false
   inline void set_preserveMeshAssetOnDestroy(bool value);
 
-  /// @brief Method set_selectable, addr 0x6597c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectable, addr 0x66d530c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectable(bool value);
 
-  /// @brief Method set_selectedEdgesInternal, addr 0x65982a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedEdgesInternal, addr 0x66d59ac, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedEdgesInternal(::ArrayW<::UnityEngine::ProBuilder::Edge> value);
 
-  /// @brief Method set_selectedFaceIndicesInternal, addr 0x6598290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedFaceIndicesInternal, addr 0x66d599c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedFaceIndicesInternal(::ArrayW<int32_t> value);
 
-  /// @brief Method set_selectedFacesInternal, addr 0x65981b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_selectedFacesInternal, addr 0x66d58c4, size 0xd0, virtual false, abstract: false, final false
   inline void set_selectedFacesInternal(::ArrayW<::UnityEngine::ProBuilder::Face*> value);
 
-  /// @brief Method set_selectedIndexesInternal, addr 0x65982b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedIndexesInternal, addr 0x66d59bc, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedIndexesInternal(::ArrayW<int32_t> value);
 
-  /// @brief Method set_sharedTextures, addr 0x6590bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sharedTextures, addr 0x66ce2e0, size 0x8, virtual false, abstract: false, final false
   inline void set_sharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> value);
 
-  /// @brief Method set_sharedVertices, addr 0x6590868, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method set_sharedVertices, addr 0x66cdf74, size 0x228, virtual false, abstract: false, final false
   inline void set_sharedVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* value);
 
-  /// @brief Method set_sharedVerticesInternal, addr 0x65907e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sharedVerticesInternal, addr 0x66cdef4, size 0x8, virtual false, abstract: false, final false
   inline void set_sharedVerticesInternal(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> value);
 
-  /// @brief Method set_tangents, addr 0x6591e60, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method set_tangents, addr 0x66cf56c, size 0x14c, virtual false, abstract: false, final false
   inline void set_tangents(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* value);
 
-  /// @brief Method set_tangentsInternal, addr 0x6591fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tangentsInternal, addr 0x66cf6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_tangentsInternal(::ArrayW<::UnityEngine::Vector4> value);
 
-  /// @brief Method set_textures, addr 0x6592060, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method set_textures, addr 0x66cf76c, size 0x138, virtual false, abstract: false, final false
   inline void set_textures(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* value);
 
-  /// @brief Method set_textures2Internal, addr 0x6591fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textures2Internal, addr 0x66cf6e0, size 0x8, virtual false, abstract: false, final false
   inline void set_textures2Internal(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  /// @brief Method set_textures3Internal, addr 0x6591fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textures3Internal, addr 0x66cf6f0, size 0x8, virtual false, abstract: false, final false
   inline void set_textures3Internal(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  /// @brief Method set_texturesInternal, addr 0x6591fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_texturesInternal, addr 0x66cf6d0, size 0x8, virtual false, abstract: false, final false
   inline void set_texturesInternal(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_unwrapParameters, addr 0x65900f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unwrapParameters, addr 0x66cd804, size 0x8, virtual false, abstract: false, final false
   inline void set_unwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
 
-  /// @brief Method set_userCollisions, addr 0x65900e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userCollisions, addr 0x66cd7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_userCollisions(bool value);
 
 protected:
@@ -1403,7 +1403,7 @@ public:
   ProBuilderMesh(ProBuilderMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16755 };
 
   /// @brief Field k_IconPath offset 0xffffffff size 0x8
   static constexpr ::ConstString k_IconPath{ u"Packages/com.unity.probuilder/Content/Icons/EditableMesh/EditableMesh.png" };

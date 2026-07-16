@@ -28,19 +28,19 @@ public:
 
   __declspec(property(get = get_SerializedException)) ::StringW SerializedException;
 
-  /// @brief Method .ctor, addr 0x60473c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61824bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW serializedException, ::StringW eventSource, ::StringW appDomainFriendlyName, ::StringW extendedData, ::StringW hostReference);
 
-  /// @brief Method get_AppDomainFriendlyName, addr 0x60473e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AppDomainFriendlyName, addr 0x61824dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AppDomainFriendlyName();
 
-  /// @brief Method get_EventSource, addr 0x60473d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventSource, addr 0x61824d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EventSource();
 
-  /// @brief Method get_ExtendedData, addr 0x60473e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedData, addr 0x61824e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ExtendedData();
 
-  /// @brief Method get_SerializedException, addr 0x60473d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedException, addr 0x61824cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializedException();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr TracePayload(::StringW serializedException, ::StringW eventSource, ::StringW appDomainFriendlyName, ::StringW extendedData, ::StringW hostReference) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

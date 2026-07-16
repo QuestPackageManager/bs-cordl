@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::ChainItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::ColorNote>, ::ArrayW<::BeatmapSaveDataVersion4::Chain>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::ChainItemConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36a2b40;
+  constexpr static std::size_t addrs = 0x375eb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapObjectData* (::BeatmapDataLoaderVersion4::ChainItemConverter::*)(::BeatmapSaveDataVersion4::ChainBeatIndex*)>(
     &::BeatmapDataLoaderVersion4::ChainItemConverter::Convert)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x36a2dd4;
+  constexpr static std::size_t addrs = 0x375ee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

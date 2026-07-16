@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Shared::MatchInfo (*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::DecodeMatchInfoWithStruct)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5938ba0;
+  constexpr static std::size_t addrs = 0x5a722a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::EncodeMatchInfoWithStruct)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5938d50;
+  constexpr static std::size_t addrs = 0x5a72454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::StringW, ::StringW> (*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::ExtractMatchInfoFromSessionId)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5938e14;
+  constexpr static std::size_t addrs = 0x5a72518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::EncodeMatchInfoToSessionId)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5938f6c;
+  constexpr static std::size_t addrs = 0x5a72670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils*>(),

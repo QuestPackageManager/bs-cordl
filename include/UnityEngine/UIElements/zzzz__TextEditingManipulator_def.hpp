@@ -54,24 +54,24 @@ public:
 
   __declspec(property(get = get_touchScreenTextFieldChanged)) bool touchScreenTextFieldChanged;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6b4cd3c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x6ca0bf4, size 0x270, virtual false, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method InitTextEditorEventHandler, addr 0x6b4cc3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitTextEditorEventHandler, addr 0x6ca0af4, size 0xd4, virtual false, abstract: false, final false
   inline void InitTextEditorEventHandler();
 
   static inline ::UnityEngine::UIElements::TextEditingManipulator* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnFocusInEvent, addr 0x6b4cfb0, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method OnFocusInEvent, addr 0x6ca0e68, size 0x2e0, virtual false, abstract: false, final false
   inline void OnFocusInEvent();
 
-  /// @brief Method OnFocusOutEvent, addr 0x6b4d290, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOutEvent, addr 0x6ca1148, size 0xb8, virtual false, abstract: false, final false
   inline void OnFocusOutEvent();
 
-  /// @brief Method Reset, addr 0x6b4cd10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6ca0bc8, size 0x2c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method <OnFocusInEvent>b__14_0, addr 0x6b4d348, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <OnFocusInEvent>b__14_0, addr 0x6ca1200, size 0x40, virtual false, abstract: false, final false
   inline void _OnFocusInEvent_b__14_0();
 
   constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
@@ -104,16 +104,16 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchScreenTextFieldInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x6b4cb1c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca09d4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_editingEventHandler, addr 0x6b4ca10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editingEventHandler, addr 0x6ca08c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEventHandler* get_editingEventHandler();
 
-  /// @brief Method get_touchScreenTextFieldChanged, addr 0x6b4ca78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenTextFieldChanged, addr 0x6ca0930, size 0xa4, virtual false, abstract: false, final false
   inline bool get_touchScreenTextFieldChanged();
 
-  /// @brief Method set_editingEventHandler, addr 0x6b4ca18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_editingEventHandler, addr 0x6ca08d0, size 0x60, virtual false, abstract: false, final false
   inline void set_editingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
 protected:

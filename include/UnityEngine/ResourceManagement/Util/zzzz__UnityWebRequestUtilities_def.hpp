@@ -32,24 +32,24 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE UnityWebRequestUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsAssetBundleDownloaded, addr 0x67cd06c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsAssetBundleDownloaded, addr 0x690bb3c, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op);
 
-  /// @brief Method Log, addr 0x67d4920, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x69133f0, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW msg);
 
-  /// @brief Method LogError, addr 0x67d48c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x6913394, size 0x5c, virtual false, abstract: false, final false
   static inline void LogError(::StringW msg);
 
-  /// @brief Method LogOperationResult, addr 0x67d47f0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LogOperationResult, addr 0x69132c0, size 0xd4, virtual false, abstract: false, final false
   static inline void LogOperationResult(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor();
 
-  /// @brief Method RequestHasErrors, addr 0x67d45ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RequestHasErrors, addr 0x69130bc, size 0x124, virtual false, abstract: false, final false
   static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ::by_ref<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
 
-  /// @brief Method .ctor, addr 0x67d497c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691344c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   UnityWebRequestUtilities(UnityWebRequestUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18729 };
 
   /// @brief Field k_AddressablesLogConditional offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AddressablesLogConditional{ u"ADDRESSABLES_LOG_ALL" };

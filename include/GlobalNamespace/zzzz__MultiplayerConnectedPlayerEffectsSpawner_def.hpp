@@ -41,15 +41,15 @@ public:
   /// @brief Field _noteDebrisSpawner, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner)) ::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
 
-  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x588378c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x59b42ec, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x588368c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59b41ec, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5883594, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59b40f4, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* const& __cordl_internal_get__beatmapObjectEventManager() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
 
-  /// @brief Method .ctor, addr 0x5883960, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b44c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6026 };
 
   /// @brief Field _noteDebrisSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisSpawner> ____noteDebrisSpawner;

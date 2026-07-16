@@ -112,70 +112,70 @@ public:
   /// @brief Field _updateRule, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__updateRule, put = __cordl_internal_set__updateRule)) ::System::Data::Rule _updateRule;
 
-  /// @brief Method CanBeRemovedFromCollection, addr 0x5f04ac8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanBeRemovedFromCollection, addr 0x603fbc4, size 0x8, virtual true, abstract: false, final false
   inline bool CanBeRemovedFromCollection(::System::Data::ConstraintCollection* constraints, bool fThrowException);
 
-  /// @brief Method CanEnableConstraint, addr 0x5f0504c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method CanEnableConstraint, addr 0x6040148, size 0x158, virtual true, abstract: false, final false
   inline bool CanEnableConstraint();
 
-  /// @brief Method CascadeCommit, addr 0x5f051a4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CascadeCommit, addr 0x60402a0, size 0x158, virtual false, abstract: false, final false
   inline void CascadeCommit(::System::Data::DataRow* row);
 
-  /// @brief Method CascadeDelete, addr 0x5f0530c, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method CascadeDelete, addr 0x6040408, size 0x4a4, virtual false, abstract: false, final false
   inline void CascadeDelete(::System::Data::DataRow* row);
 
-  /// @brief Method CascadeRollback, addr 0x5f05814, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CascadeRollback, addr 0x6040910, size 0x1e8, virtual false, abstract: false, final false
   inline void CascadeRollback(::System::Data::DataRow* row);
 
-  /// @brief Method CascadeUpdate, addr 0x5f059fc, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method CascadeUpdate, addr 0x6040af8, size 0x458, virtual false, abstract: false, final false
   inline void CascadeUpdate(::System::Data::DataRow* row);
 
-  /// @brief Method CheckCanAddToCollection, addr 0x5f049a8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CheckCanAddToCollection, addr 0x603faa4, size 0x120, virtual true, abstract: false, final false
   inline void CheckCanAddToCollection(::System::Data::ConstraintCollection* constraints);
 
-  /// @brief Method CheckCanClearParentTable, addr 0x5f05e54, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CheckCanClearParentTable, addr 0x6040f50, size 0xdc, virtual false, abstract: false, final false
   inline void CheckCanClearParentTable(::System::Data::DataTable* table);
 
-  /// @brief Method CheckCanRemoveParentRow, addr 0x5f05f30, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckCanRemoveParentRow, addr 0x604102c, size 0xac, virtual false, abstract: false, final false
   inline void CheckCanRemoveParentRow(::System::Data::DataRow* row);
 
-  /// @brief Method CheckCascade, addr 0x5f05ff8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CheckCascade, addr 0x60410f4, size 0x128, virtual false, abstract: false, final false
   inline void CheckCascade(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckConstraint, addr 0x5f06120, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method CheckConstraint, addr 0x604121c, size 0x2fc, virtual true, abstract: false, final false
   inline void CheckConstraint(::System::Data::DataRow* childRow, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckState, addr 0x5f06644, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CheckState, addr 0x6041740, size 0x4, virtual true, abstract: false, final false
   inline void CheckState();
 
-  /// @brief Method Clone, addr 0x5f066fc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x60417f8, size 0x10, virtual true, abstract: false, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination);
 
-  /// @brief Method Clone, addr 0x5f0670c, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x6041808, size 0x728, virtual true, abstract: false, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination, bool ignorNSforTableLookup);
 
-  /// @brief Method Clone, addr 0x5f06e50, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x6041f4c, size 0x5f0, virtual false, abstract: false, final false
   inline ::System::Data::ForeignKeyConstraint* Clone(::System::Data::DataTable* destination);
 
-  /// @brief Method ContainsColumn, addr 0x5f066b4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ContainsColumn, addr 0x60417b0, size 0x48, virtual true, abstract: false, final false
   inline bool ContainsColumn(::System::Data::DataColumn* column);
 
-  /// @brief Method Create, addr 0x5f047cc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x603f8c8, size 0x138, virtual false, abstract: false, final false
   inline void Create(::StringW relationName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
 
-  /// @brief Method Equals, addr 0x5f074ac, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60425a8, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* key);
 
-  /// @brief Method FindParentRelation, addr 0x5f075c4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FindParentRelation, addr 0x60426c0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Data::DataRelation* FindParentRelation();
 
-  /// @brief Method GetHashCode, addr 0x5f07590, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x604268c, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsConstraintViolated, addr 0x5f04b88, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method IsConstraintViolated, addr 0x603fc84, size 0x1f0, virtual true, abstract: false, final false
   inline bool IsConstraintViolated();
 
-  /// @brief Method IsKeyNull, addr 0x5f04ad0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsKeyNull, addr 0x603fbcc, size 0xb8, virtual false, abstract: false, final false
   inline bool IsKeyNull(::ArrayW<::System::Object*> values);
 
   static inline ::System::Data::ForeignKeyConstraint* New_ctor(::StringW constraintName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
@@ -185,7 +185,7 @@ public:
 
   static inline ::System::Data::ForeignKeyConstraint* New_ctor(::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
 
-  /// @brief Method NonVirtualCheckState, addr 0x5f0641c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method NonVirtualCheckState, addr 0x6041518, size 0x228, virtual false, abstract: false, final false
   inline void NonVirtualCheckState();
 
   constexpr ::System::Data::AcceptRejectRule const& __cordl_internal_get__acceptRejectRule() const;
@@ -242,59 +242,59 @@ public:
 
   constexpr void __cordl_internal_set__updateRule(::System::Data::Rule value);
 
-  /// @brief Method .ctor, addr 0x5f047a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603f8a4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW constraintName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
 
-  /// @brief Method .ctor, addr 0x5f04904, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603fa00, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW constraintName, ::StringW parentTableName, ::ArrayW<::StringW> parentColumnNames, ::ArrayW<::StringW> childColumnNames, ::System::Data::AcceptRejectRule acceptRejectRule,
                     ::System::Data::Rule deleteRule, ::System::Data::Rule updateRule);
 
-  /// @brief Method .ctor, addr 0x5f04778, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603f874, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
 
-  /// @brief Method get_AcceptRejectRule, addr 0x5f06648, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_AcceptRejectRule, addr 0x6041744, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Data::AcceptRejectRule get_AcceptRejectRule();
 
-  /// @brief Method get_ChildColumnNames, addr 0x5f0499c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ChildColumnNames, addr 0x603fa98, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_ChildColumnNames();
 
-  /// @brief Method get_ChildKey, addr 0x5f04934, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ChildKey, addr 0x603fa30, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Data::DataKey get_ChildKey();
 
-  /// @brief Method get_Columns, addr 0x5f04950, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Columns, addr 0x603fa4c, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> get_Columns();
 
-  /// @brief Method get_DeleteRule, addr 0x5f07440, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_DeleteRule, addr 0x604253c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Data::Rule get_DeleteRule();
 
-  /// @brief Method get_ParentColumnNames, addr 0x5f04990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ParentColumnNames, addr 0x603fa8c, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_ParentColumnNames();
 
-  /// @brief Method get_ParentKey, addr 0x5f05fdc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ParentKey, addr 0x60410d8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Data::DataKey get_ParentKey();
 
-  /// @brief Method get_RelatedColumns, addr 0x5f075a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_RelatedColumns, addr 0x60426a0, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> get_RelatedColumns();
 
-  /// @brief Method get_RelatedColumnsReference, addr 0x5f06e34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_RelatedColumnsReference, addr 0x6041f30, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> get_RelatedColumnsReference();
 
-  /// @brief Method get_RelatedTable, addr 0x5f0768c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_RelatedTable, addr 0x6042788, size 0x20, virtual true, abstract: false, final false
   inline ::System::Data::DataTable* get_RelatedTable();
 
-  /// @brief Method get_Table, addr 0x5f04970, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Table, addr 0x603fa6c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get_UpdateRule, addr 0x5f076ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_UpdateRule, addr 0x60427a8, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Data::Rule get_UpdateRule();
 
-  /// @brief Method set_AcceptRejectRule, addr 0x5f06664, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_AcceptRejectRule, addr 0x6041760, size 0x50, virtual true, abstract: false, final false
   inline void set_AcceptRejectRule(::System::Data::AcceptRejectRule value);
 
-  /// @brief Method set_DeleteRule, addr 0x5f0745c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_DeleteRule, addr 0x6042558, size 0x50, virtual true, abstract: false, final false
   inline void set_DeleteRule(::System::Data::Rule value);
 
-  /// @brief Method set_UpdateRule, addr 0x5f076c8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_UpdateRule, addr 0x60427c4, size 0x50, virtual true, abstract: false, final false
   inline void set_UpdateRule(::System::Data::Rule value);
 
 protected:
@@ -312,7 +312,7 @@ public:
   ForeignKeyConstraint(ForeignKeyConstraint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13804 };
 
   /// @brief Field _deleteRule, offset: 0x38, size: 0x4, def value: None
   ::System::Data::Rule ____deleteRule;

@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
 
-  /// @brief Method Init, addr 0x3333874, size 0x4f4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33efd2c, size 0x4f4, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t> H);
 
-  /// @brief Method MultiplyH, addr 0x3333d68, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method MultiplyH, addr 0x33f0220, size 0x154, virtual true, abstract: false, final true
   inline void MultiplyH(::ArrayW<uint8_t> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_M(::ArrayW<::ArrayW<::ArrayW<uint32_t>>> value);
 
-  /// @brief Method .ctor, addr 0x3333ebc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f0374, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"

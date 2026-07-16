@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::*)()>(
     &::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x898;
-  constexpr static std::size_t addrs = 0x369fb1c;
+  constexpr static std::size_t addrs = 0x375bb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36a03b4;
+  constexpr static std::size_t addrs = 0x375c40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::DataModels::RemoteLocalizationModel::*)(::BGLib::Polyglot::LocalizationModel*, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*)>(
     &::DataModels::RemoteLocalizationModel::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x369f974;
+  constexpr static std::size_t addrs = 0x375b9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::DataModels::RemoteLocalizationModel::*)()>(&::DataModels::RemoteLocalizationModel::Initialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x369fa14;
+  constexpr static std::size_t addrs = 0x375ba6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel*>(), { "Initialize", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::DataModels::RemoteLocalizationModel::*)()>(&::DataModels::RemoteLocalizationModel::HandleDidCatalogLoadOrUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x369fb00;
+  constexpr static std::size_t addrs = 0x375bb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel*>(), { "HandleDidCatalogLoadOrUpdate", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::DataModels::RemoteLocalizationModel::*)(::System::Threading::Tasks::Task*)>(
     &::DataModels::RemoteLocalizationModel::LoadAdditionalLocalizationAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x369fa3c;
+  constexpr static std::size_t addrs = 0x375ba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel*>(),

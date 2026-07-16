@@ -97,30 +97,30 @@ public:
   /// @brief Field tracingEnabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_tracingEnabled, put = __cordl_internal_set_tracingEnabled)) bool tracingEnabled;
 
-  /// @brief Method AddDomainEventHandlersForCleanup, addr 0x604b28c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AddDomainEventHandlersForCleanup, addr 0x6186388, size 0x1b8, virtual false, abstract: false, final false
   inline void AddDomainEventHandlersForCleanup();
 
-  /// @brief Method CreateDefaultSourceString, addr 0x604b6ac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultSourceString, addr 0x61867a8, size 0x150, virtual false, abstract: false, final false
   static inline ::StringW CreateDefaultSourceString(::System::Object* source);
 
-  /// @brief Method CreateSourceString, addr 0x604b5c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateSourceString, addr 0x61866c4, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW CreateSourceString(::System::Object* source);
 
-  /// @brief Method ExitOrUnloadEventHandler, addr 0x604b444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExitOrUnloadEventHandler, addr 0x6186540, size 0x4, virtual false, abstract: false, final false
   inline void ExitOrUnloadEventHandler(::System::Object* sender, ::System::EventArgs* e);
 
-  /// @brief Method FixLevel, addr 0x604ac84, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method FixLevel, addr 0x6185d80, size 0x40, virtual false, abstract: false, final false
   inline ::System::Diagnostics::SourceLevels FixLevel(::System::Diagnostics::SourceLevels level);
 
   /// @brief Method IsEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsEnabled();
 
-  /// @brief Method LogTraceFailure, addr 0x604ba80, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LogTraceFailure, addr 0x6186b7c, size 0x348, virtual false, abstract: false, final false
   inline void LogTraceFailure(::StringW traceString, ::System::Exception* exception);
 
   static inline ::System::Runtime::Diagnostics::DiagnosticTraceBase* New_ctor(::StringW traceSourceName);
 
-  /// @brief Method OnSetLevel, addr 0x604acc4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSetLevel, addr 0x6185dc0, size 0x4, virtual true, abstract: false, final false
   inline void OnSetLevel(::System::Diagnostics::SourceLevels level);
 
   /// @brief Method OnShutdownTracing, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -129,37 +129,37 @@ public:
   /// @brief Method OnUnhandledException, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnUnhandledException(::System::Exception* exception);
 
-  /// @brief Method SetLevel, addr 0x604acc8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetLevel, addr 0x6185dc4, size 0xf4, virtual false, abstract: false, final false
   inline void SetLevel(::System::Diagnostics::SourceLevels level);
 
-  /// @brief Method SetTraceSource, addr 0x604abd0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetTraceSource, addr 0x6185ccc, size 0xac, virtual false, abstract: false, final false
   inline void SetTraceSource(::System::Diagnostics::TraceSource* traceSource);
 
-  /// @brief Method ShouldTrace, addr 0x604b0c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x61861c0, size 0x4, virtual true, abstract: false, final false
   inline bool ShouldTrace(::System::Runtime::TraceEventLevel level);
 
-  /// @brief Method ShouldTrace, addr 0x604b0c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x61861c4, size 0x3c, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventType type);
 
-  /// @brief Method ShouldTraceToTraceSource, addr 0x6047a18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShouldTraceToTraceSource, addr 0x6182b14, size 0x70, virtual false, abstract: false, final false
   inline bool ShouldTraceToTraceSource(::System::Runtime::TraceEventLevel level);
 
-  /// @brief Method ShutdownTracing, addr 0x604b448, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ShutdownTracing, addr 0x6186544, size 0xd4, virtual false, abstract: false, final false
   inline void ShutdownTracing();
 
-  /// @brief Method StackTraceString, addr 0x604b7fc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method StackTraceString, addr 0x61868f8, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW StackTraceString(::System::Exception* exception);
 
   /// @brief Method TraceEventLogEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void TraceEventLogEvent(::System::Diagnostics::TraceEventType type, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
-  /// @brief Method UnhandledExceptionHandler, addr 0x604b51c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UnhandledExceptionHandler, addr 0x6186618, size 0xac, virtual false, abstract: false, final false
   inline void UnhandledExceptionHandler(::System::Object* sender, ::System::UnhandledExceptionEventArgs* args);
 
-  /// @brief Method UnsafeRemoveDefaultTraceListener, addr 0x604ab60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnsafeRemoveDefaultTraceListener, addr 0x6185c5c, size 0x68, virtual false, abstract: false, final false
   static inline void UnsafeRemoveDefaultTraceListener(::System::Diagnostics::TraceSource* traceSource);
 
-  /// @brief Method XmlEncode, addr 0x604b104, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method XmlEncode, addr 0x6186200, size 0x188, virtual false, abstract: false, final false
   static inline ::StringW XmlEncode(::StringW text);
 
   constexpr ::StringW const& __cordl_internal_get_TraceSourceName() const;
@@ -216,44 +216,44 @@ public:
 
   constexpr void __cordl_internal_set_tracingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x604aaac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6185ba8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW traceSourceName);
 
   static inline ::StringW getStaticF_AppDomainFriendlyName();
 
-  /// @brief Method get_CalledShutdown, addr 0x604c38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CalledShutdown, addr 0x6187488, size 0x8, virtual false, abstract: false, final false
   inline bool get_CalledShutdown();
 
-  /// @brief Method get_EventSourceName, addr 0x604ae30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventSourceName, addr 0x6185f2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EventSourceName();
 
-  /// @brief Method get_HaveListeners, addr 0x604ac7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HaveListeners, addr 0x6185d78, size 0x8, virtual false, abstract: false, final false
   inline bool get_HaveListeners();
 
-  /// @brief Method get_LastFailure, addr 0x604ab50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastFailure, addr 0x6185c4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastFailure();
 
-  /// @brief Method get_Level, addr 0x604adbc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x6185eb8, size 0x74, virtual false, abstract: false, final false
   inline ::System::Diagnostics::SourceLevels get_Level();
 
-  /// @brief Method get_ProcessId, addr 0x604af90, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessId, addr 0x618608c, size 0x134, virtual false, abstract: false, final false
   static inline int32_t get_ProcessId();
 
-  /// @brief Method get_ProcessName, addr 0x604ae60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessName, addr 0x6185f5c, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW get_ProcessName();
 
-  /// @brief Method get_TraceSource, addr 0x604abc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TraceSource, addr 0x6185cc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceSource* get_TraceSource();
 
-  /// @brief Method get_TracingEnabled, addr 0x604ae40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TracingEnabled, addr 0x6185f3c, size 0x20, virtual false, abstract: false, final false
   inline bool get_TracingEnabled();
 
   static inline void setStaticF_AppDomainFriendlyName(::StringW value);
 
-  /// @brief Method set_EventSourceName, addr 0x604ae38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventSourceName, addr 0x6185f34, size 0x8, virtual false, abstract: false, final false
   inline void set_EventSourceName(::StringW value);
 
-  /// @brief Method set_LastFailure, addr 0x604ab58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastFailure, addr 0x6185c54, size 0x8, virtual false, abstract: false, final false
   inline void set_LastFailure(::System::DateTime value);
 
 protected:
@@ -271,7 +271,7 @@ public:
   DiagnosticTraceBase(DiagnosticTraceBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21272 };
 
   /// @brief Field thisLock, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___thisLock;

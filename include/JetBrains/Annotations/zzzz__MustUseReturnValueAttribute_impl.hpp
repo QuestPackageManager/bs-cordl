@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&::JetBrains::Annotations::MustUseReturnValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce6768;
+  constexpr static std::size_t addrs = 0x6e3aa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::MustUseReturnValueAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MustUseReturnValueAttribute::*)(::StringW)>(&::JetBrains::Annotations::MustUseReturnValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce676c;
+  constexpr static std::size_t addrs = 0x6e3aa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(
     &::JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce6774;
+  constexpr static std::size_t addrs = 0x6e3aa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MustUseReturnValueAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce677c;
+  constexpr static std::size_t addrs = 0x6e3aa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

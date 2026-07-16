@@ -28,16 +28,16 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ShaderKeywordSet {
 public:
   // Declarations
-  /// @brief Method CheckKeywordCompatible, addr 0x69d71ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckKeywordCompatible, addr 0x6b2ac88, size 0xc4, virtual false, abstract: false, final false
   inline void CheckKeywordCompatible(::UnityEngine::Rendering::ShaderKeyword keyword);
 
-  /// @brief Method IsEnabled, addr 0x69d7270, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x6b2ad4c, size 0x40, virtual false, abstract: false, final false
   inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword keyword);
 
-  /// @brief Method IsKeywordNameEnabled, addr 0x69d7028, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled, addr 0x6b2ab04, size 0x140, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet state, ::StringW name);
 
-  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x69d7168, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6b2ac44, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet> state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr ShaderKeywordSet(::System::IntPtr m_KeywordState, ::System::IntPtr m_Shader, ::System::IntPtr m_ComputeShader, uint64_t m_StateIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10867 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

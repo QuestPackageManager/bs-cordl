@@ -53,10 +53,10 @@ public:
   __declspec(property(get = __cordl_internal_get_typeArguments,
                       put = __cordl_internal_set_typeArguments)) ::System::Collections::Generic::List_1<::System::Runtime::Serialization::CodeTypeReference*>* typeArguments;
 
-  /// @brief Method Initialize, addr 0x603c328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6177424, size 0x8, virtual false, abstract: false, final false
   inline void Initialize(::StringW typeName);
 
-  /// @brief Method Initialize, addr 0x603bae8, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6176be4, size 0x838, virtual false, abstract: false, final false
   inline void Initialize(::StringW typeName, ::System::Runtime::Serialization::CodeTypeReferenceOptions options);
 
   static inline ::System::Runtime::Serialization::CodeTypeReference* New_ctor(::System::Runtime::Serialization::CodeTypeReference* arrayType, int32_t rank);
@@ -65,7 +65,7 @@ public:
 
   static inline ::System::Runtime::Serialization::CodeTypeReference* New_ctor(::StringW typeName, ::System::Runtime::Serialization::CodeTypeReferenceOptions codeTypeReferenceOption);
 
-  /// @brief Method RipOffAssemblyInformationFromTypeName, addr 0x603c330, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method RipOffAssemblyInformationFromTypeName, addr 0x617742c, size 0x1e0, virtual false, abstract: false, final false
   inline ::StringW RipOffAssemblyInformationFromTypeName(::StringW typeName);
 
   constexpr ::System::Runtime::Serialization::CodeTypeReference* const& __cordl_internal_get_arrayElementType() const;
@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set_typeArguments(::System::Collections::Generic::List_1<::System::Runtime::Serialization::CodeTypeReference*>* value);
 
-  /// @brief Method .ctor, addr 0x603c5b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61776b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::CodeTypeReference* arrayType, int32_t rank);
 
-  /// @brief Method .ctor, addr 0x603c320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x617741c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method .ctor, addr 0x603bae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6176be0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::System::Runtime::Serialization::CodeTypeReferenceOptions codeTypeReferenceOption);
 
-  /// @brief Method get_BaseType, addr 0x603c5c8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x61776c4, size 0x144, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_Options, addr 0x603c70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x6177808, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CodeTypeReferenceOptions get_Options();
 
-  /// @brief Method get_TypeArguments, addr 0x603c510, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeArguments, addr 0x617760c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Runtime::Serialization::CodeTypeReference*>* get_TypeArguments();
 
-  /// @brief Method set_Options, addr 0x603c714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x6177810, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::System::Runtime::Serialization::CodeTypeReferenceOptions value);
 
 protected:
@@ -140,7 +140,7 @@ public:
   CodeTypeReference(CodeTypeReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17126 };
 
   /// @brief Field baseType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___baseType;

@@ -30,13 +30,13 @@ public:
   /// @brief Field points, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points)) ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points;
 
-  /// @brief Method Copy, addr 0x3473e80, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3530338, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> Copy(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
-  /// @brief Method Lookup, addr 0x3473fc0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x3530478, size 0x4c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x347400c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x35304c4, size 0x30, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::SimpleLookupTable* New_ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_points(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> value);
 
-  /// @brief Method .ctor, addr 0x3473f84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353043c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
-  /// @brief Method get_Size, addr 0x3473fa8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x3530460, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

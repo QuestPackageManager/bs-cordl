@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_oneSaberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x58b97bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9ee8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
 protected:
@@ -76,7 +76,7 @@ public:
   SaberManager_InitData(SaberManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6202 };
 
   /// @brief Field oneSaberMode, offset: 0x10, size: 0x1, def value: None
   bool ___oneSaberMode;
@@ -128,22 +128,22 @@ public:
 
   static inline ::GlobalNamespace::SaberManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58b96c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59e9dec, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x58b96c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59e9df0, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshSabers, addr 0x58b9598, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RefreshSabers, addr 0x59e9cb4, size 0x138, virtual false, abstract: false, final false
   inline void RefreshSabers();
 
-  /// @brief Method SaberForType, addr 0x58b976c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SaberForType, addr 0x59e9e98, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> SaberForType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method Start, addr 0x58b957c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59e9c98, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58b96d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59e9e00, size 0x98, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::SaberManager_InitData* const& __cordl_internal_get__initData() const;
@@ -176,22 +176,22 @@ public:
 
   constexpr void __cordl_internal_set_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method .ctor, addr 0x58b97b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9ee4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x58b7a7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x59e8000, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method get_leftSaber, addr 0x58b955c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftSaber, addr 0x59e9c78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_leftSaber();
 
-  /// @brief Method get_rightSaber, addr 0x58b9564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightSaber, addr 0x59e9c80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
-  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x58b7bc8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x59e814c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method set_disableSabers, addr 0x58b956c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_disableSabers, addr 0x59e9c88, size 0x10, virtual false, abstract: false, final false
   inline void set_disableSabers(bool value);
 
 protected:
@@ -209,7 +209,7 @@ public:
   SaberManager(SaberManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6203 };
 
   /// @brief Field _leftSaber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____leftSaber;

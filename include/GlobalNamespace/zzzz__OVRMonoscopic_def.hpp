@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMonoscopic* New_ctor();
 
-  /// @brief Method Update, addr 0x5dca91c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5f02b44, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_monoscopic() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x5dcaa28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f02c50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   OVRMonoscopic(OVRMonoscopic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7915 };
 
   /// @brief Field toggleButton, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawButton ___toggleButton;

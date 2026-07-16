@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_scrollOffset(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6bd72ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2b1a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

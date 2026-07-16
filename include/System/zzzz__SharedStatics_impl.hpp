@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::SharedStatics::*)()>(&::System::SharedStatics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b4e018;
+  constexpr static std::size_t addrs = 0x5c87cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::SharedStatics*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Util::Tokenizer_StringMaker* (*)()>(&::System::SharedStatics::GetSharedStringMaker)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5b4e020;
+  constexpr static std::size_t addrs = 0x5c87cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::SharedStatics*>(), { "GetSharedStringMaker", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Security::Util::Tokenizer_StringMaker*>)>(&::System::SharedStatics::ReleaseSharedStringMaker)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5b4e1c4;
+  constexpr static std::size_t addrs = 0x5c87e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

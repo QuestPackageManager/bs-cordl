@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)(int32_t)>(&::GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36718d8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x375223c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)()>(&::GlobalNamespace::ScoreObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3671934;
+  constexpr static std::size_t addrs = 0x3752294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreObjectiveValueFormatterSO*>(), { ".ctor", {}, {} })));

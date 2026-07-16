@@ -60,10 +60,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e01fa0, size 0x388, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f3a2c4, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5e02328, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f3a64c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -80,7 +80,7 @@ public:
                                                                ::OSCE::Analytics::AnalyticsBatchingThread* __4__this) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -150,45 +150,45 @@ public:
   __declspec(property(get = __cordl_internal_get__unsentThreadedEvents,
                       put = __cordl_internal_set__unsentThreadedEvents)) ::System::Collections::Concurrent::ConcurrentQueue_1<::OSCE::Analytics::BaseAnalyticsEvent*>* _unsentThreadedEvents;
 
-  /// @brief Method BatchSent, addr 0x5e0193c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method BatchSent, addr 0x5f39c60, size 0xb8, virtual false, abstract: false, final false
   inline void BatchSent();
 
-  /// @brief Method CollectThreadedMessagesIntoBatch, addr 0x5e01c30, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CollectThreadedMessagesIntoBatch, addr 0x5f39f54, size 0x24c, virtual false, abstract: false, final false
   inline ::OSCE::Analytics::LoggerAnalyticsBatch* CollectThreadedMessagesIntoBatch(::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend);
 
-  /// @brief Method FlushToSingleBatch, addr 0x5e017a8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FlushToSingleBatch, addr 0x5f39acc, size 0x144, virtual false, abstract: false, final false
   inline ::OSCE::Analytics::LoggerAnalyticsBatch* FlushToSingleBatch(::OSCE::Analytics::LoggerAnalyticsBatch* batch);
 
-  /// @brief Method GetActiveSends, addr 0x5e00780, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetActiveSends, addr 0x5f38aa4, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetActiveSends();
 
-  /// @brief Method IsBatchQueueEmpty, addr 0x5e00838, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method IsBatchQueueEmpty, addr 0x5f38b5c, size 0x174, virtual false, abstract: false, final false
   inline bool IsBatchQueueEmpty();
 
   static inline ::OSCE::Analytics::AnalyticsBatchingThread* New_ctor(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method OnBatchAttempted, addr 0x5e01518, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnBatchAttempted, addr 0x5f3983c, size 0xb8, virtual false, abstract: false, final false
   inline void OnBatchAttempted();
 
-  /// @brief Method QueueBatch, addr 0x5e0048c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method QueueBatch, addr 0x5f387b0, size 0x140, virtual false, abstract: false, final false
   inline void QueueBatch(::OSCE::Analytics::LoggerAnalyticsBatch* batch);
 
-  /// @brief Method QueueThreadedMessage, addr 0x5e01b34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method QueueThreadedMessage, addr 0x5f39e58, size 0x64, virtual false, abstract: false, final false
   inline void QueueThreadedMessage(::OSCE::Analytics::BaseAnalyticsEvent* newEvent);
 
-  /// @brief Method SendBatchFromThread, addr 0x5e01e7c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SendBatchFromThread, addr 0x5f3a1a0, size 0x124, virtual false, abstract: false, final false
   inline void SendBatchFromThread(::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend, bool shouldFlush);
 
-  /// @brief Method Shutdown, addr 0x5e00b40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x5f38e64, size 0x44, virtual false, abstract: false, final false
   inline void Shutdown();
 
-  /// @brief Method ThreadedBatchSender, addr 0x5e01b98, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ThreadedBatchSender, addr 0x5f39ebc, size 0x98, virtual false, abstract: false, final false
   inline void ThreadedBatchSender();
 
-  /// @brief Method TriggerAsyncSend, addr 0x5e009ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TriggerAsyncSend, addr 0x5f38cd0, size 0x70, virtual false, abstract: false, final false
   inline void TriggerAsyncSend();
 
-  /// @brief Method TriggerImmediateSend, addr 0x5e015e8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method TriggerImmediateSend, addr 0x5f3990c, size 0x1c0, virtual false, abstract: false, final false
   inline void TriggerImmediateSend();
 
   constexpr int32_t const& __cordl_internal_get__activeSends() const;
@@ -251,10 +251,10 @@ public:
 
   constexpr void __cordl_internal_set__unsentThreadedEvents(::System::Collections::Concurrent::ConcurrentQueue_1<::OSCE::Analytics::BaseAnalyticsEvent*>* value);
 
-  /// @brief Method .ctor, addr 0x5dff9b8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f37cdc, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method get_TimeOfLastSend, addr 0x5e015e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeOfLastSend, addr 0x5f39904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TimeOfLastSend();
 
 protected:
@@ -272,7 +272,7 @@ public:
   AnalyticsBatchingThread(AnalyticsBatchingThread const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21859 };
 
   /// @brief Field _lock, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____lock;

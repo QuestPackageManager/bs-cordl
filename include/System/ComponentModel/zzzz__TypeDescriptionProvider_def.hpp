@@ -49,7 +49,7 @@ public:
   // Declarations
   static inline ::System::ComponentModel::TypeDescriptionProvider_EmptyCustomTypeDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6287cc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c3d64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   TypeDescriptionProvider_EmptyCustomTypeDescriptor(TypeDescriptionProvider_EmptyCustomTypeDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,31 +91,31 @@ public:
   /// @brief Field _parent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent)) ::System::ComponentModel::TypeDescriptionProvider* _parent;
 
-  /// @brief Method CreateInstance, addr 0x6287b70, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x63c3c0c, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::System::Object*> args);
 
-  /// @brief Method GetCache, addr 0x6287c28, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetCache, addr 0x63c3cc4, size 0x18, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetExtendedTypeDescriptor, addr 0x6287c40, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetExtendedTypeDescriptor, addr 0x63c3cdc, size 0x88, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetExtenderProviders, addr 0x6287ccc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetExtenderProviders, addr 0x63c3d68, size 0x118, virtual true, abstract: false, final false
   inline ::ArrayW<::System::ComponentModel::IExtenderProvider*> GetExtenderProviders(::System::Object* instance);
 
-  /// @brief Method GetReflectionType, addr 0x6287de4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x63c3e80, size 0x10, virtual false, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType);
 
-  /// @brief Method GetReflectionType, addr 0x6287df4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x63c3e90, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor, addr 0x6287e20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x63c3ebc, size 0x88, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor, addr 0x6287e10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x63c3eac, size 0x10, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType);
 
-  /// @brief Method GetTypeDescriptor, addr 0x6287ea8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x63c3f44, size 0x90, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance);
 
   static inline ::System::ComponentModel::TypeDescriptionProvider* New_ctor();
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::TypeDescriptionProvider* value);
 
-  /// @brief Method .ctor, addr 0x627e4c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ba560, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   TypeDescriptionProvider(TypeDescriptionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11275 };
 
   /// @brief Field _parent, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::TypeDescriptionProvider* ____parent;

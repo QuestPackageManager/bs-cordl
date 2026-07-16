@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__InformationalVersion_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a419b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7b684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW informationalVersion);
 
 protected:

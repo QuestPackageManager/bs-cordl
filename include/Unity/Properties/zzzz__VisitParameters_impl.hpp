@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::VisitExceptionKind (::Unity::Properties::VisitParameters::*)()>(
     &::Unity::Properties::VisitParameters::get_IgnoreExceptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a471c0;
+  constexpr static std::size_t addrs = 0x6b9ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::VisitParameters>(), { "get_IgnoreExceptions", {}, {} })));

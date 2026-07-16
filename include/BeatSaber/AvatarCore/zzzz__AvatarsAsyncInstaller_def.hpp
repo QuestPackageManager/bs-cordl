@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(AvatarsAsyncInstaller)
 namespace BGLib::AppFlow::Initialization {
-class AsyncInstaller_IInstallerRegistry;
+class IInstallerRegistry;
 }
 namespace BeatSaber::AvatarCore {
 class AbstractAdapterInstallerSO;
@@ -31,19 +31,19 @@ public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x31d364c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x326ab5c, size 0xfc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x31d3748, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x326ac58, size 0x3d4, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
-                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
+                                         ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31d3b20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326b02c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x31d3608, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x326ab18, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -61,11 +61,11 @@ public:
   AvatarsAsyncInstaller(AvatarsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::BeatSaber::AvatarCore::AvatarsAsyncInstaller) == 0x40, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::AvatarCore::AvatarsAsyncInstaller) == 0x50, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore

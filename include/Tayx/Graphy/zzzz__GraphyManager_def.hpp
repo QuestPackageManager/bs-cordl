@@ -139,7 +139,7 @@ public:
   static ::Tayx::Graphy::GraphyManager_Mode const LIGHT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21430 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -202,7 +202,7 @@ public:
   static ::Tayx::Graphy::GraphyManager_ModuleType const RAM;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21431 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -269,7 +269,7 @@ public:
   static ::Tayx::Graphy::GraphyManager_ModuleState const TEXT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21432 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -336,7 +336,7 @@ public:
   static ::Tayx::Graphy::GraphyManager_ModulePosition const TOP_RIGHT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -395,7 +395,7 @@ public:
   static ::Tayx::Graphy::GraphyManager_LookForAudioListener const ON_SCENE_LOAD;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21434 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -490,7 +490,7 @@ public:
   static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_TEXT_RAM_TEXT_AUDIO_TEXT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21435 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -749,60 +749,60 @@ public:
   /// @brief Field m_toggleModeKeyCode, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_toggleModeKeyCode, put = __cordl_internal_set_m_toggleModeKeyCode)) ::UnityEngine::InputSystem::Key m_toggleModeKeyCode;
 
-  /// @brief Method CheckFor1KeyPress, addr 0x62fba38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckFor1KeyPress, addr 0x6437ad4, size 0x78, virtual false, abstract: false, final false
   inline bool CheckFor1KeyPress(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method CheckFor2KeyPress, addr 0x62fb8b4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CheckFor2KeyPress, addr 0x6437950, size 0x184, virtual false, abstract: false, final false
   inline bool CheckFor2KeyPress(::UnityEngine::InputSystem::Key key1, ::UnityEngine::InputSystem::Key key2);
 
-  /// @brief Method CheckFor3KeyPress, addr 0x62fb590, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CheckFor3KeyPress, addr 0x643762c, size 0x324, virtual false, abstract: false, final false
   inline bool CheckFor3KeyPress(::UnityEngine::InputSystem::Key key1, ::UnityEngine::InputSystem::Key key2, ::UnityEngine::InputSystem::Key key3);
 
-  /// @brief Method CheckForHotkeyPresses, addr 0x62f9014, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckForHotkeyPresses, addr 0x64350b0, size 0x168, virtual false, abstract: false, final false
   inline void CheckForHotkeyPresses();
 
-  /// @brief Method Disable, addr 0x62f973c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x64357d8, size 0x70, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x62f96b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x6435750, size 0x88, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x62f88c8, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6434964, size 0x578, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::GraphyManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x62f917c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x6435218, size 0x18, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool isFocused);
 
-  /// @brief Method OnDestroy, addr 0x62f8e40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6434edc, size 0x7c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshAllParameters, addr 0x62f9194, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RefreshAllParameters, addr 0x6435230, size 0x40, virtual false, abstract: false, final false
   inline void RefreshAllParameters();
 
-  /// @brief Method SetModuleMode, addr 0x62f9254, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetModuleMode, addr 0x64352f0, size 0x94, virtual false, abstract: false, final false
   inline void SetModuleMode(::Tayx::Graphy::GraphyManager_ModuleType moduleType, ::Tayx::Graphy::GraphyManager_ModuleState moduleState);
 
-  /// @brief Method SetModulePosition, addr 0x62f91d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetModulePosition, addr 0x6435270, size 0x80, virtual false, abstract: false, final false
   inline void SetModulePosition(::Tayx::Graphy::GraphyManager_ModuleType moduleType, ::Tayx::Graphy::GraphyManager_ModulePosition modulePosition);
 
-  /// @brief Method SetPreset, addr 0x62f93ac, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method SetPreset, addr 0x6435448, size 0x2f8, virtual false, abstract: false, final false
   inline void SetPreset(::Tayx::Graphy::GraphyManager_ModulePreset modulePreset);
 
-  /// @brief Method Start, addr 0x62f88c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6434960, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleActive, addr 0x62f96a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToggleActive, addr 0x6435740, size 0x10, virtual false, abstract: false, final false
   inline void ToggleActive();
 
-  /// @brief Method ToggleModes, addr 0x62f92e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleModes, addr 0x6435384, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleModes();
 
-  /// @brief Method Update, addr 0x62f8ffc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6435098, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAllParameters, addr 0x62f68d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllParameters, addr 0x643296c, size 0x40, virtual false, abstract: false, final false
   inline void UpdateAllParameters();
 
   constexpr ::UnityEngine::FFTWindow const& __cordl_internal_get_m_FFTWindow() const;
@@ -1093,208 +1093,208 @@ public:
 
   constexpr void __cordl_internal_set_m_toggleModeKeyCode(::UnityEngine::InputSystem::Key value);
 
-  /// @brief Method .ctor, addr 0x62f678c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6432828, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AdvancedModulePosition, addr 0x62f808c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdvancedModulePosition, addr 0x6434128, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_ModulePosition get_AdvancedModulePosition();
 
-  /// @brief Method get_AdvancedModuleState, addr 0x62f7fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdvancedModuleState, addr 0x6434088, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_ModuleState get_AdvancedModuleState();
 
-  /// @brief Method get_AllocatedRam, addr 0x62f7b88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedRam, addr 0x6433c24, size 0x18, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();
 
-  /// @brief Method get_AllocatedRamColor, addr 0x62f7968, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedRamColor, addr 0x6433a04, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_AllocatedRamColor();
 
-  /// @brief Method get_AudioGraphColor, addr 0x62f7f00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AudioGraphColor, addr 0x6433f9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_AudioGraphColor();
 
-  /// @brief Method get_AudioGraphResolution, addr 0x62f7f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioGraphResolution, addr 0x6433fc8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AudioGraphResolution();
 
-  /// @brief Method get_AudioListener, addr 0x62f7d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioListener, addr 0x6433de8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioListener> get_AudioListener();
 
-  /// @brief Method get_AudioModuleState, addr 0x62f7bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioModuleState, addr 0x6433c6c, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_ModuleState get_AudioModuleState();
 
-  /// @brief Method get_AudioTextUpdateRate, addr 0x62f7f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioTextUpdateRate, addr 0x6433fec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AudioTextUpdateRate();
 
-  /// @brief Method get_AverageFPS, addr 0x62f7798, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AverageFPS, addr 0x6433834, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_AverageFPS();
 
-  /// @brief Method get_Background, addr 0x62f6920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Background, addr 0x64329bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Background();
 
-  /// @brief Method get_BackgroundColor, addr 0x62f6930, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BackgroundColor, addr 0x64329cc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_BackgroundColor();
 
-  /// @brief Method get_CautionFPSColor, addr 0x62f7694, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CautionFPSColor, addr 0x6433730, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_CautionFPSColor();
 
-  /// @brief Method get_CautionFPSThreshold, addr 0x62f7710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CautionFPSThreshold, addr 0x64337ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CautionFPSThreshold();
 
-  /// @brief Method get_CriticalFPSColor, addr 0x62f76c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CriticalFPSColor, addr 0x643375c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_CriticalFPSColor();
 
-  /// @brief Method get_CurrentFPS, addr 0x62f777c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentFPS, addr 0x6433818, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_CurrentFPS();
 
-  /// @brief Method get_EnableOnStartup, addr 0x62f6910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableOnStartup, addr 0x64329ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableOnStartup();
 
-  /// @brief Method get_FftWindow, addr 0x62f7f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FftWindow, addr 0x6434010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FFTWindow get_FftWindow();
 
-  /// @brief Method get_FindAudioListenerInCameraIfNull, addr 0x62f7edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FindAudioListenerInCameraIfNull, addr 0x6433f78, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_LookForAudioListener get_FindAudioListenerInCameraIfNull();
 
-  /// @brief Method get_FpsGraphResolution, addr 0x62f7734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FpsGraphResolution, addr 0x64337d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FpsGraphResolution();
 
-  /// @brief Method get_FpsModuleState, addr 0x62f72e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FpsModuleState, addr 0x6433380, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_ModuleState get_FpsModuleState();
 
-  /// @brief Method get_FpsTextUpdateRate, addr 0x62f7758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FpsTextUpdateRate, addr 0x64337f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FpsTextUpdateRate();
 
-  /// @brief Method get_GoodFPSColor, addr 0x62f74c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_GoodFPSColor, addr 0x6433560, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_GoodFPSColor();
 
-  /// @brief Method get_GoodFPSThreshold, addr 0x62f76ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GoodFPSThreshold, addr 0x6433788, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GoodFPSThreshold();
 
-  /// @brief Method get_GraphModulePosition, addr 0x62f6948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GraphModulePosition, addr 0x64329e4, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_ModulePosition get_GraphModulePosition();
 
-  /// @brief Method get_GraphyMode, addr 0x62f68c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GraphyMode, addr 0x643295c, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_Mode get_GraphyMode();
 
-  /// @brief Method get_KeepAlive, addr 0x62f6918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x64329b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_MaxDB, addr 0x62f7fd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDB, addr 0x6434070, size 0x18, virtual false, abstract: false, final false
   inline float_t get_MaxDB();
 
-  /// @brief Method get_MaxFPS, addr 0x62f77d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MaxFPS, addr 0x643386c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_MaxFPS();
 
-  /// @brief Method get_MinFPS, addr 0x62f77b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MinFPS, addr 0x6433850, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_MinFPS();
 
-  /// @brief Method get_MonoRam, addr 0x62f7bb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MonoRam, addr 0x6433c54, size 0x18, virtual false, abstract: false, final false
   inline float_t get_MonoRam();
 
-  /// @brief Method get_MonoRamColor, addr 0x62f7b14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MonoRamColor, addr 0x6433bb0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_MonoRamColor();
 
-  /// @brief Method get_RamGraphResolution, addr 0x62f7b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RamGraphResolution, addr 0x6433bdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RamGraphResolution();
 
-  /// @brief Method get_RamModuleState, addr 0x62f77ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RamModuleState, addr 0x6433888, size 0x8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyManager_ModuleState get_RamModuleState();
 
-  /// @brief Method get_RamTextUpdateRate, addr 0x62f7b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RamTextUpdateRate, addr 0x6433c00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RamTextUpdateRate();
 
-  /// @brief Method get_ReservedRam, addr 0x62f7ba0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ReservedRam, addr 0x6433c3c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_ReservedRam();
 
-  /// @brief Method get_ReservedRamColor, addr 0x62f7ae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ReservedRamColor, addr 0x6433b84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_ReservedRamColor();
 
-  /// @brief Method get_Spectrum, addr 0x62f7fbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Spectrum, addr 0x6434058, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_Spectrum();
 
-  /// @brief Method get_SpectrumSize, addr 0x62f7f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SpectrumSize, addr 0x6434034, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SpectrumSize();
 
-  /// @brief Method set_AdvancedModulePosition, addr 0x62f8094, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_AdvancedModulePosition, addr 0x6434130, size 0x1c, virtual false, abstract: false, final false
   inline void set_AdvancedModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value);
 
-  /// @brief Method set_AdvancedModuleState, addr 0x62f7ff4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AdvancedModuleState, addr 0x6434090, size 0x20, virtual false, abstract: false, final false
   inline void set_AdvancedModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_AllocatedRamColor, addr 0x62f7974, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AllocatedRamColor, addr 0x6433a10, size 0x20, virtual false, abstract: false, final false
   inline void set_AllocatedRamColor(::UnityEngine::Color value);
 
-  /// @brief Method set_AudioGraphColor, addr 0x62f7f0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AudioGraphColor, addr 0x6433fa8, size 0x20, virtual false, abstract: false, final false
   inline void set_AudioGraphColor(::UnityEngine::Color value);
 
-  /// @brief Method set_AudioGraphResolution, addr 0x62f7f34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_AudioGraphResolution, addr 0x6433fd0, size 0x1c, virtual false, abstract: false, final false
   inline void set_AudioGraphResolution(int32_t value);
 
-  /// @brief Method set_AudioListener, addr 0x62f7d54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_AudioListener, addr 0x6433df0, size 0x1c, virtual false, abstract: false, final false
   inline void set_AudioListener(::UnityEngine::AudioListener* value);
 
-  /// @brief Method set_AudioModuleState, addr 0x62f7bd8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AudioModuleState, addr 0x6433c74, size 0x20, virtual false, abstract: false, final false
   inline void set_AudioModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_AudioTextUpdateRate, addr 0x62f7f58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_AudioTextUpdateRate, addr 0x6433ff4, size 0x1c, virtual false, abstract: false, final false
   inline void set_AudioTextUpdateRate(int32_t value);
 
-  /// @brief Method set_Background, addr 0x62f6928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Background, addr 0x64329c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Background(bool value);
 
-  /// @brief Method set_BackgroundColor, addr 0x62f693c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundColor, addr 0x64329d8, size 0xc, virtual false, abstract: false, final false
   inline void set_BackgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method set_CautionFPSColor, addr 0x62f76a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_CautionFPSColor, addr 0x643373c, size 0x20, virtual false, abstract: false, final false
   inline void set_CautionFPSColor(::UnityEngine::Color value);
 
-  /// @brief Method set_CautionFPSThreshold, addr 0x62f7718, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_CautionFPSThreshold, addr 0x64337b4, size 0x1c, virtual false, abstract: false, final false
   inline void set_CautionFPSThreshold(int32_t value);
 
-  /// @brief Method set_CriticalFPSColor, addr 0x62f76cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_CriticalFPSColor, addr 0x6433768, size 0x20, virtual false, abstract: false, final false
   inline void set_CriticalFPSColor(::UnityEngine::Color value);
 
-  /// @brief Method set_FftWindow, addr 0x62f7f7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_FftWindow, addr 0x6434018, size 0x1c, virtual false, abstract: false, final false
   inline void set_FftWindow(::UnityEngine::FFTWindow value);
 
-  /// @brief Method set_FindAudioListenerInCameraIfNull, addr 0x62f7ee4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_FindAudioListenerInCameraIfNull, addr 0x6433f80, size 0x1c, virtual false, abstract: false, final false
   inline void set_FindAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener value);
 
-  /// @brief Method set_FpsGraphResolution, addr 0x62f773c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_FpsGraphResolution, addr 0x64337d8, size 0x1c, virtual false, abstract: false, final false
   inline void set_FpsGraphResolution(int32_t value);
 
-  /// @brief Method set_FpsModuleState, addr 0x62f72ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_FpsModuleState, addr 0x6433388, size 0x20, virtual false, abstract: false, final false
   inline void set_FpsModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_FpsTextUpdateRate, addr 0x62f7760, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_FpsTextUpdateRate, addr 0x64337fc, size 0x1c, virtual false, abstract: false, final false
   inline void set_FpsTextUpdateRate(int32_t value);
 
-  /// @brief Method set_GoodFPSColor, addr 0x62f74d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_GoodFPSColor, addr 0x643356c, size 0x20, virtual false, abstract: false, final false
   inline void set_GoodFPSColor(::UnityEngine::Color value);
 
-  /// @brief Method set_GoodFPSThreshold, addr 0x62f76f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_GoodFPSThreshold, addr 0x6433790, size 0x1c, virtual false, abstract: false, final false
   inline void set_GoodFPSThreshold(int32_t value);
 
-  /// @brief Method set_GraphModulePosition, addr 0x62f6950, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_GraphModulePosition, addr 0x64329ec, size 0x40, virtual false, abstract: false, final false
   inline void set_GraphModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value);
 
-  /// @brief Method set_GraphyMode, addr 0x62f68c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GraphyMode, addr 0x6432964, size 0x8, virtual false, abstract: false, final false
   inline void set_GraphyMode(::Tayx::Graphy::GraphyManager_Mode value);
 
-  /// @brief Method set_MonoRamColor, addr 0x62f7b20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_MonoRamColor, addr 0x6433bbc, size 0x20, virtual false, abstract: false, final false
   inline void set_MonoRamColor(::UnityEngine::Color value);
 
-  /// @brief Method set_RamGraphResolution, addr 0x62f7b48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_RamGraphResolution, addr 0x6433be4, size 0x1c, virtual false, abstract: false, final false
   inline void set_RamGraphResolution(int32_t value);
 
-  /// @brief Method set_RamModuleState, addr 0x62f77f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_RamModuleState, addr 0x6433890, size 0x20, virtual false, abstract: false, final false
   inline void set_RamModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_RamTextUpdateRate, addr 0x62f7b6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_RamTextUpdateRate, addr 0x6433c08, size 0x1c, virtual false, abstract: false, final false
   inline void set_RamTextUpdateRate(int32_t value);
 
-  /// @brief Method set_ReservedRamColor, addr 0x62f7af4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_ReservedRamColor, addr 0x6433b90, size 0x20, virtual false, abstract: false, final false
   inline void set_ReservedRamColor(::UnityEngine::Color value);
 
-  /// @brief Method set_SpectrumSize, addr 0x62f7fa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_SpectrumSize, addr 0x643403c, size 0x1c, virtual false, abstract: false, final false
   inline void set_SpectrumSize(int32_t value);
 
 protected:
@@ -1312,7 +1312,7 @@ public:
   GraphyManager(GraphyManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21436 };
 
   /// @brief Field m_graphyMode, offset: 0x20, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_Mode ___m_graphyMode;

@@ -37,12 +37,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x631dcf8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x645a918, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x631dca0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RuntimeKeyIsValid, addr 0x645a8c0, size 0x58, virtual true, abstract: false, final true
   inline bool RuntimeKeyIsValid();
 
   constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set_m_LabelString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x631dd14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645a934, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeKey, addr 0x631dc7c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_RuntimeKey, addr 0x645a89c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method get_labelString, addr 0x631dc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelString, addr 0x645a88c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-  /// @brief Method set_labelString, addr 0x631dc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_labelString, addr 0x645a894, size 0x8, virtual false, abstract: false, final false
   inline void set_labelString(::StringW value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   AssetLabelReference(AssetLabelReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19783 };
 
   /// @brief Field m_LabelString, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_LabelString;

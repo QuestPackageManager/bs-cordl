@@ -45,7 +45,7 @@ public:
                                   ::Unity::Collections::NativeArray_1<float_t> lodScreenRelativeTransitionHeight, ::Unity::Collections::NativeArray_1<float_t> lodFadeTransitionWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10861 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc0 };

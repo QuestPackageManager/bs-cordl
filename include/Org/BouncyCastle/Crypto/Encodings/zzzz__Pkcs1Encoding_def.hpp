@@ -63,31 +63,31 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method CheckPkcs1Encoding, addr 0x32d743c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckPkcs1Encoding, addr 0x33938f4, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t CheckPkcs1Encoding(::ArrayW<uint8_t> encoded, int32_t pLen);
 
-  /// @brief Method DecodeBlock, addr 0x32d6e44, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlock, addr 0x33932fc, size 0x2f0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> DecodeBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method DecodeBlockOrRandom, addr 0x32d74dc, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlockOrRandom, addr 0x3393994, size 0x304, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> DecodeBlockOrRandom(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method EncodeBlock, addr 0x32d7134, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method EncodeBlock, addr 0x33935ec, size 0x308, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> EncodeBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method FindStart, addr 0x32d77e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FindStart, addr 0x3393c98, size 0x90, virtual false, abstract: false, final false
   inline int32_t FindStart(uint8_t type, ::ArrayW<uint8_t> block);
 
-  /// @brief Method GetInputBlockSize, addr 0x32d6cbc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method GetInputBlockSize, addr 0x3393174, size 0xbc, virtual true, abstract: false, final true
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x32d6d78, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method GetOutputBlockSize, addr 0x3393230, size 0xbc, virtual true, abstract: false, final true
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method GetUnderlyingCipher, addr 0x32d6904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x3392dbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0x32d69d4, size 0x2e8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x3392e8c, size 0x2e8, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
@@ -96,7 +96,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen);
 
-  /// @brief Method ProcessBlock, addr 0x32d6e34, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x33932ec, size 0x10, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_blockBuffer() const;
@@ -147,21 +147,21 @@ public:
 
   constexpr void __cordl_internal_set_useStrictLength(bool value);
 
-  /// @brief Method .ctor, addr 0x32d6770, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3392c28, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0x32d6870, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3392d28, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::ArrayW<uint8_t> fallback);
 
-  /// @brief Method .ctor, addr 0x32d67ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3392ca4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen);
 
   static inline ::ArrayW<bool> getStaticF_strictLengthEnabled();
 
-  /// @brief Method get_AlgorithmName, addr 0x32d690c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x3392dc4, size 0xc8, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_StrictLengthEnabled, addr 0x32d6550, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_StrictLengthEnabled, addr 0x3392a08, size 0x74, virtual false, abstract: false, final false
   static inline bool get_StrictLengthEnabled();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
@@ -169,7 +169,7 @@ public:
 
   static inline void setStaticF_strictLengthEnabled(::ArrayW<bool> value);
 
-  /// @brief Method set_StrictLengthEnabled, addr 0x32d65c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_StrictLengthEnabled, addr 0x3392a7c, size 0x7c, virtual false, abstract: false, final false
   static inline void set_StrictLengthEnabled(bool value);
 
 protected:

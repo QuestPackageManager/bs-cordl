@@ -88,25 +88,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(float_t value);
 
-  /// @brief Method .ctor, addr 0x6304adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6441274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x6304ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x644125c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x6304ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x644124c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x6304aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x6441244, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x6304abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x6441254, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x6304ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x644126c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x6304acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x6441264, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedState();
 
 protected:
@@ -124,7 +124,7 @@ public:
   FloatTransitionSO(FloatTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22300 };
 
   /// @brief Field _normalState, offset: 0x20, size: 0x4, def value: None
   float_t ____normalState;

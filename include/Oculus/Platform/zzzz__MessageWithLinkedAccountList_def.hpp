@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLinkedAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LinkedAccountList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5ca1320, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5dd9548, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLinkedAccountList, addr 0x5ca12dc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetLinkedAccountList, addr 0x5dd9504, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
 
   static inline ::Oculus::Platform::MessageWithLinkedAccountList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5c9d5b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd57e0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithLinkedAccountList(MessageWithLinkedAccountList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

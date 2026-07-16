@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5859ba8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5992000, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
 protected:
@@ -107,7 +107,7 @@ public:
   LightColorGroupEffect_InitData(LightColorGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5863 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -167,6 +167,12 @@ public:
   /// @brief Field _fromStrobeFrequency, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__fromStrobeFrequency, put = __cordl_internal_set__fromStrobeFrequency)) float_t _fromStrobeFrequency;
 
+  /// @brief Field _lastSetColorFrameCount, offset 0xa8, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSetColorFrameCount, put = __cordl_internal_set__lastSetColorFrameCount)) int32_t _lastSetColorFrameCount;
+
+  /// @brief Field _lastSetColorT, offset 0xa4, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSetColorT, put = __cordl_internal_set__lastSetColorT)) float_t _lastSetColorT;
+
   /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lightColorBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightColorBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
@@ -195,27 +201,30 @@ public:
   /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  /// @brief Method Cleanup, addr 0x58592b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5991674, size 0xa0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x5859a0c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x5991c5c, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x5859354, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x5991714, size 0x40c, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                                    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method SetColor, addr 0x5859754, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5991e70, size 0x190, virtual false, abstract: false, final false
   inline void SetColor(float_t t);
 
-  /// @brief Method SetData, addr 0x5859a40, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetColorWithValidation, addr 0x5991df8, size 0x78, virtual false, abstract: false, final false
+  inline void SetColorWithValidation(float_t t);
+
+  /// @brief Method SetData, addr 0x5991c90, size 0x168, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
                       float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
 
-  /// @brief Method UseBoostColors, addr 0x58598ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x5991b20, size 0x13c, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -253,6 +262,14 @@ public:
   constexpr float_t const& __cordl_internal_get__fromStrobeFrequency() const;
 
   constexpr float_t& __cordl_internal_get__fromStrobeFrequency();
+
+  constexpr int32_t const& __cordl_internal_get__lastSetColorFrameCount() const;
+
+  constexpr int32_t& __cordl_internal_get__lastSetColorFrameCount();
+
+  constexpr float_t const& __cordl_internal_get__lastSetColorT() const;
+
+  constexpr float_t& __cordl_internal_get__lastSetColorT();
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const;
 
@@ -308,6 +325,10 @@ public:
 
   constexpr void __cordl_internal_set__fromStrobeFrequency(float_t value);
 
+  constexpr void __cordl_internal_set__lastSetColorFrameCount(int32_t value);
+
+  constexpr void __cordl_internal_set__lastSetColorT(float_t value);
+
   constexpr void __cordl_internal_set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   constexpr void __cordl_internal_set__lightId(int32_t value);
@@ -326,7 +347,7 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x5858ef8, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59912a4, size 0x3d0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
@@ -345,7 +366,7 @@ public:
   LightColorGroupEffect(LightColorGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5864 };
 
   /// @brief Field _colorManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
@@ -401,6 +422,12 @@ public:
   /// @brief Field _usingBoostColors, offset: 0xa1, size: 0x1, def value: None
   bool ____usingBoostColors;
 
+  /// @brief Field _lastSetColorT, offset: 0xa4, size: 0x4, def value: None
+  float_t ____lastSetColorT;
+
+  /// @brief Field _lastSetColorFrameCount, offset: 0xa8, size: 0x4, def value: None
+  int32_t ____lastSetColorFrameCount;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -440,6 +467,10 @@ static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____strobeFade)
 
 static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____usingBoostColors) == 0xa1, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightColorGroupEffect) == 0xa8, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____lastSetColorT) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____lastSetColorFrameCount) == 0xa8, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightColorGroupEffect) == 0xb0, "Size mismatch!");
 
 } // namespace GlobalNamespace

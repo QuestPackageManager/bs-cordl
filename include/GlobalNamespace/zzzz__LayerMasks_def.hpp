@@ -43,18 +43,18 @@ public:
   /// @brief Field saberLayerMask, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_saberLayerMask, put = setStaticF_saberLayerMask)) ::UnityEngine::LayerMask saberLayerMask;
 
-  /// @brief Method GetLayer, addr 0x3639d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLayer, addr 0x36f61b4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetLayer(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x3639d54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x36f618c, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x3639d70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x36f61a8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
 
   static inline ::GlobalNamespace::LayerMasks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3639d84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f61bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_cutEffectParticlesLayer();
@@ -96,7 +96,7 @@ public:
   LayerMasks(LayerMasks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Processors::InvertProcessor::*)(float_t, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::Processors::InvertProcessor::Process)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x647c2f8;
+  constexpr static std::size_t addrs = 0x65b90c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::InvertProcessor*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::InvertProcessor::*)()>(&::UnityEngine::InputSystem::Processors::InvertProcessor::ToString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x647c300;
+  constexpr static std::size_t addrs = 0x65b90cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::InvertProcessor*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Processors::InvertProcessor::*)()>(&::UnityEngine::InputSystem::Processors::InvertProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x647c344;
+  constexpr static std::size_t addrs = 0x65b9110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::InvertProcessor*>(), { ".ctor", {}, {} })));

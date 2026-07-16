@@ -33,10 +33,10 @@ template <typename TContract>
 class CORDL_TYPE MemoryPoolBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:
   // Declarations
-  /// @brief Field _factoryBindInfo, offset 0x20, size 0x8
+  /// @brief Field _factoryBindInfo, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo)) ::Zenject::FactoryBindInfo* _factoryBindInfo;
 
-  /// @brief Field _poolBindInfo, offset 0x18, size 0x8
+  /// @brief Field _poolBindInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__poolBindInfo, put = __cordl_internal_set__poolBindInfo)) ::Zenject::MemoryPoolBindInfo* _poolBindInfo;
 
   static inline ::Zenject::MemoryPoolBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
@@ -74,12 +74,12 @@ public:
   MemoryPoolBindingFinalizer_1(MemoryPoolBindingFinalizer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14191 };
 
-  /// @brief Field _poolBindInfo, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _poolBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::MemoryPoolBindInfo* ____poolBindInfo;
 
-  /// @brief Field _factoryBindInfo, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _factoryBindInfo, offset: 0x28, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

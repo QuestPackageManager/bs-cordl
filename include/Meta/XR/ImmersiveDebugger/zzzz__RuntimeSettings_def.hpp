@@ -88,7 +88,7 @@ public:
   static ::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption const Far;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18303 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -266,15 +266,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Init, addr 0x5906968, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a4006c, size 0x5c, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::Meta::XR::ImmersiveDebugger::RuntimeSettings* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x59072e8, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x5a409ec, size 0x144, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x59070a8, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x5a407ac, size 0x240, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr bool const& __cordl_internal_get_automaticLayerCullingUpdate() const;
@@ -445,10 +445,10 @@ public:
 
   constexpr void __cordl_internal_set_useCustomIntegrationConfig(bool value);
 
-  /// @brief Method .ctor, addr 0x5906ee8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a405ec, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnImmersiveDebuggerEnabledChanged, addr 0x5906ad4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_OnImmersiveDebuggerEnabledChanged, addr 0x5a401d8, size 0xf0, virtual false, abstract: false, final false
   static inline void add_OnImmersiveDebuggerEnabledChanged(::System::Action* value);
 
   static inline ::StringW getStaticF_InstanceAssetName();
@@ -457,91 +457,91 @@ public:
 
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::RuntimeSettings> getStaticF__instance();
 
-  /// @brief Method get_AutomaticLayerCullingUpdate, addr 0x5906e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AutomaticLayerCullingUpdate, addr 0x5a4051c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AutomaticLayerCullingUpdate();
 
-  /// @brief Method get_ClickButton, addr 0x5906ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClickButton, addr 0x5a405ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_Button get_ClickButton();
 
-  /// @brief Method get_CollapsedIdenticalLogEntries, addr 0x5906dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollapsedIdenticalLogEntries, addr 0x5a404dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CollapsedIdenticalLogEntries();
 
-  /// @brief Method get_CreateEventSystem, addr 0x5906e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateEventSystem, addr 0x5a4050c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateEventSystem();
 
-  /// @brief Method get_CustomIntegrationConfigClassName, addr 0x5906e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomIntegrationConfigClassName, addr 0x5a4058c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CustomIntegrationConfigClassName();
 
-  /// @brief Method get_FollowOverride, addr 0x5906d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FollowOverride, addr 0x5a4048c, size 0x8, virtual false, abstract: false, final false
   inline bool get_FollowOverride();
 
-  /// @brief Method get_HierarchyViewShowsPrivateMembers, addr 0x5906e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HierarchyViewShowsPrivateMembers, addr 0x5a4059c, size 0x8, virtual false, abstract: false, final false
   inline bool get_HierarchyViewShowsPrivateMembers();
 
-  /// @brief Method get_ImmersiveDebuggerDisplayAtStartup, addr 0x5906d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImmersiveDebuggerDisplayAtStartup, addr 0x5a4045c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImmersiveDebuggerDisplayAtStartup();
 
-  /// @brief Method get_ImmersiveDebuggerEnabled, addr 0x5906cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImmersiveDebuggerEnabled, addr 0x5a403b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImmersiveDebuggerEnabled();
 
-  /// @brief Method get_ImmersiveDebuggerToggleDisplayButton, addr 0x5906ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImmersiveDebuggerToggleDisplayButton, addr 0x5a405dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_Button get_ImmersiveDebuggerToggleDisplayButton();
 
-  /// @brief Method get_InspectedDataAssets, addr 0x5906e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InspectedDataAssets, addr 0x5a4056c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::InspectedData>>* get_InspectedDataAssets();
 
-  /// @brief Method get_InspectedDataEnabled, addr 0x5906e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InspectedDataEnabled, addr 0x5a4055c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<bool>* get_InspectedDataEnabled();
 
-  /// @brief Method get_Instance, addr 0x59069c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5a400c8, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::RuntimeSettings> get_Instance();
 
-  /// @brief Method get_MaximumNumberOfLogEntries, addr 0x5906de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumNumberOfLogEntries, addr 0x5a404ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaximumNumberOfLogEntries();
 
-  /// @brief Method get_MeshRendererLayer, addr 0x5906e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MeshRendererLayer, addr 0x5a4053c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MeshRendererLayer();
 
-  /// @brief Method get_OverlayDepth, addr 0x5906e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverlayDepth, addr 0x5a4054c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OverlayDepth();
 
-  /// @brief Method get_PanelDistance, addr 0x5906df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PanelDistance, addr 0x5a404fc, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption get_PanelDistance();
 
-  /// @brief Method get_PanelLayer, addr 0x5906e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PanelLayer, addr 0x5a4052c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PanelLayer();
 
-  /// @brief Method get_RotateOverride, addr 0x5906d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RotateOverride, addr 0x5a4049c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RotateOverride();
 
-  /// @brief Method get_ShowConsole, addr 0x5906d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowConsole, addr 0x5a4047c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowConsole();
 
-  /// @brief Method get_ShowErrorLog, addr 0x5906dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowErrorLog, addr 0x5a404cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowErrorLog();
 
-  /// @brief Method get_ShowInfoLog, addr 0x5906da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowInfoLog, addr 0x5a404ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowInfoLog();
 
-  /// @brief Method get_ShowInspectors, addr 0x5906d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowInspectors, addr 0x5a4046c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowInspectors();
 
-  /// @brief Method get_ShowWarningLog, addr 0x5906db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowWarningLog, addr 0x5a404bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowWarningLog();
 
-  /// @brief Method get_ToggleFollowRotationButton, addr 0x5906ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ToggleFollowRotationButton, addr 0x5a405cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_Button get_ToggleFollowRotationButton();
 
-  /// @brief Method get_ToggleFollowTranslationButton, addr 0x5906eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ToggleFollowTranslationButton, addr 0x5a405bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_Button get_ToggleFollowTranslationButton();
 
-  /// @brief Method get_UseCustomIntegrationConfig, addr 0x5906e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCustomIntegrationConfig, addr 0x5a4057c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCustomIntegrationConfig();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method remove_OnImmersiveDebuggerEnabledChanged, addr 0x5906bc4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnImmersiveDebuggerEnabledChanged, addr 0x5a402c8, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_OnImmersiveDebuggerEnabledChanged(::System::Action* value);
 
   static inline void setStaticF_InstanceAssetName(::StringW value);
@@ -550,82 +550,82 @@ public:
 
   static inline void setStaticF__instance(::UnityW<::Meta::XR::ImmersiveDebugger::RuntimeSettings> value);
 
-  /// @brief Method set_AutomaticLayerCullingUpdate, addr 0x5906e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AutomaticLayerCullingUpdate, addr 0x5a40524, size 0x8, virtual false, abstract: false, final false
   inline void set_AutomaticLayerCullingUpdate(bool value);
 
-  /// @brief Method set_ClickButton, addr 0x5906eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClickButton, addr 0x5a405b4, size 0x8, virtual false, abstract: false, final false
   inline void set_ClickButton(::GlobalNamespace::OVRInput_Button value);
 
-  /// @brief Method set_CollapsedIdenticalLogEntries, addr 0x5906de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollapsedIdenticalLogEntries, addr 0x5a404e4, size 0x8, virtual false, abstract: false, final false
   inline void set_CollapsedIdenticalLogEntries(bool value);
 
-  /// @brief Method set_CreateEventSystem, addr 0x5906e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CreateEventSystem, addr 0x5a40514, size 0x8, virtual false, abstract: false, final false
   inline void set_CreateEventSystem(bool value);
 
-  /// @brief Method set_CustomIntegrationConfigClassName, addr 0x5906e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomIntegrationConfigClassName, addr 0x5a40594, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomIntegrationConfigClassName(::StringW value);
 
-  /// @brief Method set_FollowOverride, addr 0x5906d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FollowOverride, addr 0x5a40494, size 0x8, virtual false, abstract: false, final false
   inline void set_FollowOverride(bool value);
 
-  /// @brief Method set_HierarchyViewShowsPrivateMembers, addr 0x5906ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HierarchyViewShowsPrivateMembers, addr 0x5a405a4, size 0x8, virtual false, abstract: false, final false
   inline void set_HierarchyViewShowsPrivateMembers(bool value);
 
-  /// @brief Method set_ImmersiveDebuggerDisplayAtStartup, addr 0x5906d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ImmersiveDebuggerDisplayAtStartup, addr 0x5a40464, size 0x8, virtual false, abstract: false, final false
   inline void set_ImmersiveDebuggerDisplayAtStartup(bool value);
 
-  /// @brief Method set_ImmersiveDebuggerEnabled, addr 0x5906cbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_ImmersiveDebuggerEnabled, addr 0x5a403c0, size 0x9c, virtual false, abstract: false, final false
   inline void set_ImmersiveDebuggerEnabled(bool value);
 
-  /// @brief Method set_ImmersiveDebuggerToggleDisplayButton, addr 0x5906ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ImmersiveDebuggerToggleDisplayButton, addr 0x5a405e4, size 0x8, virtual false, abstract: false, final false
   inline void set_ImmersiveDebuggerToggleDisplayButton(::GlobalNamespace::OVRInput_Button value);
 
-  /// @brief Method set_InspectedDataAssets, addr 0x5906e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InspectedDataAssets, addr 0x5a40574, size 0x8, virtual false, abstract: false, final false
   inline void set_InspectedDataAssets(::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::InspectedData>>* value);
 
-  /// @brief Method set_InspectedDataEnabled, addr 0x5906e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InspectedDataEnabled, addr 0x5a40564, size 0x8, virtual false, abstract: false, final false
   inline void set_InspectedDataEnabled(::System::Collections::Generic::List_1<bool>* value);
 
-  /// @brief Method set_MaximumNumberOfLogEntries, addr 0x5906df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumNumberOfLogEntries, addr 0x5a404f4, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumNumberOfLogEntries(int32_t value);
 
-  /// @brief Method set_MeshRendererLayer, addr 0x5906e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MeshRendererLayer, addr 0x5a40544, size 0x8, virtual false, abstract: false, final false
   inline void set_MeshRendererLayer(int32_t value);
 
-  /// @brief Method set_OverlayDepth, addr 0x5906e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OverlayDepth, addr 0x5a40554, size 0x8, virtual false, abstract: false, final false
   inline void set_OverlayDepth(int32_t value);
 
-  /// @brief Method set_PanelDistance, addr 0x5906e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PanelDistance, addr 0x5a40504, size 0x8, virtual false, abstract: false, final false
   inline void set_PanelDistance(::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption value);
 
-  /// @brief Method set_PanelLayer, addr 0x5906e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PanelLayer, addr 0x5a40534, size 0x8, virtual false, abstract: false, final false
   inline void set_PanelLayer(int32_t value);
 
-  /// @brief Method set_RotateOverride, addr 0x5906da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RotateOverride, addr 0x5a404a4, size 0x8, virtual false, abstract: false, final false
   inline void set_RotateOverride(bool value);
 
-  /// @brief Method set_ShowConsole, addr 0x5906d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShowConsole, addr 0x5a40484, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowConsole(bool value);
 
-  /// @brief Method set_ShowErrorLog, addr 0x5906dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShowErrorLog, addr 0x5a404d4, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowErrorLog(bool value);
 
-  /// @brief Method set_ShowInfoLog, addr 0x5906db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShowInfoLog, addr 0x5a404b4, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowInfoLog(bool value);
 
-  /// @brief Method set_ShowInspectors, addr 0x5906d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShowInspectors, addr 0x5a40474, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowInspectors(bool value);
 
-  /// @brief Method set_ShowWarningLog, addr 0x5906dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShowWarningLog, addr 0x5a404c4, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowWarningLog(bool value);
 
-  /// @brief Method set_ToggleFollowRotationButton, addr 0x5906ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ToggleFollowRotationButton, addr 0x5a405d4, size 0x8, virtual false, abstract: false, final false
   inline void set_ToggleFollowRotationButton(::GlobalNamespace::OVRInput_Button value);
 
-  /// @brief Method set_ToggleFollowTranslationButton, addr 0x5906ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ToggleFollowTranslationButton, addr 0x5a405c4, size 0x8, virtual false, abstract: false, final false
   inline void set_ToggleFollowTranslationButton(::GlobalNamespace::OVRInput_Button value);
 
-  /// @brief Method set_UseCustomIntegrationConfig, addr 0x5906e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseCustomIntegrationConfig, addr 0x5a40584, size 0x8, virtual false, abstract: false, final false
   inline void set_UseCustomIntegrationConfig(bool value);
 
 protected:
@@ -643,7 +643,7 @@ public:
   RuntimeSettings(RuntimeSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18304 };
 
   /// @brief Field debugTypes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugData*>* ___debugTypes;

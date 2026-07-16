@@ -21,13 +21,16 @@ namespace GlobalNamespace {
 class IStartSeekSongController;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IXRSystemState;
 }
 namespace GlobalNamespace {
 class MultiplayerLocalInactivePlayerSongSyncController_InitData;
 }
 namespace GlobalNamespace {
 class SettingsManager;
+}
+namespace GlobalNamespace {
+struct XRSystemEventType;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -93,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x58925ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c2274, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -111,7 +114,7 @@ public:
   MultiplayerLocalInactivePlayerSongSyncController_InitData(MultiplayerLocalInactivePlayerSongSyncController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6075 };
 
   /// @brief Field audioClip, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ___audioClip;
@@ -188,8 +191,8 @@ public:
   /// @brief Field _timeScale, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__timeScale, put = __cordl_internal_set__timeScale)) float_t _timeScale;
 
-  /// @brief Field _vrPlatformHelper, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _xrSystemState, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
   __declspec(property(get = get_isAudioLoaded)) bool isAudioLoaded;
 
@@ -200,36 +203,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
-  /// @brief Method Awake, addr 0x5891a3c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59c26c0, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FollowOffsetSyncTime, addr 0x58923e0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FollowOffsetSyncTime, addr 0x59c30d8, size 0x1f4, virtual false, abstract: false, final false
   inline void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
 
-  /// @brief Method HandleVrFocusWasReleased, addr 0x58925e0, size 0x4, virtual false, abstract: false, final false
-  inline void HandleVrFocusWasReleased();
+  /// @brief Method HandleSystemStateChange, addr 0x59c32d8, size 0x4, virtual false, abstract: false, final false
+  inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5891c34, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59c2928, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SeekTo, addr 0x58925d4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x59c32cc, size 0xc, virtual true, abstract: false, final true
   inline void SeekTo(float_t offsetTime);
 
-  /// @brief Method SeekTo, addr 0x5892230, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x59c2f28, size 0x1b0, virtual false, abstract: false, final false
   inline void SeekTo(float_t offsetTime, bool crossFade, float_t toVolume);
 
-  /// @brief Method Start, addr 0x5891b3c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59c27c0, size 0x168, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x589213c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x59c2e34, size 0xf4, virtual true, abstract: false, final true
   inline void StartSong(float_t offsetTime);
 
-  /// @brief Method Update, addr 0x5891d6c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59c2a64, size 0x264, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateOffsetSyncTime, addr 0x5891fd0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateOffsetSyncTime, addr 0x59c2cc8, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateOffsetSyncTime(int64_t offsetSyncTime, bool crossFade, bool forceUpdate);
 
   constexpr ::UnityW<::GlobalNamespace::CrossFadeAudioSource> const& __cordl_internal_get__audioSource() const;
@@ -284,9 +287,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__timeScale();
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::GlobalNamespace::IXRSystemState* const& __cordl_internal_get__xrSystemState() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IXRSystemState*& __cordl_internal_get__xrSystemState();
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::GlobalNamespace::CrossFadeAudioSource> value);
 
@@ -314,21 +317,21 @@ public:
 
   constexpr void __cordl_internal_set__timeScale(float_t value);
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x58925e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c32dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x58925e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x59c32e0, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilIsReadyToStartTheSong_b__7_0();
 
-  /// @brief Method get_isAudioLoaded, addr 0x5891878, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x59c24fc, size 0xe0, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_songFailedToLoad, addr 0x5891958, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method get_songFailedToLoad, addr 0x59c25dc, size 0xe4, virtual true, abstract: false, final true
   inline bool get_songFailedToLoad();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x58917d4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x59c2458, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
@@ -349,7 +352,7 @@ public:
   MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInactivePlayerSongSyncController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6076 };
 
   /// @brief Field kReSyncThresholdMs offset 0xffffffff size 0x8
   static constexpr int64_t kReSyncThresholdMs{ static_cast<int64_t>(0x32) };
@@ -366,8 +369,8 @@ public:
   /// @brief Field _multiplayerSessionManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+  /// @brief Field _xrSystemState, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
   /// @brief Field _timeScale, offset: 0x48, size: 0x4, def value: None
   float_t ____timeScale;
@@ -407,7 +410,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSync
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____multiplayerSessionManager) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____vrPlatformHelper) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____xrSystemState) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____timeScale) == 0x48, "Offset mismatch!");
 

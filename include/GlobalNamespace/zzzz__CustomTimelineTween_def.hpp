@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x57e57a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5905dfc, size 0xcc, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::ArrayW<::UnityEngine::Vector3> const& __cordl_internal_get_startPositions() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>> value);
 
-  /// @brief Method .ctor, addr 0x57e5874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5905ec8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   CustomTimelineTween(CustomTimelineTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6667 };
 
   /// @brief Field transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ___transforms;

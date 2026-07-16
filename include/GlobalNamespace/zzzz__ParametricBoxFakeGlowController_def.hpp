@@ -65,18 +65,18 @@ public:
   /// @brief Field width, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
 
-  /// @brief Method Awake, addr 0x5722e30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5869ad4, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ParametricBoxFakeGlowController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5722fa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5869c44, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5722e4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5869af0, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x5722e74, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5869b18, size 0x12c, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_width(float_t value);
 
-  /// @brief Method .ctor, addr 0x5722fbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5869c60, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -138,7 +138,7 @@ public:
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_localPosition, addr 0x5722de8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x5869a8c, size 0x48, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   ParametricBoxFakeGlowController(ParametricBoxFakeGlowController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19453 };
 
   /// @brief Field width, offset: 0x20, size: 0x4, def value: None
   float_t ___width;

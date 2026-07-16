@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Array*)>(&::UnityEngine::NoAllocHelpers::SafeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x698f8d4;
+  constexpr static std::size_t addrs = 0x6ae2980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

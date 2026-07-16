@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LoadBeatmapLevelDataResult::*)()>(&::GlobalNamespace::LoadBeatmapLevelDataResult::get_isError)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x366fd58;
+  constexpr static std::size_t addrs = 0x372c6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadBeatmapLevelDataResult>(), { "get_isError", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LoadBeatmapLevelDataResult::*)()>(&::GlobalNamespace::LoadBeatmapLevelDataResult::get_errorMessage)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x366fd9c;
+  constexpr static std::size_t addrs = 0x372c6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadBeatmapLevelDataResult>(), { "get_errorMessage", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadBeatmapLevelDataResult::*)(
     ::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType>, ::GlobalNamespace::IBeatmapLevelData*)>(&::GlobalNamespace::LoadBeatmapLevelDataResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x366fef8;
+  constexpr static std::size_t addrs = 0x372c84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LoadBeatmapLevelDataResult (*)(::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::LoadBeatmapLevelDataResult::Success)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x366ff00;
+  constexpr static std::size_t addrs = 0x372c854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LoadBeatmapLevelDataResult (*)(::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::LoadBeatmapLevelDataResult::FromValue)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x366ff0c;
+  constexpr static std::size_t addrs = 0x372c860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::DBufferSettings* value);
 
-  /// @brief Method .ctor, addr 0x670fcc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684e87c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,7 +198,7 @@ public:
   DBufferRenderPass_PassData(DBufferRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12647 };
 
   /// @brief Field drawSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem* ___drawSystem;
@@ -263,10 +263,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DBufferRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__36_0, addr 0x6712a34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__36_0, addr 0x68515f0, size 0xa4, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__36_0(::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6712a30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68515ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DBufferRenderPass___c* getStaticF___9();
@@ -295,7 +295,7 @@ public:
   DBufferRenderPass___c(DBufferRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12648 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -368,23 +368,23 @@ public:
   /// @brief Field s_SSAOTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_SSAOTextureID, put = setStaticF_s_SSAOTextureID)) int32_t s_SSAOTextureID;
 
-  /// @brief Method Clear, addr 0x6710bc8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x684f784, size 0xec, virtual false, abstract: false, final false
   static inline void Clear(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* passData);
 
-  /// @brief Method Dispose, addr 0x670fcc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x684e880, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x67104b0, size 0x3ac, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x684f06c, size 0x3ac, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6710de4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x684f9a0, size 0x60, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList, bool renderGraph);
 
-  /// @brief Method InitPassData, addr 0x671085c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x684f418, size 0x78, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData*> passData);
 
-  /// @brief Method InitRendererListParams, addr 0x6710cb4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method InitRendererListParams, addr 0x684f870, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListParams InitRendererListParams(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
@@ -392,25 +392,25 @@ public:
   static inline ::UnityEngine::Rendering::Universal::DBufferRenderPass* New_ctor(::UnityEngine::Material* dBufferClear, ::UnityEngine::Rendering::Universal::DBufferSettings* settings,
                                                                                  ::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem* drawSystem, bool decalLayers);
 
-  /// @brief Method OnCameraCleanup, addr 0x671277c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6851338, size 0xec, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method OnCameraSetup, addr 0x67101bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x684ed78, size 0x8, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method RecordRenderGraph, addr 0x6711018, size 0x1764, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x684fbd4, size 0x1764, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method SetGlobalTextures, addr 0x6710974, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalTextures, addr 0x684f530, size 0x15c, virtual false, abstract: false, final false
   static inline void SetGlobalTextures(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* passData);
 
-  /// @brief Method SetKeywords, addr 0x6710ad0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetKeywords, addr 0x684f68c, size 0xf8, virtual false, abstract: false, final false
   static inline void SetKeywords(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* passData);
 
-  /// @brief Method Setup, addr 0x670fd3c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x684e8f8, size 0x138, virtual false, abstract: false, final false
   inline void Setup(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method Setup, addr 0x670fe74, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x684ea30, size 0x348, virtual false, abstract: false, final false
   inline void Setup(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::RTHandle* depthTextureHandle);
 
   constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get__dBufferColorHandles_k__BackingField() const;
@@ -485,7 +485,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x670f6a0, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684e25c, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* dBufferClear, ::UnityEngine::Rendering::Universal::DBufferSettings* settings, ::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem* drawSystem,
                     bool decalLayers);
 
@@ -495,13 +495,13 @@ public:
 
   static inline int32_t getStaticF_s_SSAOTextureID();
 
-  /// @brief Method get_dBufferColorHandles, addr 0x670f678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dBufferColorHandles, addr 0x684e234, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_dBufferColorHandles();
 
-  /// @brief Method get_dBufferDepth, addr 0x670f698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dBufferDepth, addr 0x684e254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_dBufferDepth();
 
-  /// @brief Method get_depthHandle, addr 0x670f688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthHandle, addr 0x684e244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_depthHandle();
 
   static inline void setStaticF_s_DBufferDepthName(::StringW value);
@@ -510,10 +510,10 @@ public:
 
   static inline void setStaticF_s_SSAOTextureID(int32_t value);
 
-  /// @brief Method set_dBufferColorHandles, addr 0x670f680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dBufferColorHandles, addr 0x684e23c, size 0x8, virtual false, abstract: false, final false
   inline void set_dBufferColorHandles(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
-  /// @brief Method set_depthHandle, addr 0x670f690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthHandle, addr 0x684e24c, size 0x8, virtual false, abstract: false, final false
   inline void set_depthHandle(::UnityEngine::Rendering::RTHandle* value);
 
 protected:
@@ -531,7 +531,7 @@ public:
   DBufferRenderPass(DBufferRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
 
   /// @brief Field m_DrawSystem, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem* ___m_DrawSystem;

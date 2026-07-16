@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ScopeExpression::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*)>(&::System::Linq::Expressions::ScopeExpression::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e38f6c;
+  constexpr static std::size_t addrs = 0x5f74068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* (
     ::System::Linq::Expressions::ScopeExpression::*)()>(&::System::Linq::Expressions::ScopeExpression::GetOrMakeVariables)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e38f90;
+  constexpr static std::size_t addrs = 0x5f7408c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* (
     ::System::Linq::Expressions::ScopeExpression::*)()>(&::System::Linq::Expressions::ScopeExpression::get_VariablesList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e38fdc;
+  constexpr static std::size_t addrs = 0x5f740d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ScopeExpression*>(), { "get_VariablesList", {}, {} })));
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::System::Linq::Expressions::ScopeExpression::*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*)>(
     &::System::Linq::Expressions::ScopeExpression::ReuseOrValidateVariables)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e38fe4;
+  constexpr static std::size_t addrs = 0x5f740e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

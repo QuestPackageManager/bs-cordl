@@ -48,16 +48,16 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch* New_ctor();
 
-  /// @brief Method OnStateChanged, addr 0x5922788, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnStateChanged, addr 0x5a5be8c, size 0x5c, virtual false, abstract: false, final false
   inline void OnStateChanged();
 
-  /// @brief Method SetToggleIcons, addr 0x5922838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetToggleIcons, addr 0x5a5bf3c, size 0x8, virtual false, abstract: false, final false
   inline void SetToggleIcons(::UnityEngine::Texture2D* onState, ::UnityEngine::Texture2D* offState);
 
-  /// @brief Method Start, addr 0x59227f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a5bef8, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateIcon, addr 0x5922840, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method UpdateIcon, addr 0x5a5bf44, size 0x16c, virtual true, abstract: false, final false
   inline void UpdateIcon();
 
   constexpr ::System::Action_1<bool>* const& __cordl_internal_get__StateChanged_k__BackingField() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__toggleIconOn(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x59229ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5c0b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_State, addr 0x59226a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x5a5bda4, size 0xac, virtual false, abstract: false, final false
   inline bool get_State();
 
-  /// @brief Method get_StateChanged, addr 0x59227e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateChanged, addr 0x5a5bee8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_StateChanged();
 
-  /// @brief Method get_Tweak, addr 0x5922690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x5a5bd94, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak();
 
-  /// @brief Method set_State, addr 0x592274c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_State, addr 0x5a5be50, size 0x3c, virtual false, abstract: false, final false
   inline void set_State(bool value);
 
-  /// @brief Method set_StateChanged, addr 0x59227ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StateChanged, addr 0x5a5bef0, size 0x8, virtual false, abstract: false, final false
   inline void set_StateChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method set_Tweak, addr 0x5922698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tweak, addr 0x5a5bd9c, size 0x8, virtual false, abstract: false, final false
   inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   Switch(Switch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18376 };
 
   /// @brief Field _toggleIconOn, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____toggleIconOn;

@@ -26,7 +26,7 @@ public:
   /// @brief Field launch_type, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_launch_type, put = __cordl_internal_set_launch_type)) int32_t launch_type;
 
-  /// @brief Method CreateUaaLApplicationLaunchAnalytic, addr 0x69b0d94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateUaaLApplicationLaunchAnalytic, addr 0x6b04754, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* CreateUaaLApplicationLaunchAnalytic();
 
   static inline ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* New_ctor();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_launch_type(int32_t value);
 
-  /// @brief Method .ctor, addr 0x69b0d1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b046dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   UaaLApplicationLaunchAnalytic(UaaLApplicationLaunchAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10669 };
 
   /// @brief Field launch_type, offset: 0x2c, size: 0x4, def value: None
   int32_t ___launch_type;

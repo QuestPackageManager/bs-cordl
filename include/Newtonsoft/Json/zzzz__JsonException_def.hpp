@@ -32,7 +32,7 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x5b9cc74, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5cd4e9c, size 0xac, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor();
@@ -43,16 +43,16 @@ public:
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5b9cab8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd4ce0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b9cbf0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd4e18, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b9cb10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd4d38, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b9cb7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd4da4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -70,7 +70,7 @@ public:
   JsonException(JsonException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

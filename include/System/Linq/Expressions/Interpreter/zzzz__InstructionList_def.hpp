@@ -104,10 +104,10 @@ namespace System::Linq::Expressions::Interpreter {
 struct CORDL_TYPE DebugView_InstructionList_InstructionView {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x5e5d228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x5f98324, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetValue();
 
-  /// @brief Method .ctor, addr 0x5e5d218, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f98314, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Instruction* instruction, ::StringW name, int32_t index, int32_t stackDepth, int32_t continuationsDepth);
 
   // Ctor Parameters []
@@ -121,7 +121,7 @@ public:
                                                       ::System::Linq::Expressions::Interpreter::Instruction* _instruction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16359 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -166,7 +166,7 @@ public:
   // Declarations
   using InstructionView = ::System::Linq::Expressions::Interpreter::DebugView_InstructionList_InstructionView;
 
-  /// @brief Method GetInstructionViews, addr 0x5e5761c, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method GetInstructionViews, addr 0x5f92718, size 0x600, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::DebugView_InstructionList_InstructionView>
   GetInstructionViews(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Interpreter::Instruction*>* instructions,
                       ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects, ::System::Func_2<int32_t, int32_t>* labelIndexer,
@@ -187,7 +187,7 @@ public:
   InstructionList_DebugView(InstructionList_DebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -290,335 +290,335 @@ public:
   /// @brief Field s_true, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_true, put = setStaticF_s_true)) ::System::Linq::Expressions::Interpreter::Instruction* s_true;
 
-  /// @brief Method AssignLocalBoxed, addr 0x5e5961c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method AssignLocalBoxed, addr 0x5f94718, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* AssignLocalBoxed(int32_t index);
 
-  /// @brief Method BuildRuntimeLabels, addr 0x5e5805c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method BuildRuntimeLabels, addr 0x5f93158, size 0x1dc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel> BuildRuntimeLabels();
 
-  /// @brief Method Emit, addr 0x5e57c50, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x5f92d4c, size 0xb4, virtual false, abstract: false, final false
   inline void Emit(::System::Linq::Expressions::Interpreter::Instruction* instruction);
 
-  /// @brief Method EmitAdd, addr 0x5e5a110, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EmitAdd, addr 0x5f9520c, size 0x38, virtual false, abstract: false, final false
   inline void EmitAdd(::System::Type* type, bool checked);
 
-  /// @brief Method EmitAnd, addr 0x5e5a224, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitAnd, addr 0x5f95320, size 0x24, virtual false, abstract: false, final false
   inline void EmitAnd(::System::Type* type);
 
-  /// @brief Method EmitArrayLength, addr 0x5e5bcfc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitArrayLength, addr 0x5f96df8, size 0x64, virtual false, abstract: false, final false
   inline void EmitArrayLength();
 
-  /// @brief Method EmitAssignLocal, addr 0x5e59204, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method EmitAssignLocal, addr 0x5f94300, size 0x1d4, virtual false, abstract: false, final false
   inline void EmitAssignLocal(int32_t index);
 
-  /// @brief Method EmitAssignLocalBoxed, addr 0x5e595ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EmitAssignLocalBoxed, addr 0x5f946a8, size 0x70, virtual false, abstract: false, final false
   inline void EmitAssignLocalBoxed(int32_t index);
 
-  /// @brief Method EmitAssignLocalToClosure, addr 0x5e59a04, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method EmitAssignLocalToClosure, addr 0x5f94b00, size 0x1d4, virtual false, abstract: false, final false
   inline void EmitAssignLocalToClosure(int32_t index);
 
-  /// @brief Method EmitBranch, addr 0x5e5c6f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EmitBranch, addr 0x5f977f0, size 0x40, virtual false, abstract: false, final false
   inline void EmitBranch(::System::Linq::Expressions::Interpreter::OffsetInstruction* instruction, ::System::Linq::Expressions::Interpreter::BranchLabel* label);
 
-  /// @brief Method EmitBranch, addr 0x5e5c734, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EmitBranch, addr 0x5f97830, size 0x70, virtual false, abstract: false, final false
   inline void EmitBranch(::System::Linq::Expressions::Interpreter::BranchLabel* label);
 
-  /// @brief Method EmitBranch, addr 0x5e5c7a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EmitBranch, addr 0x5f978a0, size 0x8c, virtual false, abstract: false, final false
   inline void EmitBranch(::System::Linq::Expressions::Interpreter::BranchLabel* label, bool hasResult, bool hasValue);
 
-  /// @brief Method EmitBranchFalse, addr 0x5e5c908, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EmitBranchFalse, addr 0x5f97a04, size 0x6c, virtual false, abstract: false, final false
   inline void EmitBranchFalse(::System::Linq::Expressions::Interpreter::BranchLabel* elseLabel);
 
-  /// @brief Method EmitBranchTrue, addr 0x5e5c89c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EmitBranchTrue, addr 0x5f97998, size 0x6c, virtual false, abstract: false, final false
   inline void EmitBranchTrue(::System::Linq::Expressions::Interpreter::BranchLabel* elseLabel);
 
-  /// @brief Method EmitByRefCall, addr 0x5e5c268, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EmitByRefCall, addr 0x5f97364, size 0xb8, virtual false, abstract: false, final false
   inline void EmitByRefCall(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters,
                             ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*> byrefArgs);
 
-  /// @brief Method EmitByRefNew, addr 0x5e5bbac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EmitByRefNew, addr 0x5f96ca8, size 0x88, virtual false, abstract: false, final false
   inline void EmitByRefNew(::System::Reflection::ConstructorInfo* constructorInfo, ::ArrayW<::System::Reflection::ParameterInfo*> parameters,
                            ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*> updaters);
 
-  /// @brief Method EmitCall, addr 0x5e5c1bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EmitCall, addr 0x5f972b8, size 0x84, virtual false, abstract: false, final false
   inline void EmitCall(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method EmitCall, addr 0x5e5c240, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EmitCall, addr 0x5f9733c, size 0x28, virtual false, abstract: false, final false
   inline void EmitCall(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters);
 
-  /// @brief Method EmitCast, addr 0x5e5b9c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitCast, addr 0x5f96abc, size 0x24, virtual false, abstract: false, final false
   inline void EmitCast(::System::Type* toType);
 
-  /// @brief Method EmitCastReferenceToEnum, addr 0x5e5ba48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitCastReferenceToEnum, addr 0x5f96b44, size 0x64, virtual false, abstract: false, final false
   inline void EmitCastReferenceToEnum(::System::Type* toType);
 
-  /// @brief Method EmitCastToEnum, addr 0x5e5b9e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitCastToEnum, addr 0x5f96ae0, size 0x64, virtual false, abstract: false, final false
   inline void EmitCastToEnum(::System::Type* toType);
 
-  /// @brief Method EmitCoalescingBranch, addr 0x5e5c830, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EmitCoalescingBranch, addr 0x5f9792c, size 0x6c, virtual false, abstract: false, final false
   inline void EmitCoalescingBranch(::System::Linq::Expressions::Interpreter::BranchLabel* leftNotNull);
 
-  /// @brief Method EmitConvertToUnderlying, addr 0x5e5b950, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EmitConvertToUnderlying, addr 0x5f96a4c, size 0x70, virtual false, abstract: false, final false
   inline void EmitConvertToUnderlying(::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method EmitCreateDelegate, addr 0x5e5bc34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitCreateDelegate, addr 0x5f96d30, size 0x64, virtual false, abstract: false, final false
   inline void EmitCreateDelegate(::System::Linq::Expressions::Interpreter::LightDelegateCreator* creator);
 
-  /// @brief Method EmitDecrement, addr 0x5e5bdc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitDecrement, addr 0x5f96ec4, size 0x24, virtual false, abstract: false, final false
   inline void EmitDecrement(::System::Type* type);
 
-  /// @brief Method EmitDefaultValue, addr 0x5e5bad0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitDefaultValue, addr 0x5f96bcc, size 0x64, virtual false, abstract: false, final false
   inline void EmitDefaultValue(::System::Type* type);
 
-  /// @brief Method EmitDiv, addr 0x5e5a1b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitDiv, addr 0x5f952b4, size 0x24, virtual false, abstract: false, final false
   inline void EmitDiv(::System::Type* type);
 
-  /// @brief Method EmitDup, addr 0x5e58864, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitDup, addr 0x5f93960, size 0x64, virtual false, abstract: false, final false
   inline void EmitDup();
 
-  /// @brief Method EmitEnterExceptionFilter, addr 0x5e5ce04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterExceptionFilter, addr 0x5f97f00, size 0x64, virtual false, abstract: false, final false
   inline void EmitEnterExceptionFilter();
 
-  /// @brief Method EmitEnterExceptionHandlerNonVoid, addr 0x5e5cecc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterExceptionHandlerNonVoid, addr 0x5f97fc8, size 0x64, virtual false, abstract: false, final false
   inline void EmitEnterExceptionHandlerNonVoid();
 
-  /// @brief Method EmitEnterExceptionHandlerVoid, addr 0x5e5cf30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterExceptionHandlerVoid, addr 0x5f9802c, size 0x64, virtual false, abstract: false, final false
   inline void EmitEnterExceptionHandlerVoid();
 
-  /// @brief Method EmitEnterFault, addr 0x5e5cd04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterFault, addr 0x5f97e00, size 0x9c, virtual false, abstract: false, final false
   inline void EmitEnterFault(::System::Linq::Expressions::Interpreter::BranchLabel* faultStartLabel);
 
-  /// @brief Method EmitEnterFinally, addr 0x5e5cc04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterFinally, addr 0x5f97d00, size 0x9c, virtual false, abstract: false, final false
   inline void EmitEnterFinally(::System::Linq::Expressions::Interpreter::BranchLabel* finallyStartLabel);
 
-  /// @brief Method EmitEnterTryCatch, addr 0x5e5cb4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterTryCatch, addr 0x5f97c48, size 0x20, virtual false, abstract: false, final false
   inline void EmitEnterTryCatch();
 
-  /// @brief Method EmitEnterTryFault, addr 0x5e5cb6c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterTryFault, addr 0x5f97c68, size 0x98, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction* EmitEnterTryFault(::System::Linq::Expressions::Interpreter::BranchLabel* tryEnd);
 
-  /// @brief Method EmitEnterTryFinally, addr 0x5e5cb04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EmitEnterTryFinally, addr 0x5f97c00, size 0x48, virtual false, abstract: false, final false
   inline void EmitEnterTryFinally(::System::Linq::Expressions::Interpreter::BranchLabel* finallyStartLabel);
 
-  /// @brief Method EmitEqual, addr 0x5e5a5f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EmitEqual, addr 0x5f956f4, size 0x28, virtual false, abstract: false, final false
   inline void EmitEqual(::System::Type* type, bool liftedToNull);
 
-  /// @brief Method EmitExclusiveOr, addr 0x5e5a200, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitExclusiveOr, addr 0x5f952fc, size 0x24, virtual false, abstract: false, final false
   inline void EmitExclusiveOr(::System::Type* type);
 
-  /// @brief Method EmitGetArrayItem, addr 0x5e59f0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitGetArrayItem, addr 0x5f95008, size 0x64, virtual false, abstract: false, final false
   inline void EmitGetArrayItem();
 
-  /// @brief Method EmitGoto, addr 0x5e5c638, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EmitGoto, addr 0x5f97734, size 0xbc, virtual false, abstract: false, final false
   inline void EmitGoto(::System::Linq::Expressions::Interpreter::BranchLabel* label, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
-  /// @brief Method EmitGreaterThan, addr 0x5e5b810, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitGreaterThan, addr 0x5f9690c, size 0x24, virtual false, abstract: false, final false
   inline void EmitGreaterThan(::System::Type* type, bool liftedToNull);
 
-  /// @brief Method EmitGreaterThanOrEqual, addr 0x5e5b834, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitGreaterThanOrEqual, addr 0x5f96930, size 0x24, virtual false, abstract: false, final false
   inline void EmitGreaterThanOrEqual(::System::Type* type, bool liftedToNull);
 
-  /// @brief Method EmitIncrement, addr 0x5e5bda8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EmitIncrement, addr 0x5f96ea4, size 0x20, virtual false, abstract: false, final false
   inline void EmitIncrement(::System::Type* type);
 
-  /// @brief Method EmitInitializeLocal, addr 0x5e59bf0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method EmitInitializeLocal, addr 0x5f94cec, size 0x108, virtual false, abstract: false, final false
   inline void EmitInitializeLocal(int32_t index, ::System::Type* type);
 
-  /// @brief Method EmitInitializeParameter, addr 0x5e59d48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EmitInitializeParameter, addr 0x5f94e44, size 0x70, virtual false, abstract: false, final false
   inline void EmitInitializeParameter(int32_t index);
 
   /// @brief Method EmitIntSwitch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void EmitIntSwitch(::System::Collections::Generic::Dictionary_2<T, int32_t>* cases);
 
-  /// @brief Method EmitLeaveExceptionFilter, addr 0x5e5ce68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitLeaveExceptionFilter, addr 0x5f97f64, size 0x64, virtual false, abstract: false, final false
   inline void EmitLeaveExceptionFilter();
 
-  /// @brief Method EmitLeaveExceptionHandler, addr 0x5e5cf94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EmitLeaveExceptionHandler, addr 0x5f98090, size 0xa4, virtual false, abstract: false, final false
   inline void EmitLeaveExceptionHandler(bool hasValue, ::System::Linq::Expressions::Interpreter::BranchLabel* tryExpressionEndLabel);
 
-  /// @brief Method EmitLeaveFault, addr 0x5e5cda0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitLeaveFault, addr 0x5f97e9c, size 0x64, virtual false, abstract: false, final false
   inline void EmitLeaveFault();
 
-  /// @brief Method EmitLeaveFinally, addr 0x5e5cca0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitLeaveFinally, addr 0x5f97d9c, size 0x64, virtual false, abstract: false, final false
   inline void EmitLeaveFinally();
 
-  /// @brief Method EmitLeftShift, addr 0x5e5a26c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EmitLeftShift, addr 0x5f95368, size 0x20, virtual false, abstract: false, final false
   inline void EmitLeftShift(::System::Type* type);
 
-  /// @brief Method EmitLessThan, addr 0x5e5a648, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitLessThan, addr 0x5f95744, size 0x24, virtual false, abstract: false, final false
   inline void EmitLessThan(::System::Type* type, bool liftedToNull);
 
-  /// @brief Method EmitLessThanOrEqual, addr 0x5e5af2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitLessThanOrEqual, addr 0x5f96028, size 0x24, virtual false, abstract: false, final false
   inline void EmitLessThanOrEqual(::System::Type* type, bool liftedToNull);
 
-  /// @brief Method EmitLoad, addr 0x5e58238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EmitLoad, addr 0x5f93334, size 0x8, virtual false, abstract: false, final false
   inline void EmitLoad(::System::Object* value);
 
-  /// @brief Method EmitLoad, addr 0x5e58240, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method EmitLoad, addr 0x5f9333c, size 0x4b4, virtual false, abstract: false, final false
   inline void EmitLoad(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method EmitLoad, addr 0x5e586f4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method EmitLoad, addr 0x5f937f0, size 0x170, virtual false, abstract: false, final false
   inline void EmitLoad(bool value);
 
-  /// @brief Method EmitLoadField, addr 0x5e5beb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EmitLoadField, addr 0x5f96fb0, size 0x1c, virtual false, abstract: false, final false
   inline void EmitLoadField(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method EmitLoadLocal, addr 0x5e58a5c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method EmitLoadLocal, addr 0x5f93b58, size 0x1d4, virtual false, abstract: false, final false
   inline void EmitLoadLocal(int32_t index);
 
-  /// @brief Method EmitLoadLocalBoxed, addr 0x5e58c30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EmitLoadLocalBoxed, addr 0x5f93d2c, size 0x70, virtual false, abstract: false, final false
   inline void EmitLoadLocalBoxed(int32_t index);
 
-  /// @brief Method EmitLoadLocalFromClosure, addr 0x5e58e5c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method EmitLoadLocalFromClosure, addr 0x5f93f58, size 0x1d4, virtual false, abstract: false, final false
   inline void EmitLoadLocalFromClosure(int32_t index);
 
-  /// @brief Method EmitLoadLocalFromClosureBoxed, addr 0x5e59030, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method EmitLoadLocalFromClosureBoxed, addr 0x5f9412c, size 0x1d4, virtual false, abstract: false, final false
   inline void EmitLoadLocalFromClosureBoxed(int32_t index);
 
-  /// @brief Method EmitModulo, addr 0x5e5a1dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitModulo, addr 0x5f952d8, size 0x24, virtual false, abstract: false, final false
   inline void EmitModulo(::System::Type* type);
 
-  /// @brief Method EmitMul, addr 0x5e5a180, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EmitMul, addr 0x5f9527c, size 0x38, virtual false, abstract: false, final false
   inline void EmitMul(::System::Type* type, bool checked);
 
-  /// @brief Method EmitNegate, addr 0x5e5bd60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitNegate, addr 0x5f96e5c, size 0x24, virtual false, abstract: false, final false
   inline void EmitNegate(::System::Type* type);
 
-  /// @brief Method EmitNegateChecked, addr 0x5e5bd84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitNegateChecked, addr 0x5f96e80, size 0x24, virtual false, abstract: false, final false
   inline void EmitNegateChecked(::System::Type* type);
 
-  /// @brief Method EmitNew, addr 0x5e5bb34, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method EmitNew, addr 0x5f96c30, size 0x78, virtual false, abstract: false, final false
   inline void EmitNew(::System::Reflection::ConstructorInfo* constructorInfo, ::ArrayW<::System::Reflection::ParameterInfo*> parameters);
 
-  /// @brief Method EmitNewArray, addr 0x5e59fd4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitNewArray, addr 0x5f950d0, size 0x64, virtual false, abstract: false, final false
   inline void EmitNewArray(::System::Type* elementType);
 
-  /// @brief Method EmitNewArrayBounds, addr 0x5e5a038, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EmitNewArrayBounds, addr 0x5f95134, size 0x6c, virtual false, abstract: false, final false
   inline void EmitNewArrayBounds(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method EmitNewArrayInit, addr 0x5e5a0a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EmitNewArrayInit, addr 0x5f951a0, size 0x6c, virtual false, abstract: false, final false
   inline void EmitNewArrayInit(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method EmitNewRuntimeVariables, addr 0x5e59ea8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitNewRuntimeVariables, addr 0x5f94fa4, size 0x64, virtual false, abstract: false, final false
   inline void EmitNewRuntimeVariables(int32_t count);
 
-  /// @brief Method EmitNot, addr 0x5e5baac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitNot, addr 0x5f96ba8, size 0x24, virtual false, abstract: false, final false
   inline void EmitNot(::System::Type* type);
 
-  /// @brief Method EmitNotEqual, addr 0x5e5a620, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EmitNotEqual, addr 0x5f9571c, size 0x28, virtual false, abstract: false, final false
   inline void EmitNotEqual(::System::Type* type, bool liftedToNull);
 
-  /// @brief Method EmitNullableCall, addr 0x5e5c320, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EmitNullableCall, addr 0x5f9741c, size 0x54, virtual false, abstract: false, final false
   inline void EmitNullableCall(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters);
 
-  /// @brief Method EmitNumericConvertChecked, addr 0x5e5b858, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EmitNumericConvertChecked, addr 0x5f96954, size 0x7c, virtual false, abstract: false, final false
   inline void EmitNumericConvertChecked(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method EmitNumericConvertUnchecked, addr 0x5e5b8d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EmitNumericConvertUnchecked, addr 0x5f969d0, size 0x7c, virtual false, abstract: false, final false
   inline void EmitNumericConvertUnchecked(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method EmitOr, addr 0x5e5a248, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitOr, addr 0x5f95344, size 0x24, virtual false, abstract: false, final false
   inline void EmitOr(::System::Type* type);
 
-  /// @brief Method EmitPop, addr 0x5e588c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitPop, addr 0x5f939c4, size 0x64, virtual false, abstract: false, final false
   inline void EmitPop();
 
-  /// @brief Method EmitRethrow, addr 0x5e5ca3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitRethrow, addr 0x5f97b38, size 0x64, virtual false, abstract: false, final false
   inline void EmitRethrow();
 
-  /// @brief Method EmitRethrowVoid, addr 0x5e5caa0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitRethrowVoid, addr 0x5f97b9c, size 0x64, virtual false, abstract: false, final false
   inline void EmitRethrowVoid();
 
-  /// @brief Method EmitRightShift, addr 0x5e5a5d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EmitRightShift, addr 0x5f956d0, size 0x24, virtual false, abstract: false, final false
   inline void EmitRightShift(::System::Type* type);
 
-  /// @brief Method EmitSetArrayItem, addr 0x5e59f70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitSetArrayItem, addr 0x5f9506c, size 0x64, virtual false, abstract: false, final false
   inline void EmitSetArrayItem();
 
-  /// @brief Method EmitStoreField, addr 0x5e5c114, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EmitStoreField, addr 0x5f97210, size 0xa8, virtual false, abstract: false, final false
   inline void EmitStoreField(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method EmitStoreLocal, addr 0x5e593d8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method EmitStoreLocal, addr 0x5f944d4, size 0x1d4, virtual false, abstract: false, final false
   inline void EmitStoreLocal(int32_t index);
 
-  /// @brief Method EmitStoreLocalBoxed, addr 0x5e597d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EmitStoreLocalBoxed, addr 0x5f948d4, size 0x70, virtual false, abstract: false, final false
   inline void EmitStoreLocalBoxed(int32_t index);
 
-  /// @brief Method EmitStoreLocalToClosure, addr 0x5e59bd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EmitStoreLocalToClosure, addr 0x5f94cd4, size 0x18, virtual false, abstract: false, final false
   inline void EmitStoreLocalToClosure(int32_t index);
 
-  /// @brief Method EmitStringSwitch, addr 0x5e5d038, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method EmitStringSwitch, addr 0x5f98134, size 0x68, virtual false, abstract: false, final false
   inline void EmitStringSwitch(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method EmitSub, addr 0x5e5a148, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EmitSub, addr 0x5f95244, size 0x38, virtual false, abstract: false, final false
   inline void EmitSub(::System::Type* type, bool checked);
 
-  /// @brief Method EmitThrow, addr 0x5e5c974, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitThrow, addr 0x5f97a70, size 0x64, virtual false, abstract: false, final false
   inline void EmitThrow();
 
-  /// @brief Method EmitThrowVoid, addr 0x5e5c9d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitThrowVoid, addr 0x5f97ad4, size 0x64, virtual false, abstract: false, final false
   inline void EmitThrowVoid();
 
-  /// @brief Method EmitTypeAs, addr 0x5e5be50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitTypeAs, addr 0x5f96f4c, size 0x64, virtual false, abstract: false, final false
   inline void EmitTypeAs(::System::Type* type);
 
-  /// @brief Method EmitTypeEquals, addr 0x5e5bc98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitTypeEquals, addr 0x5f96d94, size 0x64, virtual false, abstract: false, final false
   inline void EmitTypeEquals();
 
-  /// @brief Method EmitTypeIs, addr 0x5e5bdec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EmitTypeIs, addr 0x5f96ee8, size 0x64, virtual false, abstract: false, final false
   inline void EmitTypeIs(::System::Type* type);
 
-  /// @brief Method EnsureLabelIndex, addr 0x5e5c590, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EnsureLabelIndex, addr 0x5f9768c, size 0x34, virtual false, abstract: false, final false
   inline int32_t EnsureLabelIndex(::System::Linq::Expressions::Interpreter::BranchLabel* label);
 
-  /// @brief Method FixupBranch, addr 0x5e5c4a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FixupBranch, addr 0x5f9759c, size 0xf0, virtual false, abstract: false, final false
   inline void FixupBranch(int32_t branchIndex, int32_t offset);
 
-  /// @brief Method GetInstruction, addr 0x5e57f30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetInstruction, addr 0x5f9302c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Instruction* GetInstruction(int32_t index);
 
-  /// @brief Method GetLoadField, addr 0x5e5bed0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetLoadField, addr 0x5f96fcc, size 0x244, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Instruction* GetLoadField(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method InitImmutableRefBox, addr 0x5e59e58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InitImmutableRefBox, addr 0x5f94f54, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* InitImmutableRefBox(int32_t index);
 
-  /// @brief Method InitReference, addr 0x5e59cf8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InitReference, addr 0x5f94df4, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* InitReference(int32_t index);
 
-  /// @brief Method LoadLocalBoxed, addr 0x5e58ca0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalBoxed, addr 0x5f93d9c, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* LoadLocalBoxed(int32_t index);
 
-  /// @brief Method MakeLabel, addr 0x5e5c374, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method MakeLabel, addr 0x5f97470, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::BranchLabel* MakeLabel();
 
-  /// @brief Method MarkLabel, addr 0x5e5c618, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MarkLabel, addr 0x5f97714, size 0x20, virtual false, abstract: false, final false
   inline void MarkLabel(::System::Linq::Expressions::Interpreter::BranchLabel* label);
 
-  /// @brief Method MarkRuntimeLabel, addr 0x5e5c5c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MarkRuntimeLabel, addr 0x5f976c0, size 0x54, virtual false, abstract: false, final false
   inline int32_t MarkRuntimeLabel();
 
   static inline ::System::Linq::Expressions::Interpreter::InstructionList* New_ctor();
 
-  /// @brief Method Parameter, addr 0x5e59db8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Parameter, addr 0x5f94eb4, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Parameter(int32_t index);
 
-  /// @brief Method ParameterBox, addr 0x5e59e08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ParameterBox, addr 0x5f94f04, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* ParameterBox(int32_t index);
 
-  /// @brief Method StoreLocalBoxed, addr 0x5e59848, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method StoreLocalBoxed, addr 0x5f94944, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* StoreLocalBoxed(int32_t index);
 
-  /// @brief Method SwitchToBoxed, addr 0x5e5892c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SwitchToBoxed, addr 0x5f93a28, size 0x130, virtual false, abstract: false, final false
   inline void SwitchToBoxed(int32_t index, int32_t instructionIndex);
 
-  /// @brief Method ToArray, addr 0x5e57f94, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x5f93090, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InstructionArray ToArray();
 
-  /// @brief Method UnEmit, addr 0x5e57db0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method UnEmit, addr 0x5f92eac, size 0x120, virtual false, abstract: false, final false
   inline void UnEmit();
 
-  /// @brief Method UpdateStackDepth, addr 0x5e57d04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateStackDepth, addr 0x5f92e00, size 0xac, virtual false, abstract: false, final false
   inline void UpdateStackDepth(::System::Linq::Expressions::Interpreter::Instruction* instruction);
 
   constexpr int32_t const& __cordl_internal_get__currentContinuationsDepth() const;
@@ -675,7 +675,7 @@ public:
 
   constexpr void __cordl_internal_set__runtimeLabelCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5e5d0a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f9819c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> getStaticF_s_Ints();
@@ -710,13 +710,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_true();
 
-  /// @brief Method get_Count, addr 0x5e57ed0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5f92fcc, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_CurrentContinuationsDepth, addr 0x5e57f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentContinuationsDepth, addr 0x5f93024, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentContinuationsDepth();
 
-  /// @brief Method get_CurrentStackDepth, addr 0x5e57f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentStackDepth, addr 0x5f9301c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentStackDepth();
 
   static inline void setStaticF_s_Ints(::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> value);
@@ -766,7 +766,7 @@ public:
   InstructionList(InstructionList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16361 };
 
   /// @brief Field _instructions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::Instruction*>* ____instructions;

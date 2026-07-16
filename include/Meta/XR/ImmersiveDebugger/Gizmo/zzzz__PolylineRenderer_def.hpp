@@ -110,36 +110,36 @@ public:
   /// @brief Field _scaleShaderID, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__scaleShaderID, put = __cordl_internal_set__scaleShaderID)) int32_t _scaleShaderID;
 
-  /// @brief Method Cleanup, addr 0x592fac8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5a691cc, size 0xf4, virtual false, abstract: false, final false
   inline void Cleanup();
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* New_ctor(::UnityEngine::Material* material, bool renderSinglePass);
 
-  /// @brief Method PrepareColorBuffer, addr 0x5933904, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method PrepareColorBuffer, addr 0x5a6d008, size 0x110, virtual false, abstract: false, final false
   inline void PrepareColorBuffer(int32_t count);
 
-  /// @brief Method RenderLines, addr 0x592fc94, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method RenderLines, addr 0x5a69398, size 0x1d0, virtual false, abstract: false, final false
   inline void RenderLines();
 
-  /// @brief Method SetColor, addr 0x5933710, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5a6ce14, size 0xd4, virtual false, abstract: false, final false
   inline void SetColor(int32_t count, ::UnityEngine::Color color);
 
-  /// @brief Method SetColors, addr 0x59337e4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x5a6cee8, size 0x120, virtual false, abstract: false, final false
   inline void SetColors(int32_t count, ::System::Collections::Generic::List_1<::UnityEngine::Color>* colors);
 
-  /// @brief Method SetDrawCount, addr 0x59336cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetDrawCount, addr 0x5a6cdd0, size 0x44, virtual false, abstract: false, final false
   inline void SetDrawCount(int32_t c);
 
-  /// @brief Method SetLines, addr 0x59332d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetLines, addr 0x5a6c9dc, size 0xb4, virtual false, abstract: false, final false
   inline void SetLines(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions, ::UnityEngine::Color color);
 
-  /// @brief Method SetLines, addr 0x592fbf8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetLines, addr 0x5a692fc, size 0x9c, virtual false, abstract: false, final false
   inline void SetLines(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions, ::System::Collections::Generic::List_1<::UnityEngine::Color>* colors, int32_t maxCount);
 
-  /// @brief Method SetPositions, addr 0x593338c, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method SetPositions, addr 0x5a6ca90, size 0x340, virtual false, abstract: false, final false
   inline void SetPositions(int32_t count, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions);
 
-  /// @brief Method SetTransform, addr 0x5933a14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetTransform, addr 0x5a6d118, size 0x48, virtual false, abstract: false, final false
   inline void SetTransform(::UnityEngine::Transform* transform);
 
   constexpr ::UnityEngine::ComputeBuffer* const& __cordl_internal_get__argsBuffer() const;
@@ -256,19 +256,19 @@ public:
 
   constexpr void __cordl_internal_set__scaleShaderID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x592f5e8, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a68cec, size 0x460, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* material, bool renderSinglePass);
 
-  /// @brief Method get_BufferSize, addr 0x59332b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_BufferSize, addr 0x5a6c9b8, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_BufferSize();
 
-  /// @brief Method get_Copies, addr 0x59332a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Copies, addr 0x5a6c9a4, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_Copies();
 
-  /// @brief Method get_LineScaleFactor, addr 0x59332c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineScaleFactor, addr 0x5a6c9cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_LineScaleFactor();
 
-  /// @brief Method set_LineScaleFactor, addr 0x59332d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LineScaleFactor, addr 0x5a6c9d4, size 0x8, virtual false, abstract: false, final false
   inline void set_LineScaleFactor(float_t value);
 
 protected:
@@ -286,7 +286,7 @@ public:
   PolylineRenderer(PolylineRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18445 };
 
   /// @brief Field _positions, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ____positions;

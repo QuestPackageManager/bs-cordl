@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::CollabOperationAnalytic::*)()>(&::UnityEditor::Analytics::CollabOperationAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6ccd9a4;
+  constexpr static std::size_t addrs = 0x6e2185c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::CollabOperationAnalytic*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::CollabOperationAnalytic* (*)()>(&::UnityEditor::Analytics::CollabOperationAnalytic::CreateCollabOperationAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ccda1c;
+  constexpr static std::size_t addrs = 0x6e218d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

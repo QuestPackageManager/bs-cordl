@@ -20,7 +20,7 @@ namespace UnityEngine::Android {
 class CORDL_TYPE AndroidGame : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StopLoading, addr 0x68d72f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopLoading, addr 0x6a2e210, size 0x3c, virtual false, abstract: false, final false
   static inline void StopLoading(int32_t label);
 
 protected:
@@ -38,7 +38,7 @@ public:
   AndroidGame(AndroidGame const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

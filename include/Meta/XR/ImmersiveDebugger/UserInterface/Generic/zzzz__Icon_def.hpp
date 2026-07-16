@@ -44,7 +44,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon* New_ctor();
 
-  /// @brief Method Setup, addr 0x5920c1c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5a320, size 0x8c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::UnityEngine::UI::RawImage> const& __cordl_internal_get__image() const;
@@ -53,22 +53,22 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::RawImage> value);
 
-  /// @brief Method .ctor, addr 0x5920ca8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5a3ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RawImage, addr 0x5920b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawImage, addr 0x5a5a294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::RawImage> get_RawImage();
 
-  /// @brief Method get_Texture, addr 0x5920b98, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Texture, addr 0x5a5a29c, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_Texture();
 
-  /// @brief Method set_Color, addr 0x591e5d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Color, addr 0x5a57cd4, size 0x20, virtual false, abstract: false, final false
   inline void set_Color(::UnityEngine::Color value);
 
-  /// @brief Method set_RaycastTarget, addr 0x591e5f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_RaycastTarget, addr 0x5a57cf4, size 0x24, virtual false, abstract: false, final false
   inline void set_RaycastTarget(bool value);
 
-  /// @brief Method set_Texture, addr 0x5920c04, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method set_Texture, addr 0x5a5a308, size 0x18, virtual true, abstract: false, final false
   inline void set_Texture(::UnityEngine::Texture2D* value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   Icon(Icon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18368 };
 
   /// @brief Field _image, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::RawImage> ____image;

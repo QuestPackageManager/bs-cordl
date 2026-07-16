@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnhandledExceptionEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::UnhandledExceptionEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5b2a9e8;
+  constexpr static std::size_t addrs = 0x5c646c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnhandledExceptionEventHandler::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
     &::System::UnhandledExceptionEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b2ab30;
+  constexpr static std::size_t addrs = 0x5c64808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

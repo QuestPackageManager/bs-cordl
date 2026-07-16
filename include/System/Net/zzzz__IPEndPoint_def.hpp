@@ -54,21 +54,21 @@ public:
   /// @brief Field _port, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__port, put = __cordl_internal_set__port)) int32_t _port;
 
-  /// @brief Method Create, addr 0x62ba544, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x63f65e0, size 0x1f0, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
-  /// @brief Method Equals, addr 0x62ba734, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63f67d0, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x62ba7ec, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63f6888, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::IPEndPoint* New_ctor(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method Serialize, addr 0x62ba4d8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x63f6574, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method ToString, addr 0x62ba3ec, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63f6488, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::IPAddress* const& __cordl_internal_get__address() const;
@@ -83,20 +83,20 @@ public:
 
   constexpr void __cordl_internal_set__port(int32_t value);
 
-  /// @brief Method .ctor, addr 0x62ba340, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f63dc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address, int32_t port);
 
   static inline ::System::Net::IPEndPoint* getStaticF_Any();
 
   static inline ::System::Net::IPEndPoint* getStaticF_IPv6Any();
 
-  /// @brief Method get_Address, addr 0x62ba3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Address, addr 0x63f6478, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPAddress* get_Address();
 
-  /// @brief Method get_AddressFamily, addr 0x62ba318, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x63f63b4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
-  /// @brief Method get_Port, addr 0x62ba3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x63f6480, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Port();
 
   static inline void setStaticF_Any(::System::Net::IPEndPoint* value);
@@ -127,7 +127,7 @@ public:
   static constexpr int32_t MinPort{ static_cast<int32_t>(0x0) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11429 };
 
   /// @brief Field _address, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPAddress* ____address;

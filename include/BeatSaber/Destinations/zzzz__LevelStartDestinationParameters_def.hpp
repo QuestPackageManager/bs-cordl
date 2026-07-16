@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/Destinations/zzzz__GameMode_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LevelStartDestinationParameters)
 namespace BeatSaber::Destinations {
@@ -12,11 +13,8 @@ struct GameMode;
 namespace BeatSaber::Destinations {
 class GameplayEnvironmentOverride;
 }
-namespace BeatSaber::Destinations {
-class SimpleBeatmapKey;
-}
 namespace GlobalNamespace {
-class GameplayAdditionalInformation;
+struct BeatmapKey;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
@@ -34,49 +32,41 @@ class LevelStartDestinationParameters;
 // Write type traits
 MARK_REF_T(::BeatSaber::Destinations::LevelStartDestinationParameters*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::LevelStartDestinationParameters*, "BeatSaber.Destinations", "LevelStartDestinationParameters");
-// Dependencies BeatSaber.Destinations.GameMode, System.Object
+// Dependencies BeatSaber.Destinations.GameMode, BeatmapKey, System.Object
 namespace BeatSaber::Destinations {
 // Is value type: false
 // CS Name: BeatSaber.Destinations.LevelStartDestinationParameters
 class CORDL_TYPE LevelStartDestinationParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field additionalInformation, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_additionalInformation, put = __cordl_internal_set_additionalInformation)) ::GlobalNamespace::GameplayAdditionalInformation* additionalInformation;
+  /// @brief Field beatmapKey, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::BeatSaber::Destinations::SimpleBeatmapKey* beatmapKey;
-
-  /// @brief Field customPlayerSpecificSettings, offset 0x30, size 0x8
+  /// @brief Field customPlayerSpecificSettings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_customPlayerSpecificSettings,
                       put = __cordl_internal_set_customPlayerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings;
 
-  /// @brief Field environmentOverride, offset 0x20, size 0x8
+  /// @brief Field environmentOverride, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_environmentOverride, put = __cordl_internal_set_environmentOverride)) ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride;
 
   /// @brief Field gameMode, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_gameMode, put = __cordl_internal_set_gameMode)) ::BeatSaber::Destinations::GameMode gameMode;
 
-  /// @brief Field gameplayModifiers, offset 0x28, size 0x8
+  /// @brief Field gameplayModifiers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Field practiceSettings, offset 0x38, size 0x8
+  /// @brief Field practiceSettings, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_practiceSettings, put = __cordl_internal_set_practiceSettings)) ::GlobalNamespace::PracticeSettings* practiceSettings;
 
   static inline ::BeatSaber::Destinations::LevelStartDestinationParameters* New_ctor();
 
   static inline ::BeatSaber::Destinations::LevelStartDestinationParameters*
-  New_ctor(::BeatSaber::Destinations::GameMode gameMode, ::BeatSaber::Destinations::SimpleBeatmapKey* beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
-           ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-           ::GlobalNamespace::GameplayAdditionalInformation* additionalInformation);
+  New_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
+           ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  constexpr ::GlobalNamespace::GameplayAdditionalInformation* const& __cordl_internal_get_additionalInformation() const;
+  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
-  constexpr ::GlobalNamespace::GameplayAdditionalInformation*& __cordl_internal_get_additionalInformation();
-
-  constexpr ::BeatSaber::Destinations::SimpleBeatmapKey* const& __cordl_internal_get_beatmapKey() const;
-
-  constexpr ::BeatSaber::Destinations::SimpleBeatmapKey*& __cordl_internal_get_beatmapKey();
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings* const& __cordl_internal_get_customPlayerSpecificSettings() const;
 
@@ -98,9 +88,7 @@ public:
 
   constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get_practiceSettings();
 
-  constexpr void __cordl_internal_set_additionalInformation(::GlobalNamespace::GameplayAdditionalInformation* value);
-
-  constexpr void __cordl_internal_set_beatmapKey(::BeatSaber::Destinations::SimpleBeatmapKey* value);
+  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
   constexpr void __cordl_internal_set_customPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
@@ -112,13 +100,13 @@ public:
 
   constexpr void __cordl_internal_set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method .ctor, addr 0x31e8e10, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32801c0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31e8f40, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::BeatSaber::Destinations::GameMode gameMode, ::BeatSaber::Destinations::SimpleBeatmapKey* beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
+  /// @brief Method .ctor, addr 0x3280280, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
-                    ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::GameplayAdditionalInformation* additionalInformation);
+                    ::GlobalNamespace::PracticeSettings* practiceSettings);
 
 protected:
   // Ctor Parameters []
@@ -135,28 +123,25 @@ public:
   LevelStartDestinationParameters(LevelStartDestinationParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23061 };
 
   /// @brief Field gameMode, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Destinations::GameMode ___gameMode;
 
-  /// @brief Field beatmapKey, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::Destinations::SimpleBeatmapKey* ___beatmapKey;
+  /// @brief Field beatmapKey, offset: 0x18, size: 0x10, def value: None
+  ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field environmentOverride, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field environmentOverride, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::Destinations::GameplayEnvironmentOverride* ___environmentOverride;
 
-  /// @brief Field gameplayModifiers, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field gameplayModifiers, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;
 
-  /// @brief Field customPlayerSpecificSettings, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field customPlayerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ___customPlayerSpecificSettings;
 
-  /// @brief Field practiceSettings, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field practiceSettings, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::PracticeSettings* ___practiceSettings;
-
-  /// @brief Field additionalInformation, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayAdditionalInformation* ___additionalInformation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,15 +150,13 @@ static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameter
 
 static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___beatmapKey) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___environmentOverride) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___environmentOverride) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___gameplayModifiers) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___gameplayModifiers) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___customPlayerSpecificSettings) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___customPlayerSpecificSettings) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___practiceSettings) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___additionalInformation) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::LevelStartDestinationParameters, ___practiceSettings) == 0x40, "Offset mismatch!");
 
 static_assert(sizeof(::BeatSaber::Destinations::LevelStartDestinationParameters) == 0x48, "Size mismatch!");
 

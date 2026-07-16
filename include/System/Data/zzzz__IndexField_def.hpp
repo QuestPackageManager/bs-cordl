@@ -26,16 +26,16 @@ namespace System::Data {
 struct CORDL_TYPE IndexField {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x5f0c75c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6047858, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5f0c7e8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60478e4, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x5f0c73c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6047838, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, bool isDescending);
 
-  /// @brief Method op_Equality, addr 0x5f0c748, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6047844, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Data::IndexField if1, ::System::Data::IndexField if2);
 
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   constexpr IndexField(::System::Data::DataColumn* Column, bool IsDescending) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13826 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

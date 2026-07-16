@@ -34,12 +34,12 @@ public:
   /// @brief Field mTicketLifetimeHint, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mTicketLifetimeHint, put = __cordl_internal_set_mTicketLifetimeHint)) int64_t mTicketLifetimeHint;
 
-  /// @brief Method Encode, addr 0x33ad6d4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3469b8c, size 0x80, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* New_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket);
 
-  /// @brief Method Parse, addr 0x33ad754, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3469c0c, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* Parse(::System::IO::Stream* input);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_mTicket() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_mTicketLifetimeHint(int64_t value);
 
-  /// @brief Method .ctor, addr 0x33ad6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3469b74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket);
 
-  /// @brief Method get_Ticket, addr 0x33ad6cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Ticket, addr 0x3469b84, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Ticket();
 
-  /// @brief Method get_TicketLifetimeHint, addr 0x33ad6c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TicketLifetimeHint, addr 0x3469b7c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_TicketLifetimeHint();
 
 protected:

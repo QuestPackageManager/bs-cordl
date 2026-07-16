@@ -61,21 +61,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6289760, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63c57fc, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x62897d0, size 0x31c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x63c586c, size 0x31c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x62896f4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x63c5790, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetService, addr 0x6289aec, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetService, addr 0x63c5b88, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Object* GetService(::System::Type* service);
 
   static inline ::System::ComponentModel::Component* New_ctor();
 
-  /// @brief Method ToString, addr 0x6289c64, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63c5d00, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::ComponentModel::EventHandlerList* const& __cordl_internal_get_events() const;
@@ -90,21 +90,21 @@ public:
 
   constexpr void __cordl_internal_set_site(::System::ComponentModel::ISite* value);
 
-  /// @brief Method .ctor, addr 0x6289da0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c5e3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_EventDisposed();
 
-  /// @brief Method get_CanRaiseEvents, addr 0x6289744, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRaiseEvents, addr 0x63c57e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRaiseEvents();
 
-  /// @brief Method get_CanRaiseEventsInternal, addr 0x628974c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CanRaiseEventsInternal, addr 0x63c57e8, size 0xc, virtual false, abstract: false, final false
   inline bool get_CanRaiseEventsInternal();
 
-  /// @brief Method get_DesignMode, addr 0x6289bb0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_DesignMode, addr 0x63c5c4c, size 0xb4, virtual false, abstract: false, final false
   inline bool get_DesignMode();
 
-  /// @brief Method get_Site, addr 0x6289758, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Site, addr 0x63c57f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
   /// @brief Convert to "::System::ComponentModel::IComponent"
@@ -130,7 +130,7 @@ public:
   Component(Component const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11291 };
 
   /// @brief Field site, offset: 0x18, size: 0x8, def value: None
   ::System::ComponentModel::ISite* ___site;

@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__result(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5ed9204, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6014300, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount, ::System::Type* a1,
                     ::System::Type* a2, ::System::Type* a3);
 
@@ -122,7 +122,7 @@ public:
   Function(Function const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13721 };
 
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;

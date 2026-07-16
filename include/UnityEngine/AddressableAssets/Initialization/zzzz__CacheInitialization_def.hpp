@@ -63,18 +63,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
 
-  /// @brief Method Execute, addr 0x632af84, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6467ba4, size 0x9c, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x632ade0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6467a00, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x632ade8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6467a08, size 0xc0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp* New_ctor();
 
-  /// @brief Method Update, addr 0x632aea8, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x6467ac8, size 0xdc, virtual true, abstract: false, final true
   inline void Update(float_t unscaledDeltaTime);
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_m_Callback() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateRequired(bool value);
 
-  /// @brief Method .ctor, addr 0x632acf0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6467910, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
@@ -110,7 +110,7 @@ public:
   CacheInitialization_CacheInitOp(CacheInitialization_CacheInitOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19818 };
 
   /// @brief Field m_Callback, offset: 0x98, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_Callback;
@@ -146,7 +146,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitialization___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__0, addr 0x632b020, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__0, addr 0x6467c40, size 0x24, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__0();
 
   constexpr ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* const& __cordl_internal_get___4__this() const;
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x632acec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x646790c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -185,7 +185,7 @@ public:
   CacheInitialization___c__DisplayClass1_0(CacheInitialization___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19819 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* _____4__this;
@@ -222,18 +222,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
 
-  /// @brief Method Initialize, addr 0x632a960, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x6467580, size 0x208, virtual true, abstract: false, final true
   inline bool Initialize(::StringW id, ::StringW dataStr);
 
-  /// @brief Method InitializeAsync, addr 0x632ab68, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x6467788, size 0x184, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* New_ctor();
 
-  /// @brief Method .ctor, addr 0x632addc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64679fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RootPath, addr 0x632ad44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_RootPath, addr 0x6467964, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW get_RootPath();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
@@ -254,7 +254,7 @@ public:
   CacheInitialization(CacheInitialization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

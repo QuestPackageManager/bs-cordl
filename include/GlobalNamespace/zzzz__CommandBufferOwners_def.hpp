@@ -37,15 +37,15 @@ public:
   /// @brief Field commandBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
-  /// @brief Method AddOwner, addr 0x5e08018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddOwner, addr 0x5f3fd7c, size 0xc0, virtual false, abstract: false, final false
   inline void AddOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method ContainsOwner, addr 0x5e07fb4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ContainsOwner, addr 0x5f3fd18, size 0x64, virtual false, abstract: false, final false
   inline bool ContainsOwner(::UnityEngine::Object* owner);
 
   static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
 
-  /// @brief Method RemoveOwner, addr 0x5e07d20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RemoveOwner, addr 0x5f3fa84, size 0x70, virtual false, abstract: false, final false
   inline void RemoveOwner(::UnityEngine::Object* owner);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* const& __cordl_internal_get__owners() const;
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x5e080d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3fe3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NumberOfOwners, addr 0x5e07d90, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_NumberOfOwners, addr 0x5f3faf4, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_NumberOfOwners();
 
 protected:
@@ -81,7 +81,7 @@ public:
   CommandBufferOwners(CommandBufferOwners const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20872 };
 
   /// @brief Field _owners, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* ____owners;

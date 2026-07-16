@@ -38,15 +38,15 @@ public:
   __declspec(property(get = __cordl_internal_get__disableSpecificComponents,
                       put = __cordl_internal_set__disableSpecificComponents)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* _disableSpecificComponents;
 
-  /// @brief Method Init, addr 0x58468fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x597e5ec, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
   static inline ::GlobalNamespace::DisableForVisualTestComparator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5846998, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x597e688, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDeterminismSet, addr 0x5846a68, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDeterminismSet, addr 0x597e758, size 0x254, virtual false, abstract: false, final false
   inline void OnDeterminismSet(bool isDeterministic);
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__disableSpecificComponents(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* value);
 
-  /// @brief Method .ctor, addr 0x5846cbc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597e9ac, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   DisableForVisualTestComparator(DisableForVisualTestComparator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5761 };
 
   /// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;

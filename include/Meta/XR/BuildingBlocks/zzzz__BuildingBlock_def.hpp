@@ -45,18 +45,18 @@ public:
   /// @brief Field version, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Awake, addr 0x58f7c0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a31310, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HasDuplicateInstanceId, addr 0x58f7cb4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HasDuplicateInstanceId, addr 0x5a313b8, size 0x110, virtual false, abstract: false, final false
   inline bool HasDuplicateInstanceId();
 
   static inline ::Meta::XR::BuildingBlocks::BuildingBlock* New_ctor();
 
-  /// @brief Method ResetInstanceId, addr 0x58f7dc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ResetInstanceId, addr 0x5a314c8, size 0x34, virtual false, abstract: false, final false
   inline void ResetInstanceId();
 
-  /// @brief Method Start, addr 0x58f7df8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a314fc, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_blockId() const;
@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x58f7680, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a30d84, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlockId, addr 0x58f7be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockId, addr 0x5a312e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BlockId();
 
-  /// @brief Method get_InstallationRoutineCheckpoint, addr 0x58f7bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstallationRoutineCheckpoint, addr 0x5a31300, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* get_InstallationRoutineCheckpoint();
 
-  /// @brief Method get_InstanceId, addr 0x58f7bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceId, addr 0x5a312f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InstanceId();
 
-  /// @brief Method get_Version, addr 0x58f7bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x5a312f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method set_InstallationRoutineCheckpoint, addr 0x58f7c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InstallationRoutineCheckpoint, addr 0x5a31308, size 0x8, virtual false, abstract: false, final false
   inline void set_InstallationRoutineCheckpoint(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* value);
 
 protected:
@@ -116,7 +116,7 @@ public:
   BuildingBlock(BuildingBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21304 };
 
   /// @brief Field blockId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___blockId;

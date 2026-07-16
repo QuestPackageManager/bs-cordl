@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioMixerSnapshot::*)()>(&::UnityEngine::Audio::AudioMixerSnapshot::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68fc1ac;
+  constexpr static std::size_t addrs = 0x6a52ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioMixerSnapshot*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Audio::AudioMixer> (::UnityEngine::Audio::AudioMixerSnapshot::*)()>(
     &::UnityEngine::Audio::AudioMixerSnapshot::get_audioMixer)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x68fb024;
+  constexpr static std::size_t addrs = 0x6a51e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioMixerSnapshot*>(), { "get_audioMixer", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioMixerSnapshot::*)(float_t)>(&::UnityEngine::Audio::AudioMixerSnapshot::TransitionTo)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68fc240;
+  constexpr static std::size_t addrs = 0x6a53090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Audio::AudioMixerSnapshot::get_audioMixer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x68fc204;
+  constexpr static std::size_t addrs = 0x6a53054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

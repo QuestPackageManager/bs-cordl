@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::RenderModel_t_Packed::*)(::OVR::OpenVR::RenderModel_t)>(&::OVR::OpenVR::RenderModel_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d0dd18;
+  constexpr static std::size_t addrs = 0x5e45f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::RenderModel_t_Packed::*)(::by_ref<::OVR::OpenVR::RenderModel_t>)>(&::OVR::OpenVR::RenderModel_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d0dd44;
+  constexpr static std::size_t addrs = 0x5e45f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

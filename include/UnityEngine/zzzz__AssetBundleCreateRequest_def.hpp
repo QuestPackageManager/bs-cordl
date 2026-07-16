@@ -34,10 +34,10 @@ namespace UnityEngine {
 class CORDL_TYPE AssetBundleCreateRequest_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x68ef88c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6a467a4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* ConvertToManaged(::System::IntPtr ptr);
 
-  /// @brief Method ConvertToNative, addr 0x68ef910, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6a46828, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
 
 protected:
@@ -55,7 +55,7 @@ public:
   AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,13 +76,13 @@ public:
 
   static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x68ef840, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a46758, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_assetBundle, addr 0x68ef6c8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_assetBundle, addr 0x6a465e0, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
-  /// @brief Method get_assetBundle_Injected, addr 0x68ef804, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_assetBundle_Injected, addr 0x6a4671c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_assetBundle_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -100,7 +100,7 @@ public:
   AssetBundleCreateRequest(AssetBundleCreateRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

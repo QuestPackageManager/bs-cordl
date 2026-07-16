@@ -27,6 +27,10 @@ namespace BeatSaber::Init {
 class CORDL_TYPE InitArguments : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field kAsymmetricStereoBloomOffsetsOption, offset 0xffffffff, size 0x20
+  __declspec(property(get = getStaticF_kAsymmetricStereoBloomOffsetsOption,
+                      put = setStaticF_kAsymmetricStereoBloomOffsetsOption)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kAsymmetricStereoBloomOffsetsOption;
+
   /// @brief Field kAutoPlayOption, offset 0xffffffff, size 0x20
   __declspec(property(get = getStaticF_kAutoPlayOption, put = setStaticF_kAutoPlayOption)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kAutoPlayOption;
 
@@ -43,11 +47,10 @@ public:
   __declspec(property(get = getStaticF_kProgramArgumentOptions,
                       put = setStaticF_kProgramArgumentOptions)) ::System::Collections::Generic::IReadOnlyList_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* kProgramArgumentOptions;
 
-  /// @brief Field kRecordingToolOption, offset 0xffffffff, size 0x20
-  __declspec(property(get = getStaticF_kRecordingToolOption, put = setStaticF_kRecordingToolOption)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kRecordingToolOption;
-
   /// @brief Field kRunCommandOption, offset 0xffffffff, size 0x20
   __declspec(property(get = getStaticF_kRunCommandOption, put = setStaticF_kRunCommandOption)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kRunCommandOption;
+
+  static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kAsymmetricStereoBloomOffsetsOption();
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kAutoPlayOption();
 
@@ -59,9 +62,9 @@ public:
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* getStaticF_kProgramArgumentOptions();
 
-  static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kRecordingToolOption();
-
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kRunCommandOption();
+
+  static inline void setStaticF_kAsymmetricStereoBloomOffsetsOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
   static inline void setStaticF_kAutoPlayOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
@@ -72,8 +75,6 @@ public:
   static inline void setStaticF_kFPFCOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
   static inline void setStaticF_kProgramArgumentOptions(::System::Collections::Generic::IReadOnlyList_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* value);
-
-  static inline void setStaticF_kRecordingToolOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
   static inline void setStaticF_kRunCommandOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
@@ -92,7 +93,7 @@ public:
   InitArguments(InitArguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22666 };
 
   /// @brief Field kAutoPlayOptionIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kAutoPlayOptionIdentifier{ u"--auto_play" };
@@ -102,9 +103,6 @@ public:
 
   /// @brief Field kCustomSettingsOptionIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCustomSettingsOptionIdentifier{ u"--customSettings" };
-
-  /// @brief Field kRecordingToolOptionIdentifier offset 0xffffffff size 0x8
-  static constexpr ::ConstString kRecordingToolOptionIdentifier{ u"--enable_recording_tool" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

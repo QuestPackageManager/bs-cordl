@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::XmlNode*> (*)(::System::Xml::XmlReader*)>(&::System::Runtime::Serialization::XmlSerializableServices::ReadNodes)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6037a90;
+  constexpr static std::size_t addrs = 0x6172b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlReader*)>(&::System::Runtime::Serialization::XmlSerializableServices::IsValidAttribute)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6037e14;
+  constexpr static std::size_t addrs = 0x6172f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

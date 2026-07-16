@@ -10,14 +10,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(ObstacleSaberSparkleEffectManager)
+namespace BeatSaber::Haptics {
+class HapticFeedbackManager;
+}
+namespace BeatSaber::Haptics {
+class HapticPresetSO;
+}
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class ColorManager;
-}
-namespace GlobalNamespace {
-class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class ObstacleController;
@@ -36,9 +39,6 @@ struct SaberType;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -137,7 +137,7 @@ public:
   ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,8 @@ public:
   __declspec(property(get = __cordl_internal_get__effects, put = __cordl_internal_set__effects)) ::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>> _effects;
 
   /// @brief Field _hapticFeedbackManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>
+      _hapticFeedbackManager;
 
   /// @brief Field _obstacleSaberSparkleEffectPrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleSaberSparkleEffectPrefab,
@@ -175,7 +176,7 @@ public:
       _obstacleSaberSparkleEffectPrefab;
 
   /// @brief Field _rumblePreset, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__rumblePreset, put = __cordl_internal_set__rumblePreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _rumblePreset;
+  __declspec(property(get = __cordl_internal_get__rumblePreset, put = __cordl_internal_set__rumblePreset)) ::UnityW<::BeatSaber::Haptics::HapticPresetSO> _rumblePreset;
 
   /// @brief Field _saberManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
@@ -191,28 +192,28 @@ public:
   __declspec(property(get = __cordl_internal_get_sparkleEffectDidStartEvent,
                       put = __cordl_internal_set_sparkleEffectDidStartEvent)) ::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
-  /// @brief Method FindBoxSurfaceRotation, addr 0x58535bc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FindBoxSurfaceRotation, addr 0x598b818, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 position);
 
-  /// @brief Method IntersectBounds, addr 0x5853030, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method IntersectBounds, addr 0x598b28c, size 0x1e0, virtual false, abstract: false, final false
   static inline bool IntersectBounds(::UnityEngine::Bounds bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end);
 
-  /// @brief Method IntersectBoxSurfacePose, addr 0x5852fec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IntersectBoxSurfacePose, addr 0x598b248, size 0x44, virtual false, abstract: false, final false
   static inline bool IntersectBoxSurfacePose(::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Pose> hit);
 
-  /// @brief Method IntersectBoxSurfacePosition, addr 0x5853210, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method IntersectBoxSurfacePosition, addr 0x598b46c, size 0x3ac, virtual false, abstract: false, final false
   static inline bool IntersectBoxSurfacePosition(::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Vector3> hit);
 
-  /// @brief Method IntersectSaberWithObstacles, addr 0x5852af4, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method IntersectSaberWithObstacles, addr 0x598ad50, size 0x31c, virtual false, abstract: false, final false
   static inline bool IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacles,
                                                  ::by_ref<bool> intersectObstacleSurface, ::by_ref<::UnityEngine::Pose> hit);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method Start, addr 0x585253c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x598a798, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5852840, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x598aa9c, size 0x278, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -231,17 +232,17 @@ public:
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>>& __cordl_internal_get__effects();
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect> const& __cordl_internal_get__obstacleSaberSparkleEffectPrefab() const;
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>& __cordl_internal_get__obstacleSaberSparkleEffectPrefab();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__rumblePreset() const;
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO> const& __cordl_internal_get__rumblePreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__rumblePreset();
+  constexpr ::UnityW<::BeatSaber::Haptics::HapticPresetSO>& __cordl_internal_get__rumblePreset();
 
   constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
@@ -267,11 +268,11 @@ public:
 
   constexpr void __cordl_internal_set__effects(::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>> value);
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> value);
 
   constexpr void __cordl_internal_set__obstacleSaberSparkleEffectPrefab(::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect> value);
 
-  constexpr void __cordl_internal_set__rumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  constexpr void __cordl_internal_set__rumblePreset(::UnityW<::BeatSaber::Haptics::HapticPresetSO> value);
 
   constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
@@ -281,19 +282,19 @@ public:
 
   constexpr void __cordl_internal_set_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method .ctor, addr 0x5853768, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598b9c4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x58523bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x598a618, size 0xc0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x585223c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x598a498, size 0xc0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x585247c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x598a6d8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x58522fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x598a558, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
 protected:
@@ -311,13 +312,13 @@ public:
   ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5814 };
 
   /// @brief Field _obstacleSaberSparkleEffectPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect> ____obstacleSaberSparkleEffectPrefab;
 
   /// @brief Field _rumblePreset, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____rumblePreset;
+  ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____rumblePreset;
 
   /// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
@@ -326,7 +327,7 @@ public:
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+  ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;

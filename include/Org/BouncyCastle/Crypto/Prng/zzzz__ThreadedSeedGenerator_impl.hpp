@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::Run)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x336219c;
+  constexpr static std::size_t addrs = 0x341e654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)(int32_t, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::GenerateSeed)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3362074;
+  constexpr static std::size_t addrs = 0x341e52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)(int32_t, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::DoGenerateSeed)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x33621c8;
+  constexpr static std::size_t addrs = 0x341e680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3362060;
+  constexpr static std::size_t addrs = 0x341e518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::*)(int32_t, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::GenerateSeed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3361ff0;
+  constexpr static std::size_t addrs = 0x341e4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::*)()>(&::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3362198;
+  constexpr static std::size_t addrs = 0x341e650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator*>(), { ".ctor", {}, {} })));

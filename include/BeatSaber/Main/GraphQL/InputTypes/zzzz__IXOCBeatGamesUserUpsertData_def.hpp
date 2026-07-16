@@ -8,6 +8,9 @@ CORDL_MODULE_EXPORT(IXOCBeatGamesUserUpsertData)
 namespace BeatSaber::Main::GraphQL::Enums {
 struct ISOCountryCode;
 }
+namespace BeatSaber::Main::GraphQL::Enums {
+struct TimezoneIDEnum;
+}
 namespace OculusStudios::GraphQL::ClientInterface {
 class IGraphQLInputObject;
 }
@@ -34,6 +37,8 @@ public:
 
   __declspec(property(put = set_Locale)) ::StringW Locale;
 
+  __declspec(property(put = set_TimezoneId)) ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum> TimezoneId;
+
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject*() noexcept;
 
@@ -49,12 +54,15 @@ public:
   /// @brief Method set_Locale, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Locale(::StringW value);
 
+  /// @brief Method set_TimezoneId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_TimezoneId(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum> value);
+
   // Ctor Parameters [CppParam { name: "", ty: "IXOCBeatGamesUserUpsertData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXOCBeatGamesUserUpsertData(IXOCBeatGamesUserUpsertData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20669 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -5,7 +5,9 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlyingScoreEffect)
@@ -34,6 +36,9 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace UnityEngine {
@@ -60,10 +65,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FlyingScoreEffect_Pool* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x584917c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x59813cc, size 0x6c, virtual true, abstract: false, final false
   inline void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
 
-  /// @brief Method .ctor, addr 0x58491e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5981438, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +86,7 @@ public:
   FlyingScoreEffect_Pool(FlyingScoreEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,7 +94,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::FlyingScoreEffect_Pool) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies FlyingObjectEffect, UnityEngine.Color
+// Dependencies FlyingObjectEffect, UnityEngine.Color, UnityEngine.Mesh
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FlyingScoreEffect
@@ -97,6 +102,9 @@ class CORDL_TYPE FlyingScoreEffect : public ::GlobalNamespace::FlyingObjectEffec
 public:
   // Declarations
   using Pool = ::GlobalNamespace::FlyingScoreEffect_Pool;
+
+  /// @brief Field _cachedMeshes, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__cachedMeshes, put = setStaticF__cachedMeshes)) ::ArrayW<::UnityW<::UnityEngine::Mesh>> _cachedMeshes;
 
   /// @brief Field _color, offset 0xa0, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
@@ -110,6 +118,9 @@ public:
   /// @brief Field _fadeAnimationCurve, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeAnimationCurve, put = __cordl_internal_set__fadeAnimationCurve)) ::UnityEngine::AnimationCurve* _fadeAnimationCurve;
 
+  /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+
   /// @brief Field _maxCutDistanceScoreIndicator, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__maxCutDistanceScoreIndicator, put = __cordl_internal_set__maxCutDistanceScoreIndicator)) ::UnityW<::UnityEngine::SpriteRenderer>
       _maxCutDistanceScoreIndicator;
@@ -120,30 +131,36 @@ public:
   /// @brief Field _text, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshPro> _text;
 
+  /// @brief Field kFaceColorId, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_kFaceColorId, put = setStaticF_kFaceColorId)) int32_t kFaceColorId;
+
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidChangeReceiver*() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidChange, addr 0x5848fd0, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidChange, addr 0x59811b0, size 0x48, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x5849018, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x59811f8, size 0x4, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method InitAndPresent, addr 0x58489d8, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x59808ec, size 0x4e8, virtual false, abstract: false, final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
 
-  /// @brief Method ManualUpdate, addr 0x5848f48, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x59806c8, size 0x224, virtual false, abstract: false, final false
+  static inline void Initialize();
+
+  /// @brief Method ManualUpdate, addr 0x5981094, size 0x11c, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingScoreEffect* New_ctor();
 
-  /// @brief Method RefreshScore, addr 0x5848ec0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshScore, addr 0x5980dd4, size 0x2c0, virtual false, abstract: false, final false
   inline void RefreshScore(int32_t score, int32_t maxPossibleCutScore);
 
-  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x584901c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x59811fc, size 0x12c, virtual false, abstract: false, final false
   inline void UnregisterCallbacksIfNeeded();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -188,14 +205,26 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x5849148, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5981328, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
+
+  static inline ::ArrayW<::UnityW<::UnityEngine::Mesh>> getStaticF__cachedMeshes();
+
+  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
+
+  static inline int32_t getStaticF_kFaceColorId();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
   constexpr ::GlobalNamespace::ICutScoreBufferDidChangeReceiver* i___GlobalNamespace__ICutScoreBufferDidChangeReceiver() noexcept;
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept;
+
+  static inline void setStaticF__cachedMeshes(::ArrayW<::UnityW<::UnityEngine::Mesh>> value);
+
+  static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
+
+  static inline void setStaticF_kFaceColorId(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -212,7 +241,10 @@ public:
   FlyingScoreEffect(FlyingScoreEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5774 };
+
+  /// @brief Field kExpectedMaxScore offset 0xffffffff size 0x4
+  static constexpr int32_t kExpectedMaxScore{ static_cast<int32_t>(0x73) };
 
   /// @brief Field _fadeAnimationCurve, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeAnimationCurve;

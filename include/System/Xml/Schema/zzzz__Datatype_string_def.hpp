@@ -63,30 +63,30 @@ public:
 
   __declspec(property(get = get_ValidRestrictionFlags)) ::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
 
-  /// @brief Method CreateValueConverter, addr 0x6083f60, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x61bf05c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_string* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x6083fe8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x61bf0e4, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x607fa08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bab04, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x6083f6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x61bf068, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x6083f74, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x61bf070, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TokenizedType, addr 0x6083fd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x61bf0d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x6083fd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61bf0cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x6083fe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x61bf0dc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
 protected:
@@ -104,7 +104,7 @@ public:
   Datatype_string(Datatype_string const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

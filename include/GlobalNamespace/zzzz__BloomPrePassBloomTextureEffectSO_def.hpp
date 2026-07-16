@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomPrePassBloomTextureEffectSO)
 namespace GlobalNamespace {
@@ -16,8 +17,20 @@ class PyramidBloomRendererSO;
 namespace GlobalNamespace {
 struct ToneMapping;
 }
+namespace UnityEngine::Rendering::RenderGraphModule {
+class IUnsafeRenderGraphBuilder;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+class RenderGraph;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureHandle;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
 namespace UnityEngine {
-class RenderTexture;
+struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,10 +87,15 @@ public:
 
   __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
+  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5f49d3c, size 0x58, virtual true, abstract: false, final false
+  inline void BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                             ::UnityEngine::RenderTextureDescriptor destDesc, ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
+
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x5e0ec88, size 0x6c, virtual true, abstract: false, final false
-  inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
+  /// @brief Method Render, addr 0x5f49d94, size 0x7c, virtual true, abstract: false, final false
+  inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
+                     ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures);
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
@@ -157,10 +175,10 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
-  /// @brief Method .ctor, addr 0x5e0ecf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f49e10, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_toneMapping, addr 0x5e0ec74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x5f49d28, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
 protected:
@@ -178,7 +196,7 @@ public:
   BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20930 };
 
   /// @brief Field _radius, offset: 0x2c, size: 0x4, def value: None
   float_t ____radius;

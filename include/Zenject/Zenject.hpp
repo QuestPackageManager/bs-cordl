@@ -280,8 +280,6 @@ module;
 #include "Zenject/MonoPoolableMemoryPool_9.hpp"
 #include "Zenject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/NoReflectionBakingAttribute.hpp"
-#include "Zenject/NoTransitionContext.hpp"
-#include "Zenject/NoTransitionInstaller.hpp"
 #include "Zenject/NonLazyBinder.hpp"
 #include "Zenject/NullBindingFinalizer.hpp"
 #include "Zenject/PlaceholderFactoryBase_1.hpp"

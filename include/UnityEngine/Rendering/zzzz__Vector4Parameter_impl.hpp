@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vector4Parameter::*)(::UnityEngine::Vector4, bool)>(&::UnityEngine::Rendering::Vector4Parameter::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x668a714;
+  constexpr static std::size_t addrs = 0x67c7e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vector4Parameter::*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, float_t)>(
     &::UnityEngine::Rendering::Vector4Parameter::Interp)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x668a798;
+  constexpr static std::size_t addrs = 0x67c7ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

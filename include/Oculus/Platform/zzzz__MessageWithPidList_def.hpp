@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPidList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PidList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5ca2400, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5dda628, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetPidList, addr 0x5ca23bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetPidList, addr 0x5dda5e4, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetPidList();
 
   static inline ::Oculus::Platform::MessageWithPidList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5c9d898, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd5ac0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithPidList(MessageWithPidList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17879 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

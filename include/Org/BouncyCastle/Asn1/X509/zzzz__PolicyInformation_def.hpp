@@ -41,7 +41,7 @@ public:
   /// @brief Field policyQualifiers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_policyQualifiers, put = __cordl_internal_set_policyQualifiers)) ::Org::BouncyCastle::Asn1::Asn1Sequence* policyQualifiers;
 
-  /// @brief Method GetInstance, addr 0x35a48e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3660d98, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier);
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x35a4990, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3660e48, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_policyIdentifier() const;
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set_policyQualifiers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x35a48d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3660d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier);
 
-  /// @brief Method .ctor, addr 0x35a48d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3660d90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier, ::Org::BouncyCastle::Asn1::Asn1Sequence* policyQualifiers);
 
-  /// @brief Method .ctor, addr 0x35a4744, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3660bfc, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PolicyIdentifier, addr 0x35a4980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyIdentifier, addr 0x3660e38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PolicyIdentifier();
 
-  /// @brief Method get_PolicyQualifiers, addr 0x35a4988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyQualifiers, addr 0x3660e40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PolicyQualifiers();
 
 protected:

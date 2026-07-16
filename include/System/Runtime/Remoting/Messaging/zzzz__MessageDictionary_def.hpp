@@ -80,12 +80,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5a0ba94, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5b45764, size 0x1c8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator* New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method Reset, addr 0x5a0bc5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x5b4592c, size 0xb0, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::IDictionaryEnumerator* const& __cordl_internal_get__hashtableEnum() const;
@@ -106,19 +106,19 @@ public:
 
   constexpr void __cordl_internal_set__posMethod(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a0b804, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b454d4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method get_Current, addr 0x5a0b8dc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x5b455ac, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x5a0b944, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x5b45614, size 0x150, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x5a0bd0c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x5b459dc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x5a0bd10, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x5b459e0, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -215,45 +215,45 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x5a0a8f0, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x5b445c0, size 0x158, virtual true, abstract: false, final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method AllocInternalProperties, addr 0x5a0a6b4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AllocInternalProperties, addr 0x5b44384, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* AllocInternalProperties();
 
-  /// @brief Method Clear, addr 0x5a0b24c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x5b44f1c, size 0xb0, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x5a0b2fc, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x5b44fcc, size 0x138, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method CopyTo, addr 0x5a0b680, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x5b45350, size 0xc4, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x5a0b7a4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x5b45474, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetInternalProperties, addr 0x5a07578, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetInternalProperties, addr 0x5b41248, size 0x30, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetInternalProperties();
 
-  /// @brief Method GetMethodProperty, addr 0x5a08840, size 0x5ac, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x5b42510, size 0x5ac, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
-  /// @brief Method HasUserData, addr 0x5a05340, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HasUserData, addr 0x5b3f010, size 0x114, virtual false, abstract: false, final false
   inline bool HasUserData();
 
-  /// @brief Method IsOverridenKey, addr 0x5a0a71c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsOverridenKey, addr 0x5b443ec, size 0x84, virtual false, abstract: false, final false
   inline bool IsOverridenKey(::StringW key);
 
   static inline ::System::Runtime::Remoting::Messaging::MessageDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method Remove, addr 0x5a0b434, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x5b45104, size 0x174, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method SetMethodProperty, addr 0x5a0905c, size 0x33c, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x5b42d2c, size 0x33c, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5a0b744, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5b45414, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get__internalProperties() const;
@@ -280,34 +280,34 @@ public:
 
   constexpr void __cordl_internal_set__ownProperties(bool value);
 
-  /// @brief Method .ctor, addr 0x5a08460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b42130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method get_Count, addr 0x5a0b5a8, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x5b45278, size 0xcc, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_InternalDictionary, addr 0x5a05454, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_InternalDictionary, addr 0x5b3f124, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_InternalDictionary();
 
-  /// @brief Method get_IsFixedSize, addr 0x5a0a7a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x5b44470, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x5a0a7a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x5b44478, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x5a0b674, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x5b45344, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x5a0a7b0, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x5b44480, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method get_Keys, addr 0x5a0aa48, size 0x40c, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x5b44718, size 0x40c, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SyncRoot, addr 0x5a0b67c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x5b4534c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x5a0ae54, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x5b44b24, size 0x3f8, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -319,10 +319,10 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x5a0a8ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x5b445bc, size 0x4, virtual true, abstract: false, final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method set_MethodKeys, addr 0x5a0a6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MethodKeys, addr 0x5b4437c, size 0x8, virtual false, abstract: false, final false
   inline void set_MethodKeys(::ArrayW<::StringW> value);
 
 protected:

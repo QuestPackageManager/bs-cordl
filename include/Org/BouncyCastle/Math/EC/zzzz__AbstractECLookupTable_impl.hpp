@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::AbstractECLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::AbstractECLookupTable::LookupVar)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33e69cc;
+  constexpr static std::size_t addrs = 0x34a2e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::AbstractECLookupTable*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::AbstractECLookupTable::*)()>(&::Org::BouncyCastle::Math::EC::AbstractECLookupTable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33e65cc;
+  constexpr static std::size_t addrs = 0x34a2a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::AbstractECLookupTable*>(), { ".ctor", {}, {} })));

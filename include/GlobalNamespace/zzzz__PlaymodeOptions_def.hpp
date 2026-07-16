@@ -27,7 +27,7 @@ public:
     __E_Default = static_cast<int32_t>(0x1),
     __E_Playback = static_cast<int32_t>(0x2),
     __E_Recording = static_cast<int32_t>(0x3),
-    __E_AutoPilot = static_cast<int32_t>(0x4),
+    __E_AutoPlay = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -47,8 +47,8 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PlaymodeOptions(int32_t value__) noexcept;
 
-  /// @brief Field AutoPilot value: I32(4)
-  static ::GlobalNamespace::PlaymodeOptions const AutoPilot;
+  /// @brief Field AutoPlay value: I32(4)
+  static ::GlobalNamespace::PlaymodeOptions const AutoPlay;
 
   /// @brief Field Default value: I32(1)
   static ::GlobalNamespace::PlaymodeOptions const Default;
@@ -60,7 +60,7 @@ public:
   static ::GlobalNamespace::PlaymodeOptions const Recording;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14839 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

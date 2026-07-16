@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatSaberXRFeature_SessionState (::GlobalNamespace::BeatSaberXRFeature::*)()>(
     &::GlobalNamespace::BeatSaberXRFeature::get_currentSessionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x571401c;
+  constexpr static std::size_t addrs = 0x585c18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberXRFeature*>(), { "get_currentSessionState", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(::GlobalNamespace::BeatSaberXRFeature_SessionState)>(
     &::GlobalNamespace::BeatSaberXRFeature::set_currentSessionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5714024;
+  constexpr static std::size_t addrs = 0x585c194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>*)>(
         &::GlobalNamespace::BeatSaberXRFeature::add_sessionStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x571402c;
+  constexpr static std::size_t addrs = 0x585c19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>*)>(
         &::GlobalNamespace::BeatSaberXRFeature::remove_sessionStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57140ec;
+  constexpr static std::size_t addrs = 0x585c25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(int32_t, int32_t)>(&::GlobalNamespace::BeatSaberXRFeature::OnSessionStateChange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x57141ac;
+  constexpr static std::size_t addrs = 0x585c31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)()>(&::GlobalNamespace::BeatSaberXRFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57141cc;
+  constexpr static std::size_t addrs = 0x585c33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberXRFeature*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AABB (*)(::UnityEngine::Bounds)>(&::UnityEngine::Rendering::AABBExtensions::ToAABB)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66c737c;
+  constexpr static std::size_t addrs = 0x6804a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (*)(::UnityEngine::Rendering::AABB)>(&::UnityEngine::Rendering::AABBExtensions::ToBounds)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66c7390;
+  constexpr static std::size_t addrs = 0x6804a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

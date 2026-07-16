@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (
     ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::*)(::System::Linq::Expressions::ConditionalExpression*)>(&::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::VisitConditional)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5bebdb0;
+  constexpr static std::size_t addrs = 0x5d23fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::*)()>(&::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bebc30;
+  constexpr static std::size_t addrs = 0x5d23e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>(), { ".ctor", {}, {} })));

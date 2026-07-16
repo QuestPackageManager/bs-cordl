@@ -37,13 +37,13 @@ public:
   // Declarations
   using Enumerator = ::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator;
 
-  /// @brief Method GetEnumerator, addr 0x69dec0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6b326e8, size 0x24, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator GetEnumerator();
 
-  /// @brief Method ThrowIfVersionChanged, addr 0x69dec58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfVersionChanged, addr 0x6b32734, size 0x70, virtual false, abstract: false, final false
   inline void ThrowIfVersionChanged();
 
-  /// @brief Method .ctor, addr 0x69de938, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b32414, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   constexpr HierarchyFlattenedNodeChildren(::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened, ::Unity::Hierarchy::HierarchyNode m_Node, int32_t m_Version, int32_t m_Count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21872 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -96,13 +96,13 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyNode Current;
 
-  /// @brief Method MoveNext, addr 0x69deda0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6b3287c, size 0x1dc, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x69dec30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b3270c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyFlattenedNodeChildren enumerable, ::Unity::Hierarchy::HierarchyNode node);
 
-  /// @brief Method get_Current, addr 0x69decc8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6b327a4, size 0xd8, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Current();
 
   // Ctor Parameters []
@@ -117,7 +117,7 @@ public:
                                                       ::Unity::Hierarchy::HierarchyNode m_Node, int32_t m_CurrentIndex, int32_t m_ChildrenIndex, int32_t m_ChildrenCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

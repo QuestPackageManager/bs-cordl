@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool)>(&::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x62d3de8;
+  constexpr static std::size_t addrs = 0x640fe84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t>, bool)>(&::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62d3e8c;
+  constexpr static std::size_t addrs = 0x640ff28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

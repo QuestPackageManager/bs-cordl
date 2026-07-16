@@ -24,7 +24,7 @@ namespace Meta::XR::BuildingBlocks {
 class CORDL_TYPE RunTimeUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateRandomString, addr 0x58f9d38, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GenerateRandomString, addr 0x5a3343c, size 0x200, virtual false, abstract: false, final false
   static inline ::StringW GenerateRandomString(int32_t size, bool includeLowercase, bool includeUppercase, bool includeNumeric, bool includeSpecial);
 
   /// @brief Method GetInterfaceComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -45,7 +45,7 @@ public:
   RunTimeUtils(RunTimeUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21314 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

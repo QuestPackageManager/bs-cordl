@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> (*)()>(
     &::System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6211abc;
+  constexpr static std::size_t addrs = 0x634cbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

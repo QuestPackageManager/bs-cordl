@@ -101,7 +101,7 @@ public:
   constexpr FixedArray3_1(T _0, T _1, T _2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -257,7 +257,7 @@ public:
   FixedArray3_1__Enumerate_d__10(FixedArray3_1__Enumerate_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21736 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;

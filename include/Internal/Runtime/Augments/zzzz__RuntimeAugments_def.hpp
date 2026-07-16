@@ -29,12 +29,12 @@ public:
   __declspec(property(get = getStaticF_s_reflectionExecutionDomainCallbacks,
                       put = setStaticF_s_reflectionExecutionDomainCallbacks)) ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* s_reflectionExecutionDomainCallbacks;
 
-  /// @brief Method ReportUnhandledException, addr 0x598cbd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReportUnhandledException, addr 0x5ac5540, size 0x1c, virtual false, abstract: false, final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks();
 
-  /// @brief Method get_Callbacks, addr 0x598cbf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Callbacks, addr 0x5ac555c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks();
 
   static inline void setStaticF_s_reflectionExecutionDomainCallbacks(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* value);

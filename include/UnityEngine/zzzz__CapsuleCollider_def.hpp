@@ -37,55 +37,55 @@ public:
 
   static inline ::UnityEngine::CapsuleCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a24e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b78954, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x6a247f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6b782d4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x6a24898, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x6b78374, size 0x44, virtual false, abstract: false, final false
   static inline void get_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_direction, addr 0x6a24ce8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x6b787c4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_direction();
 
-  /// @brief Method get_direction_Injected, addr 0x6a24d68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_direction_Injected, addr 0x6b78844, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_direction_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_height, addr 0x6a24b50, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6b7862c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_height_Injected, addr 0x6a24bd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height_Injected, addr 0x6b786ac, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_height_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_radius, addr 0x6a249b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x6b78494, size 0x80, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method get_radius_Injected, addr 0x6a24a38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius_Injected, addr 0x6b78514, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_radius_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_center, addr 0x6a248dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x6b783b8, size 0x98, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x6a24974, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x6b78450, size 0x44, virtual false, abstract: false, final false
   static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_direction, addr 0x6a24da4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x6b78880, size 0x90, virtual false, abstract: false, final false
   inline void set_direction(int32_t value);
 
-  /// @brief Method set_direction_Injected, addr 0x6a24e34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_direction_Injected, addr 0x6b78910, size 0x44, virtual false, abstract: false, final false
   static inline void set_direction_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_height, addr 0x6a24c0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x6b786e8, size 0x90, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_height_Injected, addr 0x6a24c9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_height_Injected, addr 0x6b78778, size 0x4c, virtual false, abstract: false, final false
   static inline void set_height_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_radius, addr 0x6a24a74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x6b78550, size 0x90, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
-  /// @brief Method set_radius_Injected, addr 0x6a24b04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius_Injected, addr 0x6b785e0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_radius_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   CapsuleCollider(CapsuleCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18601 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

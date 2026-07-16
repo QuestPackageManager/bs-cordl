@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::*)(::StringW, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3614710;
+  constexpr static std::size_t addrs = 0x36d0bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::*)(::StringW, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3614758;
+  constexpr static std::size_t addrs = 0x36d0c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::*)(::ArrayW<char16_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3614754;
+  constexpr static std::size_t addrs = 0x36d0c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::*)(::ArrayW<char16_t>, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3614794;
+  constexpr static std::size_t addrs = 0x36d0c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::GetEncoded)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3614798;
+  constexpr static std::size_t addrs = 0x36d0c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

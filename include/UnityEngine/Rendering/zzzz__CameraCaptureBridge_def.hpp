@@ -75,7 +75,7 @@ public:
   constexpr void __cordl_internal_set_cachedEnumerator(
       ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6679c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b7360, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   CameraCaptureBridge_CameraEntry(CameraCaptureBridge_CameraEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12242 };
 
   /// @brief Field actions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>* ___actions;
@@ -128,32 +128,32 @@ public:
                       put =
                           setStaticF_actionDict)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>* actionDict;
 
-  /// @brief Method AddCaptureAction, addr 0x6679a4c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method AddCaptureAction, addr 0x67b7158, size 0x208, virtual false, abstract: false, final false
   static inline void AddCaptureAction(::UnityEngine::Camera* camera, ::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>* action);
 
-  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x66798f8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x67b7004, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
   GetCachedCaptureActionsEnumerator(::UnityEngine::Camera* camera);
 
-  /// @brief Method GetCaptureActions, addr 0x66797dc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetCaptureActions, addr 0x67b6ee8, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
   GetCaptureActions(::UnityEngine::Camera* camera);
 
-  /// @brief Method RemoveCaptureAction, addr 0x6679c58, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RemoveCaptureAction, addr 0x67b7364, size 0x170, virtual false, abstract: false, final false
   static inline void RemoveCaptureAction(::UnityEngine::Camera* camera, ::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>* action);
 
   static inline bool getStaticF__enabled();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>* getStaticF_actionDict();
 
-  /// @brief Method get_enabled, addr 0x667971c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x67b6e28, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF__enabled(bool value);
 
   static inline void setStaticF_actionDict(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>* value);
 
-  /// @brief Method set_enabled, addr 0x6679778, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x67b6e84, size 0x64, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
 protected:
@@ -171,7 +171,7 @@ public:
   CameraCaptureBridge(CameraCaptureBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12243 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

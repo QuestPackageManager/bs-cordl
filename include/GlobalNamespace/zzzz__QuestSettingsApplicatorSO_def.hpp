@@ -6,13 +6,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 CORDL_MODULE_EXPORT(QuestSettingsApplicatorSO)
 namespace BeatSaber::Settings {
-struct QuestSettings_SuggestedPerformanceLevel;
-}
-namespace BeatSaber::Settings {
 struct Settings;
-}
-namespace GlobalNamespace {
-struct OVRPlugin_ProcessorPerformanceLevel;
 }
 namespace GlobalNamespace {
 struct SceneType;
@@ -31,16 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
   // Declarations
-  /// @brief Method ApplyGraphicSettings, addr 0x57df3e4, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method ApplyGraphicSettings, addr 0x58ff938, size 0x2a4, virtual true, abstract: false, final false
   inline void ApplyGraphicSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
   static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 
-  /// @brief Method <ApplyGraphicSettings>g__ConvertProcessorPerformanceLevel|0_0, addr 0x57dfa2c, size 0x1c, virtual false, abstract: false, final false
-  static inline bool _ApplyGraphicSettings_g__ConvertProcessorPerformanceLevel_0_0(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel settings,
-                                                                                   ::by_ref<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel> result);
-
-  /// @brief Method .ctor, addr 0x57dfa48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fff8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +48,7 @@ public:
   QuestSettingsApplicatorSO(QuestSettingsApplicatorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

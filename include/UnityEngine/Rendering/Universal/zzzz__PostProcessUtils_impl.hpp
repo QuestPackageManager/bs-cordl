@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::PostProcessData*, int32_t, ::UnityEngine::Camera*, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureDithering)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6767274;
+  constexpr static std::size_t addrs = 0x68a5bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::PostProcessData*, int32_t, int32_t, int32_t, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureDithering)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x67672d8;
+  constexpr static std::size_t addrs = 0x68a5c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::PostProcessData*, ::UnityEngine::Rendering::Universal::FilmGrain*, ::UnityEngine::Camera*,
                                                                 ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureFilmGrain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67674fc;
+  constexpr static std::size_t addrs = 0x68a5e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::PostProcessData*, ::UnityEngine::Rendering::Universal::FilmGrain*, int32_t, int32_t,
                                                                 ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureFilmGrain)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x6767560;
+  constexpr static std::size_t addrs = 0x68a5edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x675b5b8;
+  constexpr static std::size_t addrs = 0x6899f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x675aa68;
+  constexpr static std::size_t addrs = 0x68993e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

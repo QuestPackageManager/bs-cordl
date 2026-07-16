@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal::get_PlatformNeedsLibCWorkaround)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x621677c;
+  constexpr static std::size_t addrs = 0x6351878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal::Create)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6213c34;
+  constexpr static std::size_t addrs = 0x634ed30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

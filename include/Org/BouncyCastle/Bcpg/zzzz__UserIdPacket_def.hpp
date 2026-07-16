@@ -31,10 +31,10 @@ public:
   /// @brief Field idData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_idData, put = __cordl_internal_set_idData)) ::ArrayW<uint8_t> idData;
 
-  /// @brief Method Encode, addr 0x35e3238, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369f6f0, size 0x20, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetId, addr 0x35e31fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x369f6b4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetId();
 
   static inline ::Org::BouncyCastle::Bcpg::UserIdPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_idData(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x35dd23c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36996f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x35e31b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369f670, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

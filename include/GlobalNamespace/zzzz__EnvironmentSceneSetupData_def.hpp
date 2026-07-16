@@ -4,12 +4,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(EnvironmentSceneSetupData)
 namespace GlobalNamespace {
 class BeatmapLevel;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,21 +26,21 @@ public:
   /// @brief Field beatmapLevel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
-  /// @brief Field environmentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
+  /// @brief Field environmentSerializedName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentSerializedName, put = __cordl_internal_set_environmentSerializedName)) ::StringW environmentSerializedName;
 
   /// @brief Field hideBranding, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_hideBranding, put = __cordl_internal_set_hideBranding)) bool hideBranding;
 
-  static inline ::GlobalNamespace::EnvironmentSceneSetupData* New_ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
+  static inline ::GlobalNamespace::EnvironmentSceneSetupData* New_ctor(::StringW environmentSerializedName, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
   constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get_beatmapLevel() const;
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get_environmentInfo() const;
+  constexpr ::StringW const& __cordl_internal_get_environmentSerializedName() const;
 
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get_environmentInfo();
+  constexpr ::StringW& __cordl_internal_get_environmentSerializedName();
 
   constexpr bool const& __cordl_internal_get_hideBranding() const;
 
@@ -50,12 +48,12 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  constexpr void __cordl_internal_set_environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
+  constexpr void __cordl_internal_set_environmentSerializedName(::StringW value);
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x57ed3a8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
+  /// @brief Method .ctor, addr 0x590b2f4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW environmentSerializedName, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
 protected:
   // Ctor Parameters []
@@ -72,13 +70,13 @@ public:
   EnvironmentSceneSetupData(EnvironmentSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6696 };
 
   /// @brief Field hideBranding, offset: 0x10, size: 0x1, def value: None
   bool ___hideBranding;
 
-  /// @brief Field environmentInfo, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___environmentInfo;
+  /// @brief Field environmentSerializedName, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___environmentSerializedName;
 
   /// @brief Field beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
@@ -88,7 +86,7 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___hideBranding) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___environmentInfo) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___environmentSerializedName) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___beatmapLevel) == 0x20, "Offset mismatch!");
 

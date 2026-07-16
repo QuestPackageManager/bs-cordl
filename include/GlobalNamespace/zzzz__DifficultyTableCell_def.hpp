@@ -49,12 +49,12 @@ public:
 
   __declspec(property(put = set_difficultyValue)) int32_t difficultyValue;
 
-  /// @brief Method HighlightDidChange, addr 0x58ca968, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x5920b98, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::DifficultyTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x58ca8d0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x5920b00, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -81,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x58ca9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5920bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_difficultyText, addr 0x58ca834, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyText, addr 0x5920a64, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_difficultyText();
 
-  /// @brief Method set_difficultyText, addr 0x58ca814, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyText, addr 0x5920a44, size 0x20, virtual false, abstract: false, final false
   inline void set_difficultyText(::StringW value);
 
-  /// @brief Method set_difficultyValue, addr 0x58ca854, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyValue, addr 0x5920a84, size 0x38, virtual false, abstract: false, final false
   inline void set_difficultyValue(int32_t value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   DifficultyTableCell(DifficultyTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6792 };
 
   /// @brief Field _difficultyText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____difficultyText;

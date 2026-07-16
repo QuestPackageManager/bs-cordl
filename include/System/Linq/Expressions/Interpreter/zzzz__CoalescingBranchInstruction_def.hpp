@@ -42,24 +42,24 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x5e4ee50, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f89f4c, size 0x34, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5e4ee84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f89f80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> getStaticF_s_cache();
 
-  /// @brief Method get_Cache, addr 0x5e4ed70, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x5f89e6c, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x5e4ee40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f89f3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e4edfc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f89ef8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e4ee48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f89f44, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> value);
@@ -79,7 +79,7 @@ public:
   CoalescingBranchInstruction(CoalescingBranchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

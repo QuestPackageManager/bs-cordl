@@ -26,21 +26,21 @@ public:
   // Declarations
   __declspec(property(get = get_Features, put = set_Features)) ::System::Collections::Generic::List_1<::StringW>* Features;
 
-  /// @brief Method GetPersistedQueryID, addr 0x31f5b30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPersistedQueryID, addr 0x328a634, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
-  /// @brief Method GetVariableNames, addr 0x31f58f4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetVariableNames, addr 0x328a3f8, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
   static inline ::Main::GraphQL::Queries::FeatureFlagsEnabled* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31f5b44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328a648, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Features, addr 0x31f5a70, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_Features, addr 0x328a574, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Features();
 
-  /// @brief Method set_Features, addr 0x31f59f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Features, addr 0x328a4f4, size 0x80, virtual false, abstract: false, final false
   inline void set_Features(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -58,7 +58,7 @@ public:
   FeatureFlagsEnabled(FeatureFlagsEnabled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneThreadContext::*)(::GlobalNamespace::IStandaloneThreadRunnable*)>(
     &::GlobalNamespace::StandaloneThreadContext::Run)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328358c;
+  constexpr static std::size_t addrs = 0x333fa44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneThreadContext::*)()>(&::GlobalNamespace::StandaloneThreadContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3283590;
+  constexpr static std::size_t addrs = 0x333fa48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneThreadContext*>(), { ".ctor", {}, {} })));

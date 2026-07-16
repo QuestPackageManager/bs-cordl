@@ -32,10 +32,10 @@ namespace UnityEngine::Animations {
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x68eaaac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a419c4, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAnimationOutput, addr 0x68eaba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationOutput, addr 0x6a41ac0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
@@ -53,7 +53,7 @@ public:
   AnimationPlayableBinding(AnimationPlayableBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

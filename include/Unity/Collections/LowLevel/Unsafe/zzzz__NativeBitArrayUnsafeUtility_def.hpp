@@ -26,7 +26,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE NativeBitArrayUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertExistingDataToNativeBitArray, addr 0x638b17c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertExistingDataToNativeBitArray, addr 0x64c7d9c, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeBitArray ConvertExistingDataToNativeBitArray(void* ptr, int32_t sizeInBytes, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
 protected:
@@ -44,7 +44,7 @@ public:
   NativeBitArrayUnsafeUtility(NativeBitArrayUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

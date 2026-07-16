@@ -24,49 +24,49 @@ namespace System {
 class CORDL_TYPE Buffer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BlockCopy, addr 0x5b38f68, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BlockCopy, addr 0x5c72c40, size 0x1a8, virtual false, abstract: false, final false
   static inline void BlockCopy(::System::Array* src, int32_t srcOffset, ::System::Array* dst, int32_t dstOffset, int32_t count);
 
-  /// @brief Method ByteLength, addr 0x5b38ed4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ByteLength, addr 0x5c72bac, size 0x94, virtual false, abstract: false, final false
   static inline int32_t ByteLength(::System::Array* array);
 
-  /// @brief Method IndexOfByte, addr 0x5b38c50, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method IndexOfByte, addr 0x5c72928, size 0x124, virtual false, abstract: false, final false
   static inline int32_t IndexOfByte(uint8_t* src, uint8_t value, int32_t index, int32_t count);
 
-  /// @brief Method InternalBlockCopy, addr 0x5b38c4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalBlockCopy, addr 0x5c72924, size 0x4, virtual false, abstract: false, final false
   static inline bool InternalBlockCopy(::System::Array* src, int32_t srcOffsetBytes, ::System::Array* dst, int32_t dstOffsetBytes, int32_t byteCount);
 
-  /// @brief Method InternalMemcpy, addr 0x5b38ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalMemcpy, addr 0x5c72ba4, size 0x8, virtual false, abstract: false, final false
   static inline void InternalMemcpy(uint8_t* dest, uint8_t* src, int32_t count);
 
-  /// @brief Method Memcpy, addr 0x5b38dd0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Memcpy, addr 0x5c72aa8, size 0xfc, virtual false, abstract: false, final false
   static inline void Memcpy(uint8_t* dest, uint8_t* src, int32_t len);
 
-  /// @brief Method Memcpy, addr 0x5b38d9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Memcpy, addr 0x5c72a74, size 0x34, virtual false, abstract: false, final false
   static inline void Memcpy(uint8_t* pDest, int32_t destIndex, ::ArrayW<uint8_t> src, int32_t srcIndex, int32_t len);
 
-  /// @brief Method Memmove, addr 0x5b3920c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Memmove, addr 0x5c72ee4, size 0x28, virtual false, abstract: false, final false
   static inline void Memmove(uint8_t* dest, uint8_t* src, uint32_t len);
 
   /// @brief Method Memmove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Memmove(::by_ref<T> destination, ::by_ref<T> source, uint64_t elementCount);
 
-  /// @brief Method MemoryCopy, addr 0x5b39110, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MemoryCopy, addr 0x5c72de8, size 0xfc, virtual false, abstract: false, final false
   static inline void MemoryCopy(void* source, void* destination, int64_t destinationSizeInBytes, int64_t sourceBytesToCopy);
 
-  /// @brief Method ZeroMemory, addr 0x5b38d78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x5c72a50, size 0x24, virtual false, abstract: false, final false
   static inline void ZeroMemory(uint8_t* src, int64_t len);
 
-  /// @brief Method _ByteLength, addr 0x5b38d74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ByteLength, addr 0x5c72a4c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t _ByteLength(::System::Array* array);
 
-  /// @brief Method memcpy1, addr 0x5b3934c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method memcpy1, addr 0x5c73024, size 0xb4, virtual false, abstract: false, final false
   static inline void memcpy1(uint8_t* dest, uint8_t* src, int32_t size);
 
-  /// @brief Method memcpy2, addr 0x5b392c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method memcpy2, addr 0x5c72fa0, size 0x84, virtual false, abstract: false, final false
   static inline void memcpy2(uint8_t* dest, uint8_t* src, int32_t size);
 
-  /// @brief Method memcpy4, addr 0x5b39234, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method memcpy4, addr 0x5c72f0c, size 0x94, virtual false, abstract: false, final false
   static inline void memcpy4(uint8_t* dest, uint8_t* src, int32_t size);
 
 protected:

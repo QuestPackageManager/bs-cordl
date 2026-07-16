@@ -82,30 +82,30 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeSettingsList, put = __cordl_internal_set__volumeSettingsList)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>
       _volumeSettingsList;
 
-  /// @brief Method DidActivate, addr 0x57a958c, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a193c8, size 0x334, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x57a9974, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a197b0, size 0xfc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAmbientVolumeChanged, addr 0x57a9b90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleAmbientVolumeChanged, addr 0x5a199cc, size 0x18, virtual false, abstract: false, final false
   inline void HandleAmbientVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x57a9bd8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x5a19a14, size 0x50, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
 
-  /// @brief Method HandleVolumeChanged, addr 0x57a9b5c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleVolumeChanged, addr 0x5a19998, size 0x34, virtual false, abstract: false, final false
   inline void HandleVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57a9a70, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a198ac, size 0xec, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x57a98c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x5a196fc, size 0xb4, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
-  /// @brief Method SliderValueDidChange, addr 0x57a9ba8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x5a199e4, size 0x30, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__ambientSettingsList() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeSettingsList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x57a9c28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a19a64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
   AudioLatencyViewController(AudioLatencyViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6436 };
 
   /// @brief Field _setupCanvasGroup, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____setupCanvasGroup;

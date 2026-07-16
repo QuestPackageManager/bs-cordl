@@ -24,18 +24,18 @@ public:
   /// @brief Field _appId, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__appId, put = setStaticF__appId)) uint64_t _appId;
 
-  /// @brief Method SetGlobalAppID, addr 0x31d0f40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalAppID, addr 0x3264d20, size 0x50, virtual false, abstract: false, final false
   static inline void SetGlobalAppID(uint64_t appId);
 
   static inline uint64_t getStaticF__appId();
 
-  /// @brief Method get_appId, addr 0x31d0fe4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_appId, addr 0x3264dc4, size 0x4c, virtual false, abstract: false, final false
   static inline uint64_t get_appId();
 
-  /// @brief Method get_buildVersion, addr 0x31d0f90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_buildVersion, addr 0x3264d70, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW get_buildVersion();
 
-  /// @brief Method get_userType, addr 0x31d1030, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_userType, addr 0x3264e10, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW get_userType();
 
   static inline void setStaticF__appId(uint64_t value);
@@ -55,7 +55,7 @@ public:
   SpaceshipGlobalFields(SpaceshipGlobalFields const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

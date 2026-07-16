@@ -34,13 +34,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35f9d2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b61e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method find, addr 0x3609c90, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method find, addr 0x36c6148, size 0x18c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::StringW digAlgName);
 
-  /// @brief Method find, addr 0x35f9d30, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method find, addr 0x36b61e8, size 0x25c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
   static inline ::System::Collections::IDictionary* getStaticF_digestNameToOids();

@@ -42,35 +42,35 @@ public:
   /// @brief Field s_WhiteSpaces, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_WhiteSpaces, put = setStaticF_s_WhiteSpaces)) ::ArrayW<char16_t> s_WhiteSpaces;
 
-  /// @brief Method QuoteStringIfNeeded, addr 0x69e3c68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method QuoteStringIfNeeded, addr 0x6b37744, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW QuoteStringIfNeeded(::StringW s);
 
-  /// @brief Method ToString, addr 0x69e3b68, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b37644, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x69e3a0c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b374e8, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Unity::Hierarchy::HierarchySearchFilterOperator op);
 
   static inline ::Unity::Hierarchy::HierarchySearchFilter getStaticF_s_Invalid();
 
   static inline ::ArrayW<char16_t> getStaticF_s_WhiteSpaces();
 
-  /// @brief Method get_Invalid, addr 0x69e3920, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Invalid, addr 0x6b373fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchySearchFilter> get_Invalid();
 
-  /// @brief Method get_IsValid, addr 0x69e397c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6b37458, size 0x70, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_Name, addr 0x69e39ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6b374c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NumValue, addr 0x69e39fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumValue, addr 0x6b374d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_NumValue();
 
-  /// @brief Method get_Op, addr 0x69e3a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Op, addr 0x6b374e0, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchySearchFilterOperator get_Op();
 
-  /// @brief Method get_Value, addr 0x69e39f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6b374d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_s_Invalid(::Unity::Hierarchy::HierarchySearchFilter value);
@@ -88,7 +88,7 @@ public:
                                   ::Unity::Hierarchy::HierarchySearchFilterOperator _Op_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

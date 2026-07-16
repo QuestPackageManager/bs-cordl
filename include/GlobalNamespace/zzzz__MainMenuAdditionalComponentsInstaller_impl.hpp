@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuAdditionalComponentsInstaller::*)()>(
     &::GlobalNamespace::MainMenuAdditionalComponentsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58c673c;
+  constexpr static std::size_t addrs = 0x59f7484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuAdditionalComponentsInstaller*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuAdditionalComponentsInstaller::*)()>(&::GlobalNamespace::MainMenuAdditionalComponentsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58c67b0;
+  constexpr static std::size_t addrs = 0x59f74f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuAdditionalComponentsInstaller*>(), { ".ctor", {}, {} })));

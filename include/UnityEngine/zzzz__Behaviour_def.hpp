@@ -28,25 +28,25 @@ public:
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x698649c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad983c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x6986250, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6ad95f0, size 0x80, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_enabled_Injected, addr 0x69862d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled_Injected, addr 0x6ad9670, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x69863e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled, addr 0x6ad9780, size 0x80, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
-  /// @brief Method get_isActiveAndEnabled_Injected, addr 0x6986460, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled_Injected, addr 0x6ad9800, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isActiveAndEnabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_enabled, addr 0x698630c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6ad96ac, size 0x90, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_enabled_Injected, addr 0x698639c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled_Injected, addr 0x6ad973c, size 0x44, virtual false, abstract: false, final false
   static inline void set_enabled_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   Behaviour(Behaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10300 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

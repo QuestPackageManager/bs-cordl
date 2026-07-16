@@ -54,7 +54,7 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::MockedOculusPlatform* New_ctor();
 
-  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5df7ea0, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f30158, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   constexpr ::OculusStudios::Platform::Oculus::MockedPlatformUser* const& __cordl_internal_get__user() const;
@@ -63,19 +63,19 @@ public:
 
   constexpr void __cordl_internal_set__user(::OculusStudios::Platform::Oculus::MockedPlatformUser* value);
 
-  /// @brief Method .ctor, addr 0x5df8088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f30340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_displayName, addr 0x5df7e08, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x5f300c0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_key, addr 0x5df7e4c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_key, addr 0x5f30104, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_key();
 
-  /// @brief Method get_user, addr 0x5df7e98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_user, addr 0x5f30150, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IPlatformUser* get_user();
 
-  /// @brief Method get_vendor, addr 0x5df7e90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_vendor, addr 0x5f30148, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::Vendor get_vendor();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformInternal"
@@ -96,7 +96,7 @@ public:
   MockedOculusPlatform(MockedOculusPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22081 };
 
   /// @brief Field _user, offset: 0x28, size: 0x8, def value: None
   ::OculusStudios::Platform::Oculus::MockedPlatformUser* ____user;

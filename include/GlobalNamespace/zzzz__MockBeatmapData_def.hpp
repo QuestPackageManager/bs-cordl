@@ -102,43 +102,43 @@ public:
 
   constexpr void __cordl_internal_set__songEndTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x59478c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a802e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bombNotes, addr 0x59478a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombNotes, addr 0x5a802c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_bombNotes();
 
-  /// @brief Method get_leftNotes, addr 0x5947884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftNotes, addr 0x5a802a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_leftNotes();
 
-  /// @brief Method get_numberOfLines, addr 0x5947864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x5a80284, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstacles, addr 0x59478b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacles, addr 0x5a802d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockObstacleData*> get_obstacles();
 
-  /// @brief Method get_rightNotes, addr 0x5947894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightNotes, addr 0x5a802b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_rightNotes();
 
-  /// @brief Method get_songEndTime, addr 0x5947874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songEndTime, addr 0x5a80294, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method set_bombNotes, addr 0x59478ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bombNotes, addr 0x5a802cc, size 0x8, virtual false, abstract: false, final false
   inline void set_bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
-  /// @brief Method set_leftNotes, addr 0x594788c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftNotes, addr 0x5a802ac, size 0x8, virtual false, abstract: false, final false
   inline void set_leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
-  /// @brief Method set_numberOfLines, addr 0x594786c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numberOfLines, addr 0x5a8028c, size 0x8, virtual false, abstract: false, final false
   inline void set_numberOfLines(int32_t value);
 
-  /// @brief Method set_obstacles, addr 0x59478bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_obstacles, addr 0x5a802dc, size 0x8, virtual false, abstract: false, final false
   inline void set_obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*> value);
 
-  /// @brief Method set_rightNotes, addr 0x594789c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightNotes, addr 0x5a802bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
-  /// @brief Method set_songEndTime, addr 0x594787c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songEndTime, addr 0x5a8029c, size 0x8, virtual false, abstract: false, final false
   inline void set_songEndTime(float_t value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   MockBeatmapData(MockBeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22175 };
 
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;

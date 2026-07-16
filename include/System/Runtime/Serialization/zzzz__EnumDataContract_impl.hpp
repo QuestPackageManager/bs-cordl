@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::StringW)>(&::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::Add)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x600ed9c;
+  constexpr static std::size_t addrs = 0x6149e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*)>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::GetBaseContractName)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x600eeb8;
+  constexpr static std::size_t addrs = 0x6149fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)(::System::Type*)>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x600da24;
+  constexpr static std::size_t addrs = 0x6148b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Runtime::Serialization::DataMember*>* (
     ::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::get_Members)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600f884;
+  constexpr static std::size_t addrs = 0x614a980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int64_t>* (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::get_Values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600f88c;
+  constexpr static std::size_t addrs = 0x614a988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::get_IsFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600f894;
+  constexpr static std::size_t addrs = 0x614a990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)(bool)>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::set_IsFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600f89c;
+  constexpr static std::size_t addrs = 0x614a998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::get_IsULong)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600f8a4;
+  constexpr static std::size_t addrs = 0x614a9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::XmlDictionaryString*> (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::get_ChildElementNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600f8ac;
+  constexpr static std::size_t addrs = 0x614a9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)(::System::Type*)>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::ImportBaseType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x600ef58;
+  constexpr static std::size_t addrs = 0x614a054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper*>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper::ImportDataMembers)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x600f0e0;
+  constexpr static std::size_t addrs = 0x614a1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::EnumDataContract::*)(::System::Type*)>(&::System::Runtime::Serialization::EnumDataContract::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6008084;
+  constexpr static std::size_t addrs = 0x6143180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Runtime::Serialization::DataMember*>* (
     ::System::Runtime::Serialization::EnumDataContract::*)()>(&::System::Runtime::Serialization::EnumDataContract::get_Members)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x600de20;
+  constexpr static std::size_t addrs = 0x6148f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract*>(), { "get_Members", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int64_t>* (::System::Runtime::Serialization::EnumDataContract::*)()>(
     &::System::Runtime::Serialization::EnumDataContract::get_Values)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x600de38;
+  constexpr static std::size_t addrs = 0x6148f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract*>(), { "get_Values", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::EnumDataContract::*)()>(&::System::Runtime::Serialization::EnumDataContract::get_IsFlags)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x600de50;
+  constexpr static std::size_t addrs = 0x6148f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract*>(), { "get_IsFlags", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::EnumDataContract::*)()>(&::System::Runtime::Serialization::EnumDataContract::get_IsULong)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x600de68;
+  constexpr static std::size_t addrs = 0x6148f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract*>(), { "get_IsULong", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::XmlDictionaryString*> (::System::Runtime::Serialization::EnumDataContract::*)()>(
     &::System::Runtime::Serialization::EnumDataContract::get_ChildElementNames)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x600de80;
+  constexpr static std::size_t addrs = 0x6148f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::EnumDataContract::*)()>(&::System::Runtime::Serialization::EnumDataContract::get_CanContainReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x600de98;
+  constexpr static std::size_t addrs = 0x6148f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::EnumDataContract::*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*)>(
     &::System::Runtime::Serialization::EnumDataContract::WriteEnumValue)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x600dea0;
+  constexpr static std::size_t addrs = 0x6148f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::EnumDataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
     &::System::Runtime::Serialization::EnumDataContract::ReadEnumValue)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x600e2f8;
+  constexpr static std::size_t addrs = 0x61493f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::EnumDataContract*>(),
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Serialization::EnumDataContract::*)(::StringW, int32_t, int32_t)>(
     &::System::Runtime::Serialization::EnumDataContract::ReadEnumValue)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x600e5c0;
+  constexpr static std::size_t addrs = 0x61496bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
     ::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>*)>(
     &::System::Runtime::Serialization::EnumDataContract::Equals)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x600e7a0;
+  constexpr static std::size_t addrs = 0x614989c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::EnumDataContract::*)()>(&::System::Runtime::Serialization::EnumDataContract::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x600ea88;
+  constexpr static std::size_t addrs = 0x6149b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
                                                                                                                     ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(
     &::System::Runtime::Serialization::EnumDataContract::WriteXmlValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x600ea9c;
+  constexpr static std::size_t addrs = 0x6149b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                                  ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(
     &::System::Runtime::Serialization::EnumDataContract::ReadXmlValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x600eaa0;
+  constexpr static std::size_t addrs = 0x6149b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

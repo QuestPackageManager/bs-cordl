@@ -26,7 +26,7 @@ public:
   /// @brief Field _particleSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Emit, addr 0x5846d3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x597ea2c, size 0x14, virtual false, abstract: false, final false
   inline void Emit(int32_t count);
 
   static inline ::GlobalNamespace::EmitParticles* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x5846d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597ea40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   EmitParticles(EmitParticles const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5762 };
 
   /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;

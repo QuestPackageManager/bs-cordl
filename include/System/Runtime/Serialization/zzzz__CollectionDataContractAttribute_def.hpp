@@ -141,37 +141,37 @@ public:
 
   constexpr void __cordl_internal_set_valueName(::StringW value);
 
-  /// @brief Method get_IsItemNameSetExplicitly, addr 0x5ffe8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsItemNameSetExplicitly, addr 0x61399d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsItemNameSetExplicitly();
 
-  /// @brief Method get_IsKeyNameSetExplicitly, addr 0x5ffe8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsKeyNameSetExplicitly, addr 0x61399ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsKeyNameSetExplicitly();
 
-  /// @brief Method get_IsNameSetExplicitly, addr 0x5ffe8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNameSetExplicitly, addr 0x61399c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNameSetExplicitly();
 
-  /// @brief Method get_IsNamespaceSetExplicitly, addr 0x5ffe8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamespaceSetExplicitly, addr 0x61399b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNamespaceSetExplicitly();
 
-  /// @brief Method get_IsReference, addr 0x5ffe8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x61399e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method get_IsValueNameSetExplicitly, addr 0x5ffe900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueNameSetExplicitly, addr 0x61399fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsValueNameSetExplicitly();
 
-  /// @brief Method get_ItemName, addr 0x5ffe8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemName, addr 0x61399cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ItemName();
 
-  /// @brief Method get_KeyName, addr 0x5ffe8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyName, addr 0x61399dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_KeyName();
 
-  /// @brief Method get_Name, addr 0x5ffe8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x61399bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x5ffe8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x61399ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_ValueName, addr 0x5ffe8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueName, addr 0x61399f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ValueName();
 
 protected:
@@ -189,7 +189,7 @@ public:
   CollectionDataContractAttribute(CollectionDataContractAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16981 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

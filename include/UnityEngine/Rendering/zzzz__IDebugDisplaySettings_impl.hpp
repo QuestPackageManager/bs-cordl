@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData* (
     ::UnityEngine::Rendering::IDebugDisplaySettings::*)(::UnityEngine::Rendering::IDebugDisplaySettingsData*)>(&::UnityEngine::Rendering::IDebugDisplaySettings::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x662a900;
+  constexpr static std::size_t addrs = 0x676800c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

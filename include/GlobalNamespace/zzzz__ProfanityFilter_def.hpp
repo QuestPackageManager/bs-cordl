@@ -65,10 +65,10 @@ public:
   /// @brief Field _shortestWord, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__shortestWord, put = __cordl_internal_set__shortestWord)) int32_t _shortestWord;
 
-  /// @brief Method AddWord, addr 0x32815c0, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method AddWord, addr 0x333da78, size 0x4b8, virtual false, abstract: false, final false
   inline void AddWord(::StringW word, int32_t index);
 
-  /// @brief Method IsMatch, addr 0x3281ae0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x333df98, size 0x11c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW word, int32_t index);
 
   static inline ::GlobalNamespace::ProfanityFilter_TrieNode* New_ctor();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__shortestWord(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32815b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333da6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   ProfanityFilter_TrieNode(ProfanityFilter_TrieNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18227 };
 
   /// @brief Field _children, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::ProfanityFilter_TrieNode*>* ____children;
@@ -162,27 +162,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3281cb4, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x333e16c, size 0x98, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x3281db0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x333e268, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* System_Collections_Generic_IEnumerable_System_Char__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current, addr 0x3281d4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current, addr 0x333e204, size 0x8, virtual true, abstract: false, final true
   inline char16_t System_Collections_Generic_IEnumerator_System_Char__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3281e48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x333e300, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3281d54, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x333e20c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3281d8c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x333e244, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3281cb0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x333e168, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -215,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_c(char16_t value);
 
-  /// @brief Method .ctor, addr 0x3281c6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333e124, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
@@ -248,7 +248,7 @@ public:
   ProfanityFilter__GetLookalikeLetters_d__4(ProfanityFilter__GetLookalikeLetters_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18228 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -295,13 +295,13 @@ public:
   /// @brief Field _trie, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__trie, put = __cordl_internal_set__trie)) ::GlobalNamespace::ProfanityFilter_TrieNode* _trie;
 
-  /// @brief Method GetLeetEquivalent, addr 0x3281c8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLeetEquivalent, addr 0x333e144, size 0x24, virtual false, abstract: false, final false
   static inline char16_t GetLeetEquivalent(char16_t c);
 
-  /// @brief Method GetLookalikeLetters, addr 0x3281bfc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLookalikeLetters, addr 0x333e0b4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<char16_t>* GetLookalikeLetters(char16_t c);
 
-  /// @brief Method IsProfane, addr 0x3281a78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsProfane, addr 0x333df30, size 0x68, virtual false, abstract: false, final false
   inline bool IsProfane(::StringW word);
 
   static inline ::GlobalNamespace::ProfanityFilter* New_ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
@@ -312,7 +312,7 @@ public:
 
   constexpr void __cordl_internal_set__trie(::GlobalNamespace::ProfanityFilter_TrieNode* value);
 
-  /// @brief Method .ctor, addr 0x32812b8, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333d770, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
 
 protected:
@@ -330,7 +330,7 @@ public:
   ProfanityFilter(ProfanityFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18229 };
 
   /// @brief Field _trie, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ProfanityFilter_TrieNode* ____trie;

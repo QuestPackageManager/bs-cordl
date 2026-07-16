@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncReadRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Run, addr 0x5e97cd4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fd2dd0, size 0x68, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x5e97cd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd2dcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
 protected:
@@ -50,7 +50,7 @@ public:
   AsyncReadRequest(AsyncReadRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_MethodName, addr 0x6017550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MethodName, addr 0x615264c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_Type, addr 0x6017558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6152654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -66,7 +66,7 @@ public:
   KnownTypeAttribute(KnownTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17024 };
 
   /// @brief Field methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___methodName;

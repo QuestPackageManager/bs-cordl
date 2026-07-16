@@ -72,34 +72,34 @@ public:
   /// @brief Method DestroyItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Dispose, addr 0x6afbf00, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c4fdb8, size 0xc, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetIdForIndex, addr 0x6afbfd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIdForIndex, addr 0x6c4fe8c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetIdForIndex(int32_t index);
 
-  /// @brief Method GetIndexForId, addr 0x6afbfcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIndexForId, addr 0x6c4fe84, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetIndexForId(int32_t id);
 
-  /// @brief Method GetItemForIndex, addr 0x6afbfdc, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetItemForIndex, addr 0x6c4fe94, size 0x150, virtual true, abstract: false, final false
   inline ::System::Object* GetItemForIndex(int32_t index);
 
-  /// @brief Method GetItemsCount, addr 0x6afbf0c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetItemsCount, addr 0x6c4fdc4, size 0xb4, virtual true, abstract: false, final false
   inline int32_t GetItemsCount();
 
-  /// @brief Method GetItemsMinCount, addr 0x6afbfc0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetItemsMinCount, addr 0x6c4fe78, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetItemsMinCount();
 
-  /// @brief Method InvokeBindItem, addr 0x6af4fe8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method InvokeBindItem, addr 0x6c48ea0, size 0xf0, virtual true, abstract: false, final false
   inline void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
 
-  /// @brief Method InvokeDestroyItem, addr 0x6af84f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method InvokeDestroyItem, addr 0x6c4c3b0, size 0x20, virtual true, abstract: false, final false
   inline void InvokeDestroyItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method InvokeMakeItem, addr 0x6afc12c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method InvokeMakeItem, addr 0x6c4ffe4, size 0x3c, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method InvokeUnbindItem, addr 0x6afc168, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method InvokeUnbindItem, addr 0x6c50020, size 0x34, virtual true, abstract: false, final false
   inline void InvokeUnbindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
 
   /// @brief Method MakeItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -107,25 +107,25 @@ public:
 
   static inline ::UnityEngine::UIElements::CollectionViewController* New_ctor();
 
-  /// @brief Method PreRefresh, addr 0x6afc19c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreRefresh, addr 0x6c50054, size 0x4, virtual true, abstract: false, final false
   inline void PreRefresh();
 
-  /// @brief Method PrepareView, addr 0x6afbefc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareView, addr 0x6c4fdb4, size 0x4, virtual true, abstract: false, final false
   inline void PrepareView();
 
-  /// @brief Method RaiseItemIndexChanged, addr 0x6af5e04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseItemIndexChanged, addr 0x6c49cbc, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseItemIndexChanged(int32_t srcIndex, int32_t dstIndex);
 
-  /// @brief Method RaiseItemsSourceChanged, addr 0x6afbdc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseItemsSourceChanged, addr 0x6c4fc7c, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseItemsSourceChanged();
 
-  /// @brief Method SetBindingContext, addr 0x6af4da0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetBindingContext, addr 0x6c48c58, size 0x4, virtual true, abstract: false, final false
   inline void SetBindingContext(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
 
-  /// @brief Method SetHierarchyViewModelWithoutNotify, addr 0x6afbde0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetHierarchyViewModelWithoutNotify, addr 0x6c4fc98, size 0x60, virtual false, abstract: false, final false
   inline void SetHierarchyViewModelWithoutNotify(::Unity::Hierarchy::HierarchyViewModel* source);
 
-  /// @brief Method SetView, addr 0x6afbe48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetView, addr 0x6c4fd00, size 0xb4, virtual false, abstract: false, final false
   inline void SetView(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
   /// @brief Method UnbindItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -155,31 +155,31 @@ public:
 
   constexpr void __cordl_internal_set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
-  /// @brief Method .ctor, addr 0x6af67ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4a6a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_itemIndexChanged, addr 0x6afbb80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_itemIndexChanged, addr 0x6c4fa38, size 0xc0, virtual false, abstract: false, final false
   inline void add_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method add_itemsSourceChanged, addr 0x6afba28, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_itemsSourceChanged, addr 0x6c4f8e0, size 0xac, virtual false, abstract: false, final false
   inline void add_itemsSourceChanged(::System::Action* value);
 
-  /// @brief Method get_itemsSource, addr 0x6afbd00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_itemsSource, addr 0x6c4fbb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_itemsSource();
 
-  /// @brief Method get_view, addr 0x6afbe40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_view, addr 0x6c4fcf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVerticalCollectionView* get_view();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_itemIndexChanged, addr 0x6afbc40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_itemIndexChanged, addr 0x6c4faf8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method remove_itemsSourceChanged, addr 0x6afbad4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_itemsSourceChanged, addr 0x6c4f98c, size 0xac, virtual false, abstract: false, final false
   inline void remove_itemsSourceChanged(::System::Action* value);
 
-  /// @brief Method set_itemsSource, addr 0x6afbd08, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method set_itemsSource, addr 0x6c4fbc0, size 0xbc, virtual true, abstract: false, final false
   inline void set_itemsSource(::System::Collections::IList* value);
 
 protected:

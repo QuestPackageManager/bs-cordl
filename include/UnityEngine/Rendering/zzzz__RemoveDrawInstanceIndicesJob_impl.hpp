@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::*)(::by_ref<::UnityEngine::Rendering::RangeKey>)>(
     &::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::RemoveDrawRange)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x66d96a8;
+  constexpr static std::size_t addrs = 0x6816db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::*)(::by_ref<::UnityEngine::Rendering::DrawKey>)>(
     &::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::RemoveDrawBatch)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x66d984c;
+  constexpr static std::size_t addrs = 0x6816f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob>(),
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::*)()>(&::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::Execute)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x66d9abc;
+  constexpr static std::size_t addrs = 0x68171c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob>(), { "Execute", {}, {} })));

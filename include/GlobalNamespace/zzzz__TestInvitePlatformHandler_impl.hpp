@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TestInvitePlatformHandler::*)()>(&::GlobalNamespace::TestInvitePlatformHandler::get_isSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3676f30;
+  constexpr static std::size_t addrs = 0x373265c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestInvitePlatformHandler*>(), { "get_isSupported", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestInvitePlatformHandler::*)()>(&::GlobalNamespace::TestInvitePlatformHandler::OpenInvitePanel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3676f38;
+  constexpr static std::size_t addrs = 0x3732664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestInvitePlatformHandler*>(), { "OpenInvitePanel", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestInvitePlatformHandler::*)()>(&::GlobalNamespace::TestInvitePlatformHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3676fa8;
+  constexpr static std::size_t addrs = 0x37326d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestInvitePlatformHandler*>(), { ".ctor", {}, {} })));

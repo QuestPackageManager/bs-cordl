@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::System::Net::HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62e4e1c;
+  constexpr static std::size_t addrs = 0x6420eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Security::SecureString*)>(&::System::Net::UnsafeNclNativeMethods_SecureStringHelper::CreateString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x62e5580;
+  constexpr static std::size_t addrs = 0x642161c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::UnsafeNclNativeMethods_SecureStringHelper*>(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecureString* (*)(::StringW)>(&::System::Net::UnsafeNclNativeMethods_SecureStringHelper::CreateSecureString)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62e56b4;
+  constexpr static std::size_t addrs = 0x6421750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

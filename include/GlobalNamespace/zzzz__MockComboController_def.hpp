@@ -52,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x58bd390, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59edab4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x58bd238, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59ed95c, size 0xac, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x58bd0b8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x59ed7dc, size 0xc0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x58bd2e4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59eda08, size 0xac, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x58bd178, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x59ed89c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   MockComboController(MockComboController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
 
   /// @brief Field comboDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___comboDidChangeEvent;

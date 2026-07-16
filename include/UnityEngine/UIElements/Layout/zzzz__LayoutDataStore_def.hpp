@@ -92,16 +92,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6babef4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cffdac, size 0xd8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetComponentDataPtr, addr 0x6bac030, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetComponentDataPtr, addr 0x6cffee8, size 0x34, virtual false, abstract: false, final false
   inline uint8_t* GetComponentDataPtr(int32_t index);
 
-  /// @brief Method ResizeCapacity, addr 0x6bac3fc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ResizeCapacity, addr 0x6d002b4, size 0x1c8, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x6babd7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cffc34, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::Unity::Collections::Allocator allocator);
 
   /// @brief Convert to "::System::IDisposable"
@@ -233,40 +233,40 @@ public:
   template <typename T0, typename T1, typename T2, typename T3>
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(::by_ref<T0> component0, ::by_ref<T1> component1, ::by_ref<T2> component2, ::by_ref<T3> component3);
 
-  /// @brief Method Allocate, addr 0x6bac064, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6cfff1c, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(uint8_t* data, int32_t count);
 
-  /// @brief Method Dispose, addr 0x6ba7a90, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cfb948, size 0x100, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Exists, addr 0x6babfcc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6cffe84, size 0x40, virtual false, abstract: false, final false
   inline bool Exists(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
-  /// @brief Method Free, addr 0x6ba7c20, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6cfbad8, size 0xf8, virtual false, abstract: false, final false
   inline void Free(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
-  /// @brief Method GetComponentDataPtr, addr 0x6bac00c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetComponentDataPtr, addr 0x6cffec4, size 0x24, virtual false, abstract: false, final false
   inline void* GetComponentDataPtr(int32_t index, int32_t componentIndex);
 
-  /// @brief Method GetNextFreeIndex, addr 0x6bac248, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNextFreeIndex, addr 0x6d00100, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index);
 
-  /// @brief Method IncreaseCapacity, addr 0x6bac25c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x6d00114, size 0x3c, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method ResizeArray, addr 0x6bac2b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ResizeArray, addr 0x6d00168, size 0x14c, virtual false, abstract: false, final false
   static inline void* ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method ResizeCapacity, addr 0x6babd94, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ResizeCapacity, addr 0x6cffc4c, size 0x160, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
 
-  /// @brief Method SetNextFreeIndex, addr 0x6bac298, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetNextFreeIndex, addr 0x6d00150, size 0x18, virtual false, abstract: false, final false
   static inline void SetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ba76c0, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfb578, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType> components, int32_t initialCapacity, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_IsValid, addr 0x6bab97c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6cff834, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   /// @brief Convert to "::System::IDisposable"

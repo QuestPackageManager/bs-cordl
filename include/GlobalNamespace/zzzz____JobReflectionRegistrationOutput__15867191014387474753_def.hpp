@@ -19,10 +19,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE __JobReflectionRegistrationOutput__15867191014387474753 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateJobReflectionData, addr 0x66f666c, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method CreateJobReflectionData, addr 0x6833d78, size 0x6cc, virtual false, abstract: false, final false
   static inline void CreateJobReflectionData();
 
-  /// @brief Method EarlyInit, addr 0x66f6d38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EarlyInit, addr 0x6834444, size 0x4, virtual false, abstract: false, final false
   static inline void EarlyInit();
 
 protected:
@@ -40,7 +40,7 @@ public:
   __JobReflectionRegistrationOutput__15867191014387474753(__JobReflectionRegistrationOutput__15867191014387474753 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

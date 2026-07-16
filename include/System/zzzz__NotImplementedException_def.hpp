@@ -32,13 +32,13 @@ public:
 
   static inline ::System::NotImplementedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b0f31c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c48ff4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b0f3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c49078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b0f37c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c49054, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -24,13 +24,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LeaderboardViewController* New_ctor();
 
-  /// @brief Method RefreshLevelStats, addr 0x5819c90, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RefreshLevelStats, addr 0x59478ec, size 0x4, virtual true, abstract: false, final false
   inline void RefreshLevelStats();
 
   /// @brief Method SetData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetData(::by_ref<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap);
 
-  /// @brief Method .ctor, addr 0x5819c94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59478f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   LeaderboardViewController(LeaderboardViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

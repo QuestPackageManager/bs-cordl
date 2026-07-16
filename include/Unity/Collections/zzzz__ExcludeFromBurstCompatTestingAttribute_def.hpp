@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Reason_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x637fc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64bc854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW _reason);
 
-  /// @brief Method get_Reason, addr 0x637fc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reason, addr 0x64bc844, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Reason();
 
-  /// @brief Method set_Reason, addr 0x637fc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Reason, addr 0x64bc84c, size 0x8, virtual false, abstract: false, final false
   inline void set_Reason(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   ExcludeFromBurstCompatTestingAttribute(ExcludeFromBurstCompatTestingAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15594 };
 
   /// @brief Field <Reason>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Reason_k__BackingField;

@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataCallbackWrapper::*)(float_t, ::System::Type*, ::ArrayW<int32_t>)>(
     &::GlobalNamespace::BeatmapDataCallbackWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5789acc;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x58c6274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,6 +44,18 @@ constexpr ::System::Type* const& GlobalNamespace::BeatmapDataCallbackWrapper::__
 constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_set_BasicBeatmapEventType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BasicBeatmapEventType = value;
+}
+constexpr int32_t& GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_get_basicBeatmapEventTypeId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___basicBeatmapEventTypeId;
+}
+constexpr int32_t const& GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_get_basicBeatmapEventTypeId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___basicBeatmapEventTypeId;
+}
+constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_set_basicBeatmapEventTypeId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___basicBeatmapEventTypeId = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_get_aheadTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

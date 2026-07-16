@@ -95,39 +95,39 @@ public:
   /// @brief Field _scoreSyncStateManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManager, put = __cordl_internal_set__scoreSyncStateManager)) ::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
 
-  /// @brief Method HandleComboDidChange, addr 0x588e294, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x59bf1b0, size 0xdc, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x588e370, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x59bf28c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
-  /// @brief Method HandleNoteWasAdded, addr 0x588db78, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasAdded, addr 0x59bea94, size 0x160, virtual false, abstract: false, final false
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::NoteSpawnData noteSpawnData);
 
-  /// @brief Method HandleNoteWasCut, addr 0x588e0d0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59befec, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x588dfc0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x59beedc, size 0x110, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasAdded, addr 0x588dcd8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasAdded, addr 0x59bebf4, size 0x15c, virtual false, abstract: false, final false
   inline void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::ObstacleSpawnData obstacleSpawnData, float_t rotation);
 
-  /// @brief Method HandleScoreDidChange, addr 0x588e44c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x59bf368, size 0x25c, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method HandleSliderWasAdded, addr 0x588de34, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAdded, addr 0x59bed50, size 0x18c, virtual false, abstract: false, final false
   inline void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::SliderSpawnData sliderSpawnData);
 
-  /// @brief Method LateUpdate, addr 0x588d868, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59be784, size 0x310, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveClient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x588d398, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59be2b4, size 0x4d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x588cc54, size 0x744, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59bdb70, size 0x744, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x588e6a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59bf5c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   MultiplayerLocalActiveClient(MultiplayerLocalActiveClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6057 };
 
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;

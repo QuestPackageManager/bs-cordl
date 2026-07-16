@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Base64Encoder::*)()>(&::System::Xml::Base64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6051df8;
+  constexpr static std::size_t addrs = 0x618cef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Base64Encoder*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::Base64Encoder::Encode)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6051e4c;
+  constexpr static std::size_t addrs = 0x618cf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Base64Encoder::*)()>(&::System::Xml::Base64Encoder::Flush)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6052194;
+  constexpr static std::size_t addrs = 0x618d290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Base64Encoder*>(), { "Flush", {}, {} })));

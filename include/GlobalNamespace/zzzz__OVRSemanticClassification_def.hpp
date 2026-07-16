@@ -37,18 +37,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d969ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ecebd4, size 0xd8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Contains, addr 0x5d96894, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x5eceabc, size 0x118, virtual false, abstract: false, final false
   inline bool Contains(::StringW label);
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5d96a84, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5ececac, size 0x150, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
   static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor();
 
-  /// @brief Method ValidateAndUpgradeLabels, addr 0x5d96bd4, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ValidateAndUpgradeLabels, addr 0x5ecedfc, size 0x458, virtual false, abstract: false, final false
   static inline ::StringW ValidateAndUpgradeLabels(::StringW labels);
 
   constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get__labels() const;
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__labels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5d9702c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ecf254, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Labels, addr 0x5d9688c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Labels, addr 0x5eceab4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
@@ -84,7 +84,7 @@ public:
   static constexpr char16_t LabelSeparator{ u',' };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7672 };
 
   /// @brief Field _labels, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____labels;

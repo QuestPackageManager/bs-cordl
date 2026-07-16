@@ -132,84 +132,84 @@ public:
   /// @brief Field working_public_key, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_working_public_key, put = __cordl_internal_set_working_public_key)) ::System::Security::Cryptography::AsymmetricAlgorithm* working_public_key;
 
-  /// @brief Method AddStatus, addr 0x626aef0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddStatus, addr 0x63a6f8c, size 0x4, virtual true, abstract: false, final false
   inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  /// @brief Method Build, addr 0x626aef4, size 0x5c0, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x63a6f90, size 0x5c0, virtual true, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method BuildChainFrom, addr 0x626b4b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BuildChainFrom, addr 0x63a7550, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags BuildChainFrom(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method CheckCrls, addr 0x626d760, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method CheckCrls, addr 0x63a97fc, size 0x354, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Crl* CheckCrls(::StringW subject, ::StringW ski, ::Mono::Security::X509::X509Store* store);
 
-  /// @brief Method CheckRevocation, addr 0x626cd14, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CheckRevocation, addr 0x63a8db0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, int32_t ca,
                                                                                                   bool online);
 
-  /// @brief Method CheckRevocation, addr 0x626cddc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CheckRevocation, addr 0x63a8e78, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                                                                   ::System::Security::Cryptography::X509Certificates::X509Certificate2* ca_cert, bool online);
 
-  /// @brief Method CheckRevocationOnChain, addr 0x626c780, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CheckRevocationOnChain, addr 0x63a881c, size 0x1d4, virtual false, abstract: false, final false
   inline void CheckRevocationOnChain(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
 
-  /// @brief Method FindCrl, addr 0x626cfc4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method FindCrl, addr 0x63a9060, size 0x178, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl* FindCrl(::System::Security::Cryptography::X509Certificates::X509Certificate2* caCertificate);
 
-  /// @brief Method FindParent, addr 0x626bdd0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FindParent, addr 0x63a7e6c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* FindParent(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method GetAuthorityKeyIdentifier, addr 0x626c144, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetAuthorityKeyIdentifier, addr 0x63a81e0, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW GetAuthorityKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method GetAuthorityKeyIdentifier, addr 0x626cc80, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAuthorityKeyIdentifier, addr 0x63a8d1c, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetAuthorityKeyIdentifier(::Mono::Security::X509::X509Crl* crl);
 
-  /// @brief Method GetAuthorityKeyIdentifier, addr 0x626cb1c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetAuthorityKeyIdentifier, addr 0x63a8bb8, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW GetAuthorityKeyIdentifier(::Mono::Security::X509::X509Extension* ext);
 
-  /// @brief Method GetSubjectKeyIdentifier, addr 0x626c1e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetSubjectKeyIdentifier, addr 0x63a8280, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW GetSubjectKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsChainComplete, addr 0x626bee8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsChainComplete, addr 0x63a7f84, size 0xc0, virtual false, abstract: false, final false
   inline bool IsChainComplete(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsSelfIssued, addr 0x626c294, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsSelfIssued, addr 0x63a8330, size 0x44, virtual false, abstract: false, final false
   inline bool IsSelfIssued(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsSignedWith, addr 0x626c9e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsSignedWith, addr 0x63a8a84, size 0x3c, virtual false, abstract: false, final false
   inline bool IsSignedWith(::System::Security::Cryptography::X509Certificates::X509Certificate2* _cordl_signed, ::System::Security::Cryptography::AsymmetricAlgorithm* pubkey);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImplMono* New_ctor(bool useMachineContext);
 
-  /// @brief Method PrepareForNextCertificate, addr 0x626c58c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method PrepareForNextCertificate, addr 0x63a8628, size 0x1f4, virtual false, abstract: false, final false
   inline void PrepareForNextCertificate(int32_t n);
 
-  /// @brief Method Process, addr 0x626c2d8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x63a8374, size 0x2b4, virtual false, abstract: false, final false
   inline void Process(int32_t n);
 
-  /// @brief Method ProcessCertificateExtensions, addr 0x626ca24, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertificateExtensions, addr 0x63a8ac0, size 0xf8, virtual false, abstract: false, final false
   inline void ProcessCertificateExtensions(::System::Security::Cryptography::X509Certificates::X509ChainElement* element);
 
-  /// @brief Method ProcessCrlEntryExtensions, addr 0x626d13c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlEntryExtensions, addr 0x63a91d8, size 0x2f4, virtual false, abstract: false, final false
   inline bool ProcessCrlEntryExtensions(::Mono::Security::X509::X509Crl_X509CrlEntry* entry);
 
-  /// @brief Method ProcessCrlExtensions, addr 0x626d430, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method ProcessCrlExtensions, addr 0x63a94cc, size 0x330, virtual false, abstract: false, final false
   inline bool ProcessCrlExtensions(::Mono::Security::X509::X509Crl* crl);
 
-  /// @brief Method Reset, addr 0x626b6a4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x63a7740, size 0xfc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SelectBestFromCollection, addr 0x626bfa8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SelectBestFromCollection, addr 0x63a8044, size 0x19c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* SelectBestFromCollection(::System::Security::Cryptography::X509Certificates::X509Certificate2* child,
                                                                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* c);
 
-  /// @brief Method ValidateChain, addr 0x626b590, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ValidateChain, addr 0x63a762c, size 0x114, virtual false, abstract: false, final false
   inline void ValidateChain(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
 
-  /// @brief Method WrapUp, addr 0x626c954, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WrapUp, addr 0x63a89f0, size 0x94, virtual false, abstract: false, final false
   inline void WrapUp();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElement* const& __cordl_internal_get_bce_restriction() const;
@@ -302,39 +302,39 @@ public:
 
   constexpr void __cordl_internal_set_working_public_key(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
-  /// @brief Method .ctor, addr 0x626ae30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a6ecc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(bool useMachineContext);
 
   static inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> getStaticF_Empty();
 
-  /// @brief Method get_CertificateAuthorities, addr 0x626ba50, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateAuthorities, addr 0x63a7aec, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateAuthorities();
 
-  /// @brief Method get_CertificateCollection, addr 0x626bd00, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateCollection, addr 0x63a7d9c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateCollection();
 
-  /// @brief Method get_ChainElements, addr 0x626aee0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x63a6f7c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy, addr 0x626aee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x63a6f84, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_IsValid, addr 0x626aed8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x63a6f74, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_LMCAStore, addr 0x626bb18, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_LMCAStore, addr 0x63a7bb4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Store* get_LMCAStore();
 
-  /// @brief Method get_LMRootStore, addr 0x626b868, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_LMRootStore, addr 0x63a7904, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Store* get_LMRootStore();
 
-  /// @brief Method get_Roots, addr 0x626b7a0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_Roots, addr 0x63a783c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Roots();
 
-  /// @brief Method get_UserCAStore, addr 0x626bc0c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_UserCAStore, addr 0x63a7ca8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Store* get_UserCAStore();
 
-  /// @brief Method get_UserRootStore, addr 0x626b95c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_UserRootStore, addr 0x63a79f8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Store* get_UserRootStore();
 
   static inline void setStaticF_Empty(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> value);
@@ -354,7 +354,7 @@ public:
   X509ChainImplMono(X509ChainImplMono const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11178 };
 
   /// @brief Field location, offset: 0x10, size: 0x4, def value: None
   ::System::Security::Cryptography::X509Certificates::StoreLocation ___location;

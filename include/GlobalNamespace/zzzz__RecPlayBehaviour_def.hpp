@@ -4,10 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(RecPlayBehaviour)
+namespace BeatSaber::Automation {
+class RecPlayBehaviourState;
+}
 namespace BeatSaber::RecPlay {
 class PlayerPoseCapturer;
 }
@@ -36,9 +38,6 @@ namespace GlobalNamespace {
 class PlayerVRControllersManager;
 }
 namespace GlobalNamespace {
-class RecPlayBehaviour_State;
-}
-namespace GlobalNamespace {
 class VRCenterAdjust;
 }
 namespace UnityEngine {
@@ -54,77 +53,9 @@ class Transform;
 namespace GlobalNamespace {
 class RecPlayBehaviour;
 }
-namespace GlobalNamespace {
-class RecPlayBehaviour_State;
-}
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RecPlayBehaviour*);
-MARK_REF_T(::GlobalNamespace::RecPlayBehaviour_State*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RecPlayBehaviour*, "", "RecPlayBehaviour");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::RecPlayBehaviour_State*, "", "RecPlayBehaviour/State");
-// Dependencies System.Object
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: RecPlayBehaviour/State
-class CORDL_TYPE RecPlayBehaviour_State : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field playback, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_playback, put = __cordl_internal_set_playback)) bool playback;
-
-  /// @brief Field recording, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_recording, put = __cordl_internal_set_recording)) bool recording;
-
-  static inline ::GlobalNamespace::RecPlayBehaviour_State* New_ctor();
-
-  constexpr bool const& __cordl_internal_get_playback() const;
-
-  constexpr bool& __cordl_internal_get_playback();
-
-  constexpr bool const& __cordl_internal_get_recording() const;
-
-  constexpr bool& __cordl_internal_get_recording();
-
-  constexpr void __cordl_internal_set_playback(bool value);
-
-  constexpr void __cordl_internal_set_recording(bool value);
-
-  /// @brief Method .ctor, addr 0x57d9c3c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecPlayBehaviour_State();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecPlayBehaviour_State", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecPlayBehaviour_State(RecPlayBehaviour_State&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "RecPlayBehaviour_State", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecPlayBehaviour_State(RecPlayBehaviour_State const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6720 };
-
-  /// @brief Field recording, offset: 0x10, size: 0x1, def value: None
-  bool ___recording;
-
-  /// @brief Field playback, offset: 0x11, size: 0x1, def value: None
-  bool ___playback;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RecPlayBehaviour_State, ___recording) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::RecPlayBehaviour_State, ___playback) == 0x11, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::RecPlayBehaviour_State) == 0x18, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Dependencies BeatSaber.RecPlay.PoseNoise, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -132,8 +63,6 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecPlayBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using State = ::GlobalNamespace::RecPlayBehaviour_State;
-
   /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
@@ -166,61 +95,61 @@ public:
   __declspec(property(get = __cordl_internal_get__sampler, put = __cordl_internal_set__sampler)) ::BeatSaber::RecPlay::PlayerPoseSampler* _sampler;
 
   /// @brief Field _state, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::RecPlayBehaviour_State* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::BeatSaber::Automation::RecPlayBehaviourState* _state;
 
   /// @brief Field _vrCenterAdjust, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__vrCenterAdjust, put = __cordl_internal_set__vrCenterAdjust)) ::UnityW<::GlobalNamespace::VRCenterAdjust> _vrCenterAdjust;
 
-  /// @brief Method CleanUp, addr 0x57d9a30, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x58fa164, size 0x10c, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Configure, addr 0x57d9898, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Configure, addr 0x58f9fcc, size 0x198, virtual false, abstract: false, final false
   inline void Configure();
 
-  /// @brief Method CreateAutoLevelRecording, addr 0x57d9144, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateAutoLevelRecording, addr 0x58f9878, size 0x160, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreateAutoLevelRecording(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup,
                                                                                 ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method CreateRecordingPath, addr 0x57d8e58, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CreateRecordingPath, addr 0x58f9558, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW CreateRecordingPath(::GlobalNamespace::BeatmapKey key);
 
-  /// @brief Method Init, addr 0x57d8d38, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58f9440, size 0x118, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup, ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method LateUpdate, addr 0x57d9b64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58fa298, size 0x10, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LoadLevelRecording, addr 0x57d8fd8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadLevelRecording, addr 0x58f970c, size 0x16c, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames LoadLevelRecording(::StringW path);
 
   static inline ::GlobalNamespace::RecPlayBehaviour* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57d9b78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58fa2ac, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x57d9b74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58fa2a8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Play, addr 0x57d92a4, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x58f99d8, size 0x304, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Record, addr 0x57d960c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Record, addr 0x58f9d40, size 0xcc, virtual false, abstract: false, final false
   inline void Record();
 
-  /// @brief Method SavePlayerPoseFrames, addr 0x57d97c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SavePlayerPoseFrames, addr 0x58f9efc, size 0xd0, virtual false, abstract: false, final false
   static inline void SavePlayerPoseFrames(::StringW path, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames);
 
-  /// @brief Method SaveRecording, addr 0x57d973c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SaveRecording, addr 0x58f9e70, size 0x8c, virtual false, abstract: false, final false
   inline void SaveRecording();
 
-  /// @brief Method Update, addr 0x57d9b3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58fa270, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Play>g__ExtractLocalPose|14_0, addr 0x57d95a8, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose _Play_g__ExtractLocalPose_14_0(::UnityEngine::Transform* transform);
+  /// @brief Method <Play>g__ExtractLocalPose|13_0, addr 0x58f9cdc, size 0x64, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Pose _Play_g__ExtractLocalPose_13_0(::UnityEngine::Transform* transform);
 
-  /// @brief Method <Record>g__ExtractGlobalPose|15_0, addr 0x57d96d8, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose _Record_g__ExtractGlobalPose_15_0(::UnityEngine::Transform* transform);
+  /// @brief Method <Record>g__ExtractGlobalPose|14_0, addr 0x58f9e0c, size 0x64, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Pose _Record_g__ExtractGlobalPose_14_0(::UnityEngine::Transform* transform);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
@@ -262,9 +191,9 @@ public:
 
   constexpr ::BeatSaber::RecPlay::PlayerPoseSampler*& __cordl_internal_get__sampler();
 
-  constexpr ::GlobalNamespace::RecPlayBehaviour_State* const& __cordl_internal_get__state() const;
+  constexpr ::BeatSaber::Automation::RecPlayBehaviourState* const& __cordl_internal_get__state() const;
 
-  constexpr ::GlobalNamespace::RecPlayBehaviour_State*& __cordl_internal_get__state();
+  constexpr ::BeatSaber::Automation::RecPlayBehaviourState*& __cordl_internal_get__state();
 
   constexpr ::UnityW<::GlobalNamespace::VRCenterAdjust> const& __cordl_internal_get__vrCenterAdjust() const;
 
@@ -290,11 +219,11 @@ public:
 
   constexpr void __cordl_internal_set__sampler(::BeatSaber::RecPlay::PlayerPoseSampler* value);
 
-  constexpr void __cordl_internal_set__state(::GlobalNamespace::RecPlayBehaviour_State* value);
+  constexpr void __cordl_internal_set__state(::BeatSaber::Automation::RecPlayBehaviourState* value);
 
   constexpr void __cordl_internal_set__vrCenterAdjust(::UnityW<::GlobalNamespace::VRCenterAdjust> value);
 
-  /// @brief Method .ctor, addr 0x57d9b90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fa2c4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -312,7 +241,7 @@ public:
   RecPlayBehaviour(RecPlayBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6607 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
@@ -330,7 +259,7 @@ public:
   ::UnityW<::UnityEngine::Camera> ____hmdCamera;
 
   /// @brief Field _state, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::RecPlayBehaviour_State* ____state;
+  ::BeatSaber::Automation::RecPlayBehaviourState* ____state;
 
   /// @brief Field _capturer, offset: 0x50, size: 0x8, def value: None
   ::BeatSaber::RecPlay::PlayerPoseCapturer* ____capturer;

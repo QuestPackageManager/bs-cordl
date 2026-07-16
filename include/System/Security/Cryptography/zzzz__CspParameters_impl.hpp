@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::CspProviderFlags (::System::Security::Cryptography::CspParameters::*)()>(
     &::System::Security::Cryptography::CspParameters::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59bd490;
+  constexpr static std::size_t addrs = 0x5af7160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CspParameters*>(), { "get_Flags", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(::System::Security::Cryptography::CspProviderFlags)>(
     &::System::Security::Cryptography::CspParameters::set_Flags)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x59bd498;
+  constexpr static std::size_t addrs = 0x5af7168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)()>(&::System::Security::Cryptography::CspParameters::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59bd570;
+  constexpr static std::size_t addrs = 0x5af7240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CspParameters*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(int32_t)>(&::System::Security::Cryptography::CspParameters::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59bd59c;
+  constexpr static std::size_t addrs = 0x5af726c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(int32_t, ::StringW, ::StringW)>(
     &::System::Security::Cryptography::CspParameters::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59bd588;
+  constexpr static std::size_t addrs = 0x5af7258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(int32_t, ::StringW, ::StringW, ::System::Security::Cryptography::CspProviderFlags)>(
     &::System::Security::Cryptography::CspParameters::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59bd5b0;
+  constexpr static std::size_t addrs = 0x5af7280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

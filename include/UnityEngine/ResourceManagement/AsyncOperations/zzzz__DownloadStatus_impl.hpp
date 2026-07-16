@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67e2dec;
+  constexpr static std::size_t addrs = 0x69218d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

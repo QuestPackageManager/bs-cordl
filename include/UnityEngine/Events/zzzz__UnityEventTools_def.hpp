@@ -20,7 +20,7 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TidyAssemblyTypeName, addr 0x69a5d64, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method TidyAssemblyTypeName, addr 0x6af9444, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
 protected:
@@ -38,7 +38,7 @@ public:
   UnityEventTools(UnityEventTools const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

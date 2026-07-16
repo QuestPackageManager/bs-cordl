@@ -48,19 +48,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*();
 
-  /// @brief Method FromInternalContext, addr 0x6698db8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x67d64c4, size 0x8, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
-  /// @brief Method get_cmd, addr 0x6698d74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_cmd, addr 0x67d6480, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* get_cmd();
 
-  /// @brief Method get_defaultResources, addr 0x6698df0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x67d64fc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderContext, addr 0x6698dc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderContext, addr 0x67d64cc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ScriptableRenderContext get_renderContext();
 
-  /// @brief Method get_renderGraphPool, addr 0x6698dd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x67d64e4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -74,7 +74,7 @@ public:
   constexpr RenderGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12384 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

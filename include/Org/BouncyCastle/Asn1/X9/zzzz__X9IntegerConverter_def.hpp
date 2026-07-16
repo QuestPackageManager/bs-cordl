@@ -30,18 +30,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
 class CORDL_TYPE X9IntegerConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByteLength, addr 0x35c15ec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x367daa4, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetByteLength(::Org::BouncyCastle::Math::EC::ECCurve* c);
 
-  /// @brief Method GetByteLength, addr 0x35c12a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x367d75c, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetByteLength(::Org::BouncyCastle::Math::EC::ECFieldElement* fe);
 
-  /// @brief Method IntegerToBytes, addr 0x35c12d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IntegerToBytes, addr 0x367d790, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> IntegerToBytes(::Org::BouncyCastle::Math::BigInteger* s, int32_t qLength);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9IntegerConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35c1620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367dad8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

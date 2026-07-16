@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic (*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::LeaderboardHelpers::ConvertCharacteristic)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x320d280;
+  constexpr static std::size_t addrs = 0x32a41f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty (*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::BeatSaber::Main::Leaderboards::LeaderboardHelpers::ConvertDifficulty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x320d5c8;
+  constexpr static std::size_t addrs = 0x32a4540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::LeaderboardHelpers*>(),

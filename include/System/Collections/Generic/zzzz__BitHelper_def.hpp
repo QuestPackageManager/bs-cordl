@@ -33,17 +33,17 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x5e8d084, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x5fc8180, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x5e8d008, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x5fc8104, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t> bitArray, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(int32_t* bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x5e8d108, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x5fc8204, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get__array() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x5e8cffc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc80f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x5e8cfe8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc80e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t* bitArrayPtr, int32_t length);
 
 protected:
@@ -91,7 +91,7 @@ public:
   BitHelper(BitHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16654 };
 
   /// @brief Field _length, offset: 0x10, size: 0x4, def value: None
   int32_t ____length;

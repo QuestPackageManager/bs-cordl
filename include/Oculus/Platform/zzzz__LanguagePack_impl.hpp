@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* (*)()>(&::Oculus::Platform::LanguagePack::GetCurrent)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5cafcec;
+  constexpr static std::size_t addrs = 0x5de7f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::LanguagePack*>(), { "GetCurrent", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::StringW)>(
     &::Oculus::Platform::LanguagePack::SetCurrent)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5cafe44;
+  constexpr static std::size_t addrs = 0x5de806c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -37,7 +37,7 @@ public:
   __declspec(property(get = __cordl_internal_get__noteJumpMovementSpeedEvents, put = __cordl_internal_set__noteJumpMovementSpeedEvents)) ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>
       _noteJumpMovementSpeedEvents;
 
-  /// @brief Method Convert, addr 0x36a31d8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x375f214, size 0xe8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::NjsEventConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> noteJumpMovementSpeedEvents,
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__noteJumpMovementSpeedEvents(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> value);
 
-  /// @brief Method .ctor, addr 0x36a31d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f20c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> noteJumpMovementSpeedEvents, ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -67,7 +67,7 @@ public:
   NjsEventConverter(NjsEventConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15404 };
 
   /// @brief Field _noteJumpMovementSpeedEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> ____noteJumpMovementSpeedEvents;

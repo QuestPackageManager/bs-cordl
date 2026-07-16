@@ -36,13 +36,13 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5c619a4, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d99bcc, size 0x324, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5c617d4, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d999fc, size 0x1d0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5c61cc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d99ef0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   JavaScriptDateTimeConverter(JavaScriptDateTimeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

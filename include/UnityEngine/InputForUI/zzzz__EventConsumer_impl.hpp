@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventConsumer::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::InputForUI::EventConsumer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a0531c;
+  constexpr static std::size_t addrs = 0x6b58df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventConsumer::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::InputForUI::EventConsumer::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a05398;
+  constexpr static std::size_t addrs = 0x6b58e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

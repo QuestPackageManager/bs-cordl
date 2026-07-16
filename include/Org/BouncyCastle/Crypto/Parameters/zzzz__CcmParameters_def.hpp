@@ -27,7 +27,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::CcmParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t> nonce,
                                                                                  ::ArrayW<uint8_t> associatedText);
 
-  /// @brief Method .ctor, addr 0x334e264, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a71c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> associatedText);
 
 protected:

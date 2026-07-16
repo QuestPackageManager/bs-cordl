@@ -32,31 +32,31 @@ public:
 
   static inline ::UnityEngine::SphereCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a469b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9a494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x6a46660, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6b9a13c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x6a46700, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x6b9a1dc, size 0x44, virtual false, abstract: false, final false
   static inline void get_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_radius, addr 0x6a46820, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x6b9a2fc, size 0x80, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method get_radius_Injected, addr 0x6a468a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius_Injected, addr 0x6b9a37c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_radius_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_center, addr 0x6a46744, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x6b9a220, size 0x98, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x6a467dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x6b9a2b8, size 0x44, virtual false, abstract: false, final false
   static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_radius, addr 0x6a468dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x6b9a3b8, size 0x90, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
-  /// @brief Method set_radius_Injected, addr 0x6a4696c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius_Injected, addr 0x6b9a448, size 0x4c, virtual false, abstract: false, final false
   static inline void set_radius_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   SphereCollider(SphereCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18660 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

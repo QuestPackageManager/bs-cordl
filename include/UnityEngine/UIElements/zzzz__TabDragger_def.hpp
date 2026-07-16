@@ -114,57 +114,57 @@ public:
 
   __declspec(property(get = get_tabLayout, put = set_tabLayout)) ::UnityEngine::UIElements::TabLayout* tabLayout;
 
-  /// @brief Method BeginDragMove, addr 0x6c1ea84, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method BeginDragMove, addr 0x6d7293c, size 0x3ac, virtual false, abstract: false, final false
   inline void BeginDragMove(float_t pos);
 
-  /// @brief Method DragMove, addr 0x6c1ee30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DragMove, addr 0x6d72ce8, size 0x8, virtual false, abstract: false, final false
   inline void DragMove(float_t pos);
 
-  /// @brief Method EndDragMove, addr 0x6c1e86c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method EndDragMove, addr 0x6d72724, size 0x144, virtual false, abstract: false, final false
   inline void EndDragMove(bool cancelled);
 
   static inline ::UnityEngine::UIElements::TabDragger* New_ctor();
 
-  /// @brief Method OnKeyDown, addr 0x6c1e9b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x6d72868, size 0xd4, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method OnPointerCancel, addr 0x6c1e6b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancel, addr 0x6d7256c, size 0x8c, virtual false, abstract: false, final false
   inline void OnPointerCancel(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerCaptureOut, addr 0x6c1e7f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCaptureOut, addr 0x6d726ac, size 0x78, virtual false, abstract: false, final false
   inline void OnPointerCaptureOut(::UnityEngine::UIElements::PointerCaptureOutEvent* evt);
 
-  /// @brief Method OnPointerDown, addr 0x6c1e0bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x6d71f74, size 0xb4, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove, addr 0x6c1e3c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x6d72280, size 0x78, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp, addr 0x6c1e564, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x6d7241c, size 0xa0, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method ProcessCancelEvent, addr 0x6c1e740, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ProcessCancelEvent, addr 0x6d725f8, size 0xb4, virtual false, abstract: false, final false
   inline void ProcessCancelEvent(::UnityEngine::UIElements::EventBase* evt, int32_t pointerId);
 
-  /// @brief Method ProcessDownEvent, addr 0x6c1e170, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ProcessDownEvent, addr 0x6d72028, size 0x258, virtual false, abstract: false, final false
   inline void ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method ProcessMoveEvent, addr 0x6c1e440, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ProcessMoveEvent, addr 0x6d722f8, size 0x124, virtual false, abstract: false, final false
   inline void ProcessMoveEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::Vector2 localPosition);
 
-  /// @brief Method ProcessUpEvent, addr 0x6c1e604, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ProcessUpEvent, addr 0x6d724bc, size 0xb0, virtual false, abstract: false, final false
   inline void ProcessUpEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x6c1da64, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x6d7191c, size 0x32c, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6c1dd90, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6d71c48, size 0x32c, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method UpdateMoveLocation, addr 0x6c1ee38, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMoveLocation, addr 0x6d72cf0, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateMoveLocation();
 
-  /// @brief Method UpdatePreviewPosition, addr 0x6c1efb4, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreviewPosition, addr 0x6d72e6c, size 0x5b0, virtual false, abstract: false, final false
   inline void UpdatePreviewPosition();
 
   constexpr bool const& __cordl_internal_get__active_k__BackingField() const;
@@ -263,31 +263,31 @@ public:
 
   constexpr void __cordl_internal_set_m_TabView(::UnityEngine::UIElements::TabView* value);
 
-  /// @brief Method .ctor, addr 0x6c1c6c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d70580, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_active, addr 0x6c1d988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x6d71840, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_isVertical, addr 0x6c1d998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isVertical, addr 0x6d71850, size 0x8, virtual false, abstract: false, final false
   inline bool get_isVertical();
 
-  /// @brief Method get_moving, addr 0x6c1d9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moving, addr 0x6d71860, size 0x8, virtual false, abstract: false, final false
   inline bool get_moving();
 
-  /// @brief Method get_tabLayout, addr 0x6c1d978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabLayout, addr 0x6d71830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TabLayout* get_tabLayout();
 
-  /// @brief Method set_active, addr 0x6c1d990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x6d71848, size 0x8, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
-  /// @brief Method set_isVertical, addr 0x6c1d9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isVertical, addr 0x6d71858, size 0x8, virtual false, abstract: false, final false
   inline void set_isVertical(bool value);
 
-  /// @brief Method set_moving, addr 0x6c1d9b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_moving, addr 0x6d71868, size 0xb4, virtual false, abstract: false, final false
   inline void set_moving(bool value);
 
-  /// @brief Method set_tabLayout, addr 0x6c1d980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tabLayout, addr 0x6d71838, size 0x8, virtual false, abstract: false, final false
   inline void set_tabLayout(::UnityEngine::UIElements::TabLayout* value);
 
 protected:

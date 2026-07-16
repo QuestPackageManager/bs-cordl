@@ -109,29 +109,29 @@ public:
 
   constexpr void __cordl_internal_set_sf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x369ec90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375ace8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataVersion3::TransitionType transitionType, ::BeatmapSaveDataCommon::EnvironmentColorType colorType, float_t brightness, int32_t strobeFrequency,
                     float_t strobeBrightness, bool strobeFade);
 
-  /// @brief Method get_beat, addr 0x369ec50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x375aca8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_brightness, addr 0x369ec68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightness, addr 0x375acc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightness();
 
-  /// @brief Method get_colorType, addr 0x369ec60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x375acb8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EnvironmentColorType get_colorType();
 
-  /// @brief Method get_strobeBeatFrequency, addr 0x369ec70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeBeatFrequency, addr 0x375acc8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_strobeBeatFrequency();
 
-  /// @brief Method get_strobeBrightness, addr 0x369ec78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeBrightness, addr 0x375acd0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_strobeBrightness();
 
-  /// @brief Method get_strobeFade, addr 0x369ec80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_strobeFade, addr 0x375acd8, size 0x10, virtual false, abstract: false, final false
   inline bool get_strobeFade();
 
-  /// @brief Method get_transitionType, addr 0x369ec58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transitionType, addr 0x375acb0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::TransitionType get_transitionType();
 
 protected:
@@ -149,7 +149,7 @@ public:
   LightColorBaseData(LightColorBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15332 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

@@ -132,54 +132,54 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::UserInterface::IMember"
   constexpr operator ::Meta::XR::ImmersiveDebugger::UserInterface::IMember*() noexcept;
 
-  /// @brief Method AddSlider, addr 0x5919ca4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method AddSlider, addr 0x5a533a8, size 0x1b0, virtual false, abstract: false, final false
   inline void AddSlider(::Meta::XR::ImmersiveDebugger::Manager::Tweak* tweak);
 
-  /// @brief Method AddToggle, addr 0x5919e54, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AddToggle, addr 0x5a53558, size 0x28c, virtual false, abstract: false, final false
   inline void AddToggle(::Meta::XR::ImmersiveDebugger::Manager::Tweak* tweak);
 
-  /// @brief Method GetAction, addr 0x5918e88, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetAction, addr 0x5a5258c, size 0x84, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* GetAction();
 
-  /// @brief Method GetGizmo, addr 0x5919188, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetGizmo, addr 0x5a5288c, size 0x84, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* GetGizmo();
 
-  /// @brief Method GetTweak, addr 0x5919af8, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetTweak, addr 0x5a531fc, size 0x84, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* GetTweak();
 
-  /// @brief Method GetWatch, addr 0x59193f4, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetWatch, addr 0x5a52af8, size 0x84, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::Manager::Watch* GetWatch();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Member* New_ctor();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5918e14, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5a52518, size 0x74, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RegisterAction, addr 0x5918f0c, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method RegisterAction, addr 0x5a52610, size 0x260, virtual true, abstract: false, final true
   inline void RegisterAction(::Meta::XR::ImmersiveDebugger::Manager::ActionHook* action);
 
-  /// @brief Method RegisterDescriptor, addr 0x591502c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method RegisterDescriptor, addr 0x5a4e730, size 0x1b8, virtual false, abstract: false, final false
   inline void RegisterDescriptor();
 
-  /// @brief Method RegisterEnum, addr 0x5919924, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method RegisterEnum, addr 0x5a53028, size 0xe0, virtual true, abstract: false, final true
   inline void RegisterEnum(::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* tweak);
 
-  /// @brief Method RegisterGizmo, addr 0x591920c, size 0x1e8, virtual true, abstract: false, final true
+  /// @brief Method RegisterGizmo, addr 0x5a52910, size 0x1e8, virtual true, abstract: false, final true
   inline void RegisterGizmo(::Meta::XR::ImmersiveDebugger::Manager::GizmoHook* gizmo);
 
-  /// @brief Method RegisterTexture, addr 0x5919a04, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method RegisterTexture, addr 0x5a53108, size 0xf4, virtual true, abstract: false, final true
   inline void RegisterTexture(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture* watchTexture);
 
-  /// @brief Method RegisterTweak, addr 0x5919b7c, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method RegisterTweak, addr 0x5a53280, size 0x128, virtual true, abstract: false, final true
   inline void RegisterTweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* tweak);
 
-  /// @brief Method RegisterWatch, addr 0x5919478, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RegisterWatch, addr 0x5a52b7c, size 0xd4, virtual true, abstract: false, final true
   inline void RegisterWatch(::Meta::XR::ImmersiveDebugger::Manager::Watch* watch);
 
-  /// @brief Method Setup, addr 0x5918a30, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a52134, size 0x344, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method <AddToggle>b__37_0, addr 0x591a0ec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <AddToggle>b__37_0, addr 0x5a537f0, size 0x34, virtual false, abstract: false, final false
   inline void _AddToggle_b__37_0();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction> const& __cordl_internal_get__action() const;
@@ -266,28 +266,28 @@ public:
 
   constexpr void __cordl_internal_set__verticalFlex(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> value);
 
-  /// @brief Method .ctor, addr 0x591a0e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a537e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Description, addr 0x5918978, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x5a5207c, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_Title, addr 0x5918794, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Title, addr 0x5a51e98, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::UserInterface::IMember"
   constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::IMember* i___Meta__XR__ImmersiveDebugger__UserInterface__IMember() noexcept;
 
-  /// @brief Method set_Description, addr 0x59151e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x5a4e8e8, size 0x1c, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
-  /// @brief Method set_PillColor, addr 0x5915200, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_PillColor, addr 0x5a4e904, size 0x9c, virtual false, abstract: false, final false
   inline void set_PillColor(::UnityEngine::Color value);
 
-  /// @brief Method set_PillStyle, addr 0x5918994, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_PillStyle, addr 0x5a52098, size 0x9c, virtual false, abstract: false, final false
   inline void set_PillStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_Title, addr 0x5914ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_Title, addr 0x5a4e6f4, size 0x3c, virtual false, abstract: false, final false
   inline void set_Title(::StringW value);
 
 protected:
@@ -305,7 +305,7 @@ public:
   Member(Member const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18347 };
 
   /// @brief Field _title, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> ____title;

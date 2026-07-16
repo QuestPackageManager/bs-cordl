@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicSelectionViewController.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSelectionViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -11,19 +12,18 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::add_didSelectBeatmapCharacteristicEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58e7248;
+  constexpr static std::size_t addrs = 0x5a10dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
-            { "add_didSelectBeatmapCharacteristicEvent",
-              {},
-              { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
+                            { "add_didSelectBeatmapCharacteristicEvent",
+                              {},
+                              { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*>() } })));
     return ___internal_method;
   }
 };
@@ -31,29 +31,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::remove_didSelectBeatmapCharacteristicEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58e7308;
+  constexpr static std::size_t addrs = 0x5a10e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
-            { "remove_didSelectBeatmapCharacteristicEvent",
-              {},
-              { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
+                            { "remove_didSelectBeatmapCharacteristicEvent",
+                              {},
+                              { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicSelectionViewController.get_selectedBeatmapCharacteristic
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e73c8;
+  constexpr static std::size_t addrs = 0x5a10f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58e73d0;
+  constexpr static std::size_t addrs = 0x5a10f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(), { "Init", {}, {} })));
@@ -79,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x58e749c;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x5a11018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
@@ -94,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(bool, bool)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58e77ac;
+  constexpr static std::size_t addrs = 0x5a1137c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
@@ -108,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::HandleBeatmapCharacteristicSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x58e785c;
+  constexpr static std::size_t addrs = 0x5a1142c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e7948;
+  constexpr static std::size_t addrs = 0x5a11518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(), { ".ctor", {}, {} })));
@@ -154,59 +153,57 @@ constexpr void GlobalNamespace::BeatmapCharacteristicSelectionViewController::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapCharacteristicCollection = value;
 }
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*&
 GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_get_didSelectBeatmapCharacteristicEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectBeatmapCharacteristicEvent;
 }
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* const&
 GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_get_didSelectBeatmapCharacteristicEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectBeatmapCharacteristicEvent;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_set_didSelectBeatmapCharacteristicEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didSelectBeatmapCharacteristicEvent = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_get__selectedBeatmapCharacteristic() {
+constexpr ::GlobalNamespace::BeatmapCharacteristic& GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_get__selectedBeatmapCharacteristic() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedBeatmapCharacteristic;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_get__selectedBeatmapCharacteristic() const {
+constexpr ::GlobalNamespace::BeatmapCharacteristic const& GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_get__selectedBeatmapCharacteristic() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedBeatmapCharacteristic;
 }
-constexpr void GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_set__selectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
+constexpr void GlobalNamespace::BeatmapCharacteristicSelectionViewController::__cordl_internal_set__selectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristic value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedBeatmapCharacteristic = value;
 }
 inline void GlobalNamespace::BeatmapCharacteristicSelectionViewController::add_didSelectBeatmapCharacteristicEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
-          { "add_didSelectBeatmapCharacteristicEvent",
-            {},
-            { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
+                          { "add_didSelectBeatmapCharacteristicEvent",
+                            {},
+                            { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BeatmapCharacteristicSelectionViewController::remove_didSelectBeatmapCharacteristicEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
-          { "remove_didSelectBeatmapCharacteristicEvent",
-            {},
-            { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
+                          { "remove_didSelectBeatmapCharacteristicEvent",
+                            {},
+                            { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic() {
+inline ::GlobalNamespace::BeatmapCharacteristic GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(), { "get_selectedBeatmapCharacteristic", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapCharacteristic>(this, ___internal_method);
 }
 inline void GlobalNamespace::BeatmapCharacteristicSelectionViewController::Init() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(), { "Init", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::PlatformHelper::IsContentHeader)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f97a38;
+  constexpr static std::size_t addrs = 0x60d2b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::System::Net::Http::PlatformHelper::GetSingleHeaderString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f977a0;
+  constexpr static std::size_t addrs = 0x60d289c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::StreamContent* (*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::PlatformHelper::CreateStreamContent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f979c8;
+  constexpr static std::size_t addrs = 0x60d2ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

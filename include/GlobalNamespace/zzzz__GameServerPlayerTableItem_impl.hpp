@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableItem::*)(::StringW, ::StringW, ::StringW, bool)>(
     &::GlobalNamespace::GameServerPlayerTableItem::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3676e74;
+  constexpr static std::size_t addrs = 0x59415e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

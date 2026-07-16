@@ -97,7 +97,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE xxHash3_ulong2 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x63891ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c5dcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t x, uint64_t y);
 
   // Ctor Parameters []
@@ -108,7 +108,7 @@ public:
   constexpr xxHash3_ulong2(uint64_t x, uint64_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -361,7 +361,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15712 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x220 };
@@ -399,31 +399,31 @@ public:
 
   __declspec(property(get = get_SecretKey)) uint8_t* SecretKey;
 
-  /// @brief Method CheckKeySize, addr 0x638a8cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckKeySize, addr 0x64c74ec, size 0xa4, virtual false, abstract: false, final false
   inline void CheckKeySize(int32_t isHash64);
 
-  /// @brief Method ConsumeStripes, addr 0x638a1b8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ConsumeStripes, addr 0x64c6dd8, size 0x178, virtual false, abstract: false, final false
   inline void ConsumeStripes(uint64_t* acc, ::by_ref<int32_t> nbStripesSoFar, uint8_t* input, int64_t totalStripes, uint8_t* secret, int32_t isHash64);
 
-  /// @brief Method DigestHash128, addr 0x638a330, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DigestHash128, addr 0x64c6f50, size 0x1a4, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint4 DigestHash128();
 
-  /// @brief Method DigestHash64, addr 0x638a778, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method DigestHash64, addr 0x64c7398, size 0x154, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint2 DigestHash64();
 
-  /// @brief Method DigestLong, addr 0x638a4d4, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method DigestLong, addr 0x64c70f4, size 0x2a4, virtual false, abstract: false, final false
   inline void DigestLong(uint64_t* acc, uint8_t* secret, int32_t isHash64);
 
-  /// @brief Method Reset, addr 0x6389cfc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x64c691c, size 0x204, virtual false, abstract: false, final false
   inline void Reset(bool isHash64, uint64_t seed);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Update(::by_ref<T> input);
 
-  /// @brief Method Update, addr 0x6389f0c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x64c6b2c, size 0x2a4, virtual false, abstract: false, final false
   inline void Update(void* input, int32_t length);
 
-  /// @brief Method .ctor, addr 0x6389c7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c689c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(bool isHash64, uint64_t seed);
 
   static inline int32_t getStaticF_INTERNAL_BUFFER_SIZE();
@@ -434,13 +434,13 @@ public:
 
   static inline int32_t getStaticF_SECRET_LIMIT();
 
-  /// @brief Method get_Acc, addr 0x6389f00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Acc, addr 0x64c6b20, size 0x4, virtual false, abstract: false, final false
   inline uint64_t* get_Acc();
 
-  /// @brief Method get_Buffer, addr 0x638a1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Buffer, addr 0x64c6dd0, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_Buffer();
 
-  /// @brief Method get_SecretKey, addr 0x6389f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecretKey, addr 0x64c6b24, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_SecretKey();
 
   static inline void setStaticF_INTERNAL_BUFFER_SIZE(int32_t value);
@@ -459,7 +459,7 @@ public:
   constexpr xxHash3_StreamingState(::Unity::Collections::StreamingState_xxHash3_StreamingStateData State) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x220 };
@@ -482,20 +482,20 @@ namespace Unity::Collections {
 class CORDL_TYPE xxHash3_Hash64Long_00000A73$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x638aa58, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x64c7678, size 0x64, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_5);
 
-  /// @brief Method EndInvoke, addr 0x638aabc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x64c76dc, size 0x24, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x638aa44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x64c7664, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret);
 
   static inline ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                  ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x638a9c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c75e4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -513,7 +513,7 @@ public:
   xxHash3_Hash64Long_00000A73$PostfixBurstDelegate(xxHash3_Hash64Long_00000A73$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -531,13 +531,13 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x638abec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x64c780c, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
-  /// @brief Method GetFunctionPointerDiscard, addr 0x638aae0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x64c7700, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6388d84, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x64c59a4, size 0x1b4, virtual false, abstract: false, final false
   static inline uint64_t Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -559,7 +559,7 @@ public:
   xxHash3_Hash64Long_00000A73$BurstDirectCall(xxHash3_Hash64Long_00000A73$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -574,20 +574,20 @@ namespace Unity::Collections {
 class CORDL_TYPE xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x638ac98, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x64c78b8, size 0xc4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result,
                                              ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_6);
 
-  /// @brief Method EndInvoke, addr 0x638ad5c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x64c797c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x638ac84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x64c78a4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result);
 
   static inline ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                   ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x638ac04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c7824, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -605,7 +605,7 @@ public:
   xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate(xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -623,13 +623,13 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x638ae74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x64c7a94, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
-  /// @brief Method GetFunctionPointerDiscard, addr 0x638ad68, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x64c7988, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x63891b4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x64c5dd4, size 0x1e4, virtual false, abstract: false, final false
   static inline void Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -651,7 +651,7 @@ public:
   xxHash3_Hash128Long_00000A7A$BurstDirectCall(xxHash3_Hash128Long_00000A7A$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -678,169 +678,169 @@ public:
 
   using ulong2 = ::Unity::Collections::xxHash3_ulong2;
 
-  /// @brief Method Avalanche, addr 0x6389540, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Avalanche, addr 0x64c6160, size 0x20, virtual false, abstract: false, final false
   static inline uint64_t Avalanche(uint64_t h64);
 
-  /// @brief Method AvalancheH64, addr 0x6389560, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AvalancheH64, addr 0x64c6180, size 0x38, virtual false, abstract: false, final false
   static inline uint64_t AvalancheH64(uint64_t h64);
 
-  /// @brief Method Avx2Accumulate, addr 0x6387790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Avx2Accumulate, addr 0x64c43b0, size 0x4, virtual false, abstract: false, final false
   static inline void Avx2Accumulate(uint64_t* acc, uint8_t* input, uint8_t* dest, uint8_t* secret, int64_t nbStripes, int32_t isHash64);
 
-  /// @brief Method Avx2Accumulate512, addr 0x6387798, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Avx2Accumulate512, addr 0x64c43b8, size 0x4, virtual false, abstract: false, final false
   static inline void Avx2Accumulate512(uint64_t* acc, uint8_t* input, uint8_t* dest, uint8_t* secret);
 
-  /// @brief Method Avx2HashLongInternalLoop, addr 0x638778c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Avx2HashLongInternalLoop, addr 0x64c43ac, size 0x4, virtual false, abstract: false, final false
   static inline void Avx2HashLongInternalLoop(uint64_t* acc, uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, int32_t isHash64);
 
-  /// @brief Method Avx2ScrambleAcc, addr 0x6387794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Avx2ScrambleAcc, addr 0x64c43b4, size 0x4, virtual false, abstract: false, final false
   static inline void Avx2ScrambleAcc(uint64_t* acc, uint8_t* secret);
 
-  /// @brief Method DefaultAccumulate, addr 0x6389928, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DefaultAccumulate, addr 0x64c6548, size 0x88, virtual false, abstract: false, final false
   static inline void DefaultAccumulate(uint64_t* acc, uint8_t* input, uint8_t* dest, uint8_t* secret, int64_t nbStripes, int32_t isHash64);
 
-  /// @brief Method DefaultAccumulate512, addr 0x63899e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DefaultAccumulate512, addr 0x64c6604, size 0x50, virtual false, abstract: false, final false
   static inline void DefaultAccumulate512(uint64_t* acc, uint8_t* input, uint8_t* dest, uint8_t* secret, int32_t isHash64);
 
-  /// @brief Method DefaultHashLongInternalLoop, addr 0x6389774, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method DefaultHashLongInternalLoop, addr 0x64c6394, size 0x1b4, virtual false, abstract: false, final false
   static inline void DefaultHashLongInternalLoop(uint64_t* acc, uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, int32_t isHash64);
 
-  /// @brief Method DefaultScrambleAcc, addr 0x63899b0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DefaultScrambleAcc, addr 0x64c65d0, size 0x34, virtual false, abstract: false, final false
   static inline void DefaultScrambleAcc(uint64_t* acc, uint8_t* secret);
 
-  /// @brief Method EncodeSecretKey, addr 0x6388458, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EncodeSecretKey, addr 0x64c5078, size 0x34, virtual false, abstract: false, final false
   static inline void EncodeSecretKey(uint8_t* dst, uint8_t* secret, uint64_t seed);
 
   /// @brief Method Hash128, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Mathematics::uint4 Hash128(::by_ref<T> input);
 
-  /// @brief Method Hash128, addr 0x6387d3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Hash128, addr 0x64c495c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 Hash128(void* input, void* destination, int64_t length);
 
-  /// @brief Method Hash128, addr 0x6387ea4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Hash128, addr 0x64c4ac4, size 0xc0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 Hash128(void* input, void* destination, int64_t length, uint64_t seed);
 
-  /// @brief Method Hash128, addr 0x6387a60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Hash128, addr 0x64c4680, size 0xb0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 Hash128(void* input, int64_t length);
 
-  /// @brief Method Hash128, addr 0x6387df0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Hash128, addr 0x64c4a10, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 Hash128(void* input, int64_t length, uint64_t seed);
 
-  /// @brief Method Hash128Internal, addr 0x6387b10, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Hash128Internal, addr 0x64c4730, size 0x22c, virtual false, abstract: false, final false
   static inline void Hash128Internal(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Len0To16, addr 0x638848c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Hash128Len0To16, addr 0x64c50ac, size 0x8c, virtual false, abstract: false, final false
   static inline void Hash128Len0To16(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Len129To240, addr 0x63888d4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Hash128Len129To240, addr 0x64c54f4, size 0x354, virtual false, abstract: false, final false
   static inline void Hash128Len129To240(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Len17To128, addr 0x6388518, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Hash128Len17To128, addr 0x64c5138, size 0x3bc, virtual false, abstract: false, final false
   static inline void Hash128Len17To128(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Len1To3, addr 0x6388f38, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Hash128Len1To3, addr 0x64c5b58, size 0x9c, virtual false, abstract: false, final false
   static inline void Hash128Len1To3(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Len4To8, addr 0x6388fd8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Hash128Len4To8, addr 0x64c5bf8, size 0xb8, virtual false, abstract: false, final false
   static inline void Hash128Len4To8(uint8_t* input, int64_t len, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Len9To16, addr 0x6389090, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Hash128Len9To16, addr 0x64c5cb0, size 0x11c, virtual false, abstract: false, final false
   static inline void Hash128Len9To16(uint8_t* input, int64_t len, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Long, addr 0x6387788, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Hash128Long, addr 0x64c43a8, size 0x4, virtual false, abstract: false, final false
   static inline void Hash128Long(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result);
 
-  /// @brief Method Hash128Long$BurstManaged, addr 0x6389b44, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Hash128Long$BurstManaged, addr 0x64c6764, size 0x138, virtual false, abstract: false, final false
   static inline void Hash128Long$BurstManaged(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result);
 
   /// @brief Method Hash64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Mathematics::uint2 Hash64(::by_ref<T> input);
 
-  /// @brief Method Hash64, addr 0x638779c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Hash64, addr 0x64c43bc, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 Hash64(void* input, int64_t length);
 
-  /// @brief Method Hash64, addr 0x63879c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Hash64, addr 0x64c45e4, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 Hash64(void* input, int64_t length, uint64_t seed);
 
-  /// @brief Method Hash64Internal, addr 0x6387834, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Hash64Internal, addr 0x64c4454, size 0x18c, virtual false, abstract: false, final false
   static inline uint64_t Hash64Internal(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Len0To16, addr 0x6387f64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Hash64Len0To16, addr 0x64c4b84, size 0x68, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len0To16(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Len129To240, addr 0x63882d4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Hash64Len129To240, addr 0x64c4ef4, size 0x184, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len129To240(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Len17To128, addr 0x6387fcc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Hash64Len17To128, addr 0x64c4bec, size 0x308, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len17To128(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Len1To3, addr 0x6388c28, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Hash64Len1To3, addr 0x64c5848, size 0x6c, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len1To3(uint8_t* input, int64_t len, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Len4To8, addr 0x6388c94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Hash64Len4To8, addr 0x64c58b4, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len4To8(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Len9To16, addr 0x6388cf0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Hash64Len9To16, addr 0x64c5910, size 0x94, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len9To16(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Hash64Long, addr 0x6387784, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Hash64Long, addr 0x64c43a4, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t Hash64Long(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret);
 
-  /// @brief Method Hash64Long$BurstManaged, addr 0x6389a34, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Hash64Long$BurstManaged, addr 0x64c6654, size 0x110, virtual false, abstract: false, final false
   static inline uint64_t Hash64Long$BurstManaged(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret);
 
-  /// @brief Method MergeAcc, addr 0x6389614, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method MergeAcc, addr 0x64c6234, size 0x160, virtual false, abstract: false, final false
   static inline uint64_t MergeAcc(uint64_t* acc, uint8_t* secret, uint64_t start);
 
-  /// @brief Method Mix16, addr 0x6389430, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Mix16, addr 0x64c6050, size 0x54, virtual false, abstract: false, final false
   static inline uint64_t Mix16(uint8_t* input, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Mix2Acc, addr 0x63895cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Mix2Acc, addr 0x64c61ec, size 0x48, virtual false, abstract: false, final false
   static inline uint64_t Mix2Acc(uint64_t acc0, uint64_t acc1, uint8_t* secret);
 
-  /// @brief Method Mix32, addr 0x6389484, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Mix32, addr 0x64c60a4, size 0xbc, virtual false, abstract: false, final false
   static inline ::Unity::Collections::xxHash3_ulong2 Mix32(::Unity::Collections::xxHash3_ulong2 acc, uint8_t* input_1, uint8_t* input_2, uint8_t* secret, uint64_t seed);
 
-  /// @brief Method Mul128Fold64, addr 0x63893f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Mul128Fold64, addr 0x64c6014, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t Mul128Fold64(uint64_t lhs, uint64_t rhs);
 
-  /// @brief Method Mul32To64, addr 0x63893b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Mul32To64, addr 0x64c5fd8, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t Mul32To64(uint32_t x, uint32_t y);
 
-  /// @brief Method Read32LE, addr 0x63893a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Read32LE, addr 0x64c5fc0, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t Read32LE(void* addr);
 
-  /// @brief Method Read32LE, addr 0x63893b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Read32LE, addr 0x64c5fd0, size 0x8, virtual false, abstract: false, final false
   static inline void Read32LE(void* addr, uint32_t value);
 
-  /// @brief Method Read64LE, addr 0x6389398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Read64LE, addr 0x64c5fb8, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t Read64LE(void* addr);
 
-  /// @brief Method RotL32, addr 0x63893d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotL32, addr 0x64c5ff0, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t RotL32(uint32_t x, int32_t r);
 
-  /// @brief Method RotL64, addr 0x63893dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotL64, addr 0x64c5ffc, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t RotL64(uint64_t x, int32_t r);
 
-  /// @brief Method Swap32, addr 0x63893c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Swap32, addr 0x64c5fe8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t Swap32(uint32_t x);
 
-  /// @brief Method Swap64, addr 0x63893c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Swap64, addr 0x64c5fe0, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t Swap64(uint64_t x);
 
-  /// @brief Method ToUint2, addr 0x63879c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToUint2, addr 0x64c45e0, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 ToUint2(uint64_t u);
 
-  /// @brief Method ToUint4, addr 0x6388fd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToUint4, addr 0x64c5bf4, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 ToUint4(uint64_t ul0, uint64_t ul1);
 
-  /// @brief Method Write64LE, addr 0x63893a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Write64LE, addr 0x64c5fc8, size 0x8, virtual false, abstract: false, final false
   static inline void Write64LE(void* addr, uint64_t value);
 
-  /// @brief Method XorShift64, addr 0x63893e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method XorShift64, addr 0x64c6008, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t XorShift64(uint64_t v64, int32_t shift);
 
-  /// @brief Method rrmxmx, addr 0x6389598, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method rrmxmx, addr 0x64c61b8, size 0x34, virtual false, abstract: false, final false
   static inline uint64_t rrmxmx(uint64_t h64, uint64_t length);
 
 protected:
@@ -921,7 +921,7 @@ public:
   static constexpr int32_t STRIPE_LEN{ static_cast<int32_t>(0x40) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5b9d068, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd5290, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadData, addr 0x5b9d058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x5cd5280, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method get_WriteData, addr 0x5b9d048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x5cd5270, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_ReadData, addr 0x5b9d060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x5cd5288, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
-  /// @brief Method set_WriteData, addr 0x5b9d050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x5cd5278, size 0x8, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   JsonExtensionDataAttribute(JsonExtensionDataAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13228 };
 
   /// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WriteData_k__BackingField;

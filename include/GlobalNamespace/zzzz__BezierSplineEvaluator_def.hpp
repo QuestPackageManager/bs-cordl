@@ -42,13 +42,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BezierSplineEvaluator_CubicSolveResult {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x31f187c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3287720, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1);
 
-  /// @brief Method .ctor, addr 0x31f1890, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3287734, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1, float_t solution2);
 
-  /// @brief Method .ctor, addr 0x31f18a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3287748, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1, float_t solution2, float_t solution3);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr BezierSplineEvaluator_CubicSolveResult(int32_t numberOfSolutions, float_t solution1, float_t solution2, float_t solution3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -106,36 +106,36 @@ public:
   /// @brief Field _segments, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__segments, put = __cordl_internal_set__segments)) ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
 
-  /// @brief Method CubeRoot, addr 0x31f1848, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CubeRoot, addr 0x32876ec, size 0x34, virtual false, abstract: false, final false
   static inline float_t CubeRoot(float_t x);
 
-  /// @brief Method Evaluate, addr 0x31f0dbc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x3286c60, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t t);
 
-  /// @brief Method EvaluateFirstDerivation, addr 0x31f0f18, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateFirstDerivation, addr 0x3286dbc, size 0x16c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluateFirstDerivation(float_t t);
 
-  /// @brief Method EvaluatePosition, addr 0x31e9f68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EvaluatePosition, addr 0x3281140, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluatePosition(float_t time);
 
-  /// @brief Method EvaluateSecondDerivation, addr 0x31f1084, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateSecondDerivation, addr 0x3286f28, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluateSecondDerivation(float_t t);
 
-  /// @brief Method GetTForSegment, addr 0x31f130c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetTForSegment, addr 0x32871b0, size 0x158, virtual false, abstract: false, final false
   inline float_t GetTForSegment(int32_t segmentIndex, float_t time);
 
-  /// @brief Method GetTimeValuesForSegment, addr 0x31f1784, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeValuesForSegment, addr 0x3287628, size 0xc4, virtual false, abstract: false, final false
   inline void GetTimeValuesForSegment(int32_t segmentIndex, ::by_ref<float_t> t0Value, ::by_ref<float_t> t1Value);
 
   static inline ::GlobalNamespace::BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline);
 
-  /// @brief Method OffsetSegmentAndGetT, addr 0x31f0ca0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OffsetSegmentAndGetT, addr 0x3286b44, size 0x11c, virtual false, abstract: false, final false
   inline float_t OffsetSegmentAndGetT(float_t time);
 
-  /// @brief Method OffsetStartIndexToDistance, addr 0x31f11e0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OffsetStartIndexToDistance, addr 0x3287084, size 0x12c, virtual false, abstract: false, final false
   inline void OffsetStartIndexToDistance(float_t time);
 
-  /// @brief Method SolveCubic, addr 0x31f1464, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method SolveCubic, addr 0x3287308, size 0x320, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult SolveCubic(float_t a, float_t b, float_t c, float_t d);
 
   constexpr int32_t const& __cordl_internal_get__currentSegmentIndex() const;
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value);
 
-  /// @brief Method .ctor, addr 0x31ec164, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328333c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BezierSpline* spline);
 
 protected:
@@ -168,7 +168,7 @@ public:
   BezierSplineEvaluator(BezierSplineEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21977 };
 
   /// @brief Field kSlightAboveOne offset 0xffffffff size 0x4
   static constexpr float_t kSlightAboveOne{ static_cast<float_t>(1.0005f) };

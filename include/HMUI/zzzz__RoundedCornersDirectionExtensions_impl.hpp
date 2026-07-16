@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::HMUI::RoundedCornersDirection)>(&::HMUI::RoundedCornersDirectionExtensions::GetFlipAndSymmetry)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x57426d8;
+  constexpr static std::size_t addrs = 0x58898f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

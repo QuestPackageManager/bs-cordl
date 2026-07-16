@@ -49,69 +49,69 @@ public:
   /// @brief Field xrSession, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_xrSession, put = setStaticF_xrSession)) uint64_t xrSession;
 
-  /// @brief Method ConformanceAutomationSetActive, addr 0x68afb38, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ConformanceAutomationSetActive, addr 0x6a06a50, size 0xac, virtual false, abstract: false, final false
   static inline bool ConformanceAutomationSetActive(::StringW interactionProfile, ::StringW topLevelPath, bool isActive);
 
-  /// @brief Method ConformanceAutomationSetBool, addr 0x68afc88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ConformanceAutomationSetBool, addr 0x6a06ba0, size 0xac, virtual false, abstract: false, final false
   static inline bool ConformanceAutomationSetBool(::StringW topLevelPath, ::StringW inputSourcePath, bool state);
 
-  /// @brief Method ConformanceAutomationSetFloat, addr 0x68afdd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ConformanceAutomationSetFloat, addr 0x6a06cf0, size 0xb4, virtual false, abstract: false, final false
   static inline bool ConformanceAutomationSetFloat(::StringW topLevelPath, ::StringW inputSourcePath, float_t state);
 
-  /// @brief Method ConformanceAutomationSetPose, addr 0x68b00a8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ConformanceAutomationSetPose, addr 0x6a06fc0, size 0x124, virtual false, abstract: false, final false
   static inline bool ConformanceAutomationSetPose(::StringW topLevelPath, ::StringW inputSourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation);
 
-  /// @brief Method ConformanceAutomationSetVec2, addr 0x68aff38, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ConformanceAutomationSetVec2, addr 0x6a06e50, size 0xbc, virtual false, abstract: false, final false
   static inline bool ConformanceAutomationSetVec2(::StringW topLevelPath, ::StringW inputSourcePath, ::UnityEngine::Vector2 state);
 
-  /// @brief Method ConformanceAutomationSetVelocity, addr 0x68b0290, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ConformanceAutomationSetVelocity, addr 0x6a071a8, size 0x104, virtual false, abstract: false, final false
   static inline bool ConformanceAutomationSetVelocity(::StringW topLevelPath, ::StringW inputSourcePath, bool linearValid, ::UnityEngine::Vector3 linear, bool angularValid,
                                                       ::UnityEngine::Vector3 angular);
 
   static inline ::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x68af8e8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6a06800, size 0xe4, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x68afa50, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x6a06968, size 0x4c, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method OnSessionCreate, addr 0x68afa9c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x6a069b4, size 0x50, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSessionId);
 
-  /// @brief Method OnSessionDestroy, addr 0x68afaec, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnSessionDestroy, addr 0x6a06a04, size 0x4c, virtual true, abstract: false, final false
   inline void OnSessionDestroy(uint64_t xrSessionId);
 
-  /// @brief Method .ctor, addr 0x68b0490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a073a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint64_t getStaticF_xrInstance();
 
   static inline uint64_t getStaticF_xrSession();
 
-  /// @brief Method initialize, addr 0x68af9cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method initialize, addr 0x6a068e4, size 0x84, virtual false, abstract: false, final false
   static inline void initialize(::System::IntPtr xrGetInstanceProcAddr, uint64_t xrInstance);
 
   static inline void setStaticF_xrInstance(uint64_t value);
 
   static inline void setStaticF_xrSession(uint64_t value);
 
-  /// @brief Method xrSetInputDeviceActiveEXT, addr 0x68afbe4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method xrSetInputDeviceActiveEXT, addr 0x6a06afc, size 0xa4, virtual false, abstract: false, final false
   static inline bool xrSetInputDeviceActiveEXT(uint64_t xrSession, uint64_t interactionProfile, uint64_t topLevelPath, bool isActive);
 
-  /// @brief Method xrSetInputDeviceLocationEXT, addr 0x68b01cc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method xrSetInputDeviceLocationEXT, addr 0x6a070e4, size 0xc4, virtual false, abstract: false, final false
   static inline bool xrSetInputDeviceLocationEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, uint64_t space, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef pose);
 
-  /// @brief Method xrSetInputDeviceStateBoolEXT, addr 0x68afd34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method xrSetInputDeviceStateBoolEXT, addr 0x6a06c4c, size 0xa4, virtual false, abstract: false, final false
   static inline bool xrSetInputDeviceStateBoolEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, bool state);
 
-  /// @brief Method xrSetInputDeviceStateFloatEXT, addr 0x68afe8c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method xrSetInputDeviceStateFloatEXT, addr 0x6a06da4, size 0xac, virtual false, abstract: false, final false
   static inline bool xrSetInputDeviceStateFloatEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, float_t state);
 
-  /// @brief Method xrSetInputDeviceStateVector2fEXT, addr 0x68afff4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method xrSetInputDeviceStateVector2fEXT, addr 0x6a06f0c, size 0xb4, virtual false, abstract: false, final false
   static inline bool xrSetInputDeviceStateVector2fEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f state);
 
-  /// @brief Method xrSetInputDeviceVelocityUNITY, addr 0x68b0394, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method xrSetInputDeviceVelocityUNITY, addr 0x6a072ac, size 0xfc, virtual false, abstract: false, final false
   static inline bool xrSetInputDeviceVelocityUNITY(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, bool linearValid, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f linear,
                                                    bool angularValid, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f angular);
 
@@ -133,7 +133,7 @@ public:
   static constexpr ::ConstString ExtLib{ u"ConformanceAutomationExt" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23558 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.conformance" };

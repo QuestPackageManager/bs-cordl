@@ -31,40 +31,40 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int32_t Position;
 
-  /// @brief Method Append, addr 0x5bf9318, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5d31540, size 0x80, virtual false, abstract: false, final false
   inline void Append(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex, int32_t count);
 
-  /// @brief Method Append, addr 0x5bf9230, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5d31458, size 0x7c, virtual false, abstract: false, final false
   inline void Append(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, char16_t value);
 
-  /// @brief Method Clear, addr 0x5bf9398, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5d315c0, size 0x30, virtual false, abstract: false, final false
   inline void Clear(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool);
 
-  /// @brief Method EnsureSize, addr 0x5bf92ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EnsureSize, addr 0x5d314d4, size 0x6c, virtual false, abstract: false, final false
   inline void EnsureSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t appendLength);
 
-  /// @brief Method ToString, addr 0x5bf93c8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5d315f0, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x5bf93d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5d31600, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToString(int32_t start, int32_t length);
 
-  /// @brief Method .ctor, addr 0x5bf9224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3144c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> buffer);
 
-  /// @brief Method .ctor, addr 0x5bf91fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d31424, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t initalSize);
 
-  /// @brief Method get_InternalBuffer, addr 0x5bf93e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalBuffer, addr 0x5d31608, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t> get_InternalBuffer();
 
-  /// @brief Method get_IsEmpty, addr 0x5bf91ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x5d31414, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Position, addr 0x5bf91dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x5d31404, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Position();
 
-  /// @brief Method set_Position, addr 0x5bf91e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Position, addr 0x5d3140c, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(int32_t value);
 
   // Ctor Parameters []
@@ -75,7 +75,7 @@ public:
   constexpr StringBuffer(::ArrayW<char16_t> _buffer, int32_t _position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13432 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

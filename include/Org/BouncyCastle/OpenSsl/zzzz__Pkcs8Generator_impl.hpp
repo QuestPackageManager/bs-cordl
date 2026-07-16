@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ec0cc;
+  constexpr static std::size_t addrs = 0x35a8584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::StringW)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x34ec0d4;
+  constexpr static std::size_t addrs = 0x35a858c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::set_SecureRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ec0e8;
+  constexpr static std::size_t addrs = 0x35a85a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::ArrayW<char16_t>)>(&::Org::BouncyCastle::OpenSsl::Pkcs8Generator::set_Password)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ec0f0;
+  constexpr static std::size_t addrs = 0x35a85a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(int32_t)>(&::Org::BouncyCastle::OpenSsl::Pkcs8Generator::set_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ec0f8;
+  constexpr static std::size_t addrs = 0x35a85b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)()>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::Generate)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x34ec100;
+  constexpr static std::size_t addrs = 0x35a85b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(), { "Generate", {}, {} })));

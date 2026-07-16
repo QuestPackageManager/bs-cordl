@@ -12,6 +12,9 @@ CORDL_MODULE_EXPORT(NavigationModel)
 namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
 struct NavigationModel;
@@ -26,7 +29,7 @@ namespace UnityEngine::InputSystem::UI {
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x6454f7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6591c50, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -35,15 +38,16 @@ public:
 
   // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "lastMoveDirection", ty: "::UnityEngine::EventSystems::MoveDirection", modifiers: "", def_value: None }, CppParam { name: "lastMoveTime", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None }]
+  // None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None }, CppParam { name: "device", ty:
+  // "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
   constexpr NavigationModel(::UnityEngine::Vector2 move, int32_t consecutiveMoveCount, ::UnityEngine::EventSystems::MoveDirection lastMoveDirection, float_t lastMoveTime,
-                            ::UnityEngine::EventSystems::AxisEventData* eventData) noexcept;
+                            ::UnityEngine::EventSystems::AxisEventData* eventData, ::UnityEngine::InputSystem::InputDevice* device) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8839 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field move, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 move;
@@ -60,6 +64,9 @@ public:
   /// @brief Field eventData, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::EventSystems::AxisEventData* eventData;
 
+  /// @brief Field device, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputDevice* device;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -73,6 +80,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, lastMove
 
 static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, eventData) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::InputSystem::UI::NavigationModel) == 0x20, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, device) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::InputSystem::UI::NavigationModel) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI

@@ -59,7 +59,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x67733fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b1d78, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_BayerMatrixTex() const;
@@ -86,19 +86,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x677356c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1ee8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bayerMatrixTex, addr 0x677347c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bayerMatrixTex, addr 0x68b1df8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_bayerMatrixTex();
 
-  /// @brief Method get_blueNoise64LTex, addr 0x6773404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blueNoise64LTex, addr 0x68b1d80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_blueNoise64LTex();
 
-  /// @brief Method get_debugFontTexture, addr 0x67734f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugFontTexture, addr 0x68b1e70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_debugFontTexture();
 
-  /// @brief Method get_version, addr 0x67733f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b1d70, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -107,13 +107,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_bayerMatrixTex, addr 0x6773484, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_bayerMatrixTex, addr 0x68b1e00, size 0x70, virtual false, abstract: false, final false
   inline void set_bayerMatrixTex(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_blueNoise64LTex, addr 0x677340c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_blueNoise64LTex, addr 0x68b1d88, size 0x70, virtual false, abstract: false, final false
   inline void set_blueNoise64LTex(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_debugFontTexture, addr 0x67734fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugFontTexture, addr 0x68b1e78, size 0x70, virtual false, abstract: false, final false
   inline void set_debugFontTexture(::UnityEngine::Texture2D* value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   UniversalRenderPipelineRuntimeTextures(UniversalRenderPipelineRuntimeTextures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12916 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;

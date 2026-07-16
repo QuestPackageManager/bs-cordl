@@ -64,7 +64,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Fx_InternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x6046af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6181bf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -82,7 +82,7 @@ public:
   Fx_InternalException(Fx_InternalException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -99,7 +99,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Fx_FatalInternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x6046afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6181bf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -117,7 +117,7 @@ public:
   Fx_FatalInternalException(Fx_FatalInternalException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -140,10 +140,10 @@ public:
 
   static inline ::System::Runtime::Fx___c* New_ctor();
 
-  /// @brief Method <InitializeTracing>b__8_0, addr 0x6046b5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <InitializeTracing>b__8_0, addr 0x6181c58, size 0x10, virtual false, abstract: false, final false
   inline void _InitializeTracing_b__8_0();
 
-  /// @brief Method .ctor, addr 0x6046b58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6181c54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Fx___c* getStaticF___9();
@@ -169,7 +169,7 @@ public:
   Fx___c(Fx___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -196,26 +196,26 @@ public:
   /// @brief Field exceptionTrace, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_exceptionTrace, put = setStaticF_exceptionTrace)) ::System::Runtime::ExceptionTrace* exceptionTrace;
 
-  /// @brief Method InitializeTracing, addr 0x6045f74, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method InitializeTracing, addr 0x6181070, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* InitializeTracing();
 
-  /// @brief Method IsFatal, addr 0x60465a0, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x618169c, size 0x470, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
-  /// @brief Method UpdateLevel, addr 0x6046ae4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateLevel, addr 0x6181be0, size 0x10, virtual false, abstract: false, final false
   static inline void UpdateLevel();
 
-  /// @brief Method UpdateLevel, addr 0x604650c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UpdateLevel, addr 0x6181608, size 0x94, virtual false, abstract: false, final false
   static inline void UpdateLevel(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
   static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* getStaticF_diagnosticTrace();
 
   static inline ::System::Runtime::ExceptionTrace* getStaticF_exceptionTrace();
 
-  /// @brief Method get_Exception, addr 0x6045e5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x6180f58, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Runtime::ExceptionTrace* get_Exception();
 
-  /// @brief Method get_Trace, addr 0x6045f14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Trace, addr 0x6181010, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* get_Trace();
 
   static inline void setStaticF_diagnosticTrace(::System::Runtime::Diagnostics::EtwDiagnosticTrace* value);
@@ -237,7 +237,7 @@ public:
   Fx(Fx const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -85,23 +85,23 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x361ecec, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36db1a4, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> knowledgeProofForX1, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> knowledgeProofForX2);
 
-  /// @brief Method get_Gx1, addr 0x3620c98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx1, addr 0x36dd150, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx1();
 
-  /// @brief Method get_Gx2, addr 0x3620ca0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx2, addr 0x36dd158, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx2();
 
-  /// @brief Method get_KnowledgeProofForX1, addr 0x3620ca8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX1, addr 0x36dd160, size 0x80, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> get_KnowledgeProofForX1();
 
-  /// @brief Method get_KnowledgeProofForX2, addr 0x3620d28, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2, addr 0x36dd1e0, size 0x80, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> get_KnowledgeProofForX2();
 
-  /// @brief Method get_ParticipantId, addr 0x3620c90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x36dd148, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

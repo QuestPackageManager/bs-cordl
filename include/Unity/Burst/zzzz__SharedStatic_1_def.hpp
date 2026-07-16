@@ -73,7 +73,7 @@ public:
   static constexpr uint32_t DefaultAlignment{ static_cast<uint32_t>(0x10u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

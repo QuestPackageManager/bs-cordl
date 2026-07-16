@@ -50,22 +50,22 @@ public:
   /// @brief Field mV, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV)) ::ArrayW<uint8_t> mV;
 
-  /// @brief Method Generate, addr 0x336295c, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x341ee14, size 0x480, virtual false, abstract: false, final false
   inline int32_t Generate(::ArrayW<uint8_t> output, bool predictionResistant);
 
-  /// @brief Method Increment, addr 0x3362f30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x341f3e8, size 0x44, virtual false, abstract: false, final false
   inline void Increment(::ArrayW<uint8_t> val);
 
-  /// @brief Method IsTooLarge, addr 0x3362ddc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0x341f294, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t> bytes, int32_t maxBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931Rng* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t> dateTimeVector,
                                                                      ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method Process, addr 0x3362df0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x341f2a8, size 0x140, virtual false, abstract: false, final false
   inline void Process(::ArrayW<uint8_t> res, ::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
 
-  /// @brief Method Reseed, addr 0x3362f74, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Reseed, addr 0x341f42c, size 0x190, virtual false, abstract: false, final false
   inline void Reseed();
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_mDT() const;
@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3362760, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341ec18, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t> dateTimeVector, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method get_EntropySource, addr 0x3363104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EntropySource, addr 0x341f5bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IEntropySource* get_EntropySource();
 
 protected:

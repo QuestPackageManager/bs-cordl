@@ -30,27 +30,27 @@ public:
   // Declarations
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-  /// @brief Method Convert, addr 0x5e7942c, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x5fb4528, size 0x278, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
-  /// @brief Method ConvertDouble, addr 0x5e79c54, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ConvertDouble, addr 0x5fb4d50, size 0x2a4, virtual false, abstract: false, final false
   inline ::System::Object* ConvertDouble(double_t obj);
 
-  /// @brief Method ConvertInt32, addr 0x5e796a4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt32, addr 0x5fb47a0, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt32(int32_t obj);
 
-  /// @brief Method ConvertInt64, addr 0x5e79868, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt64, addr 0x5fb4964, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt64(int64_t obj);
 
-  /// @brief Method ConvertUInt64, addr 0x5e79a64, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ConvertUInt64, addr 0x5fb4b60, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Object* ConvertUInt64(uint64_t obj);
 
   static inline ::GlobalNamespace::NumericConvertInstruction_Unchecked* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method .ctor, addr 0x5e79420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb451c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_InstructionName, addr 0x5e793dc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb44d8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -68,7 +68,7 @@ public:
   NumericConvertInstruction_Unchecked(NumericConvertInstruction_Unchecked const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16522 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

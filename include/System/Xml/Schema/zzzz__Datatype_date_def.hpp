@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_date* New_ctor();
 
-  /// @brief Method .ctor, addr 0x607f0c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ba1c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x6085e70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c0f6c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -47,7 +47,7 @@ public:
   Datatype_date(Datatype_date const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

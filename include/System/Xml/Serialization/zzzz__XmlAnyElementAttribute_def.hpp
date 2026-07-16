@@ -39,7 +39,7 @@ public:
   /// @brief Field order, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x61b192c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x62eca28, size 0x98, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAnyElementAttribute* New_ctor();
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x61b18f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ec9ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x61b18fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x62ec9f8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x61b191c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x62eca18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x61b1924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x62eca20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -89,7 +89,7 @@ public:
   XmlAnyElementAttribute(XmlAnyElementAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9468 };
 
   /// @brief Field elementName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___elementName;

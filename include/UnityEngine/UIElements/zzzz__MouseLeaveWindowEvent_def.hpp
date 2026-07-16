@@ -42,10 +42,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c49a64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d9d91c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6c49a60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9d918, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* getStaticF___9();
@@ -84,24 +84,24 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseLeaveWindowEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6c49984, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6d9d83c, size 0x88, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method GetPooled, addr 0x6c4964c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d9d504, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x6c49590, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d9d448, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6c495e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d9d4a0, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6c49784, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6d9d63c, size 0x200, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6c495f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9d4ac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

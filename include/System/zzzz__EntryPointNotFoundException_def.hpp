@@ -32,13 +32,13 @@ public:
 
   static inline ::System::EntryPointNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5af4500, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2e1d8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5af4584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2e25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5af4560, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2e238, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x590a1c0;
+  constexpr static std::size_t addrs = 0x5a438c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::*)(::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::_LoadAssembliesAsync_b__19_0)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x590a1c4;
+  constexpr static std::size_t addrs = 0x5a438c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::_LoadAssembliesAsync_b__19_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x590a2f0;
+  constexpr static std::size_t addrs = 0x5a439f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::*)()>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x590a348;
+  constexpr static std::size_t addrs = 0x5a43a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x590a6e0;
+  constexpr static std::size_t addrs = 0x5a43de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18>(),
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::Init)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5908eec;
+  constexpr static std::size_t addrs = 0x5a425f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>(), { "Init", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::add_OnAssemblyParsed)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5908fa4;
+  constexpr static std::size_t addrs = 0x5a426a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::remove_OnAssemblyParsed)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x59090ac;
+  constexpr static std::size_t addrs = 0x5a427b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::get_Ready)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59091b4;
+  constexpr static std::size_t addrs = 0x5a428b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>(), { "get_Ready", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::GetImmersiveDebuggerEnabled)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5909210;
+  constexpr static std::size_t addrs = 0x5a42914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::get_Enabled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5909270;
+  constexpr static std::size_t addrs = 0x5a42974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>(), { "get_Enabled", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::Assembly*> (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::GetAllAssemblies)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59092e0;
+  constexpr static std::size_t addrs = 0x5a429e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>(), { "GetAllAssemblies", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::OnLoad)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59092fc;
+  constexpr static std::size_t addrs = 0x5a42a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>(), { "OnLoad", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::RefreshWhenPlaying)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59093cc;
+  constexpr static std::size_t addrs = 0x5a42ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::Refresh)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5909350;
+  constexpr static std::size_t addrs = 0x5a42a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(bool)>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::LoadAssembliesMainThread)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5909420;
+  constexpr static std::size_t addrs = 0x5a42b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::LoadAssembliesAsync)> {
   constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x59094d8;
+  constexpr static std::size_t addrs = 0x5a42bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::RegisterAssemblyTypes)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5909edc;
+  constexpr static std::size_t addrs = 0x5a435e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::Unregister)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5909fc8;
+  constexpr static std::size_t addrs = 0x5a436cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

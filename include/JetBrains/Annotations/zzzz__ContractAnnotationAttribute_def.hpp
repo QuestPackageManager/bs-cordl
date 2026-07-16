@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__ForceFullStates_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6ce662c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3a930, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract);
 
-  /// @brief Method .ctor, addr 0x6ce6638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3a93c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract, bool forceFullStates);
 
-  /// @brief Method get_Contract, addr 0x6ce6644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Contract, addr 0x6e3a948, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Contract();
 
-  /// @brief Method get_ForceFullStates, addr 0x6ce6654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceFullStates, addr 0x6e3a958, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceFullStates();
 
-  /// @brief Method set_Contract, addr 0x6ce664c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Contract, addr 0x6e3a950, size 0x8, virtual false, abstract: false, final false
   inline void set_Contract(::StringW value);
 
-  /// @brief Method set_ForceFullStates, addr 0x6ce665c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ForceFullStates, addr 0x6e3a960, size 0x8, virtual false, abstract: false, final false
   inline void set_ForceFullStates(bool value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   ContractAnnotationAttribute(ContractAnnotationAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22496 };
 
   /// @brief Field <Contract>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Contract_k__BackingField;

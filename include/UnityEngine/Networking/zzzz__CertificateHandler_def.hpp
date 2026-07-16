@@ -36,7 +36,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE CertificateHandler_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6cd1110, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e24fc8, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Networking::CertificateHandler* handler);
 
 protected:
@@ -54,7 +54,7 @@ public:
   CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,27 +77,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Create, addr 0x6cd0f7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e24e34, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::CertificateHandler* obj);
 
-  /// @brief Method Dispose, addr 0x6cd10dc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e24f94, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x6cd1088, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6e24f40, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Networking::CertificateHandler* New_ctor();
 
-  /// @brief Method ReleaseFromScripting, addr 0x6cd0fb8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFromScripting, addr 0x6e24e70, size 0x50, virtual false, abstract: false, final false
   inline void ReleaseFromScripting();
 
-  /// @brief Method ReleaseFromScripting_Injected, addr 0x6cd1008, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFromScripting_Injected, addr 0x6e24ec0, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseFromScripting_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method ValidateCertificate, addr 0x6cd10fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x6e24fb4, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t> certificateData);
 
-  /// @brief Method ValidateCertificateNative, addr 0x6cd1104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateNative, addr 0x6e24fbc, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t> certificateData);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6cd1044, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e24efc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -127,7 +127,7 @@ public:
   CertificateHandler(CertificateHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22202 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

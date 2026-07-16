@@ -28,40 +28,40 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::XRSRPSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x668d1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ca8d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x668cc20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x67ca32c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method get_eyeTextureDesc, addr 0x668cdac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureDesc, addr 0x67ca4b8, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor get_eyeTextureDesc();
 
-  /// @brief Method get_eyeTextureHeight, addr 0x668ced8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureHeight, addr 0x67ca5e4, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_eyeTextureHeight();
 
-  /// @brief Method get_eyeTextureWidth, addr 0x668ce80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureWidth, addr 0x67ca58c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_eyeTextureWidth();
 
-  /// @brief Method get_isDeviceActive, addr 0x668cc48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isDeviceActive, addr 0x67ca354, size 0x58, virtual false, abstract: false, final false
   static inline bool get_isDeviceActive();
 
-  /// @brief Method get_loadedDeviceName, addr 0x668cca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_loadedDeviceName, addr 0x67ca3ac, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW get_loadedDeviceName();
 
-  /// @brief Method get_mirrorViewMode, addr 0x668d0b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorViewMode, addr 0x67ca7bc, size 0x88, virtual false, abstract: false, final false
   static inline int32_t get_mirrorViewMode();
 
-  /// @brief Method get_occlusionMeshScale, addr 0x668cf30, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionMeshScale, addr 0x67ca63c, size 0xbc, virtual false, abstract: false, final false
   static inline float_t get_occlusionMeshScale();
 
-  /// @brief Method get_supportedDevices, addr 0x668cd18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_supportedDevices, addr 0x67ca424, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> get_supportedDevices();
 
-  /// @brief Method set_mirrorViewMode, addr 0x668d138, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_mirrorViewMode, addr 0x67ca844, size 0x8c, virtual false, abstract: false, final false
   static inline void set_mirrorViewMode(int32_t value);
 
-  /// @brief Method set_occlusionMeshScale, addr 0x668cfec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionMeshScale, addr 0x67ca6f8, size 0xc4, virtual false, abstract: false, final false
   static inline void set_occlusionMeshScale(float_t value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   XRSRPSettings(XRSRPSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

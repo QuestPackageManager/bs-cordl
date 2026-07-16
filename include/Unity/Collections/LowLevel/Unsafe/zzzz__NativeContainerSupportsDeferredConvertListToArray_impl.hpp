@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69072a4;
+  constexpr static std::size_t addrs = 0x6a5a64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

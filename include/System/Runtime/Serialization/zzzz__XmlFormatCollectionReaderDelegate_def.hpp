@@ -37,14 +37,14 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE XmlFormatCollectionReaderDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x602310c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x615e208, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context,
                                   ::System::Xml::XmlDictionaryString* itemName, ::System::Xml::XmlDictionaryString* itemNamespace,
                                   ::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
   static inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6022fc4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e0c0, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -62,7 +62,7 @@ public:
   XmlFormatCollectionReaderDelegate(XmlFormatCollectionReaderDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

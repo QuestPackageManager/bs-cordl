@@ -6,7 +6,6 @@
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevronManager_def.hpp"
@@ -22,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager_DirectionData::*)()>(
     &::GlobalNamespace::SpawnRotationChevronManager_DirectionData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x586775c;
+  constexpr static std::size_t addrs = 0x59a0a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>(), { ".ctor", {}, {} })));
@@ -92,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::*)(float_t, float_t, int32_t)>(
     &::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5867750;
+  constexpr static std::size_t addrs = 0x59a0a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>(),
@@ -114,24 +113,12 @@ constexpr ::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::Sp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::SpawnRotationChevronManager_QueuedDirectionData() {}
-//  Writing Method size for method: ::GlobalNamespace::SpawnRotationChevronManager.Start
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::Start)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x58667dc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "Start", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::SpawnRotationChevronManager.Update
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::Update)> {
   constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x5866a08;
+  constexpr static std::size_t addrs = 0x599fdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "Update", {}, {} })));
@@ -142,8 +129,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::OnDestroy)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5867554;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x59a0914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "OnDestroy", {}, {} })));
@@ -156,25 +143,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectCallback)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x586768c;
+  constexpr static std::size_t addrs = 0x59a0954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(),
                                                                                            { "HandleBeatmapObjectCallback", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapObjectData*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::SpawnRotationChevronManager.HandleBeatmapObjectSpawnControllerDidInit
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(
-    &::GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x58668b8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "HandleBeatmapObjectSpawnControllerDidInit", {}, {} })));
     return ___internal_method;
   }
 };
@@ -184,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)(float_t, float_t, int32_t)>(
     &::GlobalNamespace::SpawnRotationChevronManager::SpawnDirectionData)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x58671a8;
+  constexpr static std::size_t addrs = 0x59a0568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5867760;
+  constexpr static std::size_t addrs = 0x59a0a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { ".ctor", {}, {} })));
@@ -300,18 +273,6 @@ constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::SpawnRota
 constexpr void GlobalNamespace::SpawnRotationChevronManager::__cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioTimeSyncController = value;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController>& GlobalNamespace::SpawnRotationChevronManager::__cordl_internal_get__beatmapObjectSpawnController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapObjectSpawnController;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& GlobalNamespace::SpawnRotationChevronManager::__cordl_internal_get__beatmapObjectSpawnController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapObjectSpawnController;
-}
-constexpr void GlobalNamespace::SpawnRotationChevronManager::__cordl_internal_set__beatmapObjectSpawnController(::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapObjectSpawnController = value;
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::SpawnRotationChevronManager::__cordl_internal_get__beatmapCallbacksController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -427,10 +388,6 @@ constexpr void GlobalNamespace::SpawnRotationChevronManager::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentSpawnRotation = value;
 }
-inline void GlobalNamespace::SpawnRotationChevronManager::Start() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "Start", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
 inline void GlobalNamespace::SpawnRotationChevronManager::Update() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "Update", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -443,11 +400,6 @@ inline void GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectCal
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(),
                                                                                          { "HandleBeatmapObjectCallback", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapObjectData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapObjectData);
-}
-inline void GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "HandleBeatmapObjectSpawnControllerDidInit", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::SpawnRotationChevronManager::SpawnDirectionData(float_t time, float_t duration, int32_t rotation) {
   static auto* ___internal_method =

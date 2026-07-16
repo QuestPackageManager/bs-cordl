@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::get_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x688181c;
+  constexpr static std::size_t addrs = 0x69c0300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::RuntimeElement*>(), { "get_intervalBit", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(int32_t)>(&::UnityEngine::Timeline::RuntimeElement::set_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6881824;
+  constexpr static std::size_t addrs = 0x69c0308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6880e64;
+  constexpr static std::size_t addrs = 0x69bf948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::RuntimeElement*>(), { ".ctor", {}, {} })));

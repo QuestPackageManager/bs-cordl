@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5cb4484, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dec6ac, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -83,7 +83,7 @@ public:
   Leaderboard(Leaderboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18025 };
 
   /// @brief Field ApiName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ApiName;

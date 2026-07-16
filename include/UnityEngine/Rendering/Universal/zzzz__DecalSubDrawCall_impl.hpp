@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalSubDrawCall::*)()>(&::UnityEngine::Rendering::Universal::DecalSubDrawCall::get_count)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6715ca8;
+  constexpr static std::size_t addrs = 0x6854864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalSubDrawCall>(), { "get_count", {}, {} })));

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::CompatibilityVersion::Get)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x320fc20;
+  constexpr static std::size_t addrs = 0x32a7520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompatibilityVersion*>(), { "Get", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::GlobalNamespace::CompatibilityVersion::Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x320fc64;
+  constexpr static std::size_t addrs = 0x32a7564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompatibilityVersion*>(), { "Length", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompatibilityVersion::*)()>(&::GlobalNamespace::CompatibilityVersion::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x320fc6c;
+  constexpr static std::size_t addrs = 0x32a756c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompatibilityVersion*>(), { ".ctor", {}, {} })));

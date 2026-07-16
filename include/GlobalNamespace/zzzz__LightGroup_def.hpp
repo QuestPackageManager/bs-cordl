@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroup* New_ctor();
 
-  /// @brief Method SetColor, addr 0x5727a8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x586e4ac, size 0x8c, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get__lightGroupSO() const;
@@ -89,37 +89,37 @@ public:
 
   constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x5727d2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586e74c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRefreshContentEvent, addr 0x572790c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didRefreshContentEvent, addr 0x586e32c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_respawnEvent, addr 0x572778c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_respawnEvent, addr 0x586e1ac, size 0xc0, virtual false, abstract: false, final false
   inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method get_groupId, addr 0x5727604, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x586e024, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x5727704, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x586e124, size 0x88, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_lightGroupSO, addr 0x57274fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSO, addr 0x586df1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
 
-  /// @brief Method get_numberOfElements, addr 0x5727504, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x586df24, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x5727684, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x586e0a4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x5727584, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x586dfa4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
-  /// @brief Method remove_didRefreshContentEvent, addr 0x57279cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRefreshContentEvent, addr 0x586e3ec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_respawnEvent, addr 0x572784c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_respawnEvent, addr 0x586e26c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   LightGroup(LightGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19474 };
 
   /// @brief Field _lightGroupSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroupSO;

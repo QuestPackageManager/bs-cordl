@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::UnityEngine::Bindings::TargetType)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::set_TargetType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5f2bc;
+  constexpr static std::size_t addrs = 0x6bb2d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)()>(&::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a5f2c4;
+  constexpr static std::size_t addrs = 0x6bb2da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::NativePropertyAttribute*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a5f2c8;
+  constexpr static std::size_t addrs = 0x6bb2da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW, bool, ::UnityEngine::Bindings::TargetType)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6a5f2cc;
+  constexpr static std::size_t addrs = 0x6bb2da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW, bool, ::UnityEngine::Bindings::TargetType, bool)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a5f2f8;
+  constexpr static std::size_t addrs = 0x6bb2dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

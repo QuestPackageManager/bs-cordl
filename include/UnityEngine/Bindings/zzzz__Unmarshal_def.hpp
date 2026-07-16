@@ -26,7 +26,7 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE Unmarshal {
 public:
   // Declarations
-  /// @brief Method FromIntPtrUnsafe, addr 0x69a82e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtrUnsafe, addr 0x6afb9c8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::GCHandle FromIntPtrUnsafe(::System::IntPtr gcHandle);
 
   /// @brief Method UnmarshalUnityObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -37,7 +37,7 @@ public:
   constexpr Unmarshal();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10440 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

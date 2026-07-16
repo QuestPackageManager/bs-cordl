@@ -115,30 +115,30 @@ public:
   /// @brief Field _zOffset, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  /// @brief Method AdjustPositionWithOffsetDirection, addr 0x31eb770, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AdjustPositionWithOffsetDirection, addr 0x3282948, size 0x1b8, virtual false, abstract: false, final false
   inline void AdjustPositionWithOffsetDirection(::by_ref<::UnityEngine::Vector2> position, int32_t lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method Awake, addr 0x31ea988, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3281b60, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BuildAnimationCurvePath, addr 0x31eb140, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method BuildAnimationCurvePath, addr 0x3282318, size 0x574, virtual false, abstract: false, final false
   inline bool BuildAnimationCurvePath();
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x31ec17c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3283354, size 0x4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::BeatmapObjectsAvoidance* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x31eadd0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3281fa8, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetupAndRun, addr 0x31eaa90, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method SetupAndRun, addr 0x3281c68, size 0x340, virtual false, abstract: false, final false
   inline void SetupAndRun();
 
-  /// @brief Method Start, addr 0x31ea9a4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3281b7c, size 0xec, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x31eaee0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x32820b8, size 0x260, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BezierSplineEvaluator* const& __cordl_internal_get__accelerationBezierSplineEvaluator() const;
@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x31ec180, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3283358, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -255,7 +255,7 @@ public:
   BeatmapObjectsAvoidance(BeatmapObjectsAvoidance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21955 };
 
   /// @brief Field _zOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____zOffset;

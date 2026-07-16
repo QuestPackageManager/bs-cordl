@@ -31,15 +31,15 @@ public:
   /// @brief Field kBeatSaberDotComRootCertificate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kBeatSaberDotComRootCertificate, put = setStaticF_kBeatSaberDotComRootCertificate)) ::StringW kBeatSaberDotComRootCertificate;
 
-  /// @brief Method GetRootCertificates, addr 0x320f8b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetRootCertificates, addr 0x32a71b4, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*> GetRootCertificates();
 
-  /// @brief Method GetRootCertificatesRaw, addr 0x320f9bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRootCertificatesRaw, addr 0x32a72bc, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetRootCertificatesRaw();
 
   static inline ::GlobalNamespace::BeatSaberX509CertificateUtility* New_ctor();
 
-  /// @brief Method .ctor, addr 0x320fa78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a7378, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*> getStaticF__rootCertificates();
@@ -65,7 +65,7 @@ public:
   BeatSaberX509CertificateUtility(BeatSaberX509CertificateUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

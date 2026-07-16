@@ -41,7 +41,7 @@ public:
   /// @brief Field m_TimeoutMode, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TimeoutMode, put = __cordl_internal_set_m_TimeoutMode)) ::UnityEngine::WaitTimeoutMode m_TimeoutMode;
 
-  /// @brief Method GetTime, addr 0x6995e10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x6ae8ebc, size 0x54, virtual false, abstract: false, final false
   inline double_t GetTime();
 
   static inline ::UnityEngine::WaitWhile* New_ctor(::System::Func_1<bool>* predicate);
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TimeoutMode(::UnityEngine::WaitTimeoutMode value);
 
-  /// @brief Method .ctor, addr 0x6995e00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae8eac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method get_keepWaiting, addr 0x6995d40, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x6ae8dec, size 0xc0, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:
@@ -91,7 +91,7 @@ public:
   WaitWhile(WaitWhile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10361 };
 
   /// @brief Field m_Predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_Predicate;

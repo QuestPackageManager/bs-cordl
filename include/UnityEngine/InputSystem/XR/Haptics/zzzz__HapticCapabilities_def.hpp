@@ -32,28 +32,28 @@ public:
 
   __declspec(property(get = get_supportsImpulse)) bool supportsImpulse;
 
-  /// @brief Method .ctor, addr 0x6449f1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6586b3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method .ctor, addr 0x6449f04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6586b24, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz, uint32_t maxBufferSize, uint32_t optimalBufferSize);
 
-  /// @brief Method get_frequencyHz, addr 0x6449f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x6586b68, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method get_maxBufferSize, addr 0x6449f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x6586b70, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method get_numChannels, addr 0x6449f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x6586b50, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
-  /// @brief Method get_optimalBufferSize, addr 0x6449f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optimalBufferSize, addr 0x6586b78, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_optimalBufferSize();
 
-  /// @brief Method get_supportsBuffer, addr 0x6449f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsBuffer, addr 0x6586b60, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsBuffer();
 
-  /// @brief Method get_supportsImpulse, addr 0x6449f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsImpulse, addr 0x6586b58, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsImpulse();
 
   // Ctor Parameters []
@@ -68,7 +68,7 @@ public:
                                uint32_t _maxBufferSize_k__BackingField, uint32_t _optimalBufferSize_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8804 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

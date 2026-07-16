@@ -32,13 +32,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchMeshID>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchMeshID>*();
 
-  /// @brief Method Equals, addr 0x69d3810, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b2714c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x69d38c0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b271fc, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchMeshID other);
 
-  /// @brief Method GetHashCode, addr 0x69d3808, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b27144, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::BatchMeshID getStaticF_Null();
@@ -46,7 +46,7 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchMeshID>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchMeshID>* i___System__IEquatable_1___UnityEngine__Rendering__BatchMeshID_();
 
-  /// @brief Method op_Equality, addr 0x69d38d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b2720c, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::BatchMeshID a, ::UnityEngine::Rendering::BatchMeshID b);
 
   static inline void setStaticF_Null(::UnityEngine::Rendering::BatchMeshID value);
@@ -59,7 +59,7 @@ public:
   constexpr BatchMeshID(uint32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10822 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

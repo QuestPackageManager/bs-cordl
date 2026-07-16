@@ -55,57 +55,57 @@ public:
   /// @brief Field basicIVSizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_basicIVSizes, put = setStaticF_basicIVSizes)) ::System::Collections::IDictionary* basicIVSizes;
 
-  /// @brief Method AddAlgorithm, addr 0x3545ab0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method AddAlgorithm, addr 0x3601f68, size 0x1cc, virtual false, abstract: false, final false
   static inline void AddAlgorithm(::StringW canonicalName, ::ArrayW<::System::Object*> aliases);
 
-  /// @brief Method AddBasicIVSizeEntries, addr 0x3545c7c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method AddBasicIVSizeEntries, addr 0x3602134, size 0x15c, virtual false, abstract: false, final false
   static inline void AddBasicIVSizeEntries(int32_t size, ::ArrayW<::StringW> algorithms);
 
-  /// @brief Method CreateIV, addr 0x3546dc0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateIV, addr 0x3603278, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateIV(::Org::BouncyCastle::Security::SecureRandom* random, int32_t ivLength);
 
-  /// @brief Method CreateIVOctetString, addr 0x3546d1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateIVOctetString, addr 0x36031d4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* CreateIVOctetString(::Org::BouncyCastle::Security::SecureRandom* random, int32_t ivLength);
 
-  /// @brief Method CreateKeyParameter, addr 0x3545f0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyParameter, addr 0x36023c4, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, ::ArrayW<uint8_t> keyBytes);
 
-  /// @brief Method CreateKeyParameter, addr 0x35462dc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyParameter, addr 0x3602794, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, ::ArrayW<uint8_t> keyBytes, int32_t offset,
                                                                                           int32_t length);
 
-  /// @brief Method CreateKeyParameter, addr 0x3546264, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyParameter, addr 0x360271c, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::StringW algorithm, ::ArrayW<uint8_t> keyBytes);
 
-  /// @brief Method CreateKeyParameter, addr 0x3545f8c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyParameter, addr 0x3602444, size 0x2d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::StringW algorithm, ::ArrayW<uint8_t> keyBytes, int32_t offset, int32_t length);
 
-  /// @brief Method FindBasicIVSize, addr 0x3546818, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FindBasicIVSize, addr 0x3602cd0, size 0x198, virtual false, abstract: false, final false
   static inline int32_t FindBasicIVSize(::StringW canonicalName);
 
-  /// @brief Method GenerateParameters, addr 0x35469b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x3602e68, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algID, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateParameters, addr 0x3546a24, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x3602edc, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateParameters(::StringW algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GetCanonicalAlgorithmName, addr 0x3545dd8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalAlgorithmName, addr 0x3602290, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW GetCanonicalAlgorithmName(::StringW algorithm);
 
-  /// @brief Method GetCipherParameters, addr 0x3546368, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCipherParameters, addr 0x3602820, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, ::Org::BouncyCastle::Crypto::ICipherParameters* key,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Object* asn1Params);
 
-  /// @brief Method GetCipherParameters, addr 0x35463e4, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method GetCipherParameters, addr 0x360289c, size 0x434, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* key,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Object* asn1Params);
 
   static inline ::Org::BouncyCastle::Security::ParameterUtilities* New_ctor();
 
-  /// @brief Method WithRandom, addr 0x3546e2c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithRandom, addr 0x36032e4, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* WithRandom(::Org::BouncyCastle::Crypto::ICipherParameters* cp, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x3544364, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360081c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

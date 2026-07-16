@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PropertyName (*)(::StringW)>(&::UnityEngine::PropertyNameUtils::PropertyNameFromString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6981a1c;
+  constexpr static std::size_t addrs = 0x6ad4dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::PropertyName>)>(
     &::UnityEngine::PropertyNameUtils::PropertyNameFromString_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6981b50;
+  constexpr static std::size_t addrs = 0x6ad4ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

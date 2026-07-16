@@ -30,7 +30,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ExtraRenderChainVEData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6b95074, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6ce8f2c, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::MeshHandle*>* const& __cordl_internal_get_extraMesh() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_extraMesh(::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
-  /// @brief Method .ctor, addr 0x6b95024, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce8edc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

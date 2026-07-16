@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LobbyDataModelInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x58c634c, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59f7094, size 0x3ec, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LobbyDataModelInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58c6738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f7480, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   LobbyDataModelInstaller(LobbyDataModelInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6278 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

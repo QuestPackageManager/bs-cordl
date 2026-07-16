@@ -50,21 +50,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x579cb10, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58d9960, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x579cf50, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x58d9da0, size 0x10c, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x579cf4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x58d9d9c, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidUpdateProgress(float_t progress);
 
   static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x579cd80, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58d9bd0, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x579cbd8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x58d9a28, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScaleJumpPart() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x579d05c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d9eac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
@@ -112,7 +112,7 @@ public:
   NoteJumpStartScaleUp(NoteJumpStartScaleUp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5691 };
 
   /// @brief Field _fullScaleJumpPart, offset: 0x20, size: 0x4, def value: None
   float_t ____fullScaleJumpPart;

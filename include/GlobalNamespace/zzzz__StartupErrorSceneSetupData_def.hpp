@@ -20,28 +20,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE StartupErrorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field subtitle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_subtitle, put = __cordl_internal_set_subtitle)) ::StringW subtitle;
+  /// @brief Field subtitleKey, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_subtitleKey, put = __cordl_internal_set_subtitleKey)) ::StringW subtitleKey;
 
-  /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::StringW title;
+  /// @brief Field titleKey, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_titleKey, put = __cordl_internal_set_titleKey)) ::StringW titleKey;
 
-  static inline ::GlobalNamespace::StartupErrorSceneSetupData* New_ctor(::StringW title, ::StringW subtitle);
+  static inline ::GlobalNamespace::StartupErrorSceneSetupData* New_ctor(::StringW titleKey, ::StringW subtitleKey);
 
-  constexpr ::StringW const& __cordl_internal_get_subtitle() const;
+  constexpr ::StringW const& __cordl_internal_get_subtitleKey() const;
 
-  constexpr ::StringW& __cordl_internal_get_subtitle();
+  constexpr ::StringW& __cordl_internal_get_subtitleKey();
 
-  constexpr ::StringW const& __cordl_internal_get_title() const;
+  constexpr ::StringW const& __cordl_internal_get_titleKey() const;
 
-  constexpr ::StringW& __cordl_internal_get_title();
+  constexpr ::StringW& __cordl_internal_get_titleKey();
 
-  constexpr void __cordl_internal_set_subtitle(::StringW value);
+  constexpr void __cordl_internal_set_subtitleKey(::StringW value);
 
-  constexpr void __cordl_internal_set_title(::StringW value);
+  constexpr void __cordl_internal_set_titleKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x57ee7d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW title, ::StringW subtitle);
+  /// @brief Method .ctor, addr 0x590c3a8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW titleKey, ::StringW subtitleKey);
 
 protected:
   // Ctor Parameters []
@@ -58,20 +58,20 @@ public:
   StartupErrorSceneSetupData(StartupErrorSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6705 };
 
-  /// @brief Field title, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___title;
+  /// @brief Field titleKey, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___titleKey;
 
-  /// @brief Field subtitle, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___subtitle;
+  /// @brief Field subtitleKey, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___subtitleKey;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::StartupErrorSceneSetupData, ___title) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StartupErrorSceneSetupData, ___titleKey) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StartupErrorSceneSetupData, ___subtitle) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StartupErrorSceneSetupData, ___subtitleKey) == 0x18, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::StartupErrorSceneSetupData) == 0x20, "Size mismatch!");
 

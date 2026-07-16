@@ -38,31 +38,31 @@ public:
   /// @brief Field objIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
-  /// @brief Method DefineCurveAlias, addr 0x33994c8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DefineCurveAlias, addr 0x3455980, size 0x1a4, virtual false, abstract: false, final false
   static inline void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetByName, addr 0x33999b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x3455e70, size 0x84, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x3399ba0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x3456058, size 0x5c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x3399bfc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x34560b4, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x3399a3c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x3455ef4, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33994c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345597c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_names();
 
   static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method get_Names, addr 0x3399cf4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x34561ac, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_names(::System::Collections::IDictionary* value);

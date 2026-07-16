@@ -106,48 +106,48 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Cancel, addr 0x5df3288, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x5f2b540, size 0x28, virtual false, abstract: false, final false
   inline void Cancel();
 
   /// @brief Method GetCodeGenInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* GetCodeGenInfo();
 
-  /// @brief Method GetFailureHandlingMethod, addr 0x5df2980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFailureHandlingMethod, addr 0x5f2ac38, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::GraphQL::ClientInterface::FailureHandlingMethod GetFailureHandlingMethod();
 
-  /// @brief Method GetLastException, addr 0x5df2988, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetLastException, addr 0x5f2ac40, size 0x90, virtual true, abstract: false, final false
   inline ::System::Exception* GetLastException();
 
-  /// @brief Method GetTimeoutMs, addr 0x5df2978, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTimeoutMs, addr 0x5f2ac30, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetTimeoutMs();
 
   static inline ::OculusStudios::GraphQL::ClientInterface::Request* New_ctor(bool forceRequestWhenOffline, ::OculusStudios::GraphQL::ClientInterface::RequestType requestType);
 
-  /// @brief Method OnRequestStateChanged, addr 0x5df2f64, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnRequestStateChanged, addr 0x5f2b21c, size 0x12c, virtual false, abstract: false, final false
   inline void OnRequestStateChanged(::OculusStudios::GraphQL::ClientInterface::RequestState requestState);
 
   /// @brief Method PerformRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PerformRequest();
 
-  /// @brief Method RegisterException, addr 0x5df3164, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RegisterException, addr 0x5f2b41c, size 0xd4, virtual false, abstract: false, final false
   inline void RegisterException(::System::Exception* e);
 
-  /// @brief Method RegisterRawResponseData, addr 0x5df3090, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RegisterRawResponseData, addr 0x5f2b348, size 0xd4, virtual false, abstract: false, final false
   inline void RegisterRawResponseData(::StringW json);
 
-  /// @brief Method ResetStateForUserInitiatedRetry, addr 0x5df2a18, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ResetStateForUserInitiatedRetry, addr 0x5f2acd0, size 0x3dc, virtual false, abstract: false, final false
   inline void ResetStateForUserInitiatedRetry();
 
-  /// @brief Method SetRequestId, addr 0x5df2df4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetRequestId, addr 0x5f2b0ac, size 0x64, virtual false, abstract: false, final false
   inline void SetRequestId(int64_t newRequestId);
 
-  /// @brief Method SetRequestState, addr 0x5df2e58, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetRequestState, addr 0x5f2b110, size 0x10c, virtual false, abstract: false, final false
   inline void SetRequestState(::OculusStudios::GraphQL::ClientInterface::RequestState requestState);
 
   /// @brief Method SupportsClientMutationId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool SupportsClientMutationId();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5df3238, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5f2b4f0, size 0x50, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::ClientInterface::AttemptData*>* const& __cordl_internal_get__attempts() const;
@@ -204,31 +204,31 @@ public:
 
   constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5df2834, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2aaec, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(bool forceRequestWhenOffline, ::OculusStudios::GraphQL::ClientInterface::RequestType requestType);
 
-  /// @brief Method add_onRequestStateUpdated, addr 0x5df262c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestStateUpdated, addr 0x5f2a8e4, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestStateUpdated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::OculusStudios::GraphQL::ClientInterface::RequestState>* value);
 
-  /// @brief Method get_attempts, addr 0x5df282c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attempts, addr 0x5f2aae4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::ClientInterface::AttemptData*>* get_attempts();
 
-  /// @brief Method get_attemptsPerformed, addr 0x5df27e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_attemptsPerformed, addr 0x5f2aa98, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_attemptsPerformed();
 
-  /// @brief Method get_cancellationToken, addr 0x5df27ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_cancellationToken, addr 0x5f2aa64, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_cancellationToken();
 
-  /// @brief Method get_requestId, addr 0x5df27d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requestId, addr 0x5f2aa88, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_requestId();
 
-  /// @brief Method get_requestState, addr 0x5df27d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requestState, addr 0x5f2aa90, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::ClientInterface::RequestState get_requestState();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_onRequestStateUpdated, addr 0x5df26ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestStateUpdated, addr 0x5f2a9a4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestStateUpdated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::OculusStudios::GraphQL::ClientInterface::RequestState>* value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   Request(Request const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22837 };
 
   /// @brief Field onRequestStateUpdated, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::OculusStudios::GraphQL::ClientInterface::RequestState>* ___onRequestStateUpdated;

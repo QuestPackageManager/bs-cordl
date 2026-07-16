@@ -48,10 +48,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* New_ctor();
 
-  /// @brief Method <.cctor>b__8_0, addr 0x6c4ee48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__8_0, addr 0x6da2d00, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PropagationPaths* __cctor_b__8_0();
 
-  /// @brief Method .ctor, addr 0x6c4ee44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da2cfc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* getStaticF___9();
@@ -104,10 +104,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Build, addr 0x6c44064, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x6d97f1c, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt, int32_t eventCategories);
 
-  /// @brief Method Dispose, addr 0x6c4ebe4, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6da2a9c, size 0xf4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x6c4eb48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da2a00, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* getStaticF_s_Pool();

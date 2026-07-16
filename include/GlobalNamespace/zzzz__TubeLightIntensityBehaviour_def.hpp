@@ -80,15 +80,15 @@ public:
   /// @brief Field _tubeLights, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tubeLights, put = __cordl_internal_set__tubeLights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> _tubeLights;
 
-  /// @brief Method EnableObjects, addr 0x57e922c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x5909880, size 0xc0, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x57e92ec, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x5909940, size 0xd0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x57e8eac, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x5909500, size 0x380, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -187,7 +187,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> value);
 
-  /// @brief Method .ctor, addr 0x57e93bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5909a10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -205,7 +205,7 @@ public:
   TubeLightIntensityBehaviour(TubeLightIntensityBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6686 };
 
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;

@@ -54,7 +54,7 @@ public:
   constexpr TouchscreenState__primaryTouchData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -90,7 +90,7 @@ public:
   constexpr TouchscreenState__touchData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8981 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x230 };
@@ -150,16 +150,16 @@ public:
 
   constexpr void __cordl_internal_set_touchData(::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer value);
 
-  /// @brief Method get_Format, addr 0x646c290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x65a905c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x646c2a8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x65a9074, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_primaryTouch, addr 0x646c29c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_primaryTouch, addr 0x65a9068, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::TouchState* get_primaryTouch();
 
-  /// @brief Method get_touches, addr 0x646c2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touches, addr 0x65a906c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::TouchState* get_touches();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -212,7 +212,7 @@ public:
   static constexpr int32_t MaxTouches{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8982 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x268 };

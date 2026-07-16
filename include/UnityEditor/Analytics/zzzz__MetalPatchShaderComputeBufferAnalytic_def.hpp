@@ -19,12 +19,12 @@ namespace UnityEditor::Analytics {
 class CORDL_TYPE MetalPatchShaderComputeBufferAnalytic : public ::UnityEngine::Analytics::AnalyticsEventBase {
 public:
   // Declarations
-  /// @brief Method CreateMetalPatchShaderComputeBufferAnalytic, addr 0x6ccdc80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateMetalPatchShaderComputeBufferAnalytic, addr 0x6e21b38, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* CreateMetalPatchShaderComputeBufferAnalytic();
 
   static inline ::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ccdc08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e21ac0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   MetalPatchShaderComputeBufferAnalytic(MetalPatchShaderComputeBufferAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

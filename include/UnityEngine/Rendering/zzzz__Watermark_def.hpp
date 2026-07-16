@@ -19,7 +19,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE Watermark : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsVisible, addr 0x69c6028, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsVisible, addr 0x6b19964, size 0x28, virtual false, abstract: false, final false
   static inline bool IsVisible();
 
 protected:
@@ -37,7 +37,7 @@ public:
   Watermark(Watermark const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

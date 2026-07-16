@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method UpdateByOther, addr 0x31c80a0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method UpdateByOther, addr 0x325b648, size 0x28, virtual true, abstract: false, final false
   inline void UpdateByOther(::GlobalNamespace::FloatFxBeatmapEventData* current, ::GlobalNamespace::FloatFxBeatmapEventData* other);
 
-  /// @brief Method .ctor, addr 0x31c80c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325b670, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   FloatFxBeatmapEventDataProcessor(FloatFxBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

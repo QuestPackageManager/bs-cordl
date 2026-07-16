@@ -31,13 +31,13 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::Org::BouncyCastle::Asn1::BerSet* Empty;
 
-  /// @brief Method Encode, addr 0x35cd75c, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3689c14, size 0x3d4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromVector, addr 0x35cd484, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromVector, addr 0x368993c, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerSet* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method FromVector, addr 0x35cd578, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FromVector, addr 0x3689a30, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerSet* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor();
@@ -48,16 +48,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
-  /// @brief Method .ctor, addr 0x35cd69c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3689b54, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35cd6f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3689bac, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method .ctor, addr 0x35cd510, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36899c8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor, addr 0x35cd614, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3689acc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* getStaticF_Empty();

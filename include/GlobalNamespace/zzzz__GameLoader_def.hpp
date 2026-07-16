@@ -44,10 +44,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36af6ac, size 0x398, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x376bd4c, size 0x450, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x36afa44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x376c19c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -59,15 +59,15 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameLoader>", modifiers: "",
-  // def_value: None }, CppParam { name: "_handle_5__2", ty:
+  // def_value: None }, CppParam { name: "_appInitHandle_5__2", ty:
   // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>", modifiers: "", def_value: None }, CppParam {
   // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>", modifiers: "", def_value: None }]
   constexpr GameLoader__Start_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::GameLoader> __4__this,
-                                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _handle_5__2,
+                                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _appInitHandle_5__2,
                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -81,8 +81,8 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameLoader> __4__this;
 
-  /// @brief Field <handle>5__2, offset: 0x30, size: 0x18, def value: None
-  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _handle_5__2;
+  /// @brief Field <appInitHandle>5__2, offset: 0x30, size: 0x18, def value: None
+  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _appInitHandle_5__2;
 
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __u__1;
@@ -96,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::GameLoader__Start_d__3, __t__builder) 
 
 static_assert(offsetof(::GlobalNamespace::GameLoader__Start_d__3, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLoader__Start_d__3, _handle_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLoader__Start_d__3, _appInitHandle_5__2) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameLoader__Start_d__3, __u__1) == 0x48, "Offset mismatch!");
 
@@ -121,12 +121,12 @@ public:
                           __cordl_internal_set__handle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
       _handle;
 
-  /// @brief Method HandleSceneContextPostInstall, addr 0x36af580, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneContextPostInstall, addr 0x376bbcc, size 0x17c, virtual false, abstract: false, final false
   inline void HandleSceneContextPostInstall();
 
   static inline ::GlobalNamespace::GameLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x36af4dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x376bb28, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__context() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
 
-  /// @brief Method .ctor, addr 0x36af6a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376bd48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,7 +159,7 @@ public:
   GameLoader(GameLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20960 };
 
   /// @brief Field kInitSceneAssetLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kInitSceneAssetLabel{ u"AppInit" };

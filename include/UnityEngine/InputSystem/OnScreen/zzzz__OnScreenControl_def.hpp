@@ -39,13 +39,13 @@ namespace UnityEngine::InputSystem::OnScreen {
 struct CORDL_TYPE OnScreenControl_OnScreenDeviceInfo {
 public:
   // Declarations
-  /// @brief Method AddControl, addr 0x645ad60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddControl, addr 0x6597b2c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo AddControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
-  /// @brief Method Destroy, addr 0x645acac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6597a78, size 0xb4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method RemoveControl, addr 0x645b3bc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RemoveControl, addr 0x6598188, size 0x118, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo RemoveControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
                                                ::UnityEngine::InputSystem::InputDevice* device, ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> firstControl) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -124,24 +124,24 @@ public:
   /// @brief Field s_nbActiveInstances, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_nbActiveInstances, put = setStaticF_s_nbActiveInstances)) int32_t s_nbActiveInstances;
 
-  /// @brief Method GetWarningMessage, addr 0x645b4d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetWarningMessage, addr 0x65982a0, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW GetWarningMessage();
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenControl* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x645b1b0, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6597f7c, size 0x20c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x645af0c, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6597cd8, size 0x2a4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method SendValueToControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline void SendValueToControl(TValue value);
 
-  /// @brief Method SentDefaultValueToControl, addr 0x645ad88, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SentDefaultValueToControl, addr 0x6597b54, size 0x130, virtual false, abstract: false, final false
   inline void SentDefaultValueToControl();
 
-  /// @brief Method SetupInputControl, addr 0x645a518, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method SetupInputControl, addr 0x65972e4, size 0x78c, virtual false, abstract: false, final false
   inline void SetupInputControl();
 
   constexpr ::UnityEngine::InputSystem::InputControl* const& __cordl_internal_get_m_Control() const;
@@ -162,20 +162,20 @@ public:
 
   constexpr void __cordl_internal_set_m_NextControlOnDevice(::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> value);
 
-  /// @brief Method .ctor, addr 0x645a4d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x659729c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo> getStaticF_s_OnScreenDevices();
 
   static inline int32_t getStaticF_s_nbActiveInstances();
 
-  /// @brief Method get_HasAnyActive, addr 0x645aeb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_HasAnyActive, addr 0x6597c84, size 0x54, virtual false, abstract: false, final false
   static inline bool get_HasAnyActive();
 
-  /// @brief Method get_control, addr 0x645aca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x6597a70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_controlPath, addr 0x645a4d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_controlPath, addr 0x65972a0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_controlPath();
 
   /// @brief Method get_controlPathInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -185,7 +185,7 @@ public:
 
   static inline void setStaticF_s_nbActiveInstances(int32_t value);
 
-  /// @brief Method set_controlPath, addr 0x645a4e0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_controlPath, addr 0x65972ac, size 0x38, virtual false, abstract: false, final false
   inline void set_controlPath(::StringW value);
 
   /// @brief Method set_controlPathInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -206,7 +206,7 @@ public:
   OnScreenControl(OnScreenControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8850 };
 
   /// @brief Field m_Control, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputControl* ___m_Control;

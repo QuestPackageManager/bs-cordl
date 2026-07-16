@@ -25,13 +25,13 @@ namespace Meta::XR::MultiplayerBlocks::Colocation {
 struct CORDL_TYPE ShareAndLocalizeParams {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x5942820, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a7bf24, size 0x2cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x593fe5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a79560, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestingPlayerId, uint64_t requestingPlayerOculusId, ::System::Guid anchorUUID);
 
-  /// @brief Method .ctor, addr 0x5942810, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a7bf14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestingPlayerId, uint64_t requestingPlayerOculusId, ::System::Guid anchorUUID, bool anchorFlowSucceeded);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr ShareAndLocalizeParams(uint64_t requestingPlayerId, uint64_t requestingPlayerOculusId, ::System::Guid anchorUUID, bool anchorFlowSucceeded) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

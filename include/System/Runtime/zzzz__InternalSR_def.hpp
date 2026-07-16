@@ -23,7 +23,7 @@ namespace System::Runtime {
 class CORDL_TYPE InternalSR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EtwRegistrationFailed, addr 0x6049d14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EtwRegistrationFailed, addr 0x6184e10, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW EtwRegistrationFailed(::System::Object* arg);
 
 protected:
@@ -41,7 +41,7 @@ public:
   InternalSR(InternalSR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

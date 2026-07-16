@@ -74,20 +74,20 @@ public:
   /// @brief Field reverseOrder, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_reverseOrder, put = __cordl_internal_set_reverseOrder)) bool reverseOrder;
 
-  /// @brief Method AddStatus, addr 0x5e95b04, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method AddStatus, addr 0x5fd0c00, size 0x11c, virtual true, abstract: false, final false
   inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  /// @brief Method Build, addr 0x5e95c28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x5fd0d24, size 0x8, virtual true, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Dispose, addr 0x5e95cb0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5fd0dac, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::UnityTls_unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::UnityTls_unitytls_x509list* ownedList, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, bool reverseOrder);
 
-  /// @brief Method Reset, addr 0x5e95c30, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5fd0d2c, size 0x80, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* const& __cordl_internal_get_chainStatusList() const;
@@ -126,22 +126,22 @@ public:
 
   constexpr void __cordl_internal_set_reverseOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x5e94184, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fcf280, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::UnityTls_unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method .ctor, addr 0x5e955c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd06c4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::UnityTls_unitytls_x509list* ownedList, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, bool reverseOrder);
 
-  /// @brief Method get_ChainElements, addr 0x5e95844, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x5fd0940, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy, addr 0x5e95c20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x5fd0d1c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_IsValid, addr 0x5e95814, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x5fd0910, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_NativeCertificateChain, addr 0x5e9583c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeCertificateChain, addr 0x5fd0938, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509list_ref get_NativeCertificateChain();
 
 protected:
@@ -159,7 +159,7 @@ public:
   X509ChainImplUnityTls(X509ChainImplUnityTls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10978 };
 
   /// @brief Field elements, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* ___elements;

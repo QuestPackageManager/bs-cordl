@@ -42,3 +42,4 @@ constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::InOutBounce{ st
 constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::BeatSaberInOutBack{ static_cast<int32_t>(0x20) };
 constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::BeatSaberInOutElastic{ static_cast<int32_t>(0x21) };
 constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::BeatSaberInOutBounce{ static_cast<int32_t>(0x22) };
+constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::AnimationCurve{ static_cast<int32_t>(0x23) };

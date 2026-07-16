@@ -23,15 +23,15 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE SignerID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x36151b8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x36d1670, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3615110, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x36d15c8, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Cms::SignerID* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36152fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d17b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

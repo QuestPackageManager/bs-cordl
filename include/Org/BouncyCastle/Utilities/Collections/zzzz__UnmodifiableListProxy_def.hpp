@@ -43,19 +43,19 @@ public:
   /// @brief Field l, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) ::System::Collections::IList* l;
 
-  /// @brief Method Contains, addr 0x356c090, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x3628548, size 0xb8, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method CopyTo, addr 0x356c148, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3628600, size 0xbc, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x356c2ac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3628764, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetValue, addr 0x356c600, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3628ab8, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(int32_t i);
 
-  /// @brief Method IndexOf, addr 0x356c350, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3628808, size 0xb8, virtual true, abstract: false, final false
   inline int32_t IndexOf(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList* l);
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set_l(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x3568c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36250d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* l);
 
-  /// @brief Method get_Count, addr 0x356c204, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x36286bc, size 0xa8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x356c408, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x36288c0, size 0xa8, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized, addr 0x356c4b0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3628968, size 0xa8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x356c558, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3628a10, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
 protected:

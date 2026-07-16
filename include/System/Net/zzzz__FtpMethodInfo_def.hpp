@@ -52,10 +52,10 @@ public:
   /// @brief Field s_knownMethodInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_knownMethodInfo, put = setStaticF_s_knownMethodInfo)) ::ArrayW<::System::Net::FtpMethodInfo*> s_knownMethodInfo;
 
-  /// @brief Method GetMethodInfo, addr 0x62c2260, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x63fe2fc, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Net::FtpMethodInfo* GetMethodInfo(::StringW method);
 
-  /// @brief Method HasFlag, addr 0x62c221c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x63fe2b8, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Net::FtpMethodFlags flags);
 
   static inline ::System::Net::FtpMethodInfo* New_ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
@@ -84,21 +84,21 @@ public:
 
   constexpr void __cordl_internal_set_Operation(::System::Net::FtpOperation value);
 
-  /// @brief Method .ctor, addr 0x62c220c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fe2a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
   static inline ::ArrayW<::System::Net::FtpMethodInfo*> getStaticF_s_knownMethodInfo();
 
-  /// @brief Method get_IsCommandOnly, addr 0x62c222c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCommandOnly, addr 0x63fe2c8, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCommandOnly();
 
-  /// @brief Method get_IsDownload, addr 0x62c2248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDownload, addr 0x63fe2e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDownload();
 
-  /// @brief Method get_IsUpload, addr 0x62c223c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpload, addr 0x63fe2d8, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsUpload();
 
-  /// @brief Method get_ShouldParseForResponseUri, addr 0x62c2254, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldParseForResponseUri, addr 0x63fe2f0, size 0xc, virtual false, abstract: false, final false
   inline bool get_ShouldParseForResponseUri();
 
   static inline void setStaticF_s_knownMethodInfo(::ArrayW<::System::Net::FtpMethodInfo*> value);
@@ -118,7 +118,7 @@ public:
   FtpMethodInfo(FtpMethodInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11443 };
 
   /// @brief Field Method, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Method;

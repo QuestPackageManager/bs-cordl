@@ -65,21 +65,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x59e3d60, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x5b1da30, size 0x184, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Security::AccessControl::GenericAce*> array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x59e1d20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5b1b9f0, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceEnumerator* GetEnumerator();
 
   static inline ::System::Security::AccessControl::GenericAcl* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x59e3ee4, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x5b1dbb4, size 0x88, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x59e3f6c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5b1dc3c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x59e1410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1b0e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint8_t getStaticF_AclRevision();
@@ -91,13 +91,13 @@ public:
   /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x59e3d54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x5b1da24, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
   /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x59e3d5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x5b1da2c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

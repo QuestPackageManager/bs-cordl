@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)()>(&::System::Threading::ReaderWriterLock::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5b7c6bc;
+  constexpr static std::size_t addrs = 0x5cb683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLock*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)()>(&::System::Threading::ReaderWriterLock::Finalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b7c780;
+  constexpr static std::size_t addrs = 0x5cb6900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLock::*)()>(&::System::Threading::ReaderWriterLock::get_IsWriterLockHeld)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5b7c784;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5cb6904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLock*>(), { "get_IsWriterLockHeld", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)(int32_t)>(&::System::Threading::ReaderWriterLock::AcquireReaderLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b7c864;
+  constexpr static std::size_t addrs = 0x5cb69e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)(int32_t, int32_t)>(&::System::Threading::ReaderWriterLock::AcquireReaderLock)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x5b7c86c;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x5cb69e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)(int32_t)>(&::System::Threading::ReaderWriterLock::AcquireWriterLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b7cdac;
+  constexpr static std::size_t addrs = 0x5cb6f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)(int32_t, int32_t)>(&::System::Threading::ReaderWriterLock::AcquireWriterLock)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5b7cc00;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x5cb6d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)()>(&::System::Threading::ReaderWriterLock::ReleaseReaderLock)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5b7cdb4;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x5cb6f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLock*>(), { "ReleaseReaderLock", {}, {} })));
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)(int32_t, int32_t)>(&::System::Threading::ReaderWriterLock::ReleaseReaderLock)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5b7d0a4;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5cb71f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,8 +122,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)()>(&::System::Threading::ReaderWriterLock::ReleaseWriterLock)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5b7cf78;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5cb70d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLock*>(), { "ReleaseWriterLock", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLock::*)(int32_t)>(&::System::Threading::ReaderWriterLock::ReleaseWriterLock)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b7d1c0;
+  constexpr static std::size_t addrs = 0x5cb730c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,8 +147,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLock::*)()>(&::System::Threading::ReaderWriterLock::HasWriterLock)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5b7cbcc;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5cb6d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLock*>(), { "HasWriterLock", {}, {} })));

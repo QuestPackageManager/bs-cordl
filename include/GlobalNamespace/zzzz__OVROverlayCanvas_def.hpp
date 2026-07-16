@@ -119,7 +119,7 @@ public:
   static ::GlobalNamespace::OVROverlayCanvas_DrawMode const TransparentDefaultAlpha;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7234 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -174,7 +174,7 @@ public:
   static ::GlobalNamespace::OVROverlayCanvas_CanvasShape const Flat;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7235 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -293,48 +293,48 @@ public:
   /// @brief Field shape, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_shape, put = __cordl_internal_set_shape)) ::GlobalNamespace::OVROverlayCanvas_CanvasShape shape;
 
-  /// @brief Method ApplyViewportScale, addr 0x5d3f954, size 0xa0c, virtual false, abstract: false, final false
+  /// @brief Method ApplyViewportScale, addr 0x5e77b7c, size 0xa0c, virtual false, abstract: false, final false
   inline void ApplyViewportScale();
 
-  /// @brief Method CalculateCurveViewBillboardMatrix, addr 0x5d406c4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method CalculateCurveViewBillboardMatrix, addr 0x5e788ec, size 0x328, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 CalculateCurveViewBillboardMatrix(::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method InitializeRenderTexture, addr 0x5d3e9e8, size 0x9a0, virtual false, abstract: false, final false
+  /// @brief Method InitializeRenderTexture, addr 0x5e76c10, size 0x9a0, virtual false, abstract: false, final false
   inline void InitializeRenderTexture();
 
-  /// @brief Method LateUpdate, addr 0x5d40628, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5e78850, size 0x98, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LineCircleIntersection, addr 0x5d40cd8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LineCircleIntersection, addr 0x5e78f00, size 0xcc, virtual false, abstract: false, final false
   static inline bool LineCircleIntersection(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 dp, ::UnityEngine::Vector2 center, float_t radius, ::by_ref<float_t> distance);
 
   static inline ::GlobalNamespace::OVROverlayCanvas* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d3f388, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e775b0, size 0xe4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5d3f568, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e77790, size 0x9c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5d3f46c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e77694, size 0xfc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x5d406c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5e788e8, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RenderCamera, addr 0x5d40360, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method RenderCamera, addr 0x5e78588, size 0x2c8, virtual false, abstract: false, final false
   inline void RenderCamera();
 
-  /// @brief Method ShouldRender, addr 0x5d3f604, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method ShouldRender, addr 0x5e7782c, size 0x314, virtual true, abstract: false, final false
   inline bool ShouldRender();
 
-  /// @brief Method Start, addr 0x5d3e544, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e7676c, size 0x4a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransformRay, addr 0x5d409ec, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method TransformRay, addr 0x5e78c14, size 0x2ec, virtual true, abstract: false, final false
   inline ::UnityEngine::Ray TransformRay(::UnityEngine::Ray ray);
 
-  /// @brief Method Update, addr 0x5d3f918, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e77b40, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -505,21 +505,21 @@ public:
 
   constexpr void __cordl_internal_set_shape(::GlobalNamespace::OVROverlayCanvas_CanvasShape value);
 
-  /// @brief Method .ctor, addr 0x5d40da4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e78fcc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF__Corners();
 
   static inline ::ArrayW<::UnityEngine::Plane> getStaticF__FrustumPlanes();
 
-  /// @brief Method get_overlayEnabled, addr 0x5d3e430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overlayEnabled, addr 0x5e76658, size 0x8, virtual false, abstract: false, final false
   inline bool get_overlayEnabled();
 
   static inline void setStaticF__Corners(::ArrayW<::UnityEngine::Vector3> value);
 
   static inline void setStaticF__FrustumPlanes(::ArrayW<::UnityEngine::Plane> value);
 
-  /// @brief Method set_overlayEnabled, addr 0x5d3e438, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_overlayEnabled, addr 0x5e76660, size 0x10c, virtual false, abstract: false, final false
   inline void set_overlayEnabled(bool value);
 
 protected:
@@ -537,7 +537,7 @@ public:
   OVROverlayCanvas(OVROverlayCanvas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7236 };
 
   /// @brief Field kOptimalResolutionScale offset 0xffffffff size 0x4
   static constexpr float_t kOptimalResolutionScale{ static_cast<float_t>(2.0f) };

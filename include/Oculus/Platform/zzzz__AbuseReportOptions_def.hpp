@@ -29,15 +29,15 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5c797f4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5db1a1c, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AbuseReportOptions* New_ctor();
 
-  /// @brief Method SetPreventPeopleChooser, addr 0x5c79608, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetPreventPeopleChooser, addr 0x5db1830, size 0x6c, virtual false, abstract: false, final false
   inline void SetPreventPeopleChooser(bool value);
 
-  /// @brief Method SetReportType, addr 0x5c796f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x5db1920, size 0x6c, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5c79548, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db1770, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5c797e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5db1a10, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AbuseReportOptions* options);
 
 protected:
@@ -67,7 +67,7 @@ public:
   AbuseReportOptions(AbuseReportOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

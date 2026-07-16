@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(bool atMaxPartySize);
 
-  /// @brief Method .ctor, addr 0x57dd4b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fda58, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(bool atMaxPartySize);
 
 protected:
@@ -40,7 +40,7 @@ public:
   PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6621 };
 
   /// @brief Field kPlayingMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayingMultiplayerLobbyRichPresenceLocalizationKey{ u"PLAYING_MULTIPLAYER_PRESENCE" };

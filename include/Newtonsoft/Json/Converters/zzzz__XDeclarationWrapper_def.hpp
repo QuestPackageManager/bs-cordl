@@ -60,22 +60,22 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x5c65e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9e0b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method get_Declaration, addr 0x5c65e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Declaration, addr 0x5d9e0a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method get_Encoding, addr 0x5c65eb8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x5d9e0e0, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_NodeType, addr 0x5c65e98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x5d9e0c0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Standalone, addr 0x5c65ee8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x5d9e110, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x5c65ea0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x5d9e0c8, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -84,10 +84,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x5c65ed0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x5d9e0f8, size 0x18, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x5c65f00, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x5d9e128, size 0x18, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   XDeclarationWrapper(XDeclarationWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13652 };
 
   /// @brief Field <Declaration>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Linq::XDeclaration* ____Declaration_k__BackingField;

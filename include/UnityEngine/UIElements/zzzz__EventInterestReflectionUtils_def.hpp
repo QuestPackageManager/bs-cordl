@@ -98,14 +98,14 @@ public:
   __declspec(property(get = getStaticF_s_EventCategories,
                       put = setStaticF_s_EventCategories)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* s_EventCategories;
 
-  /// @brief Method ComputeDefaultEventInterests, addr 0x6b73598, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ComputeDefaultEventInterests, addr 0x6cc7450, size 0x1f8, virtual false, abstract: false, final false
   static inline int32_t ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName);
 
-  /// @brief Method GetDefaultEventInterests, addr 0x6b73274, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEventInterests, addr 0x6cc712c, size 0x324, virtual false, abstract: false, final false
   static inline void GetDefaultEventInterests(::System::Type* elementType, ::by_ref<int32_t> defaultActionCategories, ::by_ref<int32_t> defaultActionAtTargetCategories,
                                               ::by_ref<int32_t> handleEventTrickleDownCategories, ::by_ref<int32_t> handleEventBubbleUpCategories);
 
-  /// @brief Method GetEventCategory, addr 0x6b73790, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetEventCategory, addr 0x6cc7648, size 0x224, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCategory GetEventCategory(::System::Type* eventType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* getStaticF_s_DefaultEventInterests();

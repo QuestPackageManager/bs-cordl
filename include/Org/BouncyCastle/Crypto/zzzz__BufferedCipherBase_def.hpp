@@ -39,19 +39,19 @@ public:
   /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x3339820, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f5cd8, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
 
   /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x3339924, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f5ddc, size 0x5c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x33398f8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f5db0, size 0x2c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x3339844, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f5cfc, size 0xb4, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
   /// @brief Method GetBlockSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -71,25 +71,25 @@ public:
   /// @brief Method ProcessByte, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte, addr 0x3339670, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x33f5b28, size 0xb0, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x3339720, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x33f5bd8, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input);
 
   /// @brief Method ProcessBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes, addr 0x3339770, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x33f5c28, size 0xb0, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x3339744, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x33f5bfc, size 0x2c, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, int32_t outOff);
 
   /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x33399f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f5ea8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_EmptyBuffer();

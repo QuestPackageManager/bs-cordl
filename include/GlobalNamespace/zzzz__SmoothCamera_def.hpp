@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(SmoothCamera)
 namespace GlobalNamespace {
 class MainCamera;
@@ -51,19 +52,25 @@ public:
   /// @brief Field _thirdPersonPosition, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get__thirdPersonPosition, put = __cordl_internal_set__thirdPersonPosition)) ::UnityEngine::Vector3 _thirdPersonPosition;
 
-  /// @brief Method Init, addr 0x58bf910, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Field _xrDisplaySubsystem, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__xrDisplaySubsystem, put = __cordl_internal_set__xrDisplaySubsystem)) Il2CppObject* _xrDisplaySubsystem;
+
+  /// @brief Field _xrOriginalMirrorViewBlitMode, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__xrOriginalMirrorViewBlitMode, put = __cordl_internal_set__xrOriginalMirrorViewBlitMode)) int32_t _xrOriginalMirrorViewBlitMode;
+
+  /// @brief Method Init, addr 0x59f0034, size 0x1e4, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x58bfafc, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59f02c0, size 0x240, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58bfae0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59f0278, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x58bfac4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59f0218, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -94,6 +101,14 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__thirdPersonPosition();
 
+  constexpr Il2CppObject* const& __cordl_internal_get__xrDisplaySubsystem() const;
+
+  constexpr Il2CppObject*& __cordl_internal_get__xrDisplaySubsystem();
+
+  constexpr int32_t const& __cordl_internal_get__xrOriginalMirrorViewBlitMode() const;
+
+  constexpr int32_t& __cordl_internal_get__xrOriginalMirrorViewBlitMode();
+
   constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
   constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
@@ -108,7 +123,11 @@ public:
 
   constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x58bfd3c, size 0x4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__xrDisplaySubsystem(Il2CppObject* value);
+
+  constexpr void __cordl_internal_set__xrOriginalMirrorViewBlitMode(int32_t value);
+
+  /// @brief Method .ctor, addr 0x59f0500, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +145,7 @@ public:
   SmoothCamera(SmoothCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6244 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
@@ -149,6 +168,12 @@ public:
   /// @brief Field _positionSmooth, offset: 0x50, size: 0x4, def value: None
   float_t ____positionSmooth;
 
+  /// @brief Field _xrDisplaySubsystem, offset: 0x58, size: 0x8, def value: None
+  Il2CppObject* ____xrDisplaySubsystem;
+
+  /// @brief Field _xrOriginalMirrorViewBlitMode, offset: 0x60, size: 0x4, def value: None
+  int32_t ____xrOriginalMirrorViewBlitMode;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,6 +191,10 @@ static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____rotationSmooth) == 0
 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____positionSmooth) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SmoothCamera) == 0x58, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____xrDisplaySubsystem) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____xrOriginalMirrorViewBlitMode) == 0x60, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::SmoothCamera) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace

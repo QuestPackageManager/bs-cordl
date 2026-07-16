@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IEnumerableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasValues, addr 0x6c5a0f4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method HasValues, addr 0x6dadfac, size 0x2c8, virtual false, abstract: false, final false
   static inline bool HasValues(::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
 protected:

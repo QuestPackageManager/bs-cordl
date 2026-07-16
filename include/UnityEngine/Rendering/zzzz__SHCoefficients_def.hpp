@@ -36,37 +36,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>*();
 
-  /// @brief Method Equals, addr 0x6672644, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x67afd50, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6672438, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x67afb44, size 0x20c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SHCoefficients other);
 
-  /// @brief Method GetHashCode, addr 0x66726d8, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67afde4, size 0x17c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSHA, addr 0x6672290, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSHA, addr 0x67af99c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetSHA(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t i);
 
-  /// @brief Method GetSHB, addr 0x6672338, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetSHB, addr 0x67afa44, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetSHB(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t i);
 
-  /// @brief Method GetSHC, addr 0x66723cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetSHC, addr 0x67afad8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetSHC(::UnityEngine::Rendering::SphericalHarmonicsL2 sh);
 
-  /// @brief Method .ctor, addr 0x6672138, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67af844, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::SphericalHarmonicsL2 sh);
 
-  /// @brief Method .ctor, addr 0x66723e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67afaec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::UnityEngine::Vector4 probesOcclusion);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>* i___System__IEquatable_1___UnityEngine__Rendering__SHCoefficients_();
 
-  /// @brief Method op_Equality, addr 0x6672854, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x67aff60, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SHCoefficients left, ::UnityEngine::Rendering::SHCoefficients right);
 
-  /// @brief Method op_Inequality, addr 0x6672888, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x67aff94, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::SHCoefficients left, ::UnityEngine::Rendering::SHCoefficients right);
 
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
                            ::UnityEngine::Vector4 SHC, ::UnityEngine::Vector4 ProbesOcclusion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12228 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

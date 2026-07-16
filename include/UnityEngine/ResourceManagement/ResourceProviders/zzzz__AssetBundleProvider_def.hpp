@@ -66,7 +66,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Release>b__0, addr 0x67d8a38, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <Release>b__0, addr 0x6917508, size 0x104, virtual false, abstract: false, final false
   inline void _Release_b__0(::UnityEngine::AsyncOperation* op);
 
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const& __cordl_internal_get_location() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x67d88d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69173a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   AssetBundleProvider___c__DisplayClass12_0(AssetBundleProvider___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18738 };
 
   /// @brief Field location, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___location;
@@ -119,47 +119,47 @@ public:
   __declspec(property(get = getStaticF_m_UnloadingBundles,
                       put = setStaticF_m_UnloadingBundles)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::AssetBundleUnloadOperation*>* m_UnloadingBundles;
 
-  /// @brief Method CreateCacheKeyForLocation, addr 0x67d88f0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CreateCacheKeyForLocation, addr 0x69173c0, size 0x8c, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*
   CreateCacheKeyForLocation(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 
-  /// @brief Method GetDefaultType, addr 0x67d8508, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultType, addr 0x6916fd8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Init, addr 0x67d7f80, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6916a50, size 0xc4, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x67d8320, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x6916df0, size 0x1e8, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
-  /// @brief Method Release, addr 0x67d8568, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x6917038, size 0x370, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method ShouldRetryDownloadError, addr 0x67d88dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ShouldRetryDownloadError, addr 0x69173ac, size 0x14, virtual true, abstract: false, final false
   inline bool ShouldRetryDownloadError(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult);
 
-  /// @brief Method WaitForAllUnloadingBundlesToComplete, addr 0x67d8224, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method WaitForAllUnloadingBundlesToComplete, addr 0x6916cf4, size 0xfc, virtual false, abstract: false, final false
   static inline void WaitForAllUnloadingBundlesToComplete();
 
-  /// @brief Method .ctor, addr 0x67d897c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691744c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::AssetBundleUnloadOperation*>* getStaticF_m_UnloadingBundles();
 
-  /// @brief Method get_AssetBundleCount, addr 0x67d8184, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_AssetBundleCount, addr 0x6916c54, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t get_AssetBundleCount();
 
-  /// @brief Method get_UnloadingAssetBundleCount, addr 0x67d8100, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_UnloadingAssetBundleCount, addr 0x6916bd0, size 0x84, virtual false, abstract: false, final false
   static inline int32_t get_UnloadingAssetBundleCount();
 
-  /// @brief Method get_UnloadingBundles, addr 0x67d8044, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_UnloadingBundles, addr 0x6916b14, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::AssetBundleUnloadOperation*>* get_UnloadingBundles();
 
   static inline void setStaticF_m_UnloadingBundles(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::AssetBundleUnloadOperation*>* value);
 
-  /// @brief Method set_UnloadingBundles, addr 0x67d80a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_UnloadingBundles, addr 0x6916b70, size 0x60, virtual false, abstract: false, final false
   static inline void set_UnloadingBundles(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::AssetBundleUnloadOperation*>* value);
 
 protected:
@@ -177,7 +177,7 @@ public:
   AssetBundleProvider(AssetBundleProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

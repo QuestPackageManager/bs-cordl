@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Interop::SafeEventLogWriteHandle::*)()>(&::System::Runtime::Interop::SafeEventLogWriteHandle::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6049d94;
+  constexpr static std::size_t addrs = 0x6184e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Interop::SafeEventLogWriteHandle*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Interop::SafeEventLogWriteHandle* (*)(::StringW, ::StringW)>(
     &::System::Runtime::Interop::SafeEventLogWriteHandle::RegisterEventSource)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6049de8;
+  constexpr static std::size_t addrs = 0x6184ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Interop::SafeEventLogWriteHandle*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::System::Runtime::Interop::SafeEventLogWriteHandle::DeregisterEventSource)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6049f98;
+  constexpr static std::size_t addrs = 0x6185094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Interop::SafeEventLogWriteHandle::*)()>(&::System::Runtime::Interop::SafeEventLogWriteHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604a020;
+  constexpr static std::size_t addrs = 0x618511c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Interop::SafeEventLogWriteHandle*>(),

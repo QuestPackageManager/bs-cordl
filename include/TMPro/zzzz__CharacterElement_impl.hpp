@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::CharacterElement::*)()>(&::TMPro::CharacterElement::get_Unicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6862774;
+  constexpr static std::size_t addrs = 0x69a1258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::CharacterElement>(), { "get_Unicode", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::CharacterElement::*)(uint32_t)>(&::TMPro::CharacterElement::set_Unicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686277c;
+  constexpr static std::size_t addrs = 0x69a1260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::CharacterElement>(), { "set_Unicode", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::CharacterElement::*)(::TMPro::TMP_TextElement*)>(&::TMPro::CharacterElement::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6862784;
+  constexpr static std::size_t addrs = 0x69a1268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

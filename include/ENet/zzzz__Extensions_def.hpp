@@ -21,7 +21,7 @@ namespace ENet {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringLength, addr 0x574f2e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x5896be8, size 0x94, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t> data);
 
 protected:
@@ -39,7 +39,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

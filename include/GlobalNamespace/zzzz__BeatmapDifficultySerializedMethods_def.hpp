@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x31c5698, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x3258bb4, size 0x164, virtual false, abstract: false, final false
   static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ::by_ref<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
-  /// @brief Method SerializedName, addr 0x31c55d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x3258aec, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -44,7 +44,7 @@ public:
   BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21182 };
 
   /// @brief Field kDifficultyEasySerializedName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDifficultyEasySerializedName{ u"Easy" };

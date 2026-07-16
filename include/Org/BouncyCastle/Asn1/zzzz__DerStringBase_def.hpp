@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1String*() noexcept;
 
-  /// @brief Method Asn1GetHashCode, addr 0x328e90c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x334adc4, size 0x20, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
   /// @brief Method GetString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerStringBase* New_ctor();
 
-  /// @brief Method ToString, addr 0x328e900, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x334adb8, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x328e8fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334adb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1String"

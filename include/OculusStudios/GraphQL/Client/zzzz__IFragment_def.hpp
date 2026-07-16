@@ -10,6 +10,9 @@ class JToken;
 namespace OculusStudios::GraphQL::Client {
 class GraphQLModel;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
 class IFragment;
@@ -27,15 +30,15 @@ public:
   /// @brief Method CovertNestedFragments, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CovertNestedFragments(::Newtonsoft::Json::Linq::JToken* json);
 
-  /// @brief Method GetNestedFragment, addr 0x5de8580, size 0x8, virtual true, abstract: false, final false
-  inline ::OculusStudios::GraphQL::Client::GraphQLModel* GetNestedFragment();
+  /// @brief Method GetNestedFragments, addr 0x5f207a8, size 0x98, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::OculusStudios::GraphQL::Client::GraphQLModel*>* GetNestedFragments();
 
   // Ctor Parameters [CppParam { name: "", ty: "IFragment", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IFragment(IFragment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

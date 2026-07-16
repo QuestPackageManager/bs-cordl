@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::PlaymodeOptions)>(&::GlobalNamespace::PlaymodeOptionsExtensions::IsRecorderActive)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x364d464;
+  constexpr static std::size_t addrs = 0x3709d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

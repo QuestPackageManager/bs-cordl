@@ -37,7 +37,7 @@ public:
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
 
-  /// @brief Method FromOidValue, addr 0x62608e8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FromOidValue, addr 0x639c984, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::Oid* FromOidValue(::StringW oidValue, ::System::Security::Cryptography::OidGroup group);
 
   static inline ::System::Security::Cryptography::Oid* New_ctor();
@@ -68,28 +68,28 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62607f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639c890, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x62607f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639c894, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x6260884, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639c920, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method .ctor, addr 0x626087c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639c918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName);
 
-  /// @brief Method .ctor, addr 0x6260a0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639caa8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group);
 
-  /// @brief Method get_FriendlyName, addr 0x6260a28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_FriendlyName, addr 0x639cac4, size 0x88, virtual false, abstract: false, final false
   inline ::StringW get_FriendlyName();
 
-  /// @brief Method get_Value, addr 0x6260a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x639cab4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x6260a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x639cabc, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   Oid(Oid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11143 };
 
   /// @brief Field _value, offset: 0x10, size: 0x8, def value: None
   ::StringW ____value;

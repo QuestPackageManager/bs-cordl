@@ -71,23 +71,23 @@ public:
   /// @brief Field smallCoverImage, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_smallCoverImage, put = __cordl_internal_set_smallCoverImage)) ::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
-  /// @brief Method AddAdditionalBeatmapLevel, addr 0x3665738, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalBeatmapLevel, addr 0x37226a0, size 0xf4, virtual false, abstract: false, final false
   inline void AddAdditionalBeatmapLevel(::GlobalNamespace::BeatmapLevel* levelToAdd);
 
-  /// @brief Method AllBeatmapLevels, addr 0x3665664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllBeatmapLevels, addr 0x37225cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* AllBeatmapLevels();
 
-  /// @brief Method ClearAdditionalBeatmapLevels, addr 0x366582c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearAdditionalBeatmapLevels, addr 0x3722794, size 0xbc, virtual false, abstract: false, final false
   inline void ClearAdditionalBeatmapLevels();
 
-  /// @brief Method CreateLevelPackForFiltering, addr 0x366566c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateLevelPackForFiltering, addr 0x37225d4, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevelPack* CreateLevelPackForFiltering(::ArrayW<::GlobalNamespace::BeatmapLevel*> beatmapLevels);
 
   static inline ::GlobalNamespace::BeatmapLevelPack* New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
                                                               ::GlobalNamespace::PackBuyOption packBuyOption, ::ArrayW<::GlobalNamespace::BeatmapLevel*> beatmapLevels,
                                                               ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
-  /// @brief Method SetAdditionalBeatmapLevels, addr 0x36658e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetAdditionalBeatmapLevels, addr 0x3722850, size 0xe0, virtual false, abstract: false, final false
   inline void SetAdditionalBeatmapLevels(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* additionalBeatmapLevels);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get__additionalBeatmapLevels() const;
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x3665550, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37224b8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
                     ::GlobalNamespace::PackBuyOption packBuyOption, ::ArrayW<::GlobalNamespace::BeatmapLevel*> beatmapLevels, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
@@ -169,7 +169,7 @@ public:
   BeatmapLevelPack(BeatmapLevelPack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14947 };
 
   /// @brief Field kFilteredLevelPackId offset 0xffffffff size 0x8
   static constexpr ::ConstString kFilteredLevelPackId{ u"filtered_pack_id" };

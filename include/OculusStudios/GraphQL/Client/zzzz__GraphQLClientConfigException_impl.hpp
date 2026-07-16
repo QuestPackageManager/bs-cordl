@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLClientConfigException::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLClientConfigException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5de4858;
+  constexpr static std::size_t addrs = 0x5f1ca80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClientConfigException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLClientConfigException::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::GraphQLClientConfigException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5de485c;
+  constexpr static std::size_t addrs = 0x5f1ca84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

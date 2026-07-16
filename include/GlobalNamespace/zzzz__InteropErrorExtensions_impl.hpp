@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Interop_ErrorInfo (*)(::GlobalNamespace::Interop_Error)>(&::GlobalNamespace::InteropErrorExtensions::Info)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597258c;
+  constexpr static std::size_t addrs = 0x5aaaef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

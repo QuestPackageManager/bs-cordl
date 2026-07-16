@@ -35,7 +35,7 @@ namespace UnityEngine {
 class CORDL_TYPE AnimationState_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x68dc808, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6a33720, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::AnimationState* animationState);
 
 protected:
@@ -53,7 +53,7 @@ public:
   AnimationState_BindingsMarshaller(AnimationState_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,31 +80,31 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68dc804, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3371c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x68dbc20, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x6a32b38, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method get_clip_Injected, addr 0x68dc7c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip_Injected, addr 0x6a336e0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_clip_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_normalizedTime, addr 0x68dc670, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x6a33588, size 0x60, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_normalizedTime_Injected, addr 0x68dc6d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime_Injected, addr 0x6a335e8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_normalizedTime_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_speed, addr 0x68dc71c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x6a33634, size 0x60, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_speed_Injected, addr 0x68dc77c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed_Injected, addr 0x6a33694, size 0x4c, virtual false, abstract: false, final false
   static inline void set_speed_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_time, addr 0x68dc5c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x6a334dc, size 0x60, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_time_Injected, addr 0x68dc624, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time_Injected, addr 0x6a3353c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_time_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   AnimationState(AnimationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

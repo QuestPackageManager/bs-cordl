@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__presetNameLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3670df8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_presetNameLocalizationKey, addr 0x3670e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presetNameLocalizationKey, addr 0x372d068, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetNameLocalizationKey();
 
 protected:
@@ -54,7 +54,7 @@ public:
   NamedPreset(NamedPreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15026 };
 
   /// @brief Field _presetNameLocalizationKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ____presetNameLocalizationKey;

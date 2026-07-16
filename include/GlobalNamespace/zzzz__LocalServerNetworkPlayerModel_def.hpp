@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_localPort(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b92cf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccbd84, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig(LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21534 };
 
   /// @brief Field localPort, offset: 0x68, size: 0x4, def value: None
   int32_t ___localPort;
@@ -139,17 +139,17 @@ public:
   /// @brief Method CreatePartyConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T2> inline bool CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config);
 
-  /// @brief Method GetConnectToServerParams, addr 0x5b92ae4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetConnectToServerParams, addr 0x5ccbb78, size 0xc8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LocalServerConnectionManager*>*
   GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
 
-  /// @brief Method GetStartClientParams, addr 0x5b92bac, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetStartClientParams, addr 0x5ccbc40, size 0xa8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LocalServerConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                                                             ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::LocalServerNetworkPlayerModel* New_ctor();
 
-  /// @brief Method RefreshPublicServers, addr 0x5b92a58, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method RefreshPublicServers, addr 0x5ccbaec, size 0x8c, virtual true, abstract: false, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
@@ -172,22 +172,22 @@ public:
 
   constexpr void __cordl_internal_set__localPort(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b92c54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccbce8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_code, addr 0x5b92900, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_code, addr 0x5ccb994, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_configuration, addr 0x5b92960, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x5ccb9f4, size 0x7c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_partyOwnerId, addr 0x5b92958, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_partyOwnerId, addr 0x5ccb9ec, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_partyOwnerId();
 
-  /// @brief Method get_secret, addr 0x5b928a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_secret, addr 0x5ccb93c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_selectionMask, addr 0x5b929dc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x5ccba70, size 0x7c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
 protected:
@@ -205,7 +205,7 @@ public:
   LocalServerNetworkPlayerModel(LocalServerNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21535 };
 
   /// @brief Field _cachedConnectToServerParams, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams* ____cachedConnectToServerParams;

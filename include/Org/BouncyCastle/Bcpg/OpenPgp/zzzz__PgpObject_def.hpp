@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34bc9bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3578e74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

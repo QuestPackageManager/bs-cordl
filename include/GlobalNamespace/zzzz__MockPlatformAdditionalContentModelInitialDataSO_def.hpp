@@ -27,21 +27,26 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlatformAdditionalContentModelInitialDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _levelPacksEntitlements, offset 0x20, size 0x8
+  /// @brief Field _levelPacksEntitlements, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__levelPacksEntitlements, put = __cordl_internal_set__levelPacksEntitlements)) ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*>
       _levelPacksEntitlements;
 
-  /// @brief Field _levelsEntitlements, offset 0x18, size 0x8
+  /// @brief Field _levelsEntitlements, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelsEntitlements, put = __cordl_internal_set__levelsEntitlements)) ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> _levelsEntitlements;
 
-  /// @brief Field _packBetterBuyThanLevel, offset 0x28, size 0x1
+  /// @brief Field _packBetterBuyThanLevel, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__packBetterBuyThanLevel, put = __cordl_internal_set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
+
+  /// @brief Field _useCustomEntitlement, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__useCustomEntitlement, put = __cordl_internal_set__useCustomEntitlement)) bool _useCustomEntitlement;
 
   __declspec(property(get = get_levelPacksEntitlements)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelPacksEntitlements;
 
   __declspec(property(get = get_levelsEntitlements)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelsEntitlements;
 
   __declspec(property(get = get_packBetterBuyThanLevel)) bool packBetterBuyThanLevel;
+
+  __declspec(property(get = get_useCustomEntitlement)) bool useCustomEntitlement;
 
   static inline ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* New_ctor();
 
@@ -57,23 +62,32 @@ public:
 
   constexpr bool& __cordl_internal_get__packBetterBuyThanLevel();
 
+  constexpr bool const& __cordl_internal_get__useCustomEntitlement() const;
+
+  constexpr bool& __cordl_internal_get__useCustomEntitlement();
+
   constexpr void __cordl_internal_set__levelPacksEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> value);
 
   constexpr void __cordl_internal_set__levelsEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> value);
 
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  /// @brief Method .ctor, addr 0x363e5fc, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__useCustomEntitlement(bool value);
+
+  /// @brief Method .ctor, addr 0x36faa80, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x363e5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x36faa68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x363e5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x36faa60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x363e5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x36faa70, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
+
+  /// @brief Method get_useCustomEntitlement, addr 0x36faa78, size 0x8, virtual false, abstract: false, final false
+  inline bool get_useCustomEntitlement();
 
 protected:
   // Ctor Parameters []
@@ -90,26 +104,31 @@ public:
   MockPlatformAdditionalContentModelInitialDataSO(MockPlatformAdditionalContentModelInitialDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14746 };
 
-  /// @brief Field _levelsEntitlements, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _useCustomEntitlement, offset: 0x18, size: 0x1, def value: None
+  bool ____useCustomEntitlement;
+
+  /// @brief Field _levelsEntitlements, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> ____levelsEntitlements;
 
-  /// @brief Field _levelPacksEntitlements, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _levelPacksEntitlements, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> ____levelPacksEntitlements;
 
-  /// @brief Field _packBetterBuyThanLevel, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _packBetterBuyThanLevel, offset: 0x30, size: 0x1, def value: None
   bool ____packBetterBuyThanLevel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____levelsEntitlements) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____useCustomEntitlement) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____levelPacksEntitlements) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____levelsEntitlements) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____packBetterBuyThanLevel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____levelPacksEntitlements) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO) == 0x30, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____packBetterBuyThanLevel) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__verticalOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x31e5fd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327d254, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headNeckOffset, addr 0x31e5fc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headNeckOffset, addr 0x327d240, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headNeckOffset();
 
-  /// @brief Method get_verticalOffset, addr 0x31e5fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalOffset, addr 0x327d24c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_verticalOffset();
 
 protected:
@@ -72,7 +72,7 @@ public:
   HeadBodyOffsetSO(HeadBodyOffsetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22353 };
 
   /// @brief Field _headNeckOffset, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headNeckOffset;

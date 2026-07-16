@@ -89,10 +89,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6207d80, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6342e7c, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x620803c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6343138, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -111,7 +111,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebRequestStream*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -153,10 +153,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x62080bc, size 0x5ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63431b8, size 0x5ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6208864, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6343960, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -177,7 +177,7 @@ public:
                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -305,67 +305,67 @@ public:
   /// @brief Field writeStream, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_writeStream, put = __cordl_internal_set_writeStream)) ::System::Net::WebRequestStream* writeStream;
 
-  /// @brief Method Abort, addr 0x6206e94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Abort, addr 0x6341f90, size 0x58, virtual false, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method CheckDisposed, addr 0x620741c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckDisposed, addr 0x6342518, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckThrowDisposed, addr 0x62074c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CheckThrowDisposed, addr 0x63425c0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckThrowDisposed(bool throwIt, ::by_ref<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
 
-  /// @brief Method Close, addr 0x6207090, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x634218c, size 0xac, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CompleteRequestWritten, addr 0x6207cdc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CompleteRequestWritten, addr 0x6342dd8, size 0x84, virtual false, abstract: false, final false
   inline void CompleteRequestWritten(::System::Net::WebRequestStream* stream, ::System::Exception* error);
 
-  /// @brief Method Finish, addr 0x620713c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x6342238, size 0x22c, virtual false, abstract: false, final false
   inline void Finish(bool ok, ::System::Exception* error);
 
-  /// @brief Method GetRequestStream, addr 0x6207a8c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetRequestStream, addr 0x6342b88, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetRequestStream();
 
-  /// @brief Method GetRequestStreamInternal, addr 0x6207b70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetRequestStreamInternal, addr 0x6342c6c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* GetRequestStreamInternal();
 
-  /// @brief Method GetResponseStream, addr 0x6207bdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x6342cd8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebResponseStream*>* GetResponseStream();
 
   static inline ::System::Net::WebOperation* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge,
                                                       ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RegisterRequest, addr 0x6207628, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method RegisterRequest, addr 0x6342724, size 0x2b8, virtual false, abstract: false, final false
   inline void RegisterRequest(::System::Net::ServicePoint* servicePoint, ::System::Net::WebConnection* connection);
 
-  /// @brief Method Run, addr 0x6207c38, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x6342d34, size 0xa4, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method SetCanceled, addr 0x6206fbc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetCanceled, addr 0x63420b8, size 0xd4, virtual false, abstract: false, final false
   inline void SetCanceled();
 
-  /// @brief Method SetDisposed, addr 0x6206eec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetDisposed, addr 0x6341fe8, size 0xd0, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*, bool> SetDisposed(::by_ref<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
 
-  /// @brief Method SetError, addr 0x6207368, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetError, addr 0x6342464, size 0xb4, virtual false, abstract: false, final false
   inline void SetError(::System::Exception* error);
 
-  /// @brief Method SetPriorityRequest, addr 0x62078e0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SetPriorityRequest, addr 0x63429dc, size 0x1ac, virtual false, abstract: false, final false
   inline void SetPriorityRequest(::System::Net::WebOperation* operation);
 
-  /// @brief Method ThrowIfClosedOrDisposed, addr 0x6204810, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfClosedOrDisposed, addr 0x633f90c, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowIfClosedOrDisposed();
 
-  /// @brief Method ThrowIfClosedOrDisposed, addr 0x6203f50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfClosedOrDisposed, addr 0x633f04c, size 0xac, virtual false, abstract: false, final false
   inline void ThrowIfClosedOrDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowIfDisposed, addr 0x6207528, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfDisposed, addr 0x6342624, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowIfDisposed();
 
-  /// @brief Method ThrowIfDisposed, addr 0x6207584, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfDisposed, addr 0x6342680, size 0xa4, virtual false, abstract: false, final false
   inline void ThrowIfDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <RegisterRequest>b__48_0, addr 0x6207d60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterRequest>b__48_0, addr 0x6342e5c, size 0x20, virtual false, abstract: false, final false
   inline void _RegisterRequest_b__48_0();
 
   constexpr ::System::Net::WebConnection* const& __cordl_internal_get__Connection_k__BackingField() const;
@@ -470,40 +470,40 @@ public:
 
   constexpr void __cordl_internal_set_writeStream(::System::Net::WebRequestStream* value);
 
-  /// @brief Method .ctor, addr 0x6206cd0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6341dcc, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method get_Aborted, addr 0x62044f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Aborted, addr 0x633f5f4, size 0x64, virtual false, abstract: false, final false
   inline bool get_Aborted();
 
-  /// @brief Method get_Closed, addr 0x6206e68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Closed, addr 0x6341f64, size 0x2c, virtual false, abstract: false, final false
   inline bool get_Closed();
 
-  /// @brief Method get_Connection, addr 0x6206ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x6341d9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebConnection* get_Connection();
 
-  /// @brief Method get_Finished, addr 0x6207c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Finished, addr 0x6342d2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* get_Finished();
 
-  /// @brief Method get_IsNtlmChallenge, addr 0x6206cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNtlmChallenge, addr 0x6341dc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNtlmChallenge();
 
-  /// @brief Method get_Request, addr 0x6206c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x6341d94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
-  /// @brief Method get_ServicePoint, addr 0x6206cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x6341dac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method get_WriteBuffer, addr 0x6206cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteBuffer, addr 0x6341dbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::BufferOffsetSize* get_WriteBuffer();
 
-  /// @brief Method get_WriteStream, addr 0x6207bc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_WriteStream, addr 0x6342cc0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::WebRequestStream* get_WriteStream();
 
-  /// @brief Method set_Connection, addr 0x6206ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Connection, addr 0x6341da4, size 0x8, virtual false, abstract: false, final false
   inline void set_Connection(::System::Net::WebConnection* value);
 
-  /// @brief Method set_ServicePoint, addr 0x6206cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ServicePoint, addr 0x6341db4, size 0x8, virtual false, abstract: false, final false
   inline void set_ServicePoint(::System::Net::ServicePoint* value);
 
 protected:
@@ -521,7 +521,7 @@ public:
   WebOperation(WebOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11624 };
 
   /// @brief Field <Request>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpWebRequest* ____Request_k__BackingField;

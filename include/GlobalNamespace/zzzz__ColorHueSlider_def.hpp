@@ -56,21 +56,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x58f1970, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a2a43c, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x58f1b2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x5a2a5f8, size 0x28, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::CircleSlider* slider, float_t normalizedValue);
 
   static inline ::GlobalNamespace::ColorHueSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58f1a00, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a2a4cc, size 0x84, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x58f1b54, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x5a2a620, size 0x40, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method UpdateVisuals, addr 0x58f1a84, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x5a2a550, size 0xa8, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x58f1b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2a660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorHueDidChangeEvent, addr 0x58f17f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_colorHueDidChangeEvent, addr 0x5a2a2bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -103,7 +103,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorHueDidChangeEvent, addr 0x58f18b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorHueDidChangeEvent, addr 0x5a2a37c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
 protected:
@@ -121,7 +121,7 @@ public:
   ColorHueSlider(ColorHueSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23096 };
 
   /// @brief Field _darkColor, offset: 0x12c, size: 0x10, def value: None
   ::UnityEngine::Color ____darkColor;

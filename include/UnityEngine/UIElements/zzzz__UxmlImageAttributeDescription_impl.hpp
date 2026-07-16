@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlImageAttributeDescription::*)()>(&::UnityEngine::UIElements::UxmlImageAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b68954;
+  constexpr static std::size_t addrs = 0x6cbc80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlImageAttributeDescription*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlImageAttributeDescription::*)(::UnityEngine::UIElements::Background)>(
     &::UnityEngine::UIElements::UxmlImageAttributeDescription::set_defaultValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b689d4;
+  constexpr static std::size_t addrs = 0x6cbc88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlImageAttributeDescription*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Background (::UnityEngine::UIElements::UxmlImageAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlImageAttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6b689e4;
+  constexpr static std::size_t addrs = 0x6cbc89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -52,13 +52,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerMessageBox* New_ctor();
 
-  /// @brief Method OnSelection, addr 0x66c17ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x67feeb8, size 0x8, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x66c15d0, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x67fecdc, size 0x188, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x66c1758, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x67fee64, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Rendering::DebugUI_MessageBox* const& __cordl_internal_get_m_Field() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x66c17b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67feec0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color32 getStaticF_k_ErrorBackgroundColor();
@@ -107,7 +107,7 @@ public:
   DebugUIHandlerMessageBox(DebugUIHandlerMessageBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12500 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

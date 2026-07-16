@@ -2,10 +2,8 @@
 // IWYU pragma private; include "GlobalNamespace/FirstPersonFlyingController.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
-#include "UnityEngine/zzzz__StereoTargetEyeMask_impl.hpp"
 #include "GlobalNamespace/zzzz__FirstPersonFlyingController_def.hpp"
 #include "GlobalNamespace/zzzz__MouseLook_def.hpp"
-#include "GlobalNamespace/zzzz__PauseController_def.hpp"
 #include "GlobalNamespace/zzzz__VRCenterAdjust_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
@@ -15,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::OnEnable)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x57ba9cc;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x591a658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "OnEnable", {}, {} })));
@@ -27,8 +25,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::OnDisable)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x57bad50;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x591a8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "OnDisable", {}, {} })));
@@ -39,8 +37,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::Update)> {
-  constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x57bb020;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x591ab34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "Update", {}, {} })));
@@ -51,19 +49,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)(
-    ::UnityEngine::Camera*, ::GlobalNamespace::VRCenterAdjust*, ::GlobalNamespace::VRController*, ::GlobalNamespace::VRController*, ::UnityEngine::SpatialTracking::TrackedPoseDriver*, bool,
-    ::GlobalNamespace::PauseController*)>(&::GlobalNamespace::FirstPersonFlyingController::Inject)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x57bb798;
+    ::UnityEngine::Camera*, ::GlobalNamespace::VRCenterAdjust*, ::GlobalNamespace::VRController*, ::GlobalNamespace::VRController*, ::UnityEngine::SpatialTracking::TrackedPoseDriver*, bool)>(
+    &::GlobalNamespace::FirstPersonFlyingController::Inject)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x591afd4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(),
-                                                { "Inject",
-                                                  {},
-                                                  { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::GlobalNamespace::VRCenterAdjust*>(), ::i2c::type_of<::GlobalNamespace::VRController*>(),
-                                                    ::i2c::type_of<::GlobalNamespace::VRController*>(), ::i2c::type_of<::UnityEngine::SpatialTracking::TrackedPoseDriver*>(), ::i2c::type_of<bool>(),
-                                                    ::i2c::type_of<::GlobalNamespace::PauseController*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(),
+                                         { "Inject",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::GlobalNamespace::VRCenterAdjust*>(), ::i2c::type_of<::GlobalNamespace::VRController*>(),
+                                             ::i2c::type_of<::GlobalNamespace::VRController*>(), ::i2c::type_of<::UnityEngine::SpatialTracking::TrackedPoseDriver*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -72,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x57bb8a4;
+  constexpr static std::size_t addrs = 0x591b0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { ".ctor", {}, {} })));
@@ -211,17 +209,17 @@ constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraTransform = value;
 }
-constexpr ::UnityEngine::StereoTargetEyeMask& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__originalStereoTargetEyeMask() {
+constexpr bool& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__originalAllowXRRendering() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____originalStereoTargetEyeMask;
+  return this->____originalAllowXRRendering;
 }
-constexpr ::UnityEngine::StereoTargetEyeMask const& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__originalStereoTargetEyeMask() const {
+constexpr bool const& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__originalAllowXRRendering() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____originalStereoTargetEyeMask;
+  return this->____originalAllowXRRendering;
 }
-constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_set__originalStereoTargetEyeMask(::UnityEngine::StereoTargetEyeMask value) {
+constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_set__originalAllowXRRendering(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____originalStereoTargetEyeMask = value;
+  this->____originalAllowXRRendering = value;
 }
 constexpr float_t& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__originalCameraFov() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -247,18 +245,6 @@ constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overrideDisableMovement = value;
 }
-constexpr ::UnityW<::GlobalNamespace::PauseController>& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__pausedController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____pausedController;
-}
-constexpr ::UnityW<::GlobalNamespace::PauseController> const& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__pausedController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____pausedController;
-}
-constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_set__pausedController(::UnityW<::GlobalNamespace::PauseController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____pausedController = value;
-}
 inline void GlobalNamespace::FirstPersonFlyingController::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "OnEnable", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -273,15 +259,15 @@ inline void GlobalNamespace::FirstPersonFlyingController::Update() {
 }
 inline void GlobalNamespace::FirstPersonFlyingController::Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0,
                                                                  ::GlobalNamespace::VRController* controller1, ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver,
-                                                                 bool overrideDisableMovement, ::GlobalNamespace::PauseController* pausedController) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(),
-                                              { "Inject",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::GlobalNamespace::VRCenterAdjust*>(), ::i2c::type_of<::GlobalNamespace::VRController*>(),
-                                                  ::i2c::type_of<::GlobalNamespace::VRController*>(), ::i2c::type_of<::UnityEngine::SpatialTracking::TrackedPoseDriver*>(), ::i2c::type_of<bool>(),
-                                                  ::i2c::type_of<::GlobalNamespace::PauseController*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, camera, centerAdjust, controller0, controller1, trackedPoseDriver, overrideDisableMovement, pausedController);
+                                                                 bool overrideDisableMovement) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(),
+                                       { "Inject",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::GlobalNamespace::VRCenterAdjust*>(), ::i2c::type_of<::GlobalNamespace::VRController*>(),
+                                           ::i2c::type_of<::GlobalNamespace::VRController*>(), ::i2c::type_of<::UnityEngine::SpatialTracking::TrackedPoseDriver*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, camera, centerAdjust, controller0, controller1, trackedPoseDriver, overrideDisableMovement);
 }
 inline void GlobalNamespace::FirstPersonFlyingController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { ".ctor", {}, {} })));

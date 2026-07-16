@@ -26,10 +26,10 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE ExternalProcessHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProcessOutputLines, addr 0x3254f9c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method GetProcessOutputLines, addr 0x330d860, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetProcessOutputLines(::StringW path, ::StringW arguments);
 
-  /// @brief Method StartBackgroundProcess, addr 0x3254f28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundProcess, addr 0x330d7ec, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* StartBackgroundProcess(::StringW path, ::StringW arguments);
 
 protected:
@@ -47,7 +47,7 @@ public:
   ExternalProcessHelper(ExternalProcessHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

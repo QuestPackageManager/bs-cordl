@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method InitKey, addr 0x331466c, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method InitKey, addr 0x33d0b24, size 0x298, virtual true, abstract: false, final false
   inline void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3314904, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d0dbc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x3314628, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33d0ae0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

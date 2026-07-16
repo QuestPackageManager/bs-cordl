@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GetEnumFromPath>b__0, addr 0x6776f40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <GetEnumFromPath>b__0, addr 0x68b58bc, size 0x10, virtual false, abstract: false, final false
   inline bool _GetEnumFromPath_b__0(::StringW m);
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6776c24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b55a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   ShaderUtils___c__DisplayClass2_0(ShaderUtils___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
 
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
@@ -93,18 +93,18 @@ public:
   /// @brief Field s_ShaderPaths, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderPaths, put = setStaticF_s_ShaderPaths)) ::ArrayW<::StringW> s_ShaderPaths;
 
-  /// @brief Method GetEnumFromPath, addr 0x6776b24, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetEnumFromPath, addr 0x68b54a0, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ShaderPathID GetEnumFromPath(::StringW path);
 
-  /// @brief Method GetShaderPath, addr 0x67768f8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPath, addr 0x68b5274, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW GetShaderPath(::UnityEngine::Rendering::Universal::ShaderPathID id);
 
-  /// @brief Method IsLWShader, addr 0x6776c28, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsLWShader, addr 0x68b55a4, size 0x94, virtual false, abstract: false, final false
   static inline bool IsLWShader(::UnityEngine::Shader* shader);
 
   static inline ::ArrayW<::StringW> getStaticF_s_ShaderPaths();
 
-  /// @brief Method get_PersistentDeltaTime, addr 0x6776cbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_PersistentDeltaTime, addr 0x68b5638, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_PersistentDeltaTime();
 
   static inline void setStaticF_s_ShaderPaths(::ArrayW<::StringW> value);
@@ -124,7 +124,7 @@ public:
   ShaderUtils(ShaderUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

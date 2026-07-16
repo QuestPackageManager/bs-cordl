@@ -34,22 +34,22 @@ public:
   /// @brief Field UpdatePanelsCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_UpdatePanelsCallback, put = setStaticF_UpdatePanelsCallback)) ::System::Action* UpdatePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x6c60148, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x6db4000, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RenderOffscreenPanels, addr 0x6c600e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RenderOffscreenPanels, addr 0x6db3f98, size 0x68, virtual false, abstract: false, final false
   static inline void RenderOffscreenPanels();
 
-  /// @brief Method RepaintPanels, addr 0x6c60070, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RepaintPanels, addr 0x6db3f28, size 0x70, virtual false, abstract: false, final false
   static inline void RepaintPanels(bool onlyOffscreen);
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x6c60170, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x6db4028, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdatePanels, addr 0x6c60008, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanels, addr 0x6db3ec0, size 0x68, virtual false, abstract: false, final false
   static inline void UpdatePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x6c60198, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x6db4050, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RenderOffscreenPanelsCallback();

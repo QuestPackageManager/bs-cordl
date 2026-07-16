@@ -66,16 +66,16 @@ public:
   /// @brief Field syncObject, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_syncObject, put = __cordl_internal_set_syncObject)) ::System::Object* syncObject;
 
-  /// @brief Method CancelOperation, addr 0x625a2a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CancelOperation, addr 0x639633c, size 0xc, virtual false, abstract: false, final false
   inline void CancelOperation();
 
-  /// @brief Method Close, addr 0x6259f0c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x6395fa8, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x6259f1c, size 0x384, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6395fb8, size 0x384, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method WaitUtilEOF, addr 0x625a2ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WaitUtilEOF, addr 0x6396348, size 0x44, virtual false, abstract: false, final false
   inline void WaitUtilEOF();
 
   constexpr ::System::IAsyncResult* const& __cordl_internal_get_asyncReadResult() const;
@@ -147,7 +147,7 @@ public:
   AsyncStreamReader(AsyncStreamReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11118 };
 
   /// @brief Field stream, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___stream;

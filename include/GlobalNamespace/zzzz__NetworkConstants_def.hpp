@@ -36,7 +36,7 @@ public:
   NetworkConstants(NetworkConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18192 };
 
   /// @brief Field backgroundedState offset 0xffffffff size 0x8
   static constexpr ::ConstString backgroundedState{ u"backgrounded" };

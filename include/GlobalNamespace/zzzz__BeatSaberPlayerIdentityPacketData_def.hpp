@@ -3,9 +3,13 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__MultiplayerActiveHand_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(BeatSaberPlayerIdentityPacketData)
+namespace GlobalNamespace {
+struct MultiplayerActiveHand;
+}
 namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
 }
@@ -25,7 +29,7 @@ struct BeatSaberPlayerIdentityPacketData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BeatSaberPlayerIdentityPacketData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatSaberPlayerIdentityPacketData, "", "BeatSaberPlayerIdentityPacketData");
-// Dependencies MultiplayerAvatarsData
+// Dependencies MultiplayerActiveHand, MultiplayerAvatarsData
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatSaberPlayerIdentityPacketData
@@ -35,14 +39,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x320f380, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x32a6960, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x320f358, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x32a6920, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x320f344, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData playerAvatar);
+  /// @brief Method .ctor, addr 0x32a56cc, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData playerAvatar, ::GlobalNamespace::MultiplayerActiveHand activeHand);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
@@ -51,23 +55,29 @@ public:
   // @brief default ctor
   constexpr BeatSaberPlayerIdentityPacketData();
 
-  // Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: None }]
-  constexpr BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData playerAvatar) noexcept;
+  // Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: None }, CppParam { name: "activeHand", ty:
+  // "::GlobalNamespace::MultiplayerActiveHand", modifiers: "", def_value: None }]
+  constexpr BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData playerAvatar, ::GlobalNamespace::MultiplayerActiveHand activeHand) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field playerAvatar, offset: 0x0, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData playerAvatar;
+
+  /// @brief Field activeHand, offset: 0x18, size: 0x1, def value: None
+  ::GlobalNamespace::MultiplayerActiveHand activeHand;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatSaberPlayerIdentityPacketData, playerAvatar) == 0x0, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatSaberPlayerIdentityPacketData) == 0x18, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberPlayerIdentityPacketData, activeHand) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::BeatSaberPlayerIdentityPacketData) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -43,26 +43,26 @@ public:
   /// @brief Field m_str, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_str, put = __cordl_internal_set_m_str)) ::StringW m_str;
 
-  /// @brief Method Equals, addr 0x5a9159c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5bcb274, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetCurrentTextElementLen, addr 0x5a91848, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTextElementLen, addr 0x5bcb520, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetCurrentTextElementLen(::StringW str, int32_t index, int32_t len, ::by_ref<::System::Globalization::UnicodeCategory> ucCurrent, ::by_ref<int32_t> currentCharCount);
 
-  /// @brief Method GetHashCode, addr 0x5a91644, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5bcb31c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Globalization::StringInfo* New_ctor();
 
   static inline ::System::Globalization::StringInfo* New_ctor(::StringW value);
 
-  /// @brief Method OnDeserialized, addr 0x5a91578, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x5bcb250, size 0x24, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x5a91560, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x5bcb238, size 0x18, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method ParseCombiningCharacters, addr 0x5a916a0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ParseCombiningCharacters, addr 0x5bcb378, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> ParseCombiningCharacters(::StringW str);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_m_indexes() const;
@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_m_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a914a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bcb178, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a914ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bcb1c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_Indexes, addr 0x5a91660, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Indexes, addr 0x5bcb338, size 0x40, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_Indexes();
 
-  /// @brief Method get_LengthInTextElements, addr 0x5a9181c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_LengthInTextElements, addr 0x5bcb4f4, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_LengthInTextElements();
 
-  /// @brief Method get_String, addr 0x5a91814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_String, addr 0x5bcb4ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_String();
 
-  /// @brief Method set_String, addr 0x5a914f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_String, addr 0x5bcb1c8, size 0x70, virtual false, abstract: false, final false
   inline void set_String(::StringW value);
 
 protected:

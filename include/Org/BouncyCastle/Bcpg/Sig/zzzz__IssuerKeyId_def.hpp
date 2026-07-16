@@ -23,20 +23,20 @@ public:
   // Declarations
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  /// @brief Method KeyIdToBytes, addr 0x35d6198, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method KeyIdToBytes, addr 0x3692650, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> KeyIdToBytes(int64_t keyId);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, int64_t keyId);
 
-  /// @brief Method .ctor, addr 0x35d6270, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3692728, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x35d6288, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3692740, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t keyId);
 
-  /// @brief Method get_KeyId, addr 0x35d62c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x3692778, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
 protected:

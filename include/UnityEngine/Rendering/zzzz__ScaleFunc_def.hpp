@@ -34,18 +34,18 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ScaleFunc : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x666bae8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x67a91f4, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Vector2Int size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x666bb70, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x67a927c, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2Int EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x666bad4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x67a91e0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2Int Invoke(::UnityEngine::Vector2Int size);
 
   static inline ::UnityEngine::Rendering::ScaleFunc* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x666ba68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a9174, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -63,7 +63,7 @@ public:
   ScaleFunc(ScaleFunc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

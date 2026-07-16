@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x68967b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ed6cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameUi, ::StringW version, ::StringW company, ::StringW extensionStrings);
 
 protected:
@@ -151,7 +151,7 @@ public:
   OpenXRLoaderBase_FeatureLoggingInfo(OpenXRLoaderBase_FeatureLoggingInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18473 };
 
   /// @brief Field m_nameUi, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_nameUi;
@@ -242,7 +242,7 @@ public:
   static ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState const Uninitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18474 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -265,18 +265,18 @@ namespace UnityEngine::XR::OpenXR {
 class CORDL_TYPE OpenXRLoaderBase_ReceiveNativeEventDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6897cf0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x69eec08, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent e, uint64_t payload, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6897d94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x69eecac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6897cdc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x69eebf4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent e, uint64_t payload);
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6897b10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eea28, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -294,7 +294,7 @@ public:
   OpenXRLoaderBase_ReceiveNativeEventDelegate(OpenXRLoaderBase_ReceiveNativeEventDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -323,16 +323,16 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c* New_ctor();
 
-  /// @brief Method <InitializeInternal>b__33_0, addr 0x6897df8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <InitializeInternal>b__33_0, addr 0x69eed10, size 0x60, virtual false, abstract: false, final false
   inline bool _InitializeInternal_b__33_0(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method <InitializeInternal>b__33_1, addr 0x6897e58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitializeInternal>b__33_1, addr 0x69eed70, size 0x14, virtual false, abstract: false, final false
   inline int32_t _InitializeInternal_b__33_1(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method <InitializeInternal>b__33_2, addr 0x6897e6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitializeInternal>b__33_2, addr 0x69eed84, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _InitializeInternal_b__33_2(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method .ctor, addr 0x6897df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eed0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c* getStaticF___9();
@@ -366,7 +366,7 @@ public:
   OpenXRLoaderBase___c(OpenXRLoaderBase___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -456,111 +456,111 @@ public:
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method CreateSubsystems, addr 0x6894894, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateSubsystems, addr 0x69eb7ac, size 0x12c, virtual false, abstract: false, final false
   inline bool CreateSubsystems();
 
-  /// @brief Method DebugLogEnabledSpecExtensions, addr 0x6894cfc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method DebugLogEnabledSpecExtensions, addr 0x69ebc14, size 0x22c, virtual false, abstract: false, final false
   static inline void DebugLogEnabledSpecExtensions();
 
-  /// @brief Method Deinitialize, addr 0x6896190, size 0x2f0, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x69ed0a8, size 0x2f0, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void DestroySubsystem();
 
-  /// @brief Method ExceptionHandler, addr 0x68934e4, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ExceptionHandler, addr 0x69ea3fc, size 0x258, virtual false, abstract: false, final false
   static inline void ExceptionHandler(::System::Object* sender, ::System::UnhandledExceptionEventArgs* args);
 
-  /// @brief Method Initialize, addr 0x689373c, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69ea654, size 0x294, virtual true, abstract: false, final false
   inline bool Initialize();
 
-  /// @brief Method InitializeInternal, addr 0x68939d0, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternal, addr 0x69ea8e8, size 0x5a8, virtual false, abstract: false, final false
   inline bool InitializeInternal();
 
-  /// @brief Method Internal_BeginSession, addr 0x6895320, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_BeginSession, addr 0x69ec238, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_BeginSession();
 
-  /// @brief Method Internal_CreateSessionIfNeeded, addr 0x68952b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateSessionIfNeeded, addr 0x69ec1cc, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_CreateSessionIfNeeded();
 
-  /// @brief Method Internal_DestroySession, addr 0x68964e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_DestroySession, addr 0x69ed3fc, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_DestroySession();
 
-  /// @brief Method Internal_EndSession, addr 0x689612c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_EndSession, addr 0x69ed044, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_EndSession();
 
-  /// @brief Method Internal_InitializeSession, addr 0x68944d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_InitializeSession, addr 0x69eb3e8, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_InitializeSession();
 
-  /// @brief Method Internal_IsExtensionEnabled, addr 0x6896fcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsExtensionEnabled, addr 0x69edee4, size 0x9c, virtual false, abstract: false, final false
   static inline bool Internal_IsExtensionEnabled(::StringW extensionName);
 
-  /// @brief Method Internal_LoadOpenXRLibrary, addr 0x6896728, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_LoadOpenXRLibrary, addr 0x69ed640, size 0x8c, virtual false, abstract: false, final false
   static inline bool Internal_LoadOpenXRLibrary(::ArrayW<uint8_t> loaderPath);
 
-  /// @brief Method Internal_PumpMessageLoop, addr 0x6894fe0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_PumpMessageLoop, addr 0x69ebef8, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_PumpMessageLoop();
 
-  /// @brief Method Internal_RequestEnableExtensionString, addr 0x68967c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Internal_RequestEnableExtensionString, addr 0x69ed6d8, size 0x94, virtual false, abstract: false, final false
   static inline bool Internal_RequestEnableExtensionString(::StringW extensionString);
 
-  /// @brief Method Internal_RequestExitSession, addr 0x6896480, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_RequestExitSession, addr 0x69ed398, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_RequestExitSession();
 
-  /// @brief Method Internal_SetApplicationInfo, addr 0x68965ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetApplicationInfo, addr 0x69ed4c4, size 0xdc, virtual false, abstract: false, final false
   static inline void Internal_SetApplicationInfo(::StringW applicationName, ::StringW applicationVersion, uint32_t applicationVersionHash, ::StringW engineVersion);
 
-  /// @brief Method Internal_SetCallbacks, addr 0x6897b7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetCallbacks, addr 0x69eea94, size 0x80, virtual false, abstract: false, final false
   static inline void Internal_SetCallbacks(::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate* callback);
 
-  /// @brief Method Internal_SetSuccessfullyInitialized, addr 0x6893f78, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetSuccessfullyInitialized, addr 0x69eae90, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetSuccessfullyInitialized(bool value);
 
-  /// @brief Method Internal_UnloadOpenXRLibrary, addr 0x6896548, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_UnloadOpenXRLibrary, addr 0x69ed460, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_UnloadOpenXRLibrary();
 
-  /// @brief Method LoadOpenXRSymbols, addr 0x6894340, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadOpenXRSymbols, addr 0x69eb258, size 0x70, virtual false, abstract: false, final false
   inline bool LoadOpenXRSymbols();
 
-  /// @brief Method LogRequestedOpenXRFeatures, addr 0x6896854, size 0x778, virtual false, abstract: false, final false
+  /// @brief Method LogRequestedOpenXRFeatures, addr 0x69ed76c, size 0x778, virtual false, abstract: false, final false
   inline void LogRequestedOpenXRFeatures();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase* New_ctor();
 
-  /// @brief Method ProcessOpenXRMessageLoop, addr 0x6894f28, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ProcessOpenXRMessageLoop, addr 0x69ebe40, size 0xb8, virtual false, abstract: false, final false
   inline void ProcessOpenXRMessageLoop();
 
-  /// @brief Method ReceiveNativeEvent, addr 0x6892f5c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ReceiveNativeEvent, addr 0x69e9e74, size 0x304, virtual false, abstract: false, final false
   static inline void ReceiveNativeEvent(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent e, uint64_t payload);
 
-  /// @brief Method RegisterOpenXRCallbacks, addr 0x68947f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RegisterOpenXRCallbacks, addr 0x69eb710, size 0x9c, virtual false, abstract: false, final false
   static inline void RegisterOpenXRCallbacks();
 
-  /// @brief Method RequestOpenXRFeatures, addr 0x689453c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method RequestOpenXRFeatures, addr 0x69eb454, size 0x2bc, virtual false, abstract: false, final false
   inline void RequestOpenXRFeatures();
 
-  /// @brief Method SetApplicationInfo, addr 0x68949c0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetApplicationInfo, addr 0x69eb8d8, size 0x158, virtual false, abstract: false, final false
   inline void SetApplicationInfo();
 
-  /// @brief Method Start, addr 0x6895044, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x69ebf5c, size 0xa4, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method StartInternal, addr 0x68950e8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method StartInternal, addr 0x69ec000, size 0x1cc, virtual false, abstract: false, final false
   inline bool StartInternal();
 
   /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StartSubsystem();
 
-  /// @brief Method Stop, addr 0x6895f9c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x69eceb4, size 0x134, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method StopInternal, addr 0x68960d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StopInternal, addr 0x69ecfe8, size 0x5c, virtual false, abstract: false, final false
   inline void StopInternal();
 
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StopSubsystem();
 
-  /// @brief Method StringToWCHAR_T, addr 0x6896688, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StringToWCHAR_T, addr 0x69ed5a0, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> StringToWCHAR_T(::StringW s);
 
   constexpr bool const& __cordl_internal_get_DisableValidationChecksOnEnteringPlaymode() const;
@@ -635,7 +635,7 @@ public:
 
   constexpr void __cordl_internal_set_validLoaderStopStates(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState>* value);
 
-  /// @brief Method .ctor, addr 0x68928ac, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e97c4, size 0x6b0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRLoaderBase> getStaticF__Instance_k__BackingField();
@@ -644,22 +644,22 @@ public:
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method get_Instance, addr 0x6893260, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x69ea178, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRLoaderBase> get_Instance();
 
-  /// @brief Method get_currentLoaderState, addr 0x689331c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentLoaderState, addr 0x69ea234, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState get_currentLoaderState();
 
-  /// @brief Method get_displaySubsystem, addr 0x689332c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x69ea244, size 0x68, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x6893394, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x69ea2ac, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
-  /// @brief Method get_isInitialized, addr 0x6893478, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x69ea390, size 0x14, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_isStarted, addr 0x689348c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x69ea3a4, size 0x58, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
   static inline void setStaticF__Instance_k__BackingField(::UnityW<::UnityEngine::XR::OpenXR::OpenXRLoaderBase> value);
@@ -668,10 +668,10 @@ public:
 
   static inline void setStaticF_s_InputSubsystemDescriptors(::System::Collections::Generic::List_1<Il2CppObject*>* value);
 
-  /// @brief Method set_Instance, addr 0x68932bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Instance, addr 0x69ea1d4, size 0x60, virtual false, abstract: false, final false
   static inline void set_Instance(::UnityEngine::XR::OpenXR::OpenXRLoaderBase* value);
 
-  /// @brief Method set_currentLoaderState, addr 0x6893324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentLoaderState, addr 0x69ea23c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentLoaderState(::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState value);
 
 protected:
@@ -692,7 +692,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18477 };
 
   /// @brief Field k_IdlePollingWaitTimeInSeconds offset 0xffffffff size 0x8
   static constexpr double_t k_IdlePollingWaitTimeInSeconds{ static_cast<double_t>(0.1) };

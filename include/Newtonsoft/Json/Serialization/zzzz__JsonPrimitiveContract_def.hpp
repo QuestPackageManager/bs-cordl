@@ -49,17 +49,17 @@ public:
 
   constexpr void __cordl_internal_set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
-  /// @brief Method .ctor, addr 0x5c02b38, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3ad60, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* getStaticF_ReadTypeMap();
 
-  /// @brief Method get_TypeCode, addr 0x5c09d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x5d41f4c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
   static inline void setStaticF_ReadTypeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* value);
 
-  /// @brief Method set_TypeCode, addr 0x5c09d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeCode, addr 0x5d41f54, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   JsonPrimitiveContract(JsonPrimitiveContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13485 };
 
   /// @brief Field <TypeCode>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   ::Newtonsoft::Json::Utilities::PrimitiveTypeCode ____TypeCode_k__BackingField;

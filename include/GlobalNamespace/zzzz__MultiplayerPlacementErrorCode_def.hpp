@@ -33,6 +33,8 @@ public:
     __E_RequestTimeout = static_cast<int32_t>(0x6),
     __E_MatchmakingTimeout = static_cast<int32_t>(0x7),
     __E_MismatchedServerEnvironment = static_cast<int32_t>(0x8),
+    __E_GameSessionEnded = static_cast<int32_t>(0x9),
+    __E_ServerEnvironmentNotDeployed = static_cast<int32_t>(0xa),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -58,6 +60,9 @@ public:
   /// @brief Field ConnectionCanceled value: I32(2)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const ConnectionCanceled;
 
+  /// @brief Field GameSessionEnded value: I32(9)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const GameSessionEnded;
+
   /// @brief Field MatchmakingTimeout value: I32(7)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
 
@@ -73,6 +78,9 @@ public:
   /// @brief Field ServerDoesNotExist value: I32(3)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerDoesNotExist;
 
+  /// @brief Field ServerEnvironmentNotDeployed value: I32(10)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerEnvironmentNotDeployed;
+
   /// @brief Field Success value: I32(0)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Success;
 
@@ -80,7 +88,7 @@ public:
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18836 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

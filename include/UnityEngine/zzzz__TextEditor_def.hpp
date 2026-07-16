@@ -85,7 +85,7 @@ public:
   static ::UnityEngine::TextEditor_DblClickSnapping const WORDS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19875 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -165,22 +165,22 @@ public:
 
   static inline ::UnityEngine::TextEditor* New_ctor();
 
-  /// @brief Method OnContentTextChangedHandle, addr 0x69fe9dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnContentTextChangedHandle, addr 0x6b524b8, size 0x34, virtual false, abstract: false, final false
   inline void OnContentTextChangedHandle();
 
-  /// @brief Method OnCursorIndexChange, addr 0x69fee08, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCursorIndexChange, addr 0x6b528e4, size 0x4, virtual true, abstract: false, final false
   inline void OnCursorIndexChange();
 
-  /// @brief Method OnSelectIndexChange, addr 0x69fee0c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSelectIndexChange, addr 0x6b528e8, size 0x4, virtual true, abstract: false, final false
   inline void OnSelectIndexChange();
 
-  /// @brief Method OnTextChangedHandle, addr 0x69fe99c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnTextChangedHandle, addr 0x6b52478, size 0x40, virtual false, abstract: false, final false
   inline void OnTextChangedHandle();
 
-  /// @brief Method UpdateScrollOffset, addr 0x69fea10, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollOffset, addr 0x6b524ec, size 0x3f8, virtual false, abstract: false, final false
   inline void UpdateScrollOffset();
 
-  /// @brief Method UpdateTextHandle, addr 0x69fe31c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextHandle, addr 0x6b51df8, size 0x128, virtual false, abstract: false, final false
   inline void UpdateTextHandle();
 
   constexpr ::UnityEngine::Rect const& __cordl_internal_get__position_k__BackingField() const;
@@ -273,25 +273,25 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x69fe4c0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b51f9c, size 0x4b4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_position, addr 0x69fe4b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6b51f90, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_position();
 
-  /// @brief Method get_showCursor, addr 0x69fe1b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_showCursor, addr 0x6b51c94, size 0x18, virtual false, abstract: false, final false
   inline bool get_showCursor();
 
-  /// @brief Method get_text, addr 0x69fe1d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6b51cac, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textWithWhitespace, addr 0x69fe444, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_textWithWhitespace, addr 0x6b51f20, size 0x70, virtual false, abstract: false, final false
   inline ::StringW get_textWithWhitespace();
 
-  /// @brief Method set_text, addr 0x69fe1e8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6b51cc4, size 0xb8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textWithWhitespace, addr 0x69fe2a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_textWithWhitespace, addr 0x6b51d7c, size 0x7c, virtual false, abstract: false, final false
   inline void set_textWithWhitespace(::StringW value);
 
 protected:
@@ -309,7 +309,7 @@ public:
   TextEditor(TextEditor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19876 };
 
   /// @brief Field m_Content, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::GUIContent* ___m_Content;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::ShaderKeywordSet, ::StringW)>(&::UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x69d7028;
+  constexpr static std::size_t addrs = 0x6b2ab04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderKeywordSet::*)(::UnityEngine::Rendering::ShaderKeyword)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::CheckKeywordCompatible)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x69d71ac;
+  constexpr static std::size_t addrs = 0x6b2ac88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderKeywordSet::*)(::UnityEngine::Rendering::ShaderKeyword)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::IsEnabled)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69d7270;
+  constexpr static std::size_t addrs = 0x6b2ad4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69d7168;
+  constexpr static std::size_t addrs = 0x6b2ac44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

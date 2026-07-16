@@ -49,10 +49,10 @@ public:
                      ::BeatSaber::Settings::DebugSettings debug) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22037 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf8 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf0 };
 
   /// @brief Field room, offset: 0x0, size: 0x10, def value: None
   ::BeatSaber::Settings::RoomSettings room;
@@ -72,19 +72,19 @@ public:
   /// @brief Field quality, offset: 0x88, size: 0x38, def value: None
   ::BeatSaber::Settings::QualitySettings quality;
 
-  /// @brief Field quest, offset: 0xc0, size: 0x14, def value: None
+  /// @brief Field quest, offset: 0xc0, size: 0xc, def value: None
   ::BeatSaber::Settings::QuestSettings quest;
 
-  /// @brief Field window, offset: 0xd4, size: 0xc, def value: None
+  /// @brief Field window, offset: 0xcc, size: 0xc, def value: None
   ::BeatSaber::Settings::WindowSettings window;
 
-  /// @brief Field customServer, offset: 0xe0, size: 0x10, def value: None
+  /// @brief Field customServer, offset: 0xd8, size: 0x10, def value: None
   ::BeatSaber::Settings::CustomServerSettings customServer;
 
-  /// @brief Field performanceTools, offset: 0xf0, size: 0x4, def value: None
+  /// @brief Field performanceTools, offset: 0xe8, size: 0x4, def value: None
   ::BeatSaber::Settings::PerformanceToolSettings performanceTools;
 
-  /// @brief Field debug, offset: 0xf4, size: 0x2, def value: None
+  /// @brief Field debug, offset: 0xec, size: 0x2, def value: None
   ::BeatSaber::Settings::DebugSettings debug;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -104,14 +104,14 @@ static_assert(offsetof(::BeatSaber::Settings::Settings, quality) == 0x88, "Offse
 
 static_assert(offsetof(::BeatSaber::Settings::Settings, quest) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, window) == 0xd4, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, window) == 0xcc, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, customServer) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, customServer) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, performanceTools) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, performanceTools) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, debug) == 0xf4, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, debug) == 0xec, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Settings::Settings) == 0xf8, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Settings::Settings) == 0xf0, "Size mismatch!");
 
 } // namespace BeatSaber::Settings

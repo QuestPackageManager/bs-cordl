@@ -27,7 +27,7 @@ public:
   /// @brief Field s_Mapping, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Mapping, put = setStaticF_s_Mapping)) ::ArrayW<::StringW> s_Mapping;
 
-  /// @brief Method GetWebStatusString, addr 0x62ce010, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x640a0ac, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status);
 
   static inline ::ArrayW<::StringW> getStaticF_s_Mapping();
@@ -49,7 +49,7 @@ public:
   WebExceptionMapping(WebExceptionMapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11485 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

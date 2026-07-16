@@ -35,19 +35,19 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509CertPairParser* New_ctor();
 
-  /// @brief Method ReadCertPair, addr 0x358c6c4, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x3648b7c, size 0x23c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPair, addr 0x358c650, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x3648b08, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::ArrayW<uint8_t> input);
 
-  /// @brief Method ReadCertPairs, addr 0x358c974, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x3648e2c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPairs, addr 0x358c900, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x3648db8, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::ArrayW<uint8_t> input);
 
-  /// @brief Method ReadDerCrossCertificatePair, addr 0x358c548, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrossCertificatePair, addr 0x3648a00, size 0x108, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadDerCrossCertificatePair(::System::IO::Stream* inStream);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_currentStream() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x358ca8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3648f44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

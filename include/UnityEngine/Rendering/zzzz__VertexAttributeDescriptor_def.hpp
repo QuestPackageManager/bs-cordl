@@ -46,46 +46,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*();
 
-  /// @brief Method Equals, addr 0x69b2600, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b05fc0, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x69b26ac, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b0606c, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::VertexAttributeDescriptor other);
 
-  /// @brief Method GetHashCode, addr 0x69b25dc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b05f9c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x69b240c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b05dcc, size 0x1d0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x69b2400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b05dc0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::VertexAttribute attribute, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dimension, int32_t stream);
 
-  /// @brief Method get_attribute, addr 0x69b23c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attribute, addr 0x6b05d80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttribute get_attribute();
 
-  /// @brief Method get_dimension, addr 0x69b23e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dimension, addr 0x6b05da0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_dimension();
 
-  /// @brief Method get_format, addr 0x69b23d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x6b05d90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttributeFormat get_format();
 
-  /// @brief Method get_stream, addr 0x69b23f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stream, addr 0x6b05db0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stream();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* i___System__IEquatable_1___UnityEngine__Rendering__VertexAttributeDescriptor_();
 
-  /// @brief Method set_attribute, addr 0x69b23c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attribute, addr 0x6b05d88, size 0x8, virtual false, abstract: false, final false
   inline void set_attribute(::UnityEngine::Rendering::VertexAttribute value);
 
-  /// @brief Method set_dimension, addr 0x69b23e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x6b05da8, size 0x8, virtual false, abstract: false, final false
   inline void set_dimension(int32_t value);
 
-  /// @brief Method set_format, addr 0x69b23d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x6b05d98, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::Rendering::VertexAttributeFormat value);
 
-  /// @brief Method set_stream, addr 0x69b23f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stream, addr 0x6b05db8, size 0x8, virtual false, abstract: false, final false
   inline void set_stream(int32_t value);
 
   // Ctor Parameters []
@@ -99,7 +99,7 @@ public:
                                       int32_t _dimension_k__BackingField, int32_t _stream_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10705 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

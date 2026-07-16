@@ -60,43 +60,43 @@ public:
 
   __declspec(property(get = get_depthBufferBits, put = set_depthBufferBits)) ::UnityEngine::Rendering::DepthBits depthBufferBits;
 
-  /// @brief Method CalculateFinalDimensions, addr 0x66a488c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CalculateFinalDimensions, addr 0x67e1f98, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int CalculateFinalDimensions();
 
-  /// @brief Method GetHashCode, addr 0x66a7df4, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67e5500, size 0x1e0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InitDefaultValues, addr 0x66a7b20, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InitDefaultValues, addr 0x67e522c, size 0xd8, virtual false, abstract: false, final false
   inline void InitDefaultValues(bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x66a7c64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e5370, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ScaleFunc* func, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x66a401c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e1728, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTexture* input);
 
-  /// @brief Method .ctor, addr 0x66a7cb4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e53c0, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureDescriptor input);
 
-  /// @brief Method .ctor, addr 0x66a7cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e53b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureDesc input);
 
-  /// @brief Method .ctor, addr 0x66a7c24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e5330, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 scale, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x66a7bf8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e5304, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method get_colorFormat, addr 0x66a7a88, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_colorFormat, addr 0x67e5194, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_colorFormat();
 
-  /// @brief Method get_depthBufferBits, addr 0x66a7950, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_depthBufferBits, addr 0x67e505c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DepthBits get_depthBufferBits();
 
-  /// @brief Method set_colorFormat, addr 0x66a7b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFormat, addr 0x67e5224, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_depthBufferBits, addr 0x66a79cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_depthBufferBits, addr 0x67e50d8, size 0xbc, virtual false, abstract: false, final false
   inline void set_depthBufferBits(::UnityEngine::Rendering::DepthBits value);
 
   // Ctor Parameters []
@@ -127,7 +127,7 @@ public:
                         ::UnityEngine::Color clearColor, bool discardBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12438 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

@@ -41,7 +41,7 @@ public:
   /// @brief Field response, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response;
 
-  /// @brief Method GetInstance, addr 0x32a1128, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335d5e0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x32a12e0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x335d798, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo* const& __cordl_internal_get_request() const;
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x32a12c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335d780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor, addr 0x32a12c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335d778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor, addr 0x32a11c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335d680, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Request, addr 0x32a12d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Request, addr 0x335d788, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Request();
 
-  /// @brief Method get_Response, addr 0x32a12d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Response, addr 0x335d790, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Response();
 
 protected:

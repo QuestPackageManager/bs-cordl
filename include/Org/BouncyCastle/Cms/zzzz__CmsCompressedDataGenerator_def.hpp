@@ -26,12 +26,12 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsCompressedDataGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x35ea8b0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a6d68, size 0x3b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsCompressedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW compressionOid);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35ea8ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a6d64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

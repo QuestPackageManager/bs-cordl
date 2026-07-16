@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PackedMatrix (*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Rendering::PackedMatrix::FromMatrix4x4)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66e4d48;
+  constexpr static std::size_t addrs = 0x6822454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PackedMatrix (*)(::by_ref<::Unity::Mathematics::float4x4>)>(&::UnityEngine::Rendering::PackedMatrix::FromFloat4x4)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66e4d88;
+  constexpr static std::size_t addrs = 0x6822494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

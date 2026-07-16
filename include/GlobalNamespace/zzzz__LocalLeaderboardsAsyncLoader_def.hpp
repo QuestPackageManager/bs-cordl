@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 CORDL_MODULE_EXPORT(LocalLeaderboardsAsyncLoader)
 namespace BGLib::AppFlow::Initialization {
-class AsyncInstaller_IInstallerRegistry;
+class IInstallerRegistry;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -28,18 +28,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x36b38ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3771784, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x36b382c, size 0x60, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
-
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x36b388c, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x3771724, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36b38f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3771788, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,11 +54,11 @@ public:
   LocalLeaderboardsAsyncLoader(LocalLeaderboardsAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsAsyncLoader) == 0x28, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsAsyncLoader) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

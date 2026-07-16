@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x62d3f38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x640ffd4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:
@@ -88,7 +88,7 @@ public:
   HeaderInfo(HeaderInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11499 };
 
   /// @brief Field IsRequestRestricted, offset: 0x10, size: 0x1, def value: None
   bool ___IsRequestRestricted;

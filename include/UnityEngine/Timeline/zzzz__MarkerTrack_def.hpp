@@ -29,10 +29,10 @@ public:
 
   static inline ::UnityEngine::Timeline::MarkerTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68824c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c0fac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x6882300, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x69c0de4, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:
@@ -50,7 +50,7 @@ public:
   MarkerTrack(MarkerTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

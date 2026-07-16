@@ -31,10 +31,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::IO::SignerSink* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method Write, addr 0x3328764, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x33e4c1c, size 0xec, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x33286ac, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x33e4b64, size 0xb8, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_mSigner() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x332867c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e4b34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method get_Signer, addr 0x33286a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signer, addr 0x33e4b5c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* get_Signer();
 
 protected:

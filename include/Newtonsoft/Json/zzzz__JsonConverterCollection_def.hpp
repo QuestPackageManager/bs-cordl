@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b9ca60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd4c88, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   JsonConverterCollection(JsonConverterCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

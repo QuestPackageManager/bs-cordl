@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x585ae20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5993368, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored, ::UnityEngine::Transform* transform);
 
 protected:
@@ -120,7 +120,7 @@ public:
   LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5882 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -169,6 +169,12 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
+  /// @brief Field _lastSetRotation, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSetRotation, put = __cordl_internal_set__lastSetRotation)) float_t _lastSetRotation;
+
+  /// @brief Field _lastSetRotationFrameCount, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSetRotationFrameCount, put = __cordl_internal_set__lastSetRotationFrameCount)) int32_t _lastSetRotationFrameCount;
+
   /// @brief Field _lightRotationBeatmapEventCallbackWrapper, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightRotationBeatmapEventCallbackWrapper;
@@ -185,20 +191,23 @@ public:
   /// @brief Field _tweeningManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x585aa28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5992ec4, size 0xa0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x585ad50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x599308c, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x585aac8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x5992f64, size 0x128, virtual false, abstract: false, final false
   inline void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                       ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetRotation, addr 0x585abf0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x59931d4, size 0x194, virtual false, abstract: false, final false
   inline void SetRotation(float_t rotation);
+
+  /// @brief Method SetRotationWithValidation, addr 0x599315c, size 0x78, virtual false, abstract: false, final false
+  inline void SetRotationWithValidation(float_t rotation);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
 
@@ -207,6 +216,14 @@ public:
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+
+  constexpr float_t const& __cordl_internal_get__lastSetRotation() const;
+
+  constexpr float_t& __cordl_internal_get__lastSetRotation();
+
+  constexpr int32_t const& __cordl_internal_get__lastSetRotationFrameCount() const;
+
+  constexpr int32_t& __cordl_internal_get__lastSetRotationFrameCount();
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper() const;
 
@@ -232,6 +249,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
+  constexpr void __cordl_internal_set__lastSetRotation(float_t value);
+
+  constexpr void __cordl_internal_set__lastSetRotationFrameCount(int32_t value);
+
   constexpr void __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   constexpr void __cordl_internal_set__mirrored(bool value);
@@ -242,7 +263,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x585a7d4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5992c18, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -261,7 +282,7 @@ public:
   LightRotationGroupEffect(LightRotationGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5883 };
 
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
@@ -284,6 +305,12 @@ public:
   /// @brief Field _lightRotationBeatmapEventCallbackWrapper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____lightRotationBeatmapEventCallbackWrapper;
 
+  /// @brief Field _lastSetRotation, offset: 0x40, size: 0x4, def value: None
+  float_t ____lastSetRotation;
+
+  /// @brief Field _lastSetRotationFrameCount, offset: 0x44, size: 0x4, def value: None
+  int32_t ____lastSetRotationFrameCount;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -301,6 +328,10 @@ static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____rotation
 
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____lightRotationBeatmapEventCallbackWrapper) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightRotationGroupEffect) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____lastSetRotation) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____lastSetRotationFrameCount) == 0x44, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightRotationGroupEffect) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FontAssetCreationSettings::*)(::StringW, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::StringW, int32_t)>(
     &::TMPro::FontAssetCreationSettings::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x68187ac;
+  constexpr static std::size_t addrs = 0x6957290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

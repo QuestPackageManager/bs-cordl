@@ -3,13 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPreviewPlayerPauseOnInputFocusLost_def.hpp"
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
+#include "GlobalNamespace/zzzz__XRSystemEventType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x57815d8;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x58bd884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "Start", {}, {} })));
@@ -20,39 +21,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::OnDestroy)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5781834;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x58bd9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "OnDestroy", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost.HandleInputFocusCaptured
+//  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost.HandleSystemStateChange
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
-    &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x57817f0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)(::GlobalNamespace::XRSystemEventType)>(
+    &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleSystemStateChange)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x58bdae0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "HandleInputFocusCaptured", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost.HandleInputFocusReleased
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
-    &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5781a18;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "HandleInputFocusReleased", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(),
+                                                                                           { "HandleSystemStateChange", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
     return ___internal_method;
   }
 };
@@ -61,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5781a5c;
+  constexpr static std::size_t addrs = 0x58bdb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { ".ctor", {}, {} })));
@@ -80,17 +67,17 @@ constexpr void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songPreviewPlayer = value;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_internal_get__vrPlatformHelper() {
+constexpr ::GlobalNamespace::IXRSystemState*& GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_internal_get__xrSystemState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+  return this->____xrSystemState;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IXRSystemState* const& GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_internal_get__xrSystemState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+  return this->____xrSystemState;
 }
-constexpr void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
+constexpr void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::__cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____vrPlatformHelper = value;
+  this->____xrSystemState = value;
 }
 inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "Start", {}, {} })));
@@ -100,15 +87,10 @@ inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::OnDestroy()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "HandleInputFocusCaptured", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "HandleInputFocusReleased", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(),
+                                                                                         { "HandleSystemStateChange", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventType);
 }
 inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { ".ctor", {}, {} })));

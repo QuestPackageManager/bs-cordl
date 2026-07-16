@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*, ::StringW, ::StringW)>(
     &::System::Net::Http::Headers::CollectionExtensions::SetValue)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5fa41a0;
+  constexpr static std::size_t addrs = 0x60df29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

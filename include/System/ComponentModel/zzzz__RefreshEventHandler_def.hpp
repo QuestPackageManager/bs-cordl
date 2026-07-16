@@ -28,12 +28,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE RefreshEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6286eac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x63c2f48, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::ComponentModel::RefreshEventArgs* e);
 
   static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6286d68, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c2e04, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   RefreshEventHandler(RefreshEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

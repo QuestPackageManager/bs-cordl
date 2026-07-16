@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x687b128, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69b9c0c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b);
 
-  /// @brief Method get_color, addr 0x687b11c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x69b9c00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TrackColorAttribute(TrackColorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19013 };
 
   /// @brief Field m_Color, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;

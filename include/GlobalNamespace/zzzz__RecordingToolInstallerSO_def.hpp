@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x57dbae0, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x58fc140, size 0x218, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::RecordingToolInstallerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x57dbcf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fc358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   RecordingToolInstallerSO(RecordingToolInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

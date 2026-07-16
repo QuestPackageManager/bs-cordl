@@ -51,19 +51,19 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T* Allocate(int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method CustomResize, addr 0x637fe90, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CustomResize, addr 0x64bcab0, size 0xe4, virtual false, abstract: false, final false
   static inline void* CustomResize(void* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int64_t size, int32_t align);
 
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Free(T* pointer, int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method IsCustom, addr 0x637fe84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCustom, addr 0x64bcaa4, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCustom(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T* Resize(T* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Resize, addr 0x637fd18, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x64bc938, size 0x14c, virtual false, abstract: false, final false
   static inline void* Resize(void* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int64_t size, int32_t align);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
   constexpr Unmanaged_Memory_Array();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15596 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -99,13 +99,13 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Allocate, addr 0x637fcfc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x64bc91c, size 0x1c, virtual false, abstract: false, final false
   static inline void* Allocate(int64_t size, int32_t align, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Free(T* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Free, addr 0x637fe64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x64bca84, size 0x20, virtual false, abstract: false, final false
   static inline void Free(void* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   // Ctor Parameters []
@@ -113,7 +113,7 @@ public:
   constexpr Memory_Unmanaged();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15597 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -150,7 +150,7 @@ public:
   constexpr Memory_Array();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15598 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -177,7 +177,7 @@ public:
 
   using Unmanaged = ::Unity::Collections::Memory_Unmanaged;
 
-  /// @brief Method CheckByteCountIsReasonable, addr 0x637fc3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CheckByteCountIsReasonable, addr 0x64bc85c, size 0xc0, virtual false, abstract: false, final false
   static inline void CheckByteCountIsReasonable(int64_t size);
 
   // Ctor Parameters []
@@ -185,7 +185,7 @@ public:
   constexpr Memory();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

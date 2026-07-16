@@ -2,14 +2,15 @@
 // IWYU pragma private; include "GlobalNamespace/DeactivateAnimatorOnInputFocusCapture.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAnimatorOnInputFocusCapture_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
+#include "GlobalNamespace/zzzz__XRSystemEventType_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::Start)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x570cc58;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5856bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "Start", {}, {} })));
@@ -20,39 +21,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::OnDestroy)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x570ceb0;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x5856cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "OnDestroy", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture.HandleInputFocusCaptured
+//  Writing Method size for method: ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture.HandleSystemStateChange
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
-    &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusCaptured)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x570ce70;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)(::GlobalNamespace::XRSystemEventType)>(
+    &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleSystemStateChange)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5856e2c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "HandleInputFocusCaptured", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture.HandleInputFocusReleased
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(
-    &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusReleased)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x570d094;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "HandleInputFocusReleased", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(),
+                                                                                           { "HandleSystemStateChange", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
     return ___internal_method;
   }
 };
@@ -61,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x570d0b4;
+  constexpr static std::size_t addrs = 0x5856e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { ".ctor", {}, {} })));
@@ -80,17 +67,17 @@ constexpr void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____animator = value;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_get__vrPlatformHelper() {
+constexpr ::GlobalNamespace::IXRSystemState*& GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_get__systemState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+  return this->____systemState;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IXRSystemState* const& GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_get__systemState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+  return this->____systemState;
 }
-constexpr void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
+constexpr void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_set__systemState(::GlobalNamespace::IXRSystemState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____vrPlatformHelper = value;
+  this->____systemState = value;
 }
 constexpr bool& GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::__cordl_internal_get__wasEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -112,15 +99,10 @@ inline void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::OnDestroy() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusCaptured() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "HandleInputFocusCaptured", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusReleased() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "HandleInputFocusReleased", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(),
+                                                                                         { "HandleSystemStateChange", {}, { ::i2c::type_of<::GlobalNamespace::XRSystemEventType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventType);
 }
 inline void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { ".ctor", {}, {} })));

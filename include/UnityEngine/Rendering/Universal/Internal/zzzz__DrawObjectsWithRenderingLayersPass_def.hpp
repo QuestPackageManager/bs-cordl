@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_maskSize(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize value);
 
-  /// @brief Method .ctor, addr 0x67bf798, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fe268, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +130,7 @@ public:
   DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
 
   /// @brief Field basePassData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* ___basePassData;
@@ -164,11 +164,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c* New_ctor();
 
-  /// @brief Method <Render>b__7_0, addr 0x67bf840, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__7_0, addr 0x68fe310, size 0x1d4, virtual false, abstract: false, final false
   inline void _Render_b__7_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData* data,
                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x67bf83c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fe30c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c* getStaticF___9();
@@ -198,7 +198,7 @@ public:
   DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -224,24 +224,24 @@ public:
   /// @brief Field m_DepthTargetIndentifiers, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DepthTargetIndentifiers, put = __cordl_internal_set_m_DepthTargetIndentifiers)) ::UnityEngine::Rendering::RTHandle* m_DepthTargetIndentifiers;
 
-  /// @brief Method Configure, addr 0x67be904, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x68fd3d4, size 0xc, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Execute, addr 0x67be910, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x68fd3e0, size 0xb0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass*
   New_ctor(::UnityEngine::Rendering::Universal::URPProfileId profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
            ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method Render, addr 0x67be9c0, size 0xdd8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x68fd490, size 0xdd8, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle renderingLayersTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle mainShadowsTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle additionalShadowsTexture, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize,
                      uint32_t batchLayerMask);
 
-  /// @brief Method Setup, addr 0x67be7a4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x68fd274, size 0x160, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* renderingLayersTexture, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
   constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get_m_ColorTargetIndentifiers() const;
@@ -256,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DepthTargetIndentifiers(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method .ctor, addr 0x67be6c8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fd198, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
@@ -275,7 +275,7 @@ public:
   DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13068 };
 
   /// @brief Field m_ColorTargetIndentifiers, offset: 0x160, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___m_ColorTargetIndentifiers;

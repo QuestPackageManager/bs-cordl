@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
     ::System::Type*, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugGizmoType, ::UnityEngine::Color, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Setup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5928228;
+  constexpr static std::size_t addrs = 0x5a6192c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5933cb4;
+  constexpr static std::size_t addrs = 0x5a6d3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(), { "Start", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Update)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x5933db0;
+  constexpr static std::size_t addrs = 0x5a6d4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(), { "Update", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::AddGizmoRenderer)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5933cb8;
+  constexpr static std::size_t addrs = 0x5a6d3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)(::UnityEngine::Object*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::GetState)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5928b20;
+  constexpr static std::size_t addrs = 0x5a62224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)(::UnityEngine::Object*, bool)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::SetState)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x59289b8;
+  constexpr static std::size_t addrs = 0x5a620bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59340a8;
+  constexpr static std::size_t addrs = 0x5a6d7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(), { ".ctor", {}, {} })));

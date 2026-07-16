@@ -17,6 +17,9 @@ template <typename T> class Action_1;
 namespace Tweening {
 struct IntTween_RoundingType;
 }
+namespace UnityEngine {
+class AnimationCurve;
+}
 // Forward declare root types
 namespace Tweening {
 struct IntTween_RoundingType;
@@ -72,7 +75,7 @@ public:
   static ::Tweening::IntTween_RoundingType const Round;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -97,13 +100,16 @@ public:
   // Declarations
   using RoundingType = ::Tweening::IntTween_RoundingType;
 
-  /// @brief Field _roundingType, offset 0x58, size 0x4
+  /// @brief Field _roundingType, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__roundingType, put = __cordl_internal_set__roundingType)) ::Tweening::IntTween_RoundingType _roundingType;
 
-  /// @brief Method GetValue, addr 0x6305e58, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x64426a0, size 0x28c, virtual true, abstract: false, final false
   inline int32_t GetValue(float_t t);
 
   static inline ::Tweening::IntTween* New_ctor();
+
+  static inline ::Tweening::IntTween* New_ctor(int32_t fromValue, int32_t toValue, ::System::Action_1<int32_t>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve,
+                                               ::Tweening::IntTween_RoundingType roundingType, float_t delay);
 
   static inline ::Tweening::IntTween* New_ctor(int32_t fromValue, int32_t toValue, ::System::Action_1<int32_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                                                ::Tweening::IntTween_RoundingType roundingType, float_t delay);
@@ -114,10 +120,14 @@ public:
 
   constexpr void __cordl_internal_set__roundingType(::Tweening::IntTween_RoundingType value);
 
-  /// @brief Method .ctor, addr 0x6305d6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644250c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6305dc0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6442600, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(int32_t fromValue, int32_t toValue, ::System::Action_1<int32_t>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve,
+                    ::Tweening::IntTween_RoundingType roundingType, float_t delay);
+
+  /// @brief Method .ctor, addr 0x6442564, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t fromValue, int32_t toValue, ::System::Action_1<int32_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, ::Tweening::IntTween_RoundingType roundingType,
                     float_t delay);
 
@@ -136,16 +146,16 @@ public:
   IntTween(IntTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22927 };
 
-  /// @brief Field _roundingType, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _roundingType, offset: 0x60, size: 0x4, def value: None
   ::Tweening::IntTween_RoundingType ____roundingType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Tweening::IntTween, ____roundingType) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::Tweening::IntTween, ____roundingType) == 0x60, "Offset mismatch!");
 
-static_assert(sizeof(::Tweening::IntTween) == 0x60, "Size mismatch!");
+static_assert(sizeof(::Tweening::IntTween) == 0x68, "Size mismatch!");
 
 } // namespace Tweening

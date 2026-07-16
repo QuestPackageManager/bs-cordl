@@ -554,7 +554,7 @@ public:
   static ::System::Xml::Schema::SchemaNames_Token const XsdWhitespace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1005,18 +1005,18 @@ public:
   /// @brief Field nameTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CreateTokenToQNameTable, addr 0x60c8c88, size 0x1968, virtual false, abstract: false, final false
+  /// @brief Method CreateTokenToQNameTable, addr 0x6203d84, size 0x1968, virtual false, abstract: false, final false
   inline void CreateTokenToQNameTable();
 
-  /// @brief Method IsXDRRoot, addr 0x60ca698, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsXDRRoot, addr 0x6205794, size 0x48, virtual false, abstract: false, final false
   inline bool IsXDRRoot(::StringW localName, ::StringW ns);
 
-  /// @brief Method IsXSDRoot, addr 0x60ca650, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsXSDRoot, addr 0x620574c, size 0x48, virtual false, abstract: false, final false
   inline bool IsXSDRoot(::StringW localName, ::StringW ns);
 
   static inline ::System::Xml::Schema::SchemaNames* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method SchemaTypeFromRoot, addr 0x60ca5f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SchemaTypeFromRoot, addr 0x62056ec, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType SchemaTypeFromRoot(::StringW localName, ::StringW ns);
 
   constexpr ::StringW const& __cordl_internal_get_NsDataType() const;
@@ -1865,7 +1865,7 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x60c5fdc, size 0x2cac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62010d8, size 0x2cac, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
 protected:
@@ -1883,7 +1883,7 @@ public:
   SchemaNames(SchemaNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9686 };
 
   /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ___nameTable;

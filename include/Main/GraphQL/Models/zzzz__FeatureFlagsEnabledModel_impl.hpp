@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::*)(::StringW)>(
     &::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::set_Feature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f5b5c;
+  constexpr static std::size_t addrs = 0x328a660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::*)()>(
     &::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::get_Feature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f5b64;
+  constexpr static std::size_t addrs = 0x328a668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::*)(::System::Nullable_1<bool>)>(
     &::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::set_Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f5b6c;
+  constexpr static std::size_t addrs = 0x328a670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::*)()>(
     &::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::get_Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f5b74;
+  constexpr static std::size_t addrs = 0x328a678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::*)()>(
     &::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31f5b7c;
+  constexpr static std::size_t addrs = 0x328a680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Mo
     ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>*)>(
     &::Main::GraphQL::Models::FeatureFlagsEnabledModel::set_XocBeatGamesFeaturesEnabledForViewer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f5b48;
+  constexpr static std::size_t addrs = 0x328a64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* (
     ::Main::GraphQL::Models::FeatureFlagsEnabledModel::*)()>(&::Main::GraphQL::Models::FeatureFlagsEnabledModel::get_XocBeatGamesFeaturesEnabledForViewer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f5b50;
+  constexpr static std::size_t addrs = 0x328a654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Models::FeatureFlagsEnabledModel::*)()>(&::Main::GraphQL::Models::FeatureFlagsEnabledModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31f5b58;
+  constexpr static std::size_t addrs = 0x328a65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Models::FeatureFlagsEnabledModel*>(), { ".ctor", {}, {} })));

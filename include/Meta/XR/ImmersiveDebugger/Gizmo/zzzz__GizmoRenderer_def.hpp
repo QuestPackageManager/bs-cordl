@@ -41,16 +41,16 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer* New_ctor();
 
-  /// @brief Method SetUpGizmo, addr 0x5933a5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetUpGizmo, addr 0x5a6d160, size 0x10, virtual false, abstract: false, final false
   inline void SetUpGizmo(::Meta::XR::ImmersiveDebugger::DebugGizmoType gizmoType, ::UnityEngine::Color gizmoColor);
 
-  /// @brief Method Start, addr 0x5933a74, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a6d178, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5933ad8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a6d1dc, size 0xe0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDataSource, addr 0x5933a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDataSource, addr 0x5a6d170, size 0x8, virtual false, abstract: false, final false
   inline void UpdateDataSource(::System::Object* dataSource);
 
   constexpr ::System::Object* const& __cordl_internal_get__dataSource() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__gizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType value);
 
-  /// @brief Method .ctor, addr 0x5933cb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6d3b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   GizmoRenderer(GizmoRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18446 };
 
   /// @brief Field _gizmoType, offset: 0x20, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::DebugGizmoType ____gizmoType;

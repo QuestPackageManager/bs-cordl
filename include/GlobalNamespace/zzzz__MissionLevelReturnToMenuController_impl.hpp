@@ -3,7 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionLevelReturnToMenuController.ReturnToMenu
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelReturnToMenuController::*)()>(&::GlobalNamespace::MissionLevelReturnToMenuController::ReturnToMenu)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x587be4c;
+  constexpr static std::size_t addrs = 0x5917904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelReturnToMenuController*>(), { "ReturnToMenu", {}, {} })));
@@ -23,25 +23,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelReturnToMenuController::*)()>(&::GlobalNamespace::MissionLevelReturnToMenuController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587bf00;
+  constexpr static std::size_t addrs = 0x59179b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelReturnToMenuController*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_get__missionLevelSceneSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____missionLevelSceneSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_get__missionLevelSceneSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____missionLevelSceneSetupData;
-}
-constexpr void GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____missionLevelSceneSetupData = value;
-}
 constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_get__prepareLevelCompletionResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prepareLevelCompletionResults;
@@ -65,6 +53,18 @@ constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& Gl
 constexpr void GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missionObjectiveCheckersManager = value;
+}
+constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData*& GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_get__missionLevelSceneSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____missionLevelSceneSetupData;
+}
+constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData* const& GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_get__missionLevelSceneSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____missionLevelSceneSetupData;
+}
+constexpr void GlobalNamespace::MissionLevelReturnToMenuController::__cordl_internal_set__missionLevelSceneSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____missionLevelSceneSetupData = value;
 }
 inline void GlobalNamespace::MissionLevelReturnToMenuController::ReturnToMenu() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelReturnToMenuController*>(), { "ReturnToMenu", {}, {} })));

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/RecordingSettings.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorder_impl.hpp"
@@ -7,7 +8,7 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingSettings_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
@@ -20,12 +21,12 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingSettings::*)(
-    ::StringW, ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*, bool, bool,
+    ::StringW, ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic, bool, bool,
     ::GlobalNamespace::ObjectsMovementRecorder_Mode, ::StringW, ::GlobalNamespace::ObjectsMovementRecorder_CameraView, bool, bool, int32_t, int32_t, int32_t,
     ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>, bool, float_t, float_t, bool, ::System::Nullable_1<::GlobalNamespace::EnvironmentType>, ::GlobalNamespace::EnvironmentInfoSO*,
     bool)>(&::GlobalNamespace::RecordingSettings::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x57db560;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x58fbc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                               ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(),
                                                                                                               ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(),
                                                                                                               ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
-                                                                                                              ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(),
+                                                                                                              ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(),
                                                                                                               ::i2c::type_of<bool>(),
                                                                                                               ::i2c::type_of<bool>(),
                                                                                                               ::i2c::type_of<::GlobalNamespace::ObjectsMovementRecorder_Mode>(),
@@ -61,8 +62,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RecordingSettings::*)()>(&::GlobalNamespace::RecordingSettings::ToString)> {
-  constexpr static std::size_t size = 0xcbc;
-  constexpr static std::size_t addrs = 0x57dc42c;
+  constexpr static std::size_t size = 0xcb4;
+  constexpr static std::size_t addrs = 0x58fc9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,15 +119,15 @@ constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_difficul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___difficulty = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::RecordingSettings::__cordl_internal_get_characteristic() {
+constexpr ::GlobalNamespace::BeatmapCharacteristic& GlobalNamespace::RecordingSettings::__cordl_internal_get_characteristic() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::RecordingSettings::__cordl_internal_get_characteristic() const {
+constexpr ::GlobalNamespace::BeatmapCharacteristic const& GlobalNamespace::RecordingSettings::__cordl_internal_get_characteristic() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
-constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_characteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
+constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_characteristic(::GlobalNamespace::BeatmapCharacteristic value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characteristic = value;
 }
@@ -347,8 +348,8 @@ constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_saveToOl
   this->___saveToOldFormat = value;
 }
 inline void GlobalNamespace::RecordingSettings::_ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level,
-                                                      ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel,
-                                                      bool recordPerformance, ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode, ::StringW recordingPath,
+                                                      ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic characteristic, bool runLevel, bool recordPerformance,
+                                                      ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode, ::StringW recordingPath,
                                                       ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording,
                                                       int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                                                       ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> playbackScreenshots, bool practice, float_t startSongTime,
@@ -361,7 +362,7 @@ inline void GlobalNamespace::RecordingSettings::_ctor(::StringW gameMode, ::Glob
                                                                                                             ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(),
                                                                                                             ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(),
                                                                                                             ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
-                                                                                                            ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicSO*>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(),
                                                                                                             ::i2c::type_of<bool>(),
                                                                                                             ::i2c::type_of<bool>(),
                                                                                                             ::i2c::type_of<::GlobalNamespace::ObjectsMovementRecorder_Mode>(),
@@ -390,7 +391,7 @@ inline ::StringW GlobalNamespace::RecordingSettings::ToString() {
 }
 inline ::GlobalNamespace::RecordingSettings* GlobalNamespace::RecordingSettings::New_ctor(
     ::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
-    ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode, ::StringW recordingPath,
+    ::GlobalNamespace::BeatmapCharacteristic characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode, ::StringW recordingPath,
     ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight,
     int32_t framerate, ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> playbackScreenshots, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
     bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat) {

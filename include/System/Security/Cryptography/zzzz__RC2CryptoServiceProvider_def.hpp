@@ -33,16 +33,16 @@ public:
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*> s_legalKeySizes;
 
-  /// @brief Method CreateDecryptor, addr 0x59c1128, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x5afadf8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x59c105c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x5afad2c, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x59c1274, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x5afaf44, size 0x70, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x59c11f4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x5afaec4, size 0x80, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::RC2CryptoServiceProvider* New_ctor();
@@ -53,12 +53,12 @@ public:
 
   constexpr void __cordl_internal_set_m_use40bitSalt(bool value);
 
-  /// @brief Method .ctor, addr 0x59c0f90, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afac60, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x59c1054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x5afad24, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);

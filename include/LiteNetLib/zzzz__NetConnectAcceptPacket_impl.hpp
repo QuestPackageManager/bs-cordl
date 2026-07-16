@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetConnectAcceptPacket::*)(int64_t, uint8_t, bool)>(&::LiteNetLib::NetConnectAcceptPacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x576029c;
+  constexpr static std::size_t addrs = 0x58a6790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetConnectAcceptPacket* (*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetConnectAcceptPacket::FromData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x575d264;
+  constexpr static std::size_t addrs = 0x58a3758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&::LiteNetLib::NetConnectAcceptPacket::Make)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57602ac;
+  constexpr static std::size_t addrs = 0x58a67a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

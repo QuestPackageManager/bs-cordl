@@ -12,6 +12,9 @@ struct EaseType;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine {
+class AnimationCurve;
+}
 // Forward declare root types
 namespace Tweening {
 template <typename T> class Tween_1;
@@ -28,13 +31,13 @@ template <typename T>
 class CORDL_TYPE Tween_1 : public ::Tweening::Tween {
 public:
   // Declarations
-  /// @brief Field fromValue, offset 0x48, size 0x8
+  /// @brief Field fromValue, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_fromValue, put = __cordl_internal_set_fromValue)) T fromValue;
 
-  /// @brief Field onUpdate, offset 0x58, size 0x8
+  /// @brief Field onUpdate, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_onUpdate, put = __cordl_internal_set_onUpdate)) ::System::Action_1<T>* onUpdate;
 
-  /// @brief Field toValue, offset 0x50, size 0x8
+  /// @brief Field toValue, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_toValue, put = __cordl_internal_set_toValue)) T toValue;
 
   /// @brief Method ForceOnUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -47,6 +50,8 @@ public:
   inline void Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   static inline ::Tweening::Tween_1<T>* New_ctor();
+
+  static inline ::Tweening::Tween_1<T>* New_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve, float_t delay);
 
   static inline ::Tweening::Tween_1<T>* New_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
@@ -84,6 +89,9 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve, float_t delay);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
 protected:
@@ -101,15 +109,15 @@ public:
   Tween_1(Tween_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22935 };
 
-  /// @brief Field fromValue, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field fromValue, offset: 0x50, size: 0x8, def value: None
   T ___fromValue;
 
-  /// @brief Field toValue, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field toValue, offset: 0x58, size: 0x8, def value: None
   T ___toValue;
 
-  /// @brief Field onUpdate, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field onUpdate, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<T>* ___onUpdate;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

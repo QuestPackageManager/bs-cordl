@@ -56,15 +56,15 @@ public:
   /// @brief Field _trackLaneRingsManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__trackLaneRingsManager, put = __cordl_internal_set__trackLaneRingsManager)) ::UnityW<::GlobalNamespace::TrackLaneRingsManager> _trackLaneRingsManager;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x5869414, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x59a26dc, size 0x80, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58693f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59a26c0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58692d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a2598, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingsManager(::UnityW<::GlobalNamespace::TrackLaneRingsManager> value);
 
-  /// @brief Method .ctor, addr 0x5869494, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a275c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   TrackLaneRingsPositionStepEffectSpawner(TrackLaneRingsPositionStepEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
 
   /// @brief Field _trackLaneRingsManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsManager> ____trackLaneRingsManager;

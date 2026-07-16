@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ExceptionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateFullStackMessage, addr 0x3251a30, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GenerateFullStackMessage, addr 0x330a284, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW GenerateFullStackMessage(::System::Exception* e);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ExceptionExtensions(ExceptionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

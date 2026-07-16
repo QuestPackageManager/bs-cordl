@@ -42,21 +42,21 @@ public:
   /// @brief Field _minRadius, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get__minRadius, put = __cordl_internal_set__minRadius)) float_t _minRadius;
 
-  /// @brief Method DrawGizmoCircle, addr 0x573bad4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmoCircle, addr 0x5882cf0, size 0xe0, virtual false, abstract: false, final false
   inline void DrawGizmoCircle(::UnityEngine::Vector3 center, float_t radius, int32_t steps);
 
   static inline ::HMUI::CircleTouchable* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x573b99c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x5882bb8, size 0x138, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x573b844, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5882a60, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Raycast, addr 0x573b8d0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x5882aec, size 0xcc, virtual true, abstract: false, final false
   inline bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method UpdateCachedReferences, addr 0x573b860, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedReferences, addr 0x5882a7c, size 0x70, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__minRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x573bbb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5882dd0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   CircleTouchable(CircleTouchable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19163 };
 
   /// @brief Field _minRadius, offset: 0xa8, size: 0x4, def value: None
   float_t ____minRadius;

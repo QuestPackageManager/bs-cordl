@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Operator::*)(::MS::Internal::Xml::XPath::Operator_Op, ::MS::Internal::Xml::XPath::AstNode*,
                                                                                                       ::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Operator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6136544;
+  constexpr static std::size_t addrs = 0x6271640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Operator::*)()>(&::MS::Internal::Xml::XPath::Operator::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6136550;
+  constexpr static std::size_t addrs = 0x627164c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Operator::*)()>(&::MS::Internal::Xml::XPath::Operator::get_ReturnType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6136558;
+  constexpr static std::size_t addrs = 0x6271654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

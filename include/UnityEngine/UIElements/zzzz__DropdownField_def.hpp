@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DropdownField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6be73f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3b2ac, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   /// @brief Field m_Index, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_Index;
 
-  /// @brief Method Init, addr 0x6be745c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d3b314, size 0x1b0, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::DropdownField_UxmlTraits* New_ctor();
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6be760c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3b4c4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,10 +162,10 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x6be7368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3b220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6be7370, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3b228, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
 protected:

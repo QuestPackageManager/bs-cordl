@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a21dc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5ba90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x5a21dcc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x5b5ba9c, size 0x110, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type*> memberTypes);
 
 protected:

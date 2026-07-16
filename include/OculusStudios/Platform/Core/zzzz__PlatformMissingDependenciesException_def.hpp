@@ -29,13 +29,13 @@ public:
 
   static inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5df4150, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c408, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5df41a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c460, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5df4214, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c4cc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -53,7 +53,7 @@ public:
   PlatformMissingDependenciesException(PlatformMissingDependenciesException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

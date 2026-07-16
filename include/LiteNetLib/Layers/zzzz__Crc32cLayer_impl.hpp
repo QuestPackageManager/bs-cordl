@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Layers::Crc32cLayer::*)()>(&::LiteNetLib::Layers::Crc32cLayer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57698f0;
+  constexpr static std::size_t addrs = 0x58afde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Layers::Crc32cLayer*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Layers::Crc32cLayer::*)(::System::Net::IPEndPoint*, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::LiteNetLib::Layers::Crc32cLayer::ProcessInboundPacket)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5769904;
+  constexpr static std::size_t addrs = 0x58afdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Layers::Crc32cLayer::*)(::System::Net::IPEndPoint*, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::LiteNetLib::Layers::Crc32cLayer::ProcessOutBoundPacket)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5769a88;
+  constexpr static std::size_t addrs = 0x58aff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

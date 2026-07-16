@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatSa
                                                            ::StringW, ::StringW, bool, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::StringW)>(
     &::GlobalNamespace::BeatSaberConnectedPlayerFactory::CreateLocalPlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x320e734;
+  constexpr static std::size_t addrs = 0x32a5874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatSa
                                                                                                        ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*,
                                                            uint8_t, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::BeatSaberConnectedPlayerFactory::CreateDirectlyConnectedPlayer)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x320e7f8;
+  constexpr static std::size_t addrs = 0x32a5938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatSa
                                                            uint8_t, ::GlobalNamespace::PlayerConnectedPacket*, ::GlobalNamespace::BeatSaberConnectedPlayer*)>(
     &::GlobalNamespace::BeatSaberConnectedPlayerFactory::CreateRemoteConnectedPlayer)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x320ea48;
+  constexpr static std::size_t addrs = 0x32a5b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberConnectedPlayerFactory::*)()>(&::GlobalNamespace::BeatSaberConnectedPlayerFactory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x320eb34;
+  constexpr static std::size_t addrs = 0x32a5c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberConnectedPlayerFactory*>(), { ".ctor", {}, {} })));

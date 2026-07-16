@@ -53,22 +53,22 @@ public:
   /// @brief Field _storePath, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath)) ::StringW _storePath;
 
-  /// @brief Method BuildCertificatesCollection, addr 0x595df7c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method BuildCertificatesCollection, addr 0x5a968e8, size 0x1ec, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
 
-  /// @brief Method BuildCrlsCollection, addr 0x595e1f4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method BuildCrlsCollection, addr 0x5a96b60, size 0x1cc, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
 
-  /// @brief Method CheckStore, addr 0x595e66c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckStore, addr 0x5a96fd8, size 0xd8, virtual false, abstract: false, final false
   inline bool CheckStore(::StringW path, bool throwException);
 
-  /// @brief Method Load, addr 0x595e3c0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x5a96d2c, size 0x1d4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> Load(::StringW filename);
 
-  /// @brief Method LoadCertificate, addr 0x595e594, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificate, addr 0x5a96f00, size 0x6c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
 
-  /// @brief Method LoadCrl, addr 0x595e600, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadCrl, addr 0x5a96f6c, size 0x6c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
 
   static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set__storePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x595df44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a968b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool crl, bool newFormat);
 
-  /// @brief Method get_Certificates, addr 0x595df54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x5a968c0, size 0x28, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_Crls, addr 0x595e168, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Crls, addr 0x5a96ad4, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Crls();
 
 protected:
@@ -127,7 +127,7 @@ public:
   X509Store(X509Store const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19264 };
 
   /// @brief Field _storePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____storePath;

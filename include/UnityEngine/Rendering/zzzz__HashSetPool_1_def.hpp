@@ -68,7 +68,7 @@ public:
   HashSetPool_1___c(HashSetPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,7 +116,7 @@ public:
   HashSetPool_1(HashSetPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

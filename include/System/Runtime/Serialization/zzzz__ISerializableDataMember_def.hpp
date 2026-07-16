@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Runtime::Serialization::IDataNode* value);
 
-  /// @brief Method .ctor, addr 0x60106d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614b7d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x60106b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x614b7b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x60106c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x614b7c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* get_Value();
 
-  /// @brief Method set_Name, addr 0x60106bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x614b7b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Value, addr 0x60106cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x614b7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Runtime::Serialization::IDataNode* value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ISerializableDataMember(ISerializableDataMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17010 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

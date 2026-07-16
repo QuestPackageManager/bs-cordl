@@ -36,14 +36,14 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::TweakManagerForAddon* New_ctor();
 
-  /// @brief Method RegisterSpecialisedWidget, addr 0x592b8f4, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method RegisterSpecialisedWidget, addr 0x5a64ff8, size 0x2c0, virtual true, abstract: false, final false
   inline bool RegisterSpecialisedWidget(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* member, ::System::Reflection::MemberInfo* memberInfo,
                                         ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
-  /// @brief Method .ctor, addr 0x592bbf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a652fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x592bbb4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TelemetryAnnotation, addr 0x5a652b8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_TelemetryAnnotation();
 
 protected:
@@ -61,7 +61,7 @@ public:
   TweakManagerForAddon(TweakManagerForAddon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

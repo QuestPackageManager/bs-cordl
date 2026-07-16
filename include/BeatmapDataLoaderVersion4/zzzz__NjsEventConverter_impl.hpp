@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::NjsEventConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>, ::GlobalNamespace::IBeatToTimeConverter*)>(&::BeatmapDataLoaderVersion4::NjsEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a31d0;
+  constexpr static std::size_t addrs = 0x375f20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::BeatmapDataLoaderVersion4::NjsEventConverter::*)(::BeatmapSaveDataVersion4::BeatIndex*)>(
     &::BeatmapDataLoaderVersion4::NjsEventConverter::Convert)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x36a31d8;
+  constexpr static std::size_t addrs = 0x375f214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

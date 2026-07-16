@@ -73,28 +73,28 @@ public:
 
   constexpr void __cordl_internal_set__namespace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61d2728, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630d824, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeName, addr 0x61d2778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeName, addr 0x630d874, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AttributeName();
 
-  /// @brief Method get_MappedType, addr 0x61d27a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MappedType, addr 0x630d89c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* get_MappedType();
 
-  /// @brief Method get_Namespace, addr 0x61d2788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x630d884, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_AttributeName, addr 0x61d2780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeName, addr 0x630d87c, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeName(::StringW value);
 
-  /// @brief Method set_Form, addr 0x61d2798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x630d894, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_MappedType, addr 0x61d27a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MappedType, addr 0x630d8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_MappedType(::System::Xml::Serialization::XmlTypeMapping* value);
 
-  /// @brief Method set_Namespace, addr 0x61d2790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x630d88c, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   XmlTypeMapMemberAttribute(XmlTypeMapMemberAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9520 };
 
   /// @brief Field _attributeName, offset: 0x58, size: 0x8, def value: None
   ::StringW ____attributeName;

@@ -77,109 +77,109 @@ public:
   /// @brief Field tv4, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF_tv4, put = setStaticF_tv4)) ::UnityEngine::Vector3 tv4;
 
-  /// @brief Method Abs, addr 0x6585250, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x66c295c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Abs(::UnityEngine::Vector3 v);
 
-  /// @brief Method Approx, addr 0x658523c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Approx, addr 0x66c2948, size 0x14, virtual false, abstract: false, final false
   static inline bool Approx(float_t a, float_t b, float_t delta);
 
-  /// @brief Method Approx2, addr 0x6585174, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Approx2, addr 0x66c2880, size 0x18, virtual false, abstract: false, final false
   static inline bool Approx2(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float_t delta);
 
-  /// @brief Method Approx3, addr 0x658518c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Approx3, addr 0x66c2898, size 0x30, virtual false, abstract: false, final false
   static inline bool Approx3(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, float_t delta);
 
-  /// @brief Method Approx4, addr 0x65851bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Approx4, addr 0x66c28c8, size 0x40, virtual false, abstract: false, final false
   static inline bool Approx4(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, float_t delta);
 
-  /// @brief Method ApproxC, addr 0x65851fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ApproxC, addr 0x66c2908, size 0x40, virtual false, abstract: false, final false
   static inline bool ApproxC(::UnityEngine::Color a, ::UnityEngine::Color b, float_t delta);
 
-  /// @brief Method Average, addr 0x658426c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x66c1978, size 0x360, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method Average, addr 0x65845cc, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x66c1cd8, size 0x5b8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method Average, addr 0x6584b84, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x66c2290, size 0x5c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method Clamp, addr 0x65816b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x66bedbc, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Clamp(int32_t value, int32_t lowerBound, int32_t upperBound);
 
-  /// @brief Method Cross, addr 0x6582c98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x66c03a4, size 0x30, virtual false, abstract: false, final false
   static inline void Cross(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::by_ref<::UnityEngine::Vector3> res);
 
-  /// @brief Method DistancePointLineSegment, addr 0x6582048, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method DistancePointLineSegment, addr 0x66bf754, size 0x1c0, virtual false, abstract: false, final false
   static inline float_t DistancePointLineSegment(::UnityEngine::Vector2 point, ::UnityEngine::Vector2 lineStart, ::UnityEngine::Vector2 lineEnd);
 
-  /// @brief Method DistancePointLineSegment, addr 0x6582208, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method DistancePointLineSegment, addr 0x66bf914, size 0x278, virtual false, abstract: false, final false
   static inline float_t DistancePointLineSegment(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd);
 
-  /// @brief Method DivideBy, addr 0x6583b00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DivideBy, addr 0x66c120c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 DivideBy(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 o);
 
-  /// @brief Method DivideBy, addr 0x6583b0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivideBy, addr 0x66c1218, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 DivideBy(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 o);
 
-  /// @brief Method EnsureUnitVector, addr 0x65853b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EnsureUnitVector, addr 0x66c2ac4, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 EnsureUnitVector(::UnityEngine::Vector2 value);
 
-  /// @brief Method EnsureUnitVector, addr 0x65854d4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method EnsureUnitVector, addr 0x66c2be0, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EnsureUnitVector(::UnityEngine::Vector3 value);
 
-  /// @brief Method EnsureUnitVector, addr 0x6585608, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method EnsureUnitVector, addr 0x66c2d14, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 EnsureUnitVector(::UnityEngine::Vector4 value);
 
-  /// @brief Method FixNaN, addr 0x6585388, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FixNaN, addr 0x66c2a94, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 FixNaN(::UnityEngine::Vector4 value);
 
-  /// @brief Method GetBounds, addr 0x657ef1c, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method GetBounds, addr 0x66bc628, size 0x5d8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds GetBounds(::ArrayW<::UnityEngine::Vector3> positions, ::System::Collections::Generic::IList_1<int32_t>* indices);
 
-  /// @brief Method GetLineSegmentIntersect, addr 0x6572cb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetLineSegmentIntersect, addr 0x66b03bc, size 0x74, virtual false, abstract: false, final false
   static inline bool GetLineSegmentIntersect(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3);
 
-  /// @brief Method GetLineSegmentIntersect, addr 0x6582634, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetLineSegmentIntersect, addr 0x66bfd40, size 0x118, virtual false, abstract: false, final false
   static inline bool GetLineSegmentIntersect(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3, ::by_ref<::UnityEngine::Vector2> intersect);
 
-  /// @brief Method GetNearestPointRayRay, addr 0x6582480, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNearestPointRayRay, addr 0x66bfb8c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetNearestPointRayRay(::UnityEngine::Ray a, ::UnityEngine::Ray b);
 
-  /// @brief Method GetNearestPointRayRay, addr 0x65824c4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetNearestPointRayRay, addr 0x66bfbd0, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetNearestPointRayRay(::UnityEngine::Vector3 ao, ::UnityEngine::Vector3 ad, ::UnityEngine::Vector3 bo, ::UnityEngine::Vector3 bd);
 
-  /// @brief Method InvertScaleVector, addr 0x6585144, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InvertScaleVector, addr 0x66c2850, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InvertScaleVector(::UnityEngine::Vector3 scaleVector);
 
-  /// @brief Method IsCardinalAxis, addr 0x6583878, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method IsCardinalAxis, addr 0x66c0f84, size 0x288, virtual false, abstract: false, final false
   static inline bool IsCardinalAxis(::UnityEngine::Vector3 v, float_t epsilon);
 
-  /// @brief Method IsNumber, addr 0x65852b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsNumber, addr 0x66c29bc, size 0x24, virtual false, abstract: false, final false
   static inline bool IsNumber(::UnityEngine::Vector2 value);
 
-  /// @brief Method IsNumber, addr 0x65852d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsNumber, addr 0x66c29e0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsNumber(::UnityEngine::Vector3 value);
 
-  /// @brief Method IsNumber, addr 0x6585310, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsNumber, addr 0x66c2a1c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsNumber(::UnityEngine::Vector4 value);
 
-  /// @brief Method IsNumber, addr 0x658529c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsNumber, addr 0x66c29a8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsNumber(float_t value);
 
-  /// @brief Method LargestValue, addr 0x6583b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LargestValue, addr 0x66c1244, size 0xc, virtual false, abstract: false, final false
   static inline float_t LargestValue(::UnityEngine::Vector2 v);
 
-  /// @brief Method LargestValue, addr 0x6583b1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LargestValue, addr 0x66c1228, size 0x1c, virtual false, abstract: false, final false
   static inline float_t LargestValue(::UnityEngine::Vector3 v);
 
-  /// @brief Method LargestVector2, addr 0x6583ed8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LargestVector2, addr 0x66c15e4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LargestVector2(::ArrayW<::UnityEngine::Vector2> v);
 
-  /// @brief Method LargestVector2, addr 0x6583f24, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LargestVector2, addr 0x66c1630, size 0x348, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LargestVector2(::ArrayW<::UnityEngine::Vector2> v, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method MakeNonZero, addr 0x658535c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method MakeNonZero, addr 0x66c2a68, size 0x2c, virtual false, abstract: false, final false
   static inline float_t MakeNonZero(float_t value, float_t min);
 
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -188,99 +188,99 @@ public:
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Min(::ArrayW<T> array);
 
-  /// @brief Method Normal, addr 0x6583684, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Normal, addr 0x66c0d90, size 0x1f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method Normal, addr 0x6582ce0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Normal, addr 0x66c03ec, size 0x1d0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
-  /// @brief Method Normal, addr 0x6582eb0, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method Normal, addr 0x66c05bc, size 0x7d4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method NormalTangentBitangent, addr 0x657e5e4, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method NormalTangentBitangent, addr 0x66bbcf0, size 0x434, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Normal NormalTangentBitangent(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method Perpendicular, addr 0x6581e50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Perpendicular, addr 0x66bf55c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Perpendicular(::UnityEngine::Vector2 value);
 
-  /// @brief Method PointInCircumference, addr 0x6581754, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PointInCircumference, addr 0x66bee60, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PointInCircumference(float_t radius, float_t angleInDegrees, ::UnityEngine::Vector2 origin);
 
-  /// @brief Method PointInEllipseCircumference, addr 0x65817b4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method PointInEllipseCircumference, addr 0x66beec0, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PointInEllipseCircumference(float_t xRadius, float_t yRadius, float_t angleInDegrees, ::UnityEngine::Vector2 origin, ::by_ref<::UnityEngine::Vector2> tangent);
 
-  /// @brief Method PointInEllipseCircumferenceWithConstantAngle, addr 0x65818f0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PointInEllipseCircumferenceWithConstantAngle, addr 0x66beffc, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PointInEllipseCircumferenceWithConstantAngle(float_t xRadius, float_t yRadius, float_t angleInDegrees, ::UnityEngine::Vector2 origin,
                                                                                     ::by_ref<::UnityEngine::Vector2> tangent);
 
-  /// @brief Method PointInPolygon, addr 0x658274c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method PointInPolygon, addr 0x66bfe58, size 0x278, virtual false, abstract: false, final false
   static inline bool PointInPolygon(::ArrayW<::UnityEngine::Vector2> polygon, ::UnityEngine::Vector2 point, ::ArrayW<int32_t> indexes);
 
-  /// @brief Method PointInPolygon, addr 0x65829c4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method PointInPolygon, addr 0x66c00d0, size 0x158, virtual false, abstract: false, final false
   static inline bool PointInPolygon(::ArrayW<::UnityEngine::Vector2> positions, ::UnityEngine::ProBuilder::Bounds2D* polyBounds, ::ArrayW<::UnityEngine::ProBuilder::Edge> edges,
                                     ::UnityEngine::Vector2 point);
 
-  /// @brief Method PointInPolygon, addr 0x6582b1c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method PointInPolygon, addr 0x66c0228, size 0x158, virtual false, abstract: false, final false
   static inline bool PointInPolygon(::ArrayW<::UnityEngine::Vector3> positions, ::UnityEngine::ProBuilder::Bounds2D* polyBounds, ::ArrayW<::UnityEngine::ProBuilder::Edge> edges,
                                     ::UnityEngine::Vector2 point);
 
-  /// @brief Method PointInSphere, addr 0x6581a5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method PointInSphere, addr 0x66bf168, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 PointInSphere(float_t radius, float_t latitudeAngle, float_t longitudeAngle);
 
-  /// @brief Method PolygonArea, addr 0x6581cc0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method PolygonArea, addr 0x66bf3cc, size 0x100, virtual false, abstract: false, final false
   static inline float_t PolygonArea(::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<int32_t> indexes);
 
-  /// @brief Method RayIntersectsTriangle, addr 0x657c344, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method RayIntersectsTriangle, addr 0x66b9a50, size 0x29c, virtual false, abstract: false, final false
   static inline bool RayIntersectsTriangle(::UnityEngine::Ray InRay, ::UnityEngine::Vector3 InTriangleA, ::UnityEngine::Vector3 InTriangleB, ::UnityEngine::Vector3 InTriangleC,
                                            ::by_ref<float_t> OutDistance, ::by_ref<::UnityEngine::Vector3> OutPoint);
 
-  /// @brief Method RayIntersectsTriangle2, addr 0x657d690, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method RayIntersectsTriangle2, addr 0x66bad9c, size 0x244, virtual false, abstract: false, final false
   static inline bool RayIntersectsTriangle2(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 dir, ::UnityEngine::Vector3 vert0, ::UnityEngine::Vector3 vert1, ::UnityEngine::Vector3 vert2,
                                             ::by_ref<float_t> distance, ::by_ref<::UnityEngine::Vector3> normal);
 
-  /// @brief Method RectIntersectsLineSegment, addr 0x6582c74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RectIntersectsLineSegment, addr 0x66c0380, size 0x4, virtual false, abstract: false, final false
   static inline bool RectIntersectsLineSegment(::UnityEngine::Rect rect, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method RectIntersectsLineSegment, addr 0x6582c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RectIntersectsLineSegment, addr 0x66c0384, size 0x8, virtual false, abstract: false, final false
   static inline bool RectIntersectsLineSegment(::UnityEngine::Rect rect, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method ReflectPoint, addr 0x6581e64, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ReflectPoint, addr 0x66bf570, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ReflectPoint(::UnityEngine::Vector2 point, ::UnityEngine::Vector2 lineStart, ::UnityEngine::Vector2 lineEnd);
 
-  /// @brief Method RotateAroundPoint, addr 0x6581dc0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RotateAroundPoint, addr 0x66bf4cc, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 RotateAroundPoint(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 origin, float_t theta);
 
-  /// @brief Method ScaleAroundPoint, addr 0x6581e34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ScaleAroundPoint, addr 0x66bf540, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ScaleAroundPoint(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method Secant, addr 0x6582cc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Secant, addr 0x66c03d4, size 0x18, virtual false, abstract: false, final false
   static inline float_t Secant(float_t x);
 
-  /// @brief Method Sign, addr 0x6585260, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Sign, addr 0x66c296c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Sign(::UnityEngine::Vector3 v);
 
-  /// @brief Method SignedAngle, addr 0x6581ad0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SignedAngle, addr 0x66bf1dc, size 0x114, virtual false, abstract: false, final false
   static inline float_t SignedAngle(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method SmallestVector2, addr 0x6583b44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SmallestVector2, addr 0x66c1250, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 SmallestVector2(::ArrayW<::UnityEngine::Vector2> v);
 
-  /// @brief Method SmallestVector2, addr 0x6583b90, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method SmallestVector2, addr 0x66c129c, size 0x348, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 SmallestVector2(::ArrayW<::UnityEngine::Vector2> v, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method SqrDistance, addr 0x6581be4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x66bf2f0, size 0x24, virtual false, abstract: false, final false
   static inline float_t SqrDistance(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method SqrDistanceRayPoint, addr 0x6581ff0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SqrDistanceRayPoint, addr 0x66bf6fc, size 0x58, virtual false, abstract: false, final false
   static inline float_t SqrDistanceRayPoint(::UnityEngine::Ray ray, ::UnityEngine::Vector3 point);
 
-  /// @brief Method Subtract, addr 0x6582c80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x66c038c, size 0x18, virtual false, abstract: false, final false
   static inline void Subtract(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::by_ref<::UnityEngine::Vector3> res);
 
-  /// @brief Method Sum, addr 0x6585284, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x66c2990, size 0x18, virtual false, abstract: false, final false
   static inline float_t Sum(::UnityEngine::Vector3 v);
 
-  /// @brief Method TriangleArea, addr 0x6581c08, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TriangleArea, addr 0x66bf314, size 0xb8, virtual false, abstract: false, final false
   static inline float_t TriangleArea(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y, ::UnityEngine::Vector3 z);
 
   static inline ::UnityEngine::Vector3 getStaticF_tv1();
@@ -314,7 +314,7 @@ public:
   Math(Math const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16719 };
 
   /// @brief Field handleEpsilon offset 0xffffffff size 0x4
   static constexpr float_t handleEpsilon{ static_cast<float_t>(0.0001f) };

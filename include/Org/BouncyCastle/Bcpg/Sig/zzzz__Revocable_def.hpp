@@ -21,20 +21,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE Revocable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x35d6cf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x36931a8, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> BooleanToByteArray(bool value);
 
-  /// @brief Method IsRevocable, addr 0x35d6db0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsRevocable, addr 0x3693268, size 0x30, virtual false, abstract: false, final false
   inline bool IsRevocable();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isRevocable);
 
-  /// @brief Method .ctor, addr 0x35d6d60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3693218, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x35d6d78, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3693230, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isRevocable);
 
 protected:

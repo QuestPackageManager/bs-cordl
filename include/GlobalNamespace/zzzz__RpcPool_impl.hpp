@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::IRemoteProcedureCall*)>(&::GlobalNamespace::RpcPool::Release)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3281ef0;
+  constexpr static std::size_t addrs = 0x333e3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class ScenesTransitionSetupData;
 }
 namespace HMUI {
 class FlowCoordinator;
@@ -50,22 +50,22 @@ public:
   /// @brief Field _screenSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__screenSystem, put = __cordl_internal_set__screenSystem)) ::UnityW<::HMUI::ScreenSystem> _screenSystem;
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0x323b658, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x32f3060, size 0xac, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes(::System::Collections::Generic::IReadOnlyList_1<::StringW>* _);
 
-  /// @brief Method HandleSceneTransitionDidFinish, addr 0x323b434, size 0xac, virtual false, abstract: false, final false
-  inline void HandleSceneTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
+  /// @brief Method HandleSceneTransitionDidFinish, addr 0x32f2e3c, size 0xac, virtual false, abstract: false, final false
+  inline void HandleSceneTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData,
                                              ::Zenject::DiContainer* container);
 
   static inline ::HMUI::HierarchyManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x323b4e0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x32f2ee8, size 0x178, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x323b31c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x32f2d24, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartWithFlowCoordinator, addr 0x323b704, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StartWithFlowCoordinator, addr 0x32f310c, size 0x20, virtual false, abstract: false, final false
   inline void StartWithFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem> value);
 
-  /// @brief Method .ctor, addr 0x323b724, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f312c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   HierarchyManager(HierarchyManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20821 };
 
   /// @brief Field _screenSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScreenSystem> ____screenSystem;

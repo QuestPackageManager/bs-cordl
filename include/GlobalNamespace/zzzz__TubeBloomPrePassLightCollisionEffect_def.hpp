@@ -5,9 +5,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(TubeBloomPrePassLightCollisionEffect)
 namespace GlobalNamespace {
 class InstancedMaterialLightWithId;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLightCollisionEffectUpdater;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
@@ -35,6 +40,25 @@ namespace GlobalNamespace {
 class CORDL_TYPE TubeBloomPrePassLightCollisionEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  __declspec(property(get = get_EffectTransform)) ::UnityW<::UnityEngine::Transform> EffectTransform;
+
+  __declspec(property(get = get_EnvironmentLayerMask)) int32_t EnvironmentLayerMask;
+
+  __declspec(property(get = get_HitPointTransform)) ::UnityW<::UnityEngine::Transform> HitPointTransform;
+
+  __declspec(property(get = get_MaxLength)) float_t MaxLength;
+
+  __declspec(property(get = get_NeedsUpdate)) bool NeedsUpdate;
+
+  __declspec(property(get = get_ScaleTransform)) ::UnityW<::UnityEngine::Transform> ScaleTransform;
+
+  __declspec(property(get = get_ShowHitPoint)) bool ShowHitPoint;
+
+  __declspec(property(get = get_UseScale)) bool UseScale;
+
+  /// @brief Field _effectUpdater, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__effectUpdater, put = __cordl_internal_set__effectUpdater)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> _effectUpdater;
+
   /// @brief Field _environmentLayerMask, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentLayerMask, put = __cordl_internal_set__environmentLayerMask)) ::UnityEngine::LayerMask _environmentLayerMask;
 
@@ -47,7 +71,7 @@ public:
   /// @brief Field _hitPointLightWithId, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__hitPointLightWithId, put = __cordl_internal_set__hitPointLightWithId)) ::UnityW<::GlobalNamespace::InstancedMaterialLightWithId> _hitPointLightWithId;
 
-  /// @brief Field _hitPointState, offset 0x68, size 0x1
+  /// @brief Field _hitPointState, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__hitPointState, put = __cordl_internal_set__hitPointState)) bool _hitPointState;
 
   /// @brief Field _hitPointTransform, offset 0x48, size 0x8
@@ -59,7 +83,7 @@ public:
   /// @brief Field _showHitPoint, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__showHitPoint, put = __cordl_internal_set__showHitPoint)) bool _showHitPoint;
 
-  /// @brief Field _transform, offset 0x60, size 0x8
+  /// @brief Field _transform, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _tubeBloomPrePassLight, offset 0x20, size 0x8
@@ -70,11 +94,24 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x5863ac4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599c6dc, size 0xb0, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDisable, addr 0x599c644, size 0x98, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x599c5ac, size 0x98, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method Start, addr 0x599c3ac, size 0x48, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5863afc, size 0x400, virtual false, abstract: false, final false
-  inline void Update();
+  /// @brief Method UpdateExternal, addr 0x599c91c, size 0xe0, virtual false, abstract: false, final false
+  inline void UpdateExternal(bool hit, float_t normalizedHitDistance);
+
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> const& __cordl_internal_get__effectUpdater() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater>& __cordl_internal_get__effectUpdater();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__environmentLayerMask() const;
 
@@ -120,6 +157,8 @@ public:
 
   constexpr bool& __cordl_internal_get__useScale();
 
+  constexpr void __cordl_internal_set__effectUpdater(::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> value);
+
   constexpr void __cordl_internal_set__environmentLayerMask(::UnityEngine::LayerMask value);
 
   constexpr void __cordl_internal_set__hitPointDistanceToAlphaCurve(::UnityEngine::AnimationCurve* value);
@@ -142,8 +181,32 @@ public:
 
   constexpr void __cordl_internal_set__useScale(bool value);
 
-  /// @brief Method .ctor, addr 0x5863efc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599c9fc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_EffectTransform, addr 0x599c394, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_EffectTransform();
+
+  /// @brief Method get_EnvironmentLayerMask, addr 0x599c38c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_EnvironmentLayerMask();
+
+  /// @brief Method get_HitPointTransform, addr 0x599c39c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_HitPointTransform();
+
+  /// @brief Method get_MaxLength, addr 0x599c374, size 0x18, virtual false, abstract: false, final false
+  inline float_t get_MaxLength();
+
+  /// @brief Method get_NeedsUpdate, addr 0x599c35c, size 0x18, virtual false, abstract: false, final false
+  inline bool get_NeedsUpdate();
+
+  /// @brief Method get_ScaleTransform, addr 0x599c3a4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_ScaleTransform();
+
+  /// @brief Method get_ShowHitPoint, addr 0x599c34c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ShowHitPoint();
+
+  /// @brief Method get_UseScale, addr 0x599c354, size 0x8, virtual false, abstract: false, final false
+  inline bool get_UseScale();
 
 protected:
   // Ctor Parameters []
@@ -160,7 +223,7 @@ public:
   TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5921 };
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
@@ -189,10 +252,13 @@ public:
   /// @brief Field _hitPointDistanceToAlphaCurve, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____hitPointDistanceToAlphaCurve;
 
-  /// @brief Field _transform, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _effectUpdater, offset: 0x60, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> ____effectUpdater;
+
+  /// @brief Field _transform, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _hitPointState, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field _hitPointState, offset: 0x70, size: 0x1, def value: None
   bool ____hitPointState;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -216,10 +282,12 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, 
 
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointDistanceToAlphaCurve) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____transform) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____effectUpdater) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointState) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____transform) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect) == 0x70, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointState) == 0x70, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set__spatializerSfxVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x577a788, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3266aac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x577a770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x3266a94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
-  /// @brief Method get_spatializerPluginLatency, addr 0x577a778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatializerPluginLatency, addr 0x3266a9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spatializerPluginLatency();
 
-  /// @brief Method get_spatializerSfxVolumeOffset, addr 0x577a780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatializerSfxVolumeOffset, addr 0x3266aa4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spatializerSfxVolumeOffset();
 
 protected:
@@ -85,7 +85,7 @@ public:
   AudioManagerConfigSO(AudioManagerConfigSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22579 };
 
   /// @brief Field _audioMixer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Audio::AudioMixer> ____audioMixer;

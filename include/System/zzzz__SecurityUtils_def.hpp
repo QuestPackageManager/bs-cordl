@@ -35,35 +35,35 @@ namespace System {
 class CORDL_TYPE SecurityUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DemandGrantSet, addr 0x62341d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandGrantSet, addr 0x636f2cc, size 0x4, virtual false, abstract: false, final false
   static inline void DemandGrantSet(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method DemandReflectionAccess, addr 0x62341cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandReflectionAccess, addr 0x636f2c8, size 0x4, virtual false, abstract: false, final false
   static inline void DemandReflectionAccess(::System::Type* type);
 
-  /// @brief Method GenericArgumentsAreVisible, addr 0x6234414, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GenericArgumentsAreVisible, addr 0x636f510, size 0x94, virtual false, abstract: false, final false
   static inline bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method HasReflectionPermission, addr 0x62341d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasReflectionPermission, addr 0x636f2d0, size 0x8, virtual false, abstract: false, final false
   static inline bool HasReflectionPermission(::System::Type* type);
 
-  /// @brief Method MethodInfoInvoke, addr 0x62344a8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MethodInfoInvoke, addr 0x636f5a4, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Object* MethodInfoInvoke(::System::Reflection::MethodInfo* method, ::System::Object* target, ::ArrayW<::System::Object*> args);
 
-  /// @brief Method SecureConstructorInvoke, addr 0x62342a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SecureConstructorInvoke, addr 0x636f3a0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::System::Object*> args, bool allowNonPublic);
 
-  /// @brief Method SecureConstructorInvoke, addr 0x62342ac, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SecureConstructorInvoke, addr 0x636f3a8, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::System::Object*> args, bool allowNonPublic,
                                                           ::System::Reflection::BindingFlags extraFlags);
 
-  /// @brief Method SecureCreateInstance, addr 0x62341dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x636f2d8, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type);
 
-  /// @brief Method SecureCreateInstance, addr 0x623429c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x636f398, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*> args);
 
-  /// @brief Method SecureCreateInstance, addr 0x62341e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x636f2e4, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*> args, bool allowNonPublic);
 
 protected:
@@ -81,7 +81,7 @@ public:
   SecurityUtils(SecurityUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

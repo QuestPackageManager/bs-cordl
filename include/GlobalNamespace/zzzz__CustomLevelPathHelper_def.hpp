@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE CustomLevelPathHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsHiddenDirectory, addr 0x3648bc8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsHiddenDirectory, addr 0x3705054, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsHiddenDirectory(::System::IO::DirectoryInfo* beatmapDirectory);
 
   static inline ::GlobalNamespace::CustomLevelPathHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3648c84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3705110, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   CustomLevelPathHelper(CustomLevelPathHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14788 };
 
   /// @brief Field kStandardLevelInfoFilename offset 0xffffffff size 0x8
   static constexpr ::ConstString kStandardLevelInfoFilename{ u"Info.dat" };

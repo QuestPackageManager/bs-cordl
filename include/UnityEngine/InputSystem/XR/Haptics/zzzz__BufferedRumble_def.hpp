@@ -32,22 +32,22 @@ public:
 
   __declspec(property(get = get_device, put = set_device)) ::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method EnqueueRumble, addr 0x6449cbc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x65868dc, size 0xc4, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t> samples);
 
-  /// @brief Method .ctor, addr 0x6449b58, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6586778, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method get_capabilities, addr 0x6449b20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x6586740, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_device, addr 0x6449b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x6586768, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_capabilities, addr 0x6449b34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x6586754, size 0x14, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
-  /// @brief Method set_device, addr 0x6449b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x6586770, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr BufferedRumble(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField, ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8801 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

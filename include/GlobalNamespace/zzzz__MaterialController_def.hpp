@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialController* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x572cf68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5873b5c, size 0x38, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>> value);
 
-  /// @brief Method .ctor, addr 0x572cfa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5873b94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_material, addr 0x572cf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x5873b54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
 protected:
@@ -70,7 +70,7 @@ public:
   MaterialController(MaterialController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19532 };
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;

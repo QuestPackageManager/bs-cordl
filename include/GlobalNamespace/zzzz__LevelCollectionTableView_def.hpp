@@ -133,64 +133,64 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CancelAsyncOperations, addr 0x57b5048, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x596bb68, size 0x358, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method CellForIdx, addr 0x57b4b08, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x596b628, size 0x358, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t index);
 
-  /// @brief Method CellSize, addr 0x57b4940, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x596b460, size 0xbc, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method ClearSelection, addr 0x57b587c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x596c39c, size 0x2c, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x57b4fac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x596bacc, size 0x9c, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleDidSelectCellWithIndex, addr 0x57b4e84, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCellWithIndex, addr 0x596b9a4, size 0x128, virtual false, abstract: false, final false
   inline void HandleDidSelectCellWithIndex(::HMUI::TableView* tableView, int32_t index);
 
-  /// @brief Method Init, addr 0x57b42e4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x596ae04, size 0xcc, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Init, addr 0x57b42bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x596addc, size 0x28, virtual false, abstract: false, final false
   inline void Init(::StringW headerText, ::UnityEngine::Sprite* headerSprite);
 
   static inline ::GlobalNamespace::LevelCollectionTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x57b49fc, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x596b51c, size 0x10c, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x57b4864, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x596b384, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x57b476c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x596b28c, size 0xf8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x57b4678, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x596b198, size 0xf4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshFavorites, addr 0x57b4558, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavorites, addr 0x596b078, size 0x120, virtual false, abstract: false, final false
   inline void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
 
-  /// @brief Method RefreshLevelsAvailability, addr 0x57b53c0, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method RefreshLevelsAvailability, addr 0x596bee0, size 0x494, virtual false, abstract: false, final false
   inline void RefreshLevelsAvailability();
 
-  /// @brief Method ReloadCellsData, addr 0x57b53a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReloadCellsData, addr 0x596bec0, size 0x20, virtual false, abstract: false, final false
   inline void ReloadCellsData();
 
-  /// @brief Method SelectLevel, addr 0x57b58a8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method SelectLevel, addr 0x596c3c8, size 0x1bc, virtual false, abstract: false, final false
   inline void SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method SelectLevelPackHeaderCell, addr 0x57b5854, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SelectLevelPackHeaderCell, addr 0x596c374, size 0x28, virtual false, abstract: false, final false
   inline void SelectLevelPackHeaderCell();
 
-  /// @brief Method SetData, addr 0x57b43b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x596aed0, size 0x1a8, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds,
                       bool beatmapLevelsAreSorted, bool sortBeatmapLevels);
 
-  /// @brief Method UpdateScrollviewContentSize, addr 0x57b4e60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollviewContentSize, addr 0x596b980, size 0x24, virtual false, abstract: false, final false
   inline void UpdateScrollviewContentSize();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -313,22 +313,22 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method .ctor, addr 0x57b5a64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596c584, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHeaderEvent, addr 0x57b413c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHeaderEvent, addr 0x596ac5c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x57b3fbc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x596aadc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectHeaderEvent, addr 0x57b41fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHeaderEvent, addr 0x596ad1c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x57b407c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x596ab9c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
 protected:
@@ -346,7 +346,7 @@ public:
   LevelCollectionTableView(LevelCollectionTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6981 };
 
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;

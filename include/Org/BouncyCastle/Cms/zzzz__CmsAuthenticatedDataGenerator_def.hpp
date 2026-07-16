@@ -32,20 +32,20 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsAuthenticatedDataGenerator : public ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x35e814c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a4604, size 0x1b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate, addr 0x35e7624, size 0xb28, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a3adc, size 0xb28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x35e761c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a3ad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35e7620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a3ad8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

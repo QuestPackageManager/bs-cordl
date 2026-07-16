@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x5cb5c48, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dede70, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -54,7 +54,7 @@ public:
   LaunchInvitePanelFlowResult(LaunchInvitePanelFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18022 };
 
   /// @brief Field InvitedUsers, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___InvitedUsers;

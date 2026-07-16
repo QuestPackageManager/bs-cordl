@@ -33,7 +33,7 @@ public:
   __declspec(property(get = getStaticF_kScenesThatShouldDisableRootObjects,
                       put = setStaticF_kScenesThatShouldDisableRootObjects)) ::System::Collections::Generic::HashSet_1<::StringW>* kScenesThatShouldDisableRootObjects;
 
-  /// @brief Method ShouldDisableRootObjects, addr 0x31e98f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ShouldDisableRootObjects, addr 0x3280b68, size 0xc8, virtual false, abstract: false, final false
   static inline bool ShouldDisableRootObjects(::StringW sceneName);
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* getStaticF_kAllSceneNames();
@@ -59,13 +59,13 @@ public:
   SceneNames(SceneNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23074 };
+
+  /// @brief Field kBigMirrorEnvironmentSceneName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kBigMirrorEnvironmentSceneName{ u"BigMirrorEnvironment" };
 
   /// @brief Field kCreditsSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kCreditsSceneName{ u"Credits" };
-
-  /// @brief Field kEventsTestSceneName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEventsTestSceneName{ u"EventsTest" };
 
   /// @brief Field kGameCoreSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameCoreSceneName{ u"GameCore" };
@@ -91,9 +91,6 @@ public:
   /// @brief Field kMultiplayerGameplaySceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kMultiplayerGameplaySceneName{ u"MultiplayerGameplay" };
 
-  /// @brief Field kRecordingToolSceneName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kRecordingToolSceneName{ u"RecordingTool" };
-
   /// @brief Field kShaderWarmUpSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kShaderWarmUpSceneName{ u"ShaderWarmup" };
 
@@ -111,9 +108,6 @@ public:
 
   /// @brief Field kTutorialSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kTutorialSceneName{ u"Tutorial" };
-
-  /// @brief Field kWaypointsTestSceneName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kWaypointsTestSceneName{ u"WaypointsTest" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

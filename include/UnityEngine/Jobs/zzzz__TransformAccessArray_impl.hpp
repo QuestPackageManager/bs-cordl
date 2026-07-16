@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccessArray::*)(int32_t, int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a57f0;
+  constexpr static std::size_t addrs = 0x6af8e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, ::by_ref<::UnityEngine::Jobs::TransformAccessArray>)>(&::UnityEngine::Jobs::TransformAccessArray::Allocate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69a5804;
+  constexpr static std::size_t addrs = 0x6af8e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Jobs::TransformAccessArray::*)()>(&::UnityEngine::Jobs::TransformAccessArray::get_isCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69a58d0;
+  constexpr static std::size_t addrs = 0x6af8f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "get_isCreated", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccessArray::*)()>(&::UnityEngine::Jobs::TransformAccessArray::Dispose)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69a58e0;
+  constexpr static std::size_t addrs = 0x6af8f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "Dispose", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Jobs::TransformAccessArray::*)()>(
     &::UnityEngine::Jobs::TransformAccessArray::GetTransformAccessArrayForSchedule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a5994;
+  constexpr static std::size_t addrs = 0x6af8fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,11 +76,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Jobs::TransformAccessArray::*)(int32_t)>(
     &::UnityEngine::Jobs::TransformAccessArray::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a599c;
+  constexpr static std::size_t addrs = 0x6af8ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Jobs::TransformAccessArray.set_capacity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccessArray::*)(int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::set_capacity)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6af9124;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "set_capacity", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -89,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Jobs::TransformAccessArray::*)()>(&::UnityEngine::Jobs::TransformAccessArray::get_length)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69a5acc;
+  constexpr static std::size_t addrs = 0x6af91ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "get_length", {}, {} })));
@@ -101,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccessArray::*)(::UnityEngine::Transform*)>(&::UnityEngine::Jobs::TransformAccessArray::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a5b44;
+  constexpr static std::size_t addrs = 0x6af9224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccessArray::*)(int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::RemoveAtSwapBack)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69a5bdc;
+  constexpr static std::size_t addrs = 0x6af92bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t, int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::Create)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69a588c;
+  constexpr static std::size_t addrs = 0x6af8ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Jobs::TransformAccessArray::DestroyTransformAccessArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69a5958;
+  constexpr static std::size_t addrs = 0x6af8fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Transform*)>(&::UnityEngine::Jobs::TransformAccessArray::Add)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69a5b4c;
+  constexpr static std::size_t addrs = 0x6af922c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(),
@@ -166,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::RemoveAtSwapBack)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69a5c20;
+  constexpr static std::size_t addrs = 0x6af9300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Jobs::TransformAccessArray::GetSortedTransformAccess)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69a5ca8;
+  constexpr static std::size_t addrs = 0x6af9388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Jobs::TransformAccessArray::GetSortedToUserIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69a5ce4;
+  constexpr static std::size_t addrs = 0x6af93c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,11 +219,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Jobs::TransformAccessArray::GetLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69a5b08;
+  constexpr static std::size_t addrs = 0x6af91e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "GetLength", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Jobs::TransformAccessArray.SetCapacity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::SetCapacity)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6af9168;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "SetCapacity", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -219,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::GetTransform)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x69a59a4;
+  constexpr static std::size_t addrs = 0x6af8ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Jobs::TransformAccessArray::Add_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69a5c64;
+  constexpr static std::size_t addrs = 0x6af9344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(),
@@ -246,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Jobs::TransformAccessArray::GetTransform_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69a5d20;
+  constexpr static std::size_t addrs = 0x6af9400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(),
@@ -282,6 +309,11 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::Jobs::TransformAccessArra
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>>(*this, ___internal_method, index);
+}
+inline void UnityEngine::Jobs::TransformAccessArray::set_capacity(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "set_capacity", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 inline int32_t UnityEngine::Jobs::TransformAccessArray::get_length() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "get_length", {}, {} })));
@@ -332,6 +364,11 @@ inline int32_t UnityEngine::Jobs::TransformAccessArray::GetLength(::System::IntP
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "GetLength", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, transformArrayIntPtr);
+}
+inline void UnityEngine::Jobs::TransformAccessArray::SetCapacity(::System::IntPtr transformArrayIntPtr, int32_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccessArray>(), { "SetCapacity", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, transformArrayIntPtr, capacity);
 }
 inline ::UnityW<::UnityEngine::Transform> UnityEngine::Jobs::TransformAccessArray::GetTransform(::System::IntPtr transformArrayIntPtr, int32_t index) {
   static auto* ___internal_method =

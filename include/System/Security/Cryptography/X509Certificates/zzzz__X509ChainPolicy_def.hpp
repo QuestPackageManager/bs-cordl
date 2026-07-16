@@ -85,7 +85,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* New_ctor();
 
-  /// @brief Method Reset, addr 0x626db28, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x63a9bc4, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Security::Cryptography::OidCollection* const& __cordl_internal_get_apps() const;
@@ -142,28 +142,28 @@ public:
 
   constexpr void __cordl_internal_set_vtime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x626db24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a9bc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExtraStore, addr 0x626dc1c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method get_ExtraStore, addr 0x63a9cb8, size 0x234, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
 
-  /// @brief Method get_RevocationFlag, addr 0x626de50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationFlag, addr 0x63a9eec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
 
-  /// @brief Method get_RevocationMode, addr 0x626de58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationMode, addr 0x63a9ef4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
 
-  /// @brief Method get_VerificationFlags, addr 0x626debc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationFlags, addr 0x63a9f58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
 
-  /// @brief Method get_VerificationTime, addr 0x626df20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationTime, addr 0x63a9fbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_VerificationTime();
 
-  /// @brief Method set_RevocationMode, addr 0x626de60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationMode, addr 0x63a9efc, size 0x5c, virtual false, abstract: false, final false
   inline void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_VerificationFlags, addr 0x626dec4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationFlags, addr 0x63a9f60, size 0x5c, virtual false, abstract: false, final false
   inline void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
 
 protected:
@@ -181,7 +181,7 @@ public:
   X509ChainPolicy(X509ChainPolicy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11179 };
 
   /// @brief Field apps, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::OidCollection* ___apps;

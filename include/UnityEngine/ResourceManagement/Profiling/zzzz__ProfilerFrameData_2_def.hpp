@@ -184,7 +184,7 @@ public:
   ProfilerFrameData_2__Enumerate_d__17(ProfilerFrameData_2__Enumerate_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18778 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -310,7 +310,7 @@ public:
   ProfilerFrameData_2(ProfilerFrameData_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18779 };
 
   /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<T1, T2>* ___m_Data;

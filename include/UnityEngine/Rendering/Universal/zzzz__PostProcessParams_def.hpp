@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE PostProcessParams {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6766f44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x68a58c0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::PostProcessParams Create();
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr PostProcessParams(::UnityW<::UnityEngine::Material> blitMaterial, ::UnityEngine::Experimental::Rendering::GraphicsFormat requestColorFormat) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

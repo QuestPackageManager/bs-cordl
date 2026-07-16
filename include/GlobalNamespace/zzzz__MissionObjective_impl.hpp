@@ -15,13 +15,31 @@ constexpr ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType Globa
 constexpr ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType GlobalNamespace::MissionObjective_ReferenceValueComparisonType::Equal{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType GlobalNamespace::MissionObjective_ReferenceValueComparisonType::Max{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType GlobalNamespace::MissionObjective_ReferenceValueComparisonType::Min{ static_cast<int32_t>(0x3) };
+//  Writing Method size for method: ::GlobalNamespace::MissionObjective._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjective::*)(
+    ::GlobalNamespace::MissionObjectiveTypeSO*, ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType, int32_t)>(&::GlobalNamespace::MissionObjective::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3751bec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::GlobalNamespace::MissionObjectiveTypeSO*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::MissionObjective_ReferenceValueComparisonType>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MissionObjective.get_type
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> (::GlobalNamespace::MissionObjective::*)()>(
     &::GlobalNamespace::MissionObjective::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3671560;
+  constexpr static std::size_t addrs = 0x3751bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { "get_type", {}, {} })));
@@ -34,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MissionObjective_ReferenceValueComparisonType (::GlobalNamespace::MissionObjective::*)()>(
     &::GlobalNamespace::MissionObjective::get_referenceValueComparisonType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3671568;
+  constexpr static std::size_t addrs = 0x3751c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { "get_referenceValueComparisonType", {}, {} })));
@@ -46,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MissionObjective::*)()>(&::GlobalNamespace::MissionObjective::get_referenceValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3671570;
+  constexpr static std::size_t addrs = 0x3751c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { "get_referenceValue", {}, {} })));
@@ -58,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MissionObjective*, ::GlobalNamespace::MissionObjective*)>(&::GlobalNamespace::MissionObjective::op_Equality)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3671578;
+  constexpr static std::size_t addrs = 0x3751c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MissionObjective*, ::GlobalNamespace::MissionObjective*)>(&::GlobalNamespace::MissionObjective::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3671638;
+  constexpr static std::size_t addrs = 0x3751cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionObjective::*)(::System::Object*)>(&::GlobalNamespace::MissionObjective::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3671650;
+  constexpr static std::size_t addrs = 0x3751ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,23 +117,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MissionObjective::*)()>(&::GlobalNamespace::MissionObjective::GetHashCode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3671744;
+  constexpr static std::size_t addrs = 0x3751ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { ::i2c::class_of<::GlobalNamespace::MissionObjective*>(), 2 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MissionObjective._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjective::*)()>(&::GlobalNamespace::MissionObjective::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3671784;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
@@ -155,6 +161,16 @@ constexpr void GlobalNamespace::MissionObjective::__cordl_internal_set__referenc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceValue = value;
 }
+inline void GlobalNamespace::MissionObjective::_ctor(::GlobalNamespace::MissionObjectiveTypeSO* type, ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType referenceValueComparisonType,
+                                                     int32_t referenceValue) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::GlobalNamespace::MissionObjectiveTypeSO*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::MissionObjective_ReferenceValueComparisonType>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type, referenceValueComparisonType, referenceValue);
+}
 inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> GlobalNamespace::MissionObjective::get_type() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { "get_type", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>(this, ___internal_method);
@@ -187,12 +203,10 @@ inline int32_t GlobalNamespace::MissionObjective::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MissionObjective*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::MissionObjective::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjective*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::GlobalNamespace::MissionObjective* GlobalNamespace::MissionObjective::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionObjective*>());
+inline ::GlobalNamespace::MissionObjective* GlobalNamespace::MissionObjective::New_ctor(::GlobalNamespace::MissionObjectiveTypeSO* type,
+                                                                                        ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType referenceValueComparisonType,
+                                                                                        int32_t referenceValue) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionObjective*>(type, referenceValueComparisonType, referenceValue));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionObjective::MissionObjective() {}

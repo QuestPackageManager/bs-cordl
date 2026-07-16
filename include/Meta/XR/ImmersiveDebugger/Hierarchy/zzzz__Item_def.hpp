@@ -61,33 +61,33 @@ public:
   /// @brief Field _parent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent)) ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* _parent;
 
-  /// @brief Method BuildChildren, addr 0x592e54c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method BuildChildren, addr 0x5a67c50, size 0x4, virtual true, abstract: false, final false
   inline void BuildChildren();
 
-  /// @brief Method BuildContent, addr 0x592e544, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method BuildContent, addr 0x5a67c48, size 0x4, virtual true, abstract: false, final false
   inline void BuildContent();
 
-  /// @brief Method Clear, addr 0x592dee4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5a675e8, size 0x40, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearChildren, addr 0x592e550, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearChildren, addr 0x5a67c54, size 0x4, virtual true, abstract: false, final false
   inline void ClearChildren();
 
-  /// @brief Method ClearContent, addr 0x592e548, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x5a67c4c, size 0x4, virtual true, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method ComputeNeedsRefresh, addr 0x592e53c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ComputeNeedsRefresh, addr 0x5a67c40, size 0x8, virtual true, abstract: false, final false
   inline bool ComputeNeedsRefresh();
 
-  /// @brief Method ComputeNumberOfChildren, addr 0x592e534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ComputeNumberOfChildren, addr 0x5a67c38, size 0x8, virtual true, abstract: false, final false
   inline int32_t ComputeNumberOfChildren();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* New_ctor();
 
-  /// @brief Method Register, addr 0x592e0ec, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Register, addr 0x5a677f0, size 0x80, virtual true, abstract: false, final false
   inline void Register(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* parent);
 
-  /// @brief Method Unregister, addr 0x592df24, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Unregister, addr 0x5a67628, size 0x60, virtual true, abstract: false, final false
   inline void Unregister();
 
   constexpr bool const& __cordl_internal_get__Dirty_k__BackingField() const;
@@ -114,22 +114,22 @@ public:
 
   constexpr void __cordl_internal_set__parent(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* value);
 
-  /// @brief Method .ctor, addr 0x592e554, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a67c58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Category, addr 0x592dec8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Category, addr 0x5a675cc, size 0xc, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Category get_Category();
 
-  /// @brief Method get_Depth, addr 0x592deac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x5a675b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Dirty, addr 0x592ded4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dirty, addr 0x5a675d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Dirty();
 
-  /// @brief Method get_Handle, addr 0x592deb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5a675b8, size 0x14, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle get_Handle();
 
-  /// @brief Method get_Id, addr 0x5925fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x5a5f6c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
   /// @brief Method get_Label, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -138,13 +138,13 @@ public:
   /// @brief Method get_Owner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_Owner();
 
-  /// @brief Method get_Parent, addr 0x592dea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x5a675a8, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* get_Parent();
 
   /// @brief Method get_Valid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_Valid();
 
-  /// @brief Method set_Dirty, addr 0x592dedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dirty, addr 0x5a675e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Dirty(bool value);
 
 protected:
@@ -162,7 +162,7 @@ public:
   Item(Item const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18435 };
 
   /// @brief Field _parent, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* ____parent;

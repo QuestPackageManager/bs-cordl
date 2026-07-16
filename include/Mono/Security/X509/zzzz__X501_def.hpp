@@ -76,13 +76,13 @@ public:
   /// @brief Field userid, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_userid, put = setStaticF_userid)) ::ArrayW<uint8_t> userid;
 
-  /// @brief Method AppendEntry, addr 0x59584b8, size 0x878, virtual false, abstract: false, final false
+  /// @brief Method AppendEntry, addr 0x5a90e24, size 0x878, virtual false, abstract: false, final false
   static inline void AppendEntry(::System::Text::StringBuilder* sb, ::Mono::Security::ASN1* entry, bool quotes);
 
-  /// @brief Method ToString, addr 0x5951410, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a89d7c, size 0x148, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Mono::Security::ASN1* seq);
 
-  /// @brief Method ToString, addr 0x5958d30, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a9169c, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Mono::Security::ASN1* seq, bool reversed, ::StringW separator, bool quotes);
 
   static inline ::ArrayW<uint8_t> getStaticF_commonName();
@@ -164,7 +164,7 @@ public:
   X501(X501 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

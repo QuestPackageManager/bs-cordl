@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Reg
     ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*, ::ArrayW<int32_t>, int32_t, ::System::Collections::Hashtable*, ::ArrayW<::StringW>,
     ::System::Text::RegularExpressions::RegexOptions)>(&::System::Text::RegularExpressions::RegexTree::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x624dec0;
+  constexpr static std::size_t addrs = 0x6389f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

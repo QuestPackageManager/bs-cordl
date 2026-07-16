@@ -76,12 +76,12 @@ public:
   /// @brief Field _sparklesPSShapeModule, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__sparklesPSShapeModule, put = __cordl_internal_set__sparklesPSShapeModule)) ::UnityEngine::ParticleSystem_ShapeModule _sparklesPSShapeModule;
 
-  /// @brief Method Awake, addr 0x584b32c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5983538, size 0x1c8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::NoteCutParticlesEffect* New_ctor();
 
-  /// @brief Method SpawnParticles, addr 0x584b4f4, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method SpawnParticles, addr 0x5983700, size 0x4a8, virtual false, abstract: false, final false
   inline void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float_t saberSpeed, ::UnityEngine::Vector3 noteMovementVec,
                              ::UnityEngine::Color32 color, int32_t sparkleParticlesCount, int32_t explosionParticlesCount, float_t lifetimeMultiplier);
 
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set__sparklesPSShapeModule(::UnityEngine::ParticleSystem_ShapeModule value);
 
-  /// @brief Method .ctor, addr 0x584b99c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5983ba8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +181,7 @@ public:
   NoteCutParticlesEffect(NoteCutParticlesEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
 
   /// @brief Field _sparklesPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparklesPS;

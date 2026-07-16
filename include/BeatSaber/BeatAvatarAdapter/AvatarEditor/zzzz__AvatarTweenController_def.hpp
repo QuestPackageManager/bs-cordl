@@ -89,7 +89,7 @@ public:
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0* New_ctor();
 
-  /// @brief Method <CreatePopTween>b__0, addr 0x31ded7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <CreatePopTween>b__0, addr 0x3276050, size 0x34, virtual false, abstract: false, final false
   inline void _CreatePopTween_b__0(float_t val);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_originalScale() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_partTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x31dddd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32751dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   AvatarTweenController___c__DisplayClass54_0(AvatarTweenController___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21641 };
 
   /// @brief Field partTransform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___partTransform;
@@ -172,21 +172,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x31dedb4, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3276088, size 0x208, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31defbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3276290, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31defc4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3276298, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31deffc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32762d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x31dedb0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3276084, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__waitYieldInstruction_5__2(::UnityEngine::WaitForSeconds* value);
 
-  /// @brief Method .ctor, addr 0x31ddddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32751e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -240,7 +240,7 @@ public:
   AvatarTweenController__AppearAnimation_d__55(AvatarTweenController__AppearAnimation_d__55 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21642 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -297,21 +297,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x31df008, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32762dc, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31df360, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32765e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31df368, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32765e8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31df3a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3276620, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x31df004, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x32762d8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
 
-  /// @brief Method .ctor, addr 0x31dec34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3275f08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -359,7 +359,7 @@ public:
   AvatarTweenController__DisappearAnimation_d__60(AvatarTweenController__DisappearAnimation_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21643 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -525,96 +525,96 @@ public:
   /// @brief Field _tweeningManager, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method AppearAnimation, addr 0x31dd9e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AppearAnimation, addr 0x3274df4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AppearAnimation();
 
-  /// @brief Method AppearBody, addr 0x31ddde4, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method AppearBody, addr 0x32751e8, size 0x344, virtual false, abstract: false, final false
   inline void AppearBody();
 
-  /// @brief Method AppearHead, addr 0x31de174, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method AppearHead, addr 0x327552c, size 0x344, virtual false, abstract: false, final false
   inline void AppearHead();
 
-  /// @brief Method AppearLeftHand, addr 0x31de504, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method AppearLeftHand, addr 0x3275870, size 0x34c, virtual false, abstract: false, final false
   inline void AppearLeftHand();
 
-  /// @brief Method AppearRightHand, addr 0x31de89c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method AppearRightHand, addr 0x3275bbc, size 0x34c, virtual false, abstract: false, final false
   inline void AppearRightHand();
 
-  /// @brief Method Awake, addr 0x31dd8f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3274d08, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreatePopTween, addr 0x31ddc44, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CreatePopTween, addr 0x3275044, size 0x198, virtual false, abstract: false, final false
   inline ::Tweening::Tween_1<float_t>* CreatePopTween(::UnityEngine::Transform* partTransform, float_t popAmount);
 
-  /// @brief Method DisappearAnimation, addr 0x31dda38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DisappearAnimation, addr 0x3274e48, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DisappearAnimation();
 
-  /// @brief Method HideAvatar, addr 0x31db588, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HideAvatar, addr 0x3272998, size 0xbc, virtual false, abstract: false, final false
   inline void HideAvatar();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x31dd9e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3274df0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x31dd944, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3274d54, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PopAll, addr 0x31dda8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method PopAll, addr 0x3274e9c, size 0x2c, virtual false, abstract: false, final false
   inline void PopAll();
 
-  /// @brief Method PopClothes, addr 0x31ddc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PopClothes, addr 0x327503c, size 0x8, virtual false, abstract: false, final false
   inline void PopClothes();
 
-  /// @brief Method PopClothes, addr 0x31ddb1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PopClothes, addr 0x3274f28, size 0x60, virtual false, abstract: false, final false
   inline void PopClothes(float_t popAmount);
 
-  /// @brief Method PopHands, addr 0x31ddc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PopHands, addr 0x3275034, size 0x8, virtual false, abstract: false, final false
   inline void PopHands();
 
-  /// @brief Method PopHands, addr 0x31ddb80, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method PopHands, addr 0x3274f88, size 0xa4, virtual false, abstract: false, final false
   inline void PopHands(float_t popAmount);
 
-  /// @brief Method PopHead, addr 0x31ddc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PopHead, addr 0x327502c, size 0x8, virtual false, abstract: false, final false
   inline void PopHead();
 
-  /// @brief Method PopHead, addr 0x31ddab8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PopHead, addr 0x3274ec8, size 0x60, virtual false, abstract: false, final false
   inline void PopHead(float_t popAmount);
 
-  /// @brief Method PresentAvatar, addr 0x31dac58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method PresentAvatar, addr 0x3272068, size 0x48, virtual false, abstract: false, final false
   inline void PresentAvatar();
 
-  /// @brief Method StopAll, addr 0x31dd948, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StopAll, addr 0x3274d58, size 0x98, virtual false, abstract: false, final false
   inline void StopAll();
 
-  /// @brief Method <AppearBody>b__56_0, addr 0x31dec8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearBody>b__56_0, addr 0x3275f60, size 0x18, virtual false, abstract: false, final false
   inline void _AppearBody_b__56_0(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearBody>b__56_1, addr 0x31deca4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearBody>b__56_1, addr 0x3275f78, size 0x18, virtual false, abstract: false, final false
   inline void _AppearBody_b__56_1(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearHead>b__57_0, addr 0x31decbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearHead>b__57_0, addr 0x3275f90, size 0x18, virtual false, abstract: false, final false
   inline void _AppearHead_b__57_0(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearHead>b__57_1, addr 0x31decd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearHead>b__57_1, addr 0x3275fa8, size 0x18, virtual false, abstract: false, final false
   inline void _AppearHead_b__57_1(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearLeftHand>b__58_0, addr 0x31decec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearLeftHand>b__58_0, addr 0x3275fc0, size 0x18, virtual false, abstract: false, final false
   inline void _AppearLeftHand_b__58_0(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearLeftHand>b__58_1, addr 0x31ded04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearLeftHand>b__58_1, addr 0x3275fd8, size 0x18, virtual false, abstract: false, final false
   inline void _AppearLeftHand_b__58_1(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearRightHand>b__59_0, addr 0x31ded1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearRightHand>b__59_0, addr 0x3275ff0, size 0x18, virtual false, abstract: false, final false
   inline void _AppearRightHand_b__59_0(::UnityEngine::Vector3 val);
 
-  /// @brief Method <AppearRightHand>b__59_1, addr 0x31ded34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AppearRightHand>b__59_1, addr 0x3276008, size 0x18, virtual false, abstract: false, final false
   inline void _AppearRightHand_b__59_1(::UnityEngine::Vector3 val);
 
-  /// @brief Method <DisappearAnimation>b__60_0, addr 0x31ded4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <DisappearAnimation>b__60_0, addr 0x3276020, size 0x18, virtual false, abstract: false, final false
   inline void _DisappearAnimation_b__60_0(::UnityEngine::Vector3 val);
 
-  /// @brief Method <DisappearAnimation>b__60_1, addr 0x31ded64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <DisappearAnimation>b__60_1, addr 0x3276038, size 0x18, virtual false, abstract: false, final false
   inline void _DisappearAnimation_b__60_1(::UnityEngine::Vector3 val);
 
   constexpr float_t const& __cordl_internal_get__allPopAmount() const;
@@ -869,7 +869,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x31dec3c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3275f10, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -887,7 +887,7 @@ public:
   AvatarTweenController(AvatarTweenController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21644 };
 
   /// @brief Field _avatarTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____avatarTransform;

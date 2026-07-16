@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_sliderColorIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x5840744, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59783bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled);
 
 protected:
@@ -131,7 +131,7 @@ public:
   SliderIntensityEffect_InitData(SliderIntensityEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5726 };
 
   /// @brief Field sliderColorIntensity, offset: 0x10, size: 0x4, def value: None
   float_t ___sliderColorIntensity;
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_startIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x584067c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59782f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, ::System::Action* startCallback);
 
 protected:
@@ -221,7 +221,7 @@ public:
   SliderIntensityEffect_FadeElement(SliderIntensityEffect_FadeElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5727 };
 
   /// @brief Field duration, offset: 0x10, size: 0x4, def value: None
   float_t ___duration;
@@ -261,18 +261,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE SliderIntensityEffect_IntensityCalculationDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x584080c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5978484, size 0x70, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(float_t timeSinceLastSection, float_t timeSinceHeadNoteJump, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x584087c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x59784f4, size 0x24, virtual true, abstract: false, final false
   inline float_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x58407f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5978470, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(float_t timeSinceLastSection, float_t timeSinceHeadNoteJump);
 
   static inline ::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x584078c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5978404, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -290,7 +290,7 @@ public:
   SliderIntensityEffect_IntensityCalculationDelegate(SliderIntensityEffect_IntensityCalculationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -341,21 +341,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58408bc, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5978534, size 0x36c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5840cdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5978954, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5840ce4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x597895c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5840d1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5978994, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58408a0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5978518, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -400,10 +400,10 @@ public:
 
   constexpr void __cordl_internal_set_fadeElements(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect_FadeElement*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x5840c28, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x59788a0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x58406ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5978364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -430,7 +430,7 @@ public:
   SliderIntensityEffect__ProcessEffectCoroutine_d__27(SliderIntensityEffect__ProcessEffectCoroutine_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5729 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -541,30 +541,30 @@ public:
 
   __declspec(property(get = get_intensity)) float_t intensity;
 
-  /// @brief Method Awake, addr 0x5840444, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59780bc, size 0x238, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x583ce5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5974748, size 0xb8, virtual false, abstract: false, final false
   inline void Init(float_t sliderDuration, float_t initialHalfJumpDuration, bool startVisible);
 
-  /// @brief Method ManualUpdate, addr 0x583ec68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x597688c, size 0x40, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t timeSinceHeadNoteJump, float_t halfJumpDuration);
 
   static inline ::GlobalNamespace::SliderIntensityEffect* New_ctor();
 
-  /// @brief Method ProcessEffectCoroutine, addr 0x584068c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProcessEffectCoroutine, addr 0x5978304, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect_FadeElement*>* fadeElements);
 
-  /// @brief Method StartIntensityDipEffect, addr 0x583f854, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StartIntensityDipEffect, addr 0x5977478, size 0x30, virtual false, abstract: false, final false
   inline void StartIntensityDipEffect();
 
-  /// @brief Method StartIntensityFadeInEffect, addr 0x583f634, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StartIntensityFadeInEffect, addr 0x5977258, size 0x30, virtual false, abstract: false, final false
   inline void StartIntensityFadeInEffect();
 
-  /// @brief Method <Awake>b__24_0, addr 0x584070c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x5978384, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
-  /// @brief Method <Awake>b__24_1, addr 0x5840728, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_1, addr 0x59783a0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_1();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -657,19 +657,19 @@ public:
 
   constexpr void __cordl_internal_set_fadeInDidStartEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x58406f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597836c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_fadeInDidStartEvent, addr 0x583ded0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_fadeInDidStartEvent, addr 0x5975af4, size 0xac, virtual false, abstract: false, final false
   inline void add_fadeInDidStartEvent(::System::Action* value);
 
-  /// @brief Method get_colorIntensity, addr 0x5840420, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_colorIntensity, addr 0x5978098, size 0x24, virtual false, abstract: false, final false
   inline float_t get_colorIntensity();
 
-  /// @brief Method get_intensity, addr 0x583c860, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x5974120, size 0x24, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method remove_fadeInDidStartEvent, addr 0x583e4f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_fadeInDidStartEvent, addr 0x5976114, size 0xac, virtual false, abstract: false, final false
   inline void remove_fadeInDidStartEvent(::System::Action* value);
 
 protected:
@@ -687,7 +687,7 @@ public:
   SliderIntensityEffect(SliderIntensityEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5730 };
 
   /// @brief Field _longSliderHeadIntensity, offset: 0x20, size: 0x4, def value: None
   float_t ____longSliderHeadIntensity;

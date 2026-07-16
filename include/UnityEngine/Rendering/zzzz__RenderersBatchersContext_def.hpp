@@ -215,49 +215,49 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ChangeInstanceBufferVersion, addr 0x66f4df4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ChangeInstanceBufferVersion, addr 0x6832500, size 0x20, virtual false, abstract: false, final false
   inline void ChangeInstanceBufferVersion();
 
-  /// @brief Method CreateDataBufferUploader, addr 0x66f4e14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateDataBufferUploader, addr 0x6832520, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBufferUploader CreateDataBufferUploader(int32_t capacity, ::UnityEngine::Rendering::InstanceType instanceType);
 
-  /// @brief Method DestroyLODGroups, addr 0x66f4c4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyLODGroups, addr 0x6832358, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyLODGroups(::Unity::Collections::NativeArray_1<int32_t> destroyed);
 
-  /// @brief Method Dispose, addr 0x66f492c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6832038, size 0x13c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EnsureInstanceBufferCapacity, addr 0x66f4bac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method EnsureInstanceBufferCapacity, addr 0x68322b8, size 0x78, virtual false, abstract: false, final false
   inline void EnsureInstanceBufferCapacity();
 
-  /// @brief Method FreeInstances, addr 0x66f4d78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method FreeInstances, addr 0x6832484, size 0x18, virtual false, abstract: false, final false
   inline void FreeInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method FreeRendererGroupInstances, addr 0x66f4d60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method FreeRendererGroupInstances, addr 0x683246c, size 0x18, virtual false, abstract: false, final false
   inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupsID);
 
-  /// @brief Method GetAliveInstancesOfType, addr 0x66f4a9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetAliveInstancesOfType, addr 0x68321a8, size 0x34, virtual false, abstract: false, final false
   inline int32_t GetAliveInstancesOfType(::UnityEngine::Rendering::InstanceType instanceType);
 
-  /// @brief Method GetInstanceDataBuffer, addr 0x66f53a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceDataBuffer, addr 0x6832ab0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* GetInstanceDataBuffer();
 
-  /// @brief Method GetMaxInstancesOfType, addr 0x66f4a68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetMaxInstancesOfType, addr 0x6832174, size 0x34, virtual false, abstract: false, final false
   inline int32_t GetMaxInstancesOfType(::UnityEngine::Rendering::InstanceType instanceType);
 
-  /// @brief Method GetRendererInstanceHandle, addr 0x66f5238, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetRendererInstanceHandle, addr 0x6832944, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle GetRendererInstanceHandle(int32_t rendererID);
 
-  /// @brief Method GetVisibleTreeInstances, addr 0x66f5388, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetVisibleTreeInstances, addr 0x6832a94, size 0x1c, virtual false, abstract: false, final false
   inline void GetVisibleTreeInstances(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks, ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
                                       ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances, bool becomeVisibleOnly,
                                       ::by_ref<int32_t> becomeVisibeTreeInstancesCount);
 
-  /// @brief Method GrowInstanceBuffer, addr 0x66f4ad0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GrowInstanceBuffer, addr 0x68321dc, size 0xdc, virtual false, abstract: false, final false
   inline void GrowInstanceBuffer(::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
-  /// @brief Method InitializeInstanceTransforms, addr 0x66f4ea0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InitializeInstanceTransforms, addr 0x68325ac, size 0x6c, virtual false, abstract: false, final false
   inline void InitializeInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices);
@@ -266,72 +266,72 @@ public:
                                                                              ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
                                                                              ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
-  /// @brief Method ReallocateAndGetInstances, addr 0x66f4d10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReallocateAndGetInstances, addr 0x683241c, size 0x28, virtual false, abstract: false, final false
   inline void ReallocateAndGetInstances(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x66f5220, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x683292c, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleCollectInstancesLODGroupAndMasksJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                               ::Unity::Collections::NativeArray_1<uint32_t> lodGroupAndMasks);
 
-  /// @brief Method ScheduleQueryMeshInstancesJob, addr 0x66f4ddc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryMeshInstancesJob, addr 0x68324e8, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryMeshInstancesJob(::Unity::Collections::NativeArray_1<int32_t> sortedMeshIDs,
                                                                 ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x66f4d90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x683249c, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
                                                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x66f4da8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x68324b4, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x66f4dc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x68324cc, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1<int32_t> instancesOffset,
                                                                          ::Unity::Collections::NativeArray_1<int32_t> instancesCount,
                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x66f4d38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x6832444, size 0x28, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                 ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData);
 
-  /// @brief Method SubmitToGpu, addr 0x66f4e78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SubmitToGpu, addr 0x6832584, size 0x28, virtual false, abstract: false, final false
   inline void SubmitToGpu(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
                           ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferUploader> uploader, bool submitOnlyWrittenParams);
 
-  /// @brief Method SubmitToGpu, addr 0x66f4e50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SubmitToGpu, addr 0x683255c, size 0x28, virtual false, abstract: false, final false
   inline void SubmitToGpu(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferUploader> uploader,
                           bool submitOnlyWrittenParams);
 
-  /// @brief Method TransformLODGroupData, addr 0x66f4c38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TransformLODGroupData, addr 0x6832344, size 0x14, virtual false, abstract: false, final false
   inline void TransformLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
 
-  /// @brief Method TransformLODGroups, addr 0x66f5160, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TransformLODGroups, addr 0x683286c, size 0xa8, virtual false, abstract: false, final false
   inline void TransformLODGroups(::Unity::Collections::NativeArray_1<int32_t> lodGroupsID);
 
-  /// @brief Method UpdateAmbientProbeAndGpuBuffer, addr 0x66f4f74, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method UpdateAmbientProbeAndGpuBuffer, addr 0x6832680, size 0x124, virtual false, abstract: false, final false
   inline void UpdateAmbientProbeAndGpuBuffer(bool forceUpdate);
 
-  /// @brief Method UpdateFrame, addr 0x66f53ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrame, addr 0x6832ab8, size 0x38, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
-  /// @brief Method UpdateInstanceMotions, addr 0x66f5118, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMotions, addr 0x6832824, size 0x48, virtual false, abstract: false, final false
   inline void UpdateInstanceMotions();
 
-  /// @brief Method UpdateInstanceTransforms, addr 0x66f4f0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransforms, addr 0x6832618, size 0x68, virtual false, abstract: false, final false
   inline void UpdateInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices);
 
-  /// @brief Method UpdateInstanceWindDataHistory, addr 0x66f5098, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceWindDataHistory, addr 0x68327a4, size 0x80, virtual false, abstract: false, final false
   inline void UpdateInstanceWindDataHistory(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices);
 
-  /// @brief Method UpdateLODGroupData, addr 0x66f4c24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateLODGroupData, addr 0x6832330, size 0x14, virtual false, abstract: false, final false
   inline void UpdateLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
 
-  /// @brief Method UpdateLODGroups, addr 0x66f4c68, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLODGroups, addr 0x6832374, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLODGroups(::Unity::Collections::NativeArray_1<int32_t> changedID);
 
-  /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x66f5208, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x6832914, size 0x18, virtual false, abstract: false, final false
   inline void UpdatePerFrameInstanceVisibility(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks);
 
   constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2 const& __cordl_internal_get_m_CachedAmbientProbe() const;
@@ -424,65 +424,65 @@ public:
 
   constexpr void __cordl_internal_set_m_UploadResources(::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources value);
 
-  /// @brief Method .ctor, addr 0x66f3f68, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6831674, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc, ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
                     ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
-  /// @brief Method get_activeLodGroupCount, addr 0x66f3d3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_activeLodGroupCount, addr 0x6831448, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_activeLodGroupCount();
 
-  /// @brief Method get_aliveInstances, addr 0x66f3f30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_aliveInstances, addr 0x683163c, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> get_aliveInstances();
 
-  /// @brief Method get_cachedAmbientProbe, addr 0x66f3e40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_cachedAmbientProbe, addr 0x683154c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SphericalHarmonicsL2 get_cachedAmbientProbe();
 
-  /// @brief Method get_crossfadedRendererCount, addr 0x66f3e28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_crossfadedRendererCount, addr 0x6831534, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_crossfadedRendererCount();
 
-  /// @brief Method get_debugStats, addr 0x66f3f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugStats, addr 0x683166c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugRendererBatcherStats* get_debugStats();
 
-  /// @brief Method get_defaultDescriptions, addr 0x66f3d50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDescriptions, addr 0x683145c, size 0x78, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUInstanceComponentDesc> get_defaultDescriptions();
 
-  /// @brief Method get_defaultMetadata, addr 0x66f3dc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMetadata, addr 0x68314d4, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::MetadataValue> get_defaultMetadata();
 
-  /// @brief Method get_gpuInstanceDataBuffer, addr 0x66f3d24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_gpuInstanceDataBuffer, addr 0x6831430, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_gpuInstanceDataBuffer();
 
-  /// @brief Method get_hasBoundingSpheres, addr 0x66f3e50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_hasBoundingSpheres, addr 0x683155c, size 0x18, virtual false, abstract: false, final false
   inline bool get_hasBoundingSpheres();
 
-  /// @brief Method get_instanceData, addr 0x66f3e68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instanceData, addr 0x6831574, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUInstanceData_ReadOnly get_instanceData();
 
-  /// @brief Method get_instanceDataBuffer, addr 0x66f3f18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_instanceDataBuffer, addr 0x6831624, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly get_instanceDataBuffer();
 
-  /// @brief Method get_instanceDataBufferLayoutVersion, addr 0x66f3e10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_instanceDataBufferLayoutVersion, addr 0x683151c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_instanceDataBufferLayoutVersion();
 
-  /// @brief Method get_instanceDataBufferVersion, addr 0x66f3df8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_instanceDataBufferVersion, addr 0x6831504, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_instanceDataBufferVersion();
 
-  /// @brief Method get_lodGroupCullingData, addr 0x66f3de0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_lodGroupCullingData, addr 0x68314ec, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> get_lodGroupCullingData();
 
-  /// @brief Method get_occlusionCullingCommon, addr 0x66f3f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionCullingCommon, addr 0x6831664, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OcclusionCullingCommon* get_occlusionCullingCommon();
 
-  /// @brief Method get_renderersParameters, addr 0x66f3d14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_renderersParameters, addr 0x6831420, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderersParameters get_renderersParameters();
 
-  /// @brief Method get_resources, addr 0x66f3f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resources, addr 0x683165c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUResidentDrawerResources* get_resources();
 
-  /// @brief Method get_sharedInstanceData, addr 0x66f3ec0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_sharedInstanceData, addr 0x68315cc, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly get_sharedInstanceData();
 
-  /// @brief Method get_smallMeshScreenPercentage, addr 0x66f3f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallMeshScreenPercentage, addr 0x6831654, size 0x8, virtual false, abstract: false, final false
   inline float_t get_smallMeshScreenPercentage();
 
   /// @brief Convert to "::System::IDisposable"
@@ -503,7 +503,7 @@ public:
   RenderersBatchersContext(RenderersBatchersContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17761 };
 
   /// @brief Field m_InstanceDataSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::InstanceDataSystem* ___m_InstanceDataSystem;

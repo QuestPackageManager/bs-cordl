@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Zenject::NoReflectionBakingAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ce6a74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3ad78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   NoReflectionBakingAttribute(NoReflectionBakingAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

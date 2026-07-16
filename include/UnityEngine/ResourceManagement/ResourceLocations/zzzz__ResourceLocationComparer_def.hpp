@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x67df624, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x691e108, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* x, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* y);
 
-  /// @brief Method GetHashCode, addr 0x67df654, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x691e138, size 0x12c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* obj);
 
   static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67df780, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691e264, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
@@ -59,7 +59,7 @@ public:
   ResourceLocationComparer(ResourceLocationComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

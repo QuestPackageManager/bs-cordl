@@ -161,7 +161,7 @@ public:
   ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16601 };
 
   /// @brief Field _builder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* ____builder;
@@ -392,7 +392,7 @@ public:
   ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16602 };
 
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ____items;

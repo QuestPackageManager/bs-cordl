@@ -41,52 +41,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::Geometry::MinMaxAABB>"
   constexpr operator ::System::IEquatable_1<::Unity::Mathematics::Geometry::MinMaxAABB>*();
 
-  /// @brief Method Contains, addr 0x64dac64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6617a30, size 0x80, virtual false, abstract: false, final false
   inline bool Contains(::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Contains, addr 0x64dac04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x66179d0, size 0x60, virtual false, abstract: false, final false
   inline bool Contains(::Unity::Mathematics::float3 point);
 
-  /// @brief Method CreateFromCenterAndExtents, addr 0x64daab0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CreateFromCenterAndExtents, addr 0x661787c, size 0x38, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB CreateFromCenterAndExtents(::Unity::Mathematics::float3 center, ::Unity::Mathematics::float3 extents);
 
-  /// @brief Method CreateFromCenterAndHalfExtents, addr 0x64daae8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateFromCenterAndHalfExtents, addr 0x66178b4, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB CreateFromCenterAndHalfExtents(::Unity::Mathematics::float3 center, ::Unity::Mathematics::float3 halfExtents);
 
-  /// @brief Method Encapsulate, addr 0x64dad8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6617b58, size 0x8c, virtual false, abstract: false, final false
   inline void Encapsulate(::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Encapsulate, addr 0x64dae18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6617be4, size 0x80, virtual false, abstract: false, final false
   inline void Encapsulate(::Unity::Mathematics::float3 point);
 
-  /// @brief Method Equals, addr 0x64dae98, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6617c64, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::Geometry::MinMaxAABB other);
 
-  /// @brief Method Expand, addr 0x64dad64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Expand, addr 0x6617b30, size 0x28, virtual false, abstract: false, final false
   inline void Expand(float_t signedDistance);
 
-  /// @brief Method Overlaps, addr 0x64dace4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6617ab0, size 0x80, virtual false, abstract: false, final false
   inline bool Overlaps(::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method ToString, addr 0x64daf04, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6617cd0, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x64daaa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x661786c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 min, ::Unity::Mathematics::float3 max);
 
-  /// @brief Method get_Center, addr 0x64dab60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Center, addr 0x661792c, size 0x30, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_Center();
 
-  /// @brief Method get_Extents, addr 0x64dab10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Extents, addr 0x66178dc, size 0x20, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_Extents();
 
-  /// @brief Method get_HalfExtents, addr 0x64dab30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_HalfExtents, addr 0x66178fc, size 0x30, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_HalfExtents();
 
-  /// @brief Method get_IsValid, addr 0x64dab90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x661795c, size 0x40, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_SurfaceArea, addr 0x64dabd0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_SurfaceArea, addr 0x661799c, size 0x34, virtual false, abstract: false, final false
   inline float_t get_SurfaceArea();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::Geometry::MinMaxAABB>"
@@ -101,7 +101,7 @@ public:
   constexpr MinMaxAABB(::Unity::Mathematics::float3 Min, ::Unity::Mathematics::float3 Max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13190 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -38,10 +38,10 @@ public:
   /// @brief Field rightChild, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_rightChild, put = __cordl_internal_set_rightChild)) ::System::Xml::Schema::SyntaxTreeNode* rightChild;
 
-  /// @brief Method ExpandTree, addr 0x61de7b4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x63198b0, size 0x64, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method ExpandTreeNoRecursive, addr 0x61de5c8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ExpandTreeNoRecursive, addr 0x63196c4, size 0x1ec, virtual false, abstract: false, final false
   inline void ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::InteriorNode* New_ctor();
@@ -58,19 +58,19 @@ public:
 
   constexpr void __cordl_internal_set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method .ctor, addr 0x61de818, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6319914, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LeftChild, addr 0x61de5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeftChild, addr 0x63196a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_LeftChild();
 
-  /// @brief Method get_RightChild, addr 0x61de5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RightChild, addr 0x63196b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_RightChild();
 
-  /// @brief Method set_LeftChild, addr 0x61de5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LeftChild, addr 0x63196ac, size 0x8, virtual false, abstract: false, final false
   inline void set_LeftChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method set_RightChild, addr 0x61de5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RightChild, addr 0x63196bc, size 0x8, virtual false, abstract: false, final false
   inline void set_RightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   InteriorNode(InteriorNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };
 
   /// @brief Field leftChild, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::SyntaxTreeNode* ___leftChild;

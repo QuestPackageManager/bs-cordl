@@ -34,7 +34,7 @@ public:
   __Il2CppFullySharedGenericType(__Il2CppFullySharedGenericType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23740 };
 
   /// @brief Size padding 0x8 - 0x10 = 0x8, packed as 0x8
   uint8_t _cordl_size_padding[0x8];

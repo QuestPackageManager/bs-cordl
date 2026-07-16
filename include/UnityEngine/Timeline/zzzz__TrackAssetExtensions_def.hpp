@@ -25,10 +25,10 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGroup, addr 0x68836c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetGroup, addr 0x69c21a8, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SetGroup, addr 0x6883790, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method SetGroup, addr 0x69c2274, size 0x32c, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
 protected:
@@ -46,7 +46,7 @@ public:
   TrackAssetExtensions(TrackAssetExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

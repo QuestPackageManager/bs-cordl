@@ -24,301 +24,301 @@
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::*)()>(
-    &::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::*)()>(
+    &::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x582e128;
+  constexpr static std::size_t addrs = 0x595d0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0._SetDataToUI_b__0
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0._SetDataToUI_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::*)(int32_t, ::GlobalNamespace::ResultObjectiveListItem*)>(
-    &::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::_SetDataToUI_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::*)(int32_t, ::GlobalNamespace::ResultObjectiveListItem*)>(
+    &::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::_SetDataToUI_b__0)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x582e170;
+  constexpr static std::size_t addrs = 0x595d12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0*>(),
                                                              { "<SetDataToUI>b__0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::ResultObjectiveListItem*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value) {
+constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr bool& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get_levelCleared() {
+constexpr bool& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get_levelCleared() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCleared;
 }
-constexpr bool const& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get_levelCleared() const {
+constexpr bool const& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get_levelCleared() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCleared;
 }
-constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_set_levelCleared(bool value) {
+constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_set_levelCleared(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelCleared = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective*>& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get_missionObjectives() {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*>& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get_missionObjectives() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectives;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get_missionObjectives() const {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get_missionObjectives() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectives;
 }
-constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value) {
+constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___missionObjectives = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get_missionObjectiveResults() {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get_missionObjectiveResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectiveResults;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> const& GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_get_missionObjectiveResults() const {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> const& GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_get_missionObjectiveResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectiveResults;
 }
-constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::__cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*> value) {
+constexpr void GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::__cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___missionObjectiveResults = value;
 }
-inline void GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::_ctor() {
+inline void GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::_SetDataToUI_b__0(int32_t idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem) {
+inline void GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::_SetDataToUI_b__0(int32_t idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0*>(),
                                                            { "<SetDataToUI>b__0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::ResultObjectiveListItem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idx, objectiveListItem);
 }
-inline ::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0* GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0*>());
+inline ::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0* GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0::MissionResultsViewController___c__DisplayClass30_0() {}
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29._ctor
+constexpr ::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::MissionResultsViewController___c__DisplayClass31_0() {}
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::*)(int32_t)>(
-    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)(int32_t)>(
+    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582e120;
+  constexpr static std::size_t addrs = 0x595d0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::*)()>(
-    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
+    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x582e654;
+  constexpr static std::size_t addrs = 0x595d610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "System.IDisposable.Dispose", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::*)()>(
-    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
+    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::MoveNext)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x582e658;
+  constexpr static std::size_t addrs = 0x595d614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::*)()>(
-    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
+    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582e70c;
+  constexpr static std::size_t addrs = 0x595d6c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::*)()>(
-    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
+    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x582e714;
+  constexpr static std::size_t addrs = 0x595d6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::*)()>(
-    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
+    &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582e74c;
+  constexpr static std::size_t addrs = 0x595d708;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(),
                                                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr float_t& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get_delay() {
+constexpr float_t& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get_delay() const {
+constexpr float_t const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_set_delay(float_t value) {
+constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value) {
+constexpr void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-inline void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_IDisposable_Dispose() {
+inline void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_IDisposable_Dispose() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "System.IDisposable.Dispose", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::MoveNext() {
+inline bool GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(),
+inline ::System::Object* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*>(__1__state));
+inline ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29::MissionResultsViewController__StartFireworksAfterDelay_d__29() {}
+constexpr ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::MissionResultsViewController__StartFireworksAfterDelay_d__30() {}
 //  Writing Method size for method: ::GlobalNamespace::MissionResultsViewController.add_continueButtonPressedEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x582d8f4;
+  constexpr static std::size_t addrs = 0x595c8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x582d9b4;
+  constexpr static std::size_t addrs = 0x595c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x582da74;
+  constexpr static std::size_t addrs = 0x595ca30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x582db34;
+  constexpr static std::size_t addrs = 0x595caf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionCompletionResults*)>(
     &::GlobalNamespace::MissionResultsViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582dbf4;
+  constexpr static std::size_t addrs = 0x595cbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::MissionResultsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x582dbfc;
+  constexpr static std::size_t addrs = 0x595cbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(bool, bool)>(&::GlobalNamespace::MissionResultsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x582e0e4;
+  constexpr static std::size_t addrs = 0x595d0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionResultsViewController::*)(float_t)>(
     &::GlobalNamespace::MissionResultsViewController::StartFireworksAfterDelay)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x582e080;
+  constexpr static std::size_t addrs = 0x595d03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::SetDataToUI)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x582ddcc;
+  constexpr static std::size_t addrs = 0x595cd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { "SetDataToUI", {}, {} })));
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::ContinueButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x582e12c;
+  constexpr static std::size_t addrs = 0x595d0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { "ContinueButtonPressed", {}, {} })));
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::RetryButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x582e14c;
+  constexpr static std::size_t addrs = 0x595d108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { "RetryButtonPressed", {}, {} })));
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x582e16c;
+  constexpr static std::size_t addrs = 0x595d128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { ".ctor", {}, {} })));

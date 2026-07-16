@@ -47,7 +47,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x329dfdc, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335a494, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
@@ -56,7 +56,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method ToAsn1Object, addr 0x32a0754, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x335cc0c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_id() const;
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x32a0640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335caf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method .ctor, addr 0x32a05d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335ca88, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor, addr 0x32a05c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335ca80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method get_ID, addr 0x32a06c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0x335cb80, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_ID();
 
-  /// @brief Method get_IsTagged, addr 0x32a0648, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IsTagged, addr 0x335cb00, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

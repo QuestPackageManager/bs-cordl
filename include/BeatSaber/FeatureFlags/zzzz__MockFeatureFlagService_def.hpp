@@ -47,18 +47,18 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x31f7f5c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x328ca64, size 0x28, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method IsFeatureEnabled, addr 0x31f8000, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method IsFeatureEnabled, addr 0x328cb08, size 0x98, virtual true, abstract: false, final true
   inline ::System::Nullable_1<bool> IsFeatureEnabled(::BeatSaber::FeatureFlags::Feature feature);
 
-  /// @brief Method IsFeatureEnabledAsync, addr 0x31f8098, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method IsFeatureEnabledAsync, addr 0x328cba0, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsFeatureEnabledAsync(::BeatSaber::FeatureFlags::Feature feature);
 
   static inline ::BeatSaber::FeatureFlags::MockFeatureFlagService* New_ctor();
 
-  /// @brief Method SetFeatureEnabled, addr 0x31f7f84, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetFeatureEnabled, addr 0x328ca8c, size 0x7c, virtual false, abstract: false, final false
   inline void SetFeatureEnabled(::BeatSaber::FeatureFlags::Feature feature, bool enabled);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::FeatureFlags::Feature, bool>* const& __cordl_internal_get__enabledFeatures() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__enabledFeatures(::System::Collections::Generic::Dictionary_2<::BeatSaber::FeatureFlags::Feature, bool>* value);
 
-  /// @brief Method .ctor, addr 0x31f814c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328cc54, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::FeatureFlags::IFeatureFlagService"
@@ -91,7 +91,7 @@ public:
   MockFeatureFlagService(MockFeatureFlagService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22887 };
 
   /// @brief Field _enabledFeatures, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::BeatSaber::FeatureFlags::Feature, bool>* ____enabledFeatures;

@@ -28,18 +28,18 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig"
   constexpr operator ::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig*() noexcept;
 
-  /// @brief Method Awake, addr 0x591d7f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a56efc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCamera, addr 0x591d800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCamera, addr 0x5a56f04, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> GetCamera();
 
   static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x591d7fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a56f00, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method .ctor, addr 0x591d808, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a56f0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig"
@@ -60,7 +60,7 @@ public:
   CustomIntegrationConfigBase(CustomIntegrationConfigBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

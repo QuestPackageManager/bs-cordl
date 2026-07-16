@@ -21,7 +21,7 @@ namespace System::Runtime {
 class CORDL_TYPE HashHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash, addr 0x6046b6c, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x6181c68, size 0x548, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ComputeHash(::ArrayW<uint8_t> buffer);
 
 protected:
@@ -39,7 +39,7 @@ public:
   HashHelper(HashHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

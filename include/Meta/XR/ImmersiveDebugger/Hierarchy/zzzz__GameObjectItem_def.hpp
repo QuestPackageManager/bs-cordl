@@ -42,22 +42,22 @@ public:
   __declspec(property(get = __cordl_internal_get__components,
                       put = __cordl_internal_set__components)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem*>* _components;
 
-  /// @brief Method BuildContent, addr 0x592e7a4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method BuildContent, addr 0x5a67ea8, size 0x60, virtual true, abstract: false, final false
   inline void BuildContent();
 
-  /// @brief Method BuildContentInternal, addr 0x592e804, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method BuildContentInternal, addr 0x5a67f08, size 0x1d8, virtual false, abstract: false, final false
   inline void BuildContentInternal();
 
-  /// @brief Method BuildHandle, addr 0x592e5d0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x5a67cd4, size 0x8c, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
-  /// @brief Method ClearContent, addr 0x592ea18, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x5a6811c, size 0x184, virtual true, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method CompareChildren, addr 0x592e65c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CompareChildren, addr 0x5a67d60, size 0x6c, virtual true, abstract: false, final false
   inline bool CompareChildren(::UnityEngine::GameObject* lhs, ::UnityEngine::GameObject* rhs);
 
-  /// @brief Method FetchExpectedChildren, addr 0x592e6c8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method FetchExpectedChildren, addr 0x5a67dcc, size 0xdc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> FetchExpectedChildren();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem* New_ctor();
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set__components(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem*>* value);
 
-  /// @brief Method .ctor, addr 0x592eb9c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a682a0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Label, addr 0x592e558, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5a67c5c, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Valid, addr 0x592e56c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5a67c70, size 0x64, virtual true, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -92,7 +92,7 @@ public:
   GameObjectItem(GameObjectItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18438 };
 
   /// @brief Field _components, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem*>* ____components;

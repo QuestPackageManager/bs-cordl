@@ -111,40 +111,40 @@ public:
   /// @brief Field skipFrame, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_skipFrame, put = __cordl_internal_set_skipFrame)) bool skipFrame;
 
-  /// @brief Method CacheAudioData, addr 0x5cbcecc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CacheAudioData, addr 0x5df50f4, size 0x160, virtual false, abstract: false, final false
   inline void CacheAudioData(::ArrayW<float_t> data, int32_t channels);
 
-  /// @brief Method CastMrcFrame, addr 0x5cbb9b8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method CastMrcFrame, addr 0x5df3be0, size 0x238, virtual false, abstract: false, final false
   inline int32_t CastMrcFrame(int32_t castTextureIndex);
 
-  /// @brief Method Cleanup, addr 0x5cbcca8, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5df4ed0, size 0x224, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CleanupAudioFilter, addr 0x5cbb85c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CleanupAudioFilter, addr 0x5df3a84, size 0x15c, virtual false, abstract: false, final false
   inline void CleanupAudioFilter();
 
-  /// @brief Method CompositionMethod, addr 0x5cba0b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CompositionMethod, addr 0x5df22d8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
 
-  /// @brief Method DisplayRefreshRateChanged, addr 0x5cbd02c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DisplayRefreshRateChanged, addr 0x5df5254, size 0x14, virtual false, abstract: false, final false
   inline void DisplayRefreshRateChanged(float_t fromRefreshRate, float_t toRefreshRate);
 
-  /// @brief Method GetAndResetAudioData, addr 0x5cbbbf0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetAndResetAudioData, addr 0x5df3e18, size 0x1fc, virtual false, abstract: false, final false
   inline void GetAndResetAudioData(::by_ref<::ArrayW<float_t>> audioData, ::by_ref<int32_t> audioFrames, ::by_ref<int32_t> channels);
 
   static inline ::GlobalNamespace::OVRExternalComposition* New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
                                                                     ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method RefreshAudioFilter, addr 0x5cbb260, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method RefreshAudioFilter, addr 0x5df3488, size 0x5fc, virtual false, abstract: false, final false
   inline void RefreshAudioFilter(::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method RefreshCameraObjects, addr 0x5cba6d0, size 0xb90, virtual false, abstract: false, final false
+  /// @brief Method RefreshCameraObjects, addr 0x5df28f8, size 0xb90, virtual false, abstract: false, final false
   inline void RefreshCameraObjects(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method SetCameraTargetTexture, addr 0x5cbbdec, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SetCameraTargetTexture, addr 0x5df4014, size 0x1cc, virtual false, abstract: false, final false
   inline void SetCameraTargetTexture(int32_t drawTextureIndex);
 
-  /// @brief Method Update, addr 0x5cbbfb8, size 0xcf0, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x5df41e0, size 0xcf0, virtual true, abstract: false, final false
   inline void Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
                      ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
 
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_skipFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x5cba0b8, size 0x618, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df22e0, size 0x618, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
 protected:
@@ -286,7 +286,7 @@ public:
   OVRExternalComposition(OVRExternalComposition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7017 };
 
   /// @brief Field previousMainCameraObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___previousMainCameraObject;

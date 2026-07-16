@@ -31,7 +31,7 @@ public:
   /// @brief Field ns, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
-  /// @brief Method AddAnnotation, addr 0x60f11dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x622c2d8, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaImport* New_ctor();
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60f11c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622c2bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Namespace, addr 0x60f11cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x622c2c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_Namespace, addr 0x60f11d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x622c2d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   XmlSchemaImport(XmlSchemaImport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9763 };
 
   /// @brief Field ns, offset: 0x68, size: 0x8, def value: None
   ::StringW ___ns;

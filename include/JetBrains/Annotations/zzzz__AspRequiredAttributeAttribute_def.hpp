@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Attribute_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ce69a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3acac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW attribute);
 
-  /// @brief Method get_Attribute, addr 0x6ce69b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x6e3acb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Attribute();
 
-  /// @brief Method set_Attribute, addr 0x6ce69b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Attribute, addr 0x6e3acbc, size 0x8, virtual false, abstract: false, final false
   inline void set_Attribute(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   AspRequiredAttributeAttribute(AspRequiredAttributeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22551 };
 
   /// @brief Field <Attribute>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Attribute_k__BackingField;

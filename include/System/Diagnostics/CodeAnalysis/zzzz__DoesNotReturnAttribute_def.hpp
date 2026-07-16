@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::CodeAnalysis::DoesNotReturnAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5aa7018, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0cf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

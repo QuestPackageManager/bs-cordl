@@ -36,22 +36,22 @@ public:
   /// @brief Convert operator to "::Meta::XR::EnvironmentDepth::IDepthProvider"
   constexpr operator ::Meta::XR::EnvironmentDepth::IDepthProvider*() noexcept;
 
-  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.SetDepthEnabled, addr 0x5903934, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.SetDepthEnabled, addr 0x5a3d038, size 0x4, virtual true, abstract: false, final true
   inline void Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled(bool isEnabled, bool removeHands);
 
-  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.TryGetUpdatedDepthTexture, addr 0x5903938, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.TryGetUpdatedDepthTexture, addr 0x5a3d03c, size 0x38, virtual true, abstract: false, final true
   inline bool Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture(::by_ref<::UnityEngine::RenderTexture*> depthTexture,
                                                                                 ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc> frameDescriptors);
 
-  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.get_IsSupported, addr 0x5903928, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.get_IsSupported, addr 0x5a3d02c, size 0x8, virtual true, abstract: false, final true
   inline bool Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported();
 
-  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.set_RemoveHands, addr 0x5903930, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.set_RemoveHands, addr 0x5a3d034, size 0x4, virtual true, abstract: false, final true
   inline void Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands(bool value);
 
   static inline ::Meta::XR::EnvironmentDepth::DepthProviderNotSupported* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59010a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3a7a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Meta::XR::EnvironmentDepth::IDepthProvider"
@@ -72,7 +72,7 @@ public:
   DepthProviderNotSupported(DepthProviderNotSupported const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

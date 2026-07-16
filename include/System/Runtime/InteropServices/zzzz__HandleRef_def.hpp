@@ -28,10 +28,10 @@ public:
   // Declarations
   __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method .ctor, addr 0x5a2fa44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b69714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* wrapper, ::System::IntPtr handle);
 
-  /// @brief Method get_Handle, addr 0x5a2fa4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5b6971c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
   // Ctor Parameters []

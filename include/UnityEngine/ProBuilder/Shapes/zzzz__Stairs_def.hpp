@@ -60,21 +60,21 @@ public:
 
   __declspec(property(get = get_sides, put = set_sides)) bool sides;
 
-  /// @brief Method BuildCurvedStairs, addr 0x65c71d0, size 0x1090, virtual false, abstract: false, final false
+  /// @brief Method BuildCurvedStairs, addr 0x67048dc, size 0x1090, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildCurvedStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method BuildStairs, addr 0x65c8260, size 0xec0, virtual false, abstract: false, final false
+  /// @brief Method BuildStairs, addr 0x670596c, size 0xec0, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method CopyShape, addr 0x65c70cc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x67047d8, size 0xb8, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Stairs* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x65c7184, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x6704890, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x65c9120, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x670682c, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr float_t const& __cordl_internal_get_m_Circumference() const;
@@ -119,13 +119,13 @@ public:
 
   constexpr void __cordl_internal_set_m_StepsHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x65c925c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6706968, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sides, addr 0x65c70bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sides, addr 0x67047c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_sides();
 
-  /// @brief Method set_sides, addr 0x65c70c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sides, addr 0x67047d0, size 0x8, virtual false, abstract: false, final false
   inline void set_sides(bool value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   Stairs(Stairs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16818 };
 
   /// @brief Field m_StepGenerationType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::Shapes::StepGenerationType ___m_StepGenerationType;

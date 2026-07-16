@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeLODGroupDataJob::*)()>(&::UnityEngine::Rendering::FreeLODGroupDataJob::Execute)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x66ee730;
+  constexpr static std::size_t addrs = 0x682be3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeLODGroupDataJob>(), { "Execute", {}, {} })));

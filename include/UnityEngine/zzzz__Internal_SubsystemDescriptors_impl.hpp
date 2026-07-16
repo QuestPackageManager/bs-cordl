@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::SubsystemDescriptor*)>(&::UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6a61544;
+  constexpr static std::size_t addrs = 0x6bb5020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Internal_SubsystemDescriptors*>(),

@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x57ad97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5965fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::System::Action* action);
 
 protected:
@@ -81,7 +81,7 @@ public:
   TabBarViewController_TabBarItem(TabBarViewController_TabBarItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6969 };
 
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::StringW ___title;
@@ -127,24 +127,24 @@ public:
 
   __declspec(property(get = get_sizeToFit, put = set_sizeToFit)) bool sizeToFit;
 
-  /// @brief Method Clear, addr 0x57ad70c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5965d40, size 0x58, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DidActivate, addr 0x57ad764, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5965d98, size 0xe0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleDidSelectCell, addr 0x57ad928, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCell, addr 0x5965f5c, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::TabBarViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57ad844, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5965e78, size 0xe4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectItem, addr 0x57ad6f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SelectItem, addr 0x5965d28, size 0x18, virtual false, abstract: false, final false
   inline void SelectItem(int32_t index);
 
-  /// @brief Method Setup, addr 0x57ad540, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5965b74, size 0x1b4, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*> items);
 
   constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter> const& __cordl_internal_get__contentSizeFilter() const;
@@ -177,16 +177,16 @@ public:
 
   constexpr void __cordl_internal_set__shouldReloadData(bool value);
 
-  /// @brief Method .ctor, addr 0x57ad978, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5965fac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_selectedCellNumber, addr 0x57ad528, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCellNumber, addr 0x5965b5c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method get_sizeToFit, addr 0x57ad510, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sizeToFit, addr 0x5965b44, size 0x18, virtual false, abstract: false, final false
   inline bool get_sizeToFit();
 
-  /// @brief Method set_sizeToFit, addr 0x57ad4f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sizeToFit, addr 0x5965b28, size 0x1c, virtual false, abstract: false, final false
   inline void set_sizeToFit(bool value);
 
 protected:
@@ -204,7 +204,7 @@ public:
   TabBarViewController(TabBarViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6970 };
 
   /// @brief Field _segmentedControll, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____segmentedControll;

@@ -71,24 +71,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDrop"
   constexpr operator ::UnityEngine::UIElements::IDragAndDrop*() noexcept;
 
-  /// @brief Method AcceptDrag, addr 0x6c3322c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AcceptDrag, addr 0x6d870e4, size 0x4, virtual true, abstract: false, final true
   inline void AcceptDrag();
 
-  /// @brief Method DragCleanup, addr 0x6c33238, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method DragCleanup, addr 0x6d870f0, size 0x54, virtual true, abstract: false, final true
   inline void DragCleanup();
 
-  /// @brief Method GetGenericData, addr 0x6c32984, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetGenericData, addr 0x6d8683c, size 0x64, virtual true, abstract: false, final false
   inline ::System::Object* GetGenericData(::StringW key);
 
   static inline ::UnityEngine::UIElements::DefaultDragAndDropClient* New_ctor();
 
-  /// @brief Method SetVisualMode, addr 0x6c33230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetVisualMode, addr 0x6d870e8, size 0x8, virtual true, abstract: false, final true
   inline void SetVisualMode(::UnityEngine::UIElements::DragVisualMode mode);
 
-  /// @brief Method StartDrag, addr 0x6c329e8, size 0x6a4, virtual true, abstract: false, final true
+  /// @brief Method StartDrag, addr 0x6d868a0, size 0x6a4, virtual true, abstract: false, final true
   inline void StartDrag(::UnityEngine::UIElements::StartDragArgs args, ::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UpdateDrag, addr 0x6c3308c, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method UpdateDrag, addr 0x6d86f44, size 0x1a0, virtual true, abstract: false, final true
   inline void UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
   constexpr ::UnityEngine::UIElements::Label* const& __cordl_internal_get_m_DraggedInfoLabel() const;
@@ -115,13 +115,13 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualMode(::UnityEngine::UIElements::DragVisualMode value);
 
-  /// @brief Method .ctor, addr 0x6c328d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d86788, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x6c3328c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_data, addr 0x6d87144, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::DragAndDropData* get_data();
 
-  /// @brief Method get_source, addr 0x6c32930, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_source, addr 0x6d867e8, size 0x54, virtual true, abstract: false, final false
   inline ::System::Object* get_source();
 
   /// @brief Convert to "::UnityEngine::UIElements::IDragAndDrop"

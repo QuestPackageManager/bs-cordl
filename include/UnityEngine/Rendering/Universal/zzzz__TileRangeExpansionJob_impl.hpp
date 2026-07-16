@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TileRangeExpansionJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TileRangeExpansionJob::Execute)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x677deb4;
+  constexpr static std::size_t addrs = 0x68bc830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

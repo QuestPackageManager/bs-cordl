@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::SetWritingPass)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66ba084;
+  constexpr static std::size_t addrs = 0x67f7790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::RegisterReadingPass)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x66ba094;
+  constexpr static std::size_t addrs = 0x67f77a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::RemoveReadingPass)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x66ba228;
+  constexpr static std::size_t addrs = 0x67f7934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

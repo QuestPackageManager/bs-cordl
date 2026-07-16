@@ -7,17 +7,18 @@
 //  Writing Method size for method: ::GlobalNamespace::GameplayAdditionalInformation._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformation::*)(::StringW, bool, bool, ::GlobalNamespace::PlaymodeOptions, ::StringW)>(
-    &::GlobalNamespace::GameplayAdditionalInformation::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x364d3a0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformation::*)(::StringW, bool, bool, ::GlobalNamespace::PlaymodeOptions, ::StringW, bool,
+                                                                                                                  ::StringW)>(&::GlobalNamespace::GameplayAdditionalInformation::_ctor)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3709cbc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformation*>(),
-            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(), ::i2c::type_of<::StringW>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformation*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(),
+                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -81,19 +82,46 @@ constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordingRelativePath = value;
 }
+constexpr bool& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_profileSong() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___profileSong;
+}
+constexpr bool const& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_profileSong() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___profileSong;
+}
+constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_set_profileSong(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___profileSong = value;
+}
+constexpr ::StringW& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_reportDescriptor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___reportDescriptor;
+}
+constexpr ::StringW const& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_reportDescriptor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___reportDescriptor;
+}
+constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_set_reportDescriptor(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___reportDescriptor = value;
+}
 inline void GlobalNamespace::GameplayAdditionalInformation::_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions,
-                                                                  ::StringW recordingRelativePath) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformation*>(),
-          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(), ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath);
+                                                                  ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformation*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(),
+                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath, profileSong,
+                                                   reportDescriptor);
 }
 inline ::GlobalNamespace::GameplayAdditionalInformation* GlobalNamespace::GameplayAdditionalInformation::New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
-                                                                                                                  ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath) {
-  return THROW_UNLESS(::i2c::no_logger{},
-                      ::i2c::new_ctor<::GlobalNamespace::GameplayAdditionalInformation*>(backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath));
+                                                                                                                  ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath,
+                                                                                                                  bool profileSong, ::StringW reportDescriptor) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayAdditionalInformation*>(backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions,
+                                                                                                             recordingRelativePath, profileSong, reportDescriptor));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayAdditionalInformation::GameplayAdditionalInformation() {}

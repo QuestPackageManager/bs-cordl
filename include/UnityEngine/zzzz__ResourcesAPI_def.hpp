@@ -36,31 +36,31 @@ public:
   /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::ResourcesAPI* s_DefaultAPI;
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6982e00, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6ad61a0, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
-  /// @brief Method FindShaderByName, addr 0x6982e3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x6ad61dc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method Load, addr 0x6982e44, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Load, addr 0x6ad61e4, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x6982e50, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6ad61f0, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
   static inline ::UnityEngine::ResourcesAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6982dfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad619c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
 
   static inline ::UnityEngine::ResourcesAPI* getStaticF_s_DefaultAPI();
 
-  /// @brief Method get_ActiveAPI, addr 0x6982cec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x6ad608c, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI, addr 0x6982da0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x6ad6140, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
 
   static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::ResourcesAPI* value);
@@ -82,7 +82,7 @@ public:
   ResourcesAPI(ResourcesAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

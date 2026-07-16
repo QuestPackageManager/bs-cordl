@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ConstructorInfo* (::System::Linq::Expressions::NewExpression::*)()>(
     &::System::Linq::Expressions::NewExpression::get_Constructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e484c0;
+  constexpr static std::size_t addrs = 0x5f835bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::NewExpression*>(), { "get_Constructor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::NewExpression::*)(int32_t)>(
     &::System::Linq::Expressions::NewExpression::GetArgument)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e484c8;
+  constexpr static std::size_t addrs = 0x5f835c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

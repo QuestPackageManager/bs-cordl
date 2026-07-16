@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::get_xCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a69760;
+  constexpr static std::size_t addrs = 0x6bbd618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>(), { "get_xCoordinate", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::*)(float_t)>(&::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::set_xCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a69768;
+  constexpr static std::size_t addrs = 0x6bbd620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::get_yCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a69770;
+  constexpr static std::size_t addrs = 0x6bbd628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>(), { "get_yCoordinate", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::*)(float_t)>(&::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::set_yCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a69778;
+  constexpr static std::size_t addrs = 0x6bbd630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

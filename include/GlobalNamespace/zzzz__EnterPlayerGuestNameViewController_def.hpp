@@ -13,10 +13,10 @@ namespace GlobalNamespace {
 class EnterPlayerGuestNameViewController_FinishDelegate;
 }
 namespace GlobalNamespace {
-class EnterPlayerGuestNameViewController___c__DisplayClass10_0;
+class EnterPlayerGuestNameViewController___c__DisplayClass11_0;
 }
 namespace GlobalNamespace {
-class EnterPlayerGuestNameViewController___c__DisplayClass10_1;
+class EnterPlayerGuestNameViewController___c__DisplayClass11_1;
 }
 namespace GlobalNamespace {
 class GuestNameButtonsListItem;
@@ -59,20 +59,20 @@ namespace GlobalNamespace {
 class EnterPlayerGuestNameViewController_FinishDelegate;
 }
 namespace GlobalNamespace {
-class EnterPlayerGuestNameViewController___c__DisplayClass10_0;
+class EnterPlayerGuestNameViewController___c__DisplayClass11_0;
 }
 namespace GlobalNamespace {
-class EnterPlayerGuestNameViewController___c__DisplayClass10_1;
+class EnterPlayerGuestNameViewController___c__DisplayClass11_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::EnterPlayerGuestNameViewController*);
 MARK_REF_T(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*);
-MARK_REF_T(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*);
-MARK_REF_T(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*);
+MARK_REF_T(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0*);
+MARK_REF_T(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnterPlayerGuestNameViewController*, "", "EnterPlayerGuestNameViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*, "", "EnterPlayerGuestNameViewController/FinishDelegate");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_1");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass11_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass11_1");
 // Dependencies System.MulticastDelegate
 namespace GlobalNamespace {
 // Is value type: false
@@ -80,18 +80,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnterPlayerGuestNameViewController_FinishDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x58e8b08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5a12968, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x58e8b30, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5a12990, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x58e8af4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5a12954, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x58e89ac, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1280c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -109,7 +109,7 @@ public:
   EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -120,8 +120,8 @@ static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController_Finis
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: EnterPlayerGuestNameViewController/<>c__DisplayClass10_0
-class CORDL_TYPE EnterPlayerGuestNameViewController___c__DisplayClass10_0 : public ::System::Object {
+// CS Name: EnterPlayerGuestNameViewController/<>c__DisplayClass11_0
+class CORDL_TYPE EnterPlayerGuestNameViewController___c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -130,9 +130,9 @@ public:
   /// @brief Field guestPlayerNames, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_guestPlayerNames, put = __cordl_internal_set_guestPlayerNames)) ::System::Collections::Generic::List_1<::StringW>* guestPlayerNames;
 
-  static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* New_ctor();
+  static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x58e8b3c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x5a1299c, size 0x150, virtual false, abstract: false, final false
   inline void _DidActivate_b__0(int32_t idx, ::GlobalNamespace::GuestNameButtonsListItem* item);
 
   constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> const& __cordl_internal_get___4__this() const;
@@ -147,25 +147,25 @@ public:
 
   constexpr void __cordl_internal_set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x58e8800, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a12660, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr EnterPlayerGuestNameViewController___c__DisplayClass10_0();
+  constexpr EnterPlayerGuestNameViewController___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  EnterPlayerGuestNameViewController___c__DisplayClass10_0(EnterPlayerGuestNameViewController___c__DisplayClass10_0&&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController___c__DisplayClass10_0(EnterPlayerGuestNameViewController___c__DisplayClass10_0 const&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6403 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> _____4__this;
@@ -176,78 +176,78 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0, ___guestPlayerNames) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0, ___guestPlayerNames) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: EnterPlayerGuestNameViewController/<>c__DisplayClass10_1
-class CORDL_TYPE EnterPlayerGuestNameViewController___c__DisplayClass10_1 : public ::System::Object {
+// CS Name: EnterPlayerGuestNameViewController/<>c__DisplayClass11_1
+class CORDL_TYPE EnterPlayerGuestNameViewController___c__DisplayClass11_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
-                      put = __cordl_internal_set_CS$__8__locals1)) ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* CS$__8__locals1;
+                      put = __cordl_internal_set_CS$__8__locals1)) ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* CS$__8__locals1;
 
   /// @brief Field guestPlayerName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_guestPlayerName, put = __cordl_internal_set_guestPlayerName)) ::StringW guestPlayerName;
 
-  static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1* New_ctor();
+  static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1* New_ctor();
 
-  /// @brief Method <DidActivate>b__1, addr 0x58e8c90, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__1, addr 0x5a12af0, size 0x38, virtual false, abstract: false, final false
   inline void _DidActivate_b__1();
 
-  constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* const& __cordl_internal_get_CS$__8__locals1() const;
+  constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*& __cordl_internal_get_CS$__8__locals1();
+  constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0*& __cordl_internal_get_CS$__8__locals1();
 
   constexpr ::StringW const& __cordl_internal_get_guestPlayerName() const;
 
   constexpr ::StringW& __cordl_internal_get_guestPlayerName();
 
-  constexpr void __cordl_internal_set_CS$__8__locals1(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* value);
 
   constexpr void __cordl_internal_set_guestPlayerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58e8c8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a12aec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr EnterPlayerGuestNameViewController___c__DisplayClass10_1();
+  constexpr EnterPlayerGuestNameViewController___c__DisplayClass11_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass10_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  EnterPlayerGuestNameViewController___c__DisplayClass10_1(EnterPlayerGuestNameViewController___c__DisplayClass10_1&&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass10_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController___c__DisplayClass10_1(EnterPlayerGuestNameViewController___c__DisplayClass10_1 const&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6404 };
 
   /// @brief Field guestPlayerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___guestPlayerName;
 
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* ___CS$__8__locals1;
+  ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* ___CS$__8__locals1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1, ___guestPlayerName) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1, ___guestPlayerName) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies HMUI.ViewController
@@ -259,9 +259,9 @@ public:
   // Declarations
   using FinishDelegate = ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate;
 
-  using __c__DisplayClass10_0 = ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0;
+  using __c__DisplayClass11_0 = ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0;
 
-  using __c__DisplayClass10_1 = ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1;
+  using __c__DisplayClass11_1 = ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1;
 
   /// @brief Field _didFinishCallback, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__didFinishCallback,
@@ -284,18 +284,18 @@ public:
   /// @brief Field _uiKeyboard, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard)) ::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
-  /// @brief Method DidActivate, addr 0x58e8598, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a123f8, size 0x268, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x58e8804, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a12664, size 0xbc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x58e8590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a123f0, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* didFinishCallback);
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x58e88c0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x5a12720, size 0xe8, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* const& __cordl_internal_get__didFinishCallback() const;
@@ -334,7 +334,7 @@ public:
 
   constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x58e89a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a12808, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -352,13 +352,16 @@ public:
   EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6405 };
 
   /// @brief Field kMaxPlayerNameCompoundLength offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPlayerNameCompoundLength{ static_cast<int32_t>(0x28) };
 
   /// @brief Field kMaxShowPlayer offset 0xffffffff size 0x4
   static constexpr int32_t kMaxShowPlayer{ static_cast<int32_t>(0x5) };
+
+  /// @brief Field kNoNamePlayerLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kNoNamePlayerLocalizationKey{ u"NO_NAME_PLAYER" };
 
   /// @brief Field _playerNameWasEnteredSignal, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StringSignal> ____playerNameWasEnteredSignal;

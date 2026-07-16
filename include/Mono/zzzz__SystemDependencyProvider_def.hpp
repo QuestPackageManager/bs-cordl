@@ -53,10 +53,10 @@ public:
   /// @brief Convert operator to "::Mono::ISystemDependencyProvider"
   constexpr operator ::Mono::ISystemDependencyProvider*() noexcept;
 
-  /// @brief Method Initialize, addr 0x5e8f840, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5fca93c, size 0x144, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x5e8fa08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x5fcab04, size 0x8, virtual true, abstract: false, final true
   inline ::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_get_CertificateProvider();
 
   static inline ::Mono::SystemDependencyProvider* New_ctor();
@@ -67,20 +67,20 @@ public:
 
   constexpr void __cordl_internal_set__CertificateProvider_k__BackingField(::Mono::SystemCertificateProvider* value);
 
-  /// @brief Method .ctor, addr 0x5e8f984, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fcaa80, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::SystemDependencyProvider* getStaticF_instance();
 
   static inline ::System::Object* getStaticF_syncRoot();
 
-  /// @brief Method get_CertificateProvider, addr 0x5e8fa10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateProvider, addr 0x5fcab0c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::SystemCertificateProvider* get_CertificateProvider();
 
-  /// @brief Method get_Instance, addr 0x5e8f7e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5fca8dc, size 0x60, virtual false, abstract: false, final false
   static inline ::Mono::SystemDependencyProvider* get_Instance();
 
-  /// @brief Method get_X509Pal, addr 0x5e8fa18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_X509Pal, addr 0x5fcab14, size 0x14, virtual false, abstract: false, final false
   inline ::Mono::X509PalImpl* get_X509Pal();
 
   /// @brief Convert to "::Mono::ISystemDependencyProvider"
@@ -105,7 +105,7 @@ public:
   SystemDependencyProvider(SystemDependencyProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10912 };
 
   /// @brief Field <CertificateProvider>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Mono::SystemCertificateProvider* ____CertificateProvider_k__BackingField;

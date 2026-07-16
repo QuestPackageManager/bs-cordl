@@ -29,28 +29,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionNodesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CycleDetection, addr 0x58dddc8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CycleDetection, addr 0x593a790, size 0xa0, virtual false, abstract: false, final false
   static inline bool CycleDetection(::GlobalNamespace::MissionNode* node);
 
-  /// @brief Method CycleDetection, addr 0x58dde68, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CycleDetection, addr 0x593a830, size 0x17c, virtual false, abstract: false, final false
   static inline bool CycleDetection(::GlobalNamespace::MissionNode* node, int32_t layer, ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MissionNode>, int32_t>* layers);
 
-  /// @brief Method FinalNodeIsFinal, addr 0x58de06c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FinalNodeIsFinal, addr 0x593aa34, size 0x134, virtual false, abstract: false, final false
   static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* node,
                                       ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
-  /// @brief Method FinalNodeIsFinal, addr 0x58ddfe4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FinalNodeIsFinal, addr 0x593a9ac, size 0x88, virtual false, abstract: false, final false
   static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* rootNode);
 
-  /// @brief Method GetAllNodesFromRoot, addr 0x58ddc5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAllNodesFromRoot, addr 0x593a624, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* GetAllNodesFromRoot(::GlobalNamespace::MissionNode* root);
 
   static inline ::GlobalNamespace::MissionNodesHelper* New_ctor();
 
-  /// @brief Method VisitAllTree, addr 0x58ddcdc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method VisitAllTree, addr 0x593a6a4, size 0xec, virtual false, abstract: false, final false
   static inline void VisitAllTree(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
-  /// @brief Method .ctor, addr 0x58de1b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593ab68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   MissionNodesHelper(MissionNodesHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

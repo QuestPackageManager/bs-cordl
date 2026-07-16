@@ -55,7 +55,7 @@ public:
   /// @brief Convert operator to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
   constexpr operator ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*() noexcept;
 
-  /// @brief Method InitializeAsync, addr 0x31cf844, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x3263624, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher* New_ctor();
@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set__hmdSession_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* value);
 
-  /// @brief Method .ctor, addr 0x31cf8d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32636b8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapAttempt, addr 0x31cf82c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapAttempt, addr 0x326360c, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
-  /// @brief Method get_blockLevel, addr 0x31cf834, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_blockLevel, addr 0x3263614, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
-  /// @brief Method get_hmdSession, addr 0x31cf83c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hmdSession, addr 0x326361c, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
@@ -108,7 +108,7 @@ public:
   NoopGameplayEventsDispatcher(NoopGameplayEventsDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22246 };
 
   /// @brief Field <beatmapAttempt>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* ____beatmapAttempt_k__BackingField;

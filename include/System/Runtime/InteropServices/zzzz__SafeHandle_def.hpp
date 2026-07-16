@@ -46,34 +46,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x5a30720, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x5b6a3f0, size 0x10, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DangerousAddRef, addr 0x5a300d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DangerousAddRef, addr 0x5b69da0, size 0xbc, virtual false, abstract: false, final false
   inline void DangerousAddRef(::by_ref<bool> success);
 
-  /// @brief Method DangerousGetHandle, addr 0x5a3070c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousGetHandle, addr 0x5b6a3dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr DangerousGetHandle();
 
-  /// @brief Method DangerousRelease, addr 0x5a30230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousRelease, addr 0x5b69f00, size 0x8, virtual false, abstract: false, final false
   inline void DangerousRelease();
 
-  /// @brief Method DangerousReleaseInternal, addr 0x5a30890, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method DangerousReleaseInternal, addr 0x5b6a560, size 0x154, virtual false, abstract: false, final false
   inline void DangerousReleaseInternal(bool dispose);
 
-  /// @brief Method Dispose, addr 0x5a30730, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5b6a400, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5a30740, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5b6a410, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5a306b4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5b6a384, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalDispose, addr 0x5a3075c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InternalDispose, addr 0x5b6a42c, size 0xa4, virtual false, abstract: false, final false
   inline void InternalDispose();
 
-  /// @brief Method InternalFinalize, addr 0x5a30800, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InternalFinalize, addr 0x5b6a4d0, size 0x14, virtual false, abstract: false, final false
   inline void InternalFinalize();
 
   static inline ::System::Runtime::InteropServices::SafeHandle* New_ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
@@ -81,10 +81,10 @@ public:
   /// @brief Method ReleaseHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method SetHandle, addr 0x5a30704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x5b6a3d4, size 0x8, virtual false, abstract: false, final false
   inline void SetHandle(::System::IntPtr handle);
 
-  /// @brief Method SetHandleAsInvalid, addr 0x5a30814, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetHandleAsInvalid, addr 0x5b6a4e4, size 0x7c, virtual false, abstract: false, final false
   inline void SetHandleAsInvalid();
 
   constexpr bool const& __cordl_internal_get__fullyInitialized() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5a3061c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6a2ec, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
 
-  /// @brief Method get_IsClosed, addr 0x5a30714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsClosed, addr 0x5b6a3e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
   /// @brief Method get_IsInvalid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

@@ -43,13 +43,13 @@ public:
   /// @brief Field _LocalDomainName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName)) ::StringW _LocalDomainName;
 
-  /// @brief Method GetLocalHost, addr 0x62cc89c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLocalHost, addr 0x6408938, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method IsAddressLocal, addr 0x62cc360, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsAddressLocal, addr 0x64083fc, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method IsFatal, addr 0x62cc288, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x6408324, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
   static inline ::ArrayW<::System::Net::IPAddress*> getStaticF__LocalAddresses();
@@ -58,10 +58,10 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method get_LocalAddresses, addr 0x62cc3ec, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddresses, addr 0x6408488, size 0x4b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock, addr 0x62cc8b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddressesLock, addr 0x6408950, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   static inline void setStaticF__LocalAddresses(::ArrayW<::System::Net::IPAddress*> value);
@@ -85,7 +85,7 @@ public:
   NclUtilities(NclUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

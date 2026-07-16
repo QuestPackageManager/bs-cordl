@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRenderDataSO_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRenderDataSO_Data::*)()>(&::GlobalNamespace::BloomPrePassRenderDataSO_Data::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x571c104;
+  constexpr static std::size_t addrs = 0x5861f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRenderDataSO_Data*>(), { ".ctor", {}, {} })));
@@ -68,17 +69,17 @@ constexpr void GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___projectionMatrix = value;
 }
-constexpr float_t& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_stereoCameraEyeOffset() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_stereoCameraEyeOffsets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stereoCameraEyeOffset;
+  return this->___stereoCameraEyeOffsets;
 }
-constexpr float_t const& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_stereoCameraEyeOffset() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_stereoCameraEyeOffsets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stereoCameraEyeOffset;
+  return this->___stereoCameraEyeOffsets;
 }
-constexpr void GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_set_stereoCameraEyeOffset(float_t value) {
+constexpr void GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_set_stereoCameraEyeOffsets(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___stereoCameraEyeOffset = value;
+  this->___stereoCameraEyeOffsets = value;
 }
 constexpr ::GlobalNamespace::ToneMapping& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_toneMapping() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -91,6 +92,18 @@ constexpr ::GlobalNamespace::ToneMapping const& GlobalNamespace::BloomPrePassRen
 constexpr void GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_set_toneMapping(::GlobalNamespace::ToneMapping value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toneMapping = value;
+}
+constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_tempTextureHandles() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tempTextureHandles;
+}
+constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> const& GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_get_tempTextureHandles() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tempTextureHandles;
+}
+constexpr void GlobalNamespace::BloomPrePassRenderDataSO_Data::__cordl_internal_set_tempTextureHandles(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___tempTextureHandles = value;
 }
 inline void GlobalNamespace::BloomPrePassRenderDataSO_Data::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRenderDataSO_Data*>(), { ".ctor", {}, {} })));
@@ -106,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRenderDataSO::*)()>(&::GlobalNamespace::BloomPrePassRenderDataSO::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5720758;
+  constexpr static std::size_t addrs = 0x58653e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRenderDataSO*>(), { ".ctor", {}, {} })));

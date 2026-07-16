@@ -23,10 +23,10 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrQuaternionf {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x689a778, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f1690, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method .ctor, addr 0x689a764, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f167c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z, float_t w);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr XrQuaternionf(float_t X, float_t Y, float_t Z, float_t W) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18506 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

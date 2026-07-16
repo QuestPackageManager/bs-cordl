@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::BatchLayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x66c73f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6804b04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   static constexpr uint32_t InstanceCullingMask{ static_cast<uint32_t>(0x30000000u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

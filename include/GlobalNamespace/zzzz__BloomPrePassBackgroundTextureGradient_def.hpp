@@ -11,6 +11,12 @@ CORDL_MODULE_EXPORT(BloomPrePassBackgroundTextureGradient)
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine::Rendering {
+class RTHandle;
+}
 namespace UnityEngine {
 struct Color32;
 }
@@ -22,9 +28,6 @@ class Material;
 }
 namespace UnityEngine {
 struct Matrix4x4;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
@@ -66,24 +69,24 @@ public:
 
   __declspec(property(get = get_tintColor, put = set_tintColor)) ::UnityEngine::Color tintColor;
 
-  /// @brief Method InitIfNeeded, addr 0x571f668, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x586429c, size 0x23c, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x571f93c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5864570, size 0x24, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate, addr 0x571f960, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5864594, size 0xac, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Render, addr 0x571fa38, size 0x174, virtual true, abstract: false, final false
-  inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
+  /// @brief Method Render, addr 0x586466c, size 0x1d0, virtual true, abstract: false, final false
+  inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method Start, addr 0x571f8a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58644d8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGradientTexture, addr 0x571f8a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UpdateGradientTexture, addr 0x58644dc, size 0x94, virtual false, abstract: false, final false
   inline void UpdateGradientTexture();
 
   /// @brief Method UpdatePixels, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -107,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x571da38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5862808, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cameraToWorldMatrixID();
@@ -118,7 +121,7 @@ public:
 
   static inline int32_t getStaticF__inverseProjectionMatrixID();
 
-  /// @brief Method get_tintColor, addr 0x571f650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tintColor, addr 0x5864284, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_tintColor();
 
   static inline void setStaticF__cameraToWorldMatrixID(int32_t value);
@@ -129,7 +132,7 @@ public:
 
   static inline void setStaticF__inverseProjectionMatrixID(int32_t value);
 
-  /// @brief Method set_tintColor, addr 0x571f65c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tintColor, addr 0x5864290, size 0xc, virtual false, abstract: false, final false
   inline void set_tintColor(::UnityEngine::Color value);
 
 protected:
@@ -147,7 +150,7 @@ public:
   BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19427 };
 
   /// @brief Field kSkyGradientShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kSkyGradientShaderName{ u"Hidden/SkyGradient" };

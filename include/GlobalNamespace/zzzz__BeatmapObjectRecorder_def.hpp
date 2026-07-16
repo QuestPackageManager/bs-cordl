@@ -63,7 +63,7 @@ public:
   constexpr BeatmapObjectRecorder_ObjectCounts(int32_t note, int32_t bomb, int32_t burstSliderHead, int32_t burstSliderElement, int32_t slider, int32_t burstSlider, int32_t obstacle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6573 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -128,48 +128,48 @@ public:
   __declspec(property(get = __cordl_internal_get__samples,
                       put = __cordl_internal_set__samples)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>* _samples;
 
-  /// @brief Method Begin, addr 0x57cd31c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x58ec6ec, size 0x4, virtual false, abstract: false, final false
   inline void Begin(::GlobalNamespace::BeatmapObjectManager* objectManager);
 
-  /// @brief Method CaptureFrame, addr 0x57cd568, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x58ec938, size 0xdc, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method ChangeNoteTypeCount, addr 0x57cde28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ChangeNoteTypeCount, addr 0x58ed1f8, size 0x64, virtual false, abstract: false, final false
   static inline bool ChangeNoteTypeCount(::by_ref<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> counts, ::GlobalNamespace::NoteData* data, int32_t delta);
 
-  /// @brief Method ChangeSliderTypeCount, addr 0x57cdf08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangeSliderTypeCount, addr 0x58ed2d8, size 0x3c, virtual false, abstract: false, final false
   static inline bool ChangeSliderTypeCount(::by_ref<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> counts, ::GlobalNamespace::SliderData* data, int32_t delta);
 
-  /// @brief Method ClearCallbacks, addr 0x57cd6e0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ClearCallbacks, addr 0x58ecab0, size 0x24c, virtual false, abstract: false, final false
   inline void ClearCallbacks();
 
-  /// @brief Method Finish, addr 0x57cd644, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x58eca14, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> Finish();
 
-  /// @brief Method GenerateTableReport, addr 0x57cd92c, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x58eccfc, size 0x4c4, virtual false, abstract: false, final false
   static inline ::StringW GenerateTableReport(::ArrayW<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> samples);
 
   static inline ::GlobalNamespace::BeatmapObjectRecorder* New_ctor(int32_t initialFrameCapacity);
 
-  /// @brief Method OnDepawnObstacle, addr 0x57cdf98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDepawnObstacle, addr 0x58ed368, size 0x10, virtual false, abstract: false, final false
   inline void OnDepawnObstacle(::GlobalNamespace::ObstacleController* obstacle);
 
-  /// @brief Method OnDespawnNote, addr 0x57cde8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnDespawnNote, addr 0x58ed25c, size 0x38, virtual false, abstract: false, final false
   inline void OnDespawnNote(::GlobalNamespace::NoteController* note);
 
-  /// @brief Method OnDespawnSlider, addr 0x57cdf44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnDespawnSlider, addr 0x58ed314, size 0x44, virtual false, abstract: false, final false
   inline void OnDespawnSlider(::GlobalNamespace::SliderController* slider);
 
-  /// @brief Method OnSpawnNote, addr 0x57cddf0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnSpawnNote, addr 0x58ed1c0, size 0x38, virtual false, abstract: false, final false
   inline void OnSpawnNote(::GlobalNamespace::NoteController* note);
 
-  /// @brief Method OnSpawnObstacle, addr 0x57cdf88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnSpawnObstacle, addr 0x58ed358, size 0x10, virtual false, abstract: false, final false
   inline void OnSpawnObstacle(::GlobalNamespace::ObstacleController* obstacle);
 
-  /// @brief Method OnSpawnSlider, addr 0x57cdec4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnSpawnSlider, addr 0x58ed294, size 0x44, virtual false, abstract: false, final false
   inline void OnSpawnSlider(::GlobalNamespace::SliderController* slider);
 
-  /// @brief Method SetupCallbacks, addr 0x57cd320, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method SetupCallbacks, addr 0x58ec6f0, size 0x248, virtual false, abstract: false, final false
   inline void SetupCallbacks(::GlobalNamespace::BeatmapObjectManager* objectManager);
 
   constexpr ::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts const& __cordl_internal_get__objectCounts() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>* value);
 
-  /// @brief Method .ctor, addr 0x57cd298, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ec668, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialFrameCapacity);
 
 protected:
@@ -208,7 +208,7 @@ public:
   BeatmapObjectRecorder(BeatmapObjectRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6574 };
 
   /// @brief Field _samples, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>* ____samples;

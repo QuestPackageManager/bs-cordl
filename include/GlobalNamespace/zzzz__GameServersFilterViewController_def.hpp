@@ -84,27 +84,27 @@ public:
 
   __declspec(property(get = get_gameServersFilter)) ::GlobalNamespace::GameServersFilter* gameServersFilter;
 
-  /// @brief Method DidActivate, addr 0x582f544, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x595ef74, size 0x1c8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServersFilterViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x582f70c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x595f13c, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x582f428, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x595ee58, size 0x11c, virtual false, abstract: false, final false
   inline void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
 
-  /// @brief Method SetupGameServersFilter, addr 0x582f424, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupGameServersFilter, addr 0x595ee54, size 0x4, virtual false, abstract: false, final false
   inline void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
 
-  /// @brief Method <DidActivate>b__16_0, addr 0x582f798, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_0, addr 0x595f1c8, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_0(bool isOn);
 
-  /// @brief Method <DidActivate>b__16_1, addr 0x582f7b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_1, addr 0x595f1e4, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_1(bool isOn);
 
-  /// @brief Method <DidActivate>b__16_2, addr 0x582f7d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_2, addr 0x595f200, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_2(bool isOn);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
@@ -185,10 +185,10 @@ public:
 
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method .ctor, addr 0x582f734, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595f164, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameServersFilter, addr 0x582f2f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_gameServersFilter, addr 0x595ed24, size 0x130, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
 
 protected:
@@ -206,7 +206,7 @@ public:
   GameServersFilterViewController(GameServersFilterViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6950 };
 
   /// @brief Field _filterByDifficultyToggle, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByDifficultyToggle;

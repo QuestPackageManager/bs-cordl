@@ -54,11 +54,11 @@ public:
 
   __declspec(property(put = set_PausesCount)) ::System::Nullable_1<int64_t> PausesCount;
 
+  __declspec(property(put = set_PlayerRoot)) ::StringW PlayerRoot;
+
   __declspec(property(put = set_Score)) int64_t Score;
 
   __declspec(property(put = set_SwingScore)) ::System::Nullable_1<int64_t> SwingScore;
-
-  __declspec(property(put = set_User)) ::StringW User;
 
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject*() noexcept;
@@ -99,21 +99,21 @@ public:
   /// @brief Method set_PausesCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_PausesCount(::System::Nullable_1<int64_t> value);
 
+  /// @brief Method set_PlayerRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_PlayerRoot(::StringW value);
+
   /// @brief Method set_Score, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Score(int64_t value);
 
   /// @brief Method set_SwingScore, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_SwingScore(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_User, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_User(::StringW value);
-
   // Ctor Parameters [CppParam { name: "", ty: "IXOCBeatGamesBeatmapLeaderboardEntryUpsertData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXOCBeatGamesBeatmapLeaderboardEntryUpsertData(IXOCBeatGamesBeatmapLeaderboardEntryUpsertData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

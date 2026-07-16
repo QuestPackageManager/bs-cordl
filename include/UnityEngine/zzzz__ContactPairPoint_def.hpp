@@ -41,28 +41,28 @@ public:
 
   __declspec(property(get = get_separation)) float_t separation;
 
-  /// @brief Method get_Impulse, addr 0x6a3c130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Impulse, addr 0x6b8fc0c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Impulse();
 
-  /// @brief Method get_Normal, addr 0x6a3c124, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Normal, addr 0x6b8fc00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Normal();
 
-  /// @brief Method get_Position, addr 0x6a3c110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x6b8fbec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Separation, addr 0x6a3c11c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Separation, addr 0x6b8fbf8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Separation();
 
-  /// @brief Method get_impulse, addr 0x6a3c104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x6b8fbe0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_normal, addr 0x6a3c0f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x6b8fbd4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_position, addr 0x6a3c0e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6b8fbc0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_separation, addr 0x6a3c0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x6b8fbcc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
                              uint32_t m_InternalFaceIndex1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18636 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x5928c0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x5a62310, size 0xac, virtual false, abstract: false, final false
   inline void __ctor_b__0();
 
-  /// @brief Method .ctor, addr 0x5928be8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a622ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ActionHook___c__DisplayClass4_0(ActionHook___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18404 };
 
   /// @brief Field memberInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ___memberInfo;
@@ -122,13 +122,13 @@ public:
 
   constexpr void __cordl_internal_set__Delegate_k__BackingField(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5925dd8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5f4dc, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method get_Delegate, addr 0x5928bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Delegate, addr 0x5a622dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_Delegate();
 
-  /// @brief Method set_Delegate, addr 0x5928be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Delegate, addr 0x5a622e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Delegate(::System::Action* value);
 
 protected:
@@ -146,7 +146,7 @@ public:
   ActionHook(ActionHook const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18405 };
 
   /// @brief Field <Delegate>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ____Delegate_k__BackingField;

@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60ebfd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62270cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Markup, addr 0x60ebfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Markup, addr 0x62270bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlNode*> get_Markup();
 
-  /// @brief Method set_Markup, addr 0x60ebfc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x62270c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*> value);
 
-  /// @brief Method set_Source, addr 0x60ebfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x62270b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   XmlSchemaAppInfo(XmlSchemaAppInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9716 };
 
   /// @brief Field source, offset: 0x38, size: 0x8, def value: None
   ::StringW ___source;

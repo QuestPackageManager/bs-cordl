@@ -28,7 +28,7 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCullAndClipWorldRect, addr 0x6ac400c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindCullAndClipWorldRect, addr 0x6c17ec4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ::by_ref<bool> validRect);
 
 protected:
@@ -46,7 +46,7 @@ public:
   Clipping(Clipping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

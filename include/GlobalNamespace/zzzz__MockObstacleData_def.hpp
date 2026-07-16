@@ -82,37 +82,37 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5947e28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a80848, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x5947e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x5a80828, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x5947de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x5a80808, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x5947df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x5a80818, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_time, addr 0x5947dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x5a807f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_width, addr 0x5947e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x5a80838, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_duration, addr 0x5947e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x5a80830, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_lineIndex, addr 0x5947df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x5a80810, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x5947e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x5a80820, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_time, addr 0x5947de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x5a80800, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_width, addr 0x5947e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x5a80840, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   MockObstacleData(MockObstacleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22178 };
 
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;

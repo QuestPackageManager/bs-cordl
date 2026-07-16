@@ -37,11 +37,11 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE PlatformInitParams : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field achievementIdDefinitions, offset 0x30, size 0x8
+  /// @brief Field achievementIdDefinitions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_achievementIdDefinitions,
                       put = __cordl_internal_set_achievementIdDefinitions)) ::System::Collections::Generic::HashSet_1<::StringW>* achievementIdDefinitions;
 
-  /// @brief Field appId, offset 0x10, size 0x8
+  /// @brief Field appId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_appId, put = __cordl_internal_set_appId)) uint64_t appId;
 
   /// @brief Field destinationDefinitions, offset 0x20, size 0x8
@@ -49,16 +49,16 @@ public:
       get = __cordl_internal_get_destinationDefinitions,
       put = __cordl_internal_set_destinationDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* destinationDefinitions;
 
-  /// @brief Field graphApiUrl, offset 0x38, size 0x8
+  /// @brief Field graphApiUrl, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_graphApiUrl, put = __cordl_internal_set_graphApiUrl)) ::StringW graphApiUrl;
 
-  /// @brief Field graphAppId, offset 0x40, size 0x10
+  /// @brief Field graphAppId, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get_graphAppId, put = __cordl_internal_set_graphAppId)) ::System::Nullable_1<uint64_t> graphAppId;
 
-  /// @brief Field logger, offset 0x18, size 0x8
+  /// @brief Field logger, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_logger, put = __cordl_internal_set_logger)) ::OculusStudios::Platform::Core::IPlatformLogger* logger;
 
-  /// @brief Field productDefinitions, offset 0x28, size 0x8
+  /// @brief Field productDefinitions, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_productDefinitions,
                       put = __cordl_internal_set_productDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* productDefinitions;
 
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_productDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* value);
 
-  /// @brief Method .ctor, addr 0x5df4900, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2cbb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,45 +124,45 @@ public:
   PlatformInitParams(PlatformInitParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22413 };
 
-  /// @brief Field appId, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field achievementIdDefinitions, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::HashSet_1<::StringW>* ___achievementIdDefinitions;
+
+  /// @brief Field appId, offset: 0x18, size: 0x8, def value: None
   uint64_t ___appId;
-
-  /// @brief Field logger, offset: 0x18, size: 0x8, def value: None
-  ::OculusStudios::Platform::Core::IPlatformLogger* ___logger;
 
   /// @brief Field destinationDefinitions, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* ___destinationDefinitions;
 
-  /// @brief Field productDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* ___productDefinitions;
-
-  /// @brief Field achievementIdDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::StringW>* ___achievementIdDefinitions;
-
-  /// @brief Field graphApiUrl, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field graphApiUrl, offset: 0x28, size: 0x8, def value: None
   ::StringW ___graphApiUrl;
 
-  /// @brief Field graphAppId, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field graphAppId, offset: 0x30, size: 0x10, def value: None
   ::System::Nullable_1<uint64_t> ___graphAppId;
+
+  /// @brief Field logger, offset: 0x40, size: 0x8, def value: None
+  ::OculusStudios::Platform::Core::IPlatformLogger* ___logger;
+
+  /// @brief Field productDefinitions, offset: 0x48, size: 0x8, def value: None
+  ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* ___productDefinitions;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___appId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___achievementIdDefinitions) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___logger) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___appId) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___destinationDefinitions) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___productDefinitions) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___graphApiUrl) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___achievementIdDefinitions) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___graphAppId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___graphApiUrl) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___logger) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___graphAppId) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___productDefinitions) == 0x48, "Offset mismatch!");
 
 static_assert(sizeof(::OculusStudios::Platform::Core::PlatformInitParams) == 0x50, "Size mismatch!");
 

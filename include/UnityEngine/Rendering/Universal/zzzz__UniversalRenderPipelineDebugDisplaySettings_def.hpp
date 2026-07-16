@@ -92,13 +92,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings* New_ctor();
 
-  /// @brief Method Reset, addr 0x670e15c, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x684cd14, size 0x38c, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UpdateDisplayStats, addr 0x670e644, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateDisplayStats, addr 0x684d200, size 0x68, virtual false, abstract: false, final false
   inline void UpdateDisplayStats();
 
-  /// @brief Method UpdateMaterials, addr 0x670e6ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterials, addr 0x684d268, size 0x9c, virtual false, abstract: false, final false
   inline void UpdateMaterials();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* const& __cordl_internal_get__commonSettings_k__BackingField() const;
@@ -143,52 +143,52 @@ public:
 
   constexpr void __cordl_internal_set__volumeSettings_k__BackingField(::UnityEngine::Rendering::DebugDisplaySettingsVolume* value);
 
-  /// @brief Method .ctor, addr 0x670e0d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684cc90, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x670dea0, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x684ca58, size 0x238, virtual true, abstract: false, final false
   inline bool get_IsPostProcessingAllowed();
 
-  /// @brief Method get_commonSettings, addr 0x670de30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_commonSettings, addr 0x684c9e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* get_commonSettings();
 
-  /// @brief Method get_displayStats, addr 0x670de80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayStats, addr 0x684ca38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugDisplaySettingsStats_1<::UnityEngine::Rendering::Universal::URPProfileId>* get_displayStats();
 
-  /// @brief Method get_gpuResidentDrawerSettings, addr 0x670de90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gpuResidentDrawerSettings, addr 0x684ca48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* get_gpuResidentDrawerSettings();
 
-  /// @brief Method get_lightingSettings, addr 0x670de60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightingSettings, addr 0x684ca18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* get_lightingSettings();
 
-  /// @brief Method get_materialSettings, addr 0x670de40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialSettings, addr 0x684c9f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* get_materialSettings();
 
-  /// @brief Method get_renderingSettings, addr 0x670de50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingSettings, addr 0x684ca08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* get_renderingSettings();
 
-  /// @brief Method get_volumeSettings, addr 0x670de70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSettings, addr 0x684ca28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugDisplaySettingsVolume* get_volumeSettings();
 
-  /// @brief Method set_commonSettings, addr 0x670de38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_commonSettings, addr 0x684c9f0, size 0x8, virtual false, abstract: false, final false
   inline void set_commonSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* value);
 
-  /// @brief Method set_displayStats, addr 0x670de88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayStats, addr 0x684ca40, size 0x8, virtual false, abstract: false, final false
   inline void set_displayStats(::UnityEngine::Rendering::DebugDisplaySettingsStats_1<::UnityEngine::Rendering::Universal::URPProfileId>* value);
 
-  /// @brief Method set_gpuResidentDrawerSettings, addr 0x670de98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gpuResidentDrawerSettings, addr 0x684ca50, size 0x8, virtual false, abstract: false, final false
   inline void set_gpuResidentDrawerSettings(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value);
 
-  /// @brief Method set_lightingSettings, addr 0x670de68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightingSettings, addr 0x684ca20, size 0x8, virtual false, abstract: false, final false
   inline void set_lightingSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* value);
 
-  /// @brief Method set_materialSettings, addr 0x670de48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialSettings, addr 0x684ca00, size 0x8, virtual false, abstract: false, final false
   inline void set_materialSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* value);
 
-  /// @brief Method set_renderingSettings, addr 0x670de58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingSettings, addr 0x684ca10, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* value);
 
-  /// @brief Method set_volumeSettings, addr 0x670de78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeSettings, addr 0x684ca30, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeSettings(::UnityEngine::Rendering::DebugDisplaySettingsVolume* value);
 
 protected:
@@ -206,7 +206,7 @@ public:
   UniversalRenderPipelineDebugDisplaySettings(UniversalRenderPipelineDebugDisplaySettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12642 };
 
   /// @brief Field <commonSettings>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* ____commonSettings_k__BackingField;

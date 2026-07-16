@@ -99,53 +99,53 @@ public:
   /// @brief Field _forceEnableBurstSafetyChecks, offset 0x15, size 0x1
   __declspec(property(get = __cordl_internal_get__forceEnableBurstSafetyChecks, put = __cordl_internal_set__forceEnableBurstSafetyChecks)) bool _forceEnableBurstSafetyChecks;
 
-  /// @brief Method AddOption, addr 0x633101c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AddOption, addr 0x646dc3c, size 0x38, virtual false, abstract: false, final false
   static inline void AddOption(::System::Text::StringBuilder* builder, ::StringW option);
 
-  /// @brief Method CheckIsSecondaryUnityProcess, addr 0x63311c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CheckIsSecondaryUnityProcess, addr 0x646dde8, size 0x8, virtual false, abstract: false, final false
   static inline bool CheckIsSecondaryUnityProcess();
 
-  /// @brief Method Clone, addr 0x632ffac, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x646cbcc, size 0x14c, virtual false, abstract: false, final false
   inline ::Unity::Burst::BurstCompilerOptions* Clone();
 
-  /// @brief Method DeserialiseCompilationOptionsSafe, addr 0x632f8cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DeserialiseCompilationOptionsSafe, addr 0x646c4ec, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<::ArrayW<::StringW>, ::ArrayW<::StringW>, ::StringW> DeserialiseCompilationOptionsSafe(::StringW from);
 
-  /// @brief Method GetBurstCompileAttribute, addr 0x633018c, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method GetBurstCompileAttribute, addr 0x646cdac, size 0x42c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::BurstCompileAttribute* GetBurstCompileAttribute(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method GetOption, addr 0x6330f3c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetOption, addr 0x646db5c, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW GetOption(::StringW optionName, ::System::Object* value);
 
-  /// @brief Method GetOptions, addr 0x633089c, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method GetOptions, addr 0x646d4bc, size 0x6a0, virtual false, abstract: false, final false
   inline ::StringW GetOptions(::Unity::Burst::BurstCompileAttribute* attr, bool isForILPostProcessing, bool isForCompilerClient);
 
-  /// @brief Method HasBurstCompileAttribute, addr 0x632e4fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HasBurstCompileAttribute, addr 0x646b11c, size 0xc8, virtual false, abstract: false, final false
   static inline bool HasBurstCompileAttribute(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method MaybeTriggerRecompilation, addr 0x632fe60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MaybeTriggerRecompilation, addr 0x646ca80, size 0x4, virtual false, abstract: false, final false
   inline void MaybeTriggerRecompilation();
 
-  /// @brief Method MergeAttributes, addr 0x6330644, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method MergeAttributes, addr 0x646d264, size 0x138, virtual false, abstract: false, final false
   static inline void MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute, ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute);
 
   static inline ::Unity::Burst::BurstCompilerOptions* New_ctor();
 
   static inline ::Unity::Burst::BurstCompilerOptions* New_ctor(bool isGlobal);
 
-  /// @brief Method OnOptionsChanged, addr 0x632fe04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionsChanged, addr 0x646ca24, size 0x1c, virtual false, abstract: false, final false
   inline void OnOptionsChanged();
 
-  /// @brief Method SerialiseCompilationOptionsSafe, addr 0x632f6b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SerialiseCompilationOptionsSafe, addr 0x646c2d0, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW SerialiseCompilationOptionsSafe(::ArrayW<::StringW> roots, ::ArrayW<::StringW> folders, ::StringW options);
 
-  /// @brief Method TryGetAttribute, addr 0x63305b8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryGetAttribute, addr 0x646d1d8, size 0x8c, virtual false, abstract: false, final false
   static inline bool TryGetAttribute(::System::Reflection::Assembly* assembly, ::by_ref<::Unity::Burst::BurstCompileAttribute*> attribute);
 
-  /// @brief Method TryGetAttribute, addr 0x63300f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryGetAttribute, addr 0x646cd18, size 0x94, virtual false, abstract: false, final false
   static inline bool TryGetAttribute(::System::Reflection::MemberInfo* member, ::by_ref<::Unity::Burst::BurstCompileAttribute*> attribute);
 
-  /// @brief Method TryGetOptions, addr 0x633077c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method TryGetOptions, addr 0x646d39c, size 0x120, virtual false, abstract: false, final false
   inline bool TryGetOptions(::System::Reflection::MemberInfo* member, ::by_ref<::StringW> flagsOut, bool isForILPostProcessing, bool isForCompilerClient);
 
   constexpr bool const& __cordl_internal_get__IsGlobal_k__BackingField() const;
@@ -196,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set__forceEnableBurstSafetyChecks(bool value);
 
-  /// @brief Method .ctor, addr 0x632fc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x646c820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x632f19c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x646bdbc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool isGlobal);
 
   static inline bool getStaticF_ForceBurstCompilationSynchronously();
@@ -208,40 +208,40 @@ public:
 
   static inline bool getStaticF_IsSecondaryUnityProcess();
 
-  /// @brief Method get_DisableOptimizations, addr 0x632fed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisableOptimizations, addr 0x646caf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_DisableOptimizations();
 
-  /// @brief Method get_EnableBurstCompilation, addr 0x632fdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBurstCompilation, addr 0x646ca1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableBurstCompilation();
 
-  /// @brief Method get_EnableBurstCompileSynchronously, addr 0x632fe20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBurstCompileSynchronously, addr 0x646ca40, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableBurstCompileSynchronously();
 
-  /// @brief Method get_EnableBurstDebug, addr 0x632fe9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBurstDebug, addr 0x646cabc, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableBurstDebug();
 
-  /// @brief Method get_EnableBurstSafetyChecks, addr 0x632fe58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBurstSafetyChecks, addr 0x646ca78, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableBurstSafetyChecks();
 
-  /// @brief Method get_EnableBurstTimings, addr 0x632feec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBurstTimings, addr 0x646cb0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableBurstTimings();
 
-  /// @brief Method get_EnableFastMath, addr 0x632fee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableFastMath, addr 0x646cb00, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableFastMath();
 
-  /// @brief Method get_ForceEnableBurstSafetyChecks, addr 0x632fe64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceEnableBurstSafetyChecks, addr 0x646ca84, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceEnableBurstSafetyChecks();
 
-  /// @brief Method get_IsEnabled, addr 0x632fd84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x646c9a4, size 0x78, virtual false, abstract: false, final false
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsGlobal, addr 0x632fd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsGlobal, addr 0x646c99c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsGlobal();
 
-  /// @brief Method get_OptionsChanged, addr 0x632ff9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OptionsChanged, addr 0x646cbbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_OptionsChanged();
 
-  /// @brief Method get_RequiresSynchronousCompilation, addr 0x632ff24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresSynchronousCompilation, addr 0x646cb44, size 0x78, virtual false, abstract: false, final false
   inline bool get_RequiresSynchronousCompilation();
 
   static inline void setStaticF_ForceBurstCompilationSynchronously(bool value);
@@ -250,31 +250,31 @@ public:
 
   static inline void setStaticF_IsSecondaryUnityProcess(bool value);
 
-  /// @brief Method set_DisableOptimizations, addr 0x632fedc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_DisableOptimizations, addr 0x646cafc, size 0x4, virtual false, abstract: false, final false
   inline void set_DisableOptimizations(bool value);
 
-  /// @brief Method set_EnableBurstCompilation, addr 0x632fc08, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBurstCompilation, addr 0x646c828, size 0x144, virtual false, abstract: false, final false
   inline void set_EnableBurstCompilation(bool value);
 
-  /// @brief Method set_EnableBurstCompileSynchronously, addr 0x632fe28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBurstCompileSynchronously, addr 0x646ca48, size 0x30, virtual false, abstract: false, final false
   inline void set_EnableBurstCompileSynchronously(bool value);
 
-  /// @brief Method set_EnableBurstDebug, addr 0x632fea4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBurstDebug, addr 0x646cac4, size 0x30, virtual false, abstract: false, final false
   inline void set_EnableBurstDebug(bool value);
 
-  /// @brief Method set_EnableBurstSafetyChecks, addr 0x632fd4c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBurstSafetyChecks, addr 0x646c96c, size 0x30, virtual false, abstract: false, final false
   inline void set_EnableBurstSafetyChecks(bool value);
 
-  /// @brief Method set_EnableBurstTimings, addr 0x632fef4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBurstTimings, addr 0x646cb14, size 0x30, virtual false, abstract: false, final false
   inline void set_EnableBurstTimings(bool value);
 
-  /// @brief Method set_EnableFastMath, addr 0x632fee8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_EnableFastMath, addr 0x646cb08, size 0x4, virtual false, abstract: false, final false
   inline void set_EnableFastMath(bool value);
 
-  /// @brief Method set_ForceEnableBurstSafetyChecks, addr 0x632fe6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_ForceEnableBurstSafetyChecks, addr 0x646ca8c, size 0x30, virtual false, abstract: false, final false
   inline void set_ForceEnableBurstSafetyChecks(bool value);
 
-  /// @brief Method set_OptionsChanged, addr 0x632ffa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OptionsChanged, addr 0x646cbc4, size 0x8, virtual false, abstract: false, final false
   inline void set_OptionsChanged(::System::Action* value);
 
 protected:
@@ -604,7 +604,7 @@ public:
   static constexpr ::ConstString OptionVerbose{ u"verbose" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17276 };
 
   /// @brief Field _enableBurstCompilation, offset: 0x10, size: 0x1, def value: None
   bool ____enableBurstCompilation;

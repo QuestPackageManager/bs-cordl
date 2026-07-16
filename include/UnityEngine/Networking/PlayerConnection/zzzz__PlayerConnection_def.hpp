@@ -80,7 +80,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Register>b__0, addr 0x69ac90c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Register>b__0, addr 0x6afffec, size 0x68, virtual false, abstract: false, final false
   inline bool _Register_b__0(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x69ab658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afed38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   PlayerConnection___c__DisplayClass12_0(PlayerConnection___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10623 };
 
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
@@ -132,7 +132,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <Unregister>b__0, addr 0x69ac9a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Unregister>b__0, addr 0x6b00080, size 0x68, virtual false, abstract: false, final false
   inline bool _Unregister_b__0(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x69ab9d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aff0b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,7 +159,7 @@ public:
   PlayerConnection___c__DisplayClass13_0(PlayerConnection___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10624 };
 
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
@@ -184,7 +184,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <BlockUntilRecvMsg>b__0, addr 0x69aca08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <BlockUntilRecvMsg>b__0, addr 0x6b000e8, size 0xc, virtual false, abstract: false, final false
   inline void _BlockUntilRecvMsg_b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
   constexpr bool const& __cordl_internal_get_msgReceived() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set_msgReceived(bool value);
 
-  /// @brief Method .ctor, addr 0x69ac2dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aff9bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -211,7 +211,7 @@ public:
   PlayerConnection___c__DisplayClass20_0(PlayerConnection___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10625 };
 
   /// @brief Field msgReceived, offset: 0x10, size: 0x1, def value: None
   bool ___msgReceived;
@@ -258,54 +258,54 @@ public:
   /// @brief Convert operator to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
   constexpr operator ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*() noexcept;
 
-  /// @brief Method BlockUntilRecvMsg, addr 0x69ac07c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method BlockUntilRecvMsg, addr 0x6aff75c, size 0x260, virtual false, abstract: false, final false
   inline bool BlockUntilRecvMsg(::System::Guid messageId, int32_t timeout);
 
-  /// @brief Method ConnectedCallbackInternal, addr 0x69ac634, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ConnectedCallbackInternal, addr 0x6affd14, size 0xe0, virtual false, abstract: false, final false
   static inline void ConnectedCallbackInternal(int32_t playerId);
 
-  /// @brief Method CreateInstance, addr 0x69ab18c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x6afe86c, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> CreateInstance();
 
-  /// @brief Method DisconnectAll, addr 0x69ac2e0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method DisconnectAll, addr 0x6aff9c0, size 0xa8, virtual true, abstract: false, final true
   inline void DisconnectAll();
 
-  /// @brief Method DisconnectedCallback, addr 0x69ac714, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method DisconnectedCallback, addr 0x6affdf4, size 0x9c, virtual false, abstract: false, final false
   static inline void DisconnectedCallback(int32_t playerId);
 
-  /// @brief Method GetConnectionNativeApi, addr 0x69ab2c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionNativeApi, addr 0x6afe9a0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::IPlayerEditorConnectionNative* GetConnectionNativeApi();
 
-  /// @brief Method MessageCallbackInternal, addr 0x69ac388, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method MessageCallbackInternal, addr 0x6affa68, size 0x128, virtual false, abstract: false, final false
   static inline void MessageCallbackInternal(::System::IntPtr data, uint64_t size, uint64_t guid, ::StringW messageId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69ab338, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6afea18, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Register, addr 0x69ab3fc, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method Register, addr 0x6afeadc, size 0x25c, virtual true, abstract: false, final true
   inline void Register(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method RegisterConnection, addr 0x69abb24, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method RegisterConnection, addr 0x6aff204, size 0x14c, virtual true, abstract: false, final true
   inline void RegisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method RegisterDisconnection, addr 0x69abc70, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method RegisterDisconnection, addr 0x6aff350, size 0x6c, virtual true, abstract: false, final true
   inline void RegisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method Send, addr 0x69abdb4, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method Send, addr 0x6aff494, size 0x164, virtual true, abstract: false, final true
   inline void Send(::System::Guid messageId, ::ArrayW<uint8_t> data);
 
-  /// @brief Method TrySend, addr 0x69abf18, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method TrySend, addr 0x6aff5f8, size 0x164, virtual true, abstract: false, final true
   inline bool TrySend(::System::Guid messageId, ::ArrayW<uint8_t> data);
 
-  /// @brief Method Unregister, addr 0x69ab828, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Unregister, addr 0x6afef08, size 0x1b0, virtual true, abstract: false, final true
   inline void Unregister(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method UnregisterConnection, addr 0x69abcdc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnregisterConnection, addr 0x6aff3bc, size 0x6c, virtual true, abstract: false, final true
   inline void UnregisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method UnregisterDisconnection, addr 0x69abd48, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDisconnection, addr 0x6aff428, size 0x6c, virtual true, abstract: false, final true
   inline void UnregisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
   constexpr bool const& __cordl_internal_get_m_IsInitilized() const;
@@ -326,17 +326,17 @@ public:
 
   constexpr void __cordl_internal_set_m_connectedPlayers(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x69ac7b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6affe90, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::IPlayerEditorConnectionNative* getStaticF_connectionNative();
 
   static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x69ab0ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6afe7cc, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> get_instance();
 
-  /// @brief Method get_isConnected, addr 0x69ab218, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_isConnected, addr 0x6afe8f8, size 0xa8, virtual false, abstract: false, final false
   inline bool get_isConnected();
 
   /// @brief Convert to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
@@ -361,7 +361,7 @@ public:
   PlayerConnection(PlayerConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10626 };
 
   /// @brief Field m_PlayerEditorConnectionEvents, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* ___m_PlayerEditorConnectionEvents;

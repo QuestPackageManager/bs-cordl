@@ -34,21 +34,21 @@ public:
   /// @brief Field _xrSession, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__xrSession, put = setStaticF__xrSession)) uint64_t _xrSession;
 
-  /// @brief Method FBGetFoveationDynamic, addr 0x5d161c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FBGetFoveationDynamic, addr 0x5e4e3e8, size 0x7c, virtual false, abstract: false, final false
   static inline void FBGetFoveationDynamic(::by_ref<uint32_t> dynamic);
 
-  /// @brief Method FBGetFoveationLevel, addr 0x5d15fb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FBGetFoveationLevel, addr 0x5e4e1dc, size 0x7c, virtual false, abstract: false, final false
   static inline void FBGetFoveationLevel(::by_ref<uint32_t> level);
 
-  /// @brief Method FBSetFoveationLevel, addr 0x5d16098, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FBSetFoveationLevel, addr 0x5e4e2c0, size 0xa4, virtual false, abstract: false, final false
   static inline void FBSetFoveationLevel(uint64_t session, uint32_t level, float_t verticalOffset, uint32_t dynamic);
 
   static inline ::Meta::XR::MetaXRFoveationFeature* New_ctor();
 
-  /// @brief Method OnSessionCreate, addr 0x5d15f48, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x5e4e170, size 0x50, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method .ctor, addr 0x5d1623c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4e464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF__foveatedRenderingLevel();
@@ -57,10 +57,10 @@ public:
 
   static inline uint64_t getStaticF__xrSession();
 
-  /// @brief Method get_foveatedRenderingLevel, addr 0x5d15f98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevel, addr 0x5e4e1c0, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_FoveatedRenderingLevel get_foveatedRenderingLevel();
 
-  /// @brief Method get_useDynamicFoveatedRendering, addr 0x5d1613c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFoveatedRendering, addr 0x5e4e364, size 0x24, virtual false, abstract: false, final false
   static inline bool get_useDynamicFoveatedRendering();
 
   static inline void setStaticF__foveatedRenderingLevel(uint32_t value);
@@ -69,10 +69,10 @@ public:
 
   static inline void setStaticF__xrSession(uint64_t value);
 
-  /// @brief Method set_foveatedRenderingLevel, addr 0x5d16030, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingLevel, addr 0x5e4e258, size 0x68, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingLevel(::GlobalNamespace::OVRManager_FoveatedRenderingLevel value);
 
-  /// @brief Method set_useDynamicFoveatedRendering, addr 0x5d16160, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFoveatedRendering, addr 0x5e4e388, size 0x60, virtual false, abstract: false, final false
   static inline void set_useDynamicFoveatedRendering(bool value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   MetaXRFoveationFeature(MetaXRFoveationFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8534 };
 
   /// @brief Field extensionList offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionList{ u"XR_FB_foveation XR_FB_foveation_configuration XR_FB_foveation_vulkan " };

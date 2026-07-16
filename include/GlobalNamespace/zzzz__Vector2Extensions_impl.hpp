@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x326aee4;
+  constexpr static std::size_t addrs = 0x3323b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::Vector2Extensions::Clamp)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x326b0b8;
+  constexpr static std::size_t addrs = 0x3323d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,11 +38,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Rect)>(&::GlobalNamespace::Vector2Extensions::Clamp)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x326b0dc;
+  constexpr static std::size_t addrs = 0x3323d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector2Extensions*>(),
                                                                                            { "Clamp", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Rect>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::Vector2Extensions.Cross
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::Vector2Extensions::Cross)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x3323dac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector2Extensions*>(),
+                                                                                           { "Cross", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
     return ___internal_method;
   }
 };
@@ -62,6 +75,11 @@ inline ::UnityEngine::Vector2 GlobalNamespace::Vector2Extensions::Clamp(::UnityE
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector2Extensions*>(),
                                                                                          { "Clamp", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Rect>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, value, within);
+}
+inline float_t GlobalNamespace::Vector2Extensions::Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector2Extensions*>(),
+                                                                                         { "Cross", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Vector2Extensions::Vector2Extensions() {}

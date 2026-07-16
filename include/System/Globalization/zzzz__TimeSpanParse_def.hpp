@@ -314,19 +314,19 @@ namespace System::Globalization {
 struct CORDL_TYPE TimeSpanParse_TimeSpanToken {
 public:
   // Declarations
-  /// @brief Method IsInvalidFraction, addr 0x5a83048, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsInvalidFraction, addr 0x5bbcd20, size 0x5c, virtual false, abstract: false, final false
   inline bool IsInvalidFraction();
 
-  /// @brief Method .ctor, addr 0x5a85ecc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bbfba4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t number);
 
-  /// @brief Method .ctor, addr 0x5a88528, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc2200, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t number, int32_t leadingZeroes);
 
-  /// @brief Method .ctor, addr 0x5a88740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc2418, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::TimeSpanParse_TTT type);
 
-  /// @brief Method .ctor, addr 0x5a88750, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc2428, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::TimeSpanParse_TTT type, int32_t number, int32_t leadingZeroes, ::System::ReadOnlySpan_1<char16_t> separator);
 
   // Ctor Parameters []
@@ -380,22 +380,22 @@ public:
 
   __declspec(property(get = get_NextChar)) char16_t NextChar;
 
-  /// @brief Method BackOne, addr 0x5a8853c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method BackOne, addr 0x5bc2214, size 0x14, virtual false, abstract: false, final false
   inline void BackOne();
 
-  /// @brief Method GetNextToken, addr 0x5a83598, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetNextToken, addr 0x5bbd270, size 0x254, virtual false, abstract: false, final false
   inline ::System::Globalization::TimeSpanParse_TimeSpanToken GetNextToken();
 
-  /// @brief Method .ctor, addr 0x5a83538, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bbd210, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<char16_t> input);
 
-  /// @brief Method .ctor, addr 0x5a882ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc1fc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<char16_t> input, int32_t startPosition);
 
-  /// @brief Method get_EOL, addr 0x5a884d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_EOL, addr 0x5bc21ac, size 0x54, virtual false, abstract: false, final false
   inline bool get_EOL();
 
-  /// @brief Method get_NextChar, addr 0x5a8846c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_NextChar, addr 0x5bc2144, size 0x68, virtual false, abstract: false, final false
   inline char16_t get_NextChar();
 
   // Ctor Parameters []
@@ -442,55 +442,55 @@ public:
 
   __declspec(property(get = get_PositiveLocalized)) ::System::Globalization::TimeSpanFormat_FormatLiterals PositiveLocalized;
 
-  /// @brief Method AddNum, addr 0x5a8895c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddNum, addr 0x5bc2634, size 0xf0, virtual false, abstract: false, final false
   inline bool AddNum(::System::Globalization::TimeSpanParse_TimeSpanToken num, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method AddSep, addr 0x5a8883c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddSep, addr 0x5bc2514, size 0x120, virtual false, abstract: false, final false
   inline bool AddSep(::System::ReadOnlySpan_1<char16_t> sep, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method FullAppCompatMatch, addr 0x5a866d0, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method FullAppCompatMatch, addr 0x5bc03a8, size 0x3f0, virtual false, abstract: false, final false
   inline bool FullAppCompatMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullDHMMatch, addr 0x5a86e90, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method FullDHMMatch, addr 0x5bc0b68, size 0x3d0, virtual false, abstract: false, final false
   inline bool FullDHMMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullDHMSMatch, addr 0x5a862d8, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method FullDHMSMatch, addr 0x5bbffb0, size 0x3f8, virtual false, abstract: false, final false
   inline bool FullDHMSMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullDMatch, addr 0x5a8794c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method FullDMatch, addr 0x5bc1624, size 0x26c, virtual false, abstract: false, final false
   inline bool FullDMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullHMMatch, addr 0x5a87628, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method FullHMMatch, addr 0x5bc1300, size 0x324, virtual false, abstract: false, final false
   inline bool FullHMMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullHMSFMatch, addr 0x5a85ee0, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method FullHMSFMatch, addr 0x5bbfbb8, size 0x3f8, virtual false, abstract: false, final false
   inline bool FullHMSFMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullHMSMatch, addr 0x5a86ac0, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method FullHMSMatch, addr 0x5bc0798, size 0x3d0, virtual false, abstract: false, final false
   inline bool FullHMSMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method FullMatch, addr 0x5a85938, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method FullMatch, addr 0x5bbf610, size 0x428, virtual false, abstract: false, final false
   inline bool FullMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method Init, addr 0x5a83544, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5bbd21c, size 0x54, virtual false, abstract: false, final false
   inline void Init(::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method PartialAppCompatMatch, addr 0x5a87260, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method PartialAppCompatMatch, addr 0x5bc0f38, size 0x3c8, virtual false, abstract: false, final false
   inline bool PartialAppCompatMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern);
 
-  /// @brief Method ProcessToken, addr 0x5a837ec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ProcessToken, addr 0x5bbd4c4, size 0x120, virtual false, abstract: false, final false
   inline bool ProcessToken(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanToken> tok, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method get_NegativeInvariant, addr 0x5a887cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_NegativeInvariant, addr 0x5bc24a4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Globalization::TimeSpanFormat_FormatLiterals get_NegativeInvariant();
 
-  /// @brief Method get_NegativeLocalized, addr 0x5a85e14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_NegativeLocalized, addr 0x5bbfaec, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Globalization::TimeSpanFormat_FormatLiterals get_NegativeLocalized();
 
-  /// @brief Method get_PositiveInvariant, addr 0x5a88760, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveInvariant, addr 0x5bc2438, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Globalization::TimeSpanFormat_FormatLiterals get_PositiveInvariant();
 
-  /// @brief Method get_PositiveLocalized, addr 0x5a85d60, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveLocalized, addr 0x5bbfa38, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Globalization::TimeSpanFormat_FormatLiterals get_PositiveLocalized();
 
   // Ctor Parameters []
@@ -642,10 +642,10 @@ namespace System::Globalization {
 struct CORDL_TYPE TimeSpanParse_TimeSpanResult {
 public:
   // Declarations
-  /// @brief Method SetFailure, addr 0x5a8341c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5bbd0f4, size 0x11c, virtual false, abstract: false, final false
   inline bool SetFailure(::System::Globalization::TimeSpanParse_ParseFailureKind kind, ::StringW resourceKey, ::System::Object* messageArgument, ::StringW argumentName);
 
-  /// @brief Method .ctor, addr 0x5a830d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bbcdb0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool throwOnFailure);
 
   // Ctor Parameters []
@@ -684,22 +684,22 @@ namespace System::Globalization {
 struct CORDL_TYPE TimeSpanParse_StringParser {
 public:
   // Declarations
-  /// @brief Method NextChar, addr 0x5a88a4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NextChar, addr 0x5bc2724, size 0x48, virtual false, abstract: false, final false
   inline void NextChar();
 
-  /// @brief Method NextNonDigit, addr 0x5a88a94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NextNonDigit, addr 0x5bc276c, size 0x64, virtual false, abstract: false, final false
   inline char16_t NextNonDigit();
 
-  /// @brief Method ParseInt, addr 0x5a88ce4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ParseInt, addr 0x5bc29bc, size 0x124, virtual false, abstract: false, final false
   inline bool ParseInt(int32_t max, ::by_ref<int32_t> i, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method ParseTime, addr 0x5a88b28, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x5bc2800, size 0x1bc, virtual false, abstract: false, final false
   inline bool ParseTime(::by_ref<int64_t> time, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method SkipBlanks, addr 0x5a88af8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SkipBlanks, addr 0x5bc27d0, size 0x30, virtual false, abstract: false, final false
   inline void SkipBlanks();
 
-  /// @brief Method TryParse, addr 0x5a88550, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5bc2228, size 0x1f0, virtual false, abstract: false, final false
   inline bool TryParse(::System::ReadOnlySpan_1<char16_t> input, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
   // Ctor Parameters []
@@ -765,66 +765,66 @@ public:
 
   using TimeSpanTokenizer = ::System::Globalization::TimeSpanParse_TimeSpanTokenizer;
 
-  /// @brief Method Parse, addr 0x5a830a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5bbcd7c, size 0x34, virtual false, abstract: false, final false
   static inline ::System::TimeSpan Parse(::System::ReadOnlySpan_1<char16_t> input, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ParseExactDigits, addr 0x5a88324, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ParseExactDigits, addr 0x5bc1ffc, size 0xc4, virtual false, abstract: false, final false
   static inline bool ParseExactDigits(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanTokenizer> tokenizer, int32_t minDigitLength, int32_t maxDigitLength, ::by_ref<int32_t> zeroes,
                                       ::by_ref<int32_t> result);
 
-  /// @brief Method ParseExactDigits, addr 0x5a882f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ParseExactDigits, addr 0x5bc1fd0, size 0x2c, virtual false, abstract: false, final false
   static inline bool ParseExactDigits(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanTokenizer> tokenizer, int32_t minDigitLength, ::by_ref<int32_t> result);
 
-  /// @brief Method ParseExactLiteral, addr 0x5a883e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ParseExactLiteral, addr 0x5bc20c0, size 0x84, virtual false, abstract: false, final false
   static inline bool ParseExactLiteral(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanTokenizer> tokenizer, ::System::Text::StringBuilder* enquotedString);
 
-  /// @brief Method Pow10, addr 0x5a82b50, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Pow10, addr 0x5bbc828, size 0xa8, virtual false, abstract: false, final false
   static inline int64_t Pow10(int32_t pow);
 
-  /// @brief Method ProcessTerminalState, addr 0x5a8390c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminalState, addr 0x5bbd5e4, size 0x17c, virtual false, abstract: false, final false
   static inline bool ProcessTerminalState(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style,
                                           ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method ProcessTerminal_D, addr 0x5a83a88, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminal_D, addr 0x5bbd760, size 0x2c8, virtual false, abstract: false, final false
   static inline bool ProcessTerminal_D(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style,
                                        ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method ProcessTerminal_DHMSF, addr 0x5a856dc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminal_DHMSF, addr 0x5bbf3b4, size 0x25c, virtual false, abstract: false, final false
   static inline bool ProcessTerminal_DHMSF(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style,
                                            ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method ProcessTerminal_HM, addr 0x5a83d50, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminal_HM, addr 0x5bbda28, size 0x2c0, virtual false, abstract: false, final false
   static inline bool ProcessTerminal_HM(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style,
                                         ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method ProcessTerminal_HMS_F_D, addr 0x5a84bc0, size 0xb1c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminal_HMS_F_D, addr 0x5bbe898, size 0xb1c, virtual false, abstract: false, final false
   static inline bool ProcessTerminal_HMS_F_D(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style,
                                              ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method ProcessTerminal_HM_S_D, addr 0x5a84010, size 0xbb0, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminal_HM_S_D, addr 0x5bbdce8, size 0xbb0, virtual false, abstract: false, final false
   static inline bool ProcessTerminal_HM_S_D(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style,
                                             ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method TryParseByFormat, addr 0x5a87bec, size 0x700, virtual false, abstract: false, final false
+  /// @brief Method TryParseByFormat, addr 0x5bc18c4, size 0x700, virtual false, abstract: false, final false
   static inline bool TryParseByFormat(::System::ReadOnlySpan_1<char16_t> input, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::TimeSpanStyles styles,
                                       ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method TryParseExact, addr 0x5a83258, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x5bbcf30, size 0x3c, virtual false, abstract: false, final false
   static inline bool TryParseExact(::System::ReadOnlySpan_1<char16_t> input, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider,
                                    ::System::Globalization::TimeSpanStyles styles, ::by_ref<::System::TimeSpan> result);
 
-  /// @brief Method TryParseExactTimeSpan, addr 0x5a83294, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryParseExactTimeSpan, addr 0x5bbcf6c, size 0x188, virtual false, abstract: false, final false
   static inline bool TryParseExactTimeSpan(::System::ReadOnlySpan_1<char16_t> input, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider,
                                            ::System::Globalization::TimeSpanStyles styles, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method TryParseTimeSpan, addr 0x5a830e4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryParseTimeSpan, addr 0x5bbcdbc, size 0x174, virtual false, abstract: false, final false
   static inline bool TryParseTimeSpan(::System::ReadOnlySpan_1<char16_t> input, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles style, ::System::IFormatProvider* formatProvider,
                                       ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method TryParseTimeSpanConstant, addr 0x5a87bb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method TryParseTimeSpanConstant, addr 0x5bc1890, size 0x34, virtual false, abstract: false, final false
   static inline bool TryParseTimeSpanConstant(::System::ReadOnlySpan_1<char16_t> input, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult> result);
 
-  /// @brief Method TryTimeToTicks, addr 0x5a82ef8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method TryTimeToTicks, addr 0x5bbcbd0, size 0x150, virtual false, abstract: false, final false
   static inline bool TryTimeToTicks(bool positive, ::System::Globalization::TimeSpanParse_TimeSpanToken days, ::System::Globalization::TimeSpanParse_TimeSpanToken hours,
                                     ::System::Globalization::TimeSpanParse_TimeSpanToken minutes, ::System::Globalization::TimeSpanParse_TimeSpanToken seconds,
                                     ::System::Globalization::TimeSpanParse_TimeSpanToken fraction, ::by_ref<int64_t> result);

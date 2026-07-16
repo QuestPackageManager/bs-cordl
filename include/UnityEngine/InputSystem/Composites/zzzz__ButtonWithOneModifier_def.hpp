@@ -69,7 +69,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder const Unordered;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9181 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,18 +107,18 @@ public:
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
-  /// @brief Method EvaluateMagnitude, addr 0x63c9998, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x65065b8, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x63c99a4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x65065c4, size 0x90, virtual true, abstract: false, final false
   inline void FinishSetup(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifierIsPressed, addr 0x63c9914, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ModifierIsPressed, addr 0x6506534, size 0x84, virtual false, abstract: false, final false
   inline bool ModifierIsPressed(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x63c9894, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x65064b4, size 0x80, virtual true, abstract: false, final false
   inline float_t ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_button() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x63c9a34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6506654, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   ButtonWithOneModifier(ButtonWithOneModifier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9182 };
 
   /// @brief Field modifier, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier;

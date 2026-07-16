@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)()>(&::Tayx::Graphy::Fps::G_FpsText::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62ff048;
+  constexpr static std::size_t addrs = 0x643b0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "Awake", {}, {} })));
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)()>(&::Tayx::Graphy::Fps::G_FpsText::Update)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x62ff04c;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x643b0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "Update", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)()>(&::Tayx::Graphy::Fps::G_FpsText::UpdateParameters)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62fe984;
+  constexpr static std::size_t addrs = 0x643aa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "UpdateParameters", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)()>(&::Tayx::Graphy::Fps::G_FpsText::Init)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62fe9a0;
+  constexpr static std::size_t addrs = 0x643aa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "Init", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)(::UnityEngine::UI::Text*, float_t)>(&::Tayx::Graphy::Fps::G_FpsText::SetFpsRelatedTextColor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x62ff380;
+  constexpr static std::size_t addrs = 0x643b46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,12 +67,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Tayx::Graphy::Fps::G_FpsText.SetFrameTimeRelatedTextColor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)(::UnityEngine::UI::Text*, float_t)>(&::Tayx::Graphy::Fps::G_FpsText::SetFrameTimeRelatedTextColor)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x643b50c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "SetFrameTimeRelatedTextColor", {}, { ::i2c::type_of<::UnityEngine::UI::Text*>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Tayx::Graphy::Fps::G_FpsText._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsText::*)()>(&::Tayx::Graphy::Fps::G_FpsText::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62ff420;
+  constexpr static std::size_t addrs = 0x643b5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { ".ctor", {}, {} })));
@@ -102,6 +116,18 @@ constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Fps::G_FpsText:
 constexpr void Tayx::Graphy::Fps::G_FpsText::__cordl_internal_set_m_msText(::UnityW<::UnityEngine::UI::Text> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_msText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_msTextGPU() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_msTextGPU;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_msTextGPU() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_msTextGPU;
+}
+constexpr void Tayx::Graphy::Fps::G_FpsText::__cordl_internal_set_m_msTextGPU(::UnityW<::UnityEngine::UI::Text> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_msTextGPU = value;
 }
 constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_avgFpsText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -211,17 +237,29 @@ constexpr void Tayx::Graphy::Fps::G_FpsText::__cordl_internal_set_m_fps(float_t 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fps = value;
 }
-constexpr float_t& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_ms() {
+constexpr float_t& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_cpuMs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ms;
+  return this->___m_cpuMs;
 }
-constexpr float_t const& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_ms() const {
+constexpr float_t const& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_cpuMs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ms;
+  return this->___m_cpuMs;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsText::__cordl_internal_set_m_ms(float_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsText::__cordl_internal_set_m_cpuMs(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ms = value;
+  this->___m_cpuMs = value;
+}
+constexpr float_t& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_gpuMs() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_gpuMs;
+}
+constexpr float_t const& Tayx::Graphy::Fps::G_FpsText::__cordl_internal_get_m_gpuMs() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_gpuMs;
+}
+constexpr void Tayx::Graphy::Fps::G_FpsText::__cordl_internal_set_m_gpuMs(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_gpuMs = value;
 }
 inline void Tayx::Graphy::Fps::G_FpsText::Awake() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "Awake", {}, {} })));
@@ -243,6 +281,12 @@ inline void Tayx::Graphy::Fps::G_FpsText::SetFpsRelatedTextColor(::UnityEngine::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(),
                                                                                          { "SetFpsRelatedTextColor", {}, { ::i2c::type_of<::UnityEngine::UI::Text*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, text, fps);
+}
+inline void Tayx::Graphy::Fps::G_FpsText::SetFrameTimeRelatedTextColor(::UnityEngine::UI::Text* text, float_t frameTime) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { "SetFrameTimeRelatedTextColor", {}, { ::i2c::type_of<::UnityEngine::UI::Text*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, text, frameTime);
 }
 inline void Tayx::Graphy::Fps::G_FpsText::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsText*>(), { ".ctor", {}, {} })));

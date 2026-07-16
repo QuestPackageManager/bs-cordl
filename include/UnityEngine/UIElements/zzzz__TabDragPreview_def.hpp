@@ -25,7 +25,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TabDragPreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c1d368, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d71220, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();

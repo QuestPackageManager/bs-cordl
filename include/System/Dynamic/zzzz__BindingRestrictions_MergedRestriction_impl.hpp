@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BindingRestrictions_MergedRestriction::*)(
     ::System::Dynamic::BindingRestrictions*, ::System::Dynamic::BindingRestrictions*)>(&::GlobalNamespace::BindingRestrictions_MergedRestriction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e81174;
+  constexpr static std::size_t addrs = 0x5fbc270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::GlobalNamespace::BindingRestrictions_MergedRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_MergedRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5e81a28;
+  constexpr static std::size_t addrs = 0x5fbcb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BindingRestrictions_MergedRestriction*>(),

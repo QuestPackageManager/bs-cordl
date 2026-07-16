@@ -33,18 +33,18 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x5e5057c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f8b678, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5e5052c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8b628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction* getStaticF_Instance();
 
-  /// @brief Method get_InstructionName, addr 0x5e50530, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f8b62c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e50574, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f8b670, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction* value);
@@ -64,7 +64,7 @@ public:
   EnterExceptionFilterInstruction(EnterExceptionFilterInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

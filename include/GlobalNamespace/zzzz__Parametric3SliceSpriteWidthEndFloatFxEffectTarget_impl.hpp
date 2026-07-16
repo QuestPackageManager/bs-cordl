@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x585742c;
+  constexpr static std::size_t addrs = 0x598f7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58574d0;
+  constexpr static std::size_t addrs = 0x598f87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5857574;
+  constexpr static std::size_t addrs = 0x598f920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

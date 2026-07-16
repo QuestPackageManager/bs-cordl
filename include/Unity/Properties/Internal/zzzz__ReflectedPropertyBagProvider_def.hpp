@@ -108,13 +108,13 @@ public:
 
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* New_ctor();
 
-  /// @brief Method <GetPropertyMembers>b__22_0, addr 0x6a5e34c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetPropertyMembers>b__22_0, addr 0x6bb1e28, size 0x24, virtual false, abstract: false, final false
   inline int32_t _GetPropertyMembers_b__22_0(::System::Reflection::MemberInfo* x);
 
-  /// @brief Method <.ctor>b__10_0, addr 0x6a5e2c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x6bb1da0, size 0x88, virtual false, abstract: false, final false
   inline bool __ctor_b__10_0(::System::Reflection::MethodInfo* x);
 
-  /// @brief Method .ctor, addr 0x6a5e2c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb1d9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* getStaticF___9();
@@ -144,7 +144,7 @@ public:
   ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -221,27 +221,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6a5e38c, size 0x728, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6bb1e68, size 0x728, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator, addr 0x6a5ebb0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator, addr 0x6bb268c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current, addr 0x6a5eb68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current, addr 0x6bb2644, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MemberInfo* System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a5ec48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6bb2724, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a5eb70, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6bb264c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a5eba8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6bb2684, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6a5e370, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6bb1e4c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -328,10 +328,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method <>m__Finally1, addr 0x6a5eab4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x6bb2590, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x6a5e000, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb1adc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>"
@@ -364,7 +364,7 @@ public:
   ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19731 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -514,7 +514,7 @@ public:
   /// @brief Method CreateProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue> inline void CreateProperty(::Unity::Properties::IMemberInfo* member, ::Unity::Properties::Internal::ReflectedPropertyBag_1<TContainer>* propertyBag);
 
-  /// @brief Method CreatePropertyBag, addr 0x6a5dd6c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreatePropertyBag, addr 0x6bb1848, size 0x140, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* CreatePropertyBag(::System::Type* type);
 
   /// @brief Method CreatePropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -523,13 +523,13 @@ public:
   /// @brief Method CreateSetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSet, typename TValue> inline ::Unity::Properties::IPropertyBag_1<TSet>* CreateSetPropertyBag();
 
-  /// @brief Method GetPropertyMembers, addr 0x6a5df90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyMembers, addr 0x6bb1a6c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* GetPropertyMembers(::System::Type* type);
 
-  /// @brief Method IsValidMember, addr 0x6a5e020, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsValidMember, addr 0x6bb1afc, size 0x144, virtual false, abstract: false, final false
   static inline bool IsValidMember(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method IsValidPropertyType, addr 0x6a5e164, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsValidPropertyType, addr 0x6bb1c40, size 0x108, virtual false, abstract: false, final false
   static inline bool IsValidPropertyType(::System::Type* type);
 
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider* New_ctor();
@@ -594,7 +594,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CreateSetPropertyBagMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x6a5d9a4, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb1480, size 0x3c8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -612,7 +612,7 @@ public:
   ReflectedPropertyBagProvider(ReflectedPropertyBagProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19732 };
 
   /// @brief Field m_CreatePropertyMethod, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___m_CreatePropertyMethod;

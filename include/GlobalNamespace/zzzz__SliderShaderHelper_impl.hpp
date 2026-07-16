@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t)>(&::GlobalNamespace::SliderShaderHelper::SetTimeSinceHeadNoteJump)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58425dc;
+  constexpr static std::size_t addrs = 0x597a254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t)>(&::GlobalNamespace::SliderShaderHelper::SetTailHeadNoteJumpOffsetDifference)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5842658;
+  constexpr static std::size_t addrs = 0x597a2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Vector3)>(&::GlobalNamespace::SliderShaderHelper::SetSaberAttractionPoint)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58426d4;
+  constexpr static std::size_t addrs = 0x597a34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, bool)>(&::GlobalNamespace::SliderShaderHelper::EnableSaberAttraction)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x583f91c;
+  constexpr static std::size_t addrs = 0x5977540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Color)>(&::GlobalNamespace::SliderShaderHelper::SetColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x584276c;
+  constexpr static std::size_t addrs = 0x597a3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,18 +82,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::M
 //  Writing Method size for method: ::GlobalNamespace::SliderShaderHelper.SetInitialProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Color, float_t, float_t, bool, bool, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Color, float_t, float_t, bool, bool, bool, bool, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetInitialProperties)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5842808;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x597a480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderShaderHelper*>(),
-                                                             { "SetInitialProperties",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderShaderHelper*>(),
+                                         { "SetInitialProperties",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                             ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -102,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::SliderShaderHelper::SetInitialProperties)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x583d6a0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x59752a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t, float_t)>(&::GlobalNamespace::SliderShaderHelper::SetHeadNoteJump)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x584296c;
+  constexpr static std::size_t addrs = 0x597a630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t, float_t)>(&::GlobalNamespace::SliderShaderHelper::SetTailNoteJump)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5842a14;
+  constexpr static std::size_t addrs = 0x597a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t, float_t)>(&::GlobalNamespace::SliderShaderHelper::SetJumpSpeedAndDistance)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5842a90;
+  constexpr static std::size_t addrs = 0x597a754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +162,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::M
                                                                 ::GlobalNamespace::IJumpOffsetYProvider*, ::GlobalNamespace::TimeHelper*, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::UpdateMaterialPropertyBlock)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x583eca8;
+  constexpr static std::size_t addrs = 0x59768cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, int32_t, float_t, float_t)>(&::GlobalNamespace::SliderShaderHelper::SetNoteJump)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58429e8;
+  constexpr static std::size_t addrs = 0x597a6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,6 +237,12 @@ inline void GlobalNamespace::SliderShaderHelper::setStaticF_randomPropertyId(int
 }
 inline int32_t GlobalNamespace::SliderShaderHelper::getStaticF_randomPropertyId() {
   return ::cordl_internals::getStaticField<int32_t, "randomPropertyId", ::GlobalNamespace::SliderShaderHelper*>();
+}
+inline void GlobalNamespace::SliderShaderHelper::setStaticF_fadeoutModePropertyId(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "fadeoutModePropertyId", ::GlobalNamespace::SliderShaderHelper*>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::SliderShaderHelper::getStaticF_fadeoutModePropertyId() {
+  return ::cordl_internals::getStaticField<int32_t, "fadeoutModePropertyId", ::GlobalNamespace::SliderShaderHelper*>();
 }
 inline void GlobalNamespace::SliderShaderHelper::setStaticF_headFadeLengthPropertyId(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "headFadeLengthPropertyId", ::GlobalNamespace::SliderShaderHelper*>(std::forward<int32_t>(value));
@@ -304,14 +311,15 @@ inline void GlobalNamespace::SliderShaderHelper::SetColor(::UnityEngine::Materia
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialPropertyBlock, color);
 }
 inline void GlobalNamespace::SliderShaderHelper::SetInitialProperties(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Color sliderColor, float_t sliderZLength,
-                                                                      float_t sliderLength, bool hasHeadNote, bool hasTailNote, float_t randomValue) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderShaderHelper*>(),
-                                                           { "SetInitialProperties",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialPropertyBlock, sliderColor, sliderZLength, sliderLength, hasHeadNote, hasTailNote, randomValue);
+                                                                      float_t sliderLength, bool headFadeout, bool tailFadeout, bool hasHeadNote, bool hasTailNote, float_t randomValue) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderShaderHelper*>(),
+                                              { "SetInitialProperties",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                                  ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialPropertyBlock, sliderColor, sliderZLength, sliderLength, headFadeout, tailFadeout, hasHeadNote, hasTailNote,
+                                                   randomValue);
 }
 inline void GlobalNamespace::SliderShaderHelper::SetInitialProperties(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::GlobalNamespace::SliderController* sliderController) {
   static auto* ___internal_method = THROW_UNLESS(

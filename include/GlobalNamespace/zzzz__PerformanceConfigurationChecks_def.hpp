@@ -18,6 +18,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PerformanceConfigurationChecks)
+namespace BeatSaber::Automation {
+class RecPlayBehaviourState;
+}
 namespace BeatSaber::Settings {
 struct Settings;
 }
@@ -41,9 +44,6 @@ struct PerformanceConfigurationChecks_XRConfig;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class RecPlayBehaviour_State;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -95,7 +95,7 @@ public:
   constexpr PerformanceConfigurationChecks_Mismatch(::StringW message, int32_t frames) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6577 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -134,7 +134,7 @@ public:
                                                      ::UnityEngine::ThreadPriority backgroundLoadingPriority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6578 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -188,7 +188,7 @@ public:
                                                     bool useOcclusionMesh) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -284,7 +284,7 @@ public:
                                                         ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6580 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
@@ -410,7 +410,7 @@ public:
   constexpr PerformanceConfigurationChecks_LevelConfig(::GlobalNamespace::GameplayModifierMask modifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6581 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -447,40 +447,40 @@ public:
   /// @brief Field appConfig, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_appConfig, put = __cordl_internal_set_appConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig appConfig;
 
-  /// @brief Field invalid, offset 0x188, size 0x8
+  /// @brief Field invalid, offset 0x180, size 0x8
   __declspec(property(get = __cordl_internal_get_invalid,
                       put = __cordl_internal_set_invalid)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerformanceConfigurationChecks_Mismatch>* invalid;
 
-  /// @brief Field levelConfig, offset 0x184, size 0x2
+  /// @brief Field levelConfig, offset 0x17c, size 0x2
   __declspec(property(get = __cordl_internal_get_levelConfig, put = __cordl_internal_set_levelConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig levelConfig;
 
-  /// @brief Field playerConfig, offset 0x148, size 0x3c
+  /// @brief Field playerConfig, offset 0x140, size 0x3c
   __declspec(property(get = __cordl_internal_get_playerConfig, put = __cordl_internal_set_playerConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig playerConfig;
 
-  /// @brief Field settingsConfig, offset 0x50, size 0xf8
+  /// @brief Field settingsConfig, offset 0x50, size 0xf0
   __declspec(property(get = __cordl_internal_get_settingsConfig, put = __cordl_internal_set_settingsConfig)) ::BeatSaber::Settings::Settings settingsConfig;
 
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x57cfb38, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x58ef3b4, size 0x244, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x57cfadc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x58ef358, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x57cfd7c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x58ef5f8, size 0x378, virtual false, abstract: false, final false
   inline bool SetExpected(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
-                          ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
+                          ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x57d00f4, size 0x1560, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x58ef970, size 0x1560, virtual false, abstract: false, final false
   inline bool VerifyExpected(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
-                             ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
+                             ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig const& __cordl_internal_get_appConfig() const;
 
@@ -518,7 +518,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig value);
 
-  /// @brief Method .ctor, addr 0x57d1654, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f0ed0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -536,7 +536,7 @@ public:
   PerformanceConfigurationChecks(PerformanceConfigurationChecks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
 
   /// @brief Field appConfig, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig ___appConfig;
@@ -544,16 +544,16 @@ public:
   /// @brief Field xrConfig, offset: 0x20, size: 0x30, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig ___xrConfig;
 
-  /// @brief Field settingsConfig, offset: 0x50, size: 0xf8, def value: None
+  /// @brief Field settingsConfig, offset: 0x50, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings ___settingsConfig;
 
-  /// @brief Field playerConfig, offset: 0x148, size: 0x3c, def value: None
+  /// @brief Field playerConfig, offset: 0x140, size: 0x3c, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig ___playerConfig;
 
-  /// @brief Field levelConfig, offset: 0x184, size: 0x2, def value: None
+  /// @brief Field levelConfig, offset: 0x17c, size: 0x2, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig ___levelConfig;
 
-  /// @brief Field invalid, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field invalid, offset: 0x180, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerformanceConfigurationChecks_Mismatch>* ___invalid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -565,12 +565,12 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___xrC
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___settingsConfig) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x184, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x17c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x180, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PerformanceConfigurationChecks) == 0x190, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PerformanceConfigurationChecks) == 0x188, "Size mismatch!");
 
 } // namespace GlobalNamespace

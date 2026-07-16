@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::*)(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, int32_t, int32_t)>(&::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x66cd840;
+  constexpr static std::size_t addrs = 0x680af4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrustumPlaneCuller::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::FrustumPlaneCuller::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66cd304;
+  constexpr static std::size_t addrs = 0x680aa10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller>,
     ::Unity::Collections::Allocator)>(&::UnityEngine::Rendering::FrustumPlaneCuller::Create)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x66cd394;
+  constexpr static std::size_t addrs = 0x680aaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Unity::Col
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>,
                                                                     ::by_ref<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibilityMask)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x66cd908;
+  constexpr static std::size_t addrs = 0x680b014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

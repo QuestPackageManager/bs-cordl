@@ -4,7 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_def.hpp"
-#include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
+#include "BeatSaber/Automation/zzzz__PerformanceToolLauncherOverrideConfig_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(GameplayCoreInstaller)
@@ -60,7 +60,7 @@ class GameplayCoreInstaller;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GameplayCoreInstaller*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayCoreInstaller*, "", "GameplayCoreInstaller");
-// Dependencies BGLib.DotnetExtension.CommandLine.CommandLineParserResult, PerformanceToolLauncher::OverrideConfig, System.Nullable`1<T>, Zenject.MonoInstaller
+// Dependencies BGLib.DotnetExtension.CommandLine.CommandLineParserResult, BeatSaber.Automation.PerformanceToolLauncherOverrideConfig, System.Nullable`1<T>, Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameplayCoreInstaller
@@ -111,7 +111,7 @@ public:
 
   /// @brief Field _performanceToolConfig, offset 0xb0, size 0x3
   __declspec(property(get = __cordl_internal_get__performanceToolConfig,
-                      put = __cordl_internal_set__performanceToolConfig)) ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>
+                      put = __cordl_internal_set__performanceToolConfig)) ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig>
       _performanceToolConfig;
 
   /// @brief Field _playerHeightDetectorPrefab, offset 0x38, size 0x8
@@ -131,7 +131,7 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method InstallBindings, addr 0x58c4594, size 0x1db4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59f5280, size 0x1e10, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
@@ -180,9 +180,9 @@ public:
 
   constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__perceivedLoudnessPerLevelModel();
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> const& __cordl_internal_get__performanceToolConfig() const;
+  constexpr ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> const& __cordl_internal_get__performanceToolConfig() const;
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>& __cordl_internal_get__performanceToolConfig();
+  constexpr ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig>& __cordl_internal_get__performanceToolConfig();
 
   constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& __cordl_internal_get__playerHeightDetectorPrefab() const;
 
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
 
-  constexpr void __cordl_internal_set__performanceToolConfig(::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> value);
+  constexpr void __cordl_internal_set__performanceToolConfig(::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> value);
 
   constexpr void __cordl_internal_set__playerHeightDetectorPrefab(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
@@ -238,7 +238,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x58c6348, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f7090, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -256,7 +256,7 @@ public:
   GameplayCoreInstaller(GameplayCoreInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6277 };
 
   /// @brief Field _beatLineManagerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatLineManager> ____beatLineManagerPrefab;
@@ -304,7 +304,7 @@ public:
   ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData;
 
   /// @brief Field _performanceToolConfig, offset: 0xb0, size: 0x3, def value: None
-  ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> ____performanceToolConfig;
+  ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> ____performanceToolConfig;
 
   /// @brief Field _featureFlagService, offset: 0xb8, size: 0x8, def value: None
   ::BeatSaber::FeatureFlags::IFeatureFlagService* ____featureFlagService;

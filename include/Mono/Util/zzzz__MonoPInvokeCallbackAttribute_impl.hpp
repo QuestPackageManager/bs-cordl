@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Util::MonoPInvokeCallbackAttribute::*)(::System::Type*)>(&::Mono::Util::MonoPInvokeCallbackAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e90294;
+  constexpr static std::size_t addrs = 0x5fcb390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

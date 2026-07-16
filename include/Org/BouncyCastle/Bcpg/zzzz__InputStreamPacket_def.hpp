@@ -25,7 +25,7 @@ public:
   /// @brief Field bcpgIn, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bcpgIn, put = __cordl_internal_set_bcpgIn)) ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn;
 
-  /// @brief Method GetInputStream, addr 0x35de7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x369ac94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Bcpg::InputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
 
-  /// @brief Method .ctor, addr 0x35db77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3697c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:

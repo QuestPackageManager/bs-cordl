@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaException::*)(::StringW, ::StringW)>(&::UnityEngine::AndroidJavaException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68cdbac;
+  constexpr static std::size_t addrs = 0x6a24ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AndroidJavaException::*)()>(&::UnityEngine::AndroidJavaException::get_StackTrace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68d0e48;
+  constexpr static std::size_t addrs = 0x6a27d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

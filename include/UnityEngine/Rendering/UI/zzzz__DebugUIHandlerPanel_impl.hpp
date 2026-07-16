@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::OnEnable)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x66c1f4c;
+  constexpr static std::size_t addrs = 0x67ff658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "OnEnable", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)(::UnityEngine::Rendering::DebugUI_Panel*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPanel::SetPanel)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66bd608;
+  constexpr static std::size_t addrs = 0x67fad14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Panel* (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPanel::GetPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c2010;
+  constexpr static std::size_t addrs = 0x67ff71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "GetPanel", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::SelectNextItem)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66c2018;
+  constexpr static std::size_t addrs = 0x67ff724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "SelectNextItem", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::SelectPreviousItem)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66c202c;
+  constexpr static std::size_t addrs = 0x67ff738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "SelectPreviousItem", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::OnScrollbarClicked)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66c2040;
+  constexpr static std::size_t addrs = 0x67ff74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "OnScrollbarClicked", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)(::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPanel::SetScrollTarget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c20a8;
+  constexpr static std::size_t addrs = 0x67ff7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(),
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::UpdateScroll)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x66bca84;
+  constexpr static std::size_t addrs = 0x67fa190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "UpdateScroll", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPanel::GetYPosInScroll)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x66c20b0;
+  constexpr static std::size_t addrs = 0x67ff7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPanel::GetFirstItem)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x66bde0c;
+  constexpr static std::size_t addrs = 0x67fb518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "GetFirstItem", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::ResetDebugManager)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66c2198;
+  constexpr static std::size_t addrs = 0x67ff8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { "ResetDebugManager", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPanel::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerPanel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66c21fc;
+  constexpr static std::size_t addrs = 0x67ff908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>(), { ".ctor", {}, {} })));

@@ -59,19 +59,19 @@ public:
 
   constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t value);
 
-  /// @brief Method .ctor, addr 0x366df74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372af90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bannerImage, addr 0x366df54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerImage, addr 0x372af70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
 
-  /// @brief Method get_bannerPromoText, addr 0x366df64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoText, addr 0x372af80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bannerPromoText();
 
-  /// @brief Method get_bannerPromoTextPosition, addr 0x366df6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoTextPosition, addr 0x372af88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bannerPromoTextPosition();
 
-  /// @brief Method set_bannerImage, addr 0x366df5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bannerImage, addr 0x372af78, size 0x8, virtual false, abstract: false, final false
   inline void set_bannerImage(::UnityEngine::Sprite* value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   PromoBannerInfoSO(PromoBannerInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
 
   /// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____bannerImage;

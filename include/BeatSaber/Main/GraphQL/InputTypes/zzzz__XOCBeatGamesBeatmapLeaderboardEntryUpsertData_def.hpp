@@ -70,11 +70,11 @@ public:
 
   __declspec(property(put = set_PausesCount)) ::System::Nullable_1<int64_t> PausesCount;
 
+  __declspec(property(put = set_PlayerRoot)) ::StringW PlayerRoot;
+
   __declspec(property(put = set_Score)) int64_t Score;
 
   __declspec(property(put = set_SwingScore)) ::System::Nullable_1<int64_t> SwingScore;
-
-  __declspec(property(put = set_User)) ::StringW User;
 
   /// @brief Field _params, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params)) ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* _params;
@@ -88,7 +88,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId*() noexcept;
 
-  /// @brief Method GetParams, addr 0x3209554, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetParams, addr 0x32a043c, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* GetParams();
 
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* New_ctor();
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3209560, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0448, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData"
@@ -111,47 +111,47 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputSupportsClientMutationId() noexcept;
 
-  /// @brief Method set_AccuracyScore, addr 0x3208c84, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_AccuracyScore, addr 0x329fb6c, size 0xb8, virtual true, abstract: false, final true
   inline void set_AccuracyScore(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_BadCutsCount, addr 0x3208d3c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_BadCutsCount, addr 0x329fc24, size 0x98, virtual true, abstract: false, final true
   inline void set_BadCutsCount(int64_t value);
 
-  /// @brief Method set_Characteristic, addr 0x3208dd4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_Characteristic, addr 0x329fcbc, size 0xac, virtual true, abstract: false, final true
   inline void set_Characteristic(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic value);
 
-  /// @brief Method set_ClientMutationId, addr 0x3208e80, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_ClientMutationId, addr 0x329fd68, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientMutationId(::StringW value);
 
-  /// @brief Method set_ClientSongId, addr 0x3208f00, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_ClientSongId, addr 0x329fde8, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientSongId(::StringW value);
 
-  /// @brief Method set_CutAngle, addr 0x3208f80, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_CutAngle, addr 0x329fe68, size 0xb8, virtual true, abstract: false, final true
   inline void set_CutAngle(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_Difficulty, addr 0x3209038, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_Difficulty, addr 0x329ff20, size 0xac, virtual true, abstract: false, final true
   inline void set_Difficulty(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty value);
 
-  /// @brief Method set_MaxPerfectCombo, addr 0x32090e4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_MaxPerfectCombo, addr 0x329ffcc, size 0xb8, virtual true, abstract: false, final true
   inline void set_MaxPerfectCombo(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_MissedCutsCount, addr 0x320919c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_MissedCutsCount, addr 0x32a0084, size 0x98, virtual true, abstract: false, final true
   inline void set_MissedCutsCount(int64_t value);
 
-  /// @brief Method set_ModifierMask, addr 0x3209234, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_ModifierMask, addr 0x32a011c, size 0x98, virtual true, abstract: false, final true
   inline void set_ModifierMask(int64_t value);
 
-  /// @brief Method set_PausesCount, addr 0x32092cc, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_PausesCount, addr 0x32a01b4, size 0xb8, virtual true, abstract: false, final true
   inline void set_PausesCount(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_Score, addr 0x3209384, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_PlayerRoot, addr 0x32a026c, size 0x80, virtual true, abstract: false, final true
+  inline void set_PlayerRoot(::StringW value);
+
+  /// @brief Method set_Score, addr 0x32a02ec, size 0x98, virtual true, abstract: false, final true
   inline void set_Score(int64_t value);
 
-  /// @brief Method set_SwingScore, addr 0x320941c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_SwingScore, addr 0x32a0384, size 0xb8, virtual true, abstract: false, final true
   inline void set_SwingScore(::System::Nullable_1<int64_t> value);
-
-  /// @brief Method set_User, addr 0x32094d4, size 0x80, virtual true, abstract: false, final true
-  inline void set_User(::StringW value);
 
 protected:
   // Ctor Parameters []
@@ -168,7 +168,7 @@ public:
   XOCBeatGamesBeatmapLeaderboardEntryUpsertData(XOCBeatGamesBeatmapLeaderboardEntryUpsertData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20671 };
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;

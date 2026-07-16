@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::DebuggerBrowsableAttribute::*)(::System::Diagnostics::DebuggerBrowsableState)>(
     &::System::Diagnostics::DebuggerBrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aa4aec;
+  constexpr static std::size_t addrs = 0x5bde7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -23,7 +23,7 @@ public:
 
   __declspec(property(get = get_version)) int32_t version;
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x69b4500, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6b07ec0, size 0x8, virtual true, abstract: false, final false
   inline bool get_isAvailableInPlayerBuild();
 
   /// @brief Method get_version, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -34,7 +34,7 @@ public:
   IRenderPipelineGraphicsSettings(IRenderPipelineGraphicsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::NetSyncSessionsChangedNotification::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::NetSyncSessionsChangedNotification::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5cb6d48;
+  constexpr static std::size_t addrs = 0x5deef70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -43,18 +43,18 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE Ed25519Signer_Buffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method GenerateSignature, addr 0x336832c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x34247e4, size 0x184, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x33686e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3424ba0, size 0xe0, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method VerifySignature, addr 0x3368524, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x34249dc, size 0x1b0, virtual false, abstract: false, final false
   inline bool VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t> signature);
 
-  /// @brief Method .ctor, addr 0x3368140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34245f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,24 +106,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x336829c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x3424754, size 0x20, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0x33682bc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x3424774, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateSignature();
 
-  /// @brief Method Init, addr 0x336818c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3424644, size 0xf0, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer* New_ctor();
 
-  /// @brief Method Reset, addr 0x33686d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3424b8c, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x336827c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3424734, size 0x20, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method VerifySignature, addr 0x33684b0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3424968, size 0x74, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t> signature);
 
   constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* const& __cordl_internal_get_buffer() const;
@@ -150,10 +150,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x33680e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x342459c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x3368148, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3424600, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

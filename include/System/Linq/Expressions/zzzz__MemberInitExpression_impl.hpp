@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::NewExpression* (::System::Linq::Expressions::MemberInitExpression::*)()>(
     &::System::Linq::Expressions::MemberInitExpression::get_NewExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e46538;
+  constexpr static std::size_t addrs = 0x5f81634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MemberInitExpression*>(), { "get_NewExpression", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* (
     ::System::Linq::Expressions::MemberInitExpression::*)()>(&::System::Linq::Expressions::MemberInitExpression::get_Bindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e46540;
+  constexpr static std::size_t addrs = 0x5f8163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MemberInitExpression*>(), { "get_Bindings", {}, {} })));

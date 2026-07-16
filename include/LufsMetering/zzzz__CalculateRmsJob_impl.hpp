@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::CalculateRmsJob::*)(::Unity::Collections::NativeArray_1<float_t>, ::Unity::Collections::NativeArray_1<float_t>, float_t,
                                                                                                  float_t, int32_t)>(&::LufsMetering::CalculateRmsJob::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x583794c;
+  constexpr static std::size_t addrs = 0x326779c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::CalculateRmsJob::*)(int32_t)>(&::LufsMetering::CalculateRmsJob::Execute)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5837960;
+  constexpr static std::size_t addrs = 0x32677b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LufsMetering::CalculateRmsJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));

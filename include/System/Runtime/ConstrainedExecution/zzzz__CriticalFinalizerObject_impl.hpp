@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(
     &::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a338d4;
+  constexpr static std::size_t addrs = 0x5b6d5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::ConstrainedExecution::CriticalFinalizerObject*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(
     &::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Finalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a338d8;
+  constexpr static std::size_t addrs = 0x5b6d5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::ConstrainedExecution::CriticalFinalizerObject*>(),

@@ -87,7 +87,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Renderer2DResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x67728e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b1260, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_CopyDepthPS() const;
@@ -144,34 +144,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6772cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_copyDepthPS, addr 0x6772c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_copyDepthPS, addr 0x68b15b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_copyDepthPS();
 
-  /// @brief Method get_fallOffLookup, addr 0x6772bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallOffLookup, addr 0x68b1538, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_fallOffLookup();
 
-  /// @brief Method get_geometryShadowShader, addr 0x6772acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_geometryShadowShader, addr 0x68b1448, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_geometryShadowShader();
 
-  /// @brief Method get_geometryUnshadowShader, addr 0x6772b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_geometryUnshadowShader, addr 0x68b14c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_geometryUnshadowShader();
 
-  /// @brief Method get_lightShader, addr 0x67728ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightShader, addr 0x68b1268, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_lightShader();
 
-  /// @brief Method get_projectedShadowShader, addr 0x6772964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_projectedShadowShader, addr 0x68b12e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_projectedShadowShader();
 
-  /// @brief Method get_spriteShadowShader, addr 0x67729dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spriteShadowShader, addr 0x68b1358, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_spriteShadowShader();
 
-  /// @brief Method get_spriteUnshadowShader, addr 0x6772a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spriteUnshadowShader, addr 0x68b13d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_spriteUnshadowShader();
 
-  /// @brief Method get_version, addr 0x67728dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b1258, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -180,28 +180,28 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_copyDepthPS, addr 0x6772c3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_copyDepthPS, addr 0x68b15b8, size 0x70, virtual false, abstract: false, final false
   inline void set_copyDepthPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_fallOffLookup, addr 0x6772bc4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_fallOffLookup, addr 0x68b1540, size 0x70, virtual false, abstract: false, final false
   inline void set_fallOffLookup(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_geometryShadowShader, addr 0x6772ad4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_geometryShadowShader, addr 0x68b1450, size 0x70, virtual false, abstract: false, final false
   inline void set_geometryShadowShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_geometryUnshadowShader, addr 0x6772b4c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_geometryUnshadowShader, addr 0x68b14c8, size 0x70, virtual false, abstract: false, final false
   inline void set_geometryUnshadowShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_lightShader, addr 0x67728f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_lightShader, addr 0x68b1270, size 0x70, virtual false, abstract: false, final false
   inline void set_lightShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_projectedShadowShader, addr 0x677296c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_projectedShadowShader, addr 0x68b12e8, size 0x70, virtual false, abstract: false, final false
   inline void set_projectedShadowShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_spriteShadowShader, addr 0x67729e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_spriteShadowShader, addr 0x68b1360, size 0x70, virtual false, abstract: false, final false
   inline void set_spriteShadowShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_spriteUnshadowShader, addr 0x6772a5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_spriteUnshadowShader, addr 0x68b13d8, size 0x70, virtual false, abstract: false, final false
   inline void set_spriteUnshadowShader(::UnityEngine::Shader* value);
 
 protected:
@@ -219,7 +219,7 @@ public:
   Renderer2DResources(Renderer2DResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12912 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;

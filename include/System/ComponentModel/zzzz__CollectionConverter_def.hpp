@@ -38,20 +38,20 @@ namespace System::ComponentModel {
 class CORDL_TYPE CollectionConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method ConvertTo, addr 0x62893a8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x63c5444, size 0x140, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x62896dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x63c5778, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x62896e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x63c5780, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::CollectionConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62896ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c5788, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   CollectionConverter(CollectionConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

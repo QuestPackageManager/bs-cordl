@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlSchemaParticle_EmptyParticle::*)()>(&::GlobalNamespace::XmlSchemaParticle_EmptyParticle::get_IsEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60f3924;
+  constexpr static std::size_t addrs = 0x622ea20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XmlSchemaParticle_EmptyParticle::*)()>(&::GlobalNamespace::XmlSchemaParticle_EmptyParticle::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x60f38cc;
+  constexpr static std::size_t addrs = 0x622e9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlSchemaParticle_EmptyParticle*>(), { ".ctor", {}, {} })));

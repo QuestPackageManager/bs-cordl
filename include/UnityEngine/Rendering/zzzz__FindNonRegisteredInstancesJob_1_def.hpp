@@ -48,7 +48,7 @@ public:
                                             ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> outInstancesWriter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

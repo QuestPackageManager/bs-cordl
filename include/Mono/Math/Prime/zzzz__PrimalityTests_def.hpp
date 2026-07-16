@@ -26,16 +26,16 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x598bb24, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x5ac4490, size 0x1a8, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x598bea8, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x5ac4814, size 0x2a8, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method SmallPrimeSppTest, addr 0x598bccc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method SmallPrimeSppTest, addr 0x5ac4638, size 0x1dc, virtual false, abstract: false, final false
   static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method Test, addr 0x598ac90, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Test, addr 0x5ac35fc, size 0x4c, virtual false, abstract: false, final false
   static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:

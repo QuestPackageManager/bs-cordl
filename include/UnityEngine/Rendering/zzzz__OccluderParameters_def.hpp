@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OccluderParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x66d37fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6810f08, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(int32_t viewInstanceID);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
                                bool depthIsArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

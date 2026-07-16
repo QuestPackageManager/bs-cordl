@@ -27,18 +27,18 @@ public:
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::Text::RegularExpressions::RegexPrefix _Empty_k__BackingField;
 
-  /// @brief Method .ctor, addr 0x62489a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6384a3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, bool ci);
 
   static inline ::System::Text::RegularExpressions::RegexPrefix getStaticF__Empty_k__BackingField();
 
-  /// @brief Method get_CaseInsensitive, addr 0x6252b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x638ebf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method get_Empty, addr 0x6252b60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x638ebfc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix get_Empty();
 
-  /// @brief Method get_Prefix, addr 0x6252bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x638ec58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
   static inline void setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::RegexPrefix value);
@@ -52,7 +52,7 @@ public:
   constexpr RegexPrefix(bool _CaseInsensitive_k__BackingField, ::StringW _Prefix_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11094 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

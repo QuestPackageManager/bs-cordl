@@ -31,8 +31,11 @@ public:
   /// @brief Field BasicBeatmapEventType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_BasicBeatmapEventType, put = __cordl_internal_set_BasicBeatmapEventType)) ::System::Type* BasicBeatmapEventType;
 
-  /// @brief Field aheadTime, offset 0x18, size 0x4
+  /// @brief Field aheadTime, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_aheadTime, put = __cordl_internal_set_aheadTime)) float_t aheadTime;
+
+  /// @brief Field basicBeatmapEventTypeId, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_basicBeatmapEventTypeId, put = __cordl_internal_set_basicBeatmapEventTypeId)) int32_t basicBeatmapEventTypeId;
 
   /// @brief Field subtypeIdentifiers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_subtypeIdentifiers, put = __cordl_internal_set_subtypeIdentifiers)) ::ArrayW<int32_t> subtypeIdentifiers;
@@ -50,6 +53,10 @@ public:
 
   constexpr float_t& __cordl_internal_get_aheadTime();
 
+  constexpr int32_t const& __cordl_internal_get_basicBeatmapEventTypeId() const;
+
+  constexpr int32_t& __cordl_internal_get_basicBeatmapEventTypeId();
+
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_subtypeIdentifiers() const;
 
   constexpr ::ArrayW<int32_t>& __cordl_internal_get_subtypeIdentifiers();
@@ -58,9 +65,11 @@ public:
 
   constexpr void __cordl_internal_set_aheadTime(float_t value);
 
+  constexpr void __cordl_internal_set_basicBeatmapEventTypeId(int32_t value);
+
   constexpr void __cordl_internal_set_subtypeIdentifiers(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x5789acc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c6274, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers);
 
 protected:
@@ -78,12 +87,15 @@ public:
   BeatmapDataCallbackWrapper(BeatmapDataCallbackWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5620 };
 
   /// @brief Field BasicBeatmapEventType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___BasicBeatmapEventType;
 
-  /// @brief Field aheadTime, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field basicBeatmapEventTypeId, offset: 0x18, size: 0x4, def value: None
+  int32_t ___basicBeatmapEventTypeId;
+
+  /// @brief Field aheadTime, offset: 0x1c, size: 0x4, def value: None
   float_t ___aheadTime;
 
   /// @brief Field subtypeIdentifiers, offset: 0x20, size: 0x8, def value: None
@@ -94,7 +106,9 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___BasicBeatmapEventType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___aheadTime) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___basicBeatmapEventTypeId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___aheadTime) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___subtypeIdentifiers) == 0x20, "Offset mismatch!");
 

@@ -54,10 +54,10 @@ public:
   /// @brief Field pageXmlNmsp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_pageXmlNmsp, put = __cordl_internal_set_pageXmlNmsp)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageXmlNmsp;
 
-  /// @brief Method GetXmlNamespaceNode, addr 0x61a73a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x62e24a0, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces, addr 0x61a73b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaces, addr 0x62e24b4, size 0xd8, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int32_t idxElem, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
 
   constexpr bool const& __cordl_internal_get_hasLineInfo() const;
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value);
 
-  /// @brief Method get_HasLineInfo, addr 0x61a739c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasLineInfo, addr 0x62e2498, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasLineInfo();
 
-  /// @brief Method get_NameTable, addr 0x61a7394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x62e2490, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
@@ -111,7 +111,7 @@ public:
   XPathDocument(XPathDocument const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9438 };
 
   /// @brief Field pageXmlNmsp, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> ___pageXmlNmsp;

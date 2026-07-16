@@ -49,7 +49,7 @@ public:
   /// @brief Field value, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_value, put = setStaticF_value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* value;
 
-  /// @brief Method ExtractValue, addr 0x6be7704, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method ExtractValue, addr 0x6d3b5bc, size 0x368, virtual false, abstract: false, final false
   static inline bool ExtractValue(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::System::Type*> resEnumType,
                                   ::by_ref<::System::Enum*> resEnumValue, ::by_ref<bool> resIncludeObsoleteValues);
 

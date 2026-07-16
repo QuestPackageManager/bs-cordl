@@ -68,18 +68,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE BoolMonitor_OVRControllerTest_BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5dbbf6c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5ef4194, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5dbbf88, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5ef41b0, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5dbbf58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5ef4180, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5dbb098, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ef32c0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -97,7 +97,7 @@ public:
   BoolMonitor_OVRControllerTest_BoolGenerator(BoolMonitor_OVRControllerTest_BoolGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,12 +135,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x5dbbce4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x5ef3f0c, size 0xfc, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(::by_ref<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::OVRControllerTest_BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x5dbbc34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ef3e5c, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x5dbb100, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ef3328, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -203,7 +203,7 @@ public:
   OVRControllerTest_BoolMonitor(OVRControllerTest_BoolMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7842 };
 
   /// @brief Field m_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_name;
@@ -351,103 +351,103 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerTest___c* New_ctor();
 
-  /// @brief Method <Start>b__4_0, addr 0x5dbc004, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_0, addr 0x5ef422c, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_0();
 
-  /// @brief Method <Start>b__4_1, addr 0x5dbc060, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_1, addr 0x5ef4288, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_1();
 
-  /// @brief Method <Start>b__4_10, addr 0x5dbc39c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_10, addr 0x5ef45c4, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_10();
 
-  /// @brief Method <Start>b__4_11, addr 0x5dbc3f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_11, addr 0x5ef4620, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_11();
 
-  /// @brief Method <Start>b__4_12, addr 0x5dbc454, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_12, addr 0x5ef467c, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_12();
 
-  /// @brief Method <Start>b__4_13, addr 0x5dbc4b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_13, addr 0x5ef46d8, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_13();
 
-  /// @brief Method <Start>b__4_14, addr 0x5dbc50c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_14, addr 0x5ef4734, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_14();
 
-  /// @brief Method <Start>b__4_15, addr 0x5dbc568, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_15, addr 0x5ef4790, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_15();
 
-  /// @brief Method <Start>b__4_16, addr 0x5dbc5c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_16, addr 0x5ef47ec, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_16();
 
-  /// @brief Method <Start>b__4_17, addr 0x5dbc620, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_17, addr 0x5ef4848, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_17();
 
-  /// @brief Method <Start>b__4_18, addr 0x5dbc67c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_18, addr 0x5ef48a4, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_18();
 
-  /// @brief Method <Start>b__4_19, addr 0x5dbc6d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_19, addr 0x5ef4900, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_19();
 
-  /// @brief Method <Start>b__4_2, addr 0x5dbc0bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_2, addr 0x5ef42e4, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_2();
 
-  /// @brief Method <Start>b__4_20, addr 0x5dbc734, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_20, addr 0x5ef495c, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_20();
 
-  /// @brief Method <Start>b__4_21, addr 0x5dbc790, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_21, addr 0x5ef49b8, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_21();
 
-  /// @brief Method <Start>b__4_22, addr 0x5dbc7ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_22, addr 0x5ef4a14, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_22();
 
-  /// @brief Method <Start>b__4_23, addr 0x5dbc848, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_23, addr 0x5ef4a70, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_23();
 
-  /// @brief Method <Start>b__4_24, addr 0x5dbc8a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_24, addr 0x5ef4acc, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_24();
 
-  /// @brief Method <Start>b__4_25, addr 0x5dbc900, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_25, addr 0x5ef4b28, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_25();
 
-  /// @brief Method <Start>b__4_26, addr 0x5dbc95c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_26, addr 0x5ef4b84, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_26();
 
-  /// @brief Method <Start>b__4_27, addr 0x5dbc9b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_27, addr 0x5ef4be0, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_27();
 
-  /// @brief Method <Start>b__4_28, addr 0x5dbca14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_28, addr 0x5ef4c3c, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_28();
 
-  /// @brief Method <Start>b__4_29, addr 0x5dbca70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_29, addr 0x5ef4c98, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_29();
 
-  /// @brief Method <Start>b__4_3, addr 0x5dbc118, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_3, addr 0x5ef4340, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_3();
 
-  /// @brief Method <Start>b__4_30, addr 0x5dbcacc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_30, addr 0x5ef4cf4, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_30();
 
-  /// @brief Method <Start>b__4_4, addr 0x5dbc174, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_4, addr 0x5ef439c, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_4();
 
-  /// @brief Method <Start>b__4_5, addr 0x5dbc1d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_5, addr 0x5ef43f8, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_5();
 
-  /// @brief Method <Start>b__4_6, addr 0x5dbc22c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_6, addr 0x5ef4454, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_6();
 
-  /// @brief Method <Start>b__4_7, addr 0x5dbc288, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_7, addr 0x5ef44b0, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_7();
 
-  /// @brief Method <Start>b__4_8, addr 0x5dbc2e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_8, addr 0x5ef450c, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_8();
 
-  /// @brief Method <Start>b__4_9, addr 0x5dbc340, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_9, addr 0x5ef4568, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__4_9();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x5dbcb28, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x5ef4d50, size 0x11c, virtual false, abstract: false, final false
   inline bool __cctor_b__9_0();
 
-  /// @brief Method .ctor, addr 0x5dbc000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ef4228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRControllerTest___c* getStaticF___9();
@@ -593,7 +593,7 @@ public:
   OVRControllerTest___c(OVRControllerTest___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -629,10 +629,10 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerTest* New_ctor();
 
-  /// @brief Method Start, addr 0x5db8bb8, size 0x24e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ef0de0, size 0x24e0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5dbb164, size 0xad0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ef338c, size 0xad0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_data() const;
@@ -653,7 +653,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x5dbbde0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ef4008, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRControllerTest_BoolMonitor* getStaticF_controllers();
@@ -679,7 +679,7 @@ public:
   OVRControllerTest(OVRControllerTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7844 };
 
   /// @brief Field uiText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___uiText;

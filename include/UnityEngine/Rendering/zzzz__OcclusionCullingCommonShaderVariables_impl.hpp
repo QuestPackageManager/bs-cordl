@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::OccluderContext>, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>, bool, bool)>(
     &::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x66f02c4;
+  constexpr static std::size_t addrs = 0x682d9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -44,20 +44,20 @@ public:
   /// @brief Field digest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t> digest;
 
-  /// @brief Method GetDigest, addr 0x359c120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x36585d8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetDigest();
 
-  /// @brief Method GetInstance, addr 0x359be8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3658344, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x359bea0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3658358, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> digest);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x359c128, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36585e0, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x359c110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36585c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> digest);
 
-  /// @brief Method .ctor, addr 0x359c024, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36584dc, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgorithmID, addr 0x359c118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmID, addr 0x36585d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
 
 protected:

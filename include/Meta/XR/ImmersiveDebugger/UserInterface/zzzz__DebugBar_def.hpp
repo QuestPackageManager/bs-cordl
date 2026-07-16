@@ -68,19 +68,19 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::DebugBar* New_ctor();
 
-  /// @brief Method OnPanelVisibilityChanged, addr 0x59124ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnPanelVisibilityChanged, addr 0x5a4bbb0, size 0xe8, virtual false, abstract: false, final false
   inline void OnPanelVisibilityChanged(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
 
-  /// @brief Method RegisterControl, addr 0x5912294, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method RegisterControl, addr 0x5a4b998, size 0x218, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> RegisterControl(::StringW buttonName, ::UnityEngine::Texture2D* icon, ::System::Action* callback);
 
-  /// @brief Method RegisterPanel, addr 0x5911e94, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method RegisterPanel, addr 0x5a4b598, size 0x340, virtual false, abstract: false, final false
   inline void RegisterPanel(::Meta::XR::ImmersiveDebugger::UserInterface::DebugPanel* panel);
 
-  /// @brief Method Setup, addr 0x5911bf8, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a4b2fc, size 0x29c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method Update, addr 0x5912594, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a4bc98, size 0x138, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> const& __cordl_internal_get__buttonsAnchor() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__time(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> value);
 
-  /// @brief Method .ctor, addr 0x59126cc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4bdd0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   DebugBar(DebugBar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18333 };
 
   /// @brief Field _panels, offset: 0xc8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::DebugPanel>>* ____panels;

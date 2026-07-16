@@ -74,10 +74,10 @@ public:
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method ParseAuthentication, addr 0x62f39b0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ParseAuthentication, addr 0x642fa4c, size 0x138, virtual false, abstract: false, final false
   inline void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
 
-  /// @brief Method ParseBasicAuthentication, addr 0x62f3e44, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ParseBasicAuthentication, addr 0x642fee0, size 0x258, virtual false, abstract: false, final false
   inline ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
 
   constexpr ::System::Net::HttpListener* const& __cordl_internal_get_Listener() const;
@@ -122,31 +122,31 @@ public:
 
   constexpr void __cordl_internal_set_user(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method .ctor, addr 0x62efc3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642bcd8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method get_Connection, addr 0x62f3e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x642fec8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpConnection* get_Connection();
 
-  /// @brief Method get_ErrorMessage, addr 0x62f3e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorMessage, addr 0x642feb8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ErrorMessage();
 
-  /// @brief Method get_ErrorStatus, addr 0x62f3e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorStatus, addr 0x642fea8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorStatus();
 
-  /// @brief Method get_HaveError, addr 0x62f0810, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveError, addr 0x642c8ac, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveError();
 
-  /// @brief Method get_Request, addr 0x62f3e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x642fed0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerRequest* get_Request();
 
-  /// @brief Method get_Response, addr 0x62f3e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x642fed8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerResponse* get_Response();
 
-  /// @brief Method set_ErrorMessage, addr 0x62f3e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorMessage, addr 0x642fec0, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorMessage(::StringW value);
 
-  /// @brief Method set_ErrorStatus, addr 0x62f3e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorStatus, addr 0x642feb0, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorStatus(int32_t value);
 
 protected:
@@ -164,7 +164,7 @@ public:
   HttpListenerContext(HttpListenerContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11570 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpListenerRequest* ___request;

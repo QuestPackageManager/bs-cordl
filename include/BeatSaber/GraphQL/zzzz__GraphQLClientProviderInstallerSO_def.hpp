@@ -31,7 +31,7 @@ public:
 
   __declspec(property(get = get_devServerPath)) ::StringW devServerPath;
 
-  /// @brief Method InstallBindings, addr 0x3200d7c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3295c1c, size 0xc0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO* New_ctor();
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__endpointPattern(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3200e3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3295cdc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_devServerPath, addr 0x3200d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devServerPath, addr 0x3295c14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_devServerPath();
 
 protected:
@@ -75,7 +75,7 @@ public:
   GraphQLClientProviderInstallerSO(GraphQLClientProviderInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22614 };
 
   /// @brief Field _endpointPattern, offset: 0x20, size: 0x8, def value: None
   ::StringW ____endpointPattern;

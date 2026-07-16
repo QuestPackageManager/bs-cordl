@@ -33,7 +33,7 @@ public:
 
   static inline ::HMUI::DropdownWithTitleView* New_ctor();
 
-  /// @brief Method RefreshSize, addr 0x573dccc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method RefreshSize, addr 0x5884ee8, size 0x60, virtual true, abstract: false, final false
   inline void RefreshSize(::HMUI::TableView_IDataSource* dataSource);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__titleRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x573dd2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5884f48, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   DropdownWithTitleView(DropdownWithTitleView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19179 };
 
   /// @brief Field _rectTransform, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;

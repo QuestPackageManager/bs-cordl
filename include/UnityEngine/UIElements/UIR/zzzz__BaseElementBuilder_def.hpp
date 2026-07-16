@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE BaseElementBuilder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Build, addr 0x6b7e964, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x6cd281c, size 0x6bc, virtual false, abstract: false, final false
   inline void Build(Il2CppObject* mgc);
 
   /// @brief Method DrawVisualElementBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -34,15 +34,15 @@ public:
   /// @brief Method DrawVisualElementStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DrawVisualElementStencilMask(Il2CppObject* mgc);
 
-  /// @brief Method InvokeGenerateVisualContent, addr 0x6b7f270, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InvokeGenerateVisualContent, addr 0x6cd3128, size 0x104, virtual false, abstract: false, final false
   static inline void InvokeGenerateVisualContent(Il2CppObject* mgc);
 
   static inline ::UnityEngine::UIElements::UIR::BaseElementBuilder* New_ctor();
 
-  /// @brief Method PopVisualElementClipping, addr 0x6b7f374, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method PopVisualElementClipping, addr 0x6cd322c, size 0x1a4, virtual false, abstract: false, final false
   static inline void PopVisualElementClipping(Il2CppObject* mgc);
 
-  /// @brief Method PushVisualElementClipping, addr 0x6b7f020, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method PushVisualElementClipping, addr 0x6cd2ed8, size 0x250, virtual false, abstract: false, final false
   inline void PushVisualElementClipping(Il2CppObject* mgc);
 
   /// @brief Method RequiresStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -51,7 +51,7 @@ public:
   /// @brief Method ScheduleMeshGenerationJobs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ScheduleMeshGenerationJobs(Il2CppObject* mgc);
 
-  /// @brief Method .ctor, addr 0x6b7f518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd33d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

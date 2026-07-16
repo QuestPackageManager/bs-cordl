@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363e5e4;
+  constexpr static std::size_t addrs = 0x36faa60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelPacksEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363e5ec;
+  constexpr static std::size_t addrs = 0x36faa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,11 +39,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363e5f4;
+  constexpr static std::size_t addrs = 0x36faa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_packBetterBuyThanLevel", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO.get_useCustomEntitlement
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
+    &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_useCustomEntitlement)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x36faa78;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_useCustomEntitlement", {}, {} })));
     return ___internal_method;
   }
 };
@@ -53,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x363e5fc;
+  constexpr static std::size_t addrs = 0x36faa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,6 +75,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+constexpr bool& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__useCustomEntitlement() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useCustomEntitlement;
+}
+constexpr bool const& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__useCustomEntitlement() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useCustomEntitlement;
+}
+constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_set__useCustomEntitlement(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useCustomEntitlement = value;
+}
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*>& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__levelsEntitlements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsEntitlements;
@@ -110,6 +136,11 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPl
 inline bool GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_packBetterBuyThanLevel", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_useCustomEntitlement() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_useCustomEntitlement", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_ctor() {

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a24898;
+  constexpr static std::size_t addrs = 0x5b5e568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

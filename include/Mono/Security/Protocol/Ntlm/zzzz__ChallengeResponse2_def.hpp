@@ -34,32 +34,32 @@ public:
   /// @brief Field nullEncMagic, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_nullEncMagic, put = setStaticF_nullEncMagic)) ::ArrayW<uint8_t> nullEncMagic;
 
-  /// @brief Method Compute, addr 0x5961328, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Compute, addr 0x5a99c94, size 0x1e4, virtual false, abstract: false, final false
   static inline void Compute(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain,
                              ::by_ref<::ArrayW<uint8_t>> lm, ::by_ref<::ArrayW<uint8_t>> ntlm);
 
-  /// @brief Method Compute_LM, addr 0x5960300, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Compute_LM, addr 0x5a98c6c, size 0x338, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Compute_LM(::StringW password, ::ArrayW<uint8_t> challenge);
 
-  /// @brief Method Compute_NTLM, addr 0x5960bb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLM, addr 0x5a99524, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Compute_NTLM(::StringW password, ::ArrayW<uint8_t> challenge);
 
-  /// @brief Method Compute_NTLM_Password, addr 0x5960ab0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLM_Password, addr 0x5a9941c, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Compute_NTLM_Password(::StringW password);
 
-  /// @brief Method Compute_NTLMv2, addr 0x5960df4, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLMv2, addr 0x5a99760, size 0x444, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
 
-  /// @brief Method Compute_NTLMv2_Session, addr 0x5960c28, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLMv2_Session, addr 0x5a99594, size 0x1cc, virtual false, abstract: false, final false
   static inline void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t> challenge, ::by_ref<::ArrayW<uint8_t>> lm, ::by_ref<::ArrayW<uint8_t>> ntlm);
 
-  /// @brief Method GetResponse, addr 0x59607ac, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x5a99118, size 0x304, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t> challenge, ::ArrayW<uint8_t> pwd);
 
-  /// @brief Method PasswordToKey, addr 0x5960638, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PasswordToKey, addr 0x5a98fa4, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PasswordToKey(::StringW password, int32_t position);
 
-  /// @brief Method PrepareDESKey, addr 0x596150c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method PrepareDESKey, addr 0x5a99e78, size 0x1fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PrepareDESKey(::ArrayW<uint8_t> key56bits, int32_t position);
 
   static inline ::ArrayW<uint8_t> getStaticF_magic();
@@ -85,7 +85,7 @@ public:
   ChallengeResponse2(ChallengeResponse2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

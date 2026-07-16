@@ -37,7 +37,7 @@ public:
   /// @brief Field _fusionLog, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__fusionLog, put = __cordl_internal_set__fusionLog)) ::StringW _fusionLog;
 
-  /// @brief Method GetObjectData, addr 0x5a73424, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5bad0fc, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::BadImageFormatException* New_ctor();
@@ -50,10 +50,10 @@ public:
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method SetMessageField, addr 0x5a73544, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x5bad21c, size 0x7c, virtual false, abstract: false, final false
   inline void SetMessageField();
 
-  /// @brief Method ToString, addr 0x5a735c0, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5bad298, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__fileName() const;
@@ -68,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set__fusionLog(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a73288, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bacf60, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a73364, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bad03c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5a732e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bacfc0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5a73330, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bad008, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x5a7330c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bacfe4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method get_Message, addr 0x5a7352c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5bad204, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

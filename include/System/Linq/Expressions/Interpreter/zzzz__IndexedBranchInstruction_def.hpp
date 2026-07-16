@@ -39,16 +39,16 @@ public:
   /// @brief Field _labelIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__labelIndex, put = __cordl_internal_set__labelIndex)) int32_t _labelIndex;
 
-  /// @brief Method GetLabel, addr 0x5e4f150, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetLabel, addr 0x5f8a24c, size 0x48, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::RuntimeLabel GetLabel(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction* New_ctor(int32_t labelIndex);
 
-  /// @brief Method ToDebugString, addr 0x5e4f198, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x5f8a294, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x5e4f278, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f8a374, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__labelIndex() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__labelIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5e4f148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8a244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex);
 
 protected:
@@ -75,7 +75,7 @@ public:
   IndexedBranchInstruction(IndexedBranchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16248 };
 
   /// @brief Field _labelIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____labelIndex;

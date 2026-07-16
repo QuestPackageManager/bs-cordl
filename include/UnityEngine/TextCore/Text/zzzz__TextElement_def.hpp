@@ -99,40 +99,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Unicode(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6aa9ec0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfdd78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_elementType, addr 0x6aab670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementType, addr 0x6bff528, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextElementType get_elementType();
 
-  /// @brief Method get_glyph, addr 0x6aab680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyph, addr 0x6bff538, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Glyph* get_glyph();
 
-  /// @brief Method get_glyphIndex, addr 0x6aa8f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x6bfce50, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_scale, addr 0x6aab690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x6bff548, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method get_textAsset, addr 0x6aa7d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textAsset, addr 0x6bfbbe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::TextAsset> get_textAsset();
 
-  /// @brief Method get_unicode, addr 0x6aa6c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unicode, addr 0x6bfaad0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_unicode();
 
-  /// @brief Method set_glyph, addr 0x6aa8fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyph, addr 0x6bfce58, size 0x8, virtual false, abstract: false, final false
   inline void set_glyph(::UnityEngine::TextCore::Glyph* value);
 
-  /// @brief Method set_glyphIndex, addr 0x6aab688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x6bff540, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method set_scale, addr 0x6aab698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x6bff550, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
-  /// @brief Method set_textAsset, addr 0x6aa8fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textAsset, addr 0x6bfce60, size 0x8, virtual false, abstract: false, final false
   inline void set_textAsset(::UnityEngine::TextCore::Text::TextAsset* value);
 
-  /// @brief Method set_unicode, addr 0x6aab678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unicode, addr 0x6bff530, size 0x8, virtual false, abstract: false, final false
   inline void set_unicode(uint32_t value);
 
 protected:
@@ -150,7 +150,7 @@ public:
   TextElement(TextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17213 };
 
   /// @brief Field m_ElementType, offset: 0x10, size: 0x1, def value: None
   ::UnityEngine::TextCore::Text::TextElementType ___m_ElementType;

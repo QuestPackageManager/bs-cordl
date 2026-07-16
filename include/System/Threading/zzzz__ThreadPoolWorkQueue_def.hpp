@@ -126,21 +126,21 @@ public:
   /// @brief Field m_tailIndex, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_tailIndex, put = __cordl_internal_set_m_tailIndex)) int32_t m_tailIndex;
 
-  /// @brief Method LocalFindAndPop, addr 0x5b78fa0, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method LocalFindAndPop, addr 0x5cb3124, size 0x328, virtual false, abstract: false, final false
   inline bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* obj);
 
-  /// @brief Method LocalPop, addr 0x5b79490, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method LocalPop, addr 0x5cb3614, size 0x2e4, virtual false, abstract: false, final false
   inline bool LocalPop(::by_ref<::System::Threading::IThreadPoolWorkItem*> obj);
 
-  /// @brief Method LocalPush, addr 0x5b7899c, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method LocalPush, addr 0x5cb2b20, size 0x4c4, virtual false, abstract: false, final false
   inline void LocalPush(::System::Threading::IThreadPoolWorkItem* obj);
 
   static inline ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* New_ctor();
 
-  /// @brief Method TrySteal, addr 0x5b798d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TrySteal, addr 0x5cb3a58, size 0x8, virtual false, abstract: false, final false
   inline bool TrySteal(::by_ref<::System::Threading::IThreadPoolWorkItem*> obj, ::by_ref<bool> missedSteal);
 
-  /// @brief Method TrySteal, addr 0x5b79ccc, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method TrySteal, addr 0x5cb3e50, size 0x2a4, virtual false, abstract: false, final false
   inline bool TrySteal(::by_ref<::System::Threading::IThreadPoolWorkItem*> obj, ::by_ref<bool> missedSteal, int32_t millisecondsTimeout);
 
   constexpr ::ArrayW<::System::Threading::IThreadPoolWorkItem*> const& __cordl_internal_get_m_array() const;
@@ -173,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set_m_tailIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b79f70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb40f4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,21 +240,21 @@ public:
   /// @brief Field nodes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nodes, put = __cordl_internal_set_nodes)) ::ArrayW<::System::Threading::IThreadPoolWorkItem*> nodes;
 
-  /// @brief Method CompareExchangeIndexes, addr 0x5b79ffc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CompareExchangeIndexes, addr 0x5cb4180, size 0x60, virtual false, abstract: false, final false
   inline bool CompareExchangeIndexes(::by_ref<int32_t> prevUpper, int32_t newUpper, ::by_ref<int32_t> prevLower, int32_t newLower);
 
-  /// @brief Method GetIndexes, addr 0x5b79fe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetIndexes, addr 0x5cb4164, size 0x1c, virtual false, abstract: false, final false
   inline void GetIndexes(::by_ref<int32_t> upper, ::by_ref<int32_t> lower);
 
-  /// @brief Method IsUsedUp, addr 0x5b798a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsUsedUp, addr 0x5cb3a28, size 0x30, virtual false, abstract: false, final false
   inline bool IsUsedUp();
 
   static inline ::System::Threading::ThreadPoolWorkQueue_QueueSegment* New_ctor();
 
-  /// @brief Method TryDequeue, addr 0x5b79774, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x5cb38f8, size 0x130, virtual false, abstract: false, final false
   inline bool TryDequeue(::by_ref<::System::Threading::IThreadPoolWorkItem*> node);
 
-  /// @brief Method TryEnqueue, addr 0x5b78e60, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryEnqueue, addr 0x5cb2fe4, size 0xa4, virtual false, abstract: false, final false
   inline bool TryEnqueue(::System::Threading::IThreadPoolWorkItem* node);
 
   constexpr ::System::Threading::ThreadPoolWorkQueue_QueueSegment* const& __cordl_internal_get_Next() const;
@@ -275,7 +275,7 @@ public:
 
   constexpr void __cordl_internal_set_nodes(::ArrayW<::System::Threading::IThreadPoolWorkItem*> value);
 
-  /// @brief Method .ctor, addr 0x5b784e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb266c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -342,25 +342,25 @@ public:
   /// @brief Field queueTail, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_queueTail, put = __cordl_internal_set_queueTail)) ::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueTail;
 
-  /// @brief Method Dequeue, addr 0x5b792c8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x5cb344c, size 0x1c8, virtual false, abstract: false, final false
   inline void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ::by_ref<::System::Threading::IThreadPoolWorkItem*> callback, ::by_ref<bool> missedSteal);
 
-  /// @brief Method Dispatch, addr 0x5b798dc, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x5cb3a60, size 0x338, virtual false, abstract: false, final false
   static inline bool Dispatch();
 
-  /// @brief Method Enqueue, addr 0x5b78850, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x5cb29d4, size 0x14c, virtual false, abstract: false, final false
   inline void Enqueue(::System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
 
-  /// @brief Method EnsureCurrentThreadHasQueue, addr 0x5b78534, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method EnsureCurrentThreadHasQueue, addr 0x5cb26c0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
 
-  /// @brief Method EnsureThreadRequested, addr 0x5b78740, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method EnsureThreadRequested, addr 0x5cb28c4, size 0xa0, virtual false, abstract: false, final false
   inline void EnsureThreadRequested();
 
-  /// @brief Method LocalFindAndPop, addr 0x5b78f08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LocalFindAndPop, addr 0x5cb308c, size 0x98, virtual false, abstract: false, final false
   inline bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* callback);
 
-  /// @brief Method MarkThreadRequestSatisfied, addr 0x5b78804, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MarkThreadRequestSatisfied, addr 0x5cb2988, size 0x4c, virtual false, abstract: false, final false
   inline void MarkThreadRequestSatisfied();
 
   static inline ::System::Threading::ThreadPoolWorkQueue* New_ctor();
@@ -383,7 +383,7 @@ public:
 
   constexpr void __cordl_internal_set_queueTail(::System::Threading::ThreadPoolWorkQueue_QueueSegment* value);
 
-  /// @brief Method .ctor, addr 0x5b7847c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb2608, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>* getStaticF_allThreadQueues();

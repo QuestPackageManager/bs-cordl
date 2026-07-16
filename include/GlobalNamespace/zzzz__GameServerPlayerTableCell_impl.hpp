@@ -7,6 +7,7 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayerTableCell_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayerTableCell_def.hpp"
@@ -17,7 +18,6 @@
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__ButtonSpriteSwapToggle_def.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cc0b0;
+  constexpr static std::size_t addrs = 0x5940d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::*)(int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(
     &::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::_SetData_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x58cc3cc;
+  constexpr static std::size_t addrs = 0x594102c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::MoveNext)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x58cc44c;
+  constexpr static std::size_t addrs = 0x59410ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cc978;
+  constexpr static std::size_t addrs = 0x59415d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58cb0ec;
+  constexpr static std::size_t addrs = 0x5940218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58cb1ac;
+  constexpr static std::size_t addrs = 0x5940158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_useBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58cb26c;
+  constexpr static std::size_t addrs = 0x5940398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_useBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58cb32c;
+  constexpr static std::size_t addrs = 0x59402d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_useModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58cb3ec;
+  constexpr static std::size_t addrs = 0x5940518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_useModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58cb4ac;
+  constexpr static std::size_t addrs = 0x5940458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,8 +248,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::ILobbyPlayerData*, bool, bool,
                                                                                                               ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::SetData)> {
-  constexpr static std::size_t size = 0xb44;
-  constexpr static std::size_t addrs = 0x58cb56c;
+  constexpr static std::size_t size = 0xb20;
+  constexpr static std::size_t addrs = 0x593f638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::Awake)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x58cc164;
+  constexpr static std::size_t addrs = 0x5940dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::HandleKickPlayerButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58cc30c;
+  constexpr static std::size_t addrs = 0x5940f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::HandleUseBeatmapButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58cc32c;
+  constexpr static std::size_t addrs = 0x5940f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::HandleUseModifiersButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58cc34c;
+  constexpr static std::size_t addrs = 0x5940fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58cc0b4;
+  constexpr static std::size_t addrs = 0x5940d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58cc36c;
+  constexpr static std::size_t addrs = 0x5940fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServerPlayerTableCell*>(), { ".ctor", {}, {} })));
@@ -436,18 +436,6 @@ constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emptySuggestedModifiersText = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__mutePlayerButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mutePlayerButton;
-}
-constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__mutePlayerButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mutePlayerButton;
-}
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__mutePlayerButton(::UnityW<::UnityEngine::UI::Button> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____mutePlayerButton = value;
-}
 constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__kickPlayerButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kickPlayerButton;
@@ -495,18 +483,6 @@ constexpr ::UnityW<::HMUI::HoverHint> const& GlobalNamespace::GameServerPlayerTa
 constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__useBeatmapButtonHoverHint(::UnityW<::HMUI::HoverHint> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useBeatmapButtonHoverHint = value;
-}
-constexpr ::UnityW<::HMUI::ButtonSpriteSwapToggle>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__muteToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____muteToggle;
-}
-constexpr ::UnityW<::HMUI::ButtonSpriteSwapToggle> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__muteToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____muteToggle;
-}
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__muteToggle(::UnityW<::HMUI::ButtonSpriteSwapToggle> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____muteToggle = value;
 }
 constexpr ::UnityW<::HMUI::ImageView>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__statusImageView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -579,6 +555,18 @@ constexpr ::GlobalNamespace::BeatmapLevelsModel* const& GlobalNamespace::GameSer
 constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapLevelsModel = value;
+}
+constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__beatmapCharacteristicCollection() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCharacteristicCollection;
+}
+constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__beatmapCharacteristicCollection() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCharacteristicCollection;
+}
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapCharacteristicCollection = value;
 }
 constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_kickPlayerEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

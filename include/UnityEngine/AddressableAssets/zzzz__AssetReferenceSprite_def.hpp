@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset, addr 0x631df70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x645ab90, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x631def8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645ab18, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:
@@ -46,7 +46,7 @@ public:
   AssetReferenceSprite(AssetReferenceSprite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

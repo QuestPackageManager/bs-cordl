@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1_MonoScriptData (*)()>(
     &::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::Get)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31f35dc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5f3e320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1*>(), { "Get", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::*)()>(
     &::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31f3698;
+  constexpr static std::size_t addrs = 0x5f3e3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

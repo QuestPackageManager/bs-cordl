@@ -36,19 +36,19 @@ namespace Mono {
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {
 public:
   // Declarations
-  /// @brief Method Import, addr 0x5e8fb04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x5fcac00, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method Import, addr 0x5e8fb00, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x5fcabfc, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Import, addr 0x5e8fafc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x5fcabf8, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> data);
 
   static inline ::Mono::X509PalImplMono* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e8f0d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fca1d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   X509PalImplMono(X509PalImplMono const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

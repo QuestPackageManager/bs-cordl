@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31c60b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325963c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +40,7 @@ public:
   BeatmapDataItemExecutionOrderConstants(BeatmapDataItemExecutionOrderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21190 };
 
   /// @brief Field kBPMChangeBeatmapEventExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kBPMChangeBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffbb4) };

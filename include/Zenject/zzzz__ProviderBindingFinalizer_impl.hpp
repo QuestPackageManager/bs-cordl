@@ -20,36 +20,49 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer___c::*)()>(&::Zenject::ProviderBindingFinalizer___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d0ee6c;
+  constexpr static std::size_t addrs = 0x6e63a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::ProviderBindingFinalizer___c._GetScope_b__7_0
+//  Writing Method size for method: ::Zenject::ProviderBindingFinalizer___c._GetScope_b__8_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::ProviderBindingFinalizer___c::*)(::System::Type*)>(&::Zenject::ProviderBindingFinalizer___c::_GetScope_b__7_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::ProviderBindingFinalizer___c::*)(::System::Type*)>(&::Zenject::ProviderBindingFinalizer___c::_GetScope_b__8_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d0ee70;
+  constexpr static std::size_t addrs = 0x6e63a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<GetScope>b__7_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<GetScope>b__8_0", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::ProviderBindingFinalizer___c._FinalizeBinding_b__8_0
+//  Writing Method size for method: ::Zenject::ProviderBindingFinalizer___c._FinalizeBinding_b__9_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::ProviderBindingFinalizer___c::*)(::System::Type*)>(&::Zenject::ProviderBindingFinalizer___c::_FinalizeBinding_b__8_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::ProviderBindingFinalizer___c::*)(::System::Type*)>(&::Zenject::ProviderBindingFinalizer___c::_FinalizeBinding_b__9_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d0eecc;
+  constexpr static std::size_t addrs = 0x6e63a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<FinalizeBinding>b__8_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<FinalizeBinding>b__9_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::ProviderBindingFinalizer___c._FinalizeBinding_b__9_1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::ProviderBindingFinalizer___c::*)(::System::Type*)>(&::Zenject::ProviderBindingFinalizer___c::_FinalizeBinding_b__9_1)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6e63ac0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<FinalizeBinding>b__9_1", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
@@ -58,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::ProviderBindingFinalizer___c::__zenCreate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d0ef28;
+  constexpr static std::size_t addrs = 0x6e63b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ProviderBindingFinalizer___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6d0ef6c;
+  constexpr static std::size_t addrs = 0x6e63b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
@@ -84,13 +97,6 @@ inline void Zenject::ProviderBindingFinalizer___c::setStaticF___9(::Zenject::Pro
 inline ::Zenject::ProviderBindingFinalizer___c* Zenject::ProviderBindingFinalizer___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::ProviderBindingFinalizer___c*, "<>9", ::Zenject::ProviderBindingFinalizer___c*>();
 }
-inline void Zenject::ProviderBindingFinalizer___c::setStaticF___9__7_0(::System::Func_2<::System::Type*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__7_0", ::Zenject::ProviderBindingFinalizer___c*>(
-      std::forward<::System::Func_2<::System::Type*, ::StringW>*>(value));
-}
-inline ::System::Func_2<::System::Type*, ::StringW>* Zenject::ProviderBindingFinalizer___c::getStaticF___9__7_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__7_0", ::Zenject::ProviderBindingFinalizer___c*>();
-}
 inline void Zenject::ProviderBindingFinalizer___c::setStaticF___9__8_0(::System::Func_2<::System::Type*, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__8_0", ::Zenject::ProviderBindingFinalizer___c*>(
       std::forward<::System::Func_2<::System::Type*, ::StringW>*>(value));
@@ -98,18 +104,37 @@ inline void Zenject::ProviderBindingFinalizer___c::setStaticF___9__8_0(::System:
 inline ::System::Func_2<::System::Type*, ::StringW>* Zenject::ProviderBindingFinalizer___c::getStaticF___9__8_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__8_0", ::Zenject::ProviderBindingFinalizer___c*>();
 }
+inline void Zenject::ProviderBindingFinalizer___c::setStaticF___9__9_0(::System::Func_2<::System::Type*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__9_0", ::Zenject::ProviderBindingFinalizer___c*>(
+      std::forward<::System::Func_2<::System::Type*, ::StringW>*>(value));
+}
+inline ::System::Func_2<::System::Type*, ::StringW>* Zenject::ProviderBindingFinalizer___c::getStaticF___9__9_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__9_0", ::Zenject::ProviderBindingFinalizer___c*>();
+}
+inline void Zenject::ProviderBindingFinalizer___c::setStaticF___9__9_1(::System::Func_2<::System::Type*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__9_1", ::Zenject::ProviderBindingFinalizer___c*>(
+      std::forward<::System::Func_2<::System::Type*, ::StringW>*>(value));
+}
+inline ::System::Func_2<::System::Type*, ::StringW>* Zenject::ProviderBindingFinalizer___c::getStaticF___9__9_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, ::StringW>*, "<>9__9_1", ::Zenject::ProviderBindingFinalizer___c*>();
+}
 inline void Zenject::ProviderBindingFinalizer___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW Zenject::ProviderBindingFinalizer___c::_GetScope_b__7_0(::System::Type* x) {
+inline ::StringW Zenject::ProviderBindingFinalizer___c::_GetScope_b__8_0(::System::Type* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<GetScope>b__7_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<GetScope>b__8_0", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
 }
-inline ::StringW Zenject::ProviderBindingFinalizer___c::_FinalizeBinding_b__8_0(::System::Type* x) {
+inline ::StringW Zenject::ProviderBindingFinalizer___c::_FinalizeBinding_b__9_0(::System::Type* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<FinalizeBinding>b__8_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<FinalizeBinding>b__9_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
+}
+inline ::StringW Zenject::ProviderBindingFinalizer___c::_FinalizeBinding_b__9_1(::System::Type* x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer___c*>(), { "<FinalizeBinding>b__9_1", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
 }
 inline ::System::Object* Zenject::ProviderBindingFinalizer___c::__zenCreate(::ArrayW<::System::Object*> P_0) {
@@ -131,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer::*)(::Zenject::BindInfo*)>(&::Zenject::ProviderBindingFinalizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d0b62c;
+  constexpr static std::size_t addrs = 0x6e5fd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindingInheritanceMethods (::Zenject::ProviderBindingFinalizer::*)()>(
     &::Zenject::ProviderBindingFinalizer::get_BindingInheritanceMethod)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d0e0b4;
+  constexpr static std::size_t addrs = 0x6e627d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "get_BindingInheritanceMethod", {}, {} })));
@@ -157,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindInfo* (::Zenject::ProviderBindingFinalizer::*)()>(&::Zenject::ProviderBindingFinalizer::get_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d0e0cc;
+  constexpr static std::size_t addrs = 0x6e627e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "get_BindInfo", {}, {} })));
@@ -169,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer::*)(::Zenject::BindInfo*)>(&::Zenject::ProviderBindingFinalizer::set_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d0e0d4;
+  constexpr static std::size_t addrs = 0x6e627f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeTypes (::Zenject::ProviderBindingFinalizer::*)()>(&::Zenject::ProviderBindingFinalizer::GetScope)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6d0bcf8;
+  constexpr static std::size_t addrs = 0x6e60414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "GetScope", {}, {} })));
@@ -193,12 +218,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeTypes (::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer::*)(::Zenject::DiContainer*)>(&::Zenject::ProviderBindingFinalizer::FinalizeBinding)> {
-  constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x6d0e0dc;
+  constexpr static std::size_t size = 0x5b0;
+  constexpr static std::size_t addrs = 0x6e627f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "FinalizeBinding", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::ProviderBindingFinalizer.ShouldSkipDisposableForIfNotBound
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ProviderBindingFinalizer::*)(::Zenject::DiContainer*)>(
+    &::Zenject::ProviderBindingFinalizer::ShouldSkipDisposableForIfNotBound)> {
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x6e62da8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "ShouldSkipDisposableForIfNotBound", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -220,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer::*)(::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*)>(
     &::Zenject::ProviderBindingFinalizer::RegisterProvider)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x6d0e448;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x6e62f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer::*)(
     ::Zenject::DiContainer*, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*)>(&::Zenject::ProviderBindingFinalizer::RegisterProviderPerContract)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6d0c3ec;
+  constexpr static std::size_t addrs = 0x6e60b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProviderBindingFinalizer::*)(::Zenject::DiContainer*, ::Zenject::IProvider*)>(
     &::Zenject::ProviderBindingFinalizer::RegisterProviderForAllContracts)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6d0e880;
+  constexpr static std::size_t addrs = 0x6e63418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +310,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Provider
                                                                                                      ::System::Func_3<::System::Type*, ::System::Type*, ::Zenject::IProvider*>*)>(
     &::Zenject::ProviderBindingFinalizer::RegisterProvidersPerContractAndConcreteType)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6d0ea1c;
+  constexpr static std::size_t addrs = 0x6e635b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ProviderBindingFinalizer::*)(::System::Type*, ::System::Type*)>(&::Zenject::ProviderBindingFinalizer::ValidateBindTypes)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6d0ec38;
+  constexpr static std::size_t addrs = 0x6e637d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(),
@@ -303,7 +342,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Provider
                                                                                                      ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*)>(
     &::Zenject::ProviderBindingFinalizer::RegisterProvidersForAllContractsPerConcreteType)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x6d0bf64;
+  constexpr static std::size_t addrs = 0x6e60680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,6 +354,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Provider
     return ___internal_method;
   }
 };
+constexpr bool& Zenject::ProviderBindingFinalizer::__cordl_internal_get__skipDisposableForIfNotBound() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____skipDisposableForIfNotBound;
+}
+constexpr bool const& Zenject::ProviderBindingFinalizer::__cordl_internal_get__skipDisposableForIfNotBound() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____skipDisposableForIfNotBound;
+}
+constexpr void Zenject::ProviderBindingFinalizer::__cordl_internal_set__skipDisposableForIfNotBound(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____skipDisposableForIfNotBound = value;
+}
 constexpr ::Zenject::BindInfo*& Zenject::ProviderBindingFinalizer::__cordl_internal_get__BindInfo_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BindInfo_k__BackingField;
@@ -353,6 +404,11 @@ inline void Zenject::ProviderBindingFinalizer::FinalizeBinding(::Zenject::DiCont
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "FinalizeBinding", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline bool Zenject::ProviderBindingFinalizer::ShouldSkipDisposableForIfNotBound(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), { "ShouldSkipDisposableForIfNotBound", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, container);
 }
 inline void Zenject::ProviderBindingFinalizer::OnFinalizeBinding(::Zenject::DiContainer* container) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::ProviderBindingFinalizer*>(), 6 })));

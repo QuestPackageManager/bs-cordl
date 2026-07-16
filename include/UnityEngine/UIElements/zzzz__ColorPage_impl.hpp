@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ColorPage (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::ColorPage::Init)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c7dab8;
+  constexpr static std::size_t addrs = 0x6dd1970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage (::UnityEngine::UIElements::ColorPage::*)()>(
     &::UnityEngine::UIElements::ColorPage::ToNativeColorPage)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7db54;
+  constexpr static std::size_t addrs = 0x6dd1a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ColorPage>(), { "ToNativeColorPage", {}, {} })));

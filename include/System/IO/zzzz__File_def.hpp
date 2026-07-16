@@ -58,94 +58,94 @@ namespace System::IO {
 class CORDL_TYPE File : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendText, addr 0x5acb974, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AppendText, addr 0x5c0564c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::IO::StreamWriter* AppendText(::StringW path);
 
-  /// @brief Method Create, addr 0x5acba20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5c056f8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IO::FileStream* Create(::StringW path);
 
-  /// @brief Method Create, addr 0x5acba28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5c05700, size 0x88, virtual false, abstract: false, final false
   static inline ::System::IO::FileStream* Create(::StringW path, int32_t bufferSize);
 
-  /// @brief Method CreateText, addr 0x5acb8c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x5c055a0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::IO::StreamWriter* CreateText(::StringW path);
 
-  /// @brief Method Delete, addr 0x5acbab0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x5c05788, size 0xac, virtual false, abstract: false, final false
   static inline void Delete(::StringW path);
 
-  /// @brief Method Exists, addr 0x5abe4b4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x5bf818c, size 0x1c4, virtual false, abstract: false, final false
   static inline bool Exists(::StringW path);
 
-  /// @brief Method GetAccessControl, addr 0x5acd954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAccessControl, addr 0x5c0762c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::FileSecurity* GetAccessControl(::StringW path);
 
-  /// @brief Method GetAccessControl, addr 0x5acd95c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAccessControl, addr 0x5c07634, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::FileSecurity* GetAccessControl(::StringW path, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method GetAttributes, addr 0x5acbc08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x5c058e0, size 0x60, virtual false, abstract: false, final false
   static inline ::System::IO::FileAttributes GetAttributes(::StringW path);
 
-  /// @brief Method InternalReadAllLines, addr 0x5accecc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method InternalReadAllLines, addr 0x5c06ba4, size 0x268, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> InternalReadAllLines(::StringW path, ::System::Text::Encoding* encoding);
 
-  /// @brief Method InternalReadAllText, addr 0x5acbe24, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InternalReadAllText, addr 0x5c05afc, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW InternalReadAllText(::StringW path, ::System::Text::Encoding* encoding);
 
-  /// @brief Method InternalWriteAllBytes, addr 0x5accc80, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteAllBytes, addr 0x5c06958, size 0x188, virtual false, abstract: false, final false
   static inline void InternalWriteAllBytes(::StringW path, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method InternalWriteAllLines, addr 0x5acd264, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteAllLines, addr 0x5c06f3c, size 0x388, virtual false, abstract: false, final false
   static inline void InternalWriteAllLines(::System::IO::TextWriter* writer, ::System::Collections::Generic::IEnumerable_1<::StringW>* contents);
 
-  /// @brief Method Move, addr 0x5acd720, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x5c073f8, size 0x234, virtual false, abstract: false, final false
   static inline void Move(::StringW sourceFileName, ::StringW destFileName);
 
-  /// @brief Method Open, addr 0x5acbb5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x5c05834, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IO::FileStream* Open(::StringW path, ::System::IO::FileMode mode);
 
-  /// @brief Method Open, addr 0x5acbb70, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x5c05848, size 0x98, virtual false, abstract: false, final false
   static inline ::System::IO::FileStream* Open(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share);
 
-  /// @brief Method OpenRead, addr 0x5acbc68, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OpenRead, addr 0x5c05940, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IO::FileStream* OpenRead(::StringW path);
 
-  /// @brief Method OpenText, addr 0x5acb808, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OpenText, addr 0x5c054e0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::IO::StreamReader* OpenText(::StringW path);
 
-  /// @brief Method OpenWrite, addr 0x5acbce4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OpenWrite, addr 0x5c059bc, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IO::FileStream* OpenWrite(::StringW path);
 
-  /// @brief Method ReadAllBytes, addr 0x5acc3d4, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytes, addr 0x5c060ac, size 0x2a4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadAllBytes(::StringW path);
 
-  /// @brief Method ReadAllBytesUnknownLength, addr 0x5acc678, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytesUnknownLength, addr 0x5c06350, size 0x50c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadAllBytesUnknownLength(::System::IO::FileStream* fs);
 
-  /// @brief Method ReadAllLines, addr 0x5acce08, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllLines, addr 0x5c06ae0, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> ReadAllLines(::StringW path);
 
-  /// @brief Method ReadAllText, addr 0x5acbd60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllText, addr 0x5c05a38, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW ReadAllText(::StringW path);
 
-  /// @brief Method Replace, addr 0x5acd5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x5c072c4, size 0x8, virtual false, abstract: false, final false
   static inline void Replace(::StringW sourceFileName, ::StringW destinationFileName, ::StringW destinationBackupFileName);
 
-  /// @brief Method Replace, addr 0x5acd5f4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x5c072cc, size 0x12c, virtual false, abstract: false, final false
   static inline void Replace(::StringW sourceFileName, ::StringW destinationFileName, ::StringW destinationBackupFileName, bool ignoreMetadataErrors);
 
-  /// @brief Method WriteAllBytes, addr 0x5accb84, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method WriteAllBytes, addr 0x5c0685c, size 0xfc, virtual false, abstract: false, final false
   static inline void WriteAllBytes(::StringW path, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteAllLines, addr 0x5acd134, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteAllLines, addr 0x5c06e0c, size 0x4, virtual false, abstract: false, final false
   static inline void WriteAllLines(::StringW path, ::ArrayW<::StringW> contents);
 
-  /// @brief Method WriteAllLines, addr 0x5acd138, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method WriteAllLines, addr 0x5c06e10, size 0x12c, virtual false, abstract: false, final false
   static inline void WriteAllLines(::StringW path, ::System::Collections::Generic::IEnumerable_1<::StringW>* contents);
 
-  /// @brief Method WriteAllText, addr 0x5acbfa0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method WriteAllText, addr 0x5c05c78, size 0x200, virtual false, abstract: false, final false
   static inline void WriteAllText(::StringW path, ::StringW contents);
 
-  /// @brief Method WriteAllText, addr 0x5acc1a0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method WriteAllText, addr 0x5c05e78, size 0x234, virtual false, abstract: false, final false
   static inline void WriteAllText(::StringW path, ::StringW contents, ::System::Text::Encoding* encoding);
 
 protected:

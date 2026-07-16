@@ -70,7 +70,7 @@ public:
   inline ::System::Reflection::PropertyInfo* SelectProperty(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::PropertyInfo*> match, ::System::Type* returnType,
                                                             ::ArrayW<::System::Type*> indexes, ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
-  /// @brief Method .ctor, addr 0x5a419e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7b6b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

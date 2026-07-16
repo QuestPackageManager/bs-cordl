@@ -141,55 +141,55 @@ public:
   /// @brief Method GetIndexData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetIndexData();
 
-  /// @brief Method GetIndexDataPtr, addr 0x695dd90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIndexDataPtr, addr 0x6ab10d4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetIndexDataPtr(::System::IntPtr self);
 
-  /// @brief Method GetIndexDataSize, addr 0x695ddcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIndexDataSize, addr 0x6ab1110, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetIndexDataSize(::System::IntPtr self);
 
-  /// @brief Method GetVertexBufferCount, addr 0x695dccc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferCount, addr 0x6ab1010, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVertexBufferCount(::System::IntPtr self);
 
   /// @brief Method GetVertexData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetVertexData(int32_t stream);
 
-  /// @brief Method GetVertexDataPtr, addr 0x695dd08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexDataPtr, addr 0x6ab104c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexDataPtr(::System::IntPtr self, int32_t stream);
 
-  /// @brief Method GetVertexDataSize, addr 0x695dd4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexDataSize, addr 0x6ab1090, size 0x44, virtual false, abstract: false, final false
   static inline uint64_t GetVertexDataSize(::System::IntPtr self, int32_t stream);
 
-  /// @brief Method SetIndexBufferParams, addr 0x695e0cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetIndexBufferParams, addr 0x6ab1410, size 0x54, virtual false, abstract: false, final false
   inline void SetIndexBufferParams(int32_t indexCount, ::UnityEngine::Rendering::IndexFormat format);
 
-  /// @brief Method SetIndexBufferParamsImpl, addr 0x695df38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetIndexBufferParamsImpl, addr 0x6ab127c, size 0x54, virtual false, abstract: false, final false
   static inline void SetIndexBufferParamsImpl(::System::IntPtr self, int32_t indexCount, ::UnityEngine::Rendering::IndexFormat indexFormat);
 
-  /// @brief Method SetSubMesh, addr 0x695e164, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSubMesh, addr 0x6ab14a8, size 0x74, virtual false, abstract: false, final false
   inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMeshCount, addr 0x695df8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshCount, addr 0x6ab12d0, size 0x44, virtual false, abstract: false, final false
   static inline void SetSubMeshCount(::System::IntPtr self, int32_t count);
 
-  /// @brief Method SetSubMeshImpl, addr 0x695dfd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshImpl, addr 0x6ab1314, size 0x5c, virtual false, abstract: false, final false
   static inline void SetSubMeshImpl(::System::IntPtr self, int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMeshImpl_Injected, addr 0x695e02c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshImpl_Injected, addr 0x6ab1370, size 0x5c, virtual false, abstract: false, final false
   static inline void SetSubMeshImpl_Injected(::System::IntPtr self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetVertexBufferParams, addr 0x695e0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParams, addr 0x6ab1408, size 0x8, virtual false, abstract: false, final false
   inline void SetVertexBufferParams(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method SetVertexBufferParamsFromArray, addr 0x695de08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParamsFromArray, addr 0x6ab114c, size 0xdc, virtual false, abstract: false, final false
   static inline void SetVertexBufferParamsFromArray(::System::IntPtr self, int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method SetVertexBufferParamsFromArray_Injected, addr 0x695dee4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParamsFromArray_Injected, addr 0x6ab1228, size 0x54, virtual false, abstract: false, final false
   static inline void SetVertexBufferParamsFromArray_Injected(::System::IntPtr self, int32_t vertexCount, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes);
 
-  /// @brief Method get_vertexBufferCount, addr 0x695e088, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferCount, addr 0x6ab13cc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_vertexBufferCount();
 
-  /// @brief Method set_subMeshCount, addr 0x695e120, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshCount, addr 0x6ab1464, size 0x44, virtual false, abstract: false, final false
   inline void set_subMeshCount(int32_t value);
 
   // Ctor Parameters []
@@ -200,7 +200,7 @@ public:
   constexpr Mesh_MeshData(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -230,70 +230,70 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AcquireMeshDataCopy, addr 0x695e3b8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AcquireMeshDataCopy, addr 0x6ab16fc, size 0xb4, virtual false, abstract: false, final false
   static inline void AcquireMeshDataCopy(::UnityEngine::Mesh* mesh, ::System::IntPtr* datas);
 
-  /// @brief Method AcquireMeshDataCopy_Injected, addr 0x695e46c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AcquireMeshDataCopy_Injected, addr 0x6ab17b0, size 0x44, virtual false, abstract: false, final false
   static inline void AcquireMeshDataCopy_Injected(::System::IntPtr mesh, ::System::IntPtr* datas);
 
-  /// @brief Method AcquireMeshDatasCopy, addr 0x695e4b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AcquireMeshDatasCopy, addr 0x6ab17f4, size 0x94, virtual false, abstract: false, final false
   static inline void AcquireMeshDatasCopy(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count);
 
-  /// @brief Method AcquireMeshDatasCopy_Injected, addr 0x695e544, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AcquireMeshDatasCopy_Injected, addr 0x6ab1888, size 0x54, virtual false, abstract: false, final false
   static inline void AcquireMeshDatasCopy_Injected(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count);
 
-  /// @brief Method AcquireReadOnlyMeshData, addr 0x695e1d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshData, addr 0x6ab151c, size 0xb4, virtual false, abstract: false, final false
   static inline void AcquireReadOnlyMeshData(::UnityEngine::Mesh* mesh, ::System::IntPtr* datas);
 
-  /// @brief Method AcquireReadOnlyMeshData_Injected, addr 0x695e28c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshData_Injected, addr 0x6ab15d0, size 0x44, virtual false, abstract: false, final false
   static inline void AcquireReadOnlyMeshData_Injected(::System::IntPtr mesh, ::System::IntPtr* datas);
 
-  /// @brief Method AcquireReadOnlyMeshDatas, addr 0x695e2d0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshDatas, addr 0x6ab1614, size 0x94, virtual false, abstract: false, final false
   static inline void AcquireReadOnlyMeshDatas(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count);
 
-  /// @brief Method AcquireReadOnlyMeshDatas_Injected, addr 0x695e364, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshDatas_Injected, addr 0x6ab16a8, size 0x54, virtual false, abstract: false, final false
   static inline void AcquireReadOnlyMeshDatas_Injected(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count);
 
-  /// @brief Method ApplyToMeshAndDispose, addr 0x695a684, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ApplyToMeshAndDispose, addr 0x6aad9c8, size 0xc8, virtual false, abstract: false, final false
   inline void ApplyToMeshAndDispose(::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyToMeshImpl, addr 0x695e720, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyToMeshImpl, addr 0x6ab1a64, size 0xbc, virtual false, abstract: false, final false
   static inline void ApplyToMeshImpl(::UnityEngine::Mesh* mesh, ::System::IntPtr data, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyToMeshImpl_Injected, addr 0x695e7dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyToMeshImpl_Injected, addr 0x6ab1b20, size 0x54, virtual false, abstract: false, final false
   static inline void ApplyToMeshImpl_Injected(::System::IntPtr mesh, ::System::IntPtr data, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyToMeshesAndDispose, addr 0x695a88c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ApplyToMeshesAndDispose, addr 0x6aadbd0, size 0x1d8, virtual false, abstract: false, final false
   inline void ApplyToMeshesAndDispose(::ArrayW<::UnityEngine::Mesh*> meshes, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyToMeshesImpl, addr 0x695e620, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ApplyToMeshesImpl, addr 0x6ab1964, size 0xa4, virtual false, abstract: false, final false
   static inline void ApplyToMeshesImpl(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyToMeshesImpl_Injected, addr 0x695e6c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ApplyToMeshesImpl_Injected, addr 0x6ab1a08, size 0x5c, virtual false, abstract: false, final false
   static inline void ApplyToMeshesImpl_Injected(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method CreateNewMeshDatas, addr 0x695e5dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateNewMeshDatas, addr 0x6ab1920, size 0x44, virtual false, abstract: false, final false
   static inline void CreateNewMeshDatas(::System::IntPtr* datas, int32_t count);
 
-  /// @brief Method Dispose, addr 0x695e844, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ab1b88, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ReleaseMeshDatas, addr 0x695e598, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMeshDatas, addr 0x6ab18dc, size 0x44, virtual false, abstract: false, final false
   static inline void ReleaseMeshDatas(::System::IntPtr* datas, int32_t count);
 
-  /// @brief Method .ctor, addr 0x6959b48, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aace8c, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, bool checkReadWrite, bool createAsCopy);
 
-  /// @brief Method .ctor, addr 0x6959e18, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aad15c, size 0x2cc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Mesh*> meshes, int32_t meshesCount, bool checkReadWrite, bool createAsCopy);
 
-  /// @brief Method .ctor, addr 0x695a1fc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aad540, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshesCount);
 
-  /// @brief Method get_Item, addr 0x695e838, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6ab1b7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Mesh_MeshData get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x695e830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x6ab1b74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"
@@ -307,7 +307,7 @@ public:
   constexpr Mesh_MeshDataArray(::System::IntPtr* m_Ptrs, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -397,117 +397,117 @@ public:
 
   __declspec(property(get = get_vertices, put = set_vertices)) ::ArrayW<::UnityEngine::Vector3> vertices;
 
-  /// @brief Method AcquireReadOnlyMeshData, addr 0x6959b18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshData, addr 0x6aace5c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AcquireReadOnlyMeshData(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method AcquireReadOnlyMeshData, addr 0x6959d7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshData, addr 0x6aad0c0, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AcquireReadOnlyMeshData(::ArrayW<::UnityEngine::Mesh*> meshes);
 
-  /// @brief Method AcquireReadOnlyMeshData, addr 0x695a0e4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AcquireReadOnlyMeshData, addr 0x6aad428, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes);
 
-  /// @brief Method AddBlendShapeFrame, addr 0x6954634, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method AddBlendShapeFrame, addr 0x6aa7978, size 0x264, virtual false, abstract: false, final false
   inline void AddBlendShapeFrame(::StringW shapeName, float_t frameWeight, ::ArrayW<::UnityEngine::Vector3> deltaVertices, ::ArrayW<::UnityEngine::Vector3> deltaNormals,
                                  ::ArrayW<::UnityEngine::Vector3> deltaTangents);
 
-  /// @brief Method AddBlendShapeFrame_Injected, addr 0x6954898, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddBlendShapeFrame_Injected, addr 0x6aa7bdc, size 0x7c, virtual false, abstract: false, final false
   static inline void AddBlendShapeFrame_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> shapeName, float_t frameWeight,
                                                  ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> deltaVertices, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> deltaNormals,
                                                  ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> deltaTangents);
 
-  /// @brief Method AllocateWritableMeshData, addr 0x695a34c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AllocateWritableMeshData, addr 0x6aad690, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AllocateWritableMeshData(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method AllocateWritableMeshData, addr 0x695a1d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocateWritableMeshData, addr 0x6aad518, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AllocateWritableMeshData(int32_t meshCount);
 
-  /// @brief Method AllocateWritableMeshData, addr 0x695a37c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AllocateWritableMeshData, addr 0x6aad6c0, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AllocateWritableMeshData(::ArrayW<::UnityEngine::Mesh*> meshes);
 
-  /// @brief Method AllocateWritableMeshData, addr 0x695a418, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AllocateWritableMeshData, addr 0x6aad75c, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh_MeshDataArray AllocateWritableMeshData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes);
 
-  /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x695a508, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x6aad84c, size 0x17c, virtual false, abstract: false, final false
   static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x695a74c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x6aada90, size 0x140, virtual false, abstract: false, final false
   static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::ArrayW<::UnityEngine::Mesh*> meshes, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x695aa64, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x6aadda8, size 0x1ac, virtual false, abstract: false, final false
   static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                      ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method CheckCanAccessSubmesh, addr 0x695b3dc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CheckCanAccessSubmesh, addr 0x6aae720, size 0x148, virtual false, abstract: false, final false
   inline bool CheckCanAccessSubmesh(int32_t submesh, bool errorAboutTriangles);
 
-  /// @brief Method CheckCanAccessSubmeshIndices, addr 0x695b52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CheckCanAccessSubmeshIndices, addr 0x6aae870, size 0x8, virtual false, abstract: false, final false
   inline bool CheckCanAccessSubmeshIndices(int32_t submesh);
 
-  /// @brief Method CheckCanAccessSubmeshTriangles, addr 0x695b524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CheckCanAccessSubmeshTriangles, addr 0x6aae868, size 0x8, virtual false, abstract: false, final false
   inline bool CheckCanAccessSubmeshTriangles(int32_t submesh);
 
-  /// @brief Method CheckIndicesArrayRange, addr 0x695befc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CheckIndicesArrayRange, addr 0x6aaf240, size 0x18c, virtual false, abstract: false, final false
   inline void CheckIndicesArrayRange(int32_t valuesLength, int32_t start, int32_t length);
 
-  /// @brief Method Clear, addr 0x695d3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6ab073c, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x695d3f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6ab0738, size 0x4, virtual false, abstract: false, final false
   inline void Clear(bool keepVertexLayout);
 
-  /// @brief Method ClearBlendShapes, addr 0x6953e6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ClearBlendShapes, addr 0x6aa71b0, size 0x80, virtual false, abstract: false, final false
   inline void ClearBlendShapes();
 
-  /// @brief Method ClearBlendShapes_Injected, addr 0x6953eec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearBlendShapes_Injected, addr 0x6aa7230, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearBlendShapes_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method ClearImpl, addr 0x6956740, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ClearImpl, addr 0x6aa9a84, size 0x90, virtual false, abstract: false, final false
   inline void ClearImpl(bool keepVertexLayout);
 
-  /// @brief Method ClearImpl_Injected, addr 0x69567d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearImpl_Injected, addr 0x6aa9b14, size 0x44, virtual false, abstract: false, final false
   static inline void ClearImpl_Injected(::System::IntPtr _unity_self, bool keepVertexLayout);
 
-  /// @brief Method CombineMeshes, addr 0x695dcbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshes, addr 0x6ab1000, size 0x10, virtual false, abstract: false, final false
   inline void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine);
 
-  /// @brief Method CombineMeshes, addr 0x695dcb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshes, addr 0x6ab0ff4, size 0xc, virtual false, abstract: false, final false
   inline void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes);
 
-  /// @brief Method CombineMeshes, addr 0x695dca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshes, addr 0x6ab0fec, size 0x8, virtual false, abstract: false, final false
   inline void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices);
 
-  /// @brief Method CombineMeshes, addr 0x695dca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshes, addr 0x6ab0fe8, size 0x4, virtual false, abstract: false, final false
   inline void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData);
 
-  /// @brief Method CombineMeshesImpl, addr 0x6957054, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshesImpl, addr 0x6aaa398, size 0x124, virtual false, abstract: false, final false
   inline void CombineMeshesImpl(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData);
 
-  /// @brief Method CombineMeshesImpl_Injected, addr 0x6957178, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshesImpl_Injected, addr 0x6aaa4bc, size 0x6c, virtual false, abstract: false, final false
   static inline void CombineMeshesImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> combine, bool mergeSubMeshes, bool useMatrices,
                                                 bool hasLightmapData);
 
-  /// @brief Method DefaultDimensionForChannel, addr 0x695748c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method DefaultDimensionForChannel, addr 0x6aaa7d0, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t DefaultDimensionForChannel(::UnityEngine::Rendering::VertexAttribute channel);
 
-  /// @brief Method FromInstanceID, addr 0x6950614, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method FromInstanceID, addr 0x6aa3958, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> FromInstanceID(int32_t id);
 
-  /// @brief Method FromInstanceID_Injected, addr 0x6950734, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FromInstanceID_Injected, addr 0x6aa3a78, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr FromInstanceID_Injected(int32_t id);
 
-  /// @brief Method GetAllBoneWeights, addr 0x6954f64, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAllBoneWeights, addr 0x6aa82a8, size 0x64, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> GetAllBoneWeights();
 
-  /// @brief Method GetAllBoneWeightsArray, addr 0x6954fc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAllBoneWeightsArray, addr 0x6aa830c, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetAllBoneWeightsArray();
 
-  /// @brief Method GetAllBoneWeightsArraySize, addr 0x6955048, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAllBoneWeightsArraySize, addr 0x6aa838c, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetAllBoneWeightsArraySize();
 
-  /// @brief Method GetAllBoneWeightsArraySize_Injected, addr 0x6955238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAllBoneWeightsArraySize_Injected, addr 0x6aa857c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetAllBoneWeightsArraySize_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetAllBoneWeightsArray_Injected, addr 0x6955330, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAllBoneWeightsArray_Injected, addr 0x6aa8674, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetAllBoneWeightsArray_Injected(::System::IntPtr _unity_self);
 
   /// @brief Method GetAllocArrayFromChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -516,203 +516,203 @@ public:
   /// @brief Method GetAllocArrayFromChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T> GetAllocArrayFromChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim);
 
-  /// @brief Method GetAllocArrayFromChannelImpl, addr 0x69531bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetAllocArrayFromChannelImpl, addr 0x6aa6500, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Array* GetAllocArrayFromChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim);
 
-  /// @brief Method GetAllocArrayFromChannelImpl_Injected, addr 0x6953264, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetAllocArrayFromChannelImpl_Injected, addr 0x6aa65a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Array* GetAllocArrayFromChannelImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute channel,
                                                                        ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim);
 
-  /// @brief Method GetArrayFromChannelImpl, addr 0x69532c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetArrayFromChannelImpl, addr 0x6aa6604, size 0xb0, virtual false, abstract: false, final false
   inline void GetArrayFromChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim, ::System::Array* values);
 
-  /// @brief Method GetArrayFromChannelImpl_Injected, addr 0x6953370, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetArrayFromChannelImpl_Injected, addr 0x6aa66b4, size 0x6c, virtual false, abstract: false, final false
   static inline void GetArrayFromChannelImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format,
                                                       int32_t dim, ::System::Array* values);
 
-  /// @brief Method GetBaseVertex, addr 0x695be80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetBaseVertex, addr 0x6aaf1c4, size 0x7c, virtual false, abstract: false, final false
   inline uint32_t GetBaseVertex(int32_t submesh);
 
-  /// @brief Method GetBaseVertexImpl, addr 0x6951b10, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetBaseVertexImpl, addr 0x6aa4e54, size 0x90, virtual false, abstract: false, final false
   inline uint32_t GetBaseVertexImpl(int32_t submesh);
 
-  /// @brief Method GetBaseVertexImpl_Injected, addr 0x6951ba0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBaseVertexImpl_Injected, addr 0x6aa4ee4, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetBaseVertexImpl_Injected(::System::IntPtr _unity_self, int32_t submesh);
 
-  /// @brief Method GetBindposes, addr 0x6955750, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetBindposes, addr 0x6aa8a94, size 0x64, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> GetBindposes();
 
-  /// @brief Method GetBindposes, addr 0x695d1ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetBindposes, addr 0x6ab0530, size 0xf8, virtual false, abstract: false, final false
   inline void GetBindposes(::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* bindposes);
 
-  /// @brief Method GetBindposesArray, addr 0x69557b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBindposesArray, addr 0x6aa8af8, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetBindposesArray();
 
-  /// @brief Method GetBindposesArray_Injected, addr 0x69559f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBindposesArray_Injected, addr 0x6aa8d38, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBindposesArray_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetBindposesNonAllocImpl, addr 0x6955bd0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBindposesNonAllocImpl, addr 0x6aa8f14, size 0x15c, virtual false, abstract: false, final false
   inline void GetBindposesNonAllocImpl(::by_ref<::ArrayW<::UnityEngine::Matrix4x4>> values);
 
-  /// @brief Method GetBindposesNonAllocImpl_Injected, addr 0x6955d2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBindposesNonAllocImpl_Injected, addr 0x6aa9070, size 0x44, virtual false, abstract: false, final false
   static inline void GetBindposesNonAllocImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values);
 
-  /// @brief Method GetBlendShapeBuffer, addr 0x695b120, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeBuffer, addr 0x6aae464, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBlendShapeBuffer();
 
-  /// @brief Method GetBlendShapeBuffer, addr 0x695afec, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeBuffer, addr 0x6aae330, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBlendShapeBuffer(::UnityEngine::Rendering::BlendShapeBufferLayout layout);
 
-  /// @brief Method GetBlendShapeBufferImpl, addr 0x69539a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeBufferImpl, addr 0x6aa6ce8, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBlendShapeBufferImpl(int32_t layout);
 
-  /// @brief Method GetBlendShapeBufferImpl_Injected, addr 0x6953a4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeBufferImpl_Injected, addr 0x6aa6d90, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBlendShapeBufferImpl_Injected(::System::IntPtr _unity_self, int32_t layout);
 
-  /// @brief Method GetBlendShapeBufferRange, addr 0x695b244, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeBufferRange, addr 0x6aae588, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::BlendShapeBufferRange GetBlendShapeBufferRange(int32_t blendShapeIndex);
 
-  /// @brief Method GetBlendShapeFrameCount, addr 0x6954274, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeFrameCount, addr 0x6aa75b8, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetBlendShapeFrameCount(int32_t shapeIndex);
 
-  /// @brief Method GetBlendShapeFrameCount_Injected, addr 0x6954304, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeFrameCount_Injected, addr 0x6aa7648, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetBlendShapeFrameCount_Injected(::System::IntPtr _unity_self, int32_t shapeIndex);
 
-  /// @brief Method GetBlendShapeFrameVertices, addr 0x6954434, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeFrameVertices, addr 0x6aa7778, size 0x18c, virtual false, abstract: false, final false
   inline void GetBlendShapeFrameVertices(int32_t shapeIndex, int32_t frameIndex, ::ArrayW<::UnityEngine::Vector3> deltaVertices, ::ArrayW<::UnityEngine::Vector3> deltaNormals,
                                          ::ArrayW<::UnityEngine::Vector3> deltaTangents);
 
-  /// @brief Method GetBlendShapeFrameVertices_Injected, addr 0x69545c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeFrameVertices_Injected, addr 0x6aa7904, size 0x74, virtual false, abstract: false, final false
   static inline void GetBlendShapeFrameVertices_Injected(::System::IntPtr _unity_self, int32_t shapeIndex, int32_t frameIndex, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> deltaVertices,
                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> deltaNormals, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> deltaTangents);
 
-  /// @brief Method GetBlendShapeFrameWeight, addr 0x6954348, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeFrameWeight, addr 0x6aa768c, size 0x98, virtual false, abstract: false, final false
   inline float_t GetBlendShapeFrameWeight(int32_t shapeIndex, int32_t frameIndex);
 
-  /// @brief Method GetBlendShapeFrameWeight_Injected, addr 0x69543e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeFrameWeight_Injected, addr 0x6aa7724, size 0x54, virtual false, abstract: false, final false
   static inline float_t GetBlendShapeFrameWeight_Injected(::System::IntPtr _unity_self, int32_t shapeIndex, int32_t frameIndex);
 
-  /// @brief Method GetBlendShapeIndex, addr 0x69540bc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeIndex, addr 0x6aa7400, size 0x174, virtual false, abstract: false, final false
   inline int32_t GetBlendShapeIndex(::StringW blendShapeName);
 
-  /// @brief Method GetBlendShapeIndex_Injected, addr 0x6954230, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeIndex_Injected, addr 0x6aa7574, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetBlendShapeIndex_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> blendShapeName);
 
-  /// @brief Method GetBlendShapeName, addr 0x6953f28, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeName, addr 0x6aa726c, size 0x140, virtual false, abstract: false, final false
   inline ::StringW GetBlendShapeName(int32_t shapeIndex);
 
-  /// @brief Method GetBlendShapeName_Injected, addr 0x6954068, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeName_Injected, addr 0x6aa73ac, size 0x54, virtual false, abstract: false, final false
   static inline void GetBlendShapeName_Injected(::System::IntPtr _unity_self, int32_t shapeIndex, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method GetBlendShapeOffsetInternal, addr 0x6954914, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeOffsetInternal, addr 0x6aa7c58, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::BlendShape GetBlendShapeOffsetInternal(int32_t index);
 
-  /// @brief Method GetBlendShapeOffsetInternal_Injected, addr 0x69549c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeOffsetInternal_Injected, addr 0x6aa7d08, size 0x54, virtual false, abstract: false, final false
   static inline void GetBlendShapeOffsetInternal_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::BlendShape> ret);
 
-  /// @brief Method GetBoneWeightBuffer, addr 0x695ad60, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightBuffer, addr 0x6aae0a4, size 0x28c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBoneWeightBuffer(::UnityEngine::SkinWeights layout);
 
-  /// @brief Method GetBoneWeightBufferImpl, addr 0x69538b8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightBufferImpl, addr 0x6aa6bfc, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBoneWeightBufferImpl(int32_t bonesPerVertex);
 
-  /// @brief Method GetBoneWeightBufferImpl_Injected, addr 0x6953960, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightBufferImpl_Injected, addr 0x6aa6ca4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBoneWeightBufferImpl_Injected(::System::IntPtr _unity_self, int32_t bonesPerVertex);
 
-  /// @brief Method GetBoneWeightBufferLayoutInternal, addr 0x6955274, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightBufferLayoutInternal, addr 0x6aa85b8, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetBoneWeightBufferLayoutInternal();
 
-  /// @brief Method GetBoneWeightBufferLayoutInternal_Injected, addr 0x69552f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightBufferLayoutInternal_Injected, addr 0x6aa8638, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneWeightBufferLayoutInternal_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetBoneWeights, addr 0x695d2e4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeights, addr 0x6ab0628, size 0x104, virtual false, abstract: false, final false
   inline void GetBoneWeights(::System::Collections::Generic::List_1<::UnityEngine::BoneWeight>* boneWeights);
 
-  /// @brief Method GetBoneWeightsImpl, addr 0x6954ad4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightsImpl, addr 0x6aa7e18, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::BoneWeight> GetBoneWeightsImpl();
 
-  /// @brief Method GetBoneWeightsImpl_Injected, addr 0x6954c34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightsImpl_Injected, addr 0x6aa7f78, size 0x44, virtual false, abstract: false, final false
   static inline void GetBoneWeightsImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-  /// @brief Method GetBoneWeightsNonAllocImpl, addr 0x6955a30, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightsNonAllocImpl, addr 0x6aa8d74, size 0x15c, virtual false, abstract: false, final false
   inline void GetBoneWeightsNonAllocImpl(::by_ref<::ArrayW<::UnityEngine::BoneWeight>> values);
 
-  /// @brief Method GetBoneWeightsNonAllocImpl_Injected, addr 0x6955b8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBoneWeightsNonAllocImpl_Injected, addr 0x6aa8ed0, size 0x44, virtual false, abstract: false, final false
   static inline void GetBoneWeightsNonAllocImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values);
 
-  /// @brief Method GetBonesPerVertex, addr 0x69550c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetBonesPerVertex, addr 0x6aa840c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetBonesPerVertex();
 
-  /// @brief Method GetBonesPerVertexArray, addr 0x69551b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBonesPerVertexArray, addr 0x6aa84fc, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetBonesPerVertexArray();
 
-  /// @brief Method GetBonesPerVertexArray_Injected, addr 0x695536c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBonesPerVertexArray_Injected, addr 0x6aa86b0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBonesPerVertexArray_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetColors, addr 0x6958f90, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetColors, addr 0x6aac2d4, size 0xd4, virtual false, abstract: false, final false
   inline void GetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors);
 
-  /// @brief Method GetColors, addr 0x6958c50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetColors, addr 0x6aabf94, size 0xd0, virtual false, abstract: false, final false
   inline void GetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* colors);
 
-  /// @brief Method GetIndexBuffer, addr 0x695acc0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetIndexBuffer, addr 0x6aae004, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetIndexBuffer();
 
-  /// @brief Method GetIndexBufferImpl, addr 0x69537e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetIndexBufferImpl, addr 0x6aa6b2c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetIndexBufferImpl();
 
-  /// @brief Method GetIndexBufferImpl_Injected, addr 0x695387c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIndexBufferImpl_Injected, addr 0x6aa6bc0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetIndexBufferImpl_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetIndexCount, addr 0x695bc2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetIndexCount, addr 0x6aaef70, size 0x7c, virtual false, abstract: false, final false
   inline uint32_t GetIndexCount(int32_t submesh);
 
-  /// @brief Method GetIndexCountImpl, addr 0x6951968, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetIndexCountImpl, addr 0x6aa4cac, size 0x90, virtual false, abstract: false, final false
   inline uint32_t GetIndexCountImpl(int32_t submesh);
 
-  /// @brief Method GetIndexCountImpl_Injected, addr 0x69519f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetIndexCountImpl_Injected, addr 0x6aa4d3c, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetIndexCountImpl_Injected(::System::IntPtr _unity_self, int32_t submesh);
 
-  /// @brief Method GetIndexStart, addr 0x695be04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetIndexStart, addr 0x6aaf148, size 0x7c, virtual false, abstract: false, final false
   inline uint32_t GetIndexStart(int32_t submesh);
 
-  /// @brief Method GetIndexStartImpl, addr 0x6951894, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetIndexStartImpl, addr 0x6aa4bd8, size 0x90, virtual false, abstract: false, final false
   inline uint32_t GetIndexStartImpl(int32_t submesh);
 
-  /// @brief Method GetIndexStartImpl_Injected, addr 0x6951924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetIndexStartImpl_Injected, addr 0x6aa4c68, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetIndexStartImpl_Injected(::System::IntPtr _unity_self, int32_t submesh);
 
-  /// @brief Method GetIndices, addr 0x695ba34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x6aaed78, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetIndices(int32_t submesh);
 
-  /// @brief Method GetIndices, addr 0x695ba3c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x6aaed80, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetIndices(int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndices, addr 0x695bac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x6aaee0c, size 0x8, virtual false, abstract: false, final false
   inline void GetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t submesh);
 
-  /// @brief Method GetIndices, addr 0x695bad0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x6aaee14, size 0x15c, virtual false, abstract: false, final false
   inline void GetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndices, addr 0x695bca8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x6aaefec, size 0x15c, virtual false, abstract: false, final false
   inline void GetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndicesImpl, addr 0x6951db4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetIndicesImpl, addr 0x6aa50f8, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetIndicesImpl(int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndicesImpl_Injected, addr 0x6951f28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetIndicesImpl_Injected, addr 0x6aa526c, size 0x5c, virtual false, abstract: false, final false
   static inline void GetIndicesImpl_Injected(::System::IntPtr _unity_self, int32_t submesh, bool applyBaseVertex, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-  /// @brief Method GetIndicesNonAllocImpl, addr 0x6952624, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetIndicesNonAllocImpl, addr 0x6aa5968, size 0x178, virtual false, abstract: false, final false
   inline void GetIndicesNonAllocImpl(::by_ref<::ArrayW<int32_t>> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndicesNonAllocImpl16, addr 0x69527f8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetIndicesNonAllocImpl16, addr 0x6aa5b3c, size 0x178, virtual false, abstract: false, final false
   inline void GetIndicesNonAllocImpl16(::by_ref<::ArrayW<uint16_t>> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndicesNonAllocImpl16_Injected, addr 0x6952970, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetIndicesNonAllocImpl16_Injected, addr 0x6aa5cb4, size 0x5c, virtual false, abstract: false, final false
   static inline void GetIndicesNonAllocImpl16_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetIndicesNonAllocImpl_Injected, addr 0x695279c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetIndicesNonAllocImpl_Injected, addr 0x6aa5ae0, size 0x5c, virtual false, abstract: false, final false
   static inline void GetIndicesNonAllocImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values, int32_t submesh, bool applyBaseVertex);
 
   /// @brief Method GetListForChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -723,355 +723,355 @@ public:
   inline void GetListForChannel(::System::Collections::Generic::List_1<T>* buffer, int32_t capacity, ::UnityEngine::Rendering::VertexAttribute channel, int32_t dim,
                                 ::UnityEngine::Rendering::VertexAttributeFormat channelType);
 
-  /// @brief Method GetNativeIndexBufferPtr, addr 0x6953640, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNativeIndexBufferPtr, addr 0x6aa6984, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetNativeIndexBufferPtr();
 
-  /// @brief Method GetNativeIndexBufferPtr_Injected, addr 0x69536c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNativeIndexBufferPtr_Injected, addr 0x6aa6a04, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetNativeIndexBufferPtr_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetNativeVertexBufferPtr, addr 0x695356c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNativeVertexBufferPtr, addr 0x6aa68b0, size 0x90, virtual false, abstract: false, final false
   inline ::System::IntPtr GetNativeVertexBufferPtr(int32_t index);
 
-  /// @brief Method GetNativeVertexBufferPtr_Injected, addr 0x69535fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNativeVertexBufferPtr_Injected, addr 0x6aa6940, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetNativeVertexBufferPtr_Injected(::System::IntPtr _unity_self, int32_t index);
 
-  /// @brief Method GetNormals, addr 0x69585d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetNormals, addr 0x6aab914, size 0xd0, virtual false, abstract: false, final false
   inline void GetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals);
 
-  /// @brief Method GetSubMesh, addr 0x69561b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSubMesh, addr 0x6aa94fc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SubMeshDescriptor GetSubMesh(int32_t index);
 
-  /// @brief Method GetSubMesh_Injected, addr 0x6956278, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSubMesh_Injected, addr 0x6aa95bc, size 0x54, virtual false, abstract: false, final false
   static inline void GetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> ret);
 
-  /// @brief Method GetTangents, addr 0x6958910, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetTangents, addr 0x6aabc54, size 0xd0, virtual false, abstract: false, final false
   inline void GetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents);
 
-  /// @brief Method GetTopology, addr 0x695dbec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTopology, addr 0x6ab0f30, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::MeshTopology GetTopology(int32_t submesh);
 
-  /// @brief Method GetTopologyImpl, addr 0x6956cdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTopologyImpl, addr 0x6aaa020, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::MeshTopology GetTopologyImpl(int32_t submesh);
 
-  /// @brief Method GetTopologyImpl_Injected, addr 0x6956d6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTopologyImpl_Injected, addr 0x6aaa0b0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::MeshTopology GetTopologyImpl_Injected(::System::IntPtr _unity_self, int32_t submesh);
 
-  /// @brief Method GetTotalIndexCount, addr 0x6950900, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetTotalIndexCount, addr 0x6aa3c44, size 0x80, virtual false, abstract: false, final false
   inline uint32_t GetTotalIndexCount();
 
-  /// @brief Method GetTotalIndexCount_Injected, addr 0x6950980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTotalIndexCount_Injected, addr 0x6aa3cc4, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetTotalIndexCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetTriangles, addr 0x695b6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTriangles, addr 0x6aaea24, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetTriangles(int32_t submesh);
 
-  /// @brief Method GetTriangles, addr 0x695b6e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTriangles, addr 0x6aaea2c, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetTriangles(int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTriangles, addr 0x695b774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTriangles, addr 0x6aaeab8, size 0x8, virtual false, abstract: false, final false
   inline void GetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh);
 
-  /// @brief Method GetTriangles, addr 0x695b77c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetTriangles, addr 0x6aaeac0, size 0x15c, virtual false, abstract: false, final false
   inline void GetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTriangles, addr 0x695b8d8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetTriangles, addr 0x6aaec1c, size 0x15c, virtual false, abstract: false, final false
   inline void GetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTrianglesCountImpl, addr 0x6951a3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesCountImpl, addr 0x6aa4d80, size 0x90, virtual false, abstract: false, final false
   inline uint32_t GetTrianglesCountImpl(int32_t submesh);
 
-  /// @brief Method GetTrianglesCountImpl_Injected, addr 0x6951acc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesCountImpl_Injected, addr 0x6aa4e10, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetTrianglesCountImpl_Injected(::System::IntPtr _unity_self, int32_t submesh);
 
-  /// @brief Method GetTrianglesImpl, addr 0x6951be4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesImpl, addr 0x6aa4f28, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetTrianglesImpl(int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTrianglesImpl_Injected, addr 0x6951d58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesImpl_Injected, addr 0x6aa509c, size 0x5c, virtual false, abstract: false, final false
   static inline void GetTrianglesImpl_Injected(::System::IntPtr _unity_self, int32_t submesh, bool applyBaseVertex, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-  /// @brief Method GetTrianglesNonAllocImpl, addr 0x695227c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesNonAllocImpl, addr 0x6aa55c0, size 0x178, virtual false, abstract: false, final false
   inline void GetTrianglesNonAllocImpl(::by_ref<::ArrayW<int32_t>> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTrianglesNonAllocImpl16, addr 0x6952450, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesNonAllocImpl16, addr 0x6aa5794, size 0x178, virtual false, abstract: false, final false
   inline void GetTrianglesNonAllocImpl16(::by_ref<::ArrayW<uint16_t>> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTrianglesNonAllocImpl16_Injected, addr 0x69525c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesNonAllocImpl16_Injected, addr 0x6aa590c, size 0x5c, virtual false, abstract: false, final false
   static inline void GetTrianglesNonAllocImpl16_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetTrianglesNonAllocImpl_Injected, addr 0x69523f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetTrianglesNonAllocImpl_Injected, addr 0x6aa5738, size 0x5c, virtual false, abstract: false, final false
   static inline void GetTrianglesNonAllocImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values, int32_t submesh, bool applyBaseVertex);
 
-  /// @brief Method GetUVChannel, addr 0x6957418, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUVChannel, addr 0x6aaa75c, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::VertexAttribute GetUVChannel(int32_t uvIndex);
 
-  /// @brief Method GetUVDistributionMetric, addr 0x6956f80, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetUVDistributionMetric, addr 0x6aaa2c4, size 0x90, virtual false, abstract: false, final false
   inline float_t GetUVDistributionMetric(int32_t uvSetIndex);
 
-  /// @brief Method GetUVDistributionMetric_Injected, addr 0x6957010, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetUVDistributionMetric_Injected, addr 0x6aaa354, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetUVDistributionMetric_Injected(::System::IntPtr _unity_self, int32_t uvSetIndex);
 
-  /// @brief Method GetUVs, addr 0x69598f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUVs, addr 0x6aacc38, size 0x68, virtual false, abstract: false, final false
   inline void GetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs);
 
-  /// @brief Method GetUVs, addr 0x695995c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUVs, addr 0x6aacca0, size 0x68, virtual false, abstract: false, final false
   inline void GetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs);
 
-  /// @brief Method GetUVs, addr 0x69599c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUVs, addr 0x6aacd08, size 0x68, virtual false, abstract: false, final false
   inline void GetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
 
   /// @brief Method GetUVsImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetUVsImpl(int32_t uvIndex, ::System::Collections::Generic::List_1<T>* uvs, int32_t dim);
 
-  /// @brief Method GetVertexAttribute, addr 0x6951798, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttribute, addr 0x6aa4adc, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttributeDescriptor GetVertexAttribute(int32_t index);
 
-  /// @brief Method GetVertexAttributeCountImpl, addr 0x69516dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeCountImpl, addr 0x6aa4a20, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributeCountImpl();
 
-  /// @brief Method GetVertexAttributeCountImpl_Injected, addr 0x695175c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeCountImpl_Injected, addr 0x6aa4aa0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVertexAttributeCountImpl_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetVertexAttributeDimension, addr 0x6952b74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeDimension, addr 0x6aa5eb8, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributeDimension(::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeDimension_Injected, addr 0x6952c04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeDimension_Injected, addr 0x6aa5f48, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVertexAttributeDimension_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeFormat, addr 0x6952c48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeFormat, addr 0x6aa5f8c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttributeFormat GetVertexAttributeFormat(::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeFormat_Injected, addr 0x6952cd8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeFormat_Injected, addr 0x6aa601c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::VertexAttributeFormat GetVertexAttributeFormat_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeOffset, addr 0x6952df0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeOffset, addr 0x6aa6134, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributeOffset(::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeOffset_Injected, addr 0x6952e80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeOffset_Injected, addr 0x6aa61c4, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVertexAttributeOffset_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeStream, addr 0x6952d1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeStream, addr 0x6aa6060, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributeStream(::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttributeStream_Injected, addr 0x6952dac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributeStream_Injected, addr 0x6aa60f0, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVertexAttributeStream_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method GetVertexAttribute_Injected, addr 0x6951840, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttribute_Injected, addr 0x6aa4b84, size 0x54, virtual false, abstract: false, final false
   static inline void GetVertexAttribute_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::VertexAttributeDescriptor> ret);
 
-  /// @brief Method GetVertexAttributes, addr 0x6959a30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributes, addr 0x6aacd74, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> GetVertexAttributes();
 
-  /// @brief Method GetVertexAttributes, addr 0x6959aa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributes, addr 0x6aacde4, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributes(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method GetVertexAttributes, addr 0x6959aa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributes, addr 0x6aacde8, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* attributes);
 
-  /// @brief Method GetVertexAttributesAlloc, addr 0x695126c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributesAlloc, addr 0x6aa45b0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Array* GetVertexAttributesAlloc();
 
-  /// @brief Method GetVertexAttributesAlloc_Injected, addr 0x69512ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributesAlloc_Injected, addr 0x6aa4630, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Array* GetVertexAttributesAlloc_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetVertexAttributesArray, addr 0x6951328, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributesArray, addr 0x6aa466c, size 0x120, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributesArray(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method GetVertexAttributesArray_Injected, addr 0x6951448, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributesArray_Injected, addr 0x6aa478c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVertexAttributesArray_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes);
 
-  /// @brief Method GetVertexAttributesList, addr 0x695148c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributesList, addr 0x6aa47d0, size 0x20c, virtual false, abstract: false, final false
   inline int32_t GetVertexAttributesList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* attributes);
 
-  /// @brief Method GetVertexAttributesList_Injected, addr 0x6951698, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexAttributesList_Injected, addr 0x6aa49dc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVertexAttributesList_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> attributes);
 
-  /// @brief Method GetVertexBuffer, addr 0x695ac10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBuffer, addr 0x6aadf54, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBuffer(int32_t index);
 
-  /// @brief Method GetVertexBufferImpl, addr 0x69536fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferImpl, addr 0x6aa6a40, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBufferImpl(int32_t index);
 
-  /// @brief Method GetVertexBufferImpl_Injected, addr 0x69537a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferImpl_Injected, addr 0x6aa6ae8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexBufferImpl_Injected(::System::IntPtr _unity_self, int32_t index);
 
-  /// @brief Method GetVertexBufferStride, addr 0x6953498, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferStride, addr 0x6aa67dc, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetVertexBufferStride(int32_t stream);
 
-  /// @brief Method GetVertexBufferStride_Injected, addr 0x6953528, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferStride_Injected, addr 0x6aa686c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVertexBufferStride_Injected(::System::IntPtr _unity_self, int32_t stream);
 
-  /// @brief Method GetVertices, addr 0x6958290, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x6aab5d4, size 0xd0, virtual false, abstract: false, final false
   inline void GetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices);
 
-  /// @brief Method HasBoneWeights, addr 0x6954a18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasBoneWeights, addr 0x6aa7d5c, size 0x80, virtual false, abstract: false, final false
   inline bool HasBoneWeights();
 
-  /// @brief Method HasBoneWeights_Injected, addr 0x6954a98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasBoneWeights_Injected, addr 0x6aa7ddc, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasBoneWeights_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method HasVertexAttribute, addr 0x6952aa0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HasVertexAttribute, addr 0x6aa5de4, size 0x90, virtual false, abstract: false, final false
   inline bool HasVertexAttribute(::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method HasVertexAttribute_Injected, addr 0x6952b30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HasVertexAttribute_Injected, addr 0x6aa5e74, size 0x44, virtual false, abstract: false, final false
   static inline bool HasVertexAttribute_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute attr);
 
-  /// @brief Method InternalSetBoneWeights, addr 0x6954e48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InternalSetBoneWeights, addr 0x6aa818c, size 0xb0, virtual false, abstract: false, final false
   inline void InternalSetBoneWeights(::System::IntPtr bonesPerVertex, int32_t bonesPerVertexSize, ::System::IntPtr weights, int32_t weightsSize);
 
-  /// @brief Method InternalSetBoneWeights_Injected, addr 0x6954ef8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InternalSetBoneWeights_Injected, addr 0x6aa823c, size 0x6c, virtual false, abstract: false, final false
   static inline void InternalSetBoneWeights_Injected(::System::IntPtr _unity_self, ::System::IntPtr bonesPerVertex, int32_t bonesPerVertexSize, ::System::IntPtr weights, int32_t weightsSize);
 
-  /// @brief Method InternalSetIndexBufferData, addr 0x6950aa8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method InternalSetIndexBufferData, addr 0x6aa3dec, size 0xc8, virtual false, abstract: false, final false
   inline void InternalSetIndexBufferData(::System::IntPtr data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetIndexBufferDataFromArray, addr 0x6950bf4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method InternalSetIndexBufferDataFromArray, addr 0x6aa3f38, size 0xc8, virtual false, abstract: false, final false
   inline void InternalSetIndexBufferDataFromArray(::System::Array* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetIndexBufferDataFromArray_Injected, addr 0x6950cbc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InternalSetIndexBufferDataFromArray_Injected, addr 0x6aa4000, size 0x84, virtual false, abstract: false, final false
   static inline void InternalSetIndexBufferDataFromArray_Injected(::System::IntPtr _unity_self, ::System::Array* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t elemSize,
                                                                   ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetIndexBufferData_Injected, addr 0x6950b70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InternalSetIndexBufferData_Injected, addr 0x6aa3eb4, size 0x84, virtual false, abstract: false, final false
   static inline void InternalSetIndexBufferData_Injected(::System::IntPtr _unity_self, ::System::IntPtr data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t elemSize,
                                                          ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetVertexBufferData, addr 0x6950fa4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InternalSetVertexBufferData, addr 0x6aa42e8, size 0xd8, virtual false, abstract: false, final false
   inline void InternalSetVertexBufferData(int32_t stream, ::System::IntPtr data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t elemSize,
                                           ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetVertexBufferDataFromArray, addr 0x6951108, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InternalSetVertexBufferDataFromArray, addr 0x6aa444c, size 0xd8, virtual false, abstract: false, final false
   inline void InternalSetVertexBufferDataFromArray(int32_t stream, ::System::Array* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t elemSize,
                                                    ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetVertexBufferDataFromArray_Injected, addr 0x69511e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InternalSetVertexBufferDataFromArray_Injected, addr 0x6aa4524, size 0x8c, virtual false, abstract: false, final false
   static inline void InternalSetVertexBufferDataFromArray_Injected(::System::IntPtr _unity_self, int32_t stream, ::System::Array* data, int32_t dataStart, int32_t meshBufferStart, int32_t count,
                                                                    int32_t elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method InternalSetVertexBufferData_Injected, addr 0x695107c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InternalSetVertexBufferData_Injected, addr 0x6aa43c0, size 0x8c, virtual false, abstract: false, final false
   static inline void InternalSetVertexBufferData_Injected(::System::IntPtr _unity_self, int32_t stream, ::System::IntPtr data, int32_t dataStart, int32_t meshBufferStart, int32_t count,
                                                           int32_t elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method Internal_Create, addr 0x6950560, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6aa38a4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Mesh* mono);
 
-  /// @brief Method MarkDynamic, addr 0x695d8f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MarkDynamic, addr 0x6ab0c34, size 0x24, virtual false, abstract: false, final false
   inline void MarkDynamic();
 
-  /// @brief Method MarkDynamicImpl, addr 0x6956a90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MarkDynamicImpl, addr 0x6aa9dd4, size 0x80, virtual false, abstract: false, final false
   inline void MarkDynamicImpl();
 
-  /// @brief Method MarkDynamicImpl_Injected, addr 0x6956b10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MarkDynamicImpl_Injected, addr 0x6aa9e54, size 0x3c, virtual false, abstract: false, final false
   static inline void MarkDynamicImpl_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method MarkModified, addr 0x6956b4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MarkModified, addr 0x6aa9e90, size 0x80, virtual false, abstract: false, final false
   inline void MarkModified();
 
-  /// @brief Method MarkModified_Injected, addr 0x6956bcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MarkModified_Injected, addr 0x6aa9f10, size 0x3c, virtual false, abstract: false, final false
   static inline void MarkModified_Injected(::System::IntPtr _unity_self);
 
   static inline ::UnityEngine::Mesh* New_ctor();
 
-  /// @brief Method Optimize, addr 0x695d94c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Optimize, addr 0x6ab0c90, size 0xe0, virtual false, abstract: false, final false
   inline void Optimize();
 
-  /// @brief Method OptimizeImpl, addr 0x69571e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OptimizeImpl, addr 0x6aaa528, size 0x80, virtual false, abstract: false, final false
   inline void OptimizeImpl();
 
-  /// @brief Method OptimizeImpl_Injected, addr 0x6957264, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OptimizeImpl_Injected, addr 0x6aaa5a8, size 0x3c, virtual false, abstract: false, final false
   static inline void OptimizeImpl_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method OptimizeIndexBuffers, addr 0x695da2c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OptimizeIndexBuffers, addr 0x6ab0d70, size 0xe0, virtual false, abstract: false, final false
   inline void OptimizeIndexBuffers();
 
-  /// @brief Method OptimizeIndexBuffersImpl, addr 0x69572a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OptimizeIndexBuffersImpl, addr 0x6aaa5e4, size 0x80, virtual false, abstract: false, final false
   inline void OptimizeIndexBuffersImpl();
 
-  /// @brief Method OptimizeIndexBuffersImpl_Injected, addr 0x6957320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OptimizeIndexBuffersImpl_Injected, addr 0x6aaa664, size 0x3c, virtual false, abstract: false, final false
   static inline void OptimizeIndexBuffersImpl_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method OptimizeReorderVertexBuffer, addr 0x695db0c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OptimizeReorderVertexBuffer, addr 0x6ab0e50, size 0xe0, virtual false, abstract: false, final false
   inline void OptimizeReorderVertexBuffer();
 
-  /// @brief Method OptimizeReorderVertexBufferImpl, addr 0x695735c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OptimizeReorderVertexBufferImpl, addr 0x6aaa6a0, size 0x80, virtual false, abstract: false, final false
   inline void OptimizeReorderVertexBufferImpl();
 
-  /// @brief Method OptimizeReorderVertexBufferImpl_Injected, addr 0x69573dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OptimizeReorderVertexBufferImpl_Injected, addr 0x6aaa720, size 0x3c, virtual false, abstract: false, final false
   static inline void OptimizeReorderVertexBufferImpl_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method PrintErrorCantAccessChannel, addr 0x69529cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PrintErrorCantAccessChannel, addr 0x6aa5d10, size 0x90, virtual false, abstract: false, final false
   inline void PrintErrorCantAccessChannel(::UnityEngine::Rendering::VertexAttribute ch);
 
-  /// @brief Method PrintErrorCantAccessChannel_Injected, addr 0x6952a5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PrintErrorCantAccessChannel_Injected, addr 0x6aa5da0, size 0x44, virtual false, abstract: false, final false
   static inline void PrintErrorCantAccessChannel_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute ch);
 
-  /// @brief Method PrintErrorCantAccessIndices, addr 0x695b31c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PrintErrorCantAccessIndices, addr 0x6aae660, size 0xc0, virtual false, abstract: false, final false
   inline void PrintErrorCantAccessIndices();
 
-  /// @brief Method RecalculateBounds, addr 0x695d400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x6ab0744, size 0x8, virtual false, abstract: false, final false
   inline void RecalculateBounds();
 
-  /// @brief Method RecalculateBounds, addr 0x695d408, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x6ab074c, size 0xf4, virtual false, abstract: false, final false
   inline void RecalculateBounds(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateBoundsImpl, addr 0x6956814, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBoundsImpl, addr 0x6aa9b58, size 0x90, virtual false, abstract: false, final false
   inline void RecalculateBoundsImpl(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateBoundsImpl_Injected, addr 0x69568a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBoundsImpl_Injected, addr 0x6aa9be8, size 0x44, virtual false, abstract: false, final false
   static inline void RecalculateBoundsImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateNormals, addr 0x695d4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecalculateNormals, addr 0x6ab0840, size 0x8, virtual false, abstract: false, final false
   inline void RecalculateNormals();
 
-  /// @brief Method RecalculateNormals, addr 0x695d504, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateNormals, addr 0x6ab0848, size 0xf4, virtual false, abstract: false, final false
   inline void RecalculateNormals(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateNormalsImpl, addr 0x69568e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RecalculateNormalsImpl, addr 0x6aa9c2c, size 0x90, virtual false, abstract: false, final false
   inline void RecalculateNormalsImpl(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateNormalsImpl_Injected, addr 0x6956978, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RecalculateNormalsImpl_Injected, addr 0x6aa9cbc, size 0x44, virtual false, abstract: false, final false
   static inline void RecalculateNormalsImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateTangents, addr 0x695d5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecalculateTangents, addr 0x6ab093c, size 0x8, virtual false, abstract: false, final false
   inline void RecalculateTangents();
 
-  /// @brief Method RecalculateTangents, addr 0x695d600, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateTangents, addr 0x6ab0944, size 0xf4, virtual false, abstract: false, final false
   inline void RecalculateTangents(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateTangentsImpl, addr 0x69569bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RecalculateTangentsImpl, addr 0x6aa9d00, size 0x90, virtual false, abstract: false, final false
   inline void RecalculateTangentsImpl(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateTangentsImpl_Injected, addr 0x6956a4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RecalculateTangentsImpl_Injected, addr 0x6aa9d90, size 0x44, virtual false, abstract: false, final false
   static inline void RecalculateTangentsImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method RecalculateUVDistributionMetric, addr 0x695d6f4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVDistributionMetric, addr 0x6ab0a38, size 0x108, virtual false, abstract: false, final false
   inline void RecalculateUVDistributionMetric(int32_t uvSetIndex, float_t uvAreaThreshold);
 
-  /// @brief Method RecalculateUVDistributionMetricImpl, addr 0x6956db0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVDistributionMetricImpl, addr 0x6aaa0f4, size 0xa0, virtual false, abstract: false, final false
   inline void RecalculateUVDistributionMetricImpl(int32_t uvSetIndex, float_t uvAreaThreshold);
 
-  /// @brief Method RecalculateUVDistributionMetricImpl_Injected, addr 0x6956e50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVDistributionMetricImpl_Injected, addr 0x6aaa194, size 0x54, virtual false, abstract: false, final false
   static inline void RecalculateUVDistributionMetricImpl_Injected(::System::IntPtr _unity_self, int32_t uvSetIndex, float_t uvAreaThreshold);
 
-  /// @brief Method RecalculateUVDistributionMetrics, addr 0x695d7fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVDistributionMetrics, addr 0x6ab0b40, size 0xf4, virtual false, abstract: false, final false
   inline void RecalculateUVDistributionMetrics(float_t uvAreaThreshold);
 
-  /// @brief Method RecalculateUVDistributionMetricsImpl, addr 0x6956ea4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVDistributionMetricsImpl, addr 0x6aaa1e8, size 0x90, virtual false, abstract: false, final false
   inline void RecalculateUVDistributionMetricsImpl(float_t uvAreaThreshold);
 
-  /// @brief Method RecalculateUVDistributionMetricsImpl_Injected, addr 0x6956f34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVDistributionMetricsImpl_Injected, addr 0x6aaa278, size 0x4c, virtual false, abstract: false, final false
   static inline void RecalculateUVDistributionMetricsImpl_Injected(::System::IntPtr _unity_self, float_t uvAreaThreshold);
 
-  /// @brief Method SetAllSubMeshesAtOnceFromArray, addr 0x69562cc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetAllSubMeshesAtOnceFromArray, addr 0x6aa9610, size 0x124, virtual false, abstract: false, final false
   inline void SetAllSubMeshesAtOnceFromArray(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetAllSubMeshesAtOnceFromArray_Injected, addr 0x69563f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetAllSubMeshesAtOnceFromArray_Injected, addr 0x6aa9734, size 0x6c, virtual false, abstract: false, final false
   static inline void SetAllSubMeshesAtOnceFromArray_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> desc, int32_t start, int32_t count,
                                                              ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetAllSubMeshesAtOnceFromNativeArray, addr 0x695645c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetAllSubMeshesAtOnceFromNativeArray, addr 0x6aa97a0, size 0xb0, virtual false, abstract: false, final false
   inline void SetAllSubMeshesAtOnceFromNativeArray(::System::IntPtr desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetAllSubMeshesAtOnceFromNativeArray_Injected, addr 0x695650c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetAllSubMeshesAtOnceFromNativeArray_Injected, addr 0x6aa9850, size 0x6c, virtual false, abstract: false, final false
   static inline void SetAllSubMeshesAtOnceFromNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetArrayForChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1082,67 +1082,67 @@ public:
   /// @brief Method SetArrayForChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::ArrayW<T> values, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetArrayForChannelImpl, addr 0x6952ec4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetArrayForChannelImpl, addr 0x6aa6208, size 0xe0, virtual false, abstract: false, final false
   inline void SetArrayForChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim, ::System::Array* values, int32_t arraySize,
                                      int32_t valuesStart, int32_t valuesCount, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetArrayForChannelImpl_Injected, addr 0x6952fa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetArrayForChannelImpl_Injected, addr 0x6aa62e8, size 0x9c, virtual false, abstract: false, final false
   static inline void SetArrayForChannelImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format,
                                                      int32_t dim, ::System::Array* values, int32_t arraySize, int32_t valuesStart, int32_t valuesCount,
                                                      ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetBindposes, addr 0x6955834, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetBindposes, addr 0x6aa8b78, size 0xd4, virtual false, abstract: false, final false
   inline void SetBindposes(::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> poses);
 
-  /// @brief Method SetBindposesFromScript_NativeArray, addr 0x6955908, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetBindposesFromScript_NativeArray, addr 0x6aa8c4c, size 0x98, virtual false, abstract: false, final false
   inline void SetBindposesFromScript_NativeArray(::System::IntPtr posesPtr, int32_t posesCount);
 
-  /// @brief Method SetBindposesFromScript_NativeArray_Injected, addr 0x69559a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetBindposesFromScript_NativeArray_Injected, addr 0x6aa8ce4, size 0x54, virtual false, abstract: false, final false
   static inline void SetBindposesFromScript_NativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr posesPtr, int32_t posesCount);
 
-  /// @brief Method SetBoneWeights, addr 0x6954dc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetBoneWeights, addr 0x6aa8104, size 0x88, virtual false, abstract: false, final false
   inline void SetBoneWeights(::Unity::Collections::NativeArray_1<uint8_t> bonesPerVertex, ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> weights);
 
-  /// @brief Method SetBoneWeightsImpl, addr 0x6954c78, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SetBoneWeightsImpl, addr 0x6aa7fbc, size 0x104, virtual false, abstract: false, final false
   inline void SetBoneWeightsImpl(::ArrayW<::UnityEngine::BoneWeight> weights);
 
-  /// @brief Method SetBoneWeightsImpl_Injected, addr 0x6954d7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetBoneWeightsImpl_Injected, addr 0x6aa80c0, size 0x44, virtual false, abstract: false, final false
   static inline void SetBoneWeightsImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> weights);
 
-  /// @brief Method SetColors, addr 0x6959188, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac4cc, size 0x78, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color32> inColors);
 
-  /// @brief Method SetColors, addr 0x6959200, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac544, size 0x74, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color32> inColors, int32_t start, int32_t length);
 
-  /// @brief Method SetColors, addr 0x6959274, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac5b8, size 0x78, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color32> inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetColors, addr 0x6958e2c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac170, size 0x78, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color> inColors);
 
-  /// @brief Method SetColors, addr 0x6958ea4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac1e8, size 0x74, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color> inColors, int32_t start, int32_t length);
 
-  /// @brief Method SetColors, addr 0x6958f18, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac25c, size 0x78, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color> inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetColors, addr 0x6959064, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac3a8, size 0x84, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors);
 
-  /// @brief Method SetColors, addr 0x69590e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac42c, size 0x8, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors, int32_t start, int32_t length);
 
-  /// @brief Method SetColors, addr 0x69590f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac434, size 0x98, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetColors, addr 0x6958d20, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac064, size 0x84, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors);
 
-  /// @brief Method SetColors, addr 0x6958da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac0e8, size 0x8, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors, int32_t start, int32_t length);
 
-  /// @brief Method SetColors, addr 0x6958dac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x6aac0f0, size 0x80, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetColors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1165,42 +1165,42 @@ public:
   template <typename T>
   inline void SetIndexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetIndexBufferParams, addr 0x69509bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetIndexBufferParams, addr 0x6aa3d00, size 0x98, virtual false, abstract: false, final false
   inline void SetIndexBufferParams(int32_t indexCount, ::UnityEngine::Rendering::IndexFormat format);
 
-  /// @brief Method SetIndexBufferParams_Injected, addr 0x6950a54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetIndexBufferParams_Injected, addr 0x6aa3d98, size 0x54, virtual false, abstract: false, final false
   static inline void SetIndexBufferParams_Injected(::System::IntPtr _unity_self, int32_t indexCount, ::UnityEngine::Rendering::IndexFormat format);
 
-  /// @brief Method SetIndices, addr 0x695c854, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafb98, size 0xb4, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<int32_t> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695c6f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafa34, size 0x70, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<int32_t> indices, ::UnityEngine::MeshTopology topology, int32_t submesh);
 
-  /// @brief Method SetIndices, addr 0x695c7e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafb24, size 0x74, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<int32_t> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds);
 
-  /// @brief Method SetIndices, addr 0x695c760, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafaa4, size 0x80, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<int32_t> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695c988, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafccc, size 0xb4, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<uint16_t> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695c908, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafc4c, size 0x80, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<uint16_t> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695caf8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafe3c, size 0x130, virtual false, abstract: false, final false
   inline void SetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
                          bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695ca3c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aafd80, size 0xbc, virtual false, abstract: false, final false
   inline void SetIndices(::System::Collections::Generic::List_1<int32_t>* indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695cce4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6ab0028, size 0x130, virtual false, abstract: false, final false
   inline void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
                          bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndices, addr 0x695cc28, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetIndices, addr 0x6aaff6c, size 0xbc, virtual false, abstract: false, final false
   inline void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1211,19 +1211,19 @@ public:
   /// @brief Method SetIndices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetIndices(::Unity::Collections::NativeArray_1<T> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndicesImpl, addr 0x6951f84, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetIndicesImpl, addr 0x6aa52c8, size 0xe0, virtual false, abstract: false, final false
   inline void SetIndicesImpl(int32_t submesh, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::IndexFormat indicesFormat, ::System::Array* indices, int32_t arrayStart,
                              int32_t arraySize, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndicesImpl_Injected, addr 0x6952064, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetIndicesImpl_Injected, addr 0x6aa53a8, size 0x9c, virtual false, abstract: false, final false
   static inline void SetIndicesImpl_Injected(::System::IntPtr _unity_self, int32_t submesh, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::IndexFormat indicesFormat,
                                              ::System::Array* indices, int32_t arrayStart, int32_t arraySize, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndicesNativeArrayImpl, addr 0x6952100, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetIndicesNativeArrayImpl, addr 0x6aa5444, size 0xe0, virtual false, abstract: false, final false
   inline void SetIndicesNativeArrayImpl(int32_t submesh, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::IndexFormat indicesFormat, ::System::IntPtr indices, int32_t arrayStart,
                                         int32_t arraySize, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetIndicesNativeArrayImpl_Injected, addr 0x69521e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetIndicesNativeArrayImpl_Injected, addr 0x6aa5524, size 0x9c, virtual false, abstract: false, final false
   static inline void SetIndicesNativeArrayImpl_Injected(::System::IntPtr _unity_self, int32_t submesh, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::IndexFormat indicesFormat,
                                                         ::System::IntPtr indices, int32_t arrayStart, int32_t arraySize, bool calculateBounds, int32_t baseVertex);
 
@@ -1237,31 +1237,31 @@ public:
   inline void SetListForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::System::Collections::Generic::List_1<T>* values, int32_t start, int32_t length,
                                 ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetNativeArrayForChannelImpl, addr 0x6953040, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetNativeArrayForChannelImpl, addr 0x6aa6384, size 0xe0, virtual false, abstract: false, final false
   inline void SetNativeArrayForChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim, ::System::IntPtr values,
                                            int32_t arraySize, int32_t valuesStart, int32_t valuesCount, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetNativeArrayForChannelImpl_Injected, addr 0x6953120, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetNativeArrayForChannelImpl_Injected, addr 0x6aa6464, size 0x9c, virtual false, abstract: false, final false
   static inline void SetNativeArrayForChannelImpl_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format,
                                                            int32_t dim, ::System::IntPtr values, int32_t arraySize, int32_t valuesStart, int32_t valuesCount,
                                                            ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetNormals, addr 0x69587ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNormals, addr 0x6aabaf0, size 0x78, virtual false, abstract: false, final false
   inline void SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals);
 
-  /// @brief Method SetNormals, addr 0x6958824, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetNormals, addr 0x6aabb68, size 0x74, virtual false, abstract: false, final false
   inline void SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals, int32_t start, int32_t length);
 
-  /// @brief Method SetNormals, addr 0x6958898, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNormals, addr 0x6aabbdc, size 0x78, virtual false, abstract: false, final false
   inline void SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetNormals, addr 0x69586a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetNormals, addr 0x6aab9e4, size 0x84, virtual false, abstract: false, final false
   inline void SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals);
 
-  /// @brief Method SetNormals, addr 0x6958724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNormals, addr 0x6aaba68, size 0x8, virtual false, abstract: false, final false
   inline void SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals, int32_t start, int32_t length);
 
-  /// @brief Method SetNormals, addr 0x695872c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetNormals, addr 0x6aaba70, size 0x80, virtual false, abstract: false, final false
   inline void SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetNormals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1273,30 +1273,30 @@ public:
   /// @brief Method SetNormals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetNormals(::Unity::Collections::NativeArray_1<T> inNormals, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSizedArrayForChannel, addr 0x6957528, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method SetSizedArrayForChannel, addr 0x6aaa86c, size 0x21c, virtual false, abstract: false, final false
   inline void SetSizedArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim, ::System::Array* values,
                                       int32_t valuesArrayLength, int32_t valuesStart, int32_t valuesCount, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSizedNativeArrayForChannel, addr 0x6957744, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SetSizedNativeArrayForChannel, addr 0x6aaaa88, size 0x218, virtual false, abstract: false, final false
   inline void SetSizedNativeArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim, ::System::IntPtr values,
                                             int32_t valuesArrayLength, int32_t valuesStart, int32_t valuesCount, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMesh, addr 0x69560b4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSubMesh, addr 0x6aa93f8, size 0xa8, virtual false, abstract: false, final false
   inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMesh_Injected, addr 0x695615c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetSubMesh_Injected, addr 0x6aa94a0, size 0x5c, virtual false, abstract: false, final false
   static inline void SetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMeshes, addr 0x695d084, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshes, addr 0x6ab03c8, size 0x28, virtual false, abstract: false, final false
   inline void SetSubMeshes(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMeshes, addr 0x695ce14, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshes, addr 0x6ab0158, size 0x270, virtual false, abstract: false, final false
   inline void SetSubMeshes(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMeshes, addr 0x695d144, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshes, addr 0x6ab0488, size 0xa8, virtual false, abstract: false, final false
   inline void SetSubMeshes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::SubMeshDescriptor>* desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetSubMeshes, addr 0x695d0ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetSubMeshes, addr 0x6ab03f0, size 0x98, virtual false, abstract: false, final false
   inline void SetSubMeshes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::SubMeshDescriptor>* desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1305,22 +1305,22 @@ public:
   /// @brief Method SetSubMeshes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetTangents, addr 0x6958aec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetTangents, addr 0x6aabe30, size 0x78, virtual false, abstract: false, final false
   inline void SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents);
 
-  /// @brief Method SetTangents, addr 0x6958b64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetTangents, addr 0x6aabea8, size 0x74, virtual false, abstract: false, final false
   inline void SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents, int32_t start, int32_t length);
 
-  /// @brief Method SetTangents, addr 0x6958bd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetTangents, addr 0x6aabf1c, size 0x78, virtual false, abstract: false, final false
   inline void SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetTangents, addr 0x69589e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetTangents, addr 0x6aabd24, size 0x84, virtual false, abstract: false, final false
   inline void SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents);
 
-  /// @brief Method SetTangents, addr 0x6958a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTangents, addr 0x6aabda8, size 0x8, virtual false, abstract: false, final false
   inline void SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents, int32_t start, int32_t length);
 
-  /// @brief Method SetTangents, addr 0x6958a6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetTangents, addr 0x6aabdb0, size 0x80, virtual false, abstract: false, final false
   inline void SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetTangents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1332,98 +1332,98 @@ public:
   /// @brief Method SetTangents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetTangents(::Unity::Collections::NativeArray_1<T> inTangents, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetTriangles, addr 0x695c088, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf3cc, size 0x54, virtual false, abstract: false, final false
   inline void SetTriangles(::ArrayW<int32_t> triangles, int32_t submesh);
 
-  /// @brief Method SetTriangles, addr 0x695c140, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf484, size 0x60, virtual false, abstract: false, final false
   inline void SetTriangles(::ArrayW<int32_t> triangles, int32_t submesh, bool calculateBounds);
 
-  /// @brief Method SetTriangles, addr 0x695c0dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf420, size 0x64, virtual false, abstract: false, final false
   inline void SetTriangles(::ArrayW<int32_t> triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c1a0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf4e4, size 0xa8, virtual false, abstract: false, final false
   inline void SetTriangles(::ArrayW<int32_t> triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c248, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf58c, size 0x64, virtual false, abstract: false, final false
   inline void SetTriangles(::ArrayW<uint16_t> triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c2ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf5f0, size 0xa8, virtual false, abstract: false, final false
   inline void SetTriangles(::ArrayW<uint16_t> triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf698, size 0xc, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh);
 
-  /// @brief Method SetTriangles, addr 0x695c400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf744, size 0x8, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool calculateBounds);
 
-  /// @brief Method SetTriangles, addr 0x695c360, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf6a4, size 0xa0, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c408, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf74c, size 0x124, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c52c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf870, size 0xa0, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTriangles, addr 0x695c5cc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetTriangles, addr 0x6aaf910, size 0x124, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetTrianglesImpl, addr 0x695b660, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetTrianglesImpl, addr 0x6aae9a4, size 0x80, virtual false, abstract: false, final false
   inline void SetTrianglesImpl(int32_t submesh, ::UnityEngine::Rendering::IndexFormat indicesFormat, ::System::Array* triangles, int32_t trianglesArrayLength, int32_t start, int32_t length,
                                bool calculateBounds, int32_t baseVertex);
 
-  /// @brief Method SetUVs, addr 0x6959768, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacaac, size 0x54, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector2> uvs);
 
-  /// @brief Method SetUVs, addr 0x69597bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacb00, size 0x18, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector2> uvs, int32_t start, int32_t length);
 
-  /// @brief Method SetUVs, addr 0x69598ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacbf0, size 0x18, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector2> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetUVs, addr 0x69597d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacb18, size 0x54, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector3> uvs);
 
-  /// @brief Method SetUVs, addr 0x6959828, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacb6c, size 0x18, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector3> uvs, int32_t start, int32_t length);
 
-  /// @brief Method SetUVs, addr 0x69598c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacc08, size 0x18, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector3> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetUVs, addr 0x6959840, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacb84, size 0x54, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector4> uvs);
 
-  /// @brief Method SetUVs, addr 0x6959894, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacbd8, size 0x18, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector4> uvs, int32_t start, int32_t length);
 
-  /// @brief Method SetUVs, addr 0x69598dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aacc20, size 0x18, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector4> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetUVs, addr 0x69592ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac630, size 0x8c, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs);
 
-  /// @brief Method SetUVs, addr 0x6959378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac6bc, size 0x8, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs, int32_t start, int32_t length);
 
-  /// @brief Method SetUVs, addr 0x69594a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac7ec, size 0x90, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetUVs, addr 0x6959380, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac6c4, size 0x8c, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs);
 
-  /// @brief Method SetUVs, addr 0x695940c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac750, size 0x8, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs, int32_t start, int32_t length);
 
-  /// @brief Method SetUVs, addr 0x6959538, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac87c, size 0x90, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetUVs, addr 0x6959414, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac758, size 0x8c, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
 
-  /// @brief Method SetUVs, addr 0x69594a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac7e4, size 0x8, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs, int32_t start, int32_t length);
 
-  /// @brief Method SetUVs, addr 0x69595c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetUVs, addr 0x6aac90c, size 0x90, virtual false, abstract: false, final false
   inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetUVs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1435,7 +1435,7 @@ public:
   /// @brief Method SetUVs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetUvsImpl, addr 0x6959658, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetUvsImpl, addr 0x6aac99c, size 0x110, virtual false, abstract: false, final false
   inline void SetUvsImpl(int32_t uvIndex, int32_t dim, ::System::Array* uvs, int32_t arrayStart, int32_t arraySize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetUvsImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1455,40 +1455,40 @@ public:
   inline void SetVertexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream,
                                   ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetVertexBufferParams, addr 0x6959aa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParams, addr 0x6aacdec, size 0x4, virtual false, abstract: false, final false
   inline void SetVertexBufferParams(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method SetVertexBufferParams, addr 0x6959aac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParams, addr 0x6aacdf0, size 0x6c, virtual false, abstract: false, final false
   inline void SetVertexBufferParams(int32_t vertexCount, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method SetVertexBufferParamsFromArray, addr 0x6950e44, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParamsFromArray, addr 0x6aa4188, size 0x10c, virtual false, abstract: false, final false
   inline void SetVertexBufferParamsFromArray(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
-  /// @brief Method SetVertexBufferParamsFromArray_Injected, addr 0x6950f50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParamsFromArray_Injected, addr 0x6aa4294, size 0x54, virtual false, abstract: false, final false
   static inline void SetVertexBufferParamsFromArray_Injected(::System::IntPtr _unity_self, int32_t vertexCount, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes);
 
-  /// @brief Method SetVertexBufferParamsFromPtr, addr 0x6950d40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParamsFromPtr, addr 0x6aa4084, size 0xa8, virtual false, abstract: false, final false
   inline void SetVertexBufferParamsFromPtr(int32_t vertexCount, ::System::IntPtr attributesPtr, int32_t attributesCount);
 
-  /// @brief Method SetVertexBufferParamsFromPtr_Injected, addr 0x6950de8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetVertexBufferParamsFromPtr_Injected, addr 0x6aa412c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetVertexBufferParamsFromPtr_Injected(::System::IntPtr _unity_self, int32_t vertexCount, ::System::IntPtr attributesPtr, int32_t attributesCount);
 
-  /// @brief Method SetVertices, addr 0x695846c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6aab7b0, size 0x78, virtual false, abstract: false, final false
   inline void SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices);
 
-  /// @brief Method SetVertices, addr 0x69584e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6aab828, size 0x74, virtual false, abstract: false, final false
   inline void SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices, int32_t start, int32_t length);
 
-  /// @brief Method SetVertices, addr 0x6958558, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6aab89c, size 0x78, virtual false, abstract: false, final false
   inline void SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method SetVertices, addr 0x6958360, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6aab6a4, size 0x84, virtual false, abstract: false, final false
   inline void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices);
 
-  /// @brief Method SetVertices, addr 0x69583e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6aab728, size 0x8, virtual false, abstract: false, final false
   inline void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices, int32_t start, int32_t length);
 
-  /// @brief Method SetVertices, addr 0x69583ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6aab730, size 0x80, virtual false, abstract: false, final false
   inline void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetVertices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1500,220 +1500,220 @@ public:
   /// @brief Method SetVertices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetVertices(::Unity::Collections::NativeArray_1<T> inVertices, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
-  /// @brief Method UploadMeshData, addr 0x695d914, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UploadMeshData, addr 0x6ab0c58, size 0x38, virtual false, abstract: false, final false
   inline void UploadMeshData(bool markNoLongerReadable);
 
-  /// @brief Method UploadMeshDataImpl, addr 0x6956c08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UploadMeshDataImpl, addr 0x6aa9f4c, size 0x90, virtual false, abstract: false, final false
   inline void UploadMeshDataImpl(bool markNoLongerReadable);
 
-  /// @brief Method UploadMeshDataImpl_Injected, addr 0x6956c98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UploadMeshDataImpl_Injected, addr 0x6aa9fdc, size 0x44, virtual false, abstract: false, final false
   static inline void UploadMeshDataImpl_Injected(::System::IntPtr _unity_self, bool markNoLongerReadable);
 
-  /// @brief Method .ctor, addr 0x695059c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa38e0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bindposeCount, addr 0x69553a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bindposeCount, addr 0x6aa86ec, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_bindposeCount();
 
-  /// @brief Method get_bindposeCount_Injected, addr 0x6955428, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bindposeCount_Injected, addr 0x6aa876c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_bindposeCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_bindposes, addr 0x6955464, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_bindposes, addr 0x6aa87a8, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> get_bindposes();
 
-  /// @brief Method get_bindposes_Injected, addr 0x69555c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bindposes_Injected, addr 0x6aa8908, size 0x44, virtual false, abstract: false, final false
   static inline void get_bindposes_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-  /// @brief Method get_blendShapeCount, addr 0x6953db0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_blendShapeCount, addr 0x6aa70f4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_blendShapeCount();
 
-  /// @brief Method get_blendShapeCount_Injected, addr 0x6953e30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_blendShapeCount_Injected, addr 0x6aa7174, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_blendShapeCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_boneWeights, addr 0x695d3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_boneWeights, addr 0x6ab072c, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::BoneWeight> get_boneWeights();
 
-  /// @brief Method get_bounds, addr 0x6956578, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x6aa98bc, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x6956628, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x6aa996c, size 0x44, virtual false, abstract: false, final false
   static inline void get_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_canAccess, addr 0x6955e2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_canAccess, addr 0x6aa9170, size 0x80, virtual false, abstract: false, final false
   inline bool get_canAccess();
 
-  /// @brief Method get_canAccess_Injected, addr 0x6955eac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canAccess_Injected, addr 0x6aa91f0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canAccess_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_colors, addr 0x6958118, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0x6aab45c, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> get_colors();
 
-  /// @brief Method get_colors32, addr 0x69581cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_colors32, addr 0x6aab510, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color32> get_colors32();
 
-  /// @brief Method get_indexBufferTarget, addr 0x6953c20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_indexBufferTarget, addr 0x6aa6f64, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer_Target get_indexBufferTarget();
 
-  /// @brief Method get_indexBufferTarget_Injected, addr 0x6953ca0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_indexBufferTarget_Injected, addr 0x6aa6fe4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer_Target get_indexBufferTarget_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_indexFormat, addr 0x6950770, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_indexFormat, addr 0x6aa3ab4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IndexFormat get_indexFormat();
 
-  /// @brief Method get_indexFormat_Injected, addr 0x69507f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_indexFormat_Injected, addr 0x6aa3b34, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::IndexFormat get_indexFormat_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_isReadable, addr 0x6955d70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x6aa90b4, size 0x80, virtual false, abstract: false, final false
   inline bool get_isReadable();
 
-  /// @brief Method get_isReadable_Injected, addr 0x6955df0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isReadable_Injected, addr 0x6aa9134, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isReadable_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_normals, addr 0x6957a10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_normals, addr 0x6aaad54, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> get_normals();
 
-  /// @brief Method get_skinWeightBufferLayout, addr 0x695d3f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_skinWeightBufferLayout, addr 0x6ab0734, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::SkinWeights get_skinWeightBufferLayout();
 
-  /// @brief Method get_subMeshCount, addr 0x6955f24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshCount, addr 0x6aa9268, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_subMeshCount();
 
-  /// @brief Method get_subMeshCount_Injected, addr 0x6955fa4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshCount_Injected, addr 0x6aa92e8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_subMeshCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_tangents, addr 0x6957ac4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_tangents, addr 0x6aaae08, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4> get_tangents();
 
-  /// @brief Method get_triangles, addr 0x695b534, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_triangles, addr 0x6aae878, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_triangles();
 
-  /// @brief Method get_uv, addr 0x6957b78, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv, addr 0x6aaaebc, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv();
 
-  /// @brief Method get_uv2, addr 0x6957c2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv2, addr 0x6aaaf70, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv2();
 
-  /// @brief Method get_uv3, addr 0x6957ce0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv3, addr 0x6aab024, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv3();
 
-  /// @brief Method get_uv4, addr 0x6957d94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv4, addr 0x6aab0d8, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv4();
 
-  /// @brief Method get_uv5, addr 0x6957e48, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv5, addr 0x6aab18c, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv5();
 
-  /// @brief Method get_uv6, addr 0x6957efc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv6, addr 0x6aab240, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv6();
 
-  /// @brief Method get_uv7, addr 0x6957fb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv7, addr 0x6aab2f4, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv7();
 
-  /// @brief Method get_uv8, addr 0x6958064, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_uv8, addr 0x6aab3a8, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv8();
 
-  /// @brief Method get_vertexAttributeCount, addr 0x6959a2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_vertexAttributeCount, addr 0x6aacd70, size 0x4, virtual false, abstract: false, final false
   inline int32_t get_vertexAttributeCount();
 
-  /// @brief Method get_vertexBufferCount, addr 0x69533dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferCount, addr 0x6aa6720, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_vertexBufferCount();
 
-  /// @brief Method get_vertexBufferCount_Injected, addr 0x695345c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferCount_Injected, addr 0x6aa67a0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_vertexBufferCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_vertexBufferTarget, addr 0x6953a90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferTarget, addr 0x6aa6dd4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer_Target get_vertexBufferTarget();
 
-  /// @brief Method get_vertexBufferTarget_Injected, addr 0x6953b10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferTarget_Injected, addr 0x6aa6e54, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer_Target get_vertexBufferTarget_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_vertexCount, addr 0x6955138, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x6aa847c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
-  /// @brief Method get_vertexCount_Injected, addr 0x6955ee8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount_Injected, addr 0x6aa922c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_vertexCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_vertices, addr 0x695795c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_vertices, addr 0x6aaaca0, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> get_vertices();
 
-  /// @brief Method set_bindposes, addr 0x6955608, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_bindposes, addr 0x6aa894c, size 0x104, virtual false, abstract: false, final false
   inline void set_bindposes(::ArrayW<::UnityEngine::Matrix4x4> value);
 
-  /// @brief Method set_bindposes_Injected, addr 0x695570c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bindposes_Injected, addr 0x6aa8a50, size 0x44, virtual false, abstract: false, final false
   static inline void set_bindposes_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
-  /// @brief Method set_boneWeights, addr 0x695d3ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_boneWeights, addr 0x6ab0730, size 0x4, virtual false, abstract: false, final false
   inline void set_boneWeights(::ArrayW<::UnityEngine::BoneWeight> value);
 
-  /// @brief Method set_bounds, addr 0x695666c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_bounds, addr 0x6aa99b0, size 0x90, virtual false, abstract: false, final false
   inline void set_bounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_bounds_Injected, addr 0x69566fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bounds_Injected, addr 0x6aa9a40, size 0x44, virtual false, abstract: false, final false
   static inline void set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
 
-  /// @brief Method set_colors, addr 0x6958168, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_colors, addr 0x6aab4ac, size 0x64, virtual false, abstract: false, final false
   inline void set_colors(::ArrayW<::UnityEngine::Color> value);
 
-  /// @brief Method set_colors32, addr 0x6958224, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_colors32, addr 0x6aab568, size 0x6c, virtual false, abstract: false, final false
   inline void set_colors32(::ArrayW<::UnityEngine::Color32> value);
 
-  /// @brief Method set_indexBufferTarget, addr 0x6953cdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_indexBufferTarget, addr 0x6aa7020, size 0x90, virtual false, abstract: false, final false
   inline void set_indexBufferTarget(::UnityEngine::GraphicsBuffer_Target value);
 
-  /// @brief Method set_indexBufferTarget_Injected, addr 0x6953d6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_indexBufferTarget_Injected, addr 0x6aa70b0, size 0x44, virtual false, abstract: false, final false
   static inline void set_indexBufferTarget_Injected(::System::IntPtr _unity_self, ::UnityEngine::GraphicsBuffer_Target value);
 
-  /// @brief Method set_indexFormat, addr 0x695082c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_indexFormat, addr 0x6aa3b70, size 0x90, virtual false, abstract: false, final false
   inline void set_indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method set_indexFormat_Injected, addr 0x69508bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_indexFormat_Injected, addr 0x6aa3c00, size 0x44, virtual false, abstract: false, final false
   static inline void set_indexFormat_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method set_normals, addr 0x6957a60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_normals, addr 0x6aaada4, size 0x64, virtual false, abstract: false, final false
   inline void set_normals(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_subMeshCount, addr 0x6955fe0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshCount, addr 0x6aa9324, size 0x90, virtual false, abstract: false, final false
   inline void set_subMeshCount(int32_t value);
 
-  /// @brief Method set_subMeshCount_Injected, addr 0x6956070, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshCount_Injected, addr 0x6aa93b4, size 0x44, virtual false, abstract: false, final false
   static inline void set_subMeshCount_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_tangents, addr 0x6957b14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_tangents, addr 0x6aaae58, size 0x64, virtual false, abstract: false, final false
   inline void set_tangents(::ArrayW<::UnityEngine::Vector4> value);
 
-  /// @brief Method set_triangles, addr 0x695b5ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_triangles, addr 0x6aae8f0, size 0xb4, virtual false, abstract: false, final false
   inline void set_triangles(::ArrayW<int32_t> value);
 
-  /// @brief Method set_uv, addr 0x6957bc8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv, addr 0x6aaaf0c, size 0x64, virtual false, abstract: false, final false
   inline void set_uv(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv2, addr 0x6957c7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv2, addr 0x6aaafc0, size 0x64, virtual false, abstract: false, final false
   inline void set_uv2(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv3, addr 0x6957d30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv3, addr 0x6aab074, size 0x64, virtual false, abstract: false, final false
   inline void set_uv3(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv4, addr 0x6957de4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv4, addr 0x6aab128, size 0x64, virtual false, abstract: false, final false
   inline void set_uv4(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv5, addr 0x6957e98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv5, addr 0x6aab1dc, size 0x64, virtual false, abstract: false, final false
   inline void set_uv5(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv6, addr 0x6957f4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv6, addr 0x6aab290, size 0x64, virtual false, abstract: false, final false
   inline void set_uv6(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv7, addr 0x6958000, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv7, addr 0x6aab344, size 0x64, virtual false, abstract: false, final false
   inline void set_uv7(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_uv8, addr 0x69580b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_uv8, addr 0x6aab3f8, size 0x64, virtual false, abstract: false, final false
   inline void set_uv8(::ArrayW<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_vertexBufferTarget, addr 0x6953b4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_vertexBufferTarget, addr 0x6aa6e90, size 0x90, virtual false, abstract: false, final false
   inline void set_vertexBufferTarget(::UnityEngine::GraphicsBuffer_Target value);
 
-  /// @brief Method set_vertexBufferTarget_Injected, addr 0x6953bdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_vertexBufferTarget_Injected, addr 0x6aa6f20, size 0x44, virtual false, abstract: false, final false
   static inline void set_vertexBufferTarget_Injected(::System::IntPtr _unity_self, ::UnityEngine::GraphicsBuffer_Target value);
 
-  /// @brief Method set_vertices, addr 0x69579ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_vertices, addr 0x6aaacf0, size 0x64, virtual false, abstract: false, final false
   inline void set_vertices(::ArrayW<::UnityEngine::Vector3> value);
 
 protected:
@@ -1731,7 +1731,7 @@ public:
   Mesh(Mesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SynchronisationStageFlags (*)(::UnityEngine::Rendering::SynchronisationStage)>(
     &::UnityEngine::Rendering::GraphicsFence::TranslateSynchronizationStageToFlags)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69b2f4c;
+  constexpr static std::size_t addrs = 0x6b0690c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GraphicsFence::*)()>(&::UnityEngine::Rendering::GraphicsFence::InitPostAllocation)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69b2f5c;
+  constexpr static std::size_t addrs = 0x6b0691c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsFence>(), { "InitPostAllocation", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GraphicsFence::*)()>(&::UnityEngine::Rendering::GraphicsFence::IsFencePending)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69b3060;
+  constexpr static std::size_t addrs = 0x6b06a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsFence>(), { "IsFencePending", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GraphicsFence::*)()>(&::UnityEngine::Rendering::GraphicsFence::Validate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x69b30b8;
+  constexpr static std::size_t addrs = 0x6b06a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsFence>(), { "Validate", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::GraphicsFence::*)()>(&::UnityEngine::Rendering::GraphicsFence::GetPlatformNotSupportedVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b301c;
+  constexpr static std::size_t addrs = 0x6b069dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsFence>(), { "GetPlatformNotSupportedVersion", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::GraphicsFence::GetVersionNumber)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69b3024;
+  constexpr static std::size_t addrs = 0x6b069e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

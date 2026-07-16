@@ -30,7 +30,7 @@ public:
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method ToString, addr 0x6903128, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a56118, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__rule() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__rule(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6903120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a56110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method .ctor, addr 0x69030a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a56098, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
 protected:
@@ -60,7 +60,7 @@ public:
   TypeInferenceRuleAttribute(TypeInferenceRuleAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9884 };
 
   /// @brief Field _rule, offset: 0x10, size: 0x8, def value: None
   ::StringW ____rule;

@@ -33,10 +33,10 @@ public:
   __declspec(property(get = getStaticF_m_WorldSpaceData,
                       put = setStaticF_m_WorldSpaceData)) ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* m_WorldSpaceData;
 
-  /// @brief Method GetWorldSpaceData, addr 0x6b7a42c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetWorldSpaceData, addr 0x6cce2e4, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WorldSpaceData GetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method SetWorldSpaceData, addr 0x6b7a364, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetWorldSpaceData, addr 0x6cce21c, size 0xc8, virtual false, abstract: false, final false
   static inline void SetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::WorldSpaceData data);
 
   static inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* getStaticF_m_WorldSpaceData();

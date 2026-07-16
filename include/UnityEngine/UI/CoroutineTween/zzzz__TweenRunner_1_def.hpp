@@ -139,7 +139,7 @@ public:
   TweenRunner_1__Start_d__2(TweenRunner_1__Start_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17495 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -218,7 +218,7 @@ public:
   TweenRunner_1(TweenRunner_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17496 };
 
   /// @brief Field m_CoroutineContainer, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MonoBehaviour> ___m_CoroutineContainer;

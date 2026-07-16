@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)(uint64_t, uint64_t, ::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x593fe5c;
+  constexpr static std::size_t addrs = 0x5a79560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)(uint64_t, uint64_t, ::System::Guid, bool)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5942810;
+  constexpr static std::size_t addrs = 0x5a7bf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::ToString)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5942820;
+  constexpr static std::size_t addrs = 0x5a7bf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>(),

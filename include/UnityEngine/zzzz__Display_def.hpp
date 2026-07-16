@@ -40,12 +40,12 @@ namespace UnityEngine {
 class CORDL_TYPE Display_DisplaysUpdatedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x692bf1c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a7f390, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Display_DisplaysUpdatedDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x692beb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a7f328, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -63,7 +63,7 @@ public:
   Display_DisplaysUpdatedDelegate(Display_DisplaysUpdatedDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,29 +105,29 @@ public:
 
   __declspec(property(get = get_systemWidth)) int32_t systemWidth;
 
-  /// @brief Method FireDisplaysUpdated, addr 0x692bd34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FireDisplaysUpdated, addr 0x6a7f1a8, size 0x98, virtual false, abstract: false, final false
   static inline void FireDisplaysUpdated();
 
-  /// @brief Method GetRenderingExtImpl, addr 0x692b71c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetRenderingExtImpl, addr 0x6a7eb90, size 0x54, virtual false, abstract: false, final false
   static inline void GetRenderingExtImpl(::System::IntPtr nativeDisplay, ::by_ref<int32_t> w, ::by_ref<int32_t> h);
 
-  /// @brief Method GetSystemExtImpl, addr 0x692b8a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSystemExtImpl, addr 0x6a7ed14, size 0x54, virtual false, abstract: false, final false
   static inline void GetSystemExtImpl(::System::IntPtr nativeDisplay, ::by_ref<int32_t> w, ::by_ref<int32_t> h);
 
   static inline ::UnityEngine::Display* New_ctor();
 
   static inline ::UnityEngine::Display* New_ctor(::System::IntPtr nativeDisplay);
 
-  /// @brief Method RecreateDisplayList, addr 0x692bbc0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RecreateDisplayList, addr 0x6a7f034, size 0x174, virtual false, abstract: false, final false
   static inline void RecreateDisplayList(::ArrayW<::System::IntPtr> nativeDisplay);
 
-  /// @brief Method RelativeMouseAt, addr 0x692ba44, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAt, addr 0x6a7eeb8, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAt(::UnityEngine::Vector3 inputMouseCoordinates);
 
-  /// @brief Method RelativeMouseAtImpl, addr 0x692bb08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtImpl, addr 0x6a7ef7c, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t RelativeMouseAtImpl(int32_t x, int32_t y, ::by_ref<int32_t> rx, ::by_ref<int32_t> ry);
 
-  /// @brief Method RequiresSrgbBlitToBackbufferImpl, addr 0x692ba08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RequiresSrgbBlitToBackbufferImpl, addr 0x6a7ee7c, size 0x3c, virtual false, abstract: false, final false
   static inline bool RequiresSrgbBlitToBackbufferImpl(::System::IntPtr nativeDisplay);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_nativeDisplay() const;
@@ -136,10 +136,10 @@ public:
 
   constexpr void __cordl_internal_set_nativeDisplay(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x692b674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a7eae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x692b67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a7eaf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativeDisplay);
 
   static inline ::UnityEngine::Display* getStaticF__mainDisplay();
@@ -150,22 +150,22 @@ public:
 
   static inline ::UnityEngine::Display_DisplaysUpdatedDelegate* getStaticF_onDisplaysUpdated();
 
-  /// @brief Method get_main, addr 0x692bb64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_main, addr 0x6a7efd8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Display* get_main();
 
-  /// @brief Method get_renderingHeight, addr 0x692b770, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_renderingHeight, addr 0x6a7ebe4, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_renderingHeight();
 
-  /// @brief Method get_renderingWidth, addr 0x692b684, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_renderingWidth, addr 0x6a7eaf8, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_renderingWidth();
 
-  /// @brief Method get_requiresSrgbBlitToBackbuffer, addr 0x692b98c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_requiresSrgbBlitToBackbuffer, addr 0x6a7ee00, size 0x7c, virtual false, abstract: false, final false
   inline bool get_requiresSrgbBlitToBackbuffer();
 
-  /// @brief Method get_systemHeight, addr 0x692b8f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_systemHeight, addr 0x6a7ed68, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_systemHeight();
 
-  /// @brief Method get_systemWidth, addr 0x692b808, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_systemWidth, addr 0x6a7ec7c, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_systemWidth();
 
   static inline void setStaticF__mainDisplay(::UnityEngine::Display* value);
@@ -191,7 +191,7 @@ public:
   Display(Display const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10101 };
 
   /// @brief Field nativeDisplay, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___nativeDisplay;

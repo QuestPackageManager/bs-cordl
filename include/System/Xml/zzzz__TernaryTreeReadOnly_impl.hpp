@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::TernaryTreeReadOnly::*)(::ArrayW<uint8_t>)>(&::System::Xml::TernaryTreeReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x606e828;
+  constexpr static std::size_t addrs = 0x61a9924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Xml::TernaryTreeReadOnly::*)(::StringW)>(&::System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x606d144;
+  constexpr static std::size_t addrs = 0x61a8240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

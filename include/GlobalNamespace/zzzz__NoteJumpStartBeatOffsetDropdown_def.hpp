@@ -27,12 +27,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteJumpStartBeatOffsetDropdown : public ::GlobalNamespace::ValueDropdownController_1<float_t> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x58e58b4, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x5a0f400, size 0x1a0, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58e5a54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0f5a0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,22 @@ public:
   NoteJumpStartBeatOffsetDropdown(NoteJumpStartBeatOffsetDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6384 };
+
+  /// @brief Field kJumpStartCloseLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kJumpStartCloseLocalizationKey{ u"PLAYER_SETTINGS_JUMP_START_CLOSE" };
+
+  /// @brief Field kJumpStartCloserLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kJumpStartCloserLocalizationKey{ u"PLAYER_SETTINGS_JUMP_START_CLOSER" };
+
+  /// @brief Field kJumpStartDefaultLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kJumpStartDefaultLocalizationKey{ u"PLAYER_SETTINGS_JUMP_START_DEFAULT" };
+
+  /// @brief Field kJumpStartFarLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kJumpStartFarLocalizationKey{ u"PLAYER_SETTINGS_JUMP_START_FAR" };
+
+  /// @brief Field kJumpStartFurtherLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kJumpStartFurtherLocalizationKey{ u"PLAYER_SETTINGS_JUMP_START_FURTHER" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

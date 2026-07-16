@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalServerConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::LocalServerConnectionRequestHandler::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x327c2d8;
+  constexpr static std::size_t addrs = 0x3338790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalServerConnectionRequestHandler*>(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::GlobalNamespace::LocalServerConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataReader*, ::by_ref<::StringW>, ::by_ref<::StringW>, ::by_ref<bool>, ::by_ref<::StringW>)>(
         &::GlobalNamespace::LocalServerConnectionRequestHandler::ValidateConnectionMessage)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x327c4e0;
+  constexpr static std::size_t addrs = 0x3338998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalServerConnectionRequestHandler::*)()>(&::GlobalNamespace::LocalServerConnectionRequestHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327c75c;
+  constexpr static std::size_t addrs = 0x3338c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalServerConnectionRequestHandler*>(), { ".ctor", {}, {} })));

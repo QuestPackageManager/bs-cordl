@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncHandshakeRequest::*)(::Mono::Net::Security::MobileAuthenticatedStream*, bool)>(
     &::Mono::Net::Security::AsyncHandshakeRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e97794;
+  constexpr static std::size_t addrs = 0x5fd2890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::AsyncHandshakeRequest::*)(::Mono::Net::Security::AsyncOperationStatus)>(
     &::Mono::Net::Security::AsyncHandshakeRequest::Run)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e97798;
+  constexpr static std::size_t addrs = 0x5fd2894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

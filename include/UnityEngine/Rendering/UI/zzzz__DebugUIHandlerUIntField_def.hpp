@@ -41,27 +41,27 @@ public:
   /// @brief Field valueLabel, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_valueLabel, put = __cordl_internal_set_valueLabel)) ::UnityW<::UnityEngine::UI::Text> valueLabel;
 
-  /// @brief Method ChangeValue, addr 0x66c4168, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ChangeValue, addr 0x6801874, size 0xc8, virtual false, abstract: false, final false
   inline void ChangeValue(bool fast, int32_t multiplier);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerUIntField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x66c4230, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x680193c, size 0x8, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x66c4110, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x680181c, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnIncrement, addr 0x66c4160, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x680186c, size 0x8, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x66c40b8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x68017c4, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x66c3f24, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6801630, size 0x90, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x66c3fb4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x68016c0, size 0x104, virtual false, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::UnityEngine::Rendering::DebugUI_UIntField* const& __cordl_internal_get_m_Field() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x66c4238, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6801944, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   DebugUIHandlerUIntField(DebugUIHandlerUIntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12513 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

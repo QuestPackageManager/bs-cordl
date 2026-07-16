@@ -49,30 +49,30 @@ public:
 
   __declspec(property(get = get_updateTrigger, put = set_updateTrigger)) ::UnityEngine::UIElements::BindingUpdateTrigger updateTrigger;
 
-  /// @brief Method ClearDirty, addr 0x6ad9680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearDirty, addr 0x6c2d538, size 0x8, virtual false, abstract: false, final false
   inline void ClearDirty();
 
-  /// @brief Method MarkDirty, addr 0x6ad9674, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x6c2d52c, size 0xc, virtual false, abstract: false, final false
   inline void MarkDirty();
 
   static inline ::UnityEngine::UIElements::Binding* New_ctor();
 
-  /// @brief Method OnActivated, addr 0x6ad9688, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnActivated, addr 0x6c2d540, size 0x4, virtual true, abstract: false, final false
   inline void OnActivated(::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
 
-  /// @brief Method OnDataSourceChanged, addr 0x6ad9690, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDataSourceChanged, addr 0x6c2d548, size 0x4, virtual true, abstract: false, final false
   inline void OnDataSourceChanged(::by_ref<::UnityEngine::UIElements::DataSourceContextChanged> context);
 
-  /// @brief Method OnDeactivated, addr 0x6ad968c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDeactivated, addr 0x6c2d544, size 0x4, virtual true, abstract: false, final false
   inline void OnDeactivated(::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
 
-  /// @brief Method ResetPanelLogLevel, addr 0x6ad95b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ResetPanelLogLevel, addr 0x6c2d470, size 0x90, virtual false, abstract: false, final false
   static inline void ResetPanelLogLevel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SetGlobalLogLevel, addr 0x6ad9430, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalLogLevel, addr 0x6c2d2e8, size 0x60, virtual false, abstract: false, final false
   static inline void SetGlobalLogLevel(::UnityEngine::UIElements::BindingLogLevel logLevel);
 
-  /// @brief Method SetPanelLogLevel, addr 0x6ad9490, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetPanelLogLevel, addr 0x6c2d348, size 0xd0, virtual false, abstract: false, final false
   static inline void SetPanelLogLevel(::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::BindingLogLevel logLevel);
 
   constexpr ::StringW const& __cordl_internal_get__property_k__BackingField() const;
@@ -93,16 +93,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateTrigger(::UnityEngine::UIElements::BindingUpdateTrigger value);
 
-  /// @brief Method .ctor, addr 0x6ad9668, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2d520, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isDirty, addr 0x6ad9650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x6c2d508, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirty();
 
-  /// @brief Method get_updateTrigger, addr 0x6ad9658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateTrigger, addr 0x6c2d510, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingUpdateTrigger get_updateTrigger();
 
-  /// @brief Method set_updateTrigger, addr 0x6ad9660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateTrigger, addr 0x6c2d518, size 0x8, virtual false, abstract: false, final false
   inline void set_updateTrigger(::UnityEngine::UIElements::BindingUpdateTrigger value);
 
 protected:

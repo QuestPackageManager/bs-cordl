@@ -23,13 +23,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::IO::NullOutputStream* New_ctor();
 
-  /// @brief Method Write, addr 0x3571340, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x362d7f8, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x357133c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x362d7f4, size 0x4, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method .ctor, addr 0x3571344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362d7fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set_countSmallPrimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3356590, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3412a48, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes);
 
-  /// @brief Method .ctor, addr 0x3356638, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3412af0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug);
 
-  /// @brief Method get_Certainty, addr 0x335663c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x3412af4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_CountSmallPrimes, addr 0x3356644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CountSmallPrimes, addr 0x3412afc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CountSmallPrimes();
 
-  /// @brief Method get_IsDebug, addr 0x335664c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDebug, addr 0x3412b04, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDebug();
 
 protected:

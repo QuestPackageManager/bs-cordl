@@ -62,30 +62,30 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method CalculateByte, addr 0x33429fc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CalculateByte, addr 0x33feeb4, size 0x150, virtual false, abstract: false, final false
   inline uint8_t CalculateByte(uint8_t b);
 
-  /// @brief Method GetBlockSize, addr 0x3342950, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetBlockSize, addr 0x33fee08, size 0xa8, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetUnderlyingCipher, addr 0x3342588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x33fea40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0x3342590, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33fea48, size 0x1b8, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessBlock, addr 0x3342cc4, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x33ff17c, size 0xf8, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x3342b4c, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method ProcessBytes, addr 0x33ff004, size 0x128, virtual true, abstract: false, final true
   inline void ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x3342748, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x33fec00, size 0x138, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0x33429f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ReturnByte, addr 0x33feeb0, size 0x4, virtual true, abstract: false, final true
   inline uint8_t ReturnByte(uint8_t input);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_IV() const;
@@ -130,16 +130,16 @@ public:
 
   constexpr void __cordl_internal_set_ofbV(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3342364, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33fe81c, size 0x224, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method checkCounter, addr 0x3342cc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method checkCounter, addr 0x33ff178, size 0x4, virtual false, abstract: false, final false
   inline void checkCounter();
 
-  /// @brief Method get_AlgorithmName, addr 0x3342880, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x33fed38, size 0xc8, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x3342948, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0x33fee00, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
@@ -148,7 +148,7 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-  /// @brief Method incrementCounterAt, addr 0x3342c74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method incrementCounterAt, addr 0x33ff12c, size 0x4c, virtual false, abstract: false, final false
   inline void incrementCounterAt(int32_t pos);
 
 protected:

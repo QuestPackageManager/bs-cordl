@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::FloatRangeParameter::*)()>(&::UnityEngine::Rendering::FloatRangeParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668a06c;
+  constexpr static std::size_t addrs = 0x67c7778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FloatRangeParameter::*)(::UnityEngine::Vector2)>(&::UnityEngine::Rendering::FloatRangeParameter::set_value)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x668a074;
+  constexpr static std::size_t addrs = 0x67c7780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FloatRangeParameter::*)(::UnityEngine::Vector2, float_t, float_t, bool)>(
     &::UnityEngine::Rendering::FloatRangeParameter::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x668a0a0;
+  constexpr static std::size_t addrs = 0x67c77ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FloatRangeParameter::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t)>(
     &::UnityEngine::Rendering::FloatRangeParameter::Interp)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x668a128;
+  constexpr static std::size_t addrs = 0x67c7834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

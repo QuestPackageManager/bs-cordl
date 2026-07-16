@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x625545c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63914f8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tool, ::StringW version);
 
 protected:
@@ -58,7 +58,7 @@ public:
   GeneratedCodeAttribute(GeneratedCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
 
   /// @brief Field tool, offset: 0x10, size: 0x8, def value: None
   ::StringW ___tool;

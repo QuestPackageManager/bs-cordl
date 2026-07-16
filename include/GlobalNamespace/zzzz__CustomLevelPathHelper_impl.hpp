@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IO::DirectoryInfo*)>(&::GlobalNamespace::CustomLevelPathHelper::IsHiddenDirectory)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3648bc8;
+  constexpr static std::size_t addrs = 0x3705054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLevelPathHelper::*)()>(&::GlobalNamespace::CustomLevelPathHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3648c84;
+  constexpr static std::size_t addrs = 0x3705110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLevelPathHelper*>(), { ".ctor", {}, {} })));

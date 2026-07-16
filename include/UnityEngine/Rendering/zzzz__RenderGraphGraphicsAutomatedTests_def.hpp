@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x66f8a7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68375f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_activatedFromCommandLine>b__1_0, addr 0x66f8a80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <get_activatedFromCommandLine>b__1_0, addr 0x68375f4, size 0x4c, virtual false, abstract: false, final false
   inline bool _get_activatedFromCommandLine_b__1_0(::StringW arg);
 
   static inline ::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c* getStaticF___9();
@@ -68,7 +68,7 @@ public:
   RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,10 +90,10 @@ public:
 
   static inline bool getStaticF__enabled_k__BackingField();
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x66f886c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_activatedFromCommandLine, addr 0x68373e0, size 0x10c, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
-  /// @brief Method get_enabled, addr 0x66f8978, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x68374ec, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF__enabled_k__BackingField(bool value);
@@ -113,7 +113,7 @@ public:
   RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -68,7 +68,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphGlobalSettings_Version const Last;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12156 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,10 +115,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphGlobalSettings* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x665fe70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x679d57c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x665fe78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x679d584, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr bool const& __cordl_internal_get_m_EnableCompilationCaching() const;
@@ -139,22 +139,22 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::UnityEngine::Rendering::RenderGraphGlobalSettings_Version value);
 
-  /// @brief Method .ctor, addr 0x665ff70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x679d67c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableCompilationCaching, addr 0x665fe80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableCompilationCaching, addr 0x679d58c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableCompilationCaching();
 
-  /// @brief Method get_enableValidityChecks, addr 0x665fef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableValidityChecks, addr 0x679d604, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableValidityChecks();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_enableCompilationCaching, addr 0x665fe88, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_enableCompilationCaching, addr 0x679d594, size 0x70, virtual false, abstract: false, final false
   inline void set_enableCompilationCaching(bool value);
 
-  /// @brief Method set_enableValidityChecks, addr 0x665ff00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_enableValidityChecks, addr 0x679d60c, size 0x70, virtual false, abstract: false, final false
   inline void set_enableValidityChecks(bool value);
 
 protected:
@@ -172,7 +172,7 @@ public:
   RenderGraphGlobalSettings(RenderGraphGlobalSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12157 };
 
   /// @brief Field m_version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderGraphGlobalSettings_Version ___m_version;

@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x571b888, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58616e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   BloomFogEnvironmentParams(BloomFogEnvironmentParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19409 };
 
   /// @brief Field attenuation, offset: 0x18, size: 0x4, def value: None
   float_t ___attenuation;

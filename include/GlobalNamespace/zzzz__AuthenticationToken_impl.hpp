@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AuthenticationToken::*)(::GlobalNamespace::AuthenticationToken_PlatformType, ::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::AuthenticationToken::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x320dd48;
+  constexpr static std::size_t addrs = 0x32a4d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AuthenticationToken::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::AuthenticationToken::Serialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x320dd58;
+  constexpr static std::size_t addrs = 0x32a4d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken (::GlobalNamespace::AuthenticationToken::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::AuthenticationToken::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x320df14;
+  constexpr static std::size_t addrs = 0x32a4f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::AuthenticationToken::Deserialize)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x320df40;
+  constexpr static std::size_t addrs = 0x32a4f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::GlobalNamespace::AuthenticationToken::FromHex)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x320de18;
+  constexpr static std::size_t addrs = 0x32a4e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(char16_t)>(&::GlobalNamespace::AuthenticationToken::GetHexVal)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x320e0f0;
+  constexpr static std::size_t addrs = 0x32a5130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::GlobalNamespace::AuthenticationToken::FromUtf8)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x320dde8;
+  constexpr static std::size_t addrs = 0x32a4e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::AuthenticationToken::ToHex)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x320e074;
+  constexpr static std::size_t addrs = 0x32a50b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::AuthenticationToken::ToUtf8)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x320e044;
+  constexpr static std::size_t addrs = 0x32a5084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

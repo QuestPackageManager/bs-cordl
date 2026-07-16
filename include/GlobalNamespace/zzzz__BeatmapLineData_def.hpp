@@ -41,7 +41,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapLineData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapLineData*() noexcept;
 
-  /// @brief Method AddBeatmapObjectData, addr 0x31c8a54, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectData, addr 0x325bffc, size 0xb4, virtual false, abstract: false, final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method .ctor, addr 0x31c8a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325bff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method .ctor, addr 0x31c89c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325bf70, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_beatmapObjectsData, addr 0x31c89c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapObjectsData, addr 0x325bf68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapLineData"
@@ -81,7 +81,7 @@ public:
   BeatmapLineData(BeatmapLineData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21212 };
 
   /// @brief Field _beatmapObjectsData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* ____beatmapObjectsData;

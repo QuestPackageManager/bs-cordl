@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::UnsafeQueueBlockPoolData* (*)()>(&::Unity::Collections::UnsafeQueueBlockPool::GetQueueBlockPool)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6386e50;
+  constexpr static std::size_t addrs = 0x64c3a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(), { "GetQueueBlockPool", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Collections::UnsafeQueueBlockPool::AppDomainOnDomainUnload)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6386f7c;
+  constexpr static std::size_t addrs = 0x64c3b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(), { "AppDomainOnDomainUnload", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::EventArgs*)>(&::Unity::Collections::UnsafeQueueBlockPool::OnDomainUnload)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6387010;
+  constexpr static std::size_t addrs = 0x64c3c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueBlockPool::*)()>(&::Unity::Collections::UnsafeQueueBlockPool::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6387100;
+  constexpr static std::size_t addrs = 0x64c3d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(), { ".ctor", {}, {} })));

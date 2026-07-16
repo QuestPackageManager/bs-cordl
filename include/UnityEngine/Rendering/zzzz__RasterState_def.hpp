@@ -37,16 +37,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RasterState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>*();
 
-  /// @brief Method Equals, addr 0x69cae74, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b1e7b0, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x69cadf8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b1e734, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RasterState other);
 
-  /// @brief Method GetHashCode, addr 0x69caf28, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b1e864, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x69cad64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b1e6a0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CullMode cullingMode, int32_t offsetUnits, float_t offsetFactor, bool depthClip);
 
   static inline ::UnityEngine::Rendering::RasterState getStaticF_defaultValue();
@@ -68,7 +68,7 @@ public:
                         uint8_t m_Padding2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10787 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

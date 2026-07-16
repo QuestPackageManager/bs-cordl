@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x3657db8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3714bfc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -62,7 +62,7 @@ public:
   FloatFxBaseData(FloatFxBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14892 };
 
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   float_t ___value;

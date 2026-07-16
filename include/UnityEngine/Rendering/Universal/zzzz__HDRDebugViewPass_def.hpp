@@ -142,7 +142,7 @@ public:
   static ::UnityEngine::Rendering::Universal::HDRDebugViewPass_HDRDebugPassId const DebugViewPass;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12808 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_xyBuffer(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6740c98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687f614, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,7 +230,7 @@ public:
   HDRDebugViewPass_PassDataCIExy(HDRDebugViewPass_PassDataCIExy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12809 };
 
   /// @brief Field material, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___material;
@@ -344,7 +344,7 @@ public:
 
   constexpr void __cordl_internal_set_xyBuffer(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6740c9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687f618, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -362,7 +362,7 @@ public:
   HDRDebugViewPass_PassDataDebugView(HDRDebugViewPass_PassDataDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12810 };
 
   /// @brief Field material, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___material;
@@ -434,7 +434,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::HDRDebugViewPass_ShaderConstants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67426b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881034, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__CIExyUAVIndex();
@@ -472,7 +472,7 @@ public:
   HDRDebugViewPass_ShaderConstants(HDRDebugViewPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -502,13 +502,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::HDRDebugViewPass___c* New_ctor();
 
-  /// @brief Method <RenderHDRDebug>b__17_0, addr 0x67427f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <RenderHDRDebug>b__17_0, addr 0x6881174, size 0xf0, virtual false, abstract: false, final false
   inline void _RenderHDRDebug_b__17_0(::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <RenderHDRDebug>b__17_1, addr 0x67428e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <RenderHDRDebug>b__17_1, addr 0x6881264, size 0xc8, virtual false, abstract: false, final false
   inline void _RenderHDRDebug_b__17_1(::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x67427f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881170, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::HDRDebugViewPass___c* getStaticF___9();
@@ -544,7 +544,7 @@ public:
   HDRDebugViewPass___c(HDRDebugViewPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -585,39 +585,39 @@ public:
   /// @brief Field m_material, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_material, put = __cordl_internal_set_m_material)) ::UnityW<::UnityEngine::Material> m_material;
 
-  /// @brief Method ConfigureDescriptorForCIEPrepass, addr 0x6740ca0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptorForCIEPrepass, addr 0x687f61c, size 0x9c, virtual false, abstract: false, final false
   static inline void ConfigureDescriptorForCIEPrepass(::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor);
 
-  /// @brief Method Dispose, addr 0x6741520, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x687fe9c, size 0x34, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x67416d4, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6880050, size 0x1c8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecuteCIExyPrepass, addr 0x6740eac, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCIExyPrepass, addr 0x687f828, size 0x2ac, virtual false, abstract: false, final false
   static inline void ExecuteCIExyPrepass(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy* data,
                                          ::UnityEngine::Rendering::RTHandle* sourceTexture, ::UnityEngine::Rendering::RTHandle* xyTarget, ::UnityEngine::Rendering::RTHandle* destTexture);
 
-  /// @brief Method ExecuteHDRDebugViewFinalPass, addr 0x6741158, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteHDRDebugViewFinalPass, addr 0x687fad4, size 0x3c8, virtual false, abstract: false, final false
   static inline void ExecuteHDRDebugViewFinalPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView* data,
                                                   ::UnityEngine::Rendering::RTHandle* sourceTexture, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::RTHandle* xyTarget);
 
-  /// @brief Method ExecutePass, addr 0x674189c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6880218, size 0x1c4, virtual false, abstract: false, final false
   inline void ExecutePass(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy* dataCIExy,
                           ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView* dataDebugView, ::UnityEngine::Rendering::RTHandle* sourceTexture,
                           ::UnityEngine::Rendering::RTHandle* xyTarget, ::UnityEngine::Rendering::RTHandle* destTexture);
 
-  /// @brief Method GetLuminanceParameters, addr 0x6740d3c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetLuminanceParameters, addr 0x687f6b8, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetLuminanceParameters(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   static inline ::UnityEngine::Rendering::Universal::HDRDebugViewPass* New_ctor(::UnityEngine::Material* mat);
 
-  /// @brief Method RenderHDRDebug, addr 0x6741a60, size 0xc58, virtual false, abstract: false, final false
+  /// @brief Method RenderHDRDebug, addr 0x68803dc, size 0xc58, virtual false, abstract: false, final false
   inline void RenderHDRDebug(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle srcColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture,
                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dstColor, ::UnityEngine::Rendering::Universal::HDRDebugMode hdrDebugMode);
 
-  /// @brief Method Setup, addr 0x6741554, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x687fed0, size 0x180, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::HDRDebugMode hdrdebugMode);
 
   constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_CIExyTarget() const;
@@ -650,7 +650,7 @@ public:
 
   constexpr void __cordl_internal_set_m_material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6740b64, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687f4e0, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* mat);
 
 protected:
@@ -668,7 +668,7 @@ public:
   HDRDebugViewPass(HDRDebugViewPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12813 };
 
   /// @brief Field m_PassDataCIExy, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy* ___m_PassDataCIExy;

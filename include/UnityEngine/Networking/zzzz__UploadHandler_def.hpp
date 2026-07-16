@@ -34,7 +34,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UploadHandler_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6cd40cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e27f84, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Networking::UploadHandler* uploadHandler);
 
 protected:
@@ -52,7 +52,7 @@ public:
   UploadHandler_BindingsMarshaller(UploadHandler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,18 +75,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6cd40ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6e27f64, size 0x20, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x6cd4060, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6e27f18, size 0x4c, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Networking::UploadHandler* New_ctor();
 
-  /// @brief Method ReleaseFromScripting, addr 0x6cd3fd0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFromScripting, addr 0x6e27e88, size 0x50, virtual false, abstract: false, final false
   inline void ReleaseFromScripting();
 
-  /// @brief Method ReleaseFromScripting_Injected, addr 0x6cd4020, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFromScripting_Injected, addr 0x6e27ed8, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseFromScripting_Injected(::System::IntPtr _unity_self);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6cd405c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e27f14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -116,7 +116,7 @@ public:
   UploadHandler(UploadHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22214 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

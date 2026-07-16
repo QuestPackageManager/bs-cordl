@@ -58,7 +58,7 @@ public:
   XStreamingElement(XStreamingElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21946 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::XName* ___name;

@@ -43,7 +43,7 @@ public:
   constexpr SwitchGameObjectArrayEffectTarget_GameObjectActivation(float_t threshold, ::UnityW<::UnityEngine::GameObject> gameObject) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5851 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -78,13 +78,13 @@ public:
 
   static inline ::GlobalNamespace::SwitchGameObjectArrayEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x5857728, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598fad4, size 0xb0, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x5857724, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598fad0, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x58577d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598fb84, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation> const& __cordl_internal_get_gameObjects() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_gameObjects(::ArrayW<::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation> value);
 
-  /// @brief Method .ctor, addr 0x58577dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598fb88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   SwitchGameObjectArrayEffectTarget(SwitchGameObjectArrayEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5852 };
 
   /// @brief Field gameObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation> ___gameObjects;

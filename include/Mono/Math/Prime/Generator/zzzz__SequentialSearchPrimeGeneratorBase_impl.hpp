@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t, ::System::Object*)>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateSearchBase)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x598c1d8;
+  constexpr static std::size_t addrs = 0x5aa95a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t)>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x598c248;
+  constexpr static std::size_t addrs = 0x5aa9614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t, ::System::Object*)>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x598c258;
+  constexpr static std::size_t addrs = 0x5aa9624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(::Mono::Math::BigInteger*, ::System::Object*)>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x598c544;
+  constexpr static std::size_t addrs = 0x5aa9910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598acdc;
+  constexpr static std::size_t addrs = 0x5aa8284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

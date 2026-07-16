@@ -130,52 +130,52 @@ public:
   /// @brief Field untypedAnyType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_untypedAnyType, put = setStaticF_untypedAnyType)) ::System::Xml::Schema::XmlSchemaComplexType* untypedAnyType;
 
-  /// @brief Method ClearCompiledState, addr 0x60eea48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearCompiledState, addr 0x6229b44, size 0x74, virtual false, abstract: false, final false
   inline void ClearCompiledState();
 
-  /// @brief Method Clone, addr 0x60ee4ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x62295e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
-  /// @brief Method Clone, addr 0x60ea5e0, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x62256dc, size 0x6a0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone(::System::Xml::Schema::XmlSchema* parentSchema);
 
-  /// @brief Method CloneAttributes, addr 0x60ec664, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CloneAttributes, addr 0x6227760, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaObjectCollection* CloneAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes);
 
-  /// @brief Method CloneGroupBaseParticles, addr 0x60eeb40, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CloneGroupBaseParticles, addr 0x6229c3c, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaObjectCollection* CloneGroupBaseParticles(::System::Xml::Schema::XmlSchemaObjectCollection* groupBaseParticles,
                                                                                           ::System::Xml::Schema::XmlSchema* parentSchema);
 
-  /// @brief Method CloneParticle, addr 0x60ee79c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method CloneParticle, addr 0x6229898, size 0x2ac, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaParticle* CloneParticle(::System::Xml::Schema::XmlSchemaParticle* particle, ::System::Xml::Schema::XmlSchema* parentSchema);
 
-  /// @brief Method ContainsIdAttribute, addr 0x60ee164, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method ContainsIdAttribute, addr 0x6229260, size 0x388, virtual false, abstract: false, final false
   inline bool ContainsIdAttribute(bool findAll);
 
-  /// @brief Method CreateAnyType, addr 0x60edad4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CreateAnyType, addr 0x6228bd0, size 0x2cc, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyType(::System::Xml::Schema::XmlSchemaContentProcessing processContents);
 
-  /// @brief Method GetResolvedElementForm, addr 0x60eed1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedElementForm, addr 0x6229e18, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaForm GetResolvedElementForm(::System::Xml::Schema::XmlSchema* parentSchema, ::System::Xml::Schema::XmlSchemaElement* element);
 
-  /// @brief Method HasAttributeQNameRef, addr 0x60ec4f8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method HasAttributeQNameRef, addr 0x62275f4, size 0x16c, virtual false, abstract: false, final false
   static inline bool HasAttributeQNameRef(::System::Xml::Schema::XmlSchemaObjectCollection* attributes);
 
-  /// @brief Method HasParticleRef, addr 0x60ee4f4, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method HasParticleRef, addr 0x62295f0, size 0x2a8, virtual false, abstract: false, final false
   static inline bool HasParticleRef(::System::Xml::Schema::XmlSchemaParticle* particle, ::System::Xml::Schema::XmlSchema* parentSchema);
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* New_ctor();
 
-  /// @brief Method SetAttributeWildcard, addr 0x60ee140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributeWildcard, addr 0x622923c, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method SetAttributes, addr 0x60ee15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributes, addr 0x6229258, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* newAttributes);
 
-  /// @brief Method SetBlockResolved, addr 0x60ee138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBlockResolved, addr 0x6229234, size 0x8, virtual false, abstract: false, final false
   inline void SetBlockResolved(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method SetContentTypeParticle, addr 0x60ee130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentTypeParticle, addr 0x622922c, size 0x8, virtual false, abstract: false, final false
   inline void SetContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_anyAttribute() const;
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set_pvFlags(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x60edda0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6228e9c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_anyTypeLax();
@@ -253,52 +253,52 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_untypedAnyType();
 
-  /// @brief Method get_AnyAttribute, addr 0x60ee030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x622912c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_AnyType, addr 0x60ede88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_AnyType, addr 0x6228f84, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* get_AnyType();
 
-  /// @brief Method get_AnyTypeContentValidator, addr 0x60ede14, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_AnyTypeContentValidator, addr 0x6228f10, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::ContentValidator* get_AnyTypeContentValidator();
 
-  /// @brief Method get_AttributeUses, addr 0x60ee058, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeUses, addr 0x6229154, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeUses();
 
-  /// @brief Method get_AttributeWildcard, addr 0x60ee0c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeWildcard, addr 0x62291bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AttributeWildcard();
 
-  /// @brief Method get_Attributes, addr 0x60edfc8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x62290c4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
 
-  /// @brief Method get_Block, addr 0x60edf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Block, addr 0x6229068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_Block();
 
-  /// @brief Method get_BlockResolved, addr 0x60ee050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockResolved, addr 0x622914c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_BlockResolved();
 
-  /// @brief Method get_ContentModel, addr 0x60edfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentModel, addr 0x62290a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentModel* get_ContentModel();
 
-  /// @brief Method get_ContentType, addr 0x60ee040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x622913c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
 
-  /// @brief Method get_ContentTypeParticle, addr 0x60ee048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentTypeParticle, addr 0x6229144, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* get_ContentTypeParticle();
 
-  /// @brief Method get_IsAbstract, addr 0x60edf40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsAbstract, addr 0x622903c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsAbstract();
 
-  /// @brief Method get_IsMixed, addr 0x60edf7c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_IsMixed, addr 0x6229078, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsMixed();
 
-  /// @brief Method get_LocalElements, addr 0x60ee0c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_LocalElements, addr 0x62291c4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_LocalElements();
 
-  /// @brief Method get_Particle, addr 0x60edfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x62290b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* get_Particle();
 
-  /// @brief Method get_UntypedAnyType, addr 0x60edee4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_UntypedAnyType, addr 0x6228fe0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* get_UntypedAnyType();
 
   static inline void setStaticF_anyTypeLax(::System::Xml::Schema::XmlSchemaComplexType* value);
@@ -307,25 +307,25 @@ public:
 
   static inline void setStaticF_untypedAnyType(::System::Xml::Schema::XmlSchemaComplexType* value);
 
-  /// @brief Method set_AnyAttribute, addr 0x60ee038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x6229134, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_Block, addr 0x60edf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Block, addr 0x6229070, size 0x8, virtual false, abstract: false, final false
   inline void set_Block(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method set_ContentModel, addr 0x60edfb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentModel, addr 0x62290ac, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentModel(::System::Xml::Schema::XmlSchemaContentModel* value);
 
-  /// @brief Method set_HasWildCard, addr 0x60ee148, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_HasWildCard, addr 0x6229244, size 0x14, virtual false, abstract: false, final false
   inline void set_HasWildCard(bool value);
 
-  /// @brief Method set_IsAbstract, addr 0x60edf4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IsAbstract, addr 0x6229048, size 0x20, virtual false, abstract: false, final false
   inline void set_IsAbstract(bool value);
 
-  /// @brief Method set_IsMixed, addr 0x60edf88, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x6229084, size 0x20, virtual true, abstract: false, final false
   inline void set_IsMixed(bool value);
 
-  /// @brief Method set_Particle, addr 0x60edfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Particle, addr 0x62290bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Particle(::System::Xml::Schema::XmlSchemaParticle* value);
 
 protected:
@@ -343,7 +343,7 @@ public:
   XmlSchemaComplexType(XmlSchemaComplexType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9728 };
 
   /// @brief Field block, offset: 0x94, size: 0x4, def value: None
   ::System::Xml::Schema::XmlSchemaDerivationMethod ___block;

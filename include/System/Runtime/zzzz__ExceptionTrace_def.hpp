@@ -41,10 +41,10 @@ public:
   /// @brief Field eventSourceName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_eventSourceName, put = __cordl_internal_set_eventSourceName)) ::StringW eventSourceName;
 
-  /// @brief Method ArgumentOutOfRange, addr 0x60450a4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ArgumentOutOfRange, addr 0x61801a0, size 0xac, virtual false, abstract: false, final false
   inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method BreakOnException, addr 0x6045e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BreakOnException, addr 0x6180f54, size 0x4, virtual false, abstract: false, final false
   inline void BreakOnException(::System::Exception* exception);
 
   static inline ::System::Runtime::ExceptionTrace* New_ctor(::StringW eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace);
@@ -55,7 +55,7 @@ public:
   /// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TException> inline TException TraceException(TException exception, ::StringW eventSource);
 
-  /// @brief Method TraceHandledException, addr 0x6045150, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method TraceHandledException, addr 0x618024c, size 0x238, virtual false, abstract: false, final false
   inline void TraceHandledException(::System::Exception* exception, ::System::Diagnostics::TraceEventType traceEventType);
 
   constexpr ::System::Runtime::Diagnostics::EtwDiagnosticTrace* const& __cordl_internal_get_diagnosticTrace() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_eventSourceName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x604509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6180198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace);
 
 protected:
@@ -88,7 +88,7 @@ public:
   ExceptionTrace(ExceptionTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21251 };
 
   /// @brief Field eventSourceName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___eventSourceName;

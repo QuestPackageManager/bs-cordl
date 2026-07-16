@@ -65,39 +65,39 @@ public:
   /// @brief Field viewport, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_viewport, put = __cordl_internal_set_viewport)) ::UnityW<::UnityEngine::RectTransform> viewport;
 
-  /// @brief Method GetFirstItem, addr 0x66bde0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFirstItem, addr 0x67fb518, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> GetFirstItem();
 
-  /// @brief Method GetPanel, addr 0x66c2010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPanel, addr 0x67ff71c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Panel* GetPanel();
 
-  /// @brief Method GetYPosInScroll, addr 0x66c20b0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetYPosInScroll, addr 0x67ff7bc, size 0xe8, virtual false, abstract: false, final false
   inline float_t GetYPosInScroll(::UnityEngine::RectTransform* target);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPanel* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x66c1f4c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67ff658, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnScrollbarClicked, addr 0x66c2040, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnScrollbarClicked, addr 0x67ff74c, size 0x68, virtual false, abstract: false, final false
   inline void OnScrollbarClicked();
 
-  /// @brief Method ResetDebugManager, addr 0x66c2198, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ResetDebugManager, addr 0x67ff8a4, size 0x64, virtual false, abstract: false, final false
   inline void ResetDebugManager();
 
-  /// @brief Method SelectNextItem, addr 0x66c2018, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SelectNextItem, addr 0x67ff724, size 0x14, virtual false, abstract: false, final false
   inline void SelectNextItem();
 
-  /// @brief Method SelectPreviousItem, addr 0x66c202c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SelectPreviousItem, addr 0x67ff738, size 0x14, virtual false, abstract: false, final false
   inline void SelectPreviousItem();
 
-  /// @brief Method SetPanel, addr 0x66bd608, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetPanel, addr 0x67fad14, size 0x30, virtual false, abstract: false, final false
   inline void SetPanel(::UnityEngine::Rendering::DebugUI_Panel* panel);
 
-  /// @brief Method SetScrollTarget, addr 0x66c20a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetScrollTarget, addr 0x67ff7b4, size 0x8, virtual false, abstract: false, final false
   inline void SetScrollTarget(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* target);
 
-  /// @brief Method UpdateScroll, addr 0x66bca84, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateScroll, addr 0x67fa190, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateScroll();
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerCanvas> const& __cordl_internal_get_Canvas() const;
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_viewport(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x66c21fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ff908, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,7 +172,7 @@ public:
   DebugUIHandlerPanel(DebugUIHandlerPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12504 };
 
   /// @brief Field nameLabel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

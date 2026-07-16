@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::System::Xml::XmlTextEncoder*)>(&::System::Xml::XmlTextWriterBase64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6052284;
+  constexpr static std::size_t addrs = 0x618d380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::System::Xml::XmlTextWriterBase64Encoder::WriteChars)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60522a8;
+  constexpr static std::size_t addrs = 0x618d3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

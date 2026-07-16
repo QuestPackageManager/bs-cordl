@@ -68,21 +68,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d95bcc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ecddf4, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5d95ca8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5ecded0, size 0x4, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
   static inline ::GlobalNamespace::OVRSceneVolume* New_ctor();
 
-  /// @brief Method SetChildOffset, addr 0x5d95ae8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetChildOffset, addr 0x5ecdd10, size 0xe4, virtual false, abstract: false, final false
   inline void SetChildOffset();
 
-  /// @brief Method SetChildScale, addr 0x5d959d4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetChildScale, addr 0x5ecdbfc, size 0xe4, virtual false, abstract: false, final false
   inline void SetChildScale();
 
-  /// @brief Method UpdateTransform, addr 0x5d8ac0c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x5ec2e34, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
   constexpr float_t const& __cordl_internal_get__Depth_k__BackingField() const;
@@ -127,49 +127,49 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method .ctor, addr 0x5d95cac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ecded4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Depth, addr 0x5d95970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x5ecdb98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Depth();
 
-  /// @brief Method get_Dimensions, addr 0x5d95980, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Dimensions, addr 0x5ecdba8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Dimensions();
 
-  /// @brief Method get_Height, addr 0x5d95960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x5ecdb88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
-  /// @brief Method get_Offset, addr 0x5d9598c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x5ecdbb4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Offset();
 
-  /// @brief Method get_OffsetChildren, addr 0x5d95ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetChildren, addr 0x5ecdce0, size 0x8, virtual false, abstract: false, final false
   inline bool get_OffsetChildren();
 
-  /// @brief Method get_ScaleChildren, addr 0x5d959a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleChildren, addr 0x5ecdbcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ScaleChildren();
 
-  /// @brief Method get_Width, addr 0x5d95950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x5ecdb78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
-  /// @brief Method set_Depth, addr 0x5d95978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Depth, addr 0x5ecdba0, size 0x8, virtual false, abstract: false, final false
   inline void set_Depth(float_t value);
 
-  /// @brief Method set_Height, addr 0x5d95968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x5ecdb90, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(float_t value);
 
-  /// @brief Method set_Offset, addr 0x5d95998, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x5ecdbc0, size 0xc, virtual false, abstract: false, final false
   inline void set_Offset(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_OffsetChildren, addr 0x5d95ac0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_OffsetChildren, addr 0x5ecdce8, size 0x28, virtual false, abstract: false, final false
   inline void set_OffsetChildren(bool value);
 
-  /// @brief Method set_ScaleChildren, addr 0x5d959ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_ScaleChildren, addr 0x5ecdbd4, size 0x28, virtual false, abstract: false, final false
   inline void set_ScaleChildren(bool value);
 
-  /// @brief Method set_Width, addr 0x5d95958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x5ecdb80, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(float_t value);
 
 protected:
@@ -187,7 +187,7 @@ public:
   OVRSceneVolume(OVRSceneVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7665 };
 
   /// @brief Field <Width>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____Width_k__BackingField;

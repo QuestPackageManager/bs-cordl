@@ -31,7 +31,7 @@ public:
   /// @brief Field DebuggingOptions, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_DebuggingOptions, put = __cordl_internal_set_DebuggingOptions)) ::Meta::XR::MultiplayerBlocks::Shared::ColocationDebuggingOptions* DebuggingOptions;
 
-  /// @brief Method Awake, addr 0x5935750, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a6ee54, size 0xd8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::ColocationController* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_DebuggingOptions(::Meta::XR::MultiplayerBlocks::Shared::ColocationDebuggingOptions* value);
 
-  /// @brief Method .ctor, addr 0x5935a08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6f10c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ColocationController(ColocationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20709 };
 
   /// @brief Field ColocationReadyCallbacks, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent* ___ColocationReadyCallbacks;

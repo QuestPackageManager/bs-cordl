@@ -65,19 +65,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method CreateBasePointMultiplier, addr 0x3319ea8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CreateBasePointMultiplier, addr 0x33d6360, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
-  /// @brief Method FindECCurveByOid, addr 0x3319b50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FindECCurveByOid, addr 0x33d6008, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GenerateKeyPair, addr 0x3319bc8, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0x33d6080, size 0x2e0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method GetCorrespondingPublicKey, addr 0x3319eec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingPublicKey, addr 0x33d63a4, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
 
-  /// @brief Method Init, addr 0x3319878, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33d5d30, size 0x2d8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor();
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x3319770, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d5c28, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33197bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d5c74, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(EnvironmentTracksDefinitionsAsyncInstaller)
 namespace BGLib::AppFlow::Initialization {
-class AsyncInstaller_IInstallerRegistry;
+class IInstallerRegistry;
 }
 namespace BeatSaber::TrackDefinitions {
 class EnvironmentTracksDefinitionSO;
@@ -33,19 +33,19 @@ class CORDL_TYPE EnvironmentTracksDefinitionsAsyncInstaller
     : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>> {
 public:
   // Declarations
-  /// @brief Field _environmentTracksDefinitions, offset 0x40, size 0x8
+  /// @brief Field _environmentTracksDefinitions, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentTracksDefinitions,
                       put = __cordl_internal_set__environmentTracksDefinitions)) ::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*
       _environmentTracksDefinitions;
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x3232f04, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x32ea90c, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x3232e90, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x32ea898, size 0x74, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
-                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
+                                         ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
   static inline ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller* New_ctor();
 
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentTracksDefinitions(::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3233178, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32eab80, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x3232e4c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x32ea854, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -76,16 +76,16 @@ public:
   EnvironmentTracksDefinitionsAsyncInstaller(EnvironmentTracksDefinitionsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22898 };
 
-  /// @brief Field _environmentTracksDefinitions, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _environmentTracksDefinitions, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* ____environmentTracksDefinitions;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller, ____environmentTracksDefinitions) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller, ____environmentTracksDefinitions) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller) == 0x48, "Size mismatch!");
+static_assert(sizeof(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller) == 0x58, "Size mismatch!");
 
 } // namespace Environments::Definitions

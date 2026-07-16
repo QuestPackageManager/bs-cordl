@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(PerformanceToolLauncher)
+namespace BeatSaber::Automation {
+struct PerformanceToolLauncherOverrideConfig;
+}
+namespace BeatSaber::Automation {
+class RecPlayBehaviourState;
+}
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
@@ -17,13 +23,13 @@ namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
+class GameplayAdditionalInformationSetupData;
+}
+namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 class IGamePause;
-}
-namespace GlobalNamespace {
-class MainCamera;
 }
 namespace GlobalNamespace {
 class PerformanceRecorder;
@@ -32,19 +38,13 @@ namespace GlobalNamespace {
 struct PerformanceToolLauncher_Assets;
 }
 namespace GlobalNamespace {
-struct PerformanceToolLauncher_OverrideConfig;
-}
-namespace GlobalNamespace {
-class PerformanceToolLauncher___c__DisplayClass4_0;
+class PerformanceToolLauncher___c__DisplayClass3_0;
 }
 namespace GlobalNamespace {
 class PerformanceVisualizer;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class RecPlayBehaviour_State;
 }
 namespace GlobalNamespace {
 class SettingsManager;
@@ -55,28 +55,26 @@ class SongController;
 namespace System {
 template <typename T> struct Nullable_1;
 }
+namespace UnityEngine {
+class Camera;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class PerformanceToolLauncher;
 }
 namespace GlobalNamespace {
-class PerformanceToolLauncher___c__DisplayClass4_0;
+class PerformanceToolLauncher___c__DisplayClass3_0;
 }
 namespace GlobalNamespace {
 struct PerformanceToolLauncher_Assets;
 }
-namespace GlobalNamespace {
-struct PerformanceToolLauncher_OverrideConfig;
-}
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PerformanceToolLauncher*);
-MARK_REF_T(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*);
+MARK_REF_T(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0*);
 MARK_VAL_T(::GlobalNamespace::PerformanceToolLauncher_Assets);
-MARK_VAL_T(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceToolLauncher*, "", "PerformanceToolLauncher");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*, "", "PerformanceToolLauncher/<>c__DisplayClass4_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0*, "", "PerformanceToolLauncher/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceToolLauncher_Assets, "", "PerformanceToolLauncher/Assets");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, "", "PerformanceToolLauncher/OverrideConfig");
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -93,7 +91,7 @@ public:
   constexpr PerformanceToolLauncher_Assets(::UnityW<::GlobalNamespace::PerformanceVisualizer> visualizer, ::UnityW<::GlobalNamespace::PerformanceRecorder> recorder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -114,54 +112,11 @@ static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher_Assets, record
 static_assert(sizeof(::GlobalNamespace::PerformanceToolLauncher_Assets) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: PerformanceToolLauncher/OverrideConfig
-struct CORDL_TYPE PerformanceToolLauncher_OverrideConfig {
-public:
-  // Declarations
-  /// @brief Field kDefault, offset 0xffffffff, size 0x2
-  __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault)) ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig kDefault;
-
-  static inline ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig getStaticF_kDefault();
-
-  static inline void setStaticF_kDefault(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig value);
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PerformanceToolLauncher_OverrideConfig();
-
-  // Ctor Parameters [CppParam { name: "enableAutoplay", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: None }]
-  constexpr PerformanceToolLauncher_OverrideConfig(bool enableAutoplay, bool enableRecording) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
-
-  /// @brief Field enableAutoplay, offset: 0x0, size: 0x1, def value: None
-  bool enableAutoplay;
-
-  /// @brief Field enableRecording, offset: 0x1, size: 0x1, def value: None
-  bool enableRecording;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, enableAutoplay) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, enableRecording) == 0x1, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig) == 0x2, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: PerformanceToolLauncher/<>c__DisplayClass4_0
-class CORDL_TYPE PerformanceToolLauncher___c__DisplayClass4_0 : public ::System::Object {
+// CS Name: PerformanceToolLauncher/<>c__DisplayClass3_0
+class CORDL_TYPE PerformanceToolLauncher___c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field recorder, offset 0x18, size 0x8
@@ -170,12 +125,12 @@ public:
   /// @brief Field songController, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_songController, put = __cordl_internal_set_songController)) ::UnityW<::GlobalNamespace::SongController> songController;
 
-  static inline ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0* New_ctor();
+  static inline ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x57d7734, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x58f71c8, size 0xec, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidFinish_1();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x57d7690, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x58f7124, size 0xa4, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidStart_0();
 
   constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder> const& __cordl_internal_get_recorder() const;
@@ -190,25 +145,25 @@ public:
 
   constexpr void __cordl_internal_set_songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x57d7638, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f711c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PerformanceToolLauncher___c__DisplayClass4_0();
+  constexpr PerformanceToolLauncher___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  PerformanceToolLauncher___c__DisplayClass4_0(PerformanceToolLauncher___c__DisplayClass4_0&&) = delete;
+  PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceToolLauncher___c__DisplayClass4_0(PerformanceToolLauncher___c__DisplayClass4_0 const&) = delete;
+  PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
 
   /// @brief Field songController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongController> ___songController;
@@ -219,11 +174,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0, ___songController) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0, ___songController) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0, ___recorder) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0, ___recorder) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies PerformanceToolLauncher::Assets, UnityEngine.MonoBehaviour
@@ -235,22 +190,21 @@ public:
   // Declarations
   using Assets = ::GlobalNamespace::PerformanceToolLauncher_Assets;
 
-  using OverrideConfig = ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig;
-
-  using __c__DisplayClass4_0 = ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0;
+  using __c__DisplayClass3_0 = ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0;
 
   /// @brief Field _assets, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__assets, put = __cordl_internal_set__assets)) ::GlobalNamespace::PerformanceToolLauncher_Assets _assets;
 
-  /// @brief Method Initialize, addr 0x57d725c, size 0x26c, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::MainCamera* mainCamera,
-                         ::GlobalNamespace::RecPlayBehaviour_State* recPlayState, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::AudioTimeSyncController* timeSync,
-                         ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData, ::GlobalNamespace::BeatmapObjectManager* objectManager,
-                         ::GlobalNamespace::BeatmapCallbacksController* callbackController, ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> overrideConfig);
+  /// @brief Method Initialize, addr 0x58f6d08, size 0x2a4, virtual false, abstract: false, final false
+  inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::UnityEngine::Camera* mainCamera,
+                         ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::AudioTimeSyncController* timeSync,
+                         ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
+                         ::GlobalNamespace::GameplayAdditionalInformationSetupData* additionalInformationSetupData, ::GlobalNamespace::BeatmapObjectManager* objectManager,
+                         ::GlobalNamespace::BeatmapCallbacksController* callbackController, ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> overrideConfig);
 
   static inline ::GlobalNamespace::PerformanceToolLauncher* New_ctor();
 
-  /// @brief Method Run, addr 0x57d74c8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x58f6fac, size 0x170, virtual false, abstract: false, final false
   static inline void Run(::GlobalNamespace::PerformanceRecorder* recorder, ::GlobalNamespace::SongController* songController);
 
   constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets const& __cordl_internal_get__assets() const;
@@ -259,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__assets(::GlobalNamespace::PerformanceToolLauncher_Assets value);
 
-  /// @brief Method .ctor, addr 0x57d763c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f7120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -277,7 +231,7 @@ public:
   PerformanceToolLauncher(PerformanceToolLauncher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
 
   /// @brief Field _assets, offset: 0x20, size: 0x10, def value: None
   ::GlobalNamespace::PerformanceToolLauncher_Assets ____assets;

@@ -49,44 +49,44 @@ public:
   /// @brief Field logCountForPT, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_logCountForPT, put = setStaticF_logCountForPT)) int32_t logCountForPT;
 
-  /// @brief Method EventLogEntryTypeFromEventType, addr 0x605124c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EventLogEntryTypeFromEventType, addr 0x618c348, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::EventLogEntryType EventLogEntryTypeFromEventType(::System::Diagnostics::TraceEventType type);
 
-  /// @brief Method IsInPartialTrust, addr 0x6050aa0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method IsInPartialTrust, addr 0x618bb9c, size 0x1cc, virtual false, abstract: false, final false
   inline bool IsInPartialTrust();
 
-  /// @brief Method LogEvent, addr 0x604cb74, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LogEvent, addr 0x6187c70, size 0x154, virtual false, abstract: false, final false
   inline void LogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values);
 
   static inline ::System::Runtime::Diagnostics::EventLogger* New_ctor();
 
   static inline ::System::Runtime::Diagnostics::EventLogger* New_ctor(::StringW eventLogSourceName, ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace);
 
-  /// @brief Method NormalizeEventLogParameter, addr 0x6050c74, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method NormalizeEventLogParameter, addr 0x618bd70, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW NormalizeEventLogParameter(::StringW eventLogParameter);
 
-  /// @brief Method SafeLogEvent, addr 0x6051244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SafeLogEvent, addr 0x618c340, size 0x8, virtual false, abstract: false, final false
   inline void SafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values);
 
-  /// @brief Method SafeSetLogSourceName, addr 0x605126c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SafeSetLogSourceName, addr 0x618c368, size 0x8, virtual false, abstract: false, final false
   inline void SafeSetLogSourceName(::StringW eventLogSourceName);
 
-  /// @brief Method SetLogSourceName, addr 0x6050c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLogSourceName, addr 0x618bd68, size 0x8, virtual false, abstract: false, final false
   inline void SetLogSourceName(::StringW eventLogSourceName, ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace);
 
-  /// @brief Method UnsafeCreateEventLogger, addr 0x604bdc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UnsafeCreateEventLogger, addr 0x6186ec4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Runtime::Diagnostics::EventLogger* UnsafeCreateEventLogger(::StringW eventLogSourceName, ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace);
 
-  /// @brief Method UnsafeGetProcessId, addr 0x6050f38, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method UnsafeGetProcessId, addr 0x618c034, size 0x134, virtual false, abstract: false, final false
   inline int32_t UnsafeGetProcessId();
 
-  /// @brief Method UnsafeGetProcessName, addr 0x6050e08, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UnsafeGetProcessName, addr 0x618bf04, size 0x130, virtual false, abstract: false, final false
   inline ::StringW UnsafeGetProcessName();
 
-  /// @brief Method UnsafeLogEvent, addr 0x604be38, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method UnsafeLogEvent, addr 0x6186f34, size 0x554, virtual false, abstract: false, final false
   inline void UnsafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values);
 
-  /// @brief Method UnsafeWriteEventLog, addr 0x605106c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method UnsafeWriteEventLog, addr 0x618c168, size 0x1d8, virtual false, abstract: false, final false
   inline void UnsafeWriteEventLog(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, ::ArrayW<::StringW> logValues, ::ArrayW<uint8_t> sidBA,
                                   ::System::Runtime::InteropServices::GCHandle stringsRootHandle);
 
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set_isInPartialTrust(bool value);
 
-  /// @brief Method .ctor, addr 0x6050a84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618bb80, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x604ca50, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6187b4c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventLogSourceName, ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace);
 
   static inline bool getStaticF_canLogEvent();
@@ -137,7 +137,7 @@ public:
   EventLogger(EventLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21279 };
 
   /// @brief Field diagnosticTrace, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Diagnostics::DiagnosticTraceBase* ___diagnosticTrace;

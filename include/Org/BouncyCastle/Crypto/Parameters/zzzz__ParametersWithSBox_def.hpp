@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetSBox, addr 0x3356b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSBox, addr 0x3413044, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSBox();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> sBox);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_sBox(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3356b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341303c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> sBox);
 
-  /// @brief Method get_Parameters, addr 0x3356b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x341304c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

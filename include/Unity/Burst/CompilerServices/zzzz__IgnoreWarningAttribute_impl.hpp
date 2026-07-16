@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::CompilerServices::IgnoreWarningAttribute::*)(int32_t)>(&::Unity::Burst::CompilerServices::IgnoreWarningAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63651ec;
+  constexpr static std::size_t addrs = 0x64a1e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

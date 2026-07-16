@@ -59,7 +59,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <FetchObjectsHandlesOfType>b__0, addr 0x590c178, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <FetchObjectsHandlesOfType>b__0, addr 0x5a4587c, size 0x18, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle _FetchObjectsHandlesOfType_b__0(::UnityEngine::Object* obj);
 
   constexpr ::System::Type* const& __cordl_internal_get_classType() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_classType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x590b5e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a44ce4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   InstanceCache___c__DisplayClass12_0(InstanceCache___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18318 };
 
   /// @brief Field classType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___classType;
@@ -128,27 +128,27 @@ public:
   __declspec(property(get = __cordl_internal_get__emptyCache,
                       put = __cordl_internal_set__emptyCache)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* _emptyCache;
 
-  /// @brief Method FetchObjectsHandlesOfType, addr 0x590b4b4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FetchObjectsHandlesOfType, addr 0x5a44bb8, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* FetchObjectsHandlesOfType(::System::Type* classType);
 
-  /// @brief Method GetCacheDataForClass, addr 0x590b438, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCacheDataForClass, addr 0x5a44b3c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* GetCacheDataForClass(::System::Type* classType);
 
   static inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* New_ctor();
 
-  /// @brief Method RegisterClassType, addr 0x590b5e4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method RegisterClassType, addr 0x5a44ce8, size 0x10c, virtual false, abstract: false, final false
   inline void RegisterClassType(::System::Type* classType);
 
-  /// @brief Method RegisterClassTypes, addr 0x590b6f0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterClassTypes, addr 0x5a44df4, size 0x2ac, virtual false, abstract: false, final false
   inline void RegisterClassTypes(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method RegisterHandle, addr 0x590539c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method RegisterHandle, addr 0x5a3eaa0, size 0x12c, virtual false, abstract: false, final false
   inline void RegisterHandle(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
-  /// @brief Method RetrieveInstances, addr 0x590b99c, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method RetrieveInstances, addr 0x5a450a0, size 0x614, virtual false, abstract: false, final false
   inline void RetrieveInstances();
 
-  /// @brief Method UnregisterHandle, addr 0x5905510, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterHandle, addr 0x5a3ec14, size 0xb8, virtual false, abstract: false, final false
   inline void UnregisterHandle(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>*>* const&
@@ -184,25 +184,25 @@ public:
 
   constexpr void __cordl_internal_set__emptyCache(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* value);
 
-  /// @brief Method .ctor, addr 0x590c098, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4579c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnCacheChangedForTypeEvent, addr 0x590afb8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_OnCacheChangedForTypeEvent, addr 0x5a446bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnCacheChangedForTypeEvent(::System::Action_1<::System::Type*>* value);
 
-  /// @brief Method add_OnInstanceAdded, addr 0x590b138, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_OnInstanceAdded, addr 0x5a4483c, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnInstanceAdded(::System::Func_2<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector*>* value);
 
-  /// @brief Method add_OnInstanceRemoved, addr 0x590b2b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_OnInstanceRemoved, addr 0x5a449bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnInstanceRemoved(::System::Action_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* value);
 
-  /// @brief Method remove_OnCacheChangedForTypeEvent, addr 0x590b078, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnCacheChangedForTypeEvent, addr 0x5a4477c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnCacheChangedForTypeEvent(::System::Action_1<::System::Type*>* value);
 
-  /// @brief Method remove_OnInstanceAdded, addr 0x590b1f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnInstanceAdded, addr 0x5a448fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnInstanceAdded(::System::Func_2<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector*>* value);
 
-  /// @brief Method remove_OnInstanceRemoved, addr 0x590b378, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnInstanceRemoved, addr 0x5a44a7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnInstanceRemoved(::System::Action_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* value);
 
 protected:
@@ -220,7 +220,7 @@ public:
   InstanceCache(InstanceCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18319 };
 
   /// @brief Field CacheData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>*>* ___CacheData;

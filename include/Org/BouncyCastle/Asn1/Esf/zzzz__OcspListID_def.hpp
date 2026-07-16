@@ -38,10 +38,10 @@ public:
   /// @brief Field ocspResponses, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ocspResponses, put = __cordl_internal_set_ocspResponses)) ::Org::BouncyCastle::Asn1::Asn1Sequence* ocspResponses;
 
-  /// @brief Method GetInstance, addr 0x32b4d00, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x33711b8, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOcspResponses, addr 0x32b6518, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetOcspResponses, addr 0x33729d0, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> GetOcspResponses();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x32b663c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3372af4, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_ocspResponses() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_ocspResponses(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x32b62dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372794, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses);
 
-  /// @brief Method .ctor, addr 0x32b6390, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372848, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* ocspResponses);
 
-  /// @brief Method .ctor, addr 0x32b5d10, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33721c8, size 0x448, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::SplineUtils::Interpolate)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5e14664;
+  constexpr static std::size_t addrs = 0x5f4f760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -29,10 +29,10 @@ public:
   /// @brief Field s_RTHandleWrapper, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_RTHandleWrapper, put = setStaticF_s_RTHandleWrapper)) ::UnityEngine::Rendering::RTHandle* s_RTHandleWrapper;
 
-  /// @brief Method SetRTHandleStaticWrapper, addr 0x6667f70, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetRTHandleStaticWrapper, addr 0x67a567c, size 0xcc, virtual false, abstract: false, final false
   static inline void SetRTHandleStaticWrapper(::UnityEngine::Rendering::RenderTargetIdentifier rtId);
 
-  /// @brief Method SetRTHandleUserManagedWrapper, addr 0x66680e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetRTHandleUserManagedWrapper, addr 0x67a57ec, size 0x30, virtual false, abstract: false, final false
   static inline void SetRTHandleUserManagedWrapper(::by_ref<::UnityEngine::Rendering::RTHandle*> rtWrapper, ::UnityEngine::Rendering::RenderTargetIdentifier rtId);
 
   static inline ::UnityEngine::Rendering::RTHandle* getStaticF_s_RTHandleWrapper();
@@ -44,7 +44,7 @@ public:
   constexpr RTHandleStaticHelpers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12213 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

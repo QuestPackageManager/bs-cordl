@@ -35,7 +35,7 @@ public:
 
   static inline ::Meta::XR::InputActions::InputActionSet* New_ctor();
 
-  /// @brief Method ToString, addr 0x5d168f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e4eb20, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* const& __cordl_internal_get_InputActionDefinitions() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_InteractionProfile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d16900, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4eb28, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   InputActionSet(InputActionSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8544 };
 
   /// @brief Field InteractionProfile, offset: 0x18, size: 0x8, def value: None
   ::StringW ___InteractionProfile;

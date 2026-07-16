@@ -51,32 +51,32 @@ public:
   /// @brief Field marshalAs, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_marshalAs, put = __cordl_internal_set_marshalAs)) ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
 
-  /// @brief Method FormatParameters, addr 0x5a5120c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method FormatParameters, addr 0x5b8aee4, size 0x224, virtual false, abstract: false, final false
   static inline void FormatParameters(::System::Text::StringBuilder* sb, ::ArrayW<::System::Reflection::ParameterInfo*> p, ::System::Reflection::CallingConventions callingConvention,
                                       bool serialization);
 
-  /// @brief Method GetCustomAttributes, addr 0x5a541b8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b8de90, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x5a54158, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b8de30, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetDefaultValueImpl, addr 0x5a53d40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValueImpl, addr 0x5b8da18, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Object* GetDefaultValueImpl(::System::Reflection::ParameterInfo* pinfo);
 
-  /// @brief Method GetPseudoCustomAttributes, addr 0x5a5429c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetPseudoCustomAttributes, addr 0x5b8df74, size 0x268, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetPseudoCustomAttributes();
 
-  /// @brief Method GetPseudoCustomAttributesData, addr 0x5a54504, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method GetPseudoCustomAttributesData, addr 0x5b8e1dc, size 0x544, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Reflection::CustomAttributeData*> GetPseudoCustomAttributesData();
 
-  /// @brief Method IsDefined, addr 0x5a54228, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5b8df00, size 0x74, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method New, addr 0x5a54a48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x5b8e720, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* New(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method New, addr 0x5a50ee4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x5b8abbc, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* New(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
   static inline ::System::Reflection::RuntimeParameterInfo* New_ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs, ::System::Object* defaultValue,
@@ -92,17 +92,17 @@ public:
 
   constexpr void __cordl_internal_set_marshalAs(::System::Runtime::InteropServices::MarshalAsAttribute* value);
 
-  /// @brief Method .ctor, addr 0x5a53ca0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b8d978, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs, ::System::Object* defaultValue, ::System::Reflection::MemberInfo* member,
                     ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
-  /// @brief Method .ctor, addr 0x5a53cb8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b8d990, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method .ctor, addr 0x5a53df4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b8dacc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
-  /// @brief Method get_DefaultValue, addr 0x5a53e14, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x5b8daec, size 0x344, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
 protected:

@@ -49,19 +49,19 @@ public:
   __declspec(property(get = __cordl_internal_get__transitions,
                       put = __cordl_internal_set__transitions)) ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions;
 
-  /// @brief Method FindNewClass, addr 0x5e839d0, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method FindNewClass, addr 0x5fbeacc, size 0x3ec, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoClass* FindNewClass(::StringW newKey);
 
-  /// @brief Method GetTransitionList, addr 0x5e83dbc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetTransitionList, addr 0x5fbeeb8, size 0x184, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::WeakReference*>* GetTransitionList(int32_t hashCode);
 
-  /// @brief Method GetValueIndex, addr 0x5e83f40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetValueIndex, addr 0x5fbf03c, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetValueIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj);
 
-  /// @brief Method GetValueIndexCaseInsensitive, addr 0x5e83f50, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetValueIndexCaseInsensitive, addr 0x5fbf04c, size 0x17c, virtual false, abstract: false, final false
   inline int32_t GetValueIndexCaseInsensitive(::StringW name, ::System::Dynamic::ExpandoObject* obj);
 
-  /// @brief Method GetValueIndexCaseSensitive, addr 0x5e840cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetValueIndexCaseSensitive, addr 0x5fbf1c8, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetValueIndexCaseSensitive(::StringW name);
 
   static inline ::System::Dynamic::ExpandoClass* New_ctor();
@@ -86,15 +86,15 @@ public:
 
   constexpr void __cordl_internal_set__transitions(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* value);
 
-  /// @brief Method .ctor, addr 0x5e8391c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbea18, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5e839c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbeac0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> keys, int32_t hashCode);
 
   static inline ::System::Dynamic::ExpandoClass* getStaticF_Empty();
 
-  /// @brief Method get_Keys, addr 0x5e841f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x5fbf2ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_Keys();
 
   static inline void setStaticF_Empty(::System::Dynamic::ExpandoClass* value);
@@ -114,7 +114,7 @@ public:
   ExpandoClass(ExpandoClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16622 };
 
   /// @brief Field _keys, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW> ____keys;

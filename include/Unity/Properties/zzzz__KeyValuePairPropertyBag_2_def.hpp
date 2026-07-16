@@ -107,7 +107,7 @@ public:
   KeyValuePairPropertyBag_2___c(KeyValuePairPropertyBag_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -232,7 +232,7 @@ public:
   KeyValuePairPropertyBag_2__GetPropertiesEnumerable_d__4(KeyValuePairPropertyBag_2__GetPropertiesEnumerable_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19629 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -317,7 +317,7 @@ public:
   KeyValuePairPropertyBag_2(KeyValuePairPropertyBag_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

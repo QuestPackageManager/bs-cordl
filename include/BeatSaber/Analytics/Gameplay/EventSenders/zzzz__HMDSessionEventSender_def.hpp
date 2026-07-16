@@ -51,16 +51,16 @@ public:
   /// @brief Convert operator to "::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender"
   constexpr operator ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender*() noexcept;
 
-  /// @brief Method NewEventsBuilder, addr 0x31d0910, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method NewEventsBuilder, addr 0x32646f0, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* NewEventsBuilder();
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::HMDSessionEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager,
                                                                                                 ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory, ::StringW platform);
 
-  /// @brief Method SendHMDSessionEnd, addr 0x31d0b10, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method SendHMDSessionEnd, addr 0x32648f0, size 0x218, virtual true, abstract: false, final true
   inline void SendHMDSessionEnd();
 
-  /// @brief Method SendHMDSessionStart, addr 0x31d0924, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method SendHMDSessionStart, addr 0x3264704, size 0x1ec, virtual true, abstract: false, final true
   inline void SendHMDSessionStart();
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* const& __cordl_internal_get__eventsBuilderFactory() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__startSessionTime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x31cf7b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3263594, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory, ::StringW platform);
 
-  /// @brief Method get_CurrentSegment, addr 0x31d08c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSegment, addr 0x32646a0, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_CurrentSegment();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender"
@@ -111,7 +111,7 @@ public:
   HMDSessionEventSender(HMDSessionEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22254 };
 
   /// @brief Field _eventsBuilderFactory, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* ____eventsBuilderFactory;

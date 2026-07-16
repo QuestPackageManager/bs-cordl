@@ -76,7 +76,7 @@ public:
   constexpr TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData(::System::IntPtr TransformAccessArray, int32_t IsReadOnly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10406 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -123,7 +123,7 @@ public:
   TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,7 +161,7 @@ public:
   constexpr IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10408 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -186,6 +186,9 @@ public:
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::UnityEngine::Jobs::TransformAccessArray transforms, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// @brief Method ScheduleReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleReadOnly(T jobData, ::UnityEngine::Jobs::TransformAccessArray transforms, int32_t batchSize, ::Unity::Jobs::JobHandle dependsOn);
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -201,7 +204,7 @@ public:
   IJobParallelForTransformExtensions(IJobParallelForTransformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

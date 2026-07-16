@@ -48,17 +48,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x329c2a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335875c, size 0x28, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x329c144, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x33585fc, size 0x160, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
-  /// @brief Method ToAsn1Object, addr 0x329c2d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x335878c, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_otherEvidence() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_tstEvidence(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* value);
 
-  /// @brief Method .ctor, addr 0x329c088, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3358540, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x329c080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3358538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
-  /// @brief Method get_TstEvidence, addr 0x329c2cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TstEvidence, addr 0x3358784, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* get_TstEvidence();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

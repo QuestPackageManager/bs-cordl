@@ -31,16 +31,16 @@ public:
   /// @brief Field m_UnityPermissions, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_UnityPermissions, put = setStaticF_m_UnityPermissions)) ::UnityEngine::AndroidJavaObject* m_UnityPermissions;
 
-  /// @brief Method GetUnityPermissions, addr 0x68d8108, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetUnityPermissions, addr 0x6a2f020, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetUnityPermissions();
 
-  /// @brief Method HasUserAuthorizedPermission, addr 0x68d81b4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HasUserAuthorizedPermission, addr 0x6a2f0cc, size 0x12c, virtual false, abstract: false, final false
   static inline bool HasUserAuthorizedPermission(::StringW permission);
 
-  /// @brief Method RequestUserPermission, addr 0x68d82e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RequestUserPermission, addr 0x6a2f1f8, size 0x8c, virtual false, abstract: false, final false
   static inline void RequestUserPermission(::StringW permission, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
-  /// @brief Method RequestUserPermissions, addr 0x68d836c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RequestUserPermissions, addr 0x6a2f284, size 0x140, virtual false, abstract: false, final false
   static inline void RequestUserPermissions(::ArrayW<::StringW> permissions, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_UnityPermissions();
@@ -52,7 +52,7 @@ public:
   constexpr Permission();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20145 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

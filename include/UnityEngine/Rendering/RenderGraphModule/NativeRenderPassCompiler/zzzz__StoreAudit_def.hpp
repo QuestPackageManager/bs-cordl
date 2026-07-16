@@ -29,7 +29,7 @@ public:
   /// @brief Field StoreReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_StoreReasonMessages, put = setStaticF_StoreReasonMessages)) ::ArrayW<::StringW> StoreReasonMessages;
 
-  /// @brief Method .ctor, addr 0x66b7340, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f4a4c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason setReason, int32_t setPassId,
                     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason setMsaaReason, int32_t setMsaaPassId);
 
@@ -48,7 +48,7 @@ public:
                        ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason msaaReason, int32_t msaaPassId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

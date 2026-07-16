@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::EventDebuggerLogIMGUICall::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::Experimental::EventDebuggerLogIMGUICall::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bc76b4;
+  constexpr static std::size_t addrs = 0x6d1b56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::EventDebuggerLogIMGUICall>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::EventDebuggerLogIMGUICall::*)()>(
     &::UnityEngine::UIElements::Experimental::EventDebuggerLogIMGUICall::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bc76b8;
+  constexpr static std::size_t addrs = 0x6d1b570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

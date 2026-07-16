@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(PlayerDataFileManagerSO)
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class PlayerDataFileManagerSO;
@@ -23,22 +20,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerDataFileManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _allSongPackSerializedName, offset 0x28, size 0x8
+  /// @brief Field _allSongPackSerializedName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__allSongPackSerializedName, put = __cordl_internal_set__allSongPackSerializedName)) ::StringW _allSongPackSerializedName;
 
-  /// @brief Field _buildInSongPackSerializedName, offset 0x20, size 0x8
+  /// @brief Field _buildInSongPackSerializedName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__buildInSongPackSerializedName, put = __cordl_internal_set__buildInSongPackSerializedName)) ::StringW _buildInSongPackSerializedName;
-
-  /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultLastSelectedBeatmapCharacteristic,
-                      put = __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
-      _defaultLastSelectedBeatmapCharacteristic;
 
   __declspec(property(get = get_allSongPackSerializedName)) ::StringW allSongPackSerializedName;
 
   __declspec(property(get = get_buildInSongPackSerializedName)) ::StringW buildInSongPackSerializedName;
-
-  __declspec(property(get = get_defaultLastSelectedBeatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> defaultLastSelectedBeatmapCharacteristic;
 
   static inline ::GlobalNamespace::PlayerDataFileManagerSO* New_ctor();
 
@@ -50,27 +40,18 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__buildInSongPackSerializedName();
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__defaultLastSelectedBeatmapCharacteristic() const;
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__defaultLastSelectedBeatmapCharacteristic();
-
   constexpr void __cordl_internal_set__allSongPackSerializedName(::StringW value);
 
   constexpr void __cordl_internal_set__buildInSongPackSerializedName(::StringW value);
 
-  constexpr void __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
-
-  /// @brief Method .ctor, addr 0x3688ea4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3744318, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allSongPackSerializedName, addr 0x3688e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allSongPackSerializedName, addr 0x3744310, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_allSongPackSerializedName();
 
-  /// @brief Method get_buildInSongPackSerializedName, addr 0x3688e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildInSongPackSerializedName, addr 0x3744308, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildInSongPackSerializedName();
-
-  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x3688e8c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_defaultLastSelectedBeatmapCharacteristic();
 
 protected:
   // Ctor Parameters []
@@ -87,26 +68,21 @@ public:
   PlayerDataFileManagerSO(PlayerDataFileManagerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15130 };
 
-  /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____defaultLastSelectedBeatmapCharacteristic;
-
-  /// @brief Field _buildInSongPackSerializedName, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _buildInSongPackSerializedName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____buildInSongPackSerializedName;
 
-  /// @brief Field _allSongPackSerializedName, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _allSongPackSerializedName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____allSongPackSerializedName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____defaultLastSelectedBeatmapCharacteristic) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____buildInSongPackSerializedName) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____buildInSongPackSerializedName) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____allSongPackSerializedName) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____allSongPackSerializedName) == 0x28, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::PlayerDataFileManagerSO) == 0x30, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PlayerDataFileManagerSO) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace

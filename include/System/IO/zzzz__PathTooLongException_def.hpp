@@ -32,13 +32,13 @@ public:
 
   static inline ::System::IO::PathTooLongException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5abe6d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf83ac, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5abe758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf8430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5abe734, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf840c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

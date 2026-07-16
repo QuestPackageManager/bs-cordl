@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonLinqContract::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::JsonLinqContract::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c02cb8;
+  constexpr static std::size_t addrs = 0x5d3aee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

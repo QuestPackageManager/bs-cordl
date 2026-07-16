@@ -53,10 +53,10 @@ public:
   /// @brief Field size, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  /// @brief Method Clear, addr 0x6010180, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x614b27c, size 0x50, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetData, addr 0x600ff98, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x614b094, size 0xe4, virtual true, abstract: false, final false
   inline void GetData(::System::Runtime::Serialization::ElementData* element);
 
   static inline ::System::Runtime::Serialization::CollectionDataNode* New_ctor();
@@ -85,31 +85,31 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x600fdd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614aed0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ItemName, addr 0x600ff68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemName, addr 0x614b064, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ItemName();
 
-  /// @brief Method get_ItemNamespace, addr 0x600ff78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemNamespace, addr 0x614b074, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ItemNamespace();
 
-  /// @brief Method get_Items, addr 0x600ff58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x614b054, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::IDataNode*>* get_Items();
 
-  /// @brief Method get_Size, addr 0x600ff88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x614b084, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method set_ItemName, addr 0x600ff70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemName, addr 0x614b06c, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemName(::StringW value);
 
-  /// @brief Method set_ItemNamespace, addr 0x600ff80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemNamespace, addr 0x614b07c, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemNamespace(::StringW value);
 
-  /// @brief Method set_Items, addr 0x600ff60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Items, addr 0x614b05c, size 0x8, virtual false, abstract: false, final false
   inline void set_Items(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::IDataNode*>* value);
 
-  /// @brief Method set_Size, addr 0x600ff90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Size, addr 0x614b08c, size 0x8, virtual false, abstract: false, final false
   inline void set_Size(int32_t value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   CollectionDataNode(CollectionDataNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17007 };
 
   /// @brief Field items, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::IDataNode*>* ___items;

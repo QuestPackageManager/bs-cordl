@@ -117,7 +117,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderObjectsSettings_RenderObjects_OverrideMaterialMode const Shader;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -263,7 +263,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilSettings(::UnityEngine::Rendering::Universal::StencilStateData* value);
 
-  /// @brief Method .ctor, addr 0x676b70c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aa088, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -281,7 +281,7 @@ public:
   RenderObjects_RenderObjectsSettings(RenderObjects_RenderObjectsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12889 };
 
   /// @brief Field passTag, offset: 0x10, size: 0x8, def value: None
   ::StringW ___passTag;
@@ -390,7 +390,7 @@ public:
 
   constexpr void __cordl_internal_set_RenderQueueType(::UnityEngine::Rendering::Universal::RenderQueueType value);
 
-  /// @brief Method .ctor, addr 0x676b7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aa178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -408,7 +408,7 @@ public:
   RenderObjects_FilterSettings(RenderObjects_FilterSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12890 };
 
   /// @brief Field RenderQueueType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderQueueType ___RenderQueueType;
@@ -476,7 +476,7 @@ public:
 
   constexpr void __cordl_internal_set_restoreCamera(bool value);
 
-  /// @brief Method .ctor, addr 0x676b804, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aa180, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -494,7 +494,7 @@ public:
   RenderObjects_CustomCameraSettings(RenderObjects_CustomCameraSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12891 };
 
   /// @brief Field overrideCamera, offset: 0x10, size: 0x1, def value: None
   bool ___overrideCamera;
@@ -541,15 +541,15 @@ public:
   /// @brief Field settings, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings* settings;
 
-  /// @brief Method AddRenderPasses, addr 0x676b5ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x68a9f68, size 0xb0, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x676b44c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x68a9dc8, size 0x1a0, virtual true, abstract: false, final false
   inline void Create();
 
   static inline ::UnityEngine::Rendering::Universal::RenderObjects* New_ctor();
 
-  /// @brief Method SupportsNativeRenderPass, addr 0x676b69c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SupportsNativeRenderPass, addr 0x68aa018, size 0x8, virtual true, abstract: false, final false
   inline bool SupportsNativeRenderPass();
 
   constexpr ::UnityEngine::Rendering::Universal::RenderObjectsPass* const& __cordl_internal_get_renderObjectsPass() const;
@@ -564,7 +564,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings* value);
 
-  /// @brief Method .ctor, addr 0x676b6a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aa020, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -582,7 +582,7 @@ public:
   RenderObjects(RenderObjects const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12892 };
 
   /// @brief Field settings, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings* ___settings;

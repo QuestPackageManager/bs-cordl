@@ -456,7 +456,7 @@ public:
   static ::System::Xml::Schema::XsdBuilder_State const WhiteSpace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9816 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -479,12 +479,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XsdBuilder_XsdBuildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x612be18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6266f14, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
   static inline ::System::Xml::Schema::XsdBuilder_XsdBuildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x612bd98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6266e94, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -502,7 +502,7 @@ public:
   XsdBuilder_XsdBuildFunction(XsdBuilder_XsdBuildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -517,12 +517,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XsdBuilder_XsdInitFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x612beac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6266fa8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
   static inline ::System::Xml::Schema::XsdBuilder_XsdInitFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x612be2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6266f28, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -540,7 +540,7 @@ public:
   XsdBuilder_XsdInitFunction(XsdBuilder_XsdInitFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -555,12 +555,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XsdBuilder_XsdEndChildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x612bf3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6267038, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XsdBuilder* builder);
 
   static inline ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x612bec0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6266fbc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -578,7 +578,7 @@ public:
   XsdBuilder_XsdEndChildFunction(XsdBuilder_XsdEndChildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -613,7 +613,7 @@ public:
 
   constexpr void __cordl_internal_set_BuildFunc(::System::Xml::Schema::XsdBuilder_XsdBuildFunction* value);
 
-  /// @brief Method .ctor, addr 0x612bf50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626704c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::Schema::XsdBuilder_XsdBuildFunction* build);
 
 protected:
@@ -631,7 +631,7 @@ public:
   XsdBuilder_XsdAttributeEntry(XsdBuilder_XsdAttributeEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9820 };
 
   /// @brief Field Attribute, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Schema::SchemaNames_Token ___Attribute;
@@ -724,7 +724,7 @@ public:
 
   constexpr void __cordl_internal_set_ParseContent(bool value);
 
-  /// @brief Method .ctor, addr 0x612bf5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6267058, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SchemaNames_Token n, ::System::Xml::Schema::XsdBuilder_State state, ::ArrayW<::System::Xml::Schema::XsdBuilder_State> nextStates,
                     ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*> attributes, ::System::Xml::Schema::XsdBuilder_XsdInitFunction* init,
                     ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* end, bool parseContent);
@@ -744,7 +744,7 @@ public:
   XsdBuilder_XsdEntry(XsdBuilder_XsdEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9821 };
 
   /// @brief Field Name, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Schema::SchemaNames_Token ___Name;
@@ -800,7 +800,7 @@ public:
   /// @brief Field reader, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::Xml::XmlReader* reader;
 
-  /// @brief Method LookupNamespace, addr 0x612bf78, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x6267074, size 0x60, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
   static inline ::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager* New_ctor(::System::Xml::XmlNamespaceManager* nsMgr, ::System::Xml::XmlReader* reader);
@@ -817,7 +817,7 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::Xml::XmlReader* value);
 
-  /// @brief Method .ctor, addr 0x612bf70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626706c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNamespaceManager* nsMgr, ::System::Xml::XmlReader* reader);
 
 protected:
@@ -835,7 +835,7 @@ public:
   XsdBuilder_BuilderNamespaceManager(XsdBuilder_BuilderNamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9822 };
 
   /// @brief Field nsMgr, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlNamespaceManager* ___nsMgr;
@@ -1229,407 +1229,407 @@ public:
   /// @brief Field xso, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_xso, put = __cordl_internal_set_xso)) ::System::Xml::Schema::XmlSchemaObject* xso;
 
-  /// @brief Method AddAttribute, addr 0x6123ca0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x625ed9c, size 0x238, virtual false, abstract: false, final false
   inline void AddAttribute(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method AddParticle, addr 0x6126500, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method AddParticle, addr 0x62615fc, size 0x324, virtual false, abstract: false, final false
   inline void AddParticle(::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method BuildAnnotated_Id, addr 0x6123360, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method BuildAnnotated_Id, addr 0x625e45c, size 0x24, virtual false, abstract: false, final false
   static inline void BuildAnnotated_Id(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAnyAttribute_Namespace, addr 0x61262e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAnyAttribute_Namespace, addr 0x62613e4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAnyAttribute_Namespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAnyAttribute_ProcessContents, addr 0x6126308, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildAnyAttribute_ProcessContents, addr 0x6261404, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildAnyAttribute_ProcessContents(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAny_Namespace, addr 0x6126a9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAny_Namespace, addr 0x6261b98, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAny_Namespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAny_ProcessContents, addr 0x6126abc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildAny_ProcessContents, addr 0x6261bb8, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildAny_ProcessContents(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAppinfo_Source, addr 0x61275b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildAppinfo_Source, addr 0x62626ac, size 0x74, virtual false, abstract: false, final false
   static inline void BuildAppinfo_Source(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttributeGroupRef_Ref, addr 0x6126018, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildAttributeGroupRef_Ref, addr 0x6261114, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildAttributeGroupRef_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttributeGroup_Name, addr 0x6125f88, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttributeGroup_Name, addr 0x6261084, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttributeGroup_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Default, addr 0x6123ed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Default, addr 0x625efd4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttribute_Default(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Fixed, addr 0x6123ef8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Fixed, addr 0x625eff4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttribute_Fixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Form, addr 0x6123f18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Form, addr 0x625f014, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildAttribute_Form(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Name, addr 0x612425c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Name, addr 0x625f358, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttribute_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Ref, addr 0x6124068, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Ref, addr 0x625f164, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildAttribute_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Type, addr 0x612427c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Type, addr 0x625f378, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildAttribute_Type(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Use, addr 0x6123fc0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Use, addr 0x625f0bc, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildAttribute_Use(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexContentExtension_Base, addr 0x61259ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexContentExtension_Base, addr 0x6260aa8, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildComplexContentExtension_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexContentRestriction_Base, addr 0x6125aa8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexContentRestriction_Base, addr 0x6260ba4, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildComplexContentRestriction_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexContent_Mixed, addr 0x6125850, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexContent_Mixed, addr 0x626094c, size 0x80, virtual false, abstract: false, final false
   static inline void BuildComplexContent_Mixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Abstract, addr 0x6125540, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Abstract, addr 0x626063c, size 0x8c, virtual false, abstract: false, final false
   static inline void BuildComplexType_Abstract(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Block, addr 0x61255cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Block, addr 0x62606c8, size 0x74, virtual false, abstract: false, final false
   static inline void BuildComplexType_Block(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Final, addr 0x6125640, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Final, addr 0x626073c, size 0x74, virtual false, abstract: false, final false
   static inline void BuildComplexType_Final(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Mixed, addr 0x61256b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Mixed, addr 0x62607b0, size 0x84, virtual false, abstract: false, final false
   static inline void BuildComplexType_Mixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Name, addr 0x6125738, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Name, addr 0x6260834, size 0x20, virtual false, abstract: false, final false
   static inline void BuildComplexType_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildDocumentation_Source, addr 0x61276ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildDocumentation_Source, addr 0x62627e8, size 0x74, virtual false, abstract: false, final false
   static inline void BuildDocumentation_Source(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildDocumentation_XmlLang, addr 0x6127760, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method BuildDocumentation_XmlLang, addr 0x626285c, size 0x138, virtual false, abstract: false, final false
   static inline void BuildDocumentation_XmlLang(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Abstract, addr 0x61243ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Abstract, addr 0x625f4e8, size 0x80, virtual false, abstract: false, final false
   static inline void BuildElement_Abstract(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Block, addr 0x6124584, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Block, addr 0x625f680, size 0x74, virtual false, abstract: false, final false
   static inline void BuildElement_Block(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Default, addr 0x61245f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Default, addr 0x625f6f4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildElement_Default(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Final, addr 0x612473c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Final, addr 0x625f838, size 0x74, virtual false, abstract: false, final false
   static inline void BuildElement_Final(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Fixed, addr 0x61247b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Fixed, addr 0x625f8ac, size 0x20, virtual false, abstract: false, final false
   static inline void BuildElement_Fixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Form, addr 0x6124618, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Form, addr 0x625f714, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildElement_Form(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_MaxOccurs, addr 0x61247d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_MaxOccurs, addr 0x625f8cc, size 0x18, virtual false, abstract: false, final false
   static inline void BuildElement_MaxOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_MinOccurs, addr 0x61248b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_MinOccurs, addr 0x625f9ac, size 0x18, virtual false, abstract: false, final false
   static inline void BuildElement_MinOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Name, addr 0x6124990, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Name, addr 0x625fa8c, size 0x20, virtual false, abstract: false, final false
   static inline void BuildElement_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Nillable, addr 0x61249b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Nillable, addr 0x625faac, size 0x80, virtual false, abstract: false, final false
   static inline void BuildElement_Nillable(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Ref, addr 0x6124a30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Ref, addr 0x625fb2c, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildElement_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_SubstitutionGroup, addr 0x61246c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_SubstitutionGroup, addr 0x625f7bc, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildElement_SubstitutionGroup(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Type, addr 0x6124aac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Type, addr 0x625fba8, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildElement_Type(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildFacet_Fixed, addr 0x6126f88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method BuildFacet_Fixed, addr 0x6262084, size 0x84, virtual false, abstract: false, final false
   static inline void BuildFacet_Fixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildFacet_Value, addr 0x612700c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildFacet_Value, addr 0x6262108, size 0x20, virtual false, abstract: false, final false
   static inline void BuildFacet_Value(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildField_XPath, addr 0x6127420, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildField_XPath, addr 0x626251c, size 0x20, virtual false, abstract: false, final false
   static inline void BuildField_XPath(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildGroupRef_Ref, addr 0x6126854, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildGroupRef_Ref, addr 0x6261950, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildGroupRef_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildGroup_Name, addr 0x612646c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildGroup_Name, addr 0x6261568, size 0x20, virtual false, abstract: false, final false
   static inline void BuildGroup_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildIdentityConstraint_Name, addr 0x6127164, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityConstraint_Name, addr 0x6262260, size 0x20, virtual false, abstract: false, final false
   static inline void BuildIdentityConstraint_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildIdentityConstraint_Refer, addr 0x6127184, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityConstraint_Refer, addr 0x6262280, size 0x130, virtual false, abstract: false, final false
   static inline void BuildIdentityConstraint_Refer(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildImport_Namespace, addr 0x6123ad0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildImport_Namespace, addr 0x625ebcc, size 0x20, virtual false, abstract: false, final false
   static inline void BuildImport_Namespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildImport_SchemaLocation, addr 0x6123af0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildImport_SchemaLocation, addr 0x625ebec, size 0x20, virtual false, abstract: false, final false
   static inline void BuildImport_SchemaLocation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildInclude_SchemaLocation, addr 0x6123a04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildInclude_SchemaLocation, addr 0x625eb00, size 0x20, virtual false, abstract: false, final false
   static inline void BuildInclude_SchemaLocation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildNotation_Name, addr 0x6126be8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildNotation_Name, addr 0x6261ce4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildNotation_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildNotation_Public, addr 0x6126c08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildNotation_Public, addr 0x6261d04, size 0x20, virtual false, abstract: false, final false
   static inline void BuildNotation_Public(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildNotation_System, addr 0x6126c28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildNotation_System, addr 0x6261d24, size 0x20, virtual false, abstract: false, final false
   static inline void BuildNotation_System(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildParticle_MaxOccurs, addr 0x6126824, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BuildParticle_MaxOccurs, addr 0x6261920, size 0x18, virtual false, abstract: false, final false
   static inline void BuildParticle_MaxOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildParticle_MinOccurs, addr 0x612683c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BuildParticle_MinOccurs, addr 0x6261938, size 0x18, virtual false, abstract: false, final false
   static inline void BuildParticle_MinOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildRedefine_SchemaLocation, addr 0x6123bc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildRedefine_SchemaLocation, addr 0x625ecbc, size 0x20, virtual false, abstract: false, final false
   static inline void BuildRedefine_SchemaLocation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_AttributeFormDefault, addr 0x6123384, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_AttributeFormDefault, addr 0x625e480, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildSchema_AttributeFormDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_BlockDefault, addr 0x61238c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_BlockDefault, addr 0x625e9c0, size 0x74, virtual false, abstract: false, final false
   static inline void BuildSchema_BlockDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_ElementFormDefault, addr 0x6123510, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_ElementFormDefault, addr 0x625e60c, size 0xa8, virtual false, abstract: false, final false
   static inline void BuildSchema_ElementFormDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_FinalDefault, addr 0x61235f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_FinalDefault, addr 0x625e6f4, size 0x74, virtual false, abstract: false, final false
   static inline void BuildSchema_FinalDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_TargetNamespace, addr 0x61235b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_TargetNamespace, addr 0x625e6b4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSchema_TargetNamespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_Version, addr 0x61235d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_Version, addr 0x625e6d4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSchema_Version(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSelector_XPath, addr 0x6127354, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSelector_XPath, addr 0x6262450, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSelector_XPath(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleContentExtension_Base, addr 0x6125cf8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleContentExtension_Base, addr 0x6260df4, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildSimpleContentExtension_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleContentRestriction_Base, addr 0x6125e50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleContentRestriction_Base, addr 0x6260f4c, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildSimpleContentRestriction_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleTypeList_ItemType, addr 0x6125220, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleTypeList_ItemType, addr 0x626031c, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildSimpleTypeList_ItemType(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleTypeRestriction_Base, addr 0x6125348, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleTypeRestriction_Base, addr 0x6260444, size 0x7c, virtual false, abstract: false, final false
   static inline void BuildSimpleTypeRestriction_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleTypeUnion_MemberTypes, addr 0x6124f94, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleTypeUnion_MemberTypes, addr 0x6260090, size 0x1d8, virtual false, abstract: false, final false
   static inline void BuildSimpleTypeUnion_MemberTypes(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleType_Final, addr 0x6124e74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleType_Final, addr 0x625ff70, size 0x74, virtual false, abstract: false, final false
   static inline void BuildSimpleType_Final(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleType_Name, addr 0x6124e54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleType_Name, addr 0x625ff50, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSimpleType_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method EndAppinfo, addr 0x6127628, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndAppinfo, addr 0x6262724, size 0x24, virtual false, abstract: false, final false
   static inline void EndAppinfo(::System::Xml::Schema::XsdBuilder* builder);
 
-  /// @brief Method EndChildren, addr 0x612247c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method EndChildren, addr 0x625d578, size 0x3c, virtual true, abstract: false, final false
   inline void EndChildren();
 
-  /// @brief Method EndDocumentation, addr 0x6127898, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndDocumentation, addr 0x6262994, size 0x24, virtual false, abstract: false, final false
   static inline void EndDocumentation(::System::Xml::Schema::XsdBuilder* builder);
 
-  /// @brief Method EndRedefine, addr 0x6123be0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EndRedefine, addr 0x625ecdc, size 0x18, virtual false, abstract: false, final false
   static inline void EndRedefine(::System::Xml::Schema::XsdBuilder* builder);
 
-  /// @brief Method GetContainer, addr 0x6122578, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetContainer, addr 0x625d674, size 0x138, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* GetContainer(::System::Xml::Schema::XsdBuilder_State state);
 
-  /// @brief Method GetNextState, addr 0x6121974, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetNextState, addr 0x625ca70, size 0x15c, virtual false, abstract: false, final false
   inline bool GetNextState(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method InitAll, addr 0x61268d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitAll, addr 0x62619cc, size 0x74, virtual false, abstract: false, final false
   static inline void InitAll(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAnnotation, addr 0x6127440, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method InitAnnotation, addr 0x626253c, size 0xd0, virtual false, abstract: false, final false
   static inline void InitAnnotation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAny, addr 0x6126a28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitAny, addr 0x6261b24, size 0x74, virtual false, abstract: false, final false
   static inline void InitAny(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAnyAttribute, addr 0x6126094, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method InitAnyAttribute, addr 0x6261190, size 0x254, virtual false, abstract: false, final false
   static inline void InitAnyAttribute(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAppinfo, addr 0x6127510, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitAppinfo, addr 0x626260c, size 0xa0, virtual false, abstract: false, final false
   static inline void InitAppinfo(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAttribute, addr 0x6123bf8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitAttribute, addr 0x625ecf4, size 0xa8, virtual false, abstract: false, final false
   static inline void InitAttribute(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAttributeGroup, addr 0x6125ecc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitAttributeGroup, addr 0x6260fc8, size 0xbc, virtual false, abstract: false, final false
   static inline void InitAttributeGroup(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAttributeGroupRef, addr 0x6125fa8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitAttributeGroupRef, addr 0x62610a4, size 0x70, virtual false, abstract: false, final false
   static inline void InitAttributeGroupRef(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitChoice, addr 0x6126944, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitChoice, addr 0x6261a40, size 0x74, virtual false, abstract: false, final false
   static inline void InitChoice(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexContent, addr 0x6125758, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitComplexContent, addr 0x6260854, size 0xf8, virtual false, abstract: false, final false
   static inline void InitComplexContent(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexContentExtension, addr 0x61258d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InitComplexContentExtension, addr 0x62609cc, size 0xdc, virtual false, abstract: false, final false
   static inline void InitComplexContentExtension(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexContentRestriction, addr 0x6125a28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InitComplexContentRestriction, addr 0x6260b24, size 0x80, virtual false, abstract: false, final false
   static inline void InitComplexContentRestriction(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexType, addr 0x61253c4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InitComplexType, addr 0x62604c0, size 0x17c, virtual false, abstract: false, final false
   static inline void InitComplexType(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitDocumentation, addr 0x612764c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitDocumentation, addr 0x6262748, size 0xa0, virtual false, abstract: false, final false
   static inline void InitDocumentation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitElement, addr 0x61242f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InitElement, addr 0x625f3f4, size 0xf4, virtual false, abstract: false, final false
   static inline void InitElement(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitFacet, addr 0x6126c48, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method InitFacet, addr 0x6261d44, size 0x340, virtual false, abstract: false, final false
   static inline void InitFacet(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitField, addr 0x6127374, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitField, addr 0x6262470, size 0xac, virtual false, abstract: false, final false
   static inline void InitField(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitGroup, addr 0x61263b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitGroup, addr 0x62614ac, size 0xbc, virtual false, abstract: false, final false
   static inline void InitGroup(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitGroupRef, addr 0x612648c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitGroupRef, addr 0x6261588, size 0x74, virtual false, abstract: false, final false
   static inline void InitGroupRef(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitIdentityConstraint, addr 0x612702c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InitIdentityConstraint, addr 0x6262128, size 0x138, virtual false, abstract: false, final false
   static inline void InitIdentityConstraint(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitImport, addr 0x6123a24, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitImport, addr 0x625eb20, size 0xac, virtual false, abstract: false, final false
   static inline void InitImport(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitInclude, addr 0x6123958, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitInclude, addr 0x625ea54, size 0xac, virtual false, abstract: false, final false
   static inline void InitInclude(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitNotation, addr 0x6126b64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitNotation, addr 0x6261c60, size 0x84, virtual false, abstract: false, final false
   static inline void InitNotation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitRedefine, addr 0x6123b10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitRedefine, addr 0x625ec0c, size 0xb0, virtual false, abstract: false, final false
   static inline void InitRedefine(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSchema, addr 0x6123938, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InitSchema, addr 0x625ea34, size 0x20, virtual false, abstract: false, final false
   static inline void InitSchema(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSelector, addr 0x61272b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitSelector, addr 0x62623b0, size 0xa0, virtual false, abstract: false, final false
   static inline void InitSelector(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSequence, addr 0x61269b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitSequence, addr 0x6261ab4, size 0x70, virtual false, abstract: false, final false
   static inline void InitSequence(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleContent, addr 0x6125b24, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleContent, addr 0x6260c20, size 0xf8, virtual false, abstract: false, final false
   static inline void InitSimpleContent(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleContentExtension, addr 0x6125c1c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleContentExtension, addr 0x6260d18, size 0xdc, virtual false, abstract: false, final false
   static inline void InitSimpleContentExtension(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleContentRestriction, addr 0x6125d74, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleContentRestriction, addr 0x6260e70, size 0xdc, virtual false, abstract: false, final false
   static inline void InitSimpleContentRestriction(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleType, addr 0x6124b28, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleType, addr 0x625fc24, size 0x32c, virtual false, abstract: false, final false
   static inline void InitSimpleType(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleTypeList, addr 0x6125174, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleTypeList, addr 0x6260270, size 0xac, virtual false, abstract: false, final false
   static inline void InitSimpleTypeList(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleTypeRestriction, addr 0x612529c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleTypeRestriction, addr 0x6260398, size 0xac, virtual false, abstract: false, final false
   static inline void InitSimpleTypeRestriction(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleTypeUnion, addr 0x6124ee8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleTypeUnion, addr 0x625ffe4, size 0xac, virtual false, abstract: false, final false
   static inline void InitSimpleTypeUnion(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method IsContentParsed, addr 0x6122284, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method IsContentParsed, addr 0x625d380, size 0x18, virtual true, abstract: false, final false
   inline bool IsContentParsed();
 
-  /// @brief Method IsSkipableElement, addr 0x6121c0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSkipableElement, addr 0x625cd08, size 0x24, virtual false, abstract: false, final false
   inline bool IsSkipableElement(::System::Xml::XmlQualifiedName* qname);
 
   static inline ::System::Xml::Schema::XsdBuilder* New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::XmlSchema* schema,
                                                             ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                             ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
-  /// @brief Method ParseBlockFinalEnum, addr 0x612366c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ParseBlockFinalEnum, addr 0x625e768, size 0x258, virtual false, abstract: false, final false
   inline int32_t ParseBlockFinalEnum(::StringW value, ::StringW attributeName);
 
-  /// @brief Method ParseBoolean, addr 0x612446c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ParseBoolean, addr 0x625f568, size 0x118, virtual false, abstract: false, final false
   inline bool ParseBoolean(::StringW value, ::StringW attributeName);
 
-  /// @brief Method ParseEnum, addr 0x612342c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseEnum, addr 0x625e528, size 0xe4, virtual false, abstract: false, final false
   inline int32_t ParseEnum(::StringW value, ::StringW attributeName, ::ArrayW<::StringW> values);
 
-  /// @brief Method ParseQName, addr 0x61240e4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ParseQName, addr 0x625f1e0, size 0x178, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ParseQName(::StringW value, ::StringW attributeName);
 
-  /// @brief Method ParseUriReference, addr 0x6127624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseUriReference, addr 0x6262720, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ParseUriReference(::StringW s);
 
-  /// @brief Method Pop, addr 0x61224b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x625d5b4, size 0xc0, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method ProcessAttribute, addr 0x6121d1c, size 0x450, virtual true, abstract: false, final false
+  /// @brief Method ProcessAttribute, addr 0x625ce18, size 0x450, virtual true, abstract: false, final false
   inline void ProcessAttribute(::StringW prefix, ::StringW name, ::StringW ns, ::StringW value);
 
-  /// @brief Method ProcessCData, addr 0x61222a4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ProcessCData, addr 0x625d3a0, size 0x5c, virtual true, abstract: false, final false
   inline void ProcessCData(::StringW value);
 
-  /// @brief Method ProcessElement, addr 0x6121854, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ProcessElement, addr 0x625c950, size 0x120, virtual true, abstract: false, final false
   inline bool ProcessElement(::StringW prefix, ::StringW name, ::StringW ns);
 
-  /// @brief Method ProcessMarkup, addr 0x612229c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ProcessMarkup, addr 0x625d398, size 0x8, virtual true, abstract: false, final false
   inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*> markup);
 
-  /// @brief Method Push, addr 0x6121ad0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x625cbcc, size 0x98, virtual false, abstract: false, final false
   inline void Push();
 
-  /// @brief Method RecordPosition, addr 0x6121b68, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RecordPosition, addr 0x625cc64, size 0xa4, virtual false, abstract: false, final false
   inline void RecordPosition();
 
-  /// @brief Method SendValidationEvent, addr 0x61278bc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x62629b8, size 0x168, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW arg0, ::StringW arg1, ::StringW arg2);
 
-  /// @brief Method SendValidationEvent, addr 0x612216c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x625d268, size 0x118, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x6121c30, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x625cd2c, size 0xec, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg);
 
-  /// @brief Method SendValidationEvent, addr 0x612516c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6260268, size 0x8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
 
-  /// @brief Method SendValidationEvent, addr 0x6127a24, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6262b20, size 0xd8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SetContainer, addr 0x61226b0, size 0xb88, virtual false, abstract: false, final false
+  /// @brief Method SetContainer, addr 0x625d7ac, size 0xb88, virtual false, abstract: false, final false
   inline void SetContainer(::System::Xml::Schema::XsdBuilder_State state, ::System::Object* container);
 
-  /// @brief Method SetMaxOccurs, addr 0x61247e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMaxOccurs, addr 0x625f8e4, size 0xc8, virtual false, abstract: false, final false
   inline void SetMaxOccurs(::System::Xml::Schema::XmlSchemaParticle* particle, ::StringW value);
 
-  /// @brief Method SetMinOccurs, addr 0x61248c8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMinOccurs, addr 0x625f9c4, size 0xc8, virtual false, abstract: false, final false
   inline void SetMinOccurs(::System::Xml::Schema::XmlSchemaParticle* particle, ::StringW value);
 
-  /// @brief Method StartChildren, addr 0x6122300, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method StartChildren, addr 0x625d3fc, size 0x17c, virtual true, abstract: false, final false
   inline void StartChildren();
 
   constexpr ::System::Xml::Schema::XmlSchemaAll* const& __cordl_internal_get_all() const;
@@ -1932,7 +1932,7 @@ public:
 
   constexpr void __cordl_internal_set_xso(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method .ctor, addr 0x61216b0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x625c7ac, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::XmlSchema* schema, ::System::Xml::XmlNameTable* nameTable,
                     ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
@@ -2058,13 +2058,13 @@ public:
 
   static inline ::ArrayW<::StringW> getStaticF_UseStringValues();
 
-  /// @brief Method get_CurrentElement, addr 0x6123238, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentElement, addr 0x625e334, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaNames_Token get_CurrentElement();
 
-  /// @brief Method get_ParentContainer, addr 0x61232cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContainer, addr 0x625e3c8, size 0x94, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_ParentContainer();
 
-  /// @brief Method get_ParentElement, addr 0x6123250, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_ParentElement, addr 0x625e34c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaNames_Token get_ParentElement();
 
   static inline void setStaticF_AllSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State> value);
@@ -2204,7 +2204,7 @@ public:
   XsdBuilder(XsdBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9823 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlReader* ___reader;

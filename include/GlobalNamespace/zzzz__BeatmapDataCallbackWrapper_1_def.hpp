@@ -63,7 +63,7 @@ public:
   BeatmapDataCallbackWrapper_1(BeatmapDataCallbackWrapper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5621 };
 
   /// @brief Field _callback, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallback_1<T>* ____callback;

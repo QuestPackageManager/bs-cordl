@@ -36,7 +36,7 @@ public:
   /// @brief Field start_ts, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_start_ts, put = __cordl_internal_set_start_ts)) int64_t start_ts;
 
-  /// @brief Method CreateCollabOperationAnalytic, addr 0x6ccda1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateCollabOperationAnalytic, addr 0x6e218d4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::CollabOperationAnalytic* CreateCollabOperationAnalytic();
 
   static inline ::UnityEditor::Analytics::CollabOperationAnalytic* New_ctor();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_start_ts(int64_t value);
 
-  /// @brief Method .ctor, addr 0x6ccd9a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2185c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   CollabOperationAnalytic(CollabOperationAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22952 };
 
   /// @brief Field category, offset: 0x30, size: 0x8, def value: None
   ::StringW ___category;

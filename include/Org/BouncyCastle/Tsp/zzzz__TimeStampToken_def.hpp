@@ -74,13 +74,13 @@ public:
   /// @brief Field certIDv2, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_certIDv2, put = __cordl_internal_set_certIDv2)) ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certIDv2;
 
-  /// @brief Method GetCertHash, addr 0x3564cf8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0x36211b0, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetCertHash();
 
-  /// @brief Method GetHashAlgorithm, addr 0x3565164, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetHashAlgorithm, addr 0x362161c, size 0xa0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetHashAlgorithm();
 
-  /// @brief Method GetHashAlgorithmName, addr 0x3564bec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetHashAlgorithmName, addr 0x36210a4, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW GetHashAlgorithmName();
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampToken_CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set_certIDv2(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* value);
 
-  /// @brief Method .ctor, addr 0x3564508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36209c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
 
-  /// @brief Method .ctor, addr 0x3564510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36209c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID);
 
-  /// @brief Method get_IssuerSerial, addr 0x3564d34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0x36211ec, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
 protected:
@@ -170,29 +170,29 @@ public:
   /// @brief Field tstInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tstInfo, put = __cordl_internal_set_tstInfo)) ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* tstInfo;
 
-  /// @brief Method GetAttributeCertificates, addr 0x3564580, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeCertificates, addr 0x3620a38, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
 
-  /// @brief Method GetCertificates, addr 0x3564550, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x3620a08, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCrls, addr 0x3564568, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x3620a20, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
 
-  /// @brief Method GetEncoded, addr 0x35650e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3621598, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x3565140, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x36215f8, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded(::StringW encoding);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
 
-  /// @brief Method ToCmsSignedData, addr 0x35650d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToCmsSignedData, addr 0x3621590, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsSignedData* ToCmsSignedData();
 
-  /// @brief Method Validate, addr 0x3564598, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x3620a50, size 0x654, virtual false, abstract: false, final false
   inline void Validate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   constexpr ::Org::BouncyCastle::Tsp::TimeStampToken_CertID* const& __cordl_internal_get_certID() const;
@@ -219,22 +219,22 @@ public:
 
   constexpr void __cordl_internal_set_tstInfo(::Org::BouncyCastle::Tsp::TimeStampTokenInfo* value);
 
-  /// @brief Method .ctor, addr 0x356220c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361e6c4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor, addr 0x3563b74, size 0x870, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362002c, size 0x870, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
 
-  /// @brief Method get_SignedAttributes, addr 0x3562a90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SignedAttributes, addr 0x361ef48, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_SignedAttributes();
 
-  /// @brief Method get_SignerID, addr 0x3564520, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SignerID, addr 0x36209d8, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerID* get_SignerID();
 
-  /// @brief Method get_TimeStampInfo, addr 0x3564518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeStampInfo, addr 0x36209d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* get_TimeStampInfo();
 
-  /// @brief Method get_UnsignedAttributes, addr 0x3564538, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_UnsignedAttributes, addr 0x36209f0, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_UnsignedAttributes();
 
 protected:

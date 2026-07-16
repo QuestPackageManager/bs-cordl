@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex___c::*)()>(&::UnityEngine::ProBuilder::SharedVertex___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65b15fc;
+  constexpr static std::size_t addrs = 0x66eed08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex___c*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SharedVertex___c::*)(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>)>(
     &::UnityEngine::ProBuilder::SharedVertex___c::_SortedRemoveAndShift_b__26_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x65b1600;
+  constexpr static std::size_t addrs = 0x66eed0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::ProBuilder::SharedVertex::*)()>(&::UnityEngine::ProBuilder::SharedVertex::get_arrayInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65afda8;
+  constexpr static std::size_t addrs = 0x66ed4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(), { "get_arrayInternal", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::SharedVertex::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x65af0a0;
+  constexpr static std::size_t addrs = 0x66ec7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)(::UnityEngine::ProBuilder::SharedVertex*)>(&::UnityEngine::ProBuilder::SharedVertex::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x65afdb0;
+  constexpr static std::size_t addrs = 0x66ed4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SharedVertex::*)(int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65a3724;
+  constexpr static std::size_t addrs = 0x66e0e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)(int32_t, int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::set_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65afe94;
+  constexpr static std::size_t addrs = 0x66ed5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::UnityEngine::ProBuilder::SharedVertex::*)()>(
     &::UnityEngine::ProBuilder::SharedVertex::GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x65afec4;
+  constexpr static std::size_t addrs = 0x66ed5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(), { "GetEnumerator", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SharedVertex::*)()>(&::UnityEngine::ProBuilder::SharedVertex::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x65aff68;
+  constexpr static std::size_t addrs = 0x66ed674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::ProBuilder::SharedVertex::*)()>(
     &::UnityEngine::ProBuilder::SharedVertex::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65affd0;
+  constexpr static std::size_t addrs = 0x66ed6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)(int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::Add)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65affd4;
+  constexpr static std::size_t addrs = 0x66ed6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(), { "Add", {}, { ::i2c::type_of<int32_t>() } })));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)()>(&::UnityEngine::ProBuilder::SharedVertex::Clear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x65b0038;
+  constexpr static std::size_t addrs = 0x66ed744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(), { "Clear", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SharedVertex::*)(int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::Contains)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x65b008c;
+  constexpr static std::size_t addrs = 0x66ed798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)(::ArrayW<int32_t>, int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::CopyTo)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65b00f4;
+  constexpr static std::size_t addrs = 0x66ed800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SharedVertex::*)(int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::Remove)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x65b010c;
+  constexpr static std::size_t addrs = 0x66ed818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SharedVertex::*)()>(&::UnityEngine::ProBuilder::SharedVertex::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65afe7c;
+  constexpr static std::size_t addrs = 0x66ed588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(), { "get_Count", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SharedVertex::*)()>(&::UnityEngine::ProBuilder::SharedVertex::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65b01a8;
+  constexpr static std::size_t addrs = 0x66ed8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(), { "get_IsReadOnly", {}, {} })));
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*,
                                                                 ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::UnityEngine::ProBuilder::SharedVertex::GetSharedVertexLookup)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x65b01c0;
+  constexpr static std::size_t addrs = 0x66ed8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SharedVertex*>(),
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SharedVertex::*)(int32_t)>(&::UnityEngine::ProBuilder::SharedVertex::ShiftIndexes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x65b05dc;
+  constexpr static std::size_t addrs = 0x66edce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> (*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>*)>(&::UnityEngine::ProBuilder::SharedVertex::ToSharedVertices)> {
   constexpr static std::size_t size = 0x72c;
-  constexpr static std::size_t addrs = 0x65b061c;
+  constexpr static std::size_t addrs = 0x66edd28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> (*)(
     ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<int32_t>*>*)>(&::UnityEngine::ProBuilder::SharedVertex::ToSharedVertices)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x65b0d48;
+  constexpr static std::size_t addrs = 0x66ee454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*)>(
     &::UnityEngine::ProBuilder::SharedVertex::GetSharedVerticesWithPositions)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x65af14c;
+  constexpr static std::size_t addrs = 0x66ec858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> (*)(
     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::ProBuilder::SharedVertex::RemoveAndShift)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x65b0eb0;
+  constexpr static std::size_t addrs = 0x66ee5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> (*)(
     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::ProBuilder::SharedVertex::SortedRemoveAndShift)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x65b0f7c;
+  constexpr static std::size_t addrs = 0x66ee688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::SharedVertex::SetCoincident)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x65b1290;
+  constexpr static std::size_t addrs = 0x66ee99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -62,10 +62,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE VariableMovementDataProvider_InterpolationData {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x5792c40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x58cfa90, size 0x90, virtual false, abstract: false, final false
   inline float_t GetValue(float_t time);
 
-  /// @brief Method SetValues, addr 0x57929e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetValues, addr 0x58cf830, size 0x14, virtual false, abstract: false, final false
   inline void SetValues(float_t fromValue, float_t toValue, float_t fromTime, float_t toTime, ::GlobalNamespace::EaseType easeType);
 
   // Ctor Parameters []
@@ -78,7 +78,7 @@ public:
   constexpr VariableMovementDataProvider_InterpolationData(float_t _fromValue, float_t _toValue, float_t _fromTime, float_t _duration, ::GlobalNamespace::EaseType _easeType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -225,30 +225,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CalculateCurrentNoteJumpGravity, addr 0x5790664, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CalculateCurrentNoteJumpGravity, addr 0x58cd4c8, size 0x14, virtual true, abstract: false, final true
   inline float_t CalculateCurrentNoteJumpGravity(float_t gravityBase);
 
-  /// @brief Method Dispose, addr 0x57927b4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58cf5fc, size 0xe8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleNoteJumpMovementSpeedEvent, addr 0x5792cd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpMovementSpeedEvent, addr 0x58cfb20, size 0x6c, virtual false, abstract: false, final false
   inline void HandleNoteJumpMovementSpeedEvent(::GlobalNamespace::NoteJumpSpeedEventData* currentEventData);
 
-  /// @brief Method Init, addr 0x5792894, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x58cf6e4, size 0x14c, virtual true, abstract: false, final true
   inline void Init(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t minRelativeNoteJumpSpeed, float_t bpm,
                    ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType noteJumpValueType, float_t noteJumpValue, ::UnityEngine::Vector3 centerPosition,
                    ::UnityEngine::Vector3 forwardVector);
 
-  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x5792ba0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x58cf9f0, size 0x60, virtual true, abstract: false, final true
   inline float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(float_t highestJumpPosY, float_t distanceFromPlayer);
 
-  /// @brief Method ManualUpdate, addr 0x57929f4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58cf844, size 0x1ac, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::VariableMovementDataProvider* New_ctor(::GlobalNamespace::PlayerTransforms* playerTransforms,
                                                                           ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset, addr 0x5792c00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset, addr 0x58cfa50, size 0x40, virtual false, abstract: false, final false
   inline float_t NoteJumpGravityForLineLayerWithoutJumpOffset(float_t highestJumpPosY, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -389,43 +389,43 @@ public:
 
   constexpr void __cordl_internal_set__wasUpdatedThisFrame_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5792658, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cf49c, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method get_halfJumpDuration, addr 0x5792598, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_halfJumpDuration, addr 0x58cf3dc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_halfJumpDuration();
 
-  /// @brief Method get_jumpDistance, addr 0x5792588, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_jumpDistance, addr 0x58cf3cc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_jumpDuration, addr 0x5792590, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_jumpDuration, addr 0x58cf3d4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_jumpEndPosition, addr 0x5792628, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_jumpEndPosition, addr 0x58cf46c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_jumpEndPosition();
 
-  /// @brief Method get_moveDuration, addr 0x57925a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_moveDuration, addr 0x58cf3e4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_moveDuration();
 
-  /// @brief Method get_moveEndPosition, addr 0x57925f8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_moveEndPosition, addr 0x58cf43c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_moveEndPosition();
 
-  /// @brief Method get_moveStartPosition, addr 0x57925c8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_moveStartPosition, addr 0x58cf40c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_moveStartPosition();
 
-  /// @brief Method get_noteJumpSpeed, addr 0x57925b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteJumpSpeed, addr 0x58cf3fc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_noteJumpSpeed();
 
-  /// @brief Method get_spawnAheadTime, addr 0x57925a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_spawnAheadTime, addr 0x58cf3ec, size 0x8, virtual true, abstract: false, final true
   inline float_t get_spawnAheadTime();
 
-  /// @brief Method get_targetNoteJumpSpeed, addr 0x57925c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetNoteJumpSpeed, addr 0x58cf404, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetNoteJumpSpeed();
 
-  /// @brief Method get_waitingDuration, addr 0x57925b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_waitingDuration, addr 0x58cf3f4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_waitingDuration();
 
-  /// @brief Method get_wasUpdatedThisFrame, addr 0x5792578, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_wasUpdatedThisFrame, addr 0x58cf3bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_wasUpdatedThisFrame();
 
   /// @brief Convert to "::GlobalNamespace::IVariableMovementDataProvider"
@@ -434,7 +434,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_wasUpdatedThisFrame, addr 0x5792580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wasUpdatedThisFrame, addr 0x58cf3c4, size 0x8, virtual false, abstract: false, final false
   inline void set_wasUpdatedThisFrame(bool value);
 
 protected:
@@ -452,7 +452,7 @@ public:
   VariableMovementDataProvider(VariableMovementDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5644 };
 
   /// @brief Field kInitMoveSpeed offset 0xffffffff size 0x4
   static constexpr float_t kInitMoveSpeed{ static_cast<float_t>(200.0f) };

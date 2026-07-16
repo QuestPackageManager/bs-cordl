@@ -32,13 +32,13 @@ public:
   /// @brief Field autoRestart, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
 
-  /// @brief Field beatmapKey, offset 0x18, size 0x20
+  /// @brief Field beatmapKey, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapLevel, offset 0x38, size 0x8
+  /// @brief Field beatmapLevel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
-  /// @brief Field gameplayModifiers, offset 0x40, size 0x8
+  /// @brief Field gameplayModifiers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
   static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method .ctor, addr 0x57ee7c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590c394, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
 protected:
@@ -86,18 +86,18 @@ public:
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6704 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
 
-  /// @brief Field beatmapKey, offset: 0x18, size: 0x20, def value: None
+  /// @brief Field beatmapKey, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field beatmapLevel, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field beatmapLevel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
-  /// @brief Field gameplayModifiers, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field gameplayModifiers, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -107,10 +107,10 @@ static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___aut
 
 static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapKey) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapLevel) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapLevel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___gameplayModifiers) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___gameplayModifiers) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::StandardGameplaySceneSetupData) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::StandardGameplaySceneSetupData) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_roles(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x59d75e8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b112b8, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW> roles);
 
 protected:

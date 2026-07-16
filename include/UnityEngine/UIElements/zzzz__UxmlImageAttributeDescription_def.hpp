@@ -41,7 +41,7 @@ public:
   /// @brief Field m_AssetType, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AssetType, put = __cordl_internal_set_m_AssetType)) ::System::Type* m_AssetType;
 
-  /// @brief Method GetValueFromBag, addr 0x6b689e4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6cbc89c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlImageAttributeDescription* New_ctor();
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_m_AssetType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6b68954, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbc80c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_defaultValue, addr 0x6b689d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_defaultValue, addr 0x6cbc88c, size 0x10, virtual false, abstract: false, final false
   inline void set_defaultValue(::UnityEngine::UIElements::Background value);
 
 protected:

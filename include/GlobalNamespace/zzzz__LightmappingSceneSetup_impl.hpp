@@ -1,19 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightmappingSceneSetup.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmappingSceneSetup_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstallerData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightmappingSceneSetup.get_colorScheme
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::ColorSchemeSO> (::GlobalNamespace::LightmappingSceneSetup::*)()>(
     &::GlobalNamespace::LightmappingSceneSetup::get_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57eab78;
+  constexpr static std::size_t addrs = 0x590a324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmappingSceneSetup*>(), { "get_colorScheme", {}, {} })));
@@ -26,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSceneSetup::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::GlobalNamespace::LightmappingSceneSetup::set_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57eab80;
+  constexpr static std::size_t addrs = 0x590a32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +35,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSceneSetup::*)()>(&::GlobalNamespace::LightmappingSceneSetup::InstallBindings)> {
-  constexpr static std::size_t size = 0x10f4;
-  constexpr static std::size_t addrs = 0x57eab88;
+  constexpr static std::size_t size = 0xf98;
+  constexpr static std::size_t addrs = 0x590a334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,49 +49,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSceneSetup::*)()>(&::GlobalNamespace::LightmappingSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57ebd50;
+  constexpr static std::size_t addrs = 0x590b2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmappingSceneSetup*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__beatmapLevelSo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelSo;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__beatmapLevelSo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelSo;
-}
-constexpr void GlobalNamespace::LightmappingSceneSetup::__cordl_internal_set__beatmapLevelSo(::UnityW<::GlobalNamespace::BeatmapLevelSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapLevelSo = value;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__beatmapCharacteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristic;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__beatmapCharacteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristic;
-}
-constexpr void GlobalNamespace::LightmappingSceneSetup::__cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapCharacteristic = value;
-}
-constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__beatmapDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapDifficulty;
-}
-constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__beatmapDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapDifficulty;
-}
-constexpr void GlobalNamespace::LightmappingSceneSetup::__cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapDifficulty = value;
-}
 constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__colorScheme() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
@@ -107,17 +68,17 @@ constexpr void GlobalNamespace::LightmappingSceneSetup::__cordl_internal_set__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorScheme = value;
 }
-constexpr ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData>& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__standardLevelNoTransitionInstallerData() {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__gameplayCoreSceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____standardLevelNoTransitionInstallerData;
+  return this->____gameplayCoreSceneSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> const& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__standardLevelNoTransitionInstallerData() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::LightmappingSceneSetup::__cordl_internal_get__gameplayCoreSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____standardLevelNoTransitionInstallerData;
+  return this->____gameplayCoreSceneSetupData;
 }
-constexpr void GlobalNamespace::LightmappingSceneSetup::__cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value) {
+constexpr void GlobalNamespace::LightmappingSceneSetup::__cordl_internal_set__gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____standardLevelNoTransitionInstallerData = value;
+  this->____gameplayCoreSceneSetupData = value;
 }
 inline ::UnityW<::GlobalNamespace::ColorSchemeSO> GlobalNamespace::LightmappingSceneSetup::get_colorScheme() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmappingSceneSetup*>(), { "get_colorScheme", {}, {} })));

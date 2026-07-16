@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::RedefineEntry::*)(::System::Xml::Schema::XmlSchemaRedefine*, ::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::RedefineEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60a0534;
+  constexpr static std::size_t addrs = 0x61db630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

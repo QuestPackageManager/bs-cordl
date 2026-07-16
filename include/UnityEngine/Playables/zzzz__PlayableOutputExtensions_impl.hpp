@@ -14,6 +14,12 @@ template <typename U> inline void UnityEngine::Playables::PlayableOutputExtensio
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, output, value);
 }
+template <typename U> inline ::UnityW<::UnityEngine::Object> UnityEngine::Playables::PlayableOutputExtensions::GetUserData(U output) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputExtensions*>(), { "GetUserData", { ::i2c::class_of<U>() }, { ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, output);
+}
 template <typename U> inline void UnityEngine::Playables::PlayableOutputExtensions::SetUserData(U output, ::UnityEngine::Object* value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputExtensions*>(),

@@ -34,7 +34,7 @@ public:
   static inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* New_ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
                                                                         ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method .ctor, addr 0x592a178, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6387c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
   /// @brief Method get_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -58,7 +58,7 @@ public:
   Tweak(Tweak const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

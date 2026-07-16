@@ -22,8 +22,13 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int64_t Count;
 
-  /// @brief Method get_Count, addr 0x6904cd0, size 0x8, virtual false, abstract: false, final false
+  __declspec(property(get = get_Value)) int64_t Value;
+
+  /// @brief Method get_Count, addr 0x6a57d90, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Count();
+
+  /// @brief Method get_Value, addr 0x6a57d88, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_Value();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -34,7 +39,7 @@ public:
   constexpr ProfilerRecorderSample(int64_t value, int64_t count, int64_t refValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9920 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

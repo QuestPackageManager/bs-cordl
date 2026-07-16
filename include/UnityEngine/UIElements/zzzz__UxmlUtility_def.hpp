@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseStringListAttribute, addr 0x6b6a1e0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ParseStringListAttribute, addr 0x6cbe098, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* ParseStringListAttribute(::StringW itemList);
 
 protected:

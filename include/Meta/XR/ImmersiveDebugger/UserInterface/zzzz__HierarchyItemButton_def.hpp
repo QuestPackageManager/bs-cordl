@@ -57,19 +57,19 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* New_ctor();
 
-  /// @brief Method OnStateChanged, addr 0x5914280, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnStateChanged, addr 0x5a4d984, size 0xfc, virtual false, abstract: false, final false
   inline void OnStateChanged(bool state);
 
-  /// @brief Method Setup, addr 0x5913cf0, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a4d3f4, size 0x374, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method Update, addr 0x591437c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a4da80, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGameObjectState, addr 0x5913bd4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UpdateGameObjectState, addr 0x5a4d2d8, size 0x98, virtual false, abstract: false, final false
   inline void UpdateGameObjectState(bool force);
 
-  /// @brief Method UpdateGameObjectState, addr 0x5914438, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateGameObjectState, addr 0x5a4db3c, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateGameObjectState(bool state, bool force);
 
   constexpr int32_t const& __cordl_internal_get__counter() const;
@@ -102,25 +102,25 @@ public:
 
   constexpr void __cordl_internal_set__previousEnabledState(bool value);
 
-  /// @brief Method .ctor, addr 0x5914514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4dc18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Counter, addr 0x5913c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x5a4d370, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method get_Foldout, addr 0x5913ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Foldout, addr 0x5a4d3e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> get_Foldout();
 
-  /// @brief Method get_Item, addr 0x5913ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5a4d1b8, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* get_Item();
 
-  /// @brief Method get_Label, addr 0x5913ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5a4d3ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> get_Label();
 
-  /// @brief Method set_Counter, addr 0x5913c74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_Counter, addr 0x5a4d378, size 0x6c, virtual false, abstract: false, final false
   inline void set_Counter(int32_t value);
 
-  /// @brief Method set_Item, addr 0x5913abc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x5a4d1c0, size 0x118, virtual false, abstract: false, final false
   inline void set_Item(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* value);
 
 protected:
@@ -138,7 +138,7 @@ public:
   HierarchyItemButton(HierarchyItemButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18336 };
 
   /// @brief Field _item, offset: 0x90, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* ____item;

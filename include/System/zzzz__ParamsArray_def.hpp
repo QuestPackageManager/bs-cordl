@@ -38,19 +38,19 @@ public:
   /// @brief Field s_twoArgArray, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_twoArgArray, put = setStaticF_s_twoArgArray)) ::ArrayW<::System::Object*> s_twoArgArray;
 
-  /// @brief Method GetAtSlow, addr 0x5b1c014, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAtSlow, addr 0x5c55cec, size 0x54, virtual false, abstract: false, final false
   inline ::System::Object* GetAtSlow(int32_t index);
 
-  /// @brief Method .ctor, addr 0x5b1bda4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c55a7c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0);
 
-  /// @brief Method .ctor, addr 0x5b1be1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c55af4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method .ctor, addr 0x5b1be98, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c55b70, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor, addr 0x5b1bf20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c55bf8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*> args);
 
   static inline ::ArrayW<::System::Object*> getStaticF_s_oneArgArray();
@@ -59,10 +59,10 @@ public:
 
   static inline ::ArrayW<::System::Object*> getStaticF_s_twoArgArray();
 
-  /// @brief Method get_Item, addr 0x5b1bf94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5c55c6c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x5b1bf7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5c55c54, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_s_oneArgArray(::ArrayW<::System::Object*> value);

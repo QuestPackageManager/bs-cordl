@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::JumpReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x5713cb0, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x585be30, size 0x148, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr bool const& __cordl_internal_get__jumpToDestinationValid_k__BackingField() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__jumpToDestinationValid_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5713df8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x585bf78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpToDestinationValid, addr 0x5713ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpToDestinationValid, addr 0x585be20, size 0x8, virtual false, abstract: false, final false
   inline bool get_jumpToDestinationValid();
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  /// @brief Method set_jumpToDestinationValid, addr 0x5713ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_jumpToDestinationValid, addr 0x585be28, size 0x8, virtual false, abstract: false, final false
   inline void set_jumpToDestinationValid(bool value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   JumpReceiver(JumpReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21393 };
 
   /// @brief Field <jumpToDestinationValid>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____jumpToDestinationValid_k__BackingField;

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HelpURLAttribute::*)(::StringW)>(&::UnityEngine::HelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6984480;
+  constexpr static std::size_t addrs = 0x6ad7820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HelpURLAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::HelpURLAttribute::*)()>(&::UnityEngine::HelpURLAttribute::get_URL)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69844e0;
+  constexpr static std::size_t addrs = 0x6ad7880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -25,10 +25,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x5d0dd44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x5e45f6c, size 0x24, virtual false, abstract: false, final false
   inline void Unpack(::by_ref<::OVR::OpenVR::RenderModel_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x5d0dd18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e45f40, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr RenderModel_t_Packed(::System::IntPtr rVertexData, uint32_t unVertexCount, ::System::IntPtr rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8505 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

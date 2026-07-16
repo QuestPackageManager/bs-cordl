@@ -108,7 +108,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent const SubsystemStop;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18522 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -243,7 +243,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent const XrVisible;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18523 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -302,7 +302,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_StatFlags const StatOptionNone;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18524 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -368,7 +368,7 @@ public:
   /// @brief Field version, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
-  /// @brief Method Awake, addr 0x689f674, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x69f658c, size 0x4, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -377,165 +377,165 @@ public:
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void DestroySubsystem();
 
-  /// @brief Method GetAction, addr 0x689f89c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAction, addr 0x69f67b4, size 0x80, virtual false, abstract: false, final false
   inline uint64_t GetAction(::UnityEngine::XR::InputDevice device, ::UnityEngine::XR::InputFeatureUsage usage);
 
-  /// @brief Method GetAction, addr 0x689f91c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAction, addr 0x69f6834, size 0x70, virtual false, abstract: false, final false
   inline uint64_t GetAction(::UnityEngine::XR::InputDevice device, ::StringW usageName);
 
-  /// @brief Method GetAction, addr 0x689f840, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetAction, addr 0x69f6758, size 0x5c, virtual false, abstract: false, final false
   inline uint64_t GetAction(::UnityEngine::InputSystem::InputAction* inputAction);
 
-  /// @brief Method GetCurrentAppSpace, addr 0x689f460, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentAppSpace, addr 0x69f6378, size 0x20, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentAppSpace();
 
-  /// @brief Method GetCurrentInteractionProfile, addr 0x689f428, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInteractionProfile, addr 0x69f6340, size 0x38, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentInteractionProfile(::StringW userPath);
 
-  /// @brief Method GetCurrentInteractionProfile, addr 0x689f37c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInteractionProfile, addr 0x69f6294, size 0x20, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentInteractionProfile(uint64_t userPath);
 
-  /// @brief Method GetEnvironmentBlendMode, addr 0x689f604, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentBlendMode, addr 0x69f651c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode GetEnvironmentBlendMode();
 
-  /// @brief Method GetViewConfigurationTypeForRenderPass, addr 0x689f504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetViewConfigurationTypeForRenderPass, addr 0x69f641c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetViewConfigurationTypeForRenderPass(int32_t renderPassIndex);
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x689f154, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x69f606c, size 0x8, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr func);
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x68943b0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x69eb2c8, size 0x120, virtual false, abstract: false, final false
   static inline void HookGetInstanceProcAddr();
 
-  /// @brief Method Initialize, addr 0x6894218, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69eb130, size 0x128, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Internal_GetAppSpace, addr 0x689f480, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAppSpace, addr 0x69f6398, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_GetAppSpace(::by_ref<uint64_t> appSpace);
 
-  /// @brief Method Internal_GetCurrentInteractionProfile, addr 0x689f39c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetCurrentInteractionProfile, addr 0x69f62b4, size 0x8c, virtual false, abstract: false, final false
   static inline bool Internal_GetCurrentInteractionProfile(uint64_t pathId, ::by_ref<uint64_t> interactionProfile);
 
-  /// @brief Method Internal_GetEnvironmentBlendMode, addr 0x689f608, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetEnvironmentBlendMode, addr 0x69f6520, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode Internal_GetEnvironmentBlendMode();
 
-  /// @brief Method Internal_GetFormFactor, addr 0x689f678, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetFormFactor, addr 0x69f6590, size 0x64, virtual false, abstract: false, final false
   static inline int32_t Internal_GetFormFactor();
 
-  /// @brief Method Internal_GetProcAddressPtr, addr 0x689f0d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetProcAddressPtr, addr 0x69f5ff0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GetProcAddressPtr(bool loaderDefault);
 
-  /// @brief Method Internal_GetSessionState, addr 0x689f740, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSessionState, addr 0x69f6658, size 0x84, virtual false, abstract: false, final false
   static inline void Internal_GetSessionState(::by_ref<int32_t> oldState, ::by_ref<int32_t> newState);
 
-  /// @brief Method Internal_GetViewConfigurationType, addr 0x689f6dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetViewConfigurationType, addr 0x69f65f4, size 0x64, virtual false, abstract: false, final false
   static inline int32_t Internal_GetViewConfigurationType();
 
-  /// @brief Method Internal_GetViewTypeFromRenderIndex, addr 0x689f508, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetViewTypeFromRenderIndex, addr 0x69f6420, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t Internal_GetViewTypeFromRenderIndex(int32_t renderPassIndex);
 
-  /// @brief Method Internal_GetXRSession, addr 0x689fb48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetXRSession, addr 0x69f6a60, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_GetXRSession(::by_ref<uint64_t> xrSession);
 
-  /// @brief Method Internal_PathToStringPtr, addr 0x689f22c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_PathToStringPtr, addr 0x69f6144, size 0x8c, virtual false, abstract: false, final false
   static inline bool Internal_PathToStringPtr(uint64_t pathId, ::by_ref<::System::IntPtr> path);
 
-  /// @brief Method Internal_SetEnvironmentBlendMode, addr 0x689f588, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetEnvironmentBlendMode, addr 0x69f64a0, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetEnvironmentBlendMode(::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode xrEnvironmentBlendMode);
 
-  /// @brief Method Internal_SetProcAddressPtrAndLoadStage1, addr 0x689f7c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetProcAddressPtrAndLoadStage1, addr 0x69f66dc, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetProcAddressPtrAndLoadStage1(::System::IntPtr func);
 
-  /// @brief Method Internal_StringToPath, addr 0x689f2d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Internal_StringToPath, addr 0x69f61f0, size 0xa4, virtual false, abstract: false, final false
   static inline bool Internal_StringToPath(::StringW str, ::by_ref<uint64_t> pathId);
 
   static inline ::UnityEngine::XR::OpenXR::Features::OpenXRFeature* New_ctor();
 
-  /// @brief Method OnAppSpaceChange, addr 0x689f174, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAppSpaceChange, addr 0x69f608c, size 0x4, virtual true, abstract: false, final false
   inline void OnAppSpaceChange(uint64_t xrSpace);
 
-  /// @brief Method OnDisable, addr 0x689f670, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x69f6588, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x689f66c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69f6584, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEnabledChange, addr 0x689f1a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnabledChange, addr 0x69f60bc, size 0x4, virtual true, abstract: false, final false
   inline void OnEnabledChange();
 
-  /// @brief Method OnEnvironmentBlendModeChange, addr 0x689f1a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnvironmentBlendModeChange, addr 0x69f60b8, size 0x4, virtual true, abstract: false, final false
   inline void OnEnvironmentBlendModeChange(::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode xrEnvironmentBlendMode);
 
-  /// @brief Method OnFormFactorChange, addr 0x689f198, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnFormFactorChange, addr 0x69f60b0, size 0x4, virtual true, abstract: false, final false
   inline void OnFormFactorChange(int32_t xrFormFactor);
 
-  /// @brief Method OnInstanceCreate, addr 0x689eda4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x69f5cbc, size 0x8, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x689f18c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x69f60a4, size 0x4, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceLossPending, addr 0x689f194, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceLossPending, addr 0x69f60ac, size 0x4, virtual true, abstract: false, final false
   inline void OnInstanceLossPending(uint64_t xrInstance);
 
-  /// @brief Method OnSessionBegin, addr 0x689f17c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionBegin, addr 0x69f6094, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionBegin(uint64_t xrSession);
 
-  /// @brief Method OnSessionCreate, addr 0x689f170, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x69f6088, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method OnSessionDestroy, addr 0x689f188, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionDestroy, addr 0x69f60a0, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionDestroy(uint64_t xrSession);
 
-  /// @brief Method OnSessionEnd, addr 0x689f180, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionEnd, addr 0x69f6098, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionEnd(uint64_t xrSession);
 
-  /// @brief Method OnSessionExiting, addr 0x689f184, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionExiting, addr 0x69f609c, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionExiting(uint64_t xrSession);
 
-  /// @brief Method OnSessionLossPending, addr 0x689f190, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionLossPending, addr 0x69f60a8, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionLossPending(uint64_t xrSession);
 
-  /// @brief Method OnSessionStateChange, addr 0x689f178, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSessionStateChange, addr 0x69f6090, size 0x4, virtual true, abstract: false, final false
   inline void OnSessionStateChange(int32_t oldState, int32_t newState);
 
-  /// @brief Method OnSubsystemCreate, addr 0x689f15c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubsystemCreate, addr 0x69f6074, size 0x4, virtual true, abstract: false, final false
   inline void OnSubsystemCreate();
 
-  /// @brief Method OnSubsystemDestroy, addr 0x689f168, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubsystemDestroy, addr 0x69f6080, size 0x4, virtual true, abstract: false, final false
   inline void OnSubsystemDestroy();
 
-  /// @brief Method OnSubsystemStart, addr 0x689f160, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubsystemStart, addr 0x69f6078, size 0x4, virtual true, abstract: false, final false
   inline void OnSubsystemStart();
 
-  /// @brief Method OnSubsystemStop, addr 0x689f164, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubsystemStop, addr 0x69f607c, size 0x4, virtual true, abstract: false, final false
   inline void OnSubsystemStop();
 
-  /// @brief Method OnSystemChange, addr 0x689f16c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSystemChange, addr 0x69f6084, size 0x4, virtual true, abstract: false, final false
   inline void OnSystemChange(uint64_t xrSystem);
 
-  /// @brief Method OnViewConfigurationTypeChange, addr 0x689f19c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnViewConfigurationTypeChange, addr 0x69f60b4, size 0x4, virtual true, abstract: false, final false
   inline void OnViewConfigurationTypeChange(int32_t xrViewConfigurationType);
 
-  /// @brief Method PathToString, addr 0x689f1a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PathToString, addr 0x69f60c0, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW PathToString(uint64_t path);
 
-  /// @brief Method ReceiveLoaderEvent, addr 0x6894b18, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ReceiveLoaderEvent, addr 0x69eba30, size 0x1e4, virtual false, abstract: false, final false
   static inline bool ReceiveLoaderEvent(::UnityEngine::XR::OpenXR::OpenXRLoaderBase* loader, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent e);
 
-  /// @brief Method ReceiveNativeEvent, addr 0x6897678, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method ReceiveNativeEvent, addr 0x69ee590, size 0x334, virtual false, abstract: false, final false
   static inline void ReceiveNativeEvent(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent e, uint64_t payload);
 
-  /// @brief Method RegisterStatsDescriptor, addr 0x689f98c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterStatsDescriptor, addr 0x69f68a4, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t RegisterStatsDescriptor(::StringW statName, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_StatFlags statFlags);
 
-  /// @brief Method SetEnvironmentBlendMode, addr 0x689f584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetEnvironmentBlendMode, addr 0x69f649c, size 0x4, virtual false, abstract: false, final false
   static inline void SetEnvironmentBlendMode(::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode xrEnvironmentBlendMode);
 
-  /// @brief Method SetStatAsFloat, addr 0x689fa30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetStatAsFloat, addr 0x69f6948, size 0x4, virtual false, abstract: false, final false
   static inline void SetStatAsFloat(uint64_t statId, float_t value);
 
-  /// @brief Method SetStatAsUInt, addr 0x689fac0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetStatAsUInt, addr 0x69f69d8, size 0x4, virtual false, abstract: false, final false
   static inline void SetStatAsUInt(uint64_t statId, uint32_t value);
 
   /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -544,7 +544,7 @@ public:
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StopSubsystem();
 
-  /// @brief Method StringToPath, addr 0x689f2b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StringToPath, addr 0x69f61d0, size 0x20, virtual false, abstract: false, final false
   static inline uint64_t StringToPath(::StringW str);
 
   constexpr bool const& __cordl_internal_get__failedInitialization_k__BackingField() const;
@@ -607,41 +607,41 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x689eea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5dbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__requiredFeatureFailed_k__BackingField();
 
-  /// @brief Method get_enabled, addr 0x6890ad0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x69e79e8, size 0x104, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_failedInitialization, addr 0x689eeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_failedInitialization, addr 0x69f5dc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_failedInitialization();
 
-  /// @brief Method get_requiredFeatureFailed, addr 0x689eebc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_requiredFeatureFailed, addr 0x69f5dd4, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_requiredFeatureFailed();
 
-  /// @brief Method get_xrGetInstanceProcAddr, addr 0x689f0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xrGetInstanceProcAddr, addr 0x69f5fe8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_xrGetInstanceProcAddr();
 
-  /// @brief Method runtime_RegisterStatsDescriptor, addr 0x689f990, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method runtime_RegisterStatsDescriptor, addr 0x69f68a8, size 0xa0, virtual false, abstract: false, final false
   static inline uint64_t runtime_RegisterStatsDescriptor(::StringW statName, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_StatFlags statFlags);
 
-  /// @brief Method runtime_SetStatAsFloat, addr 0x689fa34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method runtime_SetStatAsFloat, addr 0x69f694c, size 0x8c, virtual false, abstract: false, final false
   static inline void runtime_SetStatAsFloat(uint64_t statId, float_t value);
 
-  /// @brief Method runtime_SetStatAsUInt, addr 0x689fac4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method runtime_SetStatAsUInt, addr 0x69f69dc, size 0x84, virtual false, abstract: false, final false
   static inline void runtime_SetStatAsUInt(uint64_t statId, uint32_t value);
 
   static inline void setStaticF__requiredFeatureFailed_k__BackingField(bool value);
 
-  /// @brief Method set_enabled, addr 0x689ef5c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x69f5e74, size 0x174, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_failedInitialization, addr 0x689eeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failedInitialization, addr 0x69f5dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_failedInitialization(bool value);
 
-  /// @brief Method set_requiredFeatureFailed, addr 0x689ef08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_requiredFeatureFailed, addr 0x69f5e20, size 0x54, virtual false, abstract: false, final false
   static inline void set_requiredFeatureFailed(bool value);
 
 protected:
@@ -662,7 +662,7 @@ public:
   static constexpr ::ConstString Library{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18525 };
 
   /// @brief Field m_enabled, offset: 0x18, size: 0x1, def value: None
   bool ___m_enabled;

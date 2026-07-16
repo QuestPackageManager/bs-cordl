@@ -46,10 +46,10 @@ public:
   /// @brief Field keyContent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_keyContent, put = __cordl_internal_set_keyContent)) ::Org::BouncyCastle::Cms::CmsProcessableByteArray* keyContent;
 
-  /// @brief Method AddRecipientGenerator, addr 0x361d1ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddRecipientGenerator, addr 0x36d96a4, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* AddRecipientGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator* recipientGen);
 
-  /// @brief Method Build, addr 0x361d214, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36d96cc, size 0xe8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Build(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* contentEncryptor);
 
   static inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo,
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_keyContent(::Org::BouncyCastle::Cms::CmsProcessableByteArray* value);
 
-  /// @brief Method .ctor, addr 0x361d020, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d94d8, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
 protected:

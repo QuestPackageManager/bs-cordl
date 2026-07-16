@@ -40,31 +40,31 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method CanConvertTo, addr 0x627dc7c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x63b9d18, size 0xa0, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x627dd1c, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x63b9db8, size 0x310, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method FromString, addr 0x627e124, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x63ba1c0, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x627e02c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x63ba0c8, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::DecimalConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x627e1d4, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63ba270, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x627e2d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ba374, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x627dc14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x63b9cb0, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x627dc1c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x63b9cb8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -82,7 +82,7 @@ public:
   DecimalConverter(DecimalConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

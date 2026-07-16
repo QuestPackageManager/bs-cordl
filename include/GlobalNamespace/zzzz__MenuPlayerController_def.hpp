@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__rightController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x58dbc7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0953c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headPos, addr 0x58dbc4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_headPos, addr 0x5a0950c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPos();
 
-  /// @brief Method get_headRot, addr 0x58dbc64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_headRot, addr 0x5a09524, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headRot();
 
-  /// @brief Method get_leftController, addr 0x58dbc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftController, addr 0x5a094fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftController();
 
-  /// @brief Method get_rightController, addr 0x58dbc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightController, addr 0x5a09504, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightController();
 
 protected:
@@ -98,7 +98,7 @@ public:
   MenuPlayerController(MenuPlayerController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };
 
   /// @brief Field _leftController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftController;

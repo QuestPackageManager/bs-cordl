@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::TwoModifiersComposite_ModifiersOrder const Unordered;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -129,21 +129,21 @@ public:
 
   __declspec(property(get = get_valueType)) ::System::Type* valueType;
 
-  /// @brief Method EvaluateMagnitude, addr 0x63ca354, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6506f74, size 0x40, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x63ca4f0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6507110, size 0xb4, virtual true, abstract: false, final false
   inline void FinishSetup(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifiersArePressed, addr 0x63ca394, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ModifiersArePressed, addr 0x6506fb4, size 0xbc, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::TwoModifiersComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x63ca450, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6507070, size 0xa0, virtual true, abstract: false, final false
   inline void ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject, addr 0x63ca5a4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x65071c4, size 0x64, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_binding() const;
@@ -194,13 +194,13 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x63ca608, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6507228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x63ca34c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x6506f6c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_valueType, addr 0x63ca344, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x6506f64, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
 protected:
@@ -218,7 +218,7 @@ public:
   TwoModifiersComposite(TwoModifiersComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9188 };
 
   /// @brief Field modifier1, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier1;

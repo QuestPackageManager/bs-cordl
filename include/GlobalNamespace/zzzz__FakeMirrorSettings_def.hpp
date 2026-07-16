@@ -59,16 +59,16 @@ public:
 
   static inline ::GlobalNamespace::FakeMirrorSettings* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5e0861c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f40380, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x5e08620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5f40384, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetGlobalParameters, addr 0x5e0846c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalParameters, addr 0x5f401d0, size 0x1b0, virtual false, abstract: false, final false
   inline void SetGlobalParameters();
 
-  /// @brief Method Start, addr 0x5e08468, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5f401cc, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__fakeMirrorTransparency() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexDistortionZposMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x5e08624, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f40388, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fakeMirrorTransparencyId();
@@ -120,7 +120,7 @@ public:
 
   static inline int32_t getStaticF__vertexDistortionZposMultiplierId();
 
-  /// @brief Method get_fakeMirrorTransparency, addr 0x5e08458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorTransparency, addr 0x5f401bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fakeMirrorTransparency();
 
   static inline void setStaticF__fakeMirrorTransparencyId(int32_t value);
@@ -133,7 +133,7 @@ public:
 
   static inline void setStaticF__vertexDistortionZposMultiplierId(int32_t value);
 
-  /// @brief Method set_fakeMirrorTransparency, addr 0x5e08460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fakeMirrorTransparency, addr 0x5f401c4, size 0x8, virtual false, abstract: false, final false
   inline void set_fakeMirrorTransparency(float_t value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   FakeMirrorSettings(FakeMirrorSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20877 };
 
   /// @brief Field _fakeMirrorTransparency, offset: 0x20, size: 0x4, def value: None
   float_t ____fakeMirrorTransparency;

@@ -28,18 +28,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualTreeWorldSpaceHierarchyFlagsUpdater : public ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater {
 public:
   // Declarations
-  /// @brief Method GetParentMustDirtyFlags, addr 0x6b76e4c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetParentMustDirtyFlags, addr 0x6ccad04, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x6b76d14, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6ccabcc, size 0x138, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x6b76e80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6ccad38, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x6b76e84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccad3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

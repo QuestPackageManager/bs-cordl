@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeBakingOverride::*)()>(&::GlobalNamespace::ReflectionProbeBakingOverride::UpdateForProbeBaking)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x57c4018;
+  constexpr static std::size_t addrs = 0x58e2cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeBakingOverride*>(), { "UpdateForProbeBaking", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeBakingOverride::*)()>(&::GlobalNamespace::ReflectionProbeBakingOverride::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57c4104;
+  constexpr static std::size_t addrs = 0x58e2da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeBakingOverride*>(), { ".ctor", {}, {} })));

@@ -81,35 +81,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Begin, addr 0x670d9f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x684c5a8, size 0x70, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method CreateDrawingSettings, addr 0x670d2a4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x684be5c, size 0x160, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::UnityEngine::Rendering::DrawingSettings drawingSettings);
 
-  /// @brief Method CreateRendererList, addr 0x670dbf8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x684c7b0, size 0x10c, virtual false, abstract: false, final false
   inline void CreateRendererList(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                  ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                  ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock, ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
-  /// @brief Method CreateRendererList, addr 0x670dd04, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x684c8bc, size 0x124, virtual false, abstract: false, final false
   inline void CreateRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                  ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                  ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> rendererListHdl);
 
-  /// @brief Method Dispose, addr 0x670d2a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x684be58, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawWithRendererList, addr 0x670da60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DrawWithRendererList, addr 0x684c618, size 0xbc, virtual false, abstract: false, final false
   inline void DrawWithRendererList(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
-  /// @brief Method End, addr 0x670db1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x684c6d4, size 0x70, virtual false, abstract: false, final false
   inline void End(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method GetIndex, addr 0x670de28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIndex, addr 0x684c9e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetIndex();
 
-  /// @brief Method GetRenderStateBlock, addr 0x670d404, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetRenderStateBlock, addr 0x684bfbc, size 0x218, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderStateBlock GetRenderStateBlock(::UnityEngine::Rendering::RenderStateBlock renderStateBlock);
 
   static inline ::UnityEngine::Rendering::Universal::DebugRenderSetup* New_ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler, int32_t index,
@@ -133,16 +133,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x670d100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684bcb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler, int32_t index, ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
-  /// @brief Method get_LightingSettings, addr 0x670dbd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_LightingSettings, addr 0x684c78c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* get_LightingSettings();
 
-  /// @brief Method get_MaterialSettings, addr 0x670db8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_MaterialSettings, addr 0x684c744, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* get_MaterialSettings();
 
-  /// @brief Method get_RenderingSettings, addr 0x670dbb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_RenderingSettings, addr 0x684c768, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* get_RenderingSettings();
 
   /// @brief Convert to "::System::IDisposable"
@@ -163,7 +163,7 @@ public:
   DebugRenderSetup(DebugRenderSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12641 };
 
   /// @brief Field m_DebugHandler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugHandler* ___m_DebugHandler;

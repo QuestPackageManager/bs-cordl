@@ -2,6 +2,7 @@
 // IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/IXOCBeatGamesUserUpsertData.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__IXOCBeatGamesUserUpsertData_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__ISOCountryCode_def.hpp"
+#include "BeatSaber/Main/GraphQL/Enums/zzzz__TimezoneIDEnum_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLInputObject_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData.set_ClientMutationId
@@ -46,6 +47,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData.set_TimezoneId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData::*)(
+    ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum>)>(&::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData::set_TimezoneId)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*>(),
+                                                                                          { ::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*>(), 3 }));
+    return ___internal_method;
+  }
+};
 inline void BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData::set_ClientMutationId(::StringW value) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*>(), 0 })));
@@ -59,6 +74,11 @@ inline void BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData::s
 inline void BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData::set_Locale(::StringW value) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData::set_TimezoneId(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum> value) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"

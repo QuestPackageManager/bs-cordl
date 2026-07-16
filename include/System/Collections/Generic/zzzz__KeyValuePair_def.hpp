@@ -23,7 +23,7 @@ namespace System::Collections::Generic {
 class CORDL_TYPE KeyValuePair : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PairToString, addr 0x5ab7740, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PairToString, addr 0x5bf1418, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW PairToString(::System::Object* key, ::System::Object* value);
 
 protected:

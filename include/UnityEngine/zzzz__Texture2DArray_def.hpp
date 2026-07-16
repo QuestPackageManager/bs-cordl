@@ -47,17 +47,17 @@ public:
   // Declarations
   __declspec(property(get = get_isReadable)) bool isReadable;
 
-  /// @brief Method Internal_Create, addr 0x696b09c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6abe498, size 0x74, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, bool ignoreMipmapLimit,
                                      ::StringW mipmapLimitGroupName);
 
-  /// @brief Method Internal_CreateImpl, addr 0x696ae54, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x6abe250, size 0x1a0, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, bool ignoreMipmapLimit,
                                          ::StringW mipmapLimitGroupName);
 
-  /// @brief Method Internal_CreateImpl_Injected, addr 0x696aff4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl_Injected, addr 0x6abe3f0, size 0xa8, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl_Injected(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                   ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, bool ignoreMipmapLimit,
                                                   ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> mipmapLimitGroupName);
@@ -96,63 +96,63 @@ public:
   static inline ::UnityEngine::Texture2DArray* New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear,
                                                         bool createUninitialized, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor);
 
-  /// @brief Method ValidateFormat, addr 0x696b1ec, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x6abe5e8, size 0x15c, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t width, int32_t height);
 
-  /// @brief Method ValidateFormat, addr 0x696b110, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x6abe50c, size 0xdc, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x696b6e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x6abeae0, size 0x54, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x696b348, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abe744, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x696b478, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abe874, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x696b530, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abe92c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor);
 
-  /// @brief Method .ctor, addr 0x696b3c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abe7c0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x696b514, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abe910, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x696b5cc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abe9c8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor);
 
-  /// @brief Method .ctor, addr 0x696bad8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abeed4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x696ba10, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abee0c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
 
-  /// @brief Method .ctor, addr 0x696b93c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abed38, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized);
 
-  /// @brief Method .ctor, addr 0x696b91c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abed18, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method .ctor, addr 0x696b900, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abecfc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized);
 
-  /// @brief Method .ctor, addr 0x696b738, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6abeb34, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized,
                     ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor);
 
-  /// @brief Method get_allSlices, addr 0x696ad70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allSlices, addr 0x6abe16c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_allSlices();
 
-  /// @brief Method get_isReadable, addr 0x696ad98, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x6abe194, size 0x80, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
-  /// @brief Method get_isReadable_Injected, addr 0x696ae18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isReadable_Injected, addr 0x6abe214, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isReadable_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -170,7 +170,7 @@ public:
   Texture2DArray(Texture2DArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

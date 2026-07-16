@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::FrameTimingManager::CaptureFrameTimings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6930c34;
+  constexpr static std::size_t addrs = 0x6a83ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::FrameTimingManager*>(), { "CaptureFrameTimings", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, ::ArrayW<::UnityEngine::FrameTiming>)>(&::UnityEngine::FrameTimingManager::GetLatestTimings)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6930c5c;
+  constexpr static std::size_t addrs = 0x6a83ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::FrameTimingManager::GetLatestTimings_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6930d30;
+  constexpr static std::size_t addrs = 0x6a83fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

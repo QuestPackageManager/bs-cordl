@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::STAThreadAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b22b6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5c844, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

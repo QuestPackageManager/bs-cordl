@@ -29,7 +29,7 @@ public:
   constexpr VREvent_Process_t(uint32_t pid, uint32_t oldPid, bool bForced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8460 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

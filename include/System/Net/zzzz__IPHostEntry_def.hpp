@@ -69,22 +69,22 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method .ctor, addr 0x62cc27c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6408318, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressList, addr 0x62cc26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x6408308, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*> get_AddressList();
 
-  /// @brief Method get_HostName, addr 0x62cc254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x64082f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_AddressList, addr 0x62cc274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x6408310, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*> value);
 
-  /// @brief Method set_Aliases, addr 0x62cc264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x6408300, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW> value);
 
-  /// @brief Method set_HostName, addr 0x62cc25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x64082f8, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   IPHostEntry(IPHostEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11468 };
 
   /// @brief Field hostName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___hostName;

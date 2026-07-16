@@ -55,10 +55,10 @@ public:
   /// @brief Field reusableVerts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x58417e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x5979458, size 0xbc, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x584189c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x5979514, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
   /// @brief Method CreateSliderMeshInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -72,7 +72,7 @@ public:
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58417d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x597944c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method .ctor, addr 0x5841a78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59796f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x58417cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x5979444, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -132,7 +132,7 @@ public:
   SliderMeshConstructor(SliderMeshConstructor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5733 };
 
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;

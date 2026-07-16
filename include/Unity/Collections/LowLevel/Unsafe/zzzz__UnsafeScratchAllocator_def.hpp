@@ -23,13 +23,13 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void* Allocate(int32_t count);
 
-  /// @brief Method Allocate, addr 0x638cc98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x64c98b8, size 0x3c, virtual false, abstract: false, final false
   inline void* Allocate(int32_t sizeInBytes, int32_t alignmentInBytes);
 
-  /// @brief Method CheckAllocationDoesNotExceedCapacity, addr 0x638cbcc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CheckAllocationDoesNotExceedCapacity, addr 0x64c97ec, size 0xcc, virtual false, abstract: false, final false
   inline void CheckAllocationDoesNotExceedCapacity(uint64_t requestedSize);
 
-  /// @brief Method .ctor, addr 0x638cbc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c97e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t capacityInBytes);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr UnsafeScratchAllocator(void* m_Pointer, int32_t m_LengthInBytes, int32_t m_CapacityInBytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15785 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

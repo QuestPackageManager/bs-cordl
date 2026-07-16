@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a5ec4c;
+  constexpr static std::size_t addrs = 0x6bb2728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, int32_t, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode)>(&::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6a5ec58;
+  constexpr static std::size_t addrs = 0x6bb2734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode)>(
     &::UnityEngine::ScreenCapture::CaptureScreenshot_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a5ed94;
+  constexpr static std::size_t addrs = 0x6bb2870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

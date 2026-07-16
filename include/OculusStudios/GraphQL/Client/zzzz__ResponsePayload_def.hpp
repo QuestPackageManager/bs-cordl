@@ -64,25 +64,25 @@ public:
 
   constexpr void __cordl_internal_set__errors_k__BackingField(::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* value);
 
-  /// @brief Method .ctor, addr 0x5de8a0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f20cc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x5de89fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x5f20cb4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JRaw* get_data();
 
-  /// @brief Method get_error, addr 0x5de89dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_error, addr 0x5f20c94, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::GraphQLError* get_error();
 
-  /// @brief Method get_errors, addr 0x5de89ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_errors, addr 0x5f20ca4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* get_errors();
 
-  /// @brief Method set_data, addr 0x5de8a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_data, addr 0x5f20cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_data(::Newtonsoft::Json::Linq::JRaw* value);
 
-  /// @brief Method set_error, addr 0x5de89e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_error, addr 0x5f20c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_error(::OculusStudios::GraphQL::Client::GraphQLError* value);
 
-  /// @brief Method set_errors, addr 0x5de89f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_errors, addr 0x5f20cac, size 0x8, virtual false, abstract: false, final false
   inline void set_errors(::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* value);
 
 protected:
@@ -100,7 +100,7 @@ public:
   ResponsePayload(ResponsePayload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20375 };
 
   /// @brief Field <error>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLError* ____error_k__BackingField;

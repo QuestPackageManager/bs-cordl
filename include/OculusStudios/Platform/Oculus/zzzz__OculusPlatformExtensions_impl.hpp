@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> (*)(::Oculus::Platform::Request*)>(
     &::OculusStudios::Platform::Oculus::OculusPlatformExtensions::GetAwaiter)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5df853c;
+  constexpr static std::size_t addrs = 0x5f307f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -71,7 +71,7 @@ public:
   Listeners_1_Action_4(Listeners_1_Action_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,7 +109,7 @@ public:
   Listeners_1_Func_2(Listeners_1_Func_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -204,7 +204,7 @@ public:
   Listeners_1(Listeners_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13833 };
 
   /// @brief Field _listeners, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TElem>* ____listeners;

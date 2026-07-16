@@ -120,21 +120,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58f8f48, size 0x524, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a3264c, size 0x524, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58f9508, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a32c0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58f9510, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a32c14, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58f9548, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a32c4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58f8e54, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5a32558, size 0xf4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -194,13 +194,13 @@ public:
   constexpr void __cordl_internal_set__task_5__4(
       ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> value);
 
-  /// @brief Method <>m__Finally1, addr 0x58f94b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5a32bb8, size 0x54, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x58f946c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x5a32b70, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x58f8c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3236c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -227,7 +227,7 @@ public:
   RoomMeshController__LoadRoomMesh_d__6(RoomMeshController__LoadRoomMesh_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21309 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -315,21 +315,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58f9554, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a32c58, size 0x2ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58f9840, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a32f44, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58f9848, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a32f4c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58f9880, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a32f84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58f9550, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5a32c54, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -362,7 +362,7 @@ public:
 
   constexpr void __cordl_internal_set__timeout_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x58f8bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a322b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -389,7 +389,7 @@ public:
   RoomMeshController__Start_d__4(RoomMeshController__Start_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21310 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -451,21 +451,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58f988c, size 0x460, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a32f90, size 0x460, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58f9cec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a333f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58f9cf4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a333f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58f9d2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a33430, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58f9888, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5a32f8c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -486,7 +486,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::Meta::XR::BuildingBlocks::RoomMeshController> value);
 
-  /// @brief Method .ctor, addr 0x58f8c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a32310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -513,7 +513,7 @@ public:
   RoomMeshController__UpdateVolume_d__5(RoomMeshController__UpdateVolume_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21311 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -558,21 +558,21 @@ public:
   /// @brief Field _roomMeshEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__roomMeshEvent, put = __cordl_internal_set__roomMeshEvent)) ::UnityW<::Meta::XR::BuildingBlocks::RoomMeshEvent> _roomMeshEvent;
 
-  /// @brief Method Awake, addr 0x58f8ab8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a321bc, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InstantiateRoomMesh, addr 0x58f8c70, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateRoomMesh, addr 0x5a32374, size 0x1e0, virtual false, abstract: false, final false
   inline void InstantiateRoomMesh(::GlobalNamespace::OVRAnchor anchor, ::UnityEngine::GameObject* prefab);
 
-  /// @brief Method LoadRoomMesh, addr 0x58f8c14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadRoomMesh, addr 0x5a32318, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadRoomMesh();
 
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController* New_ctor();
 
-  /// @brief Method Start, addr 0x58f8b5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a32260, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method UpdateVolume, addr 0x58f8bb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UpdateVolume, addr 0x5a322bc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateVolume();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__meshPrefab() const;
@@ -593,7 +593,7 @@ public:
 
   constexpr void __cordl_internal_set__roomMeshEvent(::UnityW<::Meta::XR::BuildingBlocks::RoomMeshEvent> value);
 
-  /// @brief Method .ctor, addr 0x58f8e50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a32554, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -611,7 +611,7 @@ public:
   RoomMeshController(RoomMeshController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21312 };
 
   /// @brief Field _meshPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____meshPrefab;

@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_minLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x69819c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad4d60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x69819d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad4d70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
 protected:
@@ -63,7 +63,7 @@ public:
   TextAreaAttribute(TextAreaAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10257 };
 
   /// @brief Field minLines, offset: 0x18, size: 0x4, def value: None
   int32_t ___minLines;

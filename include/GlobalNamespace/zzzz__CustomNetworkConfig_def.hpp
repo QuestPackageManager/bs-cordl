@@ -193,55 +193,55 @@ public:
 
   constexpr void __cordl_internal_set__useLocalServer_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3210158, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a7a58, size 0x578, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
-  /// @brief Method get_customLocation, addr 0x3210140, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_customLocation, addr 0x32a7a40, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_customLocation();
 
-  /// @brief Method get_discoveryPort, addr 0x321008c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_discoveryPort, addr 0x32a798c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_forceGameLift, addr 0x3210130, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_forceGameLift, addr 0x32a7a30, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_graphAccessToken, addr 0x3210120, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphAccessToken, addr 0x32a7a20, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_graphAppId, addr 0x3210128, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphAppId, addr 0x32a7a28, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_graphAppId();
 
-  /// @brief Method get_graphQLUrl, addr 0x32100d0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_graphQLUrl, addr 0x32a79d0, size 0x50, virtual true, abstract: false, final true
   inline ::StringW get_graphQLUrl();
 
-  /// @brief Method get_graphUrl, addr 0x32100c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphUrl, addr 0x32a79c8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_localServerPort, addr 0x3210150, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_localServerPort, addr 0x32a7a50, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_localServerPort();
 
-  /// @brief Method get_masterServerPort, addr 0x32100a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_masterServerPort, addr 0x32a79a4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_masterServerPort();
 
-  /// @brief Method get_maxPartySize, addr 0x3210084, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_maxPartySize, addr 0x32a7984, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_multiplayerPort, addr 0x321009c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerPort, addr 0x32a799c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_multiplayerStatusUrl, addr 0x32100ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerStatusUrl, addr 0x32a79ac, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_partyPort, addr 0x3210094, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyPort, addr 0x32a7994, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_quickPlaySetupUrl, addr 0x32100b4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0x32a79b4, size 0x14, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_serviceEnvironment, addr 0x3210138, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_serviceEnvironment, addr 0x32a7a38, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
-  /// @brief Method get_useLocalServer, addr 0x3210148, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useLocalServer, addr 0x32a7a48, size 0x8, virtual true, abstract: false, final true
   inline bool get_useLocalServer();
 
   /// @brief Convert to "::GlobalNamespace::INetworkConfig"
@@ -262,7 +262,7 @@ public:
   CustomNetworkConfig(CustomNetworkConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18820 };
 
   /// @brief Field <maxPartySize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____maxPartySize_k__BackingField;

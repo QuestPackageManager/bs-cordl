@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestCache(::System::Net::Cache::RequestCache* value);
 
-  /// @brief Method .ctor, addr 0x6217244, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6352340, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache, addr 0x6217288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x6352384, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Policy, addr 0x6217298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x6352394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
-  /// @brief Method get_Validator, addr 0x6217290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x635238c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
 protected:
@@ -91,7 +91,7 @@ public:
   RequestCacheBinding(RequestCacheBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11717 };
 
   /// @brief Field m_RequestCache, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Cache::RequestCache* ___m_RequestCache;

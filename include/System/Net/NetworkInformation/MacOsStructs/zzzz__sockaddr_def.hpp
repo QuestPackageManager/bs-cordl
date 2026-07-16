@@ -28,7 +28,7 @@ public:
   constexpr sockaddr(uint8_t sa_len, uint8_t sa_family) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

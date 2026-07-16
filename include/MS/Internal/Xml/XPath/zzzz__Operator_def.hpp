@@ -123,7 +123,7 @@ public:
   static ::MS::Internal::Xml::XPath::Operator_Op const UNION;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9842 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,15 +184,15 @@ public:
 
   constexpr void __cordl_internal_set__opnd2(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x6136544, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6271640, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Operator_Op op, ::MS::Internal::Xml::XPath::AstNode* opnd1, ::MS::Internal::Xml::XPath::AstNode* opnd2);
 
   static inline ::ArrayW<::MS::Internal::Xml::XPath::Operator_Op> getStaticF_s_invertOp();
 
-  /// @brief Method get_ReturnType, addr 0x6136558, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x6271654, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x6136550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x627164c, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
   static inline void setStaticF_s_invertOp(::ArrayW<::MS::Internal::Xml::XPath::Operator_Op> value);
@@ -212,7 +212,7 @@ public:
   Operator(Operator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9843 };
 
   /// @brief Field _opType, offset: 0x10, size: 0x4, def value: None
   ::MS::Internal::Xml::XPath::Operator_Op ____opType;

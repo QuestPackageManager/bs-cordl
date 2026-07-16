@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Categorization::CategoryInfoAttribute::*)(int32_t)>(&::UnityEngine::Categorization::CategoryInfoAttribute::set_Order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a82c8;
+  constexpr static std::size_t addrs = 0x6afb9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Categorization::CategoryInfoAttribute::*)(::StringW)>(&::UnityEngine::Categorization::CategoryInfoAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a82d0;
+  constexpr static std::size_t addrs = 0x6afb9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Categorization::CategoryInfoAttribute::*)()>(&::UnityEngine::Categorization::CategoryInfoAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69a82d8;
+  constexpr static std::size_t addrs = 0x6afb9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Categorization::CategoryInfoAttribute*>(), { ".ctor", {}, {} })));

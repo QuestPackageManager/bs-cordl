@@ -131,33 +131,33 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x61eea48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6329b44, size 0x14, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close, addr 0x61eea18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6329b14, size 0x30, virtual false, abstract: false, final false
   inline void Close(bool force);
 
-  /// @brief Method Close, addr 0x61eea5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6329b58, size 0xb8, virtual false, abstract: false, final false
   inline void Close(::ArrayW<uint8_t> responseEntity, bool willBlock);
 
-  /// @brief Method CookieToClientString, addr 0x61ef514, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method CookieToClientString, addr 0x632a610, size 0x280, virtual false, abstract: false, final false
   static inline ::StringW CookieToClientString(::System::Net::Cookie* cookie);
 
-  /// @brief Method FormatHeaders, addr 0x61ef794, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method FormatHeaders, addr 0x632a890, size 0x24c, virtual false, abstract: false, final false
   static inline ::StringW FormatHeaders(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method IsToken, addr 0x61efac8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsToken, addr 0x632abc4, size 0xf4, virtual false, abstract: false, final false
   static inline bool IsToken(::StringW value);
 
   static inline ::System::Net::HttpListenerResponse* New_ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method QuotedString, addr 0x61ef9e0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method QuotedString, addr 0x632aadc, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW QuotedString(::System::Net::Cookie* cookie, ::StringW value);
 
-  /// @brief Method SendHeaders, addr 0x61eeb14, size 0xa00, virtual false, abstract: false, final false
+  /// @brief Method SendHeaders, addr 0x6329c10, size 0xa00, virtual false, abstract: false, final false
   inline void SendHeaders(bool closing, ::System::IO::MemoryStream* ms);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x61eea10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6329b0c, size 0x8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr bool const& __cordl_internal_get_HeadersSent() const;
@@ -268,24 +268,24 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x61ee4c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63295c4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context);
 
   static inline ::StringW getStaticF_tspecials();
 
-  /// @brief Method get_ContentEncoding, addr 0x61ee5c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncoding, addr 0x63296c4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_ContentEncoding();
 
-  /// @brief Method get_ForceCloseChunked, addr 0x61ee5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceCloseChunked, addr 0x63296bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceCloseChunked();
 
-  /// @brief Method get_Headers, addr 0x61ee7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x63298d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_OutputStream, addr 0x61ee7dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_OutputStream, addr 0x63298d8, size 0x38, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OutputStream();
 
-  /// @brief Method get_SendChunked, addr 0x61ee814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SendChunked, addr 0x6329910, size 0x8, virtual false, abstract: false, final false
   inline bool get_SendChunked();
 
   /// @brief Convert to "::System::IDisposable"
@@ -293,16 +293,16 @@ public:
 
   static inline void setStaticF_tspecials(::StringW value);
 
-  /// @brief Method set_ContentLength64, addr 0x61ee5e8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method set_ContentLength64, addr 0x63296e4, size 0x120, virtual false, abstract: false, final false
   inline void set_ContentLength64(int64_t value);
 
-  /// @brief Method set_ContentType, addr 0x61ee708, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x6329804, size 0xcc, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
-  /// @brief Method set_SendChunked, addr 0x61ee81c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_SendChunked, addr 0x6329918, size 0xd0, virtual false, abstract: false, final false
   inline void set_SendChunked(bool value);
 
-  /// @brief Method set_StatusCode, addr 0x61ee8ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x63299e8, size 0x124, virtual false, abstract: false, final false
   inline void set_StatusCode(int32_t value);
 
 protected:
@@ -320,7 +320,7 @@ public:
   HttpListenerResponse(HttpListenerResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11573 };
 
   /// @brief Field disposed, offset: 0x10, size: 0x1, def value: None
   bool ___disposed;

@@ -3,9 +3,25 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(BeatmapEditorSceneSetupData)
+namespace GlobalNamespace {
+struct BeatmapCharacteristic;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapEditorSceneSetupData;
@@ -13,45 +29,58 @@ class BeatmapEditorSceneSetupData;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapEditorSceneSetupData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
-// Dependencies SceneSetupData
+// Dependencies BeatmapCharacteristic, BeatmapDifficulty, SceneSetupData, System.Nullable`1<T>, System.ValueTuple`2<T1, T2>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapEditorSceneSetupData
 class CORDL_TYPE BeatmapEditorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field _levelAssetPath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelAssetPath, put = __cordl_internal_set__levelAssetPath)) ::StringW _levelAssetPath;
+  /// @brief Field goStraightToEditor, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_goStraightToEditor, put = __cordl_internal_set_goStraightToEditor)) bool goStraightToEditor;
 
-  /// @brief Field _levelDirPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelDirPath, put = __cordl_internal_set__levelDirPath)) ::StringW _levelDirPath;
+  /// @brief Field ignoreTempFolder, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_ignoreTempFolder, put = __cordl_internal_set_ignoreTempFolder)) bool ignoreTempFolder;
 
-  __declspec(property(get = get_levelAssetPath)) ::StringW levelAssetPath;
+  /// @brief Field projectPath, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_projectPath, put = __cordl_internal_set_projectPath)) ::StringW projectPath;
 
-  __declspec(property(get = get_levelDirPath)) ::StringW levelDirPath;
+  /// @brief Field startLevel, offset 0x24, size 0xc
+  __declspec(property(get = __cordl_internal_get_startLevel,
+                      put = __cordl_internal_set_startLevel)) ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>
+      startLevel;
 
-  static inline ::GlobalNamespace::BeatmapEditorSceneSetupData* New_ctor(::StringW levelDirPath, ::StringW levelAssetPath);
+  static inline ::GlobalNamespace::BeatmapEditorSceneSetupData*
+  New_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+           ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
-  constexpr ::StringW const& __cordl_internal_get__levelAssetPath() const;
+  constexpr bool const& __cordl_internal_get_goStraightToEditor() const;
 
-  constexpr ::StringW& __cordl_internal_get__levelAssetPath();
+  constexpr bool& __cordl_internal_get_goStraightToEditor();
 
-  constexpr ::StringW const& __cordl_internal_get__levelDirPath() const;
+  constexpr bool const& __cordl_internal_get_ignoreTempFolder() const;
 
-  constexpr ::StringW& __cordl_internal_get__levelDirPath();
+  constexpr bool& __cordl_internal_get_ignoreTempFolder();
 
-  constexpr void __cordl_internal_set__levelAssetPath(::StringW value);
+  constexpr ::StringW const& __cordl_internal_get_projectPath() const;
 
-  constexpr void __cordl_internal_set__levelDirPath(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_projectPath();
 
-  /// @brief Method .ctor, addr 0x57ed3a0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
+  constexpr ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> const& __cordl_internal_get_startLevel() const;
 
-  /// @brief Method get_levelAssetPath, addr 0x57ed398, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelAssetPath();
+  constexpr ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>& __cordl_internal_get_startLevel();
 
-  /// @brief Method get_levelDirPath, addr 0x57ed390, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelDirPath();
+  constexpr void __cordl_internal_set_goStraightToEditor(bool value);
+
+  constexpr void __cordl_internal_set_ignoreTempFolder(bool value);
+
+  constexpr void __cordl_internal_set_projectPath(::StringW value);
+
+  constexpr void __cordl_internal_set_startLevel(::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> value);
+
+  /// @brief Method .ctor, addr 0x590b2dc, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+                    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
 protected:
   // Ctor Parameters []
@@ -68,21 +97,31 @@ public:
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6695 };
 
-  /// @brief Field _levelDirPath, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____levelDirPath;
+  /// @brief Field goStraightToEditor, offset: 0x10, size: 0x1, def value: None
+  bool ___goStraightToEditor;
 
-  /// @brief Field _levelAssetPath, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____levelAssetPath;
+  /// @brief Field projectPath, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___projectPath;
+
+  /// @brief Field ignoreTempFolder, offset: 0x20, size: 0x1, def value: None
+  bool ___ignoreTempFolder;
+
+  /// @brief Field startLevel, offset: 0x24, size: 0xc, def value: None
+  ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> ___startLevel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ____levelDirPath) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ___goStraightToEditor) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ____levelAssetPath) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ___projectPath) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatmapEditorSceneSetupData) == 0x20, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ___ignoreTempFolder) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ___startLevel) == 0x24, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::BeatmapEditorSceneSetupData) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -38,10 +38,10 @@ public:
   /// @brief Field Prop, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Prop, put = setStaticF_Prop)) ::Mono::Globalization::Unicode::CodePointIndexer* Prop;
 
-  /// @brief Method MapIdx, addr 0x5978240, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MapIdx, addr 0x5ab0bac, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t MapIdx(int32_t cp);
 
-  /// @brief Method PropIdx, addr 0x59781d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PropIdx, addr 0x5ab0b40, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t PropIdx(int32_t cp);
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Combining();

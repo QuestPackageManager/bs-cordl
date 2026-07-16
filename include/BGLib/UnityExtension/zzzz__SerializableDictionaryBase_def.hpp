@@ -47,7 +47,7 @@ public:
   // Declarations
   static inline ::BGLib::UnityExtension::SerializableDictionaryBase_Storage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x326c1c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328680, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   SerializableDictionaryBase_Storage(SerializableDictionaryBase_Storage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,7 +113,7 @@ public:
   SerializableDictionaryBase_Dictionary_2(SerializableDictionaryBase_Dictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +132,7 @@ public:
 
   static inline ::BGLib::UnityExtension::SerializableDictionaryBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x326c1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332867c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   SerializableDictionaryBase(SerializableDictionaryBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

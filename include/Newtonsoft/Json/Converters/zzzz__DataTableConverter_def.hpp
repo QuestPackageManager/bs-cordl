@@ -37,24 +37,24 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE DataTableConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x5c5e6a4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5d968cc, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* valueType);
 
-  /// @brief Method CreateRow, addr 0x5c5df80, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method CreateRow, addr 0x5d961a8, size 0x558, virtual false, abstract: false, final false
   static inline void CreateRow(::Newtonsoft::Json::JsonReader* reader, ::System::Data::DataTable* dt, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method GetColumnDataType, addr 0x5c5e4d8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetColumnDataType, addr 0x5d96700, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Type* GetColumnDataType(::Newtonsoft::Json::JsonReader* reader);
 
   static inline ::Newtonsoft::Json::Converters::DataTableConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5c5dca4, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d95ecc, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5c5d50c, size 0x798, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d95734, size 0x798, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5c5d1b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d953d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   DataTableConverter(DataTableConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

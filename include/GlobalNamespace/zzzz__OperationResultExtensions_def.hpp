@@ -22,13 +22,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsError, addr 0x5da3d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x5edbf8c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsSuccess, addr 0x5da3d58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x5edbf80, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsWarning, addr 0x5da3d6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWarning, addr 0x5edbf94, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
 protected:
@@ -46,7 +46,7 @@ public:
   OperationResultExtensions(OperationResultExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

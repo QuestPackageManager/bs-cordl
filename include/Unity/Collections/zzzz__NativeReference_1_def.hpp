@@ -68,7 +68,7 @@ public:
   constexpr NativeReference_1_ReadOnly(void* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15652 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -176,7 +176,7 @@ public:
   constexpr NativeReference_1(void* m_Data, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

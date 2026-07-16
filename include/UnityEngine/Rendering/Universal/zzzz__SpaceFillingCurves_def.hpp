@@ -23,16 +23,16 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE SpaceFillingCurves : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Compact1By1, addr 0x677a1cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Compact1By1, addr 0x68b8b48, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t Compact1By1(uint32_t x);
 
-  /// @brief Method DecodeMorton2D, addr 0x677a268, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DecodeMorton2D, addr 0x68b8be4, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 DecodeMorton2D(uint32_t code);
 
-  /// @brief Method EncodeMorton2D, addr 0x677a1f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EncodeMorton2D, addr 0x68b8b70, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t EncodeMorton2D(::Unity::Mathematics::uint2 coord);
 
-  /// @brief Method Part1By1, addr 0x677a1a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Part1By1, addr 0x68b8b24, size 0x24, virtual false, abstract: false, final false
   static inline uint32_t Part1By1(uint32_t x);
 
 protected:
@@ -50,7 +50,7 @@ public:
   SpaceFillingCurves(SpaceFillingCurves const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

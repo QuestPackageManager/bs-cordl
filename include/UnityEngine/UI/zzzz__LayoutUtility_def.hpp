@@ -67,31 +67,31 @@ public:
 
   static inline ::UnityEngine::UI::LayoutUtility___c* New_ctor();
 
-  /// @brief Method <GetFlexibleHeight>b__8_0, addr 0x6ca7cbc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetFlexibleHeight>b__8_0, addr 0x6dfbb74, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetFlexibleHeight_b__8_0(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetFlexibleWidth>b__5_0, addr 0x6ca7a2c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetFlexibleWidth>b__5_0, addr 0x6dfb8e4, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetFlexibleWidth_b__5_0(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetMinHeight>b__6_0, addr 0x6ca7ad0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetMinHeight>b__6_0, addr 0x6dfb988, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetMinHeight_b__6_0(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetMinWidth>b__3_0, addr 0x6ca7840, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetMinWidth>b__3_0, addr 0x6dfb6f8, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetMinWidth_b__3_0(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetPreferredHeight>b__7_0, addr 0x6ca7b74, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetPreferredHeight>b__7_0, addr 0x6dfba2c, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetPreferredHeight_b__7_0(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetPreferredHeight>b__7_1, addr 0x6ca7c18, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetPreferredHeight>b__7_1, addr 0x6dfbad0, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetPreferredHeight_b__7_1(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetPreferredWidth>b__4_0, addr 0x6ca78e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetPreferredWidth>b__4_0, addr 0x6dfb79c, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetPreferredWidth_b__4_0(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method <GetPreferredWidth>b__4_1, addr 0x6ca7988, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <GetPreferredWidth>b__4_1, addr 0x6dfb840, size 0xa4, virtual false, abstract: false, final false
   inline float_t _GetPreferredWidth_b__4_1(::UnityEngine::UI::ILayoutElement* e);
 
-  /// @brief Method .ctor, addr 0x6ca783c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dfb6f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::LayoutUtility___c* getStaticF___9();
@@ -145,7 +145,7 @@ public:
   LayoutUtility___c(LayoutUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,38 +162,38 @@ public:
   // Declarations
   using __c = ::UnityEngine::UI::LayoutUtility___c;
 
-  /// @brief Method GetFlexibleHeight, addr 0x6ca72e0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetFlexibleHeight, addr 0x6dfb198, size 0xf0, virtual false, abstract: false, final false
   static inline float_t GetFlexibleHeight(::UnityEngine::RectTransform* rect);
 
-  /// @brief Method GetFlexibleSize, addr 0x6ca4bc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetFlexibleSize, addr 0x6df8a7c, size 0xc, virtual false, abstract: false, final false
   static inline float_t GetFlexibleSize(::UnityEngine::RectTransform* rect, int32_t axis);
 
-  /// @brief Method GetFlexibleWidth, addr 0x6ca73d0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetFlexibleWidth, addr 0x6dfb288, size 0xf0, virtual false, abstract: false, final false
   static inline float_t GetFlexibleWidth(::UnityEngine::RectTransform* rect);
 
-  /// @brief Method GetLayoutProperty, addr 0x6ca74c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetLayoutProperty, addr 0x6dfb378, size 0x14, virtual false, abstract: false, final false
   static inline float_t GetLayoutProperty(::UnityEngine::RectTransform* rect, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* property, float_t defaultValue);
 
-  /// @brief Method GetLayoutProperty, addr 0x6ca74d4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetLayoutProperty, addr 0x6dfb38c, size 0x314, virtual false, abstract: false, final false
   static inline float_t GetLayoutProperty(::UnityEngine::RectTransform* rect, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* property, float_t defaultValue,
                                           ::by_ref<::UnityEngine::UI::ILayoutElement*> source);
 
-  /// @brief Method GetMinHeight, addr 0x6ca6dc8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetMinHeight, addr 0x6dfac80, size 0xf0, virtual false, abstract: false, final false
   static inline float_t GetMinHeight(::UnityEngine::RectTransform* rect);
 
-  /// @brief Method GetMinSize, addr 0x6ca2170, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMinSize, addr 0x6df6028, size 0xc, virtual false, abstract: false, final false
   static inline float_t GetMinSize(::UnityEngine::RectTransform* rect, int32_t axis);
 
-  /// @brief Method GetMinWidth, addr 0x6ca6eb8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetMinWidth, addr 0x6dfad70, size 0xf0, virtual false, abstract: false, final false
   static inline float_t GetMinWidth(::UnityEngine::RectTransform* rect);
 
-  /// @brief Method GetPreferredHeight, addr 0x6ca6fa8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredHeight, addr 0x6dfae60, size 0x19c, virtual false, abstract: false, final false
   static inline float_t GetPreferredHeight(::UnityEngine::RectTransform* rect);
 
-  /// @brief Method GetPreferredSize, addr 0x6ca217c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredSize, addr 0x6df6034, size 0xc, virtual false, abstract: false, final false
   static inline float_t GetPreferredSize(::UnityEngine::RectTransform* rect, int32_t axis);
 
-  /// @brief Method GetPreferredWidth, addr 0x6ca7144, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredWidth, addr 0x6dfaffc, size 0x19c, virtual false, abstract: false, final false
   static inline float_t GetPreferredWidth(::UnityEngine::RectTransform* rect);
 
 protected:
@@ -211,7 +211,7 @@ public:
   LayoutUtility(LayoutUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

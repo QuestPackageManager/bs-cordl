@@ -78,10 +78,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31f92f0, size 0x10a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x328df38, size 0x10a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31fa398, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x328efe0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -103,10 +103,10 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__3, ::StringW _mainData_5__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21990 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x148 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x140 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -120,19 +120,19 @@ public:
   /// @brief Field fileStorage, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
-  /// @brief Field <settings>5__2, offset: 0x30, size: 0xf8, def value: None
+  /// @brief Field <settings>5__2, offset: 0x30, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings _settings_5__2;
 
-  /// @brief Field <>u__1, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x120, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief Field <>u__2, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x128, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
-  /// @brief Field <>u__3, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field <>u__3, offset: 0x130, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__3;
 
-  /// @brief Field <mainData>5__3, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field <mainData>5__3, offset: 0x138, size: 0x8, def value: None
   ::StringW _mainData_5__3;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -148,15 +148,15 @@ static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, fileStora
 
 static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, _settings_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, __u__1) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, __u__1) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, __u__2) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, __u__2) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, __u__3) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, __u__3) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, _mainData_5__3) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, _mainData_5__3) == 0x138, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SettingsIO__LoadAsync_d__15) == 0x148, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SettingsIO__LoadAsync_d__15) == 0x140, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatSaber.Settings.Settings, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
@@ -169,10 +169,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31fa418, size 0x77c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x328f060, size 0x77c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31fab94, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x328f7dc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -192,10 +192,10 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21991 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x130 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -203,19 +203,19 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-  /// @brief Field settings, offset: 0x20, size: 0xf8, def value: None
+  /// @brief Field settings, offset: 0x20, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings settings;
 
-  /// @brief Field fileStorage, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field fileStorage, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
-  /// @brief Field <data>5__2, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field <data>5__2, offset: 0x118, size: 0x8, def value: None
   ::StringW _data_5__2;
 
-  /// @brief Field <>u__1, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x120, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief Field <>u__2, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x128, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -227,15 +227,15 @@ static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, __t__buil
 
 static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, settings) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, fileStorage) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, fileStorage) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, _data_5__2) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, _data_5__2) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, __u__1) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, __u__1) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, __u__2) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, __u__2) == 0x128, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SettingsIO__SaveAsync_d__14) == 0x138, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SettingsIO__SaveAsync_d__14) == 0x130, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
@@ -248,10 +248,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31fac00, size 0x1168, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x328f848, size 0x1168, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31fbd68, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32909b0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -269,7 +269,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21992 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -324,39 +324,39 @@ public:
   /// @brief Field _settingsPath, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__settingsPath, put = setStaticF__settingsPath)) ::StringW _settingsPath;
 
-  /// @brief Method Decode, addr 0x31f8eb4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x328dafc, size 0x12c, virtual false, abstract: false, final false
   static inline bool Decode(::by_ref<::BeatSaber::Settings::Settings> settings, ::StringW text);
 
-  /// @brief Method Encode, addr 0x31f90e8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x328dd30, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW Encode(::by_ref<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method Init, addr 0x31f85a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x328d1f0, size 0x78, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method Load, addr 0x31f889c, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x328d4e4, size 0x534, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::Settings Load(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
-  /// @brief Method LoadAsync, addr 0x31f87a8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x328d3f0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::Settings::Settings>* LoadAsync(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
-  /// @brief Method SaveAsync, addr 0x31f86d4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x328d31c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::Settings::Settings settings);
 
-  /// @brief Method WipeAsync, addr 0x31f8620, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WipeAsync, addr 0x328d268, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WipeAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
   static inline ::System::Threading::SemaphoreSlim* getStaticF__lock();
 
   static inline ::StringW getStaticF__settingsPath();
 
-  /// @brief Method get_SettingsPath, addr 0x31f8358, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_SettingsPath, addr 0x328cfa0, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW get_SettingsPath();
 
   static inline void setStaticF__lock(::System::Threading::SemaphoreSlim* value);
 
   static inline void setStaticF__settingsPath(::StringW value);
 
-  /// @brief Method set_SettingsPath, addr 0x31f846c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method set_SettingsPath, addr 0x328d0b4, size 0x13c, virtual false, abstract: false, final false
   static inline void set_SettingsPath(::StringW value);
 
 protected:
@@ -374,7 +374,7 @@ public:
   SettingsIO(SettingsIO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21993 };
 
   /// @brief Field kGraphicsSettingsPath offset 0xffffffff size 0x8
   static constexpr ::ConstString kGraphicsSettingsPath{ u"GraphicsSettings.json" };

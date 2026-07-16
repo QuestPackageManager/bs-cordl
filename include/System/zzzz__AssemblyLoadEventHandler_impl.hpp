@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AssemblyLoadEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::AssemblyLoadEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5a72f14;
+  constexpr static std::size_t addrs = 0x5bacbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AssemblyLoadEventHandler::*)(::System::Object*, ::System::AssemblyLoadEventArgs*)>(
     &::System::AssemblyLoadEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a7305c;
+  constexpr static std::size_t addrs = 0x5bacd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

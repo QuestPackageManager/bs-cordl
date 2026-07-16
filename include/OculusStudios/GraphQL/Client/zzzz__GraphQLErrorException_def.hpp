@@ -59,25 +59,25 @@ public:
 
   constexpr void __cordl_internal_set__StackTrace_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5de7604, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1f82c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Class, addr 0x5de75d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Class, addr 0x5f1f7fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Class();
 
-  /// @brief Method get_Message, addr 0x5de75e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5f1f80c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_StackTrace, addr 0x5de75f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x5f1f81c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_StackTrace();
 
-  /// @brief Method set_Class, addr 0x5de75dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Class, addr 0x5f1f804, size 0x8, virtual false, abstract: false, final false
   inline void set_Class(::StringW value);
 
-  /// @brief Method set_Message, addr 0x5de75ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x5f1f814, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
-  /// @brief Method set_StackTrace, addr 0x5de75fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StackTrace, addr 0x5f1f824, size 0x8, virtual false, abstract: false, final false
   inline void set_StackTrace(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   GraphQLErrorException(GraphQLErrorException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20352 };
 
   /// @brief Field <Class>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Class_k__BackingField;

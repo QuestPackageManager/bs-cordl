@@ -48,18 +48,18 @@ namespace HMUI {
 class CORDL_TYPE ViewControllerBase_DidActivateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x573c3f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5883614, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x573c488, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x58836a4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x573c3e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5883600, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::HMUI::ViewControllerBase_DidActivateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x573c378, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5883594, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ViewControllerBase_DidActivateDelegate(ViewControllerBase_DidActivateDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -92,18 +92,18 @@ namespace HMUI {
 class CORDL_TYPE ViewControllerBase_DidDeactivateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x573c514, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5883730, size 0x74, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool removedFromHierarchy, bool screenSystemDisabling, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x573c588, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x58837a4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x573c500, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x588371c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::HMUI::ViewControllerBase_DidDeactivateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x573c494, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58836b0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -121,7 +121,7 @@ public:
   ViewControllerBase_DidDeactivateDelegate(ViewControllerBase_DidDeactivateDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,10 +146,10 @@ public:
   /// @brief Field didDeactivateEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_didDeactivateEvent, put = __cordl_internal_set_didDeactivateEvent)) ::HMUI::ViewControllerBase_DidDeactivateDelegate* didDeactivateEvent;
 
-  /// @brief Method CallDidActivate, addr 0x573c328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CallDidActivate, addr 0x5883544, size 0x28, virtual false, abstract: false, final false
   inline void CallDidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method CallDidDeactivate, addr 0x573c350, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CallDidDeactivate, addr 0x588356c, size 0x24, virtual false, abstract: false, final false
   inline void CallDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::HMUI::ViewControllerBase* New_ctor();
@@ -166,19 +166,19 @@ public:
 
   constexpr void __cordl_internal_set_didDeactivateEvent(::HMUI::ViewControllerBase_DidDeactivateDelegate* value);
 
-  /// @brief Method .ctor, addr 0x573c374, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5883590, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didActivateEvent, addr 0x573c078, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didActivateEvent, addr 0x5883294, size 0xac, virtual false, abstract: false, final false
   inline void add_didActivateEvent(::HMUI::ViewControllerBase_DidActivateDelegate* value);
 
-  /// @brief Method add_didDeactivateEvent, addr 0x573c1d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didDeactivateEvent, addr 0x58833ec, size 0xac, virtual false, abstract: false, final false
   inline void add_didDeactivateEvent(::HMUI::ViewControllerBase_DidDeactivateDelegate* value);
 
-  /// @brief Method remove_didActivateEvent, addr 0x573c124, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didActivateEvent, addr 0x5883340, size 0xac, virtual false, abstract: false, final false
   inline void remove_didActivateEvent(::HMUI::ViewControllerBase_DidActivateDelegate* value);
 
-  /// @brief Method remove_didDeactivateEvent, addr 0x573c27c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didDeactivateEvent, addr 0x5883498, size 0xac, virtual false, abstract: false, final false
   inline void remove_didDeactivateEvent(::HMUI::ViewControllerBase_DidDeactivateDelegate* value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   ViewControllerBase(ViewControllerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19170 };
 
   /// @brief Field didActivateEvent, offset: 0x20, size: 0x8, def value: None
   ::HMUI::ViewControllerBase_DidActivateDelegate* ___didActivateEvent;

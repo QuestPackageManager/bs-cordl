@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>, ::StringW)>(
     &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::AddNBC)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x638da20;
+  constexpr static std::size_t addrs = 0x64ca640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>)>(
     &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToBytesNBC)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x638dab0;
+  constexpr static std::size_t addrs = 0x64ca6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>, ::by_ref<::StringW>)>(
     &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ReadNextNBC)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x638db64;
+  constexpr static std::size_t addrs = 0x64ca784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

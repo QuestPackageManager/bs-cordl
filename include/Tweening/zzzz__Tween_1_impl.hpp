@@ -4,6 +4,7 @@
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 template <typename T> constexpr T& Tweening::Tween_1<T>::__cordl_internal_get_fromValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromValue;
@@ -68,6 +69,15 @@ template <typename T> inline void Tweening::Tween_1<T>::_ctor(T fromValue, T toV
                                                                                        ::i2c::type_of<::GlobalNamespace::EaseType>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fromValue, toValue, onUpdate, duration, easeType, delay);
 }
+template <typename T> inline void Tweening::Tween_1<T>::_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve, float_t delay) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Tweening::Tween_1<T>*>(), { ".ctor",
+                                                                                     {},
+                                                                                     { ::i2c::type_of<T>(), ::i2c::type_of<T>(), ::i2c::type_of<::System::Action_1<T>*>(), ::i2c::type_of<float_t>(),
+                                                                                       ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fromValue, toValue, onUpdate, duration, animationCurve, delay);
+}
 template <typename T> inline void Tweening::Tween_1<T>::Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -99,6 +109,10 @@ template <typename T> inline ::Tweening::Tween_1<T>* Tweening::Tween_1<T>::New_c
 template <typename T>
 inline ::Tweening::Tween_1<T>* Tweening::Tween_1<T>::New_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Tweening::Tween_1<T>*>(fromValue, toValue, onUpdate, duration, easeType, delay));
+}
+template <typename T>
+inline ::Tweening::Tween_1<T>* Tweening::Tween_1<T>::New_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve, float_t delay) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Tweening::Tween_1<T>*>(fromValue, toValue, onUpdate, duration, animationCurve, delay));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Tweening::Tween_1<T>::Tween_1() {}

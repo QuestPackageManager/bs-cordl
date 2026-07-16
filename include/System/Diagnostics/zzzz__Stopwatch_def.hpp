@@ -46,24 +46,24 @@ public:
   /// @brief Field started, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) int64_t started;
 
-  /// @brief Method GetTimestamp, addr 0x6256b04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimestamp, addr 0x6392ba0, size 0x4, virtual false, abstract: false, final false
   static inline int64_t GetTimestamp();
 
   static inline ::System::Diagnostics::Stopwatch* New_ctor();
 
-  /// @brief Method Reset, addr 0x625ee04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x639aea0, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Restart, addr 0x625ee8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x639af28, size 0x64, virtual false, abstract: false, final false
   inline void Restart();
 
-  /// @brief Method Start, addr 0x625eabc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x639ab58, size 0x6c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartNew, addr 0x625ea5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x639aaf8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Stopwatch* StartNew();
 
-  /// @brief Method Stop, addr 0x625ee10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x639aeac, size 0x7c, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr int64_t const& __cordl_internal_get_elapsed() const;
@@ -84,23 +84,23 @@ public:
 
   constexpr void __cordl_internal_set_started(int64_t value);
 
-  /// @brief Method .ctor, addr 0x625eab8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639ab54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_Frequency();
 
   static inline bool getStaticF_IsHighResolution();
 
-  /// @brief Method get_Elapsed, addr 0x625eb28, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Elapsed, addr 0x639abc4, size 0xf8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Elapsed();
 
-  /// @brief Method get_ElapsedMilliseconds, addr 0x625ec94, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedMilliseconds, addr 0x639ad30, size 0x168, virtual false, abstract: false, final false
   inline int64_t get_ElapsedMilliseconds();
 
-  /// @brief Method get_ElapsedTicks, addr 0x625ec20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedTicks, addr 0x639acbc, size 0x74, virtual false, abstract: false, final false
   inline int64_t get_ElapsedTicks();
 
-  /// @brief Method get_IsRunning, addr 0x625edfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunning, addr 0x639ae98, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRunning();
 
   static inline void setStaticF_Frequency(int64_t value);
@@ -122,7 +122,7 @@ public:
   Stopwatch(Stopwatch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11132 };
 
   /// @brief Field elapsed, offset: 0x10, size: 0x8, def value: None
   int64_t ___elapsed;

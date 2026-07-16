@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_speedMul(float_t value);
 
-  /// @brief Method .ctor, addr 0x364a8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37071f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t speedMul);
 
 protected:
@@ -49,7 +49,7 @@ public:
   SongSpeedData(SongSpeedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14827 };
 
   /// @brief Field speedMul, offset: 0x10, size: 0x4, def value: None
   float_t ___speedMul;

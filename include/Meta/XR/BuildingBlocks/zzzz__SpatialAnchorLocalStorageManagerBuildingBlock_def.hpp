@@ -39,24 +39,24 @@ public:
   __declspec(property(get = __cordl_internal_get__spatialAnchorCore, put = __cordl_internal_set__spatialAnchorCore)) ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock>
       _spatialAnchorCore;
 
-  /// @brief Method GetAnchorAnchorUuidFromLocalStorage, addr 0x58fa32c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetAnchorAnchorUuidFromLocalStorage, addr 0x5a33a30, size 0x1fc, virtual false, abstract: false, final false
   inline void GetAnchorAnchorUuidFromLocalStorage(::System::Collections::Generic::List_1<::System::Guid>* uuids);
 
   static inline ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58fa960, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a34064, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveAnchorFromLocalStorage, addr 0x58fa75c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method RemoveAnchorFromLocalStorage, addr 0x5a33e60, size 0x1b8, virtual false, abstract: false, final false
   inline void RemoveAnchorFromLocalStorage(::GlobalNamespace::OVRSpatialAnchor* anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method Reset, addr 0x58fa914, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5a34018, size 0x4c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SaveAnchorUuidToLocalStorage, addr 0x58fa63c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SaveAnchorUuidToLocalStorage, addr 0x5a33d40, size 0x120, virtual false, abstract: false, final false
   inline void SaveAnchorUuidToLocalStorage(::GlobalNamespace::OVRSpatialAnchor* anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method Start, addr 0x58fa52c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a33c30, size 0x110, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> const& __cordl_internal_get__spatialAnchorCore() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__spatialAnchorCore(::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> value);
 
-  /// @brief Method .ctor, addr 0x58fa988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3408c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   static constexpr ::ConstString NumUuidsPlayerPref{ u"numUuids" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21316 };
 
   /// @brief Field _spatialAnchorCore, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> ____spatialAnchorCore;

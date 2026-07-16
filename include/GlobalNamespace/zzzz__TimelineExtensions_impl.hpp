@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0::*)()>(&::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57e4a2c;
+  constexpr static std::size_t addrs = 0x590501c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0::*)(::UnityEngine::Timeline::IMarker*)>(
     &::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0::_JumpToTimelineMarker_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x57e4a30;
+  constexpr static std::size_t addrs = 0x5905020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Playables::PlayableDirector*, ::System::Type*)>(&::GlobalNamespace::TimelineExtensions::JumpToTimelineMarker)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x57e4858;
+  constexpr static std::size_t addrs = 0x5904e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set__ResourceLocation_k__BackingField(::System::Reflection::ResourceLocation value);
 
-  /// @brief Method .ctor, addr 0x5a42eb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7cb84, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* containingAssembly, ::StringW containingFileName, ::System::Reflection::ResourceLocation resourceLocation);
 
-  /// @brief Method get_FileName, addr 0x5a42ec8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x5b7cb98, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_ReferencedAssembly, addr 0x5a42ec0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReferencedAssembly, addr 0x5b7cb90, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_ReferencedAssembly();
 
-  /// @brief Method get_ResourceLocation, addr 0x5a42ed0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResourceLocation, addr 0x5b7cba0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ResourceLocation get_ResourceLocation();
 
 protected:

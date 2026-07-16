@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_Formatted(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cb716c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5def394, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -71,7 +71,7 @@ public:
   Price(Price const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18053 };
 
   /// @brief Field AmountInHundredths, offset: 0x10, size: 0x4, def value: None
   uint32_t ___AmountInHundredths;

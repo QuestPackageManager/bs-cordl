@@ -43,10 +43,10 @@ public:
   /// @brief Field type, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
-  /// @brief Method Equals, addr 0x5df182c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f29ae4, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5df18d8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f29b90, size 0xa0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLResponse* New_ctor();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5dec07c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f24334, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,7 +105,7 @@ public:
   GraphQLResponse(GraphQLResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20409 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::StringW ___data;

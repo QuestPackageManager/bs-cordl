@@ -53,16 +53,16 @@ public:
   /// @brief Field onConfigurationChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_onConfigurationChanged, put = setStaticF_onConfigurationChanged)) ::System::Action_1<::UnityEngine::Android::AndroidConfiguration*>* onConfigurationChanged;
 
-  /// @brief Method AcquireMainThreadSynchronizationContext, addr 0x68d67a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AcquireMainThreadSynchronizationContext, addr 0x6a2d6b8, size 0xac, virtual false, abstract: false, final false
   static inline void AcquireMainThreadSynchronizationContext();
 
-  /// @brief Method DispatchConfigurationChanged, addr 0x68d6a50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DispatchConfigurationChanged, addr 0x6a2d968, size 0x74, virtual false, abstract: false, final false
   static inline void DispatchConfigurationChanged(bool notifySubscribers);
 
-  /// @brief Method GetCurrentConfiguration, addr 0x68d6a04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentConfiguration, addr 0x6a2d91c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Android::AndroidConfiguration* GetCurrentConfiguration();
 
-  /// @brief Method SetCurrentConfiguration, addr 0x68d69b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentConfiguration, addr 0x6a2d8cc, size 0x50, virtual false, abstract: false, final false
   static inline void SetCurrentConfiguration(::UnityEngine::Android::AndroidConfiguration* config);
 
   static inline ::UnityEngine::AndroidJavaObjectUnityOwned* getStaticF_m_Activity();
@@ -75,19 +75,19 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Android::AndroidConfiguration*>* getStaticF_onConfigurationChanged();
 
-  /// @brief Method get_CurrentActivityRaw, addr 0x68d6778, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentActivityRaw, addr 0x6a2d690, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_CurrentActivityRaw();
 
-  /// @brief Method get_CurrentContextRaw, addr 0x68d6750, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentContextRaw, addr 0x6a2d668, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_CurrentContextRaw();
 
-  /// @brief Method get_UnityPlayerRaw, addr 0x68c3458, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_UnityPlayerRaw, addr 0x6a1a370, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_UnityPlayerRaw();
 
-  /// @brief Method get_currentActivity, addr 0x68d6900, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_currentActivity, addr 0x6a2d818, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* get_currentActivity();
 
-  /// @brief Method get_currentContext, addr 0x68d684c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_currentContext, addr 0x6a2d764, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* get_currentContext();
 
   static inline void setStaticF_m_Activity(::UnityEngine::AndroidJavaObjectUnityOwned* value);
@@ -115,7 +115,7 @@ public:
   AndroidApplication(AndroidApplication const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

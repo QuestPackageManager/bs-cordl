@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x58551c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598d424, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -94,7 +94,7 @@ public:
   FloatFxGroupEffect_InitData(FloatFxGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5831 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -140,20 +140,29 @@ public:
   /// @brief Field _initData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::FloatFxGroupEffect_InitData* _initData;
 
+  /// @brief Field _lastSetValue, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSetValue, put = __cordl_internal_set__lastSetValue)) float_t _lastSetValue;
+
+  /// @brief Field _lastSetValueFrameCount, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSetValueFrameCount, put = __cordl_internal_set__lastSetValueFrameCount)) int32_t _lastSetValueFrameCount;
+
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x58552d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x598d534, size 0xa0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x5855684, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x598d8f8, size 0xe8, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetValue, addr 0x5855730, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598da94, size 0x74, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
+
+  /// @brief Method SetValueWithValidation, addr 0x598d9e0, size 0xb4, virtual false, abstract: false, final false
+  inline void SetValueWithValidation(float_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
@@ -171,6 +180,14 @@ public:
 
   constexpr ::GlobalNamespace::FloatFxGroupEffect_InitData*& __cordl_internal_get__initData();
 
+  constexpr float_t const& __cordl_internal_get__lastSetValue() const;
+
+  constexpr float_t& __cordl_internal_get__lastSetValue();
+
+  constexpr int32_t const& __cordl_internal_get__lastSetValueFrameCount() const;
+
+  constexpr int32_t& __cordl_internal_get__lastSetValueFrameCount();
+
   constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
   constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
@@ -183,9 +200,13 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::FloatFxGroupEffect_InitData* value);
 
+  constexpr void __cordl_internal_set__lastSetValue(float_t value);
+
+  constexpr void __cordl_internal_set__lastSetValueFrameCount(int32_t value);
+
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5855464, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598d6c0, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -204,7 +225,7 @@ public:
   FloatFxGroupEffect(FloatFxGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5832 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
@@ -221,6 +242,12 @@ public:
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::FloatFxGroupEffect_InitData* ____initData;
 
+  /// @brief Field _lastSetValue, offset: 0x38, size: 0x4, def value: None
+  float_t ____lastSetValue;
+
+  /// @brief Field _lastSetValueFrameCount, offset: 0x3c, size: 0x4, def value: None
+  int32_t ____lastSetValueFrameCount;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -234,6 +261,10 @@ static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____floatFxBeatmap
 
 static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____initData) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::FloatFxGroupEffect) == 0x38, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____lastSetValue) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____lastSetValueFrameCount) == 0x3c, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::FloatFxGroupEffect) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

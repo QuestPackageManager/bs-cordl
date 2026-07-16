@@ -56,7 +56,7 @@ public:
   IMultiplayerSessionManager_1_IMultiplayerSessionInitializer(IMultiplayerSessionManager_1_IMultiplayerSessionInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -233,7 +233,7 @@ public:
   IMultiplayerSessionManager_1(IMultiplayerSessionManager_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

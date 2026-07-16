@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__processGuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59ff964, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b39634, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x59ff9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x5b396c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x59ff9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x5b396c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
 protected:

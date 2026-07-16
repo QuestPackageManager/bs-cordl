@@ -50,7 +50,7 @@ public:
   /// @brief Field seed, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed)) ::ArrayW<uint8_t> seed;
 
-  /// @brief Method GetSeed, addr 0x35bfa74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x367bf2c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSeed();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9Curve* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve);
@@ -62,7 +62,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9Curve* New_ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x35bfad4, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x367bf8c, size 0x200, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve* const& __cordl_internal_get_curve() const;
@@ -83,20 +83,20 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x35beeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367b370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method .ctor, addr 0x35beec0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367b378, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::ArrayW<uint8_t> seed);
 
-  /// @brief Method .ctor, addr 0x35bf060, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367b518, size 0x714, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor,
                     ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x35bf050, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367b508, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Curve, addr 0x35bfa6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Curve, addr 0x367bf24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
 
 protected:

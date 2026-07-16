@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnvironmentIdFilterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldExcludeMultiplayer, addr 0x366dfb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldExcludeMultiplayer, addr 0x372afcc, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter filter);
 
-  /// @brief Method ShouldExcludeTutorial, addr 0x366dfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldExcludeTutorial, addr 0x372afc4, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter filter);
 
 protected:
@@ -43,7 +43,7 @@ public:
   EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

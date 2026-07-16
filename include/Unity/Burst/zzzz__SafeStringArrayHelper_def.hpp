@@ -21,10 +21,10 @@ namespace Unity::Burst {
 class CORDL_TYPE SafeStringArrayHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DeserialiseStringArraySafe, addr 0x632f970, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method DeserialiseStringArraySafe, addr 0x646c590, size 0x290, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> DeserialiseStringArraySafe(::StringW input);
 
-  /// @brief Method SerialiseStringArraySafe, addr 0x632f75c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SerialiseStringArraySafe, addr 0x646c37c, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW SerialiseStringArraySafe(::ArrayW<::StringW> array);
 
 protected:
@@ -42,7 +42,7 @@ public:
   SafeStringArrayHelper(SafeStringArrayHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

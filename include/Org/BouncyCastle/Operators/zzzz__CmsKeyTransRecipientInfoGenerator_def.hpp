@@ -38,7 +38,7 @@ public:
   /// @brief Field keyWrapper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_keyWrapper, put = __cordl_internal_set_keyWrapper)) ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
 
-  /// @brief Method GenerateWrappedKey, addr 0x334c8d4, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method GenerateWrappedKey, addr 0x3408d8c, size 0x140, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
 
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  /// @brief Method .ctor, addr 0x334c630, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3408ae8, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method .ctor, addr 0x334c768, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3408c20, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x334c7e0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0x3408c98, size 0xf4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
 protected:

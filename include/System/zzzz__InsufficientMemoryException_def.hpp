@@ -29,10 +29,10 @@ public:
 
   static inline ::System::InsufficientMemoryException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b2e394, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6806c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b2e410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c680e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

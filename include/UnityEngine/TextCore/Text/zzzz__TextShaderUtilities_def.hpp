@@ -253,7 +253,7 @@ public:
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x6abcc84, size 0xca8, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x6c10b3c, size 0xca8, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -408,16 +408,16 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x6abc72c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x6c105e4, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x6abc444, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x6c102fc, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
-  /// @brief Method get_ShaderRef_MobileSDF_IMGUI, addr 0x6abc5c0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF_IMGUI, addr 0x6c10478, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF_IMGUI();
 
-  /// @brief Method get_ShaderRef_Sprite, addr 0x6abc908, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_Sprite, addr 0x6c107c0, size 0x1fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_Sprite();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
@@ -587,7 +587,7 @@ public:
   TextShaderUtilities(TextShaderUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

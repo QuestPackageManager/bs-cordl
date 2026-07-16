@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)(float_t, ::by_ref<::BeatSaber::RecPlay::PlayerPose>)>(
     &::BeatSaber::RecPlay::PlayerPoseSampler::Sample)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x322cf1c;
+  constexpr static std::size_t addrs = 0x32c3c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)()>(&::BeatSaber::RecPlay::PlayerPoseSampler::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x322d234;
+  constexpr static std::size_t addrs = 0x32c3f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PlayerPoseSampler*>(), { ".ctor", {}, {} })));

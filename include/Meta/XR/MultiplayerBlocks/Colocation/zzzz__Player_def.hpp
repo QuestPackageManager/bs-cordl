@@ -26,10 +26,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>"
   constexpr operator ::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*();
 
-  /// @brief Method Equals, addr 0x59427d4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5a7bed8, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::Meta::XR::MultiplayerBlocks::Colocation::Player other);
 
-  /// @brief Method .ctor, addr 0x5940718, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a79e1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t playerId, uint64_t oculusId, uint32_t colocationGroupId);
 
   /// @brief Convert to "::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>"
@@ -44,7 +44,7 @@ public:
   constexpr Player(uint64_t playerId, uint64_t oculusId, uint32_t colocationGroupId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20770 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -4,28 +4,13 @@
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO.Render
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
-    &::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5e0ed38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>(), 5 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e0ed6c;
+  constexpr static std::size_t addrs = 0x5f49e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>(), { ".ctor", {}, {} })));
@@ -127,11 +112,6 @@ constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> const& GlobalNamespa
 constexpr void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____kawaseBlurRenderer = value;
-}
-inline void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, src, dest);
 }
 inline void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>(), { ".ctor", {}, {} })));

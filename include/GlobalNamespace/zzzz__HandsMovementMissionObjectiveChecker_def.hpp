@@ -26,15 +26,15 @@ public:
   /// @brief Field _saberActivityCounter, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__saberActivityCounter, put = __cordl_internal_set__saberActivityCounter)) ::UnityW<::GlobalNamespace::SaberActivityCounter> _saberActivityCounter;
 
-  /// @brief Method HandleTotalDistanceDidChange, addr 0x587e704, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleTotalDistanceDidChange, addr 0x5918aa8, size 0x60, virtual false, abstract: false, final false
   inline void HandleTotalDistanceDidChange(float_t distance);
 
-  /// @brief Method Init, addr 0x587e764, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x5918b08, size 0x10c, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::HandsMovementMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x587e5f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5918994, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& __cordl_internal_get__saberActivityCounter() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value);
 
-  /// @brief Method .ctor, addr 0x587e870, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5918c14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6768 };
 
   /// @brief Field _saberActivityCounter, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberActivityCounter> ____saberActivityCounter;

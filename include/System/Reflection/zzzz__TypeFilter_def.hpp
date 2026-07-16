@@ -28,12 +28,12 @@ namespace System::Reflection {
 class CORDL_TYPE TypeFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5a48590, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5b82268, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Type* m, ::System::Object* filterCriteria);
 
   static inline ::System::Reflection::TypeFilter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5a44704, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7e3d4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Metadata::SoapAttribute* (*)(::System::Object*)>(
     &::System::Runtime::Remoting::InternalRemotingServices::GetCachedSoapAttribute)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x59e5428;
+  constexpr static std::size_t addrs = 0x5b1f0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

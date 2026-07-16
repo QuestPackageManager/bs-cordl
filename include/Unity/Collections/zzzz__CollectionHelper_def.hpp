@@ -123,7 +123,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15526 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -145,7 +145,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x636a120, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x64a6d40, size 0x4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -156,7 +156,7 @@ public:
   constexpr CollectionHelper_DummyJob();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15527 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -182,28 +182,28 @@ public:
 
   using LongDoubleUnion = ::Unity::Collections::CollectionHelper_LongDoubleUnion;
 
-  /// @brief Method Align, addr 0x6369b60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Align, addr 0x64a6780, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Align(int32_t size, int32_t alignmentPowerOfTwo);
 
-  /// @brief Method Align, addr 0x6369b7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Align, addr 0x64a679c, size 0x1c, virtual false, abstract: false, final false
   static inline uint64_t Align(uint64_t size, uint64_t alignmentPowerOfTwo);
 
-  /// @brief Method AssumePositive, addr 0x6369e6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AssumePositive, addr 0x64a6a8c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t AssumePositive(int32_t value);
 
-  /// @brief Method CheckAllocator, addr 0x6369a60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckAllocator, addr 0x64a6680, size 0x84, virtual false, abstract: false, final false
   static inline void CheckAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method CheckCapacityInRange, addr 0x636a034, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CheckCapacityInRange, addr 0x64a6c54, size 0xec, virtual false, abstract: false, final false
   static inline void CheckCapacityInRange(int32_t capacity, int32_t length);
 
   /// @brief Method CheckConvertArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckConvertArguments(int32_t length);
 
-  /// @brief Method CheckIndexInRange, addr 0x6369f90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckIndexInRange, addr 0x64a6bb0, size 0xa4, virtual false, abstract: false, final false
   static inline void CheckIndexInRange(int32_t index, int32_t length);
 
-  /// @brief Method CheckIntPositivePowerOfTwo, addr 0x6369e70, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckIntPositivePowerOfTwo, addr 0x64a6a90, size 0x94, virtual false, abstract: false, final false
   static inline void CheckIntPositivePowerOfTwo(int32_t value);
 
   /// @brief Method CheckIsUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -215,7 +215,7 @@ public:
   /// @brief Method CheckReflectionDataCorrectInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckReflectionDataCorrectInternal(::System::IntPtr reflectionData, ::by_ref<bool> burstCompiled);
 
-  /// @brief Method CheckUlongPositivePowerOfTwo, addr 0x6369f04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CheckUlongPositivePowerOfTwo, addr 0x64a6b24, size 0x8c, virtual false, abstract: false, final false
   static inline void CheckUlongPositivePowerOfTwo(uint64_t value);
 
   /// @brief Method ConvertExistingDataToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -256,28 +256,28 @@ public:
   /// @brief Method DisposeNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DisposeNativeArray(::Unity::Collections::NativeArray_1<T> nativeArray, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Hash, addr 0x6369bd0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x64a67f0, size 0x40, virtual false, abstract: false, final false
   static inline uint32_t Hash(void* ptr, int32_t bytes);
 
-  /// @brief Method IsAligned, addr 0x6369bac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsAligned, addr 0x64a67cc, size 0x14, virtual false, abstract: false, final false
   static inline bool IsAligned(uint64_t offset, int32_t alignmentPowerOfTwo);
 
-  /// @brief Method IsAligned, addr 0x6369b98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsAligned, addr 0x64a67b8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsAligned(void* p, int32_t alignmentPowerOfTwo);
 
-  /// @brief Method IsPowerOfTwo, addr 0x6369bc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPowerOfTwo, addr 0x64a67e0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsPowerOfTwo(int32_t value);
 
-  /// @brief Method Log2Ceil, addr 0x6369b28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Log2Ceil, addr 0x64a6748, size 0x38, virtual false, abstract: false, final false
   static inline int32_t Log2Ceil(int32_t value);
 
-  /// @brief Method Log2Floor, addr 0x6369af0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Log2Floor, addr 0x64a6710, size 0x38, virtual false, abstract: false, final false
   static inline int32_t Log2Floor(int32_t value);
 
-  /// @brief Method ShouldDeallocate, addr 0x6369ae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ShouldDeallocate, addr 0x64a6704, size 0xc, virtual false, abstract: false, final false
   static inline bool ShouldDeallocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method WriteLayout, addr 0x6369c10, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method WriteLayout, addr 0x64a6830, size 0x25c, virtual false, abstract: false, final false
   static inline void WriteLayout(::System::Type* type);
 
 protected:
@@ -298,7 +298,7 @@ public:
   static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

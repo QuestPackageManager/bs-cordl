@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CombineInstance)
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Mesh;
+}
 // Forward declare root types
 namespace UnityEngine {
 struct CombineInstance;
@@ -22,6 +28,21 @@ namespace UnityEngine {
 struct CORDL_TYPE CombineInstance {
 public:
   // Declarations
+  __declspec(property(put = set_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
+
+  __declspec(property(put = set_subMeshIndex)) int32_t subMeshIndex;
+
+  __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
+
+  /// @brief Method set_mesh, addr 0x6ab1fb4, size 0x94, virtual false, abstract: false, final false
+  inline void set_mesh(::UnityEngine::Mesh* value);
+
+  /// @brief Method set_subMeshIndex, addr 0x6ab2048, size 0x8, virtual false, abstract: false, final false
+  inline void set_subMeshIndex(int32_t value);
+
+  /// @brief Method set_transform, addr 0x6ab2050, size 0x1c, virtual false, abstract: false, final false
+  inline void set_transform(::UnityEngine::Matrix4x4 value);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr CombineInstance();
@@ -33,7 +54,7 @@ public:
                             ::UnityEngine::Vector4 m_RealtimeLightmapScaleOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10194 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

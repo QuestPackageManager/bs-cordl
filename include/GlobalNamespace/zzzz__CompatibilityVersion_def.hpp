@@ -21,15 +21,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE CompatibilityVersion : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x320fc20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x32a7520, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW Get();
 
-  /// @brief Method Length, addr 0x320fc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Length, addr 0x32a7564, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Length();
 
   static inline ::GlobalNamespace::CompatibilityVersion* New_ctor();
 
-  /// @brief Method .ctor, addr 0x320fc6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a756c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   CompatibilityVersion(CompatibilityVersion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

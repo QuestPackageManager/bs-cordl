@@ -44,17 +44,17 @@ public:
   /// @brief Field keyLength, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyLength, put = __cordl_internal_set_keyLength)) ::Org::BouncyCastle::Asn1::DerInteger* keyLength;
 
-  /// @brief Method GetIV, addr 0x3397ddc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x3454294, size 0x7c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIV();
 
-  /// @brief Method GetInstance, addr 0x3397a28, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3453ee0, size 0x144, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* New_ctor(::ArrayW<uint8_t> iv, int32_t keyLength);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3397e70, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3454328, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_keyLength(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x3397d3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34541f4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> iv, int32_t keyLength);
 
-  /// @brief Method .ctor, addr 0x3397b6c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3454024, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyLength, addr 0x3397e58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeyLength, addr 0x3454310, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_KeyLength();
 
 protected:

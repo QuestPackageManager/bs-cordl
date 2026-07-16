@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::BloomFogParamsBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x57e569c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x5905cf0, size 0x9c, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x57e551c, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x5905b70, size 0x180, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method .ctor, addr 0x57e5738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5905d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   BloomFogParamsBehaviour(BloomFogParamsBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6664 };
 
   /// @brief Field _bloomFogParams, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____bloomFogParams;

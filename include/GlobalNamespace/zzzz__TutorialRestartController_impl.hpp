@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialRestartController.RestartLevel
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialRestartController::*)()>(&::GlobalNamespace::TutorialRestartController::RestartLevel)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x587d5b0;
+  constexpr static std::size_t addrs = 0x59b0a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialRestartController*>(), { "RestartLevel", {}, {} })));
@@ -21,22 +21,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialRestartController::*)()>(&::GlobalNamespace::TutorialRestartController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587d5e0;
+  constexpr static std::size_t addrs = 0x59b0aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialRestartController*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& GlobalNamespace::TutorialRestartController::__cordl_internal_get__tutorialSceneSetupData() {
+constexpr ::GlobalNamespace::TutorialScenesTransitionSetupData*& GlobalNamespace::TutorialRestartController::__cordl_internal_get__tutorialSceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tutorialSceneSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& GlobalNamespace::TutorialRestartController::__cordl_internal_get__tutorialSceneSetupData() const {
+constexpr ::GlobalNamespace::TutorialScenesTransitionSetupData* const& GlobalNamespace::TutorialRestartController::__cordl_internal_get__tutorialSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tutorialSceneSetupData;
 }
-constexpr void GlobalNamespace::TutorialRestartController::__cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value) {
+constexpr void GlobalNamespace::TutorialRestartController::__cordl_internal_set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tutorialSceneSetupData = value;
 }

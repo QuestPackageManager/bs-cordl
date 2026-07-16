@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenBackButtonAnimationController::*)()>(&::GlobalNamespace::ScreenBackButtonAnimationController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3234d4c;
+  constexpr static std::size_t addrs = 0x32ec754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenBackButtonAnimationController*>(), { "Awake", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenBackButtonAnimationController::*)(::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType)>(
     &::GlobalNamespace::ScreenBackButtonAnimationController::StartAnimation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3234d68;
+  constexpr static std::size_t addrs = 0x32ec770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenBackButtonAnimationController::*)()>(&::GlobalNamespace::ScreenBackButtonAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3234de0;
+  constexpr static std::size_t addrs = 0x32ec7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenBackButtonAnimationController*>(), { ".ctor", {}, {} })));

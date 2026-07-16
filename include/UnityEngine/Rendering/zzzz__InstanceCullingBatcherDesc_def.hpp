@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE InstanceCullingBatcherDesc {
 public:
   // Declarations
-  /// @brief Method NewDefault, addr 0x66d8eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NewDefault, addr 0x68165bc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::InstanceCullingBatcherDesc NewDefault();
 
   // Ctor Parameters []
@@ -33,7 +33,7 @@ public:
   constexpr InstanceCullingBatcherDesc(::UnityEngine::Rendering::OnCullingCompleteCallback* onCompleteCallback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>)>(&::ENet::Extensions::StringLength)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x574f2e8;
+  constexpr static std::size_t addrs = 0x5896be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Extensions*>(), { "StringLength", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));

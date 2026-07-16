@@ -71,7 +71,7 @@ public:
   /// @brief Field s_MirrorViewMaterialProperty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_MirrorViewMaterialProperty, put = setStaticF_s_MirrorViewMaterialProperty)) ::UnityEngine::MaterialPropertyBlock* s_MirrorViewMaterialProperty;
 
-  /// @brief Method RenderMirrorView, addr 0x6604930, size 0xe9c, virtual false, abstract: false, final false
+  /// @brief Method RenderMirrorView, addr 0x674203c, size 0xe9c, virtual false, abstract: false, final false
   static inline void RenderMirrorView(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera, ::UnityEngine::Material* mat, Il2CppObject* display);
 
   static inline int32_t getStaticF_k_ColorTransform();
@@ -137,7 +137,7 @@ public:
   XRMirrorView(XRMirrorView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

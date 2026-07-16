@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::IEnumerator*, ::System::IntPtr)>(&::UnityEngine::SetupCoroutine::InvokeMoveNext)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x69881b8;
+  constexpr static std::size_t addrs = 0x6adb130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::StringW, ::System::Object*)>(&::UnityEngine::SetupCoroutine::InvokeMember)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x69882d0;
+  constexpr static std::size_t addrs = 0x6adb248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

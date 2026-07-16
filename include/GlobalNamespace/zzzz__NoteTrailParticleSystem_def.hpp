@@ -33,10 +33,10 @@ public:
   /// @brief Field _particleSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Awake, addr 0x584b9a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5983bac, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Emit, addr 0x584b9b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x5983bbc, size 0x104, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int32_t count);
 
   static inline ::GlobalNamespace::NoteTrailParticleSystem* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x584bab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5983cc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   NoteTrailParticleSystem(NoteTrailParticleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5792 };
 
   /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;

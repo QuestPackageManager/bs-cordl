@@ -142,16 +142,16 @@ public:
 
   static inline ::System::Net::Http::MonoWebRequestHandler___c* New_ctor();
 
-  /// @brief Method <CreateWebRequest>b__96_1, addr 0x5f9804c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateWebRequest>b__96_1, addr 0x60d3148, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateWebRequest_b__96_1(::StringW l);
 
-  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x5f97ff8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x60d30f4, size 0x54, virtual false, abstract: false, final false
   inline bool _GetConnectionKeepAlive_b__95_0(::StringW l);
 
-  /// @brief Method <SendAsync>b__99_0, addr 0x5f980a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <SendAsync>b__99_0, addr 0x60d31a0, size 0x8c, virtual false, abstract: false, final false
   inline void _SendAsync_b__99_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x5f97ff4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60d30f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::MonoWebRequestHandler___c* getStaticF___9();
@@ -185,7 +185,7 @@ public:
   MonoWebRequestHandler___c(MonoWebRequestHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20231 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -205,10 +205,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f98130, size 0x1860, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x60d322c, size 0x1860, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f99d68, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x60d4e64, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -239,7 +239,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20232 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
@@ -423,38 +423,38 @@ public:
   /// @brief Convert operator to "::System::Net::Http::IMonoHttpClientHandler"
   constexpr operator ::System::Net::Http::IMonoHttpClientHandler*() noexcept;
 
-  /// @brief Method CreateResponseMessage, addr 0x5f97808, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CreateResponseMessage, addr 0x60d2904, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage,
                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CreateWebRequest, addr 0x5f96a6c, size 0x8c8, virtual true, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x60d1b68, size 0x8c8, virtual true, abstract: false, final false
   inline ::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request);
 
-  /// @brief Method Dispose, addr 0x5f96840, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x60d193c, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5f96854, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x60d1950, size 0x94, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureModifiability, addr 0x5f966ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnsureModifiability, addr 0x60d17a8, size 0x58, virtual false, abstract: false, final false
   inline void EnsureModifiability();
 
-  /// @brief Method GetConnectionKeepAlive, addr 0x5f968e8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionKeepAlive, addr 0x60d19e4, size 0x11c, virtual false, abstract: false, final false
   inline bool GetConnectionKeepAlive(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
-  /// @brief Method MethodHasBody, addr 0x5f97cd8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MethodHasBody, addr 0x60d2dd4, size 0x10c, virtual false, abstract: false, final false
   static inline bool MethodHasBody(::System::Net::Http::HttpMethod* method);
 
   static inline ::System::Net::Http::MonoWebRequestHandler* New_ctor();
 
-  /// @brief Method SendAsync, addr 0x5f97de4, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method SendAsync, addr 0x60d2ee0, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x5f97edc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x60d2fd8, size 0x60, virtual true, abstract: false, final true
   inline void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method <CreateWebRequest>b__96_0, addr 0x5f97f3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateWebRequest>b__96_0, addr 0x60d3038, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _CreateWebRequest_b__96_0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                         ::ArrayW<::StringW> ai);
@@ -603,18 +603,18 @@ public:
 
   constexpr void __cordl_internal_set_useProxy(bool value);
 
-  /// @brief Method .ctor, addr 0x5f95b0c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60d0c08, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_groupCounter();
 
-  /// @brief Method get_CookieContainer, addr 0x5f96728, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_CookieContainer, addr 0x60d1824, size 0x68, virtual true, abstract: false, final true
   inline ::System::Net::CookieContainer* get_CookieContainer();
 
-  /// @brief Method get_MaxRequestContentBufferSize, addr 0x5f96790, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MaxRequestContentBufferSize, addr 0x60d188c, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_MaxRequestContentBufferSize();
 
-  /// @brief Method get_SslOptions, addr 0x5f967bc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_SslOptions, addr 0x60d18b8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
 
   /// @brief Convert to "::System::IDisposable"
@@ -625,13 +625,13 @@ public:
 
   static inline void setStaticF_groupCounter(int64_t value);
 
-  /// @brief Method set_AllowAutoRedirect, addr 0x5f96704, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method set_AllowAutoRedirect, addr 0x60d1800, size 0x24, virtual true, abstract: false, final true
   inline void set_AllowAutoRedirect(bool value);
 
-  /// @brief Method set_SslOptions, addr 0x5f9681c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method set_SslOptions, addr 0x60d1918, size 0x24, virtual true, abstract: false, final true
   inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  /// @brief Method set_UseProxy, addr 0x5f96798, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method set_UseProxy, addr 0x60d1894, size 0x24, virtual true, abstract: false, final true
   inline void set_UseProxy(bool value);
 
 protected:
@@ -649,7 +649,7 @@ public:
   MonoWebRequestHandler(MonoWebRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20233 };
 
   /// @brief Field allowAutoRedirect, offset: 0x10, size: 0x1, def value: None
   bool ___allowAutoRedirect;

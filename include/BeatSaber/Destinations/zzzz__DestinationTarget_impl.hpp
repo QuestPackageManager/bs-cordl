@@ -7,12 +7,11 @@ constexpr ::BeatSaber::Destinations::DestinationTarget::DestinationTarget(int32_
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Destinations::DestinationTarget::DestinationTarget() {}
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::MainMenu{ static_cast<int32_t>(0x1) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::StartupError{ static_cast<int32_t>(0x3) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::StandardLevel{ static_cast<int32_t>(0x4) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::MultiplayerLevel{ static_cast<int32_t>(0x5) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::MissionLevel{ static_cast<int32_t>(0x6) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::Tutorial{ static_cast<int32_t>(0x7) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::Credits{ static_cast<int32_t>(0x8) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::RecordingTool{ static_cast<int32_t>(0x9) };
-constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::LaunchRecordingTool{ static_cast<int32_t>(0xa) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::MainMenu{ static_cast<int32_t>(0x0) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::StartupError{ static_cast<int32_t>(0x2) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::StandardLevel{ static_cast<int32_t>(0x3) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::MultiplayerLevel{ static_cast<int32_t>(0x4) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::MissionLevel{ static_cast<int32_t>(0x5) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::Tutorial{ static_cast<int32_t>(0x6) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::Credits{ static_cast<int32_t>(0x7) };
+constexpr ::BeatSaber::Destinations::DestinationTarget BeatSaber::Destinations::DestinationTarget::LaunchTerminalStartup{ static_cast<int32_t>(0x8) };

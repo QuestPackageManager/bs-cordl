@@ -82,7 +82,7 @@ public:
   static ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType const Range0ToMax;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5965 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -141,15 +141,15 @@ public:
   __declspec(property(get = __cordl_internal_get__trackLaneRingsRotationEffect, put = __cordl_internal_set__trackLaneRingsRotationEffect)) ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect>
       _trackLaneRingsRotationEffect;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x5869c84, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x59a2f4c, size 0xe4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5869c68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59a2f30, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5869b40, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a2e08, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingsRotationEffect(::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> value);
 
-  /// @brief Method .ctor, addr 0x5869d68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a3030, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,7 +230,7 @@ public:
   TrackLaneRingsRotationEffectSpawner(TrackLaneRingsRotationEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5966 };
 
   /// @brief Field _trackLaneRingsRotationEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> ____trackLaneRingsRotationEffect;

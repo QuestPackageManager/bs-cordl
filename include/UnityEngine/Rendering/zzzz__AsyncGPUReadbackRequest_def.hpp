@@ -41,40 +41,40 @@ public:
   /// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetData(int32_t layer);
 
-  /// @brief Method GetDataRaw, addr 0x69b1d40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDataRaw, addr 0x6b05700, size 0x44, virtual false, abstract: false, final false
   inline ::System::IntPtr GetDataRaw(int32_t layer);
 
-  /// @brief Method GetLayerCount, addr 0x69b1c48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerCount, addr 0x6b05608, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetLayerCount();
 
-  /// @brief Method GetLayerDataSize, addr 0x69b1cc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerDataSize, addr 0x6b05680, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetLayerDataSize();
 
-  /// @brief Method HasError, addr 0x69b1bd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasError, addr 0x6b05590, size 0x3c, virtual false, abstract: false, final false
   inline bool HasError();
 
-  /// @brief Method InvokeCallback, addr 0x69b1d84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x6b05744, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback, ::UnityEngine::Rendering::AsyncGPUReadbackRequest obj);
 
-  /// @brief Method IsDone, addr 0x69b1b58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDone, addr 0x6b05518, size 0x3c, virtual false, abstract: false, final false
   inline bool IsDone();
 
-  /// @brief Method SetScriptingCallback, addr 0x69b1cfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetScriptingCallback, addr 0x6b056bc, size 0x44, virtual false, abstract: false, final false
   inline void SetScriptingCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
-  /// @brief Method WaitForCompletion, addr 0x69b1ae0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x6b054a0, size 0x3c, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
-  /// @brief Method get_done, addr 0x69b1b1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_done, addr 0x6b054dc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_done();
 
-  /// @brief Method get_hasError, addr 0x69b1b94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasError, addr 0x6b05554, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasError();
 
-  /// @brief Method get_layerCount, addr 0x69b1c0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layerCount, addr 0x6b055cc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_layerCount();
 
-  /// @brief Method get_layerDataSize, addr 0x69b1c84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layerDataSize, addr 0x6b05644, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_layerDataSize();
 
   // Ctor Parameters []
@@ -85,7 +85,7 @@ public:
   constexpr AsyncGPUReadbackRequest(::System::IntPtr m_Ptr, int32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

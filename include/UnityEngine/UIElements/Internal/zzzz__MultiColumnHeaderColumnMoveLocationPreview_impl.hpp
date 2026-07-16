@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMoveLocationPreview::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMoveLocationPreview::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6bc9aac;
+  constexpr static std::size_t addrs = 0x6d1d964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

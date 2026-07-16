@@ -2,30 +2,21 @@
 // IWYU pragma private; include "GlobalNamespace/RecordingToolManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentsListModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingSettings_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupData_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-// Ctor Parameters [CppParam { name: "profileSong", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "runAutopilot", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::RecordingToolManager_SetupData::RecordingToolManager_SetupData(bool profileSong, bool runAutopilot) noexcept {
-  this->profileSong = profileSong;
-  this->runAutopilot = runAutopilot;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::RecordingToolManager_SetupData::RecordingToolManager_SetupData() {}
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolManager.get_showRecordingToolScene
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RecordingToolManager::*)()>(&::GlobalNamespace::RecordingToolManager::get_showRecordingToolScene)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x57dbd00;
+  constexpr static std::size_t addrs = 0x58fc360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "get_showRecordingToolScene", {}, {} })));
@@ -35,20 +26,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolManager._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)(
-    ::GlobalNamespace::RecordingToolConfigurationProcessor*, ::GlobalNamespace::BeatmapCharacteristicCollection*, ::Zenject::DiContainer*, ::GlobalNamespace::MenuTransitionsHelper*,
-    ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::PlayerDataModel*)>(&::GlobalNamespace::RecordingToolManager::_ctor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x57dbd14;
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (::GlobalNamespace::RecordingToolManager::*)(::GlobalNamespace::RecordingToolConfigurationProcessor*, ::Zenject::DiContainer*, ::GlobalNamespace::MenuTransitionsHelper*,
+                                                                  ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::PlayerDataModel*)>(&::GlobalNamespace::RecordingToolManager::_ctor)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x58fc374;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(),
-                                                { ".ctor",
-                                                  {},
-                                                  { ::i2c::type_of<::GlobalNamespace::RecordingToolConfigurationProcessor*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicCollection*>(),
-                                                    ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::GlobalNamespace::MenuTransitionsHelper*>(),
-                                                    ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::GlobalNamespace::RecordingToolConfigurationProcessor*>(), ::i2c::type_of<::Zenject::DiContainer*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::MenuTransitionsHelper*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
     return ___internal_method;
   }
 };
@@ -56,8 +47,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)()>(&::GlobalNamespace::RecordingToolManager::Run)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x57dbdf4;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x58fc390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "Run", {}, {} })));
@@ -70,26 +61,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecordingSettings* (::GlobalNamespace::RecordingToolManager::*)()>(
     &::GlobalNamespace::RecordingToolManager::SetupNextSettings)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x57dc0c8;
+  constexpr static std::size_t addrs = 0x58fc670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "SetupNextSettings", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RecordingToolManager._Run_b__15_0
+//  Writing Method size for method: ::GlobalNamespace::RecordingToolManager._Run_b__14_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)(
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::RecordingToolManager::_Run_b__15_0)> {
+    ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::RecordingToolManager::_Run_b__14_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57dc428;
+  constexpr static std::size_t addrs = 0x58fc9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(),
-                            { "<Run>b__15_0", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
+                            { "<Run>b__14_0", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
     return ___internal_method;
   }
 };
@@ -165,15 +156,15 @@ constexpr void GlobalNamespace::RecordingToolManager::__cordl_internal_set__conf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____configurationProcessor = value;
 }
-constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& GlobalNamespace::RecordingToolManager::__cordl_internal_get__menuTransitionsHelper() {
+constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::RecordingToolManager::__cordl_internal_get__menuTransitionsHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuTransitionsHelper;
 }
-constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& GlobalNamespace::RecordingToolManager::__cordl_internal_get__menuTransitionsHelper() const {
+constexpr ::GlobalNamespace::MenuTransitionsHelper* const& GlobalNamespace::RecordingToolManager::__cordl_internal_get__menuTransitionsHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuTransitionsHelper;
 }
-constexpr void GlobalNamespace::RecordingToolManager::__cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value) {
+constexpr void GlobalNamespace::RecordingToolManager::__cordl_internal_set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____menuTransitionsHelper = value;
 }
@@ -217,18 +208,17 @@ inline bool GlobalNamespace::RecordingToolManager::get_showRecordingToolScene() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "get_showRecordingToolScene", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::RecordingToolManager::_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
-                                                         ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::Zenject::DiContainer* diContainer,
+inline void GlobalNamespace::RecordingToolManager::_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::Zenject::DiContainer* diContainer,
                                                          ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(),
-                                              { ".ctor",
-                                                {},
-                                                { ::i2c::type_of<::GlobalNamespace::RecordingToolConfigurationProcessor*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristicCollection*>(),
-                                                  ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::GlobalNamespace::MenuTransitionsHelper*>(),
-                                                  ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, processor, beatmapCharacteristicCollection, diContainer, menuTransitionsHelper, environmentsListModel, playerDataModel);
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::GlobalNamespace::RecordingToolConfigurationProcessor*>(), ::i2c::type_of<::Zenject::DiContainer*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::MenuTransitionsHelper*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, processor, diContainer, menuTransitionsHelper, environmentsListModel, playerDataModel);
 }
 inline void GlobalNamespace::RecordingToolManager::Run() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "Run", {}, {} })));
@@ -238,21 +228,19 @@ inline ::GlobalNamespace::RecordingSettings* GlobalNamespace::RecordingToolManag
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "SetupNextSettings", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RecordingSettings*>(this, ___internal_method);
 }
-inline void GlobalNamespace::RecordingToolManager::_Run_b__15_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* StandardLevelScenesTransitionSetupDataSO,
+inline void GlobalNamespace::RecordingToolManager::_Run_b__14_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* StandardLevelScenesTransitionSetupData,
                                                                 ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(),
-                          { "<Run>b__15_0", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, StandardLevelScenesTransitionSetupDataSO, LevelCompletionResults);
+                          { "<Run>b__14_0", {}, { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, StandardLevelScenesTransitionSetupData, LevelCompletionResults);
 }
-inline ::GlobalNamespace::RecordingToolManager* GlobalNamespace::RecordingToolManager::New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
-                                                                                                ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
-                                                                                                ::Zenject::DiContainer* diContainer, ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper,
+inline ::GlobalNamespace::RecordingToolManager* GlobalNamespace::RecordingToolManager::New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::Zenject::DiContainer* diContainer,
+                                                                                                ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper,
                                                                                                 ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                                                                                 ::GlobalNamespace::PlayerDataModel* playerDataModel) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RecordingToolManager*>(processor, beatmapCharacteristicCollection, diContainer, menuTransitionsHelper,
-                                                                                                    environmentsListModel, playerDataModel));
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RecordingToolManager*>(processor, diContainer, menuTransitionsHelper, environmentsListModel, playerDataModel));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolManager::RecordingToolManager() {}

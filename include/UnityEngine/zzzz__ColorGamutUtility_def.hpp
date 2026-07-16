@@ -31,13 +31,13 @@ namespace UnityEngine {
 class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetColorPrimaries, addr 0x6933690, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColorPrimaries, addr 0x6a86918, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetTransferFunction, addr 0x6933708, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTransferFunction, addr 0x6a86990, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetWhitePoint, addr 0x69336cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWhitePoint, addr 0x6a86954, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ColorGamutUtility(ColorGamutUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

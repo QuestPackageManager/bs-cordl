@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRVirtualKeyboardControllerInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x5db2e80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5eeb0a8, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5db2edc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eeb104, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   OVRVirtualKeyboardControllerInputHandler(OVRVirtualKeyboardControllerInputHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

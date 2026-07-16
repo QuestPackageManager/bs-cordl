@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformation::*)()>(
     &::System::Net::NetworkInformation::GatewayIPAddressInformation::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62112cc;
+  constexpr static std::size_t addrs = 0x634c3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::GatewayIPAddressInformation*>(), { ".ctor", {}, {} })));

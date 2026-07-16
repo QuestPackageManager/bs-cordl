@@ -111,7 +111,7 @@ public:
   static ::UnityEngine::EnumDataUtility_CachedType const IncludeObsoleteExceptErrors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10311 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,22 +154,22 @@ public:
 
   static inline ::UnityEngine::EnumDataUtility___c* New_ctor();
 
-  /// @brief Method <GetCachedEnumData>b__2_1, addr 0x6989bb8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_1, addr 0x6adcb30, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _GetCachedEnumData_b__2_1(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetCachedEnumData>b__2_2, addr 0x6989c10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_2, addr 0x6adcb88, size 0x64, virtual false, abstract: false, final false
   inline ::System::Enum* _GetCachedEnumData_b__2_2(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetCachedEnumData>b__2_3, addr 0x6989c74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_3, addr 0x6adcbec, size 0x60, virtual false, abstract: false, final false
   inline int32_t _GetCachedEnumData_b__2_3(::System::Enum* v);
 
-  /// @brief Method <GetCachedEnumData>b__2_4, addr 0x6989cd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_4, addr 0x6adcc4c, size 0x60, virtual false, abstract: false, final false
   inline int32_t _GetCachedEnumData_b__2_4(::System::Enum* v);
 
-  /// @brief Method <GetCachedEnumData>b__2_5, addr 0x6989b94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__2_5, addr 0x6adcb0c, size 0x24, virtual false, abstract: false, final false
   inline int32_t _GetCachedEnumData_b__2_5(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method .ctor, addr 0x6989b90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adcb08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EnumDataUtility___c* getStaticF___9();
@@ -211,7 +211,7 @@ public:
   EnumDataUtility___c(EnumDataUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -231,7 +231,7 @@ public:
 
   static inline ::UnityEngine::EnumDataUtility___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GetCachedEnumData>b__0, addr 0x6989d34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetCachedEnumData>b__0, addr 0x6adccac, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW _GetCachedEnumData_b__0(::System::Reflection::FieldInfo* f);
 
   constexpr ::System::Func_2<::StringW, ::StringW>* const& __cordl_internal_get_nicifyName() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_nicifyName(::System::Func_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x6989164, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adc0dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -258,7 +258,7 @@ public:
   EnumDataUtility___c__DisplayClass2_0(EnumDataUtility___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10313 };
 
   /// @brief Field nicifyName, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::StringW, ::StringW>* ___nicifyName;
@@ -287,7 +287,7 @@ public:
   constexpr EnumDataUtility___c__DisplayClass8_0(::System::Func_2<::StringW, ::StringW>* nicifyName, ::System::Reflection::FieldInfo* field) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10314 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -329,22 +329,22 @@ public:
       put =
           setStaticF_s_EnumData)) ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::EnumDataUtility_CachedType, ::System::Type*>, ::UnityEngine::EnumData>* s_EnumData;
 
-  /// @brief Method CheckObsoleteAddition, addr 0x6989168, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CheckObsoleteAddition, addr 0x6adc0e0, size 0x11c, virtual false, abstract: false, final false
   static inline bool CheckObsoleteAddition(::System::Reflection::FieldInfo* field, ::UnityEngine::EnumDataUtility_CachedType cachedType);
 
-  /// @brief Method EnumNameFromEnumField, addr 0x698984c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method EnumNameFromEnumField, addr 0x6adc7c4, size 0x1f0, virtual false, abstract: false, final false
   static inline ::StringW EnumNameFromEnumField(::System::Reflection::FieldInfo* field, ::System::Func_2<::StringW, ::StringW>* nicifyName);
 
-  /// @brief Method EnumTooltipFromEnumField, addr 0x6989730, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EnumTooltipFromEnumField, addr 0x6adc6a8, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW EnumTooltipFromEnumField(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method GetCachedEnumData, addr 0x69883e4, size 0xd80, virtual false, abstract: false, final false
+  /// @brief Method GetCachedEnumData, addr 0x6adb35c, size 0xd80, virtual false, abstract: false, final false
   static inline ::UnityEngine::EnumData GetCachedEnumData(::System::Type* enumType, ::UnityEngine::EnumDataUtility_CachedType cachedType, ::System::Func_2<::StringW, ::StringW>* nicifyName);
 
-  /// @brief Method HandleInspectorOrderAttribute, addr 0x6989284, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method HandleInspectorOrderAttribute, addr 0x6adc1fc, size 0x4ac, virtual false, abstract: false, final false
   static inline void HandleInspectorOrderAttribute(::System::Type* enumType, ::by_ref<::UnityEngine::EnumData> enumData);
 
-  /// @brief Method <EnumNameFromEnumField>g__NicifyName|8_0, addr 0x6989a3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <EnumNameFromEnumField>g__NicifyName|8_0, addr 0x6adc9b4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW _EnumNameFromEnumField_g__NicifyName_8_0(::by_ref<::UnityEngine::EnumDataUtility___c__DisplayClass8_0> _cordl_fixed_empty_name_whitespace);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::EnumDataUtility_CachedType, ::System::Type*>, ::UnityEngine::EnumData>* getStaticF_s_EnumData();
@@ -367,7 +367,7 @@ public:
   EnumDataUtility(EnumDataUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

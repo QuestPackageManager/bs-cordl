@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::PartyUpdateNotification::*)(::System::IntPtr)>(&::Oculus::Platform::Models::PartyUpdateNotification::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5cb73d8;
+  constexpr static std::size_t addrs = 0x5def600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

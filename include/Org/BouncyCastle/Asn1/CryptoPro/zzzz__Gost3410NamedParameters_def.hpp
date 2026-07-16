@@ -47,18 +47,18 @@ public:
   /// @brief Field parameters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters)) ::System::Collections::IDictionary* parameters;
 
-  /// @brief Method GetByName, addr 0x32afc7c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x336c134, size 0x1fc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x32afa40, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x336bef8, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x32afe78, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x336c330, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32af2e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336b79c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProA();
@@ -71,7 +71,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_parameters();
 
-  /// @brief Method get_Names, addr 0x32afb68, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x336c020, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_cryptoProA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);

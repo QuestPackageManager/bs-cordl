@@ -35,13 +35,13 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE ClientExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateGraphQLRequestExceptionFromError, addr 0x5de4560, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateGraphQLRequestExceptionFromError, addr 0x5f1c788, size 0x160, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::Client::GraphQLRequestException* CreateGraphQLRequestExceptionFromError(::OculusStudios::GraphQL::Client::GraphQLError* error);
 
-  /// @brief Method ExtractDataStringFromResponse, addr 0x5de4390, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ExtractDataStringFromResponse, addr 0x5f1c5b8, size 0x1d0, virtual false, abstract: false, final false
   static inline ::StringW ExtractDataStringFromResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* response);
 
-  /// @brief Method ProcessModel, addr 0x5de426c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ProcessModel, addr 0x5f1c494, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Object* ProcessModel(::StringW dataString, ::System::Type* type);
 
   /// @brief Method ProcessModel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -62,7 +62,7 @@ public:
   ClientExtensions(ClientExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

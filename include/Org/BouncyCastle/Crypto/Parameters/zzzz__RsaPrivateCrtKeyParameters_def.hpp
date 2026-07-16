@@ -60,10 +60,10 @@ public:
   /// @brief Field qInv, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_qInv, put = __cordl_internal_set_qInv)) ::Org::BouncyCastle::Math::BigInteger* qInv;
 
-  /// @brief Method Equals, addr 0x3357728, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3413be0, size 0x180, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x33578a8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3413d60, size 0x120, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent,
@@ -73,7 +73,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
 
-  /// @brief Method ValidateValue, addr 0x3357600, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0x3413ab8, size 0xc0, virtual false, abstract: false, final false
   static inline void ValidateValue(::Org::BouncyCastle::Math::BigInteger* x, ::StringW name, ::StringW desc);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_dP() const;
@@ -112,30 +112,30 @@ public:
 
   constexpr void __cordl_internal_set_qInv(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x33573cc, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413884, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent,
                     ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP, ::Org::BouncyCastle::Math::BigInteger* dQ,
                     ::Org::BouncyCastle::Math::BigInteger* qInv);
 
-  /// @brief Method .ctor, addr 0x33576c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413b78, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
 
-  /// @brief Method get_DP, addr 0x3357710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DP, addr 0x3413bc8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_DP();
 
-  /// @brief Method get_DQ, addr 0x3357718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DQ, addr 0x3413bd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_DQ();
 
-  /// @brief Method get_P, addr 0x3357700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x3413bb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_PublicExponent, addr 0x33576f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x3413bb0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_Q, addr 0x3357708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x3413bc0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_QInv, addr 0x3357720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QInv, addr 0x3413bd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_QInv();
 
 protected:

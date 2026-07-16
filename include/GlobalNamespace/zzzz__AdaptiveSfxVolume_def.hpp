@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_userSettingsVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x5779760, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326629c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t userSettingsVolumeOffset, bool adaptiveSfx, int32_t frequency);
 
 protected:
@@ -90,7 +90,7 @@ public:
   AdaptiveSfxVolume_InitData(AdaptiveSfxVolume_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22574 };
 
   /// @brief Field userSettingsVolumeOffset, offset: 0x10, size: 0x4, def value: None
   float_t ___userSettingsVolumeOffset;
@@ -140,21 +140,21 @@ public:
   /// @brief Field _minThreshold, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__minThreshold, put = __cordl_internal_set__minThreshold)) float_t _minThreshold;
 
-  /// @brief Method ApplyLoudness, addr 0x577963c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ApplyLoudness, addr 0x3266174, size 0x34, virtual false, abstract: false, final false
   inline void ApplyLoudness(float_t songLoudness);
 
   static inline ::GlobalNamespace::AdaptiveSfxVolume* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x57792a0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x326565c, size 0x188, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t> data, int32_t channels);
 
-  /// @brief Method OnDisable, addr 0x5779274, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3265630, size 0x2c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x5779218, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x32655d4, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5779590, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x32660c8, size 0x34, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::AudioManager* const& __cordl_internal_get__audioManager() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__minThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x5779670, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32661a8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -211,7 +211,7 @@ public:
   AdaptiveSfxVolume(AdaptiveSfxVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22575 };
 
   /// @brief Field kAverageLoudnessFrames offset 0xffffffff size 0x4
   static constexpr int32_t kAverageLoudnessFrames{ static_cast<int32_t>(0xc) };

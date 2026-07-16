@@ -72,7 +72,7 @@ public:
   BinaryHeap_1(BinaryHeap_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20422 };
 
   /// @brief Field _data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ____data;

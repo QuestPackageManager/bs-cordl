@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::AttributesScope::*)(::Unity::Properties::IProperty*, ::Unity::Properties::IProperty*)>(
     &::Unity::Properties::AttributesScope::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6a47660;
+  constexpr static std::size_t addrs = 0x6b9b13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::AttributesScope::*)(
     ::Unity::Properties::Internal::IAttributes*, ::System::Collections::Generic::List_1<::System::Attribute*>*)>(&::Unity::Properties::AttributesScope::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6a47834;
+  constexpr static std::size_t addrs = 0x6b9b310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::AttributesScope::*)()>(&::Unity::Properties::AttributesScope::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6a4794c;
+  constexpr static std::size_t addrs = 0x6b9b428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::AttributesScope>(), { "Dispose", {}, {} })));

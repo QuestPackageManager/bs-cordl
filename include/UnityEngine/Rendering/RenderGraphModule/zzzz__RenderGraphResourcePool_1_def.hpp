@@ -67,7 +67,7 @@ public:
   constexpr RenderGraphResourcePool_1_ResourceLogInfo(::StringW name, int64_t size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -130,7 +130,7 @@ public:
   RenderGraphResourcePool_1___c(RenderGraphResourcePool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12418 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,7 +238,7 @@ public:
   RenderGraphResourcePool_1(RenderGraphResourcePool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12419 };
 
   /// @brief Field kStaleResourceLifetime offset 0xffffffff size 0x4
   static constexpr int32_t kStaleResourceLifetime{ static_cast<int32_t>(0xa) };

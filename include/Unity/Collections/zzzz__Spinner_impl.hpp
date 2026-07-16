@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::Spinner::*)()>(&::Unity::Collections::Spinner::Acquire)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x63656fc;
+  constexpr static std::size_t addrs = 0x64a231c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Spinner>(), { "Acquire", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Spinner::*)()>(&::Unity::Collections::Spinner::TryAcquire)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636573c;
+  constexpr static std::size_t addrs = 0x64a235c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Spinner>(), { "TryAcquire", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Spinner::*)(bool)>(&::Unity::Collections::Spinner::TryAcquire)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6365778;
+  constexpr static std::size_t addrs = 0x64a2398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Spinner>(), { "TryAcquire", {}, { ::i2c::type_of<bool>() } })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::Spinner::*)()>(&::Unity::Collections::Spinner::Release)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x636581c;
+  constexpr static std::size_t addrs = 0x64a243c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Spinner>(), { "Release", {}, {} })));

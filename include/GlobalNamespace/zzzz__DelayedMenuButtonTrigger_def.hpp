@@ -32,19 +32,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE DelayedMenuButtonTrigger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _pressDuration, offset 0x18, size 0x4
+  /// @brief Field _pressDuration, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__pressDuration, put = __cordl_internal_set__pressDuration)) float_t _pressDuration;
 
-  /// @brief Field _timer, offset 0x1c, size 0x4
+  /// @brief Field _timer, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) float_t _timer;
 
-  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
+  /// @brief Field _vrPlatformHelper, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Field _waitingForButtonRelease, offset 0x20, size 0x1
+  /// @brief Field _waitingForButtonRelease, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__waitingForButtonRelease, put = __cordl_internal_set__waitingForButtonRelease)) bool _waitingForButtonRelease;
 
-  /// @brief Field menuButtonTriggeredEvent, offset 0x10, size 0x8
+  /// @brief Field menuButtonTriggeredEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_menuButtonTriggeredEvent, put = __cordl_internal_set_menuButtonTriggeredEvent)) ::System::Action* menuButtonTriggeredEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
@@ -55,7 +55,7 @@ public:
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x5874d6c, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x327d96c, size 0x12c, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__pressDuration() const;
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5874e98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327da98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x5874c14, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x327d814, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -100,7 +100,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x5874cc0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327d8c0, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -118,35 +118,38 @@ public:
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23495 };
 
-  /// @brief Field menuButtonTriggeredEvent, offset: 0x10, size: 0x8, def value: None
-  ::System::Action* ___menuButtonTriggeredEvent;
+  /// @brief Field kDefaultPauseButtonPressDuration offset 0xffffffff size 0x4
+  static constexpr float_t kDefaultPauseButtonPressDuration{ static_cast<float_t>(0.75f) };
 
-  /// @brief Field _pressDuration, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _pressDuration, offset: 0x10, size: 0x4, def value: None
   float_t ____pressDuration;
 
-  /// @brief Field _timer, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _vrPlatformHelper, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+
+  /// @brief Field menuButtonTriggeredEvent, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___menuButtonTriggeredEvent;
+
+  /// @brief Field _timer, offset: 0x28, size: 0x4, def value: None
   float_t ____timer;
 
-  /// @brief Field _waitingForButtonRelease, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field _waitingForButtonRelease, offset: 0x2c, size: 0x1, def value: None
   bool ____waitingForButtonRelease;
-
-  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ___menuButtonTriggeredEvent) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____pressDuration) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____pressDuration) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____vrPlatformHelper) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____timer) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ___menuButtonTriggeredEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____waitingForButtonRelease) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____timer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____waitingForButtonRelease) == 0x2c, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::DelayedMenuButtonTrigger) == 0x30, "Size mismatch!");
 

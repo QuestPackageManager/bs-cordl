@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::BeatSaber::Destinations::InitialDestinationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31e9890, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3280a44, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   InitialDestinationException(InitialDestinationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

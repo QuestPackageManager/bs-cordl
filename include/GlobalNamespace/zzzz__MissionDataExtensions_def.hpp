@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x3671788, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x3751e1c, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::MissionObjective_ReferenceValueComparisonType comparisonType);
 
 protected:
@@ -41,7 +41,13 @@ public:
   MissionDataExtensions(MissionDataExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15233 };
+
+  /// @brief Field kMaxMissionObjectiveTypeLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMaxMissionObjectiveTypeLocalizationKey{ u"MAX_MISSION_OBJECTIVE_TYPE" };
+
+  /// @brief Field kMinMissionObjectiveTypeLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMinMissionObjectiveTypeLocalizationKey{ u"MIN_MISSION_OBJECTIVE_TYPE" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

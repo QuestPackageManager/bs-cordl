@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(int32_t usage);
 
-  /// @brief Method ToString, addr 0x3398dfc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34552b4, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3398d5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3455214, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0x3398cf0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34551a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:

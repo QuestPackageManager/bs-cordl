@@ -31,27 +31,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::SelectableCell>> {
 public:
   // Declarations
-  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x6304990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x6441128, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x63048fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x6441094, size 0x94, virtual false, abstract: false, final false
   inline void HandleSelectableCellInteractableDidChange(::HMUI::Interactable* interactableCell, bool interactable);
 
-  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x6304994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x644112c, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* owner);
 
   static inline ::GlobalNamespace::SelectableCellSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x63047a4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6440f3c, size 0x158, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x63045c8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6440d60, size 0x168, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveState, addr 0x6304730, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResolveState, addr 0x6440ec8, size 0x74, virtual false, abstract: false, final false
   inline void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method .ctor, addr 0x6304998, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6441130, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   SelectableCellSelectableStateController(SelectableCellSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

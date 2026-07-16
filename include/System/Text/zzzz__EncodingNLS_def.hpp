@@ -28,48 +28,48 @@ namespace System::Text {
 class CORDL_TYPE EncodingNLS : public ::System::Text::Encoding {
 public:
   // Declarations
-  /// @brief Method GetByteCount, addr 0x59998f0, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x5ad3624, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
-  /// @brief Method GetByteCount, addr 0x5999ae4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x5ad3818, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count);
 
-  /// @brief Method GetByteCount, addr 0x5999a78, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x5ad37ac, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::StringW s);
 
-  /// @brief Method GetBytes, addr 0x5999dfc, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5ad3b30, size 0x280, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetBytes, addr 0x599a07c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5ad3db0, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount);
 
-  /// @brief Method GetBytes, addr 0x5999bb4, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5ad38e8, size 0x248, virtual true, abstract: false, final false
   inline int32_t GetBytes(::StringW s, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetCharCount, addr 0x599a174, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x5ad3ea8, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetCharCount, addr 0x599a2fc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x5ad4030, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count);
 
-  /// @brief Method GetChars, addr 0x599a3cc, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x5ad4100, size 0x284, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
-  /// @brief Method GetChars, addr 0x599a650, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x5ad4384, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount);
 
-  /// @brief Method GetDecoder, addr 0x599a8d8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetDecoder, addr 0x5ad460c, size 0x74, virtual true, abstract: false, final false
   inline ::System::Text::Decoder* GetDecoder();
 
-  /// @brief Method GetEncoder, addr 0x599a94c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetEncoder, addr 0x5ad4680, size 0x74, virtual true, abstract: false, final false
   inline ::System::Text::Encoder* GetEncoder();
 
-  /// @brief Method GetString, addr 0x599a748, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x5ad447c, size 0x190, virtual true, abstract: false, final false
   inline ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
   static inline ::System::Text::EncodingNLS* New_ctor(int32_t codePage);
 
-  /// @brief Method .ctor, addr 0x59998e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad361c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t codePage);
 
 protected:

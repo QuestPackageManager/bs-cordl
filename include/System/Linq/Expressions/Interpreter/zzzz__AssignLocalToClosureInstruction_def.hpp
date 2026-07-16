@@ -32,19 +32,19 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x5e72370, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fad46c, size 0xf4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5e72314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fad410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x5e7231c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fad418, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5e7232c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fad428, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5e72324, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fad420, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -62,7 +62,7 @@ public:
   AssignLocalToClosureInstruction(AssignLocalToClosureInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

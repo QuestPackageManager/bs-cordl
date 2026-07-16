@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6981948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad4ce8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6981950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad4cf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool applyToCollection);
 
-  /// @brief Method set_order, addr 0x6981940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x6ad4ce0, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   PropertyAttribute(PropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10249 };
 
   /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____order_k__BackingField;

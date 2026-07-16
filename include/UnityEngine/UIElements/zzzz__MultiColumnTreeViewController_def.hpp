@@ -46,31 +46,31 @@ public:
   /// @brief Field m_ColumnController, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnController, put = __cordl_internal_set_m_ColumnController)) ::UnityEngine::UIElements::MultiColumnController* m_ColumnController;
 
-  /// @brief Method BindItem, addr 0x6afd894, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x6c5174c, size 0x8c, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x6afd938, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x6c517f0, size 0x18, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Dispose, addr 0x6afd970, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c51828, size 0x30, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InvokeMakeItem, addr 0x6afd3e8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method InvokeMakeItem, addr 0x6c512a0, size 0xd8, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method MakeItem, addr 0x6afd87c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x6c51734, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::MultiColumnTreeViewController* New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method PreRefresh, addr 0x6afd3b8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method PreRefresh, addr 0x6c51270, size 0x30, virtual true, abstract: false, final false
   inline void PreRefresh();
 
-  /// @brief Method PrepareView, addr 0x6afd950, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method PrepareView, addr 0x6c51808, size 0x20, virtual true, abstract: false, final false
   inline void PrepareView();
 
-  /// @brief Method UnbindItem, addr 0x6afd920, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x6c517d8, size 0x18, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
   constexpr ::UnityEngine::UIElements::MultiColumnController* const& __cordl_internal_get_m_ColumnController() const;
@@ -79,11 +79,11 @@ public:
 
   constexpr void __cordl_internal_set_m_ColumnController(::UnityEngine::UIElements::MultiColumnController* value);
 
-  /// @brief Method .ctor, addr 0x6afd304, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c511bc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method get_columnController, addr 0x6afd2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnController, addr 0x6c511b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnController* get_columnController();
 
 protected:

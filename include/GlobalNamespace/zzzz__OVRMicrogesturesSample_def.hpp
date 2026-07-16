@@ -107,21 +107,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d39014, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e7123c, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d3913c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e71364, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d39144, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e7136c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d3917c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e713a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d39010, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e71238, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_navIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5d38c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70e7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -187,7 +187,7 @@ public:
   OVRMicrogesturesSample__HighlightIconCoroutine_d__22(OVRMicrogesturesSample__HighlightIconCoroutine_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7224 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -260,21 +260,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d39188, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e713b0, size 0xe4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d3926c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e71494, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d39274, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e7149c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d392ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e714d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d39184, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e713ac, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -307,7 +307,7 @@ public:
 
   constexpr void __cordl_internal_set_label(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d38f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e71158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -334,7 +334,7 @@ public:
   OVRMicrogesturesSample__ShowGestureLabel_d__26(OVRMicrogesturesSample__ShowGestureLabel_d__26 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7225 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -437,36 +437,36 @@ public:
   /// @brief Field upArrowR, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_upArrowR, put = __cordl_internal_set_upArrowR)) ::UnityW<::UnityEngine::UI::Image> upArrowR;
 
-  /// @brief Method HighlightGesture, addr 0x5d38a14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HighlightGesture, addr 0x5e70c3c, size 0xa0, virtual false, abstract: false, final false
   inline void HighlightGesture(::GlobalNamespace::OVRPlugin_Hand hand, ::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
-  /// @brief Method HighlightIcon, addr 0x5d38ab4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HighlightIcon, addr 0x5e70cdc, size 0x140, virtual false, abstract: false, final false
   inline void HighlightIcon(::UnityEngine::UI::Image* icon);
 
-  /// @brief Method HighlightIcon, addr 0x5d38c5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HighlightIcon, addr 0x5e70e84, size 0x68, virtual false, abstract: false, final false
   inline void HighlightIcon(::UnityEngine::UI::Image* navIcon, bool state);
 
-  /// @brief Method HighlightIconCoroutine, addr 0x5d38bf4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HighlightIconCoroutine, addr 0x5e70e1c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HighlightIconCoroutine(::UnityEngine::UI::Image* navIcon);
 
   static inline ::GlobalNamespace::OVRMicrogesturesSample* New_ctor();
 
-  /// @brief Method OnGestureRecognized, addr 0x5d38cc4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnGestureRecognized, addr 0x5e70eec, size 0xb4, virtual false, abstract: false, final false
   inline void OnGestureRecognized(::GlobalNamespace::OVRPlugin_Hand hand, ::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
-  /// @brief Method ShowGestureLabel, addr 0x5d38ec8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ShowGestureLabel, addr 0x5e710f0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowGestureLabel(::UnityEngine::UI::Text* gestureLabel, ::StringW label);
 
-  /// @brief Method ShowRecognizedGestureLabel, addr 0x5d38d78, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ShowRecognizedGestureLabel, addr 0x5e70fa0, size 0x150, virtual false, abstract: false, final false
   inline void ShowRecognizedGestureLabel(::UnityEngine::UI::Text* gestureLabel, ::StringW label);
 
-  /// @brief Method Start, addr 0x5d388a0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e70ac8, size 0x174, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__19_0, addr 0x5d38ff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__19_0, addr 0x5e71220, size 0xc, virtual false, abstract: false, final false
   inline void _Start_b__19_0(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
-  /// @brief Method <Start>b__19_1, addr 0x5d39004, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__19_1, addr 0x5e7122c, size 0xc, virtual false, abstract: false, final false
   inline void _Start_b__19_1(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_downArrowL() const;
@@ -583,7 +583,7 @@ public:
 
   constexpr void __cordl_internal_set_upArrowR(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5d38f38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e71160, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -601,7 +601,7 @@ public:
   OVRMicrogesturesSample(OVRMicrogesturesSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7226 };
 
   /// @brief Field leftGestureSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRMicrogestureEventSource> ___leftGestureSource;

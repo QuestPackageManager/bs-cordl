@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimation__AnimationCoroutine_d__1::*)(int32_t)>(&::HMUI::PanelAnimation__AnimationCoroutine_d__1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5730e24;
+  constexpr static std::size_t addrs = 0x5877bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimation__AnimationCoroutine_d__1::*)()>(&::HMUI::PanelAnimation__AnimationCoroutine_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5730e30;
+  constexpr static std::size_t addrs = 0x5877bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::PanelAnimation__AnimationCoroutine_d__1::*)()>(&::HMUI::PanelAnimation__AnimationCoroutine_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5730e34;
+  constexpr static std::size_t addrs = 0x5877bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::PanelAnimation__AnimationCoroutine_d__1*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::PanelAnimation__AnimationCoroutine_d__1::*)()>(
     &::HMUI::PanelAnimation__AnimationCoroutine_d__1::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57310e0;
+  constexpr static std::size_t addrs = 0x5877e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimation__AnimationCoroutine_d__1::*)()>(
     &::HMUI::PanelAnimation__AnimationCoroutine_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x57310e8;
+  constexpr static std::size_t addrs = 0x5877e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::PanelAnimation__AnimationCoroutine_d__1::*)()>(
     &::HMUI::PanelAnimation__AnimationCoroutine_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5731120;
+  constexpr static std::size_t addrs = 0x5877eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::HMUI::PanelAnimation::*)(::UnityEngine::CanvasGroup*, ::UnityEngine::CanvasGroup*, float_t, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*,
                                                  ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::HMUI::PanelAnimation::StartAnimation)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5730c0c;
+  constexpr static std::size_t addrs = 0x5877998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
     ::HMUI::PanelAnimation::*)(float_t, ::UnityEngine::CanvasGroup*, ::UnityEngine::CanvasGroup*, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*,
                                ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::HMUI::PanelAnimation::AnimationCoroutine)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5730d74;
+  constexpr static std::size_t addrs = 0x5877b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimation::*)()>(&::HMUI::PanelAnimation::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5730e2c;
+  constexpr static std::size_t addrs = 0x5877bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::PanelAnimation*>(), { ".ctor", {}, {} })));

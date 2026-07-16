@@ -38,13 +38,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x68ed478, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a44390, size 0xb8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationPosePlayable other);
 
-  /// @brief Method GetHandle, addr 0x68ed46c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6a44384, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x68ed358, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a44270, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationPosePlayable getStaticF_m_NullPlayable();
@@ -65,7 +65,7 @@ public:
   constexpr AnimationPosePlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20221 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

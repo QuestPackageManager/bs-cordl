@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__Element_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6275ad4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b1b70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
-  /// @brief Method get_Action, addr 0x6275b40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0x63b1bdc, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::CollectionChangeAction get_Action();
 
-  /// @brief Method get_Element, addr 0x6275b48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Element, addr 0x63b1be4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Element();
 
 protected:
@@ -74,7 +74,7 @@ public:
   CollectionChangeEventArgs(CollectionChangeEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11220 };
 
   /// @brief Field <Action>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::CollectionChangeAction ____Action_k__BackingField;

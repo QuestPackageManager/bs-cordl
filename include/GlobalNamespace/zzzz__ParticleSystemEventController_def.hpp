@@ -34,7 +34,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ParticleSystemEventController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58611c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5999650, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   ParticleSystemEventController_Pool(ParticleSystemEventController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -82,24 +82,24 @@ public:
 
   __declspec(property(get = get_startTime, put = set_startTime)) float_t startTime;
 
-  /// @brief Method Init, addr 0x586060c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5998a94, size 0x2c, virtual false, abstract: false, final false
   inline void Init(float_t startTime);
 
-  /// @brief Method InitSpeed, addr 0x58610b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InitSpeed, addr 0x5999540, size 0x54, virtual false, abstract: false, final false
   inline void InitSpeed(float_t simulationSpeedMultiplier);
 
-  /// @brief Method ManualUpdate, addr 0x58609cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5998e54, size 0x68, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t time, float_t deltaTime);
 
   static inline ::GlobalNamespace::ParticleSystemEventController* New_ctor();
 
-  /// @brief Method Pause, addr 0x5860e94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x599931c, size 0x18, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Play, addr 0x5860fe0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x5999468, size 0x18, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Stop, addr 0x58602e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5998770, size 0x1c, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set__startTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x58611c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599964c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endTime, addr 0x58609c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endTime, addr 0x5998e48, size 0xc, virtual false, abstract: false, final false
   inline float_t get_endTime();
 
-  /// @brief Method get_startTime, addr 0x58611b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x599963c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_startTime, addr 0x58611bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startTime, addr 0x5999644, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(float_t value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   ParticleSystemEventController(ParticleSystemEventController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5909 };
 
   /// @brief Field kMaxSimDelta offset 0xffffffff size 0x4
   static constexpr float_t kMaxSimDelta{ static_cast<float_t>(0.033333335f) };

@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__InsertionIndex_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3254d60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330d624, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InsertionIndex, addr 0x3254d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InsertionIndex, addr 0x330d614, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
-  /// @brief Method set_InsertionIndex, addr 0x3254d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InsertionIndex, addr 0x330d61c, size 0x8, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   StablePriorityQueueNode(StablePriorityQueueNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20465 };
 
   /// @brief Field <InsertionIndex>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____InsertionIndex_k__BackingField;

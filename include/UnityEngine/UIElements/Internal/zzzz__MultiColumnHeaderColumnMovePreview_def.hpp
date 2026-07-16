@@ -25,7 +25,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bc995c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1d814, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();

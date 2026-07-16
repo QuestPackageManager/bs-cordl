@@ -4,21 +4,6 @@
 #include "BGNet/Core/zzzz__IPlatformAccessTokenFetcher_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::IAuthenticationTokenProvider.GetAuthenticationToken
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* (::GlobalNamespace::IAuthenticationTokenProvider::*)()>(
-    &::GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 0 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::IAuthenticationTokenProvider.GetTokenPlatform
 template <>
 
@@ -29,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Authen
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 1 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 0 }));
     return ___internal_method;
   }
 };
@@ -42,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 2 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 1 }));
     return ___internal_method;
   }
 };
@@ -55,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 3 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 2 }));
     return ___internal_method;
   }
 };
@@ -69,33 +54,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Authen
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 4 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 3 }));
     return ___internal_method;
   }
 };
-inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 0 })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>*>(this, ___internal_method);
-}
 inline ::GlobalNamespace::AuthenticationToken_PlatformType GlobalNamespace::IAuthenticationTokenProvider::GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 1 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_PlatformType>(this, ___internal_method, tokenPlatformEnvironment);
 }
 inline ::StringW GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 2 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::IAuthenticationTokenProvider::get_userName() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 3 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::GlobalNamespace::AuthenticationToken_PlatformType GlobalNamespace::IAuthenticationTokenProvider::get_platformType() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 4 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAuthenticationTokenProvider*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_PlatformType>(this, ___internal_method);
 }
 /// @brief Convert operator to "::BGNet::Core::IPlatformAccessTokenFetcher"

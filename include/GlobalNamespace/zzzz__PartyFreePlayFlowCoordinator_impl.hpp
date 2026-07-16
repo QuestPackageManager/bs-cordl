@@ -17,214 +17,214 @@
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__PartyFreePlayFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__ResultsViewController_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::*)()>(
-    &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::*)()>(
+    &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5812004;
+  constexpr static std::size_t addrs = 0x59361f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0._ProcessLevelCompletionResultsAfterLevelDidFinish_b__0
+//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0._ProcessLevelCompletionResultsAfterLevelDidFinish_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(
-        &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0)> {
+    static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(
+        &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x58125b4;
+  constexpr static std::size_t addrs = 0x593651c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*>(),
+                         ::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0*>(),
                          { "<ProcessLevelCompletionResultsAfterLevelDidFinish>b__0", {}, { ::i2c::type_of<::GlobalNamespace::EnterPlayerGuestNameViewController*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator>& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator>& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::LevelCompletionResults*& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_levelCompletionResults() {
+constexpr ::GlobalNamespace::LevelCompletionResults*& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_levelCompletionResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCompletionResults;
 }
-constexpr ::GlobalNamespace::LevelCompletionResults* const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_levelCompletionResults() const {
+constexpr ::GlobalNamespace::LevelCompletionResults* const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_levelCompletionResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCompletionResults;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelCompletionResults = value;
 }
-constexpr ::StringW& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_leaderboardId() {
+constexpr ::StringW& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_leaderboardId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leaderboardId;
 }
-constexpr ::StringW const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_leaderboardId() const {
+constexpr ::StringW const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_leaderboardId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leaderboardId;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set_leaderboardId(::StringW value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set_leaderboardId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leaderboardId = value;
 }
-constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_transformedBeatmapData() {
+constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_transformedBeatmapData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transformedBeatmapData;
 }
-constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_transformedBeatmapData() const {
+constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_transformedBeatmapData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transformedBeatmapData;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___transformedBeatmapData = value;
 }
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_beatmapKey() {
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_beatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapKey;
 }
-constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_beatmapKey() const {
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_beatmapKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapKey;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapKey = value;
 }
-constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_beatmapLevel() {
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_beatmapLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
-constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_beatmapLevel() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapLevel = value;
 }
-constexpr bool& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_practice() {
+constexpr bool& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_practice() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___practice;
 }
-constexpr bool const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_get_practice() const {
+constexpr bool const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_get_practice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___practice;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::__cordl_internal_set_practice(bool value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::__cordl_internal_set_practice(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___practice = value;
 }
-inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::_ctor() {
+inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* _,
+inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* _,
                                                                                                                                         ::StringW playerName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
-                       ::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*>(),
+                       ::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0*>(),
                        { "<ProcessLevelCompletionResultsAfterLevelDidFinish>b__0", {}, { ::i2c::type_of<::GlobalNamespace::EnterPlayerGuestNameViewController*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _, playerName);
 }
-inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0* GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*>());
+inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0* GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0::PartyFreePlayFlowCoordinator___c__DisplayClass18_0() {}
-//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0._ctor
+constexpr ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0::PartyFreePlayFlowCoordinator___c__DisplayClass19_0() {}
+//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::*)()>(
-    &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::*)()>(
+    &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5812318;
+  constexpr static std::size_t addrs = 0x5936508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0._HandleResultsViewControllerRestartButtonPressed_b__0
+//  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0._HandleResultsViewControllerRestartButtonPressed_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::*)()>(
-    &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::_HandleResultsViewControllerRestartButtonPressed_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::*)()>(
+    &::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::_HandleResultsViewControllerRestartButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5812694;
+  constexpr static std::size_t addrs = 0x59365fc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0*>(),
                                                                                            { "<HandleResultsViewControllerRestartButtonPressed>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator>& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator>& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::UnityW<::GlobalNamespace::ResultsViewController>& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::__cordl_internal_get_resultsViewController() {
+constexpr ::UnityW<::GlobalNamespace::ResultsViewController>& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::__cordl_internal_get_resultsViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultsViewController;
 }
-constexpr ::UnityW<::GlobalNamespace::ResultsViewController> const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::__cordl_internal_get_resultsViewController() const {
+constexpr ::UnityW<::GlobalNamespace::ResultsViewController> const& GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::__cordl_internal_get_resultsViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultsViewController;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::__cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::__cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resultsViewController = value;
 }
-inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::_ctor() {
+inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::_HandleResultsViewControllerRestartButtonPressed_b__0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*>(),
+inline void GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::_HandleResultsViewControllerRestartButtonPressed_b__0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0*>(),
                                                                                          { "<HandleResultsViewControllerRestartButtonPressed>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0* GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*>());
+inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0* GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0::PartyFreePlayFlowCoordinator___c__DisplayClass23_0() {}
+constexpr ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0::PartyFreePlayFlowCoordinator___c__DisplayClass24_0() {}
 //  Writing Method size for method: ::GlobalNamespace::PartyFreePlayFlowCoordinator.get_gameMode
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::get_gameMode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x581193c;
+  constexpr static std::size_t addrs = 0x5935b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LeaderboardViewController> (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::get_leaderboardViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5811980;
+  constexpr static std::size_t addrs = 0x5935b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::get_showBackButtonForMainViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5811988;
+  constexpr static std::size_t addrs = 0x5935b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::get_mainTitle)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5811990;
+  constexpr static std::size_t addrs = 0x5935b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,8 +278,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x58119d8;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x5935bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5811bf0;
+  constexpr static std::size_t addrs = 0x5935ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,8 +307,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
     bool)>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x5811d44;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x5935f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::LevelCompletionResults*, ::StringW, bool)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::WillScoreGoToLeaderboard)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5812028;
+  constexpr static std::size_t addrs = 0x5936218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::LevelCompletionResults*, ::StringW)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::IsNewHighScore)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5812078;
+  constexpr static std::size_t addrs = 0x5936268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::LevelCompletionResults*, ::StringW, ::StringW)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::ProcessScore)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x58120bc;
+  constexpr static std::size_t addrs = 0x59362ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x58121dc;
+  constexpr static std::size_t addrs = 0x59363cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x581221c;
+  constexpr static std::size_t addrs = 0x593640c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58125a4;
+  constexpr static std::size_t addrs = 0x593650c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PartyFreePlayFlowCoordinator*>(), { ".ctor", {}, {} })));

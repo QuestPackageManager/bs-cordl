@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BookmarksFoldersModel___c::*)()>(&::GlobalNamespace::BookmarksFoldersModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3648bb8;
+  constexpr static std::size_t addrs = 0x3705044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BookmarksFoldersModel___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BookmarksFoldersModel___c::*)(::System::Environment_SpecialFolder)>(
     &::GlobalNamespace::BookmarksFoldersModel___c::_get_bookmarksFolders_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3648bbc;
+  constexpr static std::size_t addrs = 0x3705048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BookmarksFoldersModel___c*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::FileBrowserItem*> (::GlobalNamespace::BookmarksFoldersModel::*)()>(
     &::GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x36485c4;
+  constexpr static std::size_t addrs = 0x3704a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BookmarksFoldersModel*>(), { "get_bookmarksFolders", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BookmarksFoldersModel::*)()>(&::GlobalNamespace::BookmarksFoldersModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3648b5c;
+  constexpr static std::size_t addrs = 0x3704fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BookmarksFoldersModel*>(), { ".ctor", {}, {} })));

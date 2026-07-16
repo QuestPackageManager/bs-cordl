@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ByteMatcher::*)(::System::TermInfoStrings, ::ArrayW<uint8_t>)>(&::System::ByteMatcher::AddMapping)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5b610cc;
+  constexpr static std::size_t addrs = 0x5c9ada4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ByteMatcher::*)()>(&::System::ByteMatcher::Sort)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b611d0;
+  constexpr static std::size_t addrs = 0x5c9aea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ByteMatcher*>(), { "Sort", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ByteMatcher::*)(int32_t)>(&::System::ByteMatcher::StartsWith)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b5ea28;
+  constexpr static std::size_t addrs = 0x5c98700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ByteMatcher*>(), { "StartsWith", {}, { ::i2c::type_of<int32_t>() } })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TermInfoStrings (::System::ByteMatcher::*)(::ArrayW<char16_t>, int32_t, int32_t, ::by_ref<int32_t>)>(&::System::ByteMatcher::Match)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x5b5ea7c;
+  constexpr static std::size_t addrs = 0x5c98754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ByteMatcher::*)()>(&::System::ByteMatcher::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5b61004;
+  constexpr static std::size_t addrs = 0x5c9acdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ByteMatcher*>(), { ".ctor", {}, {} })));

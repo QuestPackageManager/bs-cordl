@@ -29,19 +29,19 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformLogger"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformLogger*() noexcept;
 
-  /// @brief Method LogError, addr 0x36b6af8, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x3774f10, size 0xb8, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0x36b6bb0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x3774fc8, size 0xb8, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogSensitive, addr 0x36b6c6c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogSensitive, addr 0x3775084, size 0x4, virtual true, abstract: false, final true
   inline void LogSensitive(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0x36b6c68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogVerbose, addr 0x3775080, size 0x4, virtual true, abstract: false, final true
   inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x36b6c70, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x3775088, size 0xb8, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::GlobalNamespace::PlatformLogger* New_ctor(::StringW logPrefix);
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_logPrefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x36b5f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37742ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW logPrefix);
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformLogger"
@@ -73,7 +73,7 @@ public:
   PlatformLogger(PlatformLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20991 };
 
   /// @brief Field logPrefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___logPrefix;

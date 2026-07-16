@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ParseError (*)(::by_ref<float_t>, uint64_t, int32_t)>(&::Unity::Collections::FixedStringUtils::Base10ToBase2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x637f9b8;
+  constexpr static std::size_t addrs = 0x64bc5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<int32_t>, float_t)>(&::Unity::Collections::FixedStringUtils::Base2ToBase10)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x637fa9c;
+  constexpr static std::size_t addrs = 0x64bc6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

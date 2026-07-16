@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x67cd920, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x690c3f0, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x67cd8ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690c37c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -46,7 +46,7 @@ public:
   OperationException(OperationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

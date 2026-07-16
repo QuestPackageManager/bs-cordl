@@ -40,35 +40,33 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x322aeb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c1bf8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
-                    ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW authUserId,
-                    ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
-                    ::StringW ticketId, ::StringW placementId, ::StringW customLocation);
+                    ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW privateGameSecret,
+                    ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId,
+                    ::StringW customLocation);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GetMultiplayerInstanceRequest();
 
   // Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers: "",
-  // def_value: None }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty:
-  // "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers:
-  // "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "",
-  // def_value: None }, CppParam { name: "authUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameliftRegionLatencies", ty:
+  // def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name:
+  // "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None
+  // }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None }, CppParam { name: "gameliftRegionLatencies", ty:
   // "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
   // name: "placementId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "customLocation", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW singleUseAuthToken,
-                                          ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration,
-                                          ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode, ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW authUserId,
-                                          ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId,
-                                          ::StringW customLocation) noexcept;
+  constexpr GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
+                                          ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode,
+                                          ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
+                                          ::StringW ticketId, ::StringW placementId, ::StringW customLocation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18964 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
   /// @brief Field version, offset: 0x0, size: 0x8, def value: None
   ::StringW version;
@@ -76,40 +74,34 @@ public:
   /// @brief Field serviceEnvironment, offset: 0x8, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
-  /// @brief Field singleUseAuthToken, offset: 0x10, size: 0x8, def value: None
-  ::StringW singleUseAuthToken;
-
-  /// @brief Field beatmapLevelSelectionMask, offset: 0x18, size: 0x28, def value: None
+  /// @brief Field beatmapLevelSelectionMask, offset: 0x10, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
 
-  /// @brief Field gameplayServerConfiguration, offset: 0x40, size: 0x18, def value: None
+  /// @brief Field gameplayServerConfiguration, offset: 0x38, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
 
-  /// @brief Field userId, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field userId, offset: 0x50, size: 0x8, def value: None
   ::StringW userId;
 
-  /// @brief Field privateGameSecret, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field privateGameSecret, offset: 0x58, size: 0x8, def value: None
   ::StringW privateGameSecret;
 
-  /// @brief Field privateGameCode, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field privateGameCode, offset: 0x60, size: 0x8, def value: None
   ::StringW privateGameCode;
 
-  /// @brief Field platform, offset: 0x70, size: 0x1, def value: None
+  /// @brief Field platform, offset: 0x68, size: 0x1, def value: None
   ::GlobalNamespace::AuthenticationToken_PlatformType platform;
 
-  /// @brief Field authUserId, offset: 0x78, size: 0x8, def value: None
-  ::StringW authUserId;
-
-  /// @brief Field gameliftRegionLatencies, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field gameliftRegionLatencies, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies;
 
-  /// @brief Field ticketId, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field ticketId, offset: 0x78, size: 0x8, def value: None
   ::StringW ticketId;
 
-  /// @brief Field placementId, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field placementId, offset: 0x80, size: 0x8, def value: None
   ::StringW placementId;
 
-  /// @brief Field customLocation, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field customLocation, offset: 0x88, size: 0x8, def value: None
   ::StringW customLocation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -119,30 +111,26 @@ static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, v
 
 static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, serviceEnvironment) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, singleUseAuthToken) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, beatmapLevelSelectionMask) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, beatmapLevelSelectionMask) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, gameplayServerConfiguration) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, gameplayServerConfiguration) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, userId) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, userId) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, privateGameSecret) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, privateGameSecret) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, privateGameCode) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, privateGameCode) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, platform) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, platform) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, gameliftRegionLatencies) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, authUserId) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, ticketId) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, gameliftRegionLatencies) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, placementId) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, ticketId) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, customLocation) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, placementId) == 0x90, "Offset mismatch!");
-
-static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, customLocation) == 0x98, "Offset mismatch!");
-
-static_assert(sizeof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest) == 0xa0, "Size mismatch!");
+static_assert(sizeof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest) == 0x90, "Size mismatch!");
 
 } // namespace BGNet::Core::GameLift

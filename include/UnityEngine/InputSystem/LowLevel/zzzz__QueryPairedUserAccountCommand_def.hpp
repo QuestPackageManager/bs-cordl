@@ -94,7 +94,7 @@ public:
   static ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result const UserAccountSelectionInProgress;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -126,7 +126,7 @@ public:
   constexpr QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -162,7 +162,7 @@ public:
   constexpr QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -219,7 +219,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x646b958, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x65a8724, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -246,25 +246,25 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x646b6e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x65a84ac, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_id, addr 0x646b6ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x65a84b8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_name, addr 0x646b81c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x65a85e8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_typeStatic, addr 0x646b94c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65a8718, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  /// @brief Method set_id, addr 0x646b70c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x65a84d8, size 0x110, virtual false, abstract: false, final false
   inline void set_id(::StringW value);
 
-  /// @brief Method set_name, addr 0x646b83c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x65a8608, size 0x110, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   // Ctor Parameters []
@@ -341,7 +341,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8948 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x410 };

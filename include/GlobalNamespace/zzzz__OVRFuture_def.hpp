@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5db6bdc, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5eeee04, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5db6e50, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5eef078, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -70,7 +70,7 @@ public:
                                  ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -115,13 +115,13 @@ public:
   // Declarations
   using _When_d__0 = ::GlobalNamespace::OVRFuture__When_d__0;
 
-  /// @brief Method When, addr 0x5db6840, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method When, addr 0x5eeea68, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> When(uint64_t future, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <When>g__CheckCancellationAndThrow|0_1, addr 0x5db6a10, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method <When>g__CheckCancellationAndThrow|0_1, addr 0x5eeec38, size 0x1cc, virtual false, abstract: false, final false
   static inline void _When_g__CheckCancellationAndThrow_0_1(uint64_t futureToCancel, ::System::Threading::CancellationToken token);
 
-  /// @brief Method <When>g__LogIfNotSuccess|0_0, addr 0x5db6904, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method <When>g__LogIfNotSuccess|0_0, addr 0x5eeeb2c, size 0x10c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result _When_g__LogIfNotSuccess_0_0(::GlobalNamespace::OVRPlugin_Result value, ::StringW msg);
 
 protected:
@@ -139,7 +139,7 @@ public:
   OVRFuture(OVRFuture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,40 +20,40 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE BitArrayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get128, addr 0x66754e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Get128, addr 0x67b2bf0, size 0x14, virtual false, abstract: false, final false
   static inline bool Get128(uint32_t index, uint64_t data1, uint64_t data2);
 
-  /// @brief Method Get16, addr 0x667354c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Get16, addr 0x67b0c58, size 0x10, virtual false, abstract: false, final false
   static inline bool Get16(uint32_t index, uint16_t data);
 
-  /// @brief Method Get256, addr 0x6674f34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Get256, addr 0x67b2640, size 0x3c, virtual false, abstract: false, final false
   static inline bool Get256(uint32_t index, uint64_t data1, uint64_t data2, uint64_t data3, uint64_t data4);
 
-  /// @brief Method Get32, addr 0x6673b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Get32, addr 0x67b1234, size 0xc, virtual false, abstract: false, final false
   static inline bool Get32(uint32_t index, uint32_t data);
 
-  /// @brief Method Get64, addr 0x6674088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Get64, addr 0x67b1794, size 0xc, virtual false, abstract: false, final false
   static inline bool Get64(uint32_t index, uint64_t data);
 
-  /// @brief Method Get8, addr 0x6672fe0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Get8, addr 0x67b06ec, size 0x10, virtual false, abstract: false, final false
   static inline bool Get8(uint32_t index, uint8_t data);
 
-  /// @brief Method Set128, addr 0x66754f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Set128, addr 0x67b2c04, size 0x3c, virtual false, abstract: false, final false
   static inline void Set128(uint32_t index, ::by_ref<uint64_t> data1, ::by_ref<uint64_t> data2, bool value);
 
-  /// @brief Method Set16, addr 0x6673580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Set16, addr 0x67b0c8c, size 0x24, virtual false, abstract: false, final false
   static inline void Set16(uint32_t index, ::by_ref<uint16_t> data, bool value);
 
-  /// @brief Method Set256, addr 0x6674f90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Set256, addr 0x67b269c, size 0xa8, virtual false, abstract: false, final false
   static inline void Set256(uint32_t index, ::by_ref<uint64_t> data1, ::by_ref<uint64_t> data2, ::by_ref<uint64_t> data3, ::by_ref<uint64_t> data4, bool value);
 
-  /// @brief Method Set32, addr 0x6673b58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Set32, addr 0x67b1264, size 0x24, virtual false, abstract: false, final false
   static inline void Set32(uint32_t index, ::by_ref<uint32_t> data, bool value);
 
-  /// @brief Method Set64, addr 0x66740b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Set64, addr 0x67b17c4, size 0x24, virtual false, abstract: false, final false
   static inline void Set64(uint32_t index, ::by_ref<uint64_t> data, bool value);
 
-  /// @brief Method Set8, addr 0x6673014, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Set8, addr 0x67b0720, size 0x24, virtual false, abstract: false, final false
   static inline void Set8(uint32_t index, ::by_ref<uint8_t> data, bool value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   BitArrayUtilities(BitArrayUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

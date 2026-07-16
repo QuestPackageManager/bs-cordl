@@ -28,10 +28,10 @@ public:
   /// @brief Field _unsubscribes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes)) ::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
 
-  /// @brief Method Bind, addr 0x5710ea8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x585908c, size 0xcc, virtual false, abstract: false, final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
 
-  /// @brief Method ClearAllBindings, addr 0x5710f74, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllBindings, addr 0x5859158, size 0x15c, virtual false, abstract: false, final false
   inline void ClearAllBindings();
 
   static inline ::GlobalNamespace::EventBinder* New_ctor();
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x57110d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58592b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   EventBinder(EventBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21360 };
 
   /// @brief Field _unsubscribes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Action*>* ____unsubscribes;

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::*)(::by_ref<bool>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66a6d5c;
+  constexpr static std::size_t addrs = 0x67e4468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

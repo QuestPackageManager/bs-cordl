@@ -173,7 +173,7 @@ public:
   Grouping_Lookup_2__GetEnumerator_d__7(Grouping_Lookup_2__GetEnumerator_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16060 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -362,7 +362,7 @@ public:
   Lookup_2_Grouping(Lookup_2_Grouping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16061 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   TKey ___key;
@@ -490,7 +490,7 @@ public:
   Lookup_2__GetEnumerator_d__12(Lookup_2__GetEnumerator_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16062 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -610,7 +610,7 @@ public:
   Lookup_2(Lookup_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16063 };
 
   /// @brief Field comparer, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ___comparer;

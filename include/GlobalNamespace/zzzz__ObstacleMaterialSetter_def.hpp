@@ -49,15 +49,15 @@ public:
   /// @brief Field _texturedCoreMaterial, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__texturedCoreMaterial, put = __cordl_internal_set__texturedCoreMaterial)) ::UnityW<::UnityEngine::Material> _texturedCoreMaterial;
 
-  /// @brief Method Init, addr 0x583a980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58dc560, size 0x3c, virtual false, abstract: false, final false
   inline void Init(::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacleQuality, bool screenDisplacementEffects);
 
   static inline ::GlobalNamespace::ObstacleMaterialSetter* New_ctor();
 
-  /// @brief Method SetCoreMaterial, addr 0x583a9bc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetCoreMaterial, addr 0x58dd118, size 0x10c, virtual false, abstract: false, final false
   inline void SetCoreMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacleQuality, bool screenDisplacementEffects);
 
-  /// @brief Method SetFakeGlowMaterial, addr 0x583aac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFakeGlowMaterial, addr 0x58dd224, size 0x3c, virtual false, abstract: false, final false
   inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacleQuality);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fakeGlowLWMaterial() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__texturedCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x583ab04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd260, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +120,7 @@ public:
   ObstacleMaterialSetter(ObstacleMaterialSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5706 };
 
   /// @brief Field _lwCoreMaterial, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____lwCoreMaterial;

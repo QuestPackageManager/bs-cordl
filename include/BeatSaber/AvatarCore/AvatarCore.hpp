@@ -32,7 +32,6 @@ module;
 #include "BeatSaber/AvatarCore/IOptionalAvatarDataProvider.hpp"
 #include "BeatSaber/AvatarCore/LimitAvatarPoseRestriction.hpp"
 #include "BeatSaber/AvatarCore/LobbyAvatarInstaller.hpp"
-#include "BeatSaber/AvatarCore/MultiplayerAvatarAudioController.hpp"
 #include "BeatSaber/AvatarCore/MultiplayerAvatarPoseController.hpp"
 #include "BeatSaber/AvatarCore/MultiplayerGameAvatarInstaller.hpp"
 #include "BeatSaber/AvatarCore/NoAvatarPoseRestriction.hpp"

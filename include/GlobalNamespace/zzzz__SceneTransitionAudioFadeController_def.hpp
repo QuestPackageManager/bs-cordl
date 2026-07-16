@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class ScenesTransitionSetupData;
 }
 namespace System {
 class IDisposable;
@@ -53,17 +53,17 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5780130, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58bc3f8, size 0x12c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x5780290, size 0x30, virtual false, abstract: false, final false
-  inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
+  /// @brief Method HandleTransitionDidFinish, addr 0x58bc55c, size 0x34, virtual false, abstract: false, final false
+  inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupData* transitionSetupData,
                                         ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleTransitionDidStart, addr 0x578025c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidStart, addr 0x58bc524, size 0x38, virtual false, abstract: false, final false
   inline void HandleTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, float_t duration);
 
-  /// @brief Method Initialize, addr 0x5780004, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x58bc2cc, size 0x12c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::SceneTransitionAudioFadeController* New_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x57802c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bc590, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -104,7 +104,7 @@ public:
   SceneTransitionAudioFadeController(SceneTransitionAudioFadeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5580 };
 
   /// @brief Field kTransitionFadeInDuration offset 0xffffffff size 0x4
   static constexpr float_t kTransitionFadeInDuration{ static_cast<float_t>(0.1f) };

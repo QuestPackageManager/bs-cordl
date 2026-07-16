@@ -47,10 +47,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Extrapolation___c* New_ctor();
 
-  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x6889480, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x69c7f64, size 0x74, virtual false, abstract: false, final false
   inline int32_t _SortClipsByStartTime_b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
 
-  /// @brief Method .ctor, addr 0x688947c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c7f60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::Extrapolation___c* getStaticF___9();
@@ -76,7 +76,7 @@ public:
   Extrapolation___c(Extrapolation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,10 +96,10 @@ public:
   /// @brief Field kMinExtrapolationTime, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kMinExtrapolationTime, put = setStaticF_kMinExtrapolationTime)) double_t kMinExtrapolationTime;
 
-  /// @brief Method CalculateExtrapolationTimes, addr 0x6888ea4, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method CalculateExtrapolationTimes, addr 0x69c7988, size 0x3ac, virtual false, abstract: false, final false
   static inline void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SortClipsByStartTime, addr 0x6889250, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SortClipsByStartTime, addr 0x69c7d34, size 0x14c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Timeline::TimelineClip*> SortClipsByStartTime(::ArrayW<::UnityEngine::Timeline::TimelineClip*> clips);
 
   static inline double_t getStaticF_kMinExtrapolationTime();
@@ -121,7 +121,7 @@ public:
   Extrapolation(Extrapolation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

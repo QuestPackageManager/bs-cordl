@@ -40,7 +40,7 @@ public:
   /// @brief Field Peer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Peer, put = __cordl_internal_set_Peer)) ::LiteNetLib::NetPeer* Peer;
 
-  /// @brief Method AddToQueue, addr 0x57552e4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddToQueue, addr 0x589b7d8, size 0x104, virtual false, abstract: false, final false
   inline void AddToQueue(::LiteNetLib::NetPacket* packet);
 
   static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_Peer(::LiteNetLib::NetPeer* value);
 
-  /// @brief Method .ctor, addr 0x575520c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589b700, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method get_PacketsInQueue, addr 0x5755294, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsInQueue, addr 0x589b788, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_PacketsInQueue();
 
 protected:
@@ -90,7 +90,7 @@ public:
   BaseChannel(BaseChannel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19992 };
 
   /// @brief Field Next, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::BaseChannel* ___Next;

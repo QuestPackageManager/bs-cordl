@@ -25,13 +25,13 @@ public:
   // Declarations
   static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
 
-  /// @brief Method ValidateAsset, addr 0x6308608, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x6445228, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x6308610, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x6445230, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x6308618, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6445238, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   AssetReferenceUIRestriction(AssetReferenceUIRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

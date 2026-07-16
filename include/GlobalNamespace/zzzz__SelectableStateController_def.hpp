@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::SelectableStateController_ViewState const SelectedAndHighlighted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22286 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,7 +125,7 @@ public:
 
   static inline ::GlobalNamespace::SelectableStateController* New_ctor();
 
-  /// @brief Method SetState, addr 0x6303fb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x64401cc, size 0x24, virtual false, abstract: false, final false
   inline void SetState(::GlobalNamespace::SelectableStateController_ViewState state, bool animated);
 
   constexpr ::GlobalNamespace::SelectableStateController_ViewState const& __cordl_internal_get__currentViewState_k__BackingField() const;
@@ -146,22 +146,22 @@ public:
 
   constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
-  /// @brief Method .ctor, addr 0x6303fd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64401f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x6300d64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_stateDidChangeEvent, addr 0x643cf04, size 0xc0, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
-  /// @brief Method get_currentViewState, addr 0x6303fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentViewState, addr 0x64401bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectableStateController_ViewState get_currentViewState();
 
-  /// @brief Method get_tweeningManager, addr 0x6303f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tweeningManager, addr 0x64401b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
-  /// @brief Method remove_stateDidChangeEvent, addr 0x6300eb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_stateDidChangeEvent, addr 0x643d050, size 0xc0, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
-  /// @brief Method set_currentViewState, addr 0x6303fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentViewState, addr 0x64401c4, size 0x8, virtual false, abstract: false, final false
   inline void set_currentViewState(::GlobalNamespace::SelectableStateController_ViewState value);
 
 protected:
@@ -179,7 +179,7 @@ public:
   SelectableStateController(SelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22287 };
 
   /// @brief Field _tweeningManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;

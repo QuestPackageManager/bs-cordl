@@ -16,3 +16,5 @@ constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::Mult
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::RequestTimeout{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::MatchmakingTimeout{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::MismatchedServerEnvironment{ static_cast<int32_t>(0x8) };
+constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::GameSessionEnded{ static_cast<int32_t>(0x9) };
+constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::ServerEnvironmentNotDeployed{ static_cast<int32_t>(0xa) };

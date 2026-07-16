@@ -65,28 +65,28 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x5929fe0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x5a636e4, size 0x4, virtual false, abstract: false, final false
   inline float_t __cctor_b__4_0(float_t f);
 
-  /// @brief Method <.cctor>b__4_1, addr 0x5929fe4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_1, addr 0x5a636e8, size 0x44, virtual false, abstract: false, final false
   inline float_t __cctor_b__4_1(int32_t start, int32_t end, int32_t value);
 
-  /// @brief Method <.cctor>b__4_2, addr 0x592a028, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_2, addr 0x5a6372c, size 0x108, virtual false, abstract: false, final false
   inline int32_t __cctor_b__4_2(int32_t start, int32_t end, float_t tween);
 
-  /// @brief Method <.cctor>b__4_3, addr 0x592a130, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_3, addr 0x5a63834, size 0x1c, virtual false, abstract: false, final false
   inline int32_t __cctor_b__4_3(float_t f);
 
-  /// @brief Method <.cctor>b__4_4, addr 0x592a14c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_4, addr 0x5a63850, size 0x14, virtual false, abstract: false, final false
   inline float_t __cctor_b__4_4(bool _, bool __param_1, bool value);
 
-  /// @brief Method <.cctor>b__4_5, addr 0x592a160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_5, addr 0x5a63864, size 0xc, virtual false, abstract: false, final false
   inline bool __cctor_b__4_5(bool _, bool __param_1, float_t tween);
 
-  /// @brief Method <.cctor>b__4_6, addr 0x592a16c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_6, addr 0x5a63870, size 0xc, virtual false, abstract: false, final false
   inline bool __cctor_b__4_6(float_t f);
 
-  /// @brief Method .ctor, addr 0x5929fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a636e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* getStaticF___9();
@@ -108,7 +108,7 @@ public:
   TweakUtils___c(TweakUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,30 +131,30 @@ public:
   /// @brief Field _types, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__types, put = setStaticF__types)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* _types;
 
-  /// @brief Method Create, addr 0x5929558, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5a62c5c, size 0x21c, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* Create(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
                                                                       ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle);
 
-  /// @brief Method Create, addr 0x5929774, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5a62e78, size 0x284, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* Create(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
                                                                           ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::System::Type* enumType);
 
-  /// @brief Method IsMemberValidForTweak, addr 0x59299f8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method IsMemberValidForTweak, addr 0x5a630fc, size 0x184, virtual false, abstract: false, final false
   static inline bool IsMemberValidForTweak(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsTypeSupported, addr 0x5929398, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IsTypeSupported, addr 0x5a62a9c, size 0x10c, virtual false, abstract: false, final false
   static inline bool IsTypeSupported(::System::Type* type);
 
-  /// @brief Method IsTypeSupportsValueRange, addr 0x59294a4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsTypeSupportsValueRange, addr 0x5a62ba8, size 0xb4, virtual false, abstract: false, final false
   static inline bool IsTypeSupportsValueRange(::System::Type* t);
 
-  /// @brief Method ProcessMinMaxRange, addr 0x5929b7c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ProcessMinMaxRange, addr 0x5a63280, size 0x260, virtual false, abstract: false, final false
   static inline void ProcessMinMaxRange(::System::Reflection::MemberInfo* member, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instance);
 
   /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Register(::System::Func_4<T, T, T, float_t>* inverseLerp, ::System::Func_4<T, T, float_t, T>* lerp, ::System::Func_2<float_t, T>* fromFloat);
 
-  /// @brief Method RoundToNearest, addr 0x5929ddc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method RoundToNearest, addr 0x5a634e0, size 0x1ac, virtual false, abstract: false, final false
   static inline float_t RoundToNearest(float_t value, ::StringW op);
 
   static inline ::System::Collections::Generic::HashSet_1<::System::Type*>* getStaticF__supportsValueRange();
@@ -186,7 +186,7 @@ public:
   static constexpr ::ConstString Min{ u"min" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

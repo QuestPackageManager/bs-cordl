@@ -48,28 +48,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>*();
 
-  /// @brief Method Equals, addr 0x6b3d3d4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c9128c, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b3d3a0, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c91258, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleTextShadow other);
 
-  /// @brief Method GetHashCode, addr 0x6b3d468, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c91320, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6b3d498, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c91350, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6b3d2ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c911a4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6b3d304, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c911bc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextShadow v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6b3d2dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6c91194, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6b3d278, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6c91130, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextShadow get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>"
@@ -78,16 +78,16 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TextShadow_();
 
-  /// @brief Method op_Equality, addr 0x6b3d324, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c911dc, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTextShadow lhs, ::UnityEngine::UIElements::StyleTextShadow rhs);
 
-  /// @brief Method op_Implicit, addr 0x6b3d388, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c91240, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTextShadow op_Implicit___UnityEngine__UIElements__StyleTextShadow(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method set_keyword, addr 0x6b3d2e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x6c9119c, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6b3d2bc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6c91174, size 0x20, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::TextShadow value);
 
   // Ctor Parameters []

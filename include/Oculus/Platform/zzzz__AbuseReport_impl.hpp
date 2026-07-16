@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::ReportRequestResponse)>(&::Oculus::Platform::AbuseReport::ReportRequestHandled)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5ca99c8;
+  constexpr static std::size_t addrs = 0x5de1bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ca9b1c;
+  constexpr static std::size_t addrs = 0x5de1d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

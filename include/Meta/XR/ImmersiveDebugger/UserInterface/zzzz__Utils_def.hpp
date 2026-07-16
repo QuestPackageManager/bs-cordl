@@ -25,13 +25,13 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface {
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClampText, addr 0x591103c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ClampText, addr 0x5a4a740, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ClampText(::StringW text, int32_t limit);
 
-  /// @brief Method LerpPosition, addr 0x59104f0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method LerpPosition, addr 0x5a49bf4, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LerpPosition(::UnityEngine::Vector3 current, ::UnityEngine::Vector3 target, float_t lerpSpeed);
 
-  /// @brief Method ToDisplayText, addr 0x59187c0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ToDisplayText, addr 0x5a51ec4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW ToDisplayText(::StringW input, int32_t characterLimit);
 
 protected:
@@ -61,7 +61,7 @@ public:
   static constexpr int32_t MaxLetterCountForTitle{ static_cast<int32_t>(0x16) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,42 +32,42 @@ public:
 
   __declspec(property(get = get_Zero)) double_t Zero;
 
-  /// @brief Method Add, addr 0x65670d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x66a47dc, size 0x8, virtual true, abstract: false, final false
   inline double_t Add(double_t a, double_t b);
 
-  /// @brief Method AreEqual, addr 0x656708c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x66a4798, size 0xc, virtual true, abstract: false, final false
   inline bool AreEqual(double_t a, double_t b);
 
-  /// @brief Method Compare, addr 0x6567034, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x66a4740, size 0x58, virtual true, abstract: false, final false
   inline int32_t Compare(double_t a, double_t b);
 
-  /// @brief Method DistanceSquaredBetweenPoints, addr 0x65670e8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DistanceSquaredBetweenPoints, addr 0x66a47f4, size 0xf8, virtual true, abstract: false, final false
   inline double_t DistanceSquaredBetweenPoints(::ArrayW<double_t> a, ::ArrayW<double_t> b);
 
-  /// @brief Method Multiply, addr 0x65670e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x66a47ec, size 0x8, virtual true, abstract: false, final false
   inline double_t Multiply(double_t a, double_t b);
 
   static inline ::UnityEngine::ProBuilder::KdTree::Math::DoubleMath* New_ctor();
 
-  /// @brief Method Subtract, addr 0x65670d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x66a47e4, size 0x8, virtual true, abstract: false, final false
   inline double_t Subtract(double_t a, double_t b);
 
-  /// @brief Method .ctor, addr 0x65671e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a48ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxValue, addr 0x65670a4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x66a47b0, size 0xc, virtual true, abstract: false, final false
   inline double_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x6567098, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x66a47a4, size 0xc, virtual true, abstract: false, final false
   inline double_t get_MinValue();
 
-  /// @brief Method get_NegativeInfinity, addr 0x65670b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_NegativeInfinity, addr 0x66a47c4, size 0xc, virtual true, abstract: false, final false
   inline double_t get_NegativeInfinity();
 
-  /// @brief Method get_PositiveInfinity, addr 0x65670c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_PositiveInfinity, addr 0x66a47d0, size 0xc, virtual true, abstract: false, final false
   inline double_t get_PositiveInfinity();
 
-  /// @brief Method get_Zero, addr 0x65670b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Zero, addr 0x66a47bc, size 0x8, virtual true, abstract: false, final false
   inline double_t get_Zero();
 
 protected:
@@ -85,7 +85,7 @@ public:
   DoubleMath(DoubleMath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

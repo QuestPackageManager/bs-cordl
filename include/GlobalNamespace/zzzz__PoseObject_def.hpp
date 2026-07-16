@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x57c6d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e60e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method get_id, addr 0x57c8cc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x58e8098, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_objectTransform, addr 0x57c8cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectTransform, addr 0x58e8090, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
 
 protected:
@@ -74,7 +74,7 @@ public:
   PoseObject(PoseObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6550 };
 
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;

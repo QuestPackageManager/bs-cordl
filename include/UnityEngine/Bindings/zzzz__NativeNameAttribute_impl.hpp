@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeNameAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeNameAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5f048;
+  constexpr static std::size_t addrs = 0x6bb2b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeNameAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6a5f050;
+  constexpr static std::size_t addrs = 0x6bb2b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

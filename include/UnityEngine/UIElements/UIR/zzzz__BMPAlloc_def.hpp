@@ -25,13 +25,13 @@ public:
   /// @brief Field Invalid, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Invalid, put = setStaticF_Invalid)) ::UnityEngine::UIElements::UIR::BMPAlloc Invalid;
 
-  /// @brief Method Equals, addr 0x6b98870, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cec728, size 0x38, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UIR::BMPAlloc other);
 
-  /// @brief Method IsValid, addr 0x6b95160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6ce9018, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x6b9ca34, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cf08ec, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_Invalid();

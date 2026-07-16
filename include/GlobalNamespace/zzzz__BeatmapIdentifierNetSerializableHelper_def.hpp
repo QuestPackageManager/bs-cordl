@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapIdentifierNetSerializableHelper)
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
 class BeatmapKeyNetSerializable;
 }
 namespace GlobalNamespace {
@@ -28,11 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapIdentifierNetSerializableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToBeatmapKey, addr 0x365f6e8, size 0x74, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable,
-                                                           ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
+  /// @brief Method ToBeatmapKey, addr 0x371c52c, size 0xbc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
 
-  /// @brief Method ToIdentifier, addr 0x365f788, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToIdentifier, addr 0x371c5f4, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* ToIdentifier(::GlobalNamespace::BeatmapKey beatmapKey);
 
 protected:
@@ -50,7 +46,7 @@ public:
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,10 +47,10 @@ public:
   /// @brief Field prefix, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix)) ::StringW prefix;
 
-  /// @brief Method AddAttribute, addr 0x601007c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x614b178, size 0x104, virtual false, abstract: false, final false
   inline void AddAttribute(::StringW prefix, ::StringW ns, ::StringW name, ::StringW value);
 
-  /// @brief Method GrowAttributesIfNeeded, addr 0x6014f18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GrowAttributesIfNeeded, addr 0x6150014, size 0xb0, virtual false, abstract: false, final false
   inline void GrowAttributesIfNeeded();
 
   static inline ::System::Runtime::Serialization::ElementData* New_ctor();
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6014f10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615000c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   ElementData(ElementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17014 };
 
   /// @brief Field localName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___localName;

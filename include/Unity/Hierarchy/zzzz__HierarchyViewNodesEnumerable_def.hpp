@@ -59,12 +59,12 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE HierarchyViewNodesEnumerable_Predicate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x69e1350, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6b34e2c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   static inline ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x69e12d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b34dac, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -82,7 +82,7 @@ public:
   HierarchyViewNodesEnumerable_Predicate(HierarchyViewNodesEnumerable_Predicate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -99,16 +99,16 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyNode Current;
 
-  /// @brief Method MoveNext, addr 0x69e13f0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6b34ecc, size 0xd4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method ThrowIfVersionChanged, addr 0x69e14c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfVersionChanged, addr 0x6b34fa0, size 0x70, virtual false, abstract: false, final false
   inline void ThrowIfVersionChanged();
 
-  /// @brief Method .ctor, addr 0x69e1288, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b34d64, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyViewNodesEnumerable enumerable);
 
-  /// @brief Method get_Current, addr 0x69e136c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6b34e48, size 0x84, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Current();
 
   // Ctor Parameters []
@@ -124,7 +124,7 @@ public:
                                                     int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21886 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -181,10 +181,10 @@ public:
 
   using Predicate = ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate;
 
-  /// @brief Method GetEnumerator, addr 0x69e124c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6b34d28, size 0x3c, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x69e11c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b34ca0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel, ::Unity::Hierarchy::HierarchyNodeFlags flags, ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* predicate);
 
   // Ctor Parameters []
@@ -198,7 +198,7 @@ public:
                                          ::Unity::Hierarchy::HierarchyNodeFlags m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

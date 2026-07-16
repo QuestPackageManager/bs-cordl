@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)(::System::Action*)>(
     &::GlobalNamespace::DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5874c14;
+  constexpr static std::size_t addrs = 0x327d814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)(::System::Action*)>(
     &::GlobalNamespace::DelayedMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5874cc0;
+  constexpr static std::size_t addrs = 0x327d8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)()>(&::GlobalNamespace::DelayedMenuButtonTrigger::Tick)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5874d6c;
+  constexpr static std::size_t addrs = 0x327d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayedMenuButtonTrigger*>(), { "Tick", {}, {} })));
@@ -50,26 +50,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)()>(&::GlobalNamespace::DelayedMenuButtonTrigger::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5874e98;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x327da98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayedMenuButtonTrigger*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Action*& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___menuButtonTriggeredEvent;
-}
-constexpr ::System::Action* const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___menuButtonTriggeredEvent;
-}
-constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___menuButtonTriggeredEvent = value;
-}
 constexpr float_t& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__pressDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressDuration;
@@ -81,6 +69,30 @@ constexpr float_t const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_inte
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_set__pressDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressDuration = value;
+}
+constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__vrPlatformHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vrPlatformHelper;
+}
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__vrPlatformHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vrPlatformHelper;
+}
+constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____vrPlatformHelper = value;
+}
+constexpr ::System::Action*& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___menuButtonTriggeredEvent;
+}
+constexpr ::System::Action* const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___menuButtonTriggeredEvent;
+}
+constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___menuButtonTriggeredEvent = value;
 }
 constexpr float_t& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__timer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -105,18 +117,6 @@ constexpr bool const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_interna
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_set__waitingForButtonRelease(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____waitingForButtonRelease = value;
-}
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
-}
-constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
-}
-constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____vrPlatformHelper = value;
 }
 inline void GlobalNamespace::DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(

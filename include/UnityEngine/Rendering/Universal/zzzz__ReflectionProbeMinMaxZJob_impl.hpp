@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::Execute)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x677dd1c;
+  constexpr static std::size_t addrs = 0x68bc698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

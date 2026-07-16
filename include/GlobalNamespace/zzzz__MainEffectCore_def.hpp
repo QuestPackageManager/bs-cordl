@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainEffectCore)
+namespace UnityEngine::Rendering {
+class IBaseCommandBuffer;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MainEffectCore;
@@ -30,13 +33,13 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x5e08a60, size 0xc8, virtual false, abstract: false, final false
-  static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
+  /// @brief Method SetGlobalShaderValues, addr 0x5f407d4, size 0x168, virtual false, abstract: false, final false
+  static inline void SetGlobalShaderValues(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method UpdateKeyword, addr 0x5e09510, size 0x5c, virtual false, abstract: false, final false
-  static inline void UpdateKeyword(bool enabled);
+  /// @brief Method UpdateKeyword, addr 0x5f4116c, size 0x12c, virtual false, abstract: false, final false
+  static inline void UpdateKeyword(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, bool enabled);
 
-  /// @brief Method .ctor, addr 0x5e095a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f41298, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();
@@ -62,7 +65,7 @@ public:
   MainEffectCore(MainEffectCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20884 };
 
   /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };

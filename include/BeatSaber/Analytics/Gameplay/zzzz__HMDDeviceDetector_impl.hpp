@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::HMDDeviceDetector::DetectHMDPlatform)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31cf714;
+  constexpr static std::size_t addrs = 0x32634f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::HMDDeviceDetector*>(), { "DetectHMDPlatform", {}, {} })));

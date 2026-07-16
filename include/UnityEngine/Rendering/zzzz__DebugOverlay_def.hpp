@@ -50,13 +50,13 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugOverlay* New_ctor();
 
-  /// @brief Method Next, addr 0x6624b58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Next, addr 0x6762264, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect Next(float_t aspect);
 
-  /// @brief Method SetViewport, addr 0x6624bc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetViewport, addr 0x67622d4, size 0x30, virtual false, abstract: false, final false
   inline void SetViewport(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method StartOverlay, addr 0x6624b48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StartOverlay, addr 0x6762254, size 0x10, virtual false, abstract: false, final false
   inline void StartOverlay(int32_t initialX, int32_t initialY, int32_t overlaySize, int32_t screenWidth);
 
   constexpr int32_t const& __cordl_internal_get__overlaySize_k__BackingField() const;
@@ -89,25 +89,25 @@ public:
 
   constexpr void __cordl_internal_set_m_ScreenWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6624bf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6762304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_overlaySize, addr 0x6624b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overlaySize, addr 0x6762244, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overlaySize();
 
-  /// @brief Method get_x, addr 0x6624b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6762224, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x6624b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6762234, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method set_overlaySize, addr 0x6624b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overlaySize, addr 0x676224c, size 0x8, virtual false, abstract: false, final false
   inline void set_overlaySize(int32_t value);
 
-  /// @brief Method set_x, addr 0x6624b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x676222c, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x6624b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x676223c, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
 protected:
@@ -125,7 +125,7 @@ public:
   DebugOverlay(DebugOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11961 };
 
   /// @brief Field <x>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____x_k__BackingField;

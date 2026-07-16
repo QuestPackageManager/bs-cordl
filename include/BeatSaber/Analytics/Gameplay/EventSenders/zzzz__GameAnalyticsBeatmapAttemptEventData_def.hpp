@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_score(int64_t value);
 
-  /// @brief Method .ctor, addr 0x31d0518, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32642f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData, bool isEndStateQuit, bool isEndStateRestart, bool isClear, int32_t rank,
                     int32_t modifiedScore, int32_t score, bool isFullCombo, int32_t maxCombo, uint32_t duration, int32_t goodCuts, int32_t badCuts, int32_t misses, int32_t bombsHit);
 
@@ -201,7 +201,7 @@ public:
   GameAnalyticsBeatmapAttemptEventData(GameAnalyticsBeatmapAttemptEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22248 };
 
   /// @brief Field duration, offset: 0x10, size: 0x4, def value: None
   uint32_t ___duration;

@@ -5,12 +5,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolManager)
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
 namespace GlobalNamespace {
 class EnvironmentsListModel;
 }
@@ -30,13 +26,10 @@ namespace GlobalNamespace {
 class RecordingToolConfigurationProcessor;
 }
 namespace GlobalNamespace {
-struct RecordingToolManager_SetupData;
-}
-namespace GlobalNamespace {
 class RecordingToolSettings;
 }
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class StandardLevelScenesTransitionSetupData;
 }
 namespace Zenject {
 class DiContainer;
@@ -45,50 +38,9 @@ class DiContainer;
 namespace GlobalNamespace {
 class RecordingToolManager;
 }
-namespace GlobalNamespace {
-struct RecordingToolManager_SetupData;
-}
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RecordingToolManager*);
-MARK_VAL_T(::GlobalNamespace::RecordingToolManager_SetupData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RecordingToolManager*, "", "RecordingToolManager");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::RecordingToolManager_SetupData, "", "RecordingToolManager/SetupData");
-// Dependencies
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: RecordingToolManager/SetupData
-struct CORDL_TYPE RecordingToolManager_SetupData {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolManager_SetupData();
-
-  // Ctor Parameters [CppParam { name: "profileSong", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "runAutopilot", ty: "bool", modifiers: "", def_value: None }]
-  constexpr RecordingToolManager_SetupData(bool profileSong, bool runAutopilot) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
-
-  /// @brief Field profileSong, offset: 0x0, size: 0x1, def value: None
-  bool profileSong;
-
-  /// @brief Field runAutopilot, offset: 0x1, size: 0x1, def value: None
-  bool runAutopilot;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RecordingToolManager_SetupData, profileSong) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::RecordingToolManager_SetupData, runAutopilot) == 0x1, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::RecordingToolManager_SetupData) == 0x2, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -96,8 +48,6 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolManager : public ::System::Object {
 public:
   // Declarations
-  using SetupData = ::GlobalNamespace::RecordingToolManager_SetupData;
-
   /// @brief Field _configurationProcessor, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__configurationProcessor,
                       put = __cordl_internal_set__configurationProcessor)) ::GlobalNamespace::RecordingToolConfigurationProcessor* _configurationProcessor;
@@ -112,7 +62,7 @@ public:
   __declspec(property(get = __cordl_internal_get__environmentsListModel, put = __cordl_internal_set__environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentsListModel;
 
   /// @brief Field _menuTransitionsHelper, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
   /// @brief Field _playerDataModel, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
@@ -131,19 +81,18 @@ public:
 
   __declspec(property(get = get_showRecordingToolScene)) bool showRecordingToolScene;
 
-  static inline ::GlobalNamespace::RecordingToolManager* New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
-                                                                  ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::Zenject::DiContainer* diContainer,
+  static inline ::GlobalNamespace::RecordingToolManager* New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::Zenject::DiContainer* diContainer,
                                                                   ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                                                   ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method Run, addr 0x57dbdf4, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x58fc390, size 0x2e0, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method SetupNextSettings, addr 0x57dc0c8, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method SetupNextSettings, addr 0x58fc670, size 0x360, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingSettings* SetupNextSettings();
 
-  /// @brief Method <Run>b__15_0, addr 0x57dc428, size 0x4, virtual false, abstract: false, final false
-  inline void _Run_b__15_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* StandardLevelScenesTransitionSetupDataSO, ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults);
+  /// @brief Method <Run>b__14_0, addr 0x58fc9d0, size 0x4, virtual false, abstract: false, final false
+  inline void _Run_b__14_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* StandardLevelScenesTransitionSetupData, ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults);
 
   constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor* const& __cordl_internal_get__configurationProcessor() const;
 
@@ -161,9 +110,9 @@ public:
 
   constexpr ::GlobalNamespace::EnvironmentsListModel*& __cordl_internal_get__environmentsListModel();
 
-  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
+  constexpr ::GlobalNamespace::MenuTransitionsHelper* const& __cordl_internal_get__menuTransitionsHelper() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
+  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __cordl_internal_get__menuTransitionsHelper();
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
@@ -193,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__environmentsListModel(::GlobalNamespace::EnvironmentsListModel* value);
 
-  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
+  constexpr void __cordl_internal_set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
@@ -205,12 +154,11 @@ public:
 
   constexpr void __cordl_internal_set_recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x57dbd14, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
-                    ::Zenject::DiContainer* diContainer, ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
-                    ::GlobalNamespace::PlayerDataModel* playerDataModel);
+  /// @brief Method .ctor, addr 0x58fc374, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::Zenject::DiContainer* diContainer, ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper,
+                    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method get_showRecordingToolScene, addr 0x57dbd00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x58fc360, size 0x14, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
 protected:
@@ -228,7 +176,7 @@ public:
   RecordingToolManager(RecordingToolManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6614 };
 
   /// @brief Field kRecordingToolId offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolId{ u"RecordingTool" };
@@ -252,7 +200,7 @@ public:
   ::GlobalNamespace::RecordingToolConfigurationProcessor* ____configurationProcessor;
 
   /// @brief Field _menuTransitionsHelper, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
+  ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
   /// @brief Field _environmentsListModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;

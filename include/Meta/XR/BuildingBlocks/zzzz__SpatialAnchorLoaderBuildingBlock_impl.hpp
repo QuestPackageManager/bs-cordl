@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::Awake)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x58f9f38;
+  constexpr static std::size_t addrs = 0x5a3363c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock*>(), { "Awake", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::*)(::System::Collections::Generic::List_1<::System::Guid>*)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::LoadAndInstantiateAnchors)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58fa0ec;
+  constexpr static std::size_t addrs = 0x5a337f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::LoadAnchorsFromDefaultLocalStorage)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x58fa11c;
+  constexpr static std::size_t addrs = 0x5a33820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58fa528;
+  constexpr static std::size_t addrs = 0x5a33c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock*>(), { ".ctor", {}, {} })));

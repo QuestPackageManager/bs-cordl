@@ -52,10 +52,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63c96b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65062d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_names>b__2_0, addr 0x63c96b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_names>b__2_0, addr 0x65062d8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _get_names_b__2_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable___c* getStaticF___9();
@@ -81,7 +81,7 @@ public:
   TypeTable___c(TypeTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,22 +102,22 @@ public:
 
   __declspec(property(get = get_names)) ::System::Collections::Generic::IEnumerable_1<::StringW>* names;
 
-  /// @brief Method AddTypeRegistration, addr 0x63c9418, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddTypeRegistration, addr 0x6506038, size 0x14c, virtual false, abstract: false, final false
   inline void AddTypeRegistration(::StringW name, ::System::Type* type);
 
-  /// @brief Method FindNameForType, addr 0x63c9240, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method FindNameForType, addr 0x6505e60, size 0x1d8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindNameForType(::System::Type* type);
 
-  /// @brief Method Initialize, addr 0x63c91a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6505dc8, size 0x98, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LookupTypeRegistration, addr 0x63c9564, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LookupTypeRegistration, addr 0x6506184, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Type* LookupTypeRegistration(::StringW name);
 
-  /// @brief Method get_internedNames, addr 0x63c9154, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_internedNames, addr 0x6505d74, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_internedNames();
 
-  /// @brief Method get_names, addr 0x63c901c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_names, addr 0x6505c3c, size 0x138, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_names();
 
   // Ctor Parameters []
@@ -129,7 +129,7 @@ public:
   constexpr TypeTable(::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9178 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

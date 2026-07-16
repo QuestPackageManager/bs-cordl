@@ -34,43 +34,43 @@ namespace UnityEngine {
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeginArea, addr 0x69ee1fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method BeginArea, addr 0x6b41cd8, size 0xc4, virtual false, abstract: false, final false
   static inline void BeginArea(::UnityEngine::Rect screenRect);
 
-  /// @brief Method BeginArea, addr 0x69ee2c0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method BeginArea, addr 0x6b41d9c, size 0x1d0, virtual false, abstract: false, final false
   static inline void BeginArea(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method BeginHorizontal, addr 0x69ed7d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method BeginHorizontal, addr 0x6b412b4, size 0x1a4, virtual false, abstract: false, final false
   static inline void BeginHorizontal(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method BeginHorizontal, addr 0x69ed73c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BeginHorizontal, addr 0x6b41218, size 0x9c, virtual false, abstract: false, final false
   static inline void BeginHorizontal(::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method BeginVertical, addr 0x69edd58, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method BeginVertical, addr 0x6b41834, size 0x1a4, virtual false, abstract: false, final false
   static inline void BeginVertical(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method BeginVertical, addr 0x69edcbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BeginVertical, addr 0x6b41798, size 0x9c, virtual false, abstract: false, final false
   static inline void BeginVertical(::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method DoLabel, addr 0x69ed274, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DoLabel, addr 0x6b40d50, size 0xd4, virtual false, abstract: false, final false
   static inline void DoLabel(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method EndArea, addr 0x69ee798, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method EndArea, addr 0x6b42274, size 0x100, virtual false, abstract: false, final false
   static inline void EndArea();
 
-  /// @brief Method EndVertical, addr 0x69edefc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EndVertical, addr 0x6b419d8, size 0x50, virtual false, abstract: false, final false
   static inline void EndVertical();
 
-  /// @brief Method Height, addr 0x69ec2f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Height, addr 0x6b3fdd4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
-  /// @brief Method Label, addr 0x69ed1c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x6b40ca0, size 0xb0, virtual false, abstract: false, final false
   static inline void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method Space, addr 0x69ed3b8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Space, addr 0x6b40e94, size 0x224, virtual false, abstract: false, final false
   static inline void Space(float_t pixels);
 
-  /// @brief Method Width, addr 0x69ec278, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Width, addr 0x6b3fd54, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
 protected:
@@ -88,7 +88,7 @@ public:
   GUILayout(GUILayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

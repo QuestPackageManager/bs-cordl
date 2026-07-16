@@ -23,13 +23,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE TileLayoutUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryLayoutByCol, addr 0x66864a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryLayoutByCol, addr 0x67c3bb0, size 0x60, virtual false, abstract: false, final false
   static inline bool TryLayoutByCol(::UnityEngine::RectInt src, uint32_t tileSize, ::by_ref<::UnityEngine::RectInt> main, ::by_ref<::UnityEngine::RectInt> other);
 
-  /// @brief Method TryLayoutByRow, addr 0x6686444, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryLayoutByRow, addr 0x67c3b50, size 0x60, virtual false, abstract: false, final false
   static inline bool TryLayoutByRow(::UnityEngine::RectInt src, uint32_t tileSize, ::by_ref<::UnityEngine::RectInt> main, ::by_ref<::UnityEngine::RectInt> other);
 
-  /// @brief Method TryLayoutByTiles, addr 0x66863b8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryLayoutByTiles, addr 0x67c3ac4, size 0x8c, virtual false, abstract: false, final false
   static inline bool TryLayoutByTiles(::UnityEngine::RectInt src, uint32_t tileSize, ::by_ref<::UnityEngine::RectInt> main, ::by_ref<::UnityEngine::RectInt> topRow,
                                       ::by_ref<::UnityEngine::RectInt> rightCol, ::by_ref<::UnityEngine::RectInt> topRight);
 
@@ -48,7 +48,7 @@ public:
   TileLayoutUtils(TileLayoutUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::BindIPEndPoint::*)(::System::Object*, ::System::IntPtr)>(&::System::Net::BindIPEndPoint::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62e6bd4;
+  constexpr static std::size_t addrs = 0x6422c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (::System::Net::BindIPEndPoint::*)(::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, int32_t)>(
     &::System::Net::BindIPEndPoint::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62e6d1c;
+  constexpr static std::size_t addrs = 0x6422db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

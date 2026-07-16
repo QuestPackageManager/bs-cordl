@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerGroup::SetWidget)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x66c0a48;
+  constexpr static std::size_t addrs = 0x67fe154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerGroup::OnSelection)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x66c0b3c;
+  constexpr static std::size_t addrs = 0x67fe248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerGroup::Next)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x66c0bfc;
+  constexpr static std::size_t addrs = 0x67fe308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerGroup::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66c0cb8;
+  constexpr static std::size_t addrs = 0x67fe3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerGroup*>(), { ".ctor", {}, {} })));

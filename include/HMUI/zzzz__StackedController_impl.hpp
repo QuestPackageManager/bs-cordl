@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::StackedController___c__DisplayClass5_0::*)()>(&::HMUI::StackedController___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x323d384;
+  constexpr static std::size_t addrs = 0x32f4d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::StackedController___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::HMUI::StackedController___c__DisplayClass5_0::*)(float_t, ::ArrayW<::HMUI::ViewController*>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*)>(
         &::HMUI::StackedController___c__DisplayClass5_0::_PopViewControllers_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x323d41c;
+  constexpr static std::size_t addrs = 0x32f4e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::StackedController___c__DisplayClass5_0*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::StackedController::*)()>(&::HMUI::StackedController::get_topStackedViewController)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x323cf10;
+  constexpr static std::size_t addrs = 0x32f4918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::StackedController*>(), { "get_topStackedViewController", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::StackedController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::StackedController::LayoutViewControllers)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x323cf94;
+  constexpr static std::size_t addrs = 0x32f499c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::StackedController*>(), { ::i2c::class_of<::HMUI::StackedController*>(), 12 }));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::StackedController::*)(::HMUI::ViewController*, ::System::Action*, bool)>(&::HMUI::StackedController::PushViewController)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x323d0d4;
+  constexpr static std::size_t addrs = 0x32f4adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::StackedController::*)(::System::Action*, bool)>(&::HMUI::StackedController::PopViewController)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x323d17c;
+  constexpr static std::size_t addrs = 0x32f4b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::StackedController::*)(int32_t, ::System::Action*, bool)>(&::HMUI::StackedController::PopViewControllers)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x323d18c;
+  constexpr static std::size_t addrs = 0x32f4b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::HMUI::ViewController*, int32_t)>(&::HMUI::StackedController::SetupViewControllerRect)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x323d088;
+  constexpr static std::size_t addrs = 0x32f4a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::StackedController::*)()>(&::HMUI::StackedController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x323d388;
+  constexpr static std::size_t addrs = 0x32f4d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::StackedController*>(), { ".ctor", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::ArrayW<::HMUI::ViewController*>)>(&::HMUI::StackedController::_PushViewController_g__AnimationLayouter_3_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x323d38c;
+  constexpr static std::size_t addrs = 0x32f4d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

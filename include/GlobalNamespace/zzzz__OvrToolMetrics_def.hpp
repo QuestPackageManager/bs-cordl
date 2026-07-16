@@ -46,21 +46,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CaptureFrame, addr 0x57cf0b0, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x58ee860, size 0x6a0, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x57cf0ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58ee85c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x57cf750, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x58eef00, size 0x1fc, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport();
 
-  /// @brief Method GenerateTableReport, addr 0x57cf8ec, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x58ef0fc, size 0x25c, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport();
 
   static inline ::GlobalNamespace::OvrToolMetrics* New_ctor(::GlobalNamespace::OVRMetricsToolSDK* metricsTool, int32_t initialFrameCapacity);
 
-  /// @brief Method RecordMetrics, addr 0x57ce464, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RecordMetrics, addr 0x58edc14, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OvrToolMetrics* RecordMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get__metrics() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x57ce514, size 0xb98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58edcc4, size 0xb98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRMetricsToolSDK* metricsTool, int32_t initialFrameCapacity);
 
   /// @brief Convert to "::System::IDisposable"
@@ -108,7 +108,7 @@ public:
   OvrToolMetrics(OvrToolMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6576 };
 
   /// @brief Field _metricsTool, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRMetricsToolSDK> ____metricsTool;

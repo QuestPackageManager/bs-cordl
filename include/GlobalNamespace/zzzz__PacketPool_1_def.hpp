@@ -90,7 +90,7 @@ public:
   PacketPool_1(PacketPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18163 };
 
   /// @brief Field kMaxPoolSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPoolSize{ static_cast<int32_t>(0x10) };

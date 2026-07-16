@@ -46,21 +46,21 @@ public:
       get = getStaticF_ReflectionObjectPerType,
       put = setStaticF_ReflectionObjectPerType)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::ReflectionObject*>* ReflectionObjectPerType;
 
-  /// @brief Method CanConvert, addr 0x5c626b4, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5d9a8dc, size 0x114, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method InitializeReflectionObject, addr 0x5c61ccc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method InitializeReflectionObject, addr 0x5d99ef4, size 0x268, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* InitializeReflectionObject(::System::Type* t);
 
   static inline ::Newtonsoft::Json::Converters::KeyValuePairConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5c621cc, size 0x4e8, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d9a3f4, size 0x4e8, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5c61f34, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d9a15c, size 0x298, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5c627c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9a9f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::ReflectionObject*>* getStaticF_ReflectionObjectPerType();
@@ -88,7 +88,7 @@ public:
   static constexpr ::ConstString ValueName{ u"Value" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
